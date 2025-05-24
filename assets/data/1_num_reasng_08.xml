@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0645:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านหาตัวเลขอนุกรมที่ผิด
+&lt;br /&gt;&lt;br /&gt;
+5     
+7    	
+10    
+13     
+19     
+&lt;br /&gt; 
+
+	</question>
+    <choice_A>7</choice_A>
+    <choice_B>10</choice_B>
+    <choice_C>13</choice_C>
+    <choice_D>19</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านหาตัวเลขอนุกรมที่ผิด
+&lt;br /&gt;&lt;br /&gt;
+5     
+7    	
+10    
+13     
+19     
+&lt;br /&gt; &lt;br /&gt; 
+
+1. 7&lt;br /&gt; 
+2. 10&lt;br /&gt; 
+3. 13 ตัวเลขที่ถูกต้องเป็น 14 ✔&lt;br /&gt; 
+4. 19&lt;br /&gt; 
+
+ผลต่างระหว่างตัวเลข คือ +2, +3, +4, +5
+ดังนั้น ตัวเลข13 ที่ถูกต้องเป็น 14
+ 
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0646:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านหาตัวเลขอนุกรมที่ผิด
+0     
+4    	
+3    
+6     
+5     
+8     
+&lt;br /&gt; &lt;br /&gt; 
+
+	</question>
+    <choice_A>0</choice_A>
+    <choice_B>4</choice_B>
+    <choice_C>6</choice_C>
+    <choice_D>5</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านหาตัวเลขอนุกรมที่ผิด
+&lt;br /&gt;&lt;br /&gt;
+0     
+4    	
+3    
+6     
+5     
+8     
+&lt;br /&gt; &lt;br /&gt; 
+
+1. 0 ตัวเลขที่ถูกต้องเป็น 1 ✔&lt;br /&gt; 
+2. 4&lt;br /&gt; 
+3. 6 &lt;br /&gt; 
+4. 5&lt;br /&gt; 
+
+เป็นอนุกรม 2 ชุด คือ&lt;br /&gt;&lt;br /&gt;
+
+ชุดที่ 1: 1, 3, 5&lt;br /&gt;
+ชุดที่ 2: 4, 6, 8&lt;br /&gt;&lt;br /&gt;
+
+
+ดังนั้น ตัวเลข 0 ที่ถูกต้องเป็น 1&lt;br /&gt;
+ 
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+</exams>
+
+

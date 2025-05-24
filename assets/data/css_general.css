@@ -1,0 +1,22 @@
+  .rcorners1 {
+    border-radius: 25px;
+    border: 2px solid #3F51B5;
+    padding: 20px;
+}
+div.for_image{  
+    max-width:500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+ ol,ul {
+      padding: 0;
+      margin-left: 1em;
+ }
+ .big_blue{
+font-weight: bold;
+color: blue; 
+ }
+  .big_red{
+font-weight: bold;
+color: red; 
+ }

@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+
+    <title>Document</title>
+</head>
+<body>
+<div id="whereToBegin" style="display:none">0</div>
+
+<!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <strong>เตรียมสอบ ก.พ.</strong>
+        </div>
+        <div class="modal-body">
+            <p id="myMessage">Place holder for text..</p>
+            <input type="button" value="เริ่มใหม่" onclick="startOver();" />
+            <input style="float: right;" type="button" value="ทำต่อ" onclick="goCont();"/>
+        </div>
+        <div class="modal-footer">
+            https://www.thongjoon.com
+        </div>
+    </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<a name="conver_1"></a>
+
+<div class="upper" id="myPsgeDIV">
+    <div id="top">
+        <strong>Instruction:</strong> Choose the best answer.<br><br>
+
+        <!-- Conversation 3: Friend Inviting Mate to Hua Hin Beach -->
+        <div id="c_lng_Psg3_q_number">
+            <div class="isNew">id1745107202:date1745107200</div>
+            <strong>For questions 1-5</strong><br><br>
+            <b>Two friends chatting in Bangkok, Thailand.</b><br />
+            <div class="conver_container">
+                <div class="conver_item">Nok:&nbsp;</div>
+                <div class="conver_item">Hi, Lek! How about <div class="tooltip">a weekend trip<span class="tooltiptext">a weekend trip = ทริปวันหยุดสุดสัปดาห์</span></div> to Hua Hin beach?</div>
+                <div class="conver_item">Lek:&nbsp;</div>
+                <div class="conver_item">Hi. Hua Hin? <div class="tooltip">Sounds fun<span class="tooltiptext">Sounds fun = ฟังดูสนุก</span></div>, but isn’t it a long drive?</div>
+                <div class="conver_item">Nok:&nbsp;</div>
+                <div class="conver_item">It’s about three hours from Bangkok. We could <div class="tooltip">rent a car<span class="tooltiptext">rent a car = เช่ารถ</span></div> and <div class="tooltip">split the cost<span class="tooltiptext">split the cost = แบ่งค่าใช้จ่าย</span></div>.</div>
+                <div class="conver_item">Lek:&nbsp;</div>
+                <div class="conver_item">Hmm, <div class="tooltip">I’m tempted<span class="tooltiptext">I’m tempted = ฉันอยากไป</span></div>, but I’m worried about the <div class="tooltip">heat<span class="tooltiptext">heat = ความร้อน</span></div>. It’s <div class="tooltip">blazing hot<span class="tooltiptext">blazing hot = ร้อนมาก</span></div> right now.</div>
+                <div class="conver_item">Nok:&nbsp;</div>
+                <div class="conver_item">True, but we can <div class="tooltip">chill<span class="tooltiptext">chill = พักผ่อนสบายๆ</span></div> by the sea, maybe try some <div class="tooltip">kitesurfing<span class="tooltiptext">kitesurfing = การเล่นไคต์เซิร์ฟ</span></div>. They have great seafood there too!</div>
+                <div class="conver_item">Lek:&nbsp;</div>
+                <div class="conver_item">Seafood? Okay, <div class="tooltip">you’re selling me on this<span class="tooltiptext">you’re selling me on this = คุณทำให้ฉันอยากไปแล้ว</span></div>. Where would we stay?</div>
+                <div class="conver_item">Nok:&nbsp;</div>
+                <div class="conver_item">I found a cool <div class="tooltip">beachfront guesthouse<span class="tooltiptext">beachfront guesthouse = เกสต์เฮาส์ริมชายหาด</span></div>, pretty <div class="tooltip">affordable<span class="tooltiptext">affordable = ราคาไม่แพง</span></div>. I can book it <div class="tooltip">if you’re in<span class="tooltiptext">if you’re in = ถ้าคุณตกลง</span></div>.</div>
+                <div class="conver_item">Lek:&nbsp;</div>
+                <div class="conver_item">Alright, <div class="tooltip">count me in<span class="tooltiptext">count me in = นับฉันด้วย</span></div>! Let’s go this Saturday.</div>
+                <div class="conver_item">Nok:&nbsp;</div>
+                <div class="conver_item">Awesome! I’ll plan everything. Meet me at 7 a.m. Saturday.</div>
+                <div class="conver_item">Lek:&nbsp;</div>
+                <div class="conver_item"><div class="tooltip">Deal<span class="tooltiptext">Deal = ตกลง</span></div>. See you then!</div>
+            </div>
+        </div>
+
+        <!-- Conversation 4: Friends Planning a Muay Thai Match and Snack Stop -->
+        <div id="d_lng_Psg4_q_number">
+            <div class="isNew">id1745107203:date1745107200</div><br>
+            <strong>For questions 6-10</strong><br><br>
+            <b>Two friends in Bangkok, Thailand, planning a Muay Thai sparring session.</b><br />
+            <div class="conver_container">
+                <div class="conver_item">Somchai:&nbsp;</div>
+                <div class="conver_item">Hello, Chai! Fancy a Muay Thai <div class="tooltip">sparring session<span class="tooltiptext">sparring session = การฝึกซ้อมมวยไทย</span></div> this afternoon?</div>
+                <div class="conver_item">Chai:&nbsp;</div>
+                <div class="conver_item">Hi. <div class="tooltip">Sounds like a blast!<span class="tooltiptext">Sounds like a blast! = ฟังดูสนุกสุดๆ!</span></div> But, you know, I’m <div class="tooltip">craving<span class="tooltiptext">craving = อยากกิน</span></div> some mango with sticky rice before we start.</div>
+                <div class="conver_item">Somchai:&nbsp;</div>
+                <div class="conver_item">Sticky rice before sparring? Won’t that <div class="tooltip">weigh you down<span class="tooltiptext">weigh you down = ทำให้หนักตัว</span></div> in the <div class="tooltip">ring<span class="tooltiptext">ring = เวทีมวย</span></div>?</div>
+                <div class="conver_item">Chai:&nbsp;</div>
+                <div class="conver_item">Nah, Somchai, it’s just <div class="tooltip">a small portion<span class="tooltiptext">a small portion = ส่วนเล็กๆ</span></div> to keep my <div class="tooltip">energy<span class="tooltiptext">energy = พลังงาน</span></div> up. It’s so hot today, I need <div class="tooltip">a sweet boost<span class="tooltiptext">a sweet boost = การเพิ่มพลังจากของหวาน</span></div>.</div>
+                <div class="conver_item">Somchai:&nbsp;</div>
+                <div class="conver_item">Fair enough, it is <div class="tooltip">scorching<span class="tooltiptext">scorching = ร้อนจัด</span></div>. Where do you want to <div class="tooltip">grab<span class="tooltiptext">grab = หยิบ/ซื้อ</span></div> it?</div>
+                <div class="conver_item">Chai:&nbsp;</div>
+                <div class="conver_item">There’s this <div class="tooltip">stall<span class="tooltiptext">stall = ร้านแผงลอย</span></div>, Sweet Mango Hut, near the gym. It’s quick and cheap.</div>
+                <div class="conver_item">Somchai:&nbsp;</div>
+                <div class="conver_item">Alright, you win. But if you’re <div class="tooltip">sluggish<span class="tooltiptext">sluggish = เฉื่อยชา</span></div> in the ring, I’m not <div class="tooltip">going easy<span class="tooltiptext">going easy = ผ่อนปรน</span></div> on you!</div>
+                <div class="conver_item">Chai:&nbsp;</div>
+                <div class="conver_item">Ha! I’ll still <div class="tooltip">dodge your kicks<span class="tooltiptext">dodge your kicks = หลบการเตะของคุณ</span></div>. Let’s meet at Sweet Mango Hut at 2:30 p.m., then head to the gym.</div>
+                <div class="conver_item">Somchai:&nbsp;</div>
+                <div class="conver_item">Deal. See you there!</div>
+            </div>
+        </div>
+
+        <!-- Conversation 5: Ordering Food at a Restaurant -->
+        <div id="e_lng_Psg5_q_number">
+            <div class="isNew">id1745107204:date1745107200</div><br>
+            <strong>For questions 11-15</strong><br><br>
+            <b>At a riverside restaurant in Ayutthaya, Thailand.</b><br />
+            <div class="conver_container">
+                <div class="conver_item">Waiter:&nbsp;</div>
+                <div class="conver_item">สวัสดีครับ. Welcome to River Lotus. How can I assist you today?</div>
+                <div class="conver_item">Customer:&nbsp;</div>
+                <div class="conver_item">สวัสดีค่ะ. I’d like to <div class="tooltip">order some food<span class="tooltiptext">order some food = สั่งอาหาร</span></div>, please.</div>
+                <div class="conver_item">Waiter:&nbsp;</div>
+                <div class="conver_item">Of course. What would you like to eat?</div>
+                <div class="conver_item">Customer:&nbsp;</div>
+                <div class="conver_item">I’ll take a plate of massaman curry and some fish cakes.</div>
+                <div class="conver_item">Waiter:&nbsp;</div>
+                <div class="conver_item"><div class="tooltip">Nice picks!<span class="tooltiptext">Nice picks! = เลือกได้ดี!</span></div> Anything to drink?</div>
+                <div class="conver_item">Customer:&nbsp;</div>
+                <div class="conver_item">Yes, a roselle juice, please.</div>
+                <div class="conver_item">Waiter:&nbsp;</div>
+                <div class="conver_item">I’m sorry, we’re out of roselle juice today.</div>
+                <div class="conver_item">Customer:&nbsp;</div>
+                <div class="conver_item">Oh, that’s too bad. I’ll have <div class="tooltip">a lemongrass tea<span class="tooltiptext">a lemongrass tea = ชาตะไคร้</span></div> instead, then.</div>
+                <div class="conver_item">Waiter:&nbsp;</div>
+                <div class="conver_item">Got it. I’ll have your order ready soon.</div>
+            </div>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: flex-end;">
+            <img src="images/grok_logo.png" width="16" height="15" alt="Grok Logo">
+            <span style="font-size: small; margin-left: 5px;">Grok ช่วยเขียน ถาม แปล</span>
+        </div>
+    </div>
+</div>
+
+<div class="lower" id="myQstnDIV">
+    <!-- Question 11 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr3_q_number_1"><strong>ข้อ 1.</strong></div>
+        <div class="question_content">What is Nok’s original plan?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q11" type="radio" value="ตัวเลือก ข้อ 1" /> 1. To go hiking in Chiang Mai</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q11" type="radio" value="ตัวเลือก ข้อ 2" /> 2. To visit a temple in Bangkok</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q11" type="radio" value="ตัวเลือก ข้อ 3" /> 3. To take a weekend trip to Hua Hin beach</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q11" type="radio" value="ตัวเลือก ข้อ 4" /> 4. To attend a concert</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn3_ans_1" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn3_ans_1')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr3_q11" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 3. To take a weekend trip to Hua Hin beach<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            Nok suggests, “How about a weekend trip to Hua Hin beach?” as the initial plan.<br><br>
+            1. To go hiking in Chiang Mai<br>
+            ไปเดินป่าในเชียงใหม่<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. To visit a temple in Bangkok<br>
+            เยี่ยมชมวัดในกรุงเทพฯ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            3. To take a weekend trip to Hua Hin beach ✔<br>
+            ไปเที่ยวชายหาดหัวหินในวันหยุดสุดสัปดาห์<br>
+            นกบอกว่า “How about a weekend trip to Hua Hin beach?”<br><br>
+            4. To attend a concert<br>
+            ไปคอนเสิร์ต<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn3_q11', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn3_ans_1', 'yes', '1745107202', 'lng_cnvr3_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr3_1" onclick="show_hide_LngPsg('lgEnCnvr3_q11', 'lngCnvr3_1', 'lng_cnvr3_q_number_1', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 12 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr3_q_number_2"><strong>ข้อ 2.</strong></div>
+        <div class="question_content">What concern does Lek express about the trip?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q12" type="radio" value="ตัวเลือก ข้อ 1" /> 1. The cost of the guesthouse</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q12" type="radio" value="ตัวเลือก ข้อ 2" /> 2. The distance and heat</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q12" type="radio" value="ตัวเลือก ข้อ 3" /> 3. The availability of seafood</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q12" type="radio" value="ตัวเลือก ข้อ 4" /> 4. The safety of kitesurfing</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn3_ans_2" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn3_ans_2')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr3_q12" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. The distance and heat<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            Lek mentions the long drive (“Isn’t it a long drive?”) and later worries about “the heat,” as it’s “blazing hot.”<br><br>
+            1. The cost of the guesthouse<br>
+            ค่าใช้จ่ายของเกสต์เฮาส์<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. The distance and heat ✔<br>
+            ระยะทางและความร้อน<br>
+            เล็กบอกว่า “Isn’t it a long drive?” และ “I’m worried about the heat.”<br><br>
+            3. The availability of seafood<br>
+            ความพร้อมของอาหารทะเล<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. The safety of kitesurfing<br>
+            ความปลอดภัยของการเล่นไคต์เซิร์ฟ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn3_q12', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn3_ans_2', 'yes', '1745107202', 'lng_cnvr3_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr3_2" onclick="show_hide_LngPsg('lgEnCnvr3_q12', 'lngCnvr3_2', 'lng_cnvr3_q_number_2', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 13 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr3_q_number_3"><strong>ข้อ 3.</strong></div>
+        <div class="question_content">How does Nok address Lek’s concern about the heat?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q13" type="radio" value="ตัวเลือก ข้อ 1" /> 1. By suggesting they cancel the trip</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q13" type="radio" value="ตัวเลือก ข้อ 2" /> 2. By mentioning indoor activities</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q13" type="radio" value="ตัวเลือก ข้อ 3" /> 3. By suggesting they chill by the sea and try kitesurfing</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q13" type="radio" value="ตัวเลือก ข้อ 4" /> 4. By offering to drive the whole way</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn3_ans_3" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn3_ans_3')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr3_q13" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 3. By suggesting they chill by the sea and try kitesurfing<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            Nok says, “We can chill by the sea, maybe try some kitesurfing,” to counter Lek’s heat concern.<br><br>
+            1. By suggesting they cancel the trip<br>
+            โดยการแนะนำให้ยกเลิกทริป<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. By mentioning indoor activities<br>
+            โดยการกล่าวถึงกิจกรรมในร่ม<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            3. By suggesting they chill by the sea and try kitesurfing ✔<br>
+            โดยการแนะนำให้พักผ่อนริมทะเลและลองเล่นไคต์เซิร์ฟ<br>
+            นกบอกว่า “We can chill by the sea, maybe try some kitesurfing.”<br><br>
+            4. By offering to drive the whole way<br>
+            โดยการเสนอขับรถทั้งทาง<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn3_q13', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn3_ans_3', 'yes', '1745107202', 'lng_cnvr3_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr3_3" onclick="show_hide_LngPsg('lgEnCnvr3_q13', 'lngCnvr3_3', 'lng_cnvr3_q_number_3', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 14 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr3_q_number_4"><strong>ข้อ 4.</strong></div>
+        <div class="question_content">Where does Nok propose they stay in Hua Hin?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q14" type="radio" value="ตัวเลือก ข้อ 1" /> 1. A luxury hotel</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q14" type="radio" value="ตัวเลือก ข้อ 2" /> 2. A beachfront guesthouse</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q14" type="radio" value="ตัวเลือก ข้อ 3" /> 3. A friend’s house</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q14" type="radio" value="ตัวเลือก ข้อ 4" /> 4. A campsite</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn3_ans_4" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn3_ans_4')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr3_q14" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. A beachfront guesthouse<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            Nok mentions, “I found a cool beachfront guesthouse, pretty affordable.”<br><br>
+            1. A luxury hotel<br>
+            โรงแรมหรู<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. A beachfront guesthouse ✔<br>
+            เกสต์เฮาส์ริมชายหาด<br>
+            นกบอกว่า “I found a cool beachfront guesthouse, pretty affordable.”<br><br>
+            3. A friend’s house<br>
+            บ้านเพื่อน<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. A campsite<br>
+            ที่ตั้งแคมป์<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn3_q14', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn3_ans_4', 'yes', '1745107202', 'lng_cnvr3_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr3_4" onclick="show_hide_LngPsg('lgEnCnvr3_q14', 'lngCnvr3_4', 'lng_cnvr3_q_number_4', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 15 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr3_q_number_5"><strong>ข้อ 5.</strong></div>
+        <div class="question_content">What day do they plan to leave for Hua Hin?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q15" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Friday</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q15" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Saturday</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q15" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Sunday</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn3_q15" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Monday</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn3_ans_5" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn3_ans_5')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr3_q15" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. Saturday<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            Lek agrees to go “this Saturday,” and Nok confirms they’ll meet at 7 a.m. Saturday.<br><br>
+            1. Friday<br>
+            วันศุกร์<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Saturday ✔<br>
+            วันเสาร์<br>
+            เล็กบอกว่า “Let’s go this Saturday,” และนกยืนยันว่าจะเจอกันตอน 7 โมงเช้าวันเสาร์<br><br>
+            3. Sunday<br>
+            วันอาทิตย์<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. Monday<br>
+            วันจันทร์<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn3_q15', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn3_ans_5', 'yes', '1745107202', 'lng_cnvr3_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr3_5" onclick="show_hide_LngPsg('lgEnCnvr3_q15', 'lngCnvr3_5', 'lng_cnvr3_q_number_5', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 16 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr4_q_number_6"><strong>ข้อ 6.</strong></div>
+        <div class="question_content">What was Somchai’s original plan?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q16" type="radio" value="ตัวเลือก ข้อ 1" /> 1. To watch a Muay Thai match</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q16" type="radio" value="ตัวเลือก ข้อ 2" /> 2. To have a Muay Thai sparring session</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q16" type="radio" value="ตัวเลือก ข้อ 3" /> 3. To go to a night market</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q16" type="radio" value="ตัวเลือก ข้อ 4" /> 4. To eat dinner together</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn4_ans_6" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn4_ans_6')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr4_q16" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. To have a Muay Thai sparring session<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            Somchai suggests “a Muay Thai sparring session this afternoon.”<br><br>
+            1. To watch a Muay Thai match<br>
+            去看泰拳比赛<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. To have a Muay Thai sparring session ✔<br>
+            进行泰拳对练<br>
+            สมชายบอกว่า “Fancy a Muay Thai sparring session this afternoon?”<br><br>
+            3. To go to a night market<br>
+            去夜市<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. To eat dinner together<br>
+            一起吃晚餐<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn4_q16', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn4_ans_6', 'yes', '1745107203', 'lng_cnvr4_q_number_6'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr4_6" onclick="show_hide_LngPsg('lgEnCnvr4_q16', 'lngCnvr4_6', 'lng_cnvr4_q_number_6', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 17 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr4_q_number_7"><strong>ข้อ 7.</strong></div>
+        <div class="question_content">Why did Chai suggest stopping for mango with sticky rice?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q17" type="radio" value="ตัวเลือก ข้อ 1" /> 1. He wanted to avoid sparring.</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q17" type="radio" value="ตัวเลือก ข้อ 2" /> 2. He needed energy and a sweet boost due to the heat.</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q17" type="radio" value="ตัวเลือก ข้อ 3" /> 3. He was meeting someone at the stall.</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q17" type="radio" value="ตัวเลือก ข้อ 4" /> 4. He wanted to try a new dessert.</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn4_ans_7" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn4_ans_7')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr4_q17" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. He needed energy and a sweet boost due to the heat.<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            Chai says he wants “a small portion to keep my energy up” because “it’s so hot today.”<br><br>
+            1. He wanted to avoid sparring.<br>
+            เขาต้องการหลีกเลี่ยงการฝึกซ้อม<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. He needed energy and a sweet boost due to the heat. ✔<br>
+            เขาต้องการพลังงานและการเพิ่มพลังจากของหวานเนื่องจากอากาศร้อน<br>
+            ชัยบอกว่า “a small portion to keep my energy up” และ “it’s so hot today.”<br><br>
+            3. He was meeting someone at the stall.<br>
+            เขาจะไปพบใครบางคนที่ร้าน<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. He wanted to try a new dessert.<br>
+            เขาต้องการลองของหวานใหม่<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn4_q17', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn4_ans_7', 'yes', '1745107203', 'lng_cnvr4_q_number_7'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr4_7" onclick="show_hide_LngPsg('lgEnCnvr4_q17', 'lngCnvr4_7', 'lng_cnvr4_q_number_7', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 18 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr4_q_number_8"><strong>ข้อ 8.</strong></div>
+        <div class="question_content">What concern did Somchai express about eating before sparring?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q18" type="radio" value="ตัวเลือก ข้อ 1" /> 1. The stall might be closed.</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q18" type="radio" value="ตัวเลือก ข้อ 2" /> 2. It might make Chai too full to spar effectively.</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q18" type="radio" value="ตัวเลือก ข้อ 3" /> 3. It might delay their session.</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q18" type="radio" value="ตัวเลือก ข้อ 4" /> 4. The dessert might be too expensive.</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn4_ans_8" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn4_ans_8')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr4_q18" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. It might make Chai too full to spar effectively.<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            Somchai asks, “Won’t that weigh you down in the ring?”<br><br>
+            1. The stall might be closed.<br>
+            ร้านอาจจะปิด<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. It might make Chai too full to spar effectively. ✔<br>
+            อาจทำให้ชัยอิ่มเกินไปจนฝึกซ้อมได้ไม่ดี<br>
+            สมชายถามว่า “Won’t that weigh you down in the ring?”<br><br>
+            3. It might delay their session.<br>
+            อาจทำให้เซสชันของพวกเขาล่าช้า<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. The dessert might be too expensive.<br>
+            ของหวานอาจจะแพงเกินไป<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn4_q18', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn4_ans_8', 'yes', '1745107203', 'lng_cnvr4_q_number_8'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr4_8" onclick="show_hide_LngPsg('lgEnCnvr4_q18', 'lngCnvr4_8', 'lng_cnvr4_q_number_8', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 19 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr4_q_number_9"><strong>ข้อ 9.</strong></div>
+        <div class="question_content">What is the name of the stall they decided to visit?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q19" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Sticky Rice Corner</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q19" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Sweet Mango Hut</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q19" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Tropical Treats</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q19" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Mango Delight</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn4_ans_9" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn4_ans_9')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr4_q19" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. Sweet Mango Hut<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            Chai mentions “Sweet Mango Hut, near the gym.”<br><br>
+            1. Sticky Rice Corner<br>
+            มุมข้าวเหนียว<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Sweet Mango Hut ✔<br>
+            กระท่อมมะม่วงหวาน<br>
+            ชัยบอกว่า “There’s this stall, Sweet Mango Hut, near the gym.”<br><br>
+            3. Tropical Treats<br>
+            ของอร่อยเขตร้อน<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. Mango Delight<br>
+            ความสุขมะม่วง<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn4_q19', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn4_ans_9', 'yes', '1745107203', 'lng_cnvr4_q_number_9'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr4_9" onclick="show_hide_LngPsg('lgEnCnvr4_q19', 'lngCnvr4_9', 'lng_cnvr4_q_number_9', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 20 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr4_q_number_20"><strong>ข้อ 10.</strong></div>
+        <div class="question_content">Which of the following best describes Somchai’s attitude at the end?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q20" type="radio" value="ตัวเลือก ข้อ 1" /> 1. He refuses to get the dessert.</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q20" type="radio" value="ตัวเลือก ข้อ 2" /> 2. He agrees but warns Chai about performance.</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q20" type="radio" value="ตัวเลือก ข้อ 3" /> 3. He cancels the sparring session.</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn4_q20" type="radio" value="ตัวเลือก ข้อ 4" /> 4. He is upset with Chai.</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn4_ans_10" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn4_ans_10')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr4_q20" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. He agrees but warns Chai about performance.<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            Somchai says, “Alright, you win,” but adds, “If you’re sluggish in the ring, I’m not going easy on you!”<br><br>
+            1. He refuses to get the dessert.<br>
+            เขาปฏิเสธที่จะซื้อของหวาน<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. He agrees but warns Chai about performance. ✔<br>
+            เขาตกลงแต่เตือนชัยเกี่ยวกับประสิทธิภาพ<br>
+            สมชายบอกว่า “Alright, you win,” แต่เพิ่มว่า “If you’re sluggish in the ring, I’m not going easy on you!”<br><br>
+            3. He cancels the sparring session.<br>
+            เขายกเลิกเซสชันฝึกซ้อม<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. He is upset with Chai.<br>
+            เขาไม่พอใจกับชัย<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn4_q20', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn4_ans_10', 'yes', '1745107203', 'lng_cnvr4_q_number_10'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr4_10" onclick="show_hide_LngPsg('lgEnCnvr4_q20', 'lngCnvr4_10', 'lng_cnvr4_q_number_10', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 21 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr5_q_number_11"><strong>ข้อ 11.</strong></div>
+        <div class="question_content">What main dish did the customer order?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q21" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Massaman curry</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q21" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Pad See Ew</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q21" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Green curry</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q21" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Tom Kha Gai</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn5_ans_11" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn5_ans_11')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr5_q21" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 1. Massaman curry<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The customer orders “a plate of massaman curry.”<br><br>
+            1. Massaman curry ✔<br>
+            แกงมัสมั่น<br>
+            ลูกค้าสั่ง “a plate of massaman curry.”<br><br>
+            2. Pad See Ew<br>
+            ผัดซีอิ๊ว<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            3. Green curry<br>
+            แกงเขียวหวาน<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. Tom Kha Gai<br>
+            ต้มข่าไก่<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn5_q21', 'ตัวเลือก ข้อ 1', 'lngEnCnvrstn5_ans_11', 'no', '1745107204', 'lng_cnvr5_q_number_11'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr5_11" onclick="show_hide_LngPsg('lgEnCnvr5_q21', 'lngCnvr5_11', 'lng_cnvr5_q_number_11', 'no'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 22 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr5_q_number_12"><strong>ข้อ 12.</strong></div>
+        <div class="question_content">What appetizer did the customer order?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q22" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Spring rolls</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q22" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Fish cakes</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q22" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Papaya salad</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q22" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Chicken satay</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn5_ans_12" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn5_ans_12')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr5_q22" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. Fish cakes<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The customer orders “some fish cakes.”<br><br>
+            1. Spring rolls<br>
+            ปอเปี๊ยะทอด<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Fish cakes ✔<br>
+            ทอดมันปลา<br>
+            ลูกค้าสั่ง “some fish cakes.”<br><br>
+            3. Papaya salad<br>
+            ส้มตำ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. Chicken satay<br>
+            ไก่สะเต๊ะ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn5_q22', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn5_ans_12', 'no', '1745107204', 'lng_cnvr5_q_number_12'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr5_12" onclick="show_hide_LngPsg('lgEnCnvr5_q22', 'lngCnvr5_12', 'lng_cnvr5_q_number_12', 'no'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 23 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr5_q_number_13"><strong>ข้อ 13.</strong></div>
+        <div class="question_content">What drink did the customer initially request?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q23" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Thai iced tea</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q23" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Coconut water</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q23" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Roselle juice</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q23" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Iced coffee</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn5_ans_13" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn5_ans_13')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr5_q23" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 3. Roselle juice<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The customer asks for “a roselle juice.”<br><br>
+            1. Thai iced tea<br>
+            ชาเย็นไทย<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Coconut water<br>
+            น้ำมะพร้าว<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            3. Roselle juice ✔<br>
+            น้ำกระเจี๊ยบ<br>
+            ลูกค้าขอ “a roselle juice.”<br><br>
+            4. Iced coffee<br>
+            กาแฟเย็น<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn5_q23', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn5_ans_13', 'no', '1745107204', 'lng_cnvr5_q_number_13'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr5_13" onclick="show_hide_LngPsg('lgEnCnvr5_q23', 'lngCnvr5_13', 'lng_cnvr5_q_number_13', 'no'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 24 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr5_q_number_14"><strong>ข้อ 14.</strong></div>
+        <div class="question_content">What drink did the customer order after the first choice was unavailable?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q24" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Lemongrass tea</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q24" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Orange juice</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q24" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Mango smoothie</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q24" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Water</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn5_ans_14" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn5_ans_14')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr5_q24" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 1. Lemongrass tea<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            After roselle juice is unavailable, the customer chooses “a lemongrass tea.”<br><br>
+            1. Lemongrass tea ✔<br>
+            ชาตะไคร้<br>
+            ลูกค้าเลือก “a lemongrass tea” หลังจากน้ำกระเจี๊ยบไม่มี<br><br>
+            2. Orange juice<br>
+            น้ำส้ม<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            3. Mango smoothie<br>
+            สมูทตี้มะม่วง<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. Water<br>
+            น้ำเปล่า<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn5_q24', 'ตัวเลือก ข้อ 1', 'lngEnCnvrstn5_ans_14', 'no', '1745107204', 'lng_cnvr5_q_number_14'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr5_14" onclick="show_hide_LngPsg('lgEnCnvr5_q24', 'lngCnvr5_14', 'lng_cnvr5_q_number_14', 'no'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 25 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr5_q_number_15"><strong>ข้อ 15.</strong></div>
+        <div class="question_content">Where is the restaurant located?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q25" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Bangkok</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q25" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Ayutthaya</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q25" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Krabi</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn5_q25" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Chiang Rai</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn5_ans_15" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn5_ans_15')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr5_q25" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. Ayutthaya<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The restaurant is named “River Lotus” and set in Ayutthaya, as specified in the context.<br><br>
+            1. Bangkok<br>
+            กรุงเทพฯ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Ayutthaya ✔<br>
+            อยุธยา<br>
+            ร้านอาหารชื่อ “River Lotus” และตั้งอยู่ในอยุธยา ตามที่ระบุในบริบท<br><br>
+            3. Krabi<br>
+            กระบี่<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. Chiang Rai<br>
+            เชียงราย<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn5_q25', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn5_ans_15', 'no', '1745107204', 'lng_cnvr5_q_number_15'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr5_15" onclick="show_hide_LngPsg('lgEnCnvr5_q25', 'lngCnvr5_15', 'lng_cnvr5_q_number_15', 'no'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+</div>
+<script src="long_psge_check_feedback.js"></script>
+</body>
+</html>

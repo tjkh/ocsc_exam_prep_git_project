@@ -1,0 +1,2401 @@
+<!doctype html>
+<html lang="th">
+ <head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam_3_hrs.css">
+   <link rel="stylesheet" type="text/css" href="my_style.css">
+
+<style>
+
+ /* 
+body {  ต้องเอาออก ตอนเอาขึ้น    
+font-size: 16px;
+}
+*/
+
+
+table tr td.painted {      /* this works */
+/*  background: #eee;  */
+  background: #E0ECF8;
+  border-style: hidden;
+  vertical-align: top;
+  font-size: 28px;
+}
+
+</style>
+
+
+ </head>
+ <body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+			<!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+            <button id = "start" onclick="countDown(3,00,00)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+             <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+              <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+
+        </div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 3 ชั่วโมง
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">x</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+  <br>
+
+  <div id="showNotAvailable_notBuyVersion">
+      มีเฉลยในรุ่นเต็ม นะครับ<br>
+      <small>ซื้อรุ่นเต็ม เพียง 199.- เท่านั้น</small>
+  </div>
+
+
+
+  <div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <!-- display: none ไว้ก่อน ถ้ายังไม่ซื้อค่อยแสดง ดีกว่าแสดงก่อนแล้วลบ -->
+    <br><br>
+    <strong>เฉลยคำตอบ ข้อสอบชุดเต็ม ชุดที่ 1</strong><br>
+    การเฉลยในชุดนี้ จะเป็นการอธิบายอย่างสั้น พอเข้าใจ ถ้าท่านอ่านแล้วยังสงสัย ให้กลับไปศึกษาในเมนูที่เกี่ยวข้อง หรือ ฝึกประสบการณ์ในเรื่องนั้น ๆ จากในหน้าเมนู ให้มากขึ้น<br><br>
+    <div style="text-align: center;">
+        <u><strong>ความสามารถในการคิดวิเคราะห์เชิงภาษา</strong></u> <br>(เกณฑ์ผ่าน 60% สำหรับ ป.ตรี หรือ 65% สำหรับ ป.โท )</div>
+    <br>
+    <u><strong>การเรียงประโยค</strong></u><br>
+    <!-- ============ GENERAL ==========  -->
+    <div id="quiz_general">
+
+        <!-- 36-40 เรียงประโยค  -->
+        <br><br>
+        <strong>คำสั่ง: </strong>ข้อ 1-5 จงพิจารณาข้อความในตัวเลือก 1. ถึง 4. แล้วจัดเรียงลําดับให้ถูกต้อง<br>
+        <div class="quiz">
+            <br>ข้อ 1. ข้อความใดอยู่ลำดับที่ 3
+            <ol>
+                <li> จากประชาชน ผู้เป็นเจ้าของอำนาจอธิปไตยโดยตรง  <br>
+                <li> ที่ผู้นำประเทศได้รับอำนาจและความชอบธรรมในการบริหารประเทศ <br>
+                <li> ประชาธิปไตย เป็นรูปแบบการปกครองตามอุดมการณ์สากล  <br>
+                <li> บนพื้นฐานของสิทธิเสรีภาพ ความเสมอภาค และการเคารพศักดิ์ศรีแห่งความเป็นมนุษย์ </ol>
+            <br>
+        </div>
+
+        <label><input type="radio" name="q1" value="1">ข้อความที่ 1 <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q1" value="0">ข้อความที่ 2</label><br>
+        <label><input type="radio" name="q1" value="0">ข้อความที่ 3</label><br>
+        <label><input type="radio" name="q1" value="0">ข้อความที่ 4</label>
+        <hr>
+        <u>เฉลย</u><br>
+        เรียงข้อความได้ดังนี้:   3-2-1-4
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 2. ข้อความใดอยู่ลำดับที่ 4
+            <ol>
+                <li> อาจจะช่วยให้ปัญหาการจราจรในกรุงเทพ ฯ บรรเทาลง 
+                <li> เพื่อเชื่อมโยงโลจิสติกส์และการพัฒนาระบบการขนส่งสาธารณะมีความก้าวหน้ามากขึ้น 
+                <li> ปัญหาการจราจรติดขัดคงไม่สามารถแก้ไขให้หมดไปได้ในระยะเวลาอันสั้น 
+                <li> แต่มองไปในระยะข้างหน้า หากแผนการลงทุนโครงสร้างพื้นฐานของภาครัฐ 
+            </ol>
+        </div>
+
+        <label><input type="radio" name="q2" value="1">ข้อความที่ 1 <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q2" value="0">ข้อความที่ 2 </label><br>
+        <label><input type="radio" name="q2" value="0">ข้อความที่ 3 </label><br>
+        <label><input type="radio" name="q2" value="0">ข้อความที่ 4 </label>
+        <hr>
+        <u>เฉลย</u><br>
+        เรียงข้อความได้ดังนี้: 3 – 4 – 2 - 1
+        <hr>
+
+
+        <div class="quiz">
+            <br>ข้อ 3. ข้อความใดอยู่ลําดับที่ 2
+            <ol>
+                <li> เพื่อให้ประเทศหลุดพ้นจากกับดักการพัฒนาทั้งในเชิงเศรษกิจและสังคม 
+                <li> ในการส่งเสริมการพัฒนาและการใช้นวัตกรรมเทคโนโลยีดิจิทัล
+                <li> โดยมีแนวนโยบายด้านดิจิทัลของรัฐบาลที่ชัดเจน 
+                <li> ประเทศไทยได้เริ่มพัฒนาอย่างจริงจังเข้าสู่ระบบเศรษฐกิจดิจิทัล 
+            </ol>
+        </div>
+
+         <label><input type="radio" name="q3" value="0">ข้อความที่ 1</label><br>
+        <label><input type="radio" name="q3" value="0">ข้อความที่ 2 </label><br>
+        <label><input type="radio" name="q3" value="1">ข้อความที่ 3  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q3" value="0">ข้อความที่ 4 </label>
+        <hr>
+        <u>เฉลย</u><br>
+        เรียงข้อความได้ดังนี้: 4 – 3 – 2 – 1
+        <hr>
+
+
+        <div class="quiz">
+            <br>ข้อ 4. ข้อความใดอยู่ลำดับที่ 3
+            <ol>
+                <li> ตรงกับช่วงหลังฤดูกาลเก็บเกี่ยวพืชพันธุ์ธัญญาหาร
+                <li> สมัยก่อนถือวันสงกรานต์เป็นวันขึ้นปีใหม่ไทย
+                <li> และเปิดโอกาสให้หนุ่มสาวได้พบกันและเล่นสาดน้ำกัน เพื่อคลายความร้อนในเดือนเมษายน 
+                <li> คนสมัยโบราณจึงคิดทำกิจกรรมเพื่อเป็นการพักผ่อนหลังจากทำงาน 
+            </ol>
+        </div>
+
+        <label><input type="radio" name="q4" value="0">ข้อความที่ 1 </label><br>
+        <label><input type="radio" name="q4" value="0">ข้อความที่ 2 </label><br>
+        <label><input type="radio" name="q4" value="0">ข้อความที่ 3 </label><br>
+        <label><input type="radio" name="q4" value="1">ข้อความที่ 4 <span class="checkMark">&#x2713;</span></label>
+        <hr>
+        <u>เฉลย</u><br>
+        เรียงข้อความได้ดังนี้: 2 – 1 – 4 – 3
+        <hr>
+
+
+        <div class="quiz">
+            <br>ข้อ 5. ข้อความใดอยู่ลําดับที่ 1
+            <ol>
+                <li> ที่รับเอาความทันสมัยของระบบการผลิต การตลาด การค้า การบริโภคเทคโนโลยีการสื่อสาร 
+                <li> ส่งผลให้การใช้ชีวิตในสังคมชนบทไทยสมัยใหม่มีลักษณะที่คล้ายคลึงกับสังคมเมือง 
+                <li> สังคมชนบทไทยได้เข้าสู่กระบวนการเปลี่ยนผ่านสู่สังคมชนบทยุคใหม่ 
+                <li> แนวคิดการพัฒนาและนโยบายจากภาครัฐเข้ามาเป็นส่วนหนึ่งในการดำเนินชีวิต 
+            </ol>
+        </div>
+
+        <label><input type="radio" name="q5" value="0">ข้อความที่ 1 </label><br>
+        <label><input type="radio" name="q5" value="0">ข้อความที่ 2 </label><br>
+        <label><input type="radio" name="q5" value="1">ข้อความที่ 3  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q5" value="0">ข้อความที่ 4 </label>
+        <hr>
+        <u>เฉลย</u><br>
+        เรียงข้อความได้ดังนี้: 3 – 2 – 1 – 4
+        <hr>
+        <br><br>
+
+        <u><strong>ความเข้าใจภาษา</strong></u><br><br>
+        <!-- 41-50 ความเข้าใจภาษา  -->
+        <strong>คำสั่ง:</strong> ข้อ 6 - 15 อ่านข้อความแล้วตอบคำถาม<br><br>
+
+        <div class="quiz">
+            <br>ข้อ 6. <br>
+            การวิเคราะห์สารหรือการจับใจความ เป็นกระบวนการอ่านที่ต่อเนื่องจากการวิเคราะห์สาร ผู้อ่านต้องตีความว่าผู้เขียนมีเจตนาอย่างไรในการเสนอเรื่องราว ผู้เขียนมีความคิดเห็นอย่างไร หรือความรู้สึกอย่างไร ตลอดจนผู้เขียนต้องการสื่อสารอะไรกับผู้อ่านซึ่งสิ่งเหล่านี้ไม่ได้ปรากฏอย่างชัดเจนในเนื้อหา การอ่านจับใจความจึงเป็นการทำความเข้าใจ หรือหาความหมายที่แท้จริงของข้อความเพื่อค้นหาจุดประสงค์หรือสาระสำคัญที่ผู้เขียนต้องการสื่อถึงผู้อ่าน<br><br>
+            ใจความสำคัญของบทความนี้ คือข้อใด
+        </div>
+
+        <label><input type="radio" name="q6" value="1">การอ่านจับใจความเป็นการทำความเข้าใจ ความหมายที่แท้จริงของข้อความที่อ่าน  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q6" value="0">การจับใจความ เป็นกระบวนการอ่านที่ต่อเนื่องจากการวิเคราะห์สาร</label><br>
+        <label><input type="radio" name="q6" value="0">ผู้เขียนต้องการสื่อสารอะไรกับผู้อ่าน มักจะปรากฏอย่างชัดเจนในเนื้อหา</label><br>
+        <label><input type="radio" name="q6" value="0">การวิเคราะห์สาร เป็นกระบวนการอ่านที่ต่อเนื่องจากการจับใจความ</label>
+        <hr>
+        <u>เฉลย:</u> ตอบ 1  <br>
+        ประโยคสุดท้าย เป็นการสรุปใจความสำคัญ สังเกตที่มีคำว่า "จึง"
+        <hr>
+
+
+        <div class="quiz">
+            <br>ข้อ 7. <br>
+            ความมหัศจรรย์ของธรรมชาตินั้นยังมีอยู่มากที่เรายังค้นหาไม่พบ พืชแปลก ๆ ที่มีรูปทรงแตกต่างไปจากพืชที่เราพบเห็นกันทั่วไปมีอยู่เป็นจำนวนมาก สัตว์อีกหลายชนิดที่ยังซุกซ่อนตัวอยู่ในซอกหลืบที่มนุษย์ยังเข้าไปไม่ถึง ยังมีสิ่งมีชีวิตอีกนานาชนิดที่นักวิทยาศาสตร์ยังไม่ได้จำแนกหรือตั้งชื่อในทางวิทยาศาสตร์ และมีจำนวนไม่น้อยที่สูญพันธุ์ไปก่อนการค้นพบ<br><br>
+
+            สาระสำคัญของบทความข้างต้นคือข้อใด</div>
+
+        <label><input type="radio" name="q7" value="0">พืชแปลก ๆ ที่มีรูปทรงแตกต่างไปจากพืชที่เราพบเห็นกันทั่วไปมีอยู่เป็นจำนวนมาก</label><br>
+        <label><input type="radio" name="q7" value="1">มีสิ่งมีชีวิตอีกนานาชนิด ที่นักวิทยาศาสตร์ยังไม่ได้จำแนกหรือตั้งชื่อในทางวิทยาศาสตร์</label><br>
+        <label><input type="radio" name="q7" value="1">ความมหัศจรรย์ของธรรมชาตินั้นยังมีอยู่มากที่เรายังค้นหาไม่พบ <span class="checkMark">&#x2713;</span> </label><br>
+        <label><input type="radio" name="q7" value="0">สัตว์อีกหลายชนิดที่ยังซุกซ่อนตัวอยู่ในซอกหลืบที่มนุษย์ยังเข้าไปไม่ถึง</label>
+        <hr>
+        <u>เฉลย:</u> ตอบ 3  <br>
+        ประโยคแรกเป็นใจความสำคัญ ประโยคที่ตามมาเป็นส่วนขยายว่า ธรรมชาติที่ยังหาไม่พบ มีจำนวนมาก เช่น อะไรบ้าง
+        <hr>
+
+
+        <div class="quiz">
+            <br>ข้อ 8. <br>
+            ขณะนี้โลกกำลังประสบความตึงเครียดและความแตกสลาย เพราะการพัฒนาทางวัตถุที่ทอดทิ้งการพัฒนาทางจิตวิญญาณ สังคมไทยมีจุดแข็งที่ซ่อนเร้นอยู่ คือ จุดแข็งทางวัฒนธรรมและจิตวิญญาณ จริงอยู่ประเทศไทยต้องสร้างความเข้มแข็งทางวิทยาศาสตร์และเทคโนโลยี แต่เป็นการสร้างความเข้มแข็งที่ตามเขา ความเข้มแข็งที่เราอาจจะนำเขาได้ คือ ความเข้มแข็งทางวัฒนธรรมและจิตวิญญาณ <br><br>
+
+            ข้อใด คือใจความสำคัญของเรื่องนี้<br>
+        </div>
+
+        <label><input type="radio" name="q8" value="0">ความตึงเครียดและความแตกสลาย ของสังคมโลก เกิดจาก การพัฒนาทางวัตถุที่ทอดทิ้งการพัฒนาทางจิตวิญญาณ</label><br>
+        <label><input type="radio" name="q8" value="1">สังคมไทยมีจุดแข็งทางวัฒนธรรมและจิตวิญญาณที่อาจนำสังคมอื่นได้ <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q8" value="0">จุดแข็งทางวัฒนธรรมและจิตวิญญาณ เป็นจุดแข็งที่ซ่อนเร้นอยู่ในสังคมไทย </label><br>
+        <label><input type="radio" name="q8" value="0">ประเทศไทยต้องสร้างความเข้มแข็งทางวิทยาศาสตร์และเทคโนโลยี </label>
+        <hr>
+        <u>เฉลย:</u> ตอบ 2  <br>
+ใจความสำคัญ อยู่กระจายทั้งบทอ่าน สรุปได้ตามข้อ 2
+
+        <hr>
+
+
+        <div class="quiz">
+            <br>ข้อ 9. <br>
+            คนไม่อ่านหนังสือ คือ คนถอยหลังอยู่ในสังคม เพราะทุกวันนี้โลกเจริญขึ้นอย่างไม่หยุดหย่อนมีเหตุการณ์ใหม่ๆ ปรากฎสืบเนื่องกันอย่างไม่ขาดสาย ทุกคนที่หวังความก้าวหน้า จึงต้องตามเรื่องเหล่านี้ด้วยการอ่านอย่างมิหยุดยั้ง มิฉะนั้นเขาจะได้นามว่า เป็นผู้ถอยหลัง<br><br>
+
+            ข้อใด สรุปสาระสำคัญของบทความนี้ ได้ถูกต้อง</div>
+        <label><input type="radio" name="q9" value="0">ทุกวันนี้โลกเจริญขึ้นอย่างไม่หยุดหย่อน</label><br>
+        <label><input type="radio" name="q9" value="1">คนไม่อ่านหนังสือ คือ คนถอยหลังอยู่ในสังคม  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q9" value="0">ทุกวันนี้โลกมีเหตุการณ์ใหม่ ๆ ปรากฎสืบเนื่องกันอย่างไม่ขาดสาย</label><br>
+        <label><input type="radio" name="q9" value="0">คนที่หวังความก้าวหน้า ต้องอ่านอย่างมิหยุดยั้ง</label>
+        <hr>
+        <u>เฉลย:</u> ตอบ 2  <br>
+        ใจความสำคัญ อยู่ที่ประโยคแรก สังเกตมีคำเชื่อมหน้าข้อความขยาย คำว่า เพราะ  ส่วนที่เหลือเป็นข้อความขยายว่า เพราะอะไร จึงเป็นเช่นนั้น
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 10. <br>
+            ยังมีนักเรียนธรรมของเราเป็นจำนวนมาก ซึ่งไม่เข้าใจความหมายของคำว่า "ทาน" ดี จึงทำให้คิดเขวไปว่า ทานกับบุญเป็นคนละอย่างกัน ความเข้าใจอันนี้ทำให้เราพูดติดปากกันว่า "ไปทำบุญแล้วให้ทาน" ดูประหนึ่งว่าทำบุญกับให้ทานไม่ได้เป็นของคู่กัน หรือแยกออกจากกัน ความจริง บุญหรือทานก็เป็นอันเดียวกัน ทานเป็นวิธีการทำบุญอย่างหนึ่งนั่นเอง<br><br>
+
+            ข้อใดสรุปได้ถูกต้อง</div>
+        <label><input type="radio" name="q10" value="0">บุญกับทาน มีความหมายต่างกัน</label><br>
+        <label><input type="radio" name="q10" value="0">บุญกับทานนั้น เป็นคนละอย่างกัน </label><br>
+        <label><input type="radio" name="q10" value="1">บุญหรือทานเป็นอันเดียวกัน  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q10" value="0">คนมักจะพูดติดปากกันว่า "ไปทำบุญแล้วให้ทาน"</label>
+        <hr>
+        <u>เฉลย:</u> ตอบ 3  <br>
+		ประโยคใจความสำคัญคือ "ความจริง บุญหรือทานก็เป็นอันเดียวกัน" <br>
+        <hr>
+
+        <div class="quiz">
+		<!--  https://www.kroobannok.com/news_file/p81594331939.pdf  -->
+            <br>ข้อ 11. <br>
+            ขึ้นขื่อว่า“เกลือ” ย่อมมีประโยชน์มากกว่าความเค็มในการทําสปา เกลือมี บทบาทในการขัดผิวและแช่ตัว การขัดผิวด้วยเกลือจะช่วยขัดคราบไคล และช่วยให้ผิวมีความชุ่มชื้นมากขึ้น และยังกระตุ้นเซลล์ผิวที่ตายแล้ว และถ้าได้นอนแช่น้ำเกลือก็จะยิ่งผ่อนคลายจากความเมื่อยล้าได้เป็นอย่างดี<br><br>
+
+            ข้อใดคือสาระสำคัญของบทความนี้</div>
+
+        <label><input type="radio" name="q11" value="0">เกลือสำหรับการทำสปา</label><br>
+        <label><input type="radio" name="q11" value="0">การขัดผิดด้วยเกลือ</label><br>
+        <label><input type="radio" name="q11" value="0">เกลือช่วยผ่อนคลายความเมื่อยล้า</label><br>
+        <label><input type="radio" name="q11" value="1">ประโยชน์ของเกลือ<span class="checkMark">&#x2713;</span></label>
+        <hr>
+        <u>เฉลย:</u> ตอบ 4  <br>
+        ใจความสำคัญอยู่ที่ประโยคแรก ประโยคที่ตามมา เป็นการขยายความเกี่ยวกับประโยชน์ของเกลือ
+        <hr>
+
+
+
+				<!--  https://www.kroobannok.com/news_file/p81594331939.pdf  -->
+            
+        <strong>สำหรับ ข้อ 12-13</strong><br>
+       <div class="qstn-div">
+			&emsp;ในร่างกายมนุษย์ ส่วนที่แข็งที่สุด คือฟัน โดยเฉพาะส่วนที่เป็นเคลือบฟัน จะแข็งที่สุด เพราะมีแคลเซียมเป็นส่วนประกอบสำคัญ แต่ถึงจะแข็งอย่างไร ฟันก็ผุได้เมื่อถูกกรดทำลาย หากฟันได้รับฟลูออไรด์ จะทำให้แคลเซียม ที่เป็นส่วนประกอบสำคัญของฟันมีฟลูออไรด์อยู่ด้วย ทำให้ฟันมีคุณสมบัติที่แกร่งกว่าฟันที่มีสารประกอบแคลเซียมธรรมดา ทำให้ทนต่อการกัดของกรด จึงผุยากขึ้น นอกจากนั้นฟลูออไรด์ยังช่วยยับยั้ง การทำงานของเอนไซม์ในแผ่นคราบจุลินทรีย์ ซึ่งจะมีผลทำให้เกิดกรดน้อยลง และโอกาสที่จะเกิดการกัดกร่อนจากกรดจึงน้อยลงด้วย<br><br>
+</div>  <!--  end of <div class="qstn-div   บทอ่าน   -->
+<br>
+        <div class="qstn-div">
+		        <div class="quiz">
+		<br>ข้อ 12. <br>
+            ข้อใด ไม่ใช่ ข้อดีของฟลูออไรด์ 
+        </div>
+
+        <label><input type="radio" name="q12" value="0">ช่วยให้ฟันแข็งขึ้น</label><br>
+        <label><input type="radio" name="q12" value="0">ช่วยลดการกัดกร่อนของกรด </label><br>
+        <label><input type="radio" name="q12" value="0">ช่วยยับยั้ง การทำงานของเอนไซม์ในแผ่นคราบจุลินทรีย์ </label><br>
+        <label><input type="radio" name="q12" value="1">ช่วยทำให้ฟันแข็งแรง สวยงาม <span class="checkMark">&#x2713;</span></label>
+        <hr>
+        <u>เฉลย:</u> ตอบ 4  <br>
+        บทความไม่ได้พูดถึง ความสวยงามของฟัน
+        <hr>
+
+            <div class="quiz">
+                <br>ข้อ 13. <br>
+        สาระสําคัญของบทความนี้ ตรงกับข้อใด </div>
+
+            <label><input type="radio" name="q13" value="0">สาเหตุที่ทำให้เกิดฟันผุ</label><br>
+            <label><input type="radio" name="q13" value="0">การสึกหรอของฟันจากการถูกกรดกัดเซาะ</label><br>
+            <label><input type="radio" name="q13" value="1">ประโยชน์ของฟลูออไรด์ <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q13" value="0">ฟลูออไรด์และการป้องกันฟันผุ</label>
+            <hr>
+            <u>เฉลย:</u> ตอบ 3  <br>
+
+บทความพูดถึงบทบาทของ การสึกหรอของฟัน คือ 1) ทำให้ฟันแข็งแรง และ 2) ช่วยป้องกันฟันผุ
+            <hr>
+        </div>  <!--  end of  qstn-div    ข้อ 13 -->
+<br>
+        <strong>สำหรับ ข้อ 14-15</strong><br>
+        <div class="qstn-div">  <!-- บทอ่าน สำหรับข้อ 14-15   -->
+&emsp;ชีวิตที่เรียบง่ายของคนอีสาน ที่ต้องพึ่งพิงธรรมชาติตั้งแต่เกิดจนตาย นั่นก็คือการทำไร่ทำนา หากแต่ผลกำไรจากสิ่งเหล่านี้ มิได้ส่งผลคุ้มค่าให้กับพวกเขาเท่าที่ควร เพราะสภาพภูมิอากาศที่ไม่เอื้ออำนวยนั่นเอง<br>
+
+&emsp;เมื่อเป็นเช่นนี้ชาวอีสานจึงจำเป็นต้องหาอาชีพเสริมให้กับตัวเอง หลังจากสิ้นสุดฤดูการเก็บเกี่ยว ที่ต้องอาศัยระยะเวลานานกว่าที่จะเริ่มทำใหม่อีกหน บรรดาพ่อบ้านก็อาจจะคิดทำชิ้นงานที่เกิดจากธรรมชาติ เพื่อสร้างเสริมรายได้ นั่นก็คือ การจักสาน โดยเฉพาะผลิตภัณฑ์เครื่องจักสารจากไม้ไผ่ ซึ่งเป็นงานสร้างสรรค์ทางศิลปะ ที่ต้องอาศัยจินตนาการ ความพยายาม และส่ิ่งสำคัญก็คือ ความคิดของชาวบ้าน ที่จะสร้างงานในรูปแบบใหม่่ ๆ เพื่อให้เกิดความสะดุดตา ต่อผู้ที่ได้พบเห็น<br>
+
+&emsp;นอกจากนี้ ยังมีงานที่สร้างชื่อเสียงให้กับชาวอีสาน อีกชนิดหนึ่งก็คือ ผลิตภัณฑ์จากกะลามะพร้าว ผลงานที่สร้างสรรค์ขึ้นจากเศษวัสดุธรรมชาติ นำมาทำเป็นข้าวของเครื่องใช้หลายรูปแบบ เช่น ทัพพี ช้อนส้อม และกิ๊บติดผม เป็นต้น<br>
+
+&emsp;สินค้าหัตถกรรมของชาวอีสาน ไม่เพียงแต่จะมีความดโดเด่นในด้านความสวยงามเท่านั้น แต่ยังเปี่ยมไปด้วยคุณภาพ อีกด้วย
+
+</div> <!-- จบ <div class="qstn-div" บทอ่าน สำหรับข้อ 14-15   -->
+<br>
+
+        <div class="qstn-div">  <!-- คำถาม สำหรับข้อ 14-15   -->
+            <div class="quiz">
+
+                <br>ข้อ 14. <br>
+                อาชีพเสริมที่กล่าวถึงในบทความนี้ มีกี่อย่าง?</div>
+            <label><input type="radio" name="q14" value="1"> 2 อย่าง  <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q14" value="0"> 3  อย่าง </label><br>
+            <label><input type="radio" name="q14" value="0"> 4  อย่าง </label><br>
+            <label><input type="radio" name="q14" value="0"> 5 อย่าง </label>
+            <!-- ตอบ 1   -->
+            <hr>
+            <u>เฉลย:</u> ตอบ 1  <br>
+            มี 2 อย่าง ได้แก่ การจักสาน และผลิตภัณฑ์จากกะลามะพร้าว
+            <hr>
+
+            <div class="quiz">
+                <br>ข้อ 15. <br>
+               สาระสำคัญของบทความนี้ คือข้อใด?</div>
+            <label><input type="radio" name="q15" value="0"> ความอุตสาหะของชาวอีสาน </label><br>
+            <label><input type="radio" name="q15" value="1"> สินค้าหัตถกรรมพื้นบ้านของชาวอีสาน <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q15" value="0"> อาชีพเสริมของชาวอีสาน</label><br>
+            <label><input type="radio" name="q15" value="0">ชาวอีสานกับสภาพภูมิอากาศที่ไม่เอื้ออำนวย</label>
+            <hr>
+            <u>เฉลย:</u> ตอบ 2  <br>
+บทความพูดถึงหัตถกรรมพื้นบ้านของชาวอีสาน คืองานจักสาน และ งานกะลามะพร้าว พร้อมทั้งสรุปในตอนท้ายว่า หัตถกรรมของชาวอีสาน นอกจากจะสวยแล้วยังคุณภาพดีอีกด้วย ซึ่งเป็นย้ำว่า ไม่ได้พูดเรื่องอื่น นอกจากเรื่อง สินค้าหัตถกรรมของชาวอีสาน
+
+
+            <hr>
+</div> <!-- จบ <div class="qstn-div" คำถาม สำหรับข้อ 14-15   -->
+
+        <br>
+        <strong>ความสามารถในการคิดวิเคราะห์เชิงนามธรรม</strong><br><br>
+
+        <u><strong>อุปมาอุปไมย</strong></u><br>
+        <!-- 16-20 อุปมาอุปไมย  -->
+
+        <div class="quiz">
+            <br>ข้อ 16. &ensp;
+            รวย : จน &ensp;:: &ensp; ? &ensp; : &ensp;? <br>
+        </div>
+        <label><input type="radio" name="q16" value="0"> เรือ : น้ำ</label><br>
+        <label><input type="radio" name="q16" value="0"> นักเรียน : โรงเรียน</label><br>
+        <label><input type="radio" name="q16" value="1"> สูง : ต่ำ <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q16" value="0"> ยิ้ม : หัวเราะ</label><br>
+
+        <hr>
+        เปรียบเทียบ มากกว่า - น้อยกว่า
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 17. &ensp;
+            ไวท์บอร์ด : ปากกาเคมี &ensp;:: &ensp; ? &ensp; : &ensp;? <br>
+        </div>
+
+        <label><input type="radio" name="q17" value="1"> กระดานดํา : ชอล์ก<span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q17" value="0"> กวี : บทกลอน</label><br>
+        <label><input type="radio" name="q17" value="0"> ดินสอ : กระดาษ</label><br>
+        <label><input type="radio" name="q17" value="0"> หลังคา : เสา</label><br>
+        <hr>
+        ไวท์บอร์ด ใช้ ปากกาเคมี เขียน<br>
+		กระดานดำ ใช้ ชอล์ก เขียน
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 18. &ensp;
+            ซื่อสัตย์ : หลอกลวง &ensp; :: &ensp; ? &ensp; : &ensp;? <br>
+        </div>
+
+        <label><input type="radio" name="q18" value="0"> เกลียด : โกหก</label><br>
+        <label><input type="radio" name="q18" value="0"> เศร้า : เสียใจ</label><br>
+        <label><input type="radio" name="q18" value="1"> หัวเราะ : ร้องไห้ <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q18" value="0"> ยิ้มแย้ม : จริงใจ</label>
+        <hr>
+        ความหมายตรงกันข้าม
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 19. &ensp;
+            ร่าเริง : ซึมเศร้า &ensp; :: &ensp; ? &ensp; : &ensp;? <br>
+        </div>
+
+        <label><input type="radio" name="q19" value="0"> นักศึกษา : อาจารย์ </label><br>
+        <label><input type="radio" name="q19" value="0"> รวดเร็ว : ว่องไว</label><br>
+        <label><input type="radio" name="q19" value="1"> สว่าง : มืด <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q19" value="0"> อกหัก : เสียใจ</label>
+        <hr>
+        ความหมายตรงกันข้าม
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 20. &ensp;
+            กรรไกร : กระดาษ &ensp; :: &ensp; : &ensp;?
+        </div>
+        <label><input type="radio" name="q20" value="0"> ไขควง :  ประตู</label><br>
+        <label><input type="radio" name="q20" value="0"> มีด  :  เหล็ก</label><br>
+        <label><input type="radio" name="q20" value="1"> เลื่อย : ไม้ <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q20" value="0"> ตะปู : ค้อน</label>
+        <hr>
+        กรรไกร ใช้ตัด กระดาษ<br>
+        เลื่อย  ใช้ตัด  ไม้ <br>
+        <hr>
+        <br><br>
+        <u><strong>การสรุปความจากภาษา</strong></u><br><br>
+        <u><strong>คำสั่ง</strong></u>  ในแต่ละข้อจะประกอบด้วยเงื่อนไขหรือข้อมูลที่กำหนดให้ และข้อสรุปเป็นคู่ ๆ จากเงื่อนไขนั้น ให้ศึกษาเงื่อนไขที่กำหนดให้ก่อน แล้วจึงอาศัยความรู้ที่ได้จากเงื่อนไขดังกล่าวมาใช้พิจารณา ข้อสรุปทั้งสองของแต่ละข้อ แล้วทำตอบลงในกระดาษคำตอบ โดยยึดหลักในการทำตอบดังนี้ <br><br>
+
+        <div style="width: 100%;">
+
+            <!-- คำแนะนำ  วิธีการตอบ สรุปความ-->
+            <img style= "max-width: 100%; height: auto;" src="images/symbol_con_how_to.png">
+        </div>
+        <!-- 31-35 เงื่อนไขภาษา  -->
+        <!--  https://www.youtube.com/watch?v=x6H0J1ZXoKU  -->
+        <!-- "D:\_ocsc_resources\full_exam_video\full_exam_all_01\rawi_เงื่อนไขภาษา.mp4"  -->
+        <!-- "D:\_ocsc_resources\full_exam_video\full_exam_all_01\Rawi_เงื่อนไขภาษา-คำถาม.png"  -->
+        <!-- "D:\_ocsc_resources\full_exam_video\full_exam_all_01\Rawi_เงื่อนไขภาษา.png"  -->
+
+        <br><br>
+        เงื่อนไข สำหรับข้อ 21-25<br>
+        <div class="qstn-div">
+            <ul>
+                <li>อร โอ นก ออม และ แอม ไปงานแสดงสินค้าส่งออกเพื่อซื้อสินค้ามาตกแต่งโต๊ะทํางานคนละ 2 อย่าง คือ โคมไฟ แจกัน นาฬิกา กรอบรูป และฉากกั้น</li>
+
+                <li>รายชื่อดังกล่าวไม่ได้เรียงลําดับในการเลือกซื้อ</li>
+                <li>แอม และโอ เลือกซื้อของตกแต่งไม่เหมือนกัน</li>
+                <li> ออม เลือกซื้อโคมไฟและนาฬิกา อร เลือกซื้อกรอบรูปและโคมไฟ </li>
+                <li>มีคนที่เลือกซื้อฉากกั้นเพียง 1 คน และเลือกซื้อโคมไฟ 3 คน</li>
+                <li>โอ เลือกซื้อแจกันเหมือน นก 1 อย่าง และเลือกซื้อนาฬิกาเหมือน ออม 1 อย่าง</li>
+                <li> นก เลือกซื้อฉากกั้น</li>
+            </ul>
+            นำข้อมูลมาลงตารางได้ ดังนี้ <br>
+            <table width="100%">
+                <tr style='text-align: center;'><th></th><th>โคมไฟ</th><th>แจกัน</th><th>นาฬิกา</th><th>กรอบรูป</th><th>ฉากกั้น</th></tr>
+                <tr style='text-align: center;'><td>อร</td><td>✔</td><td>✘</td><td>✘</td><td>✔</td><td>✘</td></tr>
+                <tr style='text-align: center;'><td>โอ</td><td>✘</td><td>✔</td><td>✔</td><td>✘</td><td>✘</td></tr>
+                <tr style='text-align: center;'><td>นก</td><td>✘</td><td>✔</td><td>✘</td><td>✘</td><td>✔</td></tr>
+                <tr style='text-align: center;'><td>ออม</td><td>✔</td><td>✘</td><td>✔</td><td>✘</td><td>✘</td></tr>
+                <tr style='text-align: center;'><td>แอม</td><td>✔</td><td>✘</td><td>✘</td><td>✔</td><td>✘</td></tr>
+            </table>
+
+        </div>  <!-- จบกรอบเงื่อนไข   -->
+        <br><br>
+
+        <div class="qstn-div"> <!-- เริ่มกรอบคำถามเงื่อนไข   -->
+            <div class="quiz">
+                <br>ข้อ 21. <br>
+                ข้อสรุปที่ 1 แอม เลือกซื้อแจกัน <br>
+                ข้อสรุปที่ 2 โอ เลือกซื้อนาฬิกา <br><br>
+            </div>
+
+            <label><input type="radio" name="q21" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q21" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q21" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+            <label><input type="radio" name="q21" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน <span class="checkMark">&#x2713;</span></label><br>
+
+            <div class="quiz">
+                <br>ข้อ 22. <br>
+                ข้อสรุปที่ 1 โอ และ ออม เลือกซื้อนาฬิกาเหมือนกัน<br>
+                ข้อสรุปที่ 2 นก เลือกซื้อแจกันและฉากกั้น <br><br>
+            </div>
+
+            <label><input type="radio" name="q22" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q22" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q22" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+            <label><input type="radio" name="q22" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 23. <br>
+                ข้อสรุปที่ 1 มีคนเลือกซื้อแจกัน 2 คน  <br>
+                ข้อสรุปที่ 2 มีคนเลือกซื้อนาฬิกา 2 คน <br><br>
+            </div>
+
+            <label><input type="radio" name="q23" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q23" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q23" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+            <label><input type="radio" name="q23" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 24. <br>
+                ข้อสรุปที่ 1 แอม เลือกซื้อกรอบรูป <br>
+                ข้อสรุปที่ 2 โอ เลือกชื้อฉากกั้น <br><br>
+            </div>
+
+            <label><input type="radio" name="q24" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q24" value="1">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q24" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+            <label><input type="radio" name="q24" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label><br>
+
+            <div class="quiz">
+                <br>ข้อ 25. <br>
+                ข้อสรุปที่ 1 มีคนเลือกซื้อกรอบรูป 3 คน <br>
+                ข้อสรุปที่ 2 มีคนเลือกซื้อนาฬิกา 1 คน <br><br>
+            </div>
+
+            <label><input type="radio" name="q25" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q25" value="1">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q25" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+            <label><input type="radio" name="q25" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label><br>
+
+        </div> <!-- จบกรอบคำถามเงื่อนไข   -->
+        <br>
+        <!-- การสรุปความจากสัญลักษณ์ -->
+
+        <div style="width: 100%;">
+
+            <!-- คำแนะนำ  วิธีการตอบ สรุปความ-->
+            <img style= "max-width: 100%; height: auto;" src="images/symbol_con_instruction.png">
+        </div>
+        <div style="width: 100%;">
+
+            <!-- คำแนะนำ  วิธีการตอบ สรุปความ-->
+            <img style= "max-width: 100%; height: auto;" src="images/symbol_con_how_to.png">
+        </div>
+        <!-- 21-30 เงื่อนไขสัญญลักษณ์  -->
+        <!-- https://www.youtube.com/watch?v=XzXZtG7--20 -->
+        <!--  "D:\_ocsc_resources\full_exam_video\full_exam_all_01\kim_25660702.mp4"   -->
+
+            <u>เงื่อนไข สำหรับข้อ 26-30</u><br>
+            ถ้า 2J &lt; (K + L) = M &lt; 3N &gt; S และ<br>
+            P &lt; (Q + R) ≥ M &lt; <span class="frac">S<span class="symbol">/</span><span class="bottom">2</span></span><br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+        <div class="qstn-div"> <!-- เริ่มกรอบคำถามเงื่อนไข ข้อ 26-30    -->
+
+
+        <div class="quiz">
+            <br>ข้อ 26. <br><br>
+            <u>เงื่อนไข</u><br>
+            ถ้า 2J &lt; (K + L) = M &lt; 3N &gt; S และ<br>
+            P &lt; (Q + R) ≥ M &lt; <span class="frac">S<span class="symbol">/</span><span class="bottom">2</span></span><br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+        </div>
+
+        <u>ข้อสรุปที่ 1:</u> M &lt; K<br>
+        <u>ข้อสรุปที่ 2:</u> J &gt; M<br><br>
+
+
+        <label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q26" value="1">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label><hr>
+
+        <u>เฉลย</u><br>
+        <small>(ดูเรื่อง  "หลักการทำข้อสอบเงื่อนไขสัญลักษณ์" ในหน้าเมนู เพื่อความเข้าใจที่ดีขึ้น)</small><br><br>
+        ข้อสรุปที่ 1:  M &lt; K<br>
+        จาก M ไป K ตามเงื่อนไข คือ<br>
+        M = K + L<br>
+        ได้ M เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา K มาเทียบได้<br>
+        M = K + L &gt; K<br>
+        ยุบรวม<br>
+        M &gt; K<br><br>
+
+        ตัดสินข้อสรุป<br>
+        ข้อสรุปที่ 1: M &lt; K<br>
+        ข้อสรุปที่ 1 เป็นเท็จ<br><br>
+
+        ข้อสรุปที่ 2:  J &gt; M <br>
+        จาก J ไป M ตามเงื่อนไข คือ<br>
+        2J &lt; (K + L) = M<br>
+        ยุบรวม<br>
+        2J &lt;  M<br>
+        ได้ M เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา J มาเทียบได้<br>
+        J &lt; 2J &lt;  M<br>
+        ยุบรวม<br>
+        J &lt;  M<br><br>
+
+        ตัดสินข้อสรุป<br>
+        ข้อสรุปที่ 2:  J &gt; M <br>
+        ข้อสรุปที่ 2 เป็นเท็จ<br><br>
+
+        ข้อสรุปที่ 1:  เท็จ<br>
+        ข้อสรุปที่ 2:  เท็จ<br><br>
+
+        ตอบ  ข้อ 2 ข้อสรุปเป็นเท็จทั้งสองข้อ <br><br>
+
+            <hr>
+
+        <div class="quiz">
+            <br>ข้อ 27. <br><br>
+            <u>เงื่อนไข</u><br>
+            ถ้า 2J &lt; (K + L) = M &lt; 3N &gt; S และ<br>
+            P &lt; (Q + R) ≥ M &lt; <span class="frac">S<span class="symbol">/</span><span class="bottom">2</span></span><br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+        </div>
+        <u>ข้อสรุปที่ 1:</u> L &lt; 3N<br>
+        <u>ข้อสรุปที่ 2:</u> 3S &gt; M<br><br>
+
+
+        <label><input type="radio" name="q27" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label><hr>
+        ข้อสรุปที่ 1: L &lt; 3N<br>
+        จาก L ไป 3N ตามเงื่อนไข คือ<br>
+        K + L = M &lt; 3N<br>
+        ยุบรวม<br>
+        K + L &lt; 3N<br>
+        ได้ 3N เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา L มาเทียบได้<br>
+
+        L &lt; K + L &lt; 3N<br>
+        ยุบรวม<br>
+        L &lt; 3N<br><br>
+
+        ตัดสินข้อสรุป<br>
+        ข้อสรุปที่ 1: L &lt; 3N<br>
+        ข้อสรุปที่ 1 เป็นจริง<br><br>
+
+        ข้อสรุปที่ 2:  3S &gt; M <br>
+        จาก S ไป M ตามเงื่อนไข คือ<br>
+        S &lt; 3N &gt; M<br>
+        มีเครื่องหมายสวนกัน สรุปได้ไม่แน่ชัด<br><br>
+
+        ลองดูอีกเส้นทางหนึ่ง จากเงื่อนไขบรรทัดล่าง<br>
+        <span class='frac'>S<span class='symbol'>/</span><span class='bottom'>2</span></span> &gt; M<br>
+        ได้ M เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา 3S มาเทียบได้<br>
+        S สามตัว ย่อมมากกว่า S ครึ่งตัว<br>
+        3S &gt; <span class='frac'>S<span class='symbol'>/</span><span class='bottom'>2</span></span> &gt; M<br>
+        ยุบรวม<br>
+        3S &gt; M<br><br>
+
+        ตัดสินข้อสรุป<br>
+        ข้อสรุปที่ 2:  3S &gt; M <br>
+        ข้อสรุปที่ 2 เป็นจริง<br><br>
+
+        ข้อสรุปที่ 1:  จริง<br>
+        ข้อสรุปที่ 2:  จริง<br><br>
+
+        ตอบ   1 ข้อสรุปเป็นจริงทั้งสองข้อ
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 28. <br><br>
+            <u>เงื่อนไข</u><br>
+            ถ้า 2J &lt; (K + L) = M &lt; 3N &gt; S และ<br>
+            P &lt; (Q + R) ≥ M &lt; <span class="frac">S<span class="symbol">/</span><span class="bottom">2</span></span><br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+        </div>
+        <u>ข้อสรุปที่ 1:</u> J &lt; K<br>
+        <u>ข้อสรุปที่  2:</u> 2L &gt; S<br><br>
+
+
+        <label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q28" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน <span class="checkMark">&#x2713;</span></label><hr>
+        ข้อสรุปที่ 1: J &lt; K<br>
+        จาก J ไป K ตามเงื่อนไข คือ<br>
+        2J &lt; (K + L)<br>
+        เอา 2 หาร เพื่อให้ได้ข้างหนึ่งเหมือนข้อสรุป<br>
+        <span class='frac'>2J<span class='symbol'>/</span><span class='bottom'>2</span></span> &lt; <span class='frac'>(K + L)<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+        J &lt; <span class='frac'>K<span class='symbol'>/</span><span class='bottom'>2</span></span> + <span class='frac'>L<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+        ได้ J เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา K มาเทียบได้<br><br>
+        ระหว่าง <span class='frac'>K<span class='symbol'>/</span><span class='bottom'>2</span></span> + <span class='frac'>L<span class='symbol'>/</span><span class='bottom'>2</span></span> กับ K เราจะไม่รู้ว่า ใครจะมากหรือน้อยกว่ากัน<br><br>
+        <span class='frac'>K<span class='symbol'>/</span><span class='bottom'>2</span></span> = 0.5K<br>
+        <span class='frac'>L<span class='symbol'>/</span><span class='bottom'>2</span></span> = 0.5L<br>
+        และ<br>
+        K = 0.5K + 0.5K<br>
+        นั่นคือ เปรียบเทียบระหว่าง<br>
+        (0.5K + 0.5L) กับ (0.5K + 0.5K)<br>
+            ตัด 0.5K ออกไปเพราะเท่ากันอยู่แล้ว <br>
+            จึงเหลือการเปรียบเทียบ ระหว่าง 0.5L และ 0.5K <br>
+            จากเงื่อนไข เราไม่มีข้อมูลการเปรียบเทียบ ระหว่าง L กับ K <br>
+            จึงไม่สามารถสรุปได้แน่ชัด <br>
+            
+        สรุปว่า ข้อสรุปที่ 1 สรุปได้ไม่แน่นอน<br><br>
+
+
+        ข้อสรุปที่ 2: 2L &gt; S  <br>
+        จาก L ไป S ตามเงื่อนไข คือ<br>
+        (K + L) = M &lt; 3N &gt; S <br>
+        มีเครื่องหมายสวนทางกัน สรุปได้ไม่แน่ชัด<br><br>
+
+        ลองดูเส้นทางอื่น<br>
+        จาก L ไป S ผ่าน M คือ<br>
+        (K + L) =M &lt; <span class='frac'>S<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+        ยุบรวม<br>
+        (K + L) &lt; <span class='frac'>S<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+
+        เอา 2 คูณตลอด เพื่อกำจัดส่วนให้หมดไป<br>
+        2(K + L) &lt; <span class='frac'>2S<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+        (2K + 2L) &lt; S<br>
+        ได้ S เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา 2L มาเทียบได้<br><br>
+        2L &lt; (2K + 2L) &lt; S<br>
+        ยุบรวม<br>
+        2L &lt; S<br><br>
+
+        ตัดสินข้อสรุปที่ 2<br>
+        ข้อสรุปที่ 2: 2L &gt; S  <br>
+        ข้อสรุปที่ 2 เป็นเท็จ<br><br>
+
+        ข้อสรุปที่ 1:   ไม่แน่ชัด<br>
+        ข้อสรุปที่ 2:  เท็จ<br><br>
+
+        ตอบ  ข้อ 4 ข้อสรุปต่างกัน
+
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 29. <br><br>
+            <u>เงื่อนไข</u><br>
+            ถ้า 2J &lt; (K + L) = M &lt; 3N &gt; S และ<br>
+            P &lt; (Q + R) ≥ M &lt; <span class="frac">S<span class="symbol">/</span><span class="bottom">2</span></span><br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+        </div>
+        <u>ข้อสรุปที่  1: </u>  2K + 2L &lt; 3N<br>
+        <u>ข้อสรุปที่ 2: </u>  P &lt; 2R<br><br>
+
+        <label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q29" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน <span class="checkMark">&#x2713;</span></label>
+        <hr>
+        ข้อสรุปที่ 1: 2K + 2L &lt; 3N<br>
+        จาก 2K + 2L ไป 3N ตามเงื่อนไข คือ<br>
+        (K + L) = M &lt; 3N<br>
+        ยุบรวม<br>
+        (K + L) &lt; 3N<br>
+        ได้ 3N เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา (2K + 2L) มาเทียบได้<br><br>
+        (2K + 2L) &gt; (K + L) &lt; 3N<br>
+        มีเครื่องหมายสวนทางกัน สรุปได้ไม่แน่ชัด<br><br>
+
+        ลองดูอีกทาง<br>
+        (K + L) ไป 3N ผ่าน M และ S<br>
+        (K + L) = M &lt; <span class='frac'>S<span class='symbol'>/</span><span class='bottom'>2</span></span> &lt; S &lt; 3N<br>
+        ยุบรวม<br>
+        (K + L) &lt; 3N<br>
+        ได้ 3N เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา (2K + 2L) มาเทียบได้<br><br>
+        (2K + 2L) &gt; (K + L) &lt; 3N<br>
+        มีเครื่องหมายสวนทางกัน สรุปได้ไม่แน่ชัด<br><br>
+
+        ลองดูอีกที<br>
+        ถ้า จาก (K + L) ไป 3N ผ่าน M ไป S และเปรียบเทียบกับ 3L<br>
+        จากเงื่อนไข<br>
+        (K + L) = M &lt; <span class='frac'>S<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+        ยุบรวม<br>
+        (K + L) &lt; <span class='frac'>S<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+        เอา 2 คูณตลอด เพื่อให้ได้ (2K + 2L) เหมือนข้อสรุป<br>
+        2(K + L) &lt; <span class='frac'>2S<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+        2K + 2L &lt; S ---- (1)<br>
+        แต่จากเงื่อนไขบรรทัดบน เราทราบว่า <br>
+        S &lt; 3N ----- (2)<br>
+        (1) + (2) เราจะได้<br>
+        2K + 2L &lt; S &lt; 3N<br>
+        ยุบรวม<br>
+        2K + 2L &lt; 3N<br><br>
+
+        ตัดสินข้อสรุปที่ 1<br>
+        ข้อสรุปที่ 1: 2K + 2L &lt; 3N<br>
+        ข้อสรุปที่ 1 เป็นจริง<br><br>
+
+        ข้อสรุปที่ 2:   P &lt; 2R<br>
+        จาก P ไป R ตามเงื่อนไข คือ<br>
+        P &lt; (Q + R)<br>
+        ได้ P เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้าง เอา 2R มาเทียบได้<br>
+        P &lt; (Q + R) ?? 2R<br>
+		2R คือ (R + R) ดังนั้น<br>
+		P &lt; (Q + R) ?? (R + R)<br>
+       P &lt; (Q + <span style="color: red"><del>R</del></span>) ?? (R + <span style="color: red"><del>R</del></span>) <br>
+            R เท่ากับ R ตัดออกไปได้ จึงเหลือ การเปรียบเทียบระหว่าง Q กับ R <br>
+        ระหว่าง Q และ R ในเงื่อนไขไม่มีข้อมูลที่จะให้เราหาความสัมพันธ์ระหว่างกันได้ จึงไม่มีทางที่เราจะนำ Q และ R มาเปรียบเทียบกันได้ ทำให้ไม่รู้ว่า Q กับ R ใครจะมาก-น้อยกว่ากัน<br>
+        จึงสรุปว่า ไม่แน่ชัด<br><br>
+
+
+        ข้อสรุปที่ 1:  จริง<br>
+        ข้อสรุปที่ 2:  ไม่แน่ชัด<br><br>
+
+        ตอบ  ข้อ 4 ผลการสรุปต่างกัน
+
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 30. <br><br>
+            <u>เงื่อนไข</u><br>
+            ถ้า 2J &lt; (K + L) = M &lt; 3N &gt; S และ<br>
+            P &lt; (Q + R) ≥ M &lt; <span class="frac">S<span class="symbol">/</span><span class="bottom">2</span></span><br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+        </div>
+        <u>ข้อสรุปที่ 1:</u>  K = R<br>
+        <u>ข้อสรุปที่ 2:</u>  M &gt; J<br><br>
+
+
+        <label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q30" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน <span class="checkMark">&#x2713;</span></label>
+        <hr>
+        ข้อสรุปที่ 1: K = R<br>
+        จาก K ไป R ผ่าน M คือ<br>
+        (K + L) = M ≤ (Q + R)<br>
+        ยุบรวม<br>
+        (K + L) ≤ (Q + R)<br>
+        จากเงื่อนไข ไม่มีข้อมูลความสัมพันธ์ระหว่าง K, L, Q และ R ในการเปรียบเทียบกันเลย จึงสรุปว่า สรุปได้ไม่แน่ชัด<br>
+        ข้อสรุปที่ 1: K = R -- ไม่แน่ชัด<br><br>
+
+        ข้อสรุปที่ 2:   M &gt; J<br><br>
+
+        จาก M ไป J ตามเงื่อนไขบรรทัดบน คือ<br>
+        M = (K + L) &gt; 2J<br>
+        ยุบรวม<br>
+        M &gt; 2J<br>
+           เหมือนข้อสรุปข้างหนึ่งแล้ว เอา J มาเทียบได้ <br>
+            M &gt; 2J &gt; J<br>
+            ยุบรวม <br>
+            M &gt;  J<br><br>
+
+        ตัดสินข้อสรุป<br>
+        ข้อสรุปที่ 2:   M &gt; J<br>
+        ข้อสรุปที่ 2 เป็นจริง<br><br>
+
+        ข้อสรุปที่ 1: ไม่แน่ชัด <br>
+        ข้อสรุปที่ 2:  จริง<br><br>
+
+        ตอบ  ข้อ 4 ผลการสรุปต่างกัน
+        <hr>
+        </div> <!--จบ กรอบคำถามเงื่อนไข ข้อ 26-30    -->
+
+        <!-- ข้อ 26-30: "D:\_ocsc_resources\full_exam_video\full_exam_all_01\tutorNorth_01.mp4"   -->
+        <!--  https://www.youtube.com/watch?v=MdixI0ner5s  -->
+            <u>เงื่อนไข สำหรับข้อ 31-35</u><br>
+            ถ้า <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3 = (C + D) = E และ<br>
+            C ≯ F ≯ G<br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+        <div class="qstn-div"> <!-- เริ่มกรอบคำถามเงื่อนไข ข้อ 31-35    -->
+
+<!-- --------- ถึงตรงนี้ ----------    -->
+
+        <div class="quiz">
+            <br>ข้อ 31. <br>
+            <small>(ข้อสอบเสมือนจริง กพ พิเศษ 19 ก.พ. 2566 -- รูปแบบใหม่ มีเลขจำนวนเต็ม)</small><br><br>
+            <u>เงื่อนไข</u><br>
+            ถ้า <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3 = (C + D) = E และ<br>
+            C ≯ F ≯ G<br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+
+            <u>ข้อสรุปที่ 1:</u> A &gt; B<br>
+            <u>ข้อสรุปที่ 2:</u> E &lt; C
+            <br><br>
+
+        </div>
+
+        <label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+        <label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน <span class="checkMark">&#x2713;</span></label>
+        <hr>
+
+        <u>ข้อสรุปที่ 1:</u> A &gt; B<br>
+        จากเงื่อนไขที่ 1 <br>
+        <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3<br>
+        คูณไขว้<br>
+        A = 3B<br>
+        เอา B มาเทียบ<br>
+        A = 3B &gt; B<br>
+        ยุบรวม<br>
+        A &gt; B<br>
+        ข้อสรุปที่ 1 เป็นจริง<br><br>
+
+        <u>ข้อสรุปที่ 2:</u> E &lt; C<br>
+        จากเงื่อนไข  E = (C + D)<br>
+        E = (C + D) &gt; C<br>
+        E &gt; C<br>
+        ข้อสรุปที่ 2 เป็นเท็จ<br><br>
+        ตอบ ตัวเลือกข้อ 4
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 32.  <br><br>
+
+            <u>เงื่อนไข</u><br>
+            ถ้า <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3 = (C + D) = E และ<br>
+            C ≯ F ≯ G<br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+
+            <u>ข้อสรุปที่ 1:</u> 3 &lt; BE<br>
+            <u>ข้อสรุปที่ 2:</u> B &gt; E
+            <br><br>
+
+        </div>
+
+        <label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q32" value="1">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label>
+        <hr>
+            <u>ข้อสรุปที่ 1:</u> 3 &lt; BE<br>
+        จากเงื่อนไข <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3<br>
+        เอา B คูณทั้งสองข้าง<br>
+        A = 3B<br>
+        หรือพูดได้ว่า A มีค่าเป็น 3 เท่าของ B<br>
+        จากการที่โจทย์มีข้อกำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ<br>
+        จำนวนนับ คือ จำนวนเต็มบวก เริ่มตั้งแต่ 1 ขึ้นไป <br>
+        เลขทศนิยมไม่ใช่เลขจำนวนเต็ม <br>
+        ดังนั้น ทุกตัวอักษรจะมีค่า เป็น 1, 2, 3, 4, 5, 6, ... ไปเรื่อย ๆ<br>
+        เมื่อ A มีค่าเป็น 3 เท่าของ B<br>
+        A จะเท่ากับ 1 ไม่ได้ เพราะ ถ้า A เท่ากับ 1 จะทำให้ B มีค่าไม่ถึง 1 <br>
+        นั่นคือ A = 3(0.333...)
+        ในกรณีนี้จะทำให้ B มีค่าเป็นทศนิยม คือ 0.333... ซึ่งขัดกับที่โจทย์กำหนดไว้ว่า ให้เป็นเลขจำนวนนับ<br>
+        ถ้า A = 2<br>
+        2 = 3(B)<br>
+        B = 0.666...<br>
+        ดังนั้น A เท่ากับ 2 ไม่ได้<br>
+        ถ้า A = 3<br>
+        3 = 3(B)<br>
+        B = 1<br>
+        สรุปว่า A ต้องมีค่า ตั้งแต่ 3 ขึ้นไป<br>
+        A ≥  3
+
+        <br><br>
+        กลับมาดูเงื่อนไขแรก<br>
+        ถ้า <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3 = (C + D) = E<br>
+        เรารู้ว่า A &gt; B และ A  ≥ 3<br>
+        ปรับเขียนเงื่อนไขใหม่ เป็น<br>
+        เงื่อนไขที่ 1: B &lt; A ≥ 3 = (C + D) = E และ<br>
+        เงื่อนไขที่ 2: C ≯ F ≯ G<br><br>
+
+        ข้อสรุปที่ 1 3 &lt; BE<br>
+        ตามเงื่อนไขที่ 1 ที่ปรับแล้ว<br>
+        จาก 3 ไป B พบว่า มีเครื่องหมายสวนทางกัน จึงสรุปไม่ได้<br><br>
+
+แต่ลองทำโดยวิธีการแทนค่าดูบ้าง<br>
+        ตามเงื่อนไข จาก 3 ไป E คือ<br>
+        3 = (C + D) = E<br>
+        3 = E<br>
+        แทนค่า E ด้วย 3 ในข้อสรุป ที่ 1<br>
+        3 &lt; B(3)<br>
+        แต่เราไม่รู้ว่า B จะมีค่าเท่าไร รู้แต่เพียงว่า มีค่าตั้งแต่ 1 ขึ้นไป<br>
+		ลองแทนค่า B ดู<br>
+        ถ้า B = 1
+        ข้อสรุปที่ว่า 3 &lt; BE เป็นเท็จ เพราะ<br>
+        3 = 1(3)<br>
+		3 = 3<br><br>
+
+        ถ้า B = 2
+        ข้อสรุปที่ว่า 3 &lt; BE เป็นจริง เพราะ<br>
+        3  &lt;  2(3)<br>
+		3 &lt; 6<br><br>
+
+            ข้อสรุปจากการพิสูจน์เงื่อนไข คือ 3 อาจจะเท่ากับ BE หรือ น้อยกว่า BE ก็ได้ นั่นคือ<br>
+            3  ≤ BE <br>
+
+            ดังนั้น ข้อสรุปของโจทย์ที่ 1 ที่ว่า 3 &lt; BE จึงไม่ครอบคลุมผลการพิสูจน์ของเรา
+            เพราะไม่ครอบคลุมกรณีเท่ากัน  หรือพูดอีกอย่างว่า บางที 3 ก็น้อยกว่า BE บางที  3 ก็เท่ากับ BE  บางทีก็มากกว่า BE  ทำให้ข้อสรุปที่ 1 สรุปได้ไม่แน่ชัด
+            ทำให้ข้อสรุปที่ 1 สรุปได้ไม่แน่ชัด<br><br>
+
+        ข้อสรุปที่ 1: สรุปได้ไม่แน่ชัด<br><br>
+
+        <u>ข้อสรุปที่ 2:</u>  B &gt; E<br>
+        จาก B ไปหา E ตามเงื่อนไขที่ปรับใหม่ จะเห็นว่ามีเครื่องหมายสวนทางกัน จึงสรุปไม่ได้<br><br>
+
+        ข้อสรุปที่ 2: สรุปได้ไม่แน่ชัด <br><br>
+
+        ตอบ ตัวเลือกข้อ 3 ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด
+        <hr>
+
+
+        <div class="quiz">
+            <br>ข้อ 33.  <br><br>
+
+            <u>เงื่อนไข</u><br>
+            ถ้า <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3 = (C + D) = E และ<br>
+            C ≯ F ≯ G<br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+
+            <u>ข้อสรุปที่ 1:</u> A + E  ≥  B + 3<br>
+            <u>ข้อสรุปที่ 2:</u> D ≠ C
+            <br><br>
+
+        </div>
+
+        <label><input type="radio" name="q33" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label>
+        <hr>
+
+            <u>ข้อสรุปที่ 1:</u> A + E  ≥  B + 3<br>
+            เปรียบเทียบ 2 คู่ คือ A กับ B และ E กับ 3<br><br>
+            จากเงื่อนไข <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3 <br>
+            A = 3B<br>
+            A = 3B &gt; B<br>
+            A &gt; B --- (1)<br><br>
+            จาก E ไป 3 ตามเงื่อนไข คือ<br>
+            
+            E = (C + D) = 3<br>
+            E = 3 ---- (2)<br><br>
+            
+            (1) + (2)<br>
+            A + E &gt; B + 3<br><br>
+            ดังนั้น ข้อสรุปที่ 1 ครอบคลุมเงื่อนไขที่พิสูจน์ได้<br>
+            ข้อสรุปที่ 1 เป็นจริง<br><br>
+
+
+        <u>ข้อสรุปที่ 2:</u> D ≠ C<br>
+        จากเงื่อนไข 3 = (C + D) <br>
+        C จะเท่ากับ D ไม่ได้ เพราะ ไม่มีเลขจำนวนนับใด ๆ (จำนวนเต็มบวก ใด ๆ) ที่เท่ากันและรวมกันได้ = 3<br>
+            (เลขจำนวนนับ คือเลขจำนวนเต็มบวก เลขศูนย์ เป็นเลขจำนวนเต็ม แต่ไม่ถือว่า เป็นเลขจำนวนเต็มบวก ถือว่าเป็นกลาง (neutral) หรือ  non-negative integer)<br>
+        ถ้า C = 1, D ต้องเท่ากับ 2 จึงจะรวมกันได้ 3<br>
+        ถ้า C = 2, D ต้องเท่ากับ 1 จึงจะรวมกันได้ 3<br>
+		 (C หรือ D จะมีค่าเป็น 1.5 ไม่ได้ เพราะ  1.5 ไม่ใช่จำนวนนับ)<br>
+        ดังนั้น D ≠ C จึงเป็นจริง<br>
+        ข้อสรุปที่ 2 เป็นจริง<br><br>
+
+        ข้อสรุปที่ 1 เป็นจริง<br>
+        ข้อสรุปที่ 2 เป็นจริง<br><br>
+
+        ตอบ ข้อ 1<br>
+
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 34.  <br><br>
+
+            <u>เงื่อนไข</u><br>
+            ถ้า <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3 = (C + D) = E และ<br>
+            C ≯ F ≯ G<br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+
+            <u>ข้อสรุปที่ 1:</u> 3 &gt; 2C<br>
+            <u>ข้อสรุปที่ 2:</u> B + C &lt; F + A
+            <br><br>
+
+        </div>
+
+        <label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q34" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน <span class="checkMark">&#x2713;</span></label>
+        <hr>
+               <u>ข้อสรุปที่ 1:</u>  3 &gt; 2C<br>
+        จาก 3 ไป C ตามเงื่อนไขคือ<br>
+            3 = (C + D)<br>
+            เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา 2C มาเทียบได้ <br>
+            3 = (C + D) ?? 2C<br>
+            3 = (C + D) ?? (C + C)<br>
+            3 = (<span style="color: red"><del>C</del></span> + D) ?? (<span style="color: red"><del>C</del></span> + C)<br>
+            ในเงื่อนไขไม่มีข้อมูลการเปรียบเทียบระหว่าง C กับ D<br>
+            จึงไม่สามารถสรุปได้ว่า (C + D) กับ 2C อะไรมากกว่ากัน<br>
+        ข้อสรุปที่ 1 จึงสรุปได้ไม่แน่ชัด<br><br>
+        <u>ข้อสรุปที่ 2:</u> B + C &lt; F + A<br>
+        ยึดหลักที่ว่า <br>
+        มาก + มาก ย่อมมากกว่า น้อย + น้อย<br>
+        หรือ<br>
+        น้อย + น้อย ย่อมน้อยกว่า มาก + มาก<br><br>
+        ลองเปรียบเทียบ ระหว่าง B กับ F และ C กับ A<br>
+        จาก B ไป F มีเครื่องหมายสวนทางกัน สรุปได้ไม่แน่ชัด<br><br>
+
+        ลองเปรียบเทียบใหม่ ระหว่าง B กับ A และ C กับ F<br>
+        จากการที่เราได้พิสูจน์มาแล้วว่า  A = 3B<br>
+        ดังนั้น<br>
+        B &lt; A ----- (1)<br><br>
+
+        จากเงื่อนไขที่ 2 พบว่า<br>
+        C ≤ F ----- (2)<br><br>
+        (1) + (2)<br>
+        เครื่องหมาย &lt; มีลำดับสูงกว่าเครื่องหมาย ≤ รวมกันได้เครื่องหมาย &lt; <br>
+        B + C &lt; A + F หรือ<br>
+        B + C &lt; F + A<br>
+        ข้อสรุปที่ 2 เป็นจริง<br><br>
+
+        ข้อสรุปที่ 1 ไม่แน่ชัด<br>
+        ข้อสรุปที่ 2 เป็นจริง<br><br>
+
+        ตอบ ตัวเลือกข้อ 4 ข้อสรุปทั้งสองข้อสรุปต่างกัน
+        <hr>
+
+
+        <div class="quiz">
+            <br>ข้อ 35.  <br><br>
+
+            <u>เงื่อนไข</u><br>
+            ถ้า <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3 = (C + D) = E และ<br>
+            C ≯ F ≯ G<br>
+            (กำหนดให้ทุกตัวอักษรเป็นเลขจำนวนนับ)<br><br>
+
+            <u>ข้อสรุปที่ 1:</u> <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = C + G<br>
+            <u>ข้อสรุปที่ 2:</u> C = A
+            <br><br>
+
+        </div>
+
+        <label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+        <label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q35" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน <span class="checkMark">&#x2713;</span></label><hr>
+
+            <u>ข้อสรุปที่ 1:</u><span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> &lt; G + D<br>
+
+            ดูเงื่อนไขในภาพรวม จะเห็นว่า <br>
+            ในเงื่อนไขบรรทัดบน มี <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> และ C<br>
+            ในเงื่อนไขบรรทัดล่าง มี C และ G<br><br>
+
+            ถ้าเราเอา D มาบวกบรรทัดล่าง เราจะได้ (C + D) ใช้เป็นตัวเชื่อมได้ และเราก็จะได้ (G + D) ด้วย <br>
+            กระสุนนัดเดียวได้นก 2 ตัว<br><br>
+
+            เงื่อนไขบรรทัดล่าง เปลี่ยนเครื่องหมาย ปฏิเสธ เป็นเครื่องหมายปกติ<br>
+            C ≤ F ≤ G<br>
+            เอา D บวกตลอด<br>
+            (C + D) ≤ (F + D) ≤ (G + D)<br>
+            จาก <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> ไป (G + D) ตามเงื่อนไขคือ<br>
+            <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> = 3 = (C+D)  ≤ (F + D) ≤ (G + D)<br>
+            ยุบรวม<br>
+            <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> ≤ (G + D)<br><br>
+
+            ตัดสินข้อสรุปที่ 1<br>
+            ข้อสรุปที่ 1: <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> &lt; (G + D)<br>
+            ข้อพิสูจน์เงื่อนไขที่เราพิสูจน์ได้ คือ <span class="frac">A<span class="symbol">/</span><span class="bottom">B</span></span> ≤ (G + D)<br>
+            ข้อสรุปไม่ครอบคลุมเงื่อนไข<br>
+            ข้อสรุปที่ 1 สรุปได้ไม่แน่ชัด<br><br>
+
+            ข้อสรุปที่ 2: C = A<br><br>
+
+            จาก C ไปหา A ตามเงื่อนไข คือ<br>
+            (C + D) = 3  = <span class='frac'>A<span class='symbol'>/</span><span class='bottom'>B</span></span><br>
+            กำจัดส่วน เพื่อให้เหลือ A ข้างหนึ่งเหมือนข้อสรุป โดยการใช้ B คูณตลอด<br>
+            B(C + D) = 3B  = A<br>
+            ยุบรวม <br>
+            B(C + D)  = A
+            ได้ A ข้างหนึ่งแล้ว อีกข้าง เอา C มาเทียบได้<br>
+            ธรรมดา C ก็น้อยกว่า C+D อยู่แล้ว ยิ่งเอา B มาคูณเพิ่ม C+D เข้าไปอีก ก็ยิ่งมากขึ้นกว่าเดิม C จึงน้อยกว่า B(C+D) <br>
+            C < B(C + D)  = A<br>
+            ยุบรวม<br>
+            C < A<br><br>
+            ดังนั้น ข้อสรุปที่ 2 เป็นเท็จ<br><br>
+
+        ข้อสรุปที่ 1 สรุปได้ไม่แน่ชัด<br>
+        ข้อสรุปที่ 2 เป็นเท็จ<br><br>
+
+        ตอบ ข้อ 4 ข้อสรุปทั้งสองข้อสรุปต่างกัน
+
+        <hr>
+		        </div> <!--  จบกรอบคำถามเงื่อนไข ข้อ 31-35    -->
+
+		
+		
+		
+		<br>
+        <strong>ความสามารถในการคิดวิเคราะห์เชิงปริมาณ</strong><br><br>
+        <strong><u>อนุกรม</u></strong><br>
+        <u>คำสั่ง</u> จงเลือกคำตอบจากตัวเลือก 1. – 4. มาเติมลงในช่องว่าง เพื่อให้ได้อนุกรมที่มีความสัมพันธ์ต่อเนื่องกันอย่างสมเหตุสมผลมากที่สุด<br><br>
+
+        <!-- 1-5 อนุกรม  -->
+        <div class="quiz">  <!-- ต้องมี div class="quiz" ทุกข้อ เพราะเอาไปใช้นับจำนวนข้อ  -->
+            ข้อ 36.
+            <div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;"> <!-- box -->
+                <br>
+                <span class='frac'>1<span class='symbol'>/</span><span class='bottom'>2</span></span> &ensp;
+                <span class='frac'>1<span class='symbol'>/</span><span class='bottom'>3</span></span> &ensp;
+                <span class='frac'>2<span class='symbol'>/</span><span class='bottom'>3</span></span> &ensp;
+                2 &ensp;
+                3 &ensp;
+                ........ <br><br>
+
+
+                <label><input type="radio" name="q36" value="0"><span class='frac'>2<span class='symbol'>/</span><span class='bottom'>3</span></span> &ensp; </label><br>
+                <label><input type="radio" name="q36" value="1"><span class='frac'>3<span class='symbol'>/</span><span class='bottom'>2</span></span> &ensp; <span class="checkMark">&#x2713;</span></label><br>
+                <label><input type="radio" name="q36" value="0">2</label><br>
+                <label><input type="radio" name="q36" value="0">3</label><br>
+                <hr>
+                หลัง ÷ หน้า → ตัวถัดไป<br>
+                การหารเศษส่วน ให้เปลี่ยนเครื่องหมายหาร เป็นเครื่องหมายคูณ และกลับตัวหาร จากเศษเป็นส่วน<br>
+                <img src = 'images/real_112233.png'>
+            </div>  <!-- end of box -->
+        </div> <!-- end of quiz -->
+
+        <br>
+        <div class="quiz">
+            ข้อ 37. <br>
+            <div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+                <br>
+                11 &ensp;
+                24 &ensp;
+                39 &ensp;
+                416 &ensp;
+                525 &ensp;
+                ........ <br><br>
+
+
+                <label><input type="radio" name="q37" value="0"> 420</label><br>
+                <label><input type="radio" name="q37" value="1"> 636 <span class="checkMark">&#x2713;</span></label><br>
+                <label><input type="radio" name="q37" value="0"> 760</label><br>
+                <label><input type="radio" name="q37" value="0"> 944</label><br>
+                <hr>
+                เป็นรูปแบบใหม่ แบบแยกร่าง<br>
+                ต้องอาศัยการสังเกตลักษณะตัวเลข<br>
+                เลขตัวหน้าของตัวหลัง = เลขตัวหน้าของตัวหน้า + 1<br>
+                เลขตัวหลัง ยกกำลังสอง ของ 1, 2, 3 ...<br>
+
+                ดังภาพ<br>
+
+                <img src = 'images/112439416525.png'>
+            </div>  <!-- end of box -->
+        </div> <!-- end of quiz -->
+
+
+
+        <div class="quiz">
+            <br>ข้อ 38. <br>
+            <div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+                <br>
+                10 &ensp;
+                5 &ensp;
+                10 &ensp;
+                15 &ensp;
+                20 &ensp;
+                45 &ensp;
+                60 &ensp;
+                135 &ensp;
+                ........ <br><br>
+
+                <label><input type="radio" name="q38" value="0"> 210</label><br>
+                <label><input type="radio" name="q38" value="1"> 240 <span class="checkMark">&#x2713;</span></label><br>
+                <label><input type="radio" name="q38" value="0">  260</label><br>
+                <label><input type="radio" name="q38" value="0"> 121</label><br>
+                <hr>
+                เป็นอนุกรมซ้อน ดังภาพ<br>
+
+                <img src = 'images/1051015204560135.png'>
+            </div>  <!-- end of box -->
+        </div> <!-- end of quiz -->
+
+
+        <div class="quiz">
+            <br>ข้อ 39. <br>
+            <div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+                <br>
+                59 &ensp;
+                68 &ensp;
+                76 &ensp;
+                82 &ensp;
+                84 &ensp;
+                ........ <br><br>
+
+
+                <label><input type="radio" name="q39" value="1"> 88 <span class="checkMark">&#x2713;</span></label><br>
+                <label><input type="radio" name="q39" value="0"> 99</label><br>
+                <label><input type="radio" name="q39" value="0"> 111</label><br>
+                <label><input type="radio" name="q39" value="0"> 121</label><br>
+                <hr>
+                ข้อนี้เป็นรูปแบบใหม่ แบบแยกร่างแล้วรวม พบครั้งแรกในข้อสอบ ก.พ. ปี 2566<br>
+                ถ้าตีแฉก(หลัง - หน้า) แบบธรรมดาทั่วไป จะได้คำตอบ 78<br>
+                แต่คำตอบ 78 ไม่มีในตัวเลือกคำตอบ<br>
+                อย่าเพิ่งคิดว่า ไม่มีคำตอบที่ถูก<br><br>
+
+                ถ้าสังเกตให้ดี จะเห็นว่า <br>
+                59 + 9 = 68<br>
+                68 + 8 = 76<br>
+                76 + 6 = 82<br>
+                82 + 2 = 84<br>
+                สรุปว่า ตัวถัดไป คือแยกเอาตัวหลังของตัวหน้า บวกกับตัวหน้าทั้งหมด<br><br>
+                คำตอบคือ 84 + 4 = 88 ดังภาพ<br>
+                <img src = 'images/5968768284.png'>
+                <br>
+
+
+            </div>  <!-- end of box -->
+        </div> <!-- end of quiz -->
+
+
+        <div class="quiz">
+            <br>ข้อ 40. <br>
+            <div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+                <br>
+                112 &ensp;
+                56 &ensp;
+                14 &ensp;
+                <span class='frac'>7<span class='symbol'>/</span><span class='bottom'>3</span></span>
+                ........ <br><br>
+
+                <label><input type="radio" name="q40" value="1"> <span class='frac'>7<span class='symbol'>/</span><span class='bottom'>24</span></span> <span class="checkMark">&#x2713;</span></label><br>
+                <label><input type="radio" name="q40" value="0"> <span class='frac'>17<span class='symbol'>/</span><span class='bottom'>23</span></span></label><br>
+                <label><input type="radio" name="q40" value="0"> <span class='frac'>14<span class='symbol'>/</span><span class='bottom'>56</span></span></label><br>
+                <label><input type="radio" name="q40" value="0"> <span class='frac'>46<span class='symbol'>/</span><span class='bottom'>53</span></span></label><br>
+                <hr>
+
+                ตีแฉก ดังภาพ<br><br>
+                <img src = 'images/real_112561473.png'>
+
+            </div>  <!-- end of box -->
+        </div> <!-- end of quiz -->
+
+        <br><br>
+        <strong><u>โจทย์คณิตศาสตร์ </u></strong><br><br>
+        <u>คำสั่ง</u> จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก 1. – 4. แล้วกดเลือกคำตอบ<br><br>
+
+        <!-- 11-15 คณิตศาสตร์ทั่วไป  operate 1 ข้อ  -->
+        <div class="quiz">
+            ข้อ 41. <br>
+            ถ้า 5 * 4 = 41 และ<br>
+            7 * 6 = 85 แล้ว<br>
+            11 * 9 = ?  <br>
+            <hr>
+            ตอบ<br>
+            หน้ากำลังสอง + หลังกำลังสอง
+            11<sup>2</sup> + 9<sup>2</sup> = 202<br>
+        </div>
+        <hr>
+        <br>
+        <label><input type="radio" name="q41" value="0">31</label><br>
+        <label><input type="radio" name="q41" value="1">202 <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q41" value="0">92</label><br>
+        <label><input type="radio" name="q41" value="0">280</label><br>
+
+        <div class="quiz">
+            <br>ข้อ 42. <br>
+            ซื้อของอย่างหนึ่งมาในราคา 2,550 บาท ถ้าต้องการขายให้ได้กำไร 30% จะต้องขายของชิ้นนี้ ในราคาเท่าไร<br>
+            <hr>
+            130% ของ 2,550 = <span class="frac">130<span class="symbol">/</span><span class="bottom">100</span></span> × 2,550 = 3,315 บาท<br>
+            <hr>
+            <!-- 130% x 2,550 = 3,315 บาท  -->
+        </div>
+
+        <label><input type="radio" name="q42" value="0">1,540 บาท</label><br>
+        <label><input type="radio" name="q42" value="0">2,450 บาท</label><br>
+        <label><input type="radio" name="q42" value="1">3,315 บาท <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q42" value="0">3,425 บาท</label><br>
+
+
+        <div class="quiz">
+            <br>ข้อ 43. <br>
+            มีสัตว์ทั้งหมด 2,448 ตัว โดยมี ไก่ : วัว = 3 : 4 และ วัว : หมู = 8 : 10 ถามว่า มีหมูมากกว่า ไก่ กี่ตัว<br>
+            <hr>
+            จะเห็นว่า อัตราส่วนที่ให้มา คือ <br>
+            ไก่ : วัว = 3 : 4 และ <br>
+            วัว : หมู =  8 : 10<br><br>
+
+            มีตัวเชื่อมคือ วัว แต่ยังหาอัตราส่วน ไก่ :  วัว  : หมู ยังไม่ได้ เพราะ อัตราส่วนยังไม่เท่ากัน เราต้องทำให้ วัว เท่ากันก่อน โดยเอา 2 คูณ อัตราส่วน ไก่ : วัว เพื่อให้ วัว เป็น 8 จะได้เชื่อมกันได้<br><br>
+            เอา 2 คูณ<br>
+            ไก่ : วัว =  6 : 8<br>
+            ดังนั้น  ไก่ : วัว  : หมู = 6 : 8 : 10<br>
+            สัตว์ทั้งหมด 6+8+10 หรือ 24 ส่วน มีจำนวน  2,448 ตัว<br>
+            มีไก่ 6 ส่วน คิดเป็น
+            <span class="frac">2,448<span class="symbol">/</span><span class="bottom">24</span></span> × 6 = 612 ตัว<br>
+            มีหมู 10 ส่วน คิดเป็น
+            <span class="frac">2,448<span class="symbol">/</span><span class="bottom">24</span></span> × 10 = 1,020 ตัว<br><br>
+            มีหมูมากกว่าไก่ = 1,020 - 612 = 408 ตัว<br><br>
+            ตอบ 408 ตัว<br>
+
+            <hr>
+        </div>
+        <br>
+        <label><input type="radio" name="q43" value="0">300 ตัว</label><br>
+        <label><input type="radio" name="q43" value="0">350 ตัว</label><br>
+        <label><input type="radio" name="q43" value="1">408 ตัว<span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q43" value="0">470 ตัว</label><br>
+
+
+
+        <div class="quiz">
+            <br>ข้อ 44. <br>
+            มีนักเรียน 8 คน อายุ 6, 7, 8, 10, 13, 14 ปี ส่วนที่เหลืออีก 2 คน เป็นเด็กฝาแฝด อายุเฉลี่ยของเด็กทั้ง 8 คน คือ 9 ปี อยากทราบว่า เด็กฝาแฝด อายุเท่าไร?<br>
+            <hr>
+            เด็กฝาแฝด อายุเท่ากัน <br>
+            สมมุติให้เด็กฝาแฝด มีอายุ X ปี <br>
+            เด็กฝาแฝด 2 คน อายุ = 2X ปี<br>
+            เมื่อนำอายุมารวมกัน แล้วหารด้วยจำนวนคน ก็จะเป็นอายุเฉลี่ย<br>
+            <span class="frac">(6+7+8+10+13+14+2X)<span class="symbol">/</span><span class="bottom">8</span></span> = 9<br>
+            คูณไขว้ <br>
+            (6+7+8+10+13+14+2X) = 9 × 8<br>
+            2X = 72 - (6+7+8+10+13+14)<br>
+            2X = 72 - 58<br>
+            X = <span class="frac">14<span class="symbol">/</span><span class="bottom">2</span></span><br>
+
+
+            X = 7
+            <hr>
+        </div>
+
+        <label><input type="radio" name="q44" value="0">6 ปี </label><br>
+        <label><input type="radio" name="q44" value="1">7 ปี <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q44" value="0">8 ปี </label><br>
+        <label><input type="radio" name="q44" value="0">9 ปี </label><br>
+
+        <div class="quiz">
+            <br>ข้อ 45. <br>
+            นาย A ขายเสื้อฟุตบอลให้นาย B ได้กำไร 25% นาย B ขายให้นาย C ขาดทุน 40% นาย C ขายให้นาย D ขาดทุน 30% นาย D ซื้อจากนาย C เป็นเงิน 210 บาท ถามว่า นาย A ซื้อเสื้อตัวนี้มา กี่บาท?<br>
+            <hr>
+            วิธีคิด<br>
+            C ขาย D  210 ขาดทุน 30% <br>
+            ทุน 100 ขายไป 100-30 = 70 <br>
+            เทียบบัญญัติไตรยางค์ <br>
+            ขาย 70 ทุน 100 <br>
+            ถ้าขาย 210 ทุน = <span class="frac">100<span class="symbol">/</span><span class="bottom">70</span></span> × 210 = 300 บาท<br>
+            หรือคิด 70% ของ 210 = ?<br>
+            <span class="frac">100<span class="symbol">/</span><span class="bottom">70</span></span> × 210 = 300 บาท<br><br>
+
+            B ขาย C  300 ขาดทุน 40% <br>
+            60% ของ 300 =  <span class="frac">100<span class="symbol">/</span><span class="bottom">60</span></span> × 300 = 500 บาท<br><br>
+
+            A ขาย B  500 กำไร 25%<br>
+            125% ของ 500 =  <span class="frac">100<span class="symbol">/</span><span class="bottom">125</span></span> × 500 = 400 บาท<br>
+            ตอบ 400 บาท<br>
+            <hr>
+        </div>
+
+        <label><input type="radio" name="q45" value="0">350</label><br>
+        <label><input type="radio" name="q45" value="1">400 <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q45" value="0">425</label><br>
+        <label><input type="radio" name="q45" value="0">450</label><br><br>
+
+        <strong>การวิเคราะห์ข้อมูล</strong><br><br>
+        <u>คำสั่ง </u>ให้ศึกษาและทำความเข้าใจกับข้อมูลซึ่งเป็นตารางที่กำหนดให้ แล้วจึงอาศัยความรู้ความเข้าใจ จากข้อมูลนั้น ๆ เป็นหลักในการทำตอบ<br><br>
+
+        <!-- 6-10 ตาราง  -->
+
+        <strong>สำหรับ ข้อ 46-50</strong><br><br>
+        <strong>การนําเข้าสินค้าเครื่องใช้ไฟฟ้าของไทย</strong>
+        <div align='right'>หน่วย : พันล้านบาท&ensp;&ensp;</div>
+        <!--  table  -->
+        <table class="shrink_text">
+            <tr style='text-align: center;'><th rowspan=2  style='vertical-align: middle;'>มกราคม</th><th colspan=3> มูลค่า</th><th colspan=3>ส่วนแบ่งตลาด (ร้อยละ)</th><th colspan=2>อัตราขยายตัว (%Δ)</th></tr>
+            <tr style='text-align: center;'><th style='text-align: center;'>ปี 1</th><th style='text-align: center;'>ปี 2</th><th style='text-align: center;'>ปี 3</th><th style='text-align: center;'>ปี 1</th><th style='text-align: center;'>ปี 2</th><th style='text-align: center;'>ปี 3</th><th style='text-align: center;'>ปี 2</th><th style='text-align: center;'>ปี 3</th></tr>
+            <tr style='text-align: right;'><td>จีน &ensp;</td><td>22.88&ensp;</td><td>36.92&ensp;</td><td>?&ensp;</td><td>20.15&ensp;</td><td>20.67&ensp;</td><td>28.79&ensp;</td><td>61.36&ensp;</td><td>39.39<span style = "color:green; font-weight: bold">&nbsp;&#8593;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>เกาหลี &ensp;</td><td>33.06&ensp;</td><td>47.86&ensp;</td><td>?&ensp;</td><td>29.11&ensp;</td><td>26.79&ensp;</td><td>18.54&ensp;</td><td>44.77&ensp;</td><td>-30.78<span style = "color:red; font-weight: bold">&nbsp;&#8595;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>มาเลเซีย &ensp;</td><td>15.81&ensp;</td><td>29.90&ensp;</td><td>28.24&ensp;</td><td>13.92&ensp;</td><td>16.74&ensp;</td><td>15.80&ensp;</td><td>?&ensp;</td><td>-5.55<span style = "color:red; font-weight: bold">&nbsp;&#8595;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>ไต้หวัน &ensp;</td><td>13.62&ensp;</td><td>22.38&ensp;</td><td>21.62&ensp;</td><td>11.99&ensp;</td><td>12.53&ensp;</td><td>12.10&ensp;</td><td>64.32&ensp;</td><td>-3.40<span style = "color:red; font-weight: bold">&nbsp;&#8595;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>สิงคโปร์ &ensp;</td><td>10.94&ensp;</td><td>16.84&ensp;</td><td>15.18&ensp;</td><td>9.63&ensp;</td><td>9.43&ensp;</td><td>8.49&ensp;</td><td>?&ensp;</td><td>-9.86<span style = "color:red; font-weight: bold">&nbsp;&#8595;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>เวียตนาม &ensp;</td><td>9.52&ensp;</td><td>12.29&ensp;</td><td>?&ensp;</td><td>8.38&ensp;</td><td>?&ensp;</td><td>6.88&ensp;</td><td>?&ensp;</td><td>0.00&ensp;</td></tr>
+            <tr style='text-align: right;'><td>ฟิลิปปินส์ &ensp;</td><td>4.51&ensp;</td><td>7.00&ensp;</td><td>10.82&ensp;</td><td>3.97&ensp;</td><td>3.92&ensp;</td><td>6.05&ensp;</td><td>55.21&ensp;</td><td>54.57<span style = "color:green; font-weight: bold">&nbsp;&#8593;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>ฮ่องกง &ensp;</td><td>3.23&ensp;</td><td>5.43&ensp;</td><td>5.99&ensp;</td><td>2.84&ensp;</td><td>3.04&ensp;</td><td>3.35&ensp;</td><td>68.11&ensp;</td><td>10.31<span style = "color:green; font-weight: bold">&nbsp;&#8593;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>รวม &ensp;</td><td>113.57&ensp;</td><td>178.62&ensp;</td><td>178.73&ensp;</td><td>100.00&ensp;</td><td>100.00&ensp;</td><td>100.00&ensp;</td><td>465.92&ensp;</td><td>54.69<span style = "color:green; font-weight: bold">&nbsp;&#8593;</span>&ensp;</td></tr>
+        </table><br><hr>
+        <u><strong>เฉลย</strong></u><br>
+
+        <ol>
+            <li><strong>หาส่วนแบ่งตลาด</strong>  โดยคำนวณจากสูตร <br>
+                ส่วนแบ่งตลาด = <span class="frac">มูลค่าการนำเข้า<span class="symbol">/</span><span class="bottom">มูลค่ารวมทั้งหมด</span></span> × 100  เช่น<br>
+                ส่วนแบ่งตลาดของเวียตนาม ปี 2 = <span class="frac">12.39<span class="symbol">/</span><span class="bottom">178.62</span></span> × 100 = 6.88<br><br>
+            </li>
+            <li><strong>หามูลค่าการนำเข้า</strong>  โดยคำนวณจากสูตร การหาส่วนแบ่งตลาด<br>
+                ส่วนแบ่งตลาด = <span class="frac">มูลค่าการนำเข้า<span class="symbol">/</span><span class="bottom">มูลค่ารวมทั้งหมด</span></span> × 100  เช่น<br>
+                หามูลค่าการนำเข้าของจีน ในปีที่ 3 คือ<br>
+                28.79 = <span class="frac">?<span class="symbol">/</span><span class="bottom">178.73</span></span> × 100<br>
+
+                ? = <span class="frac">28.79 × 178.73<span class="symbol">/</span><span class="bottom">100</span></span><br>
+
+                ? = 51.46<br><br>
+            </li>
+
+            <li><strong>หาอัตราการขยายตัว</strong> หรือ อัตราการเปลี่ยนแปลง ด้วยสูตร <br>
+                หาอัตราการขยายตัว = <span class="frac">ปลาย - ต้น<span class="symbol">/</span><span class="bottom">ต้น</span></span> × 100 เช่น<br>
+                %Δ ของมาเลเซีย ปีที่ 2 คือ <span class="frac">29.90 - 15.81<span class="symbol">/</span><span class="bottom">15.81</span></span> × 100 = 89.12</li>
+        </ol>
+
+        <strong>ตารางที่คำนวณเสร็จแล้ว มีดังนี้</strong><br><br>
+        <strong>การนําเข้าสินค้าเครื่องใช้ไฟฟ้าของไทย</strong>
+        <div align='right'>หน่วย : พันล้านบาท&ensp;&ensp;</div>
+        <table  class="shrink_text">
+            <tr style='text-align: center;'><th rowspan=2  style='vertical-align: middle;'>มกราคม</th><th colspan=3> มูลค่า</th><th colspan=3>ส่วนแบ่งตลาด (ร้อยละ)</th><th colspan=2>อัตราขยายตัว (%Δ)</th></tr>
+            <tr style='text-align: center;'><th style='text-align: center;'>ปี 1</th><th style='text-align: center;'>ปี 2</th><th style='text-align: center;'>ปี 3</th><th style='text-align: center;'>ปี 1</th><th style='text-align: center;'>ปี 2</th><th style='text-align: center;'>ปี 3</th><th style='text-align: center;'>ปี 2</th><th style='text-align: center;'>ปี 3</th></tr>
+            <tr style='text-align: right;'><td>จีน &ensp;</td><td>22.88&ensp;</td><td>36.92&ensp;</td><td><font style="color:red">51.46</font>&ensp;</td><td>20.15&ensp;</td><td>20.67&ensp;</td><td>28.79&ensp;</td><td>61.36&ensp;</td><td>39.39<span style = "color:green; font-weight: bold">&nbsp;&#8593;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>เกาหลี &ensp;</td><td>33.06&ensp;</td><td>47.86&ensp;</td><td><font style="color:red">33.13</font>&ensp;</td><td>29.11&ensp;</td><td>26.79&ensp;</td><td>18.54&ensp;</td><td>44.77&ensp;</td><td>-30.78<span style = "color:red; font-weight: bold">&nbsp;&#8595;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>มาเลเซีย &ensp;</td><td>15.81&ensp;</td><td>29.90&ensp;</td><td>28.24&ensp;</td><td>13.92&ensp;</td><td>16.74&ensp;</td><td>15.80&ensp;</td><td><font style="color:red">89.12</font>&ensp;</td><td>-5.55<span style = "color:red; font-weight: bold">&nbsp;&#8595;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>ไต้หวัน &ensp;</td><td>13.62&ensp;</td><td>22.38&ensp;</td><td>21.62&ensp;</td><td>11.99&ensp;</td><td>12.53&ensp;</td><td>12.10&ensp;</td><td>64.32&ensp;</td><td>-3.40<span style = "color:red; font-weight: bold">&nbsp;&#8595;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>สิงคโปร์ &ensp;</td><td>10.94&ensp;</td><td>16.84&ensp;</td><td>15.18&ensp;</td><td>9.63&ensp;</td><td>9.43&ensp;</td><td>8.49&ensp;</td><td><font style="color:red">53.93</font>&ensp;</td><td>-9.86<span style = "color:red; font-weight: bold">&nbsp;&#8595;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>เวียตนาม &ensp;</td><td>9.52&ensp;</td><td>12.29&ensp;</td><td><font style="color:red">12.29</font>&ensp;</td><td>8.38&ensp;</td><td><font style="color:red">6.88</font>&ensp;</td><td>6.88&ensp;</td><td><font style="color:red">29.10</font>&ensp;</td><td>0.00&ensp;</td></tr>
+            <tr style='text-align: right;'><td>ฟิลิปปินส์ &ensp;</td><td>4.51&ensp;</td><td>7.00&ensp;</td><td>10.82&ensp;</td><td>3.97&ensp;</td><td>3.92&ensp;</td><td>6.05&ensp;</td><td>55.21&ensp;</td><td>54.57<span style = "color:green; font-weight: bold">&nbsp;&#8593;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>ฮ่องกง &ensp;</td><td>3.23&ensp;</td><td>5.43&ensp;</td><td>5.99&ensp;</td><td>2.84&ensp;</td><td>3.04&ensp;</td><td>3.35&ensp;</td><td>68.11&ensp;</td><td>10.31<span style = "color:green; font-weight: bold">&nbsp;&#8593;</span>&ensp;</td></tr>
+            <tr style='text-align: right;'><td>รวม &ensp;</td><td>113.57&ensp;</td><td>178.62&ensp;</td><td>178.73&ensp;</td><td>100.00&ensp;</td><td>100.00&ensp;</td><td>100.00&ensp;</td><td>465.92&ensp;</td><td>54.69<span style = "color:green; font-weight: bold">&nbsp;&#8593;</span>&ensp;</td></tr>
+
+        </table>
+        <hr><br>
+
+        <div class="qstn-div">  <!--  สำหรับข้อความที่ scroll ได้ สำหรับบทความ หรือ ตาราง -->
+
+            <div class="quiz">
+                ข้อ 46. <br>
+                ในปีที่ 2 การนำเข้าสินค้าจากประเทศใด มีอัตราการขยายตัว จากปีที่ 1 สูงที่สุด?<br>
+            </div>
+
+            <label><input type="radio" name="q46" value="0">ใต้หวัน</label><br>
+            <label><input type="radio" name="q46" value="0">จีน</label><br>
+            <label><input type="radio" name="q46" value="0">ฮ่องกง</label><br>
+            <label><input type="radio" name="q46" value="1">มาเลเซีย <span class="checkMark">&#x2713;</span></label><br><br>
+
+
+            <div class="quiz">
+                ข้อ 47. <br>
+                ข้อใดกล่าวถูกต้อง เกี่ยวกับการนำเข้าสินค้าของไทย ในปีที่ 3<br>
+            </div>
+
+            <label><input type="radio" name="q47" value="1">สิงคโปร์และเวียตนาม ส่งสินค้ามาไทย รวมกันประมาณ 27,000 ล้านบาท <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q47" value="0">ไต้หวันและสิงคโปร์ส่งสินค้าเข้าไทย รวมกันแล้ว น้อยกว่า เกาหลี</label><br>
+            <label><input type="radio" name="q47" value="0">ฟิลิปปินส์และฮ่องกง ส่งสินค้าเข้าไทย รวมกันแล้ว ยังน้อยกว่า เวียตนาม</label><br>
+            <label><input type="radio" name="q47" value="0">เกาหลี ส่งสินค้าเข้าไทย มากกว่า จีน </label><br><br>
+
+
+
+
+            <div class="quiz">
+                ข้อ 48. <br>
+                ในปีที่ 2 ประเทศที่ส่งสินค้าเข้าไทย ที่มีอัตราการขยายตัว มากกว่า 60% คือ ข้อใด?
+            </div>
+
+            <label><input type="radio" name="q48" value="0"> จีน มาเลเซีย ฟิลิปปินส์ ฮ่องกง</label><br>
+            <label><input type="radio" name="q48" value="0"> จีน มาเลเซีย ไต้หวัน ฟิลิปปินส์ </label><br>
+            <label><input type="radio" name="q48" value="0"> จีน เกาหลี สิงคโปร์ เวียตนาม</label><br>
+            <label><input type="radio" name="q48" value="1"> จีน มาเลเซีย ไต้หวัน ฮ่องกง <span class="checkMark">&#x2713;</span></label><br><br>
+
+
+            <div class="quiz">
+                ข้อ 49. <br>
+                ข้อใด กล่าวถูกต้อง?
+            </div>
+
+            <label><input type="radio" name="q49" value="0"> ทุกประเทศ ส่งสินค้าเข้าไทย มีอัตราการขยายตัวเพิ่มขึ้นในปีที่ 2 แต่ลดลงในปีที่ 3</label><br>
+            <label><input type="radio" name="q49" value="0"> ทุกประเทศ ส่งสินค้าเข้าไทย มีมูลค่าเพิ่มขึ้นอย่างต่อเนื่อง ทุกปี</label><br>
+            <label><input type="radio" name="q49" value="1"> อัตราการขยายตัวสูงสุดในปีที่ 2 สูงกว่า อัตราการขยายตัวสูงสุดในปีที่ 3 <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q49" value="0">เกาหลี มีมูลค่าการส่งสินค้าเข้าไทย เพิ่มขึ้นทุกปี </label><br><br>
+
+
+            <div class="quiz">
+                ข้อ 50. <br>
+                ข้อใด กล่าวถูกต้องเกี่ยวกับส่วนแบ่งตลาด?
+            </div>
+
+            <label><input type="radio" name="q50" value="0">ทุกประเทศ มีส่วนแบ่งตลาด ลดลงทุกปี</label><br>
+            <label><input type="radio" name="q50" value="1"> ปีที่ 2 ไต้หวัน มีส่วนแบ่งตลาด มากกว่า เวียตนาม ประมาณ 2 เท่า <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q50" value="0"> ปีที่ 3 เกาหลี มีส่วนแบ่งตลาด มากกว่าร้อยละ 50</label><br>
+            <label><input type="radio" name="q50" value="0">จีนมีส่วนแบ่งตลาด รวมทั้งสามปี มากกว่า ส่วนแบ่งตลาดของเกาหลี ในระยะเวลาเดียวกัน</label><br>
+
+        </div>  <!-- qstn-div  -->
+
+
+
+
+    </div> <!--  end of quiz_general  -->
+    <!-- =================== END OF GENERAL ================  -->
+
+    <!-- =================== ENGLISH ================  -->
+    <br><br>
+    <div style="text-align: center;">
+        <strong>ข้อสอบวิชาภาษาอังกฤษ </strong> <br>(เกณฑ์ผ่าน 50%)</div><br>
+
+    <div id="quiz_english">
+
+        <!-- 51-55 conversation  -->
+        <strong><u>Conversation</u></strong><br>
+        <u>Instructions:</u> Select the most appropriate choice for each item.<br><br>
+
+        <div class="qstn-div">
+            <!-- "D:\_ocsc_resources\full_exam_video\full_exam_all_01\rawi_เงื่อนไขภาษา.mp4"  -->
+            <!--  "D:\_ocsc_resources\full_exam_video\full_exam_all_01\Rawi_เงื่อนไขภาษา.png"   -->
+            <table>
+                <tr class="painted"><td class="painted">Peter: </td><td class="painted">Hi Sam, how have you been? ___(51)_____ lately(เมื่อเร็ว ๆ นี้).</td></tr>
+                <tr class="painted"><td class="painted">Sam: </td><td class="painted">Good, thanks. Actually(ความจริงก็คือว่า...), I have been working(ทำงาน) and traveling(เดินทาง) a lot. </td></tr>
+                <tr class="painted"><td class="painted">Peter: </td><td class="painted">Last time(ครั้งที่แล้ว) we met, you had just started(เริ่ม) your new job(งานใหม่) at a
+                    multinational company(บริษัทข้ามชาติ-นานาชาติ). So,
+                    (52)_____?</td></tr>
+                <tr class="painted"><td class="painted">Sam: </td><td class="painted">As a human resources manager(ผู้จัดการแผนกทรัพยากรมนุษย์), I have to work with many office managers(ผู้จัดการ-หัวหน้าแผนกต่าง ๆ) and international offices(สำนักงานต่างประเทศ) to develop(พัฒนา) and deal(จัดการในเรื่อง...) with the human resources process(ขั้นตอน) and procedures(กระบวนการ).</td></tr>
+                <tr class="painted"><td class="painted">Peter: </td><td class="painted">That sounds interesting(ฟังดูน่าสนใจดี). I think your previous(ก่อนหน้านี้) experience(ประสบการณ์) can help(ช่วย) you a lot.</td></tr>
+                <tr class="painted"><td class="painted">Sam: </td><td class="painted">Yes, (53)___. But there are a lot of new things here.
+                    Though(แม้ว่า) I am not totally(ทั้งหมด) new(ใหม่) in this field(หมายถึง ด้านการทำงานเกี่ยวกับต่างประเทศ), _____(54)______ in
+                    multinational company before. I have to learn about human
+                    resources technologies and cultural(ทางด้านวัฒนธรรม) diversity(ความหลากหลาย).</td></tr>
+                <tr class="painted"><td class="painted">Peter: </td><td class="painted">It is a ____(55)____ opportunity(โอกาส). It's going to be OK.</td></tr>
+            </table>
+        </div>  <!-- end of class="qstn-div" -->
+        <br>
+        <div class="qstn-div">
+            <div class="quiz">
+                <br>ข้อ 51. <br>
+
+            </div>
+
+            <br>
+            <label><input type="radio" name="q51" value="1">I haven't seen you around (หมู่นี้ ไม่ค่อยได้เจอกันเลย)<span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q51" value="0">I have seen you</label><br>
+            <label><input type="radio" name="q51" value="0">I have been there</label><br>
+            <label><input type="radio" name="q51" value="0">I have talked to you</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 52. <br>
+            </div>
+            <br>
+            <label><input type="radio" name="q52" value="0">What do you do(หมู่นี้ทำงานการอะไร)</label><br>
+            <label><input type="radio" name="q52" value="1">How is it going (เป็นยังไงบ้าง -- คือต่อเนื่องมาจากการคุยกันว่าได้งานใหม่ ก็เลยถามว่า แล้วไอ้เจ้างานใหม่มันไปได้สวยไหม หรือ เป็นไงบ้าง)<span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q52" value="0">Do you travel a lot (คุณต้องเดินทางบ่อยไหม)</label><br>
+            <label><input type="radio" name="q52" value="0">Where have you been(คุณไปอยู่ที่ไหน)</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 53. <br>
+            </div>
+
+            <br>
+            <label><input type="radio" name="q53" value="0">I can</label><br>
+            <label><input type="radio" name="q53" value="1">I think so (ฉันก็คิดเช่นนั้นเหมือนกัน)<span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q53" value="0">you do so</label><br>
+            <label><input type="radio" name="q53" value="0">you may</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 54. <br>
+
+            </div>
+
+            <br>
+            <label><input type="radio" name="q54" value="0">I have never worked (ฉ้นไม่เคยทำงาน)</label><br>
+            <label><input type="radio" name="q54" value="0">I would like to be (ฉันอยากจะ...)</label><br>
+            <label><input type="radio" name="q54" value="1">I have been (ฉันเคย...<span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q54" value="0">I want to work</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 55. <br>
+            </div>
+            <br>
+            <label><input type="radio" name="q55" value="1">challenging (ท้าทาย)<span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q55" value="0">violent (รุนแรง)</label><br>
+            <label><input type="radio" name="q55" value="0">peaceful (สันติ สงบ)</label><br>
+            <label><input type="radio" name="q55" value="0">terrible (เลวร้าย)</label><br>
+        </div>  <!--  end of class="qstn-div" -->
+
+        <br>
+        <!-- 56-60 vocab  -->
+        <u><strong>Vocabulary</strong></u><br>
+        <div class="quiz">
+
+            <br>ข้อ 56. <br>
+            ________ driving (การขับรถยนต์) is one of the leading(แนวหน้า) causes(สาเหตุ) of death(ความตาย) in Thailand. So, when it comes to(เมื่อพูดถึงเรื่อง) driving, don't be a multitasker(ทำหลายอย่างในเวลาเดียวกัน).<br>
+            การขับรถที่ _______ เป็นหนึ่งในสาเหตุใหญ่ที่ทำให้เสียชีวิต(ของผู้คน)ในประเทศไทย ดังนั้น เมื่อพูดถีงเรื่องการขับรถ กรุณาอย่าทำหลายอย่างในเวลาเดียวกัน (เช่น ใช้โทรศัพท์ขณะขับรถ)<br>
+        </div>
+
+        <br>
+        <label><input type="radio" name="q56" value="0">Considerate = คิดถึงอกเขาอกเรา, consider = คิด</label><br>
+        <label><input type="radio" name="q56" value="1">Distracted (driving) = (การขับรถที่)ถูกดึงความสนใจออกไป, Distracted = ถูกทำให้ไขว้เขว<span style="color: green">&#x2713;</span></label><br>
+        <label><input type="radio" name="q56" value="0">Cautious = อย่างระมัดระวัง</label><br>&emsp;&nbsp;<img style="width:100%; max-width:200px;" src="images/caution.png"><br>
+        <label><input type="radio" name="q56" value="0">Courteous = มีมารยาท, นอบน้อม</label>
+        <br>
+
+        <div class="quiz">
+            <br>ข้อ 57. <br>
+            The library is ........ closed(ปิด). It'll open next month.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q57" value="0">hardly(แทบจะไม่มีเลย)</label><br>
+        <label><input type="radio" name="q57" value="1">temporarily (เป็นการชั่วคราว) <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q57" value="0">extensively (อย่างกว้างขวาง ครอบคลุม)</label><br>
+        <label><input type="radio" name="q57" value="0">permanently (อย่างถาวร)</label><br>
+
+        <div class="quiz">
+            <br>ข้อ 58. <br>
+            The price doesn't ........... the additional(ที่เพิ่มขึ้น) charges and taxes(ภาษี).
+        </div>
+
+        <br>
+        <label><input type="radio" name="q58" value="1">include (รวม) <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q58" value="0">extend (ต่อออกไป)</label><br>
+        <label><input type="radio" name="q58" value="0">excempt (ยกเว้น)</label><br>
+        <label><input type="radio" name="q58" value="0">maintain (รักษาไว้ให้คงอยู่)</label><br>
+
+        <div class="quiz">
+            <br>ข้อ 59. <br>
+            I was given some pills(ยาเม็ด) to .............. the pain.(ความเจ็บปวด).
+        </div>
+
+        <br>
+        <label><input type="radio" name="q59" value="1">take away (ทำให้หายไป) <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q59" value="0">take off (เครื่องบินขึ้น, ถอด -- ใช้กับเสื้อผ้า รองเท้า)</label><br>
+        <label><input type="radio" name="q59" value="0">take care(ดูแล)</label><br>
+        <label><input type="radio" name="q59" value="0">take part(เข้าไปมีส่วนร่วม)</label><br>
+
+        <div class="quiz">
+            <br>ข้อ 60. <br>
+            He can't ........... the fact(ความจริง) that his problems(ปัญหา) are his own(ของตนเอง) fault(ความผิด).
+        </div>
+
+        <br>
+        <label><input type="radio" name="q60" value="0">access (เข้าถึง)</label><br>
+        <label><input type="radio" name="q60" value="1">accept (ยอมรับ) <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q60" value="0">except(เว้นแต่)</label><br>
+        <label><input type="radio" name="q60" value="0">excerpt(ข้อความที่ตัดมาจาก...)</label><br><br>
+
+        <!-- 61-65 structure  -->
+        <u><strong>Structure</strong></u><br>
+        <u>Instructions:</u> Choose the correct answer.<br>
+        <div class="quiz">
+            <br>ข้อ 61. <br>
+            We are having our house .............. this weekend.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q61" value="0">paint</label><br>
+        <label><input type="radio" name="q61" value="1">painted <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q61" value="0">to paint</label><br>
+        <label><input type="radio" name="q61" value="0">painting</label><br>
+        <hr>
+        <u><strong>อธิบายเพิ่มเติม</strong></u><br><br>
+        <strong>have + something + กริยาช่อง 3</strong><br>
+        เน้นที่สิ่งของว่าได้มีการทำอย่างนั้นแล้ว ไม่เน้นว่าใครทำ กรณีนี้คือ เน้นว่า บ้านฉันสีฟ้านะ<br>
+        I have my house painted blue.<br>
+        ฉัน(ให้ใครบางคน)ทาสีบ้านเป็นสีฟ้า <br>หรือ บ้านฉันสีฟ้า<br><br>
+
+        have + someone + do something<br>
+        ให้ใคร ทำอะไร เช่น<br>
+        I had Suda paint my house blue yesterday.<br>
+        ฉันให้สุดาทาสีบ้านฉันสีฟ้า<br>
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 62. <br>
+            Parents should not let their children .............. violent movies.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q62" value="1">watch  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q62" value="0">watched</label><br>
+        <label><input type="radio" name="q62" value="0">to watch</label><br>
+        <label><input type="radio" name="q62" value="0">watching</label>
+        <hr>
+        กริยาที่ตามหลังคำว่า let จะไม่มี to นำหน้า<br>
+        She let me go.<br>
+        เธอปล่อยให้ฉันไป<br>
+        Please release me and let me go. For I don't love you anymore.<br>
+        เพลงของ Engelbert Humperdinck
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 63. <br>
+            We have moved here ............ she was six years old.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q63" value="0">for</label><br>
+        <label><input type="radio" name="q63" value="1">since  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q63" value="0">when</label><br>
+        <label><input type="radio" name="q63" value="0">while</label>
+        <hr>
+        have + กริยาช่อง 3 เป็น Present Perfect tense<br>
+        since = ตั้งแต่เมื่อไรเป็นต้นมา จนถึงทุกวันนี้<br>
+        for = เป็นระยะเวลานานเท่าไร
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 64. <br>
+            Two workers were loading the truck when the phone .............
+        </div>
+
+        <br>
+        <label><input type="radio" name="q64" value="1">rang  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q64" value="0">rings</label><br>
+        <label><input type="radio" name="q64" value="0">ringing</label><br>
+        <label><input type="radio" name="q64" value="0">has rung</label>
+        <hr>
+        Past Continuous ใช้คู่กับ Past Simple Tense<br>
+        เหตุการณ์อะไรสักอย่างกำลังดำเนินอยู่ และมีเหตุการณ์บางอย่างเกิดขึ้น<br>
+        เหตุการณ์ที่กำลังดำเนินอยู่ ใช้เป็น Past Continuous Tense<br>
+        เหตุการณ์บางอย่างเกิดขึ้นมาขัดจังหวัด ใช้เป็น  Past Simple Tense<br>
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 65. <br>
+            Eating too much food can give you ........ stomachache.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q65" value="1">a  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q65" value="0">an</label><br>
+        <label><input type="radio" name="q65" value="0">the</label><br>
+        <label><input type="radio" name="q65" value="0">-</label>
+        <hr>
+        เรื่อง การใช้ a, an, the<br>
+        ใช้ a หรือ an เพื่อนำหน้าความเจ็บไข้ได้ป่วย<br>
+        I had a headache last night.<br>
+        เมื่อคืน ฉันปวดหัว<br>
+        <small>(ดูเรื่อง การใช้ a, an และ the เพิ่มเติม ในหน้าเมนู)</small>
+        <hr>
+
+        <br><br>
+
+        <!-- 66-75 reading  -->
+        <u><strong>Reading</strong></u>
+        <br><br>
+        <strong>สำหรับ ข้อ 66-70</strong><br><br>
+        <strong>Instructions:</strong> Read the following letter and select the best answer for each item.<br><br>
+
+        <div class="qstn-div">
+
+
+            Ms. Joan Rice <br>
+            Purchasing Manager (ผู้จัดการฝ่ายขาย)<br>
+            BB Publisher Company (บริษัท บีบี พับบลิชชิง)<br>
+            Sector 10, Faridabad - 121000 (ที่อยู่)<br><br>
+
+            December 11, 2019<br><br>
+
+            Mr. Norman Campbell (ถึง คุณนอร์แมน แคมเบล)<br>
+            President (ประธาน)<br>
+            New Printech Company Sector - 17, Faridabad – 12190(ที่อยู่)<br><br>
+
+            Dear Mr. Campbell,<br><br>
+
+
+
+            I write to you <div class="tooltip">on behalf<span class="tooltiptext">on behalf = ในนามของ</span></div> of the  <div class="tooltip">company<span class="tooltiptext">company = บริษัท</span></div> to <div class="tooltip">cancel<span class="tooltiptext">cancel = ยกเลิก</span></div> our <div class="tooltip">order<span class="tooltiptext">order = คำสั่ง ในที่นี้คือ คำสั่งซื้อ</span></div>  of ten <div class="tooltip">printers<span class="tooltiptext">printers = เครื่องพิมพ์ 10 เครื่อง</span></div>  from your company. The printer that you have <div class="tooltip">delivered<span class="tooltiptext">delivered = ได้จัดส่งมา</span></div> to us for <div class="tooltip">one-week trial <span class="tooltiptext">one-week trial = ทดลองใช้ 1 สัปดาห์</span></div> has not been <div class="tooltip">performing <span class="tooltiptext">performing = แสดงผลการทำงาน</span></div> well. Some <div class="tooltip">functions <span class="tooltiptext">functions = การทำงานบางอย่าง</span></div> <div class="tooltip"> specified <span class="tooltiptext"> specified = ที่ระบ  </span></div> in the 			<div class="tooltip"> brochure <span class="tooltiptext"> brochure = แผ่นพับ แผ่นปลิว) </span></div>are 			<div class="tooltip"> poorly <span class="tooltiptext"> poorly = แย่มาก ต่ำกว่ามาตรฐาน </span></div> done by the printers. 			<div class="tooltip"> In addition<span class="tooltiptext"> In addition = นอกจากนี้ </span></div>, we have been experiencing 			<div class="tooltip"> problems<span class="tooltiptext"> problems = ปัญหา </span></div> of 			<div class="tooltip"> frequent<span class="tooltiptext"> frequent = ค่อนข้างบ่อย </span></div> 			<div class="tooltip"> paper jams <span class="tooltiptext"> paper jams = กระดาษติด </span></div> and 			<div class="tooltip"> ink blots<span class="tooltiptext"> ink blots = หมึกเลอะ </span></div>. Our 			<div class="tooltip"> technicians <span class="tooltiptext">  technicians = ช่างเทคนิค  </span></div> have already 			<div class="tooltip"> checked <span class="tooltiptext"> checked = ตรวจ </span></div> and 			<div class="tooltip"> repaired<span class="tooltiptext">  repaired = ซ่อม  </span></div> the printer but the problem 			<div class="tooltip"> persist <span class="tooltiptext"> persists = ยังคงอยู่</span></div>.<br><br>            We have 			<div class="tooltip"> decided <span class="tooltiptext"> decided = ตัดสินใจ </span></div> to buy another 			<div class="tooltip"> model <span class="tooltiptext"> model = รุ่น </span></div> of printers from your company. Please send us the 			<div class="tooltip"> brochure<span class="tooltiptext"> brochures = แผ่นพับ </span></div> and the 			<div class="tooltip"> prices <span class="tooltiptext"> prices = ราคา </span></div> of your new model of printers. Our sales 			<div class="tooltip"> manager <span class="tooltiptext"> manager = ผู้จัดการฝ่ายขาย </span></div> will 			<div class="tooltip"> conduct<span class="tooltiptext"> conduct = กระทำ </span></div> other 			<div class="tooltip"> details <span class="tooltiptext"> details = รายละเอียด </span></div> of this 			<div class="tooltip"> business <span class="tooltiptext"> business = ธุรกิจ </span></div> with you.<br><br>
+
+            Sincerely,<br><br>
+
+            XXXXXX<br>
+            Ms. Joan Rice<br>
+
+
+        </div>
+        <br><br>
+
+        <div class="qstn-div">
+            <div class="quiz">
+                <br>ข้อ 66. <br>
+                The purpose(จุดประสงค์) of this letter(จดหมาย) is(คือ) to ............</div>
+
+            <label><input type="radio" name="q66" value="0">return(คืน) the printers that have been used</label><br>
+            <label><input type="radio" name="q66" value="0">ask for(ถามหา) technician(ช่าง) and order(สั่งซื้อ) more printers</label><br>
+            <label><input type="radio" name="q66" value="1">stop(หยุด-ยกเลิก) the order of ten printers and choose(เลือก) another model(รุ่นอื่น) <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q66" value="0">complain(ร้องเรียน) that printers are not the model(รุ่น) specified(ที่ระบุ) in the brochure</label><br>
+
+
+
+            <div class="quiz">
+                <br>ข้อ 67. <br>
+                What is NOT the problem of the one-week trial printer?</div>
+
+            <label><input type="radio" name="q67" value="0">It puts ink spots on the paper. ทำหมึกเป็นจุด(หมึกเลอะ) บนกระดาษ</label><br>
+            <label><input type="radio" name="q67" value="0">Paper jams occur too often.(กระดาษติดบ่อย)</label><br>
+            <label><input type="radio" name="q67" value="0">Some functions do not work well.(การทำงานบางอย่างไม่ทำงาน)</label><br>
+            <label><input type="radio" name="q67" value="1">The printer was not delivered on time. (เครื่องพิมพ์ไม่ได้ส่งตรงเวลา)<span class="checkMark">&#x2713;</span></label><br>
+
+
+
+            <div class="quiz">
+                <br>ข้อ 68. <br>
+                The word “frequent”  means(แปลว่า) ........</div>
+
+            <label><input type="radio" name="q68" value="0">clear (ชัดเจน, ใส)</label><br>
+            <label><input type="radio" name="q68" value="1">happening often (เกิดขึ้นบ่อย)<span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q68" value="0">serious(จริงจัง)</label><br>
+            <label><input type="radio" name="q68" value="0">broken(แตกหัก)</label><br>
+
+
+
+            <div class="quiz">
+                <br>ข้อ 69. <br>
+                What happened(เกิดขึ้น) after(หลังจาก) the technicians had tried to(พยายามที่จะ) repair(ซ่อม) the printer ?</div>
+            <label><input type="radio" name="q69" value="0">The printer was fixed(ได้รับการซ่อม).</label><br>
+            <label><input type="radio" name="q69" value="1">The problems were not solved(ไม่ได้รับการแก้ไข).  <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q69" value="0">The technicians ordered new printers(สั่งเครื่องพิมพ์ใหม่).</label><br>
+            <label><input type="radio" name="q69" value="0">The printer was sent back to(ส่งกลับ) New Printech Company.</label><br>
+
+
+            <div class="quiz">
+                <br>ข้อ 70. <br>
+                Which of the following statements is TRUE(ถูกต้อง) ?</div>
+            <label><input type="radio" name="q70" value="0">Ms. Joan wanted to get a refund(ขอเงินคืน) from New Printech Company.</label><br>
+            <label><input type="radio" name="q70" value="0">Ms. Joan asked the printer company to send(ส่ง) a technician to fix(ซ่อม) ten printers.</label><br>
+            <label><input type="radio" name="q70" value="1">Ms. Joan wanted to get the brochures and the price list(รายการราคา) of new model of printers.  <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q70" value="0">Ms. Joan ordered a wrong model(ผิดรุ่น) of ten printers and wanted to change(เปลี่ยน) the order(คำสั่งซื้อ).</label><br>
+        </div>  <!--  qstn-div  -->
+
+        <br><br>
+        <strong>สำหรับ ข้อ 71-75</strong><br><br>
+        <strong>Instructions:</strong> Read the following passage and select the best answer for each item.<br><br>
+
+        <div class="qstn-div">
+
+            Eating healthy(กินเพื่อสุขภาพ) is more than just(ไม่ใช่แค่) a trend(สมัยนิยม); it's a way to nurture(บำรุงรักษา เลี้ยงดู) your body(ร่างกาย) and mind(จิตใจ). It involves(เกี่ยวข้องกับ) consuming(การบริโภค) a variety(หลากหลายชนิด) of foodsอาหาร in the right(ถูกต้อง) proportions(อัตราส่วน). Whole grains(ธัญพืชที่ไม่ขัดสี), fruits(ผลไม้), vegetables(ผัก), lean proteins(โปรตีนที่มีไขมันอิ่มตัวน้อย), and good fats(ไขมันดี) are the cornerstones(รากฐาน) of a healthy diet(การบริโภคที่มีสุขภาพ). These foods provide(ให้) essential(จำเป็น) nutrients(สารอาหาร) like(อย่างเช่น) vitamins(วิตามิน), minerals(เกลือแร่), and fiber(เส้นใย), which promote(ส่งเสริม) overall(โดยรวม) health(สุขภาพ).<br><br>
+
+            Healthy eating offers(ให้) numerous(มากมาย) benefits(คุณประโยชน์). It helps maintain(รักษาระดับให้เหมือนเดิม) a healthy weight(น้ำหนัก), reducing(ลด) the risk of(เสี่ยง) obesity(โรคอ้วน) and related(เกี่ยวข้อง) conditions(สภาวะ). A balanced diet(การกินที่สมดุล) supports(สนับสนุน) your immune system(ระบบความคุ้มกันของร่างกาย), helping your body fight(ต่อสู้) off illnesses(ความเจ็บป่วย). It also contributes(นำมาซึ่ง) to better mental health(สุขภาพสมองที่ดีกว่า), with some foods like(เช่น) fish(ปลา), nuts(นัท), and seeds(เมล็ดพืช) containing(ที่มี) nutrients(สารอาหาร) that enhance(เพิ่มประสิทธิภาพ) brain function(การทำงานของสมอง).<br><br>
+
+            Moreover(ยิ่งกว่านั้น), healthy eating habits(นิสัย) can <u>lead to</u>(นำไปสู่) increased energy(พลังงานที่เพิ่มขึ้น) levels(ระดับ) and improved(ดีขึ้น) concentration(สมาธิ). It can also(ด้วยเหมือนกัน) reduce(ลด) the risk(ความเสี่ยง) of chronic diseases(โรคที่เป็นเรื้อรัง) such as(เช่น) heart disease(โรคหัวใจ), diabetes(เบาหวาน), and certain types of cancer(มะเร็งบางชนิด). By(โดยการ) making sensible food choices(เลือกอาหารอย่างถูกต้อง), you can enhance(เพิ่มประสิทธิภาพ) your quality of life(คุณภาพชีวิต) and longevity(อายุยืน).<br><br>
+
+            Remember(จำไว้ว่า), it's not about avoiding(หลีกเลี่ยง) your favorite(ที่ชอบ) treats(อาหาร ขนม ของโปรด) entirely(โดยสิ้นเชิง) -- คือหมายความว่า ที่พูดมาทั้งหมด ไม่ได้บอกว่าให้เลิกกินตามที่ปากอยากเสียทั้งหมด คือกินอาหารที่อยากกินแต่อาจจะไม่ค่อยดีต่อสุขภาพ กินได้บ้าง ; it's about moderation(พอประมาณ). You can still enjoy(สนุก) that occasional(บางครั้ง) dessert(ของหวาน) or a favorite snack(อาหารว่าง), but it's essential(จำเป็น) to balance(สมดุล) it with nutritious foods(อาหารที่อุดมไปด้วยสารอาหาร). Healthy eating is a lifelong(ตลอดชีวิต) journey(การเดินทาง), and the choices you make today(การเลือกของท่านในวันนี้) can have a lasting(ยืนยาว) impact(ผลกระทบ) on your well-being(สุขภาพดี).<br>
+            <!-- Generated by ChatGPT   -->
+        </div>
+        <br><br>
+
+        <div class="qstn-div">
+            <div class="quiz">
+                <br>ข้อ 71. <br>
+                What are the cornerstones of a healthy diet? อะไรคือรากฐานของการกินอาหารที่ดีเพื่อสุขภาพ</div>
+
+            <label><input type="radio" name="q71" value="0">Junk food(อาหารขยะ) and sugary beverages(เครื่องดื่มที่มีน้ำตาล)</label><br>
+            <label><input type="radio" name="q71" value="1">Whole grains(ธัญพืชไม่ขัดสี), fruits, vegetables, lean proteins, and good fats <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q71" value="0">Fast food and processed snacks (อาหารว่างที่ผ่านกระบวนการทางอุตสาหกรรม)</label><br>
+            <label><input type="radio" name="q71" value="0">All of the above</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 72. <br>
+                What can a balanced diet help reduce the risk of?<br>
+                การกินอาหารที่สมดุล จะช่วยลดความเสี่ยงเรื่องอะไร</div>
+
+            <label><input type="radio" name="q72" value="0">Gaining(เพิ่ม) weight(น้ำหนัก)</label><br>
+            <label><input type="radio" name="q72" value="1">Chronic diseases like heart disease<br>
+                โรคเรื้อรัง เช่น โรคหัวใจ<span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q72" value="0">Feeling hungry(ความรู้สึกหิว)</label><br>
+            <label><input type="radio" name="q72" value="0">None of the above(ไม่มีข้อถูก)</label><br>
+
+
+
+            <div class="quiz">
+                <br>ข้อ 73. <br>
+                How can healthy eating benefit mental health? การกินที่ดี ช่วยสุขสภาพสมองอย่างไร</div>
+
+            <label><input type="radio" name="q73" value="0">It has no impact(ไม่มีผล) on mental health.</label><br>
+            <label><input type="radio" name="q73" value="1">It can reduce(ลด) stress(ความเครียด) and anxiety(ความวิตก กังวล). <span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q73" value="0"> It only benefits physical health.<br>
+                ให้ประโยชน์เฉพาะด้านกายภาพของสมอง</label><br>
+            <label><input type="radio" name="q73" value="0">It causes mental health issues.<br>
+                ทำให้เกิดปัญหาด้านสุขภาพจิต</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 74. <br>
+                Which of the following is a healthy approach to enjoying favorite treats? ข้อใดที่เป็นทางเลือกในการกินอาหารที่ปากชอบ</div>
+            <label><input type="radio" name="q74" value="0">Avoid them entirely (งด ไม่กินเลย)</label><br>
+            <label><input type="radio" name="q74" value="0">Consume them in excessive amounts(กินให้มากเข้าไว้)</label><br>
+            <label><input type="radio" name="q74" value="1">Balance them with nutritious foods <span class="checkMark">&#x2713;</span>ให้มันสมดุลกัน ระหว่างของที่มีสารอาหารและของที่ปากชอบ</label><br>
+            <label><input type="radio" name="q74" value="0">Treats are bad. Never eat them. <br>ของที่ปากชอบเป็นสิ่งไม่ดี อย่าไปแตะต้อง</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 75. <br>
+                Why is healthy eating considered a lifelong journey? ทำไม การกินเพื่อสุขภาพ จึงจัดว่าเป็นการเดินทางตลอดชีวิต</div>
+            <label><input type="radio" name="q75" value="0">Because it's a short-term fad<br>
+                เป็นแฟชั่นชั่วครั้งชั่วคราว</label><br>
+            <label><input type="radio" name="q75" value="0">Because it's only important for young people<br>เพราะมันสำคัญสำหรับเยาวชน</label><br>
+            <label><input type="radio" name="q75" value="1">Because it can have a lasting impact on well-being<br>
+                เพราะมันมีผลกระทบด้านการมีสุขภาพดี ตลอดชีวิต<span class="checkMark">&#x2713;</span></label><br>
+            <label><input type="radio" name="q75" value="0">Because it's too expensive<br>เพราะมันแพงมากเกินไป</label><br>
+
+        </div>  <!--  qstn-div  -->
+    </div>  <!-- end of div_english   -->
+
+    <!-- =================== END OF ENGLISH ================  -->
+    <!-- =================== LAW ================  -->
+    <br><br>
+    <div style="text-align: center;">
+        <strong>วิชาความรู้และลักษณะการเป็นข้าราชการที่ดี </strong> <br>
+        (เกณฑ์ผ่าน 60%)</div>
+
+    <div id="quiz_law">
+
+        <!-- 76 - 81 ระเบียบบริหาร  -->
+
+
+        <div class="quiz">
+            <br>ข้อ 76. <br>
+            หน่วยงานใดมีอํานาจหน้าที่เกี่ยวกับราชการประจําทั่วไปของสํานักนายกรัฐมนตรี <br>
+        </div>
+
+        <label><input type="radio" name="q76" value="1">สํานักงานปลัดสํานักนายกรัฐมนตรี  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q76" value="0">สํานักเลขาธิการคณะรัฐมนตรี </label><br>
+        <label><input type="radio" name="q76" value="0">สํานักเลขาธิการนายกรัฐมนตรี </label><br>
+        <label><input type="radio" name="q76" value="0">สํานักงานรัฐมนตรี </label>
+        <hr>
+        มาตรา ๑๗ พ.ร.บ.ระเบียบบริหารราชการแผ่นดิน -- สำนักงานปลัดสำนักนายกรัฐมนตรี มีอำนาจหน้าที่เกี่ยวกับราชการประจำทั่วไปของสำนักนายกรัฐมนตรี
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 77. <br>
+            ในกระทรวงหนึ่ง ถ้ามิได้กําหนดให้เป็น อำนาจหน้าที่ของกรมใดกรมหนึ่งโดยเฉพาะ ให้เป็นอํานาจหน้าที่ของหน่วยงานใด รับผิดชอบ<br>
+        </div>
+
+        <label><input type="radio" name="q77" value="0">สํานักนายกรัฐมนตรี </label><br>
+        <label><input type="radio" name="q77" value="0">สํานักงานรัฐมนตรี </label><br>
+        <label><input type="radio" name="q77" value="1">สํานักงานปลัดกระทรวง <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q77" value="0">กรมหรือส่วนราชการที่เรียกชื่ออย่างอื่นและมีฐานะเป็นกรม</label>
+        <hr>
+        มาตรา ๒๓ พ.ร.บ.ระเบียบบริหารราชการแผ่นดิน สำนักงานปลัดกระทรวงมีอำนาจหน้าที่ เกี่ยวกับราชการประจำทั่วไปของกระทรวง และ ราชการที่คณะรัฐมนตรี มิได้กำหนดให้เป็นหน้าที่ของกรมใดกรมหนึ่งในสังกัดกระทรวงโดยเฉพาะ
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 78. <br>
+            ข้อใด<u>ไม่ใช่</u>การจัดระเบียบราชการในกระทรวง <br>
+        </div>
+
+        <label><input type="radio" name="q78" value="1">สํานักนายกรัฐมนตรี <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q78" value="0">สํานักงานรัฐมนตรี </label><br>
+        <label><input type="radio" name="q78" value="0">สํานักงานปลัดกระทรวง</label><br>
+        <label><input type="radio" name="q78" value="0">กรม</label>
+        <hr>
+        สํานักนายกรัฐมนตรี มีฐานะเป็นกระทรวง
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 79. <br>
+            ข้อใด<u>ไม่ใช่</u>การบริหารราชการส่วนกลาง ตามพระราชบัญญัติระเบียบบริหารราชการแผ่นดิน<br>
+        </div>
+
+        <label><input type="radio" name="q79" value="0">กรมส่งเสริมการปกครองส่วนท้องถิ่น</label><br>
+        <label><input type="radio" name="q79" value="0">สํานักงานคณะกรรมการนโยบายรัฐวิสาหกิจ</label><br>
+        <label><input type="radio" name="q79" value="0">สํานักงานปลัดกระทรวงการต่างประเทศ</label><br>
+        <label><input type="radio" name="q79" value="1">จุฬาลงกรณ์มหาวิทยาลัย <span class="checkMark">&#x2713;</span></label>
+        <hr>
+การบริหารราชการส่วนกลางประกอบด้วยสำนักนายกรัฐมนตรี กระทรวง ทบวง กรม<br><br>
+        จุฬาลงกรณ์มหาวิทยาลัย มีฐานะเป็นหน่วยงานในกำกับของรัฐซึ่งไม่เป็นส่วนราชการ ตามกฎหมายว่าด้วยระเบียบบริหารราชการแผ่นดิน กฎหมายว่าด้วยระเบียบบริหารราชการ กระทรวงศึกษาธิการ และกฎหมายว่าด้วยการปรับปรุงกระทรวง ทบวง กรม และไม่เป็นรัฐวิสาหกิจ ตามกฎหมายว่าด้วยวิธีการงบประมาณและกฎหมายอื่น<br><br>
+
+		มหาวิทยาลัยในกํากับของรัฐ มีสถานภาพเป็นหน่วยงานของรัฐ และเป็นนิติบุคคล ที่ไม่เป็นส่วนราชการ และไม่เป็นรัฐวิสาหกิจ อยู่ภายใต้การกํากับดูแลของ รัฐมนตรีว่าการ กระทรวงศึกษาธิการ และยังคงได้รับการจัดสรรงบประมาณตามกฎหมายว่าด้วยวิธีการ งบประมาณ ในจํานวนที่เพียงพอ ที่จําเป็นต่อการประกันคุณภาพการศึกษา<br><br>
+
+        ข้อ 1 - 3 เป็นหน่วยงานส่วนกลาง ระดับกรม<br>
+        สํานักงานคณะกรรมการนโยบายรัฐวิสาหกิจ (สคร.) เป็นส่วนราชการระดับกรม ในสังกัด
+        กระทรวงการคลัง
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 80. <br>
+            สํานักงานปลัดกระทรวงมีฐานะเทียบเท่ากับข้อใด <br>
+        </div>
+
+        <label><input type="radio" name="q80" value="1">กรม <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q80" value="0">กระทรวง</label><br>
+        <label><input type="radio" name="q80" value="0">สํานักงานรัฐมนตรี </label><br>
+        <label><input type="radio" name="q80" value="0">สํานักนายกรัฐมนตรี </label>
+        <hr>
+        สํานักงานปลัดกระทรวงมีฐานะ เป็นกรม<br><br>
+
+        สำนักงานรัฐมนตรี<u>ไม่มีฐานะเป็นกรม</u> ตาม มาตรา  ๑๘ พระราชบัญญัติระเบียบบริหารราชการแผ่นดิน (ฉบับที่ ๕) พ.ศ. ๒๕๔๕
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 81. <br>
+            การจัดตั้งกรมใหม่ให้ตราเป็นกฎหมายใด<br>
+        </div>
+
+        <label><input type="radio" name="q81" value="1">พระราชบัญญัติ  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q81" value="0">พระราชกําหนด</label><br>
+        <label><input type="radio" name="q81" value="0">พระราชกฤษฎีกา</label><br>
+        <label><input type="radio" name="q81" value="0">ราชกิจจานุเบกษา</label>
+        <hr>
+        มาตรา ๘ การจัดตั้ง การรวม หรือการโอนส่วนราชการตามมาตรา ๗ ให้ตราเป็นพระราชบัญญัติ <br>
+        (พ.ร.บ.ระเบียบบริหารราชการแผ่นดิน)
+        <hr>
+
+        <!-- 82 - 87 กิจการบ้านเมืองที่ดี  -->
+
+        <div class="quiz">
+            <br>ข้อ 82. <br>
+            ข้อใดคือ การบริหารราชการ เพื่อประโยชน์สุขของประชาชน <br>
+        </div>
+
+        <label><input type="radio" name="q82" value="0">เกิดความผาสุกและความเป็นอยู่ที่ดีของประชาชน</label><br>
+        <label><input type="radio" name="q82" value="0">ความสงบและปลอดภัยของสังคมส่วนรวม</label><br>
+        <label><input type="radio" name="q82" value="0">ประโยชน์สูงสุดของประเทศ</label><br>
+        <label><input type="radio" name="q82" value="1">ถูกทุกข้อ <span class="checkMark">&#x2713;</span></label><br>
+
+        <div class="quiz">
+            <br>ข้อ 83. <br>
+            ข้อใดกล่าว<u>ไม่ถูกต้อง</u>เกี่ยวกับการบริหารราชการเพื่อบรรลุเป้าหมาย การบริหารกิจการ
+            บ้านเมืองที่ดี  <br>
+        </div>
+
+        <label><input type="radio" name="q83" value="0">เกิดผลสัมฤทธิ์ต่อภารกิจของรัฐ</label><br>
+        <label><input type="radio" name="q83" value="0">ไม่มีขั้นตอนการปฏิบัติงานเกินความจำเป็น</label><br>
+        <label><input type="radio" name="q83" value="1">ส่งเสริมให้เอกชนมีส่วนร่วมในการปรับปรุงภารกิจของรัฐ <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q83" value="0">มีการประเมินผลการปฏิบัติราชการอย่างสม่ำเสมอ</label>
+        <hr>
+        มาตรา ๖ การบริหารกิจการบ้านเมืองที่ดี ได้แก่ การบริหารราชการเพื่อบรรลุเป้าหมาย ดังต่อไปนี้ <br>
+        &emsp;(๑) เกิดประโยชน์สุขของประชาชน<br>
+        &emsp;(๒) เกิดผลสัมฤทธิ์ต่อภารกิจของรัฐ<br>
+        &emsp;(๓) มีประสิทธิภาพ และเกิดความคุ้มค่า ในเชิงภารกิจของรัฐ<br>
+        &emsp;(๔) ไม่มีขั้นตอนการปฏิบัติงานเกินความจำเป็น<br>
+        &emsp;(๕) มีการปรับปรุงภารกิจของส่วนราชการ ให้ทันต่อสถานการณ์ <br>
+        &emsp;(๖) ประชาชนได้รับการอำนวยความสะดวก และได้รับการตอบสนองความต้องการ<br>
+        &emsp;(๗) มีการประเมินผลการปฏิบัติราชการ อย่างสม่ำเสมอ<br>
+        (พ.ร.ฎ.ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี)
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 84. <br>
+            ข้อใด<u>ไม่ใช่</u>แนวทางการบริหารราชการเพื่อให้เกิดผลสัมฤทธิ์ต่อภารกิจของรัฐ <br>
+        </div>
+
+        <label><input type="radio" name="q84" value="0">พัฒนาความรู้ในส่วนราชการเพื่อให้เป็นองค์การแห่งการเรียนรู้อย่างสม่ำเสมอ</label><br>
+        <label><input type="radio" name="q84" value="1">การกระจายอํานาจการตัดสินใจเกี่ยวกับการสั่ง การอนุญาต และการปฏิบัติราชการ  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q84" value="0">ภารกิจที่มีความเกี่ยวข้องกับหลายส่วนราชการหรือภารกิจใกล้เคียงหรือต่อเนื่องกัน ให้กําหนด
+            แนวทางเพื่อให้เกิดการบริหารราชการแบบบูรณาการร่วมกัน</label><br>
+        <label><input type="radio" name="q84" value="0">มีการจัดทําแผนปฏิบัติราชการไว้ล่วงหน้า</label>
+        <hr>
+        การกระจายอำนาจ เป็นเรื่อง การลดขั้นตอนการปฏิบัติงาน
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 85. <br>
+            การประเมินความคุ้มค่าในการปฏิบัติภารกิจของรัฐที่ส่วนราชการดําเนินการอยู่ เป็น หน้าที่ของหน่วยงานใด?<br>
+        </div>
+
+        <label><input type="radio" name="q85" value="1">สํานักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติและสํานักงบประมาณ <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q85" value="0">คณะกรรมการข้าราชการพลเรือนและสํานักงบประมาณ</label><br>
+        <label><input type="radio" name="q85" value="0">สํานักงบประมาณ</label><br>
+        <label><input type="radio" name="q85" value="0">กรมบัญชีกลาง</label>
+        <hr>
+        ตาม มาตรา ๒๒ พ.ร.ฎ. ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 86. <br>
+            การลดขั้นตอนโดยการกระจายอํานาจการตัดสินใจเกี่ยวกับการสั่ง การอนุญาต และการปฏิบัติราชการ ต้องมุ่งผลให้เกิดสิ่งใด<br>
+        </div>
+
+        <label><input type="radio" name="q86" value="0">การลดขั้นตอนในการปฏิบัติงานของเจ้าหน้าที่รัฐ </label><br>
+        <label><input type="radio" name="q86" value="0">ความเท่าเทียมกันของการปฏิบัติงาน</label><br>
+        <label><input type="radio" name="q86" value="1">ความสะดวกและรวดเร็วในการบริการประชาชน <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q86" value="0">ถูกทุกข้อ</label>
+        <hr>
+        มาตรา ๒๗ ให้ส่วนราชการจัดให้มีการกระจายอำนาจ การตัดสินใจเกี่ยวกับ การสั่ง การอนุญาต การอนุมัติ การปฏิบัติราชการ หรือการดำเนินการอื่นใด ของผู้ดำรงตำแหน่งใด ให้แก่ผู้ดำรงตำแหน่งที่มี หน้าที่รับผิดชอบ ในการดำเนินการในเรื่องนั้นโดยตรง เพื่อให้เกิดความรวดเร็ว และลดขั้นตอนการปฏิบัติราชการ ทั้งนี้ ในการกระจายอำนาจการตัดสินใจดังกล่าว <u>ต้องมุ่งผลให้เกิด</u>ความสะดวก และรวดเร็ว ในการบริการประชาชน<br>
+        (พ.ร.ฎ.ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี)   <hr>
+        <div class="quiz">
+            <br>ข้อ 87. <br>
+            เครื่องมือในการบริการประชาชน และการติดต่อประสานงาน ระหว่างส่วนราชการด้วยกัน คือข้อใด <br>
+        </div>
+
+        <label><input type="radio" name="q87" value="0">ระบบเครือข่ายสารสนเทศกลาง</label><br>
+        <label><input type="radio" name="q87" value="1">แพลตฟอร์มดิจิทัลกลางที่สํานักงานพัฒนารัฐบาลดิจิทัล (องค์การมหาชน) <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q87" value="1">ศูนย์บริการร่วม</label><br>
+        <label><input type="radio" name="q87" value="0">ถูกทุกข้อ</label><br>
+        <hr>
+        ในวาระเริ่มแรก ให้สำนักงานพัฒนารัฐบาลดิจิทัล (องค์การมหาชน) จัดให้มี แพลตฟอร์มดิจิทัลกลาง เพื่อให้ส่วนราชการใช้ในการบริการประชาชน และการติดต่อประสานงาน ระหว่างกันได้ ภายในเก้าสิบวัน นับแต่วันที่พระราชกฤษฎีกานี้ใช้บังคับ <br>
+        (พ.ร.ฎ.ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี)
+        <hr>
+
+
+        <!-- 88 - 93 วิธีปฏิบัติราชการ  -->
+
+        <div class="quiz">
+            <br>ข้อ 88. <br>
+            ข้อใด ไม่ใช่ "คู่กรณี" ตาม พ.ร.บ. วิธีปฏิบัติราชการทางปกครอง <br>
+        </div>
+
+        <label><input type="radio" name="q88" value="0">ผู้ยื่นคำขอ</label><br>
+        <label><input type="radio" name="q88" value="0">ผู้คัดค้านคำขอ</label><br>
+        <label><input type="radio" name="q88" value="1">ผู้ที่ไม่อยู่ในบังคับของคำสั่งทางปกครอง <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q88" value="0">ผู้ที่ถูกกระทบกระเทือนสิทธิจากผลของคำสั่งทางปกครอง</label>
+        <hr>
+        “คู่กรณี” หมายความว่า ผู้ยื่นคำขอ หรือผู้คัดค้านคำขอ <u>ผู้อยู่ในบังคับหรือจะอยู่ในบังคับ ของคำสั่งทางปกครอง</u> และผู้ซึ่งได้เข้ามาในกระบวนการพิจารณาทางปกครอง เนื่องจากสิทธิของผู้นั้น จะถูกกระทบกระเทือน จากผลของคำสั่งทางปกครอง<br>
+        (พ.ร.บ.วิธีปฏิบัติราชการทางปกครอง)
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 89. <br>
+            ข้อใดกล่าว<u>ไม่ถูก</u>ต้องเกี่ยวกับ คำสั่งทางปกครอง<br>
+        </div>
+
+        <label><input type="radio" name="q89" value="0">คำสั่งทางปกครองสามารถทำได้ด้วยวาจา</label><br>
+        <label><input type="radio" name="q89" value="0">คำสั่งทางปกครองสามารถทำเป็นหนังสือ ลงลายมือชื่อผู้ออกคำสั่ง และวัน เดือน ปี ที่สั่ง ก็ได้</label><br>
+        <label><input type="radio" name="q89" value="1">กรณีคำสั่งทางปกครองที่ทำเป็นหนังสือ แต่ไม่มีเหตุผลของการออกคำสั่ง เป็นคำสั่งทางปกครองที่ไม่ชอบด้วยกฎหมาย  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q89" value="1">ไม่มีข้อใดถูก </label>
+		<hr>
+กรณีคำสั่งทางปกครองที่ทำเป็นหนังสือ แต่ไม่มีเหตุผลของการออกคำสั่ง เป็นคำสั่งทางปกครองที่ไม่สมบูรณ์ สามารถเพิ่มเติมเหตุผลได้ <hr>  
+
+        <div class="quiz">
+            <br>ข้อ 90. <br>
+            การอุทธรณ์คำสั่งทางปกครอง สามารถยื่นได้ภายในกี่วัน? <br>
+        </div>
+
+        <label><input type="radio" name="q90" value="1">15 วัน  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q90" value="0">30  วัน</label><br>
+        <label><input type="radio" name="q90" value="0">60 วัน</label><br>
+        <label><input type="radio" name="q90" value="0">90 วัน</label>
+        <hr>
+        มาตรา ๔๔ ในกรณีที่คำสั่งทางปกครองใด ไม่ได้ออกโดยรัฐมนตรี และไม่มีกฎหมาย กำหนดขั้นตอนอุทธรณ์ ภายในฝ่ายปกครอง ไว้เป็นการเฉพาะ ให้คู่กรณีอุทธรณ์ คำสั่งทางปกครองนั้น โดยยื่นต่อเจ้าหน้าที่ ผู้ทำคำสั่งทางปกครอง<u>ภายในสิบห้าวัน</u> นับแต่วันที่ตนได้รับแจ้งคำสั่งดังกล่าว
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 91. <br>
+            คู่กรณีสามารถยื่นคำขอให้พิจารณาใหม่ได้ ตามข้อใด<br>
+        </div>
+
+        <label><input type="radio" name="q91" value="0">มีพยานหลักฐานใหม่</label><br>
+        <label><input type="radio" name="q91" value="0">คู่กรณีที่แท้จริง ไม่ได้เข้ามาในกระบวนการพิจารณาทางปกครอง</label><br>
+        <label><input type="radio" name="q91" value="0">เจ้าหน้าที่ไม่มีอำนาจที่จะทำคำสั่งทางปกครองในเรื่องนั้น</label><br>
+        <label><input type="radio" name="q91" value="1">ถูกทุกข้อ <span class="checkMark">&#x2713;</span></label>
+        <hr>
+        &emsp;มาตรา ๕๔ เมื่อคู่กรณีมีคำขอ(ให้พิจารณาใหม่) เจ้าหน้าที่อาจเพิกถอน หรือแก้ไขเพิ่มเติม คำสั่งทางปกครอง ที่พ้นกำหนดอุทธรณ์ ตามส่วนที่ ๕ ได้ในกรณีดังต่อไปนี้ <br>
+        &emsp;(๑) มีพยานหลักฐานใหม่ อันอาจทำให้ข้อเท็จจริง ที่พีงเป็นยุติแล้วนั้น เปลี่ยนแปลงไปในสาระสำคัญ<br>
+        &emsp;(๒) คู่กรณีที่แท้จริง มิได้เข้ามาในกระบวนการพิจารณา ทางปกครอง หรือได้เข้ามา ในกระบวนการพิจารณาครั้งก่อนแล้ว แต่ถูกตัดโอกาส โดยไม่เป็นธรรมในการมีส่วนร่วม ในกระบวนการพิจารณาทางปกครอง<br>
+        &emsp;(๓) เจ้าหน้าที่ไม่มีอำนาจ ที่จะทำคำสั่งทางปกครอง ในเรื่องนั้น<br>
+        &emsp;(๔) ถ้าคำสั่งทางปกครอง ได้ออกโดยอาศัยข้อเท็จจริง หรือข้อกฎหมายใดและต่อมา ข้อเท็จจริง หรือข้อกฎหมายนั้น เปลี่ยนแปลงไปในสาระสำคัญ ในทางที่จะเป็นประโยชน์แก่คู่กรณี <br>
+        &emsp;การยื่นคำขอตามวรรคหนึ่ง (๑) (๒) หรือ (๓) ให้กระทำได้เฉพาะเมื่อคู่กรณีไม่อาจทราบถึงเหตุนั้น ในการพิจารณาครั้งที่แล้ว มาก่อน โดยไม่ใช่ความผิดของผู้นั้น<br>
+        &emsp;การยื่นคำขอให้พิจารณาใหม่ ต้องกระทำภายในเก้าสิบวัน นับแต่ผู้นั้นได้รู้ถึงเหตุ ซึ่งอาจขอให้พิจารณาใหม่ได้ <br>
+        (พ.ร.บ.วิธีปฏิบัติราชการทางปกครอง)
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 92. <br>
+            ข้อใดกล่าวถูกต้องเกี่ยวกับการบังคับทางปกครอง <br>
+        </div>
+
+        <label><input type="radio" name="q92" value="0">หากไม่ปฏิบัติตามคำสั่งให้ชำระเงิน เจ้าหน้าที่อาจใช้มาตรการ โดยการยึดหรืออายัด โดยไม่ต้องมีหนังสือเตือนให้ผู้อยู่ในบังคับ</label><br>
+        <label><input type="radio" name="q92" value="1">หากไม่ปฏิบัติตามคำสั่งทางปกครองที่ให้ละเว้นการกระทำ เจ้าหน้าที่สามารถเข้าดำเนินการด้วยตนเอง และให้ผู้อยู่ในบังคับของคำสั่งทางปกครอง จะต้องชดใช้ค่าใช้จ่ายได้ <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q92" value="0">หากไม่ปฏิบัติตามคำสั่งทางปกครองที่ให้กระทำการ เจ้าหน้าที่สามารถกำหนดค่าปรับทางปกครองได้ ขั้นต่ำวันละ 2,000 บาท แต่ต้องไม่เกิน วันละ 40,000 บาท</label><br>
+        <label><input type="radio" name="q92" value="0">ไม่มีข้อใดถูก</label>
+        <hr>
+        มาตรา ๖๓/๒๑ คำสั่ง ทางปกครองที่กำหนดให้กระทำ หรือละเว้นกระทำ ถ้าผู้อยู่ในบังคับของคำสั่งทางปกครองฝ่าฝืน หรือไม่ปฏิบัติตาม  เจ้าหน้าที่อาจใช้มาตรการบังคับทางปกครองอย่างหนึ่งอย่างใด ดังต่อไปนี้
+
+        &emsp;(๑) เจ้าหน้าที่เข้าดำเนินการด้วยตนเองหรือมอบหมาย ให้บุคคลอื่นกระทำการแทน โดยผู้อยู่ในบังคับของคำสั่งทางปกครอง จะต้องชดใช้ค่าใช้จ่ายและเงินเพิ่มรายวัน ในอัตราร้อยละยี่สิบห้าต่อปีของค่าใช้จ่ายดังกล่าว แก่หน่วยงานของรัฐที่เจ้าหน้าที่นั้นสังกัด<br>
+        &emsp;(๒) ให้มีการชำระค่าปรับบังคับการตามจำนวนที่สมควรแก่เหตุ แต่ต้อง<u>ไม่เกินห้าหมื่นบาทต่อวัน</u> เจ้าหน้าที่ระดับใด มีอำนาจกำหนดค่าปรับบังคับการ จำนวนเท่าใด  สำหรับในกรณีใด  ให้เป็นไปตามที่กำหนดในกฎกระทรวง
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 93. <br>
+            กรณีใด ที่ผู้รับคำสั่งทางปกครอง สามารถอ้างความเชื่อโดยสุจริตได้ <br>
+        </div>
+
+        <label><input type="radio" name="q93" value="0">ผู้นั้นได้แสดงข้อความอันเป็นเท็จ หรือปกปิดข้อความจริง ซึ่งควรบอกให้แจ้ง</label><br>
+        <label><input type="radio" name="q93" value="0">ผู้นั้นได้ให้ข้อความซึ่งไม่ถูกต้อง หรือไม่ครบถ้วนในสาระสำคัญ</label><br>
+        <label><input type="radio" name="q93" value="0">ผู้นั้นได้รู้ถึงความไม่ชอบด้วยกฎหมาย ของคำสั่งทางปกครอง ในขณะได้รับคำสั่งทางปกครอง</label><br>
+        <label><input type="radio" name="q93" value="1">ผู้นั้นไม่รู้ถึงความไม่ชอบด้วยกฎหมาย ของคำสั่งทางปกครอง <strong>โดย<u>ไม่ได้เกิด</u>จากความประมาทเลินเล่ออย่างร้ายแรง</strong>  <span class="checkMark">&#x2713;</span></label>
+        <hr>
+        <ol>ในกรณีดังต่อไปนี้ ผู้รับคำสั่งทางปกครอง จะอ้างความเชื่อโดยสุจริตไม่ได้
+            <li> ผู้นั้นได้แสดงข้อความอันเป็นเท็จ หรือปกปิดข้อความจริง ซึ่งควรบอกให้แจ้ง หรือข่มขู่ หรือชักจูงใจ โดยการให้ทรัพย์สิน หรือให้ประโยชน์อื่นใด ที่มิชอบด้วยกฎหมาย </li>
+            <li> ผู้นั้นได้ให้ข้อความ ซึ่งไม่ถูกต้อง หรือไม่ครบถ้วนในสาระสำคัญ </li>
+            <li> <strong>ผู้นั้นได้รู้ถึงความไม่ชอบด้วยกฎหมาย ของคำสั่งทางปกครอง ในขณะได้รับคำสั่ง ทางปกครอง หรือการไม่รู้นั้น <u>เป็นไปโดย</u>ความประมาทเลินเล่ออย่างร้ายแรง</strong></li>
+            <li>ในกรณีที่เพิกถอนโดยให้มีผลย้อนหลัง การคืนเงิน ทรัพย์สิน หรือประโยชน์ที่ผู้รับคำสั่งทางปกครองได้ไป ให้นำบทบัญญัติ ว่าด้วยลาภมิควรได้ ในประมวลกฎหมายแพ่งและพาณิชย์ มาใช้บังคับโดยอนุโลม โดยถ้าเมื่อใด ผู้รับคำสั่งทางปกครอง ได้รู้ถึงความไม่ชอบด้วยกฎหมาย ของคำสั่งทางปกครอง หรือควรได้รู้เช่นนั้น หากผู้นั้นมิได้ประมาทเลินเล่ออย่างร้ายแรง ให้ถือว่าผู้นั้นตกอยู่ในฐานะไม่สุจริต ตั้งแต่เวลานั้นเป็นต้นไป และในกรณีตามวรรคสาม ผู้นั้นต้องรับผิดในการคืนเงิน ทรัพย์สิน หรือประโยชน์ที่ได้รับไปเต็มจำนวน</li>
+        </ol>
+        <hr>
+
+        <!-- 94 - 96 มาตรฐานจริยธรรม  -->
+
+        <div class="quiz">
+            <br>ข้อ 94. <br>
+            ข้อใด <u>ไม่ใช่</u> เจ้าหน้าที่ของรัฐ ตาม พ.ร.บ.มาตรฐานทางจริยธรรม <br>
+        </div>
+
+        <label><input type="radio" name="q94" value="0">กรรมการเลือกตั้ง</label><br>
+        <label><input type="radio" name="q94" value="0">เจ้าหน้าที่ของ สำนักงานรับรองมาตรฐานและประเมินคุณภาพการศึกษา(องค์การมหาชน)</label><br>
+        <label><input type="radio" name="q94" value="1">พนักงานธนาคารกรุงไทย จำกัด (มหาชน) <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q94" value="0">พนักงานเทศบาล</label>
+        <hr>
+        มาตรา ๓ “เจ้าหน้าที่ของรัฐ” หมายความว่า ข้าราชการ พนักงาน ลูกจ้าง หรือผู้ปฏิบัติงานอื่น
+        ในหน่วยงานของรัฐ<br>
+        (พ.ร.บ.มาตรฐานทางจริยธรรม)<br><br>
+
+        สำนักงานรับรองมาตรฐานและประเมินคุณภาพการศึกษา (สมศ) เป็นองค์การมหาชน เป็นหน่วยงานของรัฐ<br>
+        เทศบาล เป็นราชการส่วนท้องถิ่น<br>
+		ธนาคารกรุงไทย จำกัด (มหาชน) ไม่ใช่ หน่วยงานของรัฐ พนักงานธนาคาร จึงไม่เป็น จนท.ของรัฐ<br>
+		<div style = 'border: 2px solid #73AD21; padding: 5px;margin: 10px; font-size: small;'>
+		เมื่อ บมจ. ธนาคารกรุงไทย เป็นบริษัทมหาชนจำกัด ซึ่งจดทะเบียนจัดตั้งขึ้น ตามพระราชบัญญัติบริษัทมหาชนจำกัด พ.ศ. ๒๕๓๕ และมีสถานะเป็นนิติบุคคลตามกฎหมายดังกล่าว โดยมีได้มีกฎหมาย จัดตั้งองค์กรขึ้นเป็นการเฉพาะ ประกอบกับ บมจ. ธนาคารกรุงไทย มีวัตถุประสงค์หลักในการประกอบธุรกิจธนาคารพาณิชย์ โดยมิได้จัดทำบริการสาธารณะ และมิได้มีที่มาของแหล่งรายได้จากเงินงบประมาณของรัฐ กรณีจึงไม่มีความสัมพันธ์กับรัฐทั้งในแง่ของการจัดตั้ง รูปแบบ การกำกับ ดูแลของรัฐ กิจกรรมในการเป็นบริการสาธารณะ งบประมาณหรือรายได้ ตลอดจนวิธีการและระบบกฎหมายที่ใช้ในการทำกิจกรรม หรือมีการใช้อำนาจตามกฎหมาย บมจ. ธนาคารกรุงไทย จึงไม่มีลักษณะเป็นหน่วยงานของรัฐตามหลักเกณฑ์ที่กำหนดในมติคณะรัฐมนตรี<br><br>
+ที่มา:<br>
+บันทึกสำนักงานคณะกรรมการกฤษฎีกา เรื่อง สถานะความเป็นหน่วยงานของรัฐของบริษัท ธนาคารกรุงไทย จำกัด (มหาชน) ตามพระราชบัญญัติการทะเบียนราษฎร พ.ศ. ๒๕๓๕ (เรื่องเสร็จที่ ๑๒๓๑/๒๕๖๖)
+        </div>
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 95. <br>
+            ข้อใดคือความหมายของมาตรฐานทางจริยธรรม ตาม พ.ร.บ.มาตรฐานทางจริยธรรม?<br>
+        </div>
+
+        <label><input type="radio" name="q95" value="0">หลักเกณฑ์การประพฤติปฏิบัติอย่างมีจรรยาบรรณของเจ้าหน้าที่ของรัฐ</label><br>
+        <label><input type="radio" name="q95" value="1">หลักเกณฑ์การประพฤติปฏิบัติอย่างมีคุณธรรมของเจ้าหน้าที่ของรัฐ <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q95" value="0">หลักเกณฑ์การประพฤติปฏิบัติอย่างยุติธรรมของเจ้าหน้าที่ของรัฐ</label><br>
+        <label><input type="radio" name="q95" value="0">หลักเกณฑ์การประพฤติปฏิบัติอย่างโปร่งใสและตรวจสอบได้ของเจ้าหน้าที่ของรัฐ</label>
+        <hr>
+        มาตรา ๕ มาตรฐานทางจริยธรรม คือ หลักเกณฑ์การประพฤติปฏิบัติอย่างมีคุณธรรม
+        ของเจ้าหน้าที่ของรัฐ
+        <hr>
+
+        <div class="quiz">
+            <br>ข้อ 96. <br>
+            ข้อใด<u>ไม่ใช่</u>มาตรฐานทางจริยธรรม ตาม พ.ร.บ. มาตรฐานทางจริยธรรม พ.ศ. 2562<br>
+        </div>
+
+        <label><input type="radio" name="q96" value="0">มุ่งผลสัมฤทธิ์ของงาน</label><br>
+        <label><input type="radio" name="q96" value="1">การให้ข้อมูลข่าวสารแก่ประชาชนอย่างครบถ้วน ถูกต้อง และไม่บิดเบือนข้อเท็จจริง <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q96" value="0">ยึดมั่นในสถาบันหลักของประเทศ อันได้แก่ ชาติ ศาสนา พระมหากษัตริย์ และการปกครอง ระบอบประชาธิปไตยอันมีพระมหากษัตริย์ทรงเป็นประมุข</label><br>
+        <label><input type="radio" name="q96" value="0">ปฏิบัติหน้าที่อย่างเป็นธรรมและไม่เลือกปฏิบัติ </label>
+        <hr>
+        มาตรา ๕ มาตรฐานทางจริยธรรม คือ หลักเกณฑ์การประพฤติปฏิบัติอย่างมีคุณธรรม
+        ของเจ้าหน้าที่ของรัฐ ซึ่งจะต้องประกอบด้วย
+        <ol>
+            <li> ยึดมั่นในสถาบันหลักของประเทศ อันได้แก่ ชาติ ศาสนา พระมหากษัตริย์ และ
+                การปกครองระบอบประชาธิปไตยอันมีพระมหากษัตริย์ทรงเป็นประมุข</li>
+            <li>  ซื่อสัตย์สุจริต มีจิตสำนึกที่ดี และรับผิดชอบต่อหน้าที่ </li>
+            <li>  กล้าตัดสินใจและกระทำในสิ่งที่ถูกต้องชอบธรรม</li>
+            <li>  คิดถึงประโยชน์ส่วนรวมมากกว่าประโยชน์ส่วนตัว และมีจิตสาธารณะ</li>
+            <li> มุ่งผลสัมฤทธิ์ของงาน</li>
+            <li>  ปฏิบัติหน้าที่อย่างเป็นธรรมและไม่เลือกปฏิบัติ </li>
+            <li>  ดำรงตนเป็นแบบอย่างที่ดีและรักษาภาพลักษณ์ของทางราชการ</li>
+        </ol>
+        <hr>
+
+        <!-- 97 - 98 ความรับผิดทางละเมิด  -->
+
+        <div class="quiz">
+            <br>ข้อ 97. <br>
+            กรณีใดบ้าง ที่หน่วยงานของรัฐมีสิทธิเรียกให้เจ้าหน้าที่ผู้ทำละเมิด ชดใช้ค่าสินไหมทดแทน แก่หน่วยงานของรัฐได้ <br>
+        </div>
+
+        <label><input type="radio" name="q97" value="1">เจ้าหน้าที่ กระทำการไปด้วยความจงใจ  <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q97" value="0">เจ้าหน้าที่ กระทำไปด้วยความประมาท</label><br>
+        <label><input type="radio" name="q97" value="0">การกระทำละเมิดของเจ้าหน้าที่ ที่ไม่ใช่การปฏิบัติราชการ</label><br>
+        <label><input type="radio" name="q97" value="0">ข้อ 1 และข้อ 2 ถูกต้อง</label><br>
+        <hr>
+        ต้องประมาทอย่างร้ายแรง จึงจะเรียกค่าสินไหมได้
+        <hr>
+        <div class="quiz">
+            <br>ข้อ 98. <br>
+            ข้อใดกล่าว<u>ไม่ถูกต้อง</u><br>
+        </div>
+
+        <label><input type="radio" name="q98" value="0">สิทธิเรียกให้ชดใช้ค่าสินไหมทดแทนเป็นจำนวนเท่าไร ให้คำนึงถึงระดับความร้ายแรงแห่งการกระทำ และความเป็นธรรม ในแต่ละกรณีเป็นเกณฑ์</label><br>
+        <label><input type="radio" name="q98" value="0">การชดใช้ค่าสินไหมทดแทน คืนแก่หน่วยงานรัฐ อาจจะเต็มจำนวนหรือไม่เต็มจำนวน ของความเสียหาย ก็ได้</label><br>
+        <label><input type="radio" name="q98" value="1">หากการละเมิดเกิดจากเจ้าหน้าที่หลายคน ให้นำหลักเรื่องลูกหนี้ร่วม มาใช้บังคับ <span class="checkMark">&#x2713;</span></label><br>
+        <label><input type="radio" name="q98" value="0">หากการละเมิดไม่ได้เกิดจากการปฏิบัติหน้าที่ราชการ เจ้าหน้าที่ต้องรับผิดชอบเป็นการเฉพาะตัว</label>
+        <hr>
+        ในกรณีที่การละเมิด เกิดจากเจ้าหน้าที่หลายคน <strong><u>มิให้</u></strong>นำหลักเรื่องลูกหนี้ร่วม มาใช้บังคับ และเจ้าหน้าที่ แต่ละคน ต้องรับผิดใช้ค่าสินไหมทดแทน เฉพาะส่วนของตนเท่านั้น
+        <hr>
+        <!-- 99 - 100 กฎหมายอาญา  -->
+
+        <div class="quiz">
+            <br>ข้อ 99. <br>
+            ข้อใดเป็นความผิดฐานเป็นเจ้าพนักงานยักยอกทรัพย์ ?<br>
+        </div>
+
+        <label><input type="radio" name="q99" value="0">เจ้าหน้าที่ ที่มีหน้าที่เก็บค่าเช่าในตลาดเทศบาล เก็บค่าเช่าจากญาติของตัวเองถูกกว่าคนอื่น    </label><br>
+        <label><input type="radio" name="q99" value="1">เจ้าหน้าที่ดูแลรักษาความปลอดภัยภายในหน่วยงาน เอาของหลวงไปขายแล้วเอาเงินมาใช้เอง <span class="checkMark">&#x2713;</span> </label><br>
+        <label><input type="radio" name="q99" value="0">ตำรวจ เรียกค่าปรับจากคนขับรถผิดกฎจราจร โดยเรียกเก็บเพียงครึ่งเดียวของอัตราตามกฎหมายกำหนด และไม่ได้เขียนใบสั่ง แล้วปล่อยตัวไป</label><br>
+        <label><input type="radio" name="q99" value="0">ไม่มีข้อใดถูก </label><br>
+        <!-- ข้อ 2 ถูกต้อง จากแบบฝึกข้อสอบจริง กฎหมาย RN2588   -->
+        <hr>
+        มาตรา ๑๔๗ ผู้ใดเป็นเจ้าพนักงาน มีหน้าที่ซื้อ ทำ จัดการหรือรักษาทรัพย์ใด เบียดบังทรัพย์นั้นเป็นของตน หรือเป็นของผู้อื่นโดยทุจริต หรือโดย
+        ทุจริตยอมให้ผู้อื่นเอาทรัพย์นั้นเสีย ต้องระวางโทษจำคุกตั้งแต่ห้าปีถึงยี่สิบปี หรือจำคุกตลอดชีวิต และปรับตั้งแต่หนึ่งแสนบาทถึงสี่แสนบาท<br><br>
+		เจ้าหน้าที่ดูแลรักษาความปลอดภัยภายในหน่วยงาน ถือเป็น เจ้าพนักงาน มีหน้าที่ รักษาทรัพย์ แต่เบียดบังทรัพย์นั้นเป็นของตนโดยทุจริต เพราะ ของหลวงไม่ใช่ของส่วนตัว จะเอาไปขายเพื่อเอาเงินมาใช้เอง ไม่สามารถทำได้
+        <hr>
+
+        <div class="quiz">
+            ข้อ 100. <br>
+            ข้าราชการครู 3 คน ประท้วงผู้อำนวยการ โดยไม่เข้าสอน มีความผิดอาญาหรือไม่? <br>
+        </div>
+
+        <label><input type="radio" name="q100" value="0"> มีความผิดตามกฎหมายอาญา มาตรา 166</label><br>
+        <label><input type="radio" name="q100" value="0">มีความผิดตามกฎหมายอาญา มาตรา 166 เจ้าพนักงานละทิ้งงาน </label><br>
+        <label><input type="radio" name="q100" value="0">ไม่มีความผิดตามกฎหมายอาญา มาตรา 166 เพราะไม่มีผู้เสียหาย</label><br>
+        <label><input type="radio" name="q100" value="1">ไม่มีความผิดตามกฎหมายอาญา มาตรา 166 แต่อาจผิดวินัย <span class="checkMark">&#x2713;</span></label>
+        <hr>
+        มาตรา ๑๖๖  ผู้ใดเป็นเจ้าพนักงาน <strong>ละทิ้งงานหรือกระทำการอย่างใด ๆ เพื่อให้งานหยุดชะงักหรือเสียหาย โดยร่วมกระทำการเช่นนั้นด้วยกัน<u>ตั้งแต่ห้า
+        คนขึ้นไป</u></strong> ต้องระวางโทษจำคุกไม่เกินห้าปี หรือปรับไม่เกินหนึ่งแสนบาท หรือทั้งจำทั้งปรับ <br>
+        (ประมวลกฎหมายอาญา)<br><br>
+        กรณีนี้ จำนวนครูที่ประท้วง มีจำนวนไม่ถึงห้าคน จึงไม่เข้าข่ายความผิดอาญา แต่อาจมีความผิดอย่างอื่นได้
+
+        <hr>
+        <!-- ข้อ 4 ถูกต้อง จากแบบฝึกข้อสอบจริง กฎหมาย RN1083 ต้องเกิน 5 คน จึงผิดอาญา  -->
+    </div>  <!-- end of quiz_law  -->
+    <!-- =================== END OF LAW ================  -->
+
+    <br>
+    <div style="text-align: center"><!-- div for bttn  -->
+        <input type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;"class="myFloat_Right;">
+    </div>  <!-- end of div for bttn  -->
+    <br><br>
+</div>
+
+
+
+
+
+
+
+  </div>  <!--  end of div content  -->
+
+  <script src="full_exam_3_hrs.js" type="text/javascript" language="JavaScript"></script>
+
+
+ </body>
+</html>

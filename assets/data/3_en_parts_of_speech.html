@@ -1,0 +1,1051 @@
+<!doctype html>
+<html lang="th">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<style>
+ /*remove white border กำหนดให้ div ไม่มีขอบ ให้เต็มหน้าจอ ใช้บังคับทั้งหมด ทำให้ <li> ต้องไปตั้งค่าใหม่ */
+*
+{
+margin:0;
+padding:0;
+}
+
+		.wrapper > div {
+			background: #eee;
+			padding: 1em;
+		}
+	.wrapper > div:nth-child(even){
+		background: #fff;
+		border: 0.5px solid black;
+	}
+.menu{
+	background: #F4F7D1;
+	padding-left: 5px;
+		padding-bottom: 7px;
+}
+
+#myContents{
+border: 0.5px solid black;
+height: 100%;
+overflow: auto;
+padding-left: 5px;
+padding-bottom: 5px;
+
+}
+
+.stripe{
+	background: #eee;
+}
+.stripe div:nth-child(even){
+		background: #FFFFE0;
+	}
+
+ul.a {  /* เนื่องจากไปกำหนดให้ไม่มีขอบของ div จึงต้องกำหนดให้ ปุ่ม ร่นเข้ามาหน่อย เพื่อให้เห็นปุ่ม  */
+   padding-left:20px;
+   margin:0px;
+  list-style-position: outside;
+}
+
+ol.b {  /* เนื่องจากไปกำหนดให้ไม่มีขอบของ div จึงต้องกำหนดให้ ปุ่ม ร่นเข้ามาหน่อย เพื่อให้เห็นปุ่ม  */
+   padding-left:20px;
+   margin:0px;
+  list-style-position: outside;
+}
+
+
+li span {  /* สำหรับ ให้ข้อความ ห่างจากจุด น้อยลงหน่อย  */
+  position: relative;
+  left: -5px;
+}
+  </style>
+
+
+	<title>Document</title>
+</head>
+<body>
+<h2><strong>Parts of Speech*</strong></h2>
+<!-- https://sites.google.com/site/angrizm8ez/home/parts-of-speech   -->
+
+<div class="wrapper">
+	<div  id="bckHme" style="text-align: center; padding:0px; margin:0px; cursor:pointer;" onclick= "displayContent('home')">HOME</div>
+	<div style="padding:0px; margin:0px;">
+		<div class="menu">
+			[ <a href="#"  onclick="displayContent('noun')">Noun</a> | <a href="#"  onclick="displayContent('verb')">Verb</a> | <a href="#"  onclick="displayContent('adjective')">Adjective</a> | <a href="#"  onclick="displayContent('adverb')"> Adverb</a> | <a href="#"  onclick="displayContent('pronoun')">Pronoun</a>   | <a href="#"  onclick="displayContent('preposition')"> Preposition</a>   | <a href="#"  onclick="displayContent('conjunction')"> Conjunction</a>  | <a href="#"  onclick="displayContent('interjection')">  Interjection</a>   ]
+		</div>
+		<div id="myContents">
+			<h2><strong>Parts of Speech</strong></h2>
+			Parts of Speech หรือ ชนิดของคำในภาษาอังกฤษ สามารถแบ่งออกได้เป็น 8 ประเภท คือ<br><br>
+			1. <a href="#"  onclick="displayContent('noun')">Noun (คำนาม)</a><br>
+			2. <a href="#"  onclick="displayContent('verb')">Verb (คำกิริยา)</a><br>
+			3. <a href="#"  onclick="displayContent('adjective')">Adjective (คำคุณศัพท์)</a><br>
+			4. <a href="#"  onclick="displayContent('adverb')">Adverb (คำวิเศษณ์)</a><br>
+			5. <a href="#"  onclick="displayContent('pronoun')">Pronoun (คำสรรพนาม)</a><br>
+			6. <a href="#"  onclick="displayContent('preposition')">Preposition (คำบุพบท)</a><br>
+			7. <a href="#"  onclick="displayContent('conjunction')">Conjunction (คำสันธาน)</a><br>
+			8. <a href="#"  onclick="displayContent('interjection')">Interjection (คำอุทาน)</a><br><br>
+			*<span style='font-size: 75%;'>ตามข้อเสนอแนะของ คุณอิสระพงษ์ วงศ์ภักดี </span>
+
+		</div>
+		<div id="home"  class="explanation" style="display:none">
+			<h2><strong>Parts of Speech</strong></h2>
+			Parts of Speech หรือ ชนิดของคำในภาษาอังกฤษ สามารถแบ่งออกได้เป็น 8 ประเภท คือ<br><br>
+			1. <a href="#"  onclick="displayContent('noun')">Noun (คำนาม)</a><br>
+			2. <a href="#"  onclick="displayContent('verb')">Verb (คำกิริยา)</a><br>
+			3. <a href="#"  onclick="displayContent('adjective')">Adjective (คำคุณศัพท์)</a><br>
+			4. <a href="#"  onclick="displayContent('adverb')">Adverb (คำวิเศษณ์)</a><br>
+			5. <a href="#"  onclick="displayContent('pronoun')">Pronoun (คำสรรพนาม)</a><br>
+			6. <a href="#"  onclick="displayContent('preposition')">Preposition (คำบุพบท)</a><br>
+			7. <a href="#"  onclick="displayContent('conjunction')">Conjunction (คำสันธาน)</a><br>
+			8. <a href="#"  onclick="displayContent('interjection')">Interjection (คำอุทาน)</a><br><br>
+			*<span style='font-size: 75%;'>ตามข้อเสนอแนะของ คุณอิสระพงษ์ วงศ์ภักดี </span>
+		</div>
+
+	</div>  <!--  end of wrapper  -->
+
+
+	<div id="noun" class="explanation" style="display:none">
+		<strong>NOUN(คำนาม)</strong><br>
+		คำนาม คือ คำที่ใช้แทนชื่อ คน สัตว์ สิ่งของ สิ่งที่เป็นนามธรรม ต่าง ๆ เช่น <br>John, horses, Covid-19, goodness และ democracy เป็นต้น<br>
+		คำนามมีหลายชนิด แต่ที่น่าสนใจ มักจะออกสอบอยู่เสมอ เช่น<br><br>
+
+		<strong>นามนับได้(Countable Noun) VS นามนับไม่ได้(Uncountable Noun)</strong>
+		<ul class="a">
+			<li><span>คำนามนับได้ เช่น pencil, book, pot, pan เป็นต้น</span></li>
+			<li><span>คำนามนับไม่ได้ เช่น water, milk, democracy, goodness เป็นต้น</span></li>
+			<li><span>คำนามนับไม่ได้ ที่น่าสนใจ<br>
+information, furniture, corn, transportation, equipment, progress, news, luck, fun, work</span></li>
+			<li><span>คำนามนับได้ ใช้กับ article a/an และ the ได้ เช่น a book, an egg, the earth เป็นต้น<br>
+คำนามนับไม่ได้ ไม่ใช้กับ a/an และไม่เป็นพหูพจน์ เติม s ไม่ได้<br>
+<div class="stripe">
+	<div>We’re going to get new furniture for the living room. &#x2714; </div>
+	<div><strike>We’re going to get a new furniture for the living room.</strike></div>
+	<div><strike>We’re going to get new furnitures for the living room.</strike></div>
+	<div>The photographer came early to set up his equipment. &#x2714; </div>
+	<div><strike>The photographer came early to set up his equipments.</strike></div>
+<div>They can give you some information about accommodation at the tourist office.  &#x2714; </div>
+<div><strike>They can give you some informations about accommodations at the tourist office.</strike></div>
+
+
+</div> <!-- end of stripe  -->
+</span></li>
+
+			<li><span>คำนามนับไม่ได้ ถ้าจะนับ ต้องมีคำมาช่วยคล้ายกับลักษณนาม ของภาษาไทย เช่น<br>
+ <div class="stripe">
+		<div>corn(ข้าวโพด) - an ear of corn(ข้าวโพด 1 ฝัก), two ears of corns</div>
+ 		<div>soap(สบู่) - a bar of soap(สบู่ 1 ก้อน), two bars of soap</div>
+		<div> water(น้ำ) - a glass of water(น้ำ 1 แก้ว), two glasses of water</div>
+		<div>furniture - a piece of furniture</div>
+		<div>news - bits of news</div>
+		<div>bread - a loaf of bread, two loaves of bread</div>
+		<div>fish - a school of fish(ฝูงปลา ว่ายไปด้วยกัน ไปไหนไปด้วยกัน ไม่แตกฝูง), a shoal of fish(กลุ่มปลา ปลามารวมกัน แต่ไม่ใช่ฝูงเดียวกัน)</div>
+ </div><!-- end of stripe  -->
+</span></li>
+
+			<li><span>
+คำนามนับได้ สามารถมีคำ article คือ a, an และ the นำหน้า ส่วนนามที่นับไม่ได้ จะใช้ a หรือ an นำหน้าไม่ได้ (ให้ดูเรื่อง การใช้ a, an และ the นะครับ)
+<div class="stripe">
+<div>a book, a pen, an egg, an umbrella, an hour</div>
+<div>water, rice, milk, goodness</div>
+
+</div><!-- end of stripe  -->
+</span></li>
+
+			<li><span>
+คำนามบางคำ มีรูปเป็นพหูพจน์ แต่เป็นคำนามนับไม่ได้ เพราะเราไม่สามารถใช้ตัวเลขนับ นำหน้าคำเหล่านี้ได้ เช่น trousers(กางเกงขายาว), shorts(กางเกงขาสั้น), pants(กางเกงขาสั้น), pyjamas(กางเกงนอน), glasses (แว่นตา), binoculars(กล้องส่องทางไกล), scissors(กรรไกร)
+<div class="stripe">
+<div>I bought two pairs of trousers. &#x2714;</div>
+<div><strike>I bought two trousers.</strike></div>
+<div></div>
+</div> <!-- end of stripe  -->
+</span></li>
+		</ul>
+		<br>
+		<strong>เอกพจน์ (Singular Noun) VS พหูพจน์ (Plural Noun)</strong><br>
+		คำนามที่นับได้ (Countable Noun) เมื่อมีมากกว่า 1 จะเป็นพหูพจน์ โดยการเติม s เข้าข้างท้ายคำ แต่
+		<UL class="a">
+			<li><span>
+คำบางคำมีรูปเหมือนกันทั้งเอกพจน์และพหูพจน์ เช่น<br>
+sheep(แกะ), crossroads(สามแยก-สี่แยก), deer(กวาง), dice(ลูกเต๋า), fish(ปลา), furniture, information<br>
+
+ยกเว้น<br>
+fish ถ้าหมายถึงปลาหลายชนิด จะใช้เป็น fishes
+</span></li>
+			<li><span>
+คำบางคำเมื่อเป็นพหูพจน์ เปลี่ยนรูปไปเลย เช่น<br>
+foot - feet, man -men,
+</span></li>
+
+			<li><span>
+คำบางคำ ลงท้ายด้วย -s แต่เป็นเอกพจน์ เช่น<br>
+news, billiards, bowls เป็นต้น <br>
+Billiards is my favourite game.<br>
+</span></li>
+
+
+
+
+
+
+
+
+		</UL>
+	</div> <!--   end of div id="noun"  -->
+
+	<div id="verb" class="explanation" style="display:none">
+		VERB (คำกริยา) <br>
+		Verb ในภาษาอังกฤษ แบ่งออกเป็น 2 ชนิดคือ main verb (กริยาหลัก หรือกริยาแท้) เช่น walk, run, become เป็นต้น และ helping verb(กริยาช่วย) เช่น be(is/am/are/was/were), can, could, may, might เป็นต้น
+		<ul class="a">
+			<li><span>Verb Tense ให้ดูเรื่อง Tenses </span></li>
+			<li><span>กริยาบางคำ อาจจะตามด้วย Infintive หรือ Infinitive without to หรือ Gerund ให้ศึกษาเรื่อง Infinitive และ Gerund</span></li>
+			<li><span>กริยาบางคำ อาจจะมี prepositon หรือ adverb ร่วมอยู่ด้วย เรียกว่าเป็น two-word verb หรือ phrasal verb ซึ่งจะมีความหมายเปลี่ยนไปจากเดิม ให้ศึกษาเรื่อง ทบทวน Phrasal Verbs/ Two-word Verbs/ กริยาวลี</span></li>
+			<li><span>กริยาบางคำ เป็น irregular verbs คือ แทนที่จะเติม -ed เข้าท้ายคำ เมื่อเป็น กริยาช่อง 2 (past) หรือ ช่อง 3 (past participle) แต่อาจจะเปลี่ยนรูปไป หรือยังเหมือนเดิม เช่น
+	<div class="stripe">
+	<div>build-built-built(สร้าง)</div>
+	<div>see-saw-seen (มองเห็น)</div>
+	<div>cost-cost-cost (ราคา)</div>
+	<div>lie-lay-lain(นอน)</div>
+	<div>lay-laid-laid (วางลง, ออกไข่)</div>
+	<div>lie(พูดโกหก) เป็น regular verb เติม -ed <br></div>
+
+	</div><!-- end of stripe  -->
+	</span></li>
+		</ul>
+
+
+		<br><br>
+		<strong>คำกริยาที่มักใช้สับสน</strong><br><br>
+		<ul class="a">
+			<li><span><strong>lie VS lay</strong><br><br>
+lie (อยู่ในสถานะที่ขนานกับพื้น/เอนตัวลง/นอน)<br>
+lie-lay-lain<br>
+I lie down on my bed. (ฉันนอนบนเตียง)<br>
+I lay down on my bed yesterday. (เมื่อวาน ฉันนอนบนเตียง)<br><br>
+
+lie (พูดเท็จ)<br>
+lie-lied-lied<br>
+เป็น regular verb เมื่่อเป็น Past ก็เติม -ed ตามปกติ<br>
+He lied to me about his age. (เขาได้โกหกกับฉันเกี่ยวกับอายุของเขา)<br><br>
+
+lay (วางสิ่งใดสิ่งหนึ่งลง/ออกไข่)<br>
+lay-laid-laid<br>
+จะต้องมีกรรมมารองรับ ว่า วางอะไร เช่น<br>
+I lay the tools on the table. (ฉันวางเครื่องมือลงบนโต๊ะ)<br>
+I laid the tools on the table yesterday. (เมื่อวาน ฉันได้วางเครื่องมือลงบนโต๊ะ)<br>
+The chicken laid 3 eggs yesterday. (แม่ไก่ออกไข่ 3 ฟองเมื่อวาน)<br><br>
+
+<strong>ระวังเรื่องตัวสะกด</strong><br><br>
+
+Suda is lying down on her bed.<br>
+Somsak is laying his tools on the table.<br><br>
+</span></li>
+
+			<li><span><strong>borrow VS lend</strong><br>
+borrow(ขอยืม)<br>
+Can I borrow ฿20 from you, please?<br>
+ให้ฉันขอยืมเงินคุณ 20 บาท ได้ไหม<br>
+<strike>Can I lend ฿20 from you please?</strike>
+<br><br>
+lend(ให้ยืม)<br>
+I can lend you ฿20
+<br><br>
+</span></li>
+
+			<li><span><strong>say VS tell</strong><br><br>
+
+say(พูดว่าอะไร)<br>
+say จะเน้นที่สิ่งที่เป็นคำพูด มักจะไม่มีกรรม หรือใครมาต่อท้าย แต่ถ้ามี ต้องมี to คั่น หมายถึงว่า บอกใคร <br>
+ The weatherman said (that) it would rain today.<br>
+ If you see Jill, say hello from me.<br>
+<strike> If you see Jill, tell hello from me.</strike>
+
+<br><br>
+tell (บอกแก่ใคร)<br>
+จะต้องมีกรรมมารับ เช่น<br>
+ I've already told <strong>you</strong> the answer three times.  <br>
+<strike> I've already <strong>said you</strong> the answer three times.</strike>  <br><br>
+
+<strong>สำนวนที่ใช้ say/tell</strong><br><br>
+สำนวนต่อไปนี้ ใช้ say หรือ tell จะใช้อย่างอื่น ไม่ได้<br><br>
+
+The clock says ten-thirty. (นาฬิกาบอกเวลา)<br>
+<strike>The clock tells ten-thirty.</strike><br>
+tell the truth<br>
+<strike>say the truth</strike><br>
+tell the time<br>
+<strike>say the time</strike><br>
+tell a story/stories (เล่าเรื่อง)<br>
+tell a joke/jokes (เล่าเรื่องตลก)<br>
+tell a lie/lies (พูดโกหก)<br>
+So you say. (ใช่ ตามความคิดของคุณ [แต่ผมไม่เห็นด้วย])<br>
+Easier said than done. (พูดง่าย ทำยาก)<br>
+It goes without saying. (ชัดเจนอยู่แล้ว)<br><br>
+</span></li>
+
+			<li><span><strong>speak VS talk</strong><br><br>
+
+speak (พูด) ใช้กับภาษา หรือการพูดโดยทั่ว ๆ ไป ค่อนข้างเป็นทางการ มากกว่า talk เช่น <br>
+speak English(พูดภาษาอังกฤษ) ไม่ใช่ <strike>talk English</strike>
+แต่ talk in English(สนทนาเป็นภาษาอังกฤษ) ใช้ได้<br><br>
+
+ตัวอย่าง<br>
+I speak English. (ฉันพูดภาษาอังกฤษ)<br>
+Does Donna speak Italian?<br>
+Emma is going to speak in front of 500 people at the conference.<br>
+We spoke to the boss this morning. (ฉันพูดกับหัวหน้าแล้วเมื่อเช้า)<br>
+I need to speak with you about the new project. (อยากจะคุยเกี่ยวกับโครงการใหม่กับคุณหน่อย)<br>
+<em>speak to และ speak with มีความหมายเหมือนกับ talk</em><br><br>
+
+talk (คุย)<br><br>
+ใช้เหมือน speak แต่ใช้กับเหตุการณ์ที่ค่อนข้างเป็นกันเอง เนนที่การพูดคุยแบบไม่ใช่ทางการ และ ใช้ในสำนวน ต่อไปนี้  เช่น <br>
+talk business (คุยธุรกิจ)<br>
+talk politics (คุยการเมือง)<br>
+talk sense (พูดมีเหตุมีผล)<br>
+talk in circles (พูดอ้อมค้อม วกวน)<br><br>
+</span></li>
+
+			<li><span><strong>do VS make</strong><br><br>
+do (ทำ)<br><br>
+ใช้กับงานภารกิจที่ต้องทำ หรือกิจกรรมที่ทำซ้ำ ๆ เช่น งานบ้าน การงานอาชีพ การทำเกี่ยวกับร่างกาย เช่น ออกกำลังกาย และการกระทำดี-เลวต่าง ๆ เช่น<br>
+do the housework (ทำงานบ้าน)<br>
+do the laundry(ซักผ้า)<br>
+do the dishes(ล้างจาน)<br>
+แต่ปูที่นอน ใช้คำว่า make the bed<br>
+do homework (ทำการบ้าน)<br>
+do business (ทำธุรกิจ)<br>
+do your hair (ทำผม)<br>
+do well (ทำได้ดี ทำสำเร็จ)<br>
+I did well on my exam.<br>
+do good (ทำความดี)<br>
+To do well by doing good. (ความสำเร็จเป็นผลมาจากการทำความดี)<br>
+do badly (ทำได้ไม่ดีเลย)<br>
+do your best(ทำให้ดีที่สุด)<br><br>
+
+make (ทำ/สร้าง)<br><br>
+ใช้กับ การสร้างสิ่งของ วัตถุ ใช้กับอาหาร เงิน ความสัมพันธ์ระหว่างบุคคล การสื่อสาร การวางแผน ความก้าวหน้า และอื่น ๆ เช่น<br><br>
+make a table (ทำโต๊ะ)<br>
+make breakfast (ทำอาหารเช้า)<br>
+make money (ทำรายได้)<br>
+make a profit (ทำกำไร)<br>
+make friends (สร้างมิตรภาพ)<br>
+make fun of someone (ล้อเลียนคนอื่น)<br>
+make a phone call (ต่อโทรศัพท์)<br>
+make a joke (ทำตลก/พูดตลก)<br>
+make a complaint (ร้องเรียน)<br>
+make a confession (สารภาพ)<br>
+make a speech (ปราศัย)<br>
+make a suggestion (ให้ข้อเสนอแนะ)<br>
+make a prediction (ทำนาย)<br>
+make an excuse (แก้ตัว)<br>
+make a mess (ทำรก ไม่เป็นระเบียบ เลอะเทอะ ยุ่งเหยิง)<br>
+make a mistake (ทำผิด)<br>
+make a journey (ออกเดินทางท่องเที่ยว)<br><br>
+</span></li>
+
+			<li><span><strong>advise VS advice</strong><br><br>
+
+advise (แนะนำ) เป็นคำกริยา<br>
+Guests were advised to pay special attention to hand hygiene.<br>
+ผู้มาเยือนจะได้รับการแนะนำให้ใส่ใจเกี่ยวกับสุขอนามัยความสะอาดของมือเป็นพิเศษ<br><br>
+
+advice (แนะนำ) เป็นคำนาม<br>
+Steven gave me some good advice.<br>
+สตีเฟน ให้คำแนะนำที่ดีแก่ฉัน<br>
+</span></li>
+		</ul>
+
+	</div> <!--   end of div id="verb"  -->
+
+	<div id="adjective" class="explanation" style="display:none">
+		ADJCETIVE <br>
+		Adjective หรือ คำคุณศัพท์  ทำหน้าที่ขยายคำนามหรือสรรพนามที่อยู่ในประโยค เพื่อบอกให้รู้ว่า คำนามหรือสรรพนามเหล่านั้น มีลักษณะอย่างไร เช่น สูง ต่ำ ดำ ขาว ใหญ่ เล็ก เลว ดี ฯลฯ <br>
+		คำคุณศัพท์ จะวางอยู่หน้าคำนามที่มันขยาย หรือใช้ตามหลัง verb to be หรือ ตามหลัง linking verbs เช่น look, sound, taste, feel เป็นต้น<br><br>
+
+		<strong>คำที่มักใช้สับสน</strong><br><br>
+
+		<ul class="a">
+
+			<li><span><strong>good VS well</strong><br><br>
+<strong>good เป็น Adjective</strong> ใช้ขยายคำนาม<br><br>
+
+She gave me a good advice. (เธอให้คำแนะนำที่ดีแก่ฉัน)<br><br>
+
+The food taste good. (อาหารนี้ รสดี)<br>
+good ขยายคำว่า food และใช้ตามหลัง linking verb คือ taste<br>
+<strike>The food tastes well.</strike><br>
+ที่ใช้ well ไม่ได้ เพราะ ประธาน (food) ไม่ได้ทำกริยา (taste) จึง ใช้ Adverb มาขยายกริยาไม่ได้<br><br>
+
+<strong>well เป็นคำ Adverb</strong> ขยายคำกริยา ตอบคำถามที่ขึ้นต้นด้วย How ทำอย่างไร<br><br>
+
+I did well on the exam.<br>
+<strike>I did good on the exam.</strike><br><br>
+
+well สามารถใช้เป็น คุณศัพท์ ได้ ในความหมายที่เกี่ยวกับสุขภาพ<br>
+I am well. (ฉันสบายดี)<br>
+</span></li>
+			<br>
+			<li><span><strong>older VS elder</strong><br><br>
+<strong>older</strong> = มีอายุมากกว่า ใช้ได้ทั้งกับคนและสิ่งของ เช่น<br>
+She is older than I. (เธอคนนั้น มีอายุมากกว่าฉัน)<br><br>
+
+
+<strong>elder</strong> = อายุมากกว่า ใช้กับคนที่เป็นญาติพี่น้อง สายเลือดเดียวกัน เท่านั้น<br>
+ The elder of the two sisters is more beautiful.<br>
+ (ในจำนวนสองศรีพี่น้อง คนพี่สวยกว่า)<br>
+ Somsak is my elder brother.<br>
+ (สมศักดิ์ เป็นพี่ชายของฉัน)<br><br>
+
+ ข้อสังเกต<br>
+ <em>older ตามด้วย than แต่ elder ตามด้วย of</em>
+</span></li>
+			<br>
+			<li><span><strong>few VS a few VS quite a few</strong><br><br>
+<strong>few</strong> = มีน้อยมาก หรือเกือบไม่มีเลย มีความหมายในเชิงลบ ใช้กับนามนับได้พหูพจน์ <br>
+Sorry, I can’t make the delivery today as I have few products in the warehouse.<br>
+ขอโทษด้วยครับ ผมไม่สามารถส่งของวันนี้ได้ เพราะ มีของเหลือในโกดังน้อยมาก<br><br>
+
+<strong>a few</strong> = มีอยู่บ้าง 2-3 อัน  ใช้กับนามนับได้พหูพจน์ มีความหมายเท่ากับคำว่า some <br>
+I have a few products in the warehouse. I can send  you one today.<br>
+ผมมีของอยู่ 2-3 ชิ้นในโกดัง ผมส่งให้คุณได้วันนี้ 1 ชิ้น<br><br>
+
+<strong>quite a few</strong> = ค่อนข้างมาก<br>
+The letter arrived quite a few days ago.<br>
+(จดหมายมาถึงหลายวันแล้ว)<br>
+</span></li>
+			<br>
+			<li><span><strong>farther VS further</strong><br><br>
+<strong>farther</strong> = ไกล ใช้กับระยะทาง<br>
+ We had to walk farther than the map indicated.<br>
+เราต้องเดินไกลมากกว่าที่ระบุในแผนที่<br><br>
+
+<strong>further</strong> = ต่อไป มากขึ้น ขยายต่อไปอีก<br>
+The secretary could not offer him farther assistance.<br>
+เลขาไม่สามารถให้ความช่วยเหลือเขาต่อไป<br>
+She wants to further her study abroad.<br>
+เธอต้องการศึกษาต่อในต่างประเทศ<br><br>
+</span></li>
+			<br>
+			<li><span><strong>high VS tall</strong><br><br>
+
+ใช้ high กับสิ่งที่เอื้อมไม่ถึง หรืออยู่สูงมาก เช่น<br>
+a high shelf, a high window<br><br>
+
+ถ้าพูดถึงการวัดความสูง ใช้ tall กับคน และมักจะใช้ high กับสิ่งของ เช่น <br>
+Steven’s 1m 80cm tall.<br>
+The tree is about 20m high <strike>tall</strike>.<br><br>
+
+ใช้ high กับสิ่้งต่อไปนี้: fences, walls, mountains, hills, ceilings, clouds.<br>
+ใช้ tall กับสิ่งต่อไปนี้: people, trees, buildings, ladders, animals.<br><br>
+</span></li>
+			<br>
+
+		</ul>
+	</div> <!--   end of div id="adjective"  -->
+
+	<div id="adverb" class="explanation" style="display:none">
+		<strong>ADVERB </strong><br>
+		<strong>Adverb หรือ คำกริยาวิเศษณ์ </strong>คือคำที่ทำหน้าที่ขยายคำ กริยา คำคุณศัพท์ หรือ คำกริยาวิเศษณ์ ด้วยกันเอง เช่น<br>
+		She walks <u>quickly</u>. (ขยายกริยา)<br>
+		(เธอเดินเร็ว)<br>
+		She walks <u>too</u> quickly. (ขยายกริยาวิเศษณ์ด้วยกันเอง)<br>
+		(เธอเดินเร็วเกินไป)<br>
+		The banana is very sweet. (ขยายคำคุณศัพท์)<br>
+		(กล้วยนี้หวานมาก)<br><br>
+
+		<strong>Adverbs มีหลายประเภท</strong> เช่น
+		<ol class="b">
+			<li><strong>Adverbs of manner</strong> คือ คำที่ขยายกริยา ตอบคำถามว่าทำอย่างไร (How) คำเหล่านี้ เช่น fast , well ,quickly, slowly, elegantly, rationally, thoughtfully, clumsily, expertly เป็นต้น</li>
+			<li><strong>Adverbs of Place</strong> คือ คำที่ใช้บอกสถานที่ ตอบคำถาม Where คำเหล่านี้ เช่น above, below, there , here , up , down เป็นต้น</li>
+			<li> <strong>Adverbs of Time</strong> ใช้บอกเวลา ตอบคำถาม When คำเหล่านี้ เช่น now, later, yesterday, immediately, generally เป็นต้น</li>
+			<li><strong>Adverbs of Frequency</strong> คือ คำคุณศัพท์ที่ใช้บอกความถี่ เช่น บ่อย บ่อยมาก บ่อยน้อย หรือไม่เลย หรือคำเหล่านี้ often , always , usually เป็นต้น<br>I <u>always</u> get up late on weekends.</li>
+			<li><strong>Adverbs of Degree</strong> จะขยายคำคุณศัพท์ ให้รู้ขอบเขต มากน้อยเพียงใด เช่น มากไป น้อยไป เป็นต้น คำเหล่านี้ เช่น very, too, slightly, excessively, so, quite, rather<br>The food tastes <u>very</u> good.</li>
+			<li><strong>Linking Adverbs</strong> ทำหน้าที่เชื่อมความของประโยคเข้าด้วยกัน (ซึ่งแตกต่างจาก Conjunctions ที่ทำหน้าที่เชื่อมคำนาม วลี-phrases หรือประโยคย่อย-clauses) Linking Adverbs อาจจะละเสียได้ โดยที่ไม่ผิดไวยากรณ์ คำเหล่านี้ เช่น hence, afterwards, then, nonetheless, therefore, beforehand เป็นต้น<br>มีข้อสังเกตคือ Linking Adverbs จะต่อจากเครื่องหมาย full stop หรือ เครื่องหมาย semicolon<br>
+				Bob does not like sport<strong>; hence, </strong>he isn't coming to the game.<br> Bob ไม่ชอบกีฬา ดังนั้นเขาเลยไม่มา<br>
+				หรือ<br>
+				Bob does not like sport<strong>. Hence,</strong> he isn't coming to the game.<br>
+			</li>
+			<li>Adverbs ที่เพิ่มความหมายว่าเห็นด้วยหรือไม่เห็นด้วยกับข้อความข้างหน้า เช่น so, also, too, nor, neither และ either<br>
+				I went fishing. So did Harry.<br>
+				ฉันไปตกปลา แฮรี่ก็ได้ด้วย<br>
+				I went fishing. Harry went too.<br>
+				I went fishing. Harry went also.<br>
+				Teresa did not go. Nor did I.<br>
+				เทอริซ่าไม่ได้ไป ฉันก็ไม่ได้ไปด้วย<br>
+				Teresa did not go. Neither did I.<br>
+				Teresa did not go. I didn't either.<br>
+			</li>
+		</ol>
+		<br>
+		<strong>คำ  Adverbs ที่มักสับสน</strong><br><br>
+
+		<ul class="a">
+			<li><span><strong>hard VS hardly</strong><br><br>
+	<strong>hard</strong> = อย่างหนัก เช่น <br>
+	He works hard. (เขาทำงานหนัก-ขยัน)<br><br>
+	<strong>hardly</strong> = เกือบไม่มี มีน้อย เช่น <br>
+	He hardly works. (เขาเกือบไม่ทำงานเลย)<br>
+	We could hardly afford to pay the rent.<br>
+	เราเกือบไม่มีปัญญาจ่ายค่าเช่า<br><br>
+	</span></li>
+			<br>
+			<li><span><strong>late VS lately</strong><br><br>
+	<strong></strong>late = มาสาย<br>
+Suda came in late this morning.<br>
+สุดามาสายเมื่อเช้านี้<br><br>
+
+<strong>lately</strong> = เมื่อเร็ว ๆ นี้<br>
+Lately, people have been arriving late.<br>
+เมื่อเร็ว ๆ นี้ ผู้คนเริ่มมาสาย
+</span></li>
+			<br>
+			<li><span> <strong>most  VS  mostly</strong> <br><br>
+	<strong>most </strong>เป็นได้ทั้ง adjective และ adverb<br>
+	Most people like the prime minister. (adjective)<br>
+	คนส่วนใหญ่ (มากกว่าร้อยละ 50) ชอบนายกรัฐมนตรี<br>
+	Suda is the most beautiful girl in town. (adverb ขยาย adjective)<br>
+	สุดาเป็นคนสวยที่สุดที่นี่<br><br>
+
+	<strong>mostly</strong> เป็น adverb แปลว่า ตามปกติ หรือ โดยทั่ว ๆ ไป เช่น<br>
+We mostly go to work on weekdays, but sometimes we have to work on weekends.<br>
+โดยปกติเราทำงาน วันจันทร์-ศุกร์ แต่บางทีเราต้องทำงานวันหยุด เสาร์-อาทิตย์
+	</span></li>
+		</ul>
+	</div>  <!--   end of div id="adverb"  -->
+
+
+	<div id="pronoun" class="explanation" style="display:none">
+		<strong>PRONOUN</strong> <br>
+		<strong>pronoun</strong> คือคำสรรพนาม เป็นคำที่ใช้เรียกแทนคำนาม ได้แก่ คน สัตว์ สิ่งของ สถานที่ เพื่อเป็นการเลี่ยงการใช้คำนามเดิมซ้ำอีก เช่น he, she, her, them เป็นต้น<br><br>
+
+		<strong>ประเภทของ Pronoun</strong><br><br>
+		<ol class="b">
+			<li>Personal pronouns คือ คำสรรพนามที่ใช้แทนบุคคล เช่น he, they, him, her</li>
+			<li>Demonstrative pronouns คือ คำสรรพนามที่แสดงการชี้เฉพาะ เช่น this, that, these, those</li>
+			<li>Interrogative pronouns คือ คำสรรพนามที่ใช้ในการถามคำถาม เช่น what, which, who</li>
+			<li>Indefinite pronouns คือ คำสรรพนามที่ไม่ชี้เฉพาะ เช่น none, several, everyone, others เป็นต้น</li>
+			<li>Possessive pronouns คือ คำสรรพนามที่ใช้แสดงความเป็นเจ้าของ เช่น my, your, his, her เป็นต้น</li>
+			<li>Reciprocal pronouns  คือ คำสรรพนามที่ใช้แสดงว่า บุคคลหรือสิ่งนั้น กระทำ หรือรู้สึกเช่นเดียวกัน ต่อกัน  เช่น each other, one another</li>
+			<li>Relative pronouns   คือ คำสรรพนามที่ใช้เชื่อมประโยคย่อยไม่อิสระเข้ากับคำนาม หรือ
+				สรรพนามอื่นที่ต้องการขยาย  เช่น which, where</li>
+			<li>Reflexive pronouns คือ คำสรรพนามที่ใช้เมื่อประธานและกรรมเป็นคนเดียวกัน หรือสิ่งเดียวกัน เช่น myself, itself, himself</li>
+		</ol>
+		<br>
+		<strong>ประเด็นการใช้คำสรรพนาม</strong><br><br>
+		<ul class="a">
+			<li><span><strong>ใช้ Pronoun ให้ถูกตามจำนวน </strong>คือ ถ้าแทนคำนามเอกพจน์ ก็ต้องใช้ Pronoun ที่แทนเอกพจน์ เป็นต้น เช่น<br>
+ <strong>A student</strong> must use pronouns properly in <strong>their</strong> papers. &#x2718;<br>
+ <strong>A student</strong> must use pronouns properly in <strong>his</strong> or her papers. &#x2714;<br>
+ <strong>Students </strong>must use pronouns properly in <strong>their</strong> papers. &#x2714;<br>
+	</span></li>
+			<br>
+			<li><span><strong>คำต่อไปนี้ ถือว่าเป็นเอกพจน์ </strong> "everybody," "anybody," "anyone," "each," "neither," "nobody," และ "someone" <br>
+<strong>Everybody</strong> should do <strong>their</strong> work on time.&#x2718;<br>
+<strong>Everybody</strong> should do <strong>his or her</strong> work on time. &#x2714; <br>
+ <strong>All students</strong> should do <strong>their</strong> work on time. &#x2714;<br>
+<strong>Each of the students</strong> remembered <strong>their</strong> homework. &#x2718;<br>
+<strong>Each of the students </strong>remembered <strong>his or her </strong>homework.  &#x2714;<br>
+<strong>All of the students</strong> remembered <strong>their </strong>homework.  &#x2714;<br>
+	</span></li>
+			<br>
+			<li><span> <strong>ข้อผิดพลาดที่พบบ่อย </strong><br><br>
+The committee presented awards to Ariel and <strong>I</strong>. &#x2718;<br>
+The committee presented awards to Ariel and <strong>me</strong>.&#x2714;<br><br>
+
+Mica and <strong>me</strong> are going to the conference.&#x2718;<br>
+Mica and <strong>I</strong> are going to the conference.&#x2714;<br><br>
+
+<strong>Who</strong> did Tamir invite to the film’s opening? &#x2718;<br>
+<strong>Whom</strong> did Tamir invite to the film’s opening?&#x2714;<br>
+ใคร ในข้อนี้ เป็นกรรม เพราะถูก Tamir เชิญ จึงต้องใช้ Whom<br><br>
+
+<strong>Both Isabel and Barbara</strong> loved <strong>her</strong> children. &#x2718;<br>
+<strong>Both Isabel and Barbara</strong> loved <strong>their</strong> children. &#x2714;<br>
+สรรพนามใช้แทน Both Isabel and Barbara เป็นพหูพจน์ จึงต้องใช้ their<br><br>
+
+<strong>Either John or Mary</strong> play with <strong>their</strong> children. &#x2718;<br>
+<strong>Either John or Mary</strong> plays with <strong>her</strong> children.&#x2714;<br>
+(อาจจะเป็น John หรือ Mary ที่เล่นกับลูก ๆ)<br><br>
+<strong>Neither John nor Mary</strong> take <strong>their</strong> pets to the market. &#x2718;<br>
+<strong>Neither John nor Mary</strong> takes <strong>her</strong> pets to the market.&#x2714;<br>
+(ทั้ง John และ Mary ไม่พาสัตว์เลี้ยงของเขาไปตลาด)<br>
+ประธานที่เชื่อมด้วยคำว่า or หรือ nor คำสรรพนาม ให้ใช้ตามคำนามที่ใกล้ที่สุด ในข้อนี้ Mary เป็นชื่อผู้หญิง จึงต้องใช้ her
+	</span></li>
+		</ul><br>
+		<strong>LGBT (Lesbian, Gay, Bisexual, Transgender)</strong><br><br>
+		กลุ่มบุคคลที่มีความหลากหลายทางเพศ (LGBT) นิยมที่จะใช้คำสรรพนาม they แทนทั้งผู้หญิงและผู้ชาย หรือ ใช้คำอื่น เช่น Ze/hir/hir แทน her/hers/him/his/they/theirs หรือ ไม่ใช้คำสรรพนามเลย แต่ใช้ชื่อแทน เช่น<br><br>
+
+		<strong>Shea</strong> ate <strong>their </strong>food because they were hungry.<br>
+		<strong>Tyler</strong> ate <strong>hir</strong> food because <strong>ze</strong> was hungry.<br>
+		<strong>Ash</strong> ate <strong>Ash’s</strong> food because <strong>Ash</strong> was hungry.<br>
+
+
+
+	</div> <!--   end of div id="pronoun"  -->
+
+	<div id="preposition" class="explanation" style="display:none">
+		<strong>PREPOSITION</strong> <br>
+
+		<strong>Prepositions</strong> คือคำบุพบทที่ใช้แสดงความสัมพันธ์ระหว่างคำ มักใช้นำหน้าคำนาม, สรรพนาม, หรือ gerund เพื่อบอกถึง เวลา, สถานที่, ตำแหน่ง, ทิศทาง, การเคลื่อนไหว, ลักษณะ, และความสัมพันธ์ต่างๆ ตัวอย่างคำ Preposition เช่น  in, on, at, under, between เป็นต้น<br><br>
+
+		<strong>คำ Preposition ที่มักใช้ผิด</strong><br><br>
+
+		<ul class="a">
+			<li><span><strong>between VS among</strong><br><br>
+	<strong>between (ระหว่าง)</strong> ใช้กับสิ่งที่แยกกันอย่างชัดเจน (อาจจะมีมากกว่า 2 สิ่งขึ้นไป ก็ได้)<sup>*</sup> เช่น<br>
+	between life and death. (ระหว่างชีวิตและความตาย)<br>
+	The negotiations between <strike>among</strike> Brazil, Argentina, and Chile are going well.<br>
+(การเจรจา ระหว่าง ประเทศบลาซิล อาเจนตินา และ ชิลี ดำเนินไปด้วยดี) แต่ละประเทศ แบ่งแยกกันชัดเจน<br>
+	I’m trying to decide between <strike>among</strike> the green shirt, the blue shirt, and the black shirt.<br>
+(ฉันกำลังตัดสินใจ ระหว่าง เสื้อสีเขียว เสื้อสีน้ำเงิน และ เสื้อสีดำ) 3 อย่าง แบ่งแยกกันอย่างชัดเจน<br><br>
+
+	<strong>among (ระหว่าง/ท่ามกลาง)</strong> ใช้กับสิ่งต่าง ๆ ตั้งแต่ 3 สิ่งขึ้นไป ซึ่งเป็นส่วนหนึ่งของ กลุ่ม ฝูง เป็นต้น หรือไม่ได้แยกออกมาอย่างชัดเจน เช่น<br>
+	The ancient fountain was hidden among the trees. &#x2714; <br>
+	The ancient fountain was hidden <strike>betweem</strike> the trees. &#x2718; <br>
+(น้ำพุโบราณซ่อนอยู่ท่ามกลางหมู่ไม้ - ล้อมรอบไปด้วยต้นไม้)<br>
+The negotiations among <strike>between</strike> the countries of South America are going well.<br>
+การเจรจาระหว่างกลุ่มประเทศอเมริกาใต้ ดำเนินไปด้วยดี (เป็นส่วนหนึ่งของกลุ่ม)<br>
+I’m trying to decide among these shirts.<br><br>
+
+<br>
+
+<strong>ใช้ between ต่อจากคำนาม</strong> ต่อไปนี้ connection, difference, distinction, link และ relationship เช่น<br>
+There’s a strong link between clean drinking water and reduced infant mortality.<br>
+มีความเชื่อมโยงอย่างแข็งขันระหว่างน้ำดื่มสะอาด กับความตายของเด็กที่ลดลง<br><br>
+
+<strong>ใช้ between ต่อจากคำกริยา</strong> ต่อไปนี้  choose, differentiate, distinguish, divide เช่น<br>
+I didn’t want to have to choose between the singers.<br>
+ฉันไม่ต้องการที่จะต้องเลือกระหว่างนักร้องเหล่านั้น<br><br>
+
+<strong>“BETWEEN YOU AND I” OR “BETWEEN YOU AND ME”?</strong><br><br>
+ให้ใช้ between you and me เท่านั้น (ระหว่างเราสองคน -- ห้ามบอกคนอื่น) ใช้เมื่อต้องการให้อีกฝ่ายหนึ่งถือเป็นความลับ ไม่บอกใคร<br><br>
+Between you and me, I think John got fired because he’s completely incompetent.<br>
+อย่าบอกใครไปนะ ฉันคิดว่า ที่จอห์นถูกไล่ออกเพราะเขาไร้ความสามารถอย่างสิ้นเชิง
+</span></li>
+			<br>
+			<li><span><strong>like/as/as if/as though/the way </strong><br><br>
+	<strong>ห้ามใช้ like แล้วตามด้วยประโยค</strong> เพราะ like ใช้นำหน้าคำนาม ให้ใช้ as/as if/as though/the way แทน เช่น<br><br>
+	I wish I could be more like her. &#x2714; <br>
+ฉันปรารถนาว่าจะเป็นเหมือนเธอได้ <br><br>
+
+	 It doesn’t look <strong>like</strong> she will show up for dinner.&#x2718; <br>
+	 It doesn’t look <strong>as if (or as though) </strong>she will show up for dinner, &#x2714;  <br>
+	 ดูเหมือนว่าเธอจะไม่มากินข้าวเย็นด้วยกัน<br><br>
+
+Do it like I taught you.&#x2718; <br>
+Do it the way I taught you.&#x2714;  <br>
+ทำตามที่ผมสอน<br>
+
+	</span></li>
+			<br>
+			<li><span> <strong>อย่าจบประโยคด้วยคำ Preposition</strong> โดยไม่จำเป็น เช่น<br>
+Where did he <strong>go to</strong>? &#x2718; <br>
+Where did he <strong>go</strong>? &#x2714;<br><br>
+
+That is something I cannot agree with. &#x2714; <br>
+นั่นคือสิ่งที่ฉันเห็นด้วยไม่ได้ (agree with จำเป็นต้องมี อยู่ท้ายประโยคได้)<br><br>
+
+	How many of you can I count on?  &#x2714; <br>
+มีพวกเธอกี่คน ที่ฉันพอจะเชื่อถือได้ (จำเป็น อยู่ท้ายประโยคได้)
+	</span></li>
+			<br>
+			<li><span> <strong>in front of VS in the front of</strong> <br><br>
+	in front of = อยู่หน้า<br>
+	in the front of = อยู่ตอน/ส่วนหน้า<br>
+	<img src="images/in_front_of.png"   width="100%"/>
+</span></li>
+			<br>
+			<li><span> <strong>angry with VS angry about VS agngry at </strong><br><br>
+<strong>angry with</strong> = โกรธ ใช้กับคน<br>
+She’s so angry with her neighbor for ruining her fence.<br>
+เธอโกรธเพื่อนบ้านมาก ที่ทำรั้วเธอพัง<br><br>
+
+<strong>angry about</strong> = โกรธเกี่ยวกับ ใช้กับสิ่งของ หรือเหตุการณ์<br>
+What are you angry about?<br>
+คุณโกรธเกี่ยวกับอะไร<br>
+They were so angry about the things she said about them behind their backs.<br>
+คนพวกนั้นโกรธมาก เกี่ยวกับสิ่งที่ผู้หญิงคนนั้นพูดลับหลัง เกี่ยวกับพวกเขา<br><br>
+
+<strong>angry at</strong> = โกรธ ใช้กับสิ่งของ และใช้กับคนก็ได้เหมือนกัน<br>
+I’m so angry at you for not telling me sooner!<br>
+ฉันโกรธคุณมากที่ไม่บอกฉันก่อนหน้านี้ (ทำไมเพิ่งมาบอกตอนนี้)<br>
+I’m so angry at my phone for not working when I need it the most.<br>
+ฉันโกรธโทรศัพท์ของฉันมาก ที่มันไม่ทำงานเมื่อตอนที่ฉันต้องการมันมากที่สุด<br><br>
+
+	</span></li>
+			<br>
+			<li><span> <strong>arrive in VS arrive at</strong><br><br>
+<strong>arrive in</strong> = ถึง ใช้กับ เมือง ประเทศ <br>
+I arrived in London last week.<br>
+ฉันมาถึงกรุงลอนดอนเมื่ออาทิตย์ที่แล้ว<br>
+When did you arrive in Bangkok?<br>
+คุณมาถึงกรุงเทพเมื่อไร<br><br>
+
+<strong>arrive at</strong> = ถึง ใช้กับ เมืองเล็ก ๆ อาคาร หรือ สถานที่ที่แน่นอน เฉพาะเจาะจง<br>
+We arrived at the bus station on time.<br>
+เราไปถึงสถานีรถบัสทันเวลา<br>
+They arrived at my house very late.<br>
+พวกเขามาถึงบ้านฉันล่าช้ามาก<br>
+  </span></li>
+			<br>
+			<li><span><strong>make of VS made from</strong><br><br>
+make of = ทำจาก ใช้ในกรณีที่วัสดุที่ใช้ทำ ยังคงรูปร่างให้เห็น เช่น<br>
+The house is made of wood.<br>
+บ้านหลังนั้น ทำด้วยไม้<br> <br>
+
+make from = ทำจาก ใช้ในกรณีที่วัสดุที่ใช้ทำ เปลี่ยนรูปไปจากเดิม <br>
+Butter is made from milk. <br>
+เนยทำมาจากนม (ไม่เห็นสภาพของนมอีกต่อไป)<br>
+Sugar is made from sugarcane. <br>
+น้ำตาม ทำจากอ้อย (ไม่บอกก็ไม่รู้ว่ามาจากอ้อย เพราะไม่เห็นลักษณะของอ้อยหลงเหลืออยู่เลย อย่างนี้ จึงใช้ made from)<br> <br>
+	</span></li>
+			<br>
+			<li><span> <strong>congratulate on VS congratulate for</strong><br><br>
+congratulate on = ขอแสดงความยินดีกับ  +ต่อด้วยสิ่งของ หรือผลที่น่ายินดี<br>
+I must congratulate you on your victory.<br>
+ผมต้องขอแสดงความยินดีกับชัยชนะของคุณด้วย<br><br>
+
+congratulate for = ขอแสดงความยินดีที่ได้ +ต่อด้วยการกระท<br>ำ
+I must congratulate you for buying the new house.<br>
+ผมต้องขอแสดงความยินดีที่คุณได้ซื้อบ้านใหม่หลังนั้น<br>
+	</span></li>
+			<br>
+			<li><span> <strong>get in/out of VS get on/off</strong><br><br>
+	<strong>get in(ขึ้น) get out of(ลง)</strong> ใช้กับ รถยนต์ รถตู้(van)หรือ แท็กซี่<br>
+	She got in her car and drove away.<br><br>
+
+	<strong>get on(ขึ้น) get off (ลง)</strong> ใช้กับ รถบัส เครื่องบิน รถไฟ รถบรรทุก เรือ จักรยาน<br>
+	She got on the plane.<br>
+
+	</span></li>
+			<br>
+			<li><span><strong>good at VS good in</strong><br><br>
+good at = เก่ง<br>
+She is good at singing.<br>
+หญิงคนนั้น ร้องเพลงเก่ง<br><br>
+
+good in ไม่มี <br>
+<strike>She is good in singing. </strike>
+	</span></li>
+			<br>
+			-------------------------------<br>
+			<sup>*</sup><span style='font-size: 70%;'> https://www.espressoenglish.net/ whats-the-real-difference-between-between-and-among/</span><br>
+		</ul>
+
+
+	</div> <!--   end of div id="preposition"  -->
+
+	<div id="conjunction" class="conjunction" style="display:none">
+		<strong>CONJUNCTION</strong><br>
+		<strong>Conjunction </strong>คือ คําสันธาน หรือคำเชื่อม คือคำที่เชื่อมคำ ประโยค วลี หรือประโยคย่อยเข้าด้วยกัน เพื่อให้สละสลวยมากยิ่งขึ้น <br><br>
+
+		<strong>ประเภทของ Conjunction</strong><br><br>
+		1. Coordinating Conjunctions เป็นคำสันธานที่ใช้เชื่อมคำหรือประโยค 2 อันเข้าด้วยกัน โดยทั้ง 2 ประโยคที่ถูกเชื่อมกันนั้นจะต้องมีความสำคัญเท่ากันหรือมีความหมายไปในทางเดียวกัน เช่น and, but, or, so, nor, neither, either เป็นต้น<br><br>
+
+		2. Correlative Conjunctions เป็นคำสันธานที่ต้องใช้คู่กันเสมอ ใช้เชื่อมประโยคที่มีความสำคัญเท่ากัน เช่น  not only ... but also, either.... or, neither ... nor, as ... as, both ... and เป็นต้น<br><br>
+
+		3. Subordinating Conjunctions
+		เป็นคำสันธานที่ใช้ในการเชื่อมประโยคใจความรองให้เข้ากับประโยคใจความหลัก เช่น after, because, if, although เป็นต้น<br><br>
+
+		<strong>การใช้คำ Conjunction บางคำ</strong><br><br>
+
+		<ul class="a">
+			<li><span><strong>either...or... /neither...nor...</strong><br><br>
+กริยาที่ใช้ในประโยค จะต้องสอดคล้องกับประธานตัวหลัง<br><br>
+Either his mother or my <strong>sisters are</strong> singing in the pub tonight.<br>
+Either my sisters or <strong>his mother is</strong> singing in the pub tonight.<br>
+Neither his mother nor <strong>my sisters are</strong> singing in the pub tonight.<br>
+Neither my sisters nor <strong>his mother is</strong> singing in the pub tonight.
+</span></li>
+			<br>
+			<li><span><strong>Not only ....but also... </strong>(ไม่เพียงแต่... เท่านั้น หากแต่ยัง...)<br><br>
+ประโยคที่ขึ้นต้นด้วย Not only มีความหมายเป็นปฏิเสธ ประโยคที่ขึ้นต้นด้วยปฏิเสธ จะต้องเอากริยาช่วยมาไว้หน้าประธาน เช่น<br>
+Not only did Mary grill burgers for Michael, but she also fixed a steak for her dog, Vinny.<br>
+ไม่เพียงแต่แมรี่จะย่างเบอร์เกอร์ให้ไมเคิล แต่เธอยัง่ทำสเต๊กให้แก่สุนัขของเธอที่ชื่อวินนี่ด้วย<br><br>
+
+<strong>เพิ่มเติม</strong><br><br>
+ประโยคที่ขึ้นต้นด้วยปฏิเสธ จะมีการเรียงรูปประโยคในลักษณะ เอากริยาช่วยมาไว้หน้าประธาน เช่น<br>
+Neither he smokes nor he drinks. &#x2718; <br>
+Neither does he smoke nor does he drink. &#x2714; <br>
+He neither smokes nor drinks. &#x2714; <br>
+Never have I seen anything stranger.<br>
+ไม่เคยเลย ที่ฉันจะเห็นอะไรที่แปลกมากไปกว่านี้<br>
+Seldom have I heard anything more ridiculous.<br>
+น้อยมากที่ฉันได้ยินอะไรที่ไร้สาระมากกว่านี้<br>
+Hardly had I arrived when trouble started.<br>
+มีน้อยครั้งมาก ที่ฉันมาถึงก่อนปัญหาเกิด (คือส่วนใหญ่พอมาถึงก็มีปัญหาเกิดอยู่ก่อนแล้ว)<br>
+Little did she realize the danger she faced.<br>
+น้อยมากที่เธอตระหนักถึงอันตรายที่เธอกำลังเผชิญอยู่	<br>
+	</span></li>
+			<br>
+			<li><span>   </span></li>
+		</ul>
+
+
+	</div> <!--   end of div id="conjunction"  -->
+
+	<div id="interjection" class="explanation" style="display:none">
+		<strong>INTERJECTIONS</strong> <br>
+		<strong>Interjections</strong> คือคำที่ใช้แสดงความรู้สึกและอารมณ์ให้ชัดเจนขึ้น เช่นยินดี ดีใจ เสียใจ ผิดหวัง โกรธ เกลียด ขยะแขยง และจะมีเครื่องหมาย Exclamation mark หรือ เครื่องหมาย Commar ต่อด้วย เช่น Oh!  Outch! WOW! เป็นต้น<br><br>
+
+		<strong>ตัวอย่าง<sup>*</sup></strong><br><br>
+
+		Hey! Come on!<br>
+		Oh, That is a surprise.<br>
+		Good! now we can move on.<br>
+		Wow! I won the game!<br>
+		Hey! Come on!<br>
+		Oh, That is a surprise.<br>
+		Good! now we can move on.<br>
+		Wow! I won the game!<br><br>
+
+		Interjection ที่ตามหลังด้วย , จะเป็นการอุทานแบบเบาๆ ไม่รุนแรงนัก ถ้าตามหลังด้วยเครื่องหมาย ! ชื่อถึง อารมณ์ ความรู้สึก หรือความประหลาดใจอย่างมาก<br><br>
+
+		Interjection ที่ขึ้นต้นด้วย What และ How วิธีการใช้ดังนี้<br><br>
+
+		What + a….!<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		What a pity!<br>
+		What a shame!<br>
+		What a mess!<br>
+		What a relief!<br>
+		What a nuisance!<br><br>
+
+		What + a (an) + adjective + คํานามเอกพจน์นับได้<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		What a beautiful day!<br>
+		What an amazing car!<br>
+		What a kind man!<br>
+		What a beautiful flower!<br>
+		What a pleasant surprise!<br><br>
+
+		What + a (an) + adjectiveคํานามเอกพจน์นับได้ + ประธาน + กิริยา!<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		What a beautiful day it is!<br>
+		What an amazing car you have!<br>
+		What a beautiful smile she has!<br><br>
+
+		What + adjective + คํานามเอกพจน์นับไม่ได้ (+ ประธาน + กิริยา)!<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		What pleasant weather!<br>
+		What bad luck!<br>
+		What bad luck they had!<br><br>
+
+		What + adjective + คำนามพหูพจน์<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		What lovely children!<br>
+		What beautiful flowers!<br><br>
+
+		What + adjective + คำนามพหูพจน์ + ประธาน + กริยา!<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		What stupid things you say!<br>
+		What interesting books they are!<br>
+
+		How + adjective!<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		How sweet!<br>
+		How lovely!<br>
+		How amazing!<br>
+		How nice!<br>
+		How fast!<br><br>
+
+		How + adjective/adverb + ประธาน + กริยา!<br>อ
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		How nice it is!<br>
+		How cold it is!<br>
+		How fast the train goes!<br>
+		How foolish she is! How beautifully she sang!Everyone was delighted.<br><br>
+
+		How + adjective + กริยา + ประธาน<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		How clever am I!<br>
+		How crazy is that!<br><br>
+
+		“How adjective + กริยา + ประธาน” การอุทานแบบนี้มักจะพบใน American English<br><br>
+
+		Interjection ที่ใช้ so และ such ร่วมอยู่ด้วย<br>
+		so + adjective!<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		You are so sweet!<br>
+		She is so beautifull!<br>
+		He is so kind!<br><br>
+
+		such + a/an + (adjective) + คํานามเอกพจน์นับได้!<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		Such a great experience!<br>
+		He is such a nice boy!<br><br>
+
+		such + (adjective) + คํานามเอกพจน์นับไม่ได้หรือคำนามพหูพจน์!<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ<br><br>
+
+		They are such kind people!<br>
+		He talks such rubbish!<br>
+
+		นอกจากใช้สื่ออารมณ์ความรู้สึกต่างๆแล้ว interjection ยังสามารถนำมาใช้เพื่อการอวยพร โห่ร้อง หรือแสดงความชื่นชมยินดีได้อีกด้วย<br><br>
+
+		ตัวอย่างประโยคภาษาอังกฤษ เช่น<br><br>
+
+		Have a good trip!<br>
+		Good luck for you all!<br><br>
+		<sup>*</sup>ข้อมูลจาก<br>
+		<span style="font-size: 70%">https://www.englishtutorzone.com/ grammar/interjection/</span>
+
+
+	</div> <!--   end of div id="interjection"  -->
+
+
+
+
+</div>  <!-- end of wrapper  -->
+
+<script>
+var isFullVersion;
+var numOfQuestions = 10;  // เป็น dummy ว่ามีทั่้งหมด 10 ข้อ
+var currQstnID = "tbl_q10"; // เป็น dummy ว่าทำไปถึงข้อ 10 แล้ว จะได้แสดงเครื่องหมายถูก ว่า ทำหมดแล้ว
+var clickedQstns = "xzcccx11111";
+
+/*
+// คือส่งข้อมูลเพื่อส่งไปยัง WillpopScope ซึ่งจะทำงานตอนคลิกปุ่มลูกศรกลับไปยังหน้าที่แล้วที่เข้ามา
+// ข้อมูลที่ส่งไป เอาตามรูปแบบของข้อสอบที่เป็นไฟล์ html ซึ่งประกอบไปด้วย
+// จำนวนข้อทั้งหมด, ข้อปัจจุบันที่คลิก, ชื่อ id และ วันที่
+// ข้อมูลที่จะเอาไปทำ ไอคอน คือ จำนวนข้อทั้งหมด และข้อที่คลิก ซึ่งเป็นชื่อ id โดยที่ Willpop จะแยกเอาเฉพาะตัวเลข
+//  ทำข้อที่ 10 จากจำนวนทั้งหมด 10 ข้อ จึงได้ 100% ได้ไอคอนชื่อ p00.png คือ มีเครื่องหมายถูก แสดงว่า เสร็จแล้ว
+*/
+
+var msgToSend = numOfQuestions + "xzc" + currQstnID + clickedQstns;
+
+/*
+ส่งข้อมูลไป flutter ผ่าน JavascriptChannel ชื่อ messageHandler เพื่อบอกว่า ทำเสร็จแล้ว  */
+
+ messageHandler.postMessage(msgToSend);
+
+function isBuyAndMode(buyAndMode){  /* ส่งมาจาก Flutter  */
+var buyAndModeArr = buyAndMode.split("xyz");
+var isDarkMode;
+var buy = buyAndModeArr[0];
+var mode = buyAndModeArr[1];
+/* alert("buy: " + buy + "\nmode: " + mode);  */
+if(buy == "true"){
+		isFullVersion = 'true';
+}else{
+			isFullVersion = 'false';
+}
+if(mode == "true"){
+		isDarkMode = 'dark';
+}else{
+			isDarkMode = 'light';
+}
+setModeDarkOrLight(isDarkMode);
+}
+
+
+function displayContent(i){
+	if (isFullVersion == 'false'){
+		if(i =="noun" || i == "preposition"){
+				document.getElementById('myContents').innerHTML = document.getElementById(i).innerHTML;
+		}else{
+				document.getElementById('myContents').innerHTML = "ทบทวนเรื่อง " + i + " อ่านต่อในรุ่นเต็ม นะครับ <br>รุ่นนี้ มีเฉพาะเรื่อง Noun และ Preprosition เท่านั้น";
+		}  // 		if(i !=="noun" || i !== "preposition")
+
+	}else{  // if (isFullVersion == 'true')
+		document.getElementById('myContents').innerHTML = document.getElementById(i).innerHTML;
+	} // end of if (isFullVersion == )
+}
+
+
+function setModeDarkOrLight(htmlMode){
+if (htmlMode=="dark"){
+document.body.style.backgroundColor = 'black';
+document.body.style.color = 'white';
+document.getElementById('myContents').style.backgroundColor = 'black';
+document.getElementById('myContents').style.color = 'white';
+document.getElementById('bckHme').style.backgroundColor = '#6e7f80';
+document.getElementById('bckHme').style.color = 'yellow';
+
+
+
+ myStripe = document.getElementsByClassName("stripe");
+    for (var i = 0; i < myStripe.length; i++) {
+        myStripe[i].style.backgroundColor="#414141";
+     //   myStripe[i].style.color="black";
+     //  myStripe[i].[div]:nth-child(even).style.backgroundColor="gray";
+    }
+
+ myStripeEven = document.querySelectorAll('.stripe :nth-child(even)');  // หาลำดับคี่ ของ คลาส stripe  ถ้าเป็น id ก็ระบุเป็น #stripe
+  for (var i = 0; i < myStripeEven.length; i++) {
+        myStripeEven[i].style.backgroundColor="#818181";
+    }
+/*
+const odd = document.querySelectorAll('#parent :nth-child(odd)');
+console.log(odd);
+
+.stripe{
+	background: #eee;
+}
+.stripe div:nth-child(even){
+		background: #FFFFE0;
+	}
+
+*/
+ elements = document.getElementsByClassName("menu");
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.backgroundColor="gray";
+    }
+
+
+// ถ้าอยู่ในโหมดมืด เปลี่ยนสีลิงค์ ให้สว่างขึ้น
+    var links = document.getElementsByTagName("a");
+    if(links !== null){
+    for(var i=0;i<links.length;i++)
+    {
+        if(links[i].href)
+        {
+            links[i].style.color = 'white';
+        }
+    }
+    } // end of if(links !==
+    // change background color of table
+  // change table row background
+  var tableElements = document.getElementsByTagName("table");
+  for(var i = 0; i < tableElements.length; i++){
+      var thisTable = tableElements[i] ;
+      var rows = thisTable.getElementsByTagName("tr") ;
+  		for (var j=0; j<rows.length; j++) {
+  				rows[j].style.backgroundColor = "gray";
+  		}
+  	}
+}else{
+document.body.style.backgroundColor = 'white';
+document.body.style.color = 'black';
+}
+}  // end of function setModeDarkOrLight
+
+
+</script>
+
+</body>
+</html>

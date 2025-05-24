@@ -1,0 +1,2339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- XX -->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0698:date1633770358</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+
+
+13     9     
+3    15    
+25     5     17     49     7     19     81     9     21     ____	&lt;br /&gt; 
+
+
+
+	</question>
+    <choice_A>11</choice_A>
+    <choice_B>23</choice_B>
+    <choice_C>121</choice_C>
+    <choice_D>441</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	&lt;br /&gt;&lt;br /&gt;
+
+13     9     
+3    15    
+25     5     17     49     7     19     81     9     21     ____	&lt;br /&gt; &lt;br /&gt; 
+
+ดูภาพรวมชุดนี้ มีถึง 13 ตัวด้วยกัน อาจจะข้ามครั้งละ 2 ตัว&lt;br /&gt;  &lt;br /&gt;
+
+ลองดู 13 → 15 → 17 →19 → 21&lt;br /&gt;
+มองเห็นความสัมพันธ์ว่า เพิ่มขึ้นครั้งละ 2&lt;br /&gt;&lt;br /&gt;
+
+ลองดู 9 → 25 → 49 → 81&lt;br /&gt;&lt;br /&gt;
+
+จะเห็นว่า ทั้งหมดเป็นตัวเลขที่เกิดจากการยกกำลังสอง เช่น &lt;br /&gt;
+9=3x3, 25=5x5, 49=7x7 และ 81=9x9&lt;br /&gt;&lt;br /&gt;
+
+ซึ่งจะเห็นว่า เลข 3, 5, 7, 9 เป็นเลขคี่เรียงกันไป&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น ตัวเลขที่ต้องการคือ 11x11 ซึ่งเท่ากับ 121 ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src="asset:assets/data/images/ocsc_ans_01.png&quot;&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0699:date1633770391</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+3     9    	12    21    33     ____	&lt;br /&gt; 
+	
+	</question>
+    <choice_A>27</choice_A>
+    <choice_B>35</choice_B>
+    <choice_C>42</choice_C>
+    <choice_D>54</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+3     9    	12    21    33     ____	&lt;br /&gt; &lt;br /&gt; 
+
+ดูภาพรวม เพิ่มขึ้นตลอด แต่เพิ่มไม่เท่ากัน &lt;br /&gt;&lt;br /&gt;
+ลองเอา &lt;br /&gt;&lt;br /&gt;
+3+9 = 12&lt;br /&gt;
+9+12=21&lt;br /&gt;
+12+21=33&lt;br /&gt;&lt;br /&gt;
+สรุป ได้ความสัมพันธ์ของชุดนี้ คือ เอาตัวหน้าสองตัวบวกกัน&lt;br /&gt;
+
+ได้คำตอบ 54 ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+
+&lt;img src="asset:assets/data/images/ocsc_ans_02.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0700:date1633770392</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+12     13    	16    14    15    36    16    17     ____	&lt;br /&gt; 
+	
+	</question>
+    <choice_A>64</choice_A>
+    <choice_B>49</choice_B>
+    <choice_C>46</choice_C>
+    <choice_D>42</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+
+12     13    	16    14    15    36    16    17     ____	&lt;br /&gt; &lt;br /&gt; 
+
+ดูภาพรวม ตัวเลขชุดนี้มีค่าขึ้น ๆ ลง ๆ ไม่แน่นอน &lt;br /&gt;&lt;br /&gt;
+
+สังเกตจะเห็นว่า มีตัวเลขเป็นคู่ ๆ คือ &lt;br /&gt;
+12 → 13&lt;br /&gt;
+14 → 15&lt;br /&gt;
+16 → 17&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลขที่เหลือคือ&lt;br /&gt;
+16, 36, ...&lt;br /&gt;&lt;br /&gt;
+
+จะเห็นว่า เป็นเลขยกกำลังของ 4, 6&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น ตัวเลขที่ขาดไป น่าจะเป็นการยกกำลังของ 8 คือ 64
+ ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/ocsc_ans_03.png&quot;&gt;&lt;br /&gt;
+
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0701:date1633770393</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	3    	14    	7    	45    	15     124     31      ____ &lt;br /&gt;    
+
+	</question>
+    <choice_A>160</choice_A>
+    <choice_B>252</choice_B>
+    <choice_C>315</choice_C>
+    <choice_D>378</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	3    	14    	7    	45    	15     124     31      ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม มีเพิ่มมีลด น่าจะมีตัวเลขอยู่ 2 ชุด&lt;br /&gt;&lt;br /&gt;
+ชุดที่ 1 คือ 3, 7, 15, 31&lt;br /&gt;
+จะเห็นว่า มีความสัมพันธ์ คือ เลขตัวถัดไป เกิดจากการนำเลขตัวหน้า คูณกับ 2 แล้วบวกด้วย 1&lt;br /&gt;&lt;br /&gt;
+ 
+7=(3x2)+1&lt;br /&gt;
+15=(7x2)+1&lt;br /&gt;
+31=(15x2)+1&lt;br /&gt;&lt;br /&gt;
+
+ชุดที่ 2 ซึ่งจะเป็นชุดที่ให้คำตอบ คือ&lt;br /&gt;
+14, 45, 124, .....&lt;br /&gt;
+เลข 3 ตัวห่างกันค่อนข้างมาก (เกินกว่า 2 เท่า) น่าจะเกิดจากการคูณ หรือ ยกกำลัง&lt;br /&gt;&lt;br /&gt;
+เลข 14 ยกกำลังน่าจะไม่ได้  เพราะ 2<sup>2</sup>=4, 4<sup>2</sup>=16 &lt;br /&gt;&lt;br /&gt;
+ลองวิธีคูณดู&lt;br /&gt;
+14 = 2x7&lt;br /&gt;
+45 = 3x15&lt;br /&gt;
+124 = 4x31&lt;br /&gt;&lt;br /&gt;
+
+สรุปความสัมพันธ์ชุดที่ 2 คือ เลขตัวหน้า เท่ากับ เลขตัวหลังคูณด้วย 2 &lt;br /&gt;&lt;br /&gt;
+ดังนั้น จึงต้องหาตัวเลขที่ต่อจากตัวที่ต้องการ เพื่อนำมาคูณด้วย 5 ก็จะได้คำตอบ &lt;br /&gt;&lt;br /&gt;
+
+ตัวเลขที่ต้องการ ต้องหาจากชุดที่ 1 คือ&lt;br /&gt;
+(31x2)+1  =  63 &lt;br /&gt;&lt;br /&gt;
+
+ ∴  คำตอบ คือ 5x63 = 315 &lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/ocsc_ans_04.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0702:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+2500     625    	250    175    160     ____	&lt;br /&gt; 
+	
+	</question>
+    <choice_A>125</choice_A>
+    <choice_B>139</choice_B>
+    <choice_C>145</choice_C>
+    <choice_D>157</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+2500     625    	250    175    160     ____	&lt;br /&gt; &lt;br /&gt;
+
+ดูภาพรวม อนุกรมชุดนี้มีค่าลดลงอย่างต่อเนื่อง และไม่ยาวมาก น่าจะมีข้อมูลชุดเดียว และ อาจจะมีการลบ หรือ หาร แต่ถ้าสังเกตอีกที จะเห็นว่า ทุกจำนวน ลงท้ายด้วย 5 หรือ 0 แสดงว่า 5 หารลงตัวทุกตัว &lt;br /&gt;&lt;br /&gt;
+
+ลองเอา 5 หารทุกตัว&lt;br /&gt;
+2500 ÷  5 = 500&lt;br /&gt;
+625 ÷  5 = 125&lt;br /&gt;
+250 ÷  5 = 50&lt;br /&gt;
+175 ÷  5 = 35&lt;br /&gt;
+160 ÷  5 = 32&lt;br /&gt;&lt;br /&gt;
+
+ลองเอาค่าที่ได้ ลบกับตัวเลขถัดไป&lt;br /&gt;
+625 - 500 = 125&lt;br /&gt;
+250 - 125 = 125&lt;br /&gt;
+175 - 50 = 125&lt;br /&gt;
+160 - 35 = 125&lt;br /&gt;
+
+∴ ตัวเลขถัดไปคือ&lt;br /&gt;
+125 + 32 ซึ่งได้แก่ 157&lt;br /&gt;&lt;br /&gt;
+
+สรุปคือ ตัวเลขถัดไป เท่ากับ ตัวเลขก่อนหน้า หารด้วย 5 แล้วบวกด้วย 125 ดังภาพ
+
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/ocsc_ans_05.png&quot;&gt;&lt;br /&gt;
+
+</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- xx -->
+  <thisQuestion>
+    <qNum>id0703:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>&lt;strong&gt;คำสั่ง:&lt;/strong&gt; เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+        &lt;tex&gt;\dfrac{1}{3} \quad \dfrac{5}{3} \quad \dfrac{9}{15} \quad \dfrac{25}{27} \quad  ............ &lt;/tex&gt;     &lt;br /&gt;
+
+        <!--  ใช้ \dfrac{}{} ตัวเศษส่วนจะใหญ่ขึ้น แต่อยู่สูงกว่าบรรทัดนิดนึง เพราะเป็นแบบ display
+   ถ้าใช้ \frac{}{} จะตัวเล็กหน่อย แต่อยู่ตรงบรรทัด เพราะอยู่ในลักษณะ inline
+   ถ้าใช้ \large \frac{}{} จะตัวใหญ่ขึ้นมานิดนึง แต่ลอยขึ้นมานิดนึง (อยู่ในลักษณะ inline)
+  ถ้าใช้ \Large \frac{}{} จะตัวใหญ่ขึ้นมานิดนึง และลอยขึ้นมานิดนึง (อยู่ในลักษณะ inline)
+  ถ้าใช้ \Huge \frac{}{} จะตัวใหญ่ขึ้นมามาก และลอยขึ้นมานเยอะ (อยู่ในลักษณะ inline)
+ดูที่  https://tex.stackexchange.com/search?q=%5Clarge+%5Cfrac%7B
+ดูที่  https://www.overleaf.com/learn/latex/Fractions_and_Binomials#Text-style_fractions
+
+   -->
+
+	</question>
+    <choice_A>&lt;tex&gt;\dfrac{53}{81} &lt;/tex&gt;</choice_A>
+    <choice_B>&lt;tex&gt;\dfrac{53}{75} &lt;/tex&gt;</choice_B>
+    <choice_C>&lt;tex&gt;\dfrac{57}{81} &lt;/tex&gt;</choice_C>
+    <choice_D>&lt;tex&gt;\dfrac{57}{75} &lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+        &lt;tex&gt;\dfrac{1}{3} \quad \dfrac{5}{3} \quad \dfrac{9}{15} \quad \dfrac{25}{27} \quad  ............ &lt;/tex&gt;     &lt;br /&gt;
+
+        &lt;br /&gt;
+
+ในภาพรวมข้อนี้ เป็นเลขเศษส่วน &lt;br /&gt;
+ลองเอาเศษและส่วน บวกกัน แล้วดูความสัมพันธ์ของเศษส่วนคู่ถัดไป&lt;br /&gt;&lt;br /&gt;
+
+จะเห็นว่า เศษของชุดถัดไป เท่ากับ เศษบวกกับส่วนของตัวหน้า แล้วบวกด้วย 1 นั่นคือ&lt;br /&gt;&lt;br /&gt;
+
+5 = (1+3)+1&lt;br /&gt;
+9 = (5+3)+1&lt;br /&gt;
+25 = (9+15)+1&lt;br /&gt;&lt;br /&gt;
+
+∴ ตัวเศษ ของชุดที่ต้องการ คือ&lt;br /&gt;
+25+27+1 = 53&lt;br /&gt;&lt;br /&gt;
+
+ทำนองเดียวกัน&lt;br /&gt;
+3ส่วนของตัวถัดไป เกิดจากเศษของตัวก่อนหน้า คูณด้วย 3 นั่นคือ&lt;br /&gt;&lt;br /&gt;
+
+3 = 1x3&lt;br /&gt;
+15 =  5x3&lt;br /&gt;
+27 = 9x3&lt;br /&gt;&lt;br /&gt;
+
+∴ ตัวส่วน ของชุดที่ต้องการ คือ&lt;br /&gt;
+25x3 ซึ่งเท่ากับ 75&lt;br /&gt;
+
+
+ดังภาพ
+
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/ocsc_ans_06.png&quot;&gt;&lt;br /&gt;
+
+
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- yes for showing explanation -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0704:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+30     70    	147    274    464     ____	&lt;br /&gt;
+	
+	</question>
+    <choice_A>456</choice_A>
+    <choice_B>654</choice_B>
+    <choice_C>730</choice_C>
+    <choice_D>738</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+30     70    	147    274    464     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าเพิ่มขึ้นอย่างต่อเนื่องและเพิ่มจำนวนมาก แสดงว่า อาจจะมีการกระทำหลายชั้น หรือมีการคูณ หรือยกกำลัง &lt;br /&gt;&lt;br /&gt; 
+
+ลองหาผลต่างระหว่างตัวเลข สัก 3 ชั้น&lt;br /&gt;&lt;br /&gt;
+
+จะเห็นว่า ครั้งที่ 3 จะมีการเพิ่ม ครั้งละ 13 เท่า ๆ กัน ได้คำตอบตัวสุดท้ายคือ 730 &lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ
+
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/ocsc_ans_07.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0705:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ซื้อเครื่องใช้ชิ้นหนึ่งราคา 2,550 บาท ถ้าต้องการขายให้ได้กำไรร้อยละ 30 จะต้องขายเครื่องใช้ชิ้นนี้ไป
+ในราคากี่บาท&lt;br /&gt; 
+	
+	</question>
+    <choice_A>1,785</choice_A>
+    <choice_B>3,315</choice_B>
+    <choice_C>4,115</choice_C>
+    <choice_D>5,425</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ซื้อเครื่องใช้ชิ้นหนึ่งราคา 2,550 บาท ถ้าต้องการขายให้ได้กำไรร้อยละ 30 จะต้องขายเครื่องใช้ชิ้นนี้ไป
+ในราคากี่บาท&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+ต้องการกำไร 30% นั่นคือ ต้องขาย 100% + 30% = 130% (หรือ &lt;tex&gt;\frac{130}{100}&lt;/tex&gt;)  &lt;br /&gt;
+        ต่อไปก็คิดแต่เพียงว่า 130% ของทุน คือ 2,550 คิดเป็นเงินกี่บาท&lt;br /&gt;&lt;br /&gt;
+
+        &lt;tex&gt;130\% ของ 2,550 =  \frac{13\cancel{0} \times 2,55\cancel{0}}{1\cancel{00}} = 3,315&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+        ตอบ 3,315 บาท &lt;br /&gt;
+
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0706:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ถ้า x &gt; y และ m เป็นเลขจำนวนเต็มที่มีค่ามากกว่าศูนย์ อยากทราบว่าข้อใดต่อไปนี้ไม่เป็นความจริง &lt;br /&gt;
+
+	</question>
+    <choice_A>mx &lt; my</choice_A>
+    <choice_B>mx &gt; my</choice_B>
+    <choice_C>(x + m) &gt; (y + m)</choice_C>
+    <choice_D>(x – m) &gt; (y – m)</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ถ้า x &gt; y และ m เป็นเลขจำนวนเต็มที่มีค่ามากกว่าศูนย์ อยากทราบว่าข้อใดต่อไปนี้&lt;strong&gt;ไม่เป็นความจริง&lt;/strong&gt; &lt;br /&gt;&lt;br /&gt;
+
+1. mx &lt; my ✔ &lt;br /&gt;
+2. mx &gt; my&lt;br /&gt;
+3. (x + m) &gt; (y + m)&lt;br /&gt;
+4. (x – m) &gt; (y – m)&lt;br /&gt;&lt;br /&gt;
+
+ลองหาคำตอบจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 ถ้าเอา m ออกทั้งสองข้าง จะได้ว่า&lt;br /&gt;
+x &lt; y&lt;br /&gt;&lt;br /&gt;
+
+ซึ่งไม่เป็นความจริง ตามที่โจทย์กำหนด&lt;br /&gt;
+
+ข้อ 1 จึงเป็นตัวเลือกที่ถูก เพราะไม่เป็นความจริง
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 15 -->
+  <thisQuestion>
+    <qNum>id0707:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+เลขจำนวนคู่ 3 จำนวนเรียงลำดับกัน รวมกันได้ 36 ผลคูณของเลข 2 จำนวนหลัง จะมีค่าเท่าไร &lt;br /&gt;
+
+
+	</question>
+    <choice_A>120</choice_A>
+    <choice_B>132</choice_B>
+    <choice_C>140</choice_C>
+    <choice_D>168</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+เลขจำนวนคู่ 3 จำนวนเรียงลำดับกัน รวมกันได้ 36 ผลคูณของเลข 2 จำนวนหลัง จะมีค่าเท่าไร &lt;br /&gt;
+
+
+1. 120&lt;br /&gt;
+2. 132&lt;br /&gt;
+3. 140&lt;br /&gt;
+4. 168 ✔ &lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+ตั้งสมการแล้วหาค่า&lt;br /&gt;
+สมมติให้ a เป็นเลขจำนวนคู่ ตัวแรก&lt;br /&gt;
+∴ ตัวเลขอีก 2 ตัวที่เหลือคือ a+2 และ a+4&lt;br /&gt;&lt;br /&gt;
+
+จากโจทย์&lt;br /&gt;
+เลขจำนวนคู่ 3 จำนวนเรียงลำดับกัน รวมกันได้ 36 &lt;br /&gt;
+นำมาเข้าสมการ ได้&lt;br /&gt;
+a + (a+2) + (a+4) = 36&lt;br /&gt;&lt;br /&gt;
+
+ถอดสมการ&lt;br /&gt;
+3a = 30&lt;br /&gt;
+a = 10&lt;br /&gt;&lt;br /&gt;
+
+∴ ตัวเลขอีก 2 ตัวที่เหลือคือ&lt;br /&gt;
+12 และ 14&lt;br /&gt;&lt;br /&gt;
+
+โจทย์ต้องการ สองตัวหลังคูณกัน&lt;br /&gt;
+∴ 12x14 = 168&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 10 -->
+  <thisQuestion>
+    <qNum>id0708:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ถ้า 4*2 = 14 และ 7*6 = 32 แล้ว 11*4 มีค่าเท่าใด &lt;br /&gt;
+
+
+	</question>
+    <choice_A>34</choice_A>
+    <choice_B>42</choice_B>
+    <choice_C>56</choice_C>
+    <choice_D>68</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+ถ้า 4*2 = 14 และ 7*6 = 32 แล้ว 11*4 มีค่าเท่าใด &lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ใช้ความรู้พื้นฐานคณิตศาสตร์เรื่อง operation ซึ่งในโจทย์ใช้เครื่องหมาย * เพื่อหมายถึงเครื่องหมายทางคณิตศาสตร์ ซึ่งอาจจะเป็น การบวก ลบ คูณ หรือ หาร หรืออื่น ๆ ก็ได้&lt;br /&gt;&lt;br /&gt;
+
+operation ไม่มีกฎตายตัว &lt;br /&gt;ต้องอาศัยประสบการณ์และการสังเกต ว่า ตัวเลขที่ให้มา ทำอะไรกัน เช่น บวก ลบ คูณ หรือหาร หรือ มีอะไรมาบวกลบกับตัวหน้าก่อน แล้วจึงนำไปทำกับตัวหลัง เป็นต้น &lt;br /&gt;&lt;br /&gt;
+
+จากโจทย์ข้อนี้ จะพบว่า &lt;br /&gt;
+ถ้าเอา 2 ไปคูณกับตัวหน้า แล้ว เอาไปบวกกับ ตัวหลังที่คูณด้วย 3 ก็จะได้คำตอบ ดังนี้&lt;br /&gt;&lt;br /&gt;
+
+(4x2)+(2x3) = 14&lt;br /&gt;
+(7x2)+(6x3) = 32&lt;br /&gt;
+∴ (11x2)+(4x3) จึงเท่ากับ 34
+&lt;br /&gt;	
+
+
+
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 11 -->
+  <thisQuestion>
+    <qNum>id0709:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+พนักงานบริษัทแห่งหนึ่ง ถูกปรับลดเงินเดือนถึง 25% เมื่อเกิดภาวะเศรษฐกิจตกต่ำ ถ้าในปีต่อไป เศรษฐกิจดีขึ้น เขาจะต้องได้รับเงินเดือนเพิ่มขึ้น กี่เปอร์เซ็นต์ จึงจะทำให้เขา ได้รับเงินเดือนเท่าเดิม &lt;br /&gt;
+
+
+	</question>
+    <choice_A>23</choice_A>
+    <choice_B>25</choice_B>
+    <choice_C>33</choice_C>
+    <choice_D>35</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+พนักงานบริษัทแห่งหนึ่ง ถูกปรับลดเงินเดือนถึง 25% เมื่อเกิดภาวะเศรษฐกิจตกต่ำ ถ้าในปีต่อไป เศรษฐกิจดีขึ้น เขาจะต้องได้รับเงินเดือนเพิ่มขึ้น กี่เปอร์เซ็นต์ จึงจะทำให้เขา ได้รับเงินเดือนเท่าเดิม &lt;br /&gt;&lt;br /&gt;
+
+
+เงินเดือนก่อนภาวะตกต่ำ = 100%&lt;br /&gt;
+เงินเดือนปีนี้ = 100-25 = 75%&lt;br /&gt;
+ปีหน้าต้องเพิ่มให้เท่าเดิม คือ 100%&lt;br /&gt;
+ดังนั้น ต้องเทียบจากปีปัจจุบันซึ่งรับเงินเดือน เพียง 75% ถ้าต้องการให้เงินเดือนเหมือนเดิม คือ 100% จะต้องเพิ่มจาก 75% อีกกี่เปอร์เซ็นต์&lt;br /&gt;&lt;br /&gt;
+
+เทียบบัญัติไตรยางค์&lt;br /&gt;
+        รับปัจจุบัน 75% เพิ่มอีก 25% จึงจะเท่าเดิม&lt;br /&gt;
+        ถ้า 1% เพิ่มอีก &lt;tex&gt;= \frac{25}{75}&lt;/tex&gt;&lt;br /&gt;
+        ถ้า 100% เพิ่มอีก  &lt;tex&gt;= \frac{25 \times 100}{75} = 33.33\%&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+
+    หรือจะคิดแบบข้างล่างนี้ ก็ได้    &lt;br /&gt;&lt;br /&gt;
+
+สมมติเงินเดือนหนึ่งหมื่นบาท&lt;br /&gt;
+ถูกปรับลดเงินเดือน 25 % หมายความว่า&lt;br /&gt;
+เงินเดือน 100 บาท ลด 25 บาท&lt;br /&gt;&lt;br /&gt;
+
+เงินเดือน 10000 บาท ลด 25x10000/100 บาท = 2500 บาท&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น เขาได้รับเงินเดือน เดือนละ  10000-2500 = 7500 บาท&lt;br /&gt;&lt;br /&gt;
+
+ในปีต่อมาเศรษฐกิจดีขึ้น&lt;br /&gt;  เขาจะต้องได้รับเงินเดือนเพิ่มขึ้นกี่เปอร์เซน จึงจะได้เงินเดือนเท่าเดิม&lt;br /&gt;&lt;br /&gt;
+
+เงินเดือน 7500  อยากได้เท่าเดิม ต้องเพิ่มเดือนละ 10000-7500 = 2500 บาท&lt;br /&gt;&lt;br /&gt;
+
+เงินเดือน 7500 ต้องเพิ่ม เดือนละ 2500  บาท&lt;br /&gt;
+เงินเดือน 100 บาท  ต้องเพิ่มเดือนละ&lt;tex&gt;\frac{2500 \times 100}{75}  =  \frac{100}{3} = 33.33 \; บาท &lt;/tex&gt;  &lt;br /&gt;&lt;br /&gt;
+
+นั่นคือ ต้องเพิ่ม 33.33 % 
+
+
+&lt;br /&gt; &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 12 -->
+  <thisQuestion>
+    <qNum>id0710:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+พ่อค้าซื้อไข่ไก่มาจำนวนหนึ่ง ทั้งหมด 270 ฟอง เขาจะคัดไข่ออกขาย &lt;tex&gt;\frac{1}{3}&lt;/tex&gt; ของไข่ที่เหลืออยู่ทุกๆวัน อยากทราบว่าภายใน 3 วัน จะมีไข่ถูกคัดออกทั้งหมดกี่ฟอง &lt;br /&gt;
+
+
+	</question>
+    <choice_A>160</choice_A>
+    <choice_B>172</choice_B>
+    <choice_C>184</choice_C>
+    <choice_D>190</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+พ่อค้าซื้อไข่ไก่มาจำนวนหนึ่ง ทั้งหมด 270 ฟอง เขาจะคัดไข่ออกขาย  &lt;tex&gt;\frac{1}{3}&lt;/tex&gt;   ของไข่ที่เหลืออยู่ทุกๆวัน อยากทราบว่าภายใน 3 วัน จะมีไข่ถูกคัดออกทั้งหมดกี่ฟอง &lt;br /&gt;&lt;br /&gt;
+
+วันแรกพ่อค้ามีไข่ 270  คัดออก  &lt;tex&gt;\frac{1}{3}  &lt;/tex&gt;  &lt;br /&gt;
+        คัดออก   &lt;tex&gt; = \frac{1\times270}{3} = 90&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+วันที่สองเหลือไข่270-90=180 คัดออก  &lt;tex&gt;\frac{1}{3}  &lt;/tex&gt;  &lt;br /&gt;
+        คัดออก   &lt;tex&gt; = \frac{1\times180}{3} = 60&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+วันที่สามเหลือไข่180-60=120  คัดออก   &lt;tex&gt;\frac{1}{3}  &lt;/tex&gt;  &lt;br /&gt;
+        คัดออก    &lt;tex&gt; = \frac{1\times120}{3} = 40&lt;/tex&gt; &lt;br /&gt; &lt;br /&gt;
+
+∴ รวมที่คัดออก 90+60+40=190 &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 13 -->
+  <thisQuestion>
+    <qNum>id0711:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+
+
+ตาราง:  มูลค่าการค้าระหว่างประเทศ และผลิตภัณฑ์ประชาชาติเบื้องต้น (ล้านบาท) 	&lt;br /&gt; &lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/ocsc_ans_08.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+ปีใดต่อไปนี้ที่ไทยขาดดุลการค้าสูงที่สุด &lt;br /&gt;
+
+
+	</question>
+    <choice_A>ปีที่ 3</choice_A>
+    <choice_B>ปีที่ 8</choice_B>
+    <choice_C>ปีที่ 9</choice_C>
+    <choice_D>ปีที่ 10</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/ocsc_ans_08.png&quot;&gt;&lt;br /&gt;
+
+ตาราง:  มูลค่าการค้าระหว่างประเทศ และผลิตภัณฑ์ประชาชาติเบื้องต้น (ล้านบาท) 	&lt;br /&gt; &lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/ocsc_ans_08.png&quot;&gt;&lt;br /&gt;
+ปีใดต่อไปนี้ที่ไทยขาดดุลการค้าสูงที่สุด &lt;br /&gt;&lt;br /&gt;
+
+1. ปีที่ 3&lt;br /&gt;
+2. ปีที่ 8&lt;br /&gt;
+3. ปีที่ 9 ✔ &lt;br /&gt;
+4. ปีที่ 10&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;
+ขาดดุล คือ มูลค่าสินค้าเข้า มากกว่าสินค้าออก&lt;br /&gt;&lt;br /&gt;
+
+1. ปีที่ 3 ขาดดุล = 14,709 - 25,966 = -11,257&lt;br /&gt;
+2. ปีที่ 8 ขาดดุล = 49,799 - 64,044 = -14,245&lt;br /&gt;
+3. ปีที่ 9 ขาดดุล = 45,007 - 66,835 = -21,828✔ &lt;br /&gt;
+4. ปีที่ 10 ขาดดุล =60,797 - 72,877 = -12,080&lt;br /&gt;&lt;br /&gt;
+
+ถ้าจะคิดให้เร็ว จะเห็นว่า สามารถตัดออกเสีย 3 หลัก ก็ได้ เช่น&lt;br /&gt;&lt;br /&gt;
+
+1. ปีที่ 3 ขาดดุล = 14 - 25 = -11&lt;br /&gt;
+2. ปีที่ 8 ขาดดุล = 49 - 64 = -15&lt;br /&gt;
+3. ปีที่ 9 ขาดดุล = 45 - 66 = -21✔ &lt;br /&gt;
+4. ปีที่ 10 ขาดดุล =60 - 72 = -12&lt;br /&gt;&lt;br /&gt;
+
+ซึ่งจะเห็นว่า -21 เป็นการขาดทุนมากที่สุด&lt;br /&gt;
+
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 14 -->
+  <thisQuestion>
+    <qNum>id0712:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+ตาราง:  มูลค่าการค้าระหว่างประเทศ และผลิตภัณฑ์ประชาชาติเบื้องต้น (ล้านบาท) 	&lt;br /&gt; &lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/ocsc_ans_08.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+อัตราส่วนของ มูลค่าการค้าระหว่างประเทศ ต่อผลิตภัณฑ์ประชาชาติ ในปีเดียวกัน ของปีใดมีค่าเท่ากับ 2.5 &lt;br /&gt;
+
+
+
+	</question>
+    <choice_A>ปีที่ 6</choice_A>
+    <choice_B>ปีที่ 7</choice_B>
+    <choice_C>ปีที่ 10</choice_C>
+    <choice_D>ปีที่ 11</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/ocsc_ans_08.png&quot;&gt;&lt;br /&gt;
+
+ตาราง:  มูลค่าการค้าระหว่างประเทศ และผลิตภัณฑ์ประชาชาติเบื้องต้น (ล้านบาท) 	&lt;br /&gt; &lt;br /&gt;
+
+อัตราส่วนของ มูลค่าการค้าระหว่างประเทศ ต่อผลิตภัณฑ์ประชาชาติ ในปีเดียวกัน ของปีใด มีค่าเท่ากับ 2.5&lt;br /&gt;&lt;br /&gt;
+
+1. ปีที่ 6&lt;br /&gt;
+2. ปีที่ 7&lt;br /&gt;
+3. ปีที่ 10 ✔ &lt;br /&gt;
+4. ปีที่ 11&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+อัตราส่วนของ มูลค่าการค้าระหว่างประเทศ ต่อผลิตภัณฑ์ประชาชาติ คือ&lt;br /&gt;&lt;br /&gt;
+
+ผลิตภัณฑ์ประชาชาติ หารด้วย มูลค่ารวมในปีนั้น&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลขโดยรวมเป็นหลักหมื่น กับหลักแสน คำนวณคร่าว ๆ เอาหลักหมื่นและหลักแสนมาคิด จะได้ดังนี้&lt;br /&gt;&lt;br /&gt;
+
+1. ปีที่ 6 คือ 16/5=3.2&lt;br /&gt;
+2. ปีที่ 7 คือ 21/7=3.0&lt;br /&gt;
+3. ปีที่ 10 คือ 33/13=2.5✔ &lt;br /&gt;
+4. ปีที่ 11 คือ 37/16=2.3&lt;br /&gt;&lt;br /&gt;
+
+&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id0713:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+
+
+ตาราง:  มูลค่าการค้าระหว่างประเทศ และผลิตภัณฑ์ประชาชาติเบื้องต้น (ล้านบาท) 	&lt;br /&gt; &lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/ocsc_ans_08.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+มูลค่าการค้าระหว่างประเทศในช่วงระหว่างปีที่ 7 – ปีที่ 11 เฉลี่ยเพิ่มขึ้นประมาณกี่ล้านบาท &lt;br /&gt;
+
+
+	</question>
+    <choice_A>18,190</choice_A>
+    <choice_B>18,90</choice_B>
+    <choice_C>22,730</choice_C>
+    <choice_D>23,740</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/ocsc_ans_08.png&quot;&gt;&lt;br /&gt;
+
+ตาราง:  มูลค่าการค้าระหว่างประเทศ และผลิตภัณฑ์ประชาชาติเบื้องต้น (ล้านบาท) 	&lt;br /&gt; &lt;br /&gt;
+
+มูลค่าการค้าระหว่างประเทศในช่วงระหว่างปีที่ 7 – ปีที่ 11 เฉลี่ยเพิ่มขึ้นประมาณกี่ล้านบาท &lt;br /&gt;&lt;br /&gt;
+
+1. 18,190&lt;br /&gt;
+2. 18,90&lt;br /&gt;
+3. 22,730 ✔&lt;br /&gt;
+4. 23,740 &lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+ต้องดูว่า ในแต่ละปี มูลค่าเพิ่มขึ้นหรือลดลงเท่าไร&lt;br /&gt;
+เสร็จแล้วเอามารวมกัน แล้วหารด้วย 4 ปี จะได้ค่าเฉลี่ยที่ต้องการ&lt;br /&gt;&lt;br /&gt;
+
+เนื่องจาก คำตอบเป็นหลักหมื่น เราคำนวณคร่าว ๆ แค่หลักหมื่น ก็พอ&lt;br /&gt;&lt;br /&gt;
+
+ปีที่ 8 เพิ่มขึ้น= 113000-74000 = 39000&lt;br /&gt;
+ปีที่ 9 ลดลง = 111000-74000 = -2000&lt;br /&gt;
+ปีที่ 10 เพิ่มขึ้น = 133000-111000 = 22000&lt;br /&gt;
+ปีที่ 11เพิ่มขึ้น = 165000-133000 = 32000&lt;br /&gt;&lt;br /&gt;
+
+รวมมูลค่าเพิ่มขึ้น (4ปี) = 39000-2000+22000+32000 = 91000&lt;br /&gt;&lt;br /&gt;
+
+∴  เฉลี่ยเพิ่มขึ้น = 91000/4 = 22750&lt;br /&gt;&lt;br /&gt;
+
+คำตอบ ข้อ 3 ใกล้เคียงที่สุด&lt;br /&gt;
+
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 17 -->
+  <thisQuestion>
+    <qNum>id0714:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+คน : อาหาร : : ? : ? &lt;br /&gt;
+
+
+	</question>
+    <choice_A>ต้นไม้ ปุ๋ย</choice_A>
+    <choice_B>ดิน หญ้า</choice_B>
+    <choice_C>น้ำ ราก</choice_C>
+    <choice_D>ใบ กิ่ง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+คน : อาหาร : : ? : ? &lt;br /&gt;&lt;br /&gt;
+
+
+1. ต้นไม้ : ปุ๋ย  ✔ &lt;br /&gt;
+2. ดิน : หญ้า&lt;br /&gt;
+3. น้ำ : ราก&lt;br /&gt;
+4. ใบ : กิ่ง &lt;br /&gt;&lt;br /&gt;
+
+
+คน ต้องการ อาหาร&lt;br /&gt;
+ต้นไม้ ต้องการ ปุ๋ย
+&lt;br /&gt; &lt;br /&gt;
+
+
+
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 18 -->
+  <thisQuestion>
+    <qNum>id0715:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+เต้าเจี้ยว : ถั่วเหลือง : : ? : ?
+
+	</question>
+    <choice_A>ข้าว เกลือ</choice_A>
+    <choice_B>น้ำเชื่อม น้ำตาล</choice_B>
+    <choice_C>นม ขนม</choice_C>
+    <choice_D>น้ำปลา ซีอิ๊ว</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+เต้าเจี้ยว : ถั่วเหลือง : : ? : ?&lt;br /&gt;&lt;br /&gt;
+
+1) ข้าว เกลือ&lt;br /&gt;
+2) น้ำเชื่อม น้ำตาล ✔ &lt;br /&gt;
+3) นม ขนม&lt;br /&gt;
+4) น้ำปลา ซีอิ๊ว&lt;br /&gt;&lt;br /&gt;
+
+
+เต้าเจี้ยว ทำมาจาก ถั่วเหลือง&lt;br /&gt;
+น้ำเชื่อม ทำมาจาก น้ำตาล &lt;br /&gt; &lt;br /&gt;
+
+
+
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 19 -->
+  <thisQuestion>
+    <qNum>id0716:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+สะใภ้ : พี่ : : ? : ?&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>ย่า : ปู่</choice_A>
+    <choice_B>อา : เขย</choice_B>
+    <choice_C>ลุง : พ่อ</choice_C>
+    <choice_D>ป้า : หลาน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+สะใภ้ : พี่ : : ? : ?&lt;br /&gt;&lt;br /&gt;
+1) ย่า : ปู่&lt;br /&gt;
+2) อา : เขย&lt;br /&gt;
+3) ลุง : พ่อ&lt;br /&gt;
+4) ป้า : หลาน ✔  &lt;br /&gt;&lt;br /&gt;
+
+
+สะใภ้ เป็นเพศหญิง พี่ อาจเป็นหญิง หรือชาย&lt;br /&gt;
+ป้า เป็นเพศหญิง หลาน อาจเป็นหญิง หรือชาย&lt;br /&gt;&lt;br /&gt;
+
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 20 -->
+  <thisQuestion>
+    <qNum>id0717:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ธุรกิจ : ค้าขาย : : ? : ?&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>ครู : นักเรียน</choice_A>
+    <choice_B>ศิลปิน : นักแสดง</choice_B>
+    <choice_C>แพทย์ : พยาบาล</choice_C>
+    <choice_D>ชำนาญ : เชี่ยวชาญ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ธุรกิจ : ค้าขาย : : ? : ?&lt;br /&gt;&lt;br /&gt;
+1) ครู : นักเรียน&lt;br /&gt;
+2) ศิลปิน : นักแสดง ✔ &lt;br /&gt;
+3) แพทย์ : พยาบาล&lt;br /&gt;
+4) ชำนาญ : เชี่ยวชาญ&lt;br /&gt;&lt;br /&gt;
+
+ค้าขาย จัดเป็น ธุรกิจ อย่างหนึ่ง &lt;br /&gt;
+นักแสดง จัดเป็น ศิลปิน อย่างหนึ่ง  &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2 &lt;br /&gt;&lt;br /&gt;
+ขอบคุณ คุณอมลวัทน์ สวัสดิวงศ์ ที่ตรวจสอบข้อนี้ &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 21 -->
+  <thisQuestion>
+    <qNum>id0718:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+- พีระพล กุลวิทย์ และอิทธิ เลือกซื้อขนมมารับประทานคนละ 2 ชนิด ไม่ซ้ำกัน&lt;br /&gt;
+- ขนมที่ทั้งสามคนซื้อได้แก่ ทองหยอด ถั่วตัด ฝอยทอง และ ข้าวตู &lt;br /&gt;&lt;br /&gt;
+ทั้งนี้ชื่อคนและขนมไม่ได้เรียงกันตามลำดับข้างต้น&lt;br /&gt;&lt;br /&gt;
+
+- กุลวิทย์ไม่ได้ซื้อฝอยทองและข้าวตู&lt;br /&gt;
+- อิทธิซื้อขนมไม่เหมือนกับกุลวิทย์เลย&lt;br /&gt;
+- มีคนซื้อทองหยอดเพียงคนเดียว&lt;br /&gt;
+- ขนมอย่างหนึ่งที่พีระพลซื้อคือ ข้าวตู&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุป&lt;br /&gt;
+1. กุลวิทย์ซื้อทองหยอด&lt;br /&gt;
+2. อิทธิไม่ได้ซื้อถั่วตัด&lt;br /&gt;&lt;br /&gt;
+
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+- พีระพล กุลวิทย์ และอิทธิ เลือกซื้อขนมมารับประทานคนละ 2 ชนิด ไม่ซ้ำกัน&lt;br /&gt;
+        คำว่า "ไม่ซ้ำกัน" จะกำกวมนิดนึง คือ คนนึงซื้อขนม 2 ขนิดไม่เหมือนกัน หรือแต่ละคนซื้อไม่เหมือนกัน &lt;br /&gt;
+        แต่ถ้าพิจารณาว่า มีขนมเพียง 4 ชนิด ข้อความนี้ ต้องหมายความว่า คนเดียวซื้อขนมต่างชนิดกัน คือ ถ้าซื้อทองหยอดอย่างหนึ่งแล้ว
+        อีกอย่างจะเป็นทองหยอดไม่ได้ เพราะถ้าจะให้ทุกคนซื้อขนมไม่เหมือนกันเลย ต้องมีขนมอย่างน้อย 6 อย่าง &lt;br /&gt;
+- ขนมที่ทั้งสามคนซื้อได้แก่ ทองหยอด ถั่วตัด ฝอยทอง และ ข้าวตู ทั้งนี้ ชื่อคนและขนม ไม่ได้เรียงกันตามลำดับ ข้างต้น&lt;br /&gt;
+- กุลวิทย์ไม่ได้ซื้อฝอยทองและข้าวตู&lt;br /&gt;
+- อิทธิซื้อขนมไม่เหมือนกับกุลวิทย์เลย&lt;br /&gt;
+- มีคนซื้อทองหยอดเพียงคนเดียว&lt;br /&gt;
+- ขนมอย่างหนึ่งที่พีระพลซื้อคือ ข้าวตู&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุป&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: กุลวิทย์ซื้อทองหยอด (จริง)&lt;br /&gt;
+ข้อสรุปที่ 2: อิทธิไม่ได้ซื้อถั่วตัด (จริง) &lt;br /&gt;&lt;br /&gt;
+
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข ✔ &lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;
+
+
+
+แนวคิด ให้นำข้อมูลมาลงตาราง แล้วพิจารณาข้อสรุป&lt;br /&gt;&lt;br /&gt;
+
+        ตารางสรุป&lt;br /&gt;
+        &lt;img src=&quot;asset:assets/data/images/_thai_conditional_sampleTest03.png&quot;&gt;
+        &lt;br /&gt;&lt;br /&gt;
+
+        ออกแบบตารางได้แบบนี้ &lt;br&gt;
+        &lt;img src=&quot;asset:assets/data/images/_thai_conditional_sampleTest01.png&quot;&gt;
+
+        &lt;br&gt;&lt;br&gt;
+
+
+        ขั้นที่ 1 เอาข้อมูลที่แน่ชัดใส่ก่อน&lt;br&gt;
+        &nbsp;&nbsp;- กุลวิทย์ไม่ได้ซื้อฝอยทองและข้าวตู ทำให้กุลวิทย์ซื้อ ทองหยอดและถั่วตัด&lt;br&gt;
+        &nbsp;&nbsp;- อิทธิซื้อขนมไม่เหมือนกับกุลวิทย์เลย ทำให้อิทธิซื้อ ฝอยทองและข้าวตู &lt;br&gt;
+        &nbsp;&nbsp;- ขนมอย่างหนึ่งที่พีระพลซื้อ คือ ข้าวตู &lt;br&gt;
+        &lt;img src=&quot;asset:assets/data/images/_thai_conditional_sampleTest02.png&quot;&gt;
+
+        &lt;br&gt;&lt;br&gt;
+
+        ขั้นที่ 2 ใส่ข้อมูลที่เหลือ&lt;br&gt;
+        &nbsp;&nbsp;- มีคนซื้อทองหยอดเพียงคนเดียว ซึ่งจากข้อมูลเราทราบว่า กุลวิทย์เป็นคนซื้อ  ส่วนพีระพลซื้อ ข้าวตูไปแล้ว และจะซื้อทองหยอดไม่ได้ จึงเหลือขนมที่ซื้อได้ เพียง 2 อย่าง คือ ฝอยทองและถั่วตัด&lt;br&gt;
+        และเราก็ไม่มีข้อมูลว่า พีระพล จะซื้ออะไร จึงไม่แน่ว่า อาจจะซื้อฝอยทองก็ได้ หรือถั่วตัดก็ได้ &lt;br&gt;
+        &lt;img src=&quot;asset:assets/data/images/_thai_conditional_sampleTest03.png&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+        ขอบคุณน้อง Ing S. Kb ที่ช่วยตรวจสอบข้อนี้
+        &lt;br&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 22 -->
+  <thisQuestion>
+    <qNum>id0719:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+- พีระพล กุลวิทย์ และอิทธิ เลือกซื้อขนมมารับประทานคนละ 2 ชนิด ไม่ซ้ำกัน&lt;br /&gt;
+- ขนมที่ทั้งสามคนซื้อได้แก่ ทองหยอด ถั่วตัด ฝอยทอง และ ข้าวตู &lt;br /&gt;&lt;br /&gt;
+ทั้งนี้ชื่อคนและขนมไม่ได้เรียงกันตามลำดับข้างต้น&lt;br /&gt;&lt;br /&gt;
+
+- กุลวิทย์ไม่ได้ซื้อฝอยทองและข้าวตู&lt;br /&gt;
+- อิทธิซื้อขนมไม่เหมือนกับกุลวิทย์เลย&lt;br /&gt;
+- มีคนซื้อทองหยอดเพียงคนเดียว&lt;br /&gt;
+- ขนมอย่างหนึ่งที่พีระพลซื้อคือ ข้าวตู&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุป&lt;br /&gt;
+1. พีระพลซื้อทองหยอด&lt;br /&gt;
+2. มีคนซื้อฝอยทองเพียงคนเดียว&lt;br /&gt;&lt;br /&gt;
+
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+- พีระพล กุลวิทย์ และอิทธิ เลือกซื้อขนมมารับประทานคนละ 2 ชนิด ไม่ซ้ำกัน&lt;br /&gt;
+        คำว่า "ไม่ซ้ำกัน" จะกำกวมนิดนึง คือ คนนึงซื้อขนม 2 ขนิดไม่เหมือนกัน หรือแต่ละคนซื้อไม่เหมือนกัน &lt;br /&gt;
+        แต่ถ้าพิจารณาว่า มีขนมเพียง 4 ชนิด ข้อความนี้ ต้องหมายความว่า คนเดียวซื้อขนมต่างชนิดกัน คือ ถ้าซื้อทองหยอดอย่างหนึ่งแล้ว
+        อีกอย่างจะเป็นทองหยอดไม่ได้ เพราะถ้าจะให้ทุกคนซื้อขนมไม่เหมือนกันเลย ต้องมีขนมอย่างน้อย 6 อย่าง &lt;br /&gt;
+- ขนมที่ทั้งสามคนซื้อได้แก่ ทองหยอด ถั่วตัด ฝอยทอง และ ข้าวตู ทั้งนี้ ชื่อคนและขนม ไม่ได้เรียงกันตามลำดับ ข้างต้น&lt;br /&gt;
+- กุลวิทย์ไม่ได้ซื้อฝอยทองและข้าวตู&lt;br /&gt;
+- อิทธิซื้อขนมไม่เหมือนกับกุลวิทย์เลย&lt;br /&gt;
+- มีคนซื้อทองหยอดเพียงคนเดียว&lt;br /&gt;
+- ขนมอย่างหนึ่งที่พีระพลซื้อคือ ข้าวตู&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุป&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: พีระพลซื้อทองหยอด (เท็จ)&lt;br /&gt;
+ข้อสรุปที่ 2: มีคนซื้อฝอยทองเพียงคนเดียว (ไม่แน่ชัด)&lt;br /&gt;&lt;br /&gt;
+
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข  &lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน ✔ &lt;br /&gt;
+
+แนวคิด ให้นำข้อมูลมาลงตาราง แล้วพิจารณาข้อสรุป&lt;br /&gt;&lt;br /&gt;
+
+        ตารางสรุป&lt;br /&gt;
+        &lt;img src=&quot;asset:assets/data/images/_thai_conditional_sampleTest03.png&quot;&gt;
+        &lt;br /&gt;&lt;br /&gt;
+
+        ออกแบบตารางได้แบบนี้ &lt;br&gt;
+        &lt;img src=&quot;asset:assets/data/images/_thai_conditional_sampleTest01.png&quot;&gt;
+
+        &lt;br&gt;&lt;br&gt;
+
+
+        ขั้นที่ 1 เอาข้อมูลที่แน่ชัดใส่ก่อน&lt;br&gt;
+        &nbsp;&nbsp;- กุลวิทย์ไม่ได้ซื้อฝอยทองและข้าวตู ทำให้กุลวิทย์ซื้อ ทองหยอดและถั่วตัด&lt;br&gt;
+        &nbsp;&nbsp;- อิทธิซื้อขนมไม่เหมือนกับกุลวิทย์เลย ทำให้อิทธิซื้อ ฝอยทองและข้าวตู &lt;br&gt;
+        &nbsp;&nbsp;- ขนมอย่างหนึ่งที่พีระพลซื้อ คือ ข้าวตู &lt;br&gt;
+        &lt;img src=&quot;asset:assets/data/images/_thai_conditional_sampleTest02.png&quot;&gt;
+
+        &lt;br&gt;&lt;br&gt;
+
+        ขั้นที่ 2 ใส่ข้อมูลที่เหลือ&lt;br&gt;
+        &nbsp;&nbsp;- มีคนซื้อทองหยอดเพียงคนเดียว ซึ่งจากข้อมูลเราทราบว่า กุลวิทย์เป็นคนซื้อ  ส่วนพีระพลซื้อ ข้าวตูไปแล้ว และจะซื้อทองหยอดไม่ได้ จึงเหลือขนมที่ซื้อได้ เพียง 2 อย่าง คือ ฝอยทองและถั่วตัด&lt;br&gt;
+        และเราก็ไม่มีข้อมูลว่า พีระพล จะซื้ออะไร จึงไม่แน่ว่า อาจจะซื้อฝอยทองก็ได้ หรือถั่วตัดก็ได้ &lt;br&gt;
+        &lt;img src=&quot;asset:assets/data/images/_thai_conditional_sampleTest03.png&quot;&gt;
+
+        &lt;br&gt; &lt;br&gt;
+
+        ขอบคุณน้อง Ing S. Kb ที่ช่วยตรวจสอบข้อนี้
+        &lt;br&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 23 -->
+  <thisQuestion>
+    <qNum>id0720:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ถ้า A &gt; B = C &lt; D และ E ≤ C &lt; F ≤ G ทุกตัวแปรมีค่ามากกว่าศูนย์&lt;br /&gt;&lt;br /&gt;
+
+ข้อใดสรุปถูกต้อง&lt;br /&gt;
+1. G &gt; C&lt;br /&gt;
+2. C &lt; A&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปเป็นจริงทั้งสองข้อ</choice_A>
+    <choice_B>ข้อสรุปเป็นเท็จทั้งสองข้อ</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อ สรุปได้ไม่แน่ชัด</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ มีข้อสรุปต่างกัน</choice_D> 
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ถ้า A &gt; B = C &lt; D และ E ≤ C &lt; F ≤ G ทุกตัวแปรมีค่ามากกว่าศูนย์&lt;br /&gt;&lt;br /&gt;
+
+ข้อใดสรุปถูกต้อง&lt;br /&gt;
+1. G &gt; C&lt;br /&gt;
+2. C &lt; A&lt;br /&gt;&lt;br /&gt;
+
+C &lt; F ≤ G&lt;br /&gt;
+สรุปได้ว่า G &gt; C เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+
+ A &gt; B = C&lt;br /&gt;
+ สรุปได้ว่า C &lt; A เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+∴ ข้อสรุปทั้งสอง เป็นจริง หรือ สรุปถูกทั้งสองข้อ &lt;br /&gt; &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 24 -->
+  <thisQuestion>
+    <qNum>id0721:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ถ้า A &gt; B = C &lt; D และ E ≤ C &lt; F ≤ G ทุกตัวแปรมีค่ามากกว่าศูนย์&lt;br /&gt;&lt;br /&gt;
+
+ข้อใดสรุปถูกต้อง&lt;br /&gt;
+1. F &lt; E&lt;br /&gt;
+2. B &gt; G&lt;br /&gt;&lt;br /&gt;
+
+
+	</question>
+    <choice_A>ข้อสรุปเป็นจริงทั้งสองข้อ</choice_A>
+    <choice_B>ข้อสรุปเป็นเท็จทั้งสองข้อ</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อ สรุปได้ไม่แน่ชัด</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ มีข้อสรุปต่างกัน</choice_D> 
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ถ้า A &gt; B = C &lt; D และ E ≤ C &lt; F ≤ G ทุกตัวแปรมีค่ามากกว่าศูนย์&lt;br /&gt;&lt;br /&gt;
+
+ข้อใดสรุปถูกต้อง&lt;br /&gt;
+1. F &lt; E&lt;br /&gt;
+2. B &gt; G&lt;br /&gt;&lt;br /&gt;
+
+
+E ≤ C &lt; F&lt;br /&gt;
+สรุปได้ว่า F &gt; E&lt;br /&gt;
+ดังนั้น ข้อสรุปที่ 1 เป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+
+จาก B=C และ C &lt; F ≤ G&lt;br /&gt;
+สรุปได้ว่า B &lt; G&lt;br /&gt;
+ดังนั้น ข้อสรุปที่ 2 เป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+
+∴ ข้อสรุปทั้งสอง เป็นเท็จทั้งคู่&lt;br /&gt; &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 25 -->
+  <thisQuestion>
+    <qNum>id0722:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ถ้า A &gt; B = C &lt; D และ E ≤ C &lt; F ≤ G ทุกตัวแปรมีค่ามากกว่าศูนย์&lt;br /&gt;&lt;br /&gt;
+
+ข้อใดสรุปถูกต้อง&lt;br /&gt;
+1. A &lt; D&lt;br /&gt;
+2. G &gt; GA&lt;br /&gt;&lt;br /&gt;
+
+
+
+	</question>
+    <choice_A>ข้อสรุปเป็นจริงทั้งสองข้อ</choice_A>
+    <choice_B>ข้อสรุปเป็นเท็จทั้งสองข้อ</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อ สรุปได้ไม่แน่ชัด</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ มีข้อสรุปต่างกัน</choice_D> 
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+ถ้า A &gt; B = C &lt; D และ E ≤ C &lt; F ≤ G ทุกตัวแปรมีค่ามากกว่าศูนย์&lt;br /&gt;&lt;br /&gt;
+
+ข้อใดสรุปถูกต้อง&lt;br /&gt;
+1. A &lt; D&lt;br /&gt;
+2. G &gt; GA&lt;br /&gt;&lt;br /&gt;
+
+จาก A &gt; B = C &lt; D &lt;br /&gt;
+จะเห็นว่า จาก A ไปถึง D มีเครื่องหมายตรงข้ามกัน &lt;br /&gt;
+จึงไม่สามารถสรุป ความสัมพันธ์ระหว่าง A และ D ได้&lt;br /&gt;
+ดังนั้น ข้อสรุปข้อ 1 จึงสรุปไม่ได้  หรือสรุปได้ไม่แน่ชัด  &lt;br /&gt;&lt;br /&gt;
+
+จาก A &gt; B = C และ &lt;br /&gt;
+C &lt; F ≤ G&lt;br /&gt;&lt;br /&gt;
+
+ จะเห็นว่า จาก A ไป G มีเครื่องหมายตรงข้ามกันคั่นอยู่ จึงไม่สามารถสรุปความสัมพันธ์ ระหว่าง A และ G ได้&lt;br /&gt;
+ดังนั้น ข้อสรุปข้อ 2 จึงสรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+
+∴ ข้อสรุปทั้งสอง จึงสรุปไม่ได้  หรือสรุปได้ไม่แน่ชัดนั่นเอง  &lt;br /&gt; &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 26 -->
+  <thisQuestion>
+    <qNum>id0723:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+"บลูทูธ (Bluetooth) คือ คลื่นสัญญาณวิทยุชนิดหนึ่งที่ทำให้อุปกรณ์ไอทีต่าง ๆ เช่น โทรศัพท์มือถือ คอมพิวเตอร์ หรือพีดีเอ ให้สามารถเชื่อมต่อข้อมูลถึงกันได้ โดยมีรัศมีการส่งข้อมูล อยู่ในระยะประมาณ 10
+เมตร" &lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>อุปกรณ์ไอทีที่ใช้กันส่วนใหญ่มีบลูทูธ</choice_A>
+    <choice_B>ถ้าอุปกรณ์ไอทีใดสามารถเชื่อมต่อข้อมูลกันได้ แสดงว่าอุปกรณ์ไอทีนั้นมีบลูทูธ</choice_B>
+    <choice_C>ถ้าอุปกรณ์ไอทีใดไม่มีบลูทูธแล้ว อุปกรณ์ไอทีนั้นจะไม่สามารถเชื่อมต่อข้อมูลถึงกันได้</choice_C>
+    <choice_D>คลื่นสัญญาณวิทยุชนิดหนึ่งที่ทำให้อุปกรณ์ไอทีสามารถเชื่อมต่อข้อมูลถึงกันได้คือ บลูทูธ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+"บลูทูธ (Bluetooth) คือ คลื่นสัญญาณวิทยุชนิดหนึ่งที่ทำให้อุปกรณ์ไอทีต่าง ๆ เช่น โทรศัพท์มือถือ คอมพิวเตอร์ หรือพีดีเอ ให้สามารถเชื่อมต่อข้อมูลถึงกันได้ โดยมีรัศมีการส่งข้อมูล อยู่ในระยะประมาณ 10
+เมตร" &lt;br /&gt;&lt;br /&gt;
+
+ข้อใดสอดคล้องกับข้อความข้างต้น&lt;br /&gt;&lt;br /&gt;
+1) อุปกรณ์ไอทีที่ใช้กันส่วนใหญ่มีบลูทูธ&lt;br /&gt;
+2) ถ้าอุปกรณ์ไอทีใด สามารถเชื่อมต่อข้อมูลกันได้ แสดงว่าอุปกรณ์ไอทีนั้น มีบลูทูธ&lt;br /&gt;
+3) ถ้าอุปกรณ์ไอทีใดไม่มีบลูทูธแล้ว อุปกรณ์ไอทีนั้น จะไม่สามารถเชื่อมต่อข้อมูลถึงกันได้ &lt;br /&gt;
+4) คลื่นสัญญาณวิทยุชนิดหนึ่ง ที่ทำให้อุปกรณ์ไอที สามารถเชื่อมต่อข้อมูลถึงกันได้คือ บลูทูธ&lt;br /&gt;&lt;br /&gt;
+
+แนวคิด&lt;br /&gt;&lt;br /&gt;
+ข้อ 1 ในเนื้อหา ไม่ได้พูดถึงอุปกรณ์ไอทีส่วนใหญ่ เพียงแต่พูดว่า อุปกรณ์ต่าง ๆ ซึ่งอาจจะเป็นส่วนใหญ่หรือส่วนน้อย ก็ได้ &lt;br /&gt;&lt;br /&gt;
+
+ข้อ 2 และ ข้อ 3 เนื้อหา ไม่ได้บอกว่า มีเพียงแต่บลูทูธ เท่านั้น ที่ทำให้อุปกรณ์เชื่อมต่อข้อมูลกันได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 4 สรุปได้ถูกต้อง&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 27 -->
+  <thisQuestion>
+    <qNum>id0724:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+"ผิวของคนเราแตกต่างกัน จึงต้องการการดูแลที่แตกต่าง การเลือกใช้ผลิตภัณฑ์ที่เหมาะกับผิว มี ความสำคัญอย่างมาก ในการช่วยยืดอายุผิว และความงามให้อยู่กับคุณอย่างยาวนาน" &lt;br /&gt;&lt;br /&gt;
+
+ข้อใดสอดคล้องกับข้อความข้างต้น&lt;br /&gt;
+
+	</question>
+    <choice_A>ผิวของคนเราต้องการการดูแลที่แตกต่างกัน เพราะ ผิวของคนเรามีความแตกต่างกัน</choice_A>
+    <choice_B>เพราะผิวของคนเราต้องการการดูแลที่ต่างกัน ดังนั้นผิวของคนเราจึงแตกต่างกัน</choice_B>
+    <choice_C>ถ้าผู้ใดใช้ผลิตภัณฑ์ที่ไม่เหมาะกับผิว ผิวของผู้นั้นก็จะไม่สวยงาม</choice_C>
+    <choice_D>ถ้าผู้ใดมีผิวที่สวยงาม แสดงว่าผู้นั้นใช้ผลิตภัณฑ์ที่เหมาะกับผิว</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+"ผิวของคนเราแตกต่างกัน จึงต้องการการดูแลที่แตกต่าง การเลือกใช้ผลิตภัณฑ์ที่เหมาะกับผิว มี ความสำคัญอย่างมาก ในการช่วยยืดอายุผิว และความงามให้อยู่กับคุณอย่างยาวนาน" &lt;br /&gt;&lt;br /&gt;
+
+ข้อใดสอดคล้องกับข้อความข้างต้น&lt;br /&gt;&lt;br /&gt;
+
+1. ผิวของคนเราต้องการการดูแลที่แตกต่างกัน เพราะ ผิวของคนเรามีความแตกต่างกัน ✔ &lt;br /&gt;
+2. เพราะผิวของคนเราต้องการการดูแลที่ต่างกัน ดังนั้นผิวของคนเราจึงแตกต่างกัน&lt;br /&gt;
+3. ถ้าผู้ใดใช้ผลิตภัณฑ์ที่ไม่เหมาะกับผิว ผิวของผู้นั้นก็จะไม่สวยงาม&lt;br /&gt;
+4. ถ้าผู้ใดมีผิวที่สวยงาม แสดงว่าผู้นั้นใช้ผลิตภัณฑ์ที่เหมาะกับผิว&lt;br /&gt;&lt;br /&gt;
+
+ใจความสำคัญของเนื้อหานี้ อยู่ที่ประโยคแรก&lt;br /&gt;&lt;br /&gt;
+
+เน้นที่ความต่างกันของผิว การเลือกใช้ผลิตภัณฑ์ จึงต้องเลือกให้เหมาะกับผิวที่แตกต่างกัน&lt;br /&gt; &lt;br /&gt;
+
+ข้อ 1 จึงถูกต้องที่สุด &lt;br /&gt;&lt;br /&gt;
+
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 28 -->
+  <thisQuestion>
+    <qNum>id0725:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+"การสนองคุณชาตินั้น หาได้จำกัดเฉพาะการรับราชการไม่ ขอเพียงให้กลับมารับใช้ชาติก็พอ จึงมีการกำหนด เพียงเป็นกรอบกว้าง ๆ ว่า ให้นักเรียนทุนเล่าเรียนหลวง กลับเข้ามาทำงานในประเทศ อย่างน้อย เท่ากับจำนวนปี ที่ไปเล่าเรียนมา" &lt;br /&gt;&lt;br /&gt;
+
+สาเหตุสำคัญของข้อความนี้ เกี่ยวข้องกับนักเรียนทุนเล่าเรียนหลวง ในเรื่องใด&lt;br /&gt;
+
+	</question>
+    <choice_A>สิทธิ</choice_A>
+    <choice_B>เงื่อนไข</choice_B>
+    <choice_C>โอกาส</choice_C>
+    <choice_D>ข้อจำกัด</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+"การสนองคุณชาตินั้น หาได้จำกัดเฉพาะการรับราชการไม่ ขอเพียงให้กลับมารับใช้ชาติก็พอ จึงมีการกำหนด เพียงเป็นกรอบกว้าง ๆ ว่า ให้นักเรียนทุนเล่าเรียนหลวง กลับเข้ามาทำงานในประเทศ อย่างน้อย เท่ากับจำนวนปี ที่ไปเล่าเรียนมา" &lt;br /&gt;&lt;br /&gt;
+
+สาเหตุสำคัญของข้อความนี้ เกี่ยวข้องกับนักเรียนทุนเล่าเรียนหลวง ในเรื่องใด&lt;br /&gt;&lt;br /&gt;
+
+1.  สิทธิ&lt;br /&gt;
+2.  เงื่อนไข ✔ &lt;br /&gt;
+3.  โอกาส&lt;br /&gt;
+4.  ข้อจำกัด&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+เนื้อหาไม่ได้พูดเรื่องการสนองคุณชาติ เพราะถ้าพูดเรื่องการสนองคุณชาติ จะต้องมีรายละเอียดอื่น ๆ เช่น วิธีการสนองคุณชาติ มีหลายอย่าง เช่น การเป็นทหาร การเสียภาษี ฯลฯ เป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+เนื้อหาหลัก พูดถึงเรื่องเงื่อนไข ของนักเรียนทุนเล่าเรียนหลวงว่า ต้องกลับมาทำงาน อย่างไร&lt;br /&gt;&lt;br /&gt;
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 29 -->
+  <thisQuestion>
+    <qNum>id0726:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+"การให้การศึกษาแก่ประชาชน เพื่อให้มีความรู้ความสามารถ เป็นการลงทุนที่สำคัญที่สุด ในการพัฒนาบุคลากรของประเทศ ซึ่งจะส่งผลไปถึง การพัฒนาประเทศในที่สุด" &lt;br /&gt;&lt;br /&gt;
+
+ข้อความนี้สรุปว่าอย่างไร&lt;br /&gt;
+
+	</question>
+    <choice_A>การศึกษา มีผลต่อการพัฒนาประเทศ โดยทันที</choice_A>
+    <choice_B>การพัฒนาบุคลากร เป็นผลมาจากการพัฒนาประเทศ</choice_B>
+    <choice_C>การพัฒนาบุคคล และการพัฒนาประเทศ มีความสำคัญเท่า ๆ กัน</choice_C>
+    <choice_D>จุดมุ่งหมายของการศึกษา คือการพัฒนาบุคลากร เพื่อไปพัฒนาประเทศ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+"การให้การศึกษาแก่ประชาชน เพื่อให้มีความรู้ความสามารถ เป็นการลงทุนที่สำคัญที่สุด ในการพัฒนาบุคลากรของประเทศ ซึ่งจะส่งผลไปถึง การพัฒนาประเทศในที่สุด" &lt;br /&gt;&lt;br /&gt;
+
+ข้อความนี้สรุปว่าอย่างไร&lt;br /&gt;&lt;br /&gt;
+
+1. การศึกษา มีผลต่อการพัฒนาประเทศ โดยทันที&lt;br /&gt;
+2. การพัฒนาบุคลากร เป็นผลมาจากการพัฒนาประเทศ&lt;br /&gt;
+3. การพัฒนาบุคคล และการพัฒนาประเทศ มีความสำคัญเท่า ๆ กัน&lt;br /&gt;
+4. จุดมุ่งหมายของการศึกษา คือการพัฒนาบุคลากร เพื่อไปพัฒนาประเทศ ✔&lt;br /&gt;&lt;br /&gt;
+
+
+ใจความสำคัญคือ;&lt;br /&gt;;&lt;br /&gt;
+
+จุดมุ่งหมายของการศึกษา → การพัฒนาบุคลากร →  พัฒนาประเทศ;&lt;br /&gt;;&lt;br /&gt;
+
+
+
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 30 -->
+  <thisQuestion>
+    <qNum>id0727:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;"ศาลเป็นสถาบันหนึ่งที่จะช่วยแก้ไข และบรรเทาความเดือดร้อน อันเกิดจากการไม่ได้รับความเป็นธรรม แต่การให้ความเป็นธรรมของศาลนั้น จะต้องอยู่ภายใต้ขอบข่ายของกฎหมาย ศาลจะต้องพิจารณา พิพากษาคดี ไปตามพยานหลักฐาน ในสำนวนศาล จะนำข้อเท็จจริง นอกสำนวนมาพิจารณา มิได้  ในคดีอาญานั้น เป็นหน้าที่ของโจทก์ ที่จะต้องนำสืบพิสูจน์ความผิดของจำเลย หากมีความสงสัยตามสมควร ว่าจำเลยได้กระทำผิดหรือไม่  ศาลก็ต้องยกประโยชน์แห่งความสงสัย ให้จำเลย ส่วนในคดีแพ่งนั้น โดยหลักทั่วไปแล้ว ฝ่ายใดกล่าวอ้างข้อเท็จจริงขึ้นมา ฝ่ายนั้นก็มีหน้าที่ นำสืบพิสูจน์ดังที่กล่าวอ้าง หากนำสืบพิสูจน์มิได้ ย่อมจะแพ้ในเรื่องนั้นไป"&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+สาระสำคัญของบทความนี้กล่าวถึงศาลในเรื่องใด&lt;br /&gt;
+
+	</question>
+    <choice_A>หน้าที่</choice_A>
+    <choice_B>อำนาจ</choice_B>
+    <choice_C>วิธีการนำสืบพิสูจน์ความผิด</choice_C>
+    <choice_D>หลักการในการพิจารณาคดี</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;"ศาลเป็นสถาบันหนึ่งที่จะช่วยแก้ไข และบรรเทาความเดือดร้อน อันเกิดจากการไม่ได้รับความเป็นธรรม แต่การให้ความเป็นธรรมของศาลนั้น จะต้องอยู่ภายใต้ขอบข่ายของกฎหมาย ศาลจะต้องพิจารณา พิพากษาคดี ไปตามพยานหลักฐาน ในสำนวนศาล จะนำข้อเท็จจริง นอกสำนวนมาพิจารณา มิได้  ในคดีอาญานั้น เป็นหน้าที่ของโจทก์ ที่จะต้องนำสืบพิสูจน์ความผิดของจำเลย หากมีความสงสัยตามสมควร ว่าจำเลยได้กระทำผิดหรือไม่  ศาลก็ต้องยกประโยชน์แห่งความสงสัย ให้จำเลย ส่วนในคดีแพ่งนั้น โดยหลักทั่วไปแล้ว ฝ่ายใดกล่าวอ้างข้อเท็จจริงขึ้นมา ฝ่ายนั้นก็มีหน้าที่ นำสืบพิสูจน์ดังที่กล่าวอ้าง หากนำสืบพิสูจน์มิได้ ย่อมจะแพ้ในเรื่องนั้นไป"&lt;/div&gt; &lt;br /&gt;&lt;br /&gt;
+
+สาระสำคัญของบทความนี้กล่าวถึงศาลในเรื่องใด&lt;br /&gt;&lt;br /&gt;
+
+1. หน้าที่&lt;br /&gt;
+2. อำนาจ&lt;br /&gt;
+3. วิธีการนำสืบพิสูจน์ความผิด&lt;br /&gt;
+4. หลักการในการพิจารณาคดี ✔&lt;br /&gt;
+
+ประโยคใจความสำคัญคือ&lt;br /&gt;&lt;br /&gt;
+
+"ศาลจะต้องพิจารณา พิพากษาคดี ไปตามพยานหลักฐาน.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น จึงเป็นเรื่องหลักการในการพิจารณาคดีของศาล
+&lt;br /&gt; &lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 31 -->
+  <thisQuestion>
+    <qNum>id0728:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก&lt;br /&gt;&lt;br /&gt;
+
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;"ศาลเป็นสถาบันหนึ่งที่จะช่วยแก้ไข และบรรเทาความเดือดร้อน อันเกิดจากการไม่ได้รับความเป็นธรรม แต่การให้ความเป็นธรรมของศาลนั้น จะต้องอยู่ภายใต้ขอบข่ายของกฎหมาย ศาลจะต้องพิจารณา พิพากษาคดี ไปตามพยานหลักฐาน ในสำนวนศาล จะนำข้อเท็จจริง นอกสำนวนมาพิจารณา มิได้  ในคดีอาญานั้น เป็นหน้าที่ของโจทก์ ที่จะต้องนำสืบพิสูจน์ความผิดของจำเลย หากมีความสงสัยตามสมควร ว่าจำเลยได้กระทำผิดหรือไม่  ศาลก็ต้องยกประโยชน์แห่งความสงสัย ให้จำเลย ส่วนในคดีแพ่งนั้น โดยหลักทั่วไปแล้ว ฝ่ายใดกล่าวอ้างข้อเท็จจริงขึ้นมา ฝ่ายนั้นก็มีหน้าที่ นำสืบพิสูจน์ดังที่กล่าวอ้าง หากนำสืบพิสูจน์มิได้ ย่อมจะแพ้ในเรื่องนั้นไป"&lt;/div&gt; &lt;br /&gt;&lt;br /&gt;
+
+"หากมีข้อสงสัยตามสมควรว่าจำเลยได้กระทำผิดหรือไม่.png&quot;&gt;&lt;br /&gt;
+ข้อความนี้หมายความว่าอย่างไร&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>แม้เข้าใจว่าจำเลยกระทำผิด</choice_A>
+    <choice_B>หากเชื่อว่าจำเลยไม่ได้กระทำผิด</choice_B>
+    <choice_C>หากพิสูจน์ไม่ได้ว่าจำเลยกระทำผิด</choice_C>
+    <choice_D>แม้แน่ใจว่าจำเลยไม่ได้กระทำผิด</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;"ศาลเป็นสถาบันหนึ่งที่จะช่วยแก้ไข และบรรเทาความเดือดร้อน อันเกิดจากการไม่ได้รับความเป็นธรรม แต่การให้ความเป็นธรรมของศาลนั้น จะต้องอยู่ภายใต้ขอบข่ายของกฎหมาย ศาลจะต้องพิจารณา พิพากษาคดี ไปตามพยานหลักฐาน ในสำนวนศาล จะนำข้อเท็จจริง นอกสำนวนมาพิจารณา มิได้  ในคดีอาญานั้น เป็นหน้าที่ของโจทก์ ที่จะต้องนำสืบพิสูจน์ความผิดของจำเลย หากมีความสงสัยตามสมควร ว่าจำเลยได้กระทำผิดหรือไม่  ศาลก็ต้องยกประโยชน์แห่งความสงสัย ให้จำเลย ส่วนในคดีแพ่งนั้น โดยหลักทั่วไปแล้ว ฝ่ายใดกล่าวอ้างข้อเท็จจริงขึ้นมา ฝ่ายนั้นก็มีหน้าที่ นำสืบพิสูจน์ดังที่กล่าวอ้าง หากนำสืบพิสูจน์มิได้ ย่อมจะแพ้ในเรื่องนั้นไป"&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+"หากมีข้อสงสัยตามสมควรว่าจำเลยได้กระทำผิดหรือไม่.png&quot;&gt;&lt;br /&gt;
+ข้อความนี้หมายความว่าอย่างไร&lt;br /&gt;&lt;br /&gt;
+
+1. แม้เข้าใจว่าจำเลยกระทำผิด&lt;br /&gt;
+2. หากเชื่อว่าจำเลยไม่ได้กระทำผิด&lt;br /&gt;
+3. หากพิสูจน์ไม่ได้ว่าจำเลยกระทำผิด ✔ &lt;br /&gt;
+4. แม้แน่ใจว่าจำเลยไม่ได้กระทำผิด&lt;br /&gt;&lt;br /&gt;
+
+ข้อความนี้ สรุปได้ว่า&lt;br /&gt;&lt;br /&gt;
+"หากสงสัยว่าจำเลยกระทำผิดหรือไม่.png&quot;&gt;&lt;br /&gt;
+หรือ&lt;br /&gt;
+"หากบอกไม่ได้ว่าจำเลยกระทำผิด.png&quot;&gt;&lt;br /&gt;
+หรือ&lt;br /&gt;
+"หากพิสูจน์ไม่ได้ว่าจำเลยกระทำผิด.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 32 -->
+  <thisQuestion>
+    <qNum>id0729:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านข้อความที่กำหนดให้ แล้วพิจารณาเลือก ตัวเลือกเติมลงในช่องว่าง ให้ถูกต้อง ตามหลักภาษา และให้มีความหมาย สอดคล้องกับ ข้อความที่กำหนดให้นั้น&lt;br /&gt;&lt;br /&gt;
+
+ถ้าไม่มีใครทำอะไร เพื่อลดความ.........ลง ก็ไม่มีข้อสงสัยว่า ผลสุดท้ายจะไม่ใช้อาวุธกัน&lt;br /&gt;
+
+	</question>
+    <choice_A>เคร่งเครียด</choice_A>
+    <choice_B>เข้มงวด</choice_B>
+    <choice_C>เคร่งครัด</choice_C>
+    <choice_D>ตึงเครียด</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านข้อความที่กำหนดให้ แล้วพิจารณาเลือก ตัวเลือกเติมลงในช่องว่าง ให้ถูกต้อง ตามหลักภาษา และให้มีความหมาย สอดคล้องกับ ข้อความที่กำหนดให้นั้น&lt;br /&gt;&lt;br /&gt;
+
+ถ้าไม่มีใครทำอะไร เพื่อลดความ.........ลง ก็ไม่มีข้อสงสัยว่า ผลสุดท้ายจะไม่ใช้อาวุธกัน&lt;br /&gt;&lt;br /&gt;
+
+
+1. เคร่งเครียด&lt;br /&gt;
+2. เข้มงวด&lt;br /&gt;
+3. เคร่งครัด&lt;br /&gt;
+4. ตึงเครียด ✔ &lt;br /&gt;&lt;br /&gt;
+
+เคร่งเครียด -- เคร่งมากไม่หย่อนคลาย, อาการที่สมองไม่ได้พักผ่อนเพราะคร่ำเคร่งอยู่กับงานจนเกินไป&lt;br /&gt;&lt;br /&gt;
+
+เข้มงวด --  กวดขัน, เคร่งครัด.&lt;br /&gt;&lt;br /&gt;
+
+เคร่งครัด -- เข้มงวด, กวดขัน&lt;br /&gt;&lt;br /&gt;
+
+ตึงเครียด -- ใกล้จะถึงขั้นแตกหัก เช่น สถานการณ์ตึงเครียด&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 33 -->
+  <thisQuestion>
+    <qNum>id0730:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านข้อความที่กำหนดให้ แล้วพิจารณาเลือก ตัวเลือกเติมลงในช่องว่าง ให้ถูกต้อง ตามหลักภาษา และให้มีความหมาย สอดคล้องกับ ข้อความที่กำหนดให้นั้น&lt;br /&gt;&lt;br /&gt;
+
+การออมทรัพย์ไว้เป็นทองคำ อาจเป็นวิธีที่ฉลาดก็ได้ ถ้าผู้ออมทรัพย์ สามารถคาดหมาย.........ได้ เพราะ ไม่มีกฎเกณฑ์ แน่นอนว่า มีเงินอยู่แล้ว จะเอาไปทำอะไร จึงจะดีที่สุด และเมื่อใดควรออมทรัพย์ไว้ ในรูปแบบใด หรือลงทุนในรูปแบบใด&lt;br /&gt;
+
+	</question>
+    <choice_A>ราคา</choice_A>
+    <choice_B>ตลาด</choice_B>
+    <choice_C>เหตุการณ์</choice_C>
+    <choice_D>ความนิยม</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านข้อความที่กำหนดให้ แล้วพิจารณาเลือก ตัวเลือกเติมลงในช่องว่าง ให้ถูกต้อง ตามหลักภาษา และให้มีความหมาย สอดคล้องกับ ข้อความที่กำหนดให้นั้น&lt;br /&gt;&lt;br /&gt;
+
+การออมทรัพย์ไว้เป็นทองคำ อาจเป็นวิธีที่ฉลาดก็ได้ ถ้าผู้ออมทรัพย์ สามารถคาดหมาย.........ได้ เพราะ ไม่มีกฎเกณฑ์ แน่นอนว่า มีเงินอยู่แล้ว จะเอาไปทำอะไร จึงจะดีที่สุด และเมื่อใดควรออมทรัพย์ไว้ ในรูปแบบใด หรือลงทุนในรูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+1. ราคา&lt;br /&gt;
+2. ตลาด&lt;br /&gt;
+3. เหตุการณ์ ✔ &lt;br /&gt;
+4. ความนิยม&lt;br /&gt;&lt;br /&gt;
+
+ข้อความ ไม่ได้พูดเรื่อง ราคาทองคำ ตลาดทองคำ หรือ ความนิยมเกี่ยวกับทองคำ&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ คำว่า เหตุการณ์เหมาะสมที่สุด ข้อความอื่น ๆ ไม่ชัดเจน&lt;br /&gt;&lt;br /&gt;
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 34 -->
+  <thisQuestion>
+    <qNum>id0731:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านบทความที่กำหนดให้  แล้วเลือกตัวเลือก เติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น&lt;br /&gt;&lt;br /&gt;
+
+&lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;ระบบราชการเป็น 1)......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ 2)......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง 3)......... รวมทั้งการ 4)......... กฎระเบียบกติกาต่าง ๆ ให้เกิด 5)......... ในการทำงาน และมีความเป็นธรรม ในสังคม&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในช่อง 1) ควรจะเติมด้วยตัวเลือกใด&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>กลไก</choice_A>
+    <choice_B>องค์กร</choice_B>
+    <choice_C>เครื่องมือ</choice_C>
+    <choice_D>แกนกลาง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านบทความที่กำหนดให้  แล้วเลือกตัวเลือก เติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น&lt;br /&gt;&lt;br /&gt;
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;ระบบราชการเป็น 1)......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ 2)......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง 3)......... รวมทั้งการ 4)......... กฎระเบียบกติกาต่าง ๆ ให้เกิด 5)......... ในการทำงาน และมีความเป็นธรรม ในสังคม&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในช่อง 1) ควรจะเติมด้วยตัวเลือกใด&lt;br /&gt;&lt;br /&gt;
+
+1. กลไก ✔ &lt;br /&gt;
+2. องค์กร&lt;br /&gt;
+3. เครื่องมือ&lt;br /&gt;
+4. แกนกลาง&lt;br /&gt;&lt;br /&gt;
+
+
+กลไก -- ระบบที่จะให้งานสำเร็จตามประสงค์ เช่น กลไกการปกครอง&lt;br /&gt;&lt;br /&gt;
+
+เครื่องมือ -- โดยปริยายหมายถึง คน หรือ สิ่งที่ใช้ทำประโยชน์อย่างเครื่องมือ เช่น อย่าตกเป็นเครื่องมือของโจรผู้ร้าย &lt;br /&gt; &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 35 -->
+  <thisQuestion>
+    <qNum>id0732:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านบทความที่กำหนดให้  แล้วเลือกตัวเลือก เติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น&lt;br /&gt;&lt;br /&gt;
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;ระบบราชการเป็น 1)......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ 2)......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง 3)......... รวมทั้งการ 4)......... กฎระเบียบกติกาต่าง ๆ ให้เกิด 5)......... ในการทำงาน และมีความเป็นธรรม ในสังคม&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในช่อง 2) ควรจะเติมด้วยตัวเลือกใด&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>ปรับ</choice_A>
+    <choice_B>แปล</choice_B>
+    <choice_C>แปร</choice_C>
+    <choice_D>เปลี่ยน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านบทความที่กำหนดให้  แล้วเลือกตัวเลือก เติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น&lt;br /&gt;&lt;br /&gt;
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;ระบบราชการเป็น 1)......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ 2)......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง 3)......... รวมทั้งการ 4)......... กฎระเบียบกติกาต่าง ๆ ให้เกิด 5)......... ในการทำงาน และมีความเป็นธรรม ในสังคม&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในช่อง 2) ควรจะเติมด้วยตัวเลือกใด&lt;br /&gt;&lt;br /&gt;
+
+1. ปรับ &lt;br /&gt;
+2. แปล &lt;br /&gt;
+3. แปร ✔ &lt;br /&gt;
+4. เปลี่ยน &lt;br /&gt; &lt;br /&gt;
+
+
+
+แปรนโยบาย -- นำนโยบายไปสู่การปฏิบัติ &lt;br /&gt;&lt;br /&gt;
+
+เปลี่ยนนโยบาย -- ไม่ใช้นโยบายเดิม แต่จัดทำขึ้นใหม่&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 36 -->
+  <thisQuestion>
+    <qNum>id0733:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านบทความที่กำหนดให้  แล้วเลือกตัวเลือก เติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น&lt;br /&gt;&lt;br /&gt;
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;ระบบราชการเป็น 1)......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ 2)......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง 3)......... รวมทั้งการ 4)......... กฎระเบียบกติกาต่าง ๆ ให้เกิด 5)......... ในการทำงาน และมีความเป็นธรรม ในสังคม&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในช่อง 3) ควรจะเติมด้วยตัวเลือกใด&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>ปฏิบัติ</choice_A>
+    <choice_B>บริหาร</choice_B>
+    <choice_C>กลยุทธ์</choice_C>
+    <choice_D>ดำเนินการ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านบทความที่กำหนดให้  แล้วเลือกตัวเลือก เติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น&lt;br /&gt;&lt;br /&gt;
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;ระบบราชการเป็น 1)......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ 2)......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง 3)......... รวมทั้งการ 4)......... กฎระเบียบกติกาต่าง ๆ ให้เกิด 5)......... ในการทำงาน และมีความเป็นธรรม ในสังคม&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในช่อง 3) ควรจะเติมด้วยตัวเลือกใด&lt;br /&gt;&lt;br /&gt;
+
+1. ปฏิบัติ ✔&lt;br /&gt;
+2. บริหาร&lt;br /&gt;
+3. กลยุทธ์&lt;br /&gt;
+4. ดำเนินการ&lt;br /&gt;&lt;br /&gt;
+
+เป็นสำนวนว่า นำนโยบายไปสู่การปฏิบัติ หมายถึง  การนำนโยบายไปใช้ หรือนำไปปฏิบัติ
+&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 37 -->
+  <thisQuestion>
+    <qNum>id0734:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านบทความที่กำหนดให้  แล้วเลือกตัวเลือก เติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น&lt;br /&gt;&lt;br /&gt;
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;ระบบราชการเป็น 1)......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ 2)......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง 3)......... รวมทั้งการ 4)......... กฎระเบียบกติกาต่าง ๆ ให้เกิด 5)......... ในการทำงาน และมีความเป็นธรรม ในสังคม&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในช่อง 4) ควรจะเติมด้วยตัวเลือกใด&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>จัด</choice_A>
+    <choice_B>รักษา</choice_B>
+    <choice_C>บัญญัติ</choice_C>
+    <choice_D>กำหนด</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านบทความที่กำหนดให้  แล้วเลือกตัวเลือก เติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น&lt;br /&gt;&lt;br /&gt;
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;ระบบราชการเป็น 1)......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ 2)......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง 3)......... รวมทั้งการ 4)......... กฎระเบียบกติกาต่าง ๆ ให้เกิด 5)......... ในการทำงาน และมีความเป็นธรรม ในสังคม&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในช่อง 4) ควรจะเติมด้วยตัวเลือกใด&lt;br /&gt;&lt;br /&gt;
+
+1. จัด&lt;br /&gt;
+2. รักษา ✔&lt;br /&gt;
+3. บัญญัติ&lt;br /&gt;
+4. กำหนด&lt;br /&gt;&lt;br /&gt;
+
+กฎ ระเบียบ ใช้กับคำว่า รักษา เช่น รักษากฎ
+
+&lt;br /&gt; &lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 38 -->
+  <thisQuestion>
+    <qNum>id0735:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านบทความที่กำหนดให้  แล้วเลือกตัวเลือก เติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น&lt;br /&gt;&lt;br /&gt;
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;ระบบราชการเป็น 1)......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ 2)......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง 3)......... รวมทั้งการ 4)......... กฎระเบียบกติกาต่าง ๆ ให้เกิด 5)......... ในการทำงาน และมีความเป็นธรรม ในสังคม&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในช่อง 5) ควรจะเติมด้วยตัวเลือกใด&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>สมรรถนะ</choice_A>
+    <choice_B>ประโยชน์</choice_B>
+    <choice_C>ผลสำเร็จ</choice_C>
+    <choice_D>ประสิทธิผล</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงอ่านบทความที่กำหนดให้  แล้วเลือกตัวเลือก เติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น&lt;br /&gt;&lt;br /&gt;
+        &lt;div style="border: 1px solid coral;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;.png&quot;&gt;ระบบราชการเป็น 1)......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ 2)......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง 3)......... รวมทั้งการ 4)......... กฎระเบียบกติกาต่าง ๆ ให้เกิด 5)......... ในการทำงาน และมีความเป็นธรรม ในสังคม&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในช่อง 5) ควรจะเติมด้วยตัวเลือกใด&lt;br /&gt;&lt;br /&gt;
+
+1. สมรรถนะ &lt;br /&gt;
+2. ประโยชน์ &lt;br /&gt;
+3. ผลสำเร็จ &lt;br /&gt;
+4. ประสิทธิผล ✔&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ ถ้าพิจารณาตามความหมายแล้ว อาจจะใช้ได้หลายข้อ แต่ คำที่เหมาะสมที่สุดคือ ประสิทธิผล เพราะเหมาะกับระดับของภาษา ที่ค่อนช้างเป็นทางการ
+&lt;br /&gt; &lt;br /&gt;
+
+ประสิทธิผล -- ผลสำเร็จ, ผลที่เกิดขึ้น&lt;br /&gt;
+
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 39 -->
+  <thisQuestion>
+    <qNum>id0736:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ในข้อความที่ 1 และข้อความที่ 2 แล้วเลือกตอบดังนี้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ข้อความที่ 1:&lt;/strong&gt; ประเทศไทยและประเทศเช็คมีความสัมพันธ์ทางการทูต&lt;u&gt;จาก&lt;/u&gt; พ.ศ.2517&lt;br /&gt;
+&lt;strong&gt;ข้อความที่ 2:&lt;/strong&gt;มนุษย์ผลิตสารสังเคราะห์บางอย่าง&lt;u&gt;แต่&lt;/u&gt;ไม่สลายตัว&lt;br /&gt;
+
+
+	</question>
+    <choice_A>ทั้ง 2 ข้อความ ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา</choice_A>
+    <choice_B>เฉพาะในข้อความที่ 1 ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา</choice_B>
+    <choice_C>เฉพาะในข้อความที่ 2 ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา</choice_C>
+    <choice_D>ทั้ง 2 ข้อความ ใช้ไม่รัดกุม หรือไม่ถูกต้อง ตามหลักภาษา</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ในข้อความที่ 1 และข้อความที่ 2 แล้วเลือกตอบดังนี้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ข้อความที่ 1:&lt;/strong&gt; ประเทศไทยและประเทศเช็คมีความสัมพันธ์ทางการทูต&lt;u&gt;จาก&lt;/u&gt; พ.ศ.2517&lt;br /&gt;
+&lt;strong&gt;ข้อความที่ 2:&lt;/strong&gt;มนุษย์ผลิตสารสังเคราะห์บางอย่าง&lt;u&gt;แต่&lt;/u&gt;ไม่สลายตัว&lt;br /&gt; &lt;br /&gt;
+
+1. ทั้ง 2 ข้อความ ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา&lt;br /&gt;
+2. เฉพาะในข้อความที่ 1 ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา&lt;br /&gt;
+3. เฉพาะในข้อความที่ 2 ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา&lt;br /&gt;
+4. ทั้ง 2 ข้อความ ใช้ไม่รัดกุม หรือไม่ถูกต้อง ตามหลักภาษา ✔ &lt;br /&gt;&lt;br /&gt;
+
+
+ตอบข้อ 4 ใช้ไม่ถูกทั้งสองข้อความ เพราะว่า&lt;br /&gt;
+ในข้อความที่ 1 คำว่า "จาก" ควรเปลี่ยนเป็น "ตั้งแต่.png&quot;&gt;&lt;br /&gt;
+ข้อความที่ 2  คำว่า "แต่" ควรแก้เป็น "ที่" &lt;br /&gt; &lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 40 -->
+  <thisQuestion>
+    <qNum>id0737:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ในข้อความที่ 1 และข้อความที่ 2 แล้วเลือกตอบดังนี้&lt;br /&gt;&lt;br /&gt;
+
+ข้อความที่ 1: ผลของการสัมมนา &lt;u&gt;ถือว่าเป็นเพียง&lt;/u&gt;ข้อเสนอแนะ&lt;br /&gt;
+ข้อความที่ 2: ปีแสง เป็นหน่วยวัดระยะ &lt;u&gt;ซึ่งใช้ใน&lt;/u&gt;วิชาดาราศาสตร์ &lt;br /&gt;
+
+	</question>
+    <choice_A>ทั้ง 2 ข้อความ ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา</choice_A>
+    <choice_B>เฉพาะในข้อความที่ 1 ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา</choice_B>
+    <choice_C>เฉพาะในข้อความที่ 2 ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา</choice_C>
+    <choice_D>ทั้ง 2 ข้อความ ใช้ไม่รัดกุม หรือไม่ถูกต้อง ตามหลักภาษา</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ในข้อความที่ 1 และข้อความที่ 2 แล้วเลือกตอบดังนี้&lt;br /&gt;&lt;br /&gt;
+
+ข้อความที่ 1: ผลของการสัมมนา &lt;u&gt;ถือว่าเป็นเพียง&lt;/u&gt;ข้อเสนอแนะ&lt;br /&gt;
+ข้อความที่ 2: ปีแสง เป็นหน่วยวัดระยะ &lt;u&gt;ซึ่งใช้ใน&lt;/u&gt;วิชาดาราศาสตร์ &lt;br /&gt; &lt;br /&gt;
+
+1. ทั้ง 2 ข้อความ ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา ✔ &lt;br /&gt;
+2. เฉพาะในข้อความที่ 1 ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา&lt;br /&gt;
+3. เฉพาะในข้อความที่ 2 ใช้ได้รัดกุม และถูกต้อง ตามหลักภาษา&lt;br /&gt;
+4. ทั้ง 2 ข้อความ ใช้ไม่รัดกุม หรือไม่ถูกต้อง ตามหลักภาษา &lt;br /&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 41 -->
+  <thisQuestion>
+    <qNum>id0738:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ และมีตัวเลข 1ถึง 4 กำกับอยู่ แล้ว ตอบว่าข้อใดใช้ไม่รัดกุม หรือไม่ถูกต้องตามหลักภาษา&lt;br /&gt;&lt;br /&gt;
+
+คำว่าคุณภาพชีวิต แปลว่า การดำรงชีวิต&lt;u&gt;(1)อย่างมีคุณค่า&lt;/u&gt; &lt;u&gt;(2)หมายถึง&lt;/u&gt; ชีวิตหรือความเป็นอยู่ &lt;u&gt;(3)ที่นับถือว่า&lt;/u&gt; หรือเป็นที่ &lt;u&gt;(4)ยอมรับ&lt;/u&gt;กันทั่วไป &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อ (1) ใช้ได้ไม่รัดกุม</choice_A>
+    <choice_B>ข้อ (2) ใช้ได้ไม่รัดกุม</choice_B>
+    <choice_C>ข้อ (3) ใช้ได้ไม่รัดกุม</choice_C>
+    <choice_D>ข้อ (4) ใช้ได้ไม่รัดกุม</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ และมีตัวเลข 1ถึง 4 กำกับอยู่ แล้ว ตอบว่าข้อใดใช้ไม่รัดกุม หรือไม่ถูกต้องตามหลักภาษา&lt;br /&gt;&lt;br /&gt;
+
+คำว่าคุณภาพชีวิต แปลว่า การดำรงชีวิต&lt;u&gt;(1)อย่างมีคุณค่า&lt;/u&gt; &lt;u&gt;(2)หมายถึง&lt;/u&gt; ชีวิตหรือความเป็นอยู่ &lt;u&gt;(3)ที่นับถือว่า&lt;/u&gt; หรือเป็นที่ &lt;u&gt;(4)ยอมรับ&lt;/u&gt;กันทั่วไป &lt;br /&gt;&lt;br /&gt;
+
+1. ข้อ (1) ใช้ได้ไม่รัดกุม&lt;br /&gt;
+2. ข้อ (2) ใช้ได้ไม่รัดกุม&lt;br /&gt;
+3. ข้อ (3) ใช้ได้ไม่รัดกุม ✔&lt;br /&gt;
+4. ข้อ (4) ใช้ได้ไม่รัดกุม&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 3 คลุมเครือ ไม่ชัดเจน ควรแก้ไขเป็นอย่างอื่น เช่น  ชีวิตความเป็นอยู่ที่ดี  หรือ ชีวิตความเป็นอยู่ที่พอเพียง เป็นต้น&lt;br /&gt; &lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 42 -->
+  <thisQuestion>
+    <qNum>id0739:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ และมีตัวเลข 1ถึง 4 กำกับอยู่ แล้ว ตอบว่าข้อใดใช้ไม่รัดกุม หรือไม่ถูกต้องตามหลักภาษา&lt;br /&gt;&lt;br /&gt;
+
+กฎหมายใหม่ได้ &lt;u&gt;(1)รวบรวม&lt;/u&gt; และ &lt;u&gt;(2)ปรับปรุง&lt;/u&gt;บทบัญญัติ อัน &lt;u&gt;(3)เกี่ยวกับ&lt;/u&gt;ความผิด ในเรื่องเครื่องหมายการค้า เพื่อให้สามารถ &lt;u&gt;(4)ให้ความปกป้อง&lt;/u&gt; แก่สิทธิของเจ้าของเครื่องหมายการค้า ได้ดียิ่งขึ้น&lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อ (1) ใช้ได้ไม่รัดกุม</choice_A>
+    <choice_B>ข้อ (2) ใช้ได้ไม่รัดกุม</choice_B>
+    <choice_C>ข้อ (3) ใช้ได้ไม่รัดกุม</choice_C>
+    <choice_D>ข้อ (4) ใช้ได้ไม่รัดกุม</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ และมีตัวเลข 1ถึง 4 กำกับอยู่ แล้ว ตอบว่าข้อใดใช้ไม่รัดกุม หรือไม่ถูกต้องตามหลักภาษา&lt;br /&gt;&lt;br /&gt;
+
+กฎหมายใหม่ได้ &lt;u&gt;(1)รวบรวม&lt;/u&gt; และ &lt;u&gt;(2)ปรับปรุง&lt;/u&gt;บทบัญญัติ อัน &lt;u&gt;(3)เกี่ยวกับ&lt;/u&gt;ความผิด ในเรื่องเครื่องหมายการค้า เพื่อให้สามารถ &lt;u&gt;(4)ให้ความปกป้อง&lt;/u&gt; แก่สิทธิของเจ้าของเครื่องหมายการค้า ได้ดียิ่งขึ้น&lt;br /&gt;&lt;br /&gt;
+
+1. ข้อ (1) ใช้ได้ไม่รัดกุม&lt;br /&gt;
+2. ข้อ (2) ใช้ได้ไม่รัดกุม&lt;br /&gt;
+3. ข้อ (3) ใช้ได้ไม่รัดกุม&lt;br /&gt;
+4. ข้อ (4) ใช้ได้ไม่รัดกุม  ✔&lt;br /&gt;&lt;br /&gt;
+
+คำว่า สิทธิ ใช้กับคำว่า คุ้มครองสิทธิ เช่น คุ้มครองสิทธิผู้บริโภค  กรมคุ้มครองสิทธิและเสรีภาพ เป็นต้น &lt;br /&gt;
+คำว่า ผลประโยชน์ มักใช้กับคำว่า ปกป้อง เช่น ปกป้องผลประโยชน์สาธารณะ ปกป้องผลประโยชน์ชาติ เป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 4 แก้เป็น ให้ความคุ้มครอง &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 43 -->
+  <thisQuestion>
+    <qNum>id0740:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ตัวเลือกใดที่มีคำหรือกลุ่มคำที่ใช้ได้รัดกุมและถูกต้องตามหลักภาษา&lt;br /&gt;&lt;br /&gt;
+
+
+	</question>
+    <choice_A>คำว่าผ่าน ถ้าประกอบหน้าคำบางคำ &lt;u&gt;หมายความว่า&lt;/u&gt; พระเจ้าแผ่นดิน เช่น ผ่านเกล้าผ่านฟ้า </choice_A>
+    <choice_B>ผ้าทิพย์เป็นผ้าที่ห้อยตรงหน้าฐานพระพุทธรูป&lt;u&gt;ประกอบ&lt;/u&gt;ด้วยปูนทำเป็นลวดลายต่าง ๆ </choice_B>
+    <choice_C>ผัดวันประกันพรุ่งเป็นสำนวนที่มีความหมายว่า&lt;u&gt;ขอเปลี่ยน&lt;/u&gt;เวลาออกไปครั้งแล้วครั้งเล่า</choice_C>
+    <choice_D>ฯพณฯ เป็นคำ&lt;u&gt;นำหน้า&lt;/u&gt;ชื่อหรือตำแหน่งข้าราชการผู้ใหญ่มีรัฐมนตรีและเอกอัครราชทูตเป็นต้น</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ตัวเลือกใดที่มีคำหรือกลุ่มคำที่ใช้ได้รัดกุมและถูกต้องตามหลักภาษา&lt;br /&gt;&lt;br /&gt;
+
+1. คำว่าผ่าน ถ้าประกอบหน้าคำบางคำ &lt;u&gt;หมายความว่า&lt;/u&gt; พระเจ้าแผ่นดิน เช่น ผ่านเกล้าผ่านฟ้า&lt;br /&gt;
+2. ผ้าทิพย์เป็นผ้าที่ห้อยตรงหน้าฐานพระพุทธรูป&lt;u&gt;ประกอบ&lt;/u&gt;ด้วยปูนทำเป็นลวดลายต่าง ๆ &lt;br /&gt;
+3. ผัดวันประกันพรุ่ง เป็นสำนวนที่มีความหมายว่า&lt;u&gt;ขอเปลี่ยน&lt;/u&gt;เวลาออกไปครั้งแล้วครั้งเล่า&lt;br /&gt;
+4. ฯพณฯ เป็นคำ&lt;u&gt;นำหน้า&lt;/u&gt;ชื่อหรือตำแหน่งข้าราชการผู้ใหญ่มีรัฐมนตรีและเอกอัครราชทูตเป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 ควรเปลี่ยนเป็น "หมายถึง.png&quot;&gt;&lt;br /&gt;
+ข้อ 2 ควรเปลี่ยนเป็น "ปั้น" -- ใช้กับปูน &lt;br /&gt;
+ข้อ 3 ควรเปลี่ยนเป็น "ขอเลื่อน" ผัดวัน= เลื่อนวัน &lt;br /&gt; &lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- ถึงตรงนี้ -->
+  <!-- จากไฟล์ เฉลยข้อสอบ ก.พ. จากเว็บ-->
+  <!-- 44 -->
+  <thisQuestion>
+    <qNum>id0741:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกตัวเลือก ที่มีประโยค ที่เรียบเรียงคำ หรือใช้คำไม่รัดกุม หรือไม่ถูกต้อง ตามหลักภาษา&lt;br /&gt;
+
+	</question>
+    <choice_A>เมื่อรถไฟฟ้าใต้ดินเริ่มบริการ ผู้คนกรุงเทพฯ จะแห่กันไปใช้บริการ อย่างล้นหลาม</choice_A>
+    <choice_B>ผู้เป็นข้าราชการ พึงสำเหนียกเป็นนิตย์ ถึงความรับผิดชอบ ที่จะต้องปฏิบัติงานของตัว ร่วมกับงานของผู้อื่น</choice_B>
+    <choice_C>งานวิจัยนี้ สั่นสะเทือนความเชื่อถือ เรื่องอาหารการกิน อย่างรุนแรง</choice_C>
+    <choice_D>โรคหืด เป็นโรคที่มีการตีบแคบ ของหลอดลม เนื่องจาก กล้ามเนื้อผนังหลอดลม หดเกร็ง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกตัวเลือก ที่มีประโยค ที่เรียบเรียงคำ หรือใช้คำไม่รัดกุม หรือไม่ถูกต้อง ตามหลักภาษา&lt;br /&gt;&lt;br /&gt;
+
+1. เมื่อรถไฟฟ้าใต้ดินเริ่มบริการ ผู้คนกรุงเทพฯ จะแห่กันไปใช้บริการ อย่างล้นหลาม&lt;br /&gt;
+2. ผู้เป็นข้าราชการ พึงสำเหนียกเป็นนิตย์ ถึงความรับผิดชอบ ที่จะต้องปฏิบัติงานของตัว ร่วมกับงานของผู้อื่น&lt;br /&gt;
+3. งานวิจัยนี้ สั่นสะเทือนความเชื่อถือ เรื่องอาหารการกิน อย่างรุนแรง ✔ &lt;br /&gt;
+4. โรคหืด เป็นโรคที่มีการตีบแคบ ของหลอดลม เนื่องจาก กล้ามเนื้อผนังหลอดลม หดเกร็ง &lt;br /&gt; &lt;br /&gt;
+
+
+คำว่า "สั่นสะเทือน" มักจะใช้กับสิ่งของทางกายภาพ เช่น พื้นบ้านสั่นสะเทือน เสาเรือนสั่นสะเทือน&lt;br /&gt;&lt;br /&gt;
+ความเชื่อ อาจจะใช้คำว่า "ขัดแย้งกับความเชื่อ" หรือ คำอื่น ๆ ที่เหมาะสมมากกว่า &lt;br /&gt;
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 45 -->
+  <thisQuestion>
+    <qNum>id0742:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกตัวเลือกที่มีคำสะกดถูกต้องและมีความหมายสอดคล้องกับเนื้อความในประโยค&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกใดที่มีคำสะกดถูกต้องและมีความหมายสอดคล้องกับเนื้อความในประโยค&lt;br /&gt;
+
+	</question>
+    <choice_A>บุคคลจะสามารถเรียกข้อมูลในสมอง ออกมาใช้ โดยการถอดรหัด</choice_A>
+    <choice_B>ในประเทศไทย ได้มีผู้สร้างหลักสูตร เพื่อพัฒนาการคิด ขึ้นใช้บ้างแล้ว</choice_B>
+    <choice_C>การสอนและฝึกทักษะการคิด มีจุดเด่นที่โปรแกลม ได้รับการพัฒนามาอย่างดี </choice_C>
+    <choice_D>เมื่อมนุษย์รับสิ่งเร้าเข้ามา ทางประสาดสัมผัสทั้ง 5 จะถูกบันทึกไว้ในความจำ ระยะสั้น</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกตัวเลือกที่มีคำสะกดถูกต้องและมีความหมายสอดคล้องกับเนื้อความในประโยค&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกใดที่มีคำสะกดถูกต้องและมีความหมายสอดคล้องกับเนื้อความในประโยค&lt;br /&gt;&lt;br /&gt;
+
+1. บุคคลจะสามารถเรียกข้อมูลในสมอง ออกมาใช้ โดยการถอดรหัด&lt;br /&gt;
+2. ในประเทศไทย ได้มีผู้สร้างหลักสูตร เพื่อพัฒนาการคิด ขึ้นใช้บ้างแล้ว ✔&lt;br /&gt;
+3. การสอนและฝึกทักษะการคิด มีจุดเด่นที่โปรแกลม ได้รับการพัฒนามาอย่างดี  &lt;br /&gt;
+4. เมื่อมนุษย์รับสิ่งเร้าเข้ามา ทางประสาดสัมผัสทั้ง 5 จะถูกบันทึกไว้ในความจำ ระยะสั้น&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 ถอดรหัด → ถอดรหัส&lt;br /&gt;
+ข้อ 2 ถูกต้อง&lt;br /&gt;
+ข้อ 3 โปรแกลม → โปรแกรม&lt;br /&gt;
+ข้อ 4 ประสาดสัมผัส → ประสาทสัมผัส&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- 46 -->
+  <thisQuestion>
+    <qNum>id0743:date1627453500</qNum>
+    <!-- ถ้าไม่ใช่คำว่า "ข้อ XX" จะถือว่าเป็นชื่อไฟล์ภาพ -->
+    <question>
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงพิจารณาข้อความในตัวเลือก 1 ถึง 4 และจัดเรียงลำดับ ให้ถูกต้อง แล้วจึงตอบคำถาม แต่ละข้อ&lt;br /&gt;&lt;br /&gt;
+
+ข้อความใดเป็นลำดับที่ 3 &lt;br /&gt;
+
+	</question>
+    <choice_A>ทำให้รถยนต์ราคาถูกลง</choice_A>
+    <choice_B>และคงจะถูกลงกว่านี้อีก</choice_B>
+    <choice_C>เพราะนโยบายเศรษฐกิจเสรี</choice_C>
+    <choice_D>เมื่อมีการแข่งขันในระบบเศรษฐกิจมากขึ้น</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงพิจารณาข้อความในตัวเลือก 1 ถึง 4 และจัดเรียงลำดับ ให้ถูกต้อง แล้วจึงตอบคำถาม แต่ละข้อ&lt;br /&gt;&lt;br /&gt;
+
+ข้อความใดเป็นลำดับที่ 3 &lt;br /&gt;&lt;br /&gt;
+
+1. ทำให้รถยนต์ราคาถูกลง&lt;br /&gt;
+2. และคงจะถูกลงกว่านี้อีก ✔&lt;br /&gt;
+3. เพราะนโยบายเศรษฐกิจเสรี&lt;br /&gt;
+4. เมื่อมีการแข่งขันในระบบเศรษฐกิจมากขึ้น&lt;br /&gt;&lt;br /&gt;
+
+ข้อความที่เรียงลำดับแล้ว คือ&lt;br /&gt;&lt;br /&gt;
+
+เมื่อมีการแข่งขันในระบบเศรษฐกิจมากขึ้น&lt;br /&gt;
+ทำให้รถยนต์ราคาถูกลง&lt;br /&gt;
+และคงจะถูกลงกว่านี้อีก&lt;br /&gt;
+เพราะนโยบายเศรษฐกิจเสรี &lt;br /&gt; &lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+</exams>
+
+

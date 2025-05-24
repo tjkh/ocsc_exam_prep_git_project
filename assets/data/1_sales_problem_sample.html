@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.fraction {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle; 
+  letter-spacing: 0.001em;
+  text-align: center;
+  font-size: 12px;
+  }
+.fraction > span { 
+  display: block; 
+  padding: 0.1em; 
+  }
+.fraction span.fdn {border-top: thin solid black;}
+.fraction span.bar {display: none;}
+</style>
+  <link rel="stylesheet" type="text/css" href="cont_full_version.css">
+  <title>Document</title>
+ </head>
+ <body>
+ตัวอย่างและการแก้ปัญหา โจทย์กำไร-ขาดทุน-ร้อยละ<br>
+กำไร ขาดทุน ติดราคาป้าย มักจะพบบ่อยในข้อสอบ กพ. ต่อไปนี้ เป็นเคล็ดลับการคิดให้ได้คำตอบอย่างรวดเร็ว ไม่เสียเวลามาก<br><br>
+<strong>โจทย์ 1</strong><br>
+ขายของราคา 350 บาท ได้กำไร 5% ถ้าต้องการกำไร 20% จะต้องขายกี่บาท<br><br>
+ขายของ โดยคิดกำไร 5% แสดงว่า คิดจากทุน 100 บาท และขายไป 105 บาท หรือ 105% ของทุน<br>
+ถ้าต้องการกำไร 20% ก็ต้องขาย 120% ของทุน<br>
+ทั้ง 105% และ 120% คิดจากฐาน ทุน 100 เราจึงสามารถเทียบได้เลยว่า <br><br>
+105% คิดเป็นราคาขาย = 350 บาท<br>
+ถ้า 120% ต้องขายในราคา =   <div class="fraction"><span class="fup">350 x 120</span><span class="bar">/</span><span class="fdn">105</span></div> = 400 บาท<br><br>
+
+<strong>โจทย์ 2</strong><br>
+ขายของราคา 300 บาท ขาดทุน 10% ถ้าต้องการกำไร 20% จะต้องขายกี่บาท<br><br>
+ขายของ ขาดทุน 10% แสดงว่า คิดจากทุน 100 บาท และแสดงว่าขายไป 90 บาท หรือ 90% ของทุน<br>
+ถ้าต้องการกำไร 20% ก็ต้องขาย 120% ของทุน<br>
+เราสามารถเทียบได้เลยว่า <br><br>
+90% คิดเป็นราคาขาย = 300 บาท<br>
+ถ้า 120% ต้องขายในราคา =   <div class="fraction"><span class="fup">300 x 120</span><span class="bar">/</span><span class="fdn">90</span></div> = 400 บาท<br><br>
+
+<strong>โจทย์ 3</strong> <br>ติดป้ายขายโต๊ะ ราคา 3,500 บาท ลดราคาให้ผู้ซื้อเงินสด 10% และยังได้กำไรอีก 15% ถามว่า ราคาทุนของโต๊ะตัวนี้ กี่บาท<br>
+ลดราคาให้ 40% ของทุน แสดงว่า ขายไป 60% จากราคา  3,500<br>
+ถ้ามีกำไร 20% แสดงว่า ต้องขาย 120% จากราคา =   <div class="fraction"><span class="fup">3,500 x 60</span><span class="bar">/</span><span class="fdn">120</span></div> = 1,750 บาท<br><br>
+
+<div id="fadeout"><div id="myDefault" class="read_more">  ... (อ่านต่อ ในรุ่นเต็ม นะครับ)</div></div>
+<div id="full_version"><br><br>
+
+<strong>โจทย์ 4</strong><br>
+ซื้อของมา 100 ถุง ๆ ละ 30 บาท ขายไปถุงละ 35 บาท จำนวน 20 ถุง และ 40 บาท จำนวน 30 ถุง ถ้าต้องการกำไรทั้งหมด 35% จะต้องขายของที่เหลือ ถุงละกี่บาท<br><br>
+
+ขั้นแรกต้องคิดว่า กำไร 35% เป็นเงินเท่าไร ขายไปแล้วได้กี่บาท ต้องการอีกกี่บาท ก็จะรู้ว่า ที่เหลือจะขายถุงละเท่าไร<br><br>
+
+ต้องการกำไร 35% ต้องขาย 135% ของทุน<br>
+135% ของราคาที่ซื้อ = <div class="fraction"><span class="fup">((100x30) x 135)</span><span class="bar">/</span><span class="fdn">100</span></div> = 4,050 บาท<br>
+ขายไป (20+30) ถุง ได้เงิน = (20x35) + (40x30) = 1,900 บาท<br>
+ต้องการอีก 4,050 - 1,900 = 2,150 บาท<br>
+ที่เหลือ 50 ถุง ต้องขายถุงละ = <div class="fraction"><span class="fup">2,150</span><span class="bar">/</span><span class="fdn">50</span></div> =  43 บาท<br><br>
+
+<strong>โจทย์ 5</strong><br>
+นกขายของให้หวาน ได้กำไร 10% หวานขายต่อให้สมนึก ได้กำไร 5% สมนึกซื้อในราคา 2,310 บาท อยากทราบว่า หวานซื้อมาในราคาเท่าไร<br><br>
+หาราคาขายของนก คือทุนของหวาน เมื่อรวมกับกำไรอีก 5% จะเท่ากับ 2,310 บาท<br>
+อย่างนี้ กำหนดทุน เป็น X บาท ก็จะได้คำตอบ<br>
+นกขายให้หวาน(ทุน 100 ขาย 110 ถ้าทุน X บาท) ขาย = <div class="fraction"><span class="fup">100+10</span><span class="bar">/</span><span class="fdn">100</span></div> X บาท<br>
+หวานขายให้สมนึก (ทุน 100 บาท ขาย 105 บาท <br>
+ถ้าทุน (<div class="fraction"><span class="fup">100+10</span><span class="bar">/</span><span class="fdn">100</span></div> X) ขาย = (<div class="fraction"><span class="fup">100+5</span><span class="bar">/</span><span class="fdn">100</span></div>)( <div class="fraction"><span class="fup">100+10</span><span class="bar">/</span><span class="fdn">100</span></div> X )<br><br>
+โจทย์บอกว่า ขายไป  2,310 บาท ดังนั้น เข้าสมการได้คือ<br><br>
+2310 =  (<div class="fraction"><span class="fup">105</span><span class="bar">/</span><span class="fdn">100</span></div>)( <div class="fraction"><span class="fup">110</span><span class="bar">/</span><span class="fdn">100</span></div> X )<br><br>
+X = 2,000 บาท<br><br><br>
+
+</div>
+<script src="cont_full_version.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

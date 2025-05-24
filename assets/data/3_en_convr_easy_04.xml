@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- 1 -->
+  <thisQuestion>
+    <qNum>id01927:date1627453500</qNum>
+    <question>&lt;strong&gt;&lt;strong&gt;A:&lt;/strong&gt;&lt;/strong&gt; Do you have a car?&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; Yes, I do.&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; ................... &lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; I have a Honda.&lt;br /&gt;
+	</question>
+    <choice_A>What model of car do you have?</choice_A>
+    <choice_B>What type of car do you have?</choice_B>
+    <choice_C>What brand of car do you have?</choice_C>
+    <choice_D>What make of car do you have?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;A:&lt;/strong&gt; Do you have a car?&lt;br /&gt;
+	คุณมีรถไหม&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; Yes, I do.&lt;br /&gt;
+	มี&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; .....................&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; I have a Honda.&lt;br /&gt;
+	ผมมีรถ Honda&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. What model of car do you have?&lt;br /&gt;
+คุณมีรถรุ่นอะไร&lt;br /&gt;
+คำถามนี้ไม่ถูกเพราะคำตอบไม่ใช่รุ่น แต่เป็นยี่ห้อรถ&lt;br /&gt;&lt;br /&gt;
+
+2. What type of car do you have?&lt;br /&gt;
+คุณมีรถประเภทไหน&lt;br /&gt;
+ไม่ถูกเพราะ ถ้าถามประเภท ต้องตอบเป็นรถเช่น ขับเคลื่อน 4 ล้อ รถสปอร์ต รถ Sedan เป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+3. What brand of car do you have?&lt;br /&gt;
+ไม่ถูก เพราะ ยี่ห้อรถจะไม่ใช้คำว่า brand&lt;br /&gt;&lt;br /&gt;
+
+4. What make of car do you have? ✔&lt;br /&gt;
+คุณมีรถยี่ห้ออะไร &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบายเพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+What model of car do you have? &lt;br /&gt;
+ถามรุ่นรถ คำตอบก็อาจจะเป็น&lt;br /&gt;
+Ford Focus&lt;br /&gt;
+Honda City Hybrid&lt;br /&gt;
+Honda Jazz Hybrid&lt;br /&gt;
+Isuzu Dmax&lt;br /&gt;
+Toyota Innova เป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+What brand of car do you have?&lt;br /&gt;
+โดยปกติ ถ้าเป็นรถมักจะไม่ใช้คำว่า brand กับยี่ห้อ แต่จะใช้คำว่า make of car บริษัทผู้ผลิตรถยนต์ เราเรียกว่า automakers เช่น&lt;br /&gt;
+Toyota is the world's top automaker.&lt;br /&gt;&lt;br /&gt;
+
+What type of car do you have?	&lt;br /&gt;
+คำตอบ อาจจะเป็น&lt;br /&gt;
+small car&lt;br /&gt;
+medium car&lt;br /&gt;
+family cars หรือ saloons&lt;br /&gt;
+Sport Utility Vehicles (SUV)	-- รถสปอร์ต ขับเคลื่อน 4 ล้อ&lt;br /&gt;
+เป็นต้น&lt;br /&gt;&lt;br /&gt;
+ 
+&lt;strong&gt;การใช้ make/brand (ยี่ห้อ)&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;make&lt;/strong&gt; ใช้กับรถยนต์&lt;br /&gt;
+ถ้าจะถามยี่ห้อรถ ให้ถามว่า What make of car ....? &lt;br /&gt;
+หรือ อาจจะถามว่า What kind of car is yours? ก็ได้ &lt;br /&gt;
+บริษัทที่ผลิตรถยนต์ คือ  automakers&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;brand&lt;/strong&gt; ใช้กับสิ่งของอื่นที่ไม่ใช่รถยนต์ &lt;br /&gt;
+What brand of paint did you use on the house?&lt;br /&gt;
+คุณใช้สียี่ห้ออะไรทาบ้าน&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 2 -->
+  <thisQuestion>
+    <qNum>id01928:date1627453500</qNum>
+    <question>&lt;strong&gt;A:&lt;/strong&gt; Do you have a girlfriend?&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; No, I don't .........................&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; I don't have a girlfriend, either.&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; Why not?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; I don't know. Maybe I'm not rich enough.&lt;br /&gt;
+	</question>
+    <choice_A>Do you?</choice_A>
+    <choice_B>Are you?</choice_B>
+    <choice_C>Did you have any?</choice_C>
+    <choice_D>Are you have any?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;A:&lt;/strong&gt; Do you have a girlfriend?&lt;br /&gt;
+	คุณมีแฟนหรือไม่&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; No, I don't. ...................... &lt;br /&gt;
+	ไม่มี .................... &lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; I don't have a girlfriend, either.&lt;br /&gt;
+	ผมก็ไม่มีเหมือนกัน&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; Why not?&lt;br /&gt;
+	ทำไมล่ะ&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; I don't know. Maybe I'm not rich enough.&lt;br /&gt;
+	ไม่รู้เหมือนกัน บางทีอาจจะเป็นเพราะว่าผมยังไม่รวยพอมั้ง&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Do you? ✔&lt;br /&gt;
+เป็นการถามสั้น ๆ ถ้าถามเต็ม ๆ คือ Do you have any girlfriends?&lt;br /&gt;&lt;br /&gt;
+
+2. Are you?&lt;br /&gt;
+คำถามไม่ถูกไวยากรณ์ ถามว่า Are you have a girlfriend? ไม่ได้ have ต้องใช้กับ Do&lt;br /&gt;&lt;br /&gt;
+
+3. Did you have any?&lt;br /&gt;
+จากคำตอบ เป็นการพูดกันเรื่องปัจจุบัน ถามเป็น Past tense ไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+4. Are you have any?&lt;br /&gt;
+ข้อนี้ผิดไวยากรณ์ ที่ถูกต้องเป็น Do you have any?	&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 3 -->
+  <thisQuestion>
+    <qNum>id01929:date1627453500</qNum>
+    <question>&lt;strong&gt;A:&lt;/strong&gt; Let's go to the beach.&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; .................. &lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; We haven't been there in a while.&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; We'll have a lot of fun.&lt;br /&gt;
+	</question>
+    <choice_A>That's sound awful.</choice_A>
+    <choice_B>That's a great idea.</choice_B>
+    <choice_C>I'm afraid I have to finish work.</choice_C>
+    <choice_D>Don't you have anything to do?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;A:&lt;/strong&gt; Let's go to the beach.&lt;br /&gt;
+	ไปชายหาดกันเถอะ&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; .................... &lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; We haven't been there in a while.&lt;br /&gt;
+	เราไม่ได้ไปที่นั่นกันนานแล้ว&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; We'll have a lot of fun.&lt;br /&gt;
+	เราจะสนุกกันมาก&lt;br /&gt;&lt;br /&gt;
+
+จากบทสนทนา ข้อความที่ขาดหายไป ต้องเป็นคำตอบรับแน่นอน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. That's sound awful.&lt;br /&gt;
+ฟังดูแย่มาก(awful)&lt;br /&gt;&lt;br /&gt;
+
+2. That's a great idea. ✔&lt;br /&gt;
+เป็นความคิดที่วิเศษ &lt;br /&gt;&lt;br /&gt;
+
+3. I'm afraid I have to finish work.&lt;br /&gt;
+ผมคิดว่ามีงานที่จะต้องทำให้เสร็จ&lt;br /&gt;
+การใช้ I'm afraid .... เป็นการขึ้นต้นการปฏิเสธอย่างสุภาพ&lt;br /&gt;&lt;br /&gt;
+
+4. Don't you have anything to do?&lt;br /&gt;
+คุณไม่มีอะไรจะทำรึไง&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 4 -->
+  <thisQuestion>
+    <qNum>id01930:date1627453500</qNum>
+    <question>&lt;strong&gt;A:&lt;/strong&gt; Remember to put air in your tires.&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; .................. &lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Once every two months.&lt;br /&gt;
+	</question>
+    <choice_A>When did you do that?</choice_A>
+    <choice_B>What are you talking about?</choice_B>
+    <choice_C>How often do I have to do that?</choice_C>
+    <choice_D>Why do I have to do that very often?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;A:&lt;/strong&gt; Remember to put air in your tires.&lt;br /&gt;
+	จำไว้นะ ต้องเติมลมยาง (อย่าลืมเติมลมยาง)&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; ...................... &lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Once every two months.&lt;br /&gt;
+	ครั้งนึงทุกสองเดือน (สองเดือนครั้ง)&lt;br /&gt;&lt;br /&gt;
+
+สังเกตจากคำตอบของ A แสดงว่า B คงถามว่า จะเติมลมยางถี่บ่อยแค่ไหน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. When did you do that?&lt;br /&gt;
+เติมลมครั้งที่แล้วเมื่อไร &lt;br /&gt;
+คำว่า that หมายถึงการเติมลม ประโยคนี้ใช้ไม่ได้ เพราะไม่รับกับคำตอบ &lt;br /&gt;
+ถ้าถามแบบนี้ อาจจะตอบว่า Two months ago. (สองเดือนมาแล้ว)เป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+2. What are you talking about?&lt;br /&gt;
+คุณกำลังพูดเรื่องอะไร&lt;br /&gt;&lt;br /&gt;
+
+3. How often do I have to do that? ✔&lt;br /&gt;
+ผม/ฉันจะต้องเติมลมบ่อยแค่ไหน (ข้อนี้ถูก)
+&lt;br /&gt;&lt;br /&gt;
+
+4. Why do I have to do that very often?&lt;br /&gt;
+ทำไมต้องเติมบ่อยขนาดนั้น (that often)&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 5 -->
+  <thisQuestion>
+    <qNum>id01931:date1627453500</qNum>
+    <question>&lt;strong&gt;A:&lt;/strong&gt; Let's go for a ride.&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; .......................... &lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Into the mountains.&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; That sounds nice.&lt;br /&gt;
+	</question>
+    <choice_A>Yes, I'd love to.</choice_A>
+    <choice_B>What are we going to see?</choice_B>
+    <choice_C>Who we are going with?</choice_C>
+    <choice_D>Where are we going?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;A:&lt;/strong&gt; Let's go for a ride.&lt;br /&gt;
+	ไปขี่รถเล่นกันดีกว่า&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; .........................&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Into the mountains.&lt;br /&gt;
+	ไปภูเขา&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; That sounds nice.&lt;br /&gt;
+	ฟังดูดีนี่ &lt;br /&gt;&lt;br /&gt;
+
+จากบทสนทนา A น่าจะถามว่าจะขี่รถไปที่ไหน&lt;br /&gt;&lt;br /&gt;
+	
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Yes, I'd love to.&lt;br /&gt;
+ดีเหมือนกัน &lt;br /&gt;
+มาจากประโยคเต็มว่า I would love to (go for a ride). &lt;br /&gt;
+คำตอบนี้ใช้ไม่ได้ เพราะ ไม่รับกับคำตอบในบรรทัดต่อมา&lt;br /&gt;&lt;br /&gt;
+
+2. What are we going to see?&lt;br /&gt;
+จะไปดูอะไร&lt;br /&gt;
+คำตอบนี้ใช้ไม่ได้ เพราะ ไม่รับกับคำตอบในบรรทัดต่อมา&lt;br /&gt;&lt;br /&gt;
+
+3. Who we are going with?&lt;br /&gt;
+จะไปกับใคร&lt;br /&gt;
+คำตอบนี้ใช้ไม่ได้ เพราะ ไม่รับกับคำตอบในบรรทัดต่อมา&lt;br /&gt;&lt;br /&gt;
+
+4. Where are we going? ✔&lt;br /&gt;
+จะไปที่ไหน (เป็นคำตอบที่ถูก)&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบายเพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำว่า go for a ride หมายถึง ไปขี่รถเล่น อาจจะเป็นรถยนต์ มอเตอร์ไซต์ หรือ จักรยาน ก็ได้ เป็นที่เข้าใจกันระหว่างคนพูด กับคนฟัง หรืออาจจะเป็นขี่ม้า ก็ได้เหมือนกัน&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;ดูเพิ่มเติมที่&lt;/strong&gt; &lt;br /&gt;&lt;br /&gt;
+http://www.thongjoon.com/2016/04/ride-go-for-ride-take-someone-for-ride.html
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01932:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: .........................................&lt;br /&gt;
+B: Thirty baht a kilo.&lt;br /&gt;
+	</question>
+    <choice_A>How do you sell the oranges?  </choice_A>
+    <choice_B>What is the prize?  </choice_B>
+    <choice_C>How much are the oranges?  </choice_C>
+    <choice_D>How much is the price of the oranges?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: .........................................&lt;br /&gt;&lt;br /&gt;
+B: Thirty baht a kilo.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+1. How do you sell the oranges?&lt;br /&gt;
+2. What is the prize?&lt;br /&gt;
+3. How much are the oranges?✔&lt;br /&gt;
+4. How much is the price of the oranges? &lt;br /&gt;&lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+การถามราคา ให้ถามว่า&lt;br /&gt;
+How much is/are ..............? เช่น&lt;br /&gt;
+How much is the shirt? &lt;br /&gt;&lt;br /&gt;
+
+คำพูดอื่น ๆ เช่น&lt;br /&gt;
+What is the price of ............ ? เช่น&lt;br /&gt;
+What is the price of the shirt?&lt;br /&gt;&lt;br /&gt;
+
+How much do/does .........  cost?&lt;br /&gt;
+How much does the shirt cost?&lt;br /&gt;&lt;br /&gt;
+
+ไม่ถามว่า What is the prize?&lt;br /&gt;
+แต่ให้ถามว่า What is the price?&lt;br /&gt;&lt;br /&gt;
+
+ไม่ถามว่า How much is the price of .....&lt;br /&gt;
+แต่ให้ถามว่า What is the price of .......&lt;br /&gt;&lt;br /&gt;
+
+ดูเพิ่มเติมที่&lt;br /&gt;
+https://www.thongjoon.com/2018/08/blog-post_18.html&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01933:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: ............................. ? &lt;br /&gt;
+B: Great! I'm sure I'll get the job. &lt;br /&gt;
+
+	</question>
+    <choice_A>How are things?</choice_A>
+    <choice_B>How is your work?  </choice_B>
+    <choice_C>How is your interview?  </choice_C>
+    <choice_D> How is the weather? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: ............................. ? &lt;br /&gt;&lt;br /&gt;
+B: Great! I'm sure I'll get the job. &lt;br /&gt; 
+ดีมาก ผมแน่ใจว่าจะได้งาน &lt;br /&gt;&lt;br /&gt;
+
+1. How are things? &lt;br /&gt;
+เป็นอย่างไรบ้าง คำตอบเช่น I'm fine. &lt;br /&gt;  &lt;br /&gt;
+2. How is your work?   &lt;br /&gt;
+งานเป็นอย่างไรบ้าง คำตอบ เช่น It's interesting.(น่าสนใจ) หรือ It's boring.(น่าเบื่อ) &lt;br /&gt; &lt;br /&gt;
+3. How is your interview?  &lt;br /&gt;
+การสัมภาษณ์เป็นอย่างไรบ้าง ✔ &lt;br /&gt; &lt;br /&gt;
+4. How is the weather? &lt;br /&gt;
+อากาศเป็นอย่างไรบ้าง คำตอบ เช่น It's cloudy. &lt;br /&gt; &lt;br /&gt;
+
+คำอธิบายเพิ่ม&lt;br /&gt;&lt;br /&gt;
+
+คำตอบพูดเรื่องงาน แสดงว่า ไม่ใช่การทักทายธรรมดา แต่น่าจะเป็นการถามเกี่ยวกับ การสัมภาษณ์เข้าทำงาน มากกว่า &lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01934:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: .............................. ?&lt;br /&gt;
+B: No. It's not due yet.&lt;br /&gt;
+
+	</question>
+    <choice_A>Have you returned the book to the library yet?  </choice_A>
+    <choice_B>Did you bring the book for me? </choice_B>
+    <choice_C>What is the due date for the book?  </choice_C>
+    <choice_D>Who borrowed the book from the library?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: .............................. ?&lt;br /&gt;&lt;br /&gt;
+B: No. It's not due yet.&lt;br /&gt;
+ยัง. มันยังไม่ถึงกำหนด (due)&lt;br /&gt;&lt;br /&gt;
+
+1. Have you returned the book to the library yet? ✔&lt;br /&gt;
+คุณได้คืนหนังสือเล่มนั้นให้ห้องสมุดหรือยัง&lt;br /&gt;&lt;br /&gt;
+2. Did you bring the book for me?&lt;br /&gt;
+คุณได้นำหนังสือเล่มนั้นมาให้ผมหรือไม่&lt;br /&gt;&lt;br /&gt;
+3. What is the due date for the book?&lt;br /&gt;
+วันกำหนดส่งหนังสือเล่มนั้น คือวันอะไร&lt;br /&gt;&lt;br /&gt;
+4. Who borrowed the book from the library? &lt;br /&gt;
+ใครเป็นคนยืมหนังสือเล่มนั้น จากห้องสมุด&lt;br /&gt;&lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+due = ครบกำหนด&lt;br /&gt;
+due date = วันครบกำหนด&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01935:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: This is the last minute invitation. .............................?&lt;br /&gt;
+B: I do.&lt;br /&gt;
+
+	</question>
+    <choice_A>Who wants to come along?  </choice_A>
+    <choice_B>Who needs help?  </choice_B>
+    <choice_C>Who wants to bid on it?  </choice_C>
+    <choice_D>Who would like some more rice?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: This is the last minute invitation. .............................?&lt;br /&gt;
+นี่เป็นการเชิญในนาทีสุดท้าย ........................&lt;br /&gt;&lt;br /&gt;
+B: I do.&lt;br /&gt;
+ผมต้องการ&lt;br /&gt;&lt;br /&gt;
+
+1. Who wants to come along? ✔&lt;br /&gt;
+ใครต้องการไปด้วยกันบ้าง&lt;br /&gt;&lt;br /&gt;
+2. Who needs help?&lt;br /&gt;
+ใครต้องการความช่วยเหลือบ้าง&lt;br /&gt;&lt;br /&gt;
+3. Who wants to bid on it? &lt;br /&gt;
+ใครจะประมูล(bid) มันบ้าง&lt;br /&gt;&lt;br /&gt;
+4. Who would like some more rice?&lt;br /&gt;
+ใครต้องการข้าวเพิ่มครับ&lt;br /&gt;&lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+come along = ไปด้วยกัน&lt;br /&gt;
+We're going to the cinema. Do you want to come along?&lt;br /&gt;
+เราจะไปดูหนัง คุณต้องการไปด้วยกันไหม&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01936:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: It's very quiet today. What ............ ?&lt;br /&gt;
+B: They .........................&lt;br /&gt;
+
+	</question>
+    <choice_A>are the children doing, are all sleeping </choice_A>
+    <choice_B>is the children doing, are out in the field.  </choice_B>
+    <choice_C>do the children do, are sleeping  </choice_C>
+    <choice_D>were the children doing, went to the market.  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: It's very quiet today. What ............ ?&lt;br /&gt;
+วันนี้เงียบ(quiet)จัง. อะไร ................&lt;br /&gt;&lt;br /&gt;
+B: They .........................&lt;br /&gt;
+พวกเขา ..................&lt;br /&gt;&lt;br /&gt;
+
+1. are the children doing, are all sleeping ✔&lt;br /&gt;
+children ใช้กับคำว่า are&lt;br /&gt;
+the children are ....&lt;br /&gt;
+are all sleeping = กำลังนอนหลับทั้งหมด&lt;br /&gt;&lt;br /&gt;
+
+2. is the children doing, are out in the field.&lt;br /&gt;
+ไม่ถูก เพราะ children เป็นพหูพจน์ ต้องใช้กับ are &lt;br /&gt;
+เด็กคนเดียว = child&lt;br /&gt;&lt;br /&gt;
+
+3. do the children do, are sleeping&lt;br /&gt;
+ในเหตุการณ์นี้ เป็นการถามเกี่ยวกับปัจจุบัน จึงควรใช้ Present Continuous Tense&lt;br /&gt;&lt;br /&gt;
+4. were the children doing, went to the market.&lt;br /&gt;
+ในเหตุการณ์นี้ เป็นการถามเกี่ยวกับปัจจุบัน จึงควรใช้ Present Continuous Tense ไม่ใช่ Past Tense&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt; &lt;br /&gt;
+ขอบคุณ ATNOON CHANN และคุณอมลวัทน์ สวัสดิวงศ์ ที่ช่วยตรวจสอบข้อนี้ &lt;br /&gt;
+  </explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01937:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: I am having a birthday party for my sister tonight. ......................&lt;br /&gt;
+B: Thanks. I wish I could.&lt;br /&gt;
+
+	</question>
+    <choice_A>Are you free tonight?  </choice_A>
+    <choice_B>Would you like to come?  </choice_B>
+    <choice_C>I'm sure you are coming.  </choice_C>
+    <choice_D>May you come and join us? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: I am having a birthday party for my sister tonight. ......................&lt;br /&gt;
+ผมจะมีงานปาร์ตี้วันเกิดให้พี่/น้องสาว คืนนี้ ..............................&lt;br /&gt;
+B: Thanks. I wish I could.&lt;br /&gt;&lt;br /&gt;
+ขอบคุณ ผมอยากมา (แต่มาไม่ได้)&lt;br /&gt;&lt;br /&gt;
+
+1. Are you free tonight? &lt;br /&gt;
+คืนนี้ว่างไหม&lt;br /&gt;&lt;br /&gt;
+2. Would you like to come? ✔&lt;br /&gt;
+เชิญคุณมาด้วยนะ - เป็นการเชิญแบบสุภาพ&lt;br /&gt;&lt;br /&gt;
+3. I'm sure you are coming.&lt;br /&gt;
+คิดว่าคุณจะมา&lt;br /&gt;&lt;br /&gt;
+4. May you come and join us?&lt;br /&gt;
+การเชิญ จะไม่ใช้คำว่า May &lt;br /&gt;&lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+Would + like ใช้กับการเชิญแบบสุภาพ เช่น&lt;br /&gt;
+Would you like to come to our house for dinner?&lt;br /&gt;
+เชิญมาที่บ้าน มารับประทานอาหารค่ำ&lt;br /&gt;
+Would you like some cake?&lt;br /&gt;
+คุณต้องการเค้กไหม&lt;br /&gt;
+Would you like to celebrate Chinese New Year with us?&lt;br /&gt;
+เชิญมาฉลองตรุษจีนที่บ้านกับพวกเรานะ&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01938:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: Look at all these kittens!&lt;br /&gt;
+B: .........................................?&lt;br /&gt;
+A: Eight.&lt;br /&gt;
+B: They're all so cute.&lt;br /&gt;
+
+	</question>
+    <choice_A>Whose kittens are they?  </choice_A>
+    <choice_B>How many are there?  </choice_B>
+    <choice_C>Where are the mother cat?  </choice_C>
+    <choice_D>How are you going to do with them?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: Look at all these kittens!&lt;br /&gt;
+ดูลูกแมว(kittens) พวกนี้ซิ&lt;br /&gt;&lt;br /&gt;
+B: .........................................?&lt;br /&gt;&lt;br /&gt;
+A: Eight.&lt;br /&gt;
+แปด&lt;br /&gt;&lt;br /&gt;
+
+B: They're all so cute.&lt;br /&gt;
+น่ารักมาก หมดทุกตัว&lt;br /&gt;&lt;br /&gt;
+
+1. Whose kittens are they?  &lt;br /&gt;
+ลูกแมวของใคร&lt;br /&gt;&lt;br /&gt;
+2. How many are there? ✔&lt;br /&gt;
+มีกี่ตัว&lt;br /&gt;&lt;br /&gt;
+3. Where are the mother cat? &lt;br /&gt;
+แม่แมวไปไหน&lt;br /&gt;&lt;br /&gt;
+4. How are you going to do with them? &lt;br /&gt;
+คุณจะทำอะไรกับมัน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01939:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: Wow! What a nice shirt! ............... &lt;br /&gt;
+B: No, I got two for the price of one.&lt;br /&gt;
+	</question>
+    <choice_A>It must have been expensive!  </choice_A>
+    <choice_B>How much is the price?  </choice_B>
+    <choice_C>What prize did you pay for it?  </choice_C>
+    <choice_D>How much does it cost?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: Wow! What a nice shirt! ................ &lt;br /&gt;
+วาว เสื้อตัวนี้สวยมาก ........&lt;br /&gt;&lt;br /&gt;
+B: No, I got two for the price of one." &lt;br /&gt;
+ไม่(แพง) ฉันซื้อมา 2 ตัว ในราคาตัวเดียว&lt;br /&gt;&lt;br /&gt;
+
+1. It must have been expensive! ✔&lt;br /&gt;
+เป็นการถามราคาโดยอ้อม&lt;br /&gt;&lt;br /&gt;
+2. How much is the price?&lt;br /&gt;
+ควรใช้ว่า What was the price?&lt;br /&gt;&lt;br /&gt;
+3. What prize did you pay for it?&lt;br /&gt;
+ควรใช้ว่า How much did you pay for it?&lt;br /&gt;&lt;br /&gt;
+4. How much does it cost?&lt;br /&gt;
+ควรใช้ว่า How much did it cost?&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01940:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+Rupert: I need to buy a pair of formal shoes.&lt;br /&gt;
+Clerk: Okay. ...........................&lt;br /&gt;
+Rupert: 9 should be perfect.&lt;br /&gt;
+
+	</question>
+    <choice_A>How much do you want to pay?  </choice_A>
+    <choice_B>What’s your size?  </choice_B>
+    <choice_C>What color do you prefer?</choice_C>
+    <choice_D>How many pairs do you need?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Rupert: I need to buy a pair of formal shoes.&lt;br /&gt;
+ผมต้องการซื้อรองเท้าทำงานสัก 1 คู่&lt;br /&gt;&lt;br /&gt;
+Clerk: Okay. ...........................&lt;br /&gt;
+ได้ครับ .............&lt;br /&gt;&lt;br /&gt;
+Rupert: 8 should be perfect.&lt;br /&gt;
+เบอร์ 8 น่าจะสมบูรณ์(ดี)ที่สุด&lt;br /&gt;&lt;br /&gt;
+
+1. How much do you want to pay?&lt;br /&gt;
+คุณต้องการจ่ายเท่าไร (คุณมีงบประมาณเพื่อการนี้ กี่บาท)&lt;br /&gt;&lt;br /&gt;
+2. What’s your size?✔&lt;br /&gt;
+ขนาด(รองเท้าที่คุณต้องการ)ของคุณเท่าไร&lt;br /&gt;&lt;br /&gt;
+3. What color do you prefer?&lt;br /&gt;
+คุณชอบสีอะไร&lt;br /&gt;&lt;br /&gt;
+4. How many pairs do you need?&lt;br /&gt;&lt;br /&gt;
+คุณต้องการกี่คู่ (pairs)&lt;br /&gt;&lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+คำตอบว่า 8 คือ ขนาดเบอร์ 8 ดังนั้น คำถามจึงเป็นเรื่องขนาดรองเท้า&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01941:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: I went to the party last night. Did you go?&lt;br /&gt;
+B: No, I didn't. ...........................&lt;br /&gt;
+A: Fantastic! Everybody had a good time.&lt;br /&gt;
+
+	</question>
+    <choice_A>Were there many people?  </choice_A>
+    <choice_B>How was it?  </choice_B>
+    <choice_C>What about you?  </choice_C>
+    <choice_D>Who hosted the party?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: I went to the party last night. Did you go?&lt;br /&gt;
+ฉันไปงานปาร์ตี้เมื่อคืน คุณได้ไปหรือเปล่า&lt;br /&gt;&lt;br /&gt;
+B: No, I didn't. ...........................&lt;br /&gt;
+ไม่ได้ไป ..................&lt;br /&gt;&lt;br /&gt;
+A: Fantastic! Everybody had a good time.&lt;br /&gt;
+วิเศษมาก สนุกกันทุกคน&lt;br /&gt;&lt;br /&gt;
+
+1. Were there many people?&lt;br /&gt;
+มีคนไปเยอะไหม&lt;br /&gt;&lt;br /&gt;
+2. How was it? ✔&lt;br /&gt;
+งานเป็นไงบ้าง&lt;br /&gt;&lt;br /&gt;
+3. What about you?&lt;br /&gt;
+แล้วคุณล่ะ&lt;br /&gt;&lt;br /&gt;
+4. Who hosted the party?&lt;br /&gt;
+ใครเป็นเจ้าภาพจัดงาน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01942:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+Suda : What are you going to do tonight?&lt;br /&gt;
+May : ……………………………&lt;br /&gt;
+
+	</question>
+    <choice_A>I watched the news.  </choice_A>
+    <choice_B>I buy some clothes.  </choice_B>
+    <choice_C>I will write an e-mail to Jenny.  </choice_C>
+    <choice_D>I went to the beach.  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Suda : What are you going to do tonight?&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+May : ……………………………&lt;br /&gt;&lt;br /&gt;
+
+1. I watched the news.&lt;br /&gt;
+ฉันได้ดูข่าวนั้น&lt;br /&gt;&lt;br /&gt;
+2. I buy some clothes.&lt;br /&gt;
+ฉันซื้อเสื้อผ้า (เป็นประจำ/เป็นปกติ)&lt;br /&gt;&lt;br /&gt;
+
+3. I will write an e-mail to Jenny. ✔&lt;br /&gt;
+ฉันจะเขียนอีเมลถึง เจนนี่&lt;br /&gt;&lt;br /&gt;
+
+4. I went to the beach.&lt;br /&gt;
+ฉันได้ไปที่ชายหาด&lt;br /&gt;&lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+to be going to = will = จะ&lt;br /&gt;
+ใช้ will เพื่อแสดงว่า เหตุการณ์ยังมาไม่ถึง เป็นเหตุการณ์ในอนาคต&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01943:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+Suda : ……………………………&lt;br /&gt;
+Ken : Maybe something casual like  jeans.&lt;br /&gt;
+
+	</question>
+    <choice_A>Do you wear jeans to the party tonight?  </choice_A>
+    <choice_B>What will you do at the party tonight?  </choice_B>
+    <choice_C>What time will you go to the party tonight?  </choice_C>
+    <choice_D> What are you going to wear to the party?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Suda : ……………………………&lt;br /&gt;&lt;br /&gt;
+Ken : Maybe something casual like  jeans.&lt;br /&gt;
+อาจจะเป็นอะไรที่ใช้ประจำ(casual) เช่น ยีนส์&lt;br /&gt;&lt;br /&gt;
+
+1. Do you wear jeans to the party tonight?&lt;br /&gt;
+คุณจะนุ่งยีนส์ไปงานปาร์ตี้คืนนี้ไหม&lt;br /&gt;&lt;br /&gt;
+2. What will you do at the party tonight?&lt;br /&gt;
+คุณจะทำอะไรที่งานปาร์ตี้คืนนี้&lt;br /&gt;&lt;br /&gt;
+3. What time will you go to the party tonight?&lt;br /&gt;
+คุณจะไปงานปาร์ตี้คืนนี้ เวลาอะไร&lt;br /&gt;&lt;br /&gt;
+4. What are you going to wear to the party?✔&lt;br /&gt;
+คุณจะใส่เสื้อผ้าอะไรไปงานปาร์ตี้&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01944:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Joe : The traffic this morning is really bad. …………………&lt;br /&gt;
+Suda : Yes. There was one.&lt;br /&gt;
+
+	</question>
+    <choice_A>Do you know why?  </choice_A>
+    <choice_B> Did you get to school in time? </choice_B>
+    <choice_C>Were you late this morning?  </choice_C>
+    <choice_D>Was there an accident near here?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Joe : The traffic this morning is really bad. …………………&lt;br /&gt;
+การจราจรเมื่อเช้านี้ รถติดมาก ๆ ....................&lt;br /&gt;&lt;br /&gt;
+Suda : Yes. There was one.&lt;br /&gt;
+ใช่/มี. มี(สิ่งที่ถาม)อย่างหนึ่ง&lt;br /&gt;&lt;br /&gt;
+
+1. Do you know why?&lt;br /&gt;
+คุณรู้ไหมว่า ทำไม&lt;br /&gt;&lt;br /&gt;
+2. Did you get to school in time?&lt;br /&gt;
+คุณมาโรงเรียนทันหรือไม่&lt;br /&gt;&lt;br /&gt;
+3. Were you late this morning?&lt;br /&gt;
+คุณมาโรงเรียนสายใช่ไหม&lt;br /&gt;&lt;br /&gt;
+4. Was there an accident near here?✔&lt;br /&gt;
+มีอุบัติเหตุหรือไม่แถวนี้&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01945:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Kim : Where did you go for your last vacation?&lt;br /&gt;
+Nancy : ……………………………&lt;br /&gt;
+Kim : How was it ?&lt;br /&gt;
+Nancy : I enjoyed surfing very much.&lt;br /&gt;
+
+	</question>
+    <choice_A>I went to the mountains. </choice_A>
+    <choice_B>I went to Phuket.  </choice_B>
+    <choice_C>I went to sea.  </choice_C>
+    <choice_D>I was at the theater with my parents.  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Kim : Where did you go for your last vacation?&lt;br /&gt;
+เมื่อวันหยุดที่แล้ว อยู่ที่ไหน&lt;br /&gt;&lt;br /&gt;
+Nancy : ………………………&lt;br /&gt;&lt;br /&gt;
+Kim : How was it ?&lt;br /&gt;
+เป็นไงบ้าง&lt;br /&gt;&lt;br /&gt;
+Nancy : I enjoyed surfing very much.&lt;br /&gt;
+ฉันสนุกกับการเล่นกระดานโต้คลื่นมาก&lt;br /&gt;&lt;br /&gt;
+
+1. I went to the mountains.&lt;br /&gt;
+ฉันไปเที่ยวเขา &lt;br /&gt;&lt;br /&gt;
+2. I went to Phuket. ✔&lt;br /&gt;
+ฉันไปภูเก็ต &lt;br /&gt;&lt;br /&gt;
+3. I went to sea.&lt;br /&gt;
+ฉันออกเรือหาปลา &lt;br /&gt;&lt;br /&gt;
+4. I was at the theater with my parents.&lt;br /&gt;
+ฉันอยู่ที่โรงละคร กับพ่อ-แม่ &lt;br /&gt;&lt;br /&gt;
+ 
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;&lt;br /&gt;
+
+ดูเพิ่มเติมที่&lt;br /&gt;
+https://www.thongjoon.com/2018/08/go-to-sea-go-to-beach-go-to-seaside-go.html&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01946:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: What happened to your car? &lt;br /&gt;
+B: I got a dent in the parking lot. &lt;br /&gt;
+A: ........................................ ? &lt;br /&gt;
+B: I don't know. Maybe it was from a shopping cart. &lt;br /&gt;
+
+	</question>
+    <choice_A>When did you get?  </choice_A>
+    <choice_B>Who did it?  </choice_B>
+    <choice_C>How did you get it?  </choice_C>
+    <choice_D>Why did he do it?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: What happened to your car?  &lt;br /&gt;
+รถคุณเป็นอะไร&lt;br /&gt;&lt;br /&gt;
+B: I got a dent in the parking lot.  &lt;br /&gt;
+ผมได้รอยบุบที่ลานจอดรถ&lt;br /&gt;&lt;br /&gt;
+A: ..................................................... ?  &lt;br /&gt;
+B: I don't know. Maybe it was from a shopping cart. &lt;br /&gt;
+ไม่รู้เหมือนกัน อาจจะเป็นจากรถเข็น shoping cart &lt;br /&gt; &lt;br /&gt;
+
+1. When did you get?  &lt;br /&gt; 
+ได้เมื่อไร&lt;br /&gt;  &lt;br /&gt;
+2. Who did it?  &lt;br /&gt;
+ใครทำ&lt;br /&gt; &lt;br /&gt;
+3. How did you get it? ✔&lt;br /&gt; 
+มันเกิดได้อย่างไร&lt;br /&gt; &lt;br /&gt;
+4. Why did he do it? &lt;br /&gt; 
+เขาทำมัน ทำไม&lt;br /&gt;&lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+dent = รอยบุบ &lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01947:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: Let's go for a ride. &lt;br /&gt;
+B: ................................... ? &lt;br /&gt;
+A: Into the mountains. &lt;br /&gt;
+B: That sounds nice. &lt;br /&gt;
+
+	</question>
+    <choice_A>When are we going?  </choice_A>
+    <choice_B>How are we going?  </choice_B>
+    <choice_C>Where are we going?  </choice_C>
+    <choice_D>Who are we going with?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: Let's go for a ride. &lt;br /&gt;
+ไปขับรถเที่ยวกันดีกว่า &lt;br /&gt;&lt;br /&gt;
+B: ................................... ? &lt;br /&gt;&lt;br /&gt;
+A: Into the mountains. &lt;br /&gt;
+เข้าป่า - ขึ้นเขา &lt;br /&gt;&lt;br /&gt;
+B: That sounds nice. &lt;br /&gt;
+ฟังดูดีนี่&lt;br /&gt; &lt;br /&gt;
+
+1. When are we going?  &lt;br /&gt;
+ไปเมื่อไร &lt;br /&gt; &lt;br /&gt;
+2. How are we going? &lt;br /&gt;
+ไปอย่างไร &lt;br /&gt; &lt;br /&gt;
+3. Where are we going? &lt;br /&gt;
+ไปที่ไหน ✔&lt;br /&gt; &lt;br /&gt;
+4. Who are we going with?  &lt;br /&gt;
+ไปกับใคร &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01948:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: ................................. ? &lt;br /&gt;
+B: It looks like rain. &lt;br /&gt;
+A: Why do you say that? &lt;br /&gt;
+B: The sky is gray. &lt;br /&gt; &lt;br /&gt;
+
+	</question>
+    <choice_A>Is it raing?  </choice_A>
+    <choice_B>Do you like rain?  </choice_B>
+    <choice_C>Is it going to rain today?  </choice_C>
+    <choice_D>What's the weather like?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: ..............................? &lt;br /&gt;&lt;br /&gt;
+B: It looks like rain. &lt;br /&gt;
+ ดูเหมือน ฝนจะตก&lt;br /&gt;&lt;br /&gt;
+A: Why do you say that? &lt;br /&gt;
+ ทำไมจึงพูดอย่างนั้น -ทำไมจึงบอกว่าฝนจะตก&lt;br /&gt;&lt;br /&gt;
+B: The sky is gray. &lt;br /&gt;
+ท้องฟ้าเป็นสีเทา - มีเมฆฝน &lt;br /&gt; &lt;br /&gt;
+
+1. Is it raing? &lt;br /&gt;
+ฝนกำลังตกใช่ไหม &lt;br /&gt; &lt;br /&gt;
+2. Do you like rain?  &lt;br /&gt;
+ คุณชอบฝนไหม&lt;br /&gt; &lt;br /&gt;
+3. Is it going to rain today?  &lt;br /&gt;
+คิดว่า วันนี้ฝนจะตกไหม &lt;br /&gt; &lt;br /&gt;
+4. What's the weather like?  ✔&lt;br /&gt;
+ อากาศเป็นอย่างไรบ้าง&lt;br /&gt; &lt;br /&gt;
+
+คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+การถามเกี่ยวกับสภาพอากาศ ใช้ได้หลายสำนวน เช่น&lt;br /&gt;
+What's the weather like?&lt;br /&gt;
+อากาศเหมือนอะไร&lt;br /&gt;
+How's the weather?&lt;br /&gt;
+อากาศเป็นอย่างไร&lt;br /&gt;
+What's the weather forecast? &lt;br /&gt;
+การพยากรณ์อากาศคืออะไร&lt;br /&gt;
+Is it raining?&lt;br /&gt;
+ฝนตกใช่ไหม&lt;br /&gt;
+Is it sunny?&lt;br /&gt;
+แดดออกใช่ไหม&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01949:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: ........................................... ? &lt;br /&gt;
+B: It leaves at 12:15. &lt;br /&gt;
+A: When do you have to be at the airport? &lt;br /&gt;
+B: I have to be there two hours early. &lt;br /&gt;
+
+	</question>
+    <choice_A>Where are you going?  </choice_A>
+    <choice_B>What time does your plane leave?  </choice_B>
+    <choice_C>Excuse me? When is the next train?  </choice_C>
+    <choice_D>When will you leave this afternoon?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: ........................................ ? &lt;br /&gt;&lt;br /&gt;
+B: It leaves at 12:15. &lt;br /&gt;
+มันออก เวลา 12:15 น. &lt;br /&gt;&lt;br /&gt;
+A: When do you have to be at the airport? &lt;br /&gt;
+คุณต้องไปถึงสนามบินเวลากี่โมง &lt;br /&gt;&lt;br /&gt;
+B: I have to be there two hours early. &lt;br /&gt;
+ ผมต้องไปถึงสนามบิน ก่อน 2 ชั่วโมง &lt;br /&gt;&lt;br /&gt;
+
+1. Where are you going? &lt;br /&gt;
+คุณกำลังไปไหน &lt;br /&gt;&lt;br /&gt;
+2. What time does your plane leave? ✔  &lt;br /&gt;
+ เครื่องบินคุณ ออกเวลาอะไร&lt;br /&gt;&lt;br /&gt;
+3. Excuse me? When is the next train?&lt;br /&gt;
+ขอโทษครับ รถไฟขบวนต่อไปออกกี่โมง &lt;br /&gt;&lt;br /&gt;
+4. When will you leave this afternoon?&lt;br /&gt;
+ คุณจะไปเมื่อไร บ่ายนี้&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01950:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Todd: I see you eat soup every day at work. ....................? &lt;br /&gt;
+Sarah: That’s because I love to cook soup. &lt;br /&gt;
+Todd: So you make the soup? &lt;br /&gt;
+Sarah: Yes, it’s very easy to make. &lt;br /&gt;
+	</question>
+    <choice_A>How do you cook soup?  </choice_A>
+    <choice_B>When do you cook soup?  </choice_B>
+    <choice_C>Why do you eat soup every day?  </choice_C>
+    <choice_D>What do you put in your soup?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Todd: I see you eat soup every day at work. ....................... ? &lt;br /&gt;
+ผมเห็นคุณกินซุปทุกวัน ที่ที่ทำงาน .....................?  &lt;br /&gt;&lt;br /&gt;
+Sarah: That’s because I love to cook soup. &lt;br /&gt;
+นั่น เพราะว่าฉันรักที่จะทำซุป &lt;br /&gt;&lt;br /&gt;
+Todd: So you make the soup? &lt;br /&gt;
+เพราะฉะนั้น คุณทำซุปนั้นเอง ใช่ไหม &lt;br /&gt;&lt;br /&gt;
+Sarah: Yes, it’s very easy to make. &lt;br /&gt;
+ใช่ มันทำง่าย &lt;br /&gt; &lt;br /&gt;
+
+1. How do you cook soup?  &lt;br /&gt;
+คุณทำซุปอย่างไร &lt;br /&gt;&lt;br /&gt;
+2. When do you cook soup?  &lt;br /&gt;
+คุณ ทำซุปเมื่อไร&lt;br /&gt;&lt;br /&gt;
+3. Why do you eat soup every day?  ✔&lt;br /&gt;
+ทำไมคุณจึงกินซุปทุกวัน &lt;br /&gt;&lt;br /&gt;
+4. What do you put in your soup?  &lt;br /&gt;
+ คุณใส่อะไรลงในซุป&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01951:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Sarah: So I heard you are from Ayutthaya. &lt;br /&gt;
+Thongdee: That’s right. Yeah, I was born there. &lt;br /&gt;
+Sarah: Cool. ................................ ? &lt;br /&gt;
+Thongdee: Well, I think the most interesting thing is probably the Rama Park. &lt;br /&gt; &lt;br /&gt;
+
+	</question>
+    <choice_A>Are there many ruins in the Rama Park?  </choice_A>
+    <choice_B>What is the most interesting thing about your city?  </choice_B>
+    <choice_C>Where can I see the ruins of temples and old palaces?   </choice_C>
+    <choice_D>Is it very nice to visit the Rama Park in Ayutthaya?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Sarah: So I heard you are from Ayutthaya. &lt;br /&gt;
+ได้ยินมาว่า คุณเป็นคนอยุธยา &lt;br /&gt;&lt;br /&gt;
+Thongdee: That’s right. Yeah, I was born there. &lt;br /&gt;
+ถูกต้อง ผมเกิดที่นั่น &lt;br /&gt;&lt;br /&gt;
+Sarah: Cool. ..........................? &lt;br /&gt;&lt;br /&gt;
+Thongdee: Well, I think the most interesting thing is probably the Rama Park. &lt;br /&gt;
+เอ้อ คิดว่า สิ่งที่น่าสนใจที่สุดในอยุธยา คือ สวนสาธารณะบึงพระราม &lt;br /&gt; &lt;br /&gt;
+
+1. Are there many ruins in the Rama Park? &lt;br /&gt;
+มีสิ่งปรักหักพังในบึงพระราม มากหรือไม่ &lt;br /&gt;&lt;br /&gt;
+2. What is the most interesting thing about your city? ✔ &lt;br /&gt;
+อะไรที่เป็นสิ่งที่น่าสนใจ มากที่สุด ในเมืองของคุณ &lt;br /&gt;&lt;br /&gt;
+3. Where can I see the ruins of temples and old palaces?   &lt;br /&gt;
+ฉันจะเห็นสิ่งปรักหักพัง โบราณสถาน วัดและพระราชวัง ได้ที่ไหน&lt;br /&gt;&lt;br /&gt;
+4. Is it very nice to visit the Rama Park in Ayutthaya?   &lt;br /&gt;
+บึงพระราม ที่อยุธยา น่าเที่ยวหรือไม่ &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01952:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+Hotel: Hi miss, how are you today? Are you checking in?&lt;br /&gt;
+Guest: yes, ...........................&lt;br /&gt;
+Hotel: Ok, let me check. Oh great I found your reservation, you are in room 207.&lt;br /&gt;
+
+</question>
+    <choice_A>Do you have any vacancies?</choice_A>
+    <choice_B>I had a room reserved under the name “Suda.” </choice_B>
+    <choice_C>How do we get to our room from here?</choice_C>
+    <choice_D>What time is breakfast served at?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Hotel: Hi miss, how are you today? Are you checking in?&lt;br /&gt;
+สวัสดีค่ะ ต้องการเชคอินหรือคะ&lt;br /&gt;&lt;br /&gt;
+Guest: yes, ...........................&lt;br /&gt;
+ใช่ .......................&lt;br /&gt;&lt;br /&gt;
+Hotel: Ok, let me check. Oh great I found your reservation, you are in room 207.&lt;br /&gt;
+ตกลง ขอเชคดูนะคะ ดีจัง พบการจองของคุณ คุณอยู่ห้องเบอร์ 207&lt;br /&gt;&lt;br /&gt;
+
+1. Do you have any vacancies?&lt;br /&gt;
+มีห้องว่างไหมคะ&lt;br /&gt;&lt;br /&gt;
+2. I had a room reserved under the name “Suda.” &lt;br /&gt;
+ฉันจองไว้แล้ว ใช้ชื่อ สุดา&lt;br /&gt;&lt;br /&gt;
+3. How do we get to our room from here?&lt;br /&gt;
+จะไปห้องได้อย่างไร จากที่นี่&lt;br /&gt;&lt;br /&gt;
+4. What time is breakfast served at?&lt;br /&gt;
+อาหารเช้า บริการ กี่โมง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01953:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: ............... about the killing of the panther in Thungyai Naresuan?&lt;br /&gt;
+B: I'm shocked when I heard the news. &lt;br /&gt;
+
+	</question>
+    <choice_A>What do you think  </choice_A>
+    <choice_B>How do you think </choice_B>
+    <choice_C>What do you feel  </choice_C>
+    <choice_D>How do you feel  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: ............. about the killing of the panther in Thungyai Naresuan? &lt;br /&gt;
+ ................. เกี่ยวกับการฆ่าเสือดำ (panther) ในทุ่งใหญ่นเรศวร&lt;br /&gt;&lt;br /&gt;
+B: I'm shocked when I heard the news.&lt;br /&gt;
+ผมรู้สึกตกใจมาก เมื่อได้ยินข่าวนี้ &lt;br /&gt; &lt;br /&gt;
+
+1. What do you think &lt;br /&gt;
+คุณคิดว่าอะไร &lt;br /&gt;&lt;br /&gt;
+2. How do you think  &lt;br /&gt;
+คุณคิดอย่างไร &lt;br /&gt;&lt;br /&gt;
+3. What do you feel  &lt;br /&gt;
+คุณรู้สึกอะไร &lt;br /&gt;&lt;br /&gt;
+4. How do you feel   &lt;br /&gt;
+ คุณรู้สึกอย่างไร&lt;br /&gt; &lt;br /&gt;
+
+คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+ดูจากคำตอบ เป็นการถามความรู้สึกเกี่ยวกับการล่าเสือดำ &lt;br /&gt; &lt;br /&gt;
+
+ถ้าจะถามความคิดเห็นเกี่ยวกับอะไร ให้ถามว่า What do you think about ...... ? &lt;br /&gt; &lt;br /&gt;
+
+ถ้าจะถามความรู้สึก ให้ถามว่า How do you feel about .......? &lt;br /&gt; &lt;br /&gt;
+
+How do think? - ไม่ควรใช้ &lt;br /&gt;
+What do you feel? - ไม่ควรใช้ &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 5 &lt;br /&gt;&lt;br /&gt;
+
+ดูเพิ่มเติมที่&lt;br /&gt;
+https://www.thongjoon.com/2018/08/how-do-you-feel-vs-what-do-you-feel.html&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01954:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: Insert a coin into the slot. ..................... You will get the drink you want. &lt;br /&gt;
+B: Thank you so much. &lt;br /&gt;
+
+	</question>
+    <choice_A>Wait for a while.  </choice_A>
+    <choice_B>Make a selection.  </choice_B>
+    <choice_C>Pick up the drink.  </choice_C>
+    <choice_D>Don't forget the change.  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: Insert a coin into the slot. ..................... You will get the drink you want. &lt;br /&gt;
+หยอดเหรียญลงในช่อง .................. คุณจะได้เครื่องดื่มที่ต้องการ &lt;br /&gt;&lt;br /&gt;
+B: Thank you so much. &lt;br /&gt;
+ขอบคุณมากครับ &lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+1. Wait for a while.  &lt;br /&gt;
+คอยสักครู่ &lt;br /&gt;&lt;br /&gt;
+2. Make a selection. ✔ &lt;br /&gt;
+เลือกสิ่งที่ต้องการ &lt;br /&gt;&lt;br /&gt;
+3. Pick up the drink.   &lt;br /&gt;
+หยิบเครื่องดื่ม &lt;br /&gt;&lt;br /&gt;
+4. Don't forget the change. &lt;br /&gt;
+อย่าลืมเงินทอน &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+เป็นการอธิบายวิธีใช้เครื่องขายเครื่องดื่มอัตโนมัติ หรือ vending machine &lt;br /&gt;
+ขั้นตอนการใช้ คือ หยอดเหรียญ -&gt; เลือกเครื่องดื่มที่ต้องการ -&gt; หยิบเครื่องดื่ม -&gt; หยิบเงินทอน(ถ้ามี) &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01955:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: I will go to Chaingmai for my holiday next week. &lt;br /&gt;
+B: ................................ &lt;br /&gt;
+A: Probably 3 days. &lt;br /&gt; &lt;br /&gt;
+
+	</question>
+    <choice_A>How often do you go there?  </choice_A>
+    <choice_B>How long will you stay there?  </choice_B>
+    <choice_C>How many times have you been there?  </choice_C>
+    <choice_D> What time will you leave? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: I will go to Chaingmai for my holiday next week. &lt;br /&gt;
+ฉันจะไปเชียงใหม่เพื่อพักผ่อนวันหยุดอาทิตย์หน้า &lt;br /&gt;&lt;br /&gt;
+B: ................................ &lt;br /&gt;&lt;br /&gt;
+A: Probably 3 days. &lt;br /&gt;
+ อาจจะสัก 3 วัน&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+1. How often do you go there? &lt;br /&gt;
+ คุณไปที่นั่นบ่อยไหม&lt;br /&gt;&lt;br /&gt;
+2. How long will you stay there? ✔&lt;br /&gt;
+คุณจะพักที่นั่นนานเท่าไร &lt;br /&gt;&lt;br /&gt;
+3. How many times have you been there?  &lt;br /&gt;
+คุณไปที่นั่นกี่ครั้งแล้ว &lt;br /&gt;&lt;br /&gt;
+4.  What time will you leave?  &lt;br /&gt;
+ คุณจะออกเดินทาง (leave)เมื่อไร&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01956:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+Kim : Where did you go for your last vacation?&lt;br /&gt;
+Nancy : ……………………………&lt;br /&gt;
+Kim : How was it ?&lt;br /&gt;
+Nancy : I enjoyed swimming in the afternoon.&lt;br /&gt;
+
+	</question>
+    <choice_A> I went to sea. </choice_A>
+    <choice_B>I went to seaside.  </choice_B>
+    <choice_C>I went to the sea.  </choice_C>
+    <choice_D>I went to the beach.  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Kim : Where did you go for your last vacation?&lt;br /&gt;
+เมื่อวันหยุดที่ผ่านมา คุณไปเที่ยวที่ไหน&lt;br /&gt;&lt;br /&gt;
+Nancy : ……………………………&lt;br /&gt;&lt;br /&gt;
+Kim : How was it ?&lt;br /&gt;
+เป็นอย่างไรบ้าง&lt;br /&gt;&lt;br /&gt;
+Nancy : I enjoyed swimming in the afternoon.&lt;br /&gt;
+ฉันสนุกมากกับการว่ายน้ำ ในตอนบ่าย&lt;br /&gt;&lt;br /&gt;
+
+1. I went to sea.&lt;br /&gt;
+went to sea = ออกเรือไปหาปลา&lt;br /&gt;&lt;br /&gt;
+2. I went to seaside.&lt;br /&gt;
+ที่ถูกคือ I went to the seaside.&lt;br /&gt;&lt;br /&gt;
+3. I went to the sea.&lt;br /&gt;
+พอเข้าใจได้ว่า ไปทะเล แต่คนอเมริกัน จะใช้ว่า I went to the beach. หรือ I went to the ocean. และคนอังกฤษ มักจะใช้ว่า I went to &lt;strong&gt;the &lt;/strong &gt; seaside.&lt;br /&gt;&lt;br /&gt;
+4. I went to the beach. ✔&lt;br /&gt;
+ฉันไปเที่ยวทะเล&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;&lt;br /&gt;
+
+ดูเพิ่มเติมที่&lt;br /&gt;
+https://www.thongjoon.com/2018/08/go-to-sea-go-to-beach-go-to-seaside-go.html&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01957:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+Suda: I don’t think we’ve met before. My name’s Suda.&lt;br /&gt;
+Mike: I'm Mike. ........................&lt;br /&gt;
+Suda: Likewise.&lt;br /&gt;
+	</question>
+    <choice_A>How are you?</choice_A>
+    <choice_B>Yes, we've met before.</choice_B>
+    <choice_C>It’s a pleasure to meet you.</choice_C>
+    <choice_D>Good to see you.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Suda: I don’t think we’ve met before. My name’s Suda.&lt;br /&gt;
+ฉันไม่คิดว่าเราเคยพบกันมาก่อน ฉันชื่อสุดาก&lt;br /&gt;&lt;br /&gt;
+Mike: I'm Mike. ........................&lt;br /&gt;
+ผมชื่อไมค์ .......................&lt;br /&gt;&lt;br /&gt;
+Suda: Likewise.&lt;br /&gt;
+เช่นเดียวกัน&lt;br /&gt;&lt;br /&gt;
+
+1. How are you?&lt;br /&gt;
+เป็นไงบ้าง - ใช้สำหรับทักทายกันตามปกติ &lt;br /&gt;&lt;br /&gt;
+2. Yes, we've met before.&lt;br /&gt;
+ใช่ เราเคยพบกันมาก่อน &lt;br /&gt;
+คำพูดต่อไปของสุดา ไม่ได้ตอบประโยคนี้ จึงยังไม่ถูก&lt;br /&gt;&lt;br /&gt;
+3. It’s a pleasure to meet you. ✔&lt;br /&gt;
+ยินดีที่ได้รู้จักคุณ&lt;br /&gt;&lt;br /&gt;
+4. Good to see you.&lt;br /&gt;
+ดีจังที่เจอคุณ - ใช้ทักทายเมื่อรู้จักกันแล้ว&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01958:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: I can't believe how hot it is. &lt;br /&gt;
+B: I am dying from the heat. &lt;br /&gt;
+A: Turn on the air conditioner. &lt;br /&gt;
+B: ...................................... &lt;br /&gt;
+A: What happened? &lt;br /&gt;
+B: I don't know. &lt;br /&gt;
+
+	</question>
+    <choice_A>That's a good idea!  </choice_A>
+    <choice_B>Sorry. We don't have any air conditioner.  </choice_B>
+    <choice_C> It doesn't work. </choice_C>
+    <choice_D>The air conditioner is already on.     </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: I can't believe how hot it is. &lt;br /&gt;
+ไม่น่าเชื่อเลยว่า มันจะร้อนขนาดนี้ &lt;br /&gt;&lt;br /&gt;
+B: I am dying from the heat. &lt;br /&gt;
+ผมกำลังจะตายด้วยความร้อนอยู่แล้ว &lt;br /&gt;&lt;br /&gt;
+A: Turn on the air conditioner. &lt;br /&gt;
+เปิดแอร์ &lt;br /&gt;&lt;br /&gt;
+B: .......................................... &lt;br /&gt;&lt;br /&gt;
+A: What happened? &lt;br /&gt;
+มันเกิดอะไรขึ้น &lt;br /&gt;&lt;br /&gt;
+B: I don't know. &lt;br /&gt;
+ไม่รู้เหมือนกัน &lt;br /&gt;&lt;br /&gt;
+
+1. That's a good idea! &lt;br /&gt;
+เป็นความคิดที่วิเศษ! &lt;br /&gt;&lt;br /&gt;
+2. Sorry. We don't have any air conditioner. &lt;br /&gt;
+ขอโทษ เราไม่มีเครื่องปรับอากาศ &lt;br /&gt;&lt;br /&gt;
+3.  It doesn't work. ✔&lt;br /&gt;
+ มันเสีย (มันไม่ทำงาน)&lt;br /&gt;&lt;br /&gt;
+4. The air conditioner is already on.   &lt;br /&gt;
+เครื่องปรับอากาศทำงานอยู่แล้ว &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01959:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: Why did Anna marry John? They don't seem right for each other.&lt;br /&gt;
+B: ................................ I don't know why.&lt;br /&gt;
+
+	</question>
+    <choice_A>Anyway, I should get going.</choice_A>
+    <choice_B>I’ve been wondering that, too.</choice_B>
+    <choice_C>Give it your best shot.</choice_C>
+    <choice_D>It’s a walk in the park.  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: Why did Anna marry John? They don't seem right for each other.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+B: ................................ I don't know why.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+1. Anyway, I should get going.&lt;br /&gt;
+อย่างไรก็ตาม ฉันต้องไปแล้ว&lt;br /&gt;&lt;br /&gt;
+2. I’ve been wondering that, too. ✔&lt;br /&gt;
+ฉันสงสัยนั่นอยู่เหมือนกัน&lt;br /&gt;&lt;br /&gt;
+3. Give it your best shot.&lt;br /&gt;
+ทำให้ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+4. It’s a walk in the park.&lt;br /&gt;
+มันงานง่าย และน่ารื่นรมย์ (เหมือนเดินในสวนสาธารณะ)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01960:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+&lt;strong&gt;At the airport check-in counter.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;Check-in agent:&lt;/strong&gt; Do you have any bags to check today?&lt;br /&gt;
+&lt;strong&gt;Suda:&lt;/strong&gt; Just this one. .......................?&lt;br /&gt;
+&lt;strong&gt;Check-in agent:&lt;/strong&gt; Yes, it’s $25 per checked item.&lt;br /&gt;
+
+	</question>
+    <choice_A>What is the weight limit for checked bags?</choice_A>
+    <choice_B>Can I carry this suitcase on board?</choice_B>
+    <choice_C>Is there a fee?</choice_C>
+    <choice_D>How much is it?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+&lt;strong&gt;At the airport check-in counter.&lt;/strong&gt;&lt;br /&gt;
+ที่เคาน์เตอร์เชคอิน ของสนามบิน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;Check-in agent:&lt;/strong&gt; Do you have any bags to check today?&lt;br /&gt;
+วันนี้ คุณมีกระเป๋าที่จะเชคอินหรือไม่&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;Suda:&lt;/strong&gt; Just this one. .......................?&lt;br /&gt;
+มีลูกเดียว .......................?&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;Check-in agent:&lt;/strong&gt; Yes, it’s $25 per checked item.&lt;br /&gt;
+ใช่/มี ค่าธรรมเนียม 25 เหรียญ ต่อเชคอิน 1 ชิ้น&lt;br /&gt;&lt;br /&gt;
+
+1. What is the weight limit for checked bags?&lt;br /&gt;
+น้ำหนักของกระเป๋าที่จะเชคอิน คือเท่าไร&lt;br /&gt;&lt;br /&gt;
+2. Can I carry this suitcase on board?&lt;br /&gt;
+ผมจะนำกระเป๋าเสื้อผ้านี้ขึ้นเครื่อง(board) ได้หรือไม่&lt;br /&gt;&lt;br /&gt;
+3. Is there a fee? ✔&lt;br /&gt;
+มีค่าธรรมเนียม(fee) หรือไม่&lt;br /&gt;&lt;br /&gt;
+4. How much is it?&lt;br /&gt;
+ราคาเท่าไร/เป็นเงินเท่าไร&lt;br /&gt;&lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+จากบทสนทนา ส่วนที่เป็นช่องว่าง คือ เป็นการถามเรื่องเงิน &lt;br /&gt;
+และจากคำตอบว่า ใช่ แสดงว่า ต้องถามว่า ใช่หรือไม่ ไม่ใช่การถามราคาเท่าไร&lt;br /&gt;
+ดังนั้น ข้อ 4 จึงไม่ใช่ข้อที่ถูก&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01961:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+A: Good afternoon, officer. &lt;br /&gt;
+B: Your driver's license, please. &lt;br /&gt;
+A: Here you go. &lt;br /&gt;
+B: Do you know why I pulled you over? &lt;br /&gt;
+A: ..................................... &lt;br /&gt;
+B: You were speeding.The city speed limit is 80 kilometers an hour. &lt;br /&gt;
+
+	</question>
+    <choice_A>Yes. I was speeding.  </choice_A>
+    <choice_B>I have no idea.  </choice_B>
+    <choice_C>Yes, I ran the red light.  </choice_C>
+    <choice_D>No, I don't know the speed limit.  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+A: Good afternoon, officer. &lt;br /&gt;
+สวัสดี คุณตำรวจ&lt;br /&gt;&lt;br /&gt;
+B: Your driver's license, please. &lt;br /&gt;
+ ขอใบอนุญาตขับขี่ หน่อยครับ&lt;br /&gt;&lt;br /&gt;
+A: Here you go. &lt;br /&gt;
+ นี่ไง&lt;br /&gt;&lt;br /&gt;
+B: Do you know why I pulled you over? &lt;br /&gt;
+คุณรู้ไหมว่า ผมเรียกคุณหยุด (pull over) ทำไม &lt;br /&gt;&lt;br /&gt;
+A: ........................................&lt;br /&gt;&lt;br /&gt;
+B: You were speeding.The city speed limit is 80 kilometers an hour. &lt;br /&gt;
+คุณขับรถเร็ว ความเร็วในเมือง จำกัดที่ 80 กิโลเมตรต่อชั่วโมง &lt;br /&gt; &lt;br /&gt;
+
+1. Yes. I was speeding.  &lt;br /&gt;
+ รู้ครับ ผมขับรถเร็ว&lt;br /&gt; &lt;br /&gt;
+2. I have no idea.  ✔&lt;br /&gt;
+ไม่ทราบครับ &lt;br /&gt; &lt;br /&gt;
+3. Yes, I ran the red light.  &lt;br /&gt;
+รู้ครับ ผมขับรถฝ่าไฟแดง &lt;br /&gt; &lt;br /&gt;
+4. No, I don't know the speed limit.  &lt;br /&gt;
+ไม่ใช่ ผมไม่รู้ว่า จำกัดความเร็วเท่าไร &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+จากบทสนทนา แสดงว่า คนขับรถ ไม่รู้ว่าทำไมตำรวจจึงเรียกให้หยุด &lt;br /&gt; &lt;br /&gt;
+
+ran the red light = ขับรถฝ่าไฟแดง&lt;br /&gt;
+speeding = ในกรณีนี้ หมายถึง ขับรถเร็วเกินกำหนด&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+</exams>
+
+

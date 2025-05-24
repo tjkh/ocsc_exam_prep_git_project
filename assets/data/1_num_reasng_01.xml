@@ -1,0 +1,4642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+
+
+<!-- XX 1-->
+<thisQuestion>
+<qNum>id1747192940:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+11  &#160;&#160;&#160;
+-4  &#160;&#160;&#160;
+-10  &#160;&#160;
+-7  &#160;&#160;
+5  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 23 </choice_A>
+<choice_B> 24 </choice_B>
+<choice_C> 25</choice_C>
+<choice_D> 26 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+11  &#160;&#160;&#160;
+-4  &#160;&#160;&#160;
+-10  &#160;&#160;
+-7  &#160;&#160;
+5  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขมีติดลบ มีขึ้น มีลง&lt;br /&gt;
+ลองเชคแบบสะสม ไม่ใช่แบบสะสม&lt;br /&gt;
+ไม่ใช่แบบ อนุกรมซ้อนกัน เพราะมีไม่กี่จำนวน&lt;br /&gt;
+ลองตีแฉก เอาตัวหลังตั้ง ลบด้วยตัวหน้า&lt;br /&gt;
+-4 - (11) = -15&lt;br /&gt;
+-10 - (-4) = -10 + 4 = -6&lt;br /&gt;
+-7 - (-10) = -7 + 10 = +3&lt;br /&gt;
+5 - (-7) = 5 + 7 = 12&lt;br /&gt;
+ตีแฉกอีกชั้น&lt;br /&gt;
+ได้รูปแบบ ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_1141075.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;div style='border: 2px solid green; background-color: #e0ffe0; padding: 10px;'&gt;
+&lt;small&gt;
+ทบทวนเรื่องการลบด้วยจำนวนลบ&lt;br /&gt;&lt;br /&gt;
+
+-10 - (-4)&lt;br /&gt;
+เครื่องหมายเหมือนกันคูณกัน ได้เครื่องหมายบวก&lt;br /&gt;
+เครื่องหมายต่างกันคูณกัน ได้เครื่องหมายลบ&lt;br /&gt;
+ดังนั้น -(-4) จึงได้เป็น +4&lt;br /&gt;
+&lt;/small&gt;
+&lt;/div&gt; &lt;br /&gt;
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 2-->
+<thisQuestion>
+<qNum>id1747192941:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+7  &#160;&#160;&#160;
+21  &#160;&#160;&#160;
+84  &#160;&#160;
+252  &#160;&#160;
+1,008  &#160;&#160;
+3,024  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 4,592 </choice_A>
+<choice_B> 7,850 </choice_B>
+<choice_C> 10,054</choice_C>
+<choice_D> 12,096 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+7  &#160;&#160;&#160;
+21  &#160;&#160;&#160;
+84  &#160;&#160;
+252  &#160;&#160;
+1,008  &#160;&#160;
+3,024  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขเพิ่มขึ้นครั้งละมาก ๆ น่าจะต้องมีการคูณ หรือ ยกกำลัง&lt;br /&gt;
+สังเกต เลข 7 กับเลข 84&lt;br /&gt;
+7 × 12 = 84&lt;br /&gt;
+อาจจะเป็นแบบข้ามเลข คือมี 2 ชุด&lt;br /&gt;
+ลองเอา 12 ไปคูณ 84&lt;br /&gt;
+84 × 12 = 1008&lt;br /&gt;&lt;br /&gt;
+
+ได้รูปแบบ ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_7218425211083024.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 3-->
+<thisQuestion>
+<qNum>id1747192942:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+4,096  &#160;&#160;&#160;
+2,048  &#160;&#160;&#160;
+512  &#160;&#160;
+64  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 3 </choice_A>
+<choice_B> 4 </choice_B>
+<choice_C> 5</choice_C>
+<choice_D> 6 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+4,096  &#160;&#160;&#160;
+2,048  &#160;&#160;&#160;
+512  &#160;&#160;
+64  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขลดลงเยอะมาก ต้องมีการหารแน่นอน&lt;br /&gt;
+การหาร กพ มักจะหารด้วยเลขน้อย ๆ เช่น 2 หรือ 3 &lt;br /&gt;
+ลองเอา 2 หารตัวแรก&lt;br /&gt;
+4,096 ÷ 2 = 2,048&lt;br /&gt;
+ลองหารต่อไป&lt;br /&gt;
+2,048  ÷ 2 = 1,024&lt;br /&gt;
+ลองหารต่อ&lt;br /&gt;
+1,024  ÷ 2 = 512&lt;br /&gt;
+แสดงว่า&lt;br /&gt;
+2,048  ÷ 4 = 512&lt;br /&gt;
+แสดงว่า ตัวหารเพิ่มขึ้น จาก 2 เป็น 4 ต่อไปน่าจะเป็น 8, 16, 32&lt;br /&gt;
+ได้รูปแบบ ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/realTest_4096204851264.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 4-->
+<thisQuestion>
+<qNum>id1747192943:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+32  &#160;&#160;&#160;
+26  &#160;&#160;&#160;
+50  &#160;&#160;
+104  &#160;&#160;
+188  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 301 </choice_A>
+<choice_B> 302 </choice_B>
+<choice_C> 303</choice_C>
+<choice_D> 304 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+32  &#160;&#160;&#160;
+26  &#160;&#160;&#160;
+50  &#160;&#160;
+104  &#160;&#160;
+188  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขมีขึ้น มีลง&lt;br /&gt;
+ลองเชคแบบสะสม ไม่ใช่แบบสะสม&lt;br /&gt;
+ไม่ใช่แบบอนุกรมซ้อนกัน เพราะมีไม่กี่จำนวน&lt;br /&gt;
+ลองตีแฉก &lt;br /&gt;
+ได้รูปแบบ ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_322650104188.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 5-->
+<thisQuestion>
+<qNum>id1747192944:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+125  &#160;&#160;&#160;
+75  &#160;&#160;&#160;
+45  &#160;&#160;
+27  &#160;&#160;
+&lt;tex&gt; \frac{81}{5}&lt;/tex&gt;  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 14 </choice_A>
+<choice_B> 21 </choice_B>
+<choice_C> &lt;tex&gt; 7\frac{4}{5}&lt;/tex&gt; </choice_C>
+<choice_D> &lt;tex&gt; 9\frac{18}{25}&lt;/tex&gt; </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+125  &#160;&#160;&#160;
+75  &#160;&#160;&#160;
+45  &#160;&#160;
+27  &#160;&#160;
+&lt;tex&gt; \frac{81}{5}&lt;/tex&gt;   &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขลดลงเรื่อย ๆ ตัวสุดท้าย มีส่วนเป็น 5&lt;br /&gt;
+แสดงว่า ต้องมีการหารด้วย 5 แน่นอน&lt;br /&gt;
+125 ÷ 5 = 25&lt;br /&gt;
+เราต้องการ 75&lt;br /&gt;
+ตอนนี้ กพ เคยเอาเรื่อง โอเปอร์เรชัน มาผสมกับ อนุกรม&lt;br /&gt;
+จาก 25 ให้เป็น 75 เราต้องคูณด้วย 3&lt;br /&gt;
+25 × 3 = 75 &lt;br /&gt;&lt;br /&gt;
+
+ตัวต่อไป ลองหารด้วย 5 คูณด้วย 3 ดู&lt;br /&gt;
+75 ÷ 5 = 15 × 3 = 45 &lt;br /&gt;&lt;br /&gt;
+
+หารด้วย 5 คูณด้วย 3 คือ คูณด้วย &lt;tex&gt; \frac{3}{5}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt; 45 × \frac{3}{5} = 27&lt;/tex&gt; &lt;br /&gt;
+
+&lt;tex&gt; 27 × \frac{3}{5} = \frac{81}{5}&lt;/tex&gt; &lt;br /&gt;
+
+คำตอบ คือ &lt;br /&gt;
+
+&lt;tex&gt; \frac{81}{5} × \frac{3}{5} = \frac{243}{25} = 9\frac{18}{25}&lt;/tex&gt; &lt;br /&gt;
+
+
+
+45 ÷ 5 = 9 × 3 = 27 &lt;br /&gt;&lt;br /&gt;
+
+สรุปว่า ตัวหน้า คูณด้วย เศษ 3 ส่วน 5 ได้เป็นตัวถัดไป&lt;br /&gt;
+หรือ ตัวหน้า คูณด้วย &lt;tex&gt; \frac{3}{5}&lt;/tex&gt; &lt;br /&gt;
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_12575452781.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 6-->
+<thisQuestion>
+<qNum>id1747192945:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+14  &#160;&#160;&#160;
+12  &#160;&#160;&#160;
+26  &#160;&#160;
+38  &#160;&#160;
+64  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 100 </choice_A>
+<choice_B> 101 </choice_B>
+<choice_C> 102</choice_C>
+<choice_D> 103</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+14  &#160;&#160;&#160;
+12  &#160;&#160;&#160;
+26  &#160;&#160;
+38  &#160;&#160;
+64  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขมีขึ้น มีลง&lt;br /&gt;
+ลองเชคแบบสะสม &lt;br /&gt;
+14 + 12 = 26&lt;br /&gt;
+12 + 26 = 38&lt;br /&gt;
+26 + 38 = 64&lt;br /&gt;&lt;br /&gt;
+
+ใช่แบบสะสม&lt;br /&gt;
+คำตอบคือ&lt;br /&gt;
+38 + 64 = 102&lt;br /&gt;&lt;br /&gt;
+
+ตอบ 102&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 7-->
+<thisQuestion>
+<qNum>id1747192946:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+-2  &#160;&#160;&#160;
+4  &#160;&#160;&#160;
+-8  &#160;&#160;
+16  &#160;&#160;
+
+.............&lt;br /&gt;
+</question>
+<choice_A> 32 </choice_A>
+<choice_B> -32 </choice_B>
+<choice_C> 64</choice_C>
+<choice_D> -64 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+-2  &#160;&#160;&#160;
+4  &#160;&#160;&#160;
+-8  &#160;&#160;
+16  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขเพิ่มขึ้นตลอด มีเครื่องหมาย ลบสลับกับเครื่องหมาย บวก&lt;br /&gt;
+ตัวเลข 2, 4, 8, 16&lt;br /&gt;
+ตัวต่อไปคือ 32 เพราะ เอา 2 คูณตลอด&lt;br /&gt;
+เครื่องหมายต่อไป คือ ลบ&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ -32&lt;br /&gt;
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 21-->
+<thisQuestion>
+<qNum>id1747192947:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 27 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+13  &#160;&#160;&#160;
+16  &#160;&#160;&#160;
+29  &#160;&#160;
+45  &#160;&#160;
+74  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 117 </choice_A>
+<choice_B> 118 </choice_B>
+<choice_C> 119</choice_C>
+<choice_D> 120 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+13  &#160;&#160;&#160;
+16  &#160;&#160;&#160;
+29  &#160;&#160;
+45  &#160;&#160;
+74  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขเพิ่มขึ้นตลอด เพิ่มไม่มาก น่าจะมีการบวก&lt;br /&gt;
+ลองเชคแบบสะสม&lt;br /&gt;
+13 + 16 = 29&lt;br /&gt;
+16 + 29 = 45&lt;br /&gt;
+29 + 45 = 74&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ&lt;br /&gt;
+45 + 74 = 119&lt;br /&gt;
+
+ดังภาพ &lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/1316294574_realTest.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 22-->
+<thisQuestion>
+<qNum>id1747192948:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 27 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+79  &#160;&#160;&#160;
+77  &#160;&#160;&#160;
+71  &#160;&#160;
+61  &#160;&#160;
+47  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 27 </choice_A>
+<choice_B> 28 </choice_B>
+<choice_C> 29</choice_C>
+<choice_D> 30 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+79  &#160;&#160;&#160;
+77  &#160;&#160;&#160;
+71  &#160;&#160;
+61  &#160;&#160;
+47  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขลดลงตลอด แต่ลดไม่มาก&lt;br /&gt;
+ลองเชคแบบสะสม ไม่ใช่แบบสะสม&lt;br /&gt;
+ไม่ใช่แบบ อนุกรมซ้อนกัน เพราะมีไม่กี่จำนวน&lt;br /&gt;
+ลองตีแฉก &lt;br /&gt;
+ได้รูปแบบ ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_7977716147.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 23-->
+<thisQuestion>
+<qNum>id1747192949:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+11  &#160;&#160;&#160;
+20  &#160;&#160;&#160;
+38  &#160;&#160;
+74  &#160;&#160;
+146  &#160;&#160;
+
+
+.............&lt;br /&gt;
+</question>
+<choice_A> 280 </choice_A>
+<choice_B> 290 </choice_B>
+<choice_C> 300</choice_C>
+<choice_D> 310 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+11  &#160;&#160;&#160;
+20  &#160;&#160;&#160;
+38  &#160;&#160;
+74  &#160;&#160;
+146  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขเพิ่มขึ้นตลอด เพิ่มทีละน้อย และเพิ่มมากขึ้นเรื่อย ๆ &lt;br /&gt;
+ลองเชคแบบสะสม ไม่ใช่แบบสะสม&lt;br /&gt;
+ไม่ใช่แบบ อนุกรมซ้อนกัน เพราะมีไม่กี่จำนวน&lt;br /&gt;
+ไม่มีตัวเลขคุ้น ๆ พอยกกำลังได้&lt;br /&gt;
+ลองตีแฉก &lt;br /&gt;
+ได้รูปแบบ ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_11203874146.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 24-->
+<thisQuestion>
+<qNum>id1747192950:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+12  &#160;&#160;&#160;
+5  &#160;&#160;&#160;
+10  &#160;&#160;
+7  &#160;&#160;
+8  &#160;&#160;
+9  &#160;&#160;
+6  &#160;&#160;
+11  &#160;&#160;
+4  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 11 </choice_A>
+<choice_B> 12 </choice_B>
+<choice_C> 13</choice_C>
+<choice_D> 14 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+12  &#160;&#160;&#160;
+5  &#160;&#160;&#160;
+10  &#160;&#160;
+7  &#160;&#160;
+8  &#160;&#160;
+9  &#160;&#160;
+6  &#160;&#160;
+11  &#160;&#160;
+4  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขมีหลายชุด มีขึ้น มีลง&lt;br /&gt;
+ลองเชคแบบสะสม ไม่ใช่แบบสะสม&lt;br /&gt;
+น่าจะมีอนุกรมหลายชุดซ้อนกันอยู่&lt;br /&gt;
+เป็นอนุกรม 2 ชุด&lt;br /&gt;
+ชุดแรก ลดลง ครั้งละ 2&lt;br /&gt;
+12, 10, 8, 6, 4&lt;br /&gt;&lt;br /&gt;
+
+อนุกรมอีกชุด&lt;br /&gt;
+เพิ่มครั้งละ 2&lt;br /&gt;
+5, 7, 9. 11&lt;br /&gt;
+คำตอบคือ 13 มาจาก 11 + 2 &lt;br /&gt;
+
+
+
+
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/125107896114_realTest.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 25-->
+<thisQuestion>
+<qNum>id1747192951:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+128  &#160;&#160;&#160;
+&lt;tex&gt; \frac{3}{64}&lt;/tex&gt;  &#160;&#160;&#160;
+&lt;tex&gt; \frac{32}{9}&lt;/tex&gt;  &#160;&#160;
+&lt;tex&gt; \frac{27}{16}&lt;/tex&gt;  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> &lt;tex&gt; \frac{75}{5}&lt;/tex&gt; </choice_A>
+<choice_B> &lt;tex&gt; \frac{8}{81}&lt;/tex&gt; </choice_B>
+<choice_C> &lt;tex&gt; \frac{85}{7}&lt;/tex&gt;</choice_C>
+<choice_D> &lt;tex&gt; \frac{9}{59}&lt;/tex&gt; </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+128  &#160;&#160;&#160;
+&lt;tex&gt; \frac{3}{64}&lt;/tex&gt;  &#160;&#160;&#160;
+&lt;tex&gt; \frac{32}{9}&lt;/tex&gt;  &#160;&#160;
+&lt;tex&gt; \frac{27}{16}&lt;/tex&gt;  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า เป็นเศษส่วน มีเพียงตัวแรกตัวเดียวที่เป็นจำนวนเต็ม&lt;br /&gt;
+เศษส่วน มาก สลับน้อย&lt;br /&gt;
+จำนวนแรก ให้เศษเป็น 1&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt; \frac{128}{1}&lt;/tex&gt; &#160;&#160;&#160;
+&lt;tex&gt; \frac{3}{64}&lt;/tex&gt;  &#160;&#160;&#160;
+&lt;tex&gt; \frac{32}{9}&lt;/tex&gt;  &#160;&#160;
+&lt;tex&gt; \frac{27}{16}&lt;/tex&gt;  &#160;&#160;&lt;br /&gt;&lt;br /&gt;
+
+ดูแบบสลับฟันปลา 2 ชุด&lt;br /&gt;&lt;br /&gt;
+
+ชุดแรก&lt;br /&gt;
+1, 3, 9, 27 &lt;br /&gt;
+ตัวหน้าคูณด้วย 3 เป็นตัวถัดไป&lt;br /&gt;
+ตัวสุดท้าย ซึ่งเป็นส่วน คือ  27 × 3 = 81&lt;br /&gt;&lt;br /&gt;
+
+ชุดที่ 2&lt;br /&gt;
+128, 64, 32, 16&lt;br /&gt;
+จะเห็นว่า ลดลงครึ่งหนึ่ง คือ เอา 2 หารตัวหน้า&lt;br /&gt;
+ตัวสุดท้าย ซึ่งเป็นเศษ คือ 16 ÷ 2 = 8&lt;br /&gt;&lt;br /&gt;
+
+คำตอบ คือ ข้อ 2&lt;br /&gt;
+
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_128332278.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 26-->
+<thisQuestion>
+<qNum>id1747192952:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+4  &#160;&#160;&#160;
+7  &#160;&#160;&#160;
+17  &#160;&#160;
+44  &#160;&#160;
+115  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 350 </choice_A>
+<choice_B> 301 </choice_B>
+<choice_C> 330</choice_C>
+<choice_D> 345 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+4  &#160;&#160;&#160;
+7  &#160;&#160;&#160;
+17  &#160;&#160;
+44  &#160;&#160;
+115  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ ยืนยันว่า ปีนี้ (2568) กพ เอาเรื่อง โอเปอร์เรต มารวมกับ เรื่องอนุกรม &lt;br /&gt;&lt;br /&gt;
+
+ตัวที่สาม เกิดจาก ตัวที่สอง(ตัวหลัง) คูณด้วย 3 แล้วลบด้วยตัวที่หนึ่ง(ตัวหน้า) เช่น&lt;br /&gt;
+
+17 = (7 × 3) - 4 &lt;br /&gt;
+44 =  (17 × 3) - 7 &lt;br /&gt;
+115 = (44 × 3) - 17 &lt;br /&gt;&lt;br /&gt;
+
+ถ้าแปลงเป็นโจทย์ โอเปอร์เรต คือ&lt;br /&gt;&lt;br /&gt;
+
+ถ้า 4 * 7 = 17 และ&lt;br /&gt;
+17 * 44 = 115 แล้ว&lt;br /&gt;
+จงหาค่าของ&lt;br /&gt;
+44 * 115 = ?&lt;br /&gt;&lt;br /&gt;
+สูตรที่ได้คือ&lt;br /&gt;
+(หลัง × 3) - หน้า&lt;br /&gt;
+แทนค่า&lt;br /&gt;
+(115 × 3) - 44 = 301&lt;br /&gt;&lt;br /&gt;
+
+หรือถ้าจะมองแบบ อนุกรม จะเข้าลักษณะ สะสม&lt;br /&gt;
+
+ได้รูปแบบ ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_471744115.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 27-->
+<thisQuestion>
+<qNum>id1747192953:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+25  &#160;&#160;&#160;
+13  &#160;&#160;&#160;
+38  &#160;&#160;
+51  &#160;&#160;
+89  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 120 </choice_A>
+<choice_B> 130 </choice_B>
+<choice_C> 140</choice_C>
+<choice_D> 150 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+25  &#160;&#160;&#160;
+13  &#160;&#160;&#160;
+38  &#160;&#160;
+51  &#160;&#160;
+89  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขมีขึ้น มีลง&lt;br /&gt;
+ลองเชคแบบสะสม &lt;br /&gt;
+25 + 13 = 38&lt;br /&gt;
+13 + 38 = 51&lt;br /&gt;
+38 + 51 = 89&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ &lt;br /&gt;
+51 + 89 = 140&lt;br /&gt;
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_2513385189.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- XX 31-->
+<thisQuestion>
+<qNum>id1747192954:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+3  &#160;&#160;&#160;
+&lt;tex&gt; \frac{3}{2}&lt;/tex&gt;  &#160;&#160;&#160;
+2  &#160;&#160;
+&lt;tex&gt; \frac{3}{4}&lt;/tex&gt;  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 1 </choice_A>
+<choice_B> &lt;tex&gt; \frac{2}{3}&lt;/tex&gt;  &#160;&#160;&#160; </choice_B>
+<choice_C> 3</choice_C>
+<choice_D> &lt;tex&gt; \frac{8}{3}&lt;/tex&gt;  &#160;&#160;&#160; </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+3  &#160;&#160;&#160;
+&lt;tex&gt; \frac{3}{2}&lt;/tex&gt;   &#160;&#160;&#160;
+2  &#160;&#160;
+&lt;tex&gt; \frac{3}{4}&lt;/tex&gt;  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า มีเลขไม่กี่จำนวน มีเศษส่วนด้วย&lt;br /&gt;
+ลองเชคแบบสะสม ตัวที่หนึ่ง กับตัวที่สอง ทำให้เป็นตัวที่สาม&lt;br /&gt;
+มีเลข 3, 3, 2 ได้ 2&lt;br /&gt;
+
+ตัวที่หนึ่ง เป็นตัวตั้ง หารด้วยตัวที่สอง จะได้เป็นตัวที่สาม&lt;br /&gt;
+
+ทบทวนเรื่องการหารเศษส่วน&lt;br /&gt;
+การหารเศษส่วน ให้เปลี่ยนหารเป็นคูณ และกลับเศษเป็นส่วน&lt;br /&gt;
+&lt;tex&gt; 3 ÷ \frac{3}{2} = 3 × \frac{2}{3} = 2&lt;/tex&gt; &lt;br /&gt;
+&lt;tex&gt;  \frac{3}{2} ÷ 2 =   \frac{3}{2} ×  \frac{1}{2}=  \frac{3}{4}&lt;/tex&gt; &lt;br /&gt;
+คำตอบ คือ&lt;br /&gt;
+&lt;tex&gt; 2 ÷ \frac{3}{4} = 2 × \frac{4}{3} = \frac{8}{3}&lt;/tex&gt; &lt;br /&gt;
+
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_3323.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+
+<!-- XX 41-->
+<thisQuestion>
+<qNum>id1747192956:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+32  &#160;&#160;&#160;
+39  &#160;&#160;&#160;
+25  &#160;&#160;
+53  &#160;&#160;
+-3  &#160;&#160;
+109  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 224 </choice_A>
+<choice_B> -224 </choice_B>
+<choice_C> 115</choice_C>
+<choice_D> -115 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+32  &#160;&#160;&#160;
+39  &#160;&#160;&#160;
+25  &#160;&#160;
+53  &#160;&#160;
+-3  &#160;&#160;
+109  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขมีติดลบ มีขึ้น มีลง&lt;br /&gt;
+ลองเชคแบบสะสม ไม่ใช่แบบสะสม&lt;br /&gt;
+ไม่ใช่แบบ อนุกรมซ้อนกัน เพราะเห็นความสัมพันธ์&lt;br /&gt;
+ลองตีแฉก &lt;br /&gt;
+ได้รูปแบบ ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_323925533109.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+
+<!-- XX 42-->
+<thisQuestion>
+<qNum>id1747192957:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ.  เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+1  &#160;&#160;&#160;
+4  &#160;&#160;&#160;
+9  &#160;&#160;
+16  &#160;&#160;
+25  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 33 </choice_A>
+<choice_B> 36 </choice_B>
+<choice_C> 40</choice_C>
+<choice_D> 49 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+1  &#160;&#160;&#160;
+4  &#160;&#160;&#160;
+9  &#160;&#160;
+16  &#160;&#160;
+25  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า 4, 9, 16, 25 ยกกำลัง 2 ได้&lt;br /&gt;
+4 = 2&lt;sup&gt;2&lt;/sup&gt;&lt;br /&gt;
+9 = 3&lt;sup&gt;2&lt;/sup&gt;&lt;br /&gt;
+16 = 4&lt;sup&gt;2&lt;/sup&gt;&lt;br /&gt;
+25 = 5&lt;sup&gt;2&lt;/sup&gt;&lt;br /&gt;
+ได้รูปแบบ ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_1491625.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+
+<!-- XX 43-->
+<thisQuestion>
+<qNum>id1747192958:date1747192940</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+7  &#160;&#160;&#160;
+27  &#160;&#160;&#160;
+34  &#160;&#160;
+61  &#160;&#160;
+95  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 155 </choice_A>
+<choice_B> 156 </choice_B>
+<choice_C> 157</choice_C>
+<choice_D> 158 </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+7  &#160;&#160;&#160;
+27  &#160;&#160;&#160;
+34  &#160;&#160;
+61  &#160;&#160;
+95  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขเพิ่มขึ้นตลอด &lt;br /&gt;
+ลองเชคแบบสะสม ไม่ใช่แบบสะสม&lt;br /&gt;
+มี 5 จำนวน ไม่น่าจะมีอนุกรมหลายชุด&lt;br /&gt;
+ลองตีแฉก &lt;br /&gt;
+ได้ 20, 7, 27, 34&lt;br /&gt;
+สังเกตว่า 20 + 7 = 37&lt;br /&gt;
+7 + 27 = 34&lt;br /&gt;
+แสดงว่า มีการผสมเรื่อง อนุกรมแบบสะสม กับ ตีแฉกเข้าด้วยกัน&lt;br /&gt;
+แสดงว่า ตัวสุดท้าย เกิดจาก &lt;br /&gt;
+27 + 34 = 61&lt;br /&gt;
+เมื่อรวมกับ 95 จึงได้คำตอบ 156&lt;br /&gt;
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/realTest_727346195.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+
+
+
+
+<!-- XX 1-->
+<thisQuestion>
+<qNum>id1746943791:date1746943791</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. 26 เม.ย. 2568&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+625  &#160;&#160;&#160;
+500  &#160;&#160;&#160;
+400  &#160;&#160;
+320  &#160;&#160;
+256  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> &lt;tex&gt;204\frac{1}{5}&lt;/tex&gt; </choice_A>
+<choice_B> &lt;tex&gt;204\frac{2}{5}&lt;/tex&gt; </choice_B>
+<choice_C> &lt;tex&gt;204\frac{3}{5}&lt;/tex&gt; </choice_C>
+<choice_D> &lt;tex&gt;204\frac{4}{5}&lt;/tex&gt; </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+625  &#160;&#160;&#160;
+500  &#160;&#160;&#160;
+400  &#160;&#160;
+320  &#160;&#160;
+256  &#160;&#160;
+.............&lt;br /&gt;&lt;br /&gt;
+
+1) &lt;tex&gt;204\frac{1}{5}&lt;/tex&gt; &lt;br /&gt;
+2) &lt;tex&gt;204\frac{2}{5}&lt;/tex&gt; &lt;br /&gt;
+3) &lt;tex&gt;204\frac{3}{5}&lt;/tex&gt; &lt;br /&gt;
+4) &lt;tex&gt;204\frac{4}{5}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า คำตอบ จำนวนเต็ม 204 เหมือนกัน แต่เศษส่วนต่างกัน&lt;br /&gt;
+ทุกเศษส่วนทุกตัวมีส่วน คือเลข 5&lt;br /&gt;
+แสดงว่าต้องมีการเอา 5 ไปหารทุกตัว&lt;br /&gt;&lt;br /&gt;
+
+625 ÷ 5 = 125&lt;br /&gt;
+ไม่ได้ 500 ซึ่งเป็นตัวถัดไป&lt;br /&gt;
+ถ้าจะให้ได้ 500 ต้องเอา 4 ไปคูณ&lt;br /&gt;
+125 × 4 = 500&lt;br /&gt;&lt;br /&gt;
+
+ลอง เอา 4 ไปคูณ แล้วหารด้วย 5 ตัวต่อ ๆ ไป&lt;br /&gt;
+500 × 4 ÷ 5 = 400&lt;br /&gt;
+400 × 4 ÷ 5 = 320&lt;br /&gt;
+320 × 4 ÷ 5 = 256&lt;br /&gt;&lt;br /&gt;
+
+สรุปว่า คำตอบ คือ&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt; 256 × 4 ÷ 5 =  204\frac{4}{5}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+
+ดังภาพ &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/625500400320256_realTest.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+อีกวิธีหนึ่ง คือ หาอัตราส่วน ระหว่างคู่&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{500}{625} = 0.8 &lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{400}{500} = 0.8 &lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{320}{400} = 0.8 &lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{256}{320} = 0.8 &lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+
+จะเห็นว่า ได้เป็น 0.8 เท่ากัน&lt;br /&gt;
+คำตอบ คือ ตัวสุดท้าย คูณด้วย 0.8 ได้ 204.8&lt;br /&gt;&lt;br /&gt;
+
+แต่คำตอบเป็นเศษส่วน ทำ 0.8 เป็นเศษส่วน &lt;br /&gt;
+&lt;tex&gt;0.8 = \frac{8}{10} = \frac{4}{5}&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น คำตอบคือ&lt;br /&gt;
+&lt;tex&gt; 204\frac{4}{5}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+
+
+<!-- XX 12-->
+<thisQuestion>
+<qNum>id1728733384:date1728733383</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. Paper ส.ค. 2567&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+-10  &#160;&#160;&#160;
+-5  &#160;&#160;&#160;
+3  &#160;&#160;
+13  &#160;&#160;
+26  &#160;&#160;
+41  &#160;&#160;
+.............&lt;br /&gt;
+</question>
+<choice_A> 47 </choice_A>
+<choice_B> 52</choice_B>
+<choice_C> 59 </choice_C>
+<choice_D> 65</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+-10  &#160;&#160;&#160;
+-5  &#160;&#160;&#160;
+3  &#160;&#160;
+13  &#160;&#160;
+26  &#160;&#160;
+41 &#160;&#160;41
+.............&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลขเพิ่มขึ้นตลอด มีไม่มากจำนวน&lt;br /&gt;
+ไม่น่าจะมีหลายชุดซ้อนกัน &lt;br /&gt;
+ลองตรวจแบบสะสม -- ไม่ใช่&lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉก &lt;br /&gt;
+
+ตัวหลัง - ตัวหน้า &lt;br /&gt;
+-5 - (-10) = -5 + 10 = +5 &lt;br /&gt;
+3 - (-5) = 3 + 5 = +8 &lt;br /&gt;
+13 - 3 = +10 &lt;br /&gt;
+... &lt;br /&gt;
+สรุปว่า ได้รูปแบบ คือ +3, +2, +3, +2 &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 59 &lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/real_1053132641.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ปีนี้(2567) ก.พ. เล่นเรื่อง ตัวเลขติดลบ&lt;br /&gt;&lt;br /&gt;
+
+-5 - (-10) = +5&lt;br /&gt;
+กฎทางคณิตศาสตร์ จะได้ว่า &lt;br /&gt;
+เครื่องหมายเหมือนกัน คูณกัน ได้เครื่องหมายบวก&lt;br /&gt;
+เช่น −(−x)=+x &lt;br /&gt;&lt;br /&gt;
+เครื่องหมายต่างกัน คูณกัน ได้เครื่องหมายลบ&lt;br /&gt;
+เช่น −(+x)=-x &lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น - (-10) จึงได้ +10&lt;br /&gt;&lt;br /&gt;
+
+-5 - (-10) = ?&lt;br /&gt;
+-5 + 10 = +5&lt;br /&gt;&lt;br /&gt;
+
+ถ้าดูจากเส้นจำนวน&lt;br /&gt;
+จะเห็นว่า -5 เอาออกเสีย -10&lt;br /&gt;
+การลบด้วยจำนวนลบ คือ การบวก &lt;br /&gt;
+หรือคิดง่าย ๆ ว่า ปฏิเสธซ้อนปฏิเสธ คือ การบวก เช่น&lt;br /&gt;
+ฉันไม่ใช่ไม่ชอบกล้วย = ฉันชอบกล้วย&lt;br /&gt;&lt;br /&gt;
+
+การลบด้วยจำนวนลบ คือ การบวก &lt;br /&gt;
+-5 - (-10) จึงเท่ากับ -5 + 10  &lt;br /&gt;
+การบวกต้องมาทางขวามือ &lt;br /&gt;
+จาก -5 มาทางขวา 10 ตำแหน่ง จึงได้เป็น +5 &lt;br /&gt;
+ดังนั้น -5 - (-10) จึงได้ +5&lt;br /&gt;
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/number_line_minus.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+
+    <!-- XX 12-->
+    <thisQuestion>
+        <qNum>id1728733384:date1728733383</qNum>
+        <question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. Paper ส.ค. 2567&lt;/span&gt;&lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+            -10  &#160;&#160;&#160;
+            -5  &#160;&#160;&#160;
+            3  &#160;&#160;
+            13  &#160;&#160;
+            26  &#160;&#160;
+            41  &#160;&#160;
+            .............&lt;br /&gt;
+        </question>
+        <choice_A> 47 </choice_A>
+        <choice_B> 52</choice_B>
+        <choice_C> 59 </choice_C>
+        <choice_D> 65</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            -10  &#160;&#160;&#160;
+            -5  &#160;&#160;&#160;
+            3  &#160;&#160;
+            13  &#160;&#160;
+            26  &#160;&#160;
+            41 &#160;&#160;41
+            .............&lt;br /&gt;
+
+            วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+            ตัวเลขเพิ่มขึ้นตลอด มีไม่มากจำนวน&lt;br /&gt;
+            ไม่น่าจะมีหลายชุดซ้อนกัน &lt;br /&gt;
+            ลองตรวจแบบสะสม -- ไม่ใช่&lt;br /&gt;&lt;br /&gt;
+
+            ลองตีแฉก &lt;br /&gt;
+
+            ตัวหลัง - ตัวหน้า &lt;br /&gt;
+            -5 - (-10) = -5 + 10 = +5 &lt;br /&gt;
+            3 - (-5) = 3 + 5 = +8 &lt;br /&gt;
+            13 - 3 = +10 &lt;br /&gt;
+            ... &lt;br /&gt;
+            สรุปว่า ได้รูปแบบ คือ +3, +2, +3, +2 &lt;br /&gt;&lt;br /&gt;
+
+            คำตอบคือ 59 &lt;br /&gt;&lt;br /&gt;
+
+            ดังภาพ &lt;br /&gt;
+
+            &lt;img src=&quot;asset:assets/data/images/real_1053132641.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+            ปีนี้(2567) ก.พ. เล่นเรื่อง ตัวเลขติดลบ&lt;br /&gt;&lt;br /&gt;
+
+            -5 - (-10) = +5&lt;br /&gt;
+            กฎทางคณิตศาสตร์ จะได้ว่า &lt;br /&gt;
+            เครื่องหมายเหมือนกัน คูณกัน ได้เครื่องหมายบวก&lt;br /&gt;
+            เช่น −(−x)=+x &lt;br /&gt;&lt;br /&gt;
+            เครื่องหมายต่างกัน คูณกัน ได้เครื่องหมายลบ&lt;br /&gt;
+            เช่น −(+x)=-x &lt;br /&gt;&lt;br /&gt;
+
+            ดังนั้น - (-10) จึงได้ +10&lt;br /&gt;&lt;br /&gt;
+
+            -5 - (-10) = ?&lt;br /&gt;
+            -5 + 10 = +5&lt;br /&gt;&lt;br /&gt;
+
+            ถ้าดูจากเส้นจำนวน&lt;br /&gt;
+            จะเห็นว่า -5 เอาออกเสีย -10&lt;br /&gt;
+            การลบด้วยจำนวนลบ คือ การบวก &lt;br /&gt;
+            หรือคิดง่าย ๆ ว่า ปฏิเสธซ้อนปฏิเสธ คือ การบวก เช่น&lt;br /&gt;
+            ฉันไม่ใช่ไม่ชอบกล้วย = ฉันชอบกล้วย&lt;br /&gt;&lt;br /&gt;
+
+            การลบด้วยจำนวนลบ คือ การบวก &lt;br /&gt;
+            -5 - (-10) จึงเท่ากับ -5 + 10  &lt;br /&gt;
+            การบวกต้องมาทางขวามือ &lt;br /&gt;
+            จาก -5 มาทางขวา 10 ตำแหน่ง จึงได้เป็น +5 &lt;br /&gt;
+            ดังนั้น -5 - (-10) จึงได้ +5&lt;br /&gt;
+            ดังภาพ&lt;br /&gt;
+
+            &lt;img src=&quot;asset:assets/data/images/number_line_minus.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <!-- XX 11 -->
+    <thisQuestion>
+        <qNum>id1728733383:date1728733383</qNum>
+        <question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. Paper ส.ค. 2567&lt;/span&gt;&lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+            18  &#160;&#160;&#160;
+            13  &#160;&#160;&#160;
+            31  &#160;&#160;
+            44  &#160;&#160;
+            75  &#160;&#160;
+            .............&lt;br /&gt;
+        </question>
+        <choice_A> 107 </choice_A>
+        <choice_B> 119</choice_B>
+        <choice_C> 125 </choice_C>
+        <choice_D> 175</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            18  &#160;&#160;&#160;
+            13  &#160;&#160;&#160;
+            31  &#160;&#160;
+            44  &#160;&#160;
+            75  &#160;&#160;
+            .............&lt;br /&gt;
+
+            วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+            ตัวเลขมีเพิ่มขึ้นตลอด มีไม่มากจำนวน&lt;br /&gt;&lt;br /&gt;
+
+            ไม่น่าจะมีหลายชุด&lt;br /&gt;
+            ลองตรวจแบบสะสม&lt;br /&gt;&lt;br /&gt;
+
+            18+13 = 31&lt;br /&gt;
+            13+31 = 44&lt;br /&gt;
+            31+44 = 75&lt;br /&gt;&lt;br /&gt;
+
+            คำตอบคือ 44+75 = 119&lt;br /&gt;&lt;br /&gt;
+
+            ดังภาพ&lt;br /&gt;
+
+
+            &lt;img src=&quot;asset:assets/data/images/real_1813314475.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+        <qNum>id1712817896:date1712817896</qNum>
+        <question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. มี.ค. 2567&lt;/span&gt;&lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+            8 &#160;&#160;&#160;
+            6  &#160;&#160;&#160;
+            &lt;tex&gt;\frac{9}{2}&lt;/tex&gt; &#160;&#160;
+            &lt;tex&gt;\frac{27}{8}&lt;/tex&gt; &#160;&#160;
+            .............&lt;br /&gt;
+        </question>
+        <choice_A>32</choice_A>
+        <choice_B>49</choice_B>
+        <choice_C>&lt;tex&gt;\frac{81}{32}&lt;/tex&gt; </choice_C>
+        <choice_D>&lt;tex&gt;\frac{81}{16}&lt;/tex&gt; </choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            8 &#160;&#160;&#160;
+            6  &#160;&#160;&#160;
+            &lt;tex&gt;\frac{9}{2}&lt;/tex&gt; &#160;&#160;
+            &lt;tex&gt;\frac{27}{8}&lt;/tex&gt; &#160;&#160;
+            .............&lt;br /&gt;&lt;br /&gt;
+
+            วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+
+            ปีนี้ รู้สึกว่า ก.พ. จะใช้ เศษส่วน เข้ามาเกี่ยวข้องด้วย เยอะเหมือนกัน สอบคราวหน้า ลองดูรูปแบบนี้ อาจจะมีในข้อสอบ &lt;br /&gt;&lt;br /&gt;
+
+
+            ข้อสังเกตคือ มีตัวเลข 9, 27 และ 2, 8 ซึ่งหารกันได้ลงตัว&lt;br /&gt;&lt;br /&gt;
+
+            สันนิษฐานดูว่า&lt;br /&gt;
+            เศษตัวหน้า × 3 = เศษตัวหลัง&lt;br /&gt;
+            ส่วนตัวหน้า × 4 = ส่วนตัวหลัง&lt;br /&gt;&lt;br /&gt;
+
+            &lt;tex&gt;\frac{9}{2}  × \frac{3}{4} = \frac{27}{8} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+            ลองเอา    &lt;tex&gt;\frac{3}{4} &lt;/tex&gt; คูณเศษส่วนตัวหน้าดูว่า จะได้เป็นเศษส่วนตัวหลังเหมือนกันหมดหรือไม่ &lt;br /&gt;&lt;br /&gt;
+
+            &lt;tex&gt;8 × \frac{3}{4} = \frac{24}{4} = 6 &lt;/tex&gt; &lt;br /&gt;
+            &lt;tex&gt;6  × \frac{3}{4} = \frac{18}{4} =\frac{9}{2} &lt;/tex&gt; &lt;br /&gt;
+            &lt;tex&gt;\frac{9}{2}  × \frac{3}{4} = \frac{27}{8} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น สรุปได้ว่า ตัวหน้า คูณด้วย &lt;tex&gt;\frac{3}{4} &lt;/tex&gt; จะได้เป็นตัวถัดไป &lt;br /&gt;&lt;br /&gt;
+
+            คำตอบคือ &lt;tex&gt;\frac{27}{8}  × \frac{3}{4} = \frac{81}{32}   &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+            ดังภาพ&lt;br /&gt;
+
+            &lt;img src=&quot;asset:assets/data/images/real_86927.png&quot;&gt;&lt;br /&gt;
+
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+        <qNum>id1712817896:date1712817896</qNum>
+        <question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. มี.ค. 2567&lt;/span&gt;&lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+            256 &#160;&#160;&#160;
+            16  &#160;&#160;&#160;
+            169  &#160;&#160;&#160;
+            13 &#160;&#160;&#160;
+            100 &#160;&#160;&#160;
+            10  &#160;&#160;&#160;
+            .............&lt;br /&gt;
+        </question>
+        <choice_A>35</choice_A>
+        <choice_B>49</choice_B>
+        <choice_C>90</choice_C>
+        <choice_D>110</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            256 &#160;&#160;&#160;
+            16  &#160;&#160;&#160;
+            169  &#160;&#160;&#160;
+            13 &#160;&#160;&#160;
+            100 &#160;&#160;&#160;
+            10  &#160;&#160;&#160;
+            .............&lt;br /&gt;&lt;br /&gt;
+
+            วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสังเกตคือ มีตัวเลข 256, 100&lt;br /&gt;
+            ตัวเลข 2 ตัวนี้ มาจากเลขยกกำลัง &lt;br /&gt;
+            256 = 16&lt;sup&gt;2&lt;/sup&gt;  &lt;br /&gt;
+            100 =  10&lt;sup&gt;2&lt;/sup&gt;  &lt;br /&gt;
+            ลองเอา 13 ยกกำลังสอง ได้ 169 พอดี  &lt;br /&gt;
+            13×13 = 169  &lt;br /&gt;&lt;br /&gt;
+
+            ดังนั้น จะเห็นว่า มีข้อมูล 2 ชุด &lt;br /&gt;&lt;br /&gt;
+
+            คำตอบคือ 49&lt;br /&gt;&lt;br /&gt;
+
+            ดังภาพ&lt;br /&gt;
+
+            &lt;img src=&quot;asset:assets/data/images/real_256161691310010.png&quot;&gt;&lt;br /&gt;&lt;br&gt;
+
+            ตัวเลขยกกำลังสอง ที่มักจะพบอยู่บ่อย ๆ ในข้อสอบ &lt;br&gt; &lt;br&gt;
+
+            0 = เลขศูนย์ที่มีการยกกำลัง จะได้ 0 เสมอ เช่น 0&lt;sup&gt;2&lt;/sup&gt; = 0, 0&lt;sup&gt;5&lt;/sup&gt; = 0&lt;br&gt;
+            (ยกเว้น ศูนย์ยกกำลังศูนย์ ไม่มี) &lt;br&gt;
+            1 =  1&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            (เลข 1 ที่มีการยกกำลังจะได้ 1 เสมอ &lt;br&gt;(ยกเว้น ยกกำลังด้วยศูนย์ จะได้ ศูนย์)&lt;br&gt;
+            1 = ตัวเลขที่ยกกำลังด้วย ศูนย์ จะได้ค่าเป็น 1 เช่น 5&lt;sup&gt;0&lt;/sup&gt; = 1 &lt;br&gt;
+            4   = 2&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            9   = 3&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            16  = 4&lt;sup&gt;2&lt;/sup&gt; หรือ 2&lt;sup&gt;4&lt;/sup&gt; &lt;br&gt;
+            25  = 5&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            36  = 6&lt;sup&gt;2&lt;/sup&gt; &lt;br&gt;
+            49  = 7&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            64  = 8&lt;sup&gt;2&lt;/sup&gt; หรือ 4&lt;sup&gt;3&lt;/sup&gt;หรือ 2&lt;sup&gt;6&lt;/sup&gt;&lt;br&gt;
+            81  = 9&lt;sup&gt;2&lt;/sup&gt; หรือ 3&lt;sup&gt;4&lt;/sup&gt;&lt;br&gt;
+            100  = 10&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            121  = 11&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            144  = 12&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            169  = 13&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            196  = 14&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            225  = 15&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;
+            256  = 16&lt;sup&gt;2&lt;/sup&gt; หรือ 4&lt;sup&gt;4&lt;/sup&gt;หรือ 2&lt;sup&gt;8&lt;/sup&gt;&lt;br&gt;
+            625  = 25&lt;sup&gt;2&lt;/sup&gt; หรือ 5&lt;sup&gt;4&lt;/sup&gt;&lt;br&gt;
+            1024  = 32&lt;sup&gt;2&lt;/sup&gt;หรือ 4&lt;sup&gt;5&lt;/sup&gt;หรือ 2&lt;sup&gt;10&lt;/sup&gt;&lt;br&gt;
+            4096  = 64&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;&lt;br&gt;
+
+เลขยกกำลังอื่น ๆ&lt;br&gt;&lt;br&gt;
+
+            2&lt;sup&gt;2&lt;/sup&gt; = 4&lt;br /&gt;
+            2&lt;sup&gt;3&lt;/sup&gt; = 8&lt;br /&gt;
+            2&lt;sup&gt;4&lt;/sup&gt; = 16&lt;br /&gt;
+            2&lt;sup&gt;5&lt;/sup&gt; = 32&lt;br /&gt;
+            2&lt;sup&gt;6&lt;/sup&gt; = 64&lt;br /&gt;&lt;br /&gt;
+
+            3&lt;sup&gt;2&lt;/sup&gt; = 9&lt;br /&gt;
+            3&lt;sup&gt;3&lt;/sup&gt; = 27&lt;br /&gt;
+            3&lt;sup&gt;4&lt;/sup&gt; = 81&lt;br /&gt;
+            3&lt;sup&gt;5&lt;/sup&gt; = 243&lt;br /&gt;
+            3&lt;sup&gt;6&lt;/sup&gt; = 729&lt;br /&gt;&lt;br /&gt;
+
+            4&lt;sup&gt;2&lt;/sup&gt; = 16&lt;br /&gt;
+            4&lt;sup&gt;3&lt;/sup&gt; = 64&lt;br /&gt;
+            4&lt;sup&gt;4&lt;/sup&gt; = 256&lt;br /&gt;
+            4&lt;sup&gt;5&lt;/sup&gt; = 1024&lt;br /&gt;&lt;br /&gt;
+
+            5&lt;sup&gt;2&lt;/sup&gt; = 25&lt;br /&gt;
+            5&lt;sup&gt;3&lt;/sup&gt; = 125&lt;br /&gt;
+            5&lt;sup&gt;4&lt;/sup&gt; = 625&lt;br /&gt;&lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+        <qNum>id1712817895:date1712817895</qNum>
+        <question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. มี.ค. 2567&lt;/span&gt;&lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+            &lt;tex&gt;\frac{2}{3}&lt;/tex&gt; &#160;&#160;   &lt;tex&gt;\frac{1}{2}&lt;/tex&gt;  &#160;&#160;     &lt;tex&gt;\frac{1}{6}&lt;/tex&gt;   &#160;&#160;   &lt;tex&gt;\frac{1}{12}&lt;/tex&gt;   &#160;&#160;   .............&lt;br /&gt;
+        </question>
+        <choice_A>&lt;tex&gt;\frac{2}{6}&lt;/tex&gt;</choice_A>
+        <choice_B>&lt;tex&gt;\frac{1}{2}&lt;/tex&gt;</choice_B>
+        <choice_C>&lt;tex&gt;\frac{2}{12}&lt;/tex&gt;</choice_C>
+        <choice_D>&lt;tex&gt;\frac{1}{24}&lt;/tex&gt;</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            &lt;tex&gt;\frac{2}{3}&lt;/tex&gt; &#160;&#160;   &lt;tex&gt;\frac{1}{3}&lt;/tex&gt;  &#160;&#160;     &lt;tex&gt;\frac{1}{6}&lt;/tex&gt;   &#160;&#160;   &lt;tex&gt;\frac{1}{12}&lt;/tex&gt;   &#160;&#160;   .............&lt;br /&gt;
+            &lt;br /&gt;&lt;br /&gt;
+
+            วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+            ลองดูแบบ เศษหน้า+ส่วนหน้า=เศษหลัง&lt;br /&gt;
+            ไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+            เศษหน้า-ส่วนหน้า=เศษหลัง ก็ไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+            สังเกต 3 ชุดนี้&lt;br /&gt;
+
+            &lt;tex&gt;\frac{1}{3}&lt;/tex&gt;  &#160;&#160;     &lt;tex&gt;\frac{1}{6}&lt;/tex&gt;   &#160;&#160;   &lt;tex&gt;\frac{1}{12}&lt;/tex&gt;   &#160;&#160; &lt;br /&gt;&lt;br /&gt;
+
+            จะเห็นว่า ค่าลดลงครึ่งหนึ่งตลอด&lt;br /&gt;&lt;br /&gt;
+
+            ครี่งหนึ่งของ  &lt;tex&gt;\frac{1}{3}&lt;/tex&gt; คือ  &lt;tex&gt;\frac{1}{6}&lt;/tex&gt;&lt;br /&gt;
+            และ  &lt;br /&gt;
+            ครี่งหนึ่งของ  &lt;tex&gt;\frac{1}{6}&lt;/tex&gt; คือ  &lt;tex&gt;\frac{1}{12}&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+
+            ลองพิสูจน์ดู &lt;br /&gt;
+            ครี่งหนึ่งของ &lt;tex&gt;\frac{1}{3}&lt;/tex&gt; คือ  &lt;tex&gt;\frac{1}{6}&lt;/tex&gt;&lt;br /&gt;
+            ครึ่งหนึ่ง คือ เอา 2 ไปหาร&lt;br /&gt;
+            &lt;tex&gt;\frac{1}{3} ÷ 2&lt;/tex&gt; &lt;br /&gt;
+            การหารเศษส่วน ให้ กลับเศษเป็นส่วน เปลี่ยนเครื่องหมายหาร เป็น คูณ&lt;br /&gt;
+            &lt;tex&gt;\frac{1}{3} × \frac{1}{2} = \frac{1}{6}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+            สรุปได้สูตรว่า &lt;br /&gt;&lt;br /&gt;
+
+            ตัวหน้า  ×  &lt;tex&gt;\frac{1}{2}&lt;/tex&gt; =  ตัวถัดไป&lt;br /&gt;&lt;br /&gt;
+
+            คำตอบคือ &lt;tex&gt;\frac{1}{12} × \frac{1}{2} = \frac{1}{24}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+            ดังภาพ  &lt;br /&gt;
+            &lt;img src=&quot;asset:assets/data/images/real_2111.png&quot;&gt;&lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+<!--  https://www.youtube.com/watch?v=vqClRvOCBws
+กพ พิเศษ 21 พ.ค. 2566   -->
+
+
+  <thisQuestion>
+<qNum>id1684926694:date1684926694</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. พิเศษ 21 พ.ค. 2566&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+3 &#160;&#160;&#160;  30  &#160;&#160;&#160;    129  &#160;&#160;&#160;  323 &#160;&#160;&#160;  635 &#160;&#160;&#160;  1088  &#160;&#160;&#160; .............&lt;br /&gt;
+	</question>
+    <choice_A>1705</choice_A>
+    <choice_B>1790</choice_B>
+    <choice_C>1865</choice_C>
+    <choice_D>1900</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+3 &#160;&#160;&#160;  30  &#160;&#160;&#160;    129  &#160;&#160;&#160;  323 &#160;&#160;&#160;  635 &#160;&#160;&#160;  1088  &#160;&#160;&#160; .............&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกตคือ ตัวเลขเพิ่มขึ้นตลอด&lt;br /&gt;
+น่าจะเป็นการบวก หรือ คูณ เพราะเพิ่มขึ้นมากตอนท้าย ๆ&lt;br /&gt;&lt;br /&gt;
+
+ลองดูแบบสะสม ไม่น่าจะใช่&lt;br /&gt;&lt;br /&gt;
+
+        ลองดูแบบคูณ&lt;br /&gt;
+        จาก 3 ไป 30 คูณด้วย 3&lt;br /&gt;
+        จาก 30 ไป 129 หาตัวคูณที่ลงตัวไม่ได้&lt;br /&gt;
+        ลองเอา 129÷30 = 4.3 หารไม่ลงตัว&lt;br /&gt;&lt;br /&gt;
+
+สุดท้าย ลองตีแฉก(หลัง-หน้า)ดู ได้ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/3301293236351088.png&quot;&gt;&lt;br /&gt;
+        &lt;small&gt;ขอบคุณ น้อง Nanthanat Rueanchai ที่ช่วยตรวจสอบข้อนี้ &lt;/small&gt; &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+<!--  ################################  -->
+
+
+
+  <thisQuestion>
+<qNum>id1684926695:date1684926695</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง ก.พ. พิเศษ 21 พ.ค. 2566&lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+12 &#160;&#160;&#160;  9  &#160;&#160;&#160;    12  &#160;&#160;&#160;  21 &#160;&#160;&#160;  36 &#160;&#160;&#160; .............&lt;br /&gt;
+	</question>
+    <choice_A>45</choice_A>
+    <choice_B>57</choice_B>
+    <choice_C>63</choice_C>
+    <choice_D>71</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+12 &#160;&#160;&#160;  9  &#160;&#160;&#160;    12  &#160;&#160;&#160;  21 &#160;&#160;&#160;  36 &#160;&#160;&#160; .............
+&lt;br /&gt;&lt;br /&gt;
+
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกตคือ ตัวเลขลดลงแล้วเพิ่มขึ้น เพิ่มไม่มาก&lt;br /&gt;
+น่าจะเป็นการบวก&lt;br /&gt;&lt;br /&gt;
+
+ลองดูแบบสะสม ไม่น่าจะใช่&lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉก(หลัง-หน้า)ดู ได้ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/129122136.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+       ทำไม +3 - (-3) จึงได้ +6 &lt;br /&gt;&lt;br /&gt;
+
+        เพราะเครื่องหมายลบ คูณกัน ได้เป็นเครื่องหมาย บวก หรือพูดอีกอย่างว่า&lt;br /&gt;&lt;br /&gt;
+
+        "การลบ ด้วยจำนวนลบ คือ การบวก"&lt;br /&gt;&lt;br /&gt;
+
+        ดังนั้น&lt;br /&gt;
+        +3 - (-3) จึงได้ +6&lt;br /&gt;
+        (เรื่องการลบด้วยจำนวนลบ ในข้อสอบ ก.พ. ออกบ่อยมาก)&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+  <thisQuestion>
+<qNum>id1682483184:date1682483184</qNum>
+<question>ข้อสอบเสมือนจริง ก.พ. e-Exam 2 เม.ย. 2566 (บ่าย)&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+
+
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+8 &#160;&#160;&#160;  13  &#160;&#160;&#160;    19  &#160;&#160;&#160;  40 &#160;&#160;&#160;  72 &#160;&#160;&#160;  131 &#160;&#160;&#160;  243 &#160;&#160;&#160;.............&lt;br /&gt;
+	</question>
+    <choice_A>395</choice_A>
+    <choice_B>408</choice_B>
+    <choice_C>446</choice_C>
+    <choice_D>555</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+8 &#160;&#160;&#160;  13  &#160;&#160;&#160;    19  &#160;&#160;&#160;  40 &#160;&#160;&#160;  72 &#160;&#160;&#160;  131 &#160;&#160;&#160;  243 &#160;&#160;&#160;.............&lt;br /&gt;
+
+&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกตคือ ตัวเลขค่อนข้างมาก และเพิ่มขึ้นเรื่อย ๆ โดยช่วงแรกเพิ่มไม่ค่อยมาก แต่ภายหลังเพิ่มค่อนข้างมาก&lt;br /&gt;&lt;br /&gt;
+
+        ลองดูแบบสะสมก่อน&lt;br /&gt;
+น่าจะเป็นแบบสะสม 2 หรือ 3 ตัว&lt;br /&gt;&lt;br /&gt;
+
+สรุปคือ เป็นแบบสะสม 3 ตัว ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/813194072131243.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+<!--
+https://www.youtube.com/watch?v=jW9tBo-v4W8&list=PLdx9CUP6CVz3hviikwCu6KQUfoCDGQAc0
+-->
+
+<!-- 1681282709    -->
+  <thisQuestion>
+<qNum>id1681282709_katex:date1681282709</qNum>
+<question>ข้อสอบเสมือนจริง ก.พ. e-Exam  เม.ย. 66 (จำจากห้องสอบ)
+
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{1}{2}&lt;/tex&gt; &#160;&#160;   &lt;tex&gt;\frac{1}{12}&lt;/tex&gt;  &#160;&#160;     &lt;tex&gt;\frac{1}{30}&lt;/tex&gt;   &#160;&#160;   &lt;tex&gt;\frac{1}{40}&lt;/tex&gt;   &#160;&#160;   &lt;tex&gt;\frac{1}{30}&lt;/tex&gt;    &#160;&#160;   &lt;tex&gt;\frac{1}{12}&lt;/tex&gt;  &#160;&#160;   .........
+
+
+	</question>
+    <choice_A>&lt;tex&gt;\dfrac{1}{40}&lt;/tex&gt;</choice_A>
+    <choice_B> &lt;tex&gt;\dfrac{1}{30}&lt;/tex&gt;</choice_B>
+    <choice_C>&lt;tex&gt;\dfrac{1}{12}&lt;/tex&gt;</choice_C>
+    <choice_D>&lt;tex&gt;\dfrac{1}{2}&lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+&lt;tex&gt;\dfrac{1}{2}&lt;/tex&gt; &#160;&#160;&#160;  &lt;tex&gt;\dfrac{1}{12}&lt;/tex&gt;  &#160;&#160;&#160;    &lt;tex&gt;\dfrac{1}{30}&lt;/tex&gt;   &#160;&#160;&#160;  &lt;tex&gt;\dfrac{1}{40}&lt;/tex&gt;   &#160;&#160;&#160;  &lt;tex&gt;\dfrac{1}{30}&lt;/tex&gt;    &#160;&#160;&#160;  &lt;tex&gt;\dfrac{1}{12}&lt;/tex&gt;  &#160;&#160;  ......
+&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+
+มีเศษส่วน &lt;br /&gt;
+ทุกตัวมีเศษเป็นเลข 1  &lt;br /&gt;
+ส่วน เป็นตัวเลข เพิ่มขึ้นแล้วลดลง แบบสมมาตร คือ  เท่ากันทั้งสองข้าง&lt;br /&gt;&lt;br /&gt;
+ 2 - 12 - 30 - 40 - 30 - 12 ..(2)..&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{1}{2}&lt;/tex&gt; &gt; &lt;tex&gt;\frac{1}{12}&lt;/tex&gt; &gt; &lt;tex&gt;\frac{1}{30}&lt;/tex&gt; &gt; &lt;tex&gt;\frac{1}{40}&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{1}{40}&lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{30}&lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{12}&lt;/tex&gt;  &lt; &lt;tex&gt;\frac{??}{??}&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+ดังนั้น เศษตัวต่อไปคือ 1 และเศษตัวต่อไปคือ 2 เพราะจะได้สมมาตรกันพอดี &lt;br /&gt;&lt;br /&gt;
+คำตอบคือ &lt;tex&gt;\dfrac{1}{2}&lt;/tex&gt; &lt;br /&gt;
+        &lt;img src=&quot;asset:assets/data/images/real_212304030122.png&quot;&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+<!--  ================================  -->
+
+  <thisQuestion>
+<qNum>id1681282707:date1681282707</qNum>
+<question>ข้อสอบเสมือนจริง ก.พ. e-Exam 1 เม.ย. 2566&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+
+
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+54 &#160;&#160;&#160;  25  &#160;&#160;&#160;    65  &#160;&#160;&#160;  15 &#160;&#160;&#160;  76 &#160;&#160;&#160;.............&lt;br /&gt;
+	</question>
+    <choice_A>5</choice_A>
+    <choice_B>10</choice_B>
+    <choice_C>15</choice_C>
+    <choice_D>20</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+54 &#160;&#160;&#160;  25  &#160;&#160;&#160;    65  &#160;&#160;&#160;  15 &#160;&#160;&#160;  76 &#160;&#160;&#160;.............&lt;br /&gt;
+
+&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;
+จะเห็นว่า ตัวเลขมีเพิ่มขึ้น ลดลง ไม่มากนัก ตัวเลขมี 5 จำนวน&lt;br /&gt;&lt;br /&gt;
+แบบสะสม ไม่น่าจะใช่&lt;br /&gt;
+ลองตีแฉก(หลัง - หน้า) ดู ไม่เห็นรูปแบบเลย&lt;br /&gt;
+ยกกำลัง ก็ไม่น่าจะใช่&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลขมีเพิ่มขึ้น ลดลง ลองดูซิว่ามีซ้อนกัน 2 ชุดหรือไม่ &lt;br /&gt;&lt;br /&gt;
+มีซ้อนกัน 2 ชุด จริง ๆ คำตอบคือ 5 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/5425651576.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+  <thisQuestion>
+<qNum>id1681282705:date1681282705</qNum>
+<question>ข้อสอบเสมือนจริง ก.พ. e-Exam 1 เม.ย. 2566&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+
+
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+18 &#160;&#160;&#160;  16  &#160;&#160;&#160;    20  &#160;&#160;&#160;  120 &#160;&#160;&#160;  118 
+&#160;&#160;&#160;  122
+&#160;&#160;&#160;  732
+&#160;&#160;&#160;.............&lt;br /&gt;
+	</question>
+    <choice_A>730</choice_A>
+    <choice_B> 700</choice_B>
+    <choice_C>125</choice_C>
+    <choice_D>25</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+        18 &#160;&#160;&#160;  16  &#160;&#160;&#160;    20  &#160;&#160;&#160;  120 &#160;&#160;&#160;  118
+        &#160;&#160;&#160;  122
+        &#160;&#160;&#160;  732
+        &#160;&#160;&#160;.............
+&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;
+จะเห็นว่า ตัวเลขมีเพิ่มมีลด มีช่วงห่างกันชัดเจน ระหว่าง 20 กับ 120 และ 122 กับ 732&lt;br /&gt;&lt;br /&gt;
+
+ดูแล้ว เป็นแบบจัดกลุ่ม รูปแบบซ้ำกัน คือ -2, +4 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/181620120118122732.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+  <thisQuestion>
+<qNum>id1682483183:date1682483183</qNum>
+<question>ข้อสอบเสมือนจริง ก.พ. e-Exam 2 เม.ย. 2566 (บ่าย)&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+
+
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+9 &#160;&#160;&#160;  99  &#160;&#160;&#160;    11  &#160;&#160;&#160;  143 &#160;&#160;&#160;  13 &#160;&#160;&#160;  195 &#160;&#160;&#160;  15 &#160;&#160;&#160;.............&lt;br /&gt;
+	</question>
+    <choice_A>17</choice_A>
+    <choice_B>25</choice_B>
+    <choice_C>175</choice_C>
+    <choice_D>255</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+9 &#160;&#160;&#160;  99  &#160;&#160;&#160;    11  &#160;&#160;&#160;  143 &#160;&#160;&#160;  13 &#160;&#160;&#160;  195 &#160;&#160;&#160;  15 &#160;&#160;&#160;.............&lt;br /&gt;
+
+&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;&lt;br /&gt;
+เป็นรูปแบบใหม่ที่เพิ่งพบเห็นในปี 2566 &lt;br /&gt;
+เป็นอนุกรม 2 อนุกรมซ้อนกัน โดยที่ทั้งสองอนุกรม มีความสัมพันธ์กัน &lt;br /&gt;&lt;br /&gt;
+
+        อนุกรมชุดที่ 1 คือ 9, 11, 13, 15&lt;br /&gt;
+        จะเห็นว่า เพิ่มชึ้นครั้งละ 2&lt;br /&gt;&lt;br /&gt;
+
+        อนุกรมชุดที่ 2 คือ 99, 143, 195&lt;br /&gt;
+        อนุกรมชุดที่ 2 เกิดจาก ตัวก่อนหน้าและตัวหลัง คูณกัน&lt;br /&gt;
+        นั่นคือ&lt;br /&gt;
+        ตัวที่ 1 × ตัวที่ 3 = ตัวที่ 2  &lt;br /&gt;&lt;br /&gt;
+
+        ดังนั้น ต้องหาตัวที่อยู่หลังตัวที่ต้องการคำตอบก่อน จากนั้นจึงเอามาคูณกับตัวก่อนหน้า จึงจะได้คำตอบ&lt;br /&gt;&lt;br /&gt;
+
+        คำตอบ คือ 15×17 = 255&lt;br /&gt;
+        ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/999111431319515.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+  <thisQuestion>
+<qNum>id1681282704_katex:date1681282704</qNum>
+<question>ข้อสอบเสมือนจริง ก.พ. e-Exam 1 เม.ย. 2566&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+9 &#160;&#160;&#160;  13  &#160;&#160;&#160;    18  &#160;&#160;&#160;  26 &#160;&#160;&#160;  39 &#160;&#160;&#160;.............&lt;br /&gt;
+	</question>
+    <choice_A>35</choice_A>
+    <choice_B> 48</choice_B>
+    <choice_C>59</choice_C>
+    <choice_D>63</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+9 &#160;&#160;&#160;  13  &#160;&#160;&#160;    18  &#160;&#160;&#160;  26 &#160;&#160;&#160;  39 &#160;&#160;&#160;.............
+
+&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;
+จะเห็นว่า ตัวเลขเพิ่มขึ้นเรื่อย ๆ เพิ่มครั้งละไม่มาก น่าจะมีการบวกหรือคูณ ไม่น่าจะมีการยกกำลัง&lt;br /&gt;
+ไม่น่าจะมีซ้อนกัน 2 ชุดเพราะไม่ยาวมาก&lt;br /&gt;
+เป็นแบบสะสมหรือเปล่า&lt;br /&gt;
+9 + 13 = 22 ไม่ใช่ 18&lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า) ดู&lt;br /&gt;
+ได้คำตอบ 59 ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/913182639.png&quot;&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+<!-- 
+https://www.youtube.com/watch?v=mFL3qbJzsCY&list=PLdx9CUP6CVz3hviikwCu6KQUfoCDGQAc0&index=1 
+-->
+
+<!-- 1681113727    -->
+
+  <thisQuestion>
+<qNum>id1681113728_katex:date1681113728</qNum>
+<question>ข้อสอบเสมือนจริง e-Exam กพ มี.ค. 66 (จำจากห้องสอบ)&lt;br /&gt;&lt;br /&gt;
+
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด&lt;br /&gt;
+&lt;tex&gt;\frac{12}{4}&lt;/tex&gt; &#160;&#160;&#160;  &lt;tex&gt;\frac{15}{8}&lt;/tex&gt;  &#160;&#160;&#160;    &lt;tex&gt;\frac{21}{7}&lt;/tex&gt;  &#160;&#160;&#160;  &lt;tex&gt;\frac{30}{14}&lt;/tex&gt; &#160;&#160;&#160;  &lt;tex&gt;\frac{42}{16}&lt;/tex&gt; &#160;&#160;&#160;.............
+    &lt;br /&gt;
+
+	</question>
+    <choice_A>&lt;tex&gt;\dfrac{35}{24}&lt;/tex&gt;</choice_A>
+    <choice_B> &lt;tex&gt;\dfrac{57}{23}&lt;/tex&gt;</choice_B>
+    <choice_C>&lt;tex&gt;\dfrac{57}{26}&lt;/tex&gt;</choice_C>
+    <choice_D>&lt;tex&gt;\dfrac{69}{53}&lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+&lt;tex&gt;\frac{12}{4}&lt;/tex&gt; &#160;&#160;&#160;  &lt;tex&gt;\frac{15}{8}&lt;/tex&gt;  &#160;&#160;&#160;    &lt;tex&gt;\frac{21}{7}&lt;/tex&gt;  &#160;&#160;&#160;  &lt;tex&gt;\frac{30}{14}&lt;/tex&gt; &#160;&#160;&#160;  &lt;tex&gt;\frac{42}{16}&lt;/tex&gt; &#160;&#160;&#160;.............
+
+&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;
+เป็นเศษส่วน ทุกจำนวน&lt;br /&gt;
+แนวคิดคือ&lt;br /&gt; 
+&lt;ol&gt;
+&lt;li&gt;
+ลองดูว่า เศษทั้งหมดเป็นอนุกรมชุดหนึ่ง และส่วนทั้งหมดเป็นอนุกรมอีกชุดหนึ่ง&lt;/li&gt;
+&lt;li&gt;
+ดูความสัมพันธ์ของเศษกับส่วนตัวหน้า กับเศษหรือส่วนตัวถัดไป&lt;/li&gt;
+&lt;li&gt;
+อื่น ๆ เช่น เศษตัวหน้ากับส่วนตัวที่สอง เป็นต้น&lt;/li&gt;
+&lt;/ol&gt;
+
+สำหรับข้อนี้ &lt;br /&gt;
+ลองดูแบบอนุกรม&lt;br /&gt;
+12, 15, 21, 30, 42&lt;br /&gt;&lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า)ดู&lt;br /&gt;&lt;br /&gt;
+15-12=3&lt;br /&gt;
+21-15=6&lt;br /&gt;
+30-21=9&lt;br /&gt;
+42-30=12&lt;br /&gt;&lt;br /&gt;
+จะว่าเพิ่มครั้งละ 3&lt;br /&gt;&lt;br /&gt;
+เศษตัวต่อไปคือ (12 + 3) + 42 = 57&lt;br /&gt;&lt;br /&gt;
+
+ดูตัวส่วน มีเพิ่ม มีลด&lt;br /&gt;&lt;br /&gt;
+ดูว่าเป็นแบบสะสมหรือไม่&lt;br /&gt;
+4+8 ไม่เท่ากับ 7&lt;br /&gt;
+ไม่น่าจะใช่แบบสะสม&lt;br /&gt;&lt;br /&gt;
+
+ดูเศษกับส่วนตัวหน้า กับเศษหรือส่วนตัวหลัง&lt;br /&gt;
+12-4=8&lt;br /&gt;
+15-8=7&lt;br /&gt;
+21-7=14&lt;br /&gt;
+30-14=16&lt;br /&gt;
+ดังนั้น ส่วนตัวที่ต้องการคือ&lt;br /&gt;&lt;br /&gt;
+42-16=26&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ &lt;tex&gt;\frac{57}{26}&lt;/tex&gt;  ดังภาพ&lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/1215213042.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+  
+  <thisQuestion>
+    <qNum>id1681113727:date1681113727</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. e-Exam มี.ค. 2566&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+5   &#160;&#160;&#160;  17  &#160;&#160;&#160;  41  &#160;&#160;&#160;  77   &#160;&#160;&#160;   125   &#160;&#160;&#160;   185   &#160;&#160;&#160;    ......&lt;br /&gt;
+	</question>
+    <choice_A>157</choice_A>
+    <choice_B>241</choice_B>
+    <choice_C>249</choice_C>
+    <choice_D>257</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	&lt;br /&gt;
+
+5   &#160;&#160;&#160;  17  &#160;&#160;&#160;  41  &#160;&#160;&#160;  77   &#160;&#160;&#160;   125   &#160;&#160;&#160;   185   &#160;&#160;&#160;    ......&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;
+มีหลายจำนวน ตัวเลขมีเพิ่มตลอด ลักษณะนี้น่าจะมีการบวกกัน อาจจะมีการยกกำลัง หรือการคูณด้วยก็ได้ เพราะเลขเพิ่มห่างกันพอประมาณ &lt;br /&gt; &lt;br /&gt;
+
+ลองเชคแบบสะสม&lt;br /&gt;
+5 + 17 = 22 ไม่เท่ากับ 41&lt;br /&gt;
+แบบสะสมไม่น่าจะใช่ เพราะ 22 กับ 41 ห่างกันมาก&lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉก(หลัง-หน้า)ดู&lt;br /&gt;
+17-5 = 12, 41-17 = 24, 77-41 = 36&lt;br /&gt;
+เลข 12, 24, 36 คือ สูตรคูณแม่ 12 น่าจะมาถูกทางแล้ว
+&lt;br /&gt;
+ตีแฉก(หลัง-หน้า)ต่อไปเรื่อย ๆ 2 ชั้น ก็จะได้คำตอบ&lt;br /&gt;&lt;br /&gt;
+ได้คำตอบ 257 ดังภาพ&lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/5174177125185.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+  <thisQuestion>
+    <qNum>id1681113726:date1681113726</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. e-Exam มี.ค. 2566&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+50   &#160;&#160;&#160;  7  &#160;&#160;&#160;  65  &#160;&#160;&#160;  9   &#160;&#160;&#160;   80   &#160;&#160;&#160;   11 &#160;&#160;&#160;   95 &#160;&#160;&#160; 13  &#160;&#160;&#160;    ......&lt;br /&gt;
+	</question>
+    <choice_A>72</choice_A>
+    <choice_B>86</choice_B>
+    <choice_C>110</choice_C>
+    <choice_D>112</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	&lt;br /&gt;
+
+50   &#160;&#160;&#160;  7  &#160;&#160;&#160;  65  &#160;&#160;&#160;  9   &#160;&#160;&#160;   80   &#160;&#160;&#160;   11 &#160;&#160;&#160;   95 &#160;&#160;&#160; 13  &#160;&#160;&#160;    ......&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;
+
+มีหลายจำนวน ตัวเลขมีเพิ่มขึ้น มีลดลง สลับกัน ลักษณะนี้น่าจะมี 2 ชุด ซ้อนกันอยู่  &lt;br /&gt; &lt;br /&gt;
+
+50 - 65 - 80 - 95&lt;br /&gt;
+ห่างกันช่วงละ 15&lt;br /&gt;&lt;br /&gt;
+
+7 - 9 - 11- 13&lt;br /&gt;
+ห่างกันช่วงละ 2&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ชุดแรก&lt;br /&gt;
+95 + 15 = 110&lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบคือ 110 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/50765980119513.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+
+  <thisQuestion>
+    <qNum>id1681113725:date1681113725</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. e-Exam มี.ค. 2566&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+5   &#160;&#160;&#160;  6  &#160;&#160;&#160;  10  &#160;&#160;&#160;  19  &#160;&#160;&#160;   35   &#160;&#160;&#160; 60  &#160;&#160;&#160;    ......&lt;br /&gt;
+	</question>
+    <choice_A>82</choice_A>
+    <choice_B>96</choice_B>
+    <choice_C>100</choice_C>
+    <choice_D>112</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	&lt;br /&gt;
+
+5   &#160;&#160;&#160;  6  &#160;&#160;&#160;  10  &#160;&#160;&#160;  19  &#160;&#160;&#160;   35    &#160;&#160;&#160; 60  &#160;&#160;&#160;    ......&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;
+
+
+เพิ่มขึ้นไม่มาก อาจจะมี 2 ชุด ซ้อนกันอยู่  &lt;br /&gt; &lt;br /&gt;
+
+5 - 10 - 35&lt;br /&gt;
+6 - 19 -60&lt;br /&gt;
+ไม่น่าจะใช่ &lt;br /&gt;&lt;br /&gt;
+ 
+ เชคแบบสะสม คือ ดูว่า 2-3 ตัวหน้า รวมกันเป็นตัวถัดไปหรือเปล่า&lt;br /&gt;
+        5 + 6  = 11 ไม่ได้ 10&lt;br /&gt;
+        5 + 6 + 10 = 21 ไม่ได้ 19&lt;br /&gt;
+  สรุปว่า ไม่ใช่แบบสะสม&lt;br /&gt;&lt;br /&gt;
+  
+
+ลองตีแฉก(หลัง-หน้า)ดู &lt;br /&gt;&lt;br /&gt;
+6 - 5 = 1&lt;br /&gt;
+10 - 6 = 4&lt;br /&gt;
+19 - 10 = 9&lt;br /&gt;
+35 - 19 = 16&lt;br /&gt;&lt;br /&gt;
+
+เลข 1, 4 ,9, 16 คือเลขยกกำลัง 2 ของ 1, 2, 3, 4&lt;br /&gt;
+น่าจะเป็นทิศทางที่ถูก&lt;br /&gt;
+ทำต่อให้เสร็จ&lt;br /&gt;
+60 - 35 = 25 หรือ 5&lt;sup&gt;2&lt;/sup&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้นตัวต่อไปคือ  6&lt;sup&gt;2&lt;/sup&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+ได้คำตอบคือ 96 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/5610193560.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+  <thisQuestion>
+<qNum>id1681113724_katex:date1681113724</qNum>
+<question>ข้อสอบเสมือนจริง ก.พ. e-Exam มี.ค. 2566&lt;br /&gt;
+    &lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+    &lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+112 &#160;&#160;&#160;  56  &#160;&#160;&#160;    14   &#160;&#160;&#160;  &lt;tex&gt;\frac{7}{3}&lt;/tex&gt; &#160;&#160;&#160;  .............
+
+
+	</question>
+    <choice_A>&lt;tex&gt;\frac{7}{24}&lt;/tex&gt;</choice_A>
+    <choice_B> &lt;tex&gt;\frac{17}{23}&lt;/tex&gt;</choice_B>
+    <choice_C>14</choice_C>
+    <choice_D>&lt;tex&gt;\frac{46}{53}&lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+112 &#160;&#160;&#160;  56 &#160;&#160;&#160;    14  &#160;&#160;&#160;    &lt;tex&gt;\frac{7}{3}&lt;/tex&gt;  &#160;&#160;&#160;    .............&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;
+
+
+มีเศษส่วน &lt;br /&gt;
+ตัวเลขลดลงตลอด น่าจะมีการลบ หรือ หาร&lt;br /&gt;
+ลองตีแฉกดู&lt;br /&gt;
+   เนื่องจากตัวหน้า มากกว่าตัวหลัง&lt;br /&gt;
+        ลองเอาตัวหน้าตั้ง แล้วหารด้วยตัวหลัง&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{112}{56} = 2&lt;/tex&gt; &lt;br /&gt;
+&lt;tex&gt;\frac{56}{14} = 4&lt;/tex&gt; &lt;br /&gt;
+&lt;tex&gt;14 &#xf7; \frac{7}{3} = 14 &#xd7; \frac{3}{7} = 6&lt;/tex&gt; &lt;br /&gt;
+
+        (การหารเศษส่วน ให้กลับเครื่องหมายหารเป็นเครื่องหมายคูณ และ กลับตัวหารจากเศษเป็นส่วน)  &lt;br /&gt;&lt;br /&gt;
+        
+
+สรุปว่า ตัวหน้าหารด้วยด้วย 2, 4, 6 เป็นตัวถัดไป &lt;br /&gt;
+        ตัวสุดท้าย ซึ่งเป็นคำตอบ ต้องหารด้วย 8&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{7}{3}  &#xf7; 8 = \frac{7}{3}  &#xd7;  \frac{1}{8}  = \frac{7}{24} &lt;/tex&gt; &lt;br /&gt;
+(การหารเศษส่วน ให้กลับเครื่องหมายหารเป็นเครื่องหมายคูณ และ กลับตัวหารจากเศษเป็นส่วน&lt;br /&gt;
+        เลข 8 เป็นจำนวนเต็ม ซึ่งทุกตัวมีส่วนเป็น 1 เมื่อกลับเศษเป็นส่วน จึงได้  &lt;tex&gt;\frac{1}{8}) &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+        ดังภาพ&lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/11256147.png&quot;&gt;&lt;br /&gt;
+
+
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+<!-- 
+https://www.youtube.com/watch?v=qSMAOcTfw6U&t=5517s  เวลา 1:58:17 / 2:51:01
+ -->
+
+
+  <thisQuestion>
+    <qNum>id1670742529:date1670742529</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. รอบบ่าย 20 พ.ย. 2565&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+10   &#160;&#160;&#160;  12  &#160;&#160;&#160;  16  &#160;&#160;&#160;  24  &#160;&#160;&#160;   40      &#160;&#160;&#160;    ......&lt;br /&gt;
+	</question>
+    <choice_A>53</choice_A>
+    <choice_B>72</choice_B>
+    <choice_C>84</choice_C>
+    <choice_D>97</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	&lt;br /&gt;
+
+    10   &#160;&#160;&#160;  12  &#160;&#160;&#160;  16  &#160;&#160;&#160;  24  &#160;&#160;&#160;   40      &#160;&#160;&#160;    ......&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;
+
+
+เพิ่มขึ้นไม่มาก ไม่น่าจะมีหลายชุดเพราะมีน้อยจำนวน &lt;br /&gt; &lt;br /&gt;
+
+ลองตีแฉก(หลัง-หน้า)ดู &lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบคือ 72 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/1012162440.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+  <thisQuestion>
+    <qNum>id1670742528:date1670742528</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. รอบบ่าย 20 พ.ย. 2565&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+64   &#160;&#160;&#160;  8  &#160;&#160;&#160;  65  &#160;&#160;&#160;  57  &#160;&#160;&#160;   32   &#160;&#160;&#160;    82    &#160;&#160;&#160;       50      &#160;&#160;&#160;       128       &#160;&#160;&#160;     171       43    &#160;&#160;&#160;   512      &#160;&#160;&#160;    ......&lt;br /&gt;
+	</question>
+    <choice_A>53</choice_A>
+    <choice_B>214</choice_B>
+    <choice_C>326</choice_C>
+    <choice_D>548</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	&lt;br /&gt;
+	
+64   &#160;&#160;&#160;  8  &#160;&#160;&#160;  65  &#160;&#160;&#160;  57  &#160;&#160;&#160;   32   &#160;&#160;&#160;    82    &#160;&#160;&#160;       50      &#160;&#160;&#160;       128       &#160;&#160;&#160;     171       43    &#160;&#160;&#160;   512      &#160;&#160;&#160;    ......&lt;br /&gt;&lt;br /&gt;
+วิธีทำ&lt;br /&gt;
+
+
+มีตั้ง 11 จำนวน  &lt;br /&gt;
+สันนิษฐานไว้ก่อนเลยว่า น่าจะมีหลายชุดซ้อนกัน &lt;br /&gt;
+หรืออาจจะเป็นแบบสะสม คือ 2 หรือ 3 ตัวหน้า รวมกัน เป็นตัวถัดไป &lt;br /&gt; &lt;br /&gt;
+
+ลองเชคหลายชุดก่อน &lt;br /&gt;
+ข้าม 1 ตัว ได้ 64, 65, 32, 50...  &lt;br /&gt;
+ไม่น่าจะได้ &lt;br /&gt;
+ลองข้าม 2  ตัว &lt;br /&gt;
+64, 57, 50, 43 ลดลงครั้งละ 7 &lt;br /&gt;
+8, 32, 128, 512  คูณด้วย 4 &lt;br /&gt;
+แต่ชุดที่จะได้คำตอบ คือ &lt;br /&gt;
+65, 82, 171 ไม่น่าจะได้ &lt;br /&gt; &lt;br /&gt;
+
+เปลี่ยนไปดูแบบสะสม &lt;br /&gt;
+64+8 มากกว่า 65 อยู่ 7 &lt;br /&gt;
+8+65 มากกว่า 57 อยู่ 7 &lt;br /&gt; &lt;br /&gt;
+
+แสดงว่า ต้องมีการเอา 7 ไปลบออกด้วย  &lt;br /&gt; &lt;br /&gt;
+
+สุดท้าย ได้คำตอบคือ 548 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/648655732825012817143512.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+  <thisQuestion>
+    <qNum>id1670742527:date1670742527</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. รอบบ่าย 20 พ.ย. 2565&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+1   &#160;&#160;&#160;  -1  &#160;&#160;&#160;  4  &#160;&#160;&#160;  16  &#160;&#160;&#160;   35   &#160;&#160;&#160;    ......&lt;br /&gt;
+	</question>
+    <choice_A>51</choice_A>
+    <choice_B>57</choice_B>
+    <choice_C>61</choice_C>
+    <choice_D>72</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	&lt;br /&gt;
+1   &#160;&#160;&#160;  -1  &#160;&#160;&#160;  4  &#160;&#160;&#160;  16  &#160;&#160;&#160;   35   &#160;&#160;&#160;    ......&lt;br /&gt;
+&lt;br /&gt;
+
+ดูภาพรวม มีเลขติดลบ จากนั้น เพิ่มขึ้น มากกว่าเท่าตัว &lt;br /&gt;
+ลองยกกำลัง 4&lt;sup&gt;2&lt;/sup&gt; = 16 แต่   16&lt;sup&gt;2&lt;/sup&gt;  &#x2260; 35         &lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉก(หลัง-หน้า)ดู &lt;br /&gt;
+เอาตัวหลังตั้ง ลบด้วยตัวหน้า&lt;br /&gt;
+มีเครื่องหมายลบ ต้องระวังหน่อย&lt;br /&gt;
+(-1) - 1 = -2&lt;br /&gt;
+        (-1 กับ -1 จึงได้ -2)&lt;br /&gt;
+(4) - (-1) = 4 + 1 = 5 &lt;br /&gt;
+        (ลบคูณลบ ได้ บวก&lt;br /&gt;
+        เครื่องหมายเหมือนกัน คูณกัน ได้ บวก&lt;br /&gt;
+        เครื่องหมาต่างกัน คูณกัน ได้ ลบ)&lt;br /&gt;
+(16) - (4) = 12  ...&lt;br /&gt;
+        (16 เอาออกเสีย 4 จึงเหลือ 12)&lt;br /&gt;&lt;br /&gt;
+
+สุดท้าย ได้คำตอบคือ 61 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/1141635.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+        &lt;strong&gt;การลบด้วย ตัวเลขติดลบ &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+        2 - (-7) = +9&lt;br /&gt;
+        กฎทางคณิตศาสตร์ จะได้ว่า &lt;br /&gt;
+        เครื่องหมายเหมือนกัน คูณกัน ได้เครื่องหมายบวก&lt;br /&gt;
+        เช่น −(−x)=+x &lt;br /&gt;&lt;br /&gt;
+        เครื่องหมายต่างกัน คูณกัน ได้เครื่องหมายลบ&lt;br /&gt;
+        เช่น −(+x)=-x &lt;br /&gt;&lt;br /&gt;
+
+        ดังนั้น - (-7) จึงได้ +7&lt;br /&gt;&lt;br /&gt;
+
+        2 - (-7) = ?&lt;br /&gt;
+        -2 + 7 = +9&lt;br /&gt;&lt;br /&gt;
+
+        ถ้าดูจากเส้นจำนวน&lt;br /&gt;
+        จะเห็นว่า 2 เอาออกเสีย -7&lt;br /&gt;
+        การลบด้วยจำนวนลบ คือ การบวก &lt;br /&gt;
+        หรือคิดง่าย ๆ ว่า ปฏิเสธซ้อนปฏิเสธ คือ การบวก เช่น&lt;br /&gt;
+        ฉันไม่ใช่ไม่ชอบกล้วย = ฉันชอบกล้วย&lt;br /&gt;&lt;br /&gt;
+
+        การลบด้วยจำนวนลบ คือ การบวก &lt;br /&gt;
+        2 - (-7) จึงเท่ากับ 2 + 7  &lt;br /&gt;
+        การบวกต้องมาทางขวามือ &lt;br /&gt;
+        จาก 2 มาทางขวา 7 ตำแหน่ง จึงได้เป็น +9 &lt;br /&gt;
+        ดังนั้น 2 - (-7) จึงได้ +9&lt;br /&gt;
+        ดังภาพ&lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/number_line_2_7.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+    </explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+  <thisQuestion>
+    <qNum>id1670742526:date1670742526</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. รอบบ่าย 20 พ.ย. 2565&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+27   &#160;&#160;&#160; 30  &#160;&#160;&#160;  40  &#160;&#160;&#160;  60  &#160;&#160;&#160;   93   &#160;&#160;&#160;   142  &#160;&#160;&#160;    ......&lt;br /&gt;
+	</question>
+    <choice_A>205</choice_A>
+    <choice_B>210</choice_B>
+    <choice_C>215</choice_C>
+    <choice_D>220</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	&lt;br /&gt;
+27   &#160;&#160;&#160; 30  &#160;&#160;&#160;  40  &#160;&#160;&#160;  60  &#160;&#160;&#160;   93   &#160;&#160;&#160;   142  &#160;&#160;&#160;    ......&lt;br /&gt;
+&lt;br /&gt;
+
+ดูภาพรวม เพิ่มขึ้นตลอด และเพิ่มไม่มาก &lt;br /&gt;
+ไม่น่าจะเป็นแบบสะสม&lt;br /&gt;
+ไม่น่าจะมีหลายชุด&lt;br /&gt;
+ไม่น่าจะมีการคูณหรือยกกำลัง เพราะเลขเพิ่มไม่มาก&lt;br /&gt;
+น่าจะมีการบวก   &lt;br /&gt;&lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า)ดู &lt;br /&gt;
+ใช่เลย &lt;br /&gt;
+คำตอบคือ 210 &lt;br /&gt;&lt;br /&gt;
+
+
+ดังภาพ&lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/2730406093142.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+  <thisQuestion>
+<qNum>id1670568519_katex:date1670568519</qNum>
+<question>ข้อสอบเสมือนจริง กพ (20 พ.ย. 65)
+(จำจากห้องสอบ)
+
+คำสั่ง: จงเลือกคำตอบที่ดีที่สุด
+&lt;tex&gt;\frac{8}{15} &lt;/tex&gt;  &#160;&#160;&#160;   &lt;tex&gt; \frac{32}{21} &lt;/tex&gt;   &#160;&#160;&#160;     &lt;tex&gt; \frac{57}{27} &lt;/tex&gt;    &#160;&#160;&#160;     &lt;tex&gt; \frac{83}{33} &lt;/tex&gt;   &#160;&#160;&#160;   &lt;tex&gt; \frac{110}{39}  &lt;/tex&gt; &#160;&#160;&#160;  .............
+
+
+	</question>
+    <choice_A>&lt;tex&gt;\frac{112}{23}&lt;/tex&gt;</choice_A>
+    <choice_B> &lt;tex&gt;\frac{126}{31}&lt;/tex&gt;</choice_B>
+    <choice_C>&lt;tex&gt; \frac{138}{45}&lt;/tex&gt;</choice_C>
+    <choice_D>&lt;tex&gt;  \frac{145}{52} &lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+&lt;tex&gt;\frac{8}{15}&lt;/tex&gt; &#160;&#160;&#160;  &lt;tex&gt;\frac{32}{21}&lt;/tex&gt;  &#160;&#160;&#160;    &lt;tex&gt;\frac{57}{27}&lt;/tex&gt;   &#160;&#160;&#160;    &lt;tex&gt;\frac{83}{33}&lt;/tex&gt;  &#160;&#160;&#160;   &lt;tex&gt;\frac{110}{39}&lt;/tex&gt;  &#160;&#160;&#160;    .............
+&lt;br /&gt;&lt;br /&gt;
+
+เป็นเศษส่วน &lt;br /&gt;
+เชคความสัมพันธ์ของเศษและส่วน คร่าว ๆ ก่อน ว่า เศษส่วนบวก หรือ ลบ หรือ คูณ ด้วยค่าคงที่ เป็น เศษ หรือ ส่วน ตัวถัดไปหรือไม่&lt;br /&gt;
+ไม่ใช่&lt;br /&gt;
+สันนิษฐานว่า น่าจะเป็น 2 ชุด คือ เศษชุดหนึ่ง และ ส่วนอีกชุดหนึ่ง&lt;br /&gt;
+ลองดูความสัมพันธ์ เป็นแบบสะสม 2 หรือ 3 ตัว หรือไม่  &lt;br /&gt;&lt;br /&gt;
+ไม่ใช่ &lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า)ดูู &lt;br /&gt;&lt;br /&gt;
+คำตอบคือ  &lt;tex&gt; \frac{138}{45} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+ดังภาพ&lt;br /&gt;
+        &lt;img src=&quot;asset:assets/data/images/8325783110.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+  <thisQuestion>
+    <qNum>id1660598791:date1661153088</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. รอบบ่าย 20 พ.ย. 2565&lt;br /&gt;
+&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ) &lt;/span&gt;&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+49&#160;&#160;&#160;50&#160;&#160;&#160;55&#160;&#160;&#160;64&#160;&#160;&#160;77&#160;&#160;&#160;......&lt;br /&gt;
+	</question>
+    <choice_A>84</choice_A>
+    <choice_B>86</choice_B>
+    <choice_C>94</choice_C>
+    <choice_D>96</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+49&#160;&#160;&#160;50&#160;&#160;&#160;55&#160;&#160;&#160;64&#160;&#160;&#160;77&#160;&#160;&#160;......&lt;br /&gt;
+&lt;br /&gt;
+
+ดูภาพรวม เพิ่มขึ้นตลอด และเพิ่มไม่มาก &lt;br /&gt;
+ไม่น่าจะเป็นแบบสะสม&lt;br /&gt;
+ไม่น่าจะมีหลายชุด&lt;br /&gt;
+ไม่น่าจะมีการคูณหรือยกกำลัง เพราะเลขเพิ่มไม่มาก&lt;br /&gt;
+น่าจะมีการบวก   &lt;br /&gt;&lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า)ดู &lt;br /&gt;
+ใช่เลย &lt;br /&gt;
+คำตอบคือ 94 &lt;br /&gt;&lt;br /&gt;
+
+
+ดังภาพ&lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/4950556477.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvX -->
+
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598714:date1661153088</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. E-exam รอบ 5 ก.ค. 2565&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+5&#160;&#160;&#160;11&#160;&#160;&#160;22&#160;&#160;&#160;38&#160;&#160;&#160;59&#160;&#160;&#160;......&lt;br /&gt;
+	</question>
+    <choice_A>61</choice_A>
+    <choice_B>73</choice_B>
+    <choice_C>85</choice_C>
+    <choice_D>92</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+5&#160;&#160;&#160;11&#160;&#160;&#160;22&#160;&#160;&#160;38&#160;&#160;&#160;59&#160;&#160;&#160;......&lt;br /&gt;  &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม เพิ่มขึ้นตลอด และเพิ่มไม่มาก น่าจะเป็นการบวก   &lt;br /&gt;&lt;br /&gt;
+
+        เชคแบบสะสม ตัวหน้า 2-3 ตัวรวมกันเป็นตัวถัดไปหรือไม่&lt;br /&gt;
+        5+11 ไม่เท่ากับ 22&lt;br /&gt;
+        5+11+22 = 38&lt;br /&gt;
+        11+22+38 ไม่เท่ากับ 59&lt;br /&gt;
+        (เอาหลักหน่วยรวมกัน ก็รู้ว่าไม่ใช่ 1+2+8 = 11 ไม่ใช่ลงท้ายด้วย 9)&lt;br /&gt;
+        สรุปว่า ไม่ใช่แบบสะสม&lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉก(หลัง-หน้า)ดู &lt;br /&gt;
+ใช่เลย &lt;br /&gt;
+คำตอบคือ 85 &lt;br /&gt;&lt;br /&gt;
+
+
+ดังภาพ&lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/511223859.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598715:date1661153088</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. E-exam รอบ 5 ก.ค. 2565&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+109&#160;&#160;&#160;28&#160;&#160;&#160;55&#160;&#160;&#160;46&#160;&#160;&#160;49&#160;&#160;&#160;......&lt;br /&gt; 
+	</question>
+    <choice_A>35</choice_A>
+    <choice_B>48</choice_B>
+    <choice_C>54</choice_C>
+    <choice_D>69</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+109&#160;&#160;&#160;28&#160;&#160;&#160;55&#160;&#160;&#160;46&#160;&#160;&#160;49&#160;&#160;&#160;...... &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม มีเพิ่มขึ้น ลดลง ไม่น่าจะมี 2 ชุด    &lt;br /&gt;&lt;br /&gt;
+
+คิดอะไรไม่ออก ลองตีแฉก(หลัง-หน้า)ดู &lt;br /&gt;
+ได้ 81 27 9 3 &lt;br /&gt;
+เลขคุ้น ๆ ยกกำลังได้ และ บวก ลบ สลับกัน&lt;br /&gt;
+คำตอบคือ 48 &lt;br /&gt;&lt;br /&gt;
+
+
+ดังภาพ&lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/10928554649.png&quot;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+        3&lt;sup&gt;0&lt;/sup&gt; = 1&lt;br /&gt;
+        เลขที่ยกกำลังด้วย ศูนย์ จะได้เท่ากับ 1&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598716:date1661153088</qNum>
+    <question>ข้อสอบเสมือนจริง ก.พ. E-exam รอบ 5 ก.ค. 2565&lt;br /&gt;
+	&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+2&#160;&#160;&#160;2&#160;&#160;&#160;4&#160;&#160;&#160;8&#160;&#160;&#160;32&#160;&#160;&#160;256&#160;&#160;&#160;......&lt;br /&gt;
+	</question>
+    <choice_A>512</choice_A>
+    <choice_B>1024</choice_B>
+    <choice_C>2048</choice_C>
+    <choice_D>8192</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+2&#160;&#160;&#160;2&#160;&#160;&#160;4&#160;&#160;&#160;8&#160;&#160;&#160;32&#160;&#160;&#160;256&#160;&#160;&#160;...... &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ตัวเลขทีแรกน้อย มีซ้ำกัน ตัวหลังเพิ่มมาก น่าจะมีการยกกำลัง หรือ การคูณ &lt;br /&gt;&lt;br /&gt;
+ลองดูยกกำลังก่อน &lt;br /&gt;&lt;br /&gt;
+จาก 2 ไป 2 คือ 2<sup>1</sup> &lt;br /&gt;
+จาก 2 ไป 4 คือ 2<sup>2</sup> &lt;br /&gt;
+จาก 4 ไป 8 คือ 2 ยกกำลังไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+งั้นลองคูณ&lt;br /&gt;&lt;br /&gt;
+ได้เลย 2 ตัวหน้าคูณกัน เป็นตัวหลัง เข้าทำนองแบบสะสม แต่แทนที่จะบวกกัน เป็นการคูณกัน&lt;br /&gt;&lt;br /&gt;
+ได้คำตอบ 8192  ดังภาพ&lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/224832256.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598717:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam รอบ 5 ก.ค. 2565&lt;br /&gt;&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+3&#160;&#160;&#160;5&#160;&#160;&#160;16&#160;&#160;&#160;17&#160;&#160;&#160;37&#160;&#160;&#160;35&#160;&#160;&#160;66&#160;&#160;&#160;59&#160;&#160;&#160;......&lt;br /&gt;
+	</question>
+    <choice_A>64</choice_A>
+    <choice_B>57</choice_B>
+    <choice_C>103</choice_C>
+    <choice_D>206</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+3&#160;&#160;&#160;5&#160;&#160;&#160;16&#160;&#160;&#160;17&#160;&#160;&#160;37&#160;&#160;&#160;35&#160;&#160;&#160;66&#160;&#160;&#160;59&#160;&#160;&#160;...... &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ยาวมาก เดาเอาว่า น่าจะมี 2 อนุกรม ซ้อนกัน   &lt;br /&gt;&lt;br /&gt;
+
+3, 16, 37, 66 ชุดนี้ ถ้าถูกจะได้คำตอบ  &lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า)ดู &lt;br /&gt;&lt;br /&gt;
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/35161737356659.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598718_katex:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam รอบ 5 ก.ค. 2565&lt;br /&gt;
+    คำสั่ง: เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{89}{5} \space\space\space  \frac{84}{9} \space\space\space  \frac{75}{13}  \space\space\space \frac{62}{17} \space\space\space  \frac{45}{21} \space\space\space  \frac{?}{?}&lt;/tex&gt;
+	</question>
+    <choice_A>&lt;tex&gt;\frac{41}{12}&lt;/tex&gt;</choice_A>
+    <choice_B>&lt;tex&gt;\frac{37}{23}&lt;/tex&gt;</choice_B>
+    <choice_C>&lt;tex&gt;\frac{24}{25}&lt;/tex&gt;</choice_C>
+    <choice_D>&lt;tex&gt;\frac{19}{32}&lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;tex&gt;\frac{89}{5} \space\space\space  \frac{84}{9} \space\space\space  \frac{75}{13}  \space\space\space \frac{62}{17} \space\space\space  \frac{45}{21} \space\space\space  \frac{?}{?}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม เป็นเศษส่วน    &lt;br /&gt;&lt;br /&gt;
+
+ดูความสัมพันธ์ของเศษส่วน เศษตัวหน้า ส่วนตัวหลัง ไม่น่าจะได้&lt;br /&gt;
+ดูเป็น 2 ชุด คือ เศษทั้งหมด กับส่วนทั้งหมด&lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า)ดู&lt;br /&gt;
+ได้คำตอบ&lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ&lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/8984756245.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+ <!--   
+ ถึงตรงนี้ ข้อสุดท้าย  https://www.youtube.com/watch?v=R-QHw04wHMw&list=PLdx9CUP6CVz3hviikwCu6KQUfoCDGQAc0
+
+ ************************************************************************************************************ -->
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598728:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam ก.ค. 2565&lt;br /&gt;&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+2020&#160;&#160;&#160;2015&#160;&#160;&#160;2005&#160;&#160;&#160;1990&#160;&#160;&#160;1970 &#160;&#160;&#160; ...... &lt;br /&gt;
+	</question>
+    <choice_A>1900</choice_A>
+    <choice_B>1915</choice_B>
+    <choice_C>1925</choice_C>
+    <choice_D>1945</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+2020&#160;&#160;&#160;2015&#160;&#160;&#160;2005&#160;&#160;&#160;1990&#160;&#160;&#160;1970 &#160;&#160;&#160; ......   &lt;br /&gt;  &lt;br /&gt;
+
+ดูภาพรวม ค่าตัวเลขเยอะ ลดตลอด ไม่ค่อยมาก น่าจะเป็นการลบ   &lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉก(หลัง-หน้า)ดู&lt;br /&gt;&lt;br /&gt;
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/20202015200519901970.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+
+
+
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598727:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam ก.ค. 2565&lt;br /&gt;&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+15&#160;&#160;&#160;8&#160;&#160;&#160;23&#160;&#160;&#160;31&#160;&#160;&#160;54 &#160;&#160;&#160; ...... &lt;br /&gt;
+	</question>
+    <choice_A>85</choice_A>
+    <choice_B>99</choice_B>
+    <choice_C>110</choice_C>
+    <choice_D>128</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+15&#160;&#160;&#160;8&#160;&#160;&#160;23&#160;&#160;&#160;31&#160;&#160;&#160;54 &#160;&#160;&#160; ......   &lt;br /&gt;  &lt;br /&gt;
+
+ดูภาพรวม ค่าตัวเลขไม่เยอะ มีเพิ่ม มีลด เข้ารูปแบบสะสม เพราะมีเพิ่มมีลด   &lt;br /&gt;&lt;br /&gt;
+
+15 + 8 = 23&lt;br /&gt;
+8 + 23 = 31&lt;br /&gt;&lt;br /&gt;
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/158233154.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+
+
+
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598726_katex:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam  ก.ค. 2565&lt;br /&gt;
+    คำสั่ง: เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;1\frac{1}{2} \space\space\space 3\frac{5}{8} \space\space\space  5\frac{3}{4} \space\space\space  7\frac{7}{8} \space\space\space  \frac{?}{?}&lt;/tex&gt;
+	</question>
+    <choice_A>&lt;tex&gt;\frac{11}{30}&lt;/tex&gt;</choice_A>
+    <choice_B>&lt;tex&gt;\frac{12}{8}&lt;/tex&gt;</choice_B>
+    <choice_C>&lt;tex&gt;10&lt;/tex&gt;</choice_C>
+    <choice_D>&lt;tex&gt;20&lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;tex&gt;1\frac{1}{2} \space\space\space 3\frac{5}{8} \space\space\space  5\frac{3}{4} \space\space\space  7\frac{7}{8} \space\space\space  \frac{?}{?} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+เป็นเศษส่วนจำนวนคละ ทำให้เป็นเศษเกินก่อน&lt;br /&gt;&lt;br /&gt;
+
+        การทำเป็นเศษเกิน คือ เอาส่วนคูณกับจำนวนเต็ม แล้วบวกด้วยเศษ กลายเป็นเศษตัวใหม่ &lt;br /&gt;
+        &lt;tex&gt;1\frac{1}{2} = \frac{(2×1) + 1}{2} = \frac{3}{2}&lt;/tex&gt; &lt;br /&gt;
+        &lt;tex&gt;3\frac{5}{8} = \frac{(8×3) + 5}{8} = \frac{29}{8}&lt;/tex&gt; &lt;br /&gt;
+        &lt;tex&gt;5\frac{3}{4} = \frac{(4×5) + 3}{4} = \frac{23}{4}&lt;/tex&gt; &lt;br /&gt;
+        &lt;tex&gt;7\frac{7}{8} = \frac{(8×7) + 7}{8} = \frac{63}{8}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+
+เศษส่วนที่ส่วนยังไม่เท่ากัน เปรียบเทียบกันยาก ต้องทำส่วนให้เท่ากัน จะได้เปรียบเทียบกันได้ง่าย&lt;br /&gt;&lt;br /&gt;
+
+        วิธีทำ&lt;br /&gt;&lt;br /&gt;
+
+        จะเห็นว่า มีส่วน คือ 2, 4 และ 8 เราทำ 2 และ 4 ให้เป็น 8 โดยการคูณ ซึ่งจะง่ายกว่า ลด 8 ลง เพราะต้องใช้การหาร ซึ่งจะยุ่งยากกว่าการคูณ&lt;br /&gt;&lt;br /&gt;
+
+        &lt;tex&gt;\frac{3}{2}&lt;/tex&gt; เราทำส่วน 2 ให้เป็น 8 โดยการคูณ ด้วย 4 แต่ต้องคูณทั้งเศษและส่วนด้วย จึงจะทำให้ค่าของเศษส่วนเดิมไม่เปลี่ยนแปลง&lt;br /&gt;
+        &lt;tex&gt;\frac{3}{2} × \frac{4}{4} = \frac{12}{8} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+        &lt;tex&gt;\frac{23}{4} × \frac{2}{2} = \frac{46}{8} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+
+
+
+
+        จะเห็นรูปแบบ คือ&lt;br /&gt;&lt;br /&gt;
+
+ชุดบน ใช้ตีแฉก(หลัง-หน้า) ห่างกัน 17 เท่ากันหมด&lt;br /&gt;
+
+ทำเป็นเศษส่วนอย่างต่ำ ได้ 10&lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/1537.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598725_katex:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam  ก.ค. 2565
+    คำสั่ง: เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;4 \space\space\space \frac{9}{6} \space\space\space  \frac{10}{24} \space\space\space  \frac{11}{120} \space\space\space  \frac{?}{?}&lt;/tex&gt;
+	</question>
+    <choice_A>&lt;tex&gt;\frac{11}{130}&lt;/tex&gt;</choice_A>
+    <choice_B>&lt;tex&gt;\frac{12}{720}&lt;/tex&gt;</choice_B>
+    <choice_C>&lt;tex&gt;\frac{13}{255}&lt;/tex&gt;</choice_C>
+    <choice_D>&lt;tex&gt;\frac{19}{368}&lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;tex&gt;4 \space\space\space \frac{9}{6} \space\space\space  \frac{10}{24} \space\space\space  \frac{11}{120} \space\space\space  \frac{?}{?} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+สังเกตที่เศษ เป็นเลขเรียงกัน  &lt;br /&gt;
+ตัวแรกน่าจะมีเศษเป็น 8&lt;br /&gt;
+ทำตัวแรกให้เป็นเศษส่วน โดยการเอา 2 คูณทั้งเศษและส่วน&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt; \frac{4×2}{1×2} = \frac{8}{2}&lt;/tex&gt;&lt;br /&gt;
+ได้อนุกรม 2 ชุด เศษเป็น 1 ชุด และส่วนอีก 1 ชุด   &lt;br /&gt;&lt;br /&gt;
+ชุดบน ตัวเลขเรียงกัน&lt;br /&gt;
+ชุดล่าง x3, x4. x5&lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/491011.png&quot;&gt;&lt;br /&gt;
+
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+
+
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598724:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam ก.ค. 2565&lt;br /&gt;&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+24&#160;&#160;&#160;53&#160;&#160;&#160;29&#160;&#160;&#160;68&#160;&#160;&#160;39&#160;&#160;&#160;93&#160;&#160;&#160;54 &#160;&#160;&#160; ...... &lt;br /&gt;
+	</question>
+    <choice_A>35</choice_A>
+    <choice_B>49</choice_B>
+    <choice_C>98</choice_C>
+    <choice_D>128</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+24&#160;&#160;&#160;53&#160;&#160;&#160;29&#160;&#160;&#160;68&#160;&#160;&#160;39&#160;&#160;&#160;93&#160;&#160;&#160;54 &#160;&#160;&#160; ......   &lt;br /&gt;  &lt;br /&gt;
+
+ดูภาพรวม ค่าตัวเลขไม่เยอะ มีตัวเลขหลายตัว น่าจะมีการซ้อนอนุกรม มีเพิ่ม มีลด น่าจะเป็นอนุกรมซ้อนกันค่อนข้างแน่  หรืออาจจะเป็นแบบสะสม ก็ได้้ &lt;br /&gt;&lt;br /&gt;
+
+        เชคแบบสะสม
+        24+53 ไม่ได้ 29 แน่นอน
+        24+53+29
+24, 29, 39, 54 เพิ่ม 5, 10, 15&lt;br /&gt;
+อีกชุด 53, 68, 93 เพิ่ม 15, 25&lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/24532968399354.png&quot;&gt;&lt;br /&gt;
+ขอบคุณ น้อง Siripong Kantabut ที่ช่วยตรวจสอบข้อนี้ (07/10/2565)&lt;br /&gt;
+    </explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+
+
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598723:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam ก.ค. 2565&lt;br /&gt;&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+301&#160;&#160;&#160;306&#160;&#160;&#160;308&#160;&#160;&#160;318&#160;&#160;&#160;322&#160;&#160;&#160;344&#160;&#160;&#160;350&#160;&#160;&#160; ...... &lt;br /&gt;
+	</question>
+    <choice_A>316</choice_A>
+    <choice_B>375</choice_B>
+    <choice_C>398</choice_C>
+    <choice_D>420</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+301&#160;&#160;&#160;306&#160;&#160;&#160;308&#160;&#160;&#160;318&#160;&#160;&#160;322&#160;&#160;&#160;344&#160;&#160;&#160;350&#160;&#160;&#160; ......   &lt;br /&gt;  &lt;br /&gt;
+
+ดูภาพรวม ตัวเลขหลักร้อย มีตัวเลขหลายตัว น่าจะมีการซ้อนอนุกรม แต่ละตัวเพิ่มขึ้นไม่ค่อยมาก น่าจะเป็นการบวกลบ   &lt;br /&gt;&lt;br /&gt;
+เชคแบบสะสม ยกกำลังไม่น่าจะใช่&lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า)ดู &lt;br /&gt;&lt;br /&gt;
+ตีไปชั้นนึง เห็นอนุกรม 2 ชุด&lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/301306308318322344350.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+
+
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598722:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam ก.ค. 2565&lt;br /&gt;&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+-4&#160;&#160;&#160;0&#160;&#160;&#160;8&#160;&#160;&#160;4&#160;&#160;&#160;12&#160;&#160;&#160;24&#160;&#160;&#160; ...... &lt;br /&gt;
+	</question>
+    <choice_A>16</choice_A>
+    <choice_B>32</choice_B>
+    <choice_C>64</choice_C>
+    <choice_D>40</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+-4&#160;&#160;&#160;0&#160;&#160;&#160;8&#160;&#160;&#160;4&#160;&#160;&#160;12&#160;&#160;&#160;24&#160;&#160;&#160; ....... &lt;br /&gt;  &lt;br /&gt;
+
+ดูภาพรวม เลขค่อนข้างน้อย มีติดลบ มีเพิ่ม มีลด    &lt;br /&gt;&lt;br /&gt;
+เชคแบบยกกำลัง ก็ไม่มีตัวเลขที่ยกกำลัง หรือใกล้เคียง&lt;br /&gt;
+ลองดูแบบสะสม &lt;br /&gt;&lt;br /&gt;
+-4 กับ 0 ไม่ได้ 8&lt;br /&gt;
+ลองเลื่อนไปอีกตัว&lt;br /&gt;
+-4, 0, 8 รวมกัน ได้ 4&lt;br /&gt;
+0 + 8 + 4 = 12&lt;br /&gt;&lt;br /&gt;
+สรุปว่า เป็นแบบสะสม 3 ตัวหน้ารวมกัน&lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/40841224.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598720:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam ก.ค. 2565&lt;br /&gt;&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+425&#160;&#160;&#160;681&#160;&#160;&#160;617&#160;&#160;&#160;633&#160;&#160;&#160; ...... &lt;br /&gt;
+	</question>
+    <choice_A>629</choice_A>
+    <choice_B>640</choice_B>
+    <choice_C>685</choice_C>
+    <choice_D>611</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+425&#160;&#160;&#160;681&#160;&#160;&#160;617&#160;&#160;&#160;633&#160;&#160;&#160; ....... &lt;br /&gt;  &lt;br /&gt;
+
+ดูภาพรวม เลขค่อนข้างมาก มีเพิ่ม มีลด ตัวเลขไม่ค่อยคุ้น     &lt;br /&gt;&lt;br /&gt;
+เชคแบบสะสม ไม่น่าจะใช่&lt;br /&gt;
+        เชคแบบยกกำลัง ก็ไม่มีตัวเลขที่ยกกำลัง หรือใกล้เคียง&lt;br /&gt;
+สุดท้ายลองตีแฉก(หลัง-หน้า)&lt;br /&gt;
+
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/425681617633.png&quot;&gt;&lt;br /&gt;
+        &lt;small&gt;ขอบคุณ น้อง Nanthanat Rueanchai ที่ช่วยตรวจสอบข้อนี้ &lt;/small&gt; &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598719:date1661153088</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam ก.ค. 2565&lt;br /&gt;&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+12&#160;&#160;&#160;12&#160;&#160;&#160;21&#160;&#160;&#160;39&#160;&#160;&#160;66&#160;&#160;&#160;......&lt;br /&gt;
+	</question>
+    <choice_A>36</choice_A>
+    <choice_B>82</choice_B>
+    <choice_C>102</choice_C>
+    <choice_D>116</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+12&#160;&#160;&#160;12&#160;&#160;&#160;21&#160;&#160;&#160;39&#160;&#160;&#160;66&#160;&#160;&#160;......&lt;br /&gt;  &lt;br /&gt;
+
+ดูภาพรวม เพิ่มขึ้นแต่ไม่มาก น่าจะมีการบวก    &lt;br /&gt;&lt;br /&gt;
+เชคแบบสะสม ไม่น่าจะใช่&lt;br /&gt;่
+เชคแบบยกกำลัง ก็ไม่มีตัวเลขที่ยกกำลัง หรือใกล้เคียง&lt;br /&gt;
+สุดท้ายลองตีแฉก(หลัง-หน้า)&lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/1212213966.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+
+
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id1660598718:date1660598714</qNum>
+    <question>
+	ข้อสอบเสมือนจริง ก.พ. E-exam ก.ค. 2565&lt;br /&gt;&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+2&#160;&#160;&#160;8&#160;&#160;&#160;21&#160;&#160;&#160;48&#160;&#160;&#160;96&#160;&#160;&#160;......&lt;br /&gt;
+	</question>
+    <choice_A>76</choice_A>
+    <choice_B>132</choice_B>
+    <choice_C>172</choice_C>
+    <choice_D>216</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+2&#160;&#160;&#160;8&#160;&#160;&#160;21&#160;&#160;&#160;48&#160;&#160;&#160;96&#160;&#160;&#160;......&lt;br /&gt;  &lt;br /&gt;
+
+ดูภาพรวม เพิ่มขึ้นตลอด ไม่มาก น่าจะมีการบวกหรือคูณ    &lt;br /&gt;&lt;br /&gt;
+เชคแบบสะสม ไม่น่าจะใช&lt;br /&gt;่
+เชคแบบยกกำลัง ก็ไม่มีตัวเลขที่ยกกำลัง หรือใกล้เคียง&lt;br /&gt;
+สุดท้ายลองตีแฉก(หลัง-หน้า)&lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบ ดังภาพ&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/28214896.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0508:date1633331921</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+2     8     8      11       14         16         20     23         26         32         32         ____ &lt;br /&gt;
+	</question>
+    <choice_A>41</choice_A>
+    <choice_B>43</choice_B>
+    <choice_C>64</choice_C>
+    <choice_D>72</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+2     8     8      11       14         16         20     23         26         32         32         ____  &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ยาวมาก เดาเอาว่า น่าจะมี 2 อนุกรม ซ้อนกัน   &lt;br /&gt;&lt;br /&gt;
+
+2, 8, 14, 20, 26 &lt;br /&gt;
+ต่างกัน 6, 6, 6 ใช่เลย แต่ชุดนี้ ไม่ได้คำตอบ &lt;br /&gt;
+คำตอบอยู่ที่อีกชุด คือ&lt;br /&gt;
+8, 11, 16, 23&lt;br /&gt;
+ห่างกัน 3, 5, 7  ใช่เลย&lt;br /&gt;&lt;br /&gt;
+คำตอบคือ 64 (32+11=43)&lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ&lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/nbr_28811141620233.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0509_katex:date1627453500</qNum>
+    <question>คำสั่ง: เติมตัวเลขที่ขาดหายไป &lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{1}{3} \space\space\space  \frac{3}{6} \space\space\space  \frac{7}{11}  \space\space\space \frac{13}{18} \space\space\space  \frac{?}{?}&lt;/tex&gt;
+
+	</question>
+    <choice_A>&lt;tex&gt;\frac{7}{6}&lt;/tex&gt;</choice_A>
+    <choice_B>&lt;tex&gt;\frac{21}{27}&lt;/tex&gt;</choice_B>
+    <choice_C>&lt;tex&gt;\frac{20}{39}&lt;/tex&gt;</choice_C>
+    <choice_D>&lt;tex&gt;\frac{24}{38}&lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;tex&gt;\frac{1}{3} \space\space\space  \frac{3}{6}  \space\space\space  \frac{7}{11}  \space\space\space  \frac{13}{18}  \space\space\space  \frac{?}{?}&lt;/tex&gt;
+&lt;br /&gt;&lt;br /&gt;
+ถ้าเห็นเป็นเลขเศษส่วน ลองดูเป็น 2 อนุกรม คือ ชุดบน 1 ชุด และชุดล่างอีก 1 ชุด &lt;br /&gt;&lt;br /&gt;
+หาค่าความต่าง ก็จะเห็นรูปแบบ ดังภาพ&lt;br /&gt;
+
+
+        &lt;img src=&quot;asset:assets/data/images/13713.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0510:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+1     9     63      315         ____ &lt;br /&gt;
+	</question>
+    <choice_A>735</choice_A>
+    <choice_B>875</choice_B>
+    <choice_C>945</choice_C>
+    <choice_D>1050</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+1     9     63      315        ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม มีเพิ่มขึ้น ค่อนข้างมาก น่าจะมียกกำลัง หรือคูณ  &lt;br /&gt;&lt;br /&gt;
+
+จาก 1 ไป 9 มี 2 อย่างคือ 1+8 หรือ 1x9 &lt;br /&gt;
+จาก 9 ไป 63 คือ 9x7&lt;br /&gt;
+จาก 63 ไป 315 เยอะเหมือนกัน แต่รู้สึก 3 น่าจะหาร 5 พอได้ ลองหารดู 315/63 = 5&lt;br /&gt;&lt;br /&gt;
+
+ได้รูปแบบแล้ว x9, x7, x5 แล้วก็ต้อง คูณด้วย 3&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 945 ดังภาพ&lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/nbr_1963315.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0511:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+4.92     5.72     6.42      7.02     &lt;br /&gt;
+	</question>
+    <choice_A>7.92</choice_A>
+    <choice_B>7.42</choice_B>
+    <choice_C>7.52</choice_C>
+    <choice_D>7.02</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+4.92     5.72     6.42      7.02     ________&lt;br /&gt;&lt;br /&gt;
+
+โจทย์เป็นตัวเลข ทศนิยม ไม่กี่จำนวน &lt;br /&gt;
+เพิ่มขึ้นไม่มาก น่าจะเป็นการบวก  &lt;br /&gt;&lt;br /&gt;
+ลักษณะนี้ น่าจะไม่ยาก &lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า) หาความต่างระหว่างคู่ก่อน&lt;br /&gt;&lt;br /&gt;
+5.72 - 4.92 = 0.8 &lt;br /&gt;
+6.42 - 5.72 = 0.7 &lt;br /&gt;
+7.02 - 6.42 = 0.6  &lt;br /&gt;&lt;br /&gt;
+ 
+ได้คำตอบพอดี ดังภาพ  &lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/nbr_492572642.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- ถึงตรงนี้ -->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0512:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+3     5     8      13       21         34         55      ____ &lt;br /&gt;
+	</question>
+    <choice_A>73</choice_A>
+    <choice_B>89</choice_B>
+    <choice_C>96</choice_C>
+    <choice_D>105</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+3     5     8      13       21         34         55      ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม มีเพิ่มขึ้น ไม่ค่อยมากนัก และค่อนข้างยาว อาจจะมี 2 อนุกรม หรือ อาจจะมีการบวก  &lt;br /&gt;&lt;br /&gt;
+
+ลองเชคแบบสะสมดูก่อน&lt;br /&gt;
+        3+5 = 8&lt;br /&gt;
+        5+8 = 13&lt;br /&gt;
+        8+13 = 21&lt;br /&gt;
+        13+21 = 34&lt;br /&gt;&lt;br /&gt;
+
+        สรุปว่า เป็นแบบสะสม&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 89 (34+55=89)&lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ&lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/nbr_3581321.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!--   จจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจ -->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0513:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+2     11     5      44       8         97         11      ____ &lt;br /&gt;
+	</question>
+    <choice_A>150</choice_A>
+    <choice_B>160</choice_B>
+    <choice_C>170</choice_C>
+    <choice_D>180</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+        2     11     5      44       8         97         11      ____ &lt;br /&gt;
+
+
+
+        ดูภาพรวม มีเพิ่มขึ้น ไม่ค่อยมากนัก และค่อนข้างยาว อาจจะมี 2 อนุกรม หรือ อาจจะมีการบวก  &lt;br /&gt;&lt;br /&gt;
+
+        อนุกรมชุดแรก คือ 2, 5, 8, 11&lt;br /&gt;
+        อนุกรมชุดที่สอง คือ 11, 44, 97&lt;br /&gt;&lt;br /&gt;
+
+        อนุกรมชุดที่สอง จะได้คำตอบ&lt;br /&gt;
+        ลองตีแฉก (หลัง-หน้า) หาความแตกต่างระหว่างคู่&lt;br /&gt;&lt;br /&gt;
+
+        44-11 = 33&lt;br /&gt;
+        97-44 = 53&lt;br /&gt;&lt;br /&gt;
+
+        จาก 3 ไป 5 ตัวต่อไปเดาว่า น่าจะเป็น 7&lt;br /&gt;
+        เดาว่า น่าจะเป็น 73&lt;br /&gt;
+        ลองเอา 73 ไปบวกกับ 97&lt;br /&gt;
+        73+97 = 170&lt;br /&gt;
+        มีในตัวเลือก สรุปว่า ข้อนี้ เป็นข้อถูก&lt;br /&gt;&lt;br /&gt;
+
+        ดังภาพ&lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/21154489711.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0514:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+1     8     27      64      ____ &lt;br /&gt;
+	</question>
+    <choice_A>96</choice_A>
+    <choice_B>125</choice_B>
+    <choice_C>154</choice_C>
+    <choice_D>193</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+1     8     27      64      ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม มีเพิ่มขึ้น คราวละค่อนข้างมาก &lt;br /&gt;&lt;br /&gt;
+อย่างนี้ น่าจะมีการยกกำลัง&lt;br /&gt;&lt;br /&gt;
+
+ดูตัวเลข  8, 27, 64 โดยเฉพาะ 27 คือ 9x3 หรือ 3x3x3 ก็คือยกกำลัง 3&lt;br /&gt;&lt;br /&gt;
+
+8 ก็คือ 2x2x2 หรือ 2 ยกกำลัง 3 &lt;br /&gt;
+2&lt;sup&gt;3&lt;/sup&gt; = 8 และ&lt;br /&gt;&lt;br /&gt;
+
+64 ก็ยกกำลัง 3 ได้ คือ 4x4x4 หรือ 4 ยกกำลัง 3&lt;br /&gt;
+4&lt;sup&gt;3&lt;/sup&gt; = 64&lt;br /&gt;&lt;br /&gt;
+
+เดารูปแบบได้แล้ว คือ 1, 2, 3, 4, 5, 6, ... ยกกำลัง 3&lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ  &lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/nbr_182764.png&quot;&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+ตัวเลขที่น่าจะจำไว้คือ&lt;br /&gt;
+เลขยกกำลัง เช่น&lt;br /&gt;&lt;br /&gt;
+2&lt;sup&gt;2&lt;/sup&gt; = 4&lt;br /&gt;
+2&lt;sup&gt;3&lt;/sup&gt; = 8&lt;br /&gt;
+2&lt;sup&gt;4&lt;/sup&gt; = 16&lt;br /&gt;
+2&lt;sup&gt;5&lt;/sup&gt; = 32&lt;br /&gt;
+2&lt;sup&gt;6&lt;/sup&gt; = 64&lt;br /&gt;&lt;br /&gt;
+
+3&lt;sup&gt;2&lt;/sup&gt; = 9&lt;br /&gt;
+3&lt;sup&gt;3&lt;/sup&gt; = 27&lt;br /&gt;
+3&lt;sup&gt;4&lt;/sup&gt; = 81&lt;br /&gt;
+3&lt;sup&gt;5&lt;/sup&gt; = 243&lt;br /&gt;
+3&lt;sup&gt;6&lt;/sup&gt; = 729&lt;br /&gt;&lt;br /&gt;
+
+4&lt;sup&gt;2&lt;/sup&gt; = 16&lt;br /&gt;
+4&lt;sup&gt;3&lt;/sup&gt; = 64&lt;br /&gt;
+4&lt;sup&gt;4&lt;/sup&gt; = 256&lt;br /&gt;
+4&lt;sup&gt;5&lt;/sup&gt; = 1024&lt;br /&gt;&lt;br /&gt;
+
+5&lt;sup&gt;2&lt;/sup&gt; = 25&lt;br /&gt;
+5&lt;sup&gt;3&lt;/sup&gt; = 125&lt;br /&gt;
+5&lt;sup&gt;4&lt;/sup&gt; = 625&lt;br /&gt;&lt;br /&gt;
+
+เลขคี่ ที่ไม่มีตัวใดหารลงตัว (prime number)&lt;br /&gt;
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...&lt;br /&gt;
+เลขอนุกรมบางชุด ใช้ prime number เป็นหลักในการเพิ่มเลขตัวต่อ ๆ ไป &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0515:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+9     13    	17    21     ____	&lt;br /&gt; 
+	
+	</question>
+    <choice_A>22</choice_A>
+    <choice_B>35</choice_B>
+    <choice_C>27</choice_C>
+    <choice_D>25</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+9     13    	17    21     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม เพิ่มขึ้นอย่างต่อเนื่อง และเพิ่มเท่า ๆ กัน แสดงว่า อาจจะมีการเพิ่มโดยการบวก ไม่น่าจะมีการยกกำลัง เพราะเพิ่มขึ้นไม่มาก &lt;br /&gt;&lt;br /&gt;
+
+ลองหาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะเห็นว่าแต่ละตัว ห่างกันเท่ากับ 4 ดังนั้น คำตอบคือ 4+21=25 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_9131721.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+	
+
+	
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0516:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+8     15    	22    29     ____	&lt;br /&gt; 
+	
+	</question>
+    <choice_A>51</choice_A>
+    <choice_B>45</choice_B>
+    <choice_C>36</choice_C>
+    <choice_D>65</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+8     15    	22    29     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม เพิ่มขึ้นอย่างต่อเนื่อง และเพิ่มขึ้นครั้งละ 7 เท่า ๆ กัน แสดงว่า เพิ่มขึ้นโดยการบวกด้วย 7 ดังนั้น คำตอบคือ 29+7 = 36 &lt;br /&gt;&lt;br /&gt;
+
+หรือจะลองหาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะเห็นว่าแต่ละตัว ห่างกันเท่ากับ 7 ดังนั้น คำตอบคือ 29+7 = 36 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_81522.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0517:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+58     54    	50    46     ____	&lt;br /&gt; 
+	
+	</question>
+    <choice_A>42</choice_A>
+    <choice_B>54</choice_B>
+    <choice_C>35</choice_C>
+    <choice_D>24</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+58     54    	50    46     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม อนุกรมชุดนี้มีค่าลดลงอย่างต่อเนื่อง แสดงว่า อาจจะมีการลบ ไม่น่าจะมีการหาร เพราะลดลงไม่มาก &lt;br /&gt;&lt;br /&gt;
+
+ลองหาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะเห็นว่าแต่ละตัว ห่างกันเท่ากับ 4 ดังนั้น คำตอบคือ 46-4=42 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_585450.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0518:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+	3    	9    	12    	21    	33      ____ &lt;br /&gt;    
+
+	</question>
+    <choice_A>42</choice_A>
+    <choice_B>54</choice_B>
+    <choice_C>66</choice_C>
+    <choice_D>59</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+3    	9    	12    	21    	33      ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม เพิ่มขึ้นอย่างต่อเนื่อง แต่เพิ่มขึ้นครั้งละไม่มาก แสดงว่า อาจจะเพิ่มด้วยการบวก แต่มีข้อสังเกตว่า 3 หารได้ทุกจำนวน  ไม่น่าจะมีการยกกำลัง เพราะเพิ่มขึ้นไม่มาก ลองหาค่าความแตกต่างระหว่างตัวเลข ได้ &lt;br /&gt;&lt;br /&gt;
+
+ขั้นแรกลองเอา 3 หาร ผลที่ได้คือ 1-3-4-7-11 ไม่น่ามีเป็นระบบ&lt;br /&gt;
+ขั้นที่สอง ลองหาผลต่างระหว่างตัวเลข ดู ผลที่ได้คือ 6-3-9-12 ตัวเลขมีขึ้นลง ไม่น่ามีเป็นระบบ&lt;br /&gt;
+ขั้นที่สาม ลองเอาจำนวนหน้าบวกลบกัน พบว่า สองตัวแรกบวกกัน ได้ตัวที่สาม และนี่คือระบบ ดังนั้น คำตอบคือ 21+33=54 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_391221.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+<!-- XX -->
+  <thisQuestion>
+    <qNum>id1655093188_katex:date1655093187</qNum>
+    <question>ข้อสอบเสมือนจริง ปี 60
+คำสั่ง: เติมตัวเลขที่ขาดหายไป
+
+1&#160;&#160;&#160;2&#160;&#160;&#160;8&#160;&#160;&#160;64&#160;&#160;&#160;...........
+
+	</question>
+    <choice_A>256</choice_A>
+    <choice_B>512</choice_B>
+    <choice_C>1024</choice_C>
+    <choice_D>2048</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>ข้อสอบเสมือนจริง ปี 60&lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+1&#160;&#160;&#160;2&#160;&#160;&#160;8&#160;&#160;&#160;64&#160;&#160;&#160;...........&lt;br /&gt;&lt;br /&gt;
+
+สังเกตตัวเลขเพิ่มขึ้นมาก ต้องมีการคูณ หรือยกกำลังแน่นอน&lt;br /&gt;&lt;br /&gt;
+2, 8, 64 ตัวเลขคุ้น ๆ ยกกำลังได้แน่นอน&lt;br /&gt;&lt;br /&gt;
+        1 = 2&lt;sup&gt;0&lt;/sup&gt; &lt;br /&gt;
+2 = 2&lt;sup&gt;1&lt;/sup&gt; &lt;br /&gt;
+8 = 2 x 2 x 2 หรือ 2&lt;sup&gt;3&lt;/sup&gt; &lt;br /&gt;
+64 = 8 x 8 = (2 x 2 x 2) x (2 x 2 x 2) หรือ  2&lt;sup&gt;6&lt;/sup&gt; &lt;br /&gt;
+
+สังเกตดูจะเห็นว่า เลขฐาน คือ 2 และยกกำลังเพิ่มขึ้นเรื่อย ๆ &lt;br /&gt;
+คือ ยกกำลัง  0-1-3-6 ...&lt;br /&gt;&lt;br /&gt;
+        เลขยกกำลังตัวต่อไป คือ 6+4 ซึ่งก็คือ 2&lt;sup&gt;10&lt;/sup&gt; &lt;br /&gt;
+        2&lt;sup&gt;10&lt;/sup&gt; = 1024 &lt;br /&gt;&lt;br /&gt;
+
+คำตอบ คือ 1024&lt;br /&gt;
+ดังภาพ  &lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/real_12864_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+        ถ้าใครไม่ถนัดเรื่องการยกกำลังสอง ก็อาจจะใช้การตีแฉก &lt;br /&gt;
+        เนื่องจากจะสังเกตเห็นว่า ตัวเลขเพิ่มขึ้นตอนแรกน้อย แต่ตอนหลัง มาก  &lt;br /&gt;
+        อย่างนี้ แสดงว่า ต้องเป็นการเพิ่ม แบบคูณ หรือไม่งั้นก็เป็นการยกกำลัง &lt;br /&gt; &lt;br /&gt;
+
+        การตีแฉก ลองใช้การคูณก่อน &lt;br /&gt;
+        จาก 1 ไป 2 คูณด้วย 2 &lt;br /&gt;
+        จาก 2 ไป 8 คูณด้วย 4 &lt;br /&gt;
+        จาก 8 ไป 64 คูณด้วย 8 &lt;br /&gt;
+        ตัวต่อไป ต้องเป็น 16 &lt;br /&gt; &lt;br /&gt;
+
+        สรุปแล้ว จะได้คำตอบ 1024 &lt;br /&gt;
+        ดังภาพ&lt;br /&gt;
+        &lt;img src=&quot;asset:assets/data/images/real_12864.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+ถ้าใครจำ เลข 2 ยกกำลังได้ ตรงนี้จะเร็วมากเลยนะครับ&lt;br /&gt;
+เอามาไว้ที่นี่ เผื่อให้คุ้นตา ถ้าจำได้ ก็จะดีมาก&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;2^{0} = 1&lt;/tex&gt; &lt;br /&gt;
+เลขอะไรก็ตาม ยกกำลัง 0 จะได้ 1 เสมอ (ยกเว้นเลข 0 ยกกำลังไม่ได้)&lt;br /&gt;
+&lt;tex&gt;2^{1} = 2&lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;2^{2} = 4&lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;2^{3} = 8&lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;2^{4} = 16&lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;2^{5} = 32&lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;2^{6} = 64&lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;2^{7} = 128&lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;2^{8} = 256&lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;2^{9} = 512&lt;/tex&gt;&lt;br /&gt;
+&lt;tex&gt;2^{10} = 1024&lt;/tex&gt;&lt;br /&gt;
+	</explanation>
+   <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+<!-- XX -->
+  <thisQuestion>
+    <qNum>id1655093189:date1655093187</qNum>
+    <question>ข้อสอบเสมือนจริง ปี 60&lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+3&#160;&#160;&#160;4&#160;&#160;&#160;5&#160;&#160;&#160;12&#160;&#160;&#160;21&#160;&#160;&#160;38&#160;&#160;&#160;........&lt;br /&gt;
+
+	</question>
+    <choice_A>47</choice_A>
+    <choice_B>59</choice_B>
+    <choice_C>63</choice_C>
+    <choice_D>71</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+3&#160;&#160;&#160;4&#160;&#160;&#160;5&#160;&#160;&#160;12&#160;&#160;&#160;21&#160;&#160;&#160;38&#160;&#160;&#160;........&lt;br /&gt;&lt;br /&gt;
+
+เลขหลายจำนวน ลองตรวจทีแรกเลย ว่าเป็นอนุกรมซ้อนกันหรือไม่ &lt;br /&gt;
+ไม่น่าจะใช่&lt;br /&gt;&lt;br /&gt;
+
+เป็นแบบสะสมหรือไม่&lt;br /&gt;
+3+4 ไม่ได้เท่ากับ 9&lt;br /&gt;
+ลองดู 3 ตัวบ้าง&lt;br /&gt;
+3+4+5 = 12&lt;br /&gt;
+4+5+12 = 21&lt;br /&gt;
+ใช่เลย &lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ 71&lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ  &lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/nbr_345122138.png&quot;&gt;&lt;br /&gt;
+
+เทคนิค คือ ลองเชคง่าย ๆ ดูก่อน เช่น อนุกรมซ้อนกันไหม เป็นแบบสะสมไหม&lt;br /&gt;
+บวก ลบ คูณ กันแล้ว ได้เป็นตัวถัดไป หรือ บวกเพิ่มอีกนิดหน่อยหรือเปล่า&lt;br /&gt;&lt;br /&gt;
+
+ถ้าอย่างนี้แล้วยังไม่ได้ ลองตีแฉก(หลัง-หน้า) ดูหน่อนนึง พอได้ไหม&lt;br /&gt;&lt;br /&gt;
+
+ถ้ายังไม่ได้ ให้กาไว้ก่อน แล้วไปทำข้ออื่น ถ้ามีเวลาเหลือ จึงค่อยกลับมาทำทีหลัง&lt;br /&gt;
+	</explanation>
+   <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+<!-- XX -->
+  <thisQuestion>
+    <qNum>id1655093190:date1655093187</qNum>
+    <question>ข้อสอบเสมือนจริง ปี 60&lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+2&#160;&#160;&#160;4&#160;&#160;&#160;7&#160;&#160;&#160;9&#160;&#160;&#160;13&#160;&#160;&#160;16&#160;&#160;&#160;20&#160;&#160;&#160;...... 
+
+	</question>
+    <choice_A>24</choice_A>
+    <choice_B>25</choice_B>
+    <choice_C>26</choice_C>
+    <choice_D>27</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+
+2&#160;&#160;&#160;4&#160;&#160;&#160;7&#160;&#160;&#160;9&#160;&#160;&#160;13&#160;&#160;&#160;16&#160;&#160;&#160;20&#160;&#160;&#160;...... 
+&lt;br /&gt;&lt;br /&gt;
+
+เจอเลขหลายตัวแบบนี้ ให้เชคก่อนว่า มีอนุกรมซ้อนกันหรือไม่ &lt;br /&gt;
+เจอทันที&lt;br /&gt;
+2, 7, 13, 20&lt;br /&gt;
+เพิ่ม 5, 6, 7&lt;br /&gt;&lt;br /&gt;
+
+อีกชุดที่ต้องการคำตอบ คือ&lt;br /&gt;
+4, 9, 16, แล้วเลขอะไร&lt;br /&gt;
+จะเห็นว่า 4, 9, 16 นี่ยกกำลังได้ &lt;br /&gt;
+คือ ยกกำลังสองของ  2,3,4 ตามลำดับ &lt;br /&gt;
+ต่อไปคือ 5 ยกกำลัง 2&lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบ 25&lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_2479131620.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+   <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+<!-- XX -->
+  <thisQuestion>
+    <qNum>id1655093191:date1655093187</qNum>
+    <question>ข้อสอบเสมือนจริง ปี 60&lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+3&#160;&#160;&#160;6&#160;&#160;&#160;108&#160;&#160;&#160;310&#160;&#160;&#160;614&#160;&#160;&#160;1021&#160;&#160;&#160;......
+
+	</question>
+    <choice_A>1533</choice_A>
+    <choice_B>1635</choice_B>
+    <choice_C>1331</choice_C>
+    <choice_D>1429</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+
+3&#160;&#160;&#160;6&#160;&#160;&#160;108&#160;&#160;&#160;310&#160;&#160;&#160;614&#160;&#160;&#160;1021&#160;&#160;&#160;......
+&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ตัวเลขเพิ่มขึ้นเรื่อย ๆ &lt;br /&gt;
+ลองดูแบบ 2 อนุกรมก่อน&lt;br /&gt;
+ไม่น่าจะมี&lt;br /&gt;&lt;br /&gt;
+
+ลองดูแบบสะสม ไม่น่าจะใช่เพราะเลขห่างกันเยอะ&lt;br /&gt;
+2 ตัว 3 ตัว ก็ไม่น่าจะใช่&lt;br /&gt;&lt;br /&gt;
+
+ลองคูณกันดู&lt;br /&gt;&lt;br /&gt;
+ก็ไม่น่าจะใช่ &lt;br /&gt;&lt;br /&gt;
+
+อย่างนี้น่าจะยาก ใช้เวลามากเกินไป ถ้าทำจริง ต้องเก็บไว้ก่อน&lt;br /&gt;&lt;br /&gt;
+
+เฉลยคือ ตีแฉก(หลัง-หน้า) &lt;br /&gt;
+คำตอบคือ 1533&lt;br /&gt;
+ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_361083106141021.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+   <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+<!-- XX -->
+  <thisQuestion>
+    <qNum>id1655093192:date1655093187</qNum>
+    <question>ข้อสอบเสมือนจริง ปี 60&lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+17&#160;&#160;&#160;30&#160;&#160;&#160;53&#160;&#160;&#160;91&#160;&#160;&#160;151&#160;&#160;&#160;242&#160;&#160;&#160;375&#160;&#160;&#160;......&lt;br /&gt;
+	</question>
+    <choice_A>451</choice_A>
+    <choice_B>563</choice_B>
+    <choice_C>592</choice_C>
+    <choice_D>451</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+
+17&#160;&#160;&#160;30&#160;&#160;&#160;53&#160;&#160;&#160;91&#160;&#160;&#160;151&#160;&#160;&#160;242&#160;&#160;&#160;375&#160;&#160;&#160;......&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ ตัวเลขเพิ่มขึ้นเรื่อย ๆ น่าจะมีการบวก ไม่น่ามีการยกกำลัง&lt;br /&gt;
+เชค 2 อนุกรม - ไม่มี&lt;br /&gt;
+แบบสะสม ใช่หรือไม่ - ไม่ใช่&lt;br /&gt;
+คูณด้วย 2 แล้วลบออก - ไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ น่าจะยาก เก็บไว้ทำทีหลัง&lt;br /&gt;&lt;br /&gt;
+
+สุดท้ายถ้ามีเวลา ลองตีแฉก(หลัง-หน้า) จะได้ คำตอบ 563 &lt;br /&gt;
+ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_17305391151242375.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+   <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+<!-- XX -->
+  <thisQuestion>
+    <qNum>id1655093193_katex:date1655093187</qNum>
+    <question>ข้อสอบเสมือนจริง ปี 60&lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+ &lt;tex&gt;\frac{7}{12}\quad\frac{12}{18}\quad\frac{19}{27}\quad\frac{29}{39}\quad\frac{43}{54}\quad.......&lt;/tex&gt;
+	</question>
+    <choice_A>&lt;tex&gt;\frac{62}{72}&lt;/tex&gt;</choice_A>
+    <choice_B>&lt;tex&gt;\frac{57}{84}&lt;/tex&gt;</choice_B>
+    <choice_C>&lt;tex&gt;\frac{62}{74}&lt;/tex&gt;</choice_C>
+    <choice_D>&lt;tex&gt;\frac{57}{82}&lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;br /&gt;
+        &lt;tex&gt;\frac{7}{12}\quad\frac{12}{18}\quad\frac{19}{27}\quad\frac{29}{39}\quad\frac{43}{54}\quad.......&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+เป็นเศษส่วน&lt;br /&gt;
+ลองดูความสัมพันธ์ระหว่างเศษและส่วนตัวหน้า กับเศษและส่วนตัวหลัง&lt;br /&gt;
+ไม่น่าจะได้&lt;br /&gt;&lt;br /&gt;
+
+งั้นลองดู เศษของทุกตัว คิดเป็นอนุกรม 1 ชุด&lt;br /&gt;
+และส่วนของทุกตัว คิดเป็นอนุกรมอีก 1 ชุด&lt;br /&gt;&lt;br /&gt;
+
+ตีแฉก(หลัง-หน้า)ดู ก็จะได้คำตอบ คือ &lt;tex&gt;\frac{62}{72}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ  &lt;br /&gt;
+
+
+        &lt;img src=&quot;asset:assets/data/images/712192943.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+   <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+<!-- XX -->
+  <thisQuestion>
+    <qNum>id1655093194:date1655093187</qNum>
+    <question>ข้อสอบเสมือนจริง ปี 60&lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+3&#160;&#160;&#160;7 &#160;&#160;&#160;15&#160;&#160;&#160; 31&#160;&#160;&#160; 63&#160;&#160;&#160; 127&#160;&#160;&#160; ......&lt;br /&gt;
+
+	</question>
+    <choice_A>255</choice_A>
+    <choice_B>345</choice_B>
+    <choice_C>365</choice_C>
+    <choice_D>480</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+
+3&#160;&#160;&#160;7 &#160;&#160;&#160;15&#160;&#160;&#160; 31&#160;&#160;&#160; 63&#160;&#160;&#160; 127&#160;&#160;&#160; ......&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลขเพิ่มขึ้นเรื่อย ๆ ตัวหลังเพิ่มเยอะ&lt;br /&gt;
+น่าจะมีการคูณ หรือยกกำลัง&lt;br /&gt;&lt;br /&gt;
+
+เชคแบบสะสม - ไม่ใช่&lt;br /&gt;
+อนุกรม 2 ชุด ก็ไม่ใช่&lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉก(หลัง-หน้า)&lt;br /&gt;&lt;br /&gt;
+
+ห่างกัน 4-8-16-32&lt;br /&gt;
+คูณด้วย 2&lt;br /&gt;
+4x2 = 8, 8x2 = 16, 16x2 = 32&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 255&lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_37153163127.png&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;
+    ขอบคุณ น้องภัสสร กรีสอนคม ที่ช่วยตรวจสอบข้อนี้
+&lt;br /&gt;
+	</explanation>
+   <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+<!-- XX -->
+  <thisQuestion>
+    <qNum>id1655093195_katex:date1655093187</qNum>
+    <question>ข้อสอบเสมือนจริง ปี 60
+คำสั่ง: เติมตัวเลขที่ขาดหายไป
+
+1&#160;&#160;&#160; 32&#160;&#160;&#160; 81&#160;&#160;&#160; 64&#160;&#160;&#160; 25&#160;&#160;&#160;6&#160;&#160;&#160; .......
+
+
+	</question>
+    <choice_A>0</choice_A>
+    <choice_B>1</choice_B>
+    <choice_C>2</choice_C>
+    <choice_D>4</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+
+1&#160;&#160;&#160; 32&#160;&#160;&#160; 81&#160;&#160;&#160; 64&#160;&#160;&#160; 25&#160;&#160;&#160;6&#160;&#160;&#160; .......&lt;br /&gt;&lt;br /&gt;
+
+เห็นเลข 81, 64, 25 แสดงว่า ต้องเกี่ยวกับการยกกำลัง&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลข มากขึ้น ลดลง อาจมีการยกกำลังสวนกัน&lt;br /&gt;&lt;br /&gt;
+
+        &lt;tex&gt;25 \; มียกกำลังได้ \;ตัวเดียว \;คือ\;5^{2}&lt;/tex&gt;&lt;br /&gt;
+        &lt;tex&gt;64 \; เอา\; 4\; ยกกำลังได้ \;คือ \; 4^{3}&lt;/tex&gt;&lt;br /&gt;
+        &lt;tex&gt;81 \; เอา \;3 \;ยกกำลังได้ \;คือ \; 3^{4}&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น จะเห็นว่า มีการยกกำลัง และตัวเลขที่นำมายกกำลัง สวนทางกัน&lt;br /&gt;&lt;br /&gt;
+คำตอบคือ 1&lt;br /&gt;
+เลขที่ยกกำลังด้วย เลขศูนย์ จะได้เท่ากับ 1 (ยกเว้นเลข 0 ยกกำลังไม่ได้)
+&lt;br /&gt;
+ดังภาพ  &lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/nbr_1328164256.png&quot;&gt;&lt;br /&gt;
+	</explanation>
+   <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+<!-- XX -->
+  <thisQuestion>
+    <qNum>id1655093196:date1655093187</qNum>
+    <question>ข้อสอบเสมือนจริง ปี 60&lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+-4&#160;&#160;&#160; 5&#160;&#160;&#160; 8&#160;&#160;&#160; 14&#160;&#160;&#160; 23&#160;&#160;&#160; 26&#160;&#160;&#160; 32&#160;&#160;&#160; .......&lt;br /&gt;
+	</question>
+    <choice_A>32</choice_A>
+    <choice_B>36</choice_B>
+    <choice_C>41</choice_C>
+    <choice_D>45</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+-4&#160;&#160;&#160; 5&#160;&#160;&#160; 8&#160;&#160;&#160; 14&#160;&#160;&#160; 23&#160;&#160;&#160; 26&#160;&#160;&#160; 32&#160;&#160;&#160; .......&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลขเพิ่มขึ้นไม่มากนัก น่าจะเป็นการบวก&lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า)หาความแตกต่างดู&lt;br /&gt;&lt;br /&gt;
+
+5-(-4) = 5 + 4 = 9&lt;br /&gt;
+8-5 = 3&lt;br /&gt;
+14-8 = 6&lt;br /&gt;&lt;br /&gt;
+
+จะเห็นว่า มีรูปแบบ คือ +9, +3, +6&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 41 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_45814232632.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ระวังเรื่องการ บวกลบ เลขจำนวนลบ&lt;br /&gt;
+ถ้าลบด้วยเลขจำนวนลบ ต้องใส่วงเล็กคร่อม&lt;br /&gt;
+ลบ คูณ ลบ ได้ บวก นั่นคือ&lt;br /&gt;
+5 -(-4) = 9&lt;br /&gt;
+
+
+
+	</explanation>
+   <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+<!-- XX -->
+  <thisQuestion>
+    <qNum>id1655093197_katex:date1655093187</qNum>
+    <question>ข้อสอบเสมือนจริง ปี 60&lt;br /&gt;
+คำสั่ง: เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{4}{5} \quad \frac{9}{13} \quad \frac{22}{31} \quad \frac{53}{75} \quad &lt;/tex&gt;  .......&lt;br /&gt;
+
+	</question>
+    <choice_A>&lt;tex&gt;\frac{128}{181}&lt;/tex&gt;</choice_A>
+    <choice_B>&lt;tex&gt;\frac{128}{192}&lt;/tex&gt;</choice_B>
+    <choice_C>&lt;tex&gt;\frac{182}{181}&lt;/tex&gt;</choice_C>
+    <choice_D>&lt;tex&gt;\frac{128}{182}&lt;/tex&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>ข้อสอบเสมือนจริง ปี 60&lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+        &lt;tex&gt;\frac{4}{5} \quad \frac{9}{13} \quad \frac{22}{31} \quad \frac{53}{75} \quad &lt;/tex&gt;  .......&lt;br /&gt;&lt;br /&gt;
+
+ลองดูแบบ เศษทั้งหมด เป็นอนุกรม ชุดนึง และส่วนทั้งหมด เป็นอนุกรม อีกชุดนึง&lt;br /&gt;
+ไม่น่าจะใช่ เพราะ 4 ไป 9 ไป 22 ไม่น่าจะมีความสัมพันธ์อะไรกัน&lt;br /&gt;&lt;br /&gt;
+
+ลองดูแบบ เศษส่วนของคู่แรก กับเศษหรือส่วนของคู่ถัดไป&lt;br /&gt;
+ใช่เลย เพราะ &lt;br /&gt;
+3+5 = 9&lt;br /&gt;
+9+13 = 22&lt;br /&gt;
+นั่นคือ เศษ+ส่วน = เศษของตัวถัดไป&lt;br /&gt;&lt;br /&gt;
+
+ทีนี้ ส่วนของตัวถัดไป ก็เกิดจาก&lt;br /&gt;
+เศษของตัวหน้า + เศษของตัวเอง = ส่วนของตัวเอง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ &lt;tex&gt;\frac{128}{181}&lt;/tex&gt;
+
+    &lt;br /&gt;ดังภาพ  &lt;br /&gt;
+
+        &lt;img src=&quot;asset:assets/data/images/nbr_492253.png&quot;&gt;&lt;br /&gt;
+        &lt;br /&gt;
+        ขอบคุณ น้อง greesornkhom ที่ตรวจสอบข้อนี้
+	</explanation>
+   <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+
+
+
+
+
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0519:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+20     24     33      49     74        ____ &lt;br /&gt;
+	</question>
+    <choice_A>115</choice_A>
+    <choice_B>88</choice_B>
+    <choice_C>96</choice_C>
+    <choice_D>110</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+20     24     33      49     74        ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม มีเพิ่มขึ้น คราวละไม่มาก อาจจะมีคูณกัน หรือบวกกัน หรือ อาจจะลองตีแฉกดู &lt;br /&gt;&lt;br /&gt;
+ลองตีแฉก หาความแตกต่าง โดยเอาตัวหลังตั้ง ตัวหน้าลบ (เพราะตัวหลังมากกว่า น่าจะลบได้สะดวกกว่า)&lt;br /&gt;&lt;br /&gt;
+24-20 = 4&lt;br /&gt;
+33-24 = 9&lt;br /&gt;
+49-33 = 16&lt;br /&gt;
+ตัวเลขที่ต่างกันที่ได้ คือ 4, 9, 16&lt;br /&gt;&lt;br /&gt;
+ดูจากตัวเลขคุ้น ๆ คือ ถ้าเอา 2, 3, 4 มายกกำลัง 2 ก็จะได้  4, 9, 16&lt;br /&gt;
+
+
+
+2&lt;sup&gt;2&lt;/sup&gt; = 4&lt;br /&gt;
+3&lt;sup&gt;2&lt;/sup&gt; = 9&lt;br /&gt;
+4&lt;sup&gt;2&lt;/sup&gt;= 16&lt;br /&gt;&lt;br /&gt;
+
+∴ ระบบน่าจะเป็น เลขตัวหน้า บวกกับ 2, 3, 4, 5, 6, ... ยกกำลังสอง
+
+	&lt;img src=&quot;asset:assets/data/images/nbr_20243349.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0520:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	    
+	2     4     6      10     18        ____ &lt;br /&gt;
+	</question>
+    <choice_A>24</choice_A>
+    <choice_B>34</choice_B>
+    <choice_C>28</choice_C>
+    <choice_D>32</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+2     4     6      10     18        ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม มีเพิ่มขึ้น คราวละไม่มาก อาจจะมีคูณกัน หรือบวกกัน หรือ อาจจะลองตีแฉก(หลัง-หน้า)ดู &lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉก(หลัง-หน้า) ดูความแตกต่าง เพื่อหาระบบ&lt;br /&gt;&lt;br /&gt;
+
+สุดท้ายจะได้ระบบ คือ บวกด้วย 2 &lt;br /&gt;&lt;br /&gt;
+ดังภาพ  &lt;br /&gt;
+
+
+
+	&lt;img src=&quot;asset:assets/data/images/nbr_246101832.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0521:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+21     15    	9    3     ____	&lt;br /&gt; 
+	
+	</question>
+    <choice_A>-3</choice_A>
+    <choice_B>-1</choice_B>
+    <choice_C>0</choice_C>
+    <choice_D>1</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+21     15    	9    3     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม อนุกรมชุดนี้มีค่าลดลงอย่างต่อเนื่อง แสดงว่า อาจจะมีการลบ &lt;br /&gt;&lt;br /&gt;
+
+ลองหาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะเห็นว่าแต่ละตัว ห่างกันเท่ากับ 6 ดังนั้น คำตอบคือ 3-6= -3 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_211593.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คิดอีกอย่าง&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+จะเห็นว่า เราสามารถเอา 3 หารได้ทุกตัว ผลลัพธ์ที่ได้ คือ 7 5 3 1 ซึ่งจะพบว่า เป็นเลขคี่ลดลงเรื่อย ๆ ดังนั้นตัวต่อไป คือ -1 คำตอบคือ 3 x (-1) = -3 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_211593_2.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;หมายเหตุ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;	
+
+การลดลงของเลขคี่ มีดังนี้&lt;br /&gt;
+7,	5,	3,	1,	-1,	-3,	-5,  ...&lt;br /&gt;&lt;br /&gt;	
+
+</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- xx -->
+  <thisQuestion>
+    <qNum>id0522:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง:&lt;/strong&gt; เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+	32     81      64     25     ____&lt;br /&gt;
+
+	</question>
+    <choice_A>6</choice_A>
+    <choice_B>7</choice_B>
+    <choice_C>8</choice_C>
+    <choice_D>9</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+	32     81      64     25     ____&lt;br /&gt;&lt;br /&gt; 
+
+
+ในภาพรวมข้อนี้ จะเห็นว่าตัวเลขส่วนใหญ่น่าจะยกกำลังได้ เช่น 81, 64, 25 เป็นต้น
+
+        ลองยกกำลัง
+        25 = 5&lt;sup&gt;2&lt;/sup&gt;
+        64 = 8&lt;sup&gt;2&lt;/sup&gt; หรือ 4&lt;sup&gt;3&lt;/sup&gt;
+        81 = 9&lt;sup&gt;2&lt;/sup&gt; หรือ 3&lt;sup&gt;4&lt;/sup&gt;
+
+        ดูว่า 5, 8, 9 ไม่น่าจะสัมพันธ์กันเท่าไร
+        แต่ 5, 4, 3 เป็นเลขเรียงกัน
+        ดังนั้น 32 น่าจะเท่ากับ 2&lt;sup&gt;5&lt;/sup&gt; = 2×2×2×2×2 = 32
+
+        ได้ระบบแล้ว ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_328164.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในการแก้ปัญหาโจทย์อนุกรมตัวเลข ถ้าจำเลขยกกำลังสองได้มาก ก็จะทำให้แก้ปัญหาได้เร็วขึ้น เพราะถ้าพบตัวเลขเหล่านี้ แสดงว่าเป็นเลขยกกำลัง หรือ ถ้าเป็นตัวเลขที่มีค่าใกล้กัน ก็อาจจะมีการยกกำลังแล้วมีการบวกหรือลบเพิ่ม&lt;br /&gt;&lt;br /&gt;
+
+เลขยกกำลัง เช่น &lt;br /&gt;&lt;br /&gt;
+
+สองยกกำลัง เช่น&lt;br /&gt;
+2&lt;sup&gt;2&lt;/sup&gt;=4  2&lt;sup&gt;3&lt;/sup&gt;=8  2&lt;sup&gt;4&lt;/sup&gt;=16  2&lt;sup&gt;5&lt;/sup&gt;=32  2&lt;sup&gt;6&lt;/sup&gt;=64  2&lt;sup&gt;7&lt;/sup&gt;=128  2&lt;sup&gt;8&lt;/sup&gt;=256  2&lt;sup&gt;9&lt;/sup&gt;=512  2&lt;sup&gt;10&lt;/sup&gt;=1024&lt;br /&gt;&lt;br /&gt;
+
+สามยกกำลัง เช่น&lt;br /&gt;
+3&lt;sup&gt;2&lt;/sup&gt;=9  3&lt;sup&gt;3&lt;/sup&gt;=27  3&lt;sup&gt;4&lt;/sup&gt;=81  3&lt;sup&gt;5&lt;/sup&gt;=243  3&lt;sup&gt;6&lt;/sup&gt;=729  3&lt;sup&gt;7&lt;/sup&gt;=2187&lt;br /&gt;&lt;br /&gt;
+
+สี่ยกกำลัง เช่น		&lt;br /&gt;
+4&lt;sup&gt;2&lt;/sup&gt;=16  4&lt;sup&gt;3&lt;/sup&gt;=64  4&lt;sup&gt;4&lt;/sup&gt;=256  4&lt;sup&gt;5&lt;/sup&gt;=1024&lt;br /&gt;&lt;br /&gt;
+
+ห้ายกกำลัง เช่น&lt;br /&gt;
+5&lt;sup&gt;2&lt;/sup&gt;=25  5&lt;sup&gt;3&lt;/sup&gt;=125  5&lt;sup&gt;4&lt;/sup&gt;=625&lt;br /&gt;&lt;br /&gt;
+
+หกยกกำลัง เช่น&lt;br /&gt;
+6&lt;sup&gt;2&lt;/sup&gt;=36  6&lt;sup&gt;3&lt;/sup&gt;=216  6&lt;sup&gt;4&lt;/sup&gt;=1296&lt;br /&gt;&lt;br /&gt;
+
+เจ็ดยกกำลัง 	เช่น&lt;br /&gt;
+7&lt;sup&gt;2&lt;/sup&gt;=49  7&lt;sup&gt;3&lt;/sup&gt;=343&lt;br /&gt;&lt;br /&gt;
+
+แปดยกกำลัง  เช่น	&lt;br /&gt;
+8&lt;sup&gt;2&lt;/sup&gt;=64  8&lt;sup&gt;3&lt;/sup&gt;=512&lt;br /&gt;&lt;br /&gt;
+
+เก้า	ยกกำลัง เช่น&lt;br /&gt;
+9&lt;sup&gt;2&lt;/sup&gt;=81  9&lt;sup&gt;3&lt;/sup&gt;729&lt;br /&gt;&lt;br /&gt;
+
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- yes for showing explanation -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0523:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+20     100    	500     ____	&lt;br /&gt;
+	
+	</question>
+    <choice_A>1000</choice_A>
+    <choice_B>1500</choice_B>
+    <choice_C>2500</choice_C>
+    <choice_D>150000</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+20     100    	500     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าเพิ่มขึ้นอย่างต่อเนื่องและเพิ่มจำนวนมาก แสดงว่า อาจจะมีการคูณ หรือยกกำลัง &lt;br /&gt;&lt;br /&gt; 
+
+ลองหาผลต่างระหว่างตัวเลข &lt;br /&gt;&lt;br /&gt;
+
+จาก 20 ไป 100 คือ 20x5 หรือ 20+80&lt;br /&gt;
+จาก 100 ไป 500 คือ 100x5 หรือ 100+400&lt;br /&gt;&lt;br /&gt;
+
+สรุปเป็นกฎได้ คือ ตัวแรกคูณด้วย 5 จะได้ตัวถัดไป&lt;br /&gt;&lt;br /&gt;
+
+หรือ จะหาผลต่างระหว่างตัวเลข โดยเอาตัวหลังตั้งแล้วหารด้วยตัวหน้า จะได้เท่ากับ 5 แสดงว่า ต้องเอา 5 คูณตัวหน้าจะได้ค่าตัวถัดไป หรือพูดอีกอย่างได้ว่า เพิ่มขึ้นเป็น 5 เท่า &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 500x5=2500 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_20100500.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0524:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+350     315     265    200     ____ &lt;br /&gt; 
+	
+	</question>
+    <choice_A>120</choice_A>
+    <choice_B>110</choice_B>
+    <choice_C>100</choice_C>
+    <choice_D>135</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+350     315    	265    200     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าลดลงอย่างต่อเนื่องและลดไม่มาก แสดงว่า อาจจะมีการลบ น่าจะไม่ใช่หาร หรือยกกำลัง&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ลบ -35, -50, -65&lt;br /&gt;&lt;br /&gt;
+
+ลองหา ผลต่างระหว่างตัวเลข อีกชั้นจะเห็นระบบว่า ต่างกันอยู่ 15 เท่ากันทุกจำนวน &lt;br /&gt;&lt;br /&gt;
+
+        -50-(-35) = -50+35 = -15&lt;br /&gt;
+        -65-(-50) = -65+50 = -15&lt;br /&gt;&lt;br /&gt;
+
+
+        เมื่อคำนวณกลับขึ้นไป จะได้คำตอบ 120 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_350315.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0525:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+2     5    	10    17    26     ____	&lt;br /&gt;
+
+	</question>
+    <choice_A>43</choice_A>
+    <choice_B>40</choice_B>
+    <choice_C>37</choice_C>
+    <choice_D>35</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+2     5    	10    17    26     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าเพิ่มขึ้นอย่างต่อเนื่อง เพิ่มขึ้นไม่เท่ากัน และเพิ่มไม่มาก แสดงว่า อาจจะมีการบวก น่าจะไม่ใช่คูณ หรือยกกำลัง&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้บวก +3,	+5,	+7,	+9 ตามลำดับ เท่านี้ก็พอจะเห็นระบบแล้ว เป็นเลขคี่ ตัวต่อไปต้องบวกด้วย 11 นั่นคือ จะได้คำตอบเท่ากับ 26+11 = 37&lt;br /&gt;&lt;br /&gt;
+
+หรือจะลองหา ผลต่างระหว่างตัวเลข อีกชั้น ก็จะเห็นว่าเพิ่มขึ้นทีละ 2 และเมื่อคำนวณกลับขึ้นไป จะได้คำตอบ เท่ากับ 37 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_25101726.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id0526:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+7     3    	10    13     23     ____	&lt;br /&gt;	
+
+	</question>
+    <choice_A>30</choice_A>
+    <choice_B>32</choice_B>
+    <choice_C>43</choice_C>
+    <choice_D>36</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+
+7     3    	10    13     23     ____	&lt;br /&gt;	&lt;br /&gt;
+
+ดูภาพรวม มีตัวเลอนุกรมชุดนี้มีค่าเพิ่มขึ้นและลดลง ต่างกันไม่มากนัก มีไม่หลายจำนวน เข้าลักษณะ รูปแบบสะสม ถ้าไม่ใช่เดี๋ยวค่อยตีแฉก
+ &lt;br /&gt;&lt;br /&gt;
+
+เชครูปแบบสะสม โดยเอา 2-3 ตัวหน้ารวมกัน เป็นตัวถัดไปหรือไม่ &lt;br /&gt;&lt;br /&gt;
+
+        7+3 = 10&lt;br /&gt;
+        3+10 = 13&lt;br /&gt;
+        10+13 = 23&lt;br /&gt;&lt;br /&gt;
+
+        สรุปว่า เป็นแบบสะสม&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 13+23 = 36 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_731013.png&quot;&gt;&lt;br /&gt;	
+	
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 1 -->
+  <thisQuestion>
+    <qNum>id0527:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+3      9    	27    81     ____	&lt;br /&gt;
+
+	</question>
+    <choice_A>100</choice_A>
+    <choice_B>191</choice_B>
+    <choice_C>243</choice_C>
+    <choice_D>729</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+3      9    	27    81     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม 9,81 เป็นตัวเลขคุ้น ๆ ที่ยกกำลังได้ ตัวเลขมีค่าเพิ่มขึ้นอย่างต่อเนื่องค่อนข้างมาก &lt;br /&gt;
+        ดูเหมือนจะเอา 3 หารได้ทั้งหมด ลองเอา 3 ยกกำลังดู&lt;br /&gt;&lt;br /&gt;
+
+3&lt;sup&gt;1&lt;/sup&gt; = 3&lt;br /&gt;
+3&lt;sup&gt;2&lt;/sup&gt; = 9&lt;br /&gt;
+3&lt;sup&gt;3&lt;/sup&gt; = 27&lt;br /&gt;
+3&lt;sup&gt;4&lt;/sup&gt; = 81&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น คำตอบคือ 3&lt;sup&gt;5&lt;/sup&gt; = 243 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_3927.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 2 -->
+  <thisQuestion>
+    <qNum>id0528:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+30      29    	27    24     ____	&lt;br /&gt;
+	
+	</question>
+    <choice_A>20</choice_A>
+    <choice_B>18</choice_B>
+    <choice_C>19</choice_C>
+    <choice_D>22</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+30      29    	27    24     ____	&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าลดลงอย่างต่อเนื่องและลดไม่มาก แสดงว่า อาจจะมีการลบ น่าจะไม่ใช่หาร หรือยกกำลัง&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า &lt;br /&gt;&lt;br /&gt;
+
+        29-30 = -1&lt;br /&gt;
+        27-29 = -2&lt;br /&gt;
+        24-27 = -3&lt;br /&gt;&lt;br /&gt;
+
+        จะเห็นระบบ คือ ลดลง -1, -2 และ -3 &lt;br /&gt;
+        ดังนั้น ตัวต่อไปคือ -4&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 24-4=20 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_302924.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 3 -->
+  <thisQuestion>
+    <qNum>id0529:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+95      75    	55    35     ____	&lt;br /&gt;
+
+	</question>
+    <choice_A>25</choice_A>
+    <choice_B>20</choice_B>
+    <choice_C>15</choice_C>
+    <choice_D>17.5</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+95      75    	55    35     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าลดลงอย่างต่อเนื่องและลดไม่มาก แสดงว่า อาจจะมีการลบ น่าจะไม่ใช่หาร หรือยกกำลัง&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะเห็นระบบทันที คือ ลดลงครั้งละ 20 ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_957555.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 4 -->
+  <thisQuestion>
+    <qNum>id0530:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+30      31    	33    36     ____	&lt;br /&gt;
+
+	</question>
+    <choice_A>39</choice_A>
+    <choice_B>40</choice_B>
+    <choice_C>46</choice_C>
+    <choice_D>69</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+30      31    	33    36     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าเพิ่มขึ้นอย่างต่อเนื่อง เพิ่มขึ้นไม่เท่ากัน และเพิ่มไม่มาก แสดงว่า อาจจะมีการบวก&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ระบบ คือเพิ่มขึ้น +1 +2 +3 ดังนั้น คำตอบคือ 36+4=40  ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_303133.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 5 -->
+  <thisQuestion>
+    <qNum>id0531:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+12      15    	20    27     ____	&lt;br /&gt;
+
+	</question>
+    <choice_A>32</choice_A>
+    <choice_B>36</choice_B>
+    <choice_C>45</choice_C>
+    <choice_D>47</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+12      15    	20    27     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าเพิ่มขึ้นอย่างต่อเนื่อง แสดงว่า อาจจะมีการบวก  ไม่น่าจะมีการคูณ เพราะเพิ่มครั้งละไม่มากนัก&lt;br /&gt;&lt;br /&gt; 
+
+เชคแบบสะสม ไม่ใช่&lt;br /&gt;&lt;br /&gt;
+
+        ลองตึแฉก (หลัง-หน้า) หาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ระบบ คือเพิ่มขึ้น +3 +5 +7 ตัวต่อไปน่าจะเป็น +9 ดังนั้น คำตอบคือ 27+9=36  ดังภาพ  &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_121520.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 14 -->
+  <thisQuestion>
+    <qNum>id0532:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+6      3    	9    12     21     ____	&lt;br /&gt;	
+
+	</question>
+    <choice_A>26</choice_A>
+    <choice_B>31</choice_B>
+    <choice_C>33</choice_C>
+    <choice_D>38</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;
+6      3    	9    12     21     ____	&lt;br /&gt;	&lt;br /&gt;
+
+ดูภาพรวม อนุกรมชุดนี้มีค่าเพิ่มขึ้นและลดลง ไม่เป็นระบบ แสดงว่า อาจจะมีการบวกลบสลับกัน หรืออาจจะเป็นความสัมพันธ์อย่างอื่น &lt;br /&gt;&lt;br /&gt;
+
+ลองหาผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ -3, +6, +3, +12	ดูแล้วไม่น่าจะมีระบบ&lt;br /&gt;&lt;br /&gt;
+
+ลองหาความสัมพันธ์ระหว่าง ตัวที่ 1 ตัวที่ 2 และตัวที่ 3 จะเห็นว่า ตัวที่ 1 + ตัวที่ 2 เท่ากับ  ตัวที่ 3 &lt;br /&gt;
+เมื่อตรวจสอบดูทุกคู่จะเห็นว่า เป็นความจริง ดังนั้น คำตอบคือ 12+21 = 33 ดังภาพ
+&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nbr_63912.png&quot;&gt;&lt;br /&gt;	
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่แสดงคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่แสดงคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+</exams>
+
+

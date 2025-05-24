@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- 1 -->
+  <thisQuestion>
+    <qNum>id02167:date1627453500</qNum>
+    <question>
+[Q1] Instruction: Short Conversation. Choose the correct answer.
+&lt;br /&gt;&lt;br /&gt;
+A:  _____________&lt;br /&gt;
+B:  It’s 520 baht.
+    </question>
+    <choice_A>What price for this?</choice_A>
+    <choice_B>How do you charge?</choice_B>
+    <choice_C>How much does it cost?</choice_C>
+    <choice_D>How can I pay for this?</choice_D>
+    <choice_E>
+    </choice_E>
+    <explanation>
+A:  _____________.&lt;br /&gt;
+B:  It’s 520 baht.
+
+&lt;br /&gt;&lt;br /&gt;ตัวเลือกคำตอบ
+
+&lt;br /&gt;&lt;br /&gt;a. What price for this?
+&lt;br /&gt;&lt;br /&gt;b. How do you charge?
+&lt;br /&gt;&lt;br /&gt;c. How much does it cost? ✔
+&lt;br /&gt;&lt;br /&gt;d. How can I pay for this?
+
+&lt;br /&gt;&lt;br /&gt;การถามราคาสิ่งของ ใช้คำว่า How much does it cost? &lt;br /&gt;
+คำตอบข้ออื่น พอสื่อสารกันรู้เรื่อง แต่ไม่ควรใช้&lt;br /&gt;
+ถ้าจะถามสั้น ๆ ก็ถามว่า How much? หรือ How much is it? ก็ได้
+    </explanation>
+    <isExplain>yes</isExplain>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+  </thisQuestion>
+  <!-- 2 -->
+  <thisQuestion>
+    <qNum>id02168:date1627453500</qNum>
+    <question>
+[Q2] Instruction: Short Conversation. Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+A: Do you think this suit is appropriate for the party?&lt;br /&gt;
+B: _____________&lt;br /&gt;
+    </question>
+    <choice_A>I don’t appreciate it.</choice_A>
+    <choice_B>Yes, I agree with you.</choice_B>
+    <choice_C>It’s not what I ordered.</choice_C>
+    <choice_D>Yes, it looks just perfect.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+A: Do you think this suit is appropriate for the party?&lt;br /&gt;
+	คุณคิดว่าเสื้อผ้าชุดนี้เหมาะกับงานปาร์ตี้ไหม appropriate (adj) = เหมาะสม&lt;br /&gt;
+B: _____________&lt;br /&gt;&lt;br /&gt;
+
+คำถามที่ขึ้นต้นด้วย Do, Does, Did, Is, Am, Are, Was, Were และกริยาช่วยตัวอื่น ๆ เช่น Can, Could เป็นต้น เป็นการถามว่า ใช่หรือไม่	หรือ เรียกว่าเป็น Yes/No question โดยปกติจึงต้องตอบรับหรือปฏิเสธเท่านั้น&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. I don’t appreciate it. &lt;br /&gt;
+	ผม/ฉัน ไม่ซาบซึ้งกับสิ่งนี้&lt;br /&gt;
+	ไม่ถูกเพราะ ไม่ได้ตอบคำถาม Yes/No question&lt;br /&gt;&lt;br /&gt;
+
+b. Yes, I agree with you. &lt;br /&gt;
+	ใช่ผม/ฉันเห็นด้วย &lt;br /&gt;
+	ข้อนี้ ตอบไม่ตรงคำถาม&lt;br /&gt;&lt;br /&gt;
+
+c. It’s not what I ordered. &lt;br /&gt;
+	นี่ไม่ใช่ของที่ผม/ฉันสั่ง&lt;br /&gt;
+	ข้อนี้ไม่เกี่ยวข้องกับคำถามเลย&lt;br /&gt;&lt;br /&gt;
+
+d. Yes, it looks just perfect. ✔&lt;br /&gt;
+	ใช่ ชุดนี้ดูเหมาะกับงานปาร์ตี้มาก  &lt;br /&gt;
+	perfect = สมบูรณ์&lt;br /&gt;&lt;br /&gt;
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 3 -->
+  <thisQuestion>
+    <qNum>id02169:date1627453500</qNum>
+    <question>
+[Q3] Instruction: Short Conversation. Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+A: When did he become a citizen of Thailand?&lt;br /&gt;
+B: ____________&lt;br /&gt;
+    </question>
+    <choice_A>In 2007</choice_A>
+    <choice_B>Next year</choice_B>
+    <choice_C>Two years</choice_C>
+    <choice_D>Twenty years old</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+A: When did he become a citizen of Thailand?&lt;br /&gt;
+	เขาได้เป็นประชาชนไทยเมื่อไร become = กลายเป็น, citizen = ประชากร&lt;br /&gt;
+B: ____________&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+    
+a.	In 2007 ✔&lt;br /&gt;
+	ในปี ค.ศ. 2007 &lt;br /&gt;
+	คำถามที่ขึ้นต้นด้วยคำว่า When เป็นการถามว่า เมื่อไร ดังนั้นคำตอบ ต้องเป็นการบอกเกี่ยวกับเวลา&lt;br /&gt;&lt;br /&gt;
+
+b. Next year&lt;br /&gt;
+	ปีหน้า จากคำถามเราทราบว่าเขาได้รับสิทธิการเป็นพลเมืองแล้ว เพราะคำถามเป็น Past Tense ดังนั้นจะตอบว่า ปีหน้า ไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+c. Two years &lt;br /&gt;
+	2 ปี ถ้าจะให้ถูกต้องตอบว่า Two years ago. 2 ปีมาแล้ว&lt;br /&gt;&lt;br /&gt;
+
+d. Twenty years old&lt;br /&gt;
+	อายุ 20 ปี ถ้าจะให้ถูก ต้องตอบว่า When he was twenty years old. เขาได้สิทธิการเป็นพลเมืองไทย เมื่อเขามีอายุได้ 20 ปี
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 4 -->
+  <thisQuestion>
+    <qNum>id02170:date1627453500</qNum>
+    <question>
+[Q4] Instruction: Short Conversation. Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+A:  I think we should find more data.&lt;br /&gt;
+B:  I agree, ___________ who could help.&lt;br /&gt;
+    </question>
+    <choice_A>do you mind</choice_A>
+    <choice_B>you can do it or</choice_B>
+    <choice_C>but my primary concern is</choice_C>
+    <choice_D>let me see if I understand you correctly	</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+A:  I think we should find more data. &lt;br /&gt;
+	ผม/ฉัน คิดว่าเราควรหาข้อมูลมากกว่านี้)&lt;br /&gt;
+B:  I agree, ___________ who could help. &lt;br /&gt;
+	ผม/ฉัน เห็นด้วย..... ใครจะช่วยได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ต้องดูจากตัวเลือกที่ให้ว่า ข้อความที่กำหนดไว้ สามารถเข้ากันได้กับตัวเลือกหรือไม่&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. do you mind ...&lt;br /&gt;
+	คุณรังเกียจไหม ข้อความที่ต่อจากนี้ มักจะเป็นการอนุญาตที่จะทำสิ่งใดสิ่งหนึ่ง เช่น &lt;br /&gt;
+	do you mind if I find someone to do it? &lt;br /&gt;
+	จะเป็นไรไหม ถ้าผม/ฉันจะหาใครมาทำงานนี้&lt;br /&gt;&lt;br /&gt;
+
+b. you can do it or ...&lt;br /&gt;
+	คุณสามารถทำมันได้ หรือ ... &lt;br /&gt;
+	ข้อความที่ต่อ ควรจะเป็นประโยคบอกเล่าเหมือนกัน เช่น you can do it or find someone else to do it.&lt;br /&gt;&lt;br /&gt;
+
+c. but my primary concern is ... ✔&lt;br /&gt;
+	แต่สิ่งที่ผมเป็นห่วงที่สุดคือ ... &lt;br /&gt;
+	ข้อความที่ต่อมาจะทำหน้าที่ส่วนขยายของประโยค ซึ่งสามารถเป็นประโยคย่อยได้ ข้อนี้จึงใช้ได้ &lt;br /&gt;&lt;br /&gt;
+
+d. let me see if I understand you correctly ...&lt;br /&gt;
+	เดี๋ยวดูก่อน ถ้าผม/ฉันเข้าใจคุณถูกต้อง.... &lt;br /&gt;
+	ข้อความนี้ ไม่เข้ากันกับข้อความที่กำหนดไว้ เพราะพูดว่า เห็นด้วย (I agree.) จึงไม่น่าจะต้องมาทบทวนทำความเข้าใจกันอีก&lt;br /&gt;
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 5 -->
+  <thisQuestion>
+    <qNum>id02171:date1627453500</qNum>
+    <question>
+[Q5] Instruction: Short Conversation. Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+A: How was Krabi?&lt;br /&gt;
+B: ___________&lt;br /&gt;
+    </question>
+    <choice_A>It’s a wonderful place.</choice_A>
+    <choice_B>I wish I could go there.</choice_B>
+    <choice_C>It’s quite far from Bangkok.</choice_C>
+    <choice_D>It’s in the southern part of Thailand.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+A: How was Krabi? &lt;br /&gt;
+	จังหวัดกระบี่เป็นอย่างไรบ้าง&lt;br /&gt;
+B: ___________&lt;br /&gt;&lt;br /&gt;
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+ความจริงคำตอบทุกคำตอบใช้ได้ทั้งหมด แต่ดีที่สุดน่าจะเป็นข้อแรก เพราะตอบตรงคำถาม เป็นคำตอบที่บอกลักษณะของจังหวัดกระบี่ ว่าเป็นสถานที่ที่ยอดเยี่ยมมาก (wonderful)&lt;br /&gt;&lt;br /&gt;
+
+a. It’s a wonderful place. ✔&lt;br /&gt;
+	เป็นสถานที่ที่ยอดเยี่ยมมาก&lt;br /&gt;&lt;br /&gt;
+
+b. I wish I could go there. &lt;br /&gt;
+	ผมปรารถนาว่าจะสามารถไปที่นั่น &lt;br /&gt;
+	ไม่ถูก เพราะไม่ได้บอกลักษณะของจังหวัดกระบี่&lt;br /&gt;&lt;br /&gt;
+
+c. It’s quite far from Bangkok. &lt;br /&gt;
+	มันไกลจากกรุงเทพมาก&lt;br /&gt;
+	Aไม่ได้ถามเกี่ยวกับระยะทาง ถ้าจะตอบข้อนี้ ต้องถามว่า&lt;br /&gt;
+	How far is it from Bangkok?&lt;br /&gt;&lt;br /&gt;
+
+d. It’s in the southern part of Thailand. &lt;br /&gt;
+	มันอยู่ทางภาคใต้ของประเทศไทย&lt;br /&gt;
+	A ไม่ได้ถามว่า กระบี่อยู่ที่ไหน ถ้าจะตอบข้อนี้ ต้องถามว่า&lt;br /&gt;
+	Where is Krabi?&lt;br /&gt;
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 6 -->
+  <thisQuestion>
+    <qNum>id02172:date1627453500</qNum>
+    <question>
+[Q6] Instruction: Vocabulary. Choose the correct answer that has the same meaning as the underlined word.&lt;br /&gt;&lt;br /&gt;
+He takes an English course in order to study &lt;u&gt;abroad&lt;/u&gt;.&lt;br /&gt;
+    </question>
+    <choice_A>at home</choice_A>
+    <choice_B>in other schools</choice_B>
+    <choice_C>in different areas</choice_C>
+    <choice_D>in a foreign country</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+He takes an English course in order to study (abroad).&lt;br /&gt;
+to study abroad = เรียนที่ต่างประเทศ&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. at home&lt;br /&gt;
+	ที่บ้าน&lt;br /&gt;&lt;br /&gt;
+
+b. in other schools&lt;br /&gt;
+	ที่โรงเรียนแห่งอื่น&lt;br /&gt;&lt;br /&gt;
+
+c. in different areas&lt;br /&gt;
+	ในพื้นที่ที่ต่างออกไป&lt;br /&gt;&lt;br /&gt;
+
+d. in a foreign country ✔&lt;br /&gt;
+	ในต่างประเทศ &lt;br /&gt;&lt;br /&gt;
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 7 -->
+  <thisQuestion>
+    <qNum>id02173:date1627453500</qNum>
+    <question>
+[Q7] Instruction: Vocabulary. Choose the correct answer that has the same meaning as the underlined word.&lt;br /&gt;&lt;br /&gt;
+Exercise is a &lt;u&gt;simple&lt;/u&gt; and healthy way to lose weight.&lt;br /&gt;
+    </question>
+    <choice_A>fun</choice_A>
+    <choice_B>easy</choice_B>
+    <choice_C>tired</choice_C>
+    <choice_D>short</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+Exercise is a (simple) and healthy way to lose weight.&lt;br /&gt;
+การออกกำลังกายเป็นวิธีการที่ง่ายและถูกสุขลักษณะในการลดน้ำหนัก&lt;br /&gt;
+simple = ง่าย ไม่ซับซ้อน healthy = สุขภาพสมบูรณ์&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. fun&lt;br /&gt;
+	สนุกสนาน&lt;br /&gt;&lt;br /&gt;
+
+b. easy ✔&lt;br /&gt;
+	ง่าย ไม่ซับซ้อน &lt;br /&gt;&lt;br /&gt;
+
+c. tired&lt;br /&gt;
+	เหนื่อย&lt;br /&gt;&lt;br /&gt;
+
+d. short&lt;br /&gt;
+	สั้น&lt;br /&gt;&lt;br /&gt;
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 8 -->
+  <thisQuestion>
+    <qNum>id02174:date1627453500</qNum>
+    <question>
+[Q8] Instruction: Vocabulary. Choose the correct answer that has the same meaning as the underlined word.&lt;br /&gt;&lt;br /&gt;
+John has already &lt;u&gt;fixed&lt;/u&gt; the car.&lt;br /&gt;
+    </question>
+    <choice_A>placed</choice_A>
+    <choice_B>moved</choice_B>
+    <choice_C>washed</choice_C>
+    <choice_D>repaired</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+John has already (fixed) the car. จอห์นได้ซ่อมรถเสร็จเรียบร้อยแล้ว&lt;br /&gt;
+fix = ซ่อม Fix It Center = ศูนย์ซ่อม&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. placed&lt;br /&gt;
+	วาง&lt;br /&gt;&lt;br /&gt;
+
+b. moved&lt;br /&gt;
+	เคลื่อนย้าย&lt;br /&gt;&lt;br /&gt;
+
+c. washed&lt;br /&gt;
+	ล้างทำความสะอาด&lt;br /&gt;&lt;br /&gt;
+
+d. repaired ✔&lt;br /&gt;
+	ซ่อมแซม 
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 9 -->
+  <thisQuestion>
+    <qNum>id02175:date1627453500</qNum>
+    <question>
+[Q9] Instruction: Vocabulary. Choose the correct answer that has the same meaning as the underlined word.&lt;br /&gt;&lt;br /&gt;
+Robert has been a bank &lt;u&gt;manager&lt;/u&gt; for three years.&lt;br /&gt;
+    </question>
+    <choice_A>staff</choice_A>
+    <choice_B>boss</choice_B>
+    <choice_C>officer</choice_C>
+    <choice_D>worker</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+Robert has been a bank (manager) for three years.&lt;br /&gt;
+โรเบิรต์เป็นผู้จัดการธนาคารมาได้ 3 ปีแล้ว&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. staff&lt;br /&gt;
+	คณะทำงาน&lt;br /&gt;&lt;br /&gt;
+
+b. boss ✔&lt;br /&gt;
+	หัวหน้าใหญ่ &lt;br /&gt;&lt;br /&gt;
+
+c. officer&lt;br /&gt;
+	หัวหน้า(ระดับฝ่าย/แผนก)&lt;br /&gt;&lt;br /&gt;
+
+d. worker &lt;br /&gt;
+	คนทำงาน คนงาน
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 10 -->
+  <thisQuestion>
+    <qNum>id02176:date1627453500</qNum>
+    <question>
+[Q10] Instruction: Vocabulary. Choose the correct answer that has the same meaning as the underlined word.&lt;br /&gt;&lt;br /&gt;
+People had to &lt;u&gt;queue up&lt;/u&gt; outside the hall to buy concert tickets.&lt;br /&gt;
+    </question>
+    <choice_A>pick up</choice_A>
+    <choice_B>sit down</choice_B>
+    <choice_C>wait in line</choice_C>
+    <choice_D>make phone calls</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+People had to (queue up) outside the hall to buy concert tickets.&lt;br /&gt;
+ประชาชนต้องต่อแถวเข้าคิดนอกห้องประชุมเพื่อซื้อตั๋วคอนเสริต&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. pick up&lt;br /&gt;
+	หยิบ รับไปด้วย&lt;br /&gt;&lt;br /&gt;
+
+b. sit down&lt;br /&gt;
+	นั่งลง&lt;br /&gt;&lt;br /&gt;
+
+c. wait in line ✔&lt;br /&gt;
+	คอยในแถว&lt;br /&gt;&lt;br /&gt;
+
+d. make phone calls&lt;br /&gt;
+	ต่อโทรศัพท์ &lt;br /&gt;&lt;br /&gt;
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 11 -->
+  <thisQuestion>
+    <qNum>id02177:date1627453500</qNum>
+    <question>
+[Q11] Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+There are many large cities ______ Asia.&lt;br /&gt;
+    </question>
+    <choice_A>in</choice_A>
+    <choice_B>at</choice_B>
+    <choice_C>on</choice_C>
+    <choice_D>out</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+There are many large cities ______ Asia.&lt;br /&gt;
+มีเมืองใหญ่จำนวนมาก ..... ทวีปเอเซีย&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. in ✔ &lt;br /&gt;
+b. at&lt;br /&gt;
+c. on&lt;br /&gt;
+d. out&lt;br /&gt;
+
+คำ preposition ที่ใช้นำหน้าทวีปหรือประเทศ ใช้คำว่า in เช่น&lt;br /&gt; 
+in Asia&lt;br /&gt; in Europe&lt;br /&gt; in America
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 12 -->
+  <thisQuestion>
+    <qNum>id02178:date1627453500</qNum>
+    <question>
+[Q12] Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+No one knows ______ he will come.&lt;br /&gt;
+    </question>
+    <choice_A>who</choice_A>
+    <choice_B>when</choice_B>
+    <choice_C>which</choice_C>
+    <choice_D>where</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+No one knows ______ he will come.&lt;br /&gt;
+ไม่มีใครรู้ว่า ..... เขาจะมา&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. who&lt;br /&gt;
+	ใช้กับคน เช่น I don't know who he is. (ผม/ฉันไม่ทราบว่า เขาเป็นใคร)&lt;br /&gt;&lt;br /&gt;
+
+b. when ✔&lt;br /&gt;
+	ใช้กับเวลา เช่น When will you be back? (คุณจะกลับมาเมื่อไร) &lt;br /&gt;&lt;br /&gt;
+
+c. which&lt;br /&gt;
+	สิ่งไหน อย่างไหน เช่น Take the one which you like. (หยิบเอาอันที่คุณชอบ)&lt;br /&gt;&lt;br /&gt;
+
+d. where &lt;br /&gt;
+	ใช้กับสถานที่ เช่น This is the place where I met Suda. (สถานที่นี้เป็นที่ที่ผมพบคุณสุดา)
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 13 -->
+  <thisQuestion>
+    <qNum>id02179:date1627453500</qNum>
+    <question>
+    [Q13] Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+What a _________ girl she is!&lt;br /&gt;
+    </question>
+    <choice_A>beauty</choice_A>
+    <choice_B>beautiful</choice_B>
+    <choice_C>beautifully</choice_C>
+    <choice_D>more beautiful</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+What a _________ girl she is!&lt;br /&gt;
+เธอช่าง ..... เสียนี่กระไร&lt;br /&gt;&lt;br /&gt;
+
+สำนวนนี้เป็นคำอุธาน แสดงความชื่นชม ประหลาดใจ คำในช่องว่างต้องเป็นคำคุณศัพท์ หรือ adjective เพราะขยายคำนาม คือ girl&lt;br /&gt;&lt;br /&gt;
+
+a. beauty&lt;br /&gt;
+	ความสวย เป็นคำนาม noun&lt;br /&gt;&lt;br /&gt;
+
+b. beautiful ✔&lt;br /&gt;
+	สวย เป็นคำคุณศัพท์ adjective &lt;br /&gt;&lt;br /&gt;
+
+c. beautifully&lt;br /&gt;
+	อย่างสวยงาม	เป็นคำ adverb ขยายคำกริยา เช่น &lt;br /&gt;
+	The girl danced beautifully. &lt;br /&gt;
+	เด็กหญิงคนนั้นเต้นรำได้สวยอย่างสวยงาม&lt;br /&gt;&lt;br /&gt;
+
+d. more beautiful&lt;br /&gt;
+	สวยมากกว่า ใช้ในการเปรียบเทียบ ประโยคนี้ไม่มีการเปรียบเทียบ
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 14 -->
+  <thisQuestion>
+    <qNum>id02180:date1627453500</qNum>
+    <question>
+[Q14] Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+I can’t remember any summer that was _____ than this.&lt;br /&gt;
+    </question>
+    <choice_A>hot</choice_A>
+    <choice_B>hotter</choice_B>
+    <choice_C>hottest</choice_C>
+    <choice_D>more hot</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+I can’t remember any summer that was _____ than this.&lt;br /&gt;
+ผม/ฉันจำไม่ได้เลยว่า มีฤดูไหนที่ ... มากกว่า(ฤดู)นี้&lt;br /&gt;&lt;br /&gt;
+
+ประโยคนี้ เป็นการเปรียบเทียบฤดูร้อนนี้ กับฤดูร้อนที่ผ่านมาทั้งหมด คำที่ต้องเติม เป็นการเปรียบเทียบขั้นกว่า หรือ Comparative degree จะเห็นคำสำคัญคือคำว่า than อยู่ด้วยในประโยค แสดงว่า เป็นการเปรียบเทียบขั้นกว่า&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. hot&lt;br /&gt;
+	ร้อน คำนี้ใช้ไม่ได้ เพราะไม่ใช่การเปรียบเทียบขั้นกว่า&lt;br /&gt;&lt;br /&gt;
+
+b. hotter ✔&lt;br /&gt;
+	ร้อนกว่า คำว่า hot เมื่อเติม er	ต้องเพิ่มตัวสะกดอีก 1 ตัว คำพวกนี้ยังมีอีกหลายคำ เช่น bigger  fatter เป็นต้น &lt;br /&gt;&lt;br /&gt;
+
+c. hottest&lt;br /&gt;
+	ร้อนที่สุด ใช้ไม่ได้เพราะคำนี้เป็นการเปรียบเทียบขั้นสูงสุด เช่น This summer is the hottest. ฤดูร้อนนี้ ร้อนที่สุด การเปรียบเทียบขั้นสูงสุด Superative degree จะมีคำว่า the อยู่หน้าด้วย&lt;br /&gt;&lt;br /&gt;
+
+d. more hot &lt;br /&gt;
+	คำนี้ใช้ไม่ได้ คำว่า more ส่วนมากใช้กับคำที่มีหลายพยางค์ เช่น more beautiful เป็นต้น&lt;br /&gt;&lt;br /&gt;
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 15 -->
+  <thisQuestion>
+    <qNum>id02181:date1627453500</qNum>
+    <question>
+[Q15] Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+______ he visit his grandparents in Japan next week?&lt;br /&gt;
+    </question>
+    <choice_A>Is</choice_A>
+    <choice_B>Did</choice_B>
+    <choice_C>Will</choice_C>
+    <choice_D>Does</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+______ he visit his grandparents in Japan next week?&lt;br /&gt;
+______เขาจะไปเยี่ยมคุณตาคุณยายที่ญี่ปุ่นอาทิตย์หน้า หรือไม่&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. Is	&lt;br /&gt;
+	ต้องใช้กับ กริยาเติม ing เช่น&lt;br /&gt;
+	Is he going to visit his grandparents in Japan next week?&lt;br /&gt;
+	เขากำลังจะไปเยี่ยมคุณตาคุณยายที่ญี่ปุ่นอาทิตย์หน้า หรือไม่&lt;br /&gt;&lt;br /&gt;
+
+b. Did&lt;br /&gt;
+	ต้องใช้กับสิ่งที่เกิดขึ้นแล้ว เช่น ถามเกี่ยวกับอาทิตย์ที่แล้ว เช่น&lt;br /&gt;
+	Did he visit his grandparents in Japan last week?&lt;br /&gt;
+	เขาได้ไปเยี่ยมคุณตาคุณยายที่ญี่ปุ่นเมื่ออาทิตย์ที่แล้ว หรือไม่&lt;br /&gt;&lt;br /&gt;
+
+c. Will ✔&lt;br /&gt;
+	Will he visit his grandparents in Japan next week?&lt;br /&gt;
+	เขาจะไปเยี่ยมคุณตาคุณยายที่ญี่ปุ่นอาทิตย์หน้า หรือไม่&lt;br /&gt;&lt;br /&gt;
+
+d. Does&lt;br /&gt;
+	ต้องใช้กับประธานเอกพจน์บุรุษที่ 3 คือ he, she, หรือ it และใช้กับเหตุการณ์ที่เกิดขึ้น เป็นประจำ เช่น ทุกเดือน(every month) ทุกปี(every year) เป็นต้น เช่น&lt;br /&gt;
+	Does he visit his grandparents in Japan every year?&lt;br /&gt;
+	เขาไปเยี่ยมคุณตาคุณยายที่ญี่ปุ่นเป็นประจำทุกปี หรือไม่&lt;br /&gt;&lt;br /&gt;
+
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id02182:date1627453500</qNum>
+    <question>
+Instruction: Read the following letter and select the best answer for each item. (Q16 - Q20)&lt;br /&gt;&lt;br /&gt;
+Silverstone &amp; Sons Co., Ltd.&lt;br /&gt;
+25/123 Sukhumvit 24&lt;br /&gt;
+Wattana, Bangkok 10110
+&lt;br /&gt;&lt;br /&gt;
+Dear Sir,
+&lt;br /&gt;&lt;br /&gt;
+We saw from your advertisement in the Bangkok Post of 4 May, 20XX that you are an agent for printers.
+&lt;br /&gt;&lt;br /&gt;
+We would like to buy 8 printers for our new office in Phuket.  We would therefore like to have a catalogue and a price-list of your whole range of products.  Moreover, we would like to know your terms of payment, including what kind of discount is available on the 8 printers we would like to order.  Please send all details to me at the above address.
+&lt;br /&gt;&lt;br /&gt;
+We would greatly appreciate your prompt reply, as we need the printers urgently.
+&lt;br /&gt;&lt;br /&gt;
+Yours faithfully,
+&lt;br /&gt;&lt;br /&gt;
+Teddy Sinberg&lt;br /&gt;
+Manager
+&lt;br /&gt;&lt;br /&gt;
+  [Q16] : Use information from the letter above.&lt;br /&gt;&lt;br /&gt;
+What product does the writer want to buy?&lt;br /&gt;
+    </question>
+    <choice_A>Printers</choice_A>
+    <choice_B>Copiers</choice_B>
+    <choice_C>Office supplies</choice_C>
+    <choice_D>Printing paper</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+What product does the writer want to buy?&lt;br /&gt;
+ผู้เขียนต้องการซื้อผลิตภัณฑ์(product)อะไร&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. Printer ✔&lt;br /&gt;
+	เครื่องพิมพ์ &lt;br /&gt;&lt;br /&gt;
+
+b. Copiers&lt;br /&gt;
+	เครื่องสำเนา&lt;br /&gt;&lt;br /&gt;
+
+c. Office supplies&lt;br /&gt;
+	วัสดุสำนักงาน&lt;br /&gt;&lt;br /&gt;
+
+d. Printing paper &lt;br /&gt;
+	กระดาษสำหรับเครื่องพิมพ์&lt;br /&gt;&lt;br /&gt;
+
+ข้อความในจดหมาย&lt;br /&gt;&lt;br /&gt;
+
+25/123 สุขุมวิท 24&lt;br /&gt;
+วัฒนา, กรุงเทพ 10110&lt;br /&gt;&lt;br /&gt;
+
+สวัสดีครับ&lt;br /&gt;&lt;br /&gt;
+
+เราพบประกาศ(advertisement) ที่หนังสือพิมพ์บางกอกโพสต์ ฉบับวันที่ 4 พฤษภาคม  ค.ศ. 20XX ว่า ท่านเป็นผู้แทนจำหน่ายเครื่องพิมพ์ &lt;br /&gt;&lt;br /&gt;
+
+เราต้องการซื้อเครื่องพิมพ์ จำนวน 8 เครื่องสำหรับสำนักงานใหม่ที่ภูเก็ต ดังนั้น(therefore) เราจึงใคร่ขอ(We would like to have) แคตาลอค พร้อมทั้งรายการราคา(a price-list) สินค้าทั้งหมดของท่าน (your whole range of products) นอกจากนี้(Moreover) เราต้องการทราบเงื่อนไขวิธีการจ่ายเงิน(payment) รวมทั้งการลดราคา(discount) ชนิดใดบ้าง(what kind of) ที่มี (available) สำหรับการซื้อเครื่องพิมพ์ จำนวน 8 เครื่องที่จะสั่งซื้อ กรุณาส่งรายละเอียดไปที่ผมตามที่อยู่(address)ข้างต้น&lt;br /&gt;&lt;br /&gt;
+
+เราขอขอบคุณการตอบ(reply) ที่รวดเร็วทันทีทันใด(prompt) เนื่องจากเราต้องการเครื่องพิมพ์ด่วน (urgent)&lt;br /&gt;
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 17 -->
+  <thisQuestion>
+    <qNum>id02183:date1627453500</qNum>
+    <question>
+Instruction: Read the following letter and select the best answer for each item. (Q16 - Q20)&lt;br /&gt;&lt;br /&gt;
+Silverstone &amp; Sons Co., Ltd.&lt;br /&gt;
+25/123 Sukhumvit 24&lt;br /&gt;
+Wattana, Bangkok 10110
+&lt;br /&gt;&lt;br /&gt;
+Dear Sir,
+&lt;br /&gt;&lt;br /&gt;
+We saw from your advertisement in the Bangkok Post of 4 May, 20XX that you are an agent for printers.
+&lt;br /&gt;&lt;br /&gt;
+We would like to buy 8 printers for our new office in Phuket.  We would therefore like to have a catalogue and a price-list of your whole range of products.  Moreover, we would like to know your terms of payment, including what kind of discount is available on the 8 printers we would like to order.  Please send all details to me at the above address.
+&lt;br /&gt;&lt;br /&gt;
+We would greatly appreciate your prompt reply, as we need the printers urgently.
+&lt;br /&gt;&lt;br /&gt;
+Yours faithfully,
+&lt;br /&gt;&lt;br /&gt;
+Teddy Sinberg&lt;br /&gt;
+Manager
+&lt;br /&gt;&lt;br /&gt;
+[Q17] : Use information from the letter above.&lt;br /&gt;&lt;br /&gt;
+How does the writer know about the goods?&lt;br /&gt;
+    </question>
+    <choice_A>Calling the company</choice_A>
+    <choice_B>Asking his friend</choice_B>
+    <choice_C>Reading a newspaper</choice_C>
+    <choice_D>Receiving a brochure</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+How does the writer know about the goods?&lt;br /&gt;
+ผู้เขียนรู้เกี่ยวกับสินค้าได้อย่างไร&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. Calling the company&lt;br /&gt;
+	การโทรศัพท์ถึงบริษัท&lt;br /&gt;&lt;br /&gt;
+
+b. Asking his friend &lt;br /&gt;
+	การถามเพื่อน&lt;br /&gt;&lt;br /&gt;
+
+c. Reading a newspaper ✔&lt;br /&gt;
+	จากการอ่านหนังสือพิมพ์  ในจดหมายบอกว่า อ่านจากบางกอกโพสต์ &lt;br /&gt;
+	We saw from your advertisement in the Bangkok Post... &lt;br /&gt;&lt;br /&gt;
+
+d. Receiving a brochure&lt;br /&gt;
+	การได้รับโบรชัวร์&lt;br /&gt;&lt;br /&gt;
+
+	ข้อความในจดหมาย&lt;br /&gt;&lt;br /&gt;
+
+25/123 สุขุมวิท 24&lt;br /&gt;
+วัฒนา, กรุงเทพ 10110&lt;br /&gt;&lt;br /&gt;
+
+สวัสดีครับ&lt;br /&gt;&lt;br /&gt;
+
+เราพบประกาศ(advertisement) ที่หนังสือพิมพ์บางกอกโพสต์ ฉบับวันที่ 4 พฤษภาคม  ค.ศ. 20XX ว่า ท่านเป็นผู้แทนจำหน่ายเครื่องพิมพ์ &lt;br /&gt;&lt;br /&gt;
+
+เราต้องการซื้อเครื่องพิมพ์ จำนวน 8 เครื่องสำหรับสำนักงานใหม่ที่ภูเก็ต ดังนั้น(therefore) เราจึงใคร่ขอ(We would like to have) แคตาลอค พร้อมทั้งรายการราคา(a price-list) สินค้าทั้งหมดของท่าน (your whole range of products) นอกจากนี้(Moreover) เราต้องการทราบเงื่อนไขวิธีการจ่ายเงิน(payment) รวมทั้งการลดราคา(discount) ชนิดใดบ้าง(what kind of) ที่มี (available) สำหรับการซื้อเครื่องพิมพ์ จำนวน 8 เครื่องที่จะสั่งซื้อ กรุณาส่งรายละเอียดไปที่ผมตามที่อยู่(address)ข้างต้น&lt;br /&gt;&lt;br /&gt;
+
+เราขอขอบคุณการตอบ(reply) ที่รวดเร็วทันทีทันใด(prompt) เนื่องจากเราต้องการเครื่องพิมพ์ด่วน (urgent)&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 18 -->
+  <thisQuestion>
+    <qNum>id02184:date1627453500</qNum>
+    <question>
+Instruction: Read the following letter and select the best answer for each item. (Q16 - Q20)&lt;br /&gt;&lt;br /&gt;
+Silverstone &amp; Sons Co., Ltd.&lt;br /&gt;
+25/123 Sukhumvit 24&lt;br /&gt;
+Wattana, Bangkok 10110
+&lt;br /&gt;&lt;br /&gt;
+Dear Sir,
+&lt;br /&gt;&lt;br /&gt;
+We saw from your advertisement in the Bangkok Post of 4 May, 20XX that you are an agent for printers.
+&lt;br /&gt;&lt;br /&gt;
+We would like to buy 8 printers for our new office in Phuket.  We would therefore like to have a catalogue and a price-list of your whole range of products.  Moreover, we would like to know your terms of payment, including what kind of discount is available on the 8 printers we would like to order.  Please send all details to me at the above address.
+&lt;br /&gt;&lt;br /&gt;
+We would greatly appreciate your prompt reply, as we need the printers urgently.
+&lt;br /&gt;&lt;br /&gt;
+Yours faithfully,
+&lt;br /&gt;&lt;br /&gt;
+Teddy Sinberg&lt;br /&gt;
+Manager
+&lt;br /&gt;&lt;br /&gt;
+[Q18] : Use information from the letter above.
+&lt;br /&gt;&lt;br /&gt;
+Where does the writer prefer the company to send him the information about the product?&lt;br /&gt;
+    </question>
+    <choice_A>Teddy Sinberg</choice_A>
+    <choice_B>The Bangkok Post</choice_B>
+    <choice_C>New office in Phuket</choice_C>
+    <choice_D>Silverstone &amp; Sons</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+Where does the writer prefer the company to send him the information about the product?&lt;br /&gt;
+ผู้เขียนต้องการให้ส่งข้อมูล(information) เกี่ยวกับสินค้า ไปที่ไหน&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. Teddy Sinberg &lt;br /&gt;
+	คุณ Teddy Sinberg ซึ่งเป็นผู้เขียนจดหมาย ในตอนท้ายจดหมายบอกว่า &lt;br /&gt;
+Please send all details to me at the above address. &lt;br /&gt;
+กรุณาส่งรายละเอียดไปให้ผม ตามที่อยู่ข้างต้น&lt;br /&gt;
+ดังนั้น จึงให้ส่งไปที่บริษัท ตามที่อยู่ข้างบนจดหมาย&lt;br /&gt;
+ข้อนี้จึงยังไม่ถูก 
+ &lt;br /&gt;&lt;br /&gt;
+
+b. The Bangkok Post &lt;br /&gt;
+	นี่เป็นชื่อหนังสือพิมพ์ที่ลงโฆษณา&lt;br /&gt;&lt;br /&gt;
+
+c. New office in Phuket &lt;br /&gt;
+	นี่เป็นสำนักงานที่จะใช้เครื่องพิมพ์&lt;br /&gt;&lt;br /&gt;
+
+d. Silverstone ✔&lt;br /&gt;
+	นี่เป็นชื่อบริษัทที่ส่งจดหมายนี้ ในตอนท้ายจดหมายบอกว่า Please send all details to me at the above address. คำว่า address คือที่อยู่ของจดหมาย ซึ่งก็คือบริษัท ที่ระบุในหัวจดหมายนั่นเอง&lt;br /&gt;&lt;br /&gt;
+	ข้อความในจดหมาย&lt;br /&gt;&lt;br /&gt;
+
+25/123 สุขุมวิท 24&lt;br /&gt;
+วัฒนา, กรุงเทพ 10110&lt;br /&gt;&lt;br /&gt;
+
+สวัสดีครับ&lt;br /&gt;&lt;br /&gt;
+
+เราพบประกาศ(advertisement) ที่หนังสือพิมพ์บางกอกโพสต์ ฉบับวันที่ 4 พฤษภาคม  ค.ศ. 20XX ว่า ท่านเป็นผู้แทนจำหน่ายเครื่องพิมพ์ &lt;br /&gt;&lt;br /&gt;
+
+เราต้องการซื้อเครื่องพิมพ์ จำนวน 8 เครื่องสำหรับสำนักงานใหม่ที่ภูเก็ต ดังนั้น(therefore) เราจึงใคร่ขอ(We would like to have) แคตาลอค พร้อมทั้งรายการราคา(a price-list) สินค้าทั้งหมดของท่าน (your whole range of products) นอกจากนี้(Moreover) เราต้องการทราบเงื่อนไขวิธีการจ่ายเงิน(payment) รวมทั้งการลดราคา(discount) ชนิดใดบ้าง(what kind of) ที่มี (available) สำหรับการซื้อเครื่องพิมพ์ จำนวน 8 เครื่องที่จะสั่งซื้อ กรุณาส่งรายละเอียดไปที่ผมตามที่อยู่(address)ข้างต้น&lt;br /&gt;&lt;br /&gt;
+
+เราขอขอบคุณการตอบ(reply) ที่รวดเร็วทันทีทันใด(prompt) เนื่องจากเราต้องการเครื่องพิมพ์ด่วน (urgent)&lt;br /&gt;
+
+   </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 19 -->
+  <thisQuestion>
+    <qNum>id02185:date1627453500</qNum>
+    <question>
+Instruction: Read the following letter and select the best answer for each item. (Q16 - Q20)&lt;br /&gt;&lt;br /&gt;
+Silverstone &amp; Sons Co., Ltd.&lt;br /&gt;
+25/123 Sukhumvit 24&lt;br /&gt;
+Wattana, Bangkok 10110
+&lt;br /&gt;&lt;br /&gt;
+Dear Sir,
+&lt;br /&gt;&lt;br /&gt;
+We saw from your advertisement in the Bangkok Post of 4 May, 20XX that you are an agent for printers.
+&lt;br /&gt;&lt;br /&gt;
+We would like to buy 8 printers for our new office in Phuket.  We would therefore like to have a catalogue and a price-list of your whole range of products.  Moreover, we would like to know your &lt;font color='red'&gt;terms of payment&lt;/font&gt;, including what kind of discount is available on the 8 printers we would like to order.  Please send all details to me at the above address.
+&lt;br /&gt;&lt;br /&gt;
+We would greatly appreciate your prompt reply, as we need the printers urgently.
+&lt;br /&gt;&lt;br /&gt;
+Yours faithfully,
+&lt;br /&gt;&lt;br /&gt;
+Teddy Sinberg&lt;br /&gt;
+Manager
+&lt;br /&gt;&lt;br /&gt;
+    [Q19] : Use information from the letter above.
+&lt;br /&gt;&lt;br /&gt;
+The phrase "terms of payment" refers to how to ________.&lt;br /&gt;
+    </question>
+    <choice_A>get the goods</choice_A>
+    <choice_B>arrange the bill</choice_B>
+    <choice_C>pay for the goods</choice_C>
+    <choice_D>order the goods</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+The phrase "terms of payment" refers to how to ________.&lt;br /&gt;
+วลี "terms of payment" หมายถึง....&lt;br /&gt;&lt;br /&gt;
+
+terms of payment = เงื่อนไขการจ่ายเงิน&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. get the goods&lt;br /&gt;
+	ได้สินค้า goods = products &lt;br /&gt;&lt;br /&gt;
+
+b. arrange the bill&lt;br /&gt;
+	จัดเรียงบิล&lt;br /&gt;&lt;br /&gt;
+
+c. pay for the goods ✔&lt;br /&gt;
+	การจ่ายเงินสำหรับสินค้า &lt;br /&gt;&lt;br /&gt;
+
+d. order the goods &lt;br /&gt;
+	การสั่งสินค้า&lt;br /&gt;&lt;br /&gt;
+ข้อความในจดหมาย&lt;br /&gt;&lt;br /&gt;
+
+25/123 สุขุมวิท 24&lt;br /&gt;
+วัฒนา, กรุงเทพ 10110&lt;br /&gt;&lt;br /&gt;
+
+สวัสดีครับ&lt;br /&gt;&lt;br /&gt;
+
+เราพบประกาศ(advertisement) ที่หนังสือพิมพ์บางกอกโพสต์ ฉบับวันที่ 4 พฤษภาคม  ค.ศ. 20XX ว่า ท่านเป็นผู้แทนจำหน่ายเครื่องพิมพ์ &lt;br /&gt;&lt;br /&gt;
+
+เราต้องการซื้อเครื่องพิมพ์ จำนวน 8 เครื่องสำหรับสำนักงานใหม่ที่ภูเก็ต ดังนั้น(therefore) เราจึงใคร่ขอ(We would like to have) แคตาลอค พร้อมทั้งรายการราคา(a price-list) สินค้าทั้งหมดของท่าน (your whole range of products) นอกจากนี้(Moreover) เราต้องการทราบเงื่อนไขวิธีการจ่ายเงิน(payment) รวมทั้งการลดราคา(discount) ชนิดใดบ้าง(what kind of) ที่มี (available) สำหรับการซื้อเครื่องพิมพ์ จำนวน 8 เครื่องที่จะสั่งซื้อ กรุณาส่งรายละเอียดไปที่ผมตามที่อยู่(address)ข้างต้น&lt;br /&gt;&lt;br /&gt;
+
+เราขอขอบคุณการตอบ(reply) ที่รวดเร็วทันทีทันใด(prompt) เนื่องจากเราต้องการเครื่องพิมพ์ด่วน (urgent)&lt;br /&gt;
+
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 20 -->
+  <thisQuestion>
+    <qNum>id02186:date1627453500</qNum>
+    <question>
+Instruction: Read the following letter and select the best answer for each item. (Q16 - Q20)&lt;br /&gt;&lt;br /&gt;
+Silverstone &amp; Sons Co., Ltd.&lt;br /&gt;
+25/123 Sukhumvit 24&lt;br /&gt;
+Wattana, Bangkok 10110
+&lt;br /&gt;&lt;br /&gt;
+Dear Sir,
+&lt;br /&gt;&lt;br /&gt;
+We saw from your advertisement in the Bangkok Post of 4 May, 20XX that you are an agent for printers.
+&lt;br /&gt;&lt;br /&gt;
+We would like to buy 8 printers for our new office in Phuket.  We would therefore like to have a catalogue and a price-list of your whole range of products.  Moreover, we would like to know your terms of payment, including what kind of discount is available on the 8 printers we would like to order.  Please send all details to me at the above address.
+&lt;br /&gt;&lt;br /&gt;
+We would greatly appreciate your prompt reply, as we need the printers urgently.
+&lt;br /&gt;&lt;br /&gt;
+Yours faithfully,
+&lt;br /&gt;&lt;br /&gt;
+Teddy Sinberg&lt;br /&gt;
+Manager
+&lt;br /&gt;&lt;br /&gt;
+[Q20] : Use information from the letter above.
+&lt;br /&gt;&lt;br /&gt;
+The writer requests the company to send him all the details ________.&lt;br /&gt;
+    </question>
+    <choice_A>when the office opens</choice_A>
+    <choice_B>as soon as possible</choice_B>
+    <choice_C>from time to time</choice_C>
+    <choice_D>at its convenience</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+The writer requests the company to send him all the details ________.&lt;br /&gt;
+ผู้เขียนต้องการให้ส่งรายละเอียดให้อย่าง ......&lt;br /&gt;&lt;br /&gt;
+
+ในจดหมายตอนท้าย มีคำว่า prompt และ urgently ซึ่งมีความหมายว่า ทันทีทันใด โดยเร่งด่วน&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. when the office opens&lt;br /&gt;
+	เมื่อสำนักงานเปิด&lt;br /&gt;&lt;br /&gt;
+
+b. as soon as possible ✔&lt;br /&gt;
+	เร็วที่สุดเท่าที่จะทำได้&lt;br /&gt;&lt;br /&gt;
+
+c. from time to time&lt;br /&gt;
+	เป็นระยะ ๆ&lt;br /&gt;&lt;br /&gt;
+
+d. at its convenience&lt;br /&gt;
+	เมื่อสะดวก&lt;br /&gt;&lt;br /&gt;
+
+ข้อความในจดหมาย&lt;br /&gt;&lt;br /&gt;
+
+25/123 สุขุมวิท 24&lt;br /&gt;
+วัฒนา, กรุงเทพ 10110&lt;br /&gt;&lt;br /&gt;
+
+สวัสดีครับ&lt;br /&gt;&lt;br /&gt;
+
+เราพบประกาศ(advertisement) ที่หนังสือพิมพ์บางกอกโพสต์ ฉบับวันที่ 4 พฤษภาคม  ค.ศ. 20XX ว่า ท่านเป็นผู้แทนจำหน่ายเครื่องพิมพ์ &lt;br /&gt;&lt;br /&gt;
+
+เราต้องการซื้อเครื่องพิมพ์ จำนวน 8 เครื่องสำหรับสำนักงานใหม่ที่ภูเก็ต ดังนั้น(therefore) เราจึงใคร่ขอ(We would like to have) แคตาลอค พร้อมทั้งรายการราคา(a price-list) สินค้าทั้งหมดของท่าน (your whole range of products) นอกจากนี้(Moreover) เราต้องการทราบเงื่อนไขวิธีการจ่ายเงิน(payment) รวมทั้งการลดราคา(discount) ชนิดใดบ้าง(what kind of) ที่มี (available) สำหรับการซื้อเครื่องพิมพ์ จำนวน 8 เครื่องที่จะสั่งซื้อ กรุณาส่งรายละเอียดไปที่ผมตามที่อยู่(address)ข้างต้น&lt;br /&gt;&lt;br /&gt;
+
+เราขอขอบคุณการตอบ(reply) ที่รวดเร็วทันทีทันใด(prompt) เนื่องจากเราต้องการเครื่องพิมพ์ด่วน (urgent)&lt;br /&gt;
+
+   
+   </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 21 -->
+  <thisQuestion>
+    <qNum>id02187:date1627453500</qNum>
+    <question>
+Instruction: Read the following passage and select the best answer for each item. (Q21 - Q25)
+&lt;br /&gt;&lt;br /&gt;
+The UK has a higher percentage of its population in prison than any other EC country.  One consequence of this is overcrowding in Britain’s prisons, and there is great concern over conditions.  Many of Britain’s prisons were built over a hundred years ago.  Prison cells which were designed for only one inmate each are often shared by three or four.  There is a lack of washing and toilet facilities.  Even prisons built in the 1960s have not improved the situation.  Prisoners still have to “slop out”—empty their toilet pots—in the morning.
+ &lt;br /&gt;&lt;br /&gt;
+The government is now planning to build new prisons.  Privatised prisons—prisons which are not run by the government, but by companies—will provide more prison space.  However, many people are against the idea of running prisons as businesses.
+&lt;br /&gt;&lt;br /&gt;
+
+[Q21] : Use information from the passage above.&lt;br /&gt;&lt;br /&gt;
+The most suitable title for this passage is ________.&lt;br /&gt;
+    </question>
+    <choice_A>Prisons in UK</choice_A>
+    <choice_B>Going to Prison</choice_B>
+    <choice_C>Privatised Prisons</choice_C>
+    <choice_D>Comparison of Prisons in UK and EC countries</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+The most suitable title for this passage is ________.&lt;br /&gt;
+ชื่อเรื่องที่เหมาะสมที่สุด คือ ________&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a.Prisons in UK ✔&lt;br /&gt;
+เรื่องทั้งหมดเกี่ยวกับเรือนจำของประเทศอังกฤษ หรือ สหราชอาณาจักร UK = United Kingdom&lt;br /&gt;&lt;br /&gt;
+
+b. Going to Prison &lt;br /&gt;
+	ไปเรือนจำ &lt;br /&gt;
+	ไม่ถูก ไม่ได้พูดเรื่องนี้เลย&lt;br /&gt;&lt;br /&gt;
+
+c. Privatised Prisons &lt;br /&gt;
+	เรือนจำที่ถูกแปรรูป &lt;br /&gt;
+	ในบทอ่านพูดไว้นิดเดียวว่า จะแปรรูปเรือนจำให้เอกชนดำเนินการ ข้อนี้ไม่ครอบคลุมทั้งเรื่อง&lt;br /&gt;&lt;br /&gt;
+
+d. Comparison of Prisons in UK and EC countries&lt;br /&gt;
+	การเปรียบเทียบเรือนจำของอังกฤษกับประเทศในกลุ่ม EC&lt;br /&gt;
+	ในเรื่องพูดไว้นิดเดียว ไม่ครอบคลุมทั้งเรื่อง&lt;br /&gt;&lt;br /&gt;
+
+บทอ่าน&lt;br /&gt;&lt;br /&gt;
+	
+ประเทศสหราชอาณาจักร มีร้อยละ(percentage)ของประชากร(population)ที่อยู่ในเรือนจำ(prison) สูงกว่าประเทศในกลุ่มอีซี(EC country -- European Communities หรือ European Union -- สหภาพยุโรป)อื่น ๆ ผลที่ตามมาประการหนึ่ง คือ การมีผู้ต้องขังจำนวนมากแออัดยัดเยียดในเรือนจำ และสิ่งที่เป็นห่วงอย่างมาก(great concern)คือ สภาพความเป็นอยู่ (conditions) เรือนจำของอังกฤษหลายแห่ง สร้างมาแล้วกว่า 100 ปี(were built over a hundred years ago) ห้องขัง (prison cells)ออกแบบไว้สำหรับผู้ต้องขัง(inmate) ห้องละ 1 คน แต่ผู้ต้องขังต้องอยู่ร่วมกัน ห้องขังละ 3-4 คน ขาดแคลน(lack) สิ่งอำนวยความสะดวก(facilities) เกี่ยวกับห้องชำระล้าง(washing) และห้องส้วม(toilet) แม้แต่เรือนจำที่สร้างใน ทศวรรษที่ 1960 (ค.ศ. 1960-1969) ก็ไม่สามารถพัฒนา(improve) สถานการณ์(situation) นี้ได้ ผู้ต้องขังยังคง(still)ต้องเท(slop out) โถอุจจาระและปัสสาวะ(their toilet pots) ในตอนเช้า&lt;br /&gt;&lt;br /&gt;
+
+รัฐบาล(government) กำลังวางแผนที่จะสร้างเรือนจำใหม่	ๆ เพิ่มขึ้น เรือนจำที่แปรรูปให้ เอกชนดำเนินงาน (Privatised prisons) ซึ่งจะไม่ได้ดำเนินงาน(run)	โดยรัฐบาล แต่จะให้บริษัทต่าง ๆ ดำเนินงานแทน ซึ่งวิธีการนี้ จะทำให้ได้พื้นที่(space) สำหรับผู้ต้องขังเพิ่มขึ้น (prison space = พื้นที่คุก) อย่างไรก็ตาม หลายคนต่อต้าน(against)ความคิด(idea) ที่จะดำเนินงานเรือนจำ เป็นธุรกิจ(businesses)
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 22 -->
+  <thisQuestion>
+    <qNum>id02188:date1627453500</qNum>
+    <question>
+Instruction: Read the following passage and select the best answer for each item. (Q21 - Q25)
+&lt;br /&gt;&lt;br /&gt;
+The UK has a higher percentage of &lt;font color='red'&gt;its&lt;/font&gt; population in prison than any other EC country.  One consequence of this is overcrowding in Britain’s prisons, and there is great concern over conditions.  Many of Britain’s prisons were built over a hundred years ago.  Prison cells which were designed for only one inmate each are often shared by three or four.  There is a lack of washing and toilet facilities.  Even prisons built in the 1960s have not improved the situation.  Prisoners still have to “slop out”—empty their toilet pots—in the morning.
+ &lt;br /&gt;&lt;br /&gt;
+The government is now planning to build new prisons.  Privatised prisons—prisons which are not run by the government, but by companies—will provide more prison space.  However, many people are against the idea of running prisons as businesses.
+&lt;br /&gt;&lt;br /&gt;
+
+[Q22] : Use information from the passage above.&lt;br /&gt;&lt;br /&gt;
+The pronoun "its" in the first paragraph refers to ________.&lt;br /&gt;
+    </question>
+    <choice_A>UK</choice_A>
+    <choice_B>prison</choice_B>
+    <choice_C>percentage</choice_C>
+    <choice_D>EC countries</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+The pronoun "its" in the first paragraph refers to ________.&lt;br /&gt;
+คำว่า "its" ในเรื่อง หมายถึง______&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. UK ✔&lt;br /&gt;
+b. prison&lt;br /&gt;
+c. percentage&lt;br /&gt;
+d. EC countries&lt;br /&gt;&lt;br /&gt;
+
+The UK has a higher percentage of its population in prison ...&lt;br /&gt;
+สหราชอาณาจักรมีร้อยละของจำนวนประชากรของประเทศที่อยู่ในที่คุมขังมากกว่า ....&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น คำว่า its ในที่นี้หมายถึงประเทศ ซึ่งก็คือประเทศอังกฤษ นั่นเอง (ข้อ a.)&lt;br /&gt;&lt;br /&gt;
+
+บทอ่าน&lt;br /&gt;&lt;br /&gt;
+	
+ประเทศสหราชอาณาจักร มีร้อยละ(percentage)ของประชากร(population)ที่อยู่ในเรือนจำ(prison) สูงกว่าประเทศในกลุ่มอีซี(EC country -- European Communities หรือ European Union -- สหภาพยุโรป)อื่น ๆ ผลที่ตามมาประการหนึ่ง คือ การมีผู้ต้องขังจำนวนมากแออัดยัดเยียดในเรือนจำ และสิ่งที่เป็นห่วงอย่างมาก(great concern)คือ สภาพความเป็นอยู่ (conditions) เรือนจำของอังกฤษหลายแห่ง สร้างมาแล้วกว่า 100 ปี(were built over a hundred years ago) ห้องขัง (prison cells)ออกแบบไว้สำหรับผู้ต้องขัง(inmate) ห้องละ 1 คน แต่ผู้ต้องขังต้องอยู่ร่วมกัน ห้องขังละ 3-4 คน ขาดแคลน(lack) สิ่งอำนวยความสะดวก(facilities) เกี่ยวกับห้องชำระล้าง(washing) และห้องส้วม(toilet) แม้แต่เรือนจำที่สร้างใน ทศวรรษที่ 1960 (ค.ศ. 1960-1969) ก็ไม่สามารถพัฒนา(improve) สถานการณ์(situation) นี้ได้ ผู้ต้องขังยังคง(still)ต้องเท(slop out) โถอุจจาระและปัสสาวะ(their toilet pots) ในตอนเช้า&lt;br /&gt;&lt;br /&gt;
+
+รัฐบาล(government) กำลังวางแผนที่จะสร้างเรือนจำใหม่	ๆ เพิ่มขึ้น เรือนจำที่แปรรูปให้ เอกชนดำเนินงาน (Privatised prisons) ซึ่งจะไม่ได้ดำเนินงาน(run)	โดยรัฐบาล แต่จะให้บริษัทต่าง ๆ ดำเนินงานแทน ซึ่งวิธีการนี้ จะทำให้ได้พื้นที่(space) สำหรับผู้ต้องขังเพิ่มขึ้น (prison space = พื้นที่คุก) อย่างไรก็ตาม หลายคนต่อต้าน(against)ความคิด(idea) ที่จะดำเนินงานเรือนจำ เป็นธุรกิจ(businesses)
+
+
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 23 -->
+  <thisQuestion>
+    <qNum>id02189:date1627453500</qNum>
+    <question>
+Instruction: Read the following passage and select the best answer for each item. (Q21 - Q25)
+&lt;br /&gt;&lt;br /&gt;
+The UK has a higher percentage of its population in prison than any other EC country.  One consequence of this is &lt;font color='red'&gt;overcrowding&lt;/font&gt; in Britain’s prisons, and there is great concern over conditions.  Many of Britain’s prisons were built over a hundred years ago.  Prison cells which were designed for only one inmate each are often shared by three or four.  There is a lack of washing and toilet facilities.  Even prisons built in the 1960s have not improved the situation.  Prisoners still have to “slop out”—empty their toilet pots—in the morning.
+ &lt;br /&gt;&lt;br /&gt;
+The government is now planning to build new prisons.  Privatised prisons—prisons which are not run by the government, but by companies—will provide more prison space.  However, many people are against the idea of running prisons as businesses.
+&lt;br /&gt;&lt;br /&gt;
+
+[Q23] : Use information from the passage above.&lt;br /&gt;&lt;br /&gt;
+The word "overcrowding" in the first paragraph means ________.&lt;br /&gt;
+    </question>
+    <choice_A>too much space</choice_A>
+    <choice_B>too many people</choice_B>
+    <choice_C>too many officials</choice_C>
+    <choice_D>overpopulation in general</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+The word "overcrowding" in the first paragraph means ________.&lt;br /&gt;
+คำว่า "overcrowding" ในบทอ่าน หมายถึง ______&lt;br /&gt;&lt;br /&gt;
+
+ One consequence of this is overcrowding in Britain’s prisons, ...&lt;br /&gt;
+ ผลที่ตามมาประการหนึ่งก็คือ ทำให้มีจำนวนผู้ต้องขังจำนวนมากล้นเรือนจำ ...&lt;br /&gt;&lt;br /&gt;
+
+overcrowding = over(เกิน) + crowd(ฝูงชน) หมายถึง มีคนมากเกินไปจนแออัดยัดเยียดกัน&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. too much space&lt;br /&gt;
+	มีพื้นที่มากเกินไป&lt;br /&gt;&lt;br /&gt;
+
+b. too many people&lt;br /&gt;
+	มีคนมากเกินไป อาจจะหมายถึงคนทำงานด้วย จึงยังไม่ถูกต้องนัก&lt;br /&gt;&lt;br /&gt;
+
+c. too many officials &lt;br /&gt;
+	มีคนทำงานมากเกินไป ในบทอ่านไม่ได้พูดถึงเจ้าหน้าที่เลย&lt;br /&gt;&lt;br /&gt;
+
+d. overpopulation in general ✔&lt;br /&gt;
+	มีประชากร(คุก)หรือมีนักโทษมากเกินไป&lt;br /&gt;&lt;br /&gt;
+
+    คำว่า overcrowding มีความหมายเหมือนกับ overpopulation, overloaded หรือ jam-packed&lt;br /&gt;&lt;br /&gt;
+	บทอ่าน&lt;br /&gt;&lt;br /&gt;
+	
+ประเทศสหราชอาณาจักร มีร้อยละ(percentage)ของประชากร(population)ที่อยู่ในเรือนจำ(prison) สูงกว่าประเทศในกลุ่มอีซี(EC country -- European Communities หรือ European Union -- สหภาพยุโรป)อื่น ๆ ผลที่ตามมาประการหนึ่ง คือ การมีผู้ต้องขังจำนวนมากแออัดยัดเยียดในเรือนจำ และสิ่งที่เป็นห่วงอย่างมาก(great concern)คือ สภาพความเป็นอยู่ (conditions) เรือนจำของอังกฤษหลายแห่ง สร้างมาแล้วกว่า 100 ปี(were built over a hundred years ago) ห้องขัง (prison cells)ออกแบบไว้สำหรับผู้ต้องขัง(inmate) ห้องละ 1 คน แต่ผู้ต้องขังต้องอยู่ร่วมกัน ห้องขังละ 3-4 คน ขาดแคลน(lack) สิ่งอำนวยความสะดวก(facilities) เกี่ยวกับห้องชำระล้าง(washing) และห้องส้วม(toilet) แม้แต่เรือนจำที่สร้างใน ทศวรรษที่ 1960 (ค.ศ. 1960-1969) ก็ไม่สามารถพัฒนา(improve) สถานการณ์(situation) นี้ได้ ผู้ต้องขังยังคง(still)ต้องเท(slop out) โถอุจจาระและปัสสาวะ(their toilet pots) ในตอนเช้า&lt;br /&gt;&lt;br /&gt;
+
+รัฐบาล(government) กำลังวางแผนที่จะสร้างเรือนจำใหม่	ๆ เพิ่มขึ้น เรือนจำที่แปรรูปให้ เอกชนดำเนินงาน (Privatised prisons) ซึ่งจะไม่ได้ดำเนินงาน(run)	โดยรัฐบาล แต่จะให้บริษัทต่าง ๆ ดำเนินงานแทน ซึ่งวิธีการนี้ จะทำให้ได้พื้นที่(space) สำหรับผู้ต้องขังเพิ่มขึ้น (prison space = พื้นที่คุก) อย่างไรก็ตาม หลายคนต่อต้าน(against)ความคิด(idea) ที่จะดำเนินงานเรือนจำ เป็นธุรกิจ(businesses)
+
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 24 -->
+  <thisQuestion>
+    <qNum>id02190:date1627453500</qNum>
+    <question>
+Instruction: Read the following passage and select the best answer for each item. (Q21 - Q25)
+&lt;br /&gt;&lt;br /&gt;
+The UK has a higher percentage of its population in prison than any other EC country.  One consequence of this is overcrowding in Britain’s prisons, and there is great concern over conditions.  Many of Britain’s prisons were built over a hundred years ago.  Prison cells which were designed for only one inmate each are often shared by three or four.  There is a lack of washing and toilet facilities.  Even prisons built in the 1960s have not improved the situation.  Prisoners still have to “slop out”—empty their toilet pots—in the morning.
+ &lt;br /&gt;&lt;br /&gt;
+The government is now planning to build new prisons.  Privatised prisons—prisons which are not run by the government, but by companies—will provide more prison space.  However, many people are against the idea of running prisons as businesses.
+&lt;br /&gt;&lt;br /&gt;
+
+    [Q24] : Use information from the passage above.&lt;br /&gt;&lt;br /&gt;
+Britain prisons are likely to be ________.&lt;br /&gt;
+    </question>
+    <choice_A>improved much better than in the 1960s</choice_A>
+    <choice_B>equipped with good facilities</choice_B>
+    <choice_C>built more than a century ago</choice_C>
+    <choice_D>suitable for more than one person</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+Britain prisons are likely to be ________.&lt;br /&gt;
+เรือนจำของอังกฤษ มีแนวโน้มที่จะ ______&lt;br /&gt;&lt;br /&gt;
+
+ถ้าพิจารณาจากเรื่อง จะเห็นว่าที่แน่นอนคือ รัฐบาลวางแผนจะสร้างเรือนจำให้มากขึ้น โดยอาจจะมีการ แปรรูปให้บริษัทเอกชน ดำเนินงาน เพื่อแก้ไขความแออัด และสภาวะความเป็นอยู่ให้ดีขึ้น ถ้ามองในลักษณะนี้แล้ว คำตอบข้อแรกน่าจะดีที่สุด เพราะเป็นการพัฒนาในภาพรวม เช่น มีพื้นที่มากขึ้น เป็นต้น&lt;br /&gt;
+คำตอบข้อ b. ถูกเหมือนกัน แต่แคบกว่า ข้อ a. เพราะพูดเฉพาะเรื่อง สิ่งอำนวยความสะดวกเท่านั้น
+คำตอบข้ออื่น ๆ ไม่ตรงประเด็น&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. improved much better than in the 1960s ✔&lt;br /&gt;
+	พัฒนาขึ้นอย่างมากถ้าเปรียบเทียบกับในปีทศวรรษที่ 1960&lt;br /&gt;&lt;br /&gt;
+
+b. equipped with good facilities&lt;br /&gt;
+	มีสิ่งอำนวยความสะดวก คำตอบนี้ยังไม่ครอบคลุม เช่น เมื่อมีการสร้างเรือนจำมากขี้น ทำให้มีพื้นที่มากขึ้น การพัฒนาด้านต่าง ๆ ก็น่าจะดีขึ้นด้วย&lt;br /&gt;&lt;br /&gt;
+
+c. built more than a century ago&lt;br /&gt;
+	สร้างมานานมากกว่า 1 ศตวรรษ&lt;br /&gt;&lt;br /&gt;
+
+d. suitable for more than one person&lt;br /&gt;
+	เหมาะสำหรับตั้งแต่ 1 คนขึ้นไป&lt;br /&gt;&lt;br /&gt;
+
+บทอ่าน&lt;br /&gt;&lt;br /&gt;
+	
+ประเทศสหราชอาณาจักร มีร้อยละ(percentage)ของประชากร(population)ที่อยู่ในเรือนจำ(prison) สูงกว่าประเทศในกลุ่มอีซี(EC country -- European Communities หรือ European Union -- สหภาพยุโรป)อื่น ๆ ผลที่ตามมาประการหนึ่ง คือ การมีผู้ต้องขังจำนวนมากแออัดยัดเยียดในเรือนจำ และสิ่งที่เป็นห่วงอย่างมาก(great concern)คือ สภาพความเป็นอยู่ (conditions) เรือนจำของอังกฤษหลายแห่ง สร้างมาแล้วกว่า 100 ปี(were built over a hundred years ago) ห้องขัง (prison cells)ออกแบบไว้สำหรับผู้ต้องขัง(inmate) ห้องละ 1 คน แต่ผู้ต้องขังต้องอยู่ร่วมกัน ห้องขังละ 3-4 คน ขาดแคลน(lack) สิ่งอำนวยความสะดวก(facilities) เกี่ยวกับห้องชำระล้าง(washing) และห้องส้วม(toilet) แม้แต่เรือนจำที่สร้างใน ทศวรรษที่ 1960 (ค.ศ. 1960-1969) ก็ไม่สามารถพัฒนา(improve) สถานการณ์(situation) นี้ได้ ผู้ต้องขังยังคง(still)ต้องเท(slop out) โถอุจจาระและปัสสาวะ(their toilet pots) ในตอนเช้า&lt;br /&gt;&lt;br /&gt;
+
+รัฐบาล(government) กำลังวางแผนที่จะสร้างเรือนจำใหม่	ๆ เพิ่มขึ้น เรือนจำที่แปรรูปให้ เอกชนดำเนินงาน (Privatised prisons) ซึ่งจะไม่ได้ดำเนินงาน(run)	โดยรัฐบาล แต่จะให้บริษัทต่าง ๆ ดำเนินงานแทน ซึ่งวิธีการนี้ จะทำให้ได้พื้นที่(space) สำหรับผู้ต้องขังเพิ่มขึ้น (prison space = พื้นที่คุก) อย่างไรก็ตาม หลายคนต่อต้าน(against)ความคิด(idea) ที่จะดำเนินงานเรือนจำ เป็นธุรกิจ(businesses)
+
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 25 -->
+  <thisQuestion>
+    <qNum>id02191:date1627453500</qNum>
+    <question>
+Instruction: Read the following passage and select the best answer for each item. (Q21 - Q25)
+&lt;br /&gt;&lt;br /&gt;
+The UK has a higher percentage of its population in prison than any other EC country.  One consequence of this is overcrowding in Britain’s prisons, and there is great concern over conditions.  Many of Britain’s prisons were built over a hundred years ago.  Prison cells which were designed for only one inmate each are often shared by three or four.  There is a lack of washing and toilet facilities.  Even prisons built in the 1960s have not improved the situation.  Prisoners still have to “slop out”—empty their toilet pots—in the morning.
+ &lt;br /&gt;&lt;br /&gt;
+The government is now planning to build new prisons.  Privatised prisons—prisons which are not run by the government, but by companies—will provide more prison space.  However, many people are against the idea of running prisons as businesses.
+&lt;br /&gt;&lt;br /&gt;
+[Q25] : Use information from the passage above.&lt;br /&gt;&lt;br /&gt;
+The tone of the passage is ________.&lt;br /&gt;
+    </question>
+    <choice_A>sad</choice_A>
+    <choice_B>positive</choice_B>
+    <choice_C>criticizing</choice_C>
+    <choice_D>aggressive</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+The tone of the passage is ________.&lt;br /&gt;
+โดยภาพรวมบทความนี้มีลักษณะเป็น_______&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกคำตอบ&lt;br /&gt;&lt;br /&gt;
+
+a. sad&lt;br /&gt;
+	เศร้า ไม่น่าจะใช่ เพราะไม่มีเรื่องอะไรที่จะน่าจะทำให้เกิดความเศร้าสร้อย&lt;br /&gt;&lt;br /&gt;
+
+b. positive ✔&lt;br /&gt;
+	ทางบวก ข้อนี้ถูก เพราะพูดถึงปัญหาของเรือนจำ ที่มีความแออัดและสภาพความเป็นอยู่ที่ไม่ดีนัก แต่มีความหวังคือ จะสร้างเพิ่มขึ้น จึงเป็นเรื่องดี&lt;br /&gt;&lt;br /&gt;
+
+c. criticizing&lt;br /&gt;
+	วิจารณ์ บทความนี้ ไม่ได้วิจารณ์ว่า ดี หรือไม่ดี เห็นด้วย หรือไม่เห็นด้วย เพียงแต่เสนอเรื่องราวเท่านั้น จึงไม่ใช่การวิจารณ์ &lt;br /&gt;&lt;br /&gt;
+
+d. aggressive&lt;br /&gt;
+	ก้าวร้าว บทความนี้ ไม่ก้าวร้าว ไม่มีคำพูดรุนแรง&lt;br /&gt;&lt;br /&gt;
+บทอ่าน&lt;br /&gt;&lt;br /&gt;
+	
+ประเทศสหราชอาณาจักร มีร้อยละ(percentage)ของประชากร(population)ที่อยู่ในเรือนจำ(prison) สูงกว่าประเทศในกลุ่มอีซี(EC country -- European Communities หรือ European Union -- สหภาพยุโรป)อื่น ๆ ผลที่ตามมาประการหนึ่ง คือ การมีผู้ต้องขังจำนวนมากแออัดยัดเยียดในเรือนจำ และสิ่งที่เป็นห่วงอย่างมาก(great concern)คือ สภาพความเป็นอยู่ (conditions) เรือนจำของอังกฤษหลายแห่ง สร้างมาแล้วกว่า 100 ปี(were built over a hundred years ago) ห้องขัง (prison cells)ออกแบบไว้สำหรับผู้ต้องขัง(inmate) ห้องละ 1 คน แต่ผู้ต้องขังต้องอยู่ร่วมกัน ห้องขังละ 3-4 คน ขาดแคลน(lack) สิ่งอำนวยความสะดวก(facilities) เกี่ยวกับห้องชำระล้าง(washing) และห้องส้วม(toilet) แม้แต่เรือนจำที่สร้างใน ทศวรรษที่ 1960 (ค.ศ. 1960-1969) ก็ไม่สามารถพัฒนา(improve) สถานการณ์(situation) นี้ได้ ผู้ต้องขังยังคง(still)ต้องเท(slop out) โถอุจจาระและปัสสาวะ(their toilet pots) ในตอนเช้า&lt;br /&gt;&lt;br /&gt;
+
+รัฐบาล(government) กำลังวางแผนที่จะสร้างเรือนจำใหม่	ๆ เพิ่มขึ้น เรือนจำที่แปรรูปให้ เอกชนดำเนินงาน (Privatised prisons) ซึ่งจะไม่ได้ดำเนินงาน(run)	โดยรัฐบาล แต่จะให้บริษัทต่าง ๆ ดำเนินงานแทน ซึ่งวิธีการนี้ จะทำให้ได้พื้นที่(space) สำหรับผู้ต้องขังเพิ่มขึ้น (prison space = พื้นที่คุก) อย่างไรก็ตาม หลายคนต่อต้าน(against)ความคิด(idea) ที่จะดำเนินงานเรือนจำ เป็นธุรกิจ(businesses)
+
+    </explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+</exams>
+
+

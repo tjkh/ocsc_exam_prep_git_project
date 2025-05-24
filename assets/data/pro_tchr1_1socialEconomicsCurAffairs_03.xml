@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- เหตุการณ์บ้านเมืองปัจจุบัน    อันนี้ ไม่ใช่ เตรียมสอบ กพ-->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02848:date1627453500</qNum>
+    <question>ปี 2559 พระบาทสมเด็จพระเจ้าอยู่หัว ทรงครองสิริราชสมบัติครบ กี่ปี
+
+	</question>
+    <choice_A>60 ปี</choice_A>
+    <choice_B>65 ปี</choice_B>
+    <choice_C>70 ปี</choice_C>
+    <choice_D>75 ปี</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/king_9_june.png&quot;&gt;
+	</explanation>
+    <isExplain>one</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02849:date1627453500</qNum>
+    <question> เมื่อวันที่ 19 เมษายน 2559 ที่ประชุมคณะรัฐมนตรี มีมติเห็นชอบ การปรับปรุงโครงสร้างภาษีเงินได้ บุคคลธรรมดาตามที่กระทรวงการคลังเสนอ โดยให้ใช้ในปีภาษีใด &lt;br /&gt;
+
+	</question>
+    <choice_A>2559</choice_A>
+    <choice_B>2560</choice_B>
+    <choice_C>2561</choice_C>
+    <choice_D>2562</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+เมื่อวันที่ 19 เมษายน 2559 ที่ประชุมคณะรัฐมนตรี มีมติเห็นชอบการปรับปรุง โครงสร้างภาษีเงินได้บุคคลธรรมดา ตามที่กระทรวงการคลังเสนอ โดยเพิ่มการหักค่าใช้จ่าย และค่าลดหย่อนในหลายรายการ &lt;br /&gt;&lt;br /&gt;
+
+ ทั้งนี้การปรับเกณฑ์ดังกล่าวข้างต้น ให้ใช้บังคับสำหรับเงินได้พึงประเมินในปีภาษี 2560 เป็นต้นไป (ยื่นแบบภาษีในปี 2561) ซึ่งการปรับปรุงโครงสร้างภาษีครั้งนี้ ทำให้การจัดเก็บภาษีเงินได้บุคคลธรรมดา มีความเป็นธรรมมากขึ้น สอดคล้องกับสภาพเศรษฐกิจและค่าครองชีพในปัจจุบัน โดยต้องมีรายได้เดือนละ 26,000 บาทขึ้นไปจึงจะเริ่มเสียภาษี กรณีมีรายได้เฉพาะเงินเดือนเท่านั้น และหักลดหย่อนส่วนตัว โดยไม่ใช้สิทธิลดหย่อนรายการอื่น &lt;br /&gt;
+	
+	</explanation>
+    <isExplain>one</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02850:date1627453500</qNum>
+    <question>ตามโครงสร้างภาษีใหม่ ทำให้ผู้ที่มีเงินเดือนมากกว่าเดือนละเท่าไร จึงจะเสียภาษี&lt;br /&gt;
+
+	</question>
+    <choice_A>10,000 บาท</choice_A>
+    <choice_B>15,000 บาท</choice_B>
+    <choice_C>21,000 บาท</choice_C>
+    <choice_D>26,000 บาท</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02851:date1627453500</qNum>
+    <question>ทีมใดได้ครองแชมป์ ฟุตบอลยูโร 2016 
+
+	</question>
+    <choice_A>ฝรั่งเศส</choice_A>
+    <choice_B>สเปน</choice_B>
+    <choice_C>โปรตุเกส</choice_C>
+    <choice_D>อังกฤษ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02852:date1627453500</qNum>
+    <question>คดีไร่ส้ม เกี่ยวข้องกับใครมากที่สุด&lt;br /&gt;
+
+	</question>
+    <choice_A>เฮียสอ</choice_A>
+    <choice_B>เสี่ยสอ</choice_B>
+    <choice_C>เฮียปอ </choice_C>
+    <choice_D>เสี่ยปอ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+&lt;strong&gt;สรุปเรื่องเกี่ยวกับคดีไร่ส้ม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1.เสี่ยสอ เรียกได้ว่าเป็นลูกหม้อเนชั่น คน itv ยุคบุกเบิกเลย เสี่ยมีสไตล์การเล่าข่าวที่โดดเด่น มีคนติดตามระดับหนึ่ง&lt;br /&gt;&lt;br /&gt;
+
+2. แต่มาแจ้งเกิดเอาจริงๆ ก็ตอนจัดรายการ “เก็บตกจากเนชั่น” และ “คมชัดลึก”  ในช่องเนชั่น (ตอนนั้นยังเป็นคู่หูคู่ฮากันอยู่นะเธอ ก่อนจะแตกกันทีหลัง)&lt;br /&gt;&lt;br /&gt;
+
+3. ต่อมาช่อง3 ก็มาจีบให้เสี่ยไปทำรายการเล่าข่าวในช่วงเช้า (ต่อมากลายเป็นรายการ เรื่องเล่าเช้านี้) แต่ๆๆ ตอนเช้าแกก็มี “เก็บตกจากเนชั่น” ด้วยไง เนชั่นฯก็เลยไม่ยอมให้ไป&lt;br /&gt;&lt;br /&gt;
+
+4. ณ จุดนั้น เสี่ยสอนี่จัดว่าเป็นคนข่าวที่ฮอตที่สุดละ คนจีบกันเยอะ ก็เริ่มรู้สึกตัวเองโต เกินกว่าอยู่ใต้ปีกของเนชั่นละ สุดท้ายเลยลาออกจากเนชั่นฯ จนบิ๊กบอสเนชั่นฯ สุทธิชัย หยุ่น ออกมาพูดว่าเนรคุณ&lt;br /&gt;&lt;br /&gt;
+
+5. พอออกมาแล้วก็รับจ้างเป็นพิธีกรรายการเรื่องเล่าเช้านี้ทางช่อง 3 และ “ถึงลูกถึงคน” ทางช่อง 9 อสมท. ซึ่งก็ทำงานรับตังค์เหมือนมือปืนรับจ้าง ส่วนช่อง 3 กับช่อง 9 เป็นผู้ดูแลการผลิตทั้งหมด เสี่ยสอเดินตัวปลิวเท่ๆ มาเข้ารายการอย่างเดียว (คล้ายๆ ดีเจแค่มาจัดรายการ ที่เหลือคลื่นวิทยุลงแรงหมด)&lt;br /&gt;&lt;br /&gt;
+
+6. แต่ต่อมาช่อง 9 อยากได้รายการคุยข่าวแบบเรื่องเล่าเช้านี้บ้างไรบ้าง เลยเสนอให้เสี่ย เป็นผู้ร่วมผลิตรายการ แล้วแบ่งเวลาโฆษณากันคนละครึ่ง ก็ออกมาเป็น “คุยคุ้ยข่าว”&lt;br /&gt;&lt;br /&gt;
+
+7. ทีนี้พอทำเอง ก็ต้องมีทีมถ่ายทำ มีทีมหาสปอนเซอร์ละ งั้นเปิดบริษัทมันเลยดีกว่า จะได้บริหารจัดการง่ายๆ ก็เกิดมาเป็น บริษัท ไร่ส้ม จำกัด&lt;br /&gt;&lt;br /&gt;
+
+8. ซึ่งในสัญญาบอกว่า รายการที่ออกเสาร์-อาทิตย์ให้โฆษณาได้ครั้งละ 5 นาทีนะ ถ้าโฆษณาเกิน 5 นาที ต้องจ่ายค่าเกินเวลาให้ อสมท ในอัตรานาทีละ 2 แสนบาท ส่วนที่ออกจันทร์-ศุกร์ ให้โฆษณาได้ครั้งละ 2 นาที 30 วินาที ถ้าเกิน ต้องจ่ายนาทีละ 240,000 บาท อ่ะ ก็โอเคสองฝ่ายตกลงทำสัญญากันไป&lt;br /&gt;&lt;br /&gt;
+
+9. ต่อมาสหภาพแรงงานช่อง 9 ก็ไปเจอว่า เฮ้ย! ไร่ส้ม ค้างชำระรายได้จากการโฆษณาเกือบ 100 ล้านบาท เอาล่ะสิ เป็นเรื่องเป็นราวขึ้นมา เสี่ยสอเลยอ่ะๆ ยอมจ่ายให้พร้อมดอกเบี้ยเป็นเงินร้อยกว่าล้านบาท ก็คิดว่าเรื่องคงจบละ แยกย้ายๆ&lt;br /&gt;&lt;br /&gt;
+
+10. แต่มันไม่จบไง เพราะตามกฎเกณท์แล้ว ช่อง9 ในฐานะที่เป็นรัฐวิสาหกิจ ก็ต้องตั้งกรรมการขึ้นมาสอบว่า ทำแบบนี้มันผิดระเบียบผิดกฎหมายไรเปล่า ก็สอบกันไปแล้วฟันโช๊ะว่ามีความผิดจริง&lt;br /&gt;&lt;br /&gt;
+
+11. เรื่องเลยส่งต่อไปถึง ป.ป.ช. ก็เจอว่า จริงๆแล้วมีพนักงาน อสมท คนนึงที่เป็นคนรับผิดชอบ จัดทำคิวโฆษณารวมและเป็นคนที่ต้องทำรายงาน กรณีโฆษณาเกินเวลาเพื่อเรียกเก็บเงินจาก บ.ไร่ส้ม อีกที แต่กรณีนี้เจ๊แกจงใจไม่รายงานการโฆษณาเกินเวลาของ บ.ไร่ส้ม!!! &lt;br /&gt;&lt;br /&gt;
+
+12. แล้วยังมีคนไปเจออีกว่า รายการข่าวเที่ยงคืน มีการออกอากาศล่าช้ากว่าเวลาที่กำหนด พอตรวจสอบก็เจอว่า รายการของเสี่ยสอออกอากาศ เกินเวลาเพราะมีโฆษณาเกินมา เลยมาเบียดเวลาข่าวเที่ยงคืน ต้องไปออกอากาศหลังเที่ยงคืน &lt;br /&gt;&lt;br /&gt;
+
+13. ที่เด็ดคือ นอกจากเบียดรายการอื่นเพราะโฆษณาเกินเวลาแล้ว เจ๊เจ้าหน้าที่คนนั้นยังช่วยปกปิด ด้วยการแก้ใบคิวโฆษณาด้วยน้ำยาลบคำผิดด้วยนะ แถมตอนหลังออกมาสารภาพว่า เพราะผู้บริหารบริษัทไร่ส้มแนะนำให้ทำ &lt;br /&gt;&lt;br /&gt;
+
+14. งานนี้เจ๊ไม่ได้ทำฟรีๆ นะฮะ เพราะมีหลักฐานว่าเสี่ยสอเซ็นชื่อ สั่งจ่ายเช็คให้เจ้าหน้าที่คนนี้ พร้อมออกเอกสารหักภาษี ณ ที่จ่ายไว้รวม 6 ครั้ง เป็นเงิน 7แสนกว่าบาท (ใบเสร็จชัดเจนเลย)  &lt;br /&gt;&lt;br /&gt;
+
+15. ถึงตรงนี้ก็น่าจะชัดเจนแล้วว่า บ.ไร่ส้ม ติดสินบนพนักงาน อสมท ผู้ดูแลคิวโฆษณา เพื่อให้ตัวเอง ได้เงินจากการโฆษณามากขึ้น แถมไม่ต้องแบ่งใคร เก็บเองเต็มๆ&lt;br /&gt;&lt;br /&gt;
+
+16. ป.ป.ช. เลยลงมติเอกฉันท์ 7 ต่อ 0 ชี้มูลความผิดเจ้าพนักงานคนนั้น ว่ามีมูลความผิดทางวินัยร้ายแรง และมีมูลความผิดทางอาญา ส่วนเสี่ยสอและกรรมการบริษัทไร่ส้ม ก็มีมูลความผิดทางอาญา ฐานสนับสนุนพนักงานกระทำความผิด&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;สรุป&lt;/strong&gt; ศาลอาญาพิจารณาแล้วเห็นว่าผิดจริง สั่งจำคุกเสี่ยสอกับลูกน้อง 20 ปี ลดเหลือ 13 ปี 4 เดือน ส่วนอดีตคน อสมท. คุก 30 ปี ลดเหลือ 20 ปี ไม่รออาญา และปรับไร่ส้ม 80,000 บาท ตามข่าว&lt;br /&gt;&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>one</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02853:date1627453500</qNum>
+    <question>เสี่ยสอ ถูกศาลชั้นต้นสั่งจำคุกกี่ปี &lt;br /&gt;
+
+	</question>
+    <choice_A>12 ปี 6 เดือน</choice_A>
+    <choice_B>13 ปี 4 เดือน</choice_B>
+    <choice_C>14 ปี 9 เดือน</choice_C>
+    <choice_D>20 ปี 4 เดือน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02854:date1627453500</qNum>
+    <question>เสี่ยสอ ถูกศาลชั้นต้นสั่งจำคุกในความผิดใด&lt;br /&gt;
+	</question>
+    <choice_A>ทุจริตบริษัทไร่ส้ม</choice_A>
+    <choice_B>ทุจริตเงินค่าโฆษณา</choice_B>
+    <choice_C>รุกล้ำเขตป่าสงวน</choice_C>
+    <choice_D>ทุจริตเวลาออกอากาศ ช่อง 3</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02855:date1627453500</qNum>
+    <question>ดีเอสไอ ฟ้องพระธัมมชโย ในข้อหาใด&lt;br /&gt;
+
+	</question>
+    <choice_A>อุตริมนุษยธรรมและความแตกแยกในศาสนจักร</choice_A>
+    <choice_B>ทุจริตเงินของวัดพระธรรมกาย</choice_B>
+    <choice_C>ฟอกเงินและรับของโจร</choice_C>
+    <choice_D>สร้างเวิลด์พีซ วัลเล่ย์ที่เขาใหญ่รุกล้ำเขตป่าสงวน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02856:date1627453500</qNum>
+    <question>คสช ให้จัดการศึกษาขั้นพื้นฐาน โดยไม่เก็บค่าใช้จ่าย จำนวนกี่ปี&lt;br /&gt;
+
+	</question>
+    <choice_A>6 ปี</choice_A>
+    <choice_B>12 ปี</choice_B>
+    <choice_C>15 ปี</choice_C>
+    <choice_D>18 ปี</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เรียนฟรี 15 ปี&lt;/strong&gt; คสช. ออกประกาศแล้ว ครอบคลุมค่าเทอม ค่าหนังสือ ค่าเครื่องแบบ ไม่เสียค่าใช้จ่าย 
+
+            วันที่ 15 มิถุนายน 2559 เว็บไซต์ราชกิจจานุเบกษา ได้เผยแพร่คําสั่งหัวหน้าคณะรักษาความสงบแห่งชาติ ที่ 28/2559 เรื่อง ให้จัดการศึกษาขั้นพื้นฐาน 15 ปี โดยไม่เก็บค่าใช้จ่าย โดยระบุว่า ตามที่กฎหมายว่าด้วยการศึกษาแห่งชาติกําหนดให้รัฐต้องจัดให้บุคคลได้รับการศึกษาขั้นพื้นฐานไม่น้อยกว่า 12 ปี โดยไม่เก็บค่าใช้จ่ายนั้น รัฐบาลที่ผ่านมามีนโยบายจัดการศึกษาดังกล่าวโดยไม่เก็บค่าใช้จ่ายเป็นเวลา 15 ปี ตามมติคณะรัฐมนตรี วันที่ 13 มกราคม 2552 โดยขออนุมัติตั้งงบประมาณเป็นรายปี และขยายขอบเขตการดําเนินการตามนโยบายของรัฐบาลแต่ละคณะมาเป็นลําดับ 
+
+            หัวหน้าคณะรักษาความสงบแห่งชาติพิจารณาแล้วเห็นว่า เรื่องนี้สอดคล้องกับนโยบายด้านการศึกษาของคณะรักษาความสงบแห่งชาติ และนโยบายปฏิรูปการศึกษาของรัฐบาล ทั้งสามารถลดความเหลื่อมล้ำ สร้างโอกาสทางการศึกษาและความเป็นธรรมในสังคม แก้ปัญหาความยากจน ตลอดจนส่งเสริมการพัฒนาทรัพยากรมนุษย์ และสอดคล้องกับความต้องการของประชาชน จึงสมควรยืนยันแนวทางดังกล่าวและพัฒนาต่อไป ด้วยการยกระดับจากการเป็นโครงการตามนโยบายของแต่ละรัฐบาล ให้เป็นหน้าที่ของรัฐและมาตรการตามกฎหมาย เพื่อเป็นหลักประกันความยั่งยืนมั่นคง และเพื่อให้สามารถจัดงบประมาณสนับสนุนได้อย่างต่อเนื่อง
+	</explanation>
+    <isExplain>one</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02857:date1627453500</qNum>
+    <question>เรียนฟรี ตามประกาศของ คสช ครอบคลุมค่าใช้จ่ายอะไรบ้าง&lt;br /&gt;
+
+	</question>
+    <choice_A>ค่าเทอม ค่าอุปกรณ์การเรียน ค่าเครื่องแบบ </choice_A>
+    <choice_B>ค่าเทอม ค่าอาหารกลางวัน ค่าเครื่องแบบ </choice_B>
+    <choice_C>ค่าเทอม ค่าหนังสือ ค่าอาหารกลางวัน </choice_C>
+    <choice_D>ค่าเทอม ค่าหนังสือ ค่าเครื่องแบบ </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02858:date1627453500</qNum>
+    <question>ข้อสอบอะไรที่ พล.อ. ดาว์พงษ์ รัตนสุวรรณ รมว.ศธ. สั่งการให้ สทศ. ดำเนินการตรวจข้อสอบใหม่&lt;br /&gt; 
+
+	</question>
+    <choice_A>GAT</choice_A>
+    <choice_B>N-NET</choice_B>
+    <choice_C>O-NET</choice_C>
+    <choice_D>B-NET</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+         &lt;strong&gt;พล.อ. ดาว์พงษ์ รัตนสุวรรณ&lt;/strong&gt; รัฐมนตรีว่าการกระทรวงศึกษาธิการ (รมว.ศธ.) สั่งการให้ สทศ. ดำเนินการตรวจข้อสอบโอเน็ต ม.3 และ ม.6 ใหม่ ยันหากมีข้อผิดพลาดจริงยินดีรับผิดชอบ&lt;br /&gt;&lt;br /&gt;
+
+         วันที่ 13 มิถุนายน 2559 ผู้สื่อข่าวรายงานว่า พล.อ. ดาว์พงษ์ รัตนสุวรรณ รมว.ศธ. เปิดเผยถึงความคืบหน้า กรณีแบบทดสอบทางการศึกษาแห่งชาติขั้นพื้นฐาน O-NET ของชั้นมัธยมศึกษาปีที่ 6 วิชาสังคมศึกษา ศาสนา ศิลปวัฒนธรรม และ ม.3 วิชาภาษาอังกฤษ ที่มีการเฉลยผิดว่า ขณะนี้ได้มีการสั่งการไปยัง นายสัมพันธ์ พันธุ์พฤกษ์ ผู้อำนวยการสถาบันทดสอบทางการศึกษาแห่งชาติ (สทศ.) ให้ดำเนินการตรวจสอบข้อสอบ และเฉลยใหม่แล้ว ซึ่งคาดว่าน่าจะรู้ผลภายในสัปดาห์นี้ และจะมีการชี้แจงต่อสังคมอีกครั้ง&lt;br /&gt;&lt;br /&gt;
+
+         ทั้งนี้ พล.อ. ดาว์พงษ์ รัตนสุวรรณ กล่าวว่า ตนคิดว่าไม่มีใครอยากให้เกิดเหตุการณ์เช่นนี้ แต่ถ้าเกิดผิดพลาดจริงก็คงต้องแก้ไข ซึ่งทาง สทศ. เองก็ยืนยันว่าปีหน้าจะลงลึก ในเรื่องการออกข้อสอบ การทำข้อสอบ และการเฉลยข้อสอบให้มากกว่านี้ อย่างไรก็ดีในความผิดพลาดครั้งนี้ ตนยินดีรับผิดชอบเพราะตนเป็นรัฐมนตรี ที่กำหนดนโยบายในการเปิดข้อสอบ แต่ส่วนอนาคตยังจะมีการใช้ข้อสอบโอเน็ต ในการคัดเลือกเข้ามหาวิทยาลัยหรือไม่นั้น คงต้องดูผลการหารืออีกทีของ ที่ประชุมอธิการบดีแห่งประเทศไทย (ทปอ.)	</explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02859:date1627453500</qNum>
+    <question>แอนดรูว์ บิ๊กส์ พบว่าเฉลยข้อสอบ O-NET (สอบ ก.พ.59) วิชาภาษาอังกฤษ ม.3 มีการเฉลยผิด ร้อยละเท่าไร&lt;br /&gt;
+	</question>
+    <choice_A>3</choice_A>
+    <choice_B>5</choice_B>
+    <choice_C>8</choice_C>
+    <choice_D>10</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02860:date1627453500</qNum>
+    <question>มหาวิทยาลัยจัดทดสอบ ภาษาอังกฤษนักศึกษา ระดับอุดมศึกษา ตามนโยบาย ยกระดับมาตรฐานภาษาอังกฤษ เริ่มเมื่อไร&lt;br /&gt;
+
+	</question>
+    <choice_A>ปีการศึกษา 2558</choice_A>
+    <choice_B>ปีการศึกษา 2559</choice_B>
+    <choice_C>ปีการศึกษา 2560</choice_C>
+    <choice_D>ปีการศึกษา 2561</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	กกอ. ลงนามประกาศจัดทดสอบภาษาอังกฤษนักศึกษาระดับอุดมศึกษา ตามนโยบาย ยกระดับมาตรฐานภาษาอังกฤษ-โชว์ผลสอบในทรานสคริปต์ เริ่มปีการศึกษา 2559&lt;br /&gt;&lt;br /&gt;
+
+          วันที่ 20 เมษายน 2559 รศ. นพ.สรนิต รองเลขาธิการ คณะกรรมการการอุดมศึกษา กล่าวว่า ให้สถาบันอุดมศึกษา พิจารณาจัดให้นิสิต-นักศึกษาทุกคน ทดสอบความรู้ภาษาอังกฤษ ตามแบบทดสอบมาตรฐานระดับอุดมศึกษาที่สถาบันสร้างขึ้น หรือที่เห็นสมควร โดยสามารถเทียบเคียงผลกับ Common European Framework of Reference for Languages (CEFR) หรือมาตรฐานอื่น เพื่อให้ทราบระดับความสามารถ ของนิสิต-นักศึกษา และสถาบันอุดมศึกษา อาจพิจารณานำผล การทดสอบความรู้ ทางภาษาอังกฤษบันทึก ในใบรับรองผลการศึกษา หรือจัดทำเป็นประกาศนียบัตร โดยให้เริ่มตั้งแต่ปีการศึกษา 2559&lt;br /&gt;
+ 	</explanation>
+    <isExplain>one</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02861:date1627453500</qNum>
+    <question>ประกาศกระทรวงศึกษาธิการ เรื่อง นโยบายการปฏิรูปการเรียนการสอนภาษาอังกฤษ เพื่อให้สอดคล้องกับกรอบมาตรฐานอะไร&lt;br /&gt;
+
+	</question>
+    <choice_A>TOEFL</choice_A>
+    <choice_B>TESOL</choice_B>
+    <choice_C>IELTS</choice_C>
+    <choice_D>CEFR</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;ประกาศกระทรวงศึกษาธิการ เรื่อง นโยบายการปฏิรูปการเรียนการสอนภาษาอังกฤษ พ.ศ. 2557&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ส่งเสริมการเรียนการสอนภาษาอังกฤษ เน้นการสื่อสาร (Communicative Language Teaching: CLT) เพื่อให้สอดคล้องกับกรอบมาตรฐาน ความสามารถทางภาษาอังกฤษ ที่เป็นสากล ได้แก่ The Common European Framework of Reference for Languages (CEFR) เป็นกรอบความคิดหลัก ในการจัดการเรียนการสอน ภาษาอังกฤษของประเทศ โดยให้ครูผู้สอนภาษาอังกฤษ เน้นการสอนภาษาอังกฤษ เพื่อนำไปใช้จริงในชีวิตประจำวัน โดยได้ใช้แนวการสอนภาษาอังกฤษ ให้เป็นตามธรรมชาติ ของการเรียนรู้ เน้นการสื่อสาร (Communicative Language Teaching: CLT) ปรับการเรียนการสอน จากการเน้นไวยากรณ์ มาเป็นเน้นการสื่อสารที่เริ่มจาก การฟัง การพูด การอ่าน และการเขียนตามลำดับ 	&lt;br /&gt;
+</explanation>
+    <isExplain>one</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02862:date1627453500</qNum>
+    <question>CEFR แบ่งผู้เรียนออกเป็น กี่กลุ่ม กี่ระดับ&lt;br /&gt;
+
+	</question>
+    <choice_A>2 กลุ่ม 5 ระดับ</choice_A>
+    <choice_B>3 กลุ่ม 6 ระดับ</choice_B>
+    <choice_C>3 กลุ่ม 8 ระดับ</choice_C>
+    <choice_D>4 กลุ่ม 6 ระดับ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;CEFR&lt;/strong&gt; ได้จำแนกผู้เรียนออกเป็น 3 กลุ่ม 6 ระดับความสามารถ ดังนี้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;กลุ่มที่ 1&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;ระดับ A1&lt;/strong&gt; สามารถใช้และเข้าใจประโยคง่ายๆในชีวิตประจำวัน&lt;br /&gt;
+&lt;strong&gt;ระดับ A2&lt;/strong&gt; สามารถใช้และเข้าใจประโยคในชีวิตประจ าวันในระดับกลาง&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;กลุ่มที่ 2&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;ระดับ B1&lt;/strong&gt; สามารถพูด เขียน และจับใจความสำคัญ ของข้อความทั่วๆไปได้ จัดการกับ สถานการณ์ต่างๆ ที่เกิดขึ้น ระหว่างการเดินทาง ในประเทศที่ใช้ภาษาอังกฤษได้&lt;br /&gt;
+&lt;strong&gt;ระดับ B2&lt;/strong&gt; สามารถใช้ภาษาในระดับดี พูดและเขียนได้แทบทุกเรื่อง อย่างถูกต้อง คล่องแคล่วขึ้น รวมทั้งอ่าน และทำความเข้าใจ กับบทความที่มีเนื้อหายากขึ้นได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;กลุ่มที่ 3&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;ระดับ C1&lt;/strong&gt; สามารถพูดแสดงความรู้สึกได้อย่างเป็นธรรมชาติ โดยไม่ต้องหยุดคิดหาคำศัพท์ เขียนข้อความที่ซับซ้อนได้ชัดเจนถูกต้องตามโครงสร้างไวยากรณ์&lt;br /&gt;
+&lt;strong&gt;ระดับ C2&lt;/strong&gt; สามารถใช้ภาษาได้อย่างดีเยี่ยมใกล้เคียงเจ้าของภาษา&lt;br /&gt;&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>one</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02863:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02864:date1627453500</qNum>
+    <question>นางอองซาน ซูจี ที่ปรึกษาแห่งรัฐแห่งสาธารณรัฐแห่งสหภาพพม่า มาพบแรงงานพม่า ที่จังหวัดอะไร
+
+	</question>
+    <choice_A>เพชรบุรี</choice_A>
+    <choice_B>ราชบุรี</choice_B>
+    <choice_C>สมุทรสาคร</choice_C>
+    <choice_D>สมุทรสงคราม</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02865:date1627453500</qNum>
+    <question>องค์การนาซา ส่งยานอวกาศจูโน ไปสำรวจดาวอะไร
+
+	</question>
+    <choice_A>ดาวพุธ</choice_A>
+    <choice_B>ดาวอังคาร</choice_B>
+    <choice_C>ดาวพฤหัส</choice_C>
+    <choice_D>ดาวเสาร์</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02866:date1627453500</qNum>
+    <question>ภารกิจของยานอวกาศจูโน คืออะไร
+
+	</question>
+    <choice_A>ไขปริศนาการกำเนิดของดาวเคราะห์ในระบบสุริยจักรวาล</choice_A>
+    <choice_B>ค้นหาแหล่งน้ำ บนดาวพฤหัส</choice_B>
+    <choice_C>ถ่ายภาพดาวพฤหัส ด้านตรงข้ามกับดวงอาทิตย์</choice_C>
+    <choice_D>เก็บข้อมูลเชิงลึกของดาวพฤหัส</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>n</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- 15 -->
+  <thisQuestion>
+    <qNum>id02867:date1627453500</qNum>
+    <question>ผู้ที่กระทำการอันเป็นการทารุณกรรมสัตว์โดยไม่มีเหตุอันสมควร มีบทลงโทษสถานใด
+	
+	</question>
+    <choice_A>ต้องระวางโทษปรับไม่เกินหนึ่งหมื่นบาท</choice_A>
+    <choice_B>ต้องระวางโทษปรับไม่เกินสี่หมื่นบาท</choice_B>
+    <choice_C>ต้องระวางโทษจำคุกไม่เกินหนึ่งปี หรือปรับไม่เกินหนึ่งหมื่นบาท หรือทั้งจำทั้งปรับ</choice_C>
+    <choice_D>ต้องระวางโทษจำคุกไม่เกินสองปี หรือปรับไม่เกินสี่หมื่นบาท หรือทั้งจำทั้งปรับ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+อ้างอิงตาม พระราชบัญญัติป้องกันการทารุณกรรมและการจัดสวัสดิภาพสัตว์ พ.ศ.2557&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;หมวด 5&lt;/strong&gt; การป้องกันการทารุณกรรมสัตว์&lt;br /&gt;&lt;br /&gt;
+
+	-มาตรา 20 ห้ามมิให้ผู้ใดกระทำการอันเป็นการทารุณกรรมสัตว์โดยไม่มีเหตุอันสมควร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;หมวด 8&lt;/strong&gt; บทกำหนดโทษ&lt;br /&gt;&lt;br /&gt;
+
+	-มาตรา 31 ผู้ใดฝ่าฝืนมาตรา 20 ต้องระวางโทษจำคุกไม่เกินสองปี หรือปรับไม่เกินสี่หมื่นบาท หรือทั้งจำทั้งปรับ&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- yes for showing explanation, none for not showing -->
+  </thisQuestion>
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id02868:date1627453500</qNum>
+    <question>กีฬาโอลิมปิค 2016 จัดที่ประเทศอะไร
+
+	</question>
+    <choice_A>อเมริกา</choice_A>
+    <choice_B>อิตาลี</choice_B>
+    <choice_C>บลาซิล</choice_C>
+    <choice_D>ปานามา</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- yes for showing explanation, none for not showing -->
+  </thisQuestion>
+  <!-- 17 -->
+  <thisQuestion>
+    <qNum>id02869:date1627453500</qNum>
+    <question>ไวรัสซิก้า แพร่เชื้อจากคนสู่คน ได้ด้วยวิธีใด
+
+	</question>
+    <choice_A>โดยยุงเป็นพาหนะนำโรค</choice_A>
+    <choice_B>โดยการมีเพศสัมพันธ์</choice_B>
+    <choice_C>โดยทางระบบทางเดินอาหาร</choice_C>
+    <choice_D>ข้อ ก และข้อ ข</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- yes for showing explanation, none for not showing -->
+  </thisQuestion>
+  <!-- 18 -->
+  <thisQuestion>
+    <qNum>id02870:date1627453500</qNum>
+    <question>ข้อใดเป็นคำขวัญวันเด็กปี 2559 โดยพลเอกประยุทธ์ จันทร์โอชา
+	
+	</question>
+    <choice_A>ขยัน ประหยัด ซื่อสัตย์ มีวินัย</choice_A>
+    <choice_B>เด็กดี หมั่นเพียร เรียนรู้ สู่อนาคต</choice_B>
+    <choice_C>สามัคคี มีวินัย ใฝ่เรียนรู้ เชิดชูคุณธรรม </choice_C>
+    <choice_D>ความรู้ คู่คุณธรรม นำสู่อนาคต</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- yes for showing explanation, none for not showing -->
+  </thisQuestion>
+  <!-- 20 -->
+  <thisQuestion>
+    <qNum>id02871:date1627453500</qNum>
+    <question>Brexit คืออะไร
+	
+	</question>
+    <choice_A>การล่มสลายของรัสเซีย</choice_A>
+    <choice_B>องค์กรใหม่ในสหภาพยุโรป</choice_B>
+    <choice_C>การแยกตัวของอังกฤษจากสหภาพยุโรป</choice_C>
+    <choice_D>องค์กรก่อการร้ายในทวีปยุโรป</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	Brexit เป็นการรวมคำระหว่าง British + Exit ถูกใช้เรียกถึง เหตุการณ์ที่อังกฤษ ขอแยกตัว ออกจากการเป็น สมาชิกสหภาพยุโรป (กลุ่ม EU)&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>n</isExplain>
+    <!-- yes for showing explanation, none for not showing -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02872:date1627453500</qNum>
+    <question>การประชุม CLMVT Forum 2016 ที่กรุงเทพ ประกอบด้วยประเทศอะไรบ้าง&lt;br /&gt;
+
+	</question>
+    <choice_A>เมียนม่า ไทย ลาว</choice_A>
+    <choice_B>เมียนม่า มาเลเซีย ไทย ลาว</choice_B>
+    <choice_C>มาเลเซีย ไทย ลาว สิงคโปร์ เมียนม่า </choice_C>
+    <choice_D>เวียตนาม ไทย กัมพูชา ลาว เมียนมา</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+กลุ่มประเทศ CLMVT ประกอบด้วย&lt;br /&gt;
+	1. C หมายถึง Cambodia&lt;br /&gt;
+	2. L หมายถึง Laos&lt;br /&gt;
+	3. M หมายถึง Myanmar&lt;br /&gt;
+	4. V หมายถึง Vietnam&lt;br /&gt;
+	5. T หมายถึง Thailand&lt;br /&gt;
+	</explanation>
+    <isExplain>n</isExplain>
+    <!-- none for not showing, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02873:date1627453500</qNum>
+    <question>สนามบินอิสตันบูล ที่กลุ่มไอซิสกราดยิง อยู่ในประเทศอะไร
+
+	</question>
+    <choice_A>กรีก</choice_A>
+    <choice_B>ตุรกี</choice_B>
+    <choice_C>ซีเรีย</choice_C>
+    <choice_D>กรีซ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02874:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02875:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02876:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02877:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02878:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02879:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- nonefor not showing explanation, anything else shows it -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02880:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02881:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02882:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02883:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02884:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02885:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02886:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02887:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02888:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02889:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02890:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02891:date1627453500</qNum>
+    <question>
+    </question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+    </explanation>
+    <isExplain>none</isExplain>
+    <!-- none = ไม่แสดง, anything else = แสดงคำอธิบาย -->
+  </thisQuestion>
+</exams>
+
+

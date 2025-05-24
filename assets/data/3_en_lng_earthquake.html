@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+    <title>Earthquakes and the Recent Bangkok Quake</title>
+</head>
+<body>
+<!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <strong>เตรียมสอบ ก.พ.</strong>
+        </div>
+        <div class="modal-body">
+            <p id="myMessage">Place holder for text..</p>
+            <input type="button" value="เริ่มใหม่" onclick="startOver();" />
+            <input style="float: right;" type="button" value="ทำต่อ" onclick="goCont();" />
+        </div>
+        <div class="modal-footer">
+            http://www.thongjoon.com
+        </div>
+    </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<a name="conver_1"></a>
+<div class="upper" id="top">
+    <div class="isNew">id1745107205:date1745107205</div>
+    <strong>สำหรับ ข้อ 1-5</strong><br>
+    <strong>Instructions:</strong> Read the following paragraph and select the best answer for each item.<br><br>
+
+    <div class="tooltip" style="display: block; width: fit-content; margin: 0 auto;">
+        <strong>Earthquakes</strong><span class="tooltiptext">Earthquakes = แผ่นดินไหว</span>
+    </div><br>
+    An earthquake is a sudden <div class="tooltip"> shaking <span class="tooltiptext"> shaking = การสั่นสะเทือน </span></div> of the <div class="tooltip"> ground <span class="tooltiptext"> ground = พื้นดิน </span></div> caused by the <div class="tooltip"> movement <span class="tooltiptext"> movement = การเคลื่อนที่ </span></div> of  <div class="tooltip"> tectonic plates<span class="tooltiptext"> tectonic plates = แผ่นเปลือกโลก </span></div>. These plates move slowly, but when they <div class="tooltip">collide<span class="tooltiptext">collide = ชนกัน</span></div> or slide past each other, they <div class="tooltip">release energy<span class="tooltiptext">release energy = ปล่อยพลังงาน</span></div> that makes the ground shake. Earthquakes can cause buildings to <div class="tooltip">collapse<span class="tooltiptext">collapse = พังทลาย</span></div>, roads to <div class="tooltip">crack<span class="tooltiptext">crack = แตกร้าว</span></div>, and injuries or <div class="tooltip">loss of life<span class="tooltiptext">loss of life = การสูญเสียชีวิต</span></div>. The <div class="tooltip">strength<span class="tooltiptext">strength = ความรุนแรง</span></div> of an earthquake is <div class="tooltip">measured<span class="tooltiptext">measured = วัด</span></div> by its <div class="tooltip">magnitude<span class="tooltiptext">magnitude = ขนาด</span></div>.
+    
+    <p>On March 28, 2025, a powerful earthquake with a magnitude of 7.7 struck near Mandalay, Myanmar, about 1,000 kilometers from Bangkok, Thailand. The <div class="tooltip">tremors<span class="tooltiptext">tremors = การสั่นสะเทือน</span></div> were felt strongly in Bangkok, causing panic. A 33-story building under construction in the Chatuchak district collapsed, killing at least 44 people and leaving 50 missing as of April 17, 2025. Bangkok’s soft soil made the shaking worse, as it <div class="tooltip">amplifies<span class="tooltiptext">amplifies = ขยาย</span></div> <div class="tooltip">seismic waves<span class="tooltiptext">seismic waves = คลื่นไหวสะเทือน</span></div>. This event <div class="tooltip">raised concerns<span class="tooltiptext">raised concerns = ก่อให้เกิดความกังวล</span></div> about the safety of high-rise buildings in Bangkok, as many older structures were not built to <div class="tooltip">resist earthquakes<span class="tooltiptext">resist earthquakes = ต้านทานแผ่นดินไหว</span></div>.</p>
+    
+    <p><div class="tooltip">Rescue teams<span class="tooltiptext">Rescue teams = ทีมกู้ภัย</span></div> worked hard to find <div class="tooltip">survivors<span class="tooltiptext">survivors = ผู้รอดชีวิต</span></div>, using dogs and machines. The Thai government started an <div class="tooltip">investigation<span class="tooltiptext">investigation = การสืบสวน</span></div> to check if poor <div class="tooltip">building materials<span class="tooltiptext">building materials = วัสดุก่อสร้าง</span></div> caused the collapse. This earthquake showed that even cities far from the <div class="tooltip">epicenter<span class="tooltiptext">epicenter = จุดศูนย์กลางแผ่นดินไหว</span></div> can face serious damage, especially if their <div class="tooltip">geology<span class="tooltiptext">geology = ธรณีวิทยา</span></div> is not suitable for tall buildings.</p>
+
+    <div style="display: flex; align-items: center; justify-content: flex-end;">
+        <img src="images/grok_logo.png" width="16" height="15" alt="Grok Logo">
+        <span style="font-size: small; margin-left: 5px;">Grok ช่วยเขียน ถาม แปล</span>
+    </div>
+</div>
+
+<div class="lower">
+    <!-- Question 1 -->
+    <form action="#">
+        <div class="question_num" id="lng_Lttr1_q_number_1"><strong>ข้อ 1.</strong></div>
+        <div class="question_content">What causes an earthquake?</div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Strong winds</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Movement of tectonic plates</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Heavy rain</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Volcanic eruptions</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngEnLttr1_ans_01" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_01')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnLttr1_q1" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. Movement of tectonic plates<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            บทความระบุว่า “An earthquake is a sudden shaking of the ground caused by the movement of tectonic plates.” ซึ่งแปลว่าแผ่นดินไหวเกิดจากการเคลื่อนที่ของแผ่นเปลือกโลก คำตอบนี้ถูกต้องเพราะแผ่นเปลือกโลกเคลื่อนที่ช้าๆ และเมื่อชนกันหรือเลื่อนผ่านกันจะปล่อยพลังงานทำให้พื้นดินสั่น<br><br>
+            1. Strong winds (ลมแรง) - ลมไม่สามารถทำให้พื้นดินสั่นได้<br>
+            3. Heavy rain (ฝนตกหนัก) - ฝนอาจทำให้เกิดน้ำท่วมหรือดินถล่ม แต่ไม่ใช่สาเหตุของแผ่นดินไหว<br>
+            4. Volcanic eruptions (การปะทุของภูเขาไฟ) - ภูเขาไฟอาจทำให้เกิดการสั่นสะเทือนเล็กน้อย แต่ไม่ใช่สาเหตุหลักของแผ่นดินไหว<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q1', 'ตัวเลือก ข้อ 2', 'lngEnLttr1_ans_01', 'yes', '1745107205', 'lng_Lttr1_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngLttr_1" onclick="show_hide_expl('lgEnLttr1_q1', 'lngLttr_1', 'lng_Lttr1_q_number_1', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form><br>
+    <div class="clear_after_item"></div>
+
+    <!-- Question 2 -->
+    <form action="#">
+        <div class="question_num" id="lng_Lttr1_q_number_2"><strong>ข้อ 2.</strong></div>
+        <div class="question_content">What was the magnitude of the earthquake that affected Bangkok?</div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 5.5</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 6.4</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 7.7</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 8.0</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngEnLttr1_ans_02" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_02')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnLttr1_q2" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 3. 7.7<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            บทความระบุว่า “a powerful earthquake with a magnitude of 7.7 struck near Mandalay, Myanmar.” ซึ่งแปลว่าแผ่นดินไหวที่มีขนาด 7.7 เกิดขึ้นใกล้เมืองมัณฑะเลย์ ตัวเลขนี้แสดงถึงความรุนแรงของแผ่นดินไหวที่ส่งผลถึงกรุงเทพฯ คำตอบนี้ถูกต้องเพราะตรงกับข้อมูลในบทความ<br><br>
+            1. 5.5 - ไม่มีการกล่าวถึงขนาดนี้<br>
+            2. 6.4 - ไม่มีการกล่าวถึงขนาดนี้<br>
+            4. 8.0 - ไม่มีการกล่าวถึงขนาดนี้<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q2', 'ตัวเลือก ข้อ 3', 'lngEnLttr1_ans_02', 'yes', '1745107205', 'lng_Lttr1_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngLttr_2" onclick="show_hide_expl('lgEnLttr1_q2', 'lngLttr_2', 'lng_Lttr1_q_number_2', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form><br>
+    <div class="clear_after_item"></div>
+
+    <!-- Question 3 -->
+    <form action="#">
+        <div class="question_num" id="lng_Lttr1_q_number_3"><strong>ข้อ 3.</strong></div>
+        <div class="question_content">Why did the shaking feel stronger in Bangkok?</div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Because it was closer to the epicenter</label></div>
+        </div>
+        <div class слышать="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Because of its soft soil</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Because it has more buildings</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Because it was daytime</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngEnLttr1_ans_03" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_03')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnLttr1_q3" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. Because of its soft soil<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            บทความระบุว่า “Bangkok’s soft soil made the shaking worse, as it amplifies seismic waves.” ซึ่งแปลว่าดินนุ่มของกรุงเทพฯ ทำให้การสั่นสะเทือนรุนแรงขึ้นเพราะขยายคลื่นไหวสะเทือน คำตอบนี้ถูกต้องเพราะดินนุ่มไม่สามารถดูดซับพลังงานจากแผ่นดินไหวได้ดี ทำให้รู้สึกสั่นแรงกว่า<br><br>
+            1. Because it was closer to the epicenter (เพราะอยู่ใกล้จุดศูนย์กลาง) - กรุงเทพฯ อยู่ห่างจากจุดศูนย์กลาง 1,000 กิโลเมตร<br>
+            3. Because it has more buildings (เพราะมีตึกมากกว่า) - จำนวนตึกไม่เกี่ยวข้องกับความรุนแรงของการสั่น<br>
+            4. Because it was daytime (เพราะเป็นเวลากลางวัน) - เวลากลางวันไม่ส่งผลต่อการสั่นสะเทือน<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q3', 'ตัวเลือก ข้อ 2', 'lngEnLttr1_ans_03', 'yes', '1745107205', 'lng_Lttr1_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngLttr_3" onclick="show_hide_expl('lgEnLttr1_q3', 'lngLttr_3', 'lng_Lttr1_q_number_3', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form><br>
+    <div class="clear_after_item"></div>
+
+    <!-- Question 4 -->
+    <form action="#">
+        <div class="question_num" id="lng_Lttr1_q_number_4"><strong>ข้อ 4.</strong></div>
+        <div class="question_content">What happened to a building in Bangkok’s Chatuchak district?</div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. It was damaged slightly</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. It collapsed completely</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. It caught fire</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. It was evacuated safely</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngEnLttr1_ans_04" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_04')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnLttr1_q4" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. It collapsed completely<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            บทความระบุว่า “A 33-story building under construction in the Chatuchak district collapsed.” ซึ่งแปลว่าตึก 33 ชั้นในเขตจตุจักรพังทลายลงมา คำตอบนี้ถูกต้องเพราะตึกพังทั้งหลัง ส่งผลให้มีผู้เสียชีวิตและสูญหาย<br><br>
+            1. It was damaged slightly (เสียหายเล็กน้อย) - ตึกพังทั้งหลัง ไม่ใช่เสียหายเล็กน้อย<br>
+            3. It caught fire (เกิดไฟไหม้) - ไม่มีการกล่าวถึงไฟไหม้<br>
+            4. It was evacuated safely (อพยพได้อย่างปลอดภัย) - ตึกพังและมีผู้เสียชีวิต จึงไม่ได้อพยพอย่างปลอดภัย<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q4', 'ตัวเลือก ข้อ 2', 'lngEnLttr1_ans_04', 'yes', '1745107205', 'lng_Lttr1_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngLttr_4" onclick="show_hide_expl('lgEnLttr1_q4', 'lngLttr_4', 'lng_Lttr1_q_number_4', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form><br>
+    <div class="clear_after_item"></div>
+
+    <!-- Question 5 -->
+    <form action="#">
+        <div class="question_num" id="lng_Lttr1_q_number_5"><strong>ข้อ 5.</strong></div>
+        <div class="question_content">What is the epicenter of an earthquake?</div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. The city with the most damage</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. The starting point of the quake</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. The place with the tallest buildings</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. The area with the most people</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngEnLttr1_ans_05" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_05')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnLttr1_q5" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. The starting point of the quake<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            บทความระบุว่า “cities far from the epicenter can face serious damage.” ซึ่งแปลว่าเมืองที่อยู่ห่างจากจุดศูนย์กลางแผ่นดินไหวอาจได้รับความเสียหายรุนแรง คำว่า epicenter หมายถึงจุดเริ่มต้นของแผ่นดินไหวบนผิวโลก คำตอบนี้ถูกต้องเพราะตรงกับความหมายทางวิทยาศาสตร์<br><br>
+            1. The city with the most damage (เมืองที่มีความเสียหายมากที่สุด) - ความเสียหายไม่กำหนดจุดศูนย์กลาง<br>
+            3. The place with the tallest buildings (สถานที่มีตึกสูงที่สุด) - ตึกสูงไม่เกี่ยวข้องกับจุดศูนย์กลาง<br>
+            4. The area with the most people (พื้นที่ที่มีคนมากที่สุด) - จำนวนคนไม่เกี่ยวข้องกับจุดศูนย์กลาง<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q5', 'ตัวเลือก ข้อ 2', 'lngEnLttr1_ans_05', 'yes', '1745107205', 'lng_Lttr1_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngLttr_5" onclick="show_hide_expl('lgEnLttr1_q5', 'lngLttr_5', 'lng_Lttr1_q_number_5', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form><br>
+    <div class="clear_after_item"></div>
+</div>
+
+<script src="check_and_feedback_new.js" type="text/javascript" language="JavaScript"></script>
+</body>
+</html>

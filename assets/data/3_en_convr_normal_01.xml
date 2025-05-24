@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- 1 -->
+  <thisQuestion>
+    <!-- entrance 2524-2530 with keys  กข/2530-->
+    <qNum>id01962:date1627453500</qNum>
+    <question>
+      <!--  ถ้ามีรูป ก็ใส่โค้ดแบบข้างล่างนี้ รูปอยู่ใน res/drawable เป็นได้ทั้ง .jpg และ .png  -->
+      <!--  &lt;img src= &quot; chalie01.png&quot;&gt;  -->
+
+	&lt;strong&gt;Thong:&lt;/strong&gt;I'm  going  to  work  in  Udorn.  Is  it  very  hot  there? &lt;br /&gt;
+&lt;strong&gt;Nid:&lt;/strong&gt;	........................&lt;br /&gt;
+	</question>
+    <choice_A>Take  good  care  of  yourself.  You'll  love  it. </choice_A>
+    <choice_B>Don't  worry.  You'll  soon  get  used  to  the  heat. </choice_B>
+    <choice_C>You'll  see  a  lot  of  interesting  things  there,  the  heat  among  them. </choice_C>
+    <choice_D>Haven't  you  got  any  plans  at  all  against  the  heat? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt;Thong:&lt;/strong&gt;  "I'm  going  to  work  in  Udorn.  Is  it  very  hot  there? &lt;br /&gt;
+	ผมจะไปทำงานที่จังหวัดอุดรธานี อากาศที่นั่น(there)ร้อนมากไหม&lt;br /&gt;
+&lt;strong&gt;Nid:&lt;/strong&gt;	...........................&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. Take  good  care  of  yourself.  You'll  love  it. &lt;br /&gt;
+	ดูแลสุขภาพของคุณให้ดี คุณจะชอบมัน&lt;br /&gt;
+	to take good care of เป็นสำนวน หมายถึงดูแล (take care)อย่างดี&lt;br /&gt;
+	คำตอบไม่ชัดเจน ไม่ได้ตอบเรื่องความร้อน&lt;br /&gt;&lt;br /&gt;
+
+2. Don't  worry.  You'll  soon  get  used  to  the  heat.  ✔&lt;br /&gt;
+	ไม่ต้องเป็นห่วง แล้วคุณจะคุ้นเคยกับความร้อนในไม่ช้านัก&lt;br /&gt;
+	เป็นคำตอบที่เหมาะสมที่สุด เพราะจะไปทำงานที่อุดร คงจะไม่สามารถแก้ไขเรื่องอุณหภูมิของพื้นที่ได้&lt;br /&gt;&lt;br /&gt;
+
+3. You'll  see  a  lot  of  interesting  things  there,  the  heat  among  them. &lt;br /&gt;
+	คุณจะได้พบกับสิ่งที่น่าสนใจที่นั่น ความร้อนก็เป็นอย่างหนึ่ง&lt;br /&gt;
+	ความร้อนไม่ใช่สิ่งที่น่าสนใจ พูดคล้าย ๆ กันประชดประชัน&lt;br /&gt;&lt;br /&gt;
+
+4. Haven't  you  got  any  plans  at  all  against  the  heat? &lt;br /&gt;
+	คุณไม่ได้เตรียมแผนเอาไว้สำหรับต้านกับความร้อยเลยหรือ(against = ต้าน)&lt;br /&gt;
+	ผู้ถามยังไม่ทันรู้เลยว่าร้อนขนาดไหน จะเตรียมตัวได้อย่างไร&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 2 -->
+  <thisQuestion>
+    <qNum>id01963:date1627453500</qNum>
+    <question>&lt;strong&gt;Dang:&lt;/strong&gt;  Oh  dear.  I  got  home   very  late  last  night.  I  hope  I  didn't  disturb  you.&lt;br /&gt;
+&lt;strong&gt;Toy:&lt;/strong&gt; .................... &lt;br /&gt;
+	</question>
+    <choice_A>No,  I  didn't  hear  anything.</choice_A>
+    <choice_B>Nobody  knew  about  it.</choice_B>
+    <choice_C>You'd  better  not  tell  me.	</choice_C>
+    <choice_D>Don't  speak  to  me  like  that.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Dang:&lt;/strong&gt;  Oh  dear.  I  got  home   very  late  last  night.  I  hope  I  didn't  disturb  you.&lt;br /&gt;
+	ตายจริง เมื่อคืนถึงบ้านดึกมาก หวังว่าคงไม่รบกวนคุณนะ (disturb = รบกวน)
+&lt;strong&gt;Toy:&lt;/strong&gt; ........................... &lt;br /&gt;&lt;br /&gt;	
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. No,  I  didn't  hear  anything. ✔&lt;br /&gt;
+	เปล่าเลย ไม่ได้ยินอะไรสักอย่าง&lt;br /&gt;&lt;br /&gt;
+
+2. Nobody  knew  about  it.&lt;br /&gt;
+	ไม่มีใครรู้เรื่องนี้ &lt;br /&gt;
+	ไม่ถูกเพราะ ไม่เกี่ยวกับเรื่องนี้ ไม่ได้ตอบคำถาม&lt;br /&gt;&lt;br /&gt;
+
+3. You'd  better  not  tell  me.	&lt;br /&gt;
+	คุณไม่บอกฉันจะดีกว่า&lt;br /&gt;
+	ไม่ถูกเพราะ ไม่เกี่ยวกัน  ไม่ได้ตอบคำถาม&lt;br /&gt;&lt;br /&gt;
+
+4. Don't  speak  to  me  like  that.&lt;br /&gt;
+	อย่าพูดกับฉันอย่างนั้น	&lt;br /&gt;
+	ไม่ถูกเพราะ ไม่เกี่ยวกับเรื่องนี้  ไม่ได้ตอบคำถาม&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;เพิ่มเติม&lt;/strong&gt;
+
+had better:&lt;br /&gt;
+	You'd better ย่อมาจาก You had better หมายถึง สิ่งที่ควรทำ แต่สำหรับในข้อนี้ มีรูปเป็นปฏิเสธ คือ You'd better not tell me. จึงหมายถึงสิ่งที่ไม่ควรทำ &lt;br /&gt;&lt;br /&gt;
+	ถึงแม้ว่า had จะมีรูปเป็น Past form แต่ความหมายของ had better หมายถึงสิ่งที่เกิดขึ้นในปัจจุบัน หรืออนาคต&lt;br /&gt;
+	กริยาที่ตามหลัง ต้องเป็นกริยาช่องที่ 1 ไม่มี to นำหน้า เช่น&lt;br /&gt;&lt;br /&gt;
+	You'd better tell me about it. (คุณควรจะบอกฉันเกี่ยวกับเรื่องนั้นดีกว่า)&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 3 -->
+  <thisQuestion>
+    <qNum>id01964:date1627453500</qNum>
+    <question>At a department store. &lt;br /&gt;
+&lt;strong&gt;Salesgirl:&lt;/strong&gt; ............................... &lt;br /&gt;
+&lt;strong&gt;Customer:&lt;/strong&gt; No, thanks. I'm just looking around.	&lt;br /&gt;
+	</question>
+    <choice_A>Anything I can help you with? </choice_A>
+    <choice_B>What do you think of it? </choice_B>
+    <choice_C>Don't you have small change?</choice_C>
+    <choice_D>It's reasonable, isn't it?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+At a department store. &lt;br /&gt;
+&lt;strong&gt;Salesgirl:&lt;/strong&gt; ................................ &lt;br /&gt;
+&lt;strong&gt;Customer:&lt;/strong&gt; No, thanks. I'm just looking around.	&lt;br /&gt;
+	ไม่ละ ขอบคุณ ฉัน/ผมดูเฉย ๆ (ยังไม่ซื้อ)&lt;br /&gt;&lt;br /&gt;
+
+	จากคำตอบนี้ แสดงว่า คนถามคงจะถามทำนองว่าจะซื้ออะไร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. Anything I can help you with? ✔&lt;br /&gt;
+	มีอะไรให้ช่วยไหมครับ/คะ (ในสถานการณ์นี้ซึ่งอยู่ในห้างสรรพสินค้า คนขายถามอย่างนี้ จริง ๆ ก็คือถามว่า จะซื้ออะไรนั่นเอง โดยธรรมเนียม เขาจะไม่ถามตรง ๆ ว่า จะซื้ออะไร)&lt;br /&gt;&lt;br /&gt;
+
+2. What do you think of it? &lt;br /&gt;
+	คุณคิดว่ามันเป็นอย่างไร&lt;br /&gt;
+	ข้อนี้ไม่ถูก เพราะดูจากคำตอบ คำถามต้องเป็นประเภท Yes/No Question&lt;br /&gt;&lt;br /&gt;
+
+3. Don't you have small change?&lt;br /&gt;
+	ไม่ถูก เพราะไม่เข้ากับสถานการณ์&lt;br /&gt;&lt;br /&gt;
+
+	คุณไม่มีแบงค์ที่เล็กกว่านี้เหรอ (เช่น ซื้อของ 50 บาท ยื่นแบงค์พันให้ คนขายอาจจะถามคำถามนี้ คือ ขอเป็นแบงค์ 500 หรือ แบงค์ 100 ก็ได้)&lt;br /&gt;&lt;br /&gt;
+	small change แปลตรงตัว หมายถึงเหรียญที่มีค่าไม่มาก เช่น เหรียญสลึง เหรียญ 50 สตางค์ เป็นต้น หรืออาจจะหมายถึงเรื่องไม่สำคัญ ก็ได้ เช่น &lt;br /&gt;&lt;br /&gt;
+	The fine is a lot of money to some people, but to him it's small change.
+	ค่าปรับนั้นเป็นเงินมากสำหรับบางคน แต่สำหรับเขาแล้วเป็นแค่เศษเงิน&lt;br /&gt;&lt;br /&gt;
+	
+4. It's reasonable, isn't it?&lt;br /&gt;
+	มันสมเหตุสมผล ใช่ไหม&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Yes/No Question&lt;br /&gt;&lt;br /&gt;
+Yes/No Question คือคำถามที่ต้องตอบว่า ใช่ หรือ ไม่ใช่ คำถามที่เป็น Yes/No Question จะขึ้นต้นประโยคด้วย Verb to be หรือ กริยาช่วย เช่น Do, Does, Can, Could เป็นต้น เช่น &lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Is this flower beautiful?&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; Yes, it is.&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Do you like it?&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; Yes, I do.&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;Question tag&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+Question tag เป็นคำถามต่อท้ายประโยค เช่น&lt;br /&gt;
+It's reasonable, isn't it?&lt;br /&gt;&lt;br /&gt;
+
+	คำว่า isn't it? เป็นคำถามชนิด Question tag คือพูดธรรมดา แล้วขมวดเป็นคำถามต่อท้าย เช่น&lt;br /&gt;
+	You want to go, don't you? &lt;br /&gt;
+	คุณต้องการไป ใช่ไหม&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 4 -->
+  <thisQuestion>
+    <qNum>id01965:date1627453500</qNum>
+    <question>&lt;strong&gt;Boonmee:&lt;/strong&gt; What's the thing you hate doing most? &lt;br /&gt;
+&lt;strong&gt;Pornsri:&lt;/strong&gt; .....................................&lt;br /&gt;
+	</question>
+    <choice_A>I don't mind cleaning the house.</choice_A>
+    <choice_B>I can't bear getting up early.</choice_B>
+    <choice_C>What's the idea? Don't you trust me?</choice_C>
+    <choice_D>Not at all, but you'd better not ask.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Boonmee:&lt;/strong&gt; What's the thing you hate doing most? &lt;br /&gt;
+	อะไรที่คุณไม่ชอบทำมากที่สุด (hate = เกลียด, ไม่ชอบอย่างแรง)&lt;br /&gt;
+&lt;strong&gt;Pornsri:&lt;/strong&gt; .................................&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+	
+1. I don't mind cleaning the house.&lt;br /&gt;
+	ผม/ฉันไม่รังเกียจการถูบ้าน&lt;br /&gt;&lt;br /&gt;
+
+	don't mind + กริยาเติม ing&lt;br /&gt;
+	She doesn’t mind waiting up late. &lt;br /&gt;
+	เธอไม่รังเกียจที่จะรอจนดึก&lt;br /&gt;
+	(รอจนดึกดื่น ก็ไม่เป็นไร เธอรอได้นั่นเอง)&lt;br /&gt;&lt;br /&gt;
+
+2. I can't bear getting up early. ✔ &lt;br /&gt;
+	ผม/ฉันทนการตื่นแต่เช้าไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+	can't bear = hate&lt;br /&gt;
+	can't bear + กริยาเติม ing สำหรับใช้ในความหมายว่า ทนไม่ได้ เช่น&lt;br /&gt;
+	He can't bear being laughed at.&lt;br /&gt;
+	เขาไม่สามารถทนการหัวเราะเยาะได้ (laugh at = หัวเราะเยาะ)&lt;br /&gt;&lt;br /&gt;
+
+3. What's the idea? Don't you trust me?&lt;br /&gt;
+	มันเกิดอะไรขึ้น คุณไม่เชื่อผม/ฉันหรือไง&lt;br /&gt;&lt;br /&gt;
+
+	What's the idea? ใช้เมื่ออีกฝ่ายหนึ่งทำอะไรให้รู้สึกรำคาญใจ&lt;br /&gt;
+	What an idea! = ใช้กับความเห็นที่คิดว่าไม่ได้เรื่อง เสนอมาทำไม&lt;br /&gt;&lt;br /&gt;
+	
+4. Not at all, but you'd better not ask.&lt;br /&gt;
+	ไม่เป็นไร แต่คิดว่าคุณไม่ควรจะถาม	&lt;br /&gt;&lt;br /&gt;
+
+	had better + กริยาช่องที่ 1 เช่น&lt;br /&gt;
+	I think you had better go there.&lt;br /&gt;
+	ฉันคิดว่า คุณน่าจะไปที่นั่น&lt;br /&gt;
+	I think you had better not go there&lt;br /&gt;
+	ฉันคิดว่า คุณน่าจะไม่ไปที่นั่น&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 5 -->
+  <thisQuestion>
+    <qNum>id01966:date1627453500</qNum>
+    <question>&lt;strong&gt;A:&lt;/strong&gt;.............................. &lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; Not really. You see, it's highly fattening. Besides, if I eat too much of it, I kind of feel uncomfortable. &lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Me, too.&lt;br /&gt;
+	</question>
+    <choice_A>Would you like durian?</choice_A>
+    <choice_B>How much do you like durian?</choice_B>
+    <choice_C>How much do you eat durian?</choice_C>
+    <choice_D>What don't you like about durian?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;A:&lt;/strong&gt; ............................... &lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; Not really. You see, it's too rich and fattening. Besides, if I eat too much of it, I kind of feel uncomfortable. &lt;br /&gt;
+	ไม่ค่อยชอบเท่าไร เพราะมันอุดมสมบูรณ์เกินไปและทำให้อ้วน นอกจากนี้(Besides) ถ้าผม/ฉันกินมากเกินไปทำให้รู้สึกอึดอัด&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Me, too.&lt;br /&gt;&lt;br /&gt;
+
+คำว่า rich ในที่นี้ ไม่ได้หมายถึงร่ำรวย แต่หมายถึงมีจำนวนมาก เช่น&lt;br /&gt;
+	Dried fruit is rich in fiber, vitamins and minerals.&lt;br /&gt;
+	ผลไม้ตากแห้งจะเต็มไปด้วยเส้นใยอาหาร วิตามินและแร่ธาตุต่าง ๆ&lt;br /&gt;&lt;br /&gt;
+
+จากคำตอบ น่าจะเดาคำถามว่า คงจะถามว่า ชอบทุเรียนมากไหม นั่นเอง&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. Would you like durian?&lt;br /&gt;
+	คุณต้องการทุเรียนหรือไม่&lt;br /&gt;&lt;br /&gt;
+
+2. How much do you like durian? ✔&lt;br /&gt;
+	คุณชอบทุเรียนมากเพียงใด&lt;br /&gt;&lt;br /&gt;
+
+3. How much do you eat durian?&lt;br /&gt;
+	คุณกินทุเรียนมากแค่ไหน&lt;br /&gt;&lt;br /&gt;
+
+4. What don't you like about durian?&lt;br /&gt;
+	อะไรที่คุณไม่ชอบเกี่ยวกับทุเรียน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;Would you like....?&lt;/strong&gt;&lt;br /&gt;
+	Would you like ... เป็นการถามว่า คุณต้องการ... หรือไม่ เช่น พนักงานบริการถามลูกค้าว่า ต้องการกาแฟหรือไม่ จะถามว่า&lt;br /&gt;
+	Would you like coffee?&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;Do you like....?&lt;/strong&gt;&lt;br /&gt;
+	Do you like... ?  เป็นการถามความเห็นว่า คุณชอบ....หรือไม่ เช่น &lt;br /&gt;
+	Do you like durian?&lt;br /&gt;
+	คุณชอบทุเรียนไหม&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;How do you like ... ?&lt;/strong&gt;&lt;br /&gt;
+	การถามว่า How do you like ...? กับ How much do you like....?&lt;br /&gt;
+	คำถามทั้งสองอย่าง มีความหมายใกล้เคียงกัน แต่ถ้าถาม How do you like...? อาจจะตอบได้มากกว่า 1 อย่าง เช่น&lt;br /&gt;
+	How do you like your coffee? อาจจะตอบว่า&lt;br /&gt;
+	I like it very much. &lt;br /&gt;
+	(How do you like ... = How much do you like...)&lt;br /&gt;&lt;br /&gt;
+
+	หรือ อาจจะตอบว่า&lt;br /&gt;
+	I like it black. &lt;br /&gt;
+	ผม/ฉันชอบกาแฟไม่ใส่นมหรือครีม (ชอบกาแฟดำ) &lt;br /&gt;&lt;br /&gt;
+		
+	ดูเพิ่มเติมที่ http://www.thongjoon.com/2016/04/how-do-you-like-how-much-do-you-like.html
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 6 -->
+  <thisQuestion>
+    <qNum>id01967:date1627453500</qNum>
+    <question>&lt;strong&gt;A: &lt;/strong&gt; ......................&lt;br /&gt;
+&lt;strong&gt;B: &lt;/strong&gt;Thanks, but my husband will pick me up at four.&lt;br /&gt;
+	</question>
+    <choice_A>Can I give you a ride? </choice_A>
+    <choice_B>Do you have a ride? </choice_B>
+    <choice_C>Can you give me a ride?</choice_C>
+    <choice_D>Can I take you for a ride?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+A: &lt;/strong&gt; ........................&lt;br /&gt;
+&lt;strong&gt;B: &lt;/strong&gt;Thanks, but my husband will pick me up at four.&lt;br /&gt;
+	ขอบคุณ แต่สามีฉันจะมารับตอนสี่โมง&lt;br /&gt;&lt;br /&gt;
+
+	pick up	นอกจากจะแปลว่า ไป/มารับ แล้วยังมีความหมายอื่น ๆ ได้อีก เช่น&lt;br /&gt;
+	Could you pick up that book?&lt;br /&gt;
+	คุณช่วยหยิบหนังสือเล่มนั้นให้หน่อยนะครับ&lt;br /&gt;&lt;br /&gt;
+
+	The dog picked up the bone in its mouth.&lt;br /&gt;
+	สุนัขตัวนั้นคาบกระดูกในปากของมัน&lt;br /&gt;&lt;br /&gt;
+
+	I like to pick up some pebbles.&lt;br /&gt;
+	ผมชอบสะสมหินต่าง ๆ&lt;br /&gt;&lt;br /&gt;
+
+	He got up and picked up the bedroom.&lt;br /&gt;
+	เขาตื่นขึ้นและจัดเก็บห้องนอนให้เรียบร้อย&lt;br /&gt;&lt;br /&gt;
+
+	&lt;strong&gt;จากคำตอบ&lt;/strong&gt; เดาได้ว่า คนถามคงเสนอว่า จะขับรถไปส่งเอาไหม&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. Can I give you a ride? ✔&lt;br /&gt;
+	ให้ผมไปส่งคุณไหม&lt;br /&gt;&lt;br /&gt;
+
+2. Do you have a ride? &lt;br /&gt;
+	คุณมีคนมารับใช่ไหม (คล้ายกับถามว่า Will someone pick you up?)&lt;br /&gt;
+	ถ้าถามแบบนี้ คำตอบน่าจะเป็น Yes, my husband will pick me up.&lt;br /&gt;&lt;br /&gt;
+
+3. Can you give me a ride?&lt;br /&gt;
+	คุณให้ฉันอาศัยรถไปด้วยได้ไหม&lt;br /&gt;
+	สำนวน	give someone a ride คือ ให้อาศัยนั่งรถไปด้วย หรือ ขับรถไปส่งนั่นเอง&lt;br /&gt;&lt;br /&gt;
+
+4. Can I take you for a ride?&lt;br /&gt;
+	ให้ผมพาคุณไปฆ่าได้ไหม?&lt;br /&gt;&lt;br /&gt;
+
+สำนวน take for a ride หมายถึง&lt;br /&gt;&lt;br /&gt;
+1. หลอกลวง เช่น	&lt;br /&gt;
+		I trusted him but he took me for a ride.&lt;br /&gt;
+		ผมไว้ใจเขา แต่เขาหลอกผม&lt;br /&gt;
+2. พาไปฆ่า (เป็นคำ Slang)&lt;br /&gt;
+		Tom took Suda for a ride.&lt;br /&gt;
+		ทอมพาสุดาไปฆ่า&lt;br /&gt;&lt;br /&gt;
+
+	ดูเพิ่มเติมที่&lt;br /&gt;
+	http://www.thongjoon.com/2016/04/ride-go-for-ride-take-someone-for-ride.html
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 7 -->
+  <thisQuestion>
+    <qNum>id01968:date1627453500</qNum>
+    <question>&lt;strong&gt;A: &lt;/strong&gt;Can I talk to Penny, please?&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; There's nobody by that name here. I'm afraid you've got the wrong number. &lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; .......................&lt;br /&gt;
+	</question>
+    <choice_A>I'm sorry. Goodbye. </choice_A>
+    <choice_B>I'm sorry. I won't call you again.</choice_B>
+    <choice_C>Thank you so much. I won't call you again. </choice_C>
+    <choice_D>Thank you for telling me that. Goodbye. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+บทสนทนานี้ เป็นการพูดโทรศัพท์ คนโทรต้องการพูดกับ Penny แต่คนรับบอกว่าไม่มีคนชื่อนี้&lt;br /&gt;
+&lt;strong&gt;A: &lt;/strong&gt;Can I talk to Penny, please?&lt;br /&gt;
+	ขอพูดกับเพนนีหน่อยนะครับ/คะ&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; There's nobody by that name here. I'm afraid you've got the wrong number. &lt;br /&gt;
+	ไม่มีคนชื่อนั้นที่นี่ค่ะ/ครับ คิดว่าคุณคงโทรผิดเบอร์นะคะ/ครับ&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; ...............................&lt;br /&gt;&lt;br /&gt;
+
+ถ้าโทรผิดอย่างนี้ สิ่งเดียวที่ต้องทำเลยก็คือ ขอโทษแล้ววางสาย (hang up)&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. I'm sorry. Goodbye.  ✔&lt;br /&gt;
+	ขอโทษ สวัสดีครับ/ค่ะ&lt;br /&gt;&lt;br /&gt;
+
+2. I'm sorry. I won't call you again.&lt;br /&gt;
+	ขอโทษ จะไม่โทรมาอีก &lt;br /&gt;
+	ไม่เหมาะสม เพราะไม่จำเป็นต้องพูดว่า จะไม่โทรมาอีก &lt;br /&gt;&lt;br /&gt;
+
+3. Thank you so much. I won't call you again. &lt;br /&gt;
+	ขอบคุณมาก ๆ จะไม่โทรมาอีก &lt;br /&gt;
+	ไม่ถูกเพราะ ต้องขอโทษ ไม่ใช่ขอบคุณ&lt;br /&gt;&lt;br /&gt;
+
+4. Thank you for telling me that. Goodbye. &lt;br /&gt;
+	ขอบคุณที่บอก สวัสดีครับ/ค่ะ &lt;br /&gt;
+	ไม่ถูกเพราะ โดยมารยาท ต้องขอโทษที่โทรศัพท์ผิด มารบกวนอีกฝ่ายหนึ่ง&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 8 -->
+  <thisQuestion>
+    <qNum>id01969:date1627453500</qNum>
+    <question>&lt;b&gt;At a department store.&lt;/b&gt;&lt;br /&gt;
+&lt;strong&gt;Customer:&lt;/strong&gt;	How much do I owe you now?&lt;br /&gt;
+&lt;strong&gt;Checkout girl:&lt;/strong&gt; That'll be 30 dollars for today. &lt;br /&gt;
+&lt;strong&gt;Customer:&lt;/strong&gt;	Can I use a check here?&lt;br /&gt;
+&lt;strong&gt;Checkout girl:&lt;/strong&gt; ..................................&lt;br /&gt;
+	</question>
+    <choice_A>Yes, you'll have to check out here. </choice_A>
+    <choice_B>Sure, you can use your payment check here. </choice_B>
+    <choice_C>Sure, go to the next counter and ask for a check.</choice_C>
+    <choice_D>Sure, and I'll need your driver's license too, please. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;At a department store.&lt;/b&gt;&lt;br /&gt;
+	ที่ห้างสรรพสินค้า&lt;br /&gt;
+&lt;strong&gt;Customer:&lt;/strong&gt;	How much do I owe you now?&lt;br /&gt;
+	ผมต้องจ่ายเท่าไรครับ/คะ (owe = เป็นหนี้)&lt;br /&gt;
+&lt;strong&gt;Checkout girl:&lt;/strong&gt; That'll be 30 dollars for today. &lt;br /&gt;
+	วันนี้ 30 เหรียญค่ะ&lt;br /&gt;
+&lt;strong&gt;Customer:&lt;/strong&gt;	Can I use a check here?&lt;br /&gt;
+	ผมใช้เชคที่นี่ได้ไหมครับ&lt;br /&gt;
+&lt;strong&gt;Checkout girl:&lt;/strong&gt; ................................&lt;br /&gt;&lt;br /&gt;
+
+	How much do I owe you? เป็นสำนวนที่ควรจำ ใช้ในกรณีที่ต้องการถามว่า ต้องจ่ายเงินให้แก่อีกฝ่ายหนึ่ง เป็นเงินเท่าไร&lt;br /&gt;&lt;br /&gt;
+	
+	checkout girl คือ คนที่คิดสตางค์สิ่งของที่ซื้อในรถเข็น ก่อนออกจากห้าง&lt;br /&gt;&lt;br /&gt;
+	
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. Yes, you'll have to check out here. &lt;br /&gt;
+	ได้ค่ะ คุณต้องเชคเอาท์ที่นี่ &lt;br /&gt;
+	ไม่ถูกเพราะ ไม่จำเป็นต้องพูด เพราะเข็นรถมาเชคเอาท์อยู่แล้ว&lt;br /&gt;&lt;br /&gt;
+
+2. Sure, you can draw your check here. &lt;br /&gt;
+	ได้ คุณสามารถขึ้นเชคที่นี่&lt;br /&gt;
+	ไม่ถูก&lt;br /&gt;&lt;br /&gt;
+	
+3. Sure, go to the next counter and ask for a check.&lt;br /&gt;
+	ได้ ไปที่เคาเตอร์ถัดไป และขอเชคนะคะ/ครับ&lt;br /&gt;
+	ไม่ถูกเพราะ เขาไม่ต้องไปขอเชคจากใคร&lt;br /&gt;&lt;br /&gt;
+
+4. Sure, and I'll need your driver's license too, please. ✔&lt;br /&gt;
+	ได้ค่ะ/ครับ และขอใบขับขี่ด้วยค่ะ/ครับ&lt;br /&gt;
+	ตามปกติ การใช้เชค นอกจากจะต้องเซ็นชื่อที่เชคแล้ว คนรับเชคมักจะขอดูบัตรประจำตัว เช่น ใบขับขี่ (driver's license) หรือบัตรประจำตัวประชาชน(id card)&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 9 -->
+  <thisQuestion>
+    <qNum>id01970:date1627453500</qNum>
+    <question>&lt;strong&gt;A:&lt;/strong&gt; I'm having a job interview tomorrow.&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; Good luck, and I'll drink to that too.&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; .............................&lt;br /&gt;
+	</question>
+    <choice_A>Alright.. Let's go for a drink. </choice_A>
+    <choice_B>You're sweet to say that. Thank you. </choice_B>
+    <choice_C>That sounds like fun, but I must excuse myself. </choice_C>
+    <choice_D>That's sweet of you but I don't need any drink now. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;A:&lt;/strong&gt; I'm having a job interview tomorrow.&lt;br /&gt;
+	ผม/ฉันจะไปสัมภาษณ์เข้างานพรุ่งนี้ (job = งาน, interview = สัมภาษณ์)&lt;br /&gt;
+&lt;strong&gt;B:&lt;/strong&gt; Good luck, and I'll drink to that too.&lt;br /&gt;
+	โชคดี หวังว่าคงผ่านสัมภาษณ์&lt;br /&gt;
+	สำนวน drink to that เป็นการแสดงความคาดหวังความสำเร็จ &lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; ................................&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. Alright.. Let's go for a drink. &lt;br /&gt;
+	ถ้างั้น เราไปดื่มกันดีกว่า&lt;br /&gt;
+	ไม่ถูก ไม่เกี่ยวกับเรื่อง&lt;br /&gt;&lt;br /&gt;
+
+2. You're sweet to say that. Thank you. &lt;br /&gt;
+	น่ารักจัง(ที่พูดเช่นนั้น) ขอบคุณ ✔&lt;br /&gt;&lt;br /&gt;
+
+3. That sounds like fun, but I must excuse myself. &lt;br /&gt;
+	ก็สนุกดีนะ แต่ต้องขอตัวไม่ไป &lt;br /&gt;
+	ไม่ถูก เพราะเข้าใจผิดคิดว่า drink เป็นการชวนไปดื่ม&lt;br /&gt;&lt;br /&gt;
+
+4. That's sweet of you but I don't need any drink now. &lt;br /&gt;
+	ขอบคุณ แต่ผม/ฉันไม่ต้องการดื่มในขณะนี้&lt;br /&gt;
+	ไม่ถูก เพราะเข้าใจผิดคิดว่า drink เป็นการดื่ม&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 10 -->
+  <thisQuestion>
+    <qNum>id01971:date1627453500</qNum>
+    <question>&lt;strong&gt;Husband:&lt;/strong&gt; Shall we go round to that Italian restaurant?&lt;br /&gt;
+&lt;strong&gt;Wife:&lt;/strong&gt; ............................ &lt;br /&gt;
+	</question>
+    <choice_A>It doesn't matter.</choice_A>
+    <choice_B>Well, perhaps I Will.</choice_B>
+    <choice_C>That's a good idea.</choice_C>
+    <choice_D>Let's have some Italian food.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Husband:&lt;/strong&gt; Shall we go round to that Italian restaurant?
+	ไปที่ร้านอาหารอิตาเลียนกันไหม&lt;br /&gt;
+&lt;strong&gt;Wife:&lt;/strong&gt; ....................... &lt;br /&gt;&lt;br /&gt;
+	
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. It doesn't matter.&lt;br /&gt;
+	ไม่เป็นไร &lt;br /&gt;
+	คำพูดนี้ใช้ตอบรับคำขอโทษ -ใช้ไม่ได้กับการชักชวน&lt;br /&gt;&lt;br /&gt;
+
+2. Well, perhaps I Will.&lt;br /&gt;
+	เอ้อ บางที อาจจะ &lt;br /&gt;
+	ตอบแบบนี้ก็เลยไม่รู้ว่าจะเอายังไง จะไปหรือไม่ไปก็ไม่รู้&lt;br /&gt;&lt;br /&gt;
+
+3. That's a good idea. ✔&lt;br /&gt;
+	เป็นความคิดที่ดี &lt;br /&gt;&lt;br /&gt;
+
+4. Let's have some Italian food.&lt;br /&gt;
+	ไปกินอาหารอิตาเลียนกันดีกว่า&lt;br /&gt;
+	ไม่ควรพูดแบบนี้ เพราะรู้แล้วว่า ถ้าไปร้านอาหารอิตาเลียน ก็ต้องกินอาหารอิตาเลียน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;go round (somewhere)&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+go round (somewhere) เป็นสำนวนอังกฤษ หมายถึง เดินทางจากที่ใดที่หนึ่ง ไปยังอีกที่หนึ่ง (to move from one place to another)&lt;br /&gt;
+
+&lt;strong&gt;ไวยากรณ์&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;การพูดชักชวน&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ถ้าต้องการชวนใครทำอะไรแบบกันเอง หรืออย่างไม่เป็นทางการ ให้ขึ้นต้นประโยคว่า Shall we + กริยาช่อง 1? เช่น&lt;br /&gt;
+	Shall we go to the beach? &lt;br /&gt;
+	ไปชายทะเลกันไหม?&lt;br /&gt;&lt;br /&gt;
+
+นอกจากนี้ อาจจะขึ้นต้นด้วยคำว่า Let's ซึ่งย่อมากจาก Let us + กริยาช่อง 1 ก็ได้ เช่น&lt;br /&gt;&lt;br /&gt;
+
+	Let's go to the beach. &lt;br /&gt;
+	ไปชายทะเลกันดีกว่า&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำตอบการชักชวน&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+	ถ้าตอบรับ ก็ให้ตอบว่า Yes, let's. หรือ It's a good idea. หรือ อื่น ๆ ก็ได้&lt;br /&gt;
+	ถ้าตอบปฏิเสธ ก็หาเหตุผลมาบอกด้วย เช่น I'am afraid I have to see my mother. (สงสัยว่า จะต้องไปหาแม่)&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 11 -->
+  <thisQuestion>
+    <qNum>id01972:date1627453500</qNum>
+    <question>&lt;strong&gt;Nipa:&lt;/strong&gt; Would you like to come to dinner at my house tonight?&lt;br /&gt;
+&lt;strong&gt;Malee:&lt;/strong&gt;....................... &lt;br /&gt;
+	</question>
+    <choice_A>No, thanks, I'm full. </choice_A>
+    <choice_B>No, thanks, I'd like it. </choice_B>
+    <choice_C>No, thanks, I'm afraid I have to do my homework. </choice_C>
+    <choice_D>No, thanks, I'm afraid I have to go by bus to your house. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Nipa:&lt;/strong&gt; Would you like to come to dinner at my house tonight?&lt;br /&gt;
+	ขอเชิญไปทานอาหารเย็นที่บ้านคืนนี้นะ&lt;br /&gt;
+&lt;strong&gt;Malee:&lt;/strong&gt; ........................&lt;br /&gt;&lt;br /&gt;
+	
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. No, thanks, I'm full. &lt;br /&gt;
+	ไม่ละ ขอบคุณ ผม/ฉันอิ่ม (to be full = อิ่ม)&lt;br /&gt;
+	ไม่ถูก เป็นเหตุผลที่ใช้ไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+2. No, thanks, I'd like it. &lt;br /&gt;
+	ไม่ละ ผมชอบ&lt;br /&gt;
+	เป็นคำตอบขัดแย้งกัน ใช้ไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+3. No, thanks, I'm afraid I have to do my homework. ✔&lt;br /&gt;
+	ไม่ละ ขอบคุณ แต่รู้สึกว่า จะต้องทำการบ้าน&lt;br /&gt;
+	ใช้ได้ มีเหตุผล และที่สำคัญ ต้องมีการขอบคุณด้วย&lt;br /&gt;&lt;br /&gt;
+
+4. No, thanks, I'm afraid I have to go by bus to your house. &lt;br /&gt;
+	ไม่ละ ขอบคุณ แต่ผม/ฉันว่าต้องขึ้นรถเมล์ไปบ้านคุณ&lt;br /&gt; 
+	ไม่มีเหตุผลอันควร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;Would you like ....&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+Would you like .... เป็นคำสุภาพ เหมือนกับถามว่า คุณต้องการ .... ไหม เช่น&lt;br /&gt;&lt;br /&gt;
+
+Would you like some coffee?&lt;br /&gt;
+คุณต้องการกาแฟไหม&lt;br /&gt;&lt;br /&gt;
+
+การบอกความต้องการ ก็สามารถ ใช้สำนวน would like ได้ เช่น&lt;br /&gt;&lt;br /&gt;
+
+I'd like a cup of coffee, please?&lt;br /&gt;
+ผมขอกาแฟ 1 ถ้วย&lt;br /&gt;
+(I'd like = I would like)&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 12 -->
+  <thisQuestion>
+    <qNum>id01973:date1627453500</qNum>
+    <question>&lt;strong&gt;Teacher:&lt;/strong&gt; You came so late today.&lt;br /&gt;
+&lt;strong&gt;Student:&lt;/strong&gt; ............................&lt;br /&gt;
+	</question>
+    <choice_A>Oh, dear.	</choice_A>
+    <choice_B>I'm sorry. I was caught in the traffic.</choice_B>
+    <choice_C>The traffic is terrible this morning.</choice_C>
+    <choice_D>Pardon, I'm late. The traffice is very bad.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Teacher:&lt;/strong&gt; You came so late today.&lt;br /&gt;
+	วันนี้เธอมาสายมากนะ&lt;br /&gt;
+&lt;strong&gt;Student:&lt;/strong&gt; ...............................&lt;br /&gt;&lt;br /&gt;
+	
+คำว่า so late ในที่นี้หมายถึง very late&lt;br /&gt;
+เมื่อถูกครูตำหนิว่ามาสาย คำตอบต้องเป็นการขอโทษ พร้อมให้เหตุผลที่ดี&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. Oh, dear.	&lt;br /&gt;
+	ตายจริง &lt;br /&gt;
+	(ใช้กับคนสนิท หรือแบบกันเอง -- ใช้กับครูไม่ได้)&lt;br /&gt;&lt;br /&gt;
+
+2. I'm sorry. I was caught in the traffic. ✔&lt;br /&gt;
+	ขอโทษครับ ผมติดอยู่ในจราจร &lt;br /&gt;
+	ใช้ได้ ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+3. The traffic is terrible this morning.&lt;br /&gt;
+	การจราจรเช้านี้แย่ที่สุด&lt;br /&gt;
+	ไม่มีการขอโทษ ไม่เหมาะสม ที่จะรำพึงออกมาอย่างนี้&lt;br /&gt;&lt;br /&gt;
+
+4. Pardon, I'm late. The traffice is very bad.&lt;br /&gt;
+	อะไรนะครับ/คะ ขอพูดอีกที ผมมาสาย การจราจรแย่มาก&lt;br /&gt;
+	คำว่า Pardon ใช้เมื่อฟังไม่ชัด และขอให้เขาพูดใหม่&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 13 -->
+  <thisQuestion>
+    <qNum>id01974:date1627453500</qNum>
+    <question>&lt;strong&gt;Niwat:&lt;/strong&gt; Would you mind lending me a car?&lt;br /&gt;
+&lt;strong&gt;Sak:&lt;/strong&gt; ..........................&lt;br /&gt;
+	</question>
+    <choice_A>No, not at all.	</choice_A>
+    <choice_B>Yes, for tomorrow.</choice_B>
+    <choice_C>No, I have to use it.</choice_C>
+    <choice_D>Yes, I would be pleased to.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Niwat:&lt;/strong&gt; Would you mind lending me a car?&lt;br /&gt;
+	เป็นไรไหม ถ้าผมขอยืมรถสักหน่อย (คุณรังเกียจหรือไม่ ที่จะให้ผมยืมรถของคุณ)&lt;br /&gt;
+&lt;strong&gt;Sak:&lt;/strong&gt; ........................&lt;br /&gt;&lt;br /&gt;
+
+	คำถามที่ขึ้นต้นด้วย Do/Would you mind ......................? เวลาตอบรับให้ตอบว่า No คือไม่รังเกียจ ไม่เป็นไร แต่ถ้าตอบว่า Yes แสดงว่า มีปัญหา &lt;br /&gt;
+	แต่ถ้าจะตอบปฏิเสธจริง ๆ ก็ต้องหาเหตุผลมาประกอบ โดยตอบรับไปก่อน แล้วหาเหตุผลมา เช่น&lt;br /&gt;
+	No, not at all. But the tires are flat. &lt;br /&gt;
+	ไม่รังเกียจ แต่ยางมันแบน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. No, not at all. ✔&lt;br /&gt;
+	ไม่เป็นไรครับ&lt;br /&gt;&lt;br /&gt;
+
+2. Yes, for tomorrow.&lt;br /&gt;
+	รังเกียจ สำหรับวันพรุ่งนี้ &lt;br /&gt;&lt;br /&gt;
+
+3. No, I have to use it.&lt;br /&gt;
+	ไม่รังเกียจ ผมต้องใช้รถ  &lt;br /&gt;
+	พูดไม่เพราะ ถ้าจะปฏิเสธต้องพูดนุ่มนวลกว่านี้ เช่น &lt;br /&gt;
+	No, but I'm afraid I have to use it.&lt;br /&gt;&lt;br /&gt;
+
+4. Yes, I would be pleased to.&lt;br /&gt;
+	รังเกียจ ผมยินดีให้ยืม&lt;br /&gt;
+	คำตอบขัดแย้งกันเอง	&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- ถึงตรงนี้ -->
+  <!-- 14 -->
+  <!-- entrance 2524-2530 with keys  กข/2530 #57-->
+  <thisQuestion>
+    <qNum>id01975:date1627453500</qNum>
+    <question>Situation: Your friend gets all dressed up today. You like the way she dresses and want to give her a compliment. What would you say? &lt;br /&gt;
+	</question>
+    <choice_A>Gee! What are you getting yourself all dressed up for? </choice_A>
+    <choice_B>Gee! You look like a million dollars today. </choice_B>
+    <choice_C>Gee! You look kind of smart today. </choice_C>
+    <choice_D>Gee! You don't look like your usual self today. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Situation:&lt;/strong&gt; Your friend gets all dressed up today. You like the way she dresses and want to give her a compliment. What would you say? &lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;สถานการณ์:&lt;/strong&gt; เพื่อนของท่านแต่งตัวอย่างดี คุณชอบการแต่งตัวของเธอ และต้องการพูดชมเชย&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. Gee! What are you getting yourself all dressed up for? &lt;br /&gt;
+	โอ้โฮ! แต่งตัวไปทำอะไรเนี่ย&lt;br /&gt;&lt;br /&gt;
+
+2. Gee! You look like a million dollars today. ✔ &lt;br /&gt;
+	โอ้โฮ! ดูน่ารักมากจังเลย&lt;br /&gt;
+	สำนวน look like a million dollars/bucks. หมายถึง น่ารัก/น่าสนใจมากที่สุด&lt;br /&gt;
+	You look like a million dollars in that dress! (เธอใส่ชุดนี้น่ารักที่สุด)&lt;br /&gt;&lt;br /&gt;
+
+3. Gee! You look kind of smart today.&lt;br /&gt;
+	โอ้โฮ! วันนี้คุณดูออกจะปราดเปรื่อง&lt;br /&gt;&lt;br /&gt;
+
+4. Gee! You don't look like your usual self today. &lt;br /&gt;
+	โอ้โฮ! วันนี้ ดูคุณไม่เหมือนตัวเองเลย&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 15 -->
+  <thisQuestion>
+    <qNum>id01976:date1627453500</qNum>
+    <question>Situation: You are a salesclerk at a clothes shop. A customer has just got into the shop. What would you say? &lt;br /&gt;
+	</question>
+    <choice_A>Hello. Why are you here? </choice_A>
+    <choice_B>Hello. What can I do for you? </choice_B>
+    <choice_C>Did you see anything you like?</choice_C>
+    <choice_D>Thank you very much for shopping here. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+	Situation: You are a salesclerk at a clothes shop. A customer has just got into the shop. What would you say? &lt;br /&gt;&lt;br /&gt;
+	สถานการณ์: คุณเป็นพนักงานขายของในร้านขายเสื้อผ้า ขณะนี้มีลกค้าเดินเข้ามาในร้าน คุณจะพูดว่าอย่างไร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. Hello. Why are you here? &lt;br /&gt;
+	สวัสดีครับ/ค่ะ คุณมาทำอะไรที่นี่&lt;br /&gt;&lt;br /&gt;
+
+2. Hello. What can I do for you? &lt;br /&gt;
+	สวัสดีครับ/ค่ะ จะให้ช่วยอะไรดีคะ  ✔&lt;br /&gt;&lt;br /&gt;
+
+3. Did you see anything you like?&lt;br /&gt;
+	คุณเจอสิ่งที่ชอบหรือยัง -- คนไทยอาจจะพูด แต่ธรรมเนียมฝรั่งเขาไม่ถามอย่างนี้&lt;br /&gt;&lt;br /&gt;
+
+4. Thank you very much for shopping here. &lt;br /&gt;
+	ขอบคุณที่มาซื้อสินค้าที่ร้านของเรา  -- ใช้เมื่อตอนเขาซื้อของแล้ว และจะออกจากร้าน ดีกว่า&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id01977:date1627453500</qNum>
+    <question>Situation: An acquaintance asks you out for a dinner at a fancy restaurant. You don't want to go but don't want to sound impolite. What would you say? &lt;br /&gt;
+	</question>
+    <choice_A>I would if I could. </choice_A>
+    <choice_B>Thanks but no thanks. </choice_B>
+    <choice_C>I think we're going to have a great time together. </choice_C>
+    <choice_D>That sound like a great idea, doesn't it? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+	Situation: An acquaintance asks you out for a dinner at a fancy restaurant. You don't want to go but don't want to sound impolite. What would you say? &lt;br /&gt;&lt;br /&gt;
+	สถานการณ์: คนรู้จักชวนให้ไป รับประทานอาหารค่ำ ที่ร้านอาหารหรู คุณไม่ต้องการไป แต่ไม่ต้องการปฏิเสธแบบ ไม่สุภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. I would if I could. ✔&lt;br /&gt;
+	อยากไปอยู่ แต่สงสัยจะไปไม่ได้&lt;br /&gt;
+	การตอบแบบเป็น past โดยใช้ would และ could เป็นการตอบแบบสุภาพ คือมีความปรารถนาที่จะไป แต่มีเหตุอันจำเป็น ทำให้ไปไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+2. Thanks but no thanks. &lt;br /&gt;
+	ขอบคุณ แต่ไปไม่ได้ ขอบคุณ&lt;br /&gt;
+	ดูเหมือนว่าน่าจะใช้ได้ แต่การตอบแบบนี้ คล้ายกับบอกว่า สิ่งที่ชวนไม่น่าสนใจเลย ไม่ได้ชื่นชมกับการชวนสักเท่าไร มาชวนทำไม ซึ่งก็อาจจะทำให้ ผู้ชวนเสียกำลังใจได้เหมือนกัน และโดยเฉพาะ ถ้าใช้สำเนียงไม่ดีด้วยแล้ว ฟังดูจะเป็นการกระแทกแดกดันเสียด้วยซ้ำ &lt;br /&gt;&lt;br /&gt;
+
+3. I think we're going to have a great time together. &lt;br /&gt;
+	ฉันคิดว่า เราคงจะสนุกมากด้วยกัน -- นี่ไม่ใช่ปฏิเสธ&lt;br /&gt;&lt;br /&gt;
+
+4. That sound like a great idea, doesn't it? &lt;br /&gt;
+	ฟังดูดีมากเลย ใช่ไหม -- นี่ก็ไม่ใช่ปฏิเสธ	&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+</exams>
+
+

@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+
+    <title>Document</title>
+</head>
+<!--
+<body onload="manageNewLabel();">
+-->
+<body>
+<!--
+<div id="abc" style="display:block">abc place holder</div>
+<div id="isBought" style="display:block">xxfalsexx</div>
+<div id="a1" style="display:block">a place holder</div>
+-->
+
+<div id="whereToBegin" style="display:none ">0</div> <!-- เก็บก่อนออกจากไฟล์ จะใช้ตอนเมื่อกลับเข้ามาใหม่-->
+
+<!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <strong>เตรียมสอบ ก.พ.</strong>
+        </div>
+        <div class="modal-body">
+            <p id= "myMessage">Place holder for text..</p>
+            <input type = "button"  value = "เริ่มใหม่"  onclick = "startOver();" />
+            <input  style="float: right;" type = "button"  value = "ทำต่อ"  onclick = "goCont();"/>
+        </div>
+        <div class="modal-footer">
+            https://www.thongjoon.com
+        </div>
+    </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<a name="conver_1"></a>
+
+
+
+<div class="upper" id="myPsgeDIV">
+    <div id="top">
+        <strong>Instruction:</strong> Choose the best answer for each blank.<br><br>
+        <!-- ถ้าต้องการให้แสดง NEW หน้าข้อ ก็เอา div ไปไว้หน้าข้อ ส่วนเวลา คำนวนใหม่ทุกครั้ง เพื่อใช้เป็น id สำหรับอ้างถึงภายหลัง -->
+
+        <!-- id ของบทอ่าน จะขึ้นต้นด้วย a, b, c ... ตามลำดับ ส่วนที่เหลือ จะเหมือน id ของแต่ละข้อ โดยไม่มี "_ต่อด้วยตัวเลขข้อ" เพราะจะเอาไปใช้ เวลากลับมาทำต่อ จะได้ scroll ทั้งข้อ และบทอ่าน ให้ตรงกัน  -->
+
+        <div id="a_lng_Psg1_q_number">  <!--  ชื่อ id สำหรับบทอ่าน ต่างกันที่ตัวแรก คือ เป็น a_ สำหรับ paragraph แรก  b_  สำหรับ paragraph ต่อไป ...  -->
+            <div class="isNew">id1648946378:date1648946379</div>
+           <strong>สำหรับ ข้อ 1-7</strong><br><br>
+      <div class="conver_container">
+          <div class="conver_item">Mr. A:&emsp;</div>
+          <div class="conver_item">Hi, nice to meet you.</div>
+          <div class="conver_item">Mr. B:</div>
+          <div class="conver_item">...........(1).............</div>
+          <div class="conver_item">Mr. A:</div>
+          <div class="conver_item">What job are you applying for?</div>
+          <div class="conver_item">Mr. B:</div>
+          <div class="conver_item"> ...............(2)........................</div>
+          <div class="conver_item">Mr. A:</div>
+          <div class="conver_item">How much experience do you have in this field?</div>
+          <div class="conver_item">Mr. B:</div>
+          <div class="conver_item">...................(3).......................</div>
+          <div class="conver_item">Mr. A:</div>
+          <div class="conver_item">Why did you leave your former company?</div>
+          <div class="conver_item">Mr. B:</div>
+          <div class="conver_item"> .......................(4)........................</div>
+          <div class="conver_item">Mr. A:</div>
+          <div class="conver_item">Can you tell me what your strengths are? </div>
+          <div class="conver_item">Mr. B:</div>
+          <div class="conver_item">..................(5)............................</div>
+          <div class="conver_item">Mr. A:</div>
+          <div class="conver_item">What do you see as your weaknesses?</div>
+          <div class="conver_item">Mr. B:</div>
+          <div class="conver_item">.................... (6).......................</div>
+          <div class="conver_item">Mr. A:</div>
+          <div class="conver_item">O.K. I will let you know of our decision by e-mail.</div>
+          <div class="conver_item">Mr. B:</div>
+          <div class="conver_item">Thank you. ........... (7)................</div>
+      </div>  <!--  end of conver_container   -->
+	  
+	  
+        <div id="b_lng_Psg1_q_number">
+
+            <!-- ถ้ามีหลายบทสนทนา ให้ใช้ข้างล่างนี้  -->
+            <!--
+            <div class="isNew">id1608958086:date1653524970</div>
+            <strong>สำหรับ ข้อ 3 - 7</strong><br><br>
+            <div class="indent_15px">
+             จังหวัดอ่างทอง มีลักษณะภูมิประเทศเป็นที่ราบลุ่ม มีแม่น้ำไหลผ่านสองสาย คือ แม่น้ำน้อยและแม่น้ำเจ้าพระยา ชาวบ้านส่วนใหญ่จึงมีอาชีพทำนา ซึ่งต้องพึ่งพาธรรมชาติ ถ้าปีใดฝนตกน้อยหรือมากไป ผลผลิตที่เก็บเกี่ยว ก็จะลดน้อยลง ตามความเสียหายที่เกิดขึ้น
+            </div>
+            <div class="indent_15px">ช่วงปี พ.ศ. 2510 – 2518 เป็นเวลา 8 ปี ติดต่อกันที่ชาวบ้านตำบลบ้านวัดตาล (ภายหลังเปลี่ยนชื่อเป็นตำบลบางเสด็จ) อำเภอป่าโมก ได้รับผลกระทบจากภัยน้ำท่วม จนแทบสิ้นเนื้อประดาตัว พระบาทสมเด็จพระเจ้าอยู่หัว และสมเด็จพระนางเจ้าฯ พระบรมราชินีนาถ จึงเสด็จพระราชทานความช่วยเหลือ แก่ราษฎรผู้ประสบอุทกภัยในปี พ.ศ. 2518
+            </div>
+            <div class="indent_15px">ด้วยพระปรีชาญาณ และพระมหากรุณาธิคุณ ของสมเด็จพระนางเจ้า ฯ ที่ทรงดำริ ให้มีการฝึกฝนอาชีพการปั้นตุ๊กตาชาววัง จากดินเหนียวให้แก่กลุ่มแม่บ้าน ให้ทำเป็นงานอดิเรกเพื่อเพิ่มพูนรายได้ และทรงรับเป็นโครงการในพระบรมราชินูปถัมภ์ โดยในปี พ.ศ. 2519 พระองค์ท่านได้ส่งอาจารย์พร้อมวัสดุอุปกรณ์ทุกอย่างมาสอนที่วัดสระแก้ว สอนสัปดาห์ละ 2 วัน แต่เรียนได้เพียง 3 สัปดาห์ ชาวบ้านเกิดความหวาดกลัวเพราะการปั้นตุ๊กตาชาววังถือเป็นศิลปะชั้นสูง ถ้าเรียนโดยไม่มีการทำพิธียกครูอาจไม่เป็นมงคล ประกอบกับในช่วงเวลานั้น มีลูกเด็กเล็กแดงเจ็บป่วยบ่อย ๆ เมื่อสมเด็จพระเทพรัตนราชสุดา เสด็จมาทำพิธีครอบครู ซึ่งเป็นพิธีกรรมแสดงความเคารพต่อสิ่งศักดิ์สิทธิ์ ชาวบ้านจึงคลายความกังวลลงได้
+            </div>
+            <div class="indent_15px">กรรรมวิธีการปั้นตุ๊กตาชาววัง มีหลายขั้นตอน เริ่มด้วยการเตรียมดิน ซึ่งช่างปั้นต้องเป็นคนไปหาเอง เพื่อให้ดินเหนียว เหมาะกับงานปั้นตุ๊กตา เมื่อเผาออกมาแล้ว จะมีสีแดงสวยงามตามธรรมชาติ ดินที่ได้มานั้น ต้องนำมาละลายน้ำ และผ่านกรองเอาเศษกรวด เศษหิน ออกให้หมดเสียก่อน จึงจะนำมาปั้นได้
+            ด้วยฝีมือที่ชำนาญ ทำให้การปั้นใช้เวลาไม่มาก บางชิ้นส่วน เช่น ศีรษะตุ๊กตา หรือผลไม้ที่มีความละเอียดมาก จะใช้แม่พิมพ์ปูนพาสเตอร์ดินเหนียวออกมา ช่วงที่ยากและทำให้ตุ๊กตาเสียหายมากที่สุด คือการเผา เนื่องจากที่นี่ยังใช้เทคโนโลยีแบบดั้งเดิม จึงต้องควบคุมอุณหภูมิ ให้เหมาะอยู่เป็นวัน ๆ ถ้าเพิ่มความร้อนเร็ว หรือช้าจนเกินไป จะทำให้ตัวตุ๊กตาแตกหัก บางทีเผาเสร็จเหลือตุ๊กตาไม่ถึงครึ่ง
+            </div>
+            <div class="indent_15px">ลงท้ายด้วยการระบายสี ที่ต้องมีการรองพื้นด้วยสีโปสเตอร์ขาวก่อน ตามด้วยสีน้ำมันขาวอีกที ก่อนจะระบายเสื้อผ้า และวาดหน้าตาได้ แต่ละขั้นตอนมีกระบวนการที่จุกจิก ยุ่งยาก ต้องพิถีพิถัน ทำให้เสียเวลามาก คนทำต้องอดทนและใจเย็น
+            </div>
+            <div class="indent_15px">ตุ๊กตาชาววัง นอกจากจะทำตามขั้นตอนตอนข้างต้นแล้ว ยังมีการปั้นอีกแบบหนึ่งที่เรียกว่า การปั้นเหมือนจริง ซึ่งจะมีความละเอียดเหมือนคนจริง ๆ มากกว่า สีผิวจะเป็นสีของดินเผาแท้ จะลงสีเฉพาะเสื้อผ้าเท่านั้น ใบหน้าก็จะไม่มีการหล่อพิมพ์ แต่จะใช้อุปกรณ์แกะเป็นหน้าตา ตุ๊กตาแบบนี้จะแพงกว่าแบบแรก เพราะมีกรรมวิธียากกว่ามาก<br><br></div>
+            </div>
+            -->
+            <!-- end of div id="b_lng_Psg1_q_number"  -->
+
+            <!--
+                  <div id="c_lng_Psg1_q_number">
+                      <div class="isNew">id1612854423:date1653524970</div>
+                      <strong>สำหรับข้อ 8-11</strong><br><br>
+
+                      หนังสือหรือข้อเขียนใด ๆ คือ สิ่งที่มนุษย์เขียนขึ้น การเขียนจึงหมายถึง สิ่งที่มนุษย์คิดออกมาเป็นตัวอักษร  มนุษย์เขียนอะไร คำตอบ คือ มนุษย์เขียนสิ่งที่ตนเองรู้หรือคิด ถ้าอย่างนั้น การอ่านคืออะไร การอ่าน คือ ความหมายที่จะถ่ายทอดสิ่งที่มนุษย์เขียนไว้กลับออกมาเป็นความคิด เมื่อพิจารณาอย่างนี้แล้ว ย่อมเห็นว่า การอ่านกับการเขียน เป็นของคู่กันมีความสัมพันธ์กันอย่างแยกไม่ออก<br><br>
+
+                      อย่างไรจึงจะเรียกว่า อ่านดี หรือ เขียนดี เรื่องนี้นักปราชญ์ทางภาษาได้ให้ทรรศนะไว้ว่า “ผู้เขียนแสดงความคิดอย่างไร ผู้อ่านก็ได้ความคิดอย่างนั้น เอนเอียงไปตามนั้น หรือปฏิบัติตามนั้น” อย่างนี้เรียกว่า เขียนดี และ “ผู้เขียนแสดงความคิดเห็นอย่างไร ผู้อ่านเข้าใจได้หมดรู้เท่าทันทุกความคิด แต่ผู้อ่านมีความคิดเป็นของตนเอง รู้จักวิเคราะห์เลือกรับแต่ความคิดที่เป็นประโยชน์ ขจัดความคิดที่ไร้สาระออกไป เพราะอ่านอย่างมีวิจารณญาณ” อย่างนี้เรียกว่า อ่านดี
+                      <br><br>
+                      -->
+        </div> <!-- end of div id="c_lng_Psg1_q_number"  -->
+
+</div>
+    </div>
+
+</div>   <!--  end  of upper  -->
+
+<div class="lower" id="myQstnDIV">
+
+<form action="#">
+<div class="question_num"   id="lng_cnvr2_q_number_1"><strong>ข้อ 1.</strong></div>
+<div class="question_content">
+&nbsp;
+</div>
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. It's nice to have met you.
+</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Yes, nice to meet you too.</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q1" type="radio" value="ตัวเลือก ข้อ 3" />3. Yes, it's nice talking to you.</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. It's nice meeting you, too.</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnCnvrstn2_ans_01" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_01')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnCnvr2_q1" class="explanation" style="display:none">
+
+1. It's nice to have met you. <br />
+ใช้พูดตอนจะจากกัน หลังจากที่ได้รู้จักกันครั้งแรก และได้คุยกันแล้ว<br><br>
+2. Yes, nice to meet you too. &#x2714; <br />
+It's nice to meet you. ยินดีที่ได้รู้จัก - ใช้พูดเมื่อรู้จักกัน หรือเมื่อได้รับการแนะนำให้รู้จักกันครั้งแรก ก่อนที่จะพูดคุยกัน <br><br>
+3. Yes, it's nice talking to you.<br />
+ใช้พูดตอนจะจากกัน หลังจากที่ได้รู้จักกันครั้งแรก และได้คุยกันแล้ว<br><br>
+4. It's nice meeting you, too.<br /> 
+It's nice meeting you. ใช้พูดตอนจะจากกัน หลังจากที่ได้รู้จักกันครั้งแรก และได้คุยกันแล้ว<br><br />
+
+คำตอบที่ถูก คือ ข้อ 2 <br /><br>
+
+คำอธิบาย<br /><br />
+
+Mr. A: Hi, nice to meet you.<br>
+สวัสดี ยินดีที่พบกัน<br><br>
+Mr. B: ...........(1).............<br><br>
+Mr. A: What job are you applying for?<br>
+คุณสมัครในตำแหน่งอะไร<br><br>
+Mr. B: ...............(2)........................<br><br>
+Mr. A: How much experience do you have in this field?<br>
+คุณมีประสบการณ์ทางด้านนี้เพียงใด<br><br>
+Mr. B: ...................(3)....................... <br><br>
+Mr. A: Why did you leave your former company?<br>
+ทำไมคุณจึงออกจากงานที่บริษัทก่อนหน้านี้<br><br>
+Mr. B: .......................(4)........................<br><br>
+Mr. A: Can you tell me what your strengths are? <br>
+คุณช่วยบอกจุดแข็งของคุณหน่อยได้ไหม<br><br>
+Mr. B: ..................(5)............................ <br><br>
+Mr. A: What do you see as your weaknesses? <br>
+คุณเห็นว่า จุดอ่อนของคุณคืออะไร<br><br>
+Mr. B: .................... (6).......................<br><br>
+Mr. A: O.K. I will let you know of our decision by e-mail.<br>
+ตกลง ผมจะแจ้งให้คุณทราบผลการตัดสินใจ (decision) ของเรา ทางอีเมลdecision
+Mr. B: Thank you. ........... (7)................<br>
+ขอบคุณ ............................<br>
+
+
+
+</div>  <!-- lgEnCnvr2_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q1', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn2_ans_01', 'yes', '1648946379', 'lng_cnvr2_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngCnvr2_1" onclick="show_hide_LngPsg('lgEnCnvr2_q1', 'lngCnvr2_1', 'lng_cnvr2_q_number_1' , 'yes'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_LngPsg('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- ข้อ 2. -->
+
+<form action="#">
+<div class="question_num"   id="lng_cnvr2_q_number_2"><strong>ข้อ 2.</strong></div>
+<div class="question_content">
+&nbsp;
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col_1Col"><label> <input name="longEnCnvrstn2_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. I worked as an accountant in a big company.</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. I hope I will have a good job here.</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. I'm applying for the accounting position.</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. I am looking forward to working here. </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnCnvrstn2_ans_02" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_02')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnCnvr2_q2" class="explanation" style="display:none">
+
+
+1. I worked as an accountant in a big company. <br />
+ผมเคยทำงานเป็นนักบัญชี ในบริษัทใหญ่แห่งหนึ่ง<br /><br />
+2. I hope I will have a good job here.<br />
+ผมหวังว่า จะได้ทำงานที่ดี ที่นี่ <br /><br />
+3. I'm applying for the accounting position.  &#x2714; <br />
+ผมต้องการสมัครในตำแหน่งนักบัญชี<br /><br />
+4. I am looking forward to working here.  <br />
+ผมรอด้วยความหวัง (looking forward to) ที่จะทำงานที่นี่ <br /> <br /><br />
+
+
+คำตอบที่ถูก คือ ข้อ 3 <br />
+</div>  <!-- lgEnCnvr2_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q2', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn2_ans_02', 'yes', '1648946379', 'lng_cnvr2_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngCnvr2_2" onclick="show_hide_LngPsg('lgEnCnvr2_q2', 'lngCnvr2_2', 'lng_cnvr2_q_number_2', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_LngPsg('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+<!-- จบข้อ 2 -->
+
+<!-- ข้อ 3. -->
+<form action="#">
+<div class="question_num"   id="lng_cnvr2_q_number_3"><strong>ข้อ 3.</strong></div>
+<div class="question_content">
+&nbsp;
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+<div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. I worked as an accountant in a big company.</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. I like the working as an accountant very much. </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. I worked as an accountant for 10 years.</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. I have a bachelor degree in accountancy.</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnCnvrstn2_ans_03" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_03')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnCnvr2_q3" class="explanation" style="display:none">
+
+1. I worked as an accountant in a big company.<br>
+ผมทำงานเป็นนักบัญชี ในบริษัทใหญ่แห่งหนึ่ง<br><br>
+2. I like the working as an accountant very much.<br>
+ผมชอบทำงานเป็นนักบัญชีมาก<br><br>
+3. I worked as an accountant for 10 years. &#x2714;<br>
+ผมทำงานเป็นนักบัญชี เป็นเวลา 10 ปี<br>
+ข้อนี้ ดีกว่า ข้อ 1 เพราะบอกระยะเวลา ประสบการณ์สะสมมากกว่า<br>
+4. I have a bachelor degree in accountancy.<br>
+ผมจบปริญญาตรี ทางการบัญชี<br><br>
+
+	คำอธิบาย<br /><br />
+คำถามว่า How much experience คือ มีประสบการณ์ มาก-น้อย เพียงใด<br><br>
+คำตอบจึงน่าจะบอก ระยะเวลาในการทำงาน หรือผลงาน เป็นต้น ข้อ 3 เป็นคำตอบที่ดีที่สุด<br>
+
+<br>
+
+คำตอบที่ถูก คือ ข้อ 3 <br />
+
+</div>  <!-- lgEnCnvr2_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q3', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn2_ans_03', 'yes', '1648946379', 'lng_cnvr2_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngCnvr2_3" onclick="show_hide_LngPsg('lgEnCnvr2_q3', 'lngCnvr2_3', 'lng_cnvr2_q_number_3', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_LngPsg('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 3 -->
+
+<!-- ข้อ 4. -->
+
+<form action="#">
+<div class="question_num"   id="lng_cnvr2_q_number_4"><strong>ข้อ 4.</strong></div>
+<div class="question_content">
+&nbsp;
+</div>
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. I am interested in a job with more money.</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. I was not on good terms with the company. </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. I got fired. It was not my fault at all. </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. The company shut down due to the economy. </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnCnvrstn2_ans_04" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_04')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnCnvr2_q4" class="explanation" style="display:none">
+1. I am interested in a job with more money.<br>
+ผมสนใจงานที่ทำเงินมากขึ้น<br>
+ในการสัมภาษณ์เข้างาน ไม่ควรพูดว่า เรื่องเงินเป็นเรื่องสำคัญที่สุด<br><br>
+2. I was not on good terms with the company.<br>
+ผมเข้ากับบริษัทนั้นไม่ได้ <br>
+เป็นคำตอบที่ไม่ดี เพราะอาจจะทำให้คิดว่า เป็นคนเลือกงาน มีปัญหาการปรับตัว เป็นต้น<br><br>
+3. I got fired. It was not my fault at all.<br>
+ผมถูกไล่ออก มันไม่ใช่ความผิด(fault) ของผม<br>
+ถ้าถูกไล่ออกจริง ๆ ไม่ควรโทษว่าเป็นความผิดของคนอื่น หรือของบริษัท แต่ให้มองเห็นว่า เป็นเฉพาะกรณี และจะไม่เกิดขึ้นถ้าทำงานที่นี่ เช่น พูดว่า<br>
+I was fired because the job expectations changed after I was hired.<br>
+ผมถูกออกจากงาน เพราะ หลังจากได้เข้าทำงานแล้ว ความคาดหวังของงานเปลี่ยนไป<br><br>
+4. The company shut down due to the economy. &#x2714;<br>
+บริษัทปิดตัวลง เนื่องมาจาก(due to)เศรษฐกิจ (ไม่ดี)<br><br>
+
+คำตอบที่ถูกคือ ข้อ 4<br>
+
+</div>  <!-- lgEnCnvr2_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q4', 'ตัวเลือก ข้อ 4', 'lngEnCnvrstn2_ans_04', 'no', '1648946379', 'lng_cnvr2_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngCnvr2_4" onclick="show_hide_LngPsg('lgEnCnvr2_q4', 'lngCnvr2_4', 'lng_cnvr2_q_number_4', 'no'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_LngPsg('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 4 -->
+
+<!-- ข้อ 5. -->
+
+<form action="#">
+<div class="question_num"   id="lng_cnvr2_q_number_5"><strong>ข้อ 5.</strong></div>
+<div class="question_content">
+&nbsp;
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. I am too much of a perfectionist.</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. I work too hard sometimes.</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. I'm honest and deligent worker.</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. I care too much about my work.</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnCnvrstn2_ans_05" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_05')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnCnvr2_q5" class="explanation" style="display:none">
+
+1. I am too much of a perfectionist. <br />
+ผมเป็นคนที่สมบูรณ์แบบเกินไป<br /><br />
+2. I work too hard sometimes.<br />
+บางครั้งผมทำงานหนักเกินไป<br /><br />
+3. I'm honest and deligent worker. &#x2714;<br />
+ผมเป็นคนทำงานที่ ซื่อสัตย์และขยัน<br /><br />
+4. I care too much about my work.<br />
+ผมใส่ใจกับงานที่ทำมากเกินไป<br /><br />
+
+ข้อ 3 เป็นข้อที่ถูก<br>
+</div>  <!-- lgEnCnvr2_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q5', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn2_ans_05', 'no', '1648946379', 'lng_cnvr2_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngCnvr2_5" onclick="show_hide_LngPsg('lgEnCnvr2_q5', 'lngCnvr2_5', 'lng_cnvr2_q_number_5', 'no'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_LngPsg('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 5 -->
+
+
+<!-- ข้อ 6. -->
+
+<form action="#">
+<div class="question_num"   id="lng_cnvr2_q_number_6"><strong>ข้อ 6.</strong></div>
+<div class="question_content">
+&nbsp;
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q6" type="radio" value="ตัวเลือก ข้อ 1" /> 1. I have solid organizational skills with the ability to multi-task.</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q6" type="radio" value="ตัวเลือก ข้อ 2" /> 2. I can't think of any relevant weaknesses.</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q6" type="radio" value="ตัวเลือก ข้อ 3" /> 3. I have had a hard time disconnecting from technology.</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q6" type="radio" value="ตัวเลือก ข้อ 4" /> 4. I am ready to devote time necessary to complete deadlines.   </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnCnvrstn2_ans_06" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_06')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnCnvr2_q6" class="explanation" style="display:none">
+
+1. I have solid organizational skills with the ability to multi-task. <br />
+ผมเป็นคนที่มีทักษะการบริหารเวลาและทรัพยากรอย่างมีประสิทธิภาพ และสามารถทำงานได้หลายอย่าง ในเวลาเดียวกัน(multi-task)<br />
+organizational skills = ทักษะการบริหารเวลา ทรัพยากร อย่างมีประสิทธิภาพ<br><br />
+2. I can't think of any relevant weaknesses.<br />
+ผมนึกไม่ออกว่า มีจุดอ่อนที่สำคัญอะไรบ้าง<br />
+ไม่ควรตอบ เพราะอาจจะแสดงว่าเป็นคนไม่รู้จักตนเอง ชอบโอ้อวด<br /><br>
+3. I have had a hard time disconnecting from technology. &#x2714;<br />
+ผมติดเทคโนโลยี (ผมลำบากที่จะตัดเทคโนโลยี)<br /><br />
+4. I am ready to devote time necessary to complete deadlines.<br />
+ผมพร้อมที่จะอุทิศ(devote)เวลา ที่จำเป็นสำหรับการทำให้บรรลุตามเวลาที่กำหนด<br /><br />
+
+ข้อ 3 เป็นข้อที่ถูก<br>
+</div>  <!-- lgEnCnvr2_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q6', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn2_ans_06', 'no', '1648946379', 'lng_cnvr2_q_number_6'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngCnvr2_6" onclick="show_hide_LngPsg('lgEnCnvr2_q6', 'lngCnvr2_6', 'lng_cnvr2_q_number_6', 'no'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_LngPsg('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 6 -->
+
+
+<!-- ข้อ 7. -->
+
+<form action="#">
+<div class="question_num"   id="lng_cnvr2_q_number_7"><strong>ข้อ 7.</strong></div>
+<div class="question_content">
+&nbsp;
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q7" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Thank you for the interview. Did I get the job?.</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q7" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Thank you. I look forward to hearing from you.</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q7" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Thank you so much. May I ask how much vacation time I will get?</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q7" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Thanks for meeting with me. When will I hear back?</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnCnvrstn2_ans_07" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_07')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnCnvr2_q7" class="explanation" style="display:none">
+1. Thank you for the interview. Did I get the job?<br>
+ขอบคุณสำหรับการสัมภาษณ์ ผมจะได้งานนี้หรือไม่<br>
+ไม่ควรถามว่า ผมได้งานนี้หรือไม่ เพราะ เป็นการบังคับให้ผู้สัมภาษณ์ตอบ ผู้สัมภาษณ์บางคนอาจจะถือว่า เป็นการไม่สุภาพด้วย<br><br>
+2. Thank you. I look forward to hearing from you. &#x2714;<br>
+ขอบคุณครับ ผมรอคอยที่จะได้รับคำตอบจากท่าน<br>
+look forward to = ตั้งตาคอย รอคอยอย่างใจจดใจจ่อ<br><br>
+3. Thank you so much. May I ask how much vacation time I will get?<br>
+ขอบคุณมากครับ ผมขอถามเกี่ยวกับว่า จะได้มีเวลาวันหยุดเท่าไรครับ<br>
+ไม่เหมาะที่จะถามเรื่องนี้<br><br>
+4. Thanks for meeting with me. When will I hear back?<br>
+ขอบคุณครับสำหรับการสัมภาษณ์ แล้วผมจะรู้ข่าวเมื่อไร<br>
+hear back = ได้รับข่าวการตอบกลับ<br>
+ไม่ควรเร่งรัดผลการสัมภาษณ์<br><br>
+
+ข้อ 2 เป็นข้อที่ถูก<br>
+</div>  <!-- lgEnCnvr2_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q7', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn2_ans_07', 'no', '1648946379', 'lng_cnvr2_q_number_7'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngCnvr2_7" onclick="show_hide_LngPsg('lgEnCnvr2_q7', 'lngCnvr2_7', 'lng_cnvr2_q_number_7', 'no'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_LngPsg('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 7 -->
+
+
+
+</div>  <!--  lower  -->
+
+
+
+<script src="long_psge_check_feedback.js"></script>
+
+
+</body>
+</html>

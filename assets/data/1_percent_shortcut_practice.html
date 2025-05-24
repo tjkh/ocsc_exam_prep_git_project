@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cont_full_version.css">
+    <script src="cont_full_version.js" type="text/javascript" language="JavaScript"></script>
+<script type="text/javascript">
+    var element = document.body;
+    var isFullVersion;
+    var htmlMode; // มืดหรือสว่าง
+
+var numOfQuestions = 10;  // เป็น dummy ว่ามีทั่้งหมด 10 ข้อ
+var currQstnID = "tbl_q10"; // เป็น dummy ว่าทำไปถึงข้อ 10 แล้ว จะได้แสดงเครื่องหมายถูก ว่า ทำหมดแล้ว
+var clickedQstns = "xzcccx11111";
+// คือส่งข้อมูลเพื่อส่งไปยัง WillpopScope ซึ่งจะทำงานตอนคลิกปุ่มลูกศรกลับไปยังหน้าที่แล้วที่เข้ามา
+// ข้อมูลที่ส่งไป เอาตามรูปแบบของข้อสอบที่เป็นไฟล์ html ซึ่งประกอบไปด้วย
+// จำนวนข้อทั้งหมด, ข้อปัจจุบันที่คลิก, ชื่อ id และ วันที่
+// ข้อมูลที่จะเอาไปทำ ไอคอน คือ จำนวนข้อทั้งหมด และข้อที่คลิก ซึ่งเป็นชื่อ id โดยที่ Willpop จะแยกเอาเฉพาะตัวเลข
+//  ทำข้อที่ 10 จากจำนวนทั้งหมด 10 ข้อ จึงได้ 100% ได้ไอคอนชื่อ p00.png คือ มีเครื่องหมายถูก แสดงว่า เสร็จแล้ว
+var msgToSend = numOfQuestions + "xzc" + currQstnID + clickedQstns;
+
+ messageHandler.postMessage(msgToSend);
+
+
+// รับข้อมูลมาจาก flutter
+function isBuyAndMode(myDat){
+
+
+datArr = myDat.split("xyz");   //datArr[0] คือ ซื้อแล้วหรือยัง true=ซื้อแล้ว  datArr[1] คือ โหมดมือหรือไม่  true=ใช่โหมดมืด  false=ไม่ใช่โหมดมืด
+
+isFullVersion = datArr[0];
+
+alert("isFullVersion  " + isFullVersion);
+
+is_darkMode = datArr[1];
+if (is_darkMode == "true"){
+    htmlMode = "dark";
+ }else{
+      htmlMode = "light";
+     }
+
+
+if (htmlMode=="dark"){
+element.style.backgroundColor = 'black';
+element.style.color = 'white';
+}else{
+element.style.backgroundColor = 'white';
+element.style.color = 'black';
+
+}
+
+
+}// end of function
+
+// var isFullVersion = Android.getIsFullVersion();  // สำหรับ Android ต้องเรียกใช้จากที่นี่ เอามาจาก cont_full_version ไม่ได้
+const myData1=[
+ {qstn:"75% ของ 500", ans:"375", exp:"75% คือ 3 ใน 4 นั่นคือ 500 คููณด้วย 3 หารด้วย 4 ได้เท่ากับ 375"},
+ {qstn:"70% ของ 50", ans:"35", exp:"70% ของ 50 พูดได้อีกอย่างว่า 50% ของ 70 ซึ่งก็คือ 70 หารด้วย 2 เท่ากับ 35"},
+{qstn:"30% ของ 300", ans:"90", exp:"30%  = 10%+10%+10% <br>30+30+30 = 90"},
+{qstn:"50% ของ 300", ans:"150", exp:"50% = ครึ่งหนึ่ง จึงเอา 2 หาร 300 ได้ 150"},
+{qstn:"20% ของ 300", ans:"60", exp:"20% = หนึ่งใน 5 จึงเอา 5 หาร 300 ได้ 60"},
+{qstn:"10% ของ 400", ans:"40", exp:"10% = หนึ่งใน 10 จึงเอา 10 หาร 400 ได้ 40"},
+ {qstn:"5% ของ 480", ans:"24", exp:"10% ของ 480 คือ 48 ดังนั้น 5% หรือครึ่งหนึ่งของ 10% จึงเท่ากับ 24"},
+ {qstn:"15% ของ 250", ans:"37.5", exp:"10% ของ 250 คือ 25 รวมกับอีก 5% ตือ 12.5  ดังนั้น 5% จึงได้เท่ากับ 37.5"},
+ {qstn:"250% ของ 60", ans:"150", exp:"พูดเสียใหม่ว่า 60% ของ 250 <br>50% = 125 กับอีก 10% (25)<br>ดังนั้น 125+25 = 150"},
+ {qstn:"110% ของ 370", ans:"407", exp:"100% + 10% <br>100%=370 และ 10% = 37<br>100+37 = 407"},
+ {qstn:"30% ของ 290", ans:"87", exp:"10% + 10% +10%<br>29+29+29 = 87"},
+ {qstn:"500% ของ 10", ans:"407", exp:"พูดเสียใหม่ว่า 10% ของ 500 <br>500/10 = 50"},
+ {qstn:"60% ของ 750", ans:"450", exp:"50% ของ 750 = 375 รวมกับ 10% (75) ได้คำตอบคือ  375+75 = 450"},
+ {qstn:"80% ของ 800", ans:"640", exp:"ข้อนี้ คิดแบบทศนิยม จะง่ายกว่า คือ เอา 0.8 ไปคูณ เพราะ 8% = 0.8 <br> 800x0.8 = 640.0"},
+ {qstn:"150% ของ 350", ans:"525", exp:"100% กับอีกครึ่ง = 350+175 = 525"},
+ {qstn:"420% ของ 105", ans:"441", exp:"พูดอย่างนี้ ง่ายกว่า 105% ของ 420 = ? <br>420 + ครึ่งหนึ่งของ 10%<br> 420+(42/2) = 420+21 = 441"},
+ {qstn:"12.5% ของ 400", ans:"50", exp:"12.5 เท่ากับครึ่งหนึ่งของ 25<br>25 เท่ากับครึ่งหนึ่งของ 50<br>ครึ่งหนึ่ง(50%)ของ 400 = 200<br>ครึ่งหนึ่งของ 200 = 100<br>ครึ่งหนึ่งของ 100 = 50"},
+ {qstn:"20% ของ 750", ans:"150", exp:"10%+10%<br>75+75 = 150 "},
+ {qstn:"25% ของ 800", ans:"200", exp:"25% คือ 1 ใน 4 ดังนั้น 800/4 = 200"},
+ {qstn:"40% ของ 575", ans:"230", exp:"50%-10%<br>287.5 - 57.5 = 230 "},
+  {qstn:"50 คิดเป็นกี่เปอร์เซ็นต์ของ 200", ans:"25%", exp:"50 = (a/100) x 200<br>a=(50 x 100)/200 = 25"},
+ {qstn:"50 เท่ากับ 20% ของเลขจำนวนใด", ans:"250", exp:"50 = (20/100) x a<br>a = (50 x 100)/20 = 250"},
+  {qstn:"45 คิดเป็นกี่เปอร์เซ็นต์ของ 150", ans:"30%", exp:"45 = (a/100) x 150<br>a=(45 x 100)/150 = 30"},
+
+]
+
+const myData2=[
+ {qstn:"สินค้า ราคา 500 บาท ลดราคา 75% ลดไปกี่บาท", ans:"375 บาท", exp:"75% คือ 3 ใน 4 นั่นคือ 500 คููณด้วย 3 หารด้วย 4 ได้เท่ากับ 375 (หารก่อนแล้วจึงคูณ จะทำให้ตัวเลขน้อย คิดง่ายกว่า คือ เอา 500 หารด้วย 4 คูณด้วย 3 = 375 เหมือนกัน) "},
+ {qstn:"ของชิ้นหนึ่ง ราคา 50 บาท ลดราคา 70% เหลือกี่บาท", ans:"15 บาท", exp:"ลดไป 70% เหลือจริง 30%<br>30% ของ 50 <br>30% = 10%+10%+10% = 5.0+5.0+5.0 = 15 <br>หรือ เอา 0.3 x 50 = 15 (ง่ายกว่า)"},
+{qstn:"ของชิ้นหนึ่ง ราคา 300 บาท ติดป้ายลดราคา 50% ผู้ซื้อจ่ายกี่บาท", ans:"150 บาท", exp:"50% = ครึ่งหนึ่ง จึงเอา 2 หาร 300 ได้ 150"},
+{qstn:"เสื้อราคาทุนตัวละ 300 บาท คนขายต้องการกำไร 30% ต้องขายตัวละเท่าไร", ans:"390", exp:"ต้องการกำไร 30%  ดังนั้นจึงขาย 130% ของราคาทุน<br> 130% ของ 300<br>130% = 100%+10%+10%+10%<br>300+30+30+30 = 390"},
+
+// ถึงตรงนี้
+{qstn:"ต้นทุนเสื้อราคา 250 บาท ต้องการกำไร 25% แต่จะลดให้ผู้ซื้อเงินสด 20% ผู้ซื้อจ่ายเงินเท่าไร", ans:"250", exp:"25%ของ250 คือ 1 ใน 4 เอา 4 หาร ได้  62.5 จึงขายในราคา 250+62.5 = 312.5<br>ลดให้ 20% ของ 312.5 คือ 1 ใน 5 เอา 5 หาร ได้ 62.5 <br>จ่ายเงินซื้อเสื้อ 312.5-62.5 = 250 บาท"},
+
+
+{qstn:"ขายสินค้าชิ้นหนึ่งได้กำไร 45 บาท คิดเป็นกำไรร้อยละ 30 อยากทราบว่า ขายสินค้านี้ไปราคาเท่าไร", ans:"150", exp:"ถามอีกอย่างได้ว่า 45 คิดเป็น 30% ของเลขจำนวนใด<br>แปลเป็นโจทย์สมการ<br>45 = (30/100) x a<br>a = (45 x 100)/30 = 150"},
+
+{qstn:"ขายสินค้าไป ได้กำไร 270 บาท คิดเป็นกำไร ร้อยละ 60 อยากทราบว่า ต้นทุนของสินค้านี้ ราคากี่บาท", ans:"180", exp:"ต้องหาราคาขายก่อน คือต้องหาว่า 270 คิดเป็น 60% ของเลขจำนวนใด จากนั้นจึงเอากำไรไปลบออก เป็นราคาต้นทุน <br>แปลเป็นโจทย์สมการ<br>270 = (60/100) x a<br>a = (270 x 100)/60 = 450<br>ราคาทุน = 450-270 = 180 บาท"},
+
+ {qstn:"มีไก่ทั้งหมด 25 ตัว เป็นไก่ไข 20 ตัว ถามว่ามีไก่คิดเป็นร้อยละเท่าไร", ans:"ร้อยละ 80", exp:"20 คิดเป็นร้อยละเท่าไร ของ 25<br>20 = (a/100) x 25<br>a = (20/25) x 100 = 80<br>หรือคิดตรงเลย เอาจำนวนที่มี หารด้วยจำนวนเต็ม คูณด้วย 100<br>20/25x100=80"},
+
+
+ {qstn:"พัดลมตัวหนึ่งปิดราคาขายไว้ 500 บาท ทางห้างลดให้ 100 บาท จงหาว่าลดราคาร้อยละเท่าไร", ans:"20%", exp:"100 คิดเป็นร้อยละเท่าไร ของ 500<br>100 = (a/100) x 500<br>a = (100/500) x 100 = 20<br>หรือ 100/500x100 = 20"},
+
+ {qstn:"ซื้อสินค้ามา 200 บาท ขายไปได้เงิน 250 บาท คิดเป็นกำไรร้อยละเท่าไร", ans:"25%", exp:"ต้องหากำไรก่อน แล้วจึงนำไปคิดร้อยละ<br>กำไร = 250-200 = 50<br>50 คิดเป็นร้อยละเท่าไร ของ 200<br>50 = (a/100) x 200<br>a = (50/200) x 100 = 25"},
+
+ {qstn:"บริษัทแห่งหนึ่งมีพนักงานทั้งหมด 500 คน เป็นชาย 60% บริษัทจำเป็นต้องคัดเลือกพนักงานชายออก 20% และคัดเลือกพนักงานหญิงออก 30% บริษัทยังเหลือพนักงานทั้งหมดอยู่เท่าไร", ans:"380 คน", exp:"ต้องหาจำนวนพนักงานชาย และพนักงานหญิงว่ามีกี่คน จากนั้นหาว่า ในจำนวนนั้น เอาออกคิดเป็นกี่คน แล้วจึงเอาไปลบกับจำนวนที่มีอยู่ทั้งหมด<br>พนักงานชาย 60% &#x2234; เป็นพนักงานหญิง 40%<br>พนักงานชาย 60%ของ500=50%+10%=250+50=300 คน<br>พนักงานหญิง 40%ของ500=10%+10%+10%+10%=50+50+50+50=200 คน<br>เอาพนักงานชายออก 20%ของ300 = 10%+10% = 30+30 = 60 คน<br>เอาพนักงานหญิงออก 30%ของ200 = 10%+10%+10% = 20+20 +20 = 60 คน<br>เหลือพนักงาน 500-60-60 = 380 คน<br>"},
+]
+
+let flag = 1;
+let maxShow=10;
+let curQstn = 0;
+//let maxQstn = mData.length;
+//let lastQstn=maxQstn-1;
+let myCurQstn = 0;
+let curAnsTxt = "";
+let curHowTxt = "";
+let qNum = 1;
+
+function start(){  // โหลด สองฟังก์ชัน เมื่อเริ่มเปิดไฟล์
+	//myFunction();
+	showQstn_default();
+}
+
+
+// document.getElementById("counter").innerHTML = "&nbsp;"+curQstn+"&nbsp;/" + "&nbsp;" + mData.length + "&nbsp;";
+function showQstn_default(){
+	document.getElementById("qstnNum").innerHTML = "ข้อ " + qNum + "/" + myData1.length;
+	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + myData1[curQstn].qstn + " = ?";
+	document.getElementById("answer").innerHTML = "";
+	document.getElementById("explanation").innerHTML = "";
+	document.getElementById("tmp").value = "";
+	document.getElementById("dsplyQstnSet1").disabled = true;
+
+	curAnsTxt = "คำตอบคือ   " + myData1[curQstn].ans;
+	curHowTxt = "วิธีคิด:<br>" + myData1[curQstn].exp;
+
+console.log("curQstn = " + curQstn);
+console.log(" -------------------------- ");
+	}
+
+function showQstn_next(){
+if (flag==1)
+{
+	mData=myData1;
+}else{
+	mData=myData2;
+}
+
+qNum++
+if (qNum > mData.length)
+{
+	qNum=1;
+}
+
+ if(curQstn == mData.length - 1){
+            curQstn = 0}
+        else{
+            curQstn++;}
+
+	document.getElementById("qstnNum").innerHTML ="ข้อ " + qNum + "/" + mData.length;
+	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + mData[curQstn].qstn + " = ?";
+	document.getElementById("answer").innerHTML = "";
+	document.getElementById("explanation").innerHTML = "";
+	document.getElementById("tmp").value = "";
+
+	curAnsTxt = "คำตอบคือ   " + mData[curQstn].ans;
+	curHowTxt = "วิธีคิด:<br>" + mData[curQstn].exp;
+}
+
+function showQstn_previous(){
+
+if (flag==1)
+{
+	mData=myData1;
+}else{
+	mData=myData2;
+}
+
+
+qNum = qNum-1;
+if (qNum <= 0)
+{
+	qNum=mData.length;
+}
+
+ if(curQstn == 0){
+            curQstn = mData.length - 1;}
+        else{
+            curQstn--;}
+
+	document.getElementById("qstnNum").innerHTML = "ข้อ " + qNum + "/" + mData.length;
+	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + mData[curQstn].qstn + " = ?";
+	document.getElementById("answer").innerHTML = "";
+	document.getElementById("explanation").innerHTML = "";
+	document.getElementById("tmp").value = "";
+	curAnsTxt = "คำตอบคือ   " + mData[curQstn].ans;
+	curHowTxt = "วิธีคิด:<br>" + mData[curQstn].exp;
+}
+
+function showQstn_first(){
+	if (flag==1)
+{
+	mData=myData1
+}else{
+	mData=myData2
+}
+
+	qNum=1;
+	curQstn = 0;
+
+	document.getElementById("qstnNum").innerHTML = "ข้อ " + qNum + "/" + mData.length;
+	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + mData[curQstn].qstn + " = ?";
+	curAnsTxt = "คำตอบคือ   " + mData[curQstn].ans;
+	curHowTxt = "วิธีคิด:<br>" + mData[curQstn].exp;
+	document.getElementById("answer").innerHTML = "";
+	document.getElementById("explanation").innerHTML = "";
+	document.getElementById("tmp").value = "";
+
+}
+
+function showQstn_last(){
+if (flag==1)
+{
+	mData=myData1
+}else{
+	mData=myData2
+}
+
+qNum=mData.length;
+curQstn = mData.length-1;
+// lastQstn = curQstn-1;
+	lastQstn = curQstn;
+	document.getElementById("qstnNum").innerHTML = "ข้อ " + qNum + "/" + mData.length;
+	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + mData[curQstn].qstn + " = ?";
+	curAnsTxt = "คำตอบคือ   " + mData[curQstn].ans;
+	curHowTxt = "วิธีคิด:<br>" + mData[curQstn].exp;
+		document.getElementById("answer").innerHTML = "";
+	document.getElementById("explanation").innerHTML = "";
+	document.getElementById("tmp").value = "";
+
+}
+
+function showAns(){
+
+if (flag==1)
+{
+	maxShow = 10;  // ถ้าเป็นเลข ให้แสดงคำอธิบาย 10 ข้อ
+}else{
+	maxShow = 5;  // ถ้าเป็นโจทย์ปัญหา ให้แสดงคำอธิบาย 5 ข้อ เพราะมีแค่ 11 ข้อ
+}
+
+	document.getElementById("instruction").scrollIntoView();
+	document.getElementById("answer").focus();
+	if (qNum > maxShow){
+
+		if (isFullVersion === "true") {
+		document.getElementById("answer").innerHTML = curAnsTxt;
+		}else{
+		document.getElementById("answer").innerHTML = "ข้อนี้ มีเฉลยในรุ่นเต็ม นะครับ"
+		}  //if (isFullVersion === "true")
+	}else{
+		document.getElementById("answer").innerHTML = curAnsTxt;
+	}// if (qNum > 10)
+
+
+}
+
+function showHow(){
+	if (flag==1)
+{
+	maxShow = 10;  // ถ้าเป็นเลข ให้แสดงคำอธิบาย 10 ข้อ
+}else{
+	maxShow = 5;  // ถ้าเป็นเลข ให้แสดงคำอธิบาย 10 ข้อ
+}
+
+	document.getElementById("instruction").scrollIntoView();
+		document.getElementById("explanation").focus();
+//document.getElementById("explanation").innerHTML = curHowTxt;
+	if (qNum > maxShow){
+
+		if (isFullVersion === "true") {
+		document.getElementById("explanation").innerHTML = curHowTxt;
+		}else{
+		document.getElementById("explanation").innerHTML = "ข้อนี้ มีคำอธิบายวิธีคิด ในรุ่นเต็ม นะครับ"
+		}  //if (isFullVersion === "true")
+	}else{
+		document.getElementById("explanation").innerHTML = curHowTxt;
+	}// if (qNum > 10)
+
+}
+
+function showQstnSet1() {
+	flag = 1;
+	 qNum = 1;
+	 curQstn=0;
+	document.getElementById("qstnNum").innerHTML ="ข้อ " + qNum + "/" + myData1.length;
+	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + myData1[curQstn].qstn + " = ?";
+	document.getElementById("answer").innerHTML = "";
+	document.getElementById("explanation").innerHTML = "";
+	document.getElementById("tmp").value = "";
+
+	curAnsTxt = "คำตอบคือ   " + myData1[curQstn].ans;
+	curHowTxt = "วิธีคิด:<br>" + myData1[curQstn].exp;
+	document.getElementById("dsplyQstnSet1").disabled = true;
+	document.getElementById("dsplyQstnSet2").disabled = false;
+	}
+
+function showQstnSet2() {
+	flag=2;
+
+	 qNum = 1;
+	 curQstn=0;
+	document.getElementById("qstnNum").innerHTML ="ข้อ " + qNum + "/" + myData2.length;
+	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + myData2[curQstn].qstn + " = ?";
+	document.getElementById("answer").innerHTML = "";
+	document.getElementById("explanation").innerHTML = "";
+	document.getElementById("tmp").value = "";
+	curAnsTxt = "คำตอบคือ   " + myData2[curQstn].ans;
+	curHowTxt = "วิธีคิด:<br>" + myData2[curQstn].exp;
+	document.getElementById("dsplyQstnSet1").disabled = false;
+	document.getElementById("dsplyQstnSet2").disabled = true;
+	}
+
+</script>
+
+
+    <title>ฝึกทักษะการคิดร้อยละ</title>
+</head>
+<body onload="start()">
+
+<div id="top">&nbsp;</div>
+<p><strong>การคิดลัด ร้อยละ -- เลขคณิต คิดในใจ</strong></p>
+<p>การคิดร้อยละ แบบที่ 2 เป็นการคิดแบบบ้าน ๆ คือ คิดจากตัวร้อยละ โดยแบ่งร้อยละออกเป็นส่วน ๆ เพื่อให้ง่ายต่อการคิด ลองทำแบบฝึกหัด และศึกษาวิธีคิดดูนะครับ</p>
+<p id="instruction">(1)คลิกเลือกข้อคำถาม (2)ลองคิดหาคำตอบ (3)คลิกดูเฉลย หรือ (4)คลิกดูวิธีทำ</p>
+<div style="margin-left: 0px; margin-right: 0px; padding: 0px 20px 0px 0px; clear:both; ">
+    <div id = "myDIV1" style="padding:10px; width:90%; clear:both; margin:0 auto; border-radius: 10px; border: 1px solid red; overflow: hidden; display: block;">
+        <!--
+        <div style="display: inline; border: 1px solid black"><p id="counter">&nbsp;1/20&nbsp;</p></div><br><br>
+        -->
+        <p id="qstnNum">ข้อ 1/23</p>
+        <p id="problem">ข้อคำถาม <br>75% ของ 500 = ?</p>
+
+        <button  style="padding: 5px;" onclick = "showQstn_first()">&nbsp;&nbsp;&nbsp;&nbsp;|&lt;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        <button  style="padding: 5px;" onclick = "showQstn_previous()">&nbsp;&nbsp;&nbsp;&nbsp;&lt;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        <button style="padding: 5px;" onclick = "showQstn_next()">&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        <button  style="padding: 5px;" onclick = "showQstn_last()">&nbsp;&nbsp;&nbsp;&nbsp;&gt;|&nbsp;&nbsp;&nbsp;&nbsp;</button><br><br>
+        <button  style="padding: 5px;" onclick="showAns()">&nbsp;&nbsp;&nbsp;&nbsp;เฉลย&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        <button  style="padding: 5px;" onclick="showHow()">&nbsp;&nbsp;&nbsp;&nbsp;วิธีคิด&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        <!--
+        <form action="">
+            <label >คำตอบของท่าน:</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="tmp"><br>
+        </form>
+         -->
+        <br>
+        <p id="answer" style="margin: 0 !important;"></p>
+        <p id="explanation"  style="margin: 0 !important;"></p>
+    </div>
+
+    <br><br>
+    <button id = "dsplyQstnSet1" onclick = "showQstnSet1()">โจทย์เลข</button>   <button id = "dsplyQstnSet2" onclick = "showQstnSet2()">โจทย์ปัญหา</button>
+    <br>
+</div>
+
+
+
+<p>ร้อยละ คือการคิดจากจำนวนเต็ม 100 หรือ ต่อร้อย คำว่า percent มาจากคำว่า per + cent คำว่า cent เป็นรากศัพท์ หมายถึง 100  ดังนั้น คำว่า 30% ก็คือ 30 จาก 100 นั่นเอง</p>
+
+<p>การคำนวณร้อยละ ของจำนวนใดจำนวนหนึ่ง เราก็เอาทศนิยม 2 ตำแหน่งของร้อยละที่กำหนด ไปคูณกับเลขจำนวนนั้น เช่น</p>
+50% ของ 200 = 200x0.5= 100<br>
+20% ของ 50 = 50x0.2 = 10<br>
+5% ของ 50 = 50x0.05 = 2.5<br>
+
+ข้อควรจำ<div id="fadeout"><div id="myDefault" class="read_more">  ... (อ่านต่อ ในรุ่นเต็ม นะครับ)</div></div>
+<div id="full_version"><br>
+    50% คือครึ่งหนึ่ง เช่น 50%ของ 300=150<br>
+    25% คือ หนึ่งในสี่ หรือ เอา 4 ไปหาร เช่น 25%ของ200 = 200/4 = 50<br>
+    10% คือ หนึ่งในสิบ หรือ เอา 10 ไปหาร เช่น 10%ของ 450=45<br>
+    5% คือ ครึ่งหนึ่งของ 10% เช่น 5%ของ 230 คือ 23/2 = 11.5 (10%ของ 230 คือ 23 และ ครึ่งหนึ่งของ 23 คือ 11.5)<br>
+    75% คือ 3ใน4 คือ หารด้วย 4 คูณด้วย 3  เช่น 75% ของ 200 = (200/4)*3 = 150<br>
+
+    <strong>เราสามารถ</strong>สลับที่ร้อยละกันได้ เช่น 5%ของ30 เท่ากับ 30%ของ5 เช่น <br>
+    5%ของ 30 = 30x0.05=1.5 <br>
+    30%ของ5 = 5x0.3=1.5 <br> <br>
+
+    สรุป<br><br>
+    ถ้าต้องการหาค่า 5% ให้หาค่า 10% แล้วเอามาเพียงครึ่งเดียว<br>
+    ถ้าต้องการหาค่า 15% ให้หาค่า 10% แล้ว บวกกับอีกครึ่งหนึ่ง<br>
+    ถ้าต้องการหาค่า 20% ให้หาค่า 10% แล้ว เพิ่มอีกเท่าตัว<br>
+    ถ้าต้องการหาค่า 25% ให้หาค่า 1 ใน 4  คือ เอา 4 ไปหาร<br>
+    ถ้าต้องการหาค่า 50% ให้หาค่า ครึ่งหนึ่ง คือ เอา 2 ไปหาร<br><br>
+
+
+
+
+
+
+    <p><strong>ลองมาคิดในใจดูกัน</strong></p>
+
+    64%ของ25 = ?<br>
+    สลับที่กันดีกว่า คิดง่ายดี<br>
+    64%ของ25 = 25%ของ64<br>
+    25% คือหนึ่งในสี่ หรือ เอา 4 หาร<br>
+    &#x2234; 25%ของ64 = 64/4 = 16<br>
+    &#x2234; 64%ของ25 = 16<br><br>
+
+    5%ของ210 = ?<br>
+    5% เท่ากับ ครึ่งหนึ่งของ 10% <br>
+    10%ของ210 = 21<br>
+    ครึ่งหนึ่งของ 21 = 10.5<br>
+    &#x2234;5%ของ210 = 10.5<br><br>
+
+
+    15%ของ210 = ?<br>
+    15%=10%+5% <br>
+    10%ของ210 = 21<br>
+    5%ของ210=21/2=10.5<br>
+    &#x2234;15%ของ210 =20+10.5=31.5<br><br>
+
+    20%ของ210 = ?<br>
+    20%=10%+10% <br>
+    10%ของ210 = 21<br>
+    &#x2234;20%ของ210 = 21+21 = 42<br><br>
+
+    25%ของ210 = ?<br>
+    25% = หนึ่งในสี่ (เอา 4 หาร) <br>
+    25%ของ210 = 210/4 = 52.50<br>
+    &#x2234;25%ของ210 = 52.5<br><br>
+
+    30%ของ210 = ?<br>
+    30%=10%+10%+10% <br>
+    10%ของ210 = 21<br>
+    &#x2234;30%ของ210 = 21+21+21 = 63<br><br>
+
+    75%ของ440 = ?<br>
+    75%=50%+25%<br>
+    50%ของ440 = 220<br>
+    25%ของ440 = 440/4 = 110<br>
+    &#x2234; 75%ของ440 = 220+110 = 330<br><br>
+
+    12.5%ของ400 = ?<br>
+    12.5% = ครึ่งหนึ่งของ 25%<br>
+    25% = ครึ่งหนึ่งของ 50%<br>
+    50%ของ400 = 200<br>
+    ครึ่งหนึ่งของ 50% (25%) = 200/2 = 100<br>
+    ครึ่งหนึ่งของ 25% (12.5%) = 100/2 = 50<br>
+    &#x2234; 12.5%ของ400 = 50<br><br>
+
+
+    จากแนวคิดข้างต้น เราสามารถคำนวนหาร้อยละของจำนวน 5% 10% 15% 20% 25% ...  ได้อย่างค่อนข้างรวดเร็ว แม่นยำ<br><br>
+
+    <strong>โจทย์เกี่ยวกับร้อยละ</strong> อีกอย่าง คือ ให้หาจำนวนเต็ม หรือให้หาเปอร์เซ็นต์ เช่น<br>
+    50 คิดเป็นกี่เปอร์เซ็นต์ของ  200 หรือ<br>
+    20% ของจำนวนใด มีค่าเท่ากับ 50 เป็นต้น<br><br>
+
+    <strong>วิธีคิดแบบรวดเร็ว</strong><br><br>
+
+    คำว่า <strong>"เป็น"</strong> คำว่า <strong>"มีค่าเท่ากับ" </strong>กำหนดให้เป็นเครื่องหมายเท่ากับ<br>
+    คำว่า <strong>เปอร์เซ็นต์ </strong>ให้เอา 100 หาร<br>
+    คำว่า <strong>"ของ"</strong> ให้เปลี่ยนเป็นเครื่องหมาย คูณ<br>
+    ค่าที่ไม่ทราบ ให้กำหนดชื่อเป็นตัวแปร เช่น a<br><br>
+
+    ตัวอย่าง<br><br>
+
+    50 คิดเป็นกี่เปอร์เซ็นต์ของ 200 <br>
+    50 = a/100 x 200<br>
+    a = (50x100)/200<br>
+    a = 25<br><br>
+
+    20% ของจำนวนใด มีค่าเท่ากับ 50 <br>
+    20/100 x a = 50<br>
+    a = (50x100)/20<br>
+    a = 250<br><br>
+
+    60 เป็น 20% ของเลขจำนวนใด<br>
+    60 = 20/100 x a<br>
+    a = (60 x100)/20<br>
+    a = 300<br><br><br><br>
+
+
+
+
+    อ้างอิง: <br><br>
+    https://sciencing.com/calculate-10-percent-discount-6397158.html<br>
+    https://lifehacker.com/calculate-nearly-any-percentage-in-your-head-with-simpl-1608579782<br><br>
+</div>  <!--  Full Version -->
+</body>
+</html>
+
+
+
+
+
+<!--<!doctype html>-->
+<!--<html lang="th">-->
+<!-- <head>-->
+<!--  <meta charset="UTF-8">-->
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--     <link rel="stylesheet" type="text/css" href="cont_full_version.css">-->
+<!--    <script src="cont_full_version.js" type="text/javascript" language="JavaScript"></script>-->
+<!--<script type="text/javascript"> -->
+<!--// var isFullVersion = Android.getIsFullVersion();  // สำหรับ Android ต้องเรียกใช้จากที่นี่ เอามาจาก cont_full_version ไม่ได้-->
+<!--const myData1=[-->
+<!-- {qstn:"75% ของ 500", ans:"375", exp:"75% คือ 3 ใน 4 นั่นคือ 500 คููณด้วย 3 หารด้วย 4 ได้เท่ากับ 375"},-->
+<!-- {qstn:"70% ของ 50", ans:"35", exp:"70% ของ 50 พูดได้อีกอย่างว่า 50% ของ 70 ซึ่งก็คือ 70 หารด้วย 2 เท่ากับ 35"},-->
+<!--{qstn:"30% ของ 300", ans:"90", exp:"30%  = 10%+10%+10% <br>30+30+30 = 90"},-->
+<!--{qstn:"50% ของ 300", ans:"150", exp:"50% = ครึ่งหนึ่ง จึงเอา 2 หาร 300 ได้ 150"},-->
+<!--{qstn:"20% ของ 300", ans:"60", exp:"20% = หนึ่งใน 5 จึงเอา 5 หาร 300 ได้ 60"},-->
+<!--{qstn:"10% ของ 400", ans:"40", exp:"10% = หนึ่งใน 10 จึงเอา 10 หาร 400 ได้ 40"},-->
+<!-- {qstn:"5% ของ 480", ans:"24", exp:"10% ของ 480 คือ 48 ดังนั้น 5% หรือครึ่งหนึ่งของ 10% จึงเท่ากับ 24"},-->
+<!-- {qstn:"15% ของ 250", ans:"37.5", exp:"10% ของ 250 คือ 25 รวมกับอีก 5% ตือ 12.5  ดังนั้น 5% จึงได้เท่ากับ 37.5"},-->
+<!-- {qstn:"250% ของ 60", ans:"150", exp:"พูดเสียใหม่ว่า 60% ของ 250 <br>50% = 125 กับอีก 10% (25)<br>ดังนั้น 125+25 = 150"},-->
+<!-- {qstn:"110% ของ 370", ans:"407", exp:"100% + 10% <br>100%=370 และ 10% = 37<br>100+37 = 407"},-->
+<!-- {qstn:"30% ของ 290", ans:"87", exp:"10% + 10% +10%<br>29+29+29 = 87"},-->
+<!-- {qstn:"500% ของ 10", ans:"407", exp:"พูดเสียใหม่ว่า 10% ของ 500 <br>500/10 = 50"},-->
+<!-- {qstn:"60% ของ 750", ans:"450", exp:"50% ของ 750 = 375 รวมกับ 10% (75) ได้คำตอบคือ  375+75 = 450"},-->
+<!-- {qstn:"80% ของ 800", ans:"640", exp:"ข้อนี้ คิดแบบทศนิยม จะง่ายกว่า คือ เอา 0.8 ไปคูณ เพราะ 8% = 0.8 <br> 800x0.8 = 640.0"},-->
+<!-- {qstn:"150% ของ 350", ans:"525", exp:"100% กับอีกครึ่ง = 350+175 = 525"},-->
+<!-- {qstn:"420% ของ 105", ans:"441", exp:"พูดอย่างนี้ ง่ายกว่า 105% ของ 420 = ? <br>420 + ครึ่งหนึ่งของ 10%<br> 420+(42/2) = 420+21 = 441"},-->
+<!-- {qstn:"12.5% ของ 400", ans:"50", exp:"12.5 เท่ากับครึ่งหนึ่งของ 25<br>25 เท่ากับครึ่งหนึ่งของ 50<br>ครึ่งหนึ่ง(50%)ของ 400 = 200<br>ครึ่งหนึ่งของ 200 = 100<br>ครึ่งหนึ่งของ 100 = 50"},-->
+<!-- {qstn:"20% ของ 750", ans:"150", exp:"10%+10%<br>75+75 = 150 "},-->
+<!-- {qstn:"25% ของ 800", ans:"200", exp:"25% คือ 1 ใน 4 ดังนั้น 800/4 = 200"},-->
+<!-- {qstn:"40% ของ 575", ans:"230", exp:"50%-10%<br>287.5 - 57.5 = 230 "},-->
+<!--  {qstn:"50 คิดเป็นกี่เปอร์เซ็นต์ของ 200", ans:"25%", exp:"50 = (a/100) x 200<br>a=(50 x 100)/200 = 25"},-->
+<!-- {qstn:"50 เท่ากับ 20% ของเลขจำนวนใด", ans:"250", exp:"50 = (20/100) x a<br>a = (50 x 100)/20 = 250"},-->
+<!--  {qstn:"45 คิดเป็นกี่เปอร์เซ็นต์ของ 150", ans:"30%", exp:"45 = (a/100) x 150<br>a=(45 x 100)/150 = 30"},-->
+
+<!--]-->
+
+<!--const myData2=[-->
+<!-- {qstn:"สินค้า ราคา 500 บาท ลดราคา 75% ลดไปกี่บาท", ans:"375 บาท", exp:"75% คือ 3 ใน 4 นั่นคือ 500 คููณด้วย 3 หารด้วย 4 ได้เท่ากับ 375 (หารก่อนแล้วจึงคูณ จะทำให้ตัวเลขน้อย คิดง่ายกว่า คือ เอา 500 หารด้วย 4 คูณด้วย 3 = 375 เหมือนกัน) "},-->
+<!-- {qstn:"ของชิ้นหนึ่ง ราคา 50 บาท ลดราคา 70% เหลือกี่บาท", ans:"15 บาท", exp:"ลดไป 70% เหลือจริง 30%<br>30% ของ 50 <br>30% = 10%+10%+10% = 5.0+5.0+5.0 = 15 <br>หรือ เอา 0.3 x 50 = 15 (ง่ายกว่า)"},-->
+<!--{qstn:"ของชิ้นหนึ่ง ราคา 300 บาท ติดป้ายลดราคา 50% ผู้ซื้อจ่ายกี่บาท", ans:"150 บาท", exp:"50% = ครึ่งหนึ่ง จึงเอา 2 หาร 300 ได้ 150"},-->
+<!--{qstn:"เสื้อราคาทุนตัวละ 300 บาท คนขายต้องการกำไร 30% ต้องขายตัวละเท่าไร", ans:"390", exp:"ต้องการกำไร 30%  ดังนั้นจึงขาย 130% ของราคาทุน<br> 130% ของ 300<br>130% = 100%+10%+10%+10%<br>300+30+30+30 = 390"},-->
+
+<!--// ถึงตรงนี้-->
+<!--{qstn:"ต้นทุนเสื้อราคา 250 บาท ต้องการกำไร 25% แต่จะลดให้ผู้ซื้อเงินสด 20% ผู้ซื้อจ่ายเงินเท่าไร", ans:"250", exp:"25%ของ250 คือ 1 ใน 4 เอา 4 หาร ได้  62.5 จึงขายในราคา 250+62.5 = 312.5<br>ลดให้ 20% ของ 312.5 คือ 1 ใน 5 เอา 5 หาร ได้ 62.5 <br>จ่ายเงินซื้อเสื้อ 312.5-62.5 = 250 บาท"},-->
+
+
+<!--{qstn:"ขายสินค้าชิ้นหนึ่งได้กำไร 45 บาท คิดเป็นกำไรร้อยละ 30 อยากทราบว่า ขายสินค้านี้ไปราคาเท่าไร", ans:"150", exp:"ถามอีกอย่างได้ว่า 45 คิดเป็น 30% ของเลขจำนวนใด<br>แปลเป็นโจทย์สมการ<br>45 = (30/100) x a<br>a = (45 x 100)/30 = 150"},-->
+
+<!--{qstn:"ขายสินค้าไป ได้กำไร 270 บาท คิดเป็นกำไร ร้อยละ 60 อยากทราบว่า ต้นทุนของสินค้านี้ ราคากี่บาท", ans:"180", exp:"ต้องหาราคาขายก่อน คือต้องหาว่า 270 คิดเป็น 60% ของเลขจำนวนใด จากนั้นจึงเอากำไรไปลบออก เป็นราคาต้นทุน <br>แปลเป็นโจทย์สมการ<br>270 = (60/100) x a<br>a = (270 x 100)/60 = 450<br>ราคาทุน = 450-270 = 180 บาท"},-->
+
+<!-- {qstn:"มีไก่ทั้งหมด 25 ตัว เป็นไก่ไข 20 ตัว ถามว่ามีไก่คิดเป็นร้อยละเท่าไร", ans:"ร้อยละ 80", exp:"20 คิดเป็นร้อยละเท่าไร ของ 25<br>20 = (a/100) x 25<br>a = (20/25) x 100 = 80<br>หรือคิดตรงเลย เอาจำนวนที่มี หารด้วยจำนวนเต็ม คูณด้วย 100<br>20/25x100=80"},-->
+
+
+<!-- {qstn:"พัดลมตัวหนึ่งปิดราคาขายไว้ 500 บาท ทางห้างลดให้ 100 บาท จงหาว่าลดราคาร้อยละเท่าไร", ans:"20%", exp:"100 คิดเป็นร้อยละเท่าไร ของ 500<br>100 = (a/100) x 500<br>a = (100/500) x 100 = 20<br>หรือ 100/500x100 = 20"},-->
+
+<!-- {qstn:"ซื้อสินค้ามา 200 บาท ขายไปได้เงิน 250 บาท คิดเป็นกำไรร้อยละเท่าไร", ans:"25%", exp:"ต้องหากำไรก่อน แล้วจึงนำไปคิดร้อยละ<br>กำไร = 250-200 = 50<br>50 คิดเป็นร้อยละเท่าไร ของ 200<br>50 = (a/100) x 200<br>a = (50/200) x 100 = 25"},-->
+
+<!-- {qstn:"บริษัทแห่งหนึ่งมีพนักงานทั้งหมด 500 คน เป็นชาย 60% บริษัทจำเป็นต้องคัดเลือกพนักงานชายออก 20% และคัดเลือกพนักงานหญิงออก 30% บริษัทยังเหลือพนักงานทั้งหมดอยู่เท่าไร", ans:"380 คน", exp:"ต้องหาจำนวนพนักงานชาย และพนักงานหญิงว่ามีกี่คน จากนั้นหาว่า ในจำนวนนั้น เอาออกคิดเป็นกี่คน แล้วจึงเอาไปลบกับจำนวนที่มีอยู่ทั้งหมด<br>พนักงานชาย 60% &#x2234; เป็นพนักงานหญิง 40%<br>พนักงานชาย 60%ของ500=50%+10%=250+50=300 คน<br>พนักงานหญิง 40%ของ500=10%+10%+10%+10%=50+50+50+50=200 คน<br>เอาพนักงานชายออก 20%ของ300 = 10%+10% = 30+30 = 60 คน<br>เอาพนักงานหญิงออก 30%ของ200 = 10%+10%+10% = 20+20 +20 = 60 คน<br>เหลือพนักงาน 500-60-60 = 380 คน<br>"},-->
+<!--]-->
+
+<!--let flag = 1;-->
+<!--let maxShow=10;-->
+<!--let curQstn = 0;-->
+<!--//let maxQstn = mData.length;-->
+<!--//let lastQstn=maxQstn-1;-->
+<!--let myCurQstn = 0;-->
+<!--let curAnsTxt = "";-->
+<!--let curHowTxt = "";-->
+<!--let qNum = 1;-->
+
+<!--function start(){  // โหลด สองฟังก์ชัน เมื่อเริ่มเปิดไฟล์-->
+<!--	myFunction();-->
+<!--	showQstn_default();-->
+<!--}-->
+
+
+<!--// document.getElementById("counter").innerHTML = "&nbsp;"+curQstn+"&nbsp;/" + "&nbsp;" + mData.length + "&nbsp;";-->
+<!--function showQstn_default(){-->
+<!--	document.getElementById("qstnNum").innerHTML = "ข้อ " + qNum + "/" + myData1.length;-->
+<!--	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + myData1[curQstn].qstn + " = ?";-->
+<!--	document.getElementById("answer").innerHTML = "";-->
+<!--	document.getElementById("explanation").innerHTML = "";-->
+<!--	document.getElementById("tmp").value = "";-->
+<!--	document.getElementById("dsplyQstnSet1").disabled = true;-->
+
+<!--	curAnsTxt = "คำตอบคือ   " + myData1[curQstn].ans;-->
+<!--	curHowTxt = "วิธีคิด:<br>" + myData1[curQstn].exp;-->
+
+<!--console.log("curQstn = " + curQstn);-->
+<!--console.log(" &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; ");-->
+<!--	}-->
+
+<!--function showQstn_next(){-->
+<!--if (flag==1)-->
+<!--{-->
+<!--	mData=myData1;-->
+<!--}else{-->
+<!--	mData=myData2;-->
+<!--}-->
+
+<!--qNum++-->
+<!--if (qNum > mData.length)-->
+<!--{-->
+<!--	qNum=1;-->
+<!--}-->
+
+<!-- if(curQstn == mData.length - 1){-->
+<!--            curQstn = 0}-->
+<!--        else{-->
+<!--            curQstn++;}-->
+
+<!--	document.getElementById("qstnNum").innerHTML ="ข้อ " + qNum + "/" + mData.length;-->
+<!--	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + mData[curQstn].qstn + " = ?";-->
+<!--	document.getElementById("answer").innerHTML = "";-->
+<!--	document.getElementById("explanation").innerHTML = "";-->
+<!--	document.getElementById("tmp").value = "";-->
+
+<!--	curAnsTxt = "คำตอบคือ   " + mData[curQstn].ans;-->
+<!--	curHowTxt = "วิธีคิด:<br>" + mData[curQstn].exp;-->
+<!--}-->
+
+<!--function showQstn_previous(){-->
+
+<!--if (flag==1)-->
+<!--{-->
+<!--	mData=myData1;-->
+<!--}else{-->
+<!--	mData=myData2;-->
+<!--}-->
+
+
+<!--qNum = qNum-1;-->
+<!--if (qNum <= 0)-->
+<!--{-->
+<!--	qNum=mData.length;-->
+<!--}-->
+
+<!-- if(curQstn == 0){-->
+<!--            curQstn = mData.length - 1;}-->
+<!--        else{-->
+<!--            curQstn&#45;&#45;;}-->
+
+<!--	document.getElementById("qstnNum").innerHTML = "ข้อ " + qNum + "/" + mData.length;-->
+<!--	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + mData[curQstn].qstn + " = ?";-->
+<!--	document.getElementById("answer").innerHTML = "";-->
+<!--	document.getElementById("explanation").innerHTML = "";-->
+<!--	document.getElementById("tmp").value = "";-->
+<!--	curAnsTxt = "คำตอบคือ   " + mData[curQstn].ans;-->
+<!--	curHowTxt = "วิธีคิด:<br>" + mData[curQstn].exp;-->
+<!--}-->
+
+<!--function showQstn_first(){-->
+<!--	if (flag==1)-->
+<!--{-->
+<!--	mData=myData1-->
+<!--}else{-->
+<!--	mData=myData2-->
+<!--}-->
+
+<!--	qNum=1;-->
+<!--	curQstn = 0;-->
+
+<!--	document.getElementById("qstnNum").innerHTML = "ข้อ " + qNum + "/" + mData.length;-->
+<!--	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + mData[curQstn].qstn + " = ?";-->
+<!--	curAnsTxt = "คำตอบคือ   " + mData[curQstn].ans;-->
+<!--	curHowTxt = "วิธีคิด:<br>" + mData[curQstn].exp;-->
+<!--	document.getElementById("answer").innerHTML = "";-->
+<!--	document.getElementById("explanation").innerHTML = "";-->
+<!--	document.getElementById("tmp").value = "";-->
+
+<!--}-->
+
+<!--function showQstn_last(){-->
+<!--if (flag==1)-->
+<!--{-->
+<!--	mData=myData1-->
+<!--}else{-->
+<!--	mData=myData2-->
+<!--}-->
+
+<!--qNum=mData.length;-->
+<!--curQstn = mData.length-1;-->
+<!--// lastQstn = curQstn-1;  -->
+<!--	lastQstn = curQstn;-->
+<!--	document.getElementById("qstnNum").innerHTML = "ข้อ " + qNum + "/" + mData.length;-->
+<!--	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + mData[curQstn].qstn + " = ?";-->
+<!--	curAnsTxt = "คำตอบคือ   " + mData[curQstn].ans;-->
+<!--	curHowTxt = "วิธีคิด:<br>" + mData[curQstn].exp;-->
+<!--		document.getElementById("answer").innerHTML = "";-->
+<!--	document.getElementById("explanation").innerHTML = "";-->
+<!--	document.getElementById("tmp").value = "";-->
+
+<!--}-->
+
+<!--function showAns(){-->
+
+<!--if (flag==1)-->
+<!--{-->
+<!--	maxShow = 10;  // ถ้าเป็นเลข ให้แสดงคำอธิบาย 10 ข้อ-->
+<!--}else{-->
+<!--	maxShow = 5;  // ถ้าเป็นโจทย์ปัญหา ให้แสดงคำอธิบาย 5 ข้อ เพราะมีแค่ 11 ข้อ-->
+<!--}-->
+
+<!--	document.getElementById("instruction").scrollIntoView();-->
+<!--	document.getElementById("answer").focus();-->
+<!--	if (qNum > maxShow){-->
+
+<!--		if (isFullVersion === "true") {-->
+<!--		document.getElementById("answer").innerHTML = curAnsTxt; -->
+<!--		}else{-->
+<!--		document.getElementById("answer").innerHTML = "ข้อนี้ มีเฉลยในรุ่นเต็ม นะครับ" -->
+<!--		}  //if (isFullVersion === "true")-->
+<!--	}else{ -->
+<!--		document.getElementById("answer").innerHTML = curAnsTxt; -->
+<!--	}// if (qNum > 10)-->
+
+
+<!--}-->
+
+<!--function showHow(){-->
+<!--	if (flag==1)-->
+<!--{-->
+<!--	maxShow = 10;  // ถ้าเป็นเลข ให้แสดงคำอธิบาย 10 ข้อ-->
+<!--}else{-->
+<!--	maxShow = 5;  // ถ้าเป็นเลข ให้แสดงคำอธิบาย 10 ข้อ-->
+<!--}-->
+
+<!--	document.getElementById("instruction").scrollIntoView();-->
+<!--		document.getElementById("explanation").focus();-->
+<!--//document.getElementById("explanation").innerHTML = curHowTxt;-->
+<!--	if (qNum > maxShow){-->
+
+<!--		if (isFullVersion === "true") {-->
+<!--		document.getElementById("explanation").innerHTML = curHowTxt;-->
+<!--		}else{-->
+<!--		document.getElementById("explanation").innerHTML = "ข้อนี้ มีคำอธิบายวิธีคิด ในรุ่นเต็ม นะครับ" -->
+<!--		}  //if (isFullVersion === "true")-->
+<!--	}else{ -->
+<!--		document.getElementById("explanation").innerHTML = curHowTxt;-->
+<!--	}// if (qNum > 10)-->
+
+<!--}-->
+
+<!--function showQstnSet1() {-->
+<!--	flag = 1;-->
+<!--	 qNum = 1;-->
+<!--	 curQstn=0;-->
+<!--	document.getElementById("qstnNum").innerHTML ="ข้อ " + qNum + "/" + myData1.length;-->
+<!--	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + myData1[curQstn].qstn + " = ?";-->
+<!--	document.getElementById("answer").innerHTML = "";-->
+<!--	document.getElementById("explanation").innerHTML = "";-->
+<!--	document.getElementById("tmp").value = "";-->
+
+<!--	curAnsTxt = "คำตอบคือ   " + myData1[curQstn].ans;-->
+<!--	curHowTxt = "วิธีคิด:<br>" + myData1[curQstn].exp;-->
+<!--	document.getElementById("dsplyQstnSet1").disabled = true;-->
+<!--	document.getElementById("dsplyQstnSet2").disabled = false;-->
+<!--	}-->
+
+<!--function showQstnSet2() {-->
+<!--	flag=2;-->
+
+<!--	 qNum = 1;-->
+<!--	 curQstn=0;-->
+<!--	document.getElementById("qstnNum").innerHTML ="ข้อ " + qNum + "/" + myData2.length;-->
+<!--	document.getElementById("problem").innerHTML = "ข้อคำถาม <br>" + myData2[curQstn].qstn + " = ?";-->
+<!--	document.getElementById("answer").innerHTML = "";-->
+<!--	document.getElementById("explanation").innerHTML = "";-->
+<!--	document.getElementById("tmp").value = "";-->
+<!--	curAnsTxt = "คำตอบคือ   " + myData2[curQstn].ans;-->
+<!--	curHowTxt = "วิธีคิด:<br>" + myData2[curQstn].exp;-->
+<!--	document.getElementById("dsplyQstnSet1").disabled = false;-->
+<!--	document.getElementById("dsplyQstnSet2").disabled = true;-->
+<!--	}-->
+
+<!--</script>-->
+
+
+<!--  <title>ฝึกทักษะการคิดร้อยละ</title>-->
+<!-- </head>-->
+<!-- <body onload="start()">-->
+
+
+<!--<p><strong>การคิดลัด ร้อยละ &#45;&#45; เลขคณิต คิดในใจ</strong></p> -->
+<!--<p>การคิดร้อยละ แบบที่ 2 เป็นการคิดแบบบ้าน ๆ คือ คิดจากตัวร้อยละ โดยแบ่งร้อยละออกเป็นส่วน ๆ เพื่อให้ง่ายต่อการคิด ลองทำแบบฝึกหัด และศึกษาวิธีคิดดูนะครับ</p>-->
+<!--<p id="instruction">(1)คลิกเลือกข้อคำถาม (2)ลองคิดหาคำตอบ (3)คลิกดูเฉลย หรือ (4)คลิกดูวิธีทำ</p>-->
+<!--  <div style="margin-left: 0px; margin-right: 0px; padding: 0px 20px 0px 0px; clear:both; ">-->
+<!--  <div id = "myDIV1" style="padding:10px; width:90%; clear:both; margin:0 auto; border-radius: 10px; border: 1px solid red; overflow: hidden; display: block;">-->
+<!-- &lt;!&ndash;-->
+<!-- <div style="display: inline; border: 1px solid black"><p id="counter">&nbsp;1/20&nbsp;</p></div><br><br>-->
+<!-- &ndash;&gt;-->
+<!--<p id="qstnNum"></p>-->
+<!-- <p id="problem"></p>-->
+
+<!--<button onclick = "showQstn_first()">|&lt;</button>-->
+<!--<button onclick = "showQstn_previous()">&lt;</button>-->
+<!--<button onclick = "showQstn_next()">&gt;</button>-->
+<!--<button onclick = "showQstn_last()">&gt;|</button><br><br>-->
+<!--<button onclick="showAns()">เฉลย</button>-->
+<!--<button onclick="showHow()">วิธีคิด</button>-->
+<!--<form action="">-->
+<!--  <label >คำตอบของท่าน:</label>&nbsp;&nbsp;&nbsp;-->
+<!--  <input type="text" id="tmp"><br>-->
+<!--</form> <br>-->
+<!-- <p id="answer" style="background-color:#FFFFCC; margin: 0 !important;"></p>-->
+<!--  <p id="explanation"  style="background-color:#FFFF99; margin: 0 !important;"></p>-->
+<!--</div>-->
+
+<!--<br><br>-->
+<!-- <button id = "dsplyQstnSet1" onclick = "showQstnSet1()">โจทย์เลข</button>   <button id = "dsplyQstnSet2" onclick = "showQstnSet2()">โจทย์ปัญหา</button>-->
+<!--<br>-->
+<!--</div>-->
+
+
+
+<!--<p>ร้อยละ คือการคิดจากจำนวนเต็ม 100 หรือ ต่อร้อย คำว่า percent มาจากคำว่า per + cent คำว่า cent เป็นรากศัพท์ หมายถึง 100  ดังนั้น คำว่า 30% ก็คือ 30 จาก 100 นั่นเอง</p>-->
+
+<!--<p>การคำนวณร้อยละ ของจำนวนใดจำนวนหนึ่ง เราก็เอาทศนิยม 2 ตำแหน่งของร้อยละที่กำหนด ไปคูณกับเลขจำนวนนั้น เช่น</p>-->
+<!--50% ของ 200 = 200x0.5= 100<br>-->
+<!--20% ของ 50 = 50x0.2 = 10<br>-->
+<!--5% ของ 50 = 50x0.05 = 2.5<br>-->
+
+<!--ข้อควรจำ<div id="fadeout"><div id="myDefault" class="read_more">  ... (อ่านต่อ ในรุ่นเต็ม นะครับ)</div></div>-->
+<!--<div id="full_version"><br>-->
+<!--50% คือครึ่งหนึ่ง เช่น 50%ของ 300=150<br>-->
+<!--25% คือ หนึ่งในสี่ หรือ เอา 4 ไปหาร เช่น 25%ของ200 = 200/4 = 50<br>-->
+<!--10% คือ หนึ่งในสิบ หรือ เอา 10 ไปหาร เช่น 10%ของ 450=45<br>-->
+<!--5% คือ ครึ่งหนึ่งของ 10% เช่น 5%ของ 230 คือ 23/2 = 11.5 (10%ของ 230 คือ 23 และ ครึ่งหนึ่งของ 23 คือ 11.5)<br>-->
+<!--75% คือ 3ใน4 คือ หารด้วย 4 คูณด้วย 3  เช่น 75% ของ 200 = (200/4)*3 = 150<br>-->
+
+<!--<strong>เราสามารถ</strong>สลับที่ร้อยละกันได้ เช่น 5%ของ30 เท่ากับ 30%ของ5 เช่น <br>-->
+<!--5%ของ 30 = 30x0.05=1.5 <br>-->
+<!--30%ของ5 = 5x0.3=1.5 <br> <br>-->
+
+<!--สรุป<br><br>-->
+<!--ถ้าต้องการหาค่า 5% ให้หาค่า 10% แล้วเอามาเพียงครึ่งเดียว<br>-->
+<!--ถ้าต้องการหาค่า 15% ให้หาค่า 10% แล้ว บวกกับอีกครึ่งหนึ่ง<br>-->
+<!--ถ้าต้องการหาค่า 20% ให้หาค่า 10% แล้ว เพิ่มอีกเท่าตัว<br>-->
+<!--ถ้าต้องการหาค่า 25% ให้หาค่า 1 ใน 4  คือ เอา 4 ไปหาร<br>-->
+<!--ถ้าต้องการหาค่า 50% ให้หาค่า ครึ่งหนึ่ง คือ เอา 2 ไปหาร<br><br>-->
+
+
+
+
+
+
+<!--<p><strong>ลองมาคิดในใจดูกัน</strong></p>-->
+
+<!--64%ของ25 = ?<br>-->
+<!--สลับที่กันดีกว่า คิดง่ายดี<br>-->
+<!--64%ของ25 = 25%ของ64<br>-->
+<!--25% คือหนึ่งในสี่ หรือ เอา 4 หาร<br>-->
+<!--&#x2234; 25%ของ64 = 64/4 = 16<br>-->
+<!--&#x2234; 64%ของ25 = 16<br><br>-->
+
+<!--5%ของ210 = ?<br>-->
+<!--5% เท่ากับ ครึ่งหนึ่งของ 10% <br>-->
+<!--10%ของ210 = 21<br>-->
+<!--ครึ่งหนึ่งของ 21 = 10.5<br>-->
+<!--&#x2234;5%ของ210 = 10.5<br><br>-->
+
+
+<!--15%ของ210 = ?<br>-->
+<!--15%=10%+5% <br>-->
+<!--10%ของ210 = 21<br>-->
+<!--5%ของ210=21/2=10.5<br>-->
+<!--&#x2234;15%ของ210 =20+10.5=31.5<br><br>-->
+
+<!--20%ของ210 = ?<br>-->
+<!--20%=10%+10% <br>-->
+<!--10%ของ210 = 21<br>-->
+<!--&#x2234;20%ของ210 = 21+21 = 42<br><br>-->
+
+<!--25%ของ210 = ?<br>-->
+<!--25% = หนึ่งในสี่ (เอา 4 หาร) <br>-->
+<!--25%ของ210 = 210/4 = 52.50<br>-->
+<!--&#x2234;25%ของ210 = 52.5<br><br>-->
+
+<!--30%ของ210 = ?<br>-->
+<!--30%=10%+10%+10% <br>-->
+<!--10%ของ210 = 21<br>-->
+<!--&#x2234;30%ของ210 = 21+21+21 = 63<br><br>-->
+
+<!--75%ของ440 = ?<br>-->
+<!--75%=50%+25%<br>-->
+<!--50%ของ440 = 220<br>-->
+<!--25%ของ440 = 440/4 = 110<br>-->
+<!--&#x2234; 75%ของ440 = 220+110 = 330<br><br>-->
+
+<!--12.5%ของ400 = ?<br>-->
+<!--12.5% = ครึ่งหนึ่งของ 25%<br>-->
+<!--25% = ครึ่งหนึ่งของ 50%<br>-->
+<!--50%ของ400 = 200<br>-->
+<!--ครึ่งหนึ่งของ 50% (25%) = 200/2 = 100<br>-->
+<!--ครึ่งหนึ่งของ 25% (12.5%) = 100/2 = 50<br>-->
+<!--&#x2234; 12.5%ของ400 = 50<br><br>-->
+
+
+<!--จากแนวคิดข้างต้น เราสามารถคำนวนหาร้อยละของจำนวน 5% 10% 15% 20% 25% ...  ได้อย่างค่อนข้างรวดเร็ว แม่นยำ<br><br>-->
+
+<!--<strong>โจทย์เกี่ยวกับร้อยละ</strong> อีกอย่าง คือ ให้หาจำนวนเต็ม หรือให้หาเปอร์เซ็นต์ เช่น<br>-->
+<!--50 คิดเป็นกี่เปอร์เซ็นต์ของ  200 หรือ<br>-->
+<!--20% ของจำนวนใด มีค่าเท่ากับ 50 เป็นต้น<br><br>-->
+
+<!--<strong>วิธีคิดแบบรวดเร็ว</strong><br><br>-->
+
+<!--คำว่า <strong>"เป็น"</strong> คำว่า <strong>"มีค่าเท่ากับ" </strong>กำหนดให้เป็นเครื่องหมายเท่ากับ<br>-->
+<!--คำว่า <strong>เปอร์เซ็นต์ </strong>ให้เอา 100 หาร<br>-->
+<!--คำว่า <strong>"ของ"</strong> ให้เปลี่ยนเป็นเครื่องหมาย คูณ<br>-->
+<!--ค่าที่ไม่ทราบ ให้กำหนดชื่อเป็นตัวแปร เช่น a<br><br>-->
+
+<!--ตัวอย่าง<br><br>-->
+
+<!--50 คิดเป็นกี่เปอร์เซ็นต์ของ 200 <br>-->
+<!--50 = a/100 x 200<br>-->
+<!--a = (50x100)/200<br>-->
+<!--a = 25<br><br>-->
+
+<!--20% ของจำนวนใด มีค่าเท่ากับ 50 <br>-->
+<!--20/100 x a = 50<br>-->
+<!--a = (50x100)/20<br>-->
+<!--a = 250<br><br>-->
+
+<!--60 เป็น 20% ของเลขจำนวนใด<br>-->
+<!--60 = 20/100 x a<br>-->
+<!--a = (60 x100)/20<br>-->
+<!--a = 300<br><br><br><br>-->
+
+
+
+
+<!--อ้างอิง: <br><br>-->
+<!--https://sciencing.com/calculate-10-percent-discount-6397158.html<br>-->
+<!--https://lifehacker.com/calculate-nearly-any-percentage-in-your-head-with-simpl-1608579782<br><br>-->
+<!-- </div>  &lt;!&ndash;  Full Version &ndash;&gt;-->
+<!-- </body>-->
+<!--</html>-->

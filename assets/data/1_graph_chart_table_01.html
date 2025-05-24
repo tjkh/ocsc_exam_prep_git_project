@@ -1,0 +1,1672 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="mystyle_show_hide_div.css">
+  
+
+  <title>การวิเคราะห์ข้อมูล สถิติ กราฟ</title>
+ </head>
+ <!--
+<body onload="manageNewLabel();">
+-->
+ <body>
+<!-- &lt;!&ndash; สำหรับเก็บค่าตัวแปร ไว้กับไฟล์นี้ &ndash;&gt;-->
+<!-- <div id="a1">a place holder</div> &lt;!&ndash; ทดสอบ ค่าที่ส่งมาจาก Flutter &ndash;&gt;-->
+<!--  <div id="abc">abc place holder</div> &lt;!&ndash; ทดสอบ ค่าที่ส่งมาจาก Flutter &ndash;&gt;-->
+<!-- <div id="isBought" style="display:block">xxfalsexx</div> &lt;!&ndash; ส่งมาจาก Flutter &ndash;&gt;-->
+<!--  <div id="whereToBegin" style="display:block">0</div> &lt;!&ndash; เก็บก่อนออกจากไฟล์ จะใช้ตอนเมื่อกลับเข้ามาใหม่&ndash;&gt;-->
+<!-- <div id="a2" style="display:block">AA</div>-->
+<!-- <div id="a3" style="display:block">AA</div>-->
+<!-- <div id="a4" style="display:block">AA</div>-->
+
+<!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+ <div id="myModal" class="modal">
+     <!-- Modal content -->
+     <div class="modal-content">
+         <div class="modal-header">
+             <span class="close">×</span>
+             <strong>เตรียมสอบ ก.พ.</strong>
+         </div>
+         <div class="modal-body">
+             <p id= "myMessage">Place holder for text..</p>
+             <input type = "button"  value = "เริ่มใหม่"  onclick = "startOver();" />
+             <input  style="float: right;" type = "button"  value = "ทำต่อ"  onclick = "goCont();"/>
+         </div>
+         <div class="modal-footer">
+             https://www.thongjoon.com
+         </div>
+     </div>
+ </div>
+
+ <script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+
+<div class="quiz_container2" id="top"><br>
+แนวข้อสอบ วิเคราะห์ข้อมูล ตาราง แผนภูมิ กราฟ<br><br>
+<strong>คำสั่ง:</strong>ให้ท่านเลือกข้อที่ถูกต้องมากที่สุด<br><br>
+
+<strong>ใช้ข้อมูลในตารางข้างล่างนี้ สำหรับคำถาม ข้อ 1-3</strong><br>
+<!--
+    <div class="isNew">id1631577789:date1631685471</div>
+    <div class="isNew">id1608958084:date1631847502</div>
+-->
+<!-- ถ้าต้องการให้แสดง NEW หน้าข้อ ก็เอา div ไปไว้หน้าข้อ ส่วนเวลา คำนวนใหม่ทุกครั้ง เพื่อใช้เป็น id สำหรับอ้างถึงภายหลัง -->
+<div class="isNew">id1608958085:date1646026666</div>  <!-- 1608958085 ต้องตรงกับที่ส่งไปใน checkAns  -->
+    <div class = "for_image"><img style ="max-width:100%" src="images/covid_19_timeline_asian.png"></div>
+<!--
+    <div class = "for_image"><img style ="max-width:100%" src="images/covid_19_timeline_asian_.png"></div>
+    -->
+<!--
+<div class = "for_image"><img style ="max-width:100%" src="pics/older_people.png"></div>
+-->
+<br>
+
+<div class="qstn-div">
+
+<!-- ข้อ 1. -->
+
+<div class="item_container">
+<form action="#">
+    <div class="question_num"  id="tbl_q1"><strong>ข้อ 1.</strong></div>
+    <div class="question_content">ณ วันที่ 25 เมษายน 2563 ประเทศใด มีผู้ติดเชื้อมากที่สุด<br>
+
+        <br /></div>
+    <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+    <label> <input name="gct_tbl_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ไทย</label><br>
+    <label><input name="gct_tbl_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. สิงคโปร์</label><br> <!--  choice_b  -->
+    <label> <input name="gct_tbl_q1" type="radio" value="ตัวเลือก ข้อ 3" /> 3. อินเดีย</label><br> <!-- choice_c -->
+    <label><input name="gct_tbl_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ญี่ปุ่น</label><br> <!--  choice_d  -->
+    <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+    <div id="gct_ans_1" class="show_answer" onclick="hide_div_spelling('gct_ans_1')" style="display:none; cursor: pointer;">
+        dummy text
+    </div>
+    <div id="gct_expl_tbl_q1" class="explanation" style="display:none">
+        <strong>วิธีคิด</strong><br>
+        จากกราฟ ประเทศอินเดีย มีผู้ติดเชื้อมากที่สุด จำนวน 26,283 คน<br><br>
+
+        ตัวเลือกที่ถูกคือ ข้อ 3<br>
+
+    </div>  <!-- gct_expl_q..  -->
+    <div class ="button">
+        <input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q1', 'ตัวเลือก ข้อ 3', 'gct_ans_1', 'yes', '1608958085','tbl_q1'); return false;" type="submit" value="ตรวจคำตอบ" />
+        <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+        <input class="myFloat_Right" style="color:blue;" id="quiz_tbl_1" onclick="show_hide_expl('gct_expl_tbl_q1', 'quiz_tbl_1','tbl_q1', 'yes', '1608958085'); return false;" type="submit" value="ดูคำอธิบาย" />
+        <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+    </div> <!-- button -->
+</form>
+    <div class="clear_after_item">&nbsp;</div>
+</div> <!--  item_container  -->
+    <!-- จบข้อ 1 -->
+
+    <!-- ข้อ 2. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="tbl_q2"><strong>ข้อ 2.</strong></div>
+            <div class="question_content">ข้อความใด กล่าวได้ถูกต้องตามแผนภูมิ<br>
+
+                <br /></div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <label> <input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ณ วันที่ 8 เมษายน 2563 ประเทศญี่ปุ่น มีผู้ติดเชื้อมากเป็นอันดับที่ 3</label><br>
+            <label><input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ประเทศสิงคโปร์ มีผู้ติดเชื้อมากกว่า ประเทศญี่ปุ่น</label><br> <!--  choice_b  -->
+            <label> <input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. อินเดีย มีผู้ติดเชื้อมากที่สุด เนื่องจากขาดแคลนบุคลากรทางการแพทย์</label><br> <!-- choice_c -->
+            <label><input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ประเทศไทย มีผู้ติดเชื้อน้อยที่สุด</label><br> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="gct_ans_2" class="show_answer" onclick="hide_div_spelling('gct_ans_2')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="gct_expl_tbl_q2" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br>
+                ข้อ 3 น่าจะถูกได้ แต่ไม่ถูกเพราะ ในแผนภูมิไม่ได้บอกถึงสาเหตุของการติดเชื้อ<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 4 ถูกที่สุด<br>
+
+            </div>  <!-- gct_expl_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q2', 'ตัวเลือก ข้อ 4', 'gct_ans_2', 'yes', '1608958085','tbl_q2'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_tbl_2" onclick="show_hide_expl('gct_expl_tbl_q2', 'quiz_tbl_2','tbl_q2', 'yes', '1608958085'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 2 -->
+
+    <!-- ข้อ 3. -->
+    <div class="item_container">
+        <form action="#">
+
+            <div class="question_num"  id="tbl_q3"><strong>ข้อ 3.</strong></div>
+            <div class="question_content">ตั้งแต่วันที่ 15 - 25 เมษายน ประเทศสิงคโปร์ มีผู้ติดเชื้อเพิ่มขึ้น กี่คน<br>
+
+                <br /></div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <label> <input name="gct_tbl_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. จำนวน 13,961 คน</label><br>
+            <label><input name="gct_tbl_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. จำนวน 8,994 คน</label><br> <!--  choice_b  -->
+            <label> <input name="gct_tbl_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. จำนวน 1,719 คน</label><br> <!-- choice_c -->
+            <label><input name="gct_tbl_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. จำนวน 264 คน</label><br> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="gct_ans_3" class="show_answer" onclick="hide_div_spelling('gct_ans_3')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="gct_expl_tbl_q3" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br>
+                <br><br>
+                วันที่ 25 เมษายน สิงคโปร์มีผู้ติดเชื้อ 12,693 คน วันที่ 15 เมษายน มีผู้ติดเชื้อ 3,699 คน ติดเชื้อเพิ่มขึ้น จำนวน 8,994 คน<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 2 <br>
+
+            </div>  <!-- gct_expl_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q3', 'ตัวเลือก ข้อ 2', 'gct_ans_3', 'yes', '1608958085','tbl_q3'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- ตัวเลข 1608958085 ใช้สำหรับ isNew คือข้อนี้มีคำว่า NEW ต้องส่งค่านี้ไป เพื่อคลิกแล้ว จะได้เอาออก ไม่แสดง    -->
+                <!-- ทีนี้ เนื่องจากว่า NEW อยู่ที่เรื่องที่อ่าน ก็เลย ต้องเอาตัวนี้ส่งไปเหมือนกันหลายข่้อ เพราะแต่ละข้อใช้เรื่องเดียวกัน  -->
+                <!-- ถ้าเป็น NEW ของใครของมัน แต่ละข้อ ก็จะส่งตัวเลขของตัวเองไป -->
+
+
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_tbl_3" onclick="show_hide_expl('gct_expl_tbl_q3', 'quiz_tbl_3','tbl_q3', 'yes', '1608958085'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 3 -->
+
+</div>   <!-- end of qstn-div  -->
+
+
+    <strong>ใช้ข้อมูลในตารางข้างล่างนี้ สำหรับคำถาม ข้อ 4-6</strong><br>
+    <div class="isNew">id1608958151:date1633321708</div>   <!-- 1608958161 ต้องตรงกับที่ส่งไปใน checkAns  -->
+    <div class = "for_image"><img style ="max-width:100%" src="images/covid_19_thai.png"></div>
+
+    <div class="qstn-div">
+
+
+        <!-- ข้อ 4. -->
+        <div class="item_container">
+            <form action="#">
+
+                <div class="question_num"  id="tbl_q4"><strong>ข้อ 4.</strong></div>
+                <div class="question_content">จำนวนผู้ติดเชื้อ เพิ่มขึ้นอย่างรวดเร็ว หลังวันที่เท่าไร<br>
+
+                    <br /></div>
+                <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+                <label> <input name="gct_tbl_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. วันที่ 18 มีนาคม</label><br>
+                <label><input name="gct_tbl_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. วันที่ 25 มีนาคม</label><br> <!--  choice_b  -->
+                <label> <input name="gct_tbl_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. วันที่ 1 เมษายน</label><br> <!-- choice_c -->
+                <label><input name="gct_tbl_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4.  วันที่ 8 เมษายน</label><br> <!--  choice_d  -->
+                <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+                <div id="gct_ans_4" class="show_answer" onclick="hide_div_spelling('gct_ans_4')" style="display:none; cursor: pointer;">
+                    dummy text
+                </div>
+                <div id="gct_expl_tbl_q4" class="explanation" style="display:none">
+                    <strong>วิธีคิด</strong><br>
+                    <br><br>
+                    หลังวันที่ 25 มีนาคม มีการเพิ่มขึ้นจำนวนมาก เมื่อเปรียบเทียบกับการเพิ่มก่อนหน้านั้น<br><br>
+
+                    ตัวเลือกที่ถูกคือ ข้อ 2 <br>
+
+                </div>  <!-- gct_expl_q..  -->
+                <div class ="button">
+                    <input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q4', 'ตัวเลือก ข้อ 2', 'gct_ans_4', 'yes', '1608958151','tbl_q4'); return false;" type="submit" value="ตรวจคำตอบ" />
+                    <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                    <input class="myFloat_Right" style="color:blue;" id="quiz_tbl_4" onclick="show_hide_expl('gct_expl_tbl_q4', 'quiz_tbl_4','tbl_q4', 'yes', '1608958151'); return false;" type="submit" value="ดูคำอธิบาย" />
+                    <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+                </div> <!-- button -->
+            </form> <br>
+            <div class="clear_after_item">&nbsp;</div>
+        </div> <!--  item_container  -->
+        <!-- จบข้อ 4 -->
+
+        <!-- ข้อ 5. -->
+
+        <div class="item_container">
+            <form action="#">
+
+                <div class="question_num"  id="tbl_q5"><strong>ข้อ 5.</strong></div>
+                <div class="question_content">ข้อใดไม่สอดคล้องกับแผนภูมิข้างต้น<br>
+
+                    <br /></div>
+                <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+                <label> <input name="gct_tbl_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. จำนวนผู้ติดเชื้อสะสม มีแนวโน้มน้อยลง</label><br>
+                <label><input name="gct_tbl_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. จำนวนผู้รักษาหาย มีแนวโน้มเพิ่มมากชึ้น</label><br> <!--  choice_b  -->
+                <label> <input name="gct_tbl_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. จำนวนผู้ที่อยู่ในโรงพยาบาล มีแนวโน้มลดลง</label><br> <!-- choice_c -->
+                <label><input name="gct_tbl_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4.  จำนวนผู้เสียชีวิต มีน้อยที่สุด</label><br> <!--  choice_d  -->
+                <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+                <div id="gct_ans_5" class="show_answer" onclick="hide_div_spelling('gct_ans_5')" style="display:none; cursor: pointer;">
+                    dummy text
+                </div>
+                <div id="gct_expl_tbl_q5" class="explanation" style="display:none">
+                    <strong>วิธีคิด</strong><br>
+                    <br><br>
+                    จาก แผนภูมิ จำนวนผู้ติดเชื้อยังคงมีแนวโน้มเพิ่มมากขึ้น<br><br>
+
+                    ตัวเลือกที่ถูกคือ ข้อ 1 <br>
+
+                </div>  <!-- gct_expl_q..  -->
+                <div class ="button">
+                    <input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q5', 'ตัวเลือก ข้อ 1', 'gct_ans_5', 'yes', '1608958151','tbl_q5'); return false;" type="submit" value="ตรวจคำตอบ" />  <!-- ตัวเลข สำหรับ isNew คือข้อนี้มีคำว่า NEW ต้องส่งค่านี้ไป เพื่อคลิกแล้ว จะได้เอาออกไป    -->
+                    <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                    <input class="myFloat_Right" style="color:blue;" id="quiz_tbl_5" onclick="show_hide_expl('gct_expl_tbl_q5', 'quiz_tbl_5','tbl_q5', 'yes', '1608958151'); return false;" type="submit" value="ดูคำอธิบาย" />
+                    <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+                </div> <!-- button -->
+            </form> <br>
+            <div class="clear_after_item">&nbsp;</div>
+        </div> <!--  item_container  -->
+        <!-- จบข้อ 5 -->
+
+        <!-- ข้อ 6. -->
+        <div class="item_container">
+            <form action="#">
+
+                <div class="question_num"  id="tbl_q6"><strong>ข้อ 6.</strong></div>
+                <div class="question_content">จำนวนผู้ติดเชื้อ ที่เข้ารักษาตัวในโรงพยาบาล เริ่มลดลงอย่างต่อเนื่อง หลังจากวันที่เท่าไร<br>
+
+                    <br /></div>
+                <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+                <label> <input name="gct_tbl_q6" type="radio" value="ตัวเลือก ข้อ 1" /> 1. วันที่ 18 มีนาคม</label><br>
+                <label><input name="gct_tbl_q6" type="radio" value="ตัวเลือก ข้อ 2" /> 2. วันที่ 25 มีนาคม</label><br> <!--  choice_b  -->
+                <label> <input name="gct_tbl_q6" type="radio" value="ตัวเลือก ข้อ 3" /> 3. วันที่ 1 เมษายน</label><br> <!-- choice_c -->
+                <label><input name="gct_tbl_q6" type="radio" value="ตัวเลือก ข้อ 4" /> 4.  วันที่ 8 เมษายน</label><br> <!--  choice_d  -->
+                <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+                <div id="gct_ans_6" class="show_answer" onclick="hide_div_spelling('gct_ans_6')" style="display:none; cursor: pointer;">
+                    dummy text
+                </div>
+                <div id="gct_expl_tbl_q6" class="explanation" style="display:none">
+                    <strong>วิธีคิด</strong><br>
+                    <br><br>
+                    หลังวันที่ 8 เมษายน จำนวนผู้ติดเชื้อที่เข้ารับการรักษาในโรงพยาบาล ลดลงอย่างต่อเนื่อง<br><br>
+
+                    ตัวเลือกที่ถูกคือ ข้อ 4 <br>
+
+                </div>  <!-- gct_expl_q..  -->
+                <div class ="button">
+                    <input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q6', 'ตัวเลือก ข้อ 4', 'gct_ans_6','yes', '1608958161','tbl_q6'); return false;" type="submit" value="ตรวจคำตอบ" />
+                    <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                    <input class="myFloat_Right" style="color:blue;" id="quiz_tbl_6" onclick="show_hide_expl('gct_expl_tbl_q6', 'quiz_tbl_6','tbl_q6', 'yes', '1608958161'); return false;" type="submit" value="ดูคำอธิบาย" />
+                    <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+                </div> <!-- button -->
+            </form> <br>
+            <div class="clear_after_item">&nbsp;</div>
+        </div> <!--  item_container  -->
+        <!-- จบข้อ 6 -->
+
+
+
+
+
+
+
+</div>   <!-- end of qstn-div  -->
+
+
+<strong>ใช้ข้อมูลในตารางข้างล่างนี้ สำหรับคำถาม ข้อ 7-9</strong><br>
+
+    <div class="isNew">id1631577788:date1633321707</div>
+
+<div class = "for_image"><img style ="max-width:100%" src="images/older_people.png"></div>
+
+<div class="qstn-div">
+
+<!-- ข้อ 7. -->
+<div class="item_container">
+<form action="#">
+
+<div class="question_num"  id="tbl_q7"><strong>ข้อ 7.</strong></div>
+<div class="question_content">จังหวัดใด มีประชากรสูงอายุ มากที่สุด<br>
+
+<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<label> <input name="gct_tbl_q7" type="radio" value="ตัวเลือก ข้อ 1" /> 1. กาญจนบุรี</label><br>
+<label><input name="gct_tbl_q7" type="radio" value="ตัวเลือก ข้อ 2" /> 2. จันทบุรี</label><br> <!--  choice_b  -->
+<label> <input name="gct_tbl_q7" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ชลบุรี</label><br> <!-- choice_c -->
+<label><input name="gct_tbl_q7" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ชัยนาท </label><br> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_07" class="show_answer" onclick="hide_div_spelling('gct_ans_07')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q7" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+จากกราฟ ชลบุรี มีประชากรผู้สูงอายุ มากที่สุด<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 3<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+    <!--
+    checkAns("ชื่อตัวเลือกของข้อนี้", "ตัวเลือกที่ถูก", "แสดงเฉลยไหม","id isNew ของข้อนี้", "id ของข้อนี้")
+    "ชื่อตัวเลือกของข้อนี้" ตัวเลือกทั้ง 4 ตัวเลือก ใช้ชื่อเดียวกัน
+    "แสดงเฉลยไหม" yes=ถ้ายังไม่ซื้อแสดงเฉลยเพื่อให้ลองใช้ no=ถ้ายังไม่ซื้อไม่แสดงเฉลยแต่บอกว่า มีเฉลยในรุ่นเต็ม ถ้าซื้อแล้วจึงแสดงเฉลย
+    "id  isNew ของข้อนี้" สำหรับ ส่งไป Flutter เพื่อบอกว่า ข้อนี้ได้คลิกแล้ว (ถ้าผู้ใช้คลิกส่งตัวเลือกข้อนี้เพื่อตรวจ) ระวัง ต้องให้เหมือน id ของ isNew จริง ๆ ถ้าไม่มี ให้ใส่เป็น "11111"
+     "id ของข้อนี้" สำหรับส่งไปว่า ข้อนี้เป็นข้ออะไร เพื่อไปทำรูปความก้าวหน้า หน้าเมนู แต่ละ id จะลงท้ายด้วยตัวเลข ซึ่งเป็นเลขข้อ เช่น tbl_q7
+    -->
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q7', 'ตัวเลือก ข้อ 3', 'gct_ans_07','yes', '1631577788','tbl_q7'); return false;" type="submit" value="ตรวจคำตอบ" />
+    <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_7" onclick="show_hide_expl('gct_expl_tbl_q7', 'quiz_tbl_7','tbl_q7'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 7 -->
+
+<!-- ข้อ 8. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q8"><strong>ข้อ 8.</strong></div>
+<div class="question_content">ประชากรชาย ของจังหวัดกาญจนบุรี มีจำนวนต่างจากประชากรของจังหวัดชัยนาท ประมาณร้อยละเท่าไร<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<label> <input name="gct_tbl_q8" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 79%</label><br>
+<label><input name="gct_tbl_q8" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 57%</label><br><!--  choice_b  -->
+<label> <input name="gct_tbl_q8" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 44%</label><br> <!-- choice_c -->
+<label><input name="gct_tbl_q8" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 20%</label><br> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_08" class="show_answer" onclick="hide_div_spelling('gct_ans_08')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q8" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+หาความแตกต่าง ระหว่าง 2 จำนวน ต้องเปรียบเทียบ กับ ค่าเฉลี่ยของผลรวมของทั้งสองจำนวน<br><br>
+สูตร<br>
+<span class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</span> x 100
+
+<br><br>
+แทนค่า<br>
+<span class="frac">350-150<span class="symbol">/</span><span class="bottom">(350+150)/2</span>
+</span> x 100 <br>
+= 56.79<br><br>
+ตัวเลือกที่ถูกคือ ข้อ 2<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q8', 'ตัวเลือก ข้อ 8', 'gct_ans_08','yes', '11111','tbl_q8'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_8" onclick="show_hide_expl('gct_expl_tbl_q8', 'quiz_tbl_8','tbl_q8'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 8 -->
+
+<!-- ข้อ 9. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q9"><strong>ข้อ 9.</strong></div>
+<div class="question_content">จำนวนประชากรผู้สูงอายุของจังหวัดจันทบุรี คิดเป็นร้อยละเท่าไร ของประชากรจังหวัดฉะเชิงเทรา
+<br></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<label><input name="gct_tbl_q9" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 20%</label><br>
+<label><input name="gct_tbl_q9" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 34%</label><br>
+<label> <input name="gct_tbl_q9" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 68%</label><br>
+<label><input name="gct_tbl_q9" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 86% </label><br> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_09" class="show_answer" onclick="hide_div_spelling('gct_ans_09')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q9" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+ประชากรผู้สูงอายุ ของจังหวัดจันทบุรี = 76 คน <br>
+ประชากรผู้สูงอายุ ของจังหวัดจันทบุรี = 113 คน<br><br>
+
+คิดเป็นร้อยละ = (76/113)(100)<br>
+= 67.86%<br><br>
+
+คำตอบ คือ ข้อ 3
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q9', 'ตัวเลือก ข้อ 9', 'gct_ans_09','yes', '11111','tbl_q9'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_9" onclick="show_hide_expl('gct_expl_tbl_q9', 'quiz_tbl_9','tbl_q9'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 9 -->
+
+</div>   <!-- end of qstn-div  -->
+
+    <div class="isNew">id1608958089:date1646026666</div>
+
+<strong>แผนภูมิข้างล่างนี้ สำหรับคำถาม ข้อ 10-11</strong><br>
+<!--
+<div class = "for_image"><img style ="max-width:100%" 
+src="pics/garbish.png"></div>
+-->
+
+<div class = "for_image"><img style ="max-width:100%" src="images/garbish.png"></div>
+
+<div class="qstn-div">
+
+<!-- ข้อ 10. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q10"><strong>ข้อ 10.</strong></div>
+<div class="question_content">จากแผนภูมิ ขยะประเภทใดมีมากเป็นลำดับที่ 2</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<label> <input name="gct_tbl_q10" type="radio" value="ตัวเลือก ข้อ 1" /> 1. กระดาษ </label><br>
+<label><input name="gct_tbl_q10" type="radio" value="ตัวเลือก ข้อ 2" /> 2. พลาสติก </label><br>
+<label> <input name="gct_tbl_q10" type="radio" value="ตัวเลือก ข้อ 3" /> 3. โลหะ </label><br>
+<label><input name="gct_tbl_q10" type="radio" value="ตัวเลือก ข้อ 4" /> 4. วัสดุอื่น ๆ </label><br> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_10" class="show_answer" onclick="hide_div_spelling('gct_ans_10')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q10" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+กระดาษ 25% เป็นอันดับที่ 2 รองลงมาจากขยะพลาสติก<br><br>
+ตัวเลือกที่ถูกคือ ข้อ 1 
+</div>  <!-- gct_expl_q..  -->
+
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q10', 'ตัวเลือก ข้อ 1', 'gct_ans_10','no', '1608958089','tbl_q10'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_10" onclick="show_hide_expl('gct_expl_tbl_q10', 'quiz_tbl_10','tbl_q10'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 10 -->
+
+<!-- ถึงตรงนี้ -->
+<!-- กำลังคัดลอกจากไฟล์ 1_graph_chart_table_01.html -->
+<!-- ข้อ 11. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q11"><strong>ข้อ 11.</strong></div>
+<div class="question_content">ถ้าจำนวนขยะทั้งหมด มีปริมาณ 50,000 ตัน อยากทราบว่า ขยะที่เป็นพลาสติก มีจำนวนทั้งหมดประมาณกี่ตัน
+<br></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_q11" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 15,000 ตัน </label><br>
+<label><input name="gct_q11" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 20,000 ตัน </label><br>
+<label> <input name="gct_q11" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 25,000 ตัน</label><br>
+<label><input name="gct_q11" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 40,000 ตัน </label><br> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_11" class="show_answer" onclick="hide_div_spelling('gct_ans_11')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q11" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+จำนวนขยะพลาสติก = (50,000)(40)/(100) <br>
+= 20,000 ตัน<br><br>
+ตัวเลือกที่ถูกคือ ข้อ 2    <br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_q11', 'ตัวเลือก ข้อ 2', 'gct_ans_11','no', '1608958089','tbl_q11'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_11" onclick="show_hide_expl('gct_expl_tbl_q11', 'quiz_tbl_11','tbl_q11'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 11 -->
+
+</div>  <!-- end of qstn-div -->
+
+
+
+
+<strong>แผนภูมิข้างล่างนี้ สำหรับคำถาม ข้อ 12-16</strong><br>
+<!--
+<div class = "for_image"><img style ="max-width:100%" src="pics/rainfall.png"></div>
+-->
+<div class = "for_image"><img style ="max-width:100%" src="images/rainfall.png"></div>
+
+
+<div class="qstn-div">
+<!-- ข้อ 12. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q12"><strong>ข้อ 12.</strong></div>
+<div class="question_content">ในปี 2556 ปริมาณน้ำฝนในเดือนใด มีปริมาณมากที่สุด
+<br></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<label> <input name="gct_q12" type="radio" value="ตัวเลือก ข้อ 1" /> 1. มิถุนายน </label><br>
+<label><input name="gct_q12" type="radio" value="ตัวเลือก ข้อ 2" /> 2. สิงหาคม </label><br>
+<label> <input name="gct_q12" type="radio" value="ตัวเลือก ข้อ 3" /> 3. กันยายน </label><br><label><input name="gct_q12" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ตุลาคม </label><br><!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_12" class="show_answer" onclick="hide_div_spelling('gct_ans_12')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q12" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+เดือนตุลาคม ปี 2556 มีปริมาณน้ำฝน มากที่สุด<br><br>
+ตัวเลือกที่ถูกคือ ข้อ 4<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_q12', 'ตัวเลือก ข้อ 4', 'gct_ans_12','no', '11111','tbl_q12'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_12" onclick="show_hide_expl('gct_expl_tbl_q12', 'quiz_tbl_12','tbl_q12'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 12 -->
+
+<!-- ข้อ 13. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q13"><strong>ข้อ 13.</strong></div>
+<div class="question_content">ในเดือน มิถุนายน ปริมาณน้ำฝนในปี 2556 คิดเป็นปริมาณร้อยละเท่าไร ของปี 2559?
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_q13" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 20%</label><br>
+<label><input name="gct_q13" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 40% </label><br>
+<label> <input name="gct_q13" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 50% </label><br>
+<label><input name="gct_q13" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 75% </label><br>
+ <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_13" class="show_answer" onclick="hide_div_spelling('gct_ans_13')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q13" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+เดือน มิถุนายน ปริมาณน้ำฝน ในปี 2556 ประมาณ 175 ม.ม.<br>
+เดือน มิถุนายน ปริมาณน้ำฝน ในปี 2559 ประมาณ 350 ม.ม.<br>
+ปริมาณน้ำฝน ปี 2556 คิดเป็นร้อยละของปี 2554 คือ (350/175)(100)<br>
+= 50<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 3<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_q13', 'ตัวเลือก ข้อ 3', 'gct_ans_13','no', '11111','tbl_q13'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_13" onclick="show_hide_expl('gct_expl_tbl_q13', 'quiz_tbl_13','tbl_q13'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 13 -->
+
+<!-- ข้อ 14. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q14"><strong>ข้อ 14.</strong></div>
+<div class="question_content">จากแผนภูมิข้างต้น ข้อใดต่อไปนี้กล่าวได้ถูกต้อง?
+<br>
+
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_q14" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ปริมาณน้ำฝน ในเดือน พฤษภาคม มีปริมาณมากกว่าเดือนกรกฎาคม ในทุกปี </label><br>
+<label><input name="gct_q14" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ในปี 2559 ฝนตกชุกที่สุดในเดือน กรกฎาคม</label><br>
+<label> <input name="gct_q14" type="radio" value="ตัวเลือก ข้อ 3" /> 3. เดือนธันวาคมของทุกปี เป็นเดือนปลอดฝน</label><br>
+<label><input name="gct_q14" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ในภาพรวม ปริมาณน้ำฝนในเดือน ตุลาคม มากกว่า เดือนกันยายน </label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_14" class="show_answer" onclick="hide_div_spelling('gct_ans_14')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q14" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+ข้อ 3 ถูกต้อง เพราะ ปริมาณน้ำฝน ในเดือนธันวาคม เป็น 0 ทั้งสามปี 
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_q14', 'ตัวเลือก ข้อ 3', 'gct_ans_14','no', '11111','tbl_q14'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_14" onclick="show_hide_expl('gct_expl_tbl_q14', 'quiz_tbl_14','tbl_q14'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 14 -->
+
+<!-- ข้อ 15. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q15"><strong>ข้อ 15.</strong></div>
+<div class="question_content">ปริมาณน้ำฝน ในเดือน พฤศจิกายน ของปี 2559 ลดลงเดือน ตุลาคมปีเดียวกัน ประมาณร้อยละเท่าไร?
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_q15" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 10% </label><br>
+<label><input name="gct_q15" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 20% </label><br>
+<label> <input name="gct_q15" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 50%</label><br>
+<label><input name="gct_q15" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 80%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_15" class="show_answer" onclick="hide_div_spelling('gct_ans_15')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q15" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+สูตรการหาค่าร้อยละความต่าง(&#9651;%) คือ <br>
+((new_value/original_value)-1)(100)<br><br>
+
+เปรียบเทียบปริมาณน้ำฝนเดือน พ.ย. กับเดือนที่ผ่านมา<br>
+น้ำฝนเดือน พ.ย. (new_value) ประมาณ 80 ม.ม.<br>
+น้ำฝนเดือนก่อน คือ เดือน ต.ค. (original_value)ประมาณ 400 ม.ม.<br><br>
+
+แทนค่าในสูตร<br>
+= ((80/400)-1)(100)<br>
+= -80%
+<br><br>
+
+คำตอบ คือ ข้อ 4<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_q15', 'ตัวเลือก ข้อ 4', 'gct_ans_15','no', '11111','tbl_q15'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_15" onclick="show_hide_expl('gct_expl_tbl_q15', 'quiz_tbl_15','tbl_q15'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 15 -->
+
+<!-- ข้อ 16. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q16"><strong>ข้อ 16.</strong></div>
+<div class="question_content">ปริมาณน้ำฝนมากที่สุด ในปี 2559 อยู่ในเดือนอะไร?
+<br>
+</div>   
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q16" type="radio" value="ตัวเลือก ข้อ 1" /> 1. พฤษภาคม </label><br>
+<label><input name="gct_tbl_q16" type="radio" value="ตัวเลือก ข้อ 2" /> 2. กรกฎาคม </label><br>
+<label> <input name="gct_tbl_q16" type="radio" value="ตัวเลือก ข้อ 3" /> 3. กันยายน </label><br>
+<label><input name="gct_tbl_q16" type="radio" value="ตัวเลือก ข้อ 4" /> 4. พฤศจิกายน</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_16" class="show_answer" onclick="hide_div_spelling('gct_ans_16')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q16" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+ปี 2559 ปริมาณน้ำฝนมากที่สุดในเดือน กันยายน <br><br>
+
+คำตอบคือ ข้อ 3<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q16', 'ตัวเลือก ข้อ 3', 'gct_ans_16','no', '11111','tbl_q16'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_16" onclick="show_hide_expl('gct_expl_tbl_q16', 'quiz_tbl_16','tbl_q16'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 16 -->
+
+</div>  <!-- end of qstn-div -->
+
+
+<strong>แผนภูมิข้างล่างนี้ สำหรับคำถาม ข้อ 17-20</strong><br>
+
+<div class = "for_image"><img style ="max-width:100%" src="images/rice_exporters.png"></div>
+
+<!--
+<div class = "for_image"><img style ="max-width:100%" src="pics/rice_exporters.png"></div>
+
+-->
+<div class="qstn-div">
+<!-- ข้อ 17. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q17"><strong>ข้อ 17.</strong></div>
+<div class="question_content">ประเทศไทยส่งออกข้าว มากเป็นอันดับ 1 ในปีใด
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q17" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 2555</label><br>
+<label><input name="gct_tbl_q17" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 2556 </label><br>
+<label> <input name="gct_tbl_q17" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 2557</label><br>
+<label><input name="gct_tbl_q17" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 2558</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_17" class="show_answer" onclick="hide_div_spelling('gct_ans_17')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q17" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+จากกราฟ ประเทศไทยส่งออกข้าว เป็นอันดับที่ 1 ปี 2557 <br><br>
+คำตอบคือ ข้อ 3<br />
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q17', 'ตัวเลือก ข้อ 3', 'gct_ans_17','no', '11111','tbl_q17'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_17" onclick="show_hide_expl('gct_expl_tbl_q17', 'quiz_tbl_17','tbl_q17'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 17 -->
+
+<!-- ข้อ 18. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num" id="tbl_q18"><strong>ข้อ 18.</strong></div>
+<div class="question_content">ในปี 2558 ประเทศไทยและประเทศเวียตนาม ส่งออกข้าวต่างกัน ร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q18" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 32.4%</label><br>
+<label><input name="gct_tbl_q18" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 38.8%</label><br>
+<label> <input name="gct_tbl_q18" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 48.1%</label><br>
+<label><input name="gct_tbl_q18" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 60.3%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_18" class="show_answer" onclick="hide_div_spelling('gct_ans_18')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q18" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+หาความแตกต่าง ระหว่าง 2 จำนวน ต้องเปรียบเทียบ กับ ค่าเฉลี่ยของผลรวมของทั้งสองจำนวน<br><br>
+สูตร<br>
+<span class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</span> x 100
+
+<br><br>
+แทนค่า<br>
+<span class="frac">9.79-6.61<span class="symbol">/</span><span class="bottom">(9.79+6.61)/2</span>
+</span> x 100 <br>
+= 38.78<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 2<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q18', 'ตัวเลือก ข้อ 2', 'gct_ans_18','no', '11111','tbl_q18'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_18" onclick="show_hide_expl('gct_expl_tbl_q18', 'quiz_tbl_18','tbl_q18' ); return false;" type="submit" value="ดูคำอธิบาย" /> 
+
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 18-->
+
+<!-- ข้อ 19. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q19"><strong>ข้อ 19.</strong></div>
+<div class="question_content">ปี 2556 - 2557 ประเทศไทยส่งออกข้าว เพิ่มขึ้น ร้อยละเท่าไร<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q19" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 15.50%</label><br>
+<label><input name="gct_tbl_q19" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 35.73%</label><br>
+<label> <input name="gct_tbl_q19" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 55.60%</label><br>
+<label><input name="gct_tbl_q19" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 75% </label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_19" class="show_answer" onclick="hide_div_spelling('gct_ans_19')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q19" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+ถ้าถามร้อยละการเปลี่ยนแปลง (มากขึ้น หรือ ลดลง) ให้ใช้สูตร <br><br>
+
+<span class="frac">(จำนวนปัจจุบัน)-(จำนวนก่อนหน้า)<span class="symbol">/</span><span class="bottom">(จำนวนก่อนหน้า)</span>
+</span> x 100<br><br>
+
+แทนค่า<br>
+<span class="frac">10.97-7.05<span class="symbol">/</span><span class="bottom">7.05</span>
+</span> x 100<br>
+= 55.60%<br><br>
+
+คำตอบ คือ ข้อ 3<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q19', 'ตัวเลือก ข้อ 3', 'gct_ans_19','no', '11111','tbl_q19'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_19" onclick="show_hide_expl('gct_expl_tbl_q19', 'quiz_tbl_19','tbl_q19'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 19-->
+
+<!-- ข้อ 20. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q20"><strong>ข้อ 20.</strong></div>
+<div class="question_content">ปี 2558 สหรัฐส่งออกข้าวเป็นร้อยละเท่าไรของประเทศอินเดีย ในปีเดียวกัน
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q20" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 35.28%</label><br>
+<label><input name="gct_tbl_q20" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 50.00%</label><br>
+<label> <input name="gct_tbl_q20" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 65.23%</label><br>
+<label><input name="gct_tbl_q20" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 80.15%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_20" class="show_answer" onclick="hide_div_spelling('gct_ans_20')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q20" class="explanation" style="display:none">
+
+<strong>วิธีคิด</strong><br>
+ปี 2558 สหรัฐ ส่งออกข้าว 3.61 ล้านตันข้าวสาร <br>
+ปี 2558 อินเดีย ส่งออกข้าว 10.23 ล้านตันข้าวสาร <br><br>
+คิดเป็นร้อยละ = (3.61)/(10.23)x(100)<br>
+= 35.28<br><br>
+
+ คำตอบคือ ข้อ 1<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q20', 'ตัวเลือก ข้อ 1', 'gct_ans_20','no', '11111','tbl_q20'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_20" onclick="show_hide_expl('gct_expl_tbl_q20', 'quiz_tbl_20','tbl_q20'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 20  -->
+
+</div>   <!--  end of qstn-div   -->
+
+
+
+
+
+<strong>แผนภูมิข้างล่างนี้ สำหรับคำถาม ข้อ 21-24</strong><br>
+
+
+<div class = "for_image"><img style ="max-width:100%" src="images/chicken_eggs.png"></div>
+
+<!--
+<div class = "for_image"><img style ="max-width:100%" src="pics/chicken_eggs.png"></div>
+
+-->
+<div class="qstn-div">
+
+<!-- ข้อ 21. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q21"><strong>ข้อ 21.</strong></div>
+<div class="question_content">กลุ่มที่ 1 ผลิตไข่ขนาดกลาง ได้ประมาณเป็นร้อยละเท่าใดของไข่ทั้งหมด ที่กลุ่มที่ 1 ผลิตได้ใน 4 สัปดาห์ 
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q21" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 5%</label><br>
+<label><input name="gct_tbl_q21" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 14%</label><br>
+<label> <input name="gct_tbl_q21" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 25%</label><br>
+<label><input name="gct_tbl_q21" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 30%</label><br>
+ <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_21" class="show_answer" onclick="hide_div_spelling('gct_ans_21')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q21" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+4 สัปดาห์ กลุ่ม 1 ผลิตไข่ได้ทั้งหมด = 106+116+117+119<br>
+=458<br>
+4 สัปดาห์ กลุ่ม 1 ผลิตไข่กลาง = (106-85)+(116-89)+(117-107)+(119-114)<br>
+=63<br>
+&#x2234; คิดเป็นร้อยละ = 
+<span class="frac">63<span class="symbol">/</span><span class="bottom">458</span>
+</span> x 100<br>
+= 13.75%<br><br>
+
+คำตอบ คือ ข้อ 2
+<br />
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q21', 'ตัวเลือก ข้อ 2', 'gct_ans_21','no', '11111','tbl_q21'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_21" onclick="show_hide_expl('gct_expl_tbl_q21', 'quiz_tbl_21','tbl_q21'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 21 -->
+
+<!-- ข้อ 22. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q22"><strong>ข้อ 22.</strong></div>
+<div class="question_content">ในสัปดาห์ใด ที่ทั้งสามกลุ่มผลิตไข่ขนาดเล็ก ได้น้อยที่สุด
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q22" type="radio" value="ตัวเลือก ข้อ 1" /> 1. สัปดาห์ที่ 1</label><br>
+<label><input name="gct_tbl_q22" type="radio" value="ตัวเลือก ข้อ 2" /> 2. สัปดาห์ที่ 2</label><br>
+<label> <input name="gct_tbl_q22" type="radio" value="ตัวเลือก ข้อ 3" /> 3. สัปดาห์ที่ 3 </label><br>
+<label><input name="gct_tbl_q22" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สัปดาห์ที่ 4</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_22" class="show_answer" onclick="hide_div_spelling('gct_ans_22')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q22" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+ดูจากกราฟแล้ว อาจจะไม่ต้องคำนวณทุกสัปดาห์เพราะจะเสียเวลามาก<br>
+จากกราฟ สัปดาห์ที่ 3 และ 4 น่าจะผลิตได้น้อยกว่าสัปดาห์อื่น <br>
+สัปดาห์ที่ 3 ผลิตได้ (107-39)+(82-36)+(83-25) <br>
+=172<br>
+สัปดาห์ที่ 4 ผลิตได้ (114-50)+(49-17)+(53-16) <br>
+=133<br><br>
+
+คำตอบคือ ข้อ 4<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q22', 'ตัวเลือก ข้อ 4', 'gct_ans_22','no', '11111','tbl_q22'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_22" onclick="show_hide_expl('gct_expl_tbl_q22', 'quiz_tbl_22','tbl_q22'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 22 -->
+
+<!-- ข้อ 23. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q23"><strong>ข้อ 23.</strong></div>
+<div class="question_content">ปริมาณที่ไข่ไก่ผลิตได้ สูงสุดต่อสัปดาห์ และต่ำสุดต่อสัปดาห์ แตกต่างกันร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q23" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 30%</label><br>
+<label><input name="gct_tbl_q23" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 48 % </label><br>
+<label> <input name="gct_tbl_q23" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 65%</label><br>
+<label><input name="gct_tbl_q23" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 72% </label><br>
+ <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_23" class="show_answer" onclick="hide_div_spelling('gct_ans_23')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q23" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+สถิติผลิตไข่ได้สูงสุดต่อสัปดาห์ คือ 119 ฟอง<br>
+สถิติผลิตไข่ได้ต่ำสุดต่อสัปดาห์ คือ 56 ฟอง<br>
+สูตรหาความแตกต่าง (ใช้ค่าเฉลี่ยของผลรวมของทั้งสองจำนวน หรือ ค่าจุดกึ่งกลาง ของสองจำนวน เป็นตัวหาร) <br><br>
+
+<span class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</span> x 100<br><br>
+
+แทนค่า
+<span class="frac">119-56<span class="symbol">/</span><span class="bottom">(119+56)/2</span>
+</span> x 100<br><br>
+
+=72%<br><br>
+
+คำตอบคือ ข้อ 4<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q23', 'ตัวเลือก ข้อ 4', 'gct_ans_23','no', '11111','tbl_q23'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_23" onclick="show_hide_expl('gct_expl_tbl_q23', 'quiz_tbl_23','tbl_q23'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 23 -->
+
+<!-- ข้อ 24. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q24"><strong>ข้อ 24.</strong></div>
+<div class="question_content"> การผลิตไข่ของกลุ่มที่ 2 ในสัปดาห์ที่ 4 ลดลงจาก สัปดาห์ที่ 2 ประมาณร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q24" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 35%</label><br>
+<label><input name="gct_tbl_q24" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 47%</label><br>
+<label> <input name="gct_tbl_q24" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 60%</label><br>
+<label><input name="gct_tbl_q24" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 80%  </label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_24" class="show_answer" onclick="hide_div_spelling('gct_ans_24')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q24" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+สูตร <br>
+<span class="frac">(จำนวนปัจจุบัน)-(จำนวนก่อนหน้า)<span class="symbol">/</span><span class="bottom">(จำนวนก่อนหน้า)</span>
+</span> x 100<br><br>
+แทนค่า<br>
+<span class="frac">56-106<span class="symbol">/</span><span class="bottom">106</span>
+</span> x 100<br><br>
+= -47.16%<br><br>
+
+คำตอบ คือ ข้อ 2<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q24', 'ตัวเลือก ข้อ 2', 'gct_ans_24','no', '11111','tbl_q24'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_24" onclick="show_hide_expl('gct_expl_tbl_q24', 'quiz_tbl_24','tbl_q24'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 24 -->
+
+</div>   <!-- end of qstn-div  -->
+
+
+<strong>แผนภูมิข้างล่างนี้ สำหรับคำถาม ข้อ 25-27</strong><br>
+
+
+<div class = "for_image"><img style ="max-width:100%" src="images/population_growth.png"></div>
+
+<!--
+<div class = "for_image"><img style ="max-width:100%" src="pics/population_growth.png"></div>
+
+-->
+
+<div class ="qstn-div">
+<!-- ข้อ 25. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q25"><strong>ข้อ 25.</strong></div>
+<div class="question_content">ถ้าอัตราการเกิดเป็นไปตามอัตรา ระดับสูง คาดว่า จำนวนประชากรในปี 2595 จะเป็นกี่เท่าของ จำนวนประชากร ในปี 2560<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q25" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 2 เท่า</label><br>
+<label><input name="gct_tbl_q25" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 3 เท่า</label><br>
+<label> <input name="gct_tbl_q25" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 4 เท่า</label><br>
+<label><input name="gct_tbl_q25" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 5 เท่า</label><br>
+ <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_25" class="show_answer" onclick="hide_div_spelling('gct_ans_25')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q25" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+ประชากรในปี 2560 = 36,370<br>
+ประชากรในปี 2595 = 115,911<br><br>
+
+ควรตัดตัวเลขออก 3 หลัก เพื่อคำนวนให้เร็วขึ้น<br>
+&#x2234; จะได้ = 115/36<br><br>
+
+คำตอบ คือ ข้อ 2<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q25', 'ตัวเลือก ข้อ 2', 'gct_ans_25','no', '11111','tbl_q25'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_25" onclick="show_hide_expl('gct_expl_tbl_q25', 'quiz_tbl_25','tbl_q25'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 25 -->
+
+<!-- ข้อ 26. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q26"><strong>ข้อ 26.</strong></div>
+<div class="question_content">ในช่วงปีใด ที่มีอัตราการเปลี่ยนแปลง ของประชากรมากที่สุด ตามอัตราการเกิดระดับ ปานกลาง
+<br>
+
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q26" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ระหว่าง 2560-2565</label><br>
+<label><input name="gct_tbl_q26" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ระหว่าง  2570-2575 </label><br>
+<label> <input name="gct_tbl_q26" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ระหว่าง  2575-2580</label><br>
+<label><input name="gct_tbl_q26" type="radio" value="ตัวเลือก ข้อ 4" /> 4.  ระหว่าง 2590-2595</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_26" class="show_answer" onclick="hide_div_spelling('gct_ans_26')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q26" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+พิจารณาจากกราฟ จะเห็นว่า ช่วงปี 2575-2580 กราฟมีความชันมากที่สุด แสดงว่า ข้อมูลเปลี่ยนแปลง มากที่สุด <br>
+เมื่อดูตัวเลข ควรตัดออก 3 หลัก และนำมา ลบกัน จะเห็นว่า ช่วงปี 2575-2580 มีการเปลี่ยนแปลง มากที่สุด<br><br>
+
+2560-2565: 41-36 = 5<br>
+2570-2575: 55-48 = 7<br>
+2575-2580:  66-53 = 13<br>
+2590-2595: 86-81 = 5<br><br>
+
+ข้อถูก คือ ข้อ 3<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q26', 'ตัวเลือก ข้อ 3', 'gct_ans_26','no', '11111','tbl_q26'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_26" onclick="show_hide_expl('gct_expl_tbl_q26', 'quiz_tbl_26','tbl_q26'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 26 -->
+
+<!-- ข้อ 27 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q27"><strong>ข้อ 27.</strong></div>
+<div class="question_content">ถ้าอัตราการเกิด เป็นไปตาม อัตราระดับปานกลาง ประชากรในปี 2590 จะเพิ่มขึ้นจากปี 2560 ประมาณ ร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q27" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 50%</label><br>
+<label><input name="gct_tbl_q27" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 90%</label><br>
+<label> <input name="gct_tbl_q27" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 105% </label><br>
+<label><input name="gct_tbl_q27" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 125%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_27" class="show_answer" onclick="hide_div_spelling('gct_ans_27')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q27" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+ประชากรในปี 2560 = 36,370<br>
+ประชากรในปี 2590 = 81,126<br><br>
+
+สูตร <br>
+<span class="frac">(จำนวนปัจจุบัน)-(จำนวนก่อนหน้า)<span class="symbol">/</span><span class="bottom">(จำนวนก่อนหน้า)</span>
+</span> x 100<br><br>
+แทนค่า<br>
+ในการคำนวน ควรตัดออก 3 หลัก เพื่อให้รวดเร็วขึ้น<br>
+<span class="frac">81-36<span class="symbol">/</span><span class="bottom">36</span>
+</span> x 100<br><br>
+= 125%<br><br>
+
+คำตอบ คือ ข้อ 4
+ <br />
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q27', 'ตัวเลือก ข้อ 4', 'gct_ans_27','no', '11111','tbl_q27'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_27" onclick="show_hide_expl('gct_expl_tbl_q27', 'quiz_tbl_27','tbl_q27'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 27 -->
+
+</div>   <!--  end of qstn-div -->
+
+
+
+
+<div class = "for_image"><img style ="max-width:100%" src="images/govt_salary.png"></div>
+
+<!--
+<div class = "for_image"><img style ="max-width:100%" src="pics/govt_salary.png"></div>
+
+-->
+<!-- ข้อ 28 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q28"><strong>ข้อ 28.</strong></div>
+<div class="question_content">จากกราฟแท่งที่แสดงอัตราเงินเดือนของข้าราชการในสำนักงานแห่งหนึ่ง สามารถสรุปได้อย่างไร<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q28" type="radio" value="ตัวเลือก ข้อ 1" /> 1. เงินเดือนเฉลี่ยของข้าราชการทั้งหมด คือ ประมาณ 14,000 บาท</label><br>
+<label><input name="gct_tbl_q28" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ข้าราชการ ที่มีเงินเดือนสูงกว่า 14,680 บาท เงินเดือนเฉลี่ยประมาณ 20,000 บาท</label><br>
+<label> <input name="gct_tbl_q28" type="radio" value="ตัวเลือก ข้อ 3" /> 3. กลุ่มข้าราชการ ที่มีเงินเดือนต่ำกว่า 14,380 บาท มีเงินเดือนเฉลี่ยของประมาณ 13,000 บาท</label><br>
+<label><input name="gct_tbl_q28" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ถูกทั้งข้อ 1. และข้อ 3.</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_28" class="show_answer" onclick="hide_div_spelling('gct_ans_28')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q28" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+เพื่อให้คำนวณได้เร็ว ควรตัดหลักพันออกไป และนำมาคำนวณ ดังตาราง<br>
+F= จำนวนคนที่มีเงินเดือนในช่วงนี้<br>
+M= Midpoint คือ จุดกึ่งกลางของเงินในช่วงนี้ ใช้เป็นตัวแทนช่วงในการคำนวณ<br>
+(M)(F)= ผลคูณ ระหว่าง midpoint และ จำนวนคน ตัวเลขที่ได้คือ จำนวนเงินทั้งหมด ที่จ่ายให้คน ในแต่ละช่วงเงินเดือน<br>
+ต่ำ = เงินขั้นต่ำ ที่ตัดหลักพันออกแล้ว เพื่อการคำนวณที่ง่ายและเร็วขึ้น
+สูง = เงินขั้นสูง ที่ตัดหลักพันออกแล้ว เพื่อการคำนวณที่ง่ายและเร็วขึ้น
+<table class="ninety_nine_percent">
+<tr align="center"><td>ช่วงเงินเดือน</td><td>F</td><td>ต่ำ</td><td>สูง</td><td>M</td><td>(M)(F)</td></tr>
+<tr align="right"><td>8,750-9,360</td><td>10</td><td>8</td><td>9</td><td>8.50</td><td>85</td></tr>
+<tr align="right"><td>9,440-10,340</td><td>15</td><td>9</td><td>10</td><td>9.50</td><td>143</td></tr>
+<tr align="right"><td>13,470-14,380</td><td>20</td><td>13</td><td>14</td><td>13.50</td><td>270</td></tr>
+<tr align="right"><td>14,680-16,570</td><td>15</td><td>14</td><td>16</td><td>15.00</td><td>225</td></tr>
+<tr align="right"><td>16,920-19,580</td><td>10</td><td>16</td><td>19</td><td>17.50</td><td>175</td></tr>
+<tr align="right"><td>20,320-30,220</td><td>3</td><td>20</td><td>30</td><td>25.00</td><td>75</td></tr>
+<tr align="right"><td>30,690-51,320</td><td>2</td><td>30</td><td>51</td><td>40.50</td><td>81</td></tr>
+
+<tr align="right"><td>รวม</td><td>75</td><td>-</td><td>-</td><td>-</td><td>1,054</td></tr>
+</table><br>
+&#x2234; เงินเดือนเฉลี่ยของข้าราชการคือ 1,054/75 = 14.04 หรือประมาณ 14,000 บาท<br><br>
+
+จำนวนผู้ที่เงินเดือนมากกว่า 14,680 คือ  30 คน<br>
+จำนวนเงินทั้งหมดที่จ่าย คือ 225+175+75+81 = 556<br>
+เฉลี่ย คนละ 556/30 = 19 หรือประมาณ 19,000 บาท<br><br>
+
+จำนวนผู้ที่เงินเดือนน้อยกว่า 14,380 คือ  45 คน<br>
+จำนวนเงินทั้งหมดที่จ่าย คือ 85+143+270 = 498<br>
+เฉลี่ย คนละ 498/45 = 11.05 หรือประมาณ 11,000 บาท<br><br>
+
+คำตอบคือ ข้อ 1 เพราะข้ออื่น ๆ ไม่ถูกต้อง
+<br><br>&#160;
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q28', 'ตัวเลือก ข้อ 1', 'gct_ans_28','no', '11111','tbl_q28'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_28" onclick="show_hide_expl('gct_expl_tbl_q28', 'quiz_tbl_28','tbl_q28'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 28 -->
+
+<strong>แผนภูมิข้างล่างนี้ สำหรับคำถาม ข้อ 29-33</strong><br>
+
+<div class = "for_image"><img style ="max-width:100%" src="images/steel_imports.png"></div>
+
+<!--
+<div class = "for_image"><img style ="max-width:100%" src="pics/steel_imports.png"></div>
+-->
+
+<div class="qstn-div">
+
+<!-- ข้อ 29 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q29"><strong>ข้อ 29.</strong></div>
+<div class="question_content">จากกราฟ เดือนใดที่การนำเข้าเหล็ก ลดลงมากที่สุด จากเดือนก่อนหน้า
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q29" type="radio" value="ตัวเลือก ข้อ 1" /> 1. เดือน ก.พ.</label><br>
+<label><input name="gct_tbl_q29" type="radio" value="ตัวเลือก ข้อ 2" /> 2. เดือน มี.ค. </label><br>
+<label> <input name="gct_tbl_q29" type="radio" value="ตัวเลือก ข้อ 3" /> 3. เดือน เม.ย. </label><br>
+<label><input name="gct_tbl_q29" type="radio" value="ตัวเลือก ข้อ 4" /> 4. เดือน พ.ค.</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_29" class="show_answer" onclick="hide_div_spelling('gct_ans_29')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q29" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+หาผลรวมทั้งหมด ในแต่ละเดือน <br><br>
+
+ม.ค. = 30+40+32 = 102<br>
+ก.พ. = 31+37+34 = 102<br>
+มี.ค. = 32+36+31 = 99<br>
+เม.ย. = 34+36+32 = 102<br>
+พ.ค. = 36+34+32 = 102<br>
+มิ.ย. = 38+34+31 = 103<br>
+
+<br>
+จะเห็นว่า เดือน มี.ค. นำเข้าเหล็กลดลงจากเดือนก่อนหน้า มากที่สุด<br><br>
+
+คำตอบคือ ข้อ 2<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q29', 'ตัวเลือก ข้อ 2', 'gct_ans_29','no', '11111','tbl_q29'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_29" onclick="show_hide_expl('gct_expl_tbl_q29', 'quiz_tbl_29','tbl_q29'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 29 -->
+
+<!-- ข้อ 30 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q30"><strong>ข้อ 30.</strong></div>
+<div class="question_content">ในช่วง 6 เดือน การนำเข้าเศษเหล็ก คิดเป็นร้อยละเท่าไร ของการนำเข้าเหล็กกล้า
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q30" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 25% </label><br>
+<label><input name="gct_tbl_q30" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 27%</label><br>
+<label> <input name="gct_tbl_q30" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 31%</label><br>
+<label><input name="gct_tbl_q30" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 35% </label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_30" class="show_answer" onclick="hide_div_spelling('gct_ans_30')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q30" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+
+เหล็กกล้า = 102+102+99+102+102+103 = 610<br>
+เศษเหล็ก = 32+34+31+32+32+31 = 192<br><br>
+
+&#x2234; คิดเป็นร้อยละ = (192/610)(100) = 31.4<br><br>
+
+คำตอบคือ ข้อ 3<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q30', 'ตัวเลือก ข้อ 3', 'gct_ans_30','no', '11111','tbl_q30'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_30" onclick="show_hide_expl('gct_expl_tbl_q30', 'quiz_tbl_30','tbl_q30'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 30 -->
+
+<!-- ข้อ 31 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q31"><strong>ข้อ 31.</strong></div>
+<div class="question_content">ในช่วงเวลา 3 เดือนแรกของปี การนำเข้าเหล็กม้วน และเหล็กแผ่น ต่างกันร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q31" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 19%</label><br>
+<label><input name="gct_tbl_q31" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 22%</label><br>
+<label> <input name="gct_tbl_q31" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 25% </label><br>
+<label><input name="gct_tbl_q31" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 27% </label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_31" class="show_answer" onclick="hide_div_spelling('gct_ans_31')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q31" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+สูตรการหาความแตกต่าง<br>
+<div class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</div> x 100<br><br>
+นำเข้าเหล็กม้วน 3 เดือนแรก = 30+31+32 = 93<br>
+นำเข้าเหล็กแผ่น 3 เดือนแรก = 40+37+36 = 113<br><br>
+&#x2234; ต่างกันร้อยละ = <div class="frac">(93)-(113)<span class="symbol">/</span><span class="bottom">((93)+(113))/2</span>
+</div> x 100<br>
+= -19.41%<br><br>
+
+คำตอบคือ ข้อ 1<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q31', 'ตัวเลือก ข้อ 1', 'gct_ans_31','no', '11111','tbl_q31'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_31" onclick="show_hide_expl('gct_expl_tbl_q31', 'quiz_tbl_31','tbl_q31'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 31 -->
+
+<!-- ข้อ 32 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q32"><strong>ข้อ 32.</strong></div>
+<div class="question_content">อัตราส่วน การนำเข้า เหล็กแผ่น:เหล็กม้วน ในช่วง 3 เดือนแรก คือข้อใด
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q32" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 7:4</label><br>
+<label><input name="gct_tbl_q32" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 8:2</label><br>
+<label> <input name="gct_tbl_q32" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 11:9 </label><br>
+<label><input name="gct_tbl_q32" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 13:7</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_32" class="show_answer" onclick="hide_div_spelling('gct_ans_32')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q32" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+นำเข้าเหล็กแผ่น 3 เดือนแรก = 40+37+36 = 113<br>
+นำเข้าเหล็กม้วน 3 เดือนแรก = 30+31+32 = 93<br><br>
+
+&#x2234; อัตราส่วน เหล็กแผ่น:เหล็กม้วน = 113:93 หรือ 11.3:9.3<br><br>
+
+คำตอบคือ ข้อ 3<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q32', 'ตัวเลือก ข้อ 3', 'gct_ans_32','no', '11111','tbl_q32'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_32" onclick="show_hide_expl('gct_expl_tbl_q32', 'quiz_tbl_32','tbl_q32'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 32 -->
+
+
+
+
+<!-- ข้อ 33 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q33"><strong>ข้อ 33.</strong></div>
+<div class="question_content">การนำเข้า เหล็กแผ่น ในเดือน มิ.ย. ลดลงจากเดือน ม.ค. ร้อยละเท่าไร
+<br>
+
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q33" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 9% </label><br>
+<label><input name="gct_tbl_q33" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 10% </label><br>
+<label> <input name="gct_tbl_q33" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 15% </label><br>
+<label><input name="gct_tbl_q33" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 16%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_33" class="show_answer" onclick="hide_div_spelling('gct_ans_33')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q33" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+สูตรการหาค่าร้อยละความต่าง(&#9651;%) คือ <br>
+((new_value/original_value)-1)(100)<br><br>
+
+เดือน มิ.ย. (new_value)นำเข้าเหล็กแผ่น = 34<br>
+เดือน ม.ค. (original_value) นำเข้าเหล็กแผ่น = 40<br><br>
+
+แทนค่าในสูตร<br>
+= ((34/40)-1)(100)<br>
+= -15%<br><br>
+
+คำตอบที่ถูกคือ ข้อ 3<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q33', 'ตัวเลือก ข้อ 3', 'gct_ans_33','no', '11111','tbl_q33');return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_33" onclick="show_hide_expl('gct_expl_tbl_q33', 'quiz_tbl_33','tbl_q33'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 33 -->
+
+</div>  <!-- end of qstn-div  -->
+
+
+
+<strong>แผนภูมิข้างล่างนี้ สำหรับคำถาม ข้อ 34-36</strong><br>
+
+<div class = "for_image"><img style ="max-width:100%" src="images/expense.png"></div>
+
+<!--
+<div class = "for_image"><img style ="max-width:100%" src="pics/expense.png"></div>
+
+-->
+
+
+<div class="qstn-div">
+<!-- ข้อ 34 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q34"><strong>ข้อ 34.</strong></div>
+<div class="question_content">จากรูป ค่าอาหาร ทำมุมกางกี่องศา
+<br>
+
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q34" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 100 องศา </label><br>
+<label><input name="gct_tbl_q34" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 105 องศา</label><br>
+<label> <input name="gct_tbl_q34" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 108 องศา  </label><br>
+<label><input name="gct_tbl_q34" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 110 องศา</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_34" class="show_answer" onclick="hide_div_spelling('gct_ans_34')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q34" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+มุมที่จุดศูนย์กลาง = 360 องศา<br>
+30% ของ 360 = <div class="frac">30 x 360<span class="symbol">/</span><span class="bottom">100</span>
+</div><br>
+= 108 องศา<br>
+
+คำตอบคือ ข้อ 3<br><br>
+
+วิธีคิด ร้อยละเท่าไร ของอะไร ให้เอา 2 ตัวมาคูณกัน แล้วหารด้วย 100 เช่น<br><br>
+
+10% ของ 300 = <div class="frac">10 x 300<span class="symbol">/</span><span class="bottom">100</span>
+</div><br>
+= 30<br>
+
+25% ของ 400 = <div class="frac">25 x 400<span class="symbol">/</span><span class="bottom">100</span>
+</div><br>
+= 100<br>
+
+30% ของ 250 = <div class="frac">30 x 250<span class="symbol">/</span><span class="bottom">100</span>
+</div><br>
+= 75<br>
+
+40% ของ 700 = <div class="frac">40 x 700<span class="symbol">/</span><span class="bottom">280</span>
+</div><br>
+= 100<br>
+
+60% ของ 300 = <div class="frac">60 x 300<span class="symbol">/</span><span class="bottom">100</span>
+</div><br>
+= 180<br>
+
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q34', 'ตัวเลือก ข้อ 3', 'gct_ans_34','no', '11111','tbl_q34'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_34" onclick="show_hide_expl('gct_expl_tbl_q34', 'quiz_tbl_34','tbl_q34'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 34 -->
+
+<!-- ข้อ 35 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q35"><strong>ข้อ 35.</strong></div>
+<div class="question_content">ถ้าข้าราชการผู้นี้ มีเงินเดือน เดือนละ 19,000 บาท เขาเสียค่าหอพัก เดือนละกี่บาท
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q35" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 3,000 บาท </label><br>
+<label><input name="gct_tbl_q35" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 3,500  บาท</label><br>
+<label> <input name="gct_tbl_q35" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 3,800  บาท </label><br>
+<label><input name="gct_tbl_q35" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 4,000  บาท </label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_35" class="show_answer" onclick="hide_div_spelling('gct_ans_35')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q35" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+เงินเดือน = 19,000 บาท<br>
+20% ของ 360 = <div class="frac">20 x 360<span class="symbol">/</span><span class="bottom">100</span>
+</div><br>
+= 3,800 บาท<br><br>
+
+คำตอบคือ ข้อ 3
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q35', 'ตัวเลือก ข้อ 3', 'gct_ans_35','no', '11111','tbl_q35');return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_35" onclick="show_hide_expl('gct_expl_tbl_q35', 'quiz_tbl_35','tbl_q35'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 35 -->
+
+<!-- ข้อ 36 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q36"><strong>ข้อ 36.</strong></div>
+<div class="question_content">ถ้าข้าราชการผู้นี้ ลดรายจ่ายค่าเสื้อผ้าลง 10% เพื่อนำไปเป็นค่าอาหาร ข้าราชการผู้นี้ จะมีเงินสำหรับค่าอาหาร เดือนละกี่บาท
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q36" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 7,500 บาท </label><br>
+<label><input name="gct_tbl_q36" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 7,600 บาท</label><br>
+<label> <input name="gct_tbl_q36" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 7,800 บาท </label><br>
+<label><input name="gct_tbl_q36" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 7,900 บาท</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_36" class="show_answer" onclick="hide_div_spelling('gct_ans_36')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q36" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br>
+เงินเดือน = 19,000 บาท<br>
+ค่าอาหารใหม่ = 30+10 = 40% <br>
+40% ของ 19,000 = <div class="frac">40 x 19,000<span class="symbol">/</span><span class="bottom">100</span>
+</div><br>
+= 7,600 บาท<br><br>
+
+คำตอบคือ ข้อ 2<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q36', 'ตัวเลือก ข้อ 2', 'gct_ans_36','no', '11111','tbl_q36'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_36" onclick="show_hide_expl('gct_expl_tbl_q36', 'quiz_tbl_36','tbl_q36'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 36 -->
+
+</div>  <!-- end of qstn-div  -->
+
+ </div> 
+ <!--  quiz_container  -->
+ <script src="check_and_feedback_new.js" type="text/javascript" language="JavaScript"></script>
+ </body>
+</html>

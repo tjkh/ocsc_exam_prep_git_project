@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=0.65">
+ <title>ข้อสอบ</title>
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+ <body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ทต่างกัน  -->
+            <button id = "start" onclick="countDown(2,0,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+	</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 2.30 ช.ม.
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      http://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+<br><br>
+<strong>ตัวอย่างข้อสอบ จากเว็บของ ก.พ.</strong><br><br>
+
+<strong>อนุกรม</strong><br><br>
+
+<strong>คำสั่ง</strong> จงเลือกคำตอบจากตัวเลือก 1. – 4. มาเติมลงในช่องว่าง เพื่อให้ได้อนุกรม ที่มีความสัมพันธ์ต่อเนื่องกัน อย่างสมเหตุสมผลมากที่สุด<br>
+
+<br><div class="quiz">
+ข้อ 1. <br>
+13   9   3   15   25   5   17   49   7   19   81   9   21 ...<br>
+</div>
+
+<label><input type="radio" name="q1" value="0">11</label><br>
+<label><input type="radio" name="q1" value="0">23</label><br>
+<label><input type="radio" name="q1" value="1">121</label><br>
+<label><input type="radio" name="q1" value="0">441</label><br>
+
+
+<br><div class="quiz">
+ข้อ 2. <br>
+3   9   12   21   33 ...<br>
+</div>
+<label><input type="radio" name="q2" value="0">27</label><br>
+<label><input type="radio" name="q2" value="0">35</label><br>
+<label><input type="radio" name="q2" value="0">42</label><br>
+<label><input type="radio" name="q2" value="1">54</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 3. <br>
+12   13   16   14   15   36   16   17  ...<br>
+</div>
+<label><input type="radio" name="q3" value="1">64</label><br>
+<label><input type="radio" name="q3" value="0">49</label><br>
+<label><input type="radio" name="q3" value="0">46</label><br>
+<label><input type="radio" name="q3" value="0">42</label><br>
+
+
+<br><div class="quiz">
+ข้อ 4. <br>
+3   14   7   45   15   124   31 ..<br>
+</div>
+<label><input type="radio" name="q4" value="0">160</label><br>
+<label><input type="radio" name="q4" value="0">252</label><br>
+<label><input type="radio" name="q4" value="1">315</label><br>
+<label><input type="radio" name="q4" value="0">378</label><br>
+
+
+<br><div class="quiz">
+ข้อ 5. <br>
+2500   625   250   175   160  ...<br>
+</div>
+<label><input type="radio" name="q5" value="0">125</label><br>
+<label><input type="radio" name="q5" value="0">139</label><br>
+<label><input type="radio" name="q5" value="0">145</label><br>
+<label><input type="radio" name="q5" value="1">157</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 6. <br>
+1/3  5/3  9/15  25/27 ..<br>
+</div>
+<label><input type="radio" name="q6" value="0">53/81</label><br>
+<label><input type="radio" name="q6" value="1">53/75</label><br>
+<label><input type="radio" name="q6" value="0">57/81</label><br>
+<label><input type="radio" name="q6" value="0">57/75</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 7. <br>
+30   70   147   274   464  ...<br>
+</div>
+<label><input type="radio" name="q7" value="0">456</label><br>
+<label><input type="radio" name="q7" value="0">654</label><br>
+<label><input type="radio" name="q7" value="1">730</label><br>
+<label><input type="radio" name="q7" value="0">738</label><br><br>
+
+<strong>โจทย์คณิตศาสตร์</strong><br><br>
+
+<strong>คำสั่ง</strong>  จงเลือกคำตอบที่ถูกที่สุด
+<br><div class="quiz">
+ข้อ 8. <br>
+ซื้อเครื่องใช้ชิ้นหนึ่งราคา 2,550 บาท ถ้าต้องการขาย ให้ได้กำไรร้อยละ 30 จะต้องขายเครื่องใช้ชิ้นนี้ ไปในราคากี่บาท <br>
+</div>
+<label><input type="radio" name="q8" value="0">1,785</label><br>
+<label><input type="radio" name="q8" value="1">3,315</label><br>
+<label><input type="radio" name="q8" value="0">4,115</label><br>
+<label><input type="radio" name="q8" value="0">5,425</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 9. <br>
+ถ้า x > y และ m เป็นเลขจำนวนเต็ม ที่มีค่ามากกว่าศูนย์ อยากทราบว่า ข้อใดต่อไปนี้ ไม่เป็นความจริง <br>
+</div>
+<label><input type="radio" name="q9" value="1">mx &lt; my </label><br>
+<label><input type="radio" name="q9" value="0">mx &gt; my </label><br>
+<label><input type="radio" name="q9" value="0">(x + m) &gt; (y + m) </label><br>
+<label><input type="radio" name="q9" value="0">(x – m) &gt; (y – m) </label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 10. <br>
+เลขจำนวนคู่ 3 จำนวนเรียงลำดับกัน รวมกันได้ 36 ผลคูณของเลข 2 จำนวนหลัง จะมีค่าเท่าไร <br>
+</div>
+<label><input type="radio" name="q10" value="0">120</label><br>
+<label><input type="radio" name="q10" value="0">132</label><br>
+<label><input type="radio" name="q10" value="0">140</label><br>
+<label><input type="radio" name="q10" value="1">168</label><br>
+
+
+<br><div class="quiz">
+ข้อ 11. <br>
+ถ้า 4*2 = 14 และ 7*6 = 32 แล้ว 11*4 มีค่าเท่าใด<br>
+</div>
+<label><input type="radio" name="q11" value="1">34</label><br>
+<label><input type="radio" name="q11" value="0">42</label><br>
+<label><input type="radio" name="q11" value="0">56</label><br>
+<label><input type="radio" name="q11" value="0">68</label><br>
+
+
+<br><div class="quiz">
+ข้อ 12. <br>
+พนักงานบริษัทแห่งหนึ่ง ถูกปรับลดเงินเดือนถึง 25% เมื่อเกิดภาวะเศรษฐกิจตกต่ำ ถ้าในปีต่อไป เศรษฐกิจดีขึ้น เขาจะต้องได้รับเงินเดือน เพิ่มขึ้นกี่เปอร์เซ็นต์ จึงจะทำให้ เขาได้รับเงินเดือนเท่าเดิม<br>
+</div>
+<label><input type="radio" name="q12" value="0">23</label><br>
+<label><input type="radio" name="q12" value="0">25</label><br>
+<label><input type="radio" name="q12" value="1">33</label><br>
+<label><input type="radio" name="q12" value="0">35</label><br>
+
+
+
+
+
+<br><div class="quiz">
+ข้อ 13. <br>
+พ่อค้าซื้อไข่ไก่มาจำนวนหนึ่ง ทั้งหมด 270 ฟอง เขาจะคัดไข่ออกขาย 1⁄3 ของไข่ที่เหลืออยู่ทุกๆวัน อยากทราบว่า ภายใน 3 วัน จะมีไข่ถูกคัดออกทั้งหมด กี่ฟอง<br>
+</div>
+<label><input type="radio" name="q13" value="0">160</label><br>
+<label><input type="radio" name="q13" value="0">172</label><br>
+<label><input type="radio" name="q13" value="0">184</label><br>
+<label><input type="radio" name="q13" value="1">190</label><br>
+
+
+สำหรับข้อ 14-16<br>
+มูลค่าการค้า ระหว่างประเทศ และผลิตภัณฑ์ประชาชาติเบื้องต้น (ล้านบาท)<br>
+<table>
+<tr style="text-align: center; vertical-align: middle;"><td>ปี</td><td>มูลค่า<br>สินค้าออก</td><td>มูลค่า<br>สินค้าเข้า</td><td>รวม</td><td>ผลิตภัณฑ์<br>ประชาชาติ<br>เบื้องต้น</td></tr>
+<tr><td>ปีที่ 1</td><td>14,166</td><td>22,188</td><td>36,354</td><td>108,294</td></tr>
+<tr><td>ปีที่ 2</td><td>13,679</td><td>24,103</td><td>37,782</td><td>116,774</td></tr>
+<tr><td>ปีที่ 3</td><td>14,709</td><td>25,966</td><td>40,675</td><td>128,566</td></tr>
+<tr><td>ปีที่ 4</td><td>14,772</td><td>27,009</td><td>41,781</td><td>135,939</td></tr>
+<tr><td>ปีที่ 5</td><td>17,275</td><td>26,794</td><td>44,069</td><td>143,908</td></tr>
+<tr><td>ปีที่ 6</td><td>22,491</td><td>30,875</td><td>53,366</td><td>162,071</td></tr>
+<tr><td>ปีที่ 7</td><td>32,266</td><td>42,184</td><td>74,450</td><td>216,543</td></tr>
+<tr><td>ปีที่ 8</td><td>49,799</td><td>64,044</td><td>113,843</td><td>269,695</td></tr>
+<tr><td>ปีที่ 9</td><td>45,007</td><td>66,835</td><td>111,842</td><td>296,298</td></tr>
+<tr><td>ปีที่ 10</td><td>60,797</td><td>72,877</td><td>133,674</td><td>332,177</td></tr>
+<tr><td>ปีที่ 11</td><td>71,198</td><td>94,177</td><td>165,375</td><td>370,445</td></tr>
+</table>
+<br>
+<div class="qstn-div">
+<br><div class="quiz">
+ข้อ 14. <br>
+ปีใดต่อไปนี้ที่ไทยขาดดุลการค้าสูงที่สุด
+</div>
+<label><input type="radio" name="q14" value="0">ปีที่ 3</label><br>
+<label><input type="radio" name="q14" value="0">ปีที่ 8</label><br>
+<label><input type="radio" name="q14" value="1">ปีที่ 9</label><br>
+<label><input type="radio" name="q14" value="0">ปีที่ 10</label><br>
+
+
+
+
+
+<br><div class="quiz">
+ข้อ 15. <br>
+อัตราส่วนของ มูลค่าการค้า ระหว่างประเทศ ต่อผลิตภัณฑ์ ประชาชาติ ในปีเดียวกัน ของปีใด มีค่าเท่ากับ 2.5<br>
+</div>
+<label><input type="radio" name="q15" value="0">ปีที่ 6</label><br>
+<label><input type="radio" name="q15" value="0">ปีที่ 7</label><br>
+<label><input type="radio" name="q15" value="1">ปีที่ 10</label><br>
+<label><input type="radio" name="q15" value="0">ปีที่ 11</label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 16. <br>
+มูลค่าการค้าระหว่างประเทศ ในช่วงระหว่างปีที่ 7 – ปีที่ 11 เฉลี่ยเพิ่มขึ้น ประมาณกี่ล้านบาท<br>
+</div>
+
+<label><input type="radio" name="q16" value="0">18,190 </label><br>
+<label><input type="radio" name="q16" value="0">18,990 </label><br>
+<label><input type="radio" name="q16" value="1">22,730 </label><br>
+<label><input type="radio" name="q16" value="0">23,740 </label><br>
+
+</div>   <!--  end of qstn-div  -->
+
+<br>
+<strong>ความสามารถทางด้านเหตุผล</strong><br>
+อุปมาอุปไมย<br><br>
+
+<br><div class="quiz">
+<strong>คำสั่ง:</strong> ให้ท่านเลือกคำตอบที่ดีที่สุด<br>
+ข้อ 17. <br>
+คน : อาหาร : : ? : ? <br>
+</div>
+<label><input type="radio" name="q17" value="1">ต้นไม้   ปุ๋ย </label><br>
+<label><input type="radio" name="q17" value="0">ดิน   หญ้า </label><br>
+<label><input type="radio" name="q17" value="0">น้ำ   ราก </label><br>
+<label><input type="radio" name="q17" value="0">ใบ   กิ่ง </label><br>
+
+
+
+
+
+<br><div class="quiz">
+ข้อ 18. <br>
+เต้าเจี้ยว : ถั่วเหลือง : : ? : ?<br>
+</div>
+<label><input type="radio" name="q18" value="0">ข้าว   เกลือ </label><br>
+<label><input type="radio" name="q18" value="1">น้ำเชื่อม   น้ำตาล </label><br>
+<label><input type="radio" name="q18" value="0">นม   ขนม </label><br>
+<label><input type="radio" name="q18" value="0">น้ำปลา   ซีอิ๊ว </label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 19. <br>
+สะใภ้ : พี่ : : ? : ?<br>
+</div>
+<label><input type="radio" name="q19" value="0">ย่า   ปู่ </label><br>
+<label><input type="radio" name="q19" value="0">อา   เขย </label><br>
+<label><input type="radio" name="q19" value="0">ลุง   พ่อ </label><br>
+<label><input type="radio" name="q19" value="1">ป้า   หลาน </label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 20. <br>
+ธุรกิจ : ค้าขาย : : ? : ?<br>
+</div>
+<label><input type="radio" name="q20" value="0">ครู   นักเรียน </label><br>
+<label><input type="radio" name="q20" value="1">ศิลปิน   นักแสดง </label><br>
+<label><input type="radio" name="q20" value="0">แพทย์   พยาบาล </label><br>
+<label><input type="radio" name="q20" value="0">ชำนาญ   เชี่ยวชาญ </label><br><br>
+
+<strong>ความสามารถทางด้านเหตุผล</strong><br>
+การสรุปความจากภาษา<br><br>
+
+เงื่อนไข สำหรับข้อ 20 – 21<br><br>
+
+<div style="margin-left: 5px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+- พีระพล กุลวิทย์ และอิทธิ เลือกซื้อขนมมารับประทานคนละ 2 ชนิด ไม่ซ้ำกัน<br>
+- ขนมที่ทั้งสามคนซื้อได้แก่ ทองหยอด ถั่วตัด ฝอยทอง และ ข้าวตู ทั้งนี้ชื่อคนและขนมไม่ได้เรียงกันตามลำดับข้างต้น<br>
+- กุลวิทย์ไม่ได้ซื้อฝอยทองและข้าวตู<br>
+- อิทธิซื้อขนมไม่เหมือนกับกุลวิทย์เลย<br>
+- มีคนซื้อทองหยอดเพียงคนเดียว<br>
+- ขนมอย่างหนึ่งที่พีระพลซื้อคือ ข้าวตู<br>
+</div>
+<br>
+
+<div class="qstn-div">
+<br><div class="quiz">
+ข้อ 21. <br>
+ข้อสรุปใดถูกต้อง<br>
+</div>
+<label><input type="radio" name="q21" value="1">กุลวิทย์ซื้อทองหยอด </label><br>
+<label><input type="radio" name="q21" value="0">อิทธิซื้อถั่วตัด </label><br>
+<label><input type="radio" name="q21" value="0">พีระซื้อทองหยอด</label><br>
+<label><input type="radio" name="q21" value="0">มีคนซื้อข้าวตูคนเดียว</label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 22. <br>
+ข้อสรุปใดถูกต้อง<br>
+</div>
+<label><input type="radio" name="q22" value="0">พีระพลซื้อทองหยอด </label><br>
+<label><input type="radio" name="q22" value="1">มีคนซื้อฝอยทองเพียงคนเดียว </label><br>
+<label><input type="radio" name="q22" value="0">กุลวิทย์ไม่ได้ซื้อถั่วตัด</label><br>
+<label><input type="radio" name="q22" value="0">อิทธิซื้อทองหยอด</label><br>
+
+</div>  <!-- end of qstn-div  -->
+
+
+<strong>การสรุปความจากสัญลักษณ์</strong><br><br>
+
+เงื่อนไข สำหรับข้อ 23-25<br>
+
+<div style="margin-left: 5px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+ถ้า A &gt; B = C &lt; D และ E &#x2264; C &lt; F &#x2264; G ทุกตัวแปรมีค่ามากกว่าศูนย์ <br><br>
+ตอบข้อ 1 ถ้าสรุปถูกทั้งสองข้อ<br>
+ตอบข้อ 2 ถ้าสรุปถูกข้อใดข้อหนึ่ง<br>
+ตอบ ข้อ 3 ถ้าสรุปผิดทั้งสองข้อ<br>
+ตอบข้อ 4 ถ้าสรุปไม่ได้<br>
+</div>   <!-- for border   -->
+
+<div class="qstn-div">
+<br><div class="quiz">
+ข้อ 23. ข้อสรุป<br>
+1) G &gt; C <br>
+2) C &lt; A <br>
+</div>
+&nbsp;&nbsp;<label>ข้อ 1&nbsp;<input type="radio" name="q23" value="1">&nbsp;</label><br>
+&nbsp;&nbsp;<label>ข้อ 2&nbsp;<input type="radio" name="q23" value="0">&nbsp;</label><br>
+&nbsp;&nbsp;<label>ข้อ 3&nbsp;<input type="radio" name="q23" value="0">&nbsp;</label><br>
+&nbsp;&nbsp;<label>ข้อ 4&nbsp;<input type="radio" name="q23" value="0">&nbsp;</label><br>
+
+
+
+
+
+<br><div class="quiz">
+ข้อ 24. ข้อสรุป<br>
+1) F &lt; E<br>
+2) B &gt; G 
+</div>
+&nbsp;&nbsp;<label>ข้อ 1 <input type="radio" name="q24" value="0"> &nbsp;</label><br>
+&nbsp;&nbsp;<label>ข้อ 2 <input type="radio" name="q24" value="0">&nbsp;</label><br>
+&nbsp;&nbsp;<label>ข้อ 3 <input type="radio" name="q24" value="1">&nbsp;</label><br>
+&nbsp;&nbsp;ข้อ 4 <label><input type="radio" name="q24" value="0">&nbsp;</label><br>
+
+
+
+
+
+
+<br><div class="quiz">
+ข้อ 25. <br>
+ข้อสรุปใดถูกต้อง<br>
+1) A &lt; D <br>
+2) G &gt; A
+</div>
+&nbsp;&nbsp;<label>ข้อ 1 <input type="radio" name="q25" value="0">&nbsp;</label><br>
+&nbsp;&nbsp;<label>ข้อ 2 <input type="radio" name="q25" value="0"> &nbsp;</label><br>
+&nbsp;&nbsp;<label>ข้อ 3 <input type="radio" name="q25" value="0">&nbsp;</label><br>
+&nbsp;&nbsp;<label>ข้อ 4 <input type="radio" name="q25" value="1">&nbsp;</label><br>
+
+
+</div>  <!--  end of "qstn-div" -->
+
+<br><br>
+<strong>การสรุปเหตุผลเชิงตรรกะ</strong><br><br>
+
+<br><div class="quiz">
+ข้อ 26. <br>
+<div style="margin-left: 5px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+"บลูทูธ (Bluetooth) คือ คลื่นสัญญาณวิทยุชนิดหนึ่ง ที่ทำให้อุปกรณ์ไอทีต่าง ๆ เช่น โทรศัพท์มือถือ คอมพิวเตอร์ หรือพีดีเอ ให้สามารถเชื่อมต่อข้อมูล ถึงกันได้ โดยมีรัศมีการส่งข้อมูล อยู่ในระยะประมาณ 10 เมตร"
+</div>  <!-- for border  -->
+<br>ข้อใดสอดคล้องกับข้อความข้างต้น<br>
+
+</div>
+
+<label><input type="radio" name="q26" value="0">อุปกรณ์ไอทีที่ใช้กันส่วนใหญ่ มีบลูทูธ </label><br>
+<label><input type="radio" name="q26" value="0">ถ้าอุปกรณ์ไอทีใด สามารถเชื่อมต่อข้อมูลกันได้ แสดงว่า อุปกรณ์ไอทีนั้นมีบลูทูธ </label><br>
+<label><input type="radio" name="q26" value="0">ถ้าอุปกรณ์ไอทีใด ไม่มีบลูทูธแล้ว อุปกรณ์ไอทีนั้น จะไม่สามารถเชื่อมต่อข้อมูลถึงกันได้ </label><br>
+<label><input type="radio" name="q26" value="1">คลื่นสัญญาณวิทยุชนิดหนึ่ง ที่ทำให้อุปกรณ์ไอที สามารถเชื่อมต่อข้อมูลถึงกันได้คือ บลูทูธ </label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 27. <br>
+<div style="margin-left: 5px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+"ผิวของคนเราแตกต่างกัน จึงต้องการการดูแลที่แตกต่าง การเลือกใช้ผลิตภัณฑ์ ที่เหมาะกับผิวมีความสำคัญอย่างมาก ในการช่วยยืดอายุผิว และความงามให้อยู่กับคุณ อย่างยาวนาน" 
+</div>
+ข้อใดสอดคล้องกับข้อความข้างต้น<br>
+</div>
+
+<label><input type="radio" name="q27" value="1">ผิวของคนเราต้องการการดูแลที่แตกต่างกัน เพราะ ผิวของคนเรามีความแตกต่างกัน</label><br>
+<label><input type="radio" name="q27" value="0">เพราะผิวของคนเราต้องการการดูแลที่ต่างกัน ดังนั้นผิวของคนเราจึงแตกต่างกัน </label><br>
+<label><input type="radio" name="q27" value="0">ถ้าผู้ใดใช้ผลิตภัณฑ์ที่ไม่เหมาะกับผิว ผิวของผู้นั้นก็จะไม่สวยงาม </label><br>
+<label><input type="radio" name="q27" value="0">ถ้าผู้ใดมีผิวที่สวยงาม แสดงว่าผู้นั้นใช้ผลิตภัณฑ์ที่เหมาะกับผิว </label><br><br>
+
+<strong>ความสามารถทางด้านภาษา</strong><br><br>
+
+<strong>คำสั่ง:</strong> อ่านข้อความที่กำหนดให้แล้ว ตอบคำถาม โดยเลือกตัวเลือกที่ถูกต้องที่สุด<br>
+<br><div class="quiz">
+ข้อ 28. <br>
+<div style="margin-left: 5px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+"การสนองคุณชาตินั้น หาได้จำกัดเฉพาะการรับราชการไม่ ขอเพียงให้กลับมารับใช้ชาติก็พอ จึงมีการกำหนดเพียงเป็นกรอบกว้าง ๆ ว่า ให้นักเรียนทุนเล่าเรียนหลวง กลับเข้ามาทำงานในประเทศ อย่างน้อย เท่ากับจำนวนปีที่ไปเล่าเรียนมา" 
+</div>
+สาเหตุสำคัญของข้อความนี้ เกี่ยวข้องกับนักเรียนทุนเล่าเรียนหลวง ในเรื่องใด
+</div>
+<label><input type="radio" name="q28" value="0">สิทธิ</label><br>
+<label><input type="radio" name="q28" value="1">เงื่อนไข</label><br>
+<label><input type="radio" name="q28" value="0">โอกาส</label><br>
+<label><input type="radio" name="q28" value="0">ข้อจำกัด</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 29. <br>
+<div style="margin-left: 5px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+"การให้การศึกษาแก่ประชาชนเพื่อให้มีความรู้ความสามารถเป็นการลงทุนที่สำคัญที่สุดในการพัฒนาบุคลากรของประเทศ ซึ่งจะส่งผลไปถึงการพัฒนาประเทศในที่สุด" 
+</div>
+ข้อความนี้สรุปว่าอย่างไร
+</div>
+<label><input type="radio" name="q29" value="0">การศึกษามีผลต่อการพัฒนาประเทศโดยทันที </label><br>
+<label><input type="radio" name="q29" value="0">การพัฒนาบุคลากรเป็นผลมาจากการพัฒนาประเทศ </label><br>
+<label><input type="radio" name="q29" value="0">การพัฒนาบุคคลและการพัฒนาประเทศมีความสำคัญเท่า ๆ กัน </label><br>
+<label><input type="radio" name="q29" value="1">จุดมุ่งหมายของการศึกษาคือการพัฒนาบุคลากรเพื่อไปพัฒนาประเทศ </label><br><br>
+
+<strong>การวัดความเข้าใจภาษาที่เป็นบทความ</strong><br><br>
+
+จงอ่านบทความที่กำหนดให้แล้วใช้เนื้อความจากบทความตอบคำถามในแต่ละข้อ<br><br>
+
+<div style="margin-left: 5px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+ศาลเป็นสถาบันหนึ่งที่จะช่วยแก้ไข และบรรเทาความเดือดร้อน อันเกิดจากการไม่ได้รับความเป็นธรรม แต่การให้ความเป็นธรรมของศาลนั้น จะต้องอยู่ภายใต้ขอบข่ายของกฎหมาย ศาลจะต้องพิจารณาพิพากษาคดี ไปตามพยานหลักฐาน ในสำนวนศาล จะนำข้อเท็จจริงนอกสำนวน มาพิจารณามิได้ ในคดีอาญานั้น เป็นหน้าที่ของโจทก์ ที่จะต้องนำสืบพิสูจน์ความผิดของจำเลย หากมีความสงสัยตามสมควรว่า จำเลยได้กระทำผิดหรือไม่ ศาล ก็ต้องยกประโยชน์ แห่งความสงสัยให้จำเลย ส่วนในคดีแพ่งนั้น โดยหลักทั่วไปแล้ว ฝ่ายใดกล่าวอ้างข้อเท็จจริงขึ้นมา ฝ่ายนั้น ก็มีหน้าที่นำสืบพิสูจน์ ดังที่กล่าวอ้างมิได้ ย่อมจะแพ้ในเรื่องนั้นไป
+</div>
+<br>
+
+<div class="qstn-div">
+<br><div class="quiz">
+ข้อ 30. <br>
+สาระสำคัญของบทความนี้กล่าวถึงศาลในเรื่องใด<br>
+</div>
+<label><input type="radio" name="q30" value="0">หน้าที่ </label><br>
+<label><input type="radio" name="q30" value="0">อำนาจ</label><br>
+<label><input type="radio" name="q30" value="0">วิธีการนำสืบพิสูจน์ความผิด </label><br>
+<label><input type="radio" name="q30" value="1">หลักการในการพิจารณาคดี </label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 31. <br>
+"หากมีข้อสงสัยตามสมควรว่าจำเลยได้กระทำผิดหรือไม่"<br> ข้อความนี้หมายความว่าอย่างไร <br>
+</div>
+<label><input type="radio" name="q31" value="0">แม้เข้าใจว่าจำเลยกระทำผิด </label><br>
+<label><input type="radio" name="q31" value="0">หากเชื่อว่าจำเลยไม่ได้กระทำผิด </label><br>
+<label><input type="radio" name="q31" value="1">หากพิสูจน์ไม่ได้ว่าจำเลยกระทำ</label><br>
+<label><input type="radio" name="q31" value="0">แม้แน่ใจว่าจำเลยไม่ได้กระทำผิด </label><br>
+
+</div>   <!-- end of qstn-div    -->
+
+
+<strong>การใช้ภาษา </strong><br><br>
+
+จงอ่านข้อความที่กำหนดให้ แล้วพิจารณาเลือกตัวเลือก เติมลงในช่องว่างให้ถูกต้องตาม หลักภาษา และให้มีความหมาย สอดคล้องกับข้อความที่กำหนดให้นั้น<br>
+
+<br><div class="quiz">
+ข้อ 32. <br>
+ถ้าไม่มีใครทำอะไร เพื่อลดความ.........ลง ก็ไม่มีข้อสงสัยว่า ผลสุดท้ายจะไม่ใช้อาวุธกัน<br>
+<br>
+</div>
+<label><input type="radio" name="q32" value="0">เคร่งเครียด</label><br>
+<label><input type="radio" name="q32" value="0">เข้มงวด</label><br>
+<label><input type="radio" name="q32" value="0">เคร่งครัด</label><br>
+<label><input type="radio" name="q32" value="1">ตึงเครียด </label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 33. <br>
+การออมทรัพย์ไว้เป็นทองคำ อาจเป็นวิธีที่ฉลาดก็ได้ ถ้าผู้ออมทรัพย์สามารถคาดหมาย.........ได้ เพราะไม่มีกฎเกณฑ์แน่นอนว่า มีเงินอยู่แล้วจะเอาไปทำอะไรจึงจะดีที่สุด และเมื่อใดควรออมทรัพย์ไว้ในรูปแบบใด หรือลงทุนในรูปแบบใด<br>
+</div>
+<label><input type="radio" name="q33" value="0">ราคา</label><br>
+<label><input type="radio" name="q33" value="0">ตลาด</label><br>
+<label><input type="radio" name="q33" value="1">เหตุการณ์</label><br>
+<label><input type="radio" name="q33" value="0">ความนิยม</label><br>
+
+<strong>แนวคำถามการเติมคำในบทความ</strong><br><br>
+
+จงอ่านบทความที่กำหนดให้ แล้วเลือกตัวเลือกเติมลงในช่องว่าง ให้ถูกต้องตามหลักภาษา และให้มีความหมาย สอดคล้องกับข้อความนั้น<br><br>
+
+<div style="margin-left: 5px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+ระบบราชการเป็น ...(1) ......... ที่สำคัญ ในการบริหารราชการแผ่นดิน ทำหน้าที่ ...(2) ......... นโยบายของฝ่ายการเมือง ให้เกิดผลในทาง ...(3) ......... รวมทั้งการ ...(4) ......... กฎระเบียบกติกาต่าง ๆให้เกิด ...(5) ......... ในการทำงาน และมีความเป็นธรรม ในสังคม</div>
+
+<div class = "qstn-div">
+<br><div class="quiz"> 
+ข้อ 34. ในช่อง (1) ควรจะเติมด้วยตัวเลือกใด<br>
+</div>
+<label><input type="radio" name="q34" value="1">กลไก</label><br>
+<label><input type="radio" name="q34" value="0">องค์กร</label><br>
+<label><input type="radio" name="q34" value="0">เครื่องมือ</label><br>
+<label><input type="radio" name="q34" value="0">แกนกลาง </label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 35. <br>
+ในช่อง (2) ควรจะเติมด้วยตัวเลือกใด<br>
+</div>
+<label><input type="radio" name="q35" value="0">ปรับ</label><br>
+<label><input type="radio" name="q35" value="0">แปล</label><br>
+<label><input type="radio" name="q35" value="1">แปร</label><br>
+<label><input type="radio" name="q35" value="0">เปลี่ยน</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 36. <br>
+ในช่อง (3) ควรจะเติมด้วยตัวเลือกใด<br>
+</div>
+<label><input type="radio" name="q36" value="1">ปฏิบัติ</label><br>
+<label><input type="radio" name="q36" value="0">บริหาร</label><br>
+<label><input type="radio" name="q36" value="0">กลยุทธ์ </label><br>
+<label><input type="radio" name="q36" value="0">ดำเนินการ</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 37. <br>
+ในช่อง (4) ควรจะเติมด้วยตัวเลือกใด<br>
+</div>
+<label><input type="radio" name="q37" value="0">จัด</label><br>
+<label><input type="radio" name="q37" value="1">รักษา</label><br>
+<label><input type="radio" name="q37" value="0">บัญญัติ</label><br>
+<label><input type="radio" name="q37" value="0">กำหนด</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 38. <br>
+ในช่อง (5) ควรจะเติมด้วยตัวเลือกใด<br>
+</div>
+<label><input type="radio" name="q38" value="0">สมรรถนะ</label><br>
+<label><input type="radio" name="q38" value="0">ประโยชน์ </label><br>
+<label><input type="radio" name="q38" value="0">ผลสำเร็จ </label><br>
+<label><input type="radio" name="q38" value="1">ประสิทธิผล</label><br><br>
+
+</div>   <!-- end of qstn-div   -->
+
+
+
+
+แนวคำถามการเลือกใช้คำในประโยคที่ถูกต้อง<br><br>
+
+<strong>แบบที่ 1</strong> จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ในข้อความที่ 1 และข้อความที่ 2 แล้วเลือกตอบดังนี้<br>
+     &nbsp;&nbsp;&nbsp;ตอบ 1 ถ้าคำหรือกลุ่มคำที่ขีดเส้นใต้ในทั้ง 2 ข้อความ ใช้ได้รัดกุมและถูกต้องตามหลักภาษา<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;ตอบ 2 ถ้าคำหรือกลุ่มคำที่ขีดเส้นใต้เฉพาะในข้อความที่ 1 ใช้ได้รัดกุมและถูกต้องตามหลักภาษา<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;ตอบ 3 ถ้าคำหรือกลุ่มคำที่ขีดเส้นใต้เฉพาะในข้อความที่ 2 ใช้ได้รัดกุมและถูกต้องตามหลักภาษา<br>
+     &nbsp;&nbsp;&nbsp;ตอบ 4 ถ้าคำหรือกลุ่มคำที่ขีดเส้นใต้ในทั้ง 2 ข้อความ ใช้ไม่รัดกุมหรือไม่ถูกต้องตามหลักภาษา<br><br>
+
+<br><div class="quiz">
+ข้อ 39. <br>
+จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ในข้อความที่ 1 และข้อความที่ 2 แล้วเลือกตอบดังนี้<br>
+&nbsp;&nbsp;<strong>ข้อความที่ 1</strong> ประเทศไทยและประเทศเช็คมีความสัมพันธ์ทางการทูต<u><strong>จาก</strong></u> พ.ศ.<br>
+     &nbsp;&nbsp;<strong>ข้อความที่ 2</strong> มนุษย์ผลิตสารสังเคราะห์บางอย่างแต่<u><strong>ไม่</strong></u>สลายตัว
+<br>
+</div>
+<label><input type="radio" name="q39" value="0"><strong>ทั้ง 2 ข้อความ</strong> ใช้ได้รัดกุมและถูกต้องตามหลักภาษา </label><br>
+<label><input type="radio" name="q39" value="0"><strong>เฉพาะในข้อความที่ 1</strong> ใช้ได้รัดกุมและถูกต้องตามหลักภาษา </label><br>
+<label><input type="radio" name="q39" value="0"><strong>เฉพาะในข้อความที่ 2</strong> ใช้ได้รัดกุมและถูกต้องตามหลักภาษา </label><br>
+<label><input type="radio" name="q39" value="1"><strong>ทั้ง 2 ข้อความ</strong> ใช้ไม่รัดกุมหรือไม่ถูกต้องตามหลักภาษา </label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 40. <br>
+จงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ในข้อความที่ 1 และข้อความที่ 2 แล้วเลือกตอบดังนี้<br><br>
+     &nbsp;&nbsp;<strong>ข้อความที่ 1 </strong>ผลของการสัมมนา<strong>ถือว่าเป็นเพียง</strong>ข้อเสนอแนะ<br>
+     &nbsp;&nbsp;<strong>ข้อความที่ 2 </strong>ปีแสงเป็นหน่วยวัดระยะ<strong>ซึ่งใช้ใน</strong>วิชาดาราศาสตร์ 
+<br>
+</div>
+<label><input type="radio" name="q40" value="1"><strong>ทั้ง 2 ข้อความ</strong> ใช้ได้รัดกุมและถูกต้องตามหลักภาษา</label><br>
+<label><input type="radio" name="q40" value="0"><strong>เฉพาะในข้อความที่ 1</strong> ใช้ได้รัดกุมและถูกต้องตามหลักภาษา </label><br>
+<label><input type="radio" name="q40" value="0"><strong>เฉพาะในข้อความที่ 2</strong> ใช้ได้รัดกุมและถูกต้องตามหลักภาษา </label><br>
+<label><input type="radio" name="q40" value="0"><strong>ทั้ง 2 ข้อความ </strong>ใช้<strong>ไม่รัดกุม</strong>หรือไม่ถูกต้องตามหลักภาษา </label><br><br>
+
+<strong>แบบที่ 2</strong> ในแต่ละข้อจงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ และมีตัวเลข 1ถึง 4 กำกับอยู่ แล้ว ตอบว่าข้อใดใช้<strong><u>ไม่รัดกุม</u></strong> หรือ<u><strong>ไม่ถูกต้อง</strong></u>ตามหลักภาษา
+
+<br><div class="quiz">
+ข้อ 41. <br>
+คำว่าคุณภาพชีวิต แปลว่า การดำรงชีวิต<u><strong>(1)อย่างมีคุณค่า (2)หมายถึง</strong></u> ชีวิตหรือความเป็นอยู่ <u><strong>(3)ที่นับถือว่า</strong></u> หรือเป็นที่<u><strong>(4)ยอมรับ</strong></u>กันทั่วไป<br>
+</div>
+<label><input type="radio" name="q41" value="0">ข้อ (1) ใช้ได้ไม่รัดกุม </label><br>
+<label><input type="radio" name="q41" value="0">ข้อ (2) ใช้ได้ไม่รัดกุม </label><br>
+<label><input type="radio" name="q41" value="1">ข้อ (3) ใช้ได้ไม่รัดกุม </label><br>
+<label><input type="radio" name="q41" value="0">ข้อ (4) ใช้ได้ไม่รัดกุม </label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 42. <br>
+กฎหมายใหม่ได้<u><strong>(1)รวบรวม</strong></u> และ<u><strong>(2)ปรับปรุง</strong></u>บทบัญญัติอัน<u><strong>(3)เกี่ยวกับ</strong></u>ความผิดในเรื่องเครื่องหมายการค้า เพื่อให้สามารถ<u><strong>(4)ให้ความปกป้อง</strong></u>แก่สิทธิของเจ้าของเครื่องหมายการค้าได้ดียิ่งขึ้น<br>
+</div>
+<label><input type="radio" name="q42" value="0">ข้อ (1) ใช้ได้ไม่รัดกุม </label><br>
+<label><input type="radio" name="q42" value="0">ข้อ (2) ใช้ได้ไม่รัดกุม </label><br>
+<label><input type="radio" name="q42" value="0">ข้อ (3) ใช้ได้ไม่รัดกุม </label><br>
+<label><input type="radio" name="q42" value="1">ข้อ (4) ใช้ได้ไม่รัดกุม </label><br>
+
+<strong>แบบที่ 3 </strong>ในแต่ละข้อจงพิจารณาคำหรือกลุ่มคำที่ขีดเส้นใต้ในแต่ละประโยคในตัวเลือก 1 ถึง 4 แล้วเลือก ตัวเลือกที่มีคำหรือกลุ่มคำที่ใช้ได้รัดกุมและถูกต้องตามหลักภาษา<br><br>
+
+<br><div class="quiz">
+ข้อ 43. <br>
+ตัวเลือกใดที่มีคำหรือกลุ่มคำที่ใช้ได้รัดกุมและถูกต้องตามหลักภาษา<br>
+</div>
+<label><input type="radio" name="q43" value="0">คำว่าผ่าน ถ้าประกอบหน้าคำบางคำ หมายความว่า พระเจ้าแผ่นดิน เช่น ผ่านเกล้า ผ่านฟ้า </label><br>
+<label><input type="radio" name="q43" value="0">ผ้าทิพย์ เป็นผ้าที่ห้อยตรงหน้าฐานพระพุทธรูป ประกอบด้วยปูนทำเป็นลวดลายต่าง ๆ </label><br>
+<label><input type="radio" name="q43" value="0">ผัดวันประกันพรุ่ง เป็นสำนวนที่มีความหมายว่า ขอเปลี่ยนเวลาออกไปครั้งแล้วครั้งเล่า </label><br>
+<label><input type="radio" name="q43" value="1">ฯพณฯ เป็นคำนำหน้าชื่อหรือตำแหน่งข้าราชการผู้ใหญ่ มีรัฐมนตรีและเอกอัครราชทูตเป็นต้น </label><br><br>
+
+<strong>แบบที่ 4</strong> จงเลือกตัวเลือกที่มีประโยคที่เรียบเรียงคำ หรือใช้คำไม่รัดกุม หรือไม่ถูกต้องตามหลักภาษา
+
+<br><div class="quiz">
+ข้อ 44. <br>
+จงเลือกตัวเลือกที่มีประโยคที่เรียบเรียงคำ หรือใช้คำ<u><strong>ไม่รัดกุม</strong></u> หรือ<u><strong>ไม่ถูกต้อง</strong></u>ตามหลักภาษ า<br>
+</div>
+<label><input type="radio" name="q44" value="0">เมื่อรถไฟฟ้าใต้ดินเริ่มบริการ ผู้คนกรุงเทพฯจะแห่กันไปใช้บริการอย่างล้นหลาม </label><br>
+<label><input type="radio" name="q44" value="0">ผู้เป็นข้าราชการพึงสำเหนียกเป็นนิตย์ถึงความรับผิดชอบที่จะต้องปฏิบัติงานของตัวร่วมกับงานของผู้อื่น </label><br>
+<label><input type="radio" name="q44" value="1">งานวิจัยนี้สั่นสะเทือนความเชื่อถือเรื่องอาหารการกินอย่างรุนแรง </label><br>
+<label><input type="radio" name="q44" value="0">โรคหืดเป็นโรคที่มีการตีบแคบของหลอดลม เนื่องจากกล้ามเนื้อผนังหลอดลมหดเกร็ง </label><br><br>
+
+<strong>แนวคำถามการสะกดคำได้ถูกต้อง</strong><br><br>
+จงเลือกตัวเลือกที่มีคำสะกดถูกต้องและมีความหมายสอดคล้องกับเนื้อความในประโยค
+<br><div class="quiz">
+ข้อ 45. <br>
+ตัวเลือกใดที่มีคำสะกดถูกต้องและมีความหมายสอดคล้องกับเนื้อความในประโยค<br>
+</div>
+<label><input type="radio" name="q45" value="0">บุคคลจะสามารถเรียกข้อมูลในสมองออกมาใช้โดยการถอดรหัด </label><br>
+<label><input type="radio" name="q45" value="1">ในประเทศไทยได้มีผู้สร้างหลักสูตรเพื่อพัฒนาการคิดขึ้นใช้บ้างแล้ว </label><br>
+<label><input type="radio" name="q45" value="0">การสอนและฝึกทักษะการคิดมีจุดเด่นที่โปรแกลมได้รับการพัฒนามาอย่างดี </label><br>
+<label><input type="radio" name="q45" value="0">เมื่อมนุษย์รับสิ่งเร้าเข้ามาทางประสาดสัมผัสทั้ง 5 จะถูกบันทึกไว้ในความจำระยะสั้น </label><br><br><br>
+
+<strong>แนวคำถามการเรียงลำดับข้อความให้ถูกต้อง</strong><br><br>
+
+จงพิจารณาข้อความในตัวเลือก 1 ถึง 4 และจัดเรียงลำดับให้ถูกต้องแล้วจึงตอบคำถามแต่ละข้อ<br>
+
+<br><div class="quiz">
+ข้อ 46. <br>
+ข้อความใดเป็นลำดับที่ 3<br>
+</div>
+<label><input type="radio" name="q46" value="0">ทำให้รถยนต์ราคาถูกลง </label><br>
+<label><input type="radio" name="q46" value="1">และคงจะถูกลงกว่านี้อีก </label><br>
+<label><input type="radio" name="q46" value="0">เพราะนโยบายเศรษฐกิจเสรี </label><br>
+<label><input type="radio" name="q46" value="0">เมื่อมีการแข่งขันในระบบเศรษฐกิจมากขึ้น </label><br>
+
+ 
+แนวข้อสอบ การเป็นข้าราชการที่ดี<br>
+
+<br><div class="quiz">
+ข้อ 47. <br>
+หากเจ้าหน้าที่ของรัฐบาล นำผลความสำเร็จของการปฏิบัติงานของผู้อื่น มาเป็นของตน ถือว่าไม่ประพฤติปฏิบัติตาม มาตรฐานทางจริยธรรม ข้อใด<br>
+</div>
+<label><input type="radio" name="q47" value="0">ซื่อสัตย์สุจริต มีจิตสำนึกที่ดี </label><br>
+<label><input type="radio" name="q47" value="1">มุ่งผลสัมฤทธิ์ของงาน</label><br>
+<label><input type="radio" name="q47" value="0">ดำรงตนเป็นแบบอย่างที่ดี</label><br>
+<label><input type="radio" name="q47" value="0">คิดถึงประโยชน์ส่วนรวม มากกว่าประโยชน์ส่วนตน</label><br>
+
+<br><div class="quiz">
+ข้อ 48. <br>
+การกระจายอำนายในการตัดสินใจ คืออะไร<br>
+</div>
+<label><input type="radio" name="q48" value="1">มอบอำนาจในการตัดสินใจเพื่อสั่งการ ให้แก่ผู้ดำรงตำแหน่ง ตามสายการบังคับบัญชา</label><br>
+<label><input type="radio" name="q48" value="0">มอบอำนาจในการตัดสินใจเพื่อสั่งการ ให้แก่ผู้ดำรงตำแหน่ง ที่มีหน้าที่ความรับผิดชอบในการดำเนินการ เรื่องนี้โดยตรง</label><br>
+<label><input type="radio" name="q48" value="0">มอบอำนาจในการตัดสินใจเพื่อสั่งการ  ให้แก่ผู้ปฎิบัติงานที่มีความสามารถ</label><br>
+<label><input type="radio" name="q48" value="0">มอบอำนาจในการตัดสินใจเพื่อสั่งการ ให้แก่ผู้ใต้บังคับบัญชา ที่มีผลงานน่าเชื่อถือ</label><br>
+
+
+
+
+
+
+
+
+<br>
+<input type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+
+</div>  <!--  end of div content  -->
+
+  <script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

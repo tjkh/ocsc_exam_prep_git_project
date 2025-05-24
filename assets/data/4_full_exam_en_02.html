@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+ <body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+            <!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+
+            <button id = "start" onclick="countDown(0,40,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+
+        </div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 40 นาที
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <br><br>
+    <div id="ifNotBuy" style="display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+         <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span></br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+<!--  
+================= 1-5 Conversation =================
+-->
+<strong>คำสั่ง</strong> จงเลือกคำตอบจากตัวเลือก 1. – 4. มาเติมลงในช่องว่าง เพื่อให้ได้อนุกรม ที่มีความสัมพันธ์ต่อเนื่องกัน อย่างสมเหตุสมผลมากที่สุด<br><br>
+
+<div class="quiz">
+ข้อ 1. <br>
+<div style="margin-left: 0px; border: 2px solid #4CAF50; display: inline-block; padding: 5px;";>
+
+<strong>Suda:</strong> How do you like Thailand?<br />
+<strong>Robert:</strong> Very much. People are nice.<br />
+<strong>Suda:</strong> __________<br />
+<strong>Robert:</strong> 2 months.<br />
+</div>
+</div>
+    <br>
+<label><input type="radio" name="q1" value="0">How many people did you see?</label><br>
+<label><input type="radio" name="q1" value="0">How much do you like Thailand?</label><br>
+<label><input type="radio" name="q1" value="1">How long have you been here?</label><br>
+<label><input type="radio" name="q1" value="0">How good are Thai people?</label><br>
+    <br>
+
+<div class="quiz">
+ข้อ 2. <br>
+<div style="margin-left: 0px; border: 2px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<strong>Suda:</strong> What do you do for work?<br />
+<strong>Robert:</strong> I'm a student. __________<br />
+<strong>Suda:</strong> I'm a student, too.
+<br>
+</div>
+</div>
+
+<label><input type="radio" name="q2" value="0">How are you?</label><br>
+<label><input type="radio" name="q2" value="1">How about you?</label><br>
+<label><input type="radio" name="q2" value="0">Are you a student?</label><br>
+<label><input type="radio" name="q2" value="0">How do you do?</label><br>
+
+
+    <br>
+<div class="quiz">
+ข้อ 3. <br>
+<div style="margin-left: 0px; border: 2px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<strong>Amy:</strong> Excuse me? ___________<br />
+<strong>Suda:</strong> Yes. You can take an airport-link at Phaya-thai station.
+<br>
+</div>
+</div>
+
+<label><input type="radio" name="q3" value="0">Where can I take the airport-link to the airport?</label><br>
+<label><input type="radio" name="q3" value="1">Do you know how can I get to the airport?</label><br>
+<label><input type="radio" name="q3" value="0">Where is the Phaya-thai station to the airport?</label><br>
+<label><input type="radio" name="q3" value="0">How far is it from Phaya-thai station to the airport?</label><br>
+
+
+    <br>
+<div class="quiz">
+ข้อ 4. <br>
+<div style="margin-left: 0px; border: 2px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<strong>Amy:</strong> _____________ I don't see it.<br />
+<strong>Suda:</strong> Across the street.<br />
+<strong>Amy:</strong> Oh! I see it now.
+<br>
+</div>
+</div>
+
+<label><input type="radio" name="q4" value="1">Where is Phaya-thai station?</label><br>
+<label><input type="radio" name="q4" value="0">How can I get to Phaya-thai station?</label><br>
+<label><input type="radio" name="q4" value="0">How far is Phaya-thai station?</label><br>
+<label><input type="radio" name="q4" value="0">What is Phaya-thai station?</label><br>
+
+
+    <br>
+<div class="quiz">
+ข้อ 5. <br>
+<div style="margin-left: 0px; border: 2px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<strong>Susan:</strong> David, _______________<br />
+<strong>David:</strong> Yes, I'd like some coffee.
+<br>
+</div>
+</div>
+
+<label><input type="radio" name="q5" value="0">would you like to eat?</label><br>
+<label><input type="radio" name="q5" value="0">do you want to eat something?</label><br>
+<label><input type="radio" name="q5" value="1">would you like something to drink?</label><br>
+<label><input type="radio" name="q5" value="0">do you like some coffee?</label><br>
+
+
+<!--  
+================= 6-10 Vovabulary =================
+-->
+<br><strong>Instructions: </strong>Select the most appropriate choice for each item.<br /> <br />
+
+    <br>
+<div class="quiz">
+ข้อ 6. <br>
+Larry bought ................... on the way home. He bought vegetables, milk, bread, and fruit.<br>
+</div>
+
+<label><input type="radio" name="q6" value="0">laundry</label><br>
+<label><input type="radio" name="q6" value="0">utilities</label><br>
+<label><input type="radio" name="q6" value="0">expenses</label><br>
+<label><input type="radio" name="q6" value="1">groceries</label><br>
+
+
+
+    <br>
+<div class="quiz">
+ข้อ 7. <br>
+Tina doesn't like speaking English in front of others because she is not ............ in her English skills. <br>
+</div>
+
+<label><input type="radio" name="q7" value="0">available</label><br>
+<label><input type="radio" name="q7" value="1">confident</label><br>
+<label><input type="radio" name="q7" value="0">visible</label><br>
+<label><input type="radio" name="q7" value="0">wealthy</label><br>
+
+    <br>
+<div class="quiz">
+ข้อ 8. <br>
+Professor Fletcher is ....................... of one of his students who got a perfect score on his math test. He thinks the student may have cheated.<br>
+</div>
+
+<label><input type="radio" name="q8" value="0">frightened</label><br>
+<label><input type="radio" name="q8" value="1">suspicious</label><br>
+<label><input type="radio" name="q8" value="0">envious</label><br>
+<label><input type="radio" name="q8" value="0">proud</label><br>
+
+    <br>
+
+<div class="quiz">
+ข้อ 9. <br>
+Environmentalists argue that there's a(n) ...................... The pipeline could burst and spill oil everywhere.<br>
+</div>
+
+<label><input type="radio" name="q9" value="1">risk</label><br>
+<label><input type="radio" name="q9" value="0">glance</label><br>
+<label><input type="radio" name="q9" value="0">source</label><br>
+<label><input type="radio" name="q9" value="0">alert</label><br>
+
+
+    <br>
+<div class="quiz">
+ข้อ 10. <br>
+Because of Ryan's skiing ............., he had to stay home in bed for one month.<br>
+</div>
+
+<label><input type="radio" name="q10" value="0">ability</label><br>
+<label><input type="radio" name="q10" value="0">trophy</label><br>
+<label><input type="radio" name="q10" value="1">injury</label><br>
+<label><input type="radio" name="q10" value="0">security</label><br>
+
+
+
+
+<!--  
+================= 11-15 Grammar/Structure =================
+-->
+
+    <br>
+<div class="quiz">
+ข้อ 11. <br>
+She considered ................ to Bangkok.<br>
+</div>
+
+<label><input type="radio" name="q11" value="0">move</label><br>
+<label><input type="radio" name="q11" value="0">to move</label><br>
+<label><input type="radio" name="q11" value="1">moving</label><br>
+<label><input type="radio" name="q11" value="0">moved</label><br>
+
+    <br>
+<div class="quiz">
+ข้อ 12. <br>
+He opened the door ............... he saw me.<br>
+</div>
+
+<label><input type="radio" name="q12" value="0">since</label><br>
+<label><input type="radio" name="q12" value="0">for</label><br>
+<label><input type="radio" name="q12" value="0">which </label><br>
+<label><input type="radio" name="q12" value="1">when</label><br>
+
+
+    <br>
+<div class="quiz">
+ข้อ 13. <br>
+Suda ............... to Chiangmai last year but she ............ to Doi Sutep.<br>
+</div>
+
+<label><input type="radio" name="q13" value="0">goes, has never been</label><br>
+<label><input type="radio" name="q13" value="0">went, never goes </label><br>
+<label><input type="radio" name="q13" value="0">has been, doesn't go</label><br>
+<label><input type="radio" name="q13" value="1">went, has never been </label><br>
+    <br>
+<div class="quiz">
+ข้อ 14. <br>
+If a horse ................... a race when he wasn’t expected to, one could say that he upset expectations, or upset the calculations of the oddsmaker.<br>
+</div>
+
+<label><input type="radio" name="q14" value="1">won</label><br>
+<label><input type="radio" name="q14" value="0">win</label><br>
+<label><input type="radio" name="q14" value="0">had won</label><br>
+<label><input type="radio" name="q14" value="0">is winning</label><br>
+
+    <br>
+<div class="quiz">
+ข้อ 15. <br>
+In one email, allegedly from Mr.Snowden, which has been made public .............. the Human Rights Watch group, the 30-year-old American complained that the US government was waging an “unlawful campaign” to prevent him from securing asylum.<br>
+</div>
+
+<label><input type="radio" name="q15" value="0">on</label><br>
+<label><input type="radio" name="q15" value="0">in</label><br>
+<label><input type="radio" name="q15" value="1">by</label><br>
+<label><input type="radio" name="q15" value="0">that</label><br>
+
+
+
+<!--  
+================= 16-25 Reading 10 ข้อ =================
+-->
+
+<div style="margin-left: 0px; border: 2px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<strong>สำหรับ ข้อ 16-20</strong><br><br>
+<b>On the phone</b><br />
+JOHN: Hi, Alice, .......(16) ....... How are you?<br />
+ALICE: Oh, hi, John! I was just thinking about you.<br />
+JOHN: That’s nice. .......(17) .......you’d like to go to a
+movie tonight.<br />
+ALICE: Sure, .......(18) ....... What’s playing?<br />
+JOHN: How about Tazan. What do you think?<br />
+ALICE: .......(19) .......<br />
+JOHN: OK, I’ll pick you up around 7:30. The movie starts at 8:00.<br />
+ALICE: ........(20).............. Bye!<br /> <br>
+<br>
+</div>
+<br><br>
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 16. <br>
+</div>
+
+<label><input type="radio" name="q16" value="0">It's me.</label><br>
+<label><input type="radio" name="q16" value="1">It's John</label><br>
+<label><input type="radio" name="q16" value="0">It's Alice.</label><br>
+<label><input type="radio" name="q16" value="0">This is Alice.</label><br>
+
+    <br>
+<div class="quiz">
+ข้อ 17. <br>
+</div>
+
+<label><input type="radio" name="q17" value="0">I wonder if</label><br>
+<label><input type="radio" name="q17" value="0">I am wondered if</label><br>
+<label><input type="radio" name="q17" value="0">I was wondered if</label><br>
+<label><input type="radio" name="q17" value="1">I was wondering if</label><br>
+
+
+
+    <br>
+<div class="quiz">
+ข้อ 18. <br>
+</div>
+
+<label><input type="radio" name="q18" value="1">I’d love to.</label><br>
+<label><input type="radio" name="q18" value="0">I wish I could.</label><br>
+<label><input type="radio" name="q18" value="0">I would if I could.</label><br>
+<label><input type="radio" name="q18" value="0">I'm afraid I need to finish my work.</label><br>
+
+    <br>
+<div class="quiz">
+ข้อ 19. <br>
+</div>
+
+<label><input type="radio" name="q19" value="0">It's a bit boring.</label><br>
+<label><input type="radio" name="q19" value="1">Sounds great! </label><br>
+<label><input type="radio" name="q19" value="0">I don't like Tazan.</label><br>
+<label><input type="radio" name="q19" value="0">I prefer Star Wars to Tazan.</label><br>
+
+    <br>
+<div class="quiz">
+ข้อ 20. <br>
+</div>
+
+<label><input type="radio" name="q20" value="0">Have a nice day.</label><br>
+<label><input type="radio" name="q20" value="0">Have a good time.</label><br>
+<label><input type="radio" name="q20" value="1">See you then.</label><br>
+<label><input type="radio" name="q20" value="0">See you tommorow.</label><br>
+
+</div>  <!--  qstn-div   -->
+
+
+<br>
+<strong>สำหรับ ข้อ 21-25</strong><br><br>
+<strong>Instructions:</strong> Choose the best answer for each blank.<br><br>
+
+
+<!--   21-25 อุปมา-อุปไมย 5 ข้อ   -->
+<div class="qstn-div">
+Number 401, king Street<br>
+Luhag , manchester City<br>
+UK<br><br>
+
+.........(21)................<br><br>
+
+Kelly Johnson<br>
+Manager<br>
+Bensha enterprise<br>
+Mandaue, Manchester<br>
+United kingdom<br><br>
+
+Dear Sir,<br><br>
+
+I am writing this letter to .....(22)...... an order for goods for our continuing project. Last month I ......(23)....... few goods and I thought they would be enough but it seems they are less. Find the .....(24)....... list on everything we require. We need the .......(25)....... as soon as possible so that the project can continue smoothly. I will make all the payments on delivery.<br><br>
+
+Thank you.<br><br>
+
+Yours faithfully<br>
+XXXXX<br>
+Mary Jones<br>
+</div>
+<br><br>
+
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 21. <br>
+</div>
+
+<label><input type="radio" name="q21" value="0">To whom it may concern</label><br>
+<label><input type="radio" name="q21" value="1">March 15, 2019.</label><br>
+<label><input type="radio" name="q21" value="0">Dear Sir,</label><br>
+<label><input type="radio" name="q21" value="0">Sincerely yours,</label><br>
+
+
+    <br>
+<div class="quiz">
+ข้อ 22. <br>
+</div>
+
+<label><input type="radio" name="q22" value="0">have</label><br>
+<label><input type="radio" name="q22" value="0">get</label><br>
+<label><input type="radio" name="q22" value="0">receive</label><br>
+<label><input type="radio" name="q22" value="1">place</label><br>
+
+
+    <br>
+<div class="quiz">
+ข้อ 23. <br>
+</div>
+
+<label><input type="radio" name="q23" value="1">had</label><br>
+<label><input type="radio" name="q23" value="0">ordered</label><br>
+<label><input type="radio" name="q23" value="0">gave away </label><br>
+<label><input type="radio" name="q23" value="0">did not buy</label><br>
+
+
+    <br>
+<div class="quiz">
+ข้อ 24. <br>
+</div>
+<label><input type="radio" name="q24" value="1">attached</label><br>
+<label><input type="radio" name="q24" value="0">long</label><br>
+<label><input type="radio" name="q24" value="0">email</label><br>
+<label><input type="radio" name="q24" value="0">previous</label><br>
+
+
+
+
+
+    <br>
+<div class="quiz">
+ข้อ 25. <br>
+</div>
+<label><input type="radio" name="q25" value="0">project</label><br>
+<label><input type="radio" name="q25" value="0">order</label><br>
+<label><input type="radio" name="q25" value="1">goods</label><br>
+<label><input type="radio" name="q25" value="0">letter</label><br>
+
+</div>  <!--  qstn-div  -->
+
+
+
+<br>
+<input type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;"class="myFloat_Right;">
+</div>
+
+</div>  <!--  end of div content  -->
+
+  <script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

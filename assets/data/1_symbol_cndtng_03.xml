@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- XX1 -->
+  <thisQuestion>
+    <qNum>id0809:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2A &gt; 2B = C ≯ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: D &lt; P &lt;br /&gt; 
+ข้อสรุปที่ 2: P &gt; 2D &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2A &gt; 2B = C ≯ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: D &lt; P (เท็จ) &lt;br /&gt;
+ข้อสรุปที่ 2: P &gt; 2D (เท็จ) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข  ✔&lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+เปลี่ยนเครื่องหมาย&lt;br /&gt;
+2A &gt; 2B = C ≤ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: D &lt; P &lt;br /&gt; 
+จาก D ไป P ตามเงื่อนไข คือ&lt;br /&gt; 
+D ≥ C &gt; P&lt;br /&gt; 
+D &gt; P&lt;br /&gt; 
+∴ ข้อสรุปที่ 1: D &lt; P เป็นเท็จ &lt;br /&gt;&lt;br /&gt;  
+
+ข้อสรุปที่ 2: P &gt; 2D &lt;br /&gt;
+จาก P ไป D ตามเงื่อนไข คือ&lt;br /&gt; 
+P &lt; C ≤ D &lt;br /&gt; 
+P &lt; D &lt;br /&gt; 
+P &lt; D &lt; 2D&lt;br /&gt; 
+P &lt; 2D&lt;br /&gt; 
+∴ ข้อสรุปที่ 2: P &gt; 2D เป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: เท็จ &lt;br /&gt;
+ข้อสรุปที่ 2: เท็จ &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: ทั้งสองข้อมีผลการสรุป เป็นเท็จ&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX2 -->
+  <thisQuestion>
+    <qNum>id0810:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2A &gt; 2B = C ≯ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: BD &gt; BP &lt;br /&gt; 
+ข้อสรุปที่ 2: Q ≯ C &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2A &gt; 2B = C ≯ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: BD &gt; BP (จริง) &lt;br /&gt;
+ข้อสรุปที่ 2: Q ≯ C (จริง) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข ✔&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: BD &gt; BP &lt;br /&gt;
+ปรับข้อสรุป โดยเอา B ไปหารทั้งสองข้าง &lt;br /&gt;
+ข้อสรุปที่ 1: D &gt; P &lt;br /&gt;&lt;br /&gt;
+
+จาก D ไป P ตามเงื่อนไข คือ&lt;br /&gt; 
+D ≥ C &gt; P&lt;br /&gt;
+ยุบรวม  &lt;br /&gt;
+D &gt; P&lt;br /&gt;
+∴ ข้อสรุปที่ 1: BD &gt; BP เป็นจริง&lt;br /&gt; &lt;br /&gt; 
+
+ข้อสรุปที่ 2: Q ≯ C &lt;br /&gt;
+เปลี่ยนเครื่องหมายข้อสรุป&lt;br /&gt;
+ข้อสรุปที่ 2: Q ≤ C &lt;br /&gt;
+จาก Q ไป C ตามเงื่อนไข คือ&lt;br /&gt; 
+Q ≤ C&lt;br /&gt;
+∴ ข้อสรุปที่ 2: Q ≯ C เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง &lt;br /&gt;
+ข้อสรุปที่ 2: จริง &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1: ทั้งสองข้อมีผลการสรุป เป็นจริง&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX3 -->
+  <thisQuestion>
+    <qNum>id0811:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2A &gt; 2B = C ≯ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P ≠ D &lt;br /&gt; 
+ข้อสรุปที่ 2: 3A &lt; 2P &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2A &gt; 2B = C ≯ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P ≠ D (จริง) &lt;br /&gt;
+ข้อสรุปที่ 2: 3A &lt; 2P (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P ≠ D &lt;br /&gt; 
+จาก P ไป D ตามเงื่อนไข คือ &lt;br /&gt; 
+D ≥ C &gt; P &lt;br /&gt; 
+D &gt; P &lt;br /&gt; 
+∴ ข้อสรุปที่ 1: P ≠ D เป็นจริง &lt;br /&gt;&lt;br /&gt;  
+
+ข้อสรุปที่ 2: 3A &lt; 2P &lt;br /&gt;
+จาก A ไป P ตามเงื่อนไข คือ&lt;br /&gt; 
+2A &gt; 2B = C &gt; P &lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+2A &gt; P&lt;br /&gt;
+เอา 2 คูณทั้งสองข้าง เพื่อให้ได้ 2P เหมือนข้อสรุป &lt;br /&gt;
+4A &gt; 2P&lt;br /&gt;
+ได้ 2P เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา 3 A มาเทียบได้ &lt;br /&gt;
+3A &lt; 4A &gt; 2P&lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทงกัน สรุปได้ไม่แน่ชัด &lt;br /&gt;
+∴ ข้อสรุปที่ 2: 3A &lt; 2P สรุปไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: ทั้งสองข้อมีผลการสรุป ต่างกัน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX4 -->
+  <thisQuestion>
+    <qNum>id0812:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2A &gt; 2B = C ≯ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+    ข้อสรุปที่ 1: Q &lt; 4B &lt;br /&gt;
+    ข้อสรุปที่ 2: C ≯ P &lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2A &gt; 2B = C ≯ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: Q &lt; 4B (จริง) &lt;br /&gt;
+ข้อสรุปที่ 2: C ≯ P (เท็จ) &lt;br /&gt;
+
+
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: Q &lt; 4B &lt;br /&gt; 
+จาก Q ไป B ตามเงื่อนไข คือ&lt;br /&gt;
+Q ≤ C = 2B&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+Q ≤ 2B&lt;br /&gt;
+ได้ Q เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้าง เอา 4B มาเทียบได้ &lt;br /&gt;
+Q ≤ 2B &lt; 4B &lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+Q &lt; 4B &lt;br /&gt;
+∴ ข้อสรุปที่ 1: Q &lt; 4B เป็นจริง &lt;br /&gt; &lt;br /&gt; 
+
+ข้อสรุปที่ 2: C ≯ P &lt;br /&gt;
+เปลี่ยนเครื่องหมายข้อสรุป&lt;br /&gt; 
+C ≤ P &lt;br /&gt;
+จาก C ไป P ตามเงื่อนไข คือ&lt;br /&gt; 
+C &gt; P&lt;br /&gt; 
+∴ ข้อสรุปที่ 2: C ≯ P เป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง &lt;br /&gt;
+ข้อสรุปที่ 2: เท็จ &lt;br /&gt;
+
+คำตอบคือ ข้อ 1: ทั้งสองข้อมีผลการสรุป เป็นจริง&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX5 -->
+  <thisQuestion>
+    <qNum>id0813:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2A &gt; 2B = C ≯ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 3A ≠ P &lt;br /&gt; 
+ข้อสรุปที่ 2: E ≯ C &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2A &gt; 2B = C ≯ D &gt; E&lt;br /&gt;
+P &lt; C ≥ Q ≠ R&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 3A ≠ P (จริง) &lt;br /&gt;
+ข้อสรุปที่ 2: E ≯ C (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 3A ≠ P &lt;br /&gt;
+จาก A ไป P ตามเงื่อนไข คือ&lt;br /&gt; 
+2A &gt; 2B = C &gt; P&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+2A &gt; P&lt;br /&gt; 
+ได้ P เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้าง นำ 3A มาเทียบได้ &lt;br /&gt;
+3A &gt; 2A &gt; P&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+3A &gt;  P&lt;br /&gt;
+
+∴ ข้อสรุปที่ 1: 3A ≠ P เป็นจริง&lt;br /&gt; &lt;br /&gt; 
+
+ข้อสรุปที่ 2: E ≯ C &lt;br /&gt;
+เปลี่ยนเครื่องหมายในข้อสรุป
+ข้อสรุปที่ 2: E ≤ C &lt;br /&gt;
+
+
+จาก E ไป C ตามเงื่อนไข คือ&lt;br /&gt; 
+C ≯ D &gt; E&lt;br /&gt; 
+C ≤ D &gt; E&lt;br /&gt;
+สรุปไม่ได้ เนื่องจากมีเครื่องหมายสวนทางกัน &lt;br /&gt;
+∴ ข้อสรุปที่ 2: E ≯ C สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: ทั้งสองข้อมีผลการสรุป ต่างกัน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX6 -->
+  <thisQuestion>
+    <qNum>id0814:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≯ O ≯ P&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: I &lt; P &lt;br /&gt;
+ข้อสรุปที่ 2: K &gt; O &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≯ O ≯ P&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: I &lt; P (จริง) &lt;br /&gt;
+ข้อสรุปที่ 2: K &gt; O (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+เปลี่ยนเครื่องหมาย&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≤ O ≤ P&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: I &lt; P &lt;br /&gt;
+จาก I ไป P ตามเงื่อนไข คือ&lt;br /&gt;
+I &lt; J ≤ O ≤ P &lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+I &lt;  P &lt;br /&gt;
+∴ ข้อสรุปที่ 1: I &lt; P เป็นจริง &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: K &gt; O &lt;br /&gt;
+จาก K ไป O ตามเงื่อนไข คือ&lt;br /&gt;
+K &gt; J ≤ O&lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปไม่ได้ &lt;br /&gt;
+∴ ข้อสรุปที่ 2: K &gt; O สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: ทั้งสองข้อมีผลการสรุป ต่างกัน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX7 -->
+  <thisQuestion>
+    <qNum>id0815:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≯ O ≯ P&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P ≥  J &lt;br /&gt;
+ข้อสรุปที่ 2: K &gt; I &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≯ O ≯ P&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P ≥  J (จริง) &lt;br /&gt;
+ข้อสรุปที่ 2: K &gt; I (จริง) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข ✔&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+เปลี่ยนเครื่องหมาย&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≤ O ≤ P&lt;br /&gt;
+
+ข้อสรุปที่ 1: P ≥  J &lt;br /&gt;
+จาก P ไป J ตามเงื่อนไข คือ&lt;br /&gt;
+P ≥ O ≥ J&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+P ≥ J&lt;br /&gt;
+∴ ข้อสรุปที่ 1: P ≥  J เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: K&gt; I &lt;br /&gt;
+จาก K ไป I ตามเงื่อนไข คือ&lt;br /&gt;
+K &gt; J &gt; I&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+K &gt; I&lt;br /&gt;
+∴ ข้อสรุปที่ 2: K &gt; I เป็นจริง &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง &lt;br /&gt;
+ข้อสรุปที่ 2: จริง &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1: ทั้งสองข้อมีผลการสรุปเป็นจริง&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX8 -->
+  <thisQuestion>
+    <qNum>id0816:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≯ O ≯ P&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: N = L &lt;br /&gt;
+ข้อสรุปที่ 2: I = O &lt;br /&gt;
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≯ O ≯ P&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: N = L (เท็จ) &lt;br /&gt;
+ข้อสรุปที่ 2: I = O (เท็จ) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข ✔ &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+เปลี่ยนเครื่องหมาย&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≤ O ≤ P&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: N = L&lt;br /&gt;
+จาก N ไป L ตามเงื่อนไข คือ&lt;br /&gt;
+N &lt; L&lt;br /&gt;
+∴ ข้อสรุปที่ 1: N = L เป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: I = O &lt;br /&gt;
+จาก N ไป L ตามเงื่อนไข คือ&lt;br /&gt;
+I &lt; J ≤ O&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+I &lt; O &lt;br /&gt;
+∴ ข้อสรุปที่ 2: I = O เป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: เท็จ &lt;br /&gt;
+ข้อสรุปที่ 2: เท็จ &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: ทั้งสองข้อมีผลการสรุปเป็นเท็จ&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX9 -->
+  <thisQuestion>
+    <qNum>id0817:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≯ O ≯ P&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P &gt; K &lt;br /&gt;
+ข้อสรุปที่ 2: M = N &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≯ O ≯ P&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P &gt; K (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: M = N (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P &gt; K &lt;br /&gt;
+จาก P ไป K ตามเงื่อนไข คือ&lt;br /&gt;
+P ≥ O ≥ J &lt; K&lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปได้ไม่แน่ชัด &lt;br /&gt;
+∴ ข้อสรุปที่ 1: P &gt; K สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: M = N &lt;br /&gt;
+จาก M ไป N ตามเงื่อนไข คือ&lt;br /&gt;
+M &lt; L &gt; N&lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปได้ไม่แน่ชัด &lt;br /&gt;
+∴ ข้อสรุปที่ 2: M = N สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX10 -->
+  <thisQuestion>
+    <qNum>id0818:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≯ O ≯ P&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 2L &lt; 2M &lt;br /&gt;
+ข้อสรุปที่ 2: P &lt; J &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≯ O ≯ P&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 2L &lt; 2M (เท็จ) &lt;br /&gt;
+ข้อสรุปที่ 2: P &lt; J (เท็จ) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข ✔ &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+เปลี่ยนเครื่องหมาย &lt;br /&gt;
+M &lt; L &gt; N ≠ K &gt; J&lt;br /&gt;
+I &lt; J ≤ O ≤ P&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 2L &lt; 2M &lt;br /&gt;
+จาก L ไป M ตามเงื่อนไข คือ&lt;br /&gt;
+L &gt; M&lt;br /&gt;
+คูณด้วย 2 ตลอด&lt;br /&gt;
+2L &gt; 2M&lt;br /&gt;
+∴ ข้อสรุปที่ 1: 2L &lt; 2M เป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: P &lt; J&lt;br /&gt;
+จาก P ไป J ตามเงื่อนไข คือ&lt;br /&gt;
+P ≥ O ≥ J&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+P ≥ J&lt;br /&gt;
+∴ ข้อสรุปที่ 2: P &lt; J  เป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: เท็จ &lt;br /&gt;
+ข้อสรุปที่ 2: เท็จ &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: ทั้งสองข้อมีผลการสรุป เป็นเท็จ&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX11 -->
+  <thisQuestion>
+    <qNum>id0819:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+R = E &gt; 2W &gt; P &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: F &gt; 4W &lt;br /&gt;
+ข้อสรุปที่ 2: P &gt; &lt;tex&gt;\frac{Q}{2}&lt;/tex&gt; &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+R = E &gt; 2W &gt; P &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F&lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: F &gt; 4W (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: P &gt; &lt;tex&gt;\frac{Q}{2}&lt;/tex&gt; (เท็จ) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ &lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+ข้อสรุปที่ 1: F &gt; 4W &lt;br /&gt;&lt;br /&gt;
+จาก F ไป W ตามข้อสรุปแรก เมื่อดูเงื่อนไขทั้งสองแล้ว จะเห็นว่ามีตัวเชื่อม คือ R &lt;br /&gt;
+ความจริง ในเงื่อนไขที่สอง มี W กับ F แต่มีเครื่องหมาย ≠ คั่น ซึ่งจะเป็นตัวปัญหา ทำให้สรุปอะไรไม่ได้ เพราะ อาจจะมากกว่า
+หรือน้อยกว่า ก็ได้ จึงควรหลีกเลี่ยง แต่ควรไปผ่านตัวเชื่อม R ดีกว่า &lt;br /&gt;&lt;br /&gt;
+
+จาก F ไป W ผ่าน R คือ&lt;br /&gt;&lt;br /&gt;
+
+F &gt; R = E &gt; 2W &lt;br /&gt;
+ยุบรวม&lt;br /&gt;
+F &gt; 2W &lt;br /&gt;
+ได้ F ข้างหนึ่งเหมือนข้อสรุปแล้ว อีกข้าง เอา 4W มาเทียบได้ &lt;br /&gt;
+F &gt; 2W &lt; 4W  &lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปไม่ได้ &lt;br /&gt;
+∴ ข้อสรุปที่ 1: F &gt; 4W สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: P &gt; &lt;tex&gt;\frac{Q}{2}&lt;/tex&gt;  &lt;br /&gt; &lt;br /&gt;
+
+จาก P ไป Q ตามเงื่อนไข ควรใช้ W เป็นตัวเชื่อม เพราะ ถ้าใช้ R จะมีเครื่องหมาย ≠ คั่น ทำให้เกิดปัญหาได้&lt;br /&gt;&lt;br /&gt;
+
+ทำ 5W ในเงื่อนไขบรรทัดล่าง ให้เป็น 2W เพื่อใช้เป็นตัวเชื่อม&lt;br /&gt;
+โดยการ คูณด้วย &lt;tex&gt;\frac{2}{5}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{5×2×W}{5} &lt;/tex&gt;  &lt; &lt;tex&gt;\frac{2Q}{5} &lt;/tex&gt; ≠ &lt;tex&gt;\frac{2R}{5} &lt;/tex&gt;  &lt; &lt;tex&gt;\frac{2F}{5} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+2W &lt; &lt;tex&gt;\frac{2Q}{5} &lt;/tex&gt; ≠ &lt;tex&gt;\frac{2R}{5} &lt;/tex&gt;  &lt; &lt;tex&gt;\frac{2F}{5} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+จาก P ไป Q ตามเงื่อนไข ผ่าน W คือ&lt;br /&gt;&lt;br /&gt;
+
+P &lt; 2W &lt; &lt;tex&gt;\frac{2Q}{5} &lt;/tex&gt;  &lt;br /&gt;
+ยุบรวม&lt;br /&gt;
+P &lt; &lt;tex&gt;\frac{2Q}{5} &lt;/tex&gt;  &lt;br /&gt;
+ได้ P ข้างหนึ่งเหมือนข้อสรุปแล้ว อีกข้างเอา &lt;tex&gt;\frac{Q}{2}&lt;/tex&gt; มาเทียบได้ &lt;br /&gt;&lt;br /&gt;
+
+P &lt; &lt;tex&gt;\frac{2Q}{5} &lt;/tex&gt; ??  &lt;tex&gt;\frac{Q}{2}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{2Q}{5} = 0.4Q  &lt;/tex&gt; &lt;br /&gt;
+&lt;tex&gt;\frac{Q}{2} = 0.5Q  &lt;/tex&gt; &lt;br /&gt;
+0.4Q &lt; 0.5Q &lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น &lt;br /&gt;&lt;br /&gt;
+
+P &lt; &lt;tex&gt;\frac{2Q}{5} &lt;/tex&gt; &lt;  &lt;tex&gt;\frac{Q}{2}&lt;/tex&gt; &lt;br /&gt;
+ยุบรวม
+P &lt;   &lt;tex&gt;\frac{Q}{2}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+∴ ข้อสรุปที่ 2: P &gt; &lt;tex&gt;\frac{Q}{2}&lt;/tex&gt; เป็นเท็จ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: เท็จ &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+ขอบคุณ น้องKriitiinna Suwansombat ที่ช่วยตรวจทาน และแจ้งให้ทราบ &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX12 -->
+  <thisQuestion>
+    <qNum>id0820:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+R = E &gt; 2W &gt; P &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1:E &lt; Q &lt;br /&gt;
+ข้อสรุปที่ 2: Q &gt; F &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+R = E &gt; 2W &gt; P &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1:E &lt; Q (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: Q &gt; F (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เงื่อนไขที่ 2 คูณด้วย &lt;tex&gt;\frac{2}{5}&lt;/tex&gt; เพื่อให้ได้ 2W ที่จะใช้เป็นตัวเชื่อม &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+2W  &lt; &lt;tex&gt;\frac{2Q}{5}&lt;/tex&gt;  ≠ &lt;tex&gt;\frac{2R}{5}&lt;/tex&gt; &lt; &lt;tex&gt;\frac{2F}{5}&lt;/tex&gt;  &lt;br /&gt; &lt;br /&gt;
+
+
+
+ข้อสรุปที่ 1:E &lt; Q &lt;br /&gt;
+จาก E ไป Q ตามเงื่อนไข คือ &lt;br /&gt;&lt;br /&gt;
+
+E &gt; 2W  &lt; &lt;tex&gt;\frac{2Q}{5}&lt;/tex&gt; &lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปไม่ได้แน่ชัด &lt;br /&gt;
+∴ ข้อสรุปที่ 1:E &lt; Q สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: Q &gt; F &lt;br /&gt;
+จาก E ไป Q ตามเงื่อนไข คือ &lt;br /&gt;
+Q ≠ R &lt; F &lt;br /&gt;
+เครื่องหมาย ≠ ทำให้ไม่สามารถสรุปได้แน่ชัด เพราะ อาจจะมากกว่า หรือน้อยกว่า ก็ได้ &lt;br /&gt;
+คือ&lt;br /&gt;
+ถ้า Q &lt; R แล้ว Q &lt; F ก็จะเป็นจริง&lt;br /&gt;
+แต่&lt;br /&gt;
+ถ้า Q &gt; R แล้ว Q &lt; F ก็จะสรุปไม่ได้&lt;br /&gt;
+∴ ข้อสรุปที่ 2: Q &gt; F สรุปไม่ได้ เพราะ F สามารถมีค่า มากกว่า น้อยกว่า หรือเท่ากับ Q ก็ได้ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2:  ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX13 -->
+  <thisQuestion>
+    <qNum>id0821:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+R = E &gt; 2W &gt; P &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: F = 2W &lt;br /&gt;
+ข้อสรุปที่ 2: P = F &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+R = E &gt; 2W &gt; P &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: F = 2W (เท็จ) &lt;br /&gt;
+ข้อสรุปที่ 2: P = F (เท็จ) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข  ✔&lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+การมองหาตัวเชื่อม ถ้าเห็นเครื่องหมาย ไม่เท่ากัน ต้องพยายามหลีกเลี่ยง เพราะจะทำให้สรุปไม่ได้ &lt;br /&gt;
+
+
+เงื่อนไขที่ 2 คูณด้วย &lt;tex&gt;\frac{2}{5}&lt;/tex&gt; เพื่อให้ได้ 2W ที่จะใช้เป็นตัวเชื่อม &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+2W  &lt; &lt;tex&gt;\frac{2Q}{5}&lt;/tex&gt;  ≠ &lt;tex&gt;\frac{2R}{5}&lt;/tex&gt; &lt; &lt;tex&gt;\frac{2F}{5}&lt;/tex&gt;  &lt;br /&gt; &lt;br /&gt;
+
+
+ข้อสรุปที่ 1: F = 2W &lt;br /&gt;
+จาก F ไป W ตามเงื่อนไขทั้งสอง ผ่าน R คือ &lt;br /&gt;
+
+F &gt; R = E &gt; 2W &lt;br /&gt;
+ยุบรวม
+F &gt; 2W &lt;br /&gt;
+∴ ข้อสรุปที่ 1: F = 2W  จึงเป็นเท็จ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: P = F&lt;br /&gt;
+จาก P ไป F ตามเงื่อนไข จะเห็นว่า ใช้ R เป็นตัวเชื่อม เพราะไม่ต้องข้ามเครื่องหมาย ≠&lt;br /&gt;
+จากเงื่อนไขแรก  จะได้ว่า&lt;br /&gt;
+
+P &lt; 2W &lt; E = R &lt; F&lt;br /&gt;
+ยุบรวม&lt;br /&gt;
+P &lt; F&lt;br /&gt;
+∴ ข้อสรุปที่ 2: P = F จึงเป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: เท็จ &lt;br /&gt;
+ข้อสรุปที่ 2: เท็จ &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: ทั้งสองข้อมีผลการสรุป เป็นเท็จ&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX14 -->
+  <thisQuestion>
+    <qNum>id0822:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+R = E &gt; 2W &gt; P &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 7W &lt; R &lt;br /&gt;
+ข้อสรุปที่ 2: E ≥ 3Q &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+R = E &gt; 2W &gt; P &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 7W &lt; R (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: E ≥ 3Q (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 7W &lt; R&lt;br /&gt;
+จาก W ไป R ตามเงื่อนไข คือ&lt;br /&gt;
+W &lt; Q ≠ R&lt;br /&gt;
+∴ ข้อสรุปที่ 1: 7W &lt; R สรุปไม่ได้ เพราะ  R อาจจะมากกว่า เท่ากับ หรือน้อยกว่า W ก็ได้ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: E ≥ 3Q&lt;br /&gt;
+จาก E ไป Q ตามเงื่อนไข คือ&lt;br /&gt;
+E = R  ≠ Q&lt;br /&gt;
+เนื่องจากต้องผ่านเครื่องหมาย  ≠ จึงทำให้สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+แต้ยังมีอีกเส้นทาง คือ ผ่าน W &lt;br /&gt;&lt;br /&gt;
+
+เงื่อนไขที่ 2 คูณด้วย &lt;tex&gt;\frac{2}{5}&lt;/tex&gt; เพื่อให้ได้ 2W ที่จะใช้เป็นตัวเชื่อม &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+2W  &lt; &lt;tex&gt;\frac{2Q}{5}&lt;/tex&gt;  ≠ &lt;tex&gt;\frac{2R}{5}&lt;/tex&gt; &lt; &lt;tex&gt;\frac{2F}{5}&lt;/tex&gt;  &lt;br /&gt; &lt;br /&gt;
+
+จาก E ไป Q ผ่าน W ตามเงื่อนไข คือ&lt;br /&gt;
+
+E &gt; 2W  &lt; &lt;tex&gt;\frac{2Q}{5}&lt;/tex&gt;&lt;br /&gt;
+
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปได้ไม่แน่ชัด&lt;br /&gt;
+
+∴ ข้อสรุปที่ 2: E ≥ 3Q สรุปไม่ได้ เพราะ Q อาจจะมากกว่า หรือน้อยกว่า E ก็ได้ &lt;br /&gt;&lt;br /&gt;
+
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX15 -->
+  <thisQuestion>
+    <qNum>id0823:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+R = E &gt; 2W &gt; P &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 2W &lt; Q &lt;br /&gt;
+ข้อสรุปที่ 2: P ≠ R &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+R = E &gt; 2W &gt; P &lt;br /&gt;
+5W &lt; Q ≠ R &lt; F &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 2W &lt; Q (จริง) &lt;br /&gt;
+ข้อสรุปที่ 2: P ≠ R (จริง) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 2W &lt; Q &lt;br /&gt;
+จาก W ไป Q ตามเงื่อนไข คือ &lt;br /&gt;
+5W &lt; Q &lt;br /&gt;
+ได้ Q เหมือนข้อสรุปข้างหนึ่งแล้ว อีกข้างเอา 2W มาเทียบได้ &lt;br /&gt;
+2W &lt; 5W &lt; Q &lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+2W &lt; Q &lt;br /&gt;
+∴ ข้อสรุปที่ 1: 2W &lt; Q เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: P ≠ R &lt;br /&gt;
+ตามเงื่อนไขแรก จะเห็นว่า R = E &gt; 2W &gt; P  &lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+R &gt; P หรือ P &lt; R &lt;br /&gt;
+∴ ข้อสรุปที่ 2: P ≠ R เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง &lt;br /&gt;
+ข้อสรุปที่ 2: จริง &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1 : ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX16 -->
+  <thisQuestion>
+    <qNum>id0824:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+Q &lt; T ≠ U &gt; (V+W) &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: W &gt; 2U &lt;br /&gt;
+ข้อสรุปที่ 2: T &lt; 4R &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+Q &lt; T ≠ U &gt; (V+W) &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: W &gt; 2U (เท็จ) &lt;br /&gt;
+ข้อสรุปที่ 2: T &lt; 4R (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: W &gt; 2U &lt;br /&gt;
+จาก W ไป U ตามเงื่อนไข คือ &lt;br /&gt;
+(V+W) &lt; U &lt;br /&gt;
+2(V+W) &lt; 2U &lt;br /&gt;
+W ?? 2(V+W) &lt; 2U &lt;br /&gt;
+W ?? 2V+2W &lt; 2U &lt;br /&gt;
+W ตัวเดียว ย่อมน้อยกว่า  2V+2W &lt;br /&gt;
+W &lt; 2V+2W &lt; 2U &lt;br /&gt;
+ยุบรวม  &lt;br /&gt;
+W &lt; 2U &lt;br /&gt;
+∴ ข้อสรุปที่ 1: W &gt; 2U เป็นเท็จ&lt;br /&gt; &lt;br /&gt;
+
+ข้อสรุปที่ 2: T &lt; 4R &lt;br /&gt;
+จาก T ไป R ตามเงื่อนไข คือ &lt;br /&gt;
+T &gt; Q &lt; 3R &lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปได้ไม่แน่ชัด &lt;br /&gt;
+∴ ข้อสรุปที่ 2: T &lt; 4R สรุปไม่ได้&lt;br /&gt; &lt;br /&gt;
+
+ข้อสรุปที่ 1: เท็จ &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: ทั้งสองข้อมีผลการสรุป ต่างกัน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX17 -->
+  <thisQuestion>
+    <qNum>id0825:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+Q &lt; T ≠ U &gt; (V+W) &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: T = P &lt;br /&gt;
+ข้อสรุปที่ 2: U &lt; 6R &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+Q &lt; T ≠ U &gt; (V+W) &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: T = P (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: U &lt; 6R (ไม่แน่ชัด) &lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: T = P &lt;br /&gt;
+จาก T ไป P ตามเงื่อนไข คือ &lt;br /&gt;
+T &gt; Q &lt; 2P &lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปได้ไม่แน่ชัด &lt;br /&gt;
+∴ ข้อสรุปที่ 1: T = P สรุปไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: U &lt; 6R &lt;br /&gt;
+จาก U ไป R ตามเงื่อนไข คือ &lt;br /&gt;
+U ≠ T &gt; Q &lt; 2P &lt;br /&gt;
+เนื่องจาก ต้องผ่านเครื่องหมาย  ≠ ทำให้ไม่สามารถสรุปได้อย่างแน่ชัด &lt;br /&gt;
+∴ข้อสรุปที่ 2: U &lt; 6R ไม่สามารถสรุปได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX18 -->
+  <thisQuestion>
+    <qNum>id0826:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+Q &lt; T ≠ U &gt; (V+W) &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: W &lt; P &lt;br /&gt;
+ข้อสรุปที่ 2: S &gt; 2R &lt;br /&gt;
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+Q &lt; T ≠ U &gt; (V+W) &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: W &lt; P (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: S &gt; 2R (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: W &lt; P &lt;br /&gt;
+จาก W ไป P ตามเงื่อนไข คือ &lt;br /&gt;
+(V+W) &lt; U ≠ T &gt; Q &lt; 2P &lt;br /&gt;
+∴ ข้อสรุปที่ 1: W &lt; P สรุปไม่ได้ เพราะผ่านเครื่องหมาย  ≠  &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: S &gt; 2R&lt;br /&gt;
+จาก S ไป R ตามเงื่อนไข คือ &lt;br /&gt;
+3S &gt; 3R &lt;br /&gt;
+เอา 3 หารตลอด เพื่อให้ได้ S ข้างหนึ่งเหมือนข้อสรุป &lt;br /&gt;
+S &gt; R &lt;br /&gt;
+ได้ S ข้างหนึ่งเหมือนข้อสรุป อีกข้าง เอา 2R มาเทียบได้ &lt;br /&gt;
+S &gt; R &lt; 2R &lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปไม่ได้แน่ชัด &lt;br /&gt;
+∴ ข้อสรุปที่ 2: S &gt; 2R สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX19 -->
+  <thisQuestion>
+    <qNum>id0827:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+Q &lt; T ≠ U &gt; (V+W) &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+
+ข้อสรุปที่ 1: 4R &gt; T &lt;br /&gt;
+ข้อสรุปที่ 2: V &lt; 2Q &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+Q &lt; T ≠ U &gt; (V+W) &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 4R &gt; T (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: V &lt; 2Q (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 4R &gt; T &lt;br /&gt;
+จาก R ไป T ตามเงื่อนไข คือ &lt;br /&gt;
+3R &gt; Q &lt; T &lt;br /&gt;
+เครื่องหมายสวนทางกัน จึงสรุปไม่ได้  &lt;br /&gt;
+∴ ข้อสรุปที่ 1: 4R &gt; T สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: V &lt; 2Q &lt;br /&gt;
+จาก V ไป Q ตามเงื่อนไข คือ &lt;br /&gt;
+(V+W) &lt; U ≠ T &gt; Q &lt;br /&gt;
+เครื่องหมายสวนทางกัน จึงสรุปไม่ได้  &lt;br /&gt;
+∴ ข้อสรุปที่ 2: V &lt; 2Q สรุปไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX20 -->
+  <thisQuestion>
+    <qNum>id0828:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+Q &lt; T ≠ U &gt; (V+W) &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P &gt; S &lt;br /&gt;
+ข้อสรุปที่ 2: P &gt; 2R &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+Q &lt; T ≠ U &gt; (V+W) &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P &gt; S (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: P &gt; 2R (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: P &gt; S &lt;br /&gt;
+จาก P ไป S ตามเงื่อนไข คือ&lt;br /&gt;
+2P &gt; Q &lt; 3R &lt; 3S &lt;br /&gt;
+∴ ข้อสรุปที่ 1: P &gt; S ไม่สามารถสรุปได้ เนื่องจากมีเครื่องหมายสวนกัน&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: P &gt; 2R &lt;br /&gt;
+จาก P ไป S ตามเงื่อนไข คือ&lt;br /&gt;
+2P &gt; Q &lt; 3R  &lt;br /&gt;
+∴ ข้อสรุปที่ 2: P &gt; 2R  ไม่สามารถสรุปได้ เนื่องจากมีเครื่องหมายสวนกัน&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด  &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX21 -->
+  <thisQuestion>
+    <qNum>id0829:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+    &lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+    &lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+
+    2A ≯ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+    &lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: K &lt; F &lt;br /&gt;
+ข้อสรุปที่ 2: C &lt; F &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+&lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+
+2A ≯ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+&lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: K &lt; F (จริง) &lt;br /&gt;
+ข้อสรุปที่ 2: C &lt; F (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: K &lt; F &lt;br /&gt;
+จาก K ไป F ตามเงื่อนไข คือ&lt;br /&gt;
+&lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+กลับเศษเป็นส่วน (เครื่องหมายเปลี่ยนเป็นตรงข้าม)&lt;br /&gt;
+K &lt; F  &lt;br /&gt;
+∴ ข้อสรุปที่ 1: K &lt; F เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: C &lt; F &lt;br /&gt;
+จาก C ไป F ตามเงื่อนไข คือ&lt;br /&gt;
+&lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+&lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+∴ ข้อสรุปที่ 2: C &lt; F สรุปไม่ได้ เพราะ ต้องผ่านเครื่องหมาย ≠ จึงทำให้สรุปได้ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: ทั้งสองข้อมีผลการสรุป ต่างกัน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX22 -->
+  <thisQuestion>
+    <qNum>id0830:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+
+    &lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+    &lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+
+    2A ≯ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+    &lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: C &lt; G &lt;br /&gt;
+ข้อสรุปที่ 2: K &lt; A &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+&lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+
+2A ≯ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+&lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+เปลี่ยนเครื่องหมายที่เป็นเชิงปฏิเสธ&lt;br /&gt;
+2A ≤ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+&lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: C &lt; G (ไม่แน่ชัด)&lt;br /&gt;
+ข้อสรุปที่ 2: K &lt; A (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข&lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔ &lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: C &lt; G &lt;br /&gt;
+จาก C ไป G ตามเงื่อนไข คือ&lt;br /&gt;
+&lt;tex&gt;\frac{3}{C}&lt;/tex&gt; &lt; &lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &lt;br /&gt;
+คูณไขว้&lt;br /&gt;
+3G &lt; 6C &lt;br /&gt;
+เอา 3 หาร เพื่อให้ได้ G ข้างหนึ่งเหมือนข้อสรุป &lt;br /&gt;
+G &lt; 2C &lt;br /&gt;
+สลับตำแหน่งเพื่อให้เหมือนข้อสรุป &lt;br /&gt;
+
+2C &gt; G &lt;br /&gt;
+ได้ G ข้างหนึ่งเหมือนข้อสรุปแล้ว อีกข้าง เอา C มาเทียบได้ &lt;br /&gt;
+C &lt; 2C &gt; G &lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปไม่ได้ &lt;br /&gt;
+∴ ข้อสรุปที่ 1: C &lt; G สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: K &lt; A &lt;br /&gt;
+จาก K ไป A ตามเงื่อนไข คือ&lt;br /&gt;
+
+&lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; B ≥ 2A &lt;br /&gt;
+
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปไม่ได้ &lt;br /&gt;
+∴ ข้อสรุปที่ 2: K &lt; A สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX23 -->
+  <thisQuestion>
+    <qNum>id0831:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+    &lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+    &lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+    &lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+
+    2A ≯ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+    &lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+    (ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: C &lt; B &lt;br /&gt;
+ข้อสรุปที่ 2: B &lt; R &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+&lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+2A ≯ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+&lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: C &lt; B (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: B &lt; R (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔ &lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: C &lt; B &lt;br /&gt;
+
+จาก C ไป B  ผ่าน &lt;tex&gt;  \frac{1}{K} &lt;/tex&gt; ตามเงื่อนไข คือ&lt;br /&gt;
+
+&lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+&lt;tex&gt;  \frac{1}{K} &lt;/tex&gt; &lt; B &lt;br /&gt;
+
+เนื่องจากต้องผ่านเครื่องหมาย ≠ จึงทำให้ไม่สามารถสรุปได้อย่างแน่ชัด  &lt;br /&gt;
+∴ ข้อสรุปที่ 1: C &lt; B สรุปไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: B &lt; R&lt;br /&gt;
+จาก B ไป R ตามเงื่อนไข คือ&lt;br /&gt;
+B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+&lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+มีเครื่องหมายสวนทางกัน จึงสรุปได้ไม่แน่ชัด &lt;br /&gt;
+∴ ข้อสรุปที่ 2: B &lt; R สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+  <!-- XX24 -->
+  <thisQuestion>
+    <qNum>id0832:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+    &lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+    &lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+    2A ≯ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+    &lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: G = A &lt;br /&gt;
+ข้อสรุปที่ 2: F &gt; A &lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+&lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+2A ≯ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+&lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+เปลี่ยนเครื่องหมายที่เป็นเชิงปฏิเสธ&lt;br /&gt;
+2A ≤ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+&lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: G = A (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: F &gt; A (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: G = A &lt;br /&gt;
+จาก G ไป A ตามเงื่อนไข คือ &lt;br /&gt;
+&lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+&lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;  &lt; B ≥ 2A &lt;br /&gt;
+
+ไม่สามารถสรุปได้ เนื่องจากมีเครื่องหมายสวนทางกัน อีกทั้งยังต้องผ่าน เครื่องหมาย ≠ อีกด้วย&lt;br /&gt;
+∴ ข้อสรุปที่ 1: G = A สรุปไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: F &gt; A &lt;br /&gt;
+จาก F ไป A ตามเงื่อนไข คือ &lt;br /&gt;
+&lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt; &lt;tex&gt;  \frac{1}{K} &lt;/tex&gt; &lt; B ≥ 2A &lt;br /&gt;
+สรุปไม่ได้ เนื่องจากมีเครื่องหมายสวนทางกัน &lt;br /&gt;
+∴ ข้อสรุปที่ 2:F &gt; A สรุปไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX25 -->
+  <thisQuestion>
+    <qNum>id0833:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+    &lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+    &lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+    2A ≯ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+    &lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+
+
+ข้อสรุปที่ 1: F &gt; K&lt;br /&gt;
+ข้อสรุปที่ 2: A &lt; B&lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{6}{G} &lt;/tex&gt; &gt;  &lt;tex&gt;\frac{3}{C}&lt;/tex&gt; ≠
+&lt;tex&gt;  \frac{1}{K} &lt;/tex&gt;   &gt;  &lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt;br /&gt;
+2A ≯ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+&lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: F &gt; K (จริง) &lt;br /&gt;
+ข้อสรุปที่ 2: A &lt; B (จริง)  &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข ✔&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เปลี่ยนเครื่องหมายที่เป็นเชิงปฏิเสธ&lt;br /&gt;
+2A ≤ B &gt; &lt;tex&gt;\frac{1}{K} &lt;/tex&gt; &lt; &lt;tex&gt;\frac{1}{Q} &lt;/tex&gt; &lt;
+&lt;tex&gt;\frac{1}{R} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: F &gt; K &lt;br /&gt;
+จาก F ไป K ตามเงื่อนไข คือ&lt;br /&gt;
+&lt;tex&gt;\frac{1}{F} &lt;/tex&gt; &lt; &lt;tex&gt;  \frac{1}{K} &lt;/tex&gt; &lt;br /&gt;
+กลับเศษเป็นส่วน เปลี่ยนเครื่องหมายเป็นตรงข้าม&lt;br /&gt;
+F &gt; K&lt;br /&gt;
+∴ ข้อสรุปที่ 1: F &gt; K เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: A &lt; B &lt;br /&gt;
+จาก A ไป B ตามเงื่อนไข คือ&lt;br /&gt;
+2A ≤ B&lt;br /&gt;
+มี B ข้างหนึ่งเหมือนข้อสรุปแล้ว อีกข้างเอา A มาเทียบได้  &lt;br /&gt;
+A &lt; 2A ≤ B&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+A &lt; B&lt;br /&gt;
+∴ ข้อสรุปที่ 2: A &lt; B เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง &lt;br /&gt;
+ข้อสรุปที่ 2: จริง   &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1: ทั้งสองข้อมีผลการสรุปเป็นจริง&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- ถึงตรงนี้ -->
+  <!-- XX26 -->
+  <thisQuestion>
+    <qNum>id0834:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;
+
+    &lt;tex&gt;\frac{Q}{5} &lt;/tex&gt;  &gt; &lt;tex&gt;\frac{P}{4} &lt;/tex&gt;
+    = &lt;tex&gt;\frac{J}{2} &lt;/tex&gt; &nbsp; ≮ &lt;tex&gt;\frac{K}{6} &lt;/tex&gt; &lt;br /&gt;
+    2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: J &gt; M&lt;br /&gt;
+ข้อสรุปที่ 2: K &gt; 2P&lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{Q}{5} &lt;/tex&gt;  &gt; &lt;tex&gt;\frac{P}{4} &lt;/tex&gt;
+= &lt;tex&gt;\frac{J}{2} &lt;/tex&gt; &nbsp; ≮ &lt;tex&gt;\frac{K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: J &gt; M (เท็จ) &lt;br /&gt;
+ข้อสรุปที่ 2: K &gt; 2P  (เท็จ) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข ✔ &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ทำตัวเชื่อม P ให้เท่ากัน โดยใช้ 8 คูณเงื่อนไขแรก &lt;br /&gt;
+
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt;  &gt; 2P = 4J ≮ &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+
+
+เปลี่ยนเครื่องหมายเชิงปฎิเสธ ให้เป็นเครื่องหมายปกติ เพื่อให้ดูง่ายขึ้น &lt;br /&gt;
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt;  &gt; 2P = 4J ≥ &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≤ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: J &gt; M&lt;br /&gt;
+จาก J ไป M ตามเงื่อนไข คือ&lt;br /&gt;
+4J = 2P ≤ L &lt; M&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+4J &lt; M&lt;br /&gt;
+ได้ M ข้างหนึ่งเหมือนข้อสรุปแล้ว อีกข้างเอา J มาเทียบได้ &lt;br /&gt;
+J &lt; 4J &lt; M&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+J &lt; M&lt;br /&gt;
+∴ ข้อสรุปที่ 1: J &gt; M เป็นเท็จ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: K &gt; 2P&lt;br /&gt;
+จาก K ไป P ตามเงื่อนไข คือ&lt;br /&gt;
+&lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; ≤ 4J = 2P&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+&lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; ≤ 2P&lt;br /&gt;
+ได้ 2P ข้างหนึ่งเหมือนข้อสรุปแล้ว อีกข้างเอา K มาเทียบได้ &lt;br /&gt;
+&lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; = 1.33K ย่อมมากกว่า K &lt;br /&gt;
+หรือพูดอีกอย่างได้ว่า K น้อยกว่า &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt;  &lt;br /&gt;
+K &lt; &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; ≤ 2P&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+K &lt; 2P&lt;br /&gt;
+∴ ข้อสรุปที่ 2: K &gt; 2P เป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: เท็จ &lt;br /&gt;
+ข้อสรุปที่ 2: เท็จ &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: ทั้งสองข้อมีผลการสรุป เป็นเท็จ&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX27 -->
+  <thisQuestion>
+    <qNum>id0835:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;tex&gt;\frac{Q}{5} &lt;/tex&gt;  &gt; &lt;tex&gt;\frac{P}{4} &lt;/tex&gt;
+    = &lt;tex&gt;\frac{J}{2} &lt;/tex&gt; &nbsp; ≮ &lt;tex&gt;\frac{K}{6} &lt;/tex&gt; &lt;br /&gt;
+    2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: Q &gt; 3J&lt;br /&gt;
+ข้อสรุปที่ 2: N &gt; Q&lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{Q}{5} &lt;/tex&gt;  &gt; &lt;tex&gt;\frac{P}{4} &lt;/tex&gt;
+= &lt;tex&gt;\frac{J}{2} &lt;/tex&gt; &nbsp; ≮ &lt;tex&gt;\frac{K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: Q &gt; 3J (ไม่แน่ชัด) &lt;br /&gt;
+ข้อสรุปที่ 2: N &gt; Q  (ไม่แน่ชัด) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้ ✔&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ทำตัวเชื่อม P ให้เท่ากัน โดยใช้ 8 คูณเงื่อนไขแรก &lt;br /&gt;
+
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt;  &gt; 2P = 4J ≮ &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+
+
+เปลี่ยนเครื่องหมายเชิงปฎิเสธ ให้เป็นเครื่องหมายปกติ เพื่อให้ดูง่ายขึ้น &lt;br /&gt;
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt;  &gt; 2P = 4J ≥ &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≤ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: Q &gt; 3J&lt;br /&gt;
+จาก Q ไป J ตามเงื่อนไข คือ&lt;br /&gt;
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt; &gt; 2P = 4J &lt;br /&gt;
+ยุบรวม  &lt;br /&gt;
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt; &gt; 4J&lt;br /&gt;
+&lt;tex&gt;\frac{5}{8} &lt;/tex&gt; คูณตลอด เพื่อให้ได้ Q&lt;br /&gt;
+Q &gt; &lt;tex&gt;\frac{20J}{8} &lt;/tex&gt; &lt;br /&gt;
+ได้ Q ข้างหนึ่งเหมือนข้อสรุปแล้ว อีกข้างเอา 3J มาเทียบได้ &lt;br /&gt;
+&lt;tex&gt;\frac{20J}{8} &lt;/tex&gt; = 2.5J ย่อมน้อยกว่า 3J &lt;br /&gt;
+Q &gt; &lt;tex&gt;\frac{20J}{8} &lt;/tex&gt; &lt; 3J&lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปไม่ได้ &lt;br /&gt;
+∴ ข้อสรุปที่ 1: Q &gt; 3J สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: N &gt; Q&lt;br /&gt;
+จาก N ไป Q ตามเงื่อนไข คือ&lt;br /&gt;
+&lt;tex&gt;\frac{N}{2} &lt;/tex&gt; = M &gt; L ≥ 2P &lt; &lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt; &lt;br /&gt;
+พบว่ามีเครื่องหมายสวนทางกัน จึงสรุปได้ไม่แน่ชัด &lt;br /&gt;
+∴ ข้อสรุปที่ 2: N &gt; Q สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: ไม่แน่ชัด &lt;br /&gt;
+ข้อสรุปที่ 2: ไม่แน่ชัด &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ทั้งสองข้อมีผลการสรุป ไม่แน่ชัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX28 -->
+  <thisQuestion>
+    <qNum>id0836:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;tex&gt;\frac{Q}{5} &lt;/tex&gt;  &gt; &lt;tex&gt;\frac{P}{4} &lt;/tex&gt;
+    = &lt;tex&gt;\frac{J}{2} &lt;/tex&gt; &nbsp; ≮ &lt;tex&gt;\frac{K}{6} &lt;/tex&gt; &lt;br /&gt;
+    2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: L &gt; 3J&lt;br /&gt;
+ข้อสรุปที่ 2: P ≠ Q&lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{Q}{5} &lt;/tex&gt;  &gt; &lt;tex&gt;\frac{P}{4} &lt;/tex&gt;
+= &lt;tex&gt;\frac{J}{2} &lt;/tex&gt; &nbsp; ≮ &lt;tex&gt;\frac{K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: L &gt; 3J   (จริง)  &lt;br /&gt;
+ข้อสรุปที่ 2: P ≠ Q   (จริง) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข ✔&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ทำตัวเชื่อม P ให้เท่ากัน โดยใช้ 8 คูณเงื่อนไขแรก &lt;br /&gt;
+
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt;  &gt; 2P = 4J ≮ &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+
+
+เปลี่ยนเครื่องหมายเชิงปฎิเสธ ให้เป็นเครื่องหมายปกติ เพื่อให้ดูง่ายขึ้น &lt;br /&gt;
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt;  &gt; 2P = 4J ≥ &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≤ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: L &gt; 3J&lt;br /&gt;
+จาก L ไป J ตามเงื่อนไข คือ&lt;br /&gt;
+L ≥ 2P = 4J &lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+L ≥ 4J &lt;br /&gt;
+ได้ L ข้างหนึ่งเหมือนข้อสรุปแล้ว อีกข้างเอา 3J มาเทียบได้ &lt;br /&gt;
+L ≥ 4J &gt; 3J&lt;br /&gt;
+L &gt; 3J&lt;br /&gt;
+∴ ข้อสรุปที่ 1: L &gt; 3J เป็นจริง &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: P ≠ Q&lt;br /&gt;&lt;br /&gt;
+
+ต้องหาว่า ระหว่าง P และ Q มากกว่าหรือน้อยกว่ากันหรือไม่&lt;br /&gt;
+ถ้า มีการมาก หรือ น้อย กว่ากัน ก็แสดงว่า ข้อสรุป เป็นจริง &lt;br /&gt;&lt;br /&gt;
+
+จาก P ไป Q ตามเงื่อนไข คือ&lt;br /&gt;
+2P &lt; &lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt; &lt;br /&gt;
+2 หารตลอด เพื่อให้ได้ P ข้างหนึ่งเหมือนข้อสรุป &lt;br /&gt;
+P &lt; &lt;tex&gt;\frac{8Q}{10} &lt;/tex&gt;&lt;br /&gt;
+ได้ P ข้างหนึ่งเหมือนข้อสรุปแล้ว อีกข้างเอา Q มาเทียบได้ &lt;br /&gt;
+&lt;tex&gt;\frac{8Q}{10} &lt;/tex&gt; = 0.8Q ย่อมน้อยกว่า Q &lt;br /&gt;
+P &lt; &lt;tex&gt;\frac{8Q}{10} &lt;/tex&gt; &lt; Q &lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+P &lt; Q&lt;br /&gt;
+∴ ข้อสรุปที่ 2: P ≠ Q เป็นจริง &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง  &lt;br /&gt;
+ข้อสรุปที่ 2: จริง &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1: ทั้งสองข้อมีผลการสรุปเป็นจริง&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX29 -->
+  <thisQuestion>
+    <qNum>id0837:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;tex&gt;\frac{Q}{5} &lt;/tex&gt;  &gt; &lt;tex&gt;\frac{P}{4} &lt;/tex&gt;
+    = &lt;tex&gt;\frac{J}{2} &lt;/tex&gt; &nbsp; ≮ &lt;tex&gt;\frac{K}{6} &lt;/tex&gt; &lt;br /&gt;
+    2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 4J &gt; 3M&lt;br /&gt;
+ข้อสรุปที่ 2: M &gt; N&lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{Q}{5} &lt;/tex&gt;  &gt; &lt;tex&gt;\frac{P}{4} &lt;/tex&gt;
+= &lt;tex&gt;\frac{J}{2} &lt;/tex&gt; &nbsp; ≮ &lt;tex&gt;\frac{K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 4J &gt; 3M (เท็จ) &lt;br /&gt;
+ข้อสรุปที่ 2: M &gt; N  (เท็จ) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข ✔ &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ทำตัวเชื่อม P ให้เท่ากัน โดยใช้ 8 คูณเงื่อนไขแรก &lt;br /&gt;
+
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt;  &gt; 2P = 4J ≮ &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+
+
+เปลี่ยนเครื่องหมายเชิงปฎิเสธ ให้เป็นเครื่องหมายปกติ เพื่อให้ดูง่ายขึ้น &lt;br /&gt;
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt;  &gt; 2P = 4J ≥ &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≤ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 4J &gt; 3M&lt;br /&gt;
+จาก J ไป M ตามเงื่อนไข คือ&lt;br /&gt;
+4J = 2P ≤ L &lt; M&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+4J &lt; M&lt;br /&gt;
+ได้ 4J ข้างหนึ่งแล้ว อีกข้างเอา 3M มาเทียบได้ &lt;br /&gt;
+4J &lt; M &lt; 3M&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+4J &lt; 3M&lt;br /&gt;
+∴ ข้อสรุปที่ 1: 4J &gt; 3M เป็นเท็จ&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: M &gt; N&lt;br /&gt;
+จาก M ไป N ตามเงื่อนไข คือ&lt;br /&gt;
+M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+ได้ M ข้างหนึ่งแล้ว อีกข้างเอา N มาเทียบได้ &lt;br /&gt;
+&lt;tex&gt;\frac{N}{2} &lt;/tex&gt; คือครึ่งหนึ่งของ N จึงน้อยกว่า N แน่นอน &lt;br /&gt;
+M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt; N&lt;br /&gt;
+M &lt; N&lt;br /&gt;
+∴ ข้อสรุปที่ 2: M &gt; N เป็นเท็จ &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: เท็จ &lt;br /&gt;
+ข้อสรุปที่ 2: เท็จ &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: ทั้งสองข้อมีผลการสรุปเป็นเท็จ&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX30 -->
+  <thisQuestion>
+    <qNum>id0838:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;tex&gt;\frac{Q}{5} &lt;/tex&gt;  &gt; &lt;tex&gt;\frac{P}{4} &lt;/tex&gt;
+    = &lt;tex&gt;\frac{J}{2} &lt;/tex&gt; &nbsp; ≮ &lt;tex&gt;\frac{K}{6} &lt;/tex&gt; &lt;br /&gt;
+    2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 8J &lt; 4G&lt;br /&gt;
+ข้อสรุปที่ 2: J &lt; P+Q&lt;br /&gt;
+
+	</question>
+    <choice_A>ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</choice_A>
+    <choice_B>ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</choice_B>
+    <choice_C>ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</choice_C>
+    <choice_D>ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;เงื่อนไข&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt;\frac{Q}{5} &lt;/tex&gt;  &gt; &lt;tex&gt;\frac{P}{4} &lt;/tex&gt;
+= &lt;tex&gt;\frac{J}{2} &lt;/tex&gt; &nbsp; ≮ &lt;tex&gt;\frac{K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 8J &lt; 4G (จริง) &lt;br /&gt;
+ข้อสรุปที่ 2: J &lt; P+Q  (จริง) &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+1. ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข ✔&lt;br /&gt;
+2. ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข &lt;br /&gt;
+3. ข้อสรุปทั้งสองข้อไม่อาจสรุปได้&lt;br /&gt;
+4. ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ทำตัวเชื่อม P ให้เท่ากัน โดยใช้ 8 คูณเงื่อนไขแรก &lt;br /&gt;
+
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt;  &gt; 2P = 4J ≮ &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≯ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+
+
+เปลี่ยนเครื่องหมายเชิงปฎิเสธ ให้เป็นเครื่องหมายปกติ เพื่อให้ดูง่ายขึ้น &lt;br /&gt;
+&lt;tex&gt;\frac{8Q}{5} &lt;/tex&gt;  &gt; 2P = 4J ≥ &lt;tex&gt;\frac{8K}{6} &lt;/tex&gt; &lt;br /&gt;
+2P ≤ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: 8J &lt; 4N&lt;br /&gt;
+จาก J ไป N ตามเงื่อนไข คือ&lt;br /&gt;
+4J = 2P ≤ L &lt; M = &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+4J &lt; &lt;tex&gt;\frac{N}{2} &lt;/tex&gt; &lt;br /&gt;
+2 คูณตลอด เพื่อให้ได้ 8J เหมือนข้อสรุป&lt;br /&gt;
+8J &lt; N&lt;br /&gt;
+ได้ 8J ข้างหนึ่งแล้ว อีกข้างเอา N มาเทียบได้ &lt;br /&gt;
+8J &lt; N &lt; 4N&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+8J &lt; 4N&lt;br /&gt;
+∴ ข้อสรุปที่ 1: 8J &lt; 4N เป็นจริง &lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: J &lt; P+Q&lt;br /&gt;
+ถ้า J น้อยกว่า P ก็จะน้อยกว่า P+Q ด้วย เพราะ เมื่อ P มากกว่า J
+ถ้าเอาอะไรมารวมเพิ่มกับ P ก็ยังจะมากกว่า J อยู่นั่นเอง&lt;br /&gt;&lt;br /&gt;
+
+จาก J ไป P ตามเงื่อนไข คือ&lt;br /&gt;
+4J = 2P&lt;br /&gt;
+4 หารตลอด เพื่อให้ได้ J ข้างหนึ่ง เหมือนข้อสรุป &lt;br /&gt;
+&lt;tex&gt;\frac{4J}{4} &lt;/tex&gt; = &lt;tex&gt;\frac{2P}{4} &lt;/tex&gt;&lt;br /&gt;
+J = &lt;tex&gt;\frac{P}{2} &lt;/tex&gt;&lt;br /&gt;
+ได้ J ข้างหนึ่งเหมือนข้อสรุปแล้ว อีกข้างเอา P มาเทียบได้ &lt;br /&gt;
+J = &lt;tex&gt;\frac{P}{2} &lt;/tex&gt; &lt; P&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+J &lt; P&lt;br /&gt;
+ดังนั้น เมื่อเอา Q มารวมกับ P ก็จะยังมากกว่า J อยู่นั่นเอง &lt;br /&gt;
+J &lt; P &lt; P+Q&lt;br /&gt;
+ยุบรวม &lt;br /&gt;
+J &lt; P+Q&lt;br /&gt;
+∴ ข้อสรุปที่ 2: J &lt; P+Q เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: จริง &lt;br /&gt;
+ข้อสรุปที่ 2: จริง &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1: ทั้งสองข้อมีผลการสรุปเป็นจริง&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+</exams>
+
+

@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!--
+https://www.ef.com/english-resources/english-vocabulary/top-1000-words/
+https://www.thesaurus.com/
+https://wikidiff.com/
+
+ -->
+  <!-- 1 -->
+  <thisQuestion>
+    <qNum>id02378:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A>consent  </choice_A>
+    <choice_B>approve  </choice_B>
+    <choice_C>agree  </choice_C>
+    <choice_D>reject  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1.  consent (อนุญาต)&lt;br /&gt;
+2. approve (เห็นชอบ)&lt;br /&gt;
+3. agree (เห็นด้วย)&lt;br /&gt;
+4. reject (ปฏิเสธ ไม่ยอมรับ)✔&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4  &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 2 -->
+  <thisQuestion>
+    <qNum>id02379:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> large </choice_A>
+    <choice_B> gigantic </choice_B>
+    <choice_C> enormous </choice_C>
+    <choice_D> dwarf </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. large (ใหญ่)&lt;br /&gt;
+2. gigantic (ขนาดยักษ์)&lt;br /&gt;
+3. enormous (มหึมา)&lt;br /&gt;
+4. dwarf (เล็ก แคระ คนแคระ) ✔&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4  &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 3 -->
+  <thisQuestion>
+    <qNum>id02380:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> beautiful </choice_A>
+    <choice_B> horrible </choice_B>
+    <choice_C> elegant </choice_C>
+    <choice_D> lovely </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. beautiful (สวย)&lt;br /&gt;
+2. horrible (น่าขนลุก) ✔&lt;br /&gt;
+3. elegant (งามสง่า)&lt;br /&gt;
+4. lovely (น่ารัก)&lt;br /&gt; &lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ  2 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 4 -->
+  <thisQuestion>
+    <qNum>id02381:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> move forward </choice_A>
+    <choice_B> proceed </choice_B>
+    <choice_C> continue </choice_C>
+    <choice_D> halt</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. move forward (ก้าวไปข้างหน้า)&lt;br /&gt;
+2. proceed (ดำเนินการต่อไป)&lt;br /&gt;
+3. continue (ต่อไป)&lt;br /&gt;
+4. halt (หยุด) ✔&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+Thailand moves forward.&lt;br /&gt;
+ประเทศไทยก้าวไปข้างหน้า&lt;br /&gt;&lt;br /&gt;
+
+The negotiations are at a halt.&lt;br /&gt;
+การเจรจาหยุดชะงักลง&lt;br /&gt;&lt;br /&gt; 
+
+คำตอบที่ถูก คือ ข้อ 4  &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 5 -->
+  <thisQuestion>
+    <qNum>id02382:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> 24/7 </choice_A>
+    <choice_B> continuous </choice_B>
+    <choice_C> broken </choice_C>
+    <choice_D> day-and-night </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. 24/7 (24ชั่วโมง/7วัน -- 24 ชั่วโมง ทุกวัน ไม่มีวันหยุด)&lt;br /&gt;
+2. continuous (ต่อเนื่อง)&lt;br /&gt;
+3. broken (แตกหัก)✔&lt;br /&gt;
+4. day-and-night (ทั้งกลางวันและกลางคืน)&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+The manufacturer offers 24/7 customer support.&lt;br /&gt;
+ผู้ผลิต ให้บริการสนับสนุน ทุกวัน ตลอด 24 ชั่วโมง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3  &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 6 -->
+  <thisQuestion>
+    <qNum>id02383:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+	</question>
+    <choice_A> Endeavor </choice_A>
+    <choice_B> attempt </choice_B>
+    <choice_C> surrender</choice_C>
+    <choice_D> effort </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. Endeavor (ความพยายาม) &lt;br /&gt;
+2. attempt  (ความพยายาม) &lt;br /&gt;
+3. surrender(การยอมแพ้)✔&lt;br /&gt;
+4. effort (ความพยายาม)&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+1. Endeavor (พยายาม ที่จะทำให้บรรลุเป้าหมาย) &lt;br /&gt;
+2. attempt  (ความพยายาม ในการทำสิ่งใดสิ่งหนึ่ง) &lt;br /&gt;
+3. progress(ความก้าวหน้า)✔&lt;br /&gt;
+4. effort (ความพยายาม ซึ่งต้องออกแรง หรือใช้กำลัง)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3  &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 7 -->
+  <thisQuestion>
+    <qNum>id02384:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+	</question>
+    <choice_A> refrain </choice_A>
+    <choice_B> reconsider </choice_B>
+    <choice_C> rethink </choice_C>
+    <choice_D> reassess </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. refrain (ละเว้นการกระทำ) ✔&lt;br /&gt;
+2. reconsider (พิจารณาใหม่)&lt;br /&gt;
+3. rethink (คิดใหม่)&lt;br /&gt;
+4. reassess (ประเมินใหม่)&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+We should refrain from telling lies.&lt;br /&gt;
+เราควรละเว้นการพูดเท็จ&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ  1 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 8 -->
+  <thisQuestion>
+    <qNum>id02385:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> convertible </choice_A>
+    <choice_B> truck </choice_B>
+    <choice_C> ship </choice_C>
+    <choice_D> bus </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. convertible (	รถเปิดประทุน) &lt;br /&gt;
+2. truck (รถบรรทุก)&lt;br /&gt;
+3. ship (เรือเดินสมุทร) ✔&lt;br /&gt;
+4. bus (รถโดยสารประจำทาง)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3  &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 9 -->
+  <thisQuestion>
+    <qNum>id02386:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A>undermine</choice_A>
+    <choice_B>weaken</choice_B>
+    <choice_C>sabotage</choice_C>
+    <choice_D>support </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. undermine (บ่อนทำลาย) &lt;br /&gt;
+  Protests undermine the country's response to COVID-19 crisis. &lt;br /&gt;
+  การประท้วง ทำลายการตอบโต้วิกฤติ โควิด-19 ของประเทศ &lt;br /&gt;
+2. weaken(ทำให้อ่อนแอลง)&lt;br /&gt;
+3. sabotage (การก่อวินาศกรรม)&lt;br /&gt;
+4. support (สนับสนุน) ✔&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4  &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 9 -->
+  <thisQuestion>
+    <qNum>id02387:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> magenta </choice_A>
+    <choice_B> cyan </choice_B>
+    <choice_C> blue </choice_C>
+    <choice_D> lightening </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. magenta (สีแดงม่วง) &lt;br /&gt;
+2. cyan (สีน้ำเงินเขียว)&lt;br /&gt;
+3. blue (สีน้ำเงิน)&lt;br /&gt;
+4. lightening (ฟ้าแลบ) ✔&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4  &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 10 -->
+  <thisQuestion>
+    <qNum>id02388:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> take </choice_A>
+    <choice_B> donate </choice_B>
+    <choice_C> give </choice_C>
+    <choice_D> deliver </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. take (เอา, เอาไป, เอามา, รับเอาไป, หยิบเอาไป)✔&lt;br /&gt;
+2. donate (บริจาค)&lt;br /&gt;
+3. give (ให้)&lt;br /&gt;
+4. deliver (ส่งมอบ)&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+We must all give and take a little if we want peace.&lt;br /&gt;
+เราต้องรู้จักทั้งการให้บ้างและการรับบ้าง ถ้าเราต้องการสันติ&lt;br /&gt;&lt;br /&gt;
+
+In marriage there should be equal give and take.&lt;br /&gt;
+ในชีวิตสมรส ควรจะมีการให้และการรับอย่างเสมอภาค&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 11 -->
+  <thisQuestion>
+    <qNum>id02389:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> answer </choice_A>
+    <choice_B> reply </choice_B>
+    <choice_C> question </choice_C>
+    <choice_D> explain </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. answer (คำตอบ)&lt;br /&gt;
+2. reply (การตอบ)&lt;br /&gt;
+3. question (คำถาม)✔&lt;br /&gt;
+4. explain (คำอธิบาย)&lt;br /&gt; &lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ  3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 12 -->
+  <thisQuestion>
+    <qNum>id02390:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> appear </choice_A>
+    <choice_B> depart </choice_B>
+    <choice_C> show up </choice_C>
+    <choice_D> arrive </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. appear (ปรากฏ)&lt;br /&gt;
+2. depart (ออกจาก) ✔&lt;br /&gt;
+3. show up(มาปรากฏ)&lt;br /&gt;
+4. arrive (มาถึง)&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+ข้อ 2 หมายถึง การหายไปจากการปรากฏ แต่ข้ออื่น ๆ มีความหมายในลักษณะที่เข้ามาปรากฏให้เห็น&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 13 -->
+  <thisQuestion>
+    <qNum>id02391:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> benefit </choice_A>
+    <choice_B> profit </choice_B>
+    <choice_C> loss </choice_C>
+    <choice_D> interest </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. benefit (ผลประโยชน์)&lt;br /&gt;
+2. profit (กำไร)&lt;br /&gt;
+3. loss (ขาดทุน)✔&lt;br /&gt;
+4. interest (ดอกเบี้ย)&lt;br /&gt; &lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 3  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 14 -->
+  <thisQuestion>
+    <qNum>id02392:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> brother </choice_A>
+    <choice_B> father </choice_B>
+    <choice_C> uncle </choice_C>
+    <choice_D> aunt</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. brother (พี่ชาย-น้องชาย -- เพศชาย)&lt;br /&gt;
+2. father (พ่อ -- เพศชาย)&lt;br /&gt;
+3. uncle (ลุง -- เพศชาย)&lt;br /&gt;
+4. aunt (ป้า  -- เพศหญิง) ✔&lt;br /&gt; &lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 4  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 15 -->
+  <thisQuestion>
+    <qNum>id02393:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> huge </choice_A>
+    <choice_B> vast </choice_B>
+    <choice_C> great </choice_C>
+    <choice_D> tiny </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. huge (ใหญ่โต)&lt;br /&gt;
+She lives in a huge house.&lt;br /&gt;&lt;br /&gt;
+
+2. vast (กว้างใหญ่)&lt;br /&gt;
+The Sahara desert is vast.&lt;br /&gt;&lt;br /&gt;
+
+3. great (ใหญ่โต ยอดเยี่ยม ดีมาก)&lt;br /&gt;
+a great crowd of people at the football match&lt;br /&gt;
+ฝูงชนขนาดมหึมากในการแข่งขันฟุตบอล&lt;br /&gt;&lt;br /&gt;
+
+4. tiny (เล็ก) ✔ &lt;br /&gt; 
+There's just one tiny problem.&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ  4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id02394:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> multiply </choice_A>
+    <choice_B> decrease </choice_B>
+    <choice_C> propagate </choice_C>
+    <choice_D> produce </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. multiply (เพิ่มอย่างพหุคูณ)&lt;br /&gt;
+2. decrease (ลดลง) ✔&lt;br /&gt;
+3. propagate (ขยายพันธ์ แพร่พันธ์)&lt;br /&gt;
+4. produce (ผลิต)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 17 -->
+  <thisQuestion>
+    <qNum>id02395:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> assist </choice_A>
+    <choice_B> undermine </choice_B>
+    <choice_C> ruin </choice_C>
+    <choice_D> hurt </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. assist (ช่วยเหลือ) ✔&lt;br /&gt;
+assistant = ผู้ช่วย&lt;br /&gt;
+assistant director = ผู้ช่วยผู้อำนวยการ&lt;br /&gt;&lt;br /&gt;
+
+2. undermine (บ่อนทำลาย)&lt;br /&gt;
+Criticism just undermines their confidence.&lt;br /&gt;
+การวิจารณ์ เป็นการทำลายความเชื่อมั่น&lt;br /&gt;&lt;br /&gt;
+
+3. ruin (ทำลาย ปรักหักพัง)&lt;br /&gt;
+Her injury ruined her chances of winning the race.&lt;br /&gt;
+การบาดเจ็บของเธอ ทำลาย โอกาสการชนะในการแข่งขันครั้งนั้น&lt;br /&gt;&lt;br /&gt;
+
+4. hurt (ทำร้าย ทำให้เสียหาย)&lt;br /&gt; 
+Hard work never hurt anyone.&lt;br /&gt;
+การทำงานหนัก ไม่เคยทำร้ายใคร.&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 18 -->
+  <thisQuestion>
+    <qNum>id02396:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> bad </choice_A>
+    <choice_B> good </choice_B>
+    <choice_C> poor </choice_C>
+    <choice_D> lousy </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. bad (ไม่ดี)&lt;br /&gt;
+2. good (ดี) ✔&lt;br /&gt;
+3. poor (คุณภาพต่ำ ไม่ดี ยากจน)&lt;br /&gt;
+4. lousy (ต่ำช้า, ชั่ว, น่าเหยียดหยาม, เลว)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ  2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 19 -->
+  <thisQuestion>
+    <qNum>id02397:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> plain </choice_A>
+    <choice_B> charming </choice_B>
+    <choice_C> pretty </choice_C>
+    <choice_D> magnificent </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. plain (ธรรมดา ราบเรียบ) ✔&lt;br /&gt;
+2. charming (น่ารัก)&lt;br /&gt;
+3. pretty (สวย)&lt;br /&gt;
+4. magnificent (วิเศษ)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 20 -->
+  <thisQuestion>
+    <qNum>id02398:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> fast </choice_A>
+    <choice_B> rapid </choice_B>
+    <choice_C> slow </choice_C>
+    <choice_D> swift </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. fast (เร็ว)&lt;br /&gt;&lt;br /&gt;
+2. rapid (เร็ว เช่น rapid train = รถเร็ว)&lt;br /&gt;&lt;br /&gt;
+3. slow (เชื่องช้า) ✔&lt;br /&gt;&lt;br /&gt;
+4. swift (รวดเร็ว)&lt;br /&gt;
+Time goes very swiftly.&lt;br /&gt;
+เวลาผ่านไปอย่างรวดเร็ว&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 21 -->
+  <thisQuestion>
+    <qNum>id02399:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> angry </choice_A>
+    <choice_B> calm </choice_B>
+    <choice_C> annoyed </choice_C>
+    <choice_D> furious </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. angry (โกรธ)&lt;br /&gt;
+2. calm (สงบ ราบเรียบ) ✔&lt;br /&gt;
+3. annoyed (รำคาญ)&lt;br /&gt;
+4. furious (โกรธจัด)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 22 -->
+  <thisQuestion>
+    <qNum>id02400:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> deveop </choice_A>
+    <choice_B> progress </choice_B>
+    <choice_C> decline </choice_C>
+    <choice_D> grow </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. develop (พัฒนา)&lt;br /&gt;
+2. progress (ก้าวหน้า)&lt;br /&gt;
+3. decline (เสื่อมถอย ลดลง) ✔&lt;br /&gt;
+4. grow (เจริญเติบโต)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ  3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 23 -->
+  <thisQuestion>
+    <qNum>id02401:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> fertile </choice_A>
+    <choice_B> barren </choice_B>
+    <choice_C> abundant</choice_C>
+    <choice_D> rich </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. fertile (อุดมสมบูรณ์)&lt;br /&gt;
+2.barren (แห้งแล้ง) ✔ &lt;br /&gt;
+3. abundant (เหลือเฟือ)&lt;br /&gt;
+4. rich (มีจำนวนมาก ร่ำรวย)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 24 -->
+  <thisQuestion>
+    <qNum>id02402:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> start </choice_A>
+    <choice_B> goal </choice_B>
+    <choice_C> target </choice_C>
+    <choice_D> objective </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. start (จุดเริ่มต้น) ✔&lt;br /&gt;
+2. goal (เป้าประสงค์)&lt;br /&gt;
+3. target (เป้าหมาย)&lt;br /&gt;
+4. objective (วัตถุประสงค์)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ  1 &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 25 -->
+  <thisQuestion>
+    <qNum>id02403:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> intelligent </choice_A>
+    <choice_B> smart </choice_B>
+    <choice_C> dull </choice_C>
+    <choice_D> brilliant   </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. intelligent (อัจฉริยะ)&lt;br /&gt;
+2. smart (ฉลาดหลักแหลม)&lt;br /&gt;
+3. dull (ทื่อ โง่เง่า) ✔&lt;br /&gt;
+4. brilliant (ปราดเปรื่อง)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ  3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 26 -->
+  <thisQuestion>
+    <qNum>id02404:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> easy  </choice_A>
+    <choice_B> complicated </choice_B>
+    <choice_C> straightforward </choice_C>
+    <choice_D> simple </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. easy (ง่าย)&lt;br /&gt;
+2. complicated (ยุ่งยาก ซับซ้อน) ✔&lt;br /&gt;
+3. straightforward (ตรงไปตรงมา)&lt;br /&gt;
+4. simple (ง่าย ไม่ซับซ้อน)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ  2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 27 -->
+  <thisQuestion>
+    <qNum>id02405:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> meaningless </choice_A>
+    <choice_B> important </choice_B>
+    <choice_C> essential </choice_C>
+    <choice_D> crucial </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. meaningless (ไม่มีความหมาย ไม่มีสาระสำคัญ) ✔&lt;br /&gt;
+2. important (สำคัญ)&lt;br /&gt;
+3. essential (จำเป็น)&lt;br /&gt;
+4. crucial (สำคัญมาก) &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ  1 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 28 -->
+  <thisQuestion>
+    <qNum>id02406:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> international </choice_A>
+    <choice_B> global </choice_B>
+    <choice_C> local </choice_C>
+    <choice_D> universal </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. international (นานาชาติ ระหว่างประเทศ) &lt;br /&gt;
+2. global (ทั่วโลก)&lt;br /&gt;
+3. local (ท้องถิ่น ประจำถิ่น) ✔&lt;br /&gt;
+4. universal (เป็นสากล)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 29 -->
+  <thisQuestion>
+    <qNum>id02407:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> recent </choice_A>
+    <choice_B> late </choice_B>
+    <choice_C> new </choice_C>
+    <choice_D> old </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. recent (เมื่อเร็ว ๆ นี้)&lt;br /&gt;
+2. late (ล่า สาย: late news - ข่าวล่า)&lt;br /&gt;
+3. new (ใหม่)&lt;br /&gt;
+4. old (เก่า) ✔&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- ถึงตรงนี้ -->
+  <!-- 30 -->
+  <thisQuestion>
+    <qNum>id02408:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> poision </choice_A>
+    <choice_B> pollute </choice_B>
+    <choice_C> clean </choice_C>
+    <choice_D> contaminate </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. poision (ใส่ยาพิษ) &lt;br /&gt;
+2. pollute (ทำให้มีมลภาวะ)&lt;br /&gt;
+3. clean (สะอาด)✔&lt;br /&gt;
+4. contaminate (ทำให้ไม่บริสุทธิ์)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 31 -->
+  <thisQuestion>
+    <qNum>id02409:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> social </choice_A>
+    <choice_B> private</choice_B>
+    <choice_C> popular </choice_C>
+    <choice_D> public </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. social (สังคม)&lt;br /&gt;
+2. private (ส่วนตัว) ✔&lt;br /&gt;
+3. popular (เป็นที่รู้จัก)&lt;br /&gt;
+4. public (สาธารณะ)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 32 -->
+  <thisQuestion>
+    <qNum>id02410:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> special </choice_A>
+    <choice_B> exclusive </choice_B>
+    <choice_C> common </choice_C>
+    <choice_D> extraordinary </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. special (พิเศษ)&lt;br /&gt;
+2. exclusive (พิเศษ เฉพาะตัว) &lt;br /&gt;
+3. common (ธรรมดา สามัญ ทั่วไป)✔ &lt;br /&gt;
+4. extraordinary(พิเศษ ไม่ธรรมดา)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ  3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 33 -->
+  <thisQuestion>
+    <qNum>id02411:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> energetic </choice_A>
+    <choice_B> capable </choice_B>
+    <choice_C> strong </choice_C>
+    <choice_D> weak </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. energetic (มีพลัง)&lt;br /&gt;
+2. capable (มีความสามารถ)&lt;br /&gt;
+3. strong (แข็งแรง)&lt;br /&gt;
+4. weak (อ่อนแอ) ✔&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 34 -->
+  <thisQuestion>
+    <qNum>id02412:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> true </choice_A>
+    <choice_B> false </choice_B>
+    <choice_C> genuine </choice_C>
+    <choice_D> accurate </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. true (จริง)&lt;br /&gt;
+2. false (ไม่จริง) ✔&lt;br /&gt;
+3. genuine (ของแท้)&lt;br /&gt;
+4. accurate (ถูกต้อง)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 35 -->
+  <thisQuestion>
+    <qNum>id02413:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> partial </choice_A>
+    <choice_B> full </choice_B>
+    <choice_C> perfect </choice_C>
+    <choice_D> whole </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. partial (บางส่วน) ✔&lt;br /&gt;
+2. full (เต็ม)&lt;br /&gt;
+3. perfect (สมบูรณ์)&lt;br /&gt;
+4. whole (ทั้งหมด)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 36 -->
+  <thisQuestion>
+    <qNum>id02414:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+Select the one that does not belong to the group. &lt;br /&gt;
+
+	</question>
+    <choice_A> real </choice_A>
+    <choice_B> fake </choice_B>
+    <choice_C> authentic </choice_C>
+    <choice_D> true </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Odd One Out&lt;br /&gt; &lt;br /&gt;
+
+Select the one that does not belong to the group. &lt;br /&gt;&lt;br /&gt;
+
+1. real (ของจริง)&lt;br /&gt;
+2. fake (ของปลอม fake news - ข่าวไม่จริง)✔&lt;br /&gt;
+3. authentic (ของแท้ authentic Thai cuisine - อาหารไทยแท้)&lt;br /&gt;
+4. true (จริง)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+</exams>
+
+

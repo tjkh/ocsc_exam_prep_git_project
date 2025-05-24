@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02312:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Chiang Mai is one of the most beautiful cities in Thailand. It has a ........ of about 1.5 million. &lt;br /&gt;
+
+	</question>
+    <choice_A>population </choice_A>
+    <choice_B>number</choice_B>
+    <choice_C>people </choice_C>
+    <choice_D>person</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+Chiang Mai is one of the most beautiful cities of Thailand. It has a ........ of about 1.5 million. &lt;br /&gt;
+เชียงใหม่เป็นเมืองที่สวยที่สุดเมืองหนึ่งของไทย เชียงใหม่มี ................. ประมาณ 1.5 ล้าน &lt;br /&gt; &lt;br /&gt;
+
+1. population (ประชากร) ✔ &lt;br /&gt;
+2. number (จำนวน) &lt;br /&gt;
+3. people (ประชาชน) &lt;br /&gt;
+4. person (คน) &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+population (ประชากร) ใช้ในความหมายว่า เป็นพลเมืองของประเทศ   &lt;br /&gt;
+The majority of the population of Thailand is Buddhist. &lt;br /&gt;
+ประชากรส่วนใหญ่ของไทยเป็นชาวพุทธ &lt;br /&gt; &lt;br /&gt;
+
+people (ประชาชน) หมายถึงคนตั้งแต่ 2 คนขึ้นไป เช่น  &lt;br /&gt;
+I made friends with many people on the train. &lt;br /&gt;
+ฉันผูกมิตรกับคนหลายคนบนรถไฟ &lt;br /&gt; &lt;br /&gt;
+
+person (คน) หมายถึงคนคนเดียว  &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    <!-- ส่วนนี้ บาง xml ใช้ว่า picFileName  เพราะจะให้แสดงภาพ แต่เปลี่ยนแล้ว เป็นว่าเอาไว้สำหรับ
+		บอกว่า เมื่อคลิกคำอธิบาย จะให้มีหรือไม่ให้มี บางตัวเลือกก็ไม่ให้แสดงเลย 
+		ชื่อไม่สำคัญ เพราะเอาตำแหน่งแทน ดู ItemFragment.java จะเห็นมีตัวแปร  itemIsExplain เก็บค่านี้
+		ส่วนภาพ จำไม่ได้แล้ว แต่จำได้ลาง ๆ ว่า ถ้าเป็นภาพในตัวคำถาม ก็เอาไว้ส่วนหัว ถ้าเป็นในส่วนคำอธิบาย ก็ใช้โค้ด html เพราะ ในหน้าคำอธิบาย ให้ใช้โค้ดได้
+		-->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02313:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+Which TV .................. do you like better, sports or news? &lt;br /&gt;
+
+	</question>
+    <choice_A>projects  </choice_A>
+    <choice_B>programs  </choice_B>
+    <choice_C>series  </choice_C>
+    <choice_D>advertisements  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Which TV .................. do you like better, sports or news? &lt;br /&gt;
+........ โทรทัศน์ ที่คุณชอบมากกว่ากัน, กีฬา หรือ ข่าว? &lt;br /&gt; &lt;br /&gt;
+
+1. projects (โครงการ) &lt;br /&gt;
+2. programs (โปรแกรม, รายการ) ✔ &lt;br /&gt;
+3. series (ละคร/หนังชุด) &lt;br /&gt;
+4. advertisements (การโฆษณา) &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+รายการกีฬา รายการข่าว จัดเป็น TV programs &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02314:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+Suchart and his friends ........... grants from the government to do a research on nutrition. &lt;br /&gt;
+
+	</question>
+    <choice_A>receive  </choice_A>
+    <choice_B>carry  </choice_B>
+    <choice_C>create  </choice_C>
+    <choice_D>conduct  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Suchart and his friends ........... grants from the government to do a research on nutrition. &lt;br /&gt;
+สุชาติและเพื่อน ๆ ............ เงินทุนจากรัฐบาล เพื่อให้ทำวิจัยเกี่ยวกับโภชนาการ &lt;br /&gt; &lt;br /&gt;
+
+1. receive (ได้รับ)✔ &lt;br /&gt;
+2. carry (แบก,นำไป) &lt;br /&gt;
+3. create (สร้าง) &lt;br /&gt;
+4. conduct (ดำเนินการ) &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+conduct = ดำเนินการ &lt;br /&gt;
+conduct a research = ดำเนินการวิจัย &lt;br /&gt;
+conduct an experiment = ดำเนินการทดลอง &lt;br /&gt; &lt;br /&gt;
+ 
+conduct = ความประพฤติ  &lt;br /&gt;
+Suda conducted herself in a professional manner. &lt;br /&gt;
+สุดาทำตัวเป็นแบบมืออาชีพ &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02315:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+English is the ........ language used in ASEAN
+
+	</question>
+    <choice_A>common  </choice_A>
+    <choice_B>popular  </choice_B>
+    <choice_C>official  </choice_C>
+    <choice_D>spoken  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+English is the ........ language used in ASEAN &lt;br /&gt; &lt;br /&gt;
+
+1. common (ทั่วไป, ธรรมดา, สามัญ) &lt;br /&gt;
+2. popular (เป็นที่นิยม) &lt;br /&gt;
+3. official (อย่างเป็นทางการ)✔ &lt;br /&gt;
+4. spoken (ภาษาพูด) &lt;br /&gt; &lt;br /&gt;
+
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+official เป็นคำคุณศัพท์ หมายถึงทางราชการ &lt;br /&gt;
+office = สำนักงาน &lt;br /&gt;
+government official = ข้าราชการ &lt;br /&gt;
+For Official Use Only = (ข่าวสารข้อมูลนี้) ใช้สำหรับทางราชการเท่านั้น เป็นข้อมูลที่ไม่เผยแพร่ให้สาธารณชนทั่วไปทราบ &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02316:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+It is very .... to do your shopping on the Internet. All you need is a credit card. &lt;br /&gt;
+
+	</question>
+    <choice_A>polite  </choice_A>
+    <choice_B>convenient  </choice_B>
+    <choice_C>enthusiastic  </choice_C>
+    <choice_D>foolish  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+It is very .... to do your shopping on the Internet. All you need is a credit card. &lt;br /&gt;
+มันเป็นเรื่อง ................ ที่จะซื้อของผ่านทางอินเทอร์เน็ต ทั้งหมดที่ต้องการ ก็เพียงแค่บัตรเครดิตเท่านั้น &lt;br /&gt; &lt;br /&gt;
+
+1. polite(สุภาพ) &lt;br /&gt;
+2. convenient (สะดวกสบาย) ✔&lt;br /&gt;
+3. enthusiastic (กระตือรือร้น) &lt;br /&gt;
+4. foolish (งี่/โง่เง่า) &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+convenient เป็นคำคุณศัพท์ &lt;br /&gt;
+A bike is a very convenient way of getting around. &lt;br /&gt;
+จักรยาน เป็นวิธีการไปไหนมาไหน อย่างสะดวกสบาย &lt;br /&gt; &lt;br /&gt;
+
+at one's convenience = เวลาใดก็ได้ที่(คุณ)สะดวก &lt;br /&gt;
+No rush, you can fill out that paperwork at your convenience. &lt;br /&gt;
+ไม่ต้องรีบ คุณสามารถกรอก(fill out)แบบฟอร์ม เมื่อไรก็ได้ ที่คุณสะดวก &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02317:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+The chances of winning the lottery are very low. Although Jim ........... he'll ever win, he buys a lottery ticket every weekend. &lt;br /&gt;
+
+	</question>
+    <choice_A>imagines  </choice_A>
+    <choice_B>expects  </choice_B>
+    <choice_C>hopes  </choice_C>
+    <choice_D>doubts  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+The chances of winning the lottery are very low. Although Jintana ......... she'll ever win, she buys a lottery ticket almost every month. &lt;br /&gt;
+โอกาสในการถูกลอตเตอรี่มีต่ำมาก แม้ว่าจินตนาจะ .......... ว่าเธอจะไม่ถูกรางวัลเลย แต่เธอก็ซื้อลอตเตอรี่เกือบทุกเดือน &lt;br /&gt; &lt;br /&gt;
+
+1. imagines (จินตนาการ) &lt;br /&gt;
+2. expects (คาดว่า) &lt;br /&gt;
+3. hopes (หวัง) &lt;br /&gt;
+4. doubts (สงสัย)✔ &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+โดยปกติ คำว่า ever มักจะใช้ในประโยคคำถาม หมายถึง เวลาใดเวลาหนึ่ง ตั้งแต่ก่อนหน้านี้ จนถึงปัจจุบัน เช่น &lt;br /&gt;
+Have you ever been to Europe before? &lt;br /&gt;
+(ตั้งแต่เกิดจนถึงวันนี้) คุณเคยไปยุโรปไหม? &lt;br /&gt;
+ถ้าเคยไป ให้ตอบว่า &lt;br /&gt;
+Yes, I have been there once/tiwce/ two times .... &lt;br /&gt;
+เคยไป ครั้งนึง/สองครั้ง/ สามครั้ง ... &lt;br /&gt;
+ห้ามตอบว่า &lt;br /&gt;
+Yes, I ever been there. เด็ดขาด เพราะผิด &lt;br /&gt; &lt;br /&gt;
+
+โดยทั่วไป จะไม่ใช้ ever ในประโยคบอกเล่า หรือ afferimative sentence. &lt;br /&gt; &lt;br /&gt;
+
+อย่างไรก็ตาม &lt;br /&gt;
+คำว่า ever เมื่อใช้ในประโยคบอกเล่า จะมีนัยเป็นปฏิเสธ เช่น &lt;br /&gt;
+I doubt I will ever win a lottery. &lt;br /&gt;
+ฉันส่งสัยว่า ฉันจะไม่ถูกลอตเตอรี่เลย คือ ไม่คิดว่าจะถูกเลย &lt;br /&gt; &lt;br /&gt;
+
+I don’t think we shall ever see Jenny again now that she’s emigrated to Australia. &lt;br /&gt;
+ฉันไม่คิดว่า เราจะได้เจอเจนนี่อีกเลย(ever) เนื่องจากตอนนี้เธอย้ายไปอยู่ออสเตรเลียแล้ว &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02318:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+The company owner .... the meeting. The other managers didn't even get the chance to speak. &lt;br /&gt;
+
+	</question>
+    <choice_A>ensured  </choice_A>
+    <choice_B>alleviated   </choice_B>
+    <choice_C>facilitated  </choice_C>
+    <choice_D>dominated  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+The company owner ........... the meeting. The other managers didn't even get the chance to speak. &lt;br /&gt;
+เจ้าของบริษัท ........... ในการประชุมนั้น. ผู้จัดการคนอื่น ๆ ไม่มีแม้แต่(even)โอกาส(chance)ที่จะพูด &lt;br /&gt; &lt;br /&gt;
+
+1. ensured(ทำให้แน่ใจ - to make sure) &lt;br /&gt;
+2. alleviated (ช่วยผ่อนเบา) &lt;br /&gt;
+3. facilitated (ช่วยอำนวยความสะดวก) &lt;br /&gt;
+4. dominated (ครอบงำ)✔ &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02319:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+The old lady walked with .... because the sidewalk was very slippery. &lt;br /&gt;
+	</question>
+    <choice_A>caution  </choice_A>
+    <choice_B>relief  </choice_B>
+    <choice_C>desire  </choice_C>
+    <choice_D>confidence  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+The old lady walked with ......... because the sidewalk was very slippery. &lt;br /&gt;
+หญิงชราเดินด้วย .......... เพราะทางเดินลื่นมาก &lt;br /&gt; &lt;br /&gt;
+
+1. caution (ความระมัดระวัง)✔ &lt;br /&gt;
+2. relief (โล่งอก) &lt;br /&gt;
+3. desire (ความปรารถนา) &lt;br /&gt;
+4. confidence (มั่นใจ) &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+need-want-desire &lt;br /&gt;
+need - ความจำเป็นที่ต้องมี เช่น อาหาร อากาศ &lt;br /&gt;
+People need food to survive. &lt;br /&gt;
+คนจำเป็นต้องมีอาหารเพื่อดำรงชีวิต &lt;br /&gt; &lt;br /&gt;
+
+want - ต้องการในสิ่งที่ยังขาดอยู่  &lt;br /&gt; &lt;br /&gt;
+
+desire - อยากได้ ปรารถนาที่จะได้ แต่ไม่จำเป็นเท่าความต้องการ &lt;br /&gt;
+ I want to earn lot of money but I desire for a villa with an ocean view. &lt;br /&gt;
+ฉันต้องการมีเงินมาก ๆ แต่ ฉันปรารถนาที่จะมีวิลล่าที่หันหน้าสู่ทะเล &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02320:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+After two hours of hard training, the coach felt that his players ............ a break. &lt;br /&gt;
+
+	</question>
+    <choice_A>deserved  </choice_A>
+    <choice_B> encouraged </choice_B>
+    <choice_C>identified   </choice_C>
+    <choice_D>wasted  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+After two hours of hard training, the coach felt that his players ............... a break. &lt;br /&gt; 
+หลังจากที่ฝึกอย่างหนักเป็นเวลา 2 ชั่วโมง, ผู้ฝึกรู้สึกว่า ผู้เล่น .................. การหยุดพัก &lt;br /&gt; &lt;br /&gt;
+
+1. deserved (สมควรที่จะได้รับ)✔ &lt;br /&gt;
+2. encouraged (กระตุ้น/ให้กำลังใจ) &lt;br /&gt;
+3. identified (ระบุ/ชี้) &lt;br /&gt;
+4. wasted (เสียไปโดยเปล่าประโยชน์) &lt;br /&gt; &lt;br /&gt;
+
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+deserve - เหมาะสมที่จะได้รับอะไรสักอย่าง จากพฤติกรรม หรือการกระทำของคนผู้นั้น &lt;br /&gt;
+คำว่า deserve จะไม่ใช้ใน progressive tense คือ จะพูดว่า กำลังเหมาะที่จะได้รับ ไม่ได้ &lt;br /&gt; &lt;br /&gt;
+
+You deserve a rest after all that hard work. &lt;br /&gt;
+คุณควรได้รับการพักผ่อน หลังจากที่ได้ทำงานหนักขนาดนั้น &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02321:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+According to a recent .... , sixty percent of Thai people prefer reading their news online to reading a real newspaper. &lt;br /&gt;
+
+	</question>
+    <choice_A>bargain  </choice_A>
+    <choice_B>exchange  </choice_B>
+    <choice_C>survey   </choice_C>
+    <choice_D>method  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+According to a recent .... , sixty percent of Thai people prefer reading their news online to reading a real newspaper &lt;br /&gt;
+ผลการ ........ เมื่อเร็ว ๆ นี้ พบว่า คนไทยร้อยละ 60 ชอบการอ่านข่าวออนไลน์ มากกว่า การอ่านหนังสือพิมพ์จริง ๆ &lt;br /&gt; &lt;br /&gt;
+
+1. bargain(ต่อรอง) &lt;br /&gt;
+2. exchange (แลกเปลี่ยน) &lt;br /&gt;
+3. survey (สำรวจ) ✔ &lt;br /&gt;
+4. method (วิธีการ) &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+	According to .... ใช้สำหรับการอ้างอิงแหล่งที่มา เช่น &lt;br /&gt;
+	According to rumors I've heard, he was fired for stealing from the company. &lt;br /&gt;
+ตามข่าวลือที่ผมได้ยินมา, เขาถูกไล่ออกจากงาน(fired) เนื่องจากไปขโมยของ ของบริษัท &lt;br /&gt; &lt;br /&gt;
+
+
+นอกจากนี้ ยังใช้ในความหมายว่า ทำตามอะไร หรือสิ่งใดสิ่งหนึ่ง ก็ได้ เช่น &lt;br /&gt; &lt;br /&gt;
+
+She always did everything according to the rules. &lt;br /&gt;
+เธอจะปฏิบัติตามกฎเกณฑ์เสมอ &lt;br /&gt; &lt;br /&gt;
+
+I cooked the rice according to the directions on the box. &lt;br /&gt;
+ฉันปรุงอาหาร ตามวิธีการ (directions) ที่ระบุบนกล่อง &lt;br /&gt; &lt;br /&gt;
+
+He was paid according to how quickly he worked. &lt;br /&gt;
+เขาได้รับการจ่ายเงิน(ค่าจ้าง) ตามความเร็วที่เขาทำงาน &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02322:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Somsak got ........... from his job because his boss caught him stealing office supplies. &lt;br /&gt;
+
+	</question>
+    <choice_A>signed  </choice_A>
+    <choice_B>split  </choice_B>
+    <choice_C>reached  </choice_C>
+    <choice_D>fired  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Somsak got ........... from his job because his boss caught him stealing office supplies. &lt;br /&gt;
+สมศักดิ์ถูก .......... จากงานที่ทำเพราะหัวหน้าจับได้ว่าเขาขโมย(steal) วัสดุสำนักงาน(office supplies) &lt;br /&gt; &lt;br /&gt;
+
+1. signed (เซ็นชื่อ) &lt;br /&gt;
+2. split(แยก) &lt;br /&gt;
+3. reached(เข้าถึง) &lt;br /&gt;
+4.  fired(ไล่ออก)✔ &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+คำว่า catch ต้องตามด้วยคำนาม หรือ กริยาเติม ing เช่น &lt;br /&gt; &lt;br /&gt;
+
+I caught someone trying to break into my house. &lt;br /&gt;
+ฉันจับคนที่กำลังเข้าไปขโมยของในบ้านฉัน &lt;br /&gt; &lt;br /&gt;
+
+คำอื่น ๆ ที่ใช้ในลักษณะนี้ เช่น  &lt;br /&gt;
+find, imagine, leave, prevent, stop เป็นต้น&lt;br /&gt; &lt;br /&gt;
+
+We couldn’t prevent them getting away &lt;br /&gt;
+พวกเราไม่สามารถป้องกันพวกนั้นจากการหนีไปได้ &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02323:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Sombat had his ........... tested yesterday. The doctor said he needed glasses. &lt;br /&gt;
+
+	</question>
+    <choice_A>stool  </choice_A>
+    <choice_B>vision  </choice_B>
+    <choice_C>blood  </choice_C>
+    <choice_D>pressure  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Sombat had his ........... tested yesterday. The doctor said he needed glasses. &lt;br /&gt;
+สมบัติ ได้รับการตรวจ ........ เมื่อวานนี้. หมอบอกว่า เขาต้องการแว่นตา (ต้องใช้แว่นตา) &lt;br /&gt; &lt;br /&gt;
+
+1. stool (อุจจาระ) &lt;br /&gt;
+2. vision (สายตา)✔ &lt;br /&gt;
+3. blood (เลือด) &lt;br /&gt;
+4. pressure (ความดัน) &lt;br /&gt; &lt;br /&gt;
+
+คำว่า glass คือ แก้ว เช่น แก้วน้ำ&lt;br /&gt;
+คำว่า glasses อาจจะหมายถึงแก้วน้ำหลายแก้ว หรือ แว่นตา ก็ได้ ต้องดูความหมายในประโยคประกอบ &lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02324:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+My boss .... me the task of cleaning the kitchen floor. &lt;br /&gt;
+
+	</question>
+    <choice_A>labeled   </choice_A>
+    <choice_B>sent   </choice_B>
+    <choice_C>assigned  </choice_C>
+    <choice_D>recruited  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+My boss .... me the task of cleaning the kitchen floor. &lt;br /&gt;
+หัวหน้าของผม .................. ภารกิจ (task of) ในการทำความสะอาดพื้นครัว &lt;br /&gt; &lt;br /&gt;
+
+1. labeled (ติดป้าย) &lt;br /&gt;
+2. sent (ส่ง) &lt;br /&gt;
+3. assigned (มอบหมาย)✔ &lt;br /&gt;
+4. recruited (หาคนเข้าทำงาน) &lt;br /&gt; &lt;br /&gt;
+
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+คำว่า ภารกิจ(task) การบ้าน (homework) ต้องใช้คู่กับคำว่า มอบหมาย (assign) &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02325:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+I want to be a successful politician. That's a goal I want to .......... . &lt;br /&gt;
+
+	</question>
+    <choice_A>achieve  </choice_A>
+    <choice_B>recall  </choice_B>
+    <choice_C>invent  </choice_C>
+    <choice_D>acquire  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+I want to be a successful politician. That's a goal I want to ........... . &lt;br /&gt;
+ฉันต้องการเป็นนักการเมืองที่ประสบผลสำเร็จ. นั่นคือเป้าหมายหนึ่งของฉันที่ .......... &lt;br /&gt; &lt;br /&gt;
+
+1. achieve (ได้มาจากความพยายาม จนสำเร็จ)✔ &lt;br /&gt;
+2. recall (ระลึกได้) &lt;br /&gt;
+3. invent (ประดิษฐ์) &lt;br /&gt;
+4. acquire (เป็นเจ้าของ ได้มาเป็นกรรมสิทธิ์) &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+achieve มักจะใช้กับการได้มา หรือการประสบผลสำเร็จจากการกระทำ หรือดำเนินการจนประสบผลสำเร็จ เช่น จุดประสงค์ เป้าหมาย  &lt;br /&gt; &lt;br /&gt;
+He has already achieved his main ambition in life - to become wealthy. &lt;br /&gt;
+เขาได้ประสบผลสำเร็จตามความมุ่งหวังในชีวิตของเขาแล้ว - การเป็นเศรษฐี &lt;br /&gt; &lt;br /&gt;
+
+acquire หมายถึง การได้มาซึ่งสิ่งของ การเป็นเจ้าของ &lt;br /&gt; &lt;br /&gt;
+I was wearing a newly acquired jacket. &lt;br /&gt;
+ฉันกำลังใส่เสื้อที่เพิ่งได้มาใหม่ ๆ &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02326:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+Sunisa has always been .... of her sister, Sumalee, who is very beautiful and popular. &lt;br /&gt;
+
+	</question>
+    <choice_A>jealous  </choice_A>
+    <choice_B>guilty  </choice_B>
+    <choice_C>capable  </choice_C>
+    <choice_D>acceptable  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Sunisa has always been .... of her sister, Sumalee, who is very beautiful and popular. &lt;br /&gt;
+สุนิสา .............. พี่/น้องสาวของเธอ, (ชื่อ)สุมาลี, ซึ่งทั้งสวยและเป็นที่ชื่นชอบของคนทั่วไป &lt;br /&gt; &lt;br /&gt;
+
+1. jealous✔ &lt;br /&gt;
+2. guilty &lt;br /&gt;
+3. capable &lt;br /&gt;
+4. acceptable &lt;br /&gt; &lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02327:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Somsak wanted to talk to a beautiful girl on the train but he didn't have the ....... to start a conversation. &lt;br /&gt;
+
+	</question>
+    <choice_A>strength  </choice_A>
+    <choice_B>courage  </choice_B>
+    <choice_C>power  </choice_C>
+    <choice_D>tolerance  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Somsak wanted to talk to a beautiful girl on the train but he didn't have the ....... to start a conversation. &lt;br /&gt;
+สมศักดิ์ต้องการพูดกับหญิงสาวบนรถไฟ แต่เขาไม่มี ......... ที่จะเริ่มบทสนทนา &lt;br /&gt; &lt;br /&gt;
+
+1. strength (พละกำลัง) &lt;br /&gt;
+2. courage (ความกล้า)✔ &lt;br /&gt;
+3. power (พลัง) &lt;br /&gt;
+4. information (ข่าวสาร ข้อมูล) &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+การเริ่มต้นบทสนทนา ต้องใช้ความกล้ามากกว่าอย่างอื่น &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02328:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Drinking too much the night before is not a good ................ for getting up late in the morning. &lt;br /&gt;
+
+	</question>
+    <choice_A>blame  </choice_A>
+    <choice_B>excuse  </choice_B>
+    <choice_C>scenario  </choice_C>
+    <choice_D>mood  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Drinking too much the night before is not a good ................ for getting up late in the morning. &lt;br /&gt;
+การดื่มมากไปเมื่อคืนก่อน ไม่ใช่ ................. ที่ดี สำหรับการตื่นนอนสายในตอนเช้า &lt;br /&gt; &lt;br /&gt;
+
+1. blame (ตำหนิ ว่ากล่าว ปรักปรำ) &lt;br /&gt;
+2. excuse (เหตุผล ข้อแก้ตัว)✔ &lt;br /&gt;
+3. scenario(สถานการณ์) &lt;br /&gt;
+4. mood (อารมณ์) &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+excuse ใช้เป็นคำกริยา หมายถึง ให้อภัย เช่น &lt;br /&gt;
+Please excuse my messy handwriting. &lt;br /&gt;
+กรุณาให้อภัยกับลายมือเขียนยุ่ง ๆ ของผม &lt;br /&gt; &lt;br /&gt;
+
+Excuse me? &lt;br /&gt;
+ขอโทษครับ .... &lt;br /&gt; &lt;br /&gt;
+
+ถ้าใช้เป็นคำนาม เหมือนในข้อความข้างบน จะหมายถึง เหตุผล หรือข้ออ้าง ข้อแก้ตัว &lt;br /&gt; &lt;br /&gt;
+No one will have the excuse that they didn’t know. &lt;br /&gt;
+ไม่มีใครที่จะมีข้ออ้างว่าไม่รู้ (จะอ้างว่า &quot;ไม่รู้&quot; ไม่ได้) &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02329:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Indonesia’s most active volcano, Mount Merapi, ................ on Thursday, sending an ash column as high as 6,000m into the sky.&lt;br /&gt;
+
+	</question>
+    <choice_A>elected </choice_A>
+    <choice_B>selected </choice_B>
+    <choice_C>erupted </choice_C>
+    <choice_D>eroded  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Indonesia’s most active , Mount Merapi, .................  on Thursday, sending an ash column as high as 6,000m into the sky.&lt;br /&gt;
+ภูเขาไฟที่ยังไม่ดับ ของประเทศอินโดนีเซีย ชื่อ Merapi ..................... เมื่อวันพฤหัสบดี ส่งเถ้าเป็นลำ(column) สูงถึง 6,000 เมตร บนท้องฟ้า &lt;br /&gt;&lt;br /&gt;
+
+1. elected (ได้รับการเลือกตั้ง)&lt;br /&gt;
+2. selected (ถูกเลือก)&lt;br /&gt;
+3. erupted (ปะทุ, ระเบิด)✔&lt;br /&gt;
+4. eroded (พังทลาย)&lt;br /&gt;&lt;br /&gt;
+
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+ภูเขาไฟที่ยังไม่ดับ เรียกว่า active volcano&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- ถึงตรงนี้ -->
+  <!-- D:\_examPrep_DAT_All\กพ-ระดับ3\resources\english\ready-to-go\vocab_englishcurrent_dot_com.txt  -->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02330:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+I must ask you to ....................... me to the police station. I need a friend to go with. &lt;br /&gt;
+	</question>
+    <choice_A>accompany  </choice_A>
+    <choice_B>indicate  </choice_B>
+    <choice_C>scatter  </choice_C>
+    <choice_D>appeal  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+I must ask you to ....................... me to the police station. I need a friend to go with. &lt;br /&gt;
+ฉันคงต้องขอให้คุณ .................. กับฉันไปสถานีตำรวจ ฉันต้องการเพื่อนไปด้วย &lt;br /&gt; &lt;br /&gt;
+
+1. accompany (ร่วมเดินทางไปด้วย)✔ &lt;br /&gt;
+2. indicate (แสดงให้เห็นว่า)&lt;br /&gt;
+3. scatter (กระจาย)&lt;br /&gt;
+4. appeal(ร้องขอต่อสาธารณชน)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02331:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+After getting married, Suda and Sutep have a ................. to have children.&lt;br /&gt;
+
+	</question>
+    <choice_A>injury  </choice_A>
+    <choice_B>desire  </choice_B>
+    <choice_C>fever  </choice_C>
+    <choice_D>order  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+After getting married, Suda and Sutep have a ................. to have children.&lt;br /&gt;
+หลังจากแต่งงานแล้ว, สุดาและสุเทพ มี ............ ที่จะมีบุตร&lt;br /&gt;&lt;br /&gt;
+
+1. injury (บาดเจ็บ)&lt;br /&gt;
+2. desire(ความปรารถนา)✔&lt;br /&gt;
+3. fever(การเป็นไข้, ตื่นเต้น)&lt;br /&gt;
+4. order(คำสั่ง)&lt;br /&gt;&lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+คำว่า fever ในความหมายว่า ตื่นเต้น เร่าร้อน กระเหี้ยนกระหือรือ มักจะใช้กับ กิจกรรมหรือเหตุการณ์ เช่น footbal fever)&lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02332:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+The police were unsure of the ............... of her death. They didn't know what killed her. &lt;br /&gt;
+
+	</question>
+    <choice_A>review  </choice_A>
+    <choice_B>cause  </choice_B>
+    <choice_C>effort  </choice_C>
+    <choice_D>certain  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+The police were unsure of the ............... of her death. They didn't know what killed her. &lt;br /&gt;
+ตำรวจไม่แน่ใจ (unsure) เกี่ยวกับ ................ ของการตายของเธอ. ตำรวจไม่รู้ว่า อะไรทำให้เธอเสียชีวิต &lt;br /&gt; &lt;br /&gt;
+
+1. review (ทบทวน) &lt;br /&gt;
+2.  cause (ต้นเหตุ) ✔ &lt;br /&gt;
+3.  effort (ความพยายาม) &lt;br /&gt;
+4. killer (ฆาตกร) &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02333:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Yesterday, the police ............ a woman in the 7&#47;11 store for shoplifting. &lt;br /&gt;
+
+	</question>
+    <choice_A>arrested  </choice_A>
+    <choice_B>reserved  </choice_B>
+    <choice_C>assigned  </choice_C>
+    <choice_D>exported  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Yesterday, the police ............ a woman in the 7&#47;11 store for shoplifting. &lt;br /&gt;
+เมื่อวานนี้, ตำรวจ ................ ผู้หญิงคนหนึ่งในร้าน 7&#47;11 ในข้อหา ขโมยของในร้าน (shoplifting) &lt;br /&gt; &lt;br /&gt;
+
+1. arrested (จับกุม)✔ &lt;br /&gt;
+2. reserved (สงวนไว้) &lt;br /&gt;
+3. assigned (มอบหมาย) &lt;br /&gt;
+4. exported (ส่งออกต่างประเทศ) &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02334:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+She immediately ........................ her words. She was sorry about what she had just said. &lt;br /&gt;
+
+	</question>
+    <choice_A>appreciated  </choice_A>
+    <choice_B>comprehended  </choice_B>
+    <choice_C>regretted  </choice_C>
+    <choice_D>imagined  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+She immediately regretted her words. She was sorry about what she had just said. &lt;br /&gt;
+เธอ ............ ทันทีเกี่ยวกับคำพูดของเธอ. เธอเสียใจในสิ่งที่เธอเพิ่งพูดไป &lt;br /&gt; &lt;br /&gt;
+
+1. appreciated (ซาบซึ้ง) &lt;br /&gt;
+2. comprehended (เข้าใจ) &lt;br /&gt;
+3. regretted (เสียใจ)✔ &lt;br /&gt;
+4. imagined (จินตนาการ) &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id02335:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Somsak recently changed his ............... . He used to be a fruit seller, but now he's a farmer. &lt;br /&gt;
+
+	</question>
+    <choice_A>source   </choice_A>
+    <choice_B>mood   </choice_B>
+    <choice_C>profit   </choice_C>
+    <choice_D>career  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Select the most appropriate choice for each item.&lt;br /&gt; &lt;br /&gt;
+
+Somsak recently changed his ............... . He used to be a fruit seller, but now he's a farmer. &lt;br /&gt;
+สมศักดิ์ได้เปลี่ยน .......... ของเขาเมื่อเร็ว ๆ นี้. เมื่อเขาเป็นคนขายผลไม้, แต่ตอนนี้เขาเป็นเกษตรกร &lt;br /&gt; &lt;br /&gt;
+
+1. source (แหล่งข้อมูล) &lt;br /&gt;
+2. mood (อารมณ์) &lt;br /&gt;
+3. profit (กำไร) &lt;br /&gt;
+4. career (อาชีพ) ✔ &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+    <!-- XX -->
+    <thisQuestion>
+        <qNum>id02336:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            I cannot understand why she did that, it really doesn't &lt;u&gt;add up&lt;/u&gt;.&lt;br /&gt;
+        </question>
+        <choice_A>doesn't calculate</choice_A>
+        <choice_B>isn't mathematics</choice_B>
+        <choice_C>doesn't make sense</choice_C>
+        <choice_D>makes the wrong addition</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>I cannot understand why she did that, it really doesn't &lt;u&gt;add up&lt;/u&gt;.&lt;br /&gt;
+            ผม&#47;ฉันไม่เข้าใจว่า ทำไมเธอจึงทำเช่นนั้น มันไม่สมเหตุสมผล(add up)เสียเลย&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            a. doesn't calculate&lt;br /&gt;
+            ไม่คำนวน&lt;br /&gt;&lt;br /&gt;
+
+            2. isn't mathematics&lt;br /&gt;
+            ไม่ใช่คณิตศาสตร์&lt;br /&gt;&lt;br /&gt;
+
+            3. doesn't make sense ✔&lt;br /&gt;
+            ไม่ได้เรื่อง ไม่มีเหตุผล&lt;br /&gt;&lt;br /&gt;
+
+            4. makes the wrong addition&lt;br /&gt;
+            บวกผิด&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            add up ความหมายตรง ๆ คือ บวกตัวเลข เช่น&lt;br /&gt;&lt;br /&gt;
+
+            These figures don't add up to the right total!&lt;br /&gt;
+            ตัวเลขพวกนี้รวมกันแล้วไม่เท่ากับผลรวมที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+            ถ้าเป็นสำนวน หมายถึงสมเหตุสมผล หรือเข้าท่าเข้าทาง หรือ to make sense (เปรียบเสมือนว่า รวมกันแล้วไม่เท่ากับผลลัพธ์ที่ถูกต้อง)&lt;br /&gt;&lt;br /&gt;
+
+            ตัวอย่างประโยค&lt;br /&gt;&lt;br /&gt;
+
+            Your explanation just doesn't add up!&lt;br /&gt;
+            คำอธิบายของคุณดูไม่สมเหตุสมผล&lt;br /&gt;
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <!-- XX -->
+    <thisQuestion>
+        <qNum>id02337:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            Nobody knows what's &lt;u&gt;going on&lt;/u&gt;?&lt;br /&gt;
+        </question>
+        <choice_A>meaning</choice_A>
+        <choice_B>continuing</choice_B>
+        <choice_C>happening</choice_C>
+        <choice_D>taking</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>Nobody knows what's &lt;u&gt;going on&lt;/u&gt;?&lt;br /&gt;
+            ไม่มีใครทราบว่า มีอะไรเกิดขึ้น&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            a. meaning&lt;br /&gt;
+            meaning = ความหมาย&lt;br /&gt;&lt;br /&gt;
+
+            2. continuing&lt;br /&gt;
+            continue มีความหมายเหมือนกับ go on เช่น&lt;br /&gt;&lt;br /&gt;
+
+            3. happening ✔  &lt;br /&gt;
+            เกิดขึ้น&lt;br /&gt;&lt;br /&gt;
+
+            4. taking&lt;br /&gt;
+            พาไป นำไป&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;เพิ่มเติม&lt;/strong&gt; &lt;br /&gt;&lt;br /&gt;
+
+            What's going on? เป็นสำนวน = What's happening? = มีอะไรเกิดขึ้น&lt;br /&gt;&lt;br /&gt;
+
+            คำว่า going on มีความหมายได้อีก เช่น&lt;br /&gt;
+            going on = almost = เกือบจะ เช่น&lt;br /&gt;
+            It was going on midnight when we left the party.&lt;br /&gt;
+            มันเกือบจะเที่ยงคืน ตอนที่เราออกจากงานปาร์ตี้ &lt;br /&gt;&lt;br /&gt;
+
+            อีกความหมายหนึ่ง ใช้พูดแบบตลก ๆ หมายถึงทำตัวเกินวัย&lt;br /&gt;
+            &lt;strong&gt;A:&lt;/strong&gt; How old is your daughter? &lt;br /&gt;
+            ลูกสาวอายุเท่าไร&lt;br /&gt;
+            &lt;strong&gt;B:&lt;/strong&gt; 6 going on 10.&lt;br /&gt;
+            6 ขวบ แต่ทำเหมือนอายุ 10 ขวบ&lt;br /&gt;&lt;br /&gt;
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <thisQuestion>
+        <qNum>id02338:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            Don't worry we'll &lt;u&gt;see you're all right&lt;/u&gt;.&lt;br /&gt;
+        </question>
+        <choice_A>look at you</choice_A>
+        <choice_B>look on you</choice_B>
+        <choice_C>look for you</choice_C>
+        <choice_D>look after you</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- a=2, b=3,c=4,d=5 -->
+        <explanation>
+            Don't worry we'll &lt;u&gt;see you're all right&lt;/u&gt;.&lt;br /&gt;
+            ไม่ต้องห่วง พวกเราจะดูแลว่าคุณไม่เป็นอะไร&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            1. look at&lt;br /&gt;
+            มองดู&lt;br /&gt;&lt;br /&gt;
+
+            2. look on&lt;br /&gt;
+            ชม, ดู เช่น ดูการแสดง&lt;br /&gt;
+            A large crowd looked on as the band played.&lt;br /&gt;
+            ฝูงชนขนาดมหึมา มองดู ในขณะที่วงดนตรีเล่น&lt;br /&gt;&lt;br /&gt;
+
+            3. look for &lt;br /&gt;
+            ค้นหา เช่น&lt;br /&gt;
+            I am looking for my black shirt. Have you seen it?&lt;br /&gt;
+            ผมกำลังหาเสื้อสีดำ คุณเห็นบ้างไหม&lt;br /&gt;&lt;br /&gt;
+
+            4. look after ✔&lt;br /&gt;
+            เลี้ยงดู ดูแล&lt;br /&gt;
+            I have to look after my son tonight.&lt;br /&gt;
+            คืนนี้ ผมต้องดูลูกของผม&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            สำนวนเกี่ยวกับ look ยังมีอีกหลายอย่าง เช่น&lt;br /&gt;&lt;br /&gt;
+
+            look out = เตือนให้ระวังตัว&lt;br /&gt;
+            Look out! A mad dog is coming your way.&lt;br /&gt;
+            ระวัง หมาบ้ากำลังมาทางคุณ&lt;br /&gt;&lt;br /&gt;
+
+            look up = ค้นหาในหนังสือ&lt;br /&gt;
+            I need to look that word up in the dictionary, I have never heard it before.&lt;br /&gt;
+            ผมต้องค้นคำนั้นในดิกชินนารี ผมไม่เคยได้ยินคำนี้มาก่อน&lt;br /&gt;&lt;br /&gt;
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <!-- 9 -->
+    <thisQuestion>
+        <qNum>id02339:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            Our sales &lt;u&gt;picked up&lt;/u&gt; a bit during the Christmas period.&lt;br /&gt;
+        </question>
+        <choice_A>improved</choice_A>
+        <choice_B>shrinked</choice_B>
+        <choice_C>truck sales</choice_C>
+        <choice_D>was very stable</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- a=2, b=3,c=4,d=5 -->
+        <explanation>
+            Our sales &lt;u&gt;picked up&lt;/u&gt; a bit during the Christmas period.&lt;br /&gt;
+            การขายของเราในช่วงคริสมาส ดีขึ้นนิดหน่อย (a bit)&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            1. improved ✔&lt;br /&gt;
+            ดีขึ้น&lt;br /&gt;
+            pick up มีความหมายหลายอย่าง ในประโยคนี้ หมายถึง ดีขึ้น หรือ improved&lt;br /&gt;&lt;br /&gt;
+
+            2. shrinked&lt;br /&gt;
+            หดตัวลง&lt;br /&gt;&lt;br /&gt;
+
+            3. truck sales&lt;br /&gt;
+            การขายรถบรรทุก&lt;br /&gt;&lt;br /&gt;
+
+            4. was very stable&lt;br /&gt;
+            มั่นคงมาก&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            ความหมายอย่างอื่น ของคำว่า pick up เช่น&lt;br /&gt;&lt;br /&gt;
+
+            ยก, อุ้ม เช่น&lt;br /&gt;
+            She rushed to pick up the baby as soon as it started to cry.&lt;br /&gt;
+            เธอรีบไปอุ้มเด็กในขณะที่เด็กเริ่มร้องไห้&lt;br /&gt;&lt;br /&gt;
+
+            มารับ หรือ ไปรับ เช่น&lt;br /&gt;
+            Can you pick me up and take me to the Hua-Hin Grand Hotel?&lt;br /&gt;
+            คุณมารับผมและพาไปส่งที่โรงแรมหัวหินแกรนด์ได้ไหม&lt;br /&gt;&lt;br /&gt;
+
+            เรียนรู้เร็ว&lt;br /&gt;
+            She picked up Spanish in six months.&lt;br /&gt;
+            เธอเรียนรู้ภาษาสเปนได้อย่างเร็วภายใน 6 เดือน&lt;br /&gt;&lt;br /&gt;
+
+            pickup truck (pickup - เขียนติดกัน) หมายถึงรถบรรทุกขนาดเล็ก คำว่า pickup เป็น adjective ขยายคำนาม คือ truck. &lt;br /&gt;
+            ในประโยค Our sales &lt;u&gt;picked up&lt;/u&gt; a bit during the Christmas period.&lt;br /&gt;
+            คำว่า pick up เป็นคำกริยาของประโยค จึงไม่มีความหมายใด ๆ ที่เกี่ยวข้องกับรถบรรทุก&lt;br /&gt;&lt;br /&gt;
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <!-- 10 -->
+    <thisQuestion>
+        <qNum>id02340:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            I simply &lt;u&gt;can't stand&lt;/u&gt; sugar in my tea or coffee.&lt;br /&gt;
+        </question>
+        <choice_A>can't eat</choice_A>
+        <choice_B>can't drink</choice_B>
+        <choice_C>can't bear</choice_C>
+        <choice_D>can't allow	</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- a=2, b=3,c=4,d=5 -->
+        <explanation>
+            I simply &lt;u&gt;can't stand&lt;/u&gt; sugar in my tea or coffee.&lt;br /&gt;
+            ผมเพียงแต่&lt;u&gt;ทนไม่ได้&lt;/u&gt;ที่จะมีน้ำตาลในชาหรือกาแฟของผม (ไม่ชอบเป็นอย่างมาก)&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            1. can't eat&lt;br /&gt;
+            กินไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+            2. can't drink&lt;br /&gt;
+            ดื่มไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+            3. can't bear ✔&lt;br /&gt;
+            ทนไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+            4. can't allow	&lt;br /&gt;
+            อนุญาตไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            can't stand = can't bear = can't tolerate = ทนไม่ได้ = ไม่ชอบเป็นอย่างมาก&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;การใช้ can't stand&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            คำว่า can't stand สามารถตามด้วยคำนาม คำกริยาเติม ing (gerund) หรือคำกริยาที่มี to (infinitive) ก็ได้ เช่น&lt;br /&gt;&lt;br /&gt;
+            Nancy can't stand working the late shift. &lt;br /&gt;(ตามด้วย gerund)&lt;br /&gt;&lt;br /&gt;
+            Nancy can't stand to work the late shift.&lt;br /&gt;(ตามด้วย infinitive)&lt;br /&gt;&lt;br /&gt;
+            Nancy can't stand her late shift.&lt;br /&gt;(ตามด้วย noun)&lt;br /&gt;&lt;br /&gt;
+            แนนซี่ไม่ชอบ(ทนไม่ได้)ที่จะทำงานกะในตอนดึก (late shift)&lt;br /&gt;
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <!-- 11 -->
+    <thisQuestion>
+        <qNum>id02341:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            I have a feeling that she's &lt;u&gt;taking you for a ride&lt;/u&gt;.&lt;br /&gt;
+        </question>
+        <choice_A>going with you in a car</choice_A>
+        <choice_B>asking you for a ride</choice_B>
+        <choice_C>trying to trick you</choice_C>
+        <choice_D>trying to push you</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- a=2, b=3,c=4,d=5 -->
+        <explanation>
+            I have a feeling that she's &lt;u&gt;taking you for a ride&lt;/u&gt;.
+            ฉันรู้สึกว่า เธอกำลัง&lt;u&gt;หลอก&lt;/u&gt;คุณ&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            1. going with you in a car&lt;br /&gt;
+            ไปกับคุณในรถ &lt;br /&gt;&lt;br /&gt;
+
+            2. asking you for a ride&lt;br /&gt;
+            ขอโดยสารรถคุณไปด้วย&lt;br /&gt;&lt;br /&gt;
+
+            3. trying to trick you ✔&lt;br /&gt;
+            พยายามที่จะหลอกคุณ&lt;br /&gt;&lt;br /&gt;
+
+            4. trying to push you&lt;br /&gt;
+            พยายามที่จะผลักคุณ&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            take someone for a ride = หลอก&lt;br /&gt;&lt;br /&gt;
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <!-- 12 -->
+    <thisQuestion>
+        <qNum>id02342:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            He's always got &lt;u&gt;his nose in a book&lt;/u&gt;.&lt;br /&gt;
+        </question>
+        <choice_A>hiding</choice_A>
+        <choice_B>reading</choice_B>
+        <choice_C>studying</choice_C>
+        <choice_D>looking</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- a=2, b=3,c=4,d=5 -->
+        <explanation>
+            He's always got  &lt;u&gt;his nose in a book&lt;/u&gt;.&lt;br /&gt;
+            เขาอ่านหนังสืออยู่เสมอ&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            1. hiding&lt;br /&gt;
+            ซ่อน&lt;br /&gt;&lt;br /&gt;
+
+            2. reading ✔&lt;br /&gt;
+            อ่านหนังสือ&lt;br /&gt;&lt;br /&gt;
+
+            3. studying&lt;br /&gt;
+            กำลังศึกษา&lt;br /&gt;&lt;br /&gt;
+
+            4. looking&lt;br /&gt;
+            มอง&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            สำนวน got his nose in a book = reading a book&lt;br /&gt;&lt;br /&gt;
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <!-- 13 -->
+    <thisQuestion>
+        <qNum>id02343:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            I think you're &lt;u&gt;asking too much of them&lt;/u&gt; as they are just children.&lt;br /&gt;
+        </question>
+        <choice_A>trying too much</choice_A>
+        <choice_B>saying too much</choice_B>
+        <choice_C>calling too much</choice_C>
+        <choice_D>expecting too much</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- a=2, b=3,c=4,d=5 -->
+        <explanation>
+            I think you're asking &lt;u&gt;asking too much of them&lt;/u&gt; as they are just children.
+            ผมคิดว่า คุณกำลัง&lt;u&gt;คาดหวังพวกเขามากเกินไป&lt;/u&gt; เพราะว่าพวกเขาเป็นเพียงเด็กเท่านั้น&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            1. trying too much&lt;br /&gt;
+            พยายามมากเกินไป&lt;br /&gt;&lt;br /&gt;
+
+            2. saying too much&lt;br /&gt;
+            พูดมากเกินไป&lt;br /&gt;&lt;br /&gt;
+
+            3. calling too much&lt;br /&gt;
+            เรียกมากเกินไป&lt;br /&gt;&lt;br /&gt;
+
+            4. expecting too much ✔&lt;br /&gt;
+            asking too much = expecting too much&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            คำว่า	as ในที่นี้ มีความเดียวกับคำว่า because
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <!-- 14 -->
+    <thisQuestion>
+        <qNum>id02344:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            If you want my opinion, I think this needs &lt;u&gt;looking into&lt;/u&gt;.&lt;br /&gt;
+        </question>
+        <choice_A>examining</choice_A>
+        <choice_B>finding</choice_B>
+        <choice_C>searching</choice_C>
+        <choice_D>discovering</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- a=2, b=3,c=4,d=5 -->
+        <explanation>
+            If you want my opinion, I think this needs &lt;u&gt;looking into&lt;/u&gt;.&lt;br /&gt;
+            ถ้าคุณต้องการความคิดเห็น(opinion)ของผม ผมคิดว่าเรื่องนี้ต้อง&lt;u&gt;ตรวจสอบ&lt;/u&gt;&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            1. examining ✔&lt;br /&gt;
+            look into = examine = ตรวจสอบ&lt;br /&gt;&lt;br /&gt;
+
+            2. finding&lt;br /&gt;
+            หา/ตามหา&lt;br /&gt;&lt;br /&gt;
+
+            3. searching&lt;br /&gt;
+            ค้นหา&lt;br /&gt;&lt;br /&gt;
+
+            4. discovering&lt;br /&gt;
+            การค้นพบ&lt;br /&gt;&lt;br /&gt;
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <!-- 15 -->
+    <thisQuestion>
+        <qNum>id02345:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            &lt;u&gt;One fine day&lt;/u&gt; I expect everything will be clear to you.&lt;br /&gt;
+        </question>
+        <choice_A>On a summer's day</choice_A>
+        <choice_B>When the sun shines</choice_B>
+        <choice_C>In the end</choice_C>
+        <choice_D>Very soon</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- a=2, b=3,c=4,d=5 -->
+        <explanation>
+            &lt;u&gt;One fine day&lt;/u&gt; I expect everything will be clear to you.&lt;br /&gt;
+            &lt;u&gt;สักวันหนึ่ง&lt;/u&gt; ฉันคาดว่าทุกสิ่งทุกอย่างก็จะแจ่มชัดให้คุณเห็น&lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            1. On a summer's day&lt;br /&gt;
+            วันหนึ่งในฤดูร้อน&lt;br /&gt;&lt;br /&gt;
+
+            2. When the sun shines&lt;br /&gt;
+            เมื่อดวงอาทิตย์ส่องแสง&lt;br /&gt;&lt;br /&gt;
+
+            3. In the end ✔&lt;br /&gt;
+            one fine day = in the end = ในท้ายที่สุด&lt;br /&gt;&lt;br /&gt;
+
+            4. Very soon&lt;br /&gt;
+            เร็ว ๆ นี้&lt;br /&gt;&lt;br /&gt;
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+
+    </thisQuestion>
+    <!-- 16 -->
+    <thisQuestion>
+        <qNum>id02346:date1627453500</qNum>
+        <question>&lt;b&gt;Find the meaning of the underlined word(s)&lt;/b&gt;&lt;br /&gt;
+            I think the time has come when you should &lt;u&gt;put your toe in the water&lt;/u&gt; at least.&lt;br /&gt;
+        </question>
+        <choice_A>put it on</choice_A>
+        <choice_B>go for a swim</choice_B>
+        <choice_C>feel the cold</choice_C>
+        <choice_D>give it a chance</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- a=2, b=3,c=4,d=5 -->
+        <explanation>
+            I think the time has come when you should &lt;u&gt;put your toe in the water&lt;/u&gt;  at least.&lt;br /&gt;
+            ผมคิดว่า ถึงเวลาแล้วที่คุณจะ&lt;u&gt;เอาหัวนิ้วโป้เท้าจุ่มลงน้ำ&lt;/u&gt; &lt;br /&gt;&lt;br /&gt;
+
+            &lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+            1. put it on&lt;br /&gt;
+            สวมใส่ เช่น สวมเสื้อ&lt;br /&gt;&lt;br /&gt;
+
+            2. go for a swim&lt;br /&gt;
+            ไปว่ายน้ำ&lt;br /&gt;&lt;br /&gt;
+
+            3. feel the cold&lt;br /&gt;
+            สัมผัสความเย็น&lt;br /&gt;
+            feel the cold เป็นความหมายตรงตัว คือ เอานิ้วเท้าจุ่มลงน้ำเพื่อสัมผัสความเย็น ไม่ใช่ความหมายในประโยคนี้ &lt;br /&gt;&lt;br /&gt;
+
+            4. give it a chance ✔&lt;br /&gt;
+            ให้โอกาส&lt;br /&gt;&lt;br /&gt;
+
+            สำนวน put you toe in the water เปรียบเหมือนก่อนกระโดดลงสระ ต้องเอาเท้าจุ่มดูความเย็นเสียก่อน โดยความหมายก็คือ ให้ทดลอง ทดสอบดูสักเล็กน้อยเสียก่อนว่าเป็นอย่างไร มีความหมายตรงกับ give it a chance&lt;br /&gt;&lt;br /&gt;
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+
+    </thisQuestion>
+
+</exams>
+
+

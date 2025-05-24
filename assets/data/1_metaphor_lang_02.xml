@@ -1,0 +1,2057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- อุปมาอุปไมย -->
+  <!--
+ข้อสอบ อุปมาอุปไมย คือ การหาตัวเลือกที่มีลักษณะความสัมพันธ์คล้ายคลึง หรือเหมือนกับที่โจทย์กำหนดให้มา (คำนิยามจากแนวข้อสอบ บนเว็บ ของ ก.พ.)
+-->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0364:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+นิติศาสตร์ : เศรษฐศาสตร์ :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>ครุศาสตร์ : วิศวกรรมศาสตร์</choice_A>
+    <choice_B>ชีววิทยา : คณิตศาสตร์ </choice_B>
+    <choice_C>วิทยาศาสตร์ : นิติศาสตร์</choice_C>
+    <choice_D>สถาปัตยกรรมศาสตร์ : วารสารศาสตร์</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+นิติศาสตร์ : เศรษฐศาสตร์  :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. ครุศาสตร์ : วิศวกรรมศาสตร์&lt;br /&gt;
+2. ชีววิทยา : คณิตศาสตร์ ✔&lt;br /&gt;
+3. วิทยาศาสตร์ : นิติศาสตร์&lt;br /&gt;
+4. สถาปัตยกรรมศาสตร์ : วารสารศาสตร์&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+นิติศาสตร์ และ เศรษฐศาสตร์ อยู่ในสาขาเดียวกัน (สาขาสังคมศาสตร์ หรือ Social sciences)&lt;br /&gt;
+ชีววิทยา และ คณิตศาสตร์  อยู่ในสาขาเดียวกัน (สาขาวิทยาศาสตร์)&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;wikipedia&lt;/strong&gt;แบ่งสาขาวิชา ดังนี้&lt;br /&gt;&lt;br /&gt;
+
+1 ศิลปศาสตร์ (Arts)&lt;br /&gt;
+	1.1 ศิลปะการแสดง (Performing arts)&lt;br /&gt;
+	1.2 ทัศนศิลป์ (Visual arts)&lt;br /&gt;
+2 มนุษยศาสตร์ (Humanities)&lt;br /&gt;
+	2.1 ภูมิศาสตร์ (Geography)&lt;br /&gt;
+	2.2 ประวัติศาสตร์ (History)&lt;br /&gt;
+	2.3 ภาษาและวรรณคดี (Languages and literature)&lt;br /&gt;
+	2.4 ปรัชญา (Philosophy)&lt;br /&gt;
+3 สังคมศาสตร์ (Social sciences)&lt;br /&gt;
+	3.1 เศรษฐศาสตร์ (Economics)&lt;br /&gt;
+	3.2 นิติศาสตร์ (Law)&lt;br /&gt;
+	3.3 รัฐศาสตร์ (Political science)&lt;br /&gt;
+	3.4 จิตวิทยา (Psychology)&lt;br /&gt;
+	3.5 สังคมวิทยา (Sociology)&lt;br /&gt;
+4 วิทยาศาสตร์ (Sciences)&lt;br /&gt;
+	4.1 ชีววิทยา (Biology)&lt;br /&gt;
+	4.2 เคมี (Chemistry)&lt;br /&gt;
+	4.3 โลกและอวกาศ (Earth and space sciences)&lt;br /&gt;
+	4.4 คณิตศาตร์ (Mathematics)&lt;br /&gt;
+	4.5 ฟิสิกส์ (Physics)&lt;br /&gt;
+5 เทคโนโลยี (Technology)&lt;br /&gt;
+	5.1 พืชศาสตร์, วิทยาศาสตร์และเศรษฐศาสตร์เกี่ยวกับผลผลิตทางการเกษตร (Agronomy)&lt;br /&gt;
+	5.2 คอมพิวเตอร์ (Computer science)&lt;br /&gt;
+	5.3 วิศวกรรมศาสตร์ (Engineering)&lt;br /&gt;
+	5.4 แพทย์ศาสตร์ (Medicine)&lt;br /&gt;&lt;br /&gt;
+
+ที่มา:&lt;br /&gt;
+https://en.wikipedia.org/wiki/Outline_of_academic_disciplines&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0365:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+เถาะ : ระกา :: _____: _____&lt;br /&gt;
+
+	</question>
+    <choice_A>กระต่าย : แมว</choice_A>
+    <choice_B>เมษายน : ตุลาคม</choice_B>
+    <choice_C>ไก่ : กระต่าย</choice_C>
+    <choice_D>มีนาคม : ธันวาคม</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+เถาะ : ระกา :: _____: _____&lt;br /&gt;&lt;br /&gt;
+
+1. กระต่าย : แมว&lt;br /&gt;
+2. เมษายน : ตุลาคม ✔&lt;br /&gt;
+3. ไก่ : กระต่าย&lt;br /&gt;
+4. มีนาคม : ธันวาคม&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ปีเถาะ ห่างจาก ปีระกา 6 หน่วย (ปี) &lt;br /&gt;
+เดือนเมษายน ห่างจาก เดือนตุลาคม 6 หน่วย (เดือน)&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ปีนักษัตร&lt;/strong&gt; ทั้ง 12 ปี มีดังนี้&lt;br /&gt;&lt;br /&gt;
+
+ชวด - หนู&lt;br /&gt;
+ฉลู - วัว&lt;br /&gt;
+ขาล - เสือ&lt;br /&gt;
+เถาะ - กระต่าย&lt;br /&gt;
+มะโรง - งูใหญ่ หรือ มังกร&lt;br /&gt;
+มะเส็ง - งูเล็ก&lt;br /&gt;
+มะเมีย - ม้า&lt;br /&gt;
+มะแม - แพะ&lt;br /&gt;
+วอก - ลิง&lt;br /&gt;
+ระกา - ไก่&lt;br /&gt;
+จอ - สุนัข&lt;br /&gt;
+กุน - สุกร&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0366:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ขาว : ดำ :: ____ : ____ ? &lt;br /&gt;
+
+	</question>
+    <choice_A>ทุกข์ : โศก</choice_A>
+    <choice_B>โกรธ : หลง</choice_B>
+    <choice_C>ใหญ่ : ยาว</choice_C>
+    <choice_D>รัก : เกลียด</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ขาว : ดำ :: ____ : ____ ? &lt;br /&gt;&lt;br /&gt;
+
+1. ทุกข์ : โศก&lt;br /&gt;
+2. โกรธ : หลง&lt;br /&gt;
+3. ใหญ่ : ยาว&lt;br /&gt;
+4. รัก : เกลียด ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ขาว : ดำ&lt;br /&gt;
+เป็นคำตรงข้ามกัน เช่นเดียวกับคำว่า รัก : เกลียด&lt;br /&gt;&lt;br /&gt;
+
+ขาว ตรงกันข้ามกับ ดำ&lt;br /&gt;
+รัก ตรงกันข้ามกับ เกลียด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0367:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+น้ำ : ปลา ::  ____ : ____ ?&lt;br /&gt;
+
+	</question>
+    <choice_A>นา : ข้าว</choice_A>
+    <choice_B>มาก : น้อย</choice_B>
+    <choice_C>รวย : จน</choice_C>
+    <choice_D>พี่ : น้อง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+น้ำ : ปลา ::  ____ : ____ ?&lt;br /&gt;&lt;br /&gt;
+
+1. นา : ข้าว ✔&lt;br /&gt;
+2. มาก : น้อย&lt;br /&gt;
+3. รวย : จน&lt;br /&gt;
+4. พี่ : น้อง&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ปลา อยู่ใน น้ำ &lt;br /&gt;
+ข้าว อยู่ใน นา &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0368:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+คน : บ้าน  :: เณร : ____ ?&lt;br /&gt;
+
+	</question>
+    <choice_A>ศาลา</choice_A>
+    <choice_B>วิหาร</choice_B>
+    <choice_C>วัด</choice_C>
+    <choice_D>โบสถ์</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+คน : บ้าน  :: เณร : ____ ?&lt;br /&gt;&lt;br /&gt;
+
+1. ศาลา&lt;br /&gt;
+2. วิหาร&lt;br /&gt;
+3. วัด ✔&lt;br /&gt;
+4. โบสถ์&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+คน อยู่ บ้าน&lt;br /&gt;
+(บ้าน เป็นที่อยู่ของ คน)&lt;br /&gt;
+เณร อยู่ วัด&lt;br /&gt;
+(วัด เป็นที่อยู่ของ เณร)&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกอื่นใช้ไม่ได้ เพราะไม่ใช่ที่อยู่ของ พระ เณร&lt;br /&gt;&lt;br /&gt;
+
+ศาลา มักเป็นอาคารเปิดโล่ง เป็นที่ทำบุญกุศล ของพุทธศาสนิกชน&lt;br /&gt;&lt;br /&gt;
+
+โบสถ์ สถานที่สำหรับพระสงฆ์ใช้ประชุมกันทำสังฆกรรมตามพระวินัยเช่น สวดพระปาติโมกข์อุปสมบท เป็นสถานที่เฉพาะสำหรับพระภิกษุสงฆ์ทำสังฆกรรม โบสถ์จะมีซุ้มเสมาหรือใบเสมา ล้อมรอบ &lt;br /&gt;&lt;br /&gt;
+
+วิหาร เป็นสถานที่ ที่สร้างขึ้นเพื่อประดิษฐาน พระพุทธรูปสำคัญ ตลอดจน เป็นที่ประกอบพิธีกรรม ทางศาสนาร่วมกัน ระหว่างพระภิกษุ สงฆ์กับฆราวาส เช่น งานถวายผ้าพระกฐิน งานทอดผ้าป่า งานทำบุญพิธีต่างๆ ฯลฯ &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0369:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ช้าง : งวง :: คน : ____ ?&lt;br /&gt;
+	</question>
+    <choice_A>หู</choice_A>
+    <choice_B>เท้า</choice_B>
+    <choice_C>จมูก</choice_C>
+    <choice_D>ปาก</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ช้าง : งวง :: คน : ____ ?&lt;br /&gt;&lt;br /&gt;
+
+1. หู&lt;br /&gt;
+2. เท้า&lt;br /&gt;
+3. จมูก ✔&lt;br /&gt;
+4. ปาก&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ช้าง หายใจทาง งวง&lt;br /&gt;
+คน หายใจทาง จมูก&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0370:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+องุ่น : พวง :: ข้าว : ____ ?&lt;br /&gt;
+
+	</question>
+    <choice_A>ถัง</choice_A>
+    <choice_B>รวง</choice_B>
+    <choice_C>เมล็ด</choice_C>
+    <choice_D>ฟ่อน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+องุ่น : พวง :: ข้าว : ____ ?&lt;br /&gt;&lt;br /&gt;
+
+1. ถัง&lt;br /&gt;
+2. รวง ✔&lt;br /&gt;
+3. เมล็ด&lt;br /&gt;
+4. ฟ่อน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+องุ่น ออกผลรวมกันเรียกว่า พวง&lt;br /&gt;
+ข้าว ออกเมล็ดรวมกันเรียกว่า รวง&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0371:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ไม้บรรทัด : วัด ::  ลิตร : ____ ?&lt;br /&gt;
+
+	</question>
+    <choice_A>บรรจุ</choice_A>
+    <choice_B>ใส่</choice_B>
+    <choice_C>ตวง</choice_C>
+    <choice_D>ตัก</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ไม้บรรทัด : วัด ::  ลิตร : ____ ?&lt;br /&gt;&lt;br /&gt;
+
+1. บรรจุ&lt;br /&gt;
+2. ใส่&lt;br /&gt;
+3. ตวง ✔&lt;br /&gt;
+4. ตัก&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ไม้บรรทัด มีไว้สำหรับ วัด&lt;br /&gt;
+ลิตร มีไว้สำหรับ ตวง&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0372:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ศาล : ความยุติธรรม ::  ____ : ____ &lt;br /&gt;
+	</question>
+    <choice_A>ทนายความ : ลูกความ</choice_A>
+    <choice_B>อัยการ : โจทก์</choice_B>
+    <choice_C>วุฒิสภา : ส.ส.</choice_C>
+    <choice_D>รัฐสภา : กฎหมาย</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ศาล : ความยุติธรรม ::  ____ : ____ &lt;br /&gt;&lt;br /&gt;
+
+1. ทนายความ : ลูกความ&lt;br /&gt;
+2. อัยการ : โจทก์&lt;br /&gt;
+3. วุฒิสภา : ส.ส.&lt;br /&gt;
+4. รัฐสภา : กฎหมาย ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+รัฐสภาเป็นสภาที่บัญญัติกฎหมาย เช่นเดียวกันกับศาล ที่เป็นสถาบันพิจารณา ความขัดแย้ง เพื่อให้เกิดความยุติธรรม
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0373:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+รัสเซีย : หมีขาว :: ____ : ____ &lt;br /&gt;
+
+	</question>
+    <choice_A>แคนาดา : นกอินทรีย์</choice_A>
+    <choice_B>สิงค์โปร์ : ปลาโลมา</choice_B>
+    <choice_C>ออสเตรเลีย : จิงโจ้</choice_C>
+    <choice_D>ญี่ปุ่น : สิงโต</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+รัสเซีย : หมีขาว :: ____ : ____ &lt;br /&gt;&lt;br /&gt;
+
+1. แคนาดา : นกอินทรีย์&lt;br /&gt;
+2. สิงค์โปร์ : ปลาโลมา&lt;br /&gt;
+3. ออสเตรเลีย : จิงโจ้ ✔&lt;br /&gt;
+4. ญี่ปุ่น : สิงโต&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+จิ้งโจ้เป็นสัญลักษณ์ของประเทศออสเตรเลีย&lt;br /&gt;
+หมีขาวเป็นสัญลักษณ์ของประเทศรัสเซีย&lt;br /&gt;&lt;br /&gt;
+
+สัญลักษณ์ของ แคนาดา คือ ใบเมเปิ้ล&lt;br /&gt;
+สัญลักษณ์ของสิงคโปร์ คือ สิงโตทะเล&lt;br /&gt;
+สัญลักษณ์ของญี่ปุ่น มีหลายอย่าง เช่น พระอาทิตย์ ดอกซากุระ ภูเขาฟูจิ เป็นต้น&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0374:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+กระดานดำ : ชอล์ก :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>ปากกาเคมี : ไวท์บอร์ด</choice_A>
+    <choice_B>กระดาษ : ดินสอ</choice_B>
+    <choice_C>ดิสเก็ต : โปรแกรมเมอร์</choice_C>
+    <choice_D>บทกลอน : กวี</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+กระดานดำ : ชอล์ก :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. ปากกาเคมี : ไวท์บอร์ด&lt;br /&gt;
+2. กระดาษ : ดินสอ ✔&lt;br /&gt;
+3. ดิสเก็ต : โปรแกรมเมอร์&lt;br /&gt;
+4. บทกลอน : กวี &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดินสอ เป็นสิ่งที่ใช้เขียน กระดาษ &lt;br /&gt;
+ชอล์ก เป็นสิ่งที่ใช้เขียน กระดานดำ&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0375:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+แห : ปลา :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>เพนียด : ช้าง</choice_A>
+    <choice_B>สวิง : กุ้ง</choice_B>
+    <choice_C>โพงพาง : นก</choice_C>
+    <choice_D>ลอบ : กระต่าย</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+แห : ปลา :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. เพนียด : ช้าง&lt;br /&gt;
+2. สวิง : กุ้ง ✔&lt;br /&gt;
+3. โพงพาง : นก&lt;br /&gt;
+4. ลอบ : กระต่าย&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+สวิงเป็นเครื่องมือจับสัตว์น้ำใช้จับ กุ้ง (ใช้วิธีช้อนตัก) &lt;br /&gt;
+แห เป็นเครื่องมือจับสัตว์น้ำใช้จับ ปลา (ใช้วิธีเหวี่ยง)&lt;br /&gt;&lt;br /&gt;
+
+เพนียดเป็นสถานที่สำหรับคล้องช้าง แต่ไม่ใช่เป็นเครื่องมือจับสัตว์น้ำ&lt;br /&gt;
+สวิงกับกุ้ง จึงมีความสัมพันธ์ใกล้กับ แหและปลา มากกว่า เพนียดกับช้าง&lt;br /&gt;&lt;br /&gt;
+
+โพงพาง เป็นเครื่องมือจับปลา&lt;br /&gt;&lt;br /&gt;
+
+ลอบ ก็เป็นเครื่องมือจับปลา&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0376:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+เครื่องบิน : นก :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>เรือดำน้ำ : ปลา</choice_A>
+    <choice_B>เรือใบ : ว่าว</choice_B>
+    <choice_C>บอลลูน : ลูกโป่ง</choice_C>
+    <choice_D>จรวด : เครื่องร่อน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+เครื่องบิน : นก :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. เรือดำน้ำ : ปลา ✔&lt;br /&gt;
+2. เรือใบ : ว่าว&lt;br /&gt;
+3. บอลลูน : ลูกโป่ง&lt;br /&gt;
+4. จรวด : เครื่องร่อน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เรือดำน้ำเป็นยานพาหนะ ที่แล่นอยู่ในน้ำ เหมือนปลา ที่ว่ายอยู่ในน้ำ เช่นเดียวกับ เครื่องบินเป็นยานพาหนะ ที่บินอยู่บนท้องฟ้า เหมือนนก ที่บินอยู่ในท้องฟ้า&lt;br /&gt;&lt;br /&gt;
+
+บอลลูน : ลูกโป่ง และ จรวด : เครื่องร่อน ก็มีความสัมพันธ์ในลักษณะเดียวกับ เครื่องบิน : นก เหมือนกัน แต่ เรือดำน้ำ : ปลา มีความสัมพันธ์ใกล้เคียงมากกว่า เนื่องจาก เป็นการเปรียบเทียบ ยานพาหนะ กับ สัตว์ เหมือนกันกับ เรือดำน้ำ : ปลา&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0377:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ดอกไม้ : แจกัน :: _____ : _____&lt;br /&gt;
+
+
+	</question>
+    <choice_A>สตรีงาม : บุรุษ</choice_A>
+    <choice_B>เกสร : ผีเสื้อ</choice_B>
+    <choice_C>ขวดน้ำ : แก้วน้ำ</choice_C>
+    <choice_D>เทียนไข : เชิงเทียน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ดอกไม้ : แจกัน :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. สตรีงาม : บุรุษ&lt;br /&gt;
+2. เกสร : ผีเสื้อ&lt;br /&gt;
+3. ขวดน้ำ : แก้วน้ำ&lt;br /&gt;
+4. เทียนไข : เชิงเทียน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เชิงเทียน มีไว้สำหรับ ตั้ง เทียนไข
+แจกัน มีไว้สำหรับ ปัก ดอกไม้
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0378:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตำรวจ : ผู้ร้าย :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>ครู : นักเรียน</choice_A>
+    <choice_B>โรงสีข้าว : ชาวนา</choice_B>
+    <choice_C>โรงพยาบาล : แพทย์</choice_C>
+    <choice_D>รัฐสภา : กฎหมาย</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตำรวจ : ผู้ร้าย :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. ครู : นักเรียน ✔&lt;br /&gt;
+2. โรงสีข้าว : ชาวนา&lt;br /&gt;
+3. โรงพยาบาล : แพทย์&lt;br /&gt;
+4. รัฐสภา : กฎหมาย&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ผู้ที่มีอาชีพเป็นตำรวจ มีหน้าที่ จับ ผู้ร้าย&lt;br /&gt;
+ผู้ที่มีอาชีพเป็นครู มีหน้าที่ สอน นักเรียน&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกอื่น สัมพันธ์กับ ตำรวจ:ผู้ร้าย น้อยกว่า เพราะเป็นการเปรียบเทียบ สถาบันกับสิ่งอื่น แต่ ตำรวจ:ผู้ร้าย และ ครู:นักเรียน เป็นการเปรียบเทียบ คน:คน จึงมีความสัมพันธ์ มากกว่า&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0379:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+11. สัดส่วน : ร้อยละ :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>หน่วยกิต : จำนวน</choice_A>
+    <choice_B>ส่วนประกอบ : เปอร์เซ็นต์</choice_B>
+    <choice_C>โคลง : กลอน</choice_C>
+    <choice_D>มาตรา : สถิติ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+11. สัดส่วน : ร้อยละ :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. หน่วยกิต : จำนวน&lt;br /&gt;
+2. ส่วนประกอบ : เปอร์เซ็นต์&lt;br /&gt;
+3. โคลง : กลอน ✔&lt;br /&gt;
+4. มาตรา : สถิติ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+สัดส่วน มีลักษณะคล้ายกับ ร้อยละ&lt;br /&gt;
+โคลง มีล้กษณะคล้ายกับ กลอน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0380:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+เกวียน : กรรไกร :: _____ : _____&lt;br /&gt;
+	</question>
+    <choice_A>เลื่อย : สิ่ว</choice_A>
+    <choice_B>เข็ม : ผ้า</choice_B>
+    <choice_C>หนังสือ : เทียนไข</choice_C>
+    <choice_D>โค : คน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+เกวียน : กรรไกร :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. เลื่อย : สิ่ว&lt;br /&gt;
+2. เข็ม : ผ้า&lt;br /&gt;
+3. หนังสือ : เทียนไข ✔&lt;br /&gt;
+4. โค : คน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เกวียน และ กรรไกร มีลักษณนามเหมือนกัน (เล่ม)&lt;br /&gt;
+หนังสือ และ เทียนไข มีลักษณนามเหมือนกัน (เล่ม)&lt;br /&gt;&lt;br /&gt;
+
+กรรไกร,กรรไตร,ตะไกร มีลักษณนามคือ เล่ม &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0381:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ถุงเท้า : รองเท้า :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>เข็มขัด : กางเกง </choice_A>
+    <choice_B>ช้อมส้อม : ตะเกียบ</choice_B>
+    <choice_C>แว่นตา : นาฬิกา</choice_C>
+    <choice_D>ตุ้มหู : แหวน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ถุงเท้า : รองเท้า :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. เข็มขัด : กางเกง ✔&lt;br /&gt;
+2. ช้อมส้อม : ตะเกียบ&lt;br /&gt;
+3. แว่นตา : นาฬิกา&lt;br /&gt;
+4. ตุ้มหู : แหวน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เป็นของใช้ที่มักจะใช้คู่กัน&lt;br /&gt;&lt;br /&gt;
+
+คนส่วนใหญ่ สวมรองเท้า ต้องมี ถุงเท้า&lt;br /&gt;
+คนส่วนใหญ่ สวมกางเกง ต้องมี เข็มขัด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0382:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ห้องครัว : ห้องนอน :: _____ : _____&lt;br /&gt;
+	</question>
+    <choice_A>โรงอาหาร : ห้องเรียน</choice_A>
+    <choice_B>ห้องอาหาร : โรงแรม</choice_B>
+    <choice_C>ห้องครัว : แม่บ้าน</choice_C>
+    <choice_D>โภชนาการ : การพักผ่อน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ห้องครัว : ห้องนอน :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. โรงอาหาร : ห้องเรียน&lt;br /&gt;
+2. ห้องอาหาร : โรงแรม&lt;br /&gt;
+3. ห้องครัว : แม่บ้าน&lt;br /&gt;
+4. โภชนาการ : การพักผ่อน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ห้องครัว : ห้องนอน =  อาหาร : การพักผ่อน&lt;br /&gt;
+โภชนาการ : การพักผ่อน =  อาหาร : การพักผ่อน&lt;br /&gt;&lt;br /&gt;
+
+ห้องครัวเกี่ยวกับการทำอาหารเพื่อรับประทาน ห้องนอนเพื่อการพักผ่อน หรือสรุปว่า เป็นเรื่องการจัดทำอาหาร กับ การพักผ่อน&lt;br /&gt;
+โภชนาการเกี่ยวกับการรับประทาน การพักผ่อนที่ดีคือการนอน ซึ่งก็คือเรื่องการจัดทำอาหาร กับการพักผ่อน เหมือนกัน&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ เมื่อพิจารณาดูตัวเลือกอื่น ๆ จะเห็นว่า เป็นความสัมพันธ์ในลักษณะอื่น ไม่ใช่เป็นเรื่องการจัดทำอาหารและการพักผ่อน
+
+โรงอาหาร : ห้องเรียน เป็นเรื่อง การกิน กับการเรียน&lt;br /&gt;
+ห้องอาหาร : โรงแรม เป็นเรื่อง การกิน กับการนอนค้างคืน&lt;br /&gt;
+ห้องครัว : แม่บ้าน เป็นเรื่อง การทำอาหาร กับคนทำอาหาร&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0383:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+อำเภอ : หมู่บ้าน :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>จังหวัด : ตำบล</choice_A>
+    <choice_B>ปลัดอำเภอ : ผู้ใหญ่บ้าน</choice_B>
+    <choice_C>เมือง : เทศบาล</choice_C>
+    <choice_D>นายอำเภอ : กำนัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+อำเภอ : หมู่บ้าน :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. จังหวัด : ตำบล ✔&lt;br /&gt;
+2. ปลัดอำเภอ : ผู้ใหญ่บ้าน&lt;br /&gt;
+3. เมือง : เทศบาล&lt;br /&gt;
+4. นายอำเภอ : กำนัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+จังหวัด อำเภอ ตำบล หมู่บ้าน (เรียงตามลำดับจากใหญ่ไปหาเล็ก) &lt;br /&gt;&lt;br /&gt;
+
+อำเภอใหญ่กว่าหมู่บ้าน 2 ระดับ &lt;br /&gt;
+จังหวัดใหญ่กว่าตำบล 2 ระดับ&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 2 และ ข้อ 4 ก็ห่างกัน 2 ระดับเหมือนกัน แต่ข้อ 1 มีความสัมพันธ์มากกว่า เพราะ เป็นการปกครองส่วนภูมิภาค เหมือนกัน&lt;br /&gt;&lt;br /&gt;
+
+การปกครองส่วนภูมิภาค แบ่งออกเป็น จังหวัด อำเภอ ตำบล หมู่บ้าน&lt;br /&gt;&lt;br /&gt;
+
+การปกครองส่วนท้องถิ่น ได้แก่ เทศบาล อบจ. อบต. กรุงเทพมหานคร และเมืองพัทยา &lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0384:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+มั่นคง : ถาวร :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>เข้มแข็ง : อดทน</choice_A>
+    <choice_B>รุกราน : คุมคาม</choice_B>
+    <choice_C>แทรกแซง : เรียกร้อง</choice_C>
+    <choice_D>เคลื่อนย้าย : ลอยลม</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+มั่นคง : ถาวร :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. เข้มแข็ง : อดทน&lt;br /&gt;
+2. รุกราน : คุมคาม ✔&lt;br /&gt;
+3. แทรกแซง : ขัดข้อง&lt;br /&gt;
+4. เคลื่อนย้าย : ขัดข้อง&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+มั่นคง มีความหมายเช่นเดียวกับ ถาวร &lt;br /&gt;
+รุกราน มีความหมายเช่นเดียวกับ คุกคาม&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0385:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ขลุ่ย : แคน :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>ขิม : จะเข้</choice_A>
+    <choice_B>ปี่ : กลอง</choice_B>
+    <choice_C>ระนาด : โปงลาง</choice_C>
+    <choice_D>อังกะลุง : ฆ้องวง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ขลุ่ย : แคน :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. ขิม : จะเข้&lt;br /&gt;
+2. ปี่ : กลอง&lt;br /&gt;
+3. ระนาด : โปงลาง ✔&lt;br /&gt;
+4. อังกะลุง : ฆ้องวง&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ขลุ่ยกับแคน เป็นเครื่องดนตรีประเภทเดียวกัน(เครื่องเป่า) &lt;br /&gt;
+ระนาดกับโปงลาง เป็นเครื่องดนตรีประเภทเดียวกัน(เครื่องตี)&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลือกในข้ออื่น ๆ เป็นเครื่องดนตรีต่างชนิดกัน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0386:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+12 นาฬิกา :18 นาฬิกา :: _____ : _____ &lt;br /&gt;
+
+	</question>
+    <choice_A>กรกฎาคม : ธันวาคม</choice_A>
+    <choice_B>เดือน : ปี</choice_B>
+    <choice_C>ปีเถาะ : ปีระกา</choice_C>
+    <choice_D>วันเสาร์ : วันอาทิตย์</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+12 นาฬิกา :18 นาฬิกา :: _____ : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. กรกฎาคม : ธันวาคม&lt;br /&gt;
+2. เดือน : ปี&lt;br /&gt;
+3. ปีเถาะ : ปีระกา ✔&lt;br /&gt;
+4. วันเสาร์ : วันอาทิตย์&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+12 นาฬิกา กับ 18 นาฬิกา ห่างกัน 6 หน่วย (ชั่วโมง) &lt;br /&gt;
+ปีเถาะ กับ ปีระกา ห่างกัน 6 หน่วย (ปี)&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0387:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ความผิดพลาด : ขาดประสบการณ์ :: _____ : _____&lt;br /&gt;
+
+
+	</question>
+    <choice_A>ทักษะ : พลาดพลั้ง</choice_A>
+    <choice_B>การฝึกฝน : การประหยัด</choice_B>
+    <choice_C>ความสูญเสีย : ความสะเพร่า</choice_C>
+    <choice_D>ความสำเร็จ : ชัยชนะ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ความผิดพลาด : ขาดประสบการณ์ :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. ทักษะ : พลาดพลั้ง&lt;br /&gt;
+2. การฝึกฝน : การประหยัด&lt;br /&gt;
+3. ความสูญเสีย : ความสะเพร่า ✔&lt;br /&gt;
+4. ความสำเร็จ : ชัยชนะ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ความผิดพลาด เกิดจาก การขาดประสบการณ์&lt;br /&gt;
+ความสูญเสีย เกิดจาก ความสะเพร่า&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0388:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ถกเถียง : โต้วาที :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>ปรัชญา : จิตวิทยา</choice_A>
+    <choice_B>ท้าทาย : คู่ต่อสู้</choice_B>
+    <choice_C>ความรุนแรง : สันติภาพ</choice_C>
+    <choice_D>การต่อสู้ : การแข่งขัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ถกเถียง : โต้วาที :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. ปรัชญา : จิตวิทยา&lt;br /&gt;
+2. ท้าทาย : คู่ต่อสู้&lt;br /&gt;
+3. ความรุนแรง : สันติภาพ&lt;br /&gt;
+4. การต่อสู้ : การแข่งขัน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+การโต้วาที เป็นการถกเถียงอย่างหนึ่ง ส่วนการต่อสู้ก็ถือเป็นการแข่งขันอย่างหนึ่งเช่นกัน&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0389:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+_____ : ประจิม :: วุ่นวาย : _____ &lt;br /&gt;
+ 	</question>
+    <choice_A>บูรพา : สงบ</choice_A>
+    <choice_B>อุดร : โกลาหล</choice_B>
+    <choice_C>จราจล : พายับ</choice_C>
+    <choice_D>เงียบเหงา : อิสาน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : ประจิม :: วุ่นวาย : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. บูรพา : สงบ ✔&lt;br /&gt;
+2. อุดร : โกลาหล&lt;br /&gt;
+3. จราจล : พายับ&lt;br /&gt;
+4. เงียบเหงา : &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ทิศประจิม ตรงข้ามกับ ทิศบูรพา &lt;br /&gt;
+ความวุ่นวาย ตรงข้ามกับ ความสงบ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ทิศทั้ง 8 ทิศ ของไทย มีดังนี้:&lt;br /&gt;
+      1. เหนือ-อุดร&lt;br /&gt;
+      2. ใต้-ทักษิณ&lt;br /&gt;
+      3. ตะวันออก-บูรพา&lt;br /&gt;
+      4. ตะวันตก-ประจิม&lt;br /&gt;
+      5. ตะวันออกเฉียงเหนือ-อีสาน&lt;br /&gt;
+      6. ตะวันออกเฉียงใต้-อาคเนย์&lt;br /&gt;
+      7. ตะวันตกเฉียงเหนือ-พายัพ&lt;br /&gt;
+      8. ตะวันตกเฉียงใต้-หรดี&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0390:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : สิงคโปร์ :: คิวบา : _____&lt;br /&gt;
+
+
+	</question>
+    <choice_A>บรูไน : จาไมก้า</choice_A>
+    <choice_B>ไทย : ชิลี</choice_B>
+    <choice_C>ใต้หวัน : เนเธอร์แลนด์</choice_C>
+    <choice_D>อินโดนีเซีย : คูเวต</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : สิงคโปร์ :: คิวบา : _____&lt;br /&gt;&lt;br /&gt;
+
+1. บรูไน : จาไมก้า ✔&lt;br /&gt;
+2. ไทย : ชิลี&lt;br /&gt;
+3. ใต้หวัน : เนเธอร์แลนด์&lt;br /&gt;
+4. อินโดนีเซีย : คูเวต&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+บรูไน และ สิงคโปร์ เป็นประเทศที่เป็นเกาะ และอยู่ในทวีปเดียวกัน&lt;br /&gt;
+คิวบา และ จาไมก้า  เป็นประเทศที่เป็นเกาะ และอยู่ในทวีปเดียวกัน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0391:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : มะระ :: ลำไย : _____&lt;br /&gt;
+	</question>
+    <choice_A>ลิ้นจี่ : ส้ม</choice_A>
+    <choice_B>มะม่วงสุก : บอระเพ็ด</choice_B>
+    <choice_C>มังคุด : มะยม</choice_C>
+    <choice_D>มะดัน : กล้วยดิบ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : มะระ :: ลำไย : _____&lt;br /&gt;&lt;br /&gt;
+
+1. ลิ้นจี่ : ส้ม&lt;br /&gt;
+2. มะม่วงสุก : บอระเพ็ด ✔&lt;br /&gt;
+3. มังคุด : มะยม&lt;br /&gt;
+4. มะดัน : กล้วยดิบ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+มะม่วงสุก มีรสหวาน มะระมีรสขม &lt;br /&gt;
+ลำไย มีรสหวาน บอระเพ็ดมีรสขม&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0392:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : สะพาน :: ธรรมชาติ : _____&lt;br /&gt;
+	</question>
+    <choice_A>แม่น้ำ : ทุ่งนา</choice_A>
+    <choice_B>เกาะ : ท้องฟ้า</choice_B>
+    <choice_C>มนุษย์ : ภูเขา</choice_C>
+    <choice_D>ทะเล : ถนน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : สะพาน :: ธรรมชาติ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. แม่น้ำ : ทุ่งนา&lt;br /&gt;
+2. เกาะ : ท้องฟ้า&lt;br /&gt;
+3. มนุษย์ : ภูเขา ✔&lt;br /&gt;
+4. ทะเล : ถนน &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+มนุษย์ สร้าง สะพาน&lt;br /&gt;
+ธรรมชาติ สร้าง ภูเขา&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0393:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : กรัม :: นิ้ว : _____ &lt;br /&gt;
+	</question>
+    <choice_A>น้ำหนัก : ความยาว</choice_A>
+    <choice_B>เมตร : ปอนด์</choice_B>
+    <choice_C>วา : ฟุต</choice_C>
+    <choice_D>เซนติเมตร : ลิตร</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : กรัม :: นิ้ว : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. น้ำหนัก : ความยาว&lt;br /&gt;
+2. เมตร : ปอนด์ ✔&lt;br /&gt;
+3. วา : ฟุต&lt;br /&gt;
+4. เซนติเมตร : ลิตร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เมตร เป็นมาตรวัดความยาว กรัม เป็นมาตรวัดน้ำหนัก&lt;br /&gt;
+นิ้ว เป็นมาตรวัดความยาว ปอนด์ เป็นมาตรวัดน้ำหนัก&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0394:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : ปราบ :: หก : _____&lt;br /&gt;
+	</question>
+    <choice_A>สี่ : กางเขน</choice_A>
+    <choice_B>แปด : สงบ</choice_B>
+    <choice_C>สาม : สนิท</choice_C>
+    <choice_D>เจ็ด : นาฬิกา</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : ปราบ :: หก : _____&lt;br /&gt;&lt;br /&gt;
+
+1. สี่ : กางเขน ✔&lt;br /&gt;
+2. แปด : สงบ&lt;br /&gt;
+3. สาม : สนิท&lt;br /&gt;
+4. เจ็ด : นาฬิกา&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+จำนวนตัวอักษร : คำที่มีจำนวนตัวอักษรเท่ากับที่กำหนด&lt;br /&gt;&lt;br /&gt;
+
+ปราบ มีตัวอักษร จำนวน สี่ ตัว&lt;br /&gt;
+กางเขน มีตัวอักษร จำนวน หก ตัว&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0395:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : เดียวดาย :: โทน : _____ &lt;br /&gt;
+
+	</question>
+    <choice_A>เงียบเหงา : คู่</choice_A>
+    <choice_B>สหาย : สงบ</choice_B>
+    <choice_C>ลำพัง : หนึ่ง</choice_C>
+    <choice_D>ว้าเหว่ : คนเดียว</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+_____ : เดียวดาย :: โทน : _____ &lt;br /&gt;&lt;br /&gt;
+1. เงียบเหงา : คู่&lt;br /&gt;
+2. สหาย : สงบ&lt;br /&gt;
+3. ลำพัง : หนึ่ง ✔&lt;br /&gt;
+4. ว้าเหว่ : คนเดียว&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ ลำพัง มีความหมายเหมือนกับ เดียวดาย &lt;br /&gt;
+ โทน มีความหมายเหมือนกับ หนึ่ง&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ความหมายจากพจนานุกรม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;เดียวดาย&lt;/strong&gt; - คนเดียวเท่านั้น, แต่ลำพังผู้เดียว&lt;br /&gt;
+&lt;strong&gt;โทน&lt;/strong&gt; - มีจำเพาะหนึ่งเท่านั้น, ใช้แก่สิ่งที่ตามปรกติควรจะมีมากกว่าหนึ่ง แต่มีเพียงหนึ่งเท่านั้น เช่น ลูกโทน กระเทียมโทน&lt;br /&gt;
+&lt;strong&gt;ลำพัง&lt;/strong&gt; - เฉพาะตน, ไม่เกี่ยวกับผู้อื่น&lt;br /&gt;
+ &lt;strong&gt;ว้าเหว่&lt;/strong&gt; - รู้สึกอ้างว้าง, เปลี่ยวใจ&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0396:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : ยักษ์ :: อวน : _____ &lt;br /&gt;
+
+	</question>
+    <choice_A>ภิกษุ : ปลา</choice_A>
+    <choice_B>แห : ฤาษี</choice_B>
+    <choice_C>เหาะ : ลาภ</choice_C>
+    <choice_D>ถ้ำ : ทะเล</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+_____ : ยักษ์ :: อวน : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. ภิกษุ : ปลา&lt;br /&gt;
+2. แห : ฤาษี ✔&lt;br /&gt;
+3. เหาะ : ลาภ&lt;br /&gt;
+4. ถ้ำ : ทะเล&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เป็นการจับคู่ ระหว่าง เครื่องมือจับปลา กับ ตัวละครในวรรณคดี&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0397:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+พระธรรม : อักษรกลาง :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>สมาธิ : โกรธ</choice_A>
+    <choice_B>กาย : วาจา</choice_B>
+    <choice_C>โลภ : หลง</choice_C>
+    <choice_D>พระพุทธ : อักษรต่ำ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+พระธรรม : อักษรกลาง :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. สมาธิ : โกรธ&lt;br /&gt;
+2. กาย : วาจา&lt;br /&gt;
+3. โลภ : หลง&lt;br /&gt;
+4. พระพุทธ : อักษรต่ำ ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้เป็นการจับคู่ของสมาชิก คือ พระรัตนตรัย กับ ไตรยางค์ หรืออักษรสามหมู่&lt;br /&gt;&lt;br /&gt;
+
+พระรัตนตรัย : อักษรสามหมู่&lt;br /&gt;
+พระธรรม : อักษรกลาง&lt;br /&gt;
+พระพุทธ : อักษรต่ำ&lt;br /&gt;&lt;br /&gt;
+
+พระพุทธ พระธรรม พระสงฆ์ คือ พระรัตนตรัย&lt;br /&gt;
+อักษรสูง อักษรกลาง อักษรต่ำ คือ อักษรสามหมู่ หรือ ไตรยางค์&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0398:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+บาท : เยน :: _____ : _____ &lt;br /&gt;
+	</question>
+    <choice_A>ดอลล่าร์ : มาร์ค</choice_A>
+    <choice_B>ปอนด์ : ฟรังส์</choice_B>
+    <choice_C>จ๊าด : เพนนี</choice_C>
+    <choice_D>ยูโร : หยวน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+บาท : เยน :: _____ : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. ดอลล่าร์ : มาร์ค&lt;br /&gt;
+2. ปอนด์ : ฟรังส์ ✔&lt;br /&gt;
+3. จ๊าด : เพนนี&lt;br /&gt;
+4.ยูโร : หยวน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+บาทและเยน เป็นสกุลเงินในทวีปเดียวกัน&lt;br /&gt;
+ปอนด์และฟรังส์ เป็นสกุลเงินในทวีปเดียวกัน&lt;br /&gt;&lt;br /&gt;
+
+ดอลล่าร์ : สกุลเงินของอเมริกา (ฮ่องกง และออสเตรเลีย ก็ใช้ดอลล่าร์ เหมือนกัน แต่มักจะระบุชัดว่าเป็น ฮ่องกงดอลลาร์ หรือ ออสเตรเลียดอลล่าร์)&lt;br /&gt;
+มาร์ค : สกุลเงินของเยอรมัน&lt;br /&gt;
+ปอนด์ : สกุลเงินของอังกฤษ&lt;br /&gt;
+ฟรังส์ : สกุลเงินของฝรั่งเศส&lt;br /&gt;
+จ๊าด : สกุลเงินของเมียนม่า&lt;br /&gt;
+เพนนี : สกุลเงินของอังกฤษ อเมริกา&lt;br /&gt;
+ยูโร   : สกุลเงินของยุโรป&lt;br /&gt;
+หยวน : สกุลเงินของจีน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0399:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ห้า : อาหาร :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>สี่ : อาทร</choice_A>
+    <choice_B>ห้า : เวลา</choice_B>
+    <choice_C>หก : ชาวนา</choice_C>
+    <choice_D>เจ็ด : จรรยา</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ห้า : อาหาร :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. สี่ : อาทร✔&lt;br /&gt;
+2. ห้า : เวลา&lt;br /&gt;
+3. หก : ชาวนา&lt;br /&gt;
+4. เจ็ด : จรรยา&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+มีความสัมพันธ์กัน ลักษณะ จำนวนคำในตัวอักษร&lt;br /&gt;
+อาหารมี 5 ตัวอักษร&lt;br /&gt;
+อาทร มี 4 ตัวอักษร&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0400:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ช่างไม้ : ฆ้อน :: _____ : _____&lt;br /&gt;
+
+	</question>
+    <choice_A>นักแต่งเพลง : นักร้อง</choice_A>
+    <choice_B>ปากกา : นักประพันธ์</choice_B>
+    <choice_C>พยาบาล : หมอ</choice_C>
+    <choice_D>จิตรกร : พู่กัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ช่างไม้ : ฆ้อน :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. นักแต่งเพลง : นักร้อง&lt;br /&gt;
+2. ปากกา : นักประพันธ์&lt;br /&gt;
+3. พยาบาล : หมอ&lt;br /&gt;
+4. จิตรกร : พู่กัน ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ค้อน เป็นอุปกรณ์ในการทำงานของ ช่างไม้ &lt;br /&gt;
+พู่กัน เป็นอุปกรณ์ในการทำงานของ จิตรกร&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0401:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+เครื่องคิดเลข : ลูกคิด :: _____ : _____&lt;br /&gt;
+	</question>
+    <choice_A>ดวงอาทิตย์ : นาฬิกา</choice_A>
+    <choice_B>ถุงพลาสติก : ใบตอง</choice_B>
+    <choice_C>ปุ๋ยคอก : ปุ๋ยเคมี</choice_C>
+    <choice_D>ฝ้าย : ด้าย</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+เครื่องคิดเลข : ลูกคิด :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. ดวงอาทิตย์ : นาฬิกา&lt;br /&gt;
+2. ถุงพลาสติก : ใบตอง ✔&lt;br /&gt;
+3. ปุ๋ยคอก : ปุ๋ยเคมี&lt;br /&gt;
+4. ฝ้าย : ด้าย&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ปัจจุบัน คนใช้เครื่องคิดเลข แทนการใช้ ลูกคิดในภารกิจเหมือนกัน&lt;br /&gt;
+ปัจจุบัน คนใช้ถุงพลาสติก แทนการใช้ ใบตองในภารกิจเหมือนกัน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0402:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+หมอ : เชื้อโรค :: _____ : _____ &lt;br /&gt;
+
+	</question>
+    <choice_A>นักจิตวิทยา : คนไข้</choice_A>
+    <choice_B>ครู : นักเรียน</choice_B>
+    <choice_C>ทนาความ : กฎหมาย</choice_C>
+    <choice_D>ตำรวจ : มิจฉาชีพ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+หมอ : เชื้อโรค :: _____ : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. นักจิตวิทยา : คนไข้&lt;br /&gt;
+2. ครู : นักเรียน&lt;br /&gt;
+3. ทนาความ : กฎหมาย&lt;br /&gt;
+4. ตำรวจ : มิจฉาชีพ ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+หมอ ปราบ เชื้อโรค&lt;br /&gt;
+ตำรวจ ปราบ มิจฉาชีพ&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0403:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+โรงแรม : นักท่องเที่ยว :: _____ : _____ &lt;br /&gt;
+
+	</question>
+    <choice_A>พระ : วัด</choice_A>
+    <choice_B>โรงเรียน : ครู</choice_B>
+    <choice_C>ค่ายพักแรม : ลูกเสือ</choice_C>
+    <choice_D>สระว่ายน้ำ : นักว่ายน้ำ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+โรงแรม : นักท่องเที่ยว :: _____ : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. พระ : วัด&lt;br /&gt;
+2. โรงเรียน : ครู&lt;br /&gt;
+3. ค่ายพักแรม : ลูกเสือ ✔&lt;br /&gt;
+4. สระว่ายน้ำ : นักว่ายน้ำ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+นักท่องเที่ยวพักในโรงแรม &lt;br /&gt;
+ลูกเสือพักในค่ายพักแรม&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0404:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+เขื่อน : น้ำ _____ : _____ &lt;br /&gt;
+	</question>
+    <choice_A>คลอง : ฝาย</choice_A>
+    <choice_B>ประตู : บ้าน</choice_B>
+    <choice_C>โทรศัพท์ : คลื่นเสียง</choice_C>
+    <choice_D>สวิตช์ : ไฟฟ้า</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+เขื่อน : น้ำ _____ : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. คลอง : ฝาย&lt;br /&gt;
+2. ประตู : บ้าน&lt;br /&gt;
+3. โทรศัพท์ : คลื่นเสียง&lt;br /&gt;
+4. สวิตช์ : ไฟฟ้า ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เขื่อน สำหรับเปิด-ปิด น้ำ &lt;br /&gt;
+สวิตช์ สำหรับเปิด-ปิด ไฟฟ้า&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0405:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+แกรนิต : หิน :: _____ : _____ &lt;br /&gt;
+	</question>
+    <choice_A>ปลาดุก : น้ำจืด</choice_A>
+    <choice_B>แคลเซียม : ธาตุ</choice_B>
+    <choice_C>เรือ : ทะเล</choice_C>
+    <choice_D>ผงชูรส : เกลือแร่</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+แกรนิต : หิน :: _____ : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. ปลาดุก : น้ำจืด&lt;br /&gt;
+2. แคลเซียม : ธาตุ ✔&lt;br /&gt;
+3. เรือ : ทะเล&lt;br /&gt;
+4. ผงชูรส : เกลือแร่&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+แกรนิต เป็นชื่อ หิน ชนิดหนึ่ง &lt;br /&gt;
+แคลเซียม เป็นชื่อ ธาตุ ชนิดหนึ่ง&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0406:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+มอเตอร์ไซด์ : รถยนต์ :: _____ : _____&lt;br /&gt;
+	</question>
+    <choice_A>คน : ควาย</choice_A>
+    <choice_B>จักรยาน : สามล้อถีบ</choice_B>
+    <choice_C>เป็ด : ไก่</choice_C>
+    <choice_D>รถเข็น : รถบรรทุก</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+มอเตอร์ไซด์ : รถยนต์ :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. คน : ควาย&lt;br /&gt;
+2. จักรยาน : สามล้อถีบ ✔&lt;br /&gt;
+3. เป็ด : ไก่&lt;br /&gt;
+4. รถเข็น : รถบรรทุก&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ มอเตอร์ไซด์ กับ รถยนต์ เป็นยานพาหนะที่ใช้การขับเคลื่อนเหมือนกัน (ใช้เครื่องยนต์)&lt;br /&gt;
+ จักรยาน กับ สามล้อถีบ เป็นยานพาหนะที่ใช้การขับเคลื่อนเหมือนกัน (ใช้คนถีบ)&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- ตรวจถึงตรงนี้  -->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0407:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+พระสงฆ์ : ชี :: _____ : _____&lt;br /&gt;
+	</question>
+    <choice_A>บัว : กุหลาบ</choice_A>
+    <choice_B>เบญจมาศ : มะลิ</choice_B>
+    <choice_C>น้า : อา</choice_C>
+    <choice_D>พี่ : น้อง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+พระสงฆ์ : ชี :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+
+1. บัว : กุหลาบ&lt;br /&gt;
+2. เบญจมาศ : มะลิ ✔&lt;br /&gt;
+3. น้า : อา&lt;br /&gt;
+4. พี่ : น้อง&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+พระสงฆ์กับชี จัดเป็นประเภทเดียวกัน (เป็นนักบวช) พระสงฆ์-สีเหลือง::แม่ชี-สีขาว &lt;br /&gt;
+เบญจมาศกับมะลิ เป็นประเภทเดียวกัน (เป็นไม้ดอก) เบญจมาศ-สีเหลือง::มะลิ-สีขาว&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0408:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ทางม้าลาย : สะพานลอย :: _____  : _____&lt;br /&gt;
+	</question>
+    <choice_A>ถนน : ทางด่วน</choice_A>
+    <choice_B>ทางเท้า : สี่แยก</choice_B>
+    <choice_C>อุโมงค์ : ซอย</choice_C>
+    <choice_D>ที่จอดรถ : อาคาร</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ทางม้าลาย : สะพานลอย :: _____  : _____&lt;br /&gt;&lt;br /&gt;
+
+1. ถนน : ทางด่วน ✔&lt;br /&gt;
+2. ทางเท้า : สี่แยก&lt;br /&gt;
+3. อุโมงค์ : ซอย&lt;br /&gt;
+4. ที่จอดรถ : อาคาร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ทางม้าลายกับสะพานลอย เป็นเส้นทางประเภทเดียวกัน (สำหรับคนเดินข้ามถนน) :: ทางม้าลายอยู่ติดพื้น -สะพานลอย อยู่สูงจากพื้นดิน&lt;br /&gt;
+ถนนกับทางด่วน เป็นเส้นทางประเภทเดียวกัน (สำหรับรถวิ่ง) :: ถนนอยู่ติดพื้น-ทางด่วน อยู่สูงจากพื้นดิน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0409:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+กวาง : ควาย :: _____ : _____&lt;br /&gt;
+	</question>
+    <choice_A>สิงโต : แมว</choice_A>
+    <choice_B>สุนัข : เสือ</choice_B>
+    <choice_C>แรด : หมี</choice_C>
+    <choice_D>ไก่ : เป็ด</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+กวาง : ควาย :: _____ : _____&lt;br /&gt;&lt;br /&gt;
+1. สิงโต : แมว ✔&lt;br /&gt;
+2. สุนัข : เสือ&lt;br /&gt;
+3. แรด : หมี&lt;br /&gt;
+4. ไก่ : เป็ด&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+กวาง : ควาย = สัตว์ป่า : สัตว์เลี้ยง&lt;br /&gt;
+สิงโต : แมว = สัตว์ป่า : สัตว์เลี้ยง &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0410:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ไข่ขาว : ไข่แดง :: _____ : _____ &lt;br /&gt;
+	</question>
+    <choice_A>กรอบรูป : ภาพถ่าย</choice_A>
+    <choice_B>มะม่วง : เมล็ด</choice_B>
+    <choice_C>แก้วน้ำ : ขวดน้ำ</choice_C>
+    <choice_D>บ้าน : ห้องนอน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ไข่ขาว : ไข่แดง :: _____ : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. กรอบรูป : ภาพถ่าย&lt;br /&gt;
+2. มะม่วง : เมล็ด ✔&lt;br /&gt;
+3. แก้วน้ำ : ขวดน้ำ&lt;br /&gt;
+4. บ้าน : ห้องนอน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ ไข่ขาวและไข่แดง เป็นสิ่งที่เกิดจากธรรมชาติ ไข่แดง อยู่ภายใน ไข่ขาว &lt;br /&gt;
+มะม่วงและเมล็ด  เป็นสิ่งที่เกิดจากธรรมชาติ  เมล็ด อยู่ภายใน มะม่วง&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0411:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตะเกียบ : แขน :: _____ : &lt;br /&gt;
+	</question>
+    <choice_A>ปากกา : นิ้ว</choice_A>
+    <choice_B> ส้อม : จมูก</choice_B>
+    <choice_C>หู : ตา</choice_C>
+    <choice_D>ช้อน : มือ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตะเกียบ : แขน :: _____ : &lt;br /&gt;
+1. ปากกา : นิ้ว&lt;br /&gt;
+2. ส้อม : จมูก&lt;br /&gt;
+3. หู : ตา ✔&lt;br /&gt;
+4. ช้อน : มือ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ตะเกียบกับแขน มีลักษณะเป็นคู่ &lt;br /&gt;
+หูกับตา มีลักษณะเป็นคู่&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0412:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+โลก : พระจันทร์ :: _____ : _____ &lt;br /&gt;
+
+	</question>
+    <choice_A>บ่าว : นาย</choice_A>
+    <choice_B>ดาวเสาร์ : ดาวพฤหัสบดี</choice_B>
+    <choice_C>ไพร่ : ลูกขุน</choice_C>
+    <choice_D>ดาวศุกร์ : ดาวพุธ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+โลก : พระจันทร์ :: _____ : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. บ่าว :  นาย&lt;br /&gt;
+2. ดาวเสาร์ : ดาวพฤหัสบดี&lt;br /&gt;
+3. ไพร่ : ลูกขุน&lt;br /&gt;
+4. ดาวศุกร์ : ดาวพุธ ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+โลก มีขนาดใหญ่กว่า พระจันทร์&lt;br /&gt;
+ดาวศุกร์  มีขนาดใหญ่กว่า ดาวพุธ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ขนาดของดาวในระบบสุริยจักรวาล เรียงตามลำดับ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. ดาวพุธ (Mercury) ขนาด 38% ของโลก&lt;br /&gt;
+2. ดาวอังคาร (Mars) ขนาด 53% ของโลก&lt;br /&gt;
+3. ดาวศุกร์ (Venus) ขนาด 95% ของโลก&lt;br /&gt;
+4. โลก (Earth) &lt;br /&gt;
+5. ดาวเนปจูน (Neptune) ขนาด 388% ของโลก&lt;br /&gt;
+6.ดาวยูเรนัส (Uranus) ขนาด 400% ของโลก&lt;br /&gt;
+7. ดาวเสาร์ (Saturn) ขนาด 945% ของโลก&lt;br /&gt;
+8. ดาวพฤหัส (Jupiter) ขนาด1120% ของโลก&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0413:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ขวดนม : ผ้าอ้อม :: _____ : _____ &lt;br /&gt;
+
+	</question>
+    <choice_A>มุ้ง : เสื้อเชิ้ต</choice_A>
+    <choice_B>นาฬิกา : ยางลบ</choice_B>
+    <choice_C>กรรไกร : ผ้าถุง</choice_C>
+    <choice_D>สำลี : เปล</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ขวดนม : ผ้าอ้อม :: _____ : _____ &lt;br /&gt;&lt;br /&gt;
+
+1. มุ้ง : เสื้อเชิ้ต&lt;br /&gt;
+2. นาฬิกา : ยางลบ&lt;br /&gt;
+3. กรรไกร : ผ้าถุง&lt;br /&gt;
+4. สำลี : เปล ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ขวดนม และ ผ้าอ้อม เป็นอุปกรณ์สำหรับเด็กทารก&lt;br /&gt;
+สำลี และ เปล  เป็นอุปกรณ์สำหรับเด็กทารก&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0414:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+นมสด : กระสอบ :: _____ : _____ &lt;br /&gt;
+
+	</question>
+    <choice_A>เนย : นม</choice_A>
+    <choice_B>แก้วน้ำ : กระป๋อง</choice_B>
+    <choice_C>ดินสอ : สมุด</choice_C>
+    <choice_D>มันหมู : กระดาษ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+นมสด : กระสอบ :: _____ : _____ &lt;br /&gt;&lt;br /&gt;
+1. เนย : นม&lt;br /&gt;
+2. แก้วน้ำ : กระป๋อง&lt;br /&gt;
+3. ดินสอ : สมุด&lt;br /&gt;
+4. มันหมู : กระดาษ ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+นมสด : กระสอบ = ผลิตภัณฑ์ที่ยังไม่ได้แปรรูป : ผลิตภัณฑ์ที่แปรรูปแล้ว&lt;br /&gt;
+มันหมู : กระดาษ = ผลิตภัณฑ์ที่ยังไม่ได้แปรรูป : ผลิตภัณฑ์ที่แปรรูปแล้ว&lt;br /&gt;
+
+	</explanation>
+      <isExplain>disable answer</isExplain>
+      <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+      <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+      <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+      <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+</exams>
+
+

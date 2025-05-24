@@ -1,0 +1,98 @@
+<!doctype html>
+<!-- pagination from: https://stackoverflow.com/questions/25434813/simple-pagination-in-javascript -->
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" type="text/css" href="q-and-a_law.css">
+<style>
+body {
+  font-size: 18px;
+}
+
+    .table {
+   display: table;
+   width: 100%;
+
+}
+
+.row {
+   display: table-row;
+}
+
+.cell_right {
+   display: table-cell;
+   font-size: 80%;
+   text-align: right;
+}
+.cell_left {
+   display: table-cell;
+   font-size: 80%;
+   text-align: left;
+}
+.row,
+.cell {
+  padding: 5px;
+}
+</style>
+<title>Document</title>
+ </head>
+
+<body onload="changeData('principlesOfGoodGovt')">
+<!--  ส่งเป็น String   -->
+
+
+<!-- แก้ปัญหา  Samsung แสดงหน้าว่าง/ดำ -->
+
+<div id="first_div"></div>
+&nbsp;&nbsp;
+<div id="second_div"></div>
+
+<div id="content" style="margin-top: 20px"> <!--  start div content  -->
+    <button  onclick="showOptions()" id="show_options" class="btn_show_options">แสดงตัวเลือกการใช้งาน</button>
+
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+<div id = "nav" style="display: none;">
+<form>
+ <fieldset id="group1">
+  <legend>ลำดับคำถาม</legend>
+<label  id="fromStartToEndLabel"><input id="fromStartToEnd"  name="isOrder" type="radio" value="yes"  checked="checked"/>เรียงตามมาตรา</label>&#160;&#160;&#160;
+<label> <input name="isOrder" type="radio" value="no" /> สลับคำถาม</label><br>
+</fieldset>
+<fieldset id="group2">
+<legend>การแสดงคำตอบ</legend>
+<label><input name="isShowAns" type="radio" value="yes"  checked="checked"/>เมื่อกดปุ่มตรวจ </label>&#160;&#160;&#160;
+<label> <input name="isShowAns" type="radio" value="no" />โดยอัตโนมัติ </label><br>
+ </fieldset>
+
+</form><br>
+
+</div>
+    <div id="qa_item_num" style="margin: 5px; clear: both; background-color: #F0F0F0; "><div style="margin: 0 auto; text-align:center; width: 150px;"> ข้อ: <span id="page"></span></div></div>
+<div id="listingTable" style="display: block; border: 2px solid blue;
+  padding: 0px; border-radius: 25px; text-align: center; padding-bottom: 10px; padding-top: 15px;"></div>
+</div>
+
+<br>
+<div id="showAnswer" style="display: none; border: 2px solid blue;
+  padding: 10px; border-radius: 25px; margin-bottom: 30px"></div>
+<br>
+<div id="forBtnShowAns" style="margin: 5; position: absolute; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);">
+<button onclick="showItAns()" id="showAnswer_btn" style="font-size: 80%;">ตรวจคำตอบ</button><br>
+</div>
+
+  <div id="msgForNon-buyers" style="display:none; color:red; border: 2px solid red;
+  padding: 0px; border-radius: 25px; text-align: center"><span style="font-size: 100%"><strong>เฉลยต่อ ในรุ่นเต็มนะครับ</strong></span><br>ซื้อเดี๋ยวนี้ ใช้งานได้ทันที</div>
+
+<div id = "footer" style="text-align: center;" >
+<button onclick="goToPage('start', principles_of_good_govt)" id="go_first" style="margin-right: 10px; float: Left; font-size: 80%; touch-action: manipulation;"> &#x2759;&#x276E;</button>
+<button onclick="prevPage()" id="btn_prev" style="float: Left; font-size: 80%; touch-action: manipulation;">&#x276E;กลับ</button>
+    <span><label style="color: white">ไปข้อ:</label><input id="itemToGo" type="number" pattern="[0-9]*" inputmode="numeric" maxlength="10" style="width:50px; height: 25px; font-size: 100%">&nbsp;<button onclick="goToPage('specify', principles_of_good_govt)"  style="font-size: 80%; touch-action: manipulation;">GO</button></span><button onclick="goToPage('end', principles_of_good_govt)" id="go_last" style="margin-left: 10px; float: Right; font-size: 80%; touch-action: manipulation;">&#x276F;&#x2759;</button>
+<button onclick="nextPage()" id="btn_next" style="float: Right; font-size: 80%; touch-action: manipulation;">ต่อไป &#x276F;</button>
+</div>
+
+<script src="q-and-a_practice_law.js" type="text/javascript" language="JavaScript"></script>
+</body>
+</html>

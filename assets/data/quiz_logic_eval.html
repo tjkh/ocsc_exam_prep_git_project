@@ -1,0 +1,1259 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="mystyle_show_hide_div.css">
+  <title>Document</title>
+ </head>
+ <body>
+<script type="text/javascript">
+function show_hide_eval(my_div, btn_name, q_num) {
+ var this_div = document.getElementById(my_div);
+ var this_button = document.getElementById(btn_name);
+ var this_q_num = document.getElementById(q_num);
+    if (this_div.style.display !== 'none') {
+        this_div.style.display = 'none';
+  this_button.value = '\u0E14\u0E39\u0E04\u0E33\u0E2D\u0E18\u0E34\u0E1A\u0E32\u0E22';
+  this_button.style.color = 'blue';
+  this_q_num.scrollIntoView()
+    }
+    else {
+        this_div.style.display = 'block';
+        this_button.value = '\u0E1B\u0E34\u0E14\u0E04\u0E33\u0E2D\u0E18\u0E34\u0E1A\u0E32\u0E22';
+  this_button.style.color = 'red';
+    }
+};
+
+function show_hide_t_spelling(my_div, btn_name) {
+ var this_div = document.getElementById(my_div);
+ var this_button = document.getElementById(btn_name);
+    if (this_div.style.display !== 'none') {
+        this_div.style.display = 'none';
+  this_button.value = '\u0E14\u0E39\u0E04\u0E33\u0E2D\u0E18\u0E34\u0E1A\u0E32\u0E22';
+  this_button.style.color = 'blue';
+    }
+    else {
+        this_div.style.display = 'block';
+        this_button.value = '\u0E1B\u0E34\u0E14\u0E04\u0E33\u0E2D\u0E18\u0E34\u0E1A\u0E32\u0E22';
+  this_button.style.color = 'red';
+    }
+};
+function checkAns_eval(regn, ans, ans_div) {
+    var radios = document.getElementsByName(regn);
+ var answer_div = document.getElementById(ans_div);
+    var formValid = false;
+ var feedback = ['ลองใหม่', 'ลองดูใหม่', 'ลองใหม่อีกครั้ง', 'เกือบถูกแล้ว', 'อุ๊บ...เกือบถูก', 'ลองดูอีกที', 'ลองดูใหม่อีกสักหน','คลิกคำอธิบาย ตรวจสอบดูนะครับ','ทำไมไม่ถูก ลองดู คำอธิบาย'][Math.floor(Math.random() * 9)]
+    var i = 0;
+    while (!formValid && i < radios.length) {
+        if (radios[i].checked) {
+  formValid = true;
+  //check answer
+  if(radios[i].value == ans){
+   answer_div.innerHTML = radios[i].value +"   ถูกต้อง";
+     answer_div.style.backgroundColor = "yellow";
+  answer_div.style.color = "#339900";
+  answer_div.style.display = "block";
+ //playSound_correct();
+//  document.getElementById(ans_div).style.display = "block";
+ //  document.getElementById("myMessage").innerHTML = radios[i].value +"<br>ถูกต้อง";
+ //  modal.style.display = "block";
+   //alert(radios[i].value +"\nถูกต้อง"); return false;
+  }else{
+  answer_div.innerHTML = radios[i].value +"  ยังไม่ถูก" + " ::   " + feedback;
+   answer_div.style.backgroundColor = "#ff6600";
+   answer_div.style.color = "#ffffff";
+  answer_div.style.display = "block";
+ // playSound_wrong();
+   // document.getElementById("myMessage").innerHTML = radios[i].value +"<br>ยังไม่ถูก";
+   // modal.style.display = "block";
+   //alert(radios[i].value +"\nยังไม่ถูก"); return false;
+  }
+  }
+        i++;        
+    }
+    if (!formValid) {
+document.getElementById(ans_div).innerHTML = "ยังไม่ได้เลือกคำตอบ";
+document.getElementById(ans_div).style.backgroundColor = "#ffff99";
+document.getElementById(ans_div).style.color = "#000000";
+
+document.getElementById(ans_div).style.display = "block";
+//playSound_wrong();
+//   document.getElementById("myMessage").innerHTML = "ยังไม่ได้เลือกคำตอบ";
+//   modal.style.display = "block";
+ }
+}
+
+function hide_div_spelling(whatDiv) {
+    var thisDiv = document.getElementById(whatDiv);
+        thisDiv.style.display = 'none';
+}
+</script>
+แนวข้อสอบ ก.พ. ภาค ก. พร้อมเฉลยและอธิบายละเอียด<br><br>
+
+ต้องการทบทวนหลักการสรุปความสอดคล้อง&nbsp;&nbsp;&nbsp;<a href="http://www.thongjoon.com/2017/06/blog-post.html">คลิกทีนี่</a> <br><br>
+
+<div class="quiz_container2"><br>
+<strong>คำสั่ง:</strong>ให้ท่านเลือกข้อที่ถูกต้องมากที่สุด<br><br>
+
+<!-- ข้อ 1. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q1"><strong>ข้อ 1.</strong></div>
+<div class="question_content">ผู้ที่สอบผ่านทุกคนต้องเข้ารับการปฐมนิเทศ<br /><br />
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column"  >   
+         <div class="choice_num_1Col" ><label> <input name="logic_eval_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ผู้ที่ไม่เข้ารับการปฐมนิเทศ เป็นผู้สอบไม่ผ่าน </label></div>
+ </div> 
+<div class="choice_b_1_column"  > 
+     <div class="choice_num_1Col"  ><label><input name="logic_eval_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ผู้ที่สอบผ่านบางคน ไม่ต้องเข้ารับการปฐมนิเทศ</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column" >
+        <div class="choice_num_1Col" ><label> <input name="logic_eval_q1" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ไม่มีผู้ที่สอบผ่าน ที่ไม่ต้องเข้ารับการปฐมนิเทศ</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column" >
+        <div class="choice_num_1Col"  ><label><input name="logic_eval_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ผู้ที่เข้ารับการปฐมนิเทศบางคน คือผู้ที่สอบผ่าน </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_01" class="show_answer" onclick="hide_div_spelling('logic_ans_01')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q1" class="explanation" style="display:none">
+S = ผู้ที่สอบผ่าน<br />
+P = ผู้ที่เข้ารับการปฐมนิเทศ<br />
+ประโยคที่กำหนดให้ เป็นประโยค A  (All S are P)<br /><br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br />
+<a href="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s1600/logic_conversion_table.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s320/logic_conversion_table.png" width="265" height="320" data-original-width="260" data-original-height="314" /></a><br /><br />
+
+ประโยค A ไม่สอดคล้อง/ขัดแย้งกับ ประโยค O (Some S are not P)<br />
+ข้อ 2 เป็นประโยค O จึงเป็นข้อที่ถูก<br /><br />
+
+วิเคราะห์ ตัวเลือกทีละข้อ <br /><br />
+
+ข้อ 1 เป็น Contraposition ของ A (All non-P are non-S) จึงสอดคล้องกัน<br /><br />
+ข้อ 2 เป็นประโยค O (Some S are not P) ไม่สอดคล้องกับ ประโยค A ในลักษณะ ขัดแย้งกัน (contradictories)<br /><br />
+ข้อ 3 เป็นประโยค obversion ของ A (No S are non-P) จึงสอดคล้องกับประโยคเดิม<br /><br />
+ข้อ 4 เป็นการ converse ของประโยค A  (Partial Conversion) จึงสอดคล้องกัน<br /><br />
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q1', 'ตัวเลือก ข้อ 2', 'logic_ans_01'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_1" onclick="show_hide_eval('logic_expl_eval_q1', 'quiz_eval_1','eval_q1'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 1 -->
+<!--more-->
+
+<!-- ข้อ 2. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q2"><strong>ข้อ 2.</strong></div>
+<div class="question_content">คนไทยทุกคนต้องไปออกเสียงเลือกตั้งสมาชิกสภาผู้แทนราษฎร<br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col_1Col"><label> <input name="logic_eval_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนไทยบางคน ไม่ต้องไปออกเสียงเลือกตั้ง สมาชิกสภาผู้แทนราษฎร</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนไทยบางคน ต้องไปออกเสียงเลือกตั้ง สมาชิกสภาผู้แทนราษฎร</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ไม่มีคนไทยคนใด ไม่ต้องไปออกเสียงเลือกตั้ง สมาชิกสภาผู้แทนราษฎร</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนไทยส่วนมาก ต้องไปออกเสียงเลือกตั้ง สมาชิกสภาผู้แทนราษฎร</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_02" class="show_answer" onclick="hide_div_spelling('logic_ans_02')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q2" class="explanation" style="display:none">
+S = คนไทย<br />
+P = คนที่ต้องไปเลือกตั้ง<br />
+ประโยคที่กำหนดให้ เป็นประโยค A  (All S are P)<br /><br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br /><br />
+
+ประโยค A ไม่สอดคล้อง/ขัดแย้งกับ ประโยค O (Some S are not P)<br />
+ข้อ 1 เป็นประโยค O จึงเป็นข้อที่ถูก<br /><br />
+
+วิเคราะห์ ตัวเลือกทีละข้อ <br /><br />
+
+ข้อ 1 เป็นประโยค O ไม่สอดคล้อง ในลักษณะ สลับกัน (contradictories)<br /><br />
+ข้อ 2 เป็นประโยค I สอดคล้องกับประโยค A ในลักษณะ subalternation<br /><br />
+ข้อ 3 เป็น Obverseion ของ A (No S are non-P) สอดคล้องกัน<br /><br />
+ข้อ 4 เป็นประโยค I สอดคล้องกับประโยค A (บางส่วน = ส่วนน้อย = มีอย่างน้อย 1 อย่าง)<br />
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q2', 'ตัวเลือก ข้อ 1', 'logic_ans_02'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_2" onclick="show_hide_eval('logic_expl_eval_q2', 'quiz_eval_2','eval_q2'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 2 -->
+
+<!-- ข้อ 3. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q3"><strong>ข้อ 3.</strong></div>
+<div class="question_content">คนขยันเรียนทุกคนมีความรับผิดชอบ คนมีความรับผิดชอบทุกคน ประสบความสำเร็จในชีวิต<br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+<div class="choice_num_1Col"><label><input name="logic_eval_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนขยันเรียนทุกคน ประสบความสำเร็จในชีวิต</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนที่ไม่ประสบความสำเร็จในชีวิตทุกคน เป็นคนไม่ขยันเรียน</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. คนขยันเรียนบางคนไม่ประสบความสำเร็จในชีวิต</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนขยันเรียนส่วนใหญ่ประสบความสำเร็จในชีวิต </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_03" class="show_answer" onclick="hide_div_spelling('logic_ans_03')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q3" class="explanation" style="display:none">
+S = คนขยันเรียน<br />
+P = คนที่ประสบความสำเร็จในชีวิต<br />
+ประโยคที่กำหนดให้ เป็นประโยค A  (All S are P)<br /><br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br /><br />
+
+ประโยค A ไม่สอดคล้อง/ขัดแย้งกับ ประโยค O (Some S are not P)<br />
+ข้อ 3 เป็นประโยค O จึงเป็นข้อที่ถูก<br /><br />
+
+วิเคราะห์ ตัวเลือกทีละข้อ <br /><br />
+
+ข้อ 1 เป็นประโยคเดียวกัน (All S are P)<br /><br />
+ข้อ 2 เป็น Contraposition ของประโยค A (All non-P are non-S) สอดคล้องกัน<br /><br />
+ข้อ 3 เป็นประโยค O (Some S are not P)ไม่สอดคล้อง แบบ contradictories<br /><br />
+ข้อ 4 เป็นประโยค I (Some S are P) สอดคล้องกันแบบ subalternates<br />
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q3', 'ตัวเลือก ข้อ 3', 'logic_ans_03'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_3" onclick="show_hide_eval('logic_expl_eval_q3', 'quiz_eval_3','eval_q3'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 3 -->
+
+<!-- ข้อ 4. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q4"><strong>ข้อ 4.</strong></div>
+<div class="question_content">วงการแพทย์ลงความเห็นว่า “ผู้ที่ออกกำลังกายอย่างสม่ำเสมอทุกคน จะเป็นผู้ที่มีจิตใจแจ่มใส ผู้ที่มีจิตใจแจ่มใส ทุกคน จะไม่เป็นคนที่ขาดเหตุผล”<br /><br />
+
+ข้อใด <u>สอดคล้อง</u> กับข้อความข้างต้น<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_eval_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ผู้มีจิตใจแจ่มใสทุกคน จะเป็นผู้ที่ออกกำลังกาย อย่างสม่ำเสมอ </label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนที่มีเหตุผลทุกคน จะเป็นผู้ที่ไม่เคย ออกกำลังกาย</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. คนที่ขาดเหตุผลบางคน จะเป็นผู้ที่ออกกำลังกาย อย่างสม่ำเสมอ </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนที่มีเหตุผลบางคน จะเป็นผู้ที่ออกกำลังกาย อย่างสม่ำเสมอ </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_04" class="show_answer" onclick="hide_div_spelling('logic_ans_04')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q4" class="explanation" style="display:none">
+ผู้ที่ออกกำลังกายอย่างสม่ำเสมอทุกคน จะเป็นผู้ที่มีจิตใจแจ่มใส <br />
+ผู้ที่มีจิตใจแจ่มใส ทุกคน จะไม่เป็นคนที่ขาดเหตุผล”<br />
+&#x2234; ผู้ที่ออกกำลังกายอย่างสม่ำเสมอ ทุกคน จะไม่เป็น คนที่ขาดเหตุผล<br />
+
+เป็นประโยค Obversion ของ E (No S are P)<br />
+
+S = ผู้ที่ออกกำลังกายอย่างสม่ำเสมอ <br />
+P = คนที่ขาดเหตุผล<br /><br />
+
+ตัวเลือกทั้งหมด ขึ้นต้นด้วย P ดังนั้นจึงเป็นการเปลี่ยนประโยค E เพราะมีการสลับที่ระหว่าง S และ P <br />
+ประโยค E สามารถเปลี่ยนแบบ Conversion Obversion และ Contraposition<br /><br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br />
+<a href="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s1600/logic_conversion_table.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s320/logic_conversion_table.png" width="265" height="320" data-original-width="260" data-original-height="314" /></a><br /><br />
+
+Conversion ของ E คือ No P are S <br />
+Obversion ของ E คือ All S are non-P <br />
+Contraposition ของ E คือ Some non-P are not non-S. <br /><br />
+
+ข้อ 4 คือ Contraposition ของ E จึงสอดคล้องกับประโยคที่กำหนดให้<br /><br />
+
+หรือจะวิเคราะห์รายตัวเลือก <br /><br />
+
+ข้อ 1 เป็น conversion ของประโยค "ผู้ที่ออกกำลังกาย อย่างสม่ำเสมอทุกคน จะเป็นผู้ที่มีจิตใจแจ่มใส" ซึ่งเป็นประโยค A จะไม่สอดคล้องกับประโยคเดิม<br /><br />
+
+ข้อ 2 คนที่มีเหตุผลทุกคนจะเป็นผู้ที่ไม่เคยออกกำลังกาย<br />
+คำว่า "มีเหตุผล" คือ "ไม่ขาดเหตุผล" <br />
+&#x2234; คนที่ไม่ขาดเหตุผลทุกคนจะเป็นผู้ที่ไม่เคยออกกำลังกาย <br />
+หรือ All non-P are non-S<br />
+เป็น Contraposition ของ A จึงสอดคล้องกับ A แต่ไม่สอดคล้องกับ E<br /><br />
+
+ข้อ 3 Some P are not S เป็น Partial Conversion ของ A ซึ่งอาจจะสอดคล้องกับ E หรือไม่สอดคล้อง<br /><br />
+
+ข้อ 4 ถูกต้อง เป็นการเปลี่ยนประโยค E แบบ Partial Contraposition<br />
+ประโยคเดิม: ไม่มีผู้ที่ออกกำลังกาย เป็น คนขาดเหตุผล (No S are P)<br />
+Partial Contraposition ของ E คือ Some non-P are not non-S<br />
+คนไม่ขาดเหตุผลบางคน ไม่เป็น คนไม่ออกกำลังกาย<br />
+คนมีเหตุผลบางคน เป็น คนที่ออกกำลังกาย<br />
+
+
+
+
+</div>  <!-- logic_expl_q..  -->
+
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q4', 'ตัวเลือก ข้อ 4', 'logic_ans_04'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_4" onclick="show_hide_eval('logic_expl_eval_q4', 'quiz_eval_4','eval_q4'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 4 -->
+
+<!-- ข้อ 5. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q5"><strong>ข้อ 5.</strong></div>
+<div class="question_content">คนที่ขยันอ่านหนังสือ มีเพียงส่วนน้อย ที่สอบตก<br /><br />
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนที่ขยันอ่านหนังสือ ส่วนมาก จะสอบได้ </label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนที่ขยันอ่านหนังสือมีเพียง ส่วนน้อย ที่สอบได้</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. คนที่สอบตกบางคนเป็นคนขยันอ่านหนังสือ</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ไม่มีคนขยันอ่านหนังสือ คนใด สอบตก </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_05" class="show_answer" onclick="hide_div_spelling('logic_ans_05')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q5" class="explanation" style="display:none">
+S = คนที่ขยันอ่านหนังสือ<br />
+P = คนสอบตก<br />
+ประโยคที่กำหนดให้ เป็นประโยค I (Some S are P)<br /><br />
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br />
+<a href="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s1600/logic_conversion_table.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s320/logic_conversion_table.png" width="265" height="320" data-original-width="260" data-original-height="314" /></a><br /><br />
+ประโยค I ขัดแย้งกับประโยค E (No S are P)<br />
+ข้อ 4 เป็นประโยค E จึงเป็นข้อที่ถูก<br /><br />
+
+ข้อ 1 มีความหมายเหมือนเดิม คำว่า "ส่วนมาก" มีความหมายเดียวกับคำว่า "บางคน" หมายถึง มีอย่างน้อย 1 คน<br /><br />
+
+ข้อ 2 มีความหมายเหมือนเดิม คำว่า "ส่วนใหญ่" มีความหมายเดียวกับคำว่า "บางคน" หมายถึง มีอย่างน้อย 1 คน<br /><br />
+
+ข้อ 3 เป็น Conversion ของประโยค I มีความหมายเหมือนเดิม (Some S are P - Some P are S)<br /><br />
+
+ข้อ 4 เป็นประโยค E ไม่สอดคล้องกับประโยค I (Some S are P - No S are P)<br />
+
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_q5', 'ตัวเลือก ข้อ 4', 'logic_ans_05'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_5" onclick="show_hide_eval('logic_expl_eval_q5', 'quiz_eval_5','eval_q5'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 5 -->
+
+<!-- ข้อ 6. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q6"><strong>ข้อ 6.</strong></div>
+<div class="question_content">คนที่นับถือศาสนาบางคนยึดมั่นในหลักธรรมะแล้วจะมีความสุข <br /><br />
+
+ข้อใดไม่สอดคล้องกับข้อความข้างต้น<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_q6" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนที่นับถือศาสนาบางคน ถ้าไม่ยึดมั่นในหลักธรรมะ แล้วจะไม่มีความสุข </label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_q6" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนที่นับถือศาสนาบางคน ถ้ายึดมั่นในหลักธรรมะ แล้วจะไม่มีความสุข </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_q6" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ไม่มีคนที่นับถือศาสนาคนใด ถ้ายึดมั่นในหลักธรรมะ แล้วจะมีความสุข </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_q6" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนที่นับถือศาสนาทุกคน ถ้าไม่ยึดมั่นในหลักธรรมะ แล้วจะไม่มีความสุข </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_06" class="show_answer" onclick="hide_div_spelling('logic_ans_06')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q6" class="explanation" style="display:none">
+ประโยคที่กำหนดให้ ทำเป็นประโยคเชิงตรรกะ จะได้ว่า "คนที่นับถือศาสนาบางคนที่ยึดมั่นในหลักธรรมะ เป็นคนที่มีความสุข" <br />
+S = คนที่นับถือศาสนาบางคนที่ยึดมั่นในหลักธรรมะ<br />
+P = คนที่มีความสุข<br />
+ประโยคที่กำหนดให้ เป็นประโยค I (Some S are P)<br /><br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br /><br />
+
+ประโยค I ตรงข้ามกับประโยค E (No S are P)<br /><br />
+
+ข้อ 3: เป็นประโยค E (No S are P) เป็นคำตอบที่ถูกต้อง เพราะขัดแย้งกับประโยคที่กำหนดให้ ในลักษณะ Contradictories <br />
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_q6', 'ตัวเลือก ข้อ 4', 'logic_ans_06'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_6" onclick="show_hide_eval('logic_expl_eval_q6', 'quiz_eval_6','eval_q6'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 6 -->
+
+<!-- ข้อ 7. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q7"><strong>ข้อ 7.</strong></div>
+<div class="question_content">จากการศึกษาพบว่าคนที่กินอาหารมากกว่า 650 แคลลอรี่ต่อวันทุกคนจะเป็นโรคอ้วน<br />
+ร้อยละ 55 ของคนที่เป็นโรคอ้วน จะเป็นโรคเบาหวาน ซึ่งมีผลกระทบต่อสุขภาพในระยะยาว<br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_q7" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนที่กินอาหารมากกว่า 650 แคลลอรี่ต่อวันบางคนจะไม่เป็นโรคอ้วน</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_q7" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนที่กินอาหารไม่มากกว่า 650 แคลลอรี่ต่อวันทุกคนจะไม่เป็นโรคอ้วน </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_q7" type="radio" value="ตัวเลือก ข้อ 3" /> 3. คนที่ไม่ป็นโรคอ้วนจะกินอาหารต่อวันไม่มากกว่า 650 แคลลอรี่ </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_q7" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนที่เป็นโรคอ้วนส่วนมากจะเป็นโรคเบาหวาน </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_07" class="show_answer" onclick="hide_div_spelling('logic_ans_07')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q7" class="explanation" style="display:none">
+ดูจากตัวเลือก จะเห็นว่า ตัวเลือก ข้อ 1-3 เป็นเรื่องกินอาหาร กับความอ้วน ส่วนข้อ 4 เป็นเรื่องโรคอ้วน กับโรคเบาหวาน<br /><br />
+
+ตัวเลือก ข้อ 4<br />
+S = คนที่เป็นโรคอ้วน<br />
+P = คนที่เป็นโรคเบาหวาน<br />
+จากโจทย์ จะได้ประโยคว่า "คนที่เป็นโรคอ้วนบางคน เป็นโรคเบาหวาน"<br />
+เป็นประโยค I (Some S are P)<br />
+ตัวเลือกข้อ 4 เป็นประโยค I เหมือนกัน (คนส่วนมาก = บางคน) จึงสอดคล้องกัน ตัวเลือกนี้จึงไม่ถูกต้อง เพราะโจทย์ต้องการประโยคที่ไม่สอดคล้องกัน <br /><br />
+
+ตัวเลือก ข้อ 1-3<br />
+S = คนที่กินอาหารมากกว่า 650 แคลลอรี่ต่อวัน<br />
+P = คนที่เป็นโรคอ้วน<br />
+ประโยคที่กำหนดให้ เป็นประโยค A (All S are P)<br />
+ประโยค A ตรงข้าม/ไม่สอดคล้องกับ ประโยค O (Some S are not P)<br /><br />
+
+ตัวเลือกข้อ 1 เป็นประโยค O จึงไม่สอดคล้อง กับ ประโยคที่กำหนดให้<br /><br />
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_q7', 'ตัวเลือก ข้อ 1', 'logic_ans_07'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_7" onclick="show_hide_eval('logic_expl_eval_q7', 'quiz_eval_7','eval_q7'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 7 -->
+
+<!-- ข้อ 8. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q8"><strong>ข้อ 8.</strong></div>
+<div class="question_content">คนที่ออกกำลังกายอย่างสม่ำเสมอ ทุกคน หากกินอาหารที่ถูกสุขลักษณะ แล้วร่างกายจะ แข็งแรง<br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_q8" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนที่ออกกำลังกายอย่างสม่ำเสมอ บางคน หากกินอาหารที่ถูกสุขลักษณะ แล้วร่างกายจะ แข็งแรง</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_q8" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนที่ออกกำลังกายอย่างสม่ำเสมอ บางคน หากกินอาหารที่ถูกสุขลักษณะ แล้วร่างกายจะ ไม่แข็งแรง</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_q8" type="radio" value="ตัวเลือก ข้อ 3" /> 3. คนที่ออกกำลังกายอย่างสม่ำเสมอ ทุกคน หากไม่กินอาหารที่ถูกสุขลักษณะ แล้วร่างกายจะ ไม่แข็งแรง </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_q8" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนที่ออกกำลังกายอย่างสม่ำเสมอ ทุกคน หากกินอาหารที่ถูกสุขลักษณะ แล้วร่างกายจะ ไม่แข็งแรง </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_08" class="show_answer" onclick="hide_div_spelling('logic_ans_08')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q8" class="explanation" style="display:none">
+S = คนที่ออกกำลังกายอย่างสม่ำเสมอ และ กินอาหารที่ถูกสุขลักษณะ<br />
+P = คนที่มีร่างกายแข็งแรง<br />
+ข้อความที่กำหนดให้ เป็นประโยค A (All S are P)<br />
+คนที่ออกกำลังกายอย่างสม่ำเสมอ และ กินอาหารที่ถูกสุขลักษณะ ทุกคน เป็น คนที่มีร่างกายแข็งแรง<br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br /><br />
+
+ประโยค A ขัดแย้ง/ไม่สอดคล้องกับประโยค O (Some S are not P)<br />
+
+ข้อ 2 เป็นประโยค O<br />
+คนที่ออกกำลังกายอย่างสม่ำเสมอ และ กินอาหารที่ถูกสุขลักษณะบางคน เป็น คนที่มีร่างกาย ไม่แข็งแรง<br /><br />
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_q8', 'ตัวเลือก ข้อ 2', 'logic_ans_08'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_8" onclick="show_hide_eval('logic_expl_eval_q8', 'quiz_eval_8','eval_q8'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 8 -->
+
+<!-- ข้อ 9. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q9"><strong>ข้อ 9.</strong></div>
+<div class="question_content">คนไทยบางคนถ้าชอบเล่นการพนันแล้วจะถูกดำเนินคดี <br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_q9" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนไทยบางคนถ้าไม่ชอบเล่นการพนันแล้วจะไม่ถูกดำเนินคดี</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_q9" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ไม่มีคนไทยที่ชอบเล่นการพนันแล้วจะไม่ถูกดำเนินคดี </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_q9" type="radio" value="ตัวเลือก ข้อ 3" /> 3. คนไทยทุกคนถ้าชอบเล่นการพนันแล้วจะถูกดำเนินคดี</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_q9" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนไทยทุกคนถ้าไม่ชอบเล่นการพนันแล้วจะถูกดำเนินคดี </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_09" class="show_answer" onclick="hide_div_spelling('logic_ans_09')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q9" class="explanation" style="display:none">
+ประโยคที่กำหนดให้ เป็นประโยค I (Some S are P)<br /><br />
+
+ประโยค I ขัดแย้ง/ไม่สอดคล้อง กับประโยค E (No S are P)<br /><br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br /><br />
+
+เมื่อดูตัวเลือกทั้ง 4 ข้อ พบว่า ตัวเลือกข้อ 2 เป็นประโยค E <br />
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_q9', 'ตัวเลือก ข้อ 2', 'logic_ans_09'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_9" onclick="show_hide_eval('logic_expl_eval_q9', 'quiz_eval_9','eval_q9'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 9 -->
+
+<!-- ข้อ 10. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q10"><strong>ข้อ 10.</strong></div>
+<div class="question_content">คนไทยทุกคน ชื่นชมการแก้ไข ปัญหาเศรษฐกิจ ของรัฐบาล<br /><br />
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br /></div>   
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+<div class="choice_num_1Col"><label> <input name="logic_eval_q10" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนไทยทุกคน ไม่ชื่นชมการแก้ไขปัญหาเศรษฐกิจ ของรัฐบาล </label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+<div class="choice_num_1Col"><label><input name="logic_eval_q10" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนไทยบางคน ชื่นชมการแก้ไขปัญหาเศรษฐกิจ ของรัฐบาล </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+<div class="choice_num_1Col"><label> <input name="logic_eval_q10" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ไม่มีคนไทยคนใด ชื่นชมการแก้ไขปัญหาเศรษฐกิจ ของรัฐบาล </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+<div class="choice_num_1Col"><label><input name="logic_eval_q10" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนไทยบางคน ไม่ชื่นชมการแก้ไขปัญหาเศรษฐกิจ ของรัฐบาล </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_10" class="show_answer" onclick="hide_div_spelling('logic_ans_10')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q10" class="explanation" style="display:none">
+S = คนไทย<br />
+P = คนที่ชื่นชมการแก้ไข ปัญหาเศรษฐกิจ ของรัฐบาล<br />
+ข้อความที่กำหนด เป็นประโยค A (All S are P)<br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br /><br />
+
+ประโยค A ขัดแย้ง/ไม่สอดคล้องกับ ประโยค O (Some S are not P)<br />
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q10', 'ตัวเลือก ข้อ 4', 'logic_ans_10'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_10" onclick="show_hide_eval('logic_expl_eval_q10', 'quiz_eval_10','eval_q10'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 10 -->
+
+<!-- ข้อ 11. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q11"><strong>ข้อ 11.</strong></div>
+<div class="question_content">คนไทยน้อยมากที่นับถือศาสนาพุทธลัทธิชินโต<br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_eval_q11" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนไทยบางคนนับถือศาสนาพุทธลัทธิชินโต</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q11" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ไม่มีคนไทยคนใดที่นับถือศาสนาพุทธลัทธิชินโต </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q11" type="radio" value="ตัวเลือก ข้อ 3" /> 3. มีคนไทยจำนวนไม่มากที่ไม่นับถือศาสนาพุทธลัทธิชินโต</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q11" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนไทยไม่น้อยไม่นับถือศาสนาพุทธลัทธิชินโต</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_11" class="show_answer" onclick="hide_div_spelling('logic_ans_11')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q11" class="explanation" style="display:none">
+S = คนไทย<br />
+P = คนที่นับถือศาสนาพุทธลัทธิชินโต<br />
+ข้อความที่กำหนดให้ เป็นประโยค I (Some S are P)<br /><br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br /><br />
+
+จากภาพ ถ้าประโยค I เป็นจริง จะเห็นว่า ไม่สามารถสรุปเกี่ยวกับประโยค A และ ประโยค O ได้ ส่วนประโยค E มีความหมายตรงข้ามกับ I <br /><br />
+
+ข้อ 2 เป็นประโยค E (No S are P) ส่วน ข้อ 1 ข้อ 3 และ ข้อ 4 เป็นประโยค O เพราะ คำว่า ส่วนน้อย ส่วนใหญ่ ส่วนมาก มีความหมายเดียวกับคำว่า บางส่วน<br /></div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q11', 'ตัวเลือก ข้อ 2', 'logic_ans_11'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_11" onclick="show_hide_eval('logic_expl_eval_q11', 'quiz_eval_11','eval_q11'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 11 -->
+
+<!-- ข้อ 12. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num" id="eval_q12"><strong>ข้อ 12.</strong></div>
+<div class="question_content">สัตว์ครึ่งบกครึ่งน้ำส่วนน้อย เป็นสัตว์ที่มีพิษ<br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_eval_q12" type="radio" value="ตัวเลือก ข้อ 1" /> 1. สัตว์ครึ่งบกครึ่งน้ำบางตัว เป็นสัตว์มีพิษ</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q12" type="radio" value="ตัวเลือก ข้อ 2" /> 2. สัตว์ครึ่งบกครึ่งน้ำบางตัว เป็นสัตว์ที่ไม่มีพิษ</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q12" type="radio" value="ตัวเลือก ข้อ 3" /> 3. มีสัตว์ครึ่งบกครึ่งน้ำน้อยมากที่ไม่มีพิษ</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q12" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ไม่มีสัตว์ครึ่งบกครึ่งน้ำที่เป็นสัตว์มีพิษ</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_12" class="show_answer" onclick="hide_div_spelling('logic_ans_12')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q12" class="explanation" style="display:none">
+S = สัตว์ครึ่งบกครึ่งน้ำ<br />
+P = สัตว์ที่มีพิษ<br />
+ข้อความที่กำหนดให้ เป็นประโยค I (Some S are P)<br /><br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br /><br />
+
+จากภาพ ถ้าประโยค I เป็นจริง จะเห็นว่า ไม่สามารถสรุปเกี่ยวกับประโยค A และ ประโยค O ได้ ส่วนประโยค E มีความหมายตรงข้ามกับ I <br /><br />
+
+ข้อ 2 และ 3 เป็นประโยค O (Some S are not P) ส่วน ข้อ 4 เป็นประโยค E <br />
+ข้อ 4 จึงเป็นข้อถูก เพราะมีความหมายตรงข้ามกับข้อความที่กำหนดให้
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q12', 'ตัวเลือก ข้อ 4', 'logic_ans_12'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_12" onclick="show_hide_eval('logic_expl_eval_q12', 'quiz_eval_12','eval_q12' ); return false;" type="submit" value="ดูคำอธิบาย" /> 
+
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 12-->
+
+<!-- ข้อ 13. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q13"><strong>ข้อ 13.</strong></div>
+<div class="question_content">มีคนไทยส่วนน้อยที่ออกกำลังกายสม่ำเสมอ <br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_eval_q13" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนไทยบางคนออกกำลังกายอย่างสม่ำเสมอ</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q13" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนไทยส่วนมากออกกำลังกายอย่างสม่ำเสมอ</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q13" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ไม่มีคนไทยที่ออกกำลังกายอย่างสม่ำเสมอ</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q13" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนไทยส่วนมากไม่ออกกำลังกายอย่างสม่ำเสมอ</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_13" class="show_answer" onclick="hide_div_spelling('logic_ans_13')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q13" class="explanation" style="display:none">
+ประโยคที่กำหนดให้ เป็นประโยค I (Some S are P)<br /><br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br /><br />
+
+ประโยคที่ไม่สอดคล้องกับประโยค I คือ ประโยค E<br />
+ข้อ 3 ถูกต้อง เพราะเป็นประโยค E<br /><br />
+
+ข้อ 1, 2 และ 4 มีความหมายเดียวกันหมด เป็นประโยค I มีความหมายเหมือนประโยคที่กำหนดให้<br />
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q13', 'ตัวเลือก ข้อ 3', 'logic_ans_13'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_13" onclick="show_hide_eval('logic_expl_eval_q13', 'quiz_eval_13','eval_q13'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 13-->
+
+<!-- ข้อ 14. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q14"><strong>ข้อ 14.</strong></div>
+<div class="question_content">คนไทยทุกคนเป็นคนขยัน คนขยันทุกคนเป็นคนประสบความสำเร็จในชีวิต คนที่ประสบความสำเร็จในชีวิตทุกคนจะไม่ลำบาก<br /><br />
+
+ข้อใด <u>สอดคล้อง</u> กับข้อความข้างต้น<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_eval_q14" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนที่ไม่ประสบความสำเร็จในชีวิตไม่ใช่คนขยัน</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q14" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนขยันทุกคนเป็นคนไทย</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q14" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ไม่มีคนไทยคนใดลำบาก</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q14" type="radio" value="ตัวเลือก ข้อ 4" /> 4. คนขยันบางคนไม่ประสบความสำเร็จในชีวิต</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_14" class="show_answer" onclick="hide_div_spelling('logic_ans_14')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q14" class="explanation" style="display:none">
+<a href="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s1600/logic_conversion_table.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s320/logic_conversion_table.png" width="265" height="320" data-original-width="260" data-original-height="314" /></a><br />
+ข้อ 1 ถูกต้อง เป็นการเปรียบเทียบระหว่าง "คนขยันทุกคนเป็นคนประสบความสำเร็จในชีวิต" ประโยค A (All S are P) และ "คนที่ไม่ประสบความสำเร็จในชีวิตทุกคนไม่ใช่คนขยัน" ซึ่งเป็น Contraposition ของประโยค A คือ All non-P are non-S จึงมีความสอดคล้องกัน<br />
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q14', 'ตัวเลือก ข้อ 1', 'logic_ans_14'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_14" onclick="show_hide_eval('logic_expl_eval_q14', 'quiz_eval_14','eval_q14'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 14  -->
+
+<!-- ข้อ 15. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q15"><strong>ข้อ 15.</strong></div>
+<div class="question_content">คนไทยบางคนมีรายได้มากกว่าเดือนละ 10,000 บาท” <br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_eval_q15" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนไทยบางคนมีรายได้ไม่มากกว่าเดือนละ 10,000 บาท</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q15" type="radio" value="ตัวเลือก ข้อ 2" /> 2. คนไทยบางคนมีรายได้น้อยกว่าเดือนละ 10,000 บาท</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q15" type="radio" value="ตัวเลือก ข้อ 3" /> 3. คนไทยทุกคนมีรายได้มากกว่าเดือนละ 10,000 บาท</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q15" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ไม่มีคนไทยคนใดมีรายได้มากกว่าเดือนละ 10,000 บาท</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_15" class="show_answer" onclick="hide_div_spelling('logic_ans_15')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q15" class="explanation" style="display:none">
+S = คนไทย<br />
+P = คนที่มีรายได้มากกว่าเดือนละ 10,000 บาท<br />
+เป็นประโยค I (Some S are P)<br />
+
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br />
+
+ประโยค I ขัดแย้ง/ไม่สอดคล้องกับประโยค E (No S are P)<br />
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q15', 'ตัวเลือก ข้อ 4', 'logic_ans_15'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_15" onclick="show_hide_eval('logic_expl_eval_q15', 'quiz_eval_15','eval_q15'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 15 -->
+
+<!-- ข้อ 16. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q16"><strong>ข้อ 16.</strong></div>
+<div class="question_content">พัดโบกเป็นเครื่องสูงชนิดหนึ่งสำหรับพระมหากษัตริย์ ทำมาจากใบลาน เป็นพัดใบลานด้ามยาว ขนาดใหญ่ มีการลงลักปิดทอง เอาไว้ใช้โบกลมถวายพระเจ้าแผ่นดินเมื่อพระองค์ประทับ ณ ที่สูง รวม ไปถึงการใช้พัดโบกในขบวนเสด็จ ฯ <br /><br />
+
+ข้อใด <u> ไม่สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_eval_q16" type="radio" value="ตัวเลือก ข้อ 1" /> 1. มีพัดโบกที่ทำมาจากใบลาน</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q16" type="radio" value="ตัวเลือก ข้อ 2" /> 2. เครื่องสูงบางชนิด เป็นพัดโบก</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q16" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ไม่มีพัดโบกใด ที่ไม่ได้เป็นพัดใบลานด้ามยาว </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q16" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ไม่มีพัดใบลานด้ามยาวอันใด ที่ไม่ใช่พัดโบก</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_16" class="show_answer" onclick="hide_div_spelling('logic_ans_16')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q16" class="explanation" style="display:none">
+<a href="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s1600/logic_conversion_table.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s320/logic_conversion_table.png" width="265" height="320" data-original-width="260" data-original-height="314" /></a><br />
+ข้อ 1 ทำเป็นประโยคได้คือ "พัดโบก เป็น พัดที่ทำมาจากใบลาน" ซึ่งสอดคล้องกับข้อความคือ "พัดโบกเป็นเครื่องสูงชนิดหนึ่ง ทำมาจากใบลาน"<br /><br />
+
+ข้อ 2 เป็น Partial conversion ของประโยค A (Some P are S) จึงสอดคล้องกัน<br /><br />
+
+ข้อ 3 เป็น Contraposition ของประโยค A (All non-P are non-S) จึงสอดคล้องกัน<br /><br />
+
+ข้อ 4 เป็นประโยคที่มี ปฏิเสธซ้อนปฏิเสธ เมื่อเอาปฏิเสธออก จะได้ว่า "พัดใบลานด้ามยาวทุกอัน เป็น พัดโบก" ซึ่งจะเห็นว่า ไม่สอดคล้องกับข้อความ "พัดโบก เป็น พัดใบลานด้ามยาว" เพราะเป็นการ Converse ประโยค A ซึ่งทำไม่ได้ จะทำได้ต้องเป็น Partial conversion ประโยคที่ถูกคือ "พัดใบลานด้ามยาวบางอัน เป็น พัดโบก"<br /><br />
+
+คำตอบคือ ข้อ 4:  <br />
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q16', 'ตัวเลือก ข้อ 4', 'logic_ans_16'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_16" onclick="show_hide_eval('logic_expl_eval_q16', 'quiz_eval_16','eval_q16'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 16 -->
+
+<!-- ข้อ 17. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q17"><strong>ข้อ 17.</strong></div>
+<div class="question_content">นักเรียนที่ชอบเทนนิสบางคนก็ชอบฟุตบอล นักเรียนที่ชอบแบดมินตันบางคนก็ชอบเทนนิส นักเรียนที่ชอบฟุตบอลทุกคนต่างก็ชอบเทนนิส ไม่มีนักเรียนที่ชอบแบดมินตันและฟุตบอล<br /><br />
+
+ข้อใด <u>สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_eval_q17" type="radio" value="ตัวเลือก ข้อ 1" /> 1. นักเรียนที่ชอบเทนนิสทุกคนชอบฟุตบอล และบางคนชอบแบดมินตัน</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q17" type="radio" value="ตัวเลือก ข้อ 2" /> 2. นักเรียนที่ชอบเทนนิสบางคนชอบแบดมินตัน และบางคนชอบฟุตบอล </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q17" type="radio" value="ตัวเลือก ข้อ 3" /> 3. นักเรียนที่ชอบเทนนิสบางคนชอบแบดมินตัน แต่ทุกคนชอบฟุตบอล</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q17" type="radio" value="ตัวเลือก ข้อ 4" /> 4. นักเรียนที่ชอบเทนนิสทุกคนชอบแบดมินตัน และบางคนชอบฟุตบอล </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_17" class="show_answer" onclick="hide_div_spelling('logic_ans_17')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q17" class="explanation" style="display:none">
+<img class="centerImg" src="pics/logic_tennis"><br />
+จากแผนภูมิ จะเห็นว่า นักเรียนที่ชอบเทนนิสบางคนชอบแบดมินตัน และบางคนชอบฟุตบอล<br /><br />
+
+คำตอบคือ ข้อ 2:  <br />
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q17', 'ตัวเลือก ข้อ 2', 'logic_ans_17'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_17" onclick="show_hide_eval('logic_expl_eval_q17', 'quiz_eval_17','eval_q17'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 17 -->
+
+<!-- ข้อ 18. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q18"><strong>ข้อ 18.</strong></div>
+<div class="question_content">ข้าวกล้อง มีเส้นใยอาหารสูง และช่วยดูดซับไขมันไม่อิ่มตัว ช่วยป้องกันการสะสมไขมันในหลอดเลือด ช่วยลดความเสี่ยงต่อการเป็นโรคหัวใจ เพราะข้าวกล้อง เป็นแหล่งรวมสารอาหารมากมาย จากการศึกษา ทางการแพทย์ พบว่าคนไข้ที่ป่วยเป็นโรค ความดันในเส้นเลือดสูง ทุกคน ไม่รับประทานข้าวกล้อง นอกจากนั้น ผลิตภัณฑ์ที่สกัดจากข้าวกล้อง เช่น นม วิตามิน ยังเป็นอาหารที่ป้องกันโรคเบาหวาน คนที่มีโอกาส เป็นโรคเบาหวานทุกคน จะรับประทานข้าวขัดขาว ข้าวขัดขาวจะเป็นสารอาหาร ที่เพิ่มครอเลสเตอรอล ให้แก่ร่างกาย การรับประทานข้าวขัดขาว นอกจากทำให้เป็นโรคเบาหวานแล้ว ยังเป็นสาเหตุของโรค หัวใจวายเฉียบพลัน ซึ่งเป็นสาเหตุการเสียชีวิต อันดับสองของคนไทย รองลงมาจากโรคมะเร็ง<br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_eval_q18" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คนไข้ที่ป่วย เป็นโรคความดัน ในเส้นเลือดบางคน รับประทานข้าวกล้อง</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q18" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ข้าวกล้องเป็นสารอาหารทำให้ช่วยลดความเสี่ยงต่อการเป็นโรคหัวใจ</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q18" type="radio" value="ตัวเลือก ข้อ 3" /> 3. อาหารที่ไม่ได้ป้องกันโรคเบาหวาน แสดงว่าไม่ใช่ผลิตภัณฑ์ที่สกัดจากข้าวกล้อง</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q18" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ไม่มีคนรับประทานข้าวขัดขาวคนใดไม่มีโอกาสเป็นโรคเบาหวาน </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_18" class="show_answer" onclick="hide_div_spelling('logic_ans_18')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q18" class="explanation" style="display:none">
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br />
+<a href="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s1600/logic_conversion_table.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s320/logic_conversion_table.png" width="265" height="320" data-original-width="260" data-original-height="314" /></a><br />
+
+ข้อ 1 "คนไข้ที่ป่วย เป็นโรคความดัน ในเส้นเลือดบางคน รับประทานข้าวกล้อง" เปรียบเทียบกับ "คนไข้ที่ป่วยเป็นโรค ความดันในเส้นเลือดสูง ทุกคน ไม่รับประทานข้าวกล้อง" (All S are not P) เป็นประโยคกำกวม แต่น่าจะหมายถึง ประโยค E (No S are P) ได้ เปรียบเทียบกับข้อความ ตัวเลือกที่ 1 ซึ่งเป็นประโยค I (Some S are P) จะเห็นว่ามีความหมายขัดแย้งกัน ในลักษณะ Contradictories<br /><br />
+
+ข้อ 2 "ข้าวกล้องเป็นสารอาหารทำให้ช่วยลดความเสี่ยงต่อการเป็นโรคหัวใจ" เปรียบเทียบกับ  "ข้าวกล้อง ... ช่วยลดความเสี่ยงต่อการเป็นโรคหัวใจ " ซึ่งจะเห็นว่า สอดคล้องกัน<br /><br />
+
+ข้อ 3 "อาหารที่ไม่ได้ป้องกันโรคเบาหวาน แสดงว่าไม่ใช่ผลิตภัณฑ์ที่สกัดจากข้าวกล้อง" เปรียบเทียบกับ "ผลิตภัณฑ์ที่สกัดจากข้าวกล้อง เป็นอาหารที่ป้องกันโรคเบาหวาน" ประโยค A (All S are P) ซึ่งจะเห็นว่า ข้อความในตัวเลือกข้อ 3 เป็น Contraposition ของ A คือ All non-P are non-S จึงสอดคล้องกัน <br /><br />
+
+ข้อ 4 "ไม่มีคนรับประทานข้าวขัดขาวคนใดไม่มีโอกาสเป็นโรคเบาหวาน" เปรียบเทียบกับข้อความ "คนที่มีโอกาส เป็นโรคเบาหวานทุกคน จะรับประทานข้าวขัดขาว" เป็นประโยค A (All S are P) ส่วนตัวเลือก เป็น Contraposition ของ A (All non-P are non-S) จึงสอดคล้องกัน<br /><br />
+
+คำตอบคือ ข้อ 1:  <br />
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q18', 'ตัวเลือก ข้อ 1', 'logic_ans_18'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_18" onclick="show_hide_eval('logic_expl_eval_q18', 'quiz_eval_18','eval_q18'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 18 -->
+
+<!-- ข้อ 19. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q19"><strong>ข้อ 19.</strong></div>
+<div class="question_content">ใบชะพลูเป็นสมุนไพรชนิดหนึ่ง ที่มีสารเส้นใยสูง มีสารอาหารประเภท วิตามินบีและซี สามารถช่วยควบคุมระดับน้ำตาล และไขมันในเส้นเลือด เป็นส่วนประกอบอาหาร บำรุงสุขภาพ ต่อต้านอนุมูลอิสระ ซึ่งเป็นสาเหตุการเกิดโรคมะเร็ง สามารถกระตุ้นการไหลเวียนของโลหิต<br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br />
+
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="logic_eval_q19" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ใบชะพลูบางชนิด ไม่ช่วยควบคุมระดับน้ำตาล หรือไขมันในเส้นเลือด</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+     <div class="choice_num_1Col"><label><input name="logic_eval_q19" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ไม่มีใบพืชที่ต่อต้านอนุมูลอิสระชนิดใด ที่ไม่ใช่ใบชะพลู</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="logic_eval_q19" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ใบพืชที่ไม่มีสารที่สามารถกระตุ้นการไหลเวียนของโลหิต ไม่ใช่ใบชะพลู</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="logic_eval_q19" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ใบพืชที่มีเส้นใยพืชสูงบางชนิด เป็นใบชะพลู</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_19" class="show_answer" onclick="hide_div_spelling('logic_ans_19')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q19" class="explanation" style="display:none">
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br />
+<a href="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s1600/logic_conversion_table.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s320/logic_conversion_table.png" width="265" height="320" data-original-width="260" data-original-height="314" /></a><br />
+
+ข้อ 1 ตรงกับข้อความ "ใบชะพลู สามารถช่วยควบคุมระดับน้ำตาล และไขมันในเส้นเลือด" เป็นประโยค A (All S are P) จะเห็นว่า ตัวเลือกข้อ 1 เป็นประโยค O ใบชะพลูบางชนิด ไม่ช่วยควบคุมระดับน้ำตาล หรือไขมันในเส้นเลือด (Some S are not P) จึงไม่สอดคล้องกัน &#x2714;<br /><br />
+
+ข้อ 2 เปรียบเทียบกับ "ใบชะพลูต่อต้านอนุมูลอิสระ" เป็นประโยค A (All S are P) จะเห็นว่า ตัวเลือกข้อ 2 เป็น Contraposition ของ A ไม่มีใบพืชที่ต่อต้านอนุมูลอิสระชนิดใด ที่ไม่ใช่ใบชะพลู (All non-P are non-S) จึงสอดคล้องกัน<br /><br />
+
+ข้อ 3 เปรียบเทียบกับ "ใบชะพลู สามารถกระตุ้นการไหลเวียนของโลหิต" เป็นประโยค A (All S are P) จะเห็นว่า ตัวเลือกข้อ 3 เป็น Contraposition ของ A ใบพืชที่ไม่มีสารที่ สามารถกระตุ้นการไหลเวียน ของโลหิต ไม่ใช่ใบชะพลู (All non-P are non-S) จึงสอดคล้องกัน<br /><br />
+
+ข้อ 4 เปรียบเทียบกับ "ใบชะพลูมีเส้นใยพืชสูง" เป็นประโยค A (All S are P) จะเห็นว่า ตัวเลือกข้อ 4 เป็น 
+Partial conversion ของประโยค A คือ ใบพืชที่มีเส้นใยพืชสูงบางชนิด เป็นใบชะพลู (Some P are S) ดังนั้น จึงสอดคล้องกัน<br /><br />
+
+คำตอบคือ ข้อ 1:  <br />
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q19', 'ตัวเลือก ข้อ 1', 'logic_ans_19'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_19" onclick="show_hide_eval('logic_expl_eval_q19', 'quiz_eval_19','eval_q19'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 19 -->
+
+<!-- ข้อ 20. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q20"><strong>ข้อ 20.</strong></div>
+<div class="question_content">คำโดดทุกคำเป็นคำมูล บางคำเป็นคำไทยแท้ บางคำเป็นคำที่ยืมมาจากต่างประเทศ บางคำมีความหมาย บางคำไม่มีความหมาย ความหมายของคำโดดเกือบจะทั้งหมด ขึ้นอยู่กับบริบทของข้อความ ที่ห้อมล้อม
+คำโดดหลายคำ เมื่อนำมารวมกัน จะเป็นคำใหม่ ที่มีความหมายแตกต่างจากเดิม เรียกว่า "คำประสม"<br /><br />
+
+ข้อใด <u>ไม่สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+<div class="choice_num_1Col"><label> <input name="logic_eval_q20" type="radio" value="ตัวเลือก ข้อ 1" /> 1. คำโดดมีทั้งคำไทยแท้ และคำที่ยืมมาจากต่างประเทศ</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+<div class="choice_num_1Col"><label><input name="logic_eval_q20" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ไม่มีความหมายของคำโดดใด ที่ไม่ขึ้นอยู่กับบริบทที่ห้อมล้อมอยู่ </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+<div class="choice_num_1Col"><label> <input name="logic_eval_q20" type="radio" value="ตัวเลือก ข้อ 3" /> 3. คำที่ไม่มีความหมายบางคำ เป็นคำโดด</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+<div class="choice_num_1Col"><label><input name="logic_eval_q20" type="radio" value="ตัวเลือก ข้อ 4" /> 4. มีคำมูลบางคำไม่เป็นคำโดด</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_20" class="show_answer" onclick="hide_div_spelling('logic_ans_20')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q20" class="explanation" style="display:none">
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br />
+<a href="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s1600/logic_conversion_table.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s320/logic_conversion_table.png" width="265" height="320" data-original-width="260" data-original-height="314" /></a><br />
+
+ข้อ 1 เปรียบเทียบกับ "คำโดดบางคำเป็นคำไทยแท้ บางคำเป็นคำที่ยืมมาจากต่างประเทศ" เป็นประโยค I (Some S are P) ทั้ง 2 ประโยค จะเห็นว่า ข้อความในตัวเลือกที่ 1 คือ "คำโดดมีทั้งคำไทยแท้ และคำที่ยืมมาจากต่างประเทศ" ซึ่งทำเป็นข้อความในทางตรรกศาสตร์ จะได้ว่า "คำโดดบางคำเป็นคำไทยแท้ และ คำโดดบางคำเป็นคำที่ยืมมาจากภาษาต่างประเทศ" เป็นประโยค I เหมือนกัน จึงสอดคล้องกัน <br /><br />
+
+ข้อ 2 เปรียบเทียบกับ "ความหมายของคำโดดเกือบจะทั้งหมด ขึ้นอยู่กับบริบทของข้อความที่ห้อมล้อม" เป็นประโยค I (Some S are P) จะเห็นว่า ข้อความในตัวเลือกที่ 2 คือ "ไม่มีความหมายของคำโดดใด ที่ไม่ขึ้นอยู่กับบริบทที่ห้อมล้อมอยู่" เป็น Obversion ของประโยค A จึงสอดคล้องกัน<br /><br />
+
+ข้อ 3 เปรียบเทียบกับ "คำโดดบางคำไม่มีความหมาย" เป็นประโยค O (Some S are not P) จะเห็นว่า ข้อความในตัวเลือกที่ 3 คือ "คำที่ไม่มีความหมายบางคำ เป็นคำโดด" เป็น Contraposition ของ O (Some non-P are not non-S) จึงสอดคล้องกัน<br /><br />
+
+ข้อ 4 เปรียบเทียบกับ "คำโดดทุกคำเป็นคำมูล" เป็นประโยค A (All S are P) จะเห็นว่า ข้อความในตัวเลือกที่ 4 คือ "มีคำมูลบางคำไม่เป็นคำโดด" เป็นประโยค O (Some S are not P) ซึ่งขัดแย้งกัน (Contradictories) จึงไม่สอดคล้องกัน &#x2714; <br /><br />
+
+
+คำตอบคือ ข้อ 4:  <br />
+
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q20', 'ตัวเลือก ข้อ 4', 'logic_ans_20'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_20" onclick="show_hide_eval('logic_expl_eval_q20', 'quiz_eval_20','eval_q20'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 20 -->
+
+<!-- ข้อ 21 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q21"><strong>ข้อ 21.</strong></div>
+<div class="question_content">สารที่ตกตะกอน จะมีความสำคัญ ต่อระบบนิเวศน์ เนื่องจากแสงอาทิตย์ไม่สามารถ ส่องผ่านลงสู่ใต้น้ำได้ สัตว์น้ำและพืชใต้น้ำบางชนิด ต้องอาศัยแสงอาทิตย์ เพื่อการดำรงชีพ นอกจากนั้น น้ำของสารที่ตกตะกอน ยังไม่สามารถนำไปใช้ เพื่อการบริโภคได้”<br /><br />
+
+ข้อใด <u>สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+<div class="choice_num_1Col"><label> <input name="logic_eval_q21" type="radio" value="ตัวเลือก ข้อ 1" /> 1. สารที่ไม่ตกตะกอน จะไม่มีความสำคัญ ต่อระบบนิเวศน์</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+<div class="choice_num_1Col"><label><input name="logic_eval_q21" type="radio" value="ตัวเลือก ข้อ 2" /> 2. สารที่ไม่ตกตะกอน แสงอาทิตย์จะสามารถ ส่งผ่านลงไปใต้น้ำได้ </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+<div class="choice_num_1Col"><label> <input name="logic_eval_q21" type="radio" value="ตัวเลือก ข้อ 3" /> 3. น้ำที่สามารถนำไปใช้ เพื่อการบริโภคได้ ต้องไม่ใช่น้ำของสาร ที่ตกตะกอน </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+<div class="choice_num_1Col"><label><input name="logic_eval_q21" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สัตว์น้ำและพืชใต้น้ำทุกชนิด ไม่ต้องอาศัยแสงอาทิตย์ เพื่อการดำรงชีวิต </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_21" class="show_answer" onclick="hide_div_spelling('logic_ans_21')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q21" class="explanation" style="display:none">
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br />
+<a href="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s1600/logic_conversion_table.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s320/logic_conversion_table.png" width="265" height="320" data-original-width="260" data-original-height="314" /></a><br />
+
+ข้อ 1. เปรียบเทียบกับ "สารที่ตกตะกอน จะมีความสำคัญ ต่อระบบนิเวศน์"  เป็นประโยค A (All S are P) จะพบว่า "สารที่ไม่ตกตะกอน จะไม่มีความสำคัญ ต่อระบบนิเวศน์" คือ No S are non-P เป็น Obversion ของ A จึงสอดคล้องกัน <br /><br />
+
+ข้อ 2. เปรียบเทียบกับ "สารที่ตกตะกอน เป็นสารที่ทำให้แสงอาทิตย์ไม่สามารถ ส่องผ่านลงสู่ใต้น้ำได้" เป็น ประโยค A (S = สารที่ตกตะกอน, P = สารที่ทำให้แสงอาทิตย์ไม่สามารถ ส่องผ่านลงสู่ใต้น้ำได้) จะพบว่า "สารที่ไม่ตกตะกอน แสงอาทิตย์จะสามารถ ส่งผ่านลงไปใต้น้ำได้" เป็น Obversion (No S are non-P) จึงสอดคล้องกัน <br /><br />
+
+ข้อ 3. เปรียบเทียบกับ "น้ำของสารที่ตกตะกอน ยังไม่สามารถนำไปใช้ เพื่อการบริโภคได้" All S are not P เป็นประโยค A จะพบว่า "น้ำที่สามารถนำไปใช้ เพื่อการบริโภคได้ ต้องไม่ใช่น้ำของสาร ที่ตกตะกอน" เป็น Contraposition (All non-P are non-S) ของ A จึงสอดคล้องกัน <br /><br />
+
+ข้อ 4. เปรียบเทียบกับ "สัตว์น้ำและพืชใต้น้ำบางชนิด ต้องอาศัยแสงอาทิตย์ เพื่อการดำรงชีพ" ประโยค A จะพบว่า "สัตว์น้ำและพืชใต้น้ำทุกชนิด ไม่ต้องอาศัยแสงอาทิตย์ เพื่อการดำรงชีวิต" คือ No S are P เป็นประโยค E ข้อนี้จึง ไม่สอดคล้องกัน &#x2714; <br /><br />
+
+คำตอบคือ ข้อ 4:  <br />
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q21', 'ตัวเลือก ข้อ 4', 'logic_ans_21'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_21" onclick="show_hide_eval('logic_expl_eval_q21', 'quiz_eval_21','eval_q21'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 21 -->
+
+<!-- ข้อ 22 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q22"><strong>ข้อ 22.</strong></div>
+<div class="question_content">ตรรกวิทยาคือ วิชาว่าด้วยกฎเกณฑ์การใช้เหตุผล ผู้ที่รู้จักใช้ประโยชน์ จากตรรกวิทยาทุกคน เป็นผู้มีเหตุผล ผู้มีเหตุผลทุกคน ไม่เป็นผู้เข้าใจผิดง่าย ผู้เข้าใจผิดง่ายทุกคน เป็นผู้หาความสุขได้ยาก
+
+ข้อใด <u>สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+<div class="choice_num_1Col"><label> <input name="logic_eval_q22" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ผู้รู้จักใช้ประโยชน์ จากตรรกวิทยาบางคน ไม่เป็นผู้หาความสุขได้ยาก</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+<div class="choice_num_1Col"><label><input name="logic_eval_q22" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ไม่มีผู้รู้จักใช้ประโยชน์ จากตรรกวิทยาคนใด เป็นผู้เข้าใจผิดง่าย</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+<div class="choice_num_1Col"><label> <input name="logic_eval_q22" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ไม่มีผู้หาความสุขได้ยากคนใด เป็นผู้มีเหตุผล</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+<div class="choice_num_1Col"><label><input name="logic_eval_q22" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ผู้มีเหตุผลทุกคน เป็นผู้ที่รู้จักใช้ประโยชน์ จากตรรกวิทยา</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_22" class="show_answer" onclick="hide_div_spelling('logic_ans_22')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q22" class="explanation" style="display:none">
+<a href="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s1600/square_of_opposition.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-5wd8XV_6wB8/WXbqT-EBe2I/AAAAAAAAHI0/RWKkBTvrM1gNjExsdrR38M7o7BDCx5dBQCLcBGAs/s320/square_of_opposition.png" width="264" height="320" data-original-width="264" data-original-height="320" /></a><br />
+<a href="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s1600/logic_conversion_table.png" imageanchor="1" ><img class="centerImg"  border="0" src="https://3.bp.blogspot.com/-6Fvzmsanc3A/WXbqKDuFM5I/AAAAAAAAHIw/Jz80kyroQ8QXjYA2sXp55vcKtMQgjEInACLcBGAs/s320/logic_conversion_table.png" width="265" height="320" data-original-width="260" data-original-height="314" /></a><br />
+
+ข้อ 1. เปรียบเทียบกับ "ผู้รู้จักใช้ประโยชน์ จากตรรกวิทยาทุกคน เป็นผู้หาความสุขได้ง่าย" ประโยค A จะพบว่า "ผู้รู้จักใช้ประโยชน์ จากตรรกวิทยาบางคน ไม่เป็นผู้หาความสุขได้ยาก" หรือ "ผู้รู้จักใช้ประโยชน์ จากตรรกวิทยาบางคน เป็นผู้หาความสุขได้ง่าย"คือ Some S are P เป็นประโยค I ซึ่งตรงข้ามกับประโยค A ข้อนี้จึง ไม่สอดคล้องกัน <br /><br />
+
+ข้อ 2. เปรียบเทียบกับ "ผู้รู้จักใช้ประโยชน์ จากตรรกวิทยาทุกคน เป็นผู้หาความสุขได้ง่าย" ประโยค A จะพบว่า "ไม่มีผู้รู้จักใช้ประโยชน์ จากตรรกวิทยาคนใด เป็นผู้เข้าใจผิดง่าย" เป็นประโยค E จึงไม่สอดคล้องกับประโยค A<br /><br />
+
+ข้อ 3. เปรียบเทียบกับ "ผู้มีเหตุผลทุกคน ไม่เป็นผู้หาความสุขได้ยาก" All S are not P อนุมานว่า ใช้ในความหมายประโยค E (No S are P) จะพบว่า "ไม่มีผู้หาความสุขได้ยากคนใด เป็นผู้มีเหตุผล" เป็น Conversion ของประโยค E (No P are S) จึงสอดคล้องกัน<br /><br />
+
+ข้อ 4. เปรียบเทียบกับ "ผู้ที่รู้จักใช้ประโยชน์ จากตรรกวิทยาทุกคน เป็นผู้มีเหตุผล" ประโยค A จะพบว่า "ผู้มีเหตุผลทุกคน เป็นผู้ที่รู้จักใช้ประโยชน์จากตรรกวิทยา" เป็น Converse ของประโยค A ซึ่งไม่สมเหตุผล จึงไม่สอดคล้องกัน <br /><br />
+
+คำตอบคือ ข้อ 3:  <br />
+
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q22', 'ตัวเลือก ข้อ 3', 'logic_ans_22'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_22" onclick="show_hide_eval('logic_expl_eval_q22', 'quiz_eval_22','eval_q22'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 22 -->
+
+<!-- ข้อ 23 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="eval_q23"><strong>ข้อ 23.</strong></div>
+<div class="question_content">จากการศึกษาพบว่า ถ้ารับประทานกรดไลโนเลอิค ร้อยละ 12 ของแคลอรี่ ที่ควรจะได้รับ จะทำให้ ระดับคอเลสเตอรอล ไตรกลีเซอไรด์ในเลือด ลดลง<br /><br />
+
+ข้อใด <u>สอดคล้อง</u> กับข้อความข้างต้น<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+<div class="choice_num_1Col"><label> <input name="logic_eval_q23" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ถ้าระดับ คอเลสเตอรอล และ ไตรกลีเซอไรด์ ในเลือด ของคนใดลดลง แสดงว่าคนนั้น รับประทาน กรดไลโนเลอิก ในขนาดร้อยละ 12 ของแคลอรี่ ที่ควรได้รับ</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+<div class="choice_num_1Col"><label><input name="logic_eval_q23" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ถ้าคนไม่รับประทาน กรดไลโนเลอิก ในขนาดร้อยละ 12 ของแคลอรี่ ที่ควรได้รับแล้ว ระดับ คอเลสเตอรอล และ ไตรกลีเซอไรด์ ในเลือด จะไม่ลดลง </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+<div class="choice_num_1Col"><label> <input name="logic_eval_q23" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ถ้าระดับคอเลสเตอรอล และ ไตรกลีเซอไรด์ในเลือด ของคนใด ไม่ลดลง แสดงว่าคนนั้น ไม่ได้ รับประทาน กรดไลโนเลอิก ในขนาดร้อยละ 12 ของ แคลอรี่ ที่ควรได้รับ </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+<div class="choice_num_1Col"><label><input name="logic_eval_q23" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ถ้าคนใด ไม่รับประทาน กรดไลโนเลอิก ในขนาดร้อยละ 12 ของแคลอรี่ ที่ควรได้รับ ระดับ คอเลสเตอรอล และ ไตรกลีเซอไรด์ ในเลือด ของคน นั้นจะเพิ่มขึ้น</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="logic_ans_23" class="show_answer" onclick="hide_div_spelling('logic_ans_23')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="logic_expl_eval_q23" class="explanation" style="display:none">
+ข้อ 1. สรุปไม่ได้ เป็นการยอมรับส่วนหลัง หรือ P &#x2190; Q; Q  สรุปไม่ได้ <br />
+ข้อ 2. สรุปไม่ได้ เป็นการปฏิเสธส่วนหน้า หรือ P &#x2190; Q; &#126;P สรุปไม่ได้ <br />
+ข้อ 3. สอดคล้องเป็นจริง หรือ P &#x2190; Q; &#126;Q สรุปว่า  &#126;P <br />
+ข้อ 4. สรุปไม่ได้ เป็นการปฏิเสธส่วนหน้า หรือ P &#x2190; Q; &#126;P สรุปไม่ได้ <br /><br />
+
+คำตอบคือ ข้อ 2:  <br /><br />
+
+
+</div>  <!-- logic_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns_eval('logic_eval_q23', 'ตัวเลือก ข้อ 2', 'logic_ans_23'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_eval('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_eval_23" onclick="show_hide_eval('logic_expl_eval_q23', 'quiz_eval_23','eval_q23'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 23 -->
+
+
+ </div> 
+ <!--  quiz_container  -->
+
+ </body>
+</html>

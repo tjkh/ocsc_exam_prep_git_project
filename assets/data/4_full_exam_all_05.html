@@ -1,0 +1,1789 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam_3_hrs.css">
+  <link rel="stylesheet" type="text/css" href="my_style.css">
+
+<style>
+/*  ส่งขึ้น ให้ body font ออก เพราะจะทำให้ตัวเล็กมาก
+body {
+  font-size: 16px;
+}
+*/
+.myCancelChar {  /*  สำหรับตัวอักษรทับกัน เช่น ให้ slash ทับตัวอักษร C เพื่อบอกว่า ไม่เอา */
+ display: inline-block;
+    width: 12px;
+    height: 17px;
+    position: relative;
+
+}
+span.upperChar {  /*  ตัวอักษรบน */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    text-align: center;
+	font-size: 20px;
+	color: red;
+	  top: 3px; /*   ทำให้อยู่ในแนวเดียวกันกับข้อความอื่นในบรรทัดนี้ */
+}
+span.lowerChar { /*  ตัวอักษรล่าง ที่ถูกทับ */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	 top: 3px; /*   ทำให้อยู่ในแนวเดียวกันกับข้อความอื่นในบรรทัดนี้ */
+}
+
+
+div.title {
+        margin-top: 0;
+        position: relative;
+    }
+    div.title:before {
+        content: "";
+        display: block;
+        border-top: solid 1px black;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        border-bottom: 1px solid #000;
+    }
+
+    div.title span {
+       background: #fff;
+       padding: 0 5px;
+       position: relative;
+       z-index: 5;
+       margin-left: 50px;
+    }
+
+/* สำหรับภาพ เต็มจอ ถ้าเป็น tablet เอาแค่ 80% */
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        @media (min-width: 600px) {  /* ถ้าหน้าจอ 600px ขึ้นไป */
+            /* Adjust styles for tablets */
+            .container {
+                max-width: 80%;
+            }
+        }
+table tr td.painted {
+  background: #E0ECF8;
+  border-style: hidden;
+  vertical-align: top;
+  /*  ส่งขึ้น ให้กำหนดเป็น 28px  */
+  font-size: 28px;
+  text-align: left;
+}
+
+</style>
+
+ </head>
+ <body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+			<!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+            <button id = "start" onclick="countDown(3,00,00)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+             <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+              <button id = "reset" onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+
+        </div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 3 ชั่วโมง
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">x</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<!--
+  <div id="showNotAvailable_notBuyVersion">
+
+      <img style="display: block; margin-top: 0;  margin-left: auto;  margin-right: auto;  width:100%; max-width:260px;" src="images/sorry.png">
+
+      มีเฉลยเฉพาะในรุ่นเต็ม นะครับ<br>
+	  <small>เพียง 199.- เท่านั้น</small>
+  </div>
+-->
+
+
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <!-- display: none ไว้ก่อน ถ้ายังไม่ซื้อค่อยแสดง ดีกว่าแสดงก่อนแล้วลบ -->
+    <!--  ถ้ายังไม่ซื้อ ไม่ตรวจ  -->
+    <br><br>
+    <div id="ifNotBuy" style=" display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+        <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span><br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+
+<div style="text-align: center">
+<strong>ความสามารถในการวิเคราะห์</strong> <br>(เกณฑ์ผ่าน 60%)<br><br>
+</div>
+<strong>ความสามารถในการคิดวิเคราะห์เชิงภาษา</strong><br><br>
+<u><strong>การเรียงประโยค</strong></u><br>
+<!-- ============ GENERAL ==========  -->
+<div id="quiz_general">
+
+<!-- 36-40 เรียงประโยค  -->
+<br><br>
+<strong>คำสั่ง: </strong>ข้อ 1-5 จงพิจารณาข้อความในตัวเลือก 1. ถึง 4. แล้วจัดเรียงลําดับให้ถูกต้อง<br>
+<div class="quiz">
+<br>ข้อ 1. ข้อความใดอยู่ลำดับที่ 3 
+<ol>
+<li> วิธีการรักษาโรคซึมเศร้าจะต้องรักษาด้วยการปรับเปลี่ยนอารมณ์ของผู้ป่วยให้ดีขึ้น  </li>
+<li> ถึงแม้ว่าวิธีการปรับเปลี่ยนอารมณ์นั้นจะเป็นการรักษาแบบทางเลือกก็ตาม  </li>
+<li> แต่ถือว่าเป็นการรักษาที่ได้ผลดีที่สุดในปัจจุบัน</li>
+<li> โรคซึมเศร้าเป็นการเจ็บป่วยทางความรู้สึก</li>
+</ol>
+</div>
+
+<label><input type="radio" name="q1" value="0">ข้อความที่ 1 </label><br>
+<label><input type="radio" name="q1" value="1">ข้อความที่ 2 </label><br>
+<label><input type="radio" name="q1" value="0">ข้อความที่ 3</label><br>
+<label><input type="radio" name="q1" value="0">ข้อความที่ 4</label>
+
+<div class="quiz">
+<br>ข้อ 2. ข้อความใดอยู่ลำดับที่ 4
+<ol>
+<li> ไม่ได้แปลว่าจะทําให้เราเกิดความเชี่ยวชาญได้ 
+<li> ประสบการณ์จากการทํางานอย่างต่อเนื่อง
+<li> และเราต้องสละเวลาเพื่อเรียนรู้ เราจะอยู่แต่ที่เดิม ๆ ไม่ได้ 
+<li> การที่เราจะเชี่ยวชาญในเรื่องใดเรื่องหนึ่งได้นั้น เราต้องมีแหล่งเรียนรู้ 
+</ol>
+</div>
+
+<label><input type="radio" name="q2" value="0">ข้อความที่ 1 </label><br>
+<label><input type="radio" name="q2" value="0">ข้อความที่ 2 </label><br>
+<label><input type="radio" name="q2" value="1">ข้อความที่ 3 </label><br>
+<label><input type="radio" name="q2" value="0">ข้อความที่ 4 </label>
+<div class="quiz">
+<br>ข้อ 3. ข้อความใดอยู่ลําดับที่ 2
+<ol>
+ <li> พวกเขากินแมลงเป็นอาหารหลัก 
+<li> อีกทั้งมนุษย์ในยุคแรก ๆ ยังสามารถย่อย และสามารถได้รับสารอาหารจากแมลงได้ 
+ <li> เนื่องจากแมลงมีคุณค่าทางอาหารสูง อุดมไปด้วยวิตามิน และแร่ธาตุ 
+<li> มนุษย์ยุคแรก ๆ ยังอาศัยอยู่บนต้นไม้ในป่าแถบร้อนชื้น 
+</ol>
+
+</div>
+
+<label><input type="radio" name="q3" value="1">ข้อความที่ 1 </label><br>
+<label><input type="radio" name="q3" value="0">ข้อความที่ 2 </label><br>
+<label><input type="radio" name="q3" value="0">ข้อความที่ 3 </label><br>
+<label><input type="radio" name="q3" value="0">ข้อความที่ 4 </label><br>
+
+
+<div class="quiz">
+<br>ข้อ 4. ข้อความใดอยู่ลำดับที่ 2
+<ol>
+ <li> รวมทั้งมีลมมรสุมตะวันตกเฉียงใต้พัดผ่าน
+<li> จึงเหมาะสมที่จะทำการเกษตรกรรม
+ <li> ประเทศไทยตั้งอยู่ใกล้เส้นศูนยส์สูตร
+<li> จึงมีแสงแดดจัดตลอดปี
+<li> ทำให้มีฝนตกชุกและมีภูมิอากาศร้อนชื้น
+</ol>
+</div>
+
+<label><input type="radio" name="q4" value="0">ข้อความที่ 1 </label><br>
+<label><input type="radio" name="q4" value="0">ข้อความที่ 2 </label><br>
+<label><input type="radio" name="q4" value="0">ข้อความที่ 3 </label><br>
+<label><input type="radio" name="q4" value="1">ข้อความที่ 4 </label>
+<div class="quiz">
+<br>ข้อ 5. ข้อความใดอยู่ลําดับที่ 3
+<ol>
+<li> เช่น เนื้องอก หรือเซลล์มะเร็ง
+<li> ทั้งจากการติดเชื้อผ่านผู้รุกรานภายนอก ได้แก่ แบคทีเรีย ไวรัส เชื้อรา
+<li> หรือสารพิษจากจุลินทรีย์ หรือจากความผิดปกติที่เกิดขึ้นภายในร่างกาย
+<li> ระบบภูมิคุ้มกัน ช่วยปกป้องร่างกายของเราจาก “อันตราย”
+
+
+</ol>
+</div>
+
+<label><input type="radio" name="q5" value="0">ข้อความที่ 1 </label><br>
+<label><input type="radio" name="q5" value="0">ข้อความที่ 2 </label><br>
+<label><input type="radio" name="q5" value="1">ข้อความที่ 3   </label><br>
+<label><input type="radio" name="q5" value="0">ข้อความที่ 4</label><br><br>
+<br><br>
+
+<u><strong>ความเข้าใจภาษา</strong></u><br><br>
+
+<!-- 41-50 ความเข้าใจภาษา  -->
+<strong>คำสั่ง:</strong> ข้อ 6 - 15 อ่านข้อความแล้วตอบคำถาม<br>
+
+<div class="quiz">
+<br>ข้อ 6. <br>
+คนสมัยนี้สร้างภาพเก่ง ชนิดหาตัวจับยาก จะกะเทาะเปลือกให้เห็นตัวตนแท้จริง ต้องอาศัยเทคนิคการสังเกตถี่ถ้วน การล่วงรู้จิตใจคนอื่นว่า เขาคิดอะไรด้วยการอ่านภาษากาย และท่าทางอย่างมีชั้นเชิง ช่วยให้เราอ่านคนออก ดูคนเป็น ไม่ตกหลุมพรางพวกลวงโลกง่าย ๆ
+
+<br><br>
+สาระสำคัญของข้อความนี้ คืออะไร
+</div>
+ <label><input type="radio" name="q6" value="0"> ภาษาพูด และอากัปกิริยา ทำให้มองเห็นเข้าไปถึงจิตใจของคน</label><br>
+<label><input type="radio" name="q6" value="0"> การสร้างภาพของตนให้แนบเนียน และดูดีเป็นเรื่องปกติในปัจจุบัน</label><br>
+<label><input type="radio" name="q6" value="0"> การมองคนให้ทะลุร่างกายภายนอกไปถึงจิตใจนั้นจำเป็นแต่ทำได้ยาก</label><br>
+<label><input type="radio" name="q6" value="1"> การใช้ความพินิจพิเคราะห์จะสามารถเข้าถึงความคิดของบุคคลอื่นและช่วยให้เอาตัวรอดได้  </label><br>
+
+
+
+<div class="quiz">
+<br>ข้อ 7. <br>
+การขับเคลื่อนด้วยเทคโนโลยี AI ในอุตสาหกรรมต่างๆ ไม่ว่าจะเป็นเรื่องการตลาด การผลิต หรือ แม้กระทั่งการดูแลสุขภาพ อาจทำให้มนุษย์ต้องสูญเสียงานมากกว่า 85 ล้านตำแหน่ง โดยเฉพาะในกลุ่มธุรกิจขนาดกลางและขนาดใหญ่ทั่วโลก ช่วงระหว่างปี 2020-2025 ทั้งนี้เพราะตำแหน่งงานที่มีอัตราค่าจ้างต่ำ ซึ่งแต่เดิมมักไม่ดึงดูดผู้คนอยู่แล้ว จะถูกแทนที่ด้วยเทคโนโลยี AI จนกระทั่งทำให้ตำแหน่งงานเหล่านั้น มีความจำเป็นที่จะต้องใช้มนุษย์น้อยลง
+<br><br>
+  ข้อใดกล่าวได้สอดคล้องกับข้อความข้างต้น มากที่สุด</div>
+
+<label><input type="radio" name="q7" value="0"> เทคโนโลยี AI ช่วยพัฒนากระบวนการผลิต ซึ่งจะช่วยเพิ่มผลผลิตทางการอุตสาหกรรม </label><br>
+<label><input type="radio" name="q7" value="0"> เทคโนโลยีเป็นเสมือนดาบสองคม ซึ่งมีทั้งข้อดีและข้อเสีย </label><br>
+<label><input type="radio" name="q7" value="1"> เทคโนโลยี AI อาจจะเข้ามาทำงานแทนที่มนุษย์ โดยเฉพาะในงานที่มีค่าแรงต่ำ </label><br>
+<label><input type="radio" name="q7" value="0"> ตำแหน่งงานต่าง ๆ ในอุตสาหกรรม ด้านการตลาด การผลิต หรือ แม้กระทั่งการดูแลสุขภาพ จะถูกแทนที่ด้วยเทคโนโลยี AI</label>
+
+<div class="quiz">
+<br>ข้อ 8. <br>
+คนส่วนใหญ่ไม่ค่อยรู้ตัว ยังคงอยากได้อะไรที่มากขึ้น ๆ ไม่ว่าจะเป็นเงินทอง เกียรติยศชื่อเสียงหรือความรัก และก็มักจะไม่ได้ดังใจนึก ความทุกข์ก็ยิ่งมากขึ้นตามวัยที่มากขึ้นด้วย
+<br><br>
+ข้อใดสรุปได้สอดคล้องกับข้อความมากที่สุด
+<br>
+</div>
+
+<label><input type="radio" name="q8" value="0"> ความอยากของมนุษย์เพิ่มตามอายุ</label><br>
+<label><input type="radio" name="q8" value="0"> คนเราเมื่ออายุมากขึ้น ความต้องการจะเพิ่มมากขึ้น</label><br>
+<label><input type="radio" name="q8" value="0"> ถ้ามนุษย์อยากได้ไม่มีที่สิ้นสุด ก็จะยิ่งมีแต่ความทุกข์ </label><br>
+<label><input type="radio" name="q8" value="1"> ความทุกข์ของมนุษย์เกิดจากความต้องการในทรัพย์สิน เงินทอง  </label>
+
+
+<div class="quiz">
+<br>ข้อ 9. <br>
+คลองรังสิตเป็นคลองที่ขุดขึ้นในสมัยพระบาทสมเด็จพระจุลจอมกล้าเจ้าอยู่หัว รัชกาลที่ ๕ มีวัตถุประสงค์แน่ชัดว่า เพื่อใช้เป็นคลองชลประทานในการเกษตรโดยเฉพาะนาข้าว แต่ปัจจุบัน ดูเหมือนว่าคลองรังสิตจะไม่ได้ทำหน้าที่เดิมเต็มที่นัก และริมคลองสองฝั่ง โดยเฉพาะในช่วงที่ยังไม่ไกลกิโลเมตร จากถนนพหลโยธินมากเท่าไร ก็มองหาท้องนาไม่ค่อยพบแล้ว
+<br><br>
+ข้อใดตีความได้จากข้อความข้างต้น มากที่สุด</div>
+
+<label><input type="radio" name="q9" value="0"> คลองรังสิตคู่ขนานไปกับถนนพหลโยธิน</label><br>
+<label><input type="radio" name="q9" value="0"> จุดประสงค์ของคลองรังสิตยังคงเหมือนเดิม</label><br>
+<label><input type="radio" name="q9" value="1">  ในสมัยรัชกาลที่ 5 ริมสองฝั่งคลองรังสิตคือนาข้าว</label><br>
+<label><input type="radio" name="q9" value="0"> ผู้คนตั้งบ้านเรือนริมสองฝั่งคลองรังสิตนานมาแล้ว</label>
+  
+<div class="quiz">
+<br>ข้อ 10. <br>
+การฟังเป็นกิจกรรมที่มนุษย์ทำ รองลงมาจากการหายใจเท่านั้น การฟังจึงมีความสำคัญต่อความสำเร็จ ทั้งในชีวิตส่วนตัว อาชีพ สังคมและครอบครัว หากผู้นั้นได้เรียนรู้ถึงการฟัง และนำไปปฏิบัติได้ อย่างมีประสิทธิภาพ
+<br><br>
+ข้อใดคือความ ความคิดสําคัญของเรื่องนี้
+</div>
+
+<label><input type="radio" name="q10" value="0"> ทุกคนสามารถ เรียนรู้ถึงการฟัง และนำไปปฏิบัติได้ อย่างมีประสิทธิภาพ</label><br>
+<label><input type="radio" name="q10" value="0"> การฟังเป็นกิจกรรมที่มนุษย์ต้องกระทำ </label><br>
+<label><input type="radio" name="q10" value="1"> การฟังมีความสำคัญต่อความสำเร็จในชีวิต </label><br>
+<label><input type="radio" name="q10" value="0"> การฟังเป็นกิจกรรมของมนุษย์ ที่ทำรองลงมาจากการหายใจเท่านั้น</label>
+
+ 
+<div class="quiz">
+<br>ข้อ 11.<br>
+ในปัจจุบันคงปฏิเสธไม่ได้ว่า สัตว์เลี้ยงได้เข้ามามีส่วนสําคัญกับชีวิตของคนเรามากขึ้น เนื่องจากว่า สภาพสังคมของเรานั้นเปลี่ยนแปลงไป จากครอบครัวใหญ่ ที่มีสมาชิกหลายคน มาเป็นครอบครัวเดี่ยว จากสังคมชนบท มาเป็นสังคมเมือง เมื่อสภาพสังคมเปลี่ยนไปจากเดิม จึงทําให้มีผลต่อสภาพจิตใจของคน เกิดความเหงา ความเครียดขึ้น แต่สิ่งหนึ่งที่จะเข้ามาทดแทน และดูแลจิตใจได้ดีที่สุด ก็น่าจะเป็นสัตว์เลี้ยงต่าง ๆ นั่นเอง
+
+
+ <br><br>
+ใจความสำคัญของข้อความที่อ่าน คือข้อใด<br></div>
+
+<label><input type="radio" name="q11" value="0"> สภาพสังคมของเรานั้นเปลี่ยนแปลงไป </label><br>
+<label><input type="radio" name="q11" value="1"> สัตว์เลี้ยงได้เข้ามามีส่วนสําคัญกับชีวิตของคนเรามากขึ้น </label><br>
+<label><input type="radio" name="q11" value="0"> สิ่งที่จะดูแลจิตใจได้ดีที่สุด อย่างหนึ่ง ก็คือสัตว์เลี้ยง</label><br>
+<label><input type="radio" name="q11" value="0"> สภาพสังคมเปลี่ยนไปจากเดิม ทําให้มีผลต่อสภาพจิตใจของคน</label>
+
+
+<div class="quiz">
+<br>ข้อ 12. <br>
+ในชีวิตประจําวัน เราอยากจะเปรียบเทียบใครกับใครก็เปรียบได้ แต่คนเรานั้น ควรพอใจในการกระทําดีที่สุดของตนกับบริบทที่ดีรอบตน เท่านี้ก็มีความสุขแล้ว ไม่ต้องเกรงปมด้อย หรือกังวลใด ๆ <br><br>
+
+ข้อความในข้อใด สอดคล้องกับข้อความข้างต้น มากที่สุด</div>
+<br>
+<label><input type="radio" name="q12" value="0"> การเปรียบเทียบ ทำให้เกิดปมด้อย</label><br>
+<label><input type="radio" name="q12" value="1"> เมื่อทำดีที่สุดแล้ว ก็ควรพอใจในสิ่งที่กระทำ </label><br>
+<label><input type="radio" name="q12" value="0"> ความกังวลใจ เป็นผลสืบเนื่องมาจากการกระทำของตน กับบริบทที่อยู่รอบ ๆ</label><br>
+<label><input type="radio" name="q12" value="0"> ความสุขเกิดจากการการกระทำที่ดีกว่า</label>
+
+
+<div class="quiz">
+<br>ข้อ 13. <br>
+ ปัญหาคือสิ่งที่คนเราหลีกเลี่ยงไม่ได้ มีชีวิตก็ย่อมต้องเผชิญกับปัญหา ปัญหาคือสิ่งที่ทำให้เราเข้มแข็งมากขึ้น ถ้าเราไม่เจอกับปัญหาเลย ก็เป็นไปได้ว่าเราจะต้องอยู่ที่เดิม ไม่ก้าวไปไหน เมื่อเจอกับปัญหาขอให้เข้าใจว่าเป็นโอกาสที่เราจะได้เปลี่ยนแปลง<br><br>
+ 
+ข้อใด คือใจความสำคัญของข้อความข้างต้น </div>
+
+<label><input type="radio" name="q13" value="0"> ปัญหาคือสิ่งที่คนเราหลีกเลี่ยงไม่ได้</label><br>
+<label><input type="radio" name="q13" value="0"> มีชีวิตก็ย่อมต้องเผชิญกับปัญหา</label><br>
+<label><input type="radio" name="q13" value="1"> ปัญหาคือสิ่งที่ทำให้เราเข้มแข็งมากขึ้น </label><br>
+<label><input type="radio" name="q13" value="0"> ปัญหาคือโอกาสที่เราจะได้เปลี่ยนแปลง </label>
+<div class="quiz">
+<br>ข้อ 14. <br>
+เมื่อมองไปที่สาเหตุจริง ๆ จะพบว่า แรงจูงใจการนำเข้าหมูเถื่อนจำนวนมากเกิดจาก ต้นทุนการเลี้ยงหมูไทยสูงกว่า หมูเถื่อนจากต่างประเทศ โดยเฉพาะหมูจากโซนยุโรปอย่าง เยอรมนี อิตาลี เบลเยียม และเนเธอร์แลนด์ ทั้งที่ประเทศเหล่านี้มีค่าครองชีพที่สูงกว่าไทย แต่สามารถทำต้นทุนการเลี้ยงหมูให้ต่ำกว่าไทยได้ <br><br>
+
+สาระของข้อความนี้ คือข้อใด
+</div>
+<label><input type="radio" name="q14" value="1"> เหตุผลเบื้องหลังการนำเข้าหมูเถื่อน </label><br>
+<label><input type="radio" name="q14" value="0"> ปัญหาการลักลอบนำเข้าหมูเถื่อน</label><br>
+<label><input type="radio" name="q14" value="0"> การเลี้ยงหมูในโซนยุโรป มีค่าใช้จ่ายถูกกว่าของไทย</label><br>
+<label><input type="radio" name="q14" value="0"> ทำไมหมูเถื่อนจึงมีราคาถูกกว่าหมูเลี้ยงภายในประเทศ</label><br>
+
+<div class="quiz">
+<br>ข้อ 15. <br>
+การกําหนดอัตราเงินเดือนของข้าราชการนั้น นอกจากจะต้องให้มีรายได้เพียงพอกับการยังชีพแล้วยังต้อง คํานึงถึงศักดิ์ศรี และสถานภาพในสังคม ตลอดจนอุดมการณ์ และความรับผิดชอบในการใช้ชีวิต ในการปฏิบัติราชการให้มีประสิทธิภาพอีกด้วย
+
+<br><br>
+สาระสําคัญของข้อความนี้คือข้อใด?</div>
+<label><input type="radio" name="q15" value="0"> เงินเดือนข้าราชการกับสถานะทางสังคม</label><br>
+<label><input type="radio" name="q15" value="0"> อัตราเงินเดือนที่เหมาะสมในการปฏิบัติราชการให้มีประสิทธิภาพ</label><br>
+<label><input type="radio" name="q15" value="0"> ข้อจํากัดในการกําหนดอัตราเงินเดือนของข้าราชการ </label><br>
+<label><input type="radio" name="q15" value="1"> ข้อพิจารณาในการกําหนดอัตราเงินเดือนข้าราชการ </label>
+
+
+<br><br> 
+<strong>ความสามารถในการคิดวิเคราะห์เชิงนามธรรม</strong><br><br>
+
+<u><strong>อุปมาอุปไมย</strong></u><br>
+<!-- 16-20 อุปมาอุปไมย  -->
+
+<div class="quiz">
+<br>ข้อ 16. &ensp;
+มะกรูด : ผม :: &ensp; ? &ensp; : &ensp;? <br>
+</div>
+
+<label><input type="radio" name="q16" value="0"> น้ำมัน : มะพร้าว</label><br>
+<label><input type="radio" name="q16" value="0"> มะนาว : น้ำผึ้ง</label><br>
+<label><input type="radio" name="q16" value="1"> เกลือ : ปลา  </label><br>
+<label><input type="radio" name="q16" value="0"> มะยม : น้ำตาล</label>
+
+<div class="quiz">
+<br>ข้อ 17. &ensp;
+ขาล : เสือ :: &ensp; วันจันทร์ &ensp; : &ensp;? <br>
+</div>
+
+<label><input type="radio" name="q17" value="1"> สีเหลือง </label><br>
+<label><input type="radio" name="q17" value="0"> ร้อนแรง</label><br>
+<label><input type="radio" name="q17" value="0"> พระอาทิตย์</label><br>
+<label><input type="radio" name="q17" value="0"> วันหยุด</label><br>
+
+<div class="quiz">
+<br>ข้อ 18. &ensp;
+สายโทรศัพท์: เสาอากาศ :: &ensp; ? &ensp; : &ensp;? <br>
+</div>
+
+<label><input type="radio" name="q18" value="0"> ถนน : ทางม้าลาย</label><br>
+<label><input type="radio" name="q18" value="1"> สะพานลอย : เสาไฟฟ้า </label><br>
+<label><input type="radio" name="q18" value="0"> เสาธง : สายไฟฟ้า</label><br>
+<label><input type="radio" name="q18" value="0"> ต้นสัก : สายเคเบิล</label>
+<div class="quiz">
+<br>ข้อ 19. &ensp;
+แมงป่อง : ม้า :: &ensp; ? &ensp; : &ensp;? <br>
+</div>
+
+<label><input type="radio" name="q19" value="0"> ม้า : ลา</label><br>
+<label><input type="radio" name="q19" value="0"> แมว : ตะขาบ</label><br>
+<label><input type="radio" name="q19" value="1"> มดตะนอย  : แมว</label><br>
+<label><input type="radio" name="q19" value="0">  ผึ้ง : ผีเสื้อ</label>
+<div class="quiz">
+<br>ข้อ 20. &ensp;
+ครู : นักเรียน :: &ensp; ? &ensp; : &ensp;? <br>
+</div>
+
+
+<label><input type="radio" name="q20" value="0"> ตํารวจ : อัยการ</label><br>
+<label><input type="radio" name="q20" value="0"> นักร้อง : นักดนตรี </label><br>
+<label><input type="radio" name="q20" value="1"> หมอ : คนไข้  </label><br>
+<label><input type="radio" name="q20" value="0"> พระ : ชี </label>
+<br><br>
+
+<u><strong>การสรุปความจากภาษา</strong></u><br><br>
+<u><strong>คำสั่ง</strong></u>  ในแต่ละข้อจะประกอบด้วยเงื่อนไขหรือข้อมูลที่กำหนดให้ และข้อสรุปเป็นคู่ ๆ จากเงื่อนไขนั้น ให้ศึกษาเงื่อนไขที่กำหนดให้ก่อน แล้วจึงอาศัยความรู้ที่ได้จากเงื่อนไขดังกล่าวมาใช้พิจารณา ข้อสรุปทั้งสองของแต่ละข้อ แล้วทำตอบลงในกระดาษคำตอบ โดยยึดหลักในการทำตอบดังนี้ <br><br>
+
+  <div style="width: 100%;">
+
+<!-- คำแนะนำ  วิธีการตอบ สรุปความ-->
+<div class="container">
+<img src="images/symbol_con_how_to.png">
+</div>
+
+</div>
+<!-- 31-35 เงื่อนไขภาษา  -->
+<br><br>
+เงื่อนไข สำหรับข้อ 21-25<br>
+<div class="qstn-div">
+<br>
+<!-- https://www.youtube.com/watch?v=VttBX3TDgXw&t=376s <br>
+ปี 2566 รอบ paper&pencil 2 ก.ค. 66  -->
+
+เงื่อนไข<br><br>
+ฝ่ายการตลาดของบริษัทแห่งหนึ่งมีพนักงาน 5 คน ได้แก่ ชุติมา ศรัทธา แสงดาว สมบัติ และยุพิน ทั้ง 5 คนทํางานวันจันทร์ถึงวันศุกร์ โดยมีรายละเอียดสถานที่และวันทํางาน ดังนี้<br>
+(1) ทุกคนมีวันที่ทํางานที่บ้าน คนละ 2 วัน/สัปดาห์ <br>
+(2) มี 3 คน มาทํางานที่บริษัทในวันอังคาร<br>
+(3) สมบัติกับแสงดาวทํางานที่บ้านวันเดียวกัน แต่ไม่ใช่วันจันทร์กับวันศุกร์ <br>
+(4) ทุกวันพฤหัสบดีไม่มีคนทํางานที่บ้าน<br>
+(5) ชุติมาทํางานที่บ้านวันจันทร์ และวันศุกร์<br>
+(6) วันศุกร์มีคนอยู่ทํางานที่บ้าน 3 คน<br>
+(7) วันจันทร์มีคนมาทำงานที่บริษัท 3 คน<br>
+<small>(ข้อสอบเสมือนจริง ก.พ. รอบ paper&pencil 2 ก.ค. 2566)</small><br><br>
+
+จาก (3) แสดงว่า วันจันทร์และวันศุกร์ สมบัติกับแสงดาว ทำงานที่ Office<br>
+ <table>
+<tr><th>คน/วัน</th><th>จ</th><th>อ </th><th>พ</th><th>พฤ </th><th>ศ</th></tr>
+<tr><td>ชุติมา</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>ศรัทธา</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>ยุพิน</td><td>&nbsp;<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>สมบัติ</td><td>O</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td></tr>
+<tr><td>แสงดาว</td><td>O</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td></tr>
+</table><br><br>
+จาก (4) แสดงว่าวันพฤหัสบดี ทุกคนมาทำงานที่ Office<br>
+ <table>
+<tr><th>คน/วัน</th><th>จ</th><th>อ </th><th>พ</th><th>พฤ </th><th>ศ</th></tr>
+<tr><td>ชุติมา</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>&nbsp;</td></tr>
+<tr><td>ศรัทธา</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>&nbsp;</td></tr>
+<tr><td>ยุพิน</td><td>&nbsp;<td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>&nbsp;</td></tr>
+<tr><td>สมบัติ</td><td>O</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>O</td></tr>
+<tr><td>แสงดาว</td><td>O</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>O</td></tr>
+</table><br>
+
+จาก (5) ชุติมา ทำงานที่บ้าน วันจันทร์และวันศุกร์ ดังนั้น วันที่เหลือจึงต้องทำงานที่ Office เพราะ จาก (1) เราทราบว่า ทุกคนทำงานที่บ้านได้แค่ 2 วัน<br>
+ <table>
+<tr><th>คน/วัน</th><th>จ</th><th>อ </th><th>พ</th><th>พฤ </th><th>ศ</th></tr>
+<tr><td>ชุติมา</td><td>H</td><td>O</td><td>O</td><td>O</td><td>H</td></tr>
+<tr><td>ศรัทธา</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>&nbsp;</td></tr>
+<tr><td>ยุพิน</td><td>&nbsp;<td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>&nbsp;</td></tr>
+<tr><td>สมบัติ</td><td>O</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>O</td></tr>
+<tr><td>แสงดาว</td><td>O</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>O</td></tr>
+</table><br><br>
+
+จาก (6) จะเห็นว่า ช่องว่างที่เหลือในวันศุกร์ คือคนที่ทำงานที่บ้าน เพราะเหลืออยู่ 2 ช่องพอดี<br>
+
+ <table>
+<tr><th>คน/วัน</th><th>จ</th><th>อ </th><th>พ</th><th>พฤ </th><th>ศ</th></tr>
+<tr><td>ชุติมา</td><td>H</td><td>O</td><td>O</td><td>O</td><td>H</td></tr>
+<tr><td>ศรัทธา</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>H</td></tr>
+<tr><td>ยุพิน</td><td>&nbsp;<td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>H</td></tr>
+<tr><td>สมบัติ</td><td>O</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>O</td></tr>
+<tr><td>แสงดาว</td><td>O</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>O</td></tr>
+</table><br><br>
+
+ดูการทำงานของ สมบัติกับแสงดาว จะเห็นว่า เขาทำงานที่ Office แล้ว 3 วัน ที่เหลือจึงเป็นการทำงานที่บ้าน<br>
+ <table>
+<tr><th>คน/วัน</th><th>จ</th><th>อ </th><th>พ</th><th>พฤ </th><th>ศ</th></tr>
+<tr><td>ชุติมา</td><td>H</td><td>O</td><td>O</td><td>O</td><td>H</td></tr>
+<tr><td>ศรัทธา</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>H</td></tr>
+<tr><td>ยุพิน</td><td>&nbsp;<td>&nbsp;</td><td>&nbsp;</td><td>O</td><td>H</td></tr>
+<tr><td>สมบัติ</td><td>O</td><td>H</td><td>H</td><td>O</td><td>O</td></tr>
+<tr><td>แสงดาว</td><td>O</td><td>H</td><td>H</td><td>O</td><td>O</td></tr>
+</table><br><br>
+
+จาก (7) วันจันทร์มีคนมาทำงานที่บริษัท 3 คน จากข้อมูลนี้ เรายังสรุปไม่ได้ว่า ระหว่าง ศรัทธากับยุพิน ต้องมีคนใดคนหนึ่งทำงานที่บริษัท เพราะเรารู้แล้วว่ามีคนทำงานที่บริษัทแล้ว 2 คน<br>
+ถ้าศรัทธาทำงานที่บริษัท ยุพินก็ต้องทำงานที่บ้าน เพราะมิฉะนั้น จะทำให้มีคนทำงานวันจันทร์มากกว่า 3 คน<br><br>
+ถ้าศรัทธาทำงานที่บริษัทวันจันทร์ วันอังคารกับวันพุธ ต้องมีสลับการทำงานที่บ้านกับที่ Office จะได้เป็นไปตามเงื่อนไขที่ว่า ทำงานที่บ้าน 2 วัน<br>
+แต่ถ้าศรัทธาทำงานที่บ้านวันจันทร์ วันอังคารกับวันพุธ ก็ต้องไปทำงานที่บริษัท เพราะหมดโควต้าทำงานที่บ้าน 2 วันแล้ว<br><br>
+
+ยุพินก็เช่นเดียวกัน ก็ต้องมีการสลับเหมือนกัน<br>
+แต่ทั้งหมดนี้ เป็นข้อมูลที่ยังไม่แน่นอน ของทั้งศรัทธาและยุพิน<br>
+สรุปเป็นตาราง ได้ ดังนี้<br>
+
+<table border=1>
+<tr><th>คน/วัน</th><th>จ</th><th>อ </th><th>พ</th><th>พฤ </th><th>ศ</th></tr>
+<tr><td>ชุติมา</td><td>H</td><td>O</td><td>O</td><td>O</td><td>H</td></tr>
+<tr><td>ศรัทธา</td><td><span class="frac"><span style="color:blue;">O?</span><span class="symbol">/</span><span class="bottom"><span style="color:red;">H?</span></span></span></td><td>O</td><td><span class="frac"><span style="color:blue;">H?</span><span class="symbol">/</span><span class="bottom"><span style="color:red;">O?</span></span></span></td><td>O</td><td>H</td></tr>
+<tr><td>ยุพิน</td><td><span class="frac"><span style="color:blue;">H?</span><span class="symbol">/</span><span class="bottom"><span style="color:red;">O?</span></span></span><td>O</td><td><span class="frac"><span style="color:blue;">O?</span><span class="symbol">/</span><span class="bottom"><span style="color:red;">H?</span></span></span></td><td>O</td><td>H</td></tr>
+<tr><td>สมบัติ</td><td>O</td><td>H</td><td>H</td><td>O</td><td>O</td></tr>
+<tr><td>แสงดาว</td><td>O</td><td>H</td><td>H</td><td>O</td><td>O</td></tr>
+</table>
+
+</div>  <!-- จบกรอบเงื่อนไข   -->
+<br><br>
+<div class="qstn-div"> <!-- เริ่มกรอบคำถามเงื่อนไข   -->
+<div class="quiz">
+<br>ข้อ 21. <br>
+<strong>ข้อสรุปที่ 1:</strong> วันพุธสมบัติทํางานที่บริษัท <strong>(เท็จ)</strong><br>
+<strong>ข้อสรุปที่ 2:</strong> วันอังคารมีคนทํางานที่บ้าน 3 คน <strong>(เท็จ)</strong><br><br>
+</div>
+
+<label><input type="radio" name="q21" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q21" value="1">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+<label><input type="radio" name="q21" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด </label><br>
+<label><input type="radio" name="q21" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label><br>
+
+<div class="quiz">
+<br>ข้อ 22. <br>
+
+<strong>ข้อสรุปที่ 1</strong> ชุติมาทํางานที่บ้านวันเดียวกับยุพิน <strong>(ไม่แน่ชัด)</strong><br>เพราะ วันจันทร์ ยุพินอาจจะทำงานที่บ้าน หรือไปบริษัทก็ได้<br>
+<strong>ข้อสรุปที่ 2</strong> ศรัทธาทํางานที่บ้านวันเดียวกับที่สมบัติทํางานที่บ้าน อย่างน้อย 1 วัน <strong>(ไม่แน่ชัด)</strong><br>เพราะวันพุธ ไม่แน่ว่าศรัทธาจะทำงานที่บ้าน หรือไปทำงานที่บริษัท<br><br>
+</div>
+
+<label><input type="radio" name="q22" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+<label><input type="radio" name="q22" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+<label><input type="radio" name="q22" value="1">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด </label><br>
+<label><input type="radio" name="q22" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label><br>
+
+<div class="quiz">
+<br>ข้อ 23. <br>
+<strong>ข้อสรุปที่ 1:</strong> วันจันทร์มีคนทํางานที่บ้าน 2 คน <strong>(ไม่แน่ชัด)</strong><br>
+<strong>ข้อสรุปที่ 2:</strong> ถ้า ยุพิน ทํางานที่บ้านในวันจันทร์ ศรัทธาจะทำงานที่ Office ในวันพุธ <strong>(เท็จ)</strong><br>เพราะ ถ้ายุพิน ทํางานที่บ้านในวันจันทร์ ศรัทธา จะทำงานที่ Office ในวันจันทร์ ซึ่งจะส่งผลให้ศรัทธาทำงานที่บ้าน ในวันพุธ (ดูที่ตัวสีน้ำเงิน)<br><br>
+
+</div>
+
+<label><input type="radio" name="q23" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+<label><input type="radio" name="q23" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+<label><input type="radio" name="q23" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด </label><br>
+<label><input type="radio" name="q23" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label><br>
+
+<div class="quiz">
+<br>ข้อ 24. <br>
+
+<strong>ข้อสรุปที่ 1</strong> ถ้ายุพินมาทํางานที่บริษัทในวันศุกร์ ชุติมาก็จะมาทํางานที่บริษัทด้วย  <strong>(จริง)</strong></strong><br>
+<strong>ข้อสรุปที่ 2</strong> ยุพินทำงานที่บ้านวันอังคารและสมบัติก็ทำงานที่บ้านในวันอังคาร  <strong>(เท็จ)</strong><br><br>
+
+</div>
+
+<label><input type="radio" name="q24" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q24" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+<label><input type="radio" name="q24" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+<label><input type="radio" name="q24" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+<div class="quiz">
+<br>ข้อ 25. <br>
+<strong>ข้อสรุปที่ 1:</strong> ศรัทธาทำงานที่ Office วันจันทร์ หรือ ชุติมา ทำงานที่บ้านในวันศุกร์ <strong>(จริง)</strong><br>เชื่อมด้วย "หรือ" ถ้ามีตัวใดตัวหนึ่งเป็นจริง ก็ถือว่า เป็นจริง
+<br>
+<strong>ข้อสรุปที่ 2:</strong> แสงดาวจะเจอสมบัติทุกวันที่มาทํางานที่บริษัท <strong>(จริง)</strong><br> เพราะทั้งสองคนมาทำงานพร้อมกัน ตามเงื่อนไขที่ 3<br><br>
+
+
+</div>
+
+<label><input type="radio" name="q25" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+<label><input type="radio" name="q25" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+<label><input type="radio" name="q25" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+<label><input type="radio" name="q25" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label><br>
+
+</div> <!-- จบกรอบคำถามเงื่อนไข   -->
+<br>
+<!-- การสรุปความจากสัญลักษณ์ -->
+
+  <div style="width: 100%;">
+
+<!-- คำแนะนำ  วิธีการตอบ สรุปความ-->
+<div class = "container">
+ <img src="images/symbol_con_instruction.png" alt="คำสั่ง">
+</div>
+
+</div>
+<div style="width: 100%;">
+<!-- คำแนะนำ  วิธีการตอบ สรุปความ-->
+<div class="container">
+<img src="images/symbol_con_how_to.png">
+</div>
+
+</div>
+<!--  26-35 เงื่อนไขสัญญลักษณ์  -->
+
+<!--  ข้อสอบ กพ 2556 20 พ.ย. 2565 ข้อ 34-38   -->
+
+<div class="quiz">
+<br>ข้อ 26. <br><br>
+<u>เงื่อนไข</u><br>
+3P = (Q + R) &lt; (M + N) &lt; X<br>
+<span class="frac">W<span class="symbol">/</span><span class="bottom">7</span></span>  ≥ <span class="frac">X<span class="symbol">/</span><span class="bottom">6</span></span> &gt; <span class="frac">4Y<span class="symbol">/</span><span class="bottom">5</span></span> &gt; <span class="frac">2Z<span class="symbol">/</span><span class="bottom">3</span></span><br>
+(ทุกตัวอักษรมีค่ามากกว่า 0)<br><br>
+</div>
+<u>ข้อสรุปที่ 1:</u> 3Z &gt; 2(Q + R) (ไม่แน่ชัด)<br>
+<u>ข้อสรุปที่ 2:</u> X &gt; 3Z (จริง)<br><br>
+
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+<label><input type="radio" name="q26" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+
+
+<div class="quiz">
+<br>ข้อ 27. <br><br>
+<u>เงื่อนไข</u><br>
+3P = (Q + R) &lt; (M + N) &lt; X<br>
+<span class="frac">W<span class="symbol">/</span><span class="bottom">7</span></span>  ≥ <span class="frac">X<span class="symbol">/</span><span class="bottom">6</span></span> &gt; <span class="frac">4Y<span class="symbol">/</span><span class="bottom">5</span></span> &gt; <span class="frac">2Z<span class="symbol">/</span><span class="bottom">3</span></span><br>
+(ทุกตัวอักษรมีค่ามากกว่า 0)<br><br>
+</div>
+<u>ข้อสรุปที่ 1:</u> 4Y &gt; 3P (ไม่แน่ชัด)<br>
+<u>ข้อสรุปที่ 2:</u> 2Q &lt; 3N (ไม่แน่ชัด)<br><br>
+
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+<label><input type="radio" name="q27" value="1">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด </label><br>
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label>
+
+<div class="quiz">
+<br>ข้อ 28. <br><br>
+<u>เงื่อนไข</u><br>
+3P = (Q + R) &lt; (M + N) &lt; X<br>
+<span class="frac">W<span class="symbol">/</span><span class="bottom">7</span></span>  ≥ <span class="frac">X<span class="symbol">/</span><span class="bottom">6</span></span> &gt; <span class="frac">4Y<span class="symbol">/</span><span class="bottom">5</span></span> &gt; <span class="frac">2Z<span class="symbol">/</span><span class="bottom">3</span></span><br>
+(ทุกตัวอักษรมีค่ามากกว่า 0)<br><br>
+</div>
+<u>ข้อสรุปที่ 1:</u> 2W &gt; 4Y (จริง)<br>
+<u>ข้อสรุปที่ 2:</u> 6P &gt; 2Q (จริง)<br><br>
+
+<label><input type="radio" name="q28" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด </label><br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+
+<div class="quiz">
+<br>ข้อ 29. <br><br>
+<u>เงื่อนไข</u><br>
+3P = (Q + R) &lt; (M + N) &lt; X<br>
+<span class="frac">W<span class="symbol">/</span><span class="bottom">7</span></span>  ≥ <span class="frac">X<span class="symbol">/</span><span class="bottom">6</span></span> &gt; <span class="frac">4Y<span class="symbol">/</span><span class="bottom">5</span></span> &gt; <span class="frac">2Z<span class="symbol">/</span><span class="bottom">3</span></span><br>
+(ทุกตัวอักษรมีค่ามากกว่า 0)<br><br>
+</div>
+<u>ข้อสรุปที่ 1:</u> 3X ≥ 5P  (จริง)<br>
+<u>ข้อสรุปที่ 2:</u> 2Z ≤ 4Y (จริง)<br><br>
+
+<label><input type="radio" name="q29" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด </label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+<div class="quiz">
+<br>ข้อ 30. <br><br>
+<u>เงื่อนไข</u><br>
+3P = (Q + R) &lt; (M + N) &lt; X<br>
+<span class="frac">W<span class="symbol">/</span><span class="bottom">7</span></span>  ≥ <span class="frac">X<span class="symbol">/</span><span class="bottom">6</span></span> &gt; <span class="frac">4Y<span class="symbol">/</span><span class="bottom">5</span></span> &gt; <span class="frac">2Z<span class="symbol">/</span><span class="bottom">3</span></span><br>
+(ทุกตัวอักษรมีค่ามากกว่า 0)<br><br>
+</div>
+
+<u>ข้อสรุปที่ 1:</u> W มีค่าสูงสุด (ไม่แน่ชัด)<br>
+<u>ข้อสรุปที่ 2:</u> P มีค่าน้อยสุด (ไม่แน่ชัด)<br><br>
+
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+<label><input type="radio" name="q30" value="1">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด  </label><br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label>
+
+
+
+<!--  ข้อสอบ กพ 2556 20 พ.ย. 2565 ข้อ 42-46   -->
+<div class="quiz">
+<br>ข้อ 31. <br><br>
+
+<u>เงื่อนไข</u><br>
+L &gt; M  ≮ G = (E + F)<br>
+2F = G ≮ &nbsp;H &gt; J = K<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+<u>ข้อสรุปที่ 1:</u> 2H &lt; 3F (ไม่แน่ชัด)<br>
+<u>ข้อสรุปที่ 2:</u> 2E  ≤  M (จริง)<br><br>
+</div>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+<div class="quiz">
+<br>ข้อ 32.  <br><br>
+<u>เงื่อนไข</u><br>
+L &gt; M  ≮ G = (E + F)<br>
+2F = G ≮ H &gt; J = K<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+<u>ข้อสรุปที่ 1:</u> 2K ≠ H (ไม่แน่ชัด)<br>
+<u>ข้อสรุปที่ 2:</u> F &gt; K (ไม่แน่ชัด)
+<br><br>
+
+</div>
+
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+<label><input type="radio" name="q32" value="1">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด  </label><br>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label>
+
+
+<div class="quiz">
+<br>ข้อ 33.  <br><br>
+
+L &gt; M  ≮ G = (E + F)<br>
+2F = G ≮ H &gt; J = K<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+<u>ข้อสรุปที่ 1:</u> M &gt; F (จริง)<br>
+<u>ข้อสรุปที่ 2:</u> E = F (จริง)
+<br><br>
+
+</div>
+
+<label><input type="radio" name="q33" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข  </label><br>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+<div class="quiz">
+<br>ข้อ 34.  <br><br>
+
+L &gt; M  ≮ G = (E + F)<br>
+2F = G ≮ H &gt; J = K<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+<u>ข้อสรุปที่ 1:</u> H &gt; 2G (เท็จ)<br>
+<u>ข้อสรุปที่ 2:</u> E &gt; L (เท็จ)
+<br><br>
+
+</div>
+
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+<label><input type="radio" name="q34" value="1">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+
+
+<div class="quiz">
+<br>ข้อ 35.  <br><br>
+
+L &gt; M  ≮ G = (E + F)<br>
+2F = G ≮ H &gt; J = K<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+<u>ข้อสรุปที่ 1:</u> M ≤ H (ไม่แน่ชัด)<br>
+<u>ข้อสรุปที่ 2:</u> 2J &lt; G (ไม่แน่ชัด)
+<br><br>
+
+</div>
+
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+<label><input type="radio" name="q35" value="1">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด </label><br>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+
+<br><br>
+<strong>ความสามารถในการคิดวิเคราะห์เชิงปริมาณ</strong><br><br>
+
+<strong><u>อนุกรม</u></strong><br><br>
+
+<u>คำสั่ง</u> จงเลือกคำตอบจากตัวเลือก 1. – 4. มาเติมลงในช่องว่าง เพื่อให้ได้อนุกรมที่มีความสัมพันธ์ต่อเนื่องกันอย่างสมเหตุสมผลมากที่สุด<br><br>
+<!-- 1-5 อนุกรม  -->
+<div class="quiz">  <!-- ต้องมี div class="quiz" ทุกข้อ เพราะเอาไปใช้นับจำนวนข้อ  -->
+ข้อ 36. 
+<div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;"> <!-- box -->
+<small>(ข้อสอบเสมือนจริง กพ 31 มี.ค. 2566)</small>
+<br>
+5 &ensp;  
+6 &ensp;  
+10 &ensp;  
+19 &ensp;  
+35 &ensp;  
+60 &ensp;  
+........ <br><br>
+
+
+<label><input type="radio" name="q36" value="0">74 &ensp; </label><br>
+<label><input type="radio" name="q36" value="0">82 &ensp; </label><br>
+<label><input type="radio" name="q36" value="0">95</label><br>
+<label><input type="radio" name="q36" value="1">96 </label>
+
+</div>  <!-- end of box -->
+</div> <!-- end of quiz -->
+
+<br>
+<div class="quiz">
+ข้อ 37. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+<small>(ข้อสอบเสมือนจริง กพ 31 มี.ค. 2566)</small>
+<br>
+112 &ensp;  
+56 &ensp;  
+14 &ensp;  
+57 &ensp;  
+<span class="frac">7<span class="symbol">/</span><span class="bottom">3</span></span> &ensp;  
+.......... &ensp;  
+<br><br>
+
+
+<label><input type="radio" name="q37" value="0"> 47</label><br>
+<label><input type="radio" name="q37" value="1"> <span class="frac">7<span class="symbol">/</span><span class="bottom">48</span></span></label><br>
+<label><input type="radio" name="q37" value="0"> 32</label><br>
+<label><input type="radio" name="q37" value="0"> <span class="frac">13<span class="symbol">/</span><span class="bottom">97</span></span></label><br>
+
+</div>  <!-- end of box -->
+</div> <!-- end of quiz -->
+
+
+
+<div class="quiz">
+<br>ข้อ 38. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+<small>(ข้อสอบเสมือนจริง กพ 30 เม.ย. 2566)</small>
+<br>
+<span class="frac">1<span class="symbol">/</span><span class="bottom">2</span></span> &ensp;  
+<span class="frac">3<span class="symbol">/</span><span class="bottom">4</span></span> &ensp;  
+<span class="frac">5<span class="symbol">/</span><span class="bottom">8</span></span>&ensp;
+<span class="frac">7<span class="symbol">/</span><span class="bottom">16</span></span>&ensp;
+<span class="frac">9<span class="symbol">/</span><span class="bottom">32</span></span>&ensp;
+.............
+
+ <br><br>
+
+<label><input type="radio" name="q38" value="0"><span class="frac">10<span class="symbol">/</span><span class="bottom">52</span></span></label><br>
+<label><input type="radio" name="q38" value="1"> <span class="frac">11<span class="symbol">/</span><span class="bottom">64</span></span></label><br>
+<label><input type="radio" name="q38" value="0"> <span class="frac">13<span class="symbol">/</span><span class="bottom">72</span></span></label><br>
+<label><input type="radio" name="q38" value="0"> <span class="frac">15<span class="symbol">/</span><span class="bottom">41</span></span></label><br>
+
+</div>  <!-- end of box -->
+</div> <!-- end of quiz -->
+
+<div class="quiz">
+ <br>ข้อ 39. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+<br>
+5 &ensp;  
+17 &ensp;  
+41 &ensp;  
+77 &ensp;  
+125 &ensp;  
+185 &ensp;  
+........ <br>
+<small>(ข้อสอบเสมือนจริง กพ 31 มี.ค. 2566)</small>
+<br><br>
+
+
+<label><input type="radio" name="q39" value="1"> 257 </label><br>
+<label><input type="radio" name="q39" value="0"> 255</label><br>
+<label><input type="radio" name="q39" value="0"> 295</label><br>
+<label><input type="radio" name="q39" value="0"> 310</label><br>
+
+</div>  <!-- end of box -->
+</div> <!-- end of quiz -->
+
+
+<div class="quiz">
+ <br>ข้อ 40. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+<br>
+1,569 &ensp;  
+1,245 &ensp;  
+989 &ensp;  
+820 &ensp;  
+739 &ensp;  
+........ <br>
+<small>(ข้อสอบเสมือนจริง กพ e-Exam 2566)</small>
+<br><br>
+
+<label><input type="radio" name="q40" value="0"> 650</label><br>
+<label><input type="radio" name="q40" value="0"> 694</label><br>
+<label><input type="radio" name="q40" value="1"> 723 </label><br>
+<label><input type="radio" name="q40" value="0"> 785</label><br>
+
+</div>  <!-- end of box -->
+</div> <!-- end of quiz -->
+
+<br><br>
+<strong><u>โจทย์คณิตศาสตร์ </u></strong><br><br>
+<u>คำสั่ง</u> จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก 1. – 4. แล้วกดเลือกคำตอบ<br><br>
+
+<!-- 11-15 คณิตศาสตร์ทั่วไป  operate 1 ข้อ  -->
+<div class="quiz">
+<br> ข้อ 41. <br>
+ถ้า 7 * 9 = 48 และ<br>
+6 * 5 = 33 แล้ว<br>
+2 * 8 = ?  
+<hr>
+</div>
+<label><input type="radio" name="q41" value="0"> 16</label><br>
+<label><input type="radio" name="q41" value="1"> 30</label><br>
+<label><input type="radio" name="q41" value="0"> 32</label><br>
+<label><input type="radio" name="q41" value="0"> 128</label>
+
+<div class="quiz">
+<br>ข้อ 42. <br>
+ปัจจุบัน กิ่ง เข่ง และคนึง มีอายุรวมกัน 91 ปี อีก 5 ปีข้างหน้า กิ่ง จะมีอายุมากกว่า คนึง 12 ปี และ เข่ง จะมีอายุเพิ่มขึ้น 20% อยากทราบว่า ปัจจุบัน กิ่ง มีอายุกี่ปี<br>
+ </div>
+
+<label><input type="radio" name="q42" value="0"> 35 ปี </label><br>
+<label><input type="radio" name="q42" value="0"> 36 ปี </label><br>
+<label><input type="radio" name="q42" value="1"> 39 ปี </label><br>
+<label><input type="radio" name="q42" value="0"> 48 ปี </label>
+
+
+<div class="quiz">
+<br>ข้อ 43. <br>
+โลหะชนิดหนึ่ง มีส่วนผสมของ ทองแดง สังกะสี และดีบุก ผสมกันในอัตราส่วน 2:3:3 ตามลำดับ ถ้าโลหะชนิดนี้ มีน้ำหนักทั้งสิ้น 640 กรัม อยากทราบว่า มีโลหะทองแดงอยู่กี่กรัม
+
+<br>
+</div>
+<br>
+<label><input type="radio" name="q43" value="0">140 กรัม </label><br>
+<label><input type="radio" name="q43" value="1">160 กรัม </label><br>
+<label><input type="radio" name="q43" value="0">180 กรัม </label><br>
+<label><input type="radio" name="q43" value="0">200 กรัม </label>
+
+
+
+<div class="quiz">
+<br>ข้อ 44. <br>
+ข้อมูลสองชุดมีจำนวนข้อมูลรวมกันเท่ากับ 35 จำนวน ค่าเฉลี่ยของข้อมูลทั้งสองชุดเท่ากับ 12 ค่าเฉลี่ยของข้อมูลชุดแรกเท่ากับ 15 และค่าเฉลี่ยของข้อมูลชุดหลังเท่ากับ 10 อยากทราบว่า จำนวนข้อมูลชุดหลัง มากกว่าจำนวนข้อมูลชุดแรก กี่จำนวน<br><br>
+</div>
+
+<label><input type="radio" name="q44" value="0"> 3 จำนวน </label><br>
+<label><input type="radio" name="q44" value="0"> 5 จำนวน</label><br>
+<label><input type="radio" name="q44" value="1"> 7  จำนวน  </label><br>
+<label><input type="radio" name="q44" value="0"> 9  จำนวน </label>
+
+
+<div class="quiz">
+<br>ข้อ 45. <br>
+สินค้าชิ้นหนึ่งติดป้ายขาย 2,850 บาท แต่ลดราคาให้ลูกค้า 30% พร้อมทั้งมีคูปองลดพิเศษเพิ่มให้แก่ลูกค้าที่เข้าร้าน 100 คนแรก สมศักดิ์ได้คูปองซื้อสินค้านี้ และซื้อสินค้าในราคา 1,500 บาท อยากทราบว่า คูปองมีมูลค่ากี่บาท<br><br>
+</div>
+
+<label><input type="radio" name="q45" value="0"> 350  บาท</label><br>
+<label><input type="radio" name="q45" value="1"> 495 บาท </label><br>
+<label><input type="radio" name="q45" value="0"> 520 บาท </label><br>
+<label><input type="radio" name="q45" value="0"> 560 บาท </label>
+
+
+<br><br>
+
+<strong><u>การวิเคราะห์ข้อมูล</u></strong><br><br>
+<u>คำสั่ง </u>ให้ศึกษาและทำความเข้าใจกับข้อมูลซึ่งเป็นตารางที่กำหนดให้ แล้วจึงอาศัยความรู้ความเข้าใจ จากข้อมูลนั้น ๆ เป็นหลักในการทำตอบ<br><br>
+
+<!-- 6-10 ตาราง  -->
+<strong>สำหรับ ข้อ 46-50</strong><br><br>
+
+<strong>ตารางแสดง รายได้จากการขายถั่วชนิดต่าง ๆ ปี 2560-2565</strong>
+        <div align='right'>หน่วย : แสนบาท&ensp;</div>
+<table class="equal shrink_text">
+<tr style='text-align: right;'><th>ปี</th><th>ถั่วเขียว</th><th>ถั่วเหลือง</th><th>ถั่วดำ</th><th>ถั่วแดง</th><th>ถั่วปากอ้า</th></tr>
+<tr style='text-align: right;'><td>2560&ensp;</td><td>11&ensp;</td><td>15&ensp;</td><td>15&ensp;</td><td>25&ensp;</td><td>12&ensp;</td></tr>
+<tr style='text-align: right;'><td>2561&ensp;</td><td>23&ensp;</td><td>13&ensp;</td><td>23&ensp;</td><td>18&ensp;</td><td>11&ensp;</td></tr>
+<tr style='text-align: right;'><td>2562&ensp;</td><td>13&ensp;</td><td><span style="color:red; font-weight:bold">??</span>&ensp;</td><td>14&ensp;</td><td>14&ensp;</td><td>19&ensp;</td></tr>
+<tr style='text-align: right;'><td>2563&ensp;</td><td>14&ensp;</td><td>8&ensp;</td><td>9&ensp;</td><td>5&ensp;</td><td>14&ensp;</td></tr>
+<tr style='text-align: right;'><td>2564&ensp;</td><td>18&ensp;</td><td>18&ensp;</td><td><span style="color:red; font-weight:bold">??</span>&ensp;</td><td>24&ensp;</td><td>17&ensp;</td></tr>
+<tr style='text-align: right;'><td>2565&ensp;</td><td><span style="color:red; font-weight:bold">??</span>&ensp;</td><td>29&ensp;</td><td>13&ensp;</td><td>19&ensp;</td><td>20&ensp;</td></tr>
+</table>
+
+
+
+<br><br>
+
+<div class="qstn-div">  <!--  สำหรับข้อความที่ scroll ได้ สำหรับบทความ หรือ ตาราง -->
+
+<div class="quiz">
+ข้อ 46. <br>
+ถ้า ตั้งแต่ปี 2560 - 2565 ยอดขายถั่วเขียว น้อยกว่า ยอดขายของถั่วแดง เป็นจำนวน 1,200,000 บาท อยากทราบว่า ยอดขายของถั่วเขียวในปี 2565 มีมูลค่า กี่ล้านบาท</div>
+
+<label><input type="radio" name="q46" value="0">14 ล้านบาท</label><br>
+<label><input type="radio" name="q46" value="0"> 10 ล้านบาท</label><br>
+<label><input type="radio" name="q46" value="0"> 3 ล้านบาท</label><br>
+<label><input type="radio" name="q46" value="1"> 1.4 ล้านบาท</label>
+
+
+<div class="quiz">
+ข้อ 47. <br>
+ค่าเฉลี่ยของถั่วเหลือง ตั้งแต่ปี 2560 - 2565 มีค่าเท่ากับ 1.8 ล้านบาท อยากทราบว่า ยอดขายตลอด 6 ปี ของถั่วเหลือง มากกว่า ถั่วปากอ้า กี่บาท<br>
+</div>
+
+<label><input type="radio" name="q47" value="0"> 1  ล้านบาท</label><br>
+<label><input type="radio" name="q47" value="1"> 1.5  ล้านบาท </label><br>
+<label><input type="radio" name="q47" value="0"> 2  ล้านบาท</label><br>
+<label><input type="radio" name="q47" value="0"> 2.5  ล้านบาท</label>
+
+
+<div class="quiz">
+ข้อ 48. <br>
+ในปี 2564 ถั่วเหลือง มียอดขายมากว่าถั่วดำ 50% จงหาอัตราส่วนของ ถั่วดำ : ถั่วแดง
+</div>
+
+<label><input type="radio" name="q48" value="0"> 2 : 1</label><br>
+<label><input type="radio" name="q48" value="0"> 3 : 2</label><br>
+<label><input type="radio" name="q48" value="1"> 1 : 2 </label><br>
+<label><input type="radio" name="q48" value="0"> 3 : 4 </label>
+
+
+<div class="quiz">
+ข้อ 49. <br>
+ยอดขายถั่วทุกชนิด ในปี 2565 เพิ่มขึ้นจากปี 2563 ร้อยละเท่าไร
+</div>
+
+<label><input type="radio" name="q49" value="0"> 60% </label><br>
+<label><input type="radio" name="q49" value="0"> 70% </label><br>
+<label><input type="radio" name="q49" value="0"> 80%</label><br>
+<label><input type="radio" name="q49" value="1"> 90%  </label>
+
+
+<div class="quiz">
+ข้อ 50. <br>
+ตั้งแต่ปี 2560-2565 ถั่วชนิดใด มียอดขายมากที่สุด
+</div>
+
+<label><input type="radio" name="q50" value="0">ถั่วเขียว</label><br>
+<label><input type="radio" name="q50" value="1"> ถั่วเหลือง</label><br>
+<label><input type="radio" name="q50" value="0"> ถั่วแดง</label><br>
+<label><input type="radio" name="q50" value="0"> ถั่วดำ </label>
+
+</div>  <!-- qstn-div  -->
+</div> <!--  end of quiz_general  -->
+<!-- =================== END OF GENERAL ================  -->
+
+
+<!--  
+<div class="tooltip"> word <span class="tooltiptext">word = คำแปล  </span></div>
+-->
+<!-- =================== ENGLISH ================  -->
+
+<br><br>
+<div style="text-align: center">
+<strong>วิชาภาษาอังกฤษ </strong> <br>(เกณฑ์ผ่าน 50%)<br><br>
+</div>
+
+<div id="quiz_english">  
+
+<!-- 51-55 conversation  -->
+<strong><u>Conversation</u></strong><br><br>
+
+<u>Instructions:</u> Select the most appropriate choice for each item.<br><br>
+Suda calls Peter's phone number directly to buy a toner catridge for her printer.
+
+<div class="qstn-div">
+<table>
+<tr class="painted"><td class="painted">Suda: </td><td class="painted"> Hello, Peter speaking. </td></tr>
+<tr class="painted"><td class="painted">Peter: </td><td class="painted"> Hi Suda, how can I assist you today? </td></tr>
+
+<tr class="painted"><td class="painted">Suda: </td><td class="painted"> Hi Peter, I need a toner cartridge, Model 107A. </td></tr>
+<tr class="painted"><td class="painted">Peter: </td><td class="painted"> Sure, we have that in stock. It's priced at 1,900 baht. </td></tr>
+
+<tr class="painted"><td class="painted">Suda: </td><td class="painted"> Hmm, that seems a bit steep. Can I get a 10% discount? I've been a regular customer for a while now. </td></tr>
+<tr class="painted"><td class="painted">Peter: </td><td class="painted"> I'm sorry Suda, but I can't offer a discount on that item at the moment. However, I can provide you with a 500 baht coupon for your next purchase. </td></tr>
+
+<tr class="painted"><td class="painted">Suda: </td><td class="painted"> I appreciate the gesture, Peter, but I was hoping for a better deal. I think I'll pass on the cartridge for now. </td></tr>
+<tr class="painted"><td class="painted">Peter: </td><td class="painted"> I understand, Suda. If you change your mind or need anything else, just let me know. </td></tr>
+</table>
+</div>  <!-- end of class="qstn-div" -->
+<br>
+<div class="qstn-div">
+<div class="quiz">
+<br>ข้อ 51. <br>
+What does Suda request from Peter?
+</div>
+
+<br>
+<label><input type="radio" name="q51" value="0"> A toner cartridge Model 108A</label><br>
+<label><input type="radio" name="q51" value="0"> A 500 baht coupon</label><br>
+<label><input type="radio" name="q51" value="1"> A 10% discount </label><br>
+<label><input type="radio" name="q51" value="0"> A refund</label>
+
+<div class="quiz">
+<br>ข้อ 52. <br>
+Why is Suda not satisfied with Peter's offer?
+</div>
+<br>
+<label><input type="radio" name="q52" value="0"> She wanted a free toner cartridge.</label><br>
+<label><input type="radio" name="q52" value="0"> She was expecting a 20% discount.</label><br>
+<label><input type="radio" name="q52" value="0"> She prefers cashback instead of a coupon.</label><br>
+<label><input type="radio" name="q52" value="1"> She wanted a better deal than a 500 baht coupon. </label>
+<div class="quiz">
+<br>ข้อ 53. <br>
+How does Peter respond to Suda's request for a discount?
+</div>
+
+<br>
+<label><input type="radio" name="q53" value="0"> He offers a 10% discount immediately.</label><br>
+<label><input type="radio" name="q53" value="0"> He declines to provide any discount.</label><br>
+<label><input type="radio" name="q53" value="0"> He offers a 50% discount.</label><br>
+<label><input type="radio" name="q53" value="1"> He suggests a discount for Suda's next purchase. </label>
+<div class="quiz">
+<br>ข้อ 54. <br>
+What is Suda's decision regarding the toner cartridge?
+</div>
+
+<br>
+<label><input type="radio" name="q54" value="0"> She decides to buy it at the original price.</label><br>
+<label><input type="radio" name="q54" value="1"> She decides not to buy it. </label><br>
+<label><input type="radio" name="q54" value="0"> She asks for a further discount.</label><br>
+<label><input type="radio" name="q54" value="0"> She decides to buy it with the 500 baht coupon.  </label>
+<div class="quiz">
+<br>ข้อ 55. <br>
+How does Peter respond to Suda's decision not to buy the cartridge?
+</div>
+<br>
+<label><input type="radio" name="q55" value="0"> He offers a larger discount.</label><br>
+<label><input type="radio" name="q55" value="0"> He suggests a different model.</label><br>
+<label><input type="radio" name="q55" value="0"> He encourages her to reconsider.</label><br>
+<label><input type="radio" name="q55" value="1"> He respects her decision. </label>
+
+
+</div>  <!--  end of class="qstn-div" -->
+
+<br>
+<!-- 56-60 vocab  -->
+<u><strong>Vocabulary</strong></u><br>
+<div class="quiz">
+
+
+            <br>ข้อ 56. <br>
+When preparing a meal  in the kitchen, we use _______ most frequently.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q56" value="0"> spoon</label><br>
+        <label><input type="radio" name="q56" value="1"> appliance </label><br>
+        <label><input type="radio" name="q56" value="0"> fish sauce</label><br>
+        <label><input type="radio" name="q56" value="0"> pot</label>
+
+
+<div class="quiz">
+<br>ข้อ 57. <br>
+If a company wants to  withdraw  an offer, they may _______ it.
+</div>
+
+<br>
+<label><input type="radio" name="q57" value="0"> offer</label><br>
+<label><input type="radio" name="q57" value="1"> revoke</label><br>
+<label><input type="radio" name="q57" value="0"> accept</label><br>
+<label><input type="radio" name="q57" value="0"> propose</label>
+
+<div class="quiz">
+<br>ข้อ 58. <br>
+In a  competition, a _______ is someone who poses a significant challenge to another participant.
+</div>
+
+<br>
+<label><input type="radio" name="q58" value="1"> rival</label><br>
+<label><input type="radio" name="q58" value="0"> ally</label><br>
+<label><input type="radio" name="q58" value="0"> partner</label><br>
+<label><input type="radio" name="q58" value="0"> friend</label>
+
+
+<div class="quiz">
+<br>ข้อ 59. <br>
+The act of intentionally sinking  something beneath the surface of water is to _______ it.
+</div>
+
+<br>
+<label><input type="radio" name="q59" value="0"> emerge</label><br>
+<label><input type="radio" name="q59" value="1"> submerge  </label><br>
+<label><input type="radio" name="q59" value="0"> surface</label><br>
+<label><input type="radio" name="q59" value="0"> float</label>
+
+<div class="quiz">
+<br>ข้อ 60. <br>
+A: Which would you ......., tea or coffee?<br>
+B: Tea, please.
+</div>
+
+<br>
+<label><input type="radio" name="q60" value="0"> refuse</label><br>
+<label><input type="radio" name="q60" value="0"> deny</label><br>
+<label><input type="radio" name="q60" value="1"> prefer  </label><br>
+<label><input type="radio" name="q60" value="0"> drink</label>
+
+
+<br><br>
+
+<!-- 61-65 structure  -->
+<u><strong>Structure</strong></u><br><br>
+
+
+<u>Instructions:</u> Choose the correct answer.<br>
+<div class="quiz">
+<br>ข้อ 61. <br>
+Trees add a touch of____to our environment.
+</div>
+
+<br>
+<label><input type="radio" name="q61" value="1"> beauty </label><br>
+<label><input type="radio" name="q61" value="0"> beautify</label><br>
+<label><input type="radio" name="q61" value="0"> beautiful</label><br>
+<label><input type="radio" name="q61" value="0"> beautifully</label>
+
+
+
+<div class="quiz">
+<br>ข้อ 62. <br>
+Animals like birds and squirrels depend ____  trees for their survival.
+</div>
+
+<br>
+<label><input type="radio" name="q62" value="0"> in</label><br>
+<label><input type="radio" name="q62" value="1"> on </label><br>
+<label><input type="radio" name="q62" value="0"> at</label><br>
+<label><input type="radio" name="q62" value="0"> among</label>
+
+
+
+<div class="quiz">
+<br>ข้อ 63. <br>
+Trees ____ vulnerable to various threats.
+</div>
+
+<br>
+<label><input type="radio" name="q63" value="0"> is</label><br>
+<label><input type="radio" name="q63" value="1"> are </label><br>
+<label><input type="radio" name="q63" value="0"> has</label><br>
+<label><input type="radio" name="q63" value="0"> have</label>
+
+<div class="quiz">
+<br>ข้อ 64. <br>
+It's our job to take care of trees so they can keep  ____  and the environment healthy.
+</div>
+
+<br>
+<label><input type="radio" name="q64" value="1"> us </label><br>
+<label><input type="radio" name="q64" value="0"> we</label><br>
+<label><input type="radio" name="q64" value="0"> his</label><br>
+<label><input type="radio" name="q64" value="0"> our </label>
+<div class="quiz">
+<br>ข้อ 65. <br>
+Each type of trees ______ different forms of life that live in them.
+</div>
+
+<br>
+<label><input type="radio" name="q65" value="1"> supports </label><br>
+<label><input type="radio" name="q65" value="0"> support</label><br>
+<label><input type="radio" name="q65" value="0"> supporting</label><br>
+<label><input type="radio" name="q65" value="0"> have supported</label>
+
+<br><br>
+
+
+<!-- 66-75 reading  -->
+<u><strong>Reading</strong></u>
+<br><br>
+<strong>สำหรับ ข้อ 66-70</strong><br><br>
+<strong>Instructions:</strong> Read the following letter and select the best answer for each item.<br><br>
+
+<div class="qstn-div">
+
+
+Ms. Sawat Ingram <br>
+IT Department Manager <br>
+Ingram IT Service Thailand <br>
+Sector 10, Baiyok Bldg - Bankok 10400  <br>
+THAILAND<br><br>
+
+December 11, 2024<br><br>
+
+Mr. Thomas Heltz <br>
+Program Manager<br>
+1600 Amphitheatre Parkway, <br>
+Mountain View, CA 94043<br>
+USA<br><br>
+
+Dear Mr. Heltz,<br><br>
+
+<p>I am writing to express my sincere gratitude for the invaluable experience I had during my recent study visit to Google's Visiting Researcher Program. The opportunity to immerse myself in the innovative environment of Google's research labs and collaborate with some of the brightest minds in the field has been truly inspiring.
+</p>
+<p>I am immensely grateful for the warm welcome and hospitality extended to me throughout my visit. From the insightful discussions with researchers to the hands-on exploration of cutting-edge technologies, every moment spent at Google has deepened my understanding of the complex challenges and exciting possibilities in our field.
+</p>
+<p>The knowledge and insights gained from this experience will undoubtedly enrich my own research endeavors and contribute to the advancement of our shared goals. I am particularly thankful for the mentorship and guidance provided by the research team, whose expertise and passion have left a lasting impression on me.
+</p>
+<p>I am eager to apply the lessons learned and the connections made during my time at Google to my ongoing research projects. Please extend my heartfelt appreciation to everyone who made this visit possible, and know that I am deeply grateful for the opportunity to be part of such an exceptional community.</p>
+
+<p>Thank you once again for the unforgettable experience. I look forward to the possibility of future collaborations and continued engagement with Google's research community.</p>
+
+Warm regards,<br><br>
+
+XXX XXX<br>
+Ms. Sawat Ingram <br>
+IT Department Manager <br>
++66 8 1234 5678<br>
+s_ingram@email.com<br><br>
+
+</div>
+<br><br>
+
+<div class="qstn-div">
+<div class="quiz">
+<br>ข้อ 66. <br>
+What is the purpose of the letter?</div>
+
+<label><input type="radio" name="q66" value="0"> To request a follow-up meeting with Google's research team.</label><br>
+<label><input type="radio" name="q66" value="0"> To inquire about job opportunities at Google.</label><br>
+<label><input type="radio" name="q66" value="1"> To express gratitude for a study visit at Google's Visiting Researcher Program.</label><br>
+<label><input type="radio" name="q66" value="0"> To complain about the lack of resources during the visit.</label>
+
+
+
+
+<div class="quiz">
+<br>ข้อ 67. <br>
+What is the author's sentiment towards the experience at Google?</div>
+
+<label><input type="radio" name="q67" value="0"> Disappointment</label><br>
+<label><input type="radio" name="q67" value="0"> Indifference</label><br>
+<label><input type="radio" name="q67" value="1"> Gratitude </label><br>
+<label><input type="radio" name="q67" value="0"> Frustration</label>
+
+<div class="quiz">
+<br>ข้อ 68. <br>
+ What aspect of the visit is the author most thankful for?</div>
+
+<label><input type="radio" name="q68" value="0"> The luxurious accommodations</label><br>
+<label><input type="radio" name="q68" value="1"> The opportunity to collaborate with brilliant researchers</label><br>
+<label><input type="radio" name="q68" value="0"> The extensive sightseeing opportunities</label><br>
+<label><input type="radio" name="q68" value="0"> The delicious meals provided</label>
+
+<div class="quiz">
+<br>ข้อ 69. <br>
+Who does the author thank specifically in the letter?
+</div>
+<label><input type="radio" name="q69" value="0"> The receptionist</label><br>
+<label><input type="radio" name="q69" value="1"> The mentor or mentorship team </label><br>
+<label><input type="radio" name="q69" value="0"> The cleaning staff</label><br>
+<label><input type="radio" name="q69" value="0"> The security guards</label>
+
+
+<div class="quiz">
+<br>ข้อ 70. <br>
+How does the author plan to use the knowledge gained from the visit?
+</div>
+<label><input type="radio" name="q70" value="0"> By forgetting about it entirely</label><br>
+<label><input type="radio" name="q70" value="0"> By applying it to ongoing research projects</label><br>
+<label><input type="radio" name="q70" value="1"> By keeping it a secret from colleagues</label><br>
+<label><input type="radio" name="q70" value="0"> By using it for personal gain</label>
+</div>  <!--  qstn-div  -->
+
+<br><br>
+<strong>สำหรับ ข้อ 71-75</strong><br><br>
+<strong>Instructions:</strong> Read the following passage and select the best answer for each item.<br><br>
+
+<div class="qstn-div">
+<br>
+Our skin, the largest organ of our body, acts as a protective barrier against the outside world. Unfortunately, this important shield can be compromised by various skin diseases. These conditions manifest in a range of ways, from mild irritation to severe outbreaks.<br><br>
+
+Common skin diseases include acne and eczema, which cause itchiness and inflammation. Fungal infections, like athlete's foot or ringworm, are also frequent culprits. Other conditions, such as psoriasis or rosacea, can cause redness, scaling, and discomfort. In some cases, skin diseases can be contagious, spreading easily through touch or contaminated objects.<br><br>
+
+Sugary foods can contribute to inflammation, which can worsen acne. While washing your face is important, over-washing can strip your skin of natural oils and irritate it. Oil-based moisturizers can clog pores and exacerbate acne. Drinking plenty of water helps keep your skin hydrated and healthy.<br><br>
+
+The good news is that most skin diseases are treatable with medication, creams, or simple lifestyle changes. Keeping your skin clean and moisturized is a great first step in preventing some conditions. However, for persistent or severe cases, consulting a dermatologist, a doctor specializing in skin health, is crucial for proper diagnosis and treatment.
+
+<!-- Generated by Gemini  -->
+</div>
+<br><br>
+
+<div class="qstn-div">
+<div class="quiz">
+<br>ข้อ 71. <br>
+What is the largest organ of the body?
+</div>
+<label><input type="radio" name="q71" value="0"> Heart</label><br>
+<label><input type="radio" name="q71" value="1"> Skin </label><br>
+<label><input type="radio" name="q71" value="0"> Lungs</label><br>
+<label><input type="radio" name="q71" value="0"> Stomac</label>
+
+
+<div class="quiz">
+<br>ข้อ 72. <br>
+Which of the following is a common symptom of many skin diseases?
+</div>
+
+<label><input type="radio" name="q72" value="0"> Fever</label><br>
+<label><input type="radio" name="q72" value="1"> Itchiness  </label><br>
+<label><input type="radio" name="q72" value="0"> Nausea</label><br>
+<label><input type="radio" name="q72" value="0"> Headache</label>
+
+
+<div class="quiz">
+<br>ข้อ 73. <br>
+Athlete's foot is an example of a ______.
+</div>
+<label><input type="radio" name="q73" value="0"> Bacterial infection</label><br>
+<label><input type="radio" name="q73" value="1"> Fungal infection </label><br>
+<label><input type="radio" name="q73" value="0"> Viral infection</label><br>
+<label><input type="radio" name="q73" value="0"> Parasitic infection</label>
+
+
+<div class="quiz">
+<br>ข้อ 74. <br>
+What is the first step in preventing many skin diseases?<br><br>
+</div>
+
+<label><input type="radio" name="q74" value="0"> Taking antibiotics</label><br>
+<label><input type="radio" name="q74" value="0">  Avoiding sunlight</label><br>
+<label><input type="radio" name="q74" value="1">  Keeping your skin clean and moisturized</label><br>
+<label><input type="radio" name="q74" value="0"> Wearing tight clothing</label>
+
+<div class="quiz">
+<br>ข้อ 75. <br>
+What kind of doctor specializes in treating skin diseases?
+</div>
+
+<label><input type="radio" name="q75" value="0"> Cardiologist</label><br>
+<label><input type="radio" name="q75" value="0"> Cardiologist</label><br>
+<label><input type="radio" name="q75" value="1"> Dermatologist </label><br>
+<label><input type="radio" name="q75" value="0">  General practitioner</label>
+
+
+</div>  <!--  qstn-div  -->
+</div>  <!-- end of div_english   -->
+
+<!-- =================== END OF ENGLISH ================  -->
+
+
+<!-- =================== LAW ================  -->
+<br><br>
+<div style="text-align: center">
+<strong>วิชาความรู้และลักษณะการเป็นข้าราชการที่ดี </strong> <br>(เกณฑ์ผ่าน 60%)<br>
+</div>
+<div id="quiz_law">
+
+<!-- 76 - 81 ระเบียบบริหาร  -->
+
+
+<div class="quiz">
+<br>ข้อ 76. <br>
+นายอำเภอไม่สามารถไกล่เกลี่ยข้อพิพาทกรณีใด ต่อไปนี้<br>
+</div>
+
+<label><input type="radio" name="q76" value="0"> ข้อพิพาททางแพ่ง ที่มีทุนทรัพย์ไม่เกินสองล้านบาท</label><br>
+<label><input type="radio" name="q76" value="0">ข้อพิพาททางแพ่ง เกี่ยวกับที่ดินมรดก</label><br>
+<label><input type="radio" name="q76" value="0"> ความผิดที่มีโทษทางอาญา ซึ่งเป็นความผิดอันยอมความได้ </label><br>
+<label><input type="radio" name="q76" value="1"> ความผิดเกี่ยวกับเพศ </label>
+
+<div class="quiz">
+
+<br>ข้อ 77. <br>
+การตั้งอำเภอใหม่ ให้ตราเป็นกฎหมายใด<br>
+</div>
+
+<label><input type="radio" name="q77" value="0"> พระราชบัญญัติ</label><br>
+<label><input type="radio" name="q77" value="0"> พระราชกำหนด </label><br>
+<label><input type="radio" name="q77" value="1"> พระราชกฤษฎีกา </label><br>
+<label><input type="radio" name="q77" value="0"> ประกาศกระทรวง</label>
+
+<div class="quiz">
+<br>ข้อ 78. <br>
+ในการปฏิบัติหน้าที่ของส่วนราชการ ต้องใช้วิธีการบริหารกิจการบ้านเมืองที่ดี โดยเฉพาะอย่างยิ่งให้ คำนึงถึงด้านต่าง ๆ ต่อไปนี้ <strong>ยกเว้นข้อใด</strong> <br>
+</div>
+
+<label><input type="radio" name="q78" value="1"> ความประหยัดและความคุ้มค่าของงบประมาณ </label><br>
+<label><input type="radio" name="q78" value="0"> การเปิดเผยข้อมูล การติดตามตรวจสอบ  </label><br>
+<label><input type="radio" name="q78" value="0"> ความรับผิดชอบของผู้ปฏิบัติงาน </label><br>
+<label><input type="radio" name="q78" value="0"> การมีส่วนร่วมของประชาชน </label>
+
+
+<div class="quiz">
+<br>ข้อ 79. <br>
+การจัดสรรงบประมาณ และการบรรจุและแต่งตั้งบุคคลเข้าดำรงตำแหน่ง หรือปฏิบัติหน้าที่ต้องคำนึงถึง หลักการดังต่อไปนี้ <strong>ยกเว้นข้อใด</strong><br>
+</div>
+
+<label><input type="radio" name="q79" value="0"> การกระจายอำนาจตัดสินใจ</label><br>
+<label><input type="radio" name="q79" value="0"> ความคุ้มค่าในเชิงภารกิจแห่งรัฐ </label><br>
+<label><input type="radio" name="q79" value="0"> การลดขั้นตอนการปฏิบัติงาน</label><br>
+<label><input type="radio" name="q79" value="1"> นโยบายตามที่แถลงต่อรัฐสภา</label>
+
+
+<div class="quiz">
+<br>ข้อ 80. <br> 
+ที่ปรึกษาของผู้ว่าราชการจังหวัด คือข้อใด<br>
+</div>
+
+<label><input type="radio" name="q80" value="1"> คณะกรมการจังหวัด </label><br>
+<label><input type="radio" name="q80" value="0"> คณะกรรมการพัฒนาระบบราชการ จังหวัด </label><br>
+<label><input type="radio" name="q80" value="0"> คณะกรรมการข้าราชการพลเรือนจังหวัด </label><br>
+<label><input type="radio" name="q80" value="0"> หัวหน้าส่วนราชการ ประจำจังหวัด ซึ่งปฏิบัติหน้าที่ในราชการส่วนภูมิภาค</label>
+
+<div class="quiz">
+<br>ข้อ 81. <br>
+ในกรณีที่ส่วนราชการ รัฐวิสาหกิจหรือหน่วยงานอื่นของรัฐ ประสงค์จะรับโอนข้าราชการหรือลูกจ้าง ซึ่งต้องพ้นจากราชการเพราะเหตุยุบตำแหน่ง อันเนื่องมาแต่การยุบส่วนราชการ ต้อง กระทำภายในกี่วัน
+<br>
+</div>
+
+<label><input type="radio" name="q81" value="1">30 วัน  </label><br>
+<label><input type="radio" name="q81" value="0"> 45 วัน </label><br>
+<label><input type="radio" name="q81" value="0"> 60 วัน</label><br>
+<label><input type="radio" name="q81" value="0">90  วัน</label>
+
+
+<!-- 82 - 87 กิจการบ้านเมืองที่ดี  -->
+<!-- https://www.thaisc.com/5278  -->
+
+<div class="quiz">
+<br>ข้อ 82. <br>
+"การพัฒนาความรู้ในส่วนราชการ เพื่อให้มีลักษณะเป็นองค์การแห่งการเรียนรู้" อยู่ในหมวดใด ของ พ.ร.ฎ.การบริหารกิจการบ้านเมืองที่ดี? <br>
+</div>
+
+<label><input type="radio" name="q82" value="0"> การบริหารราชการเพื่อให้เกิดประโยชน์สุขของประชาชน</label><br>
+<label><input type="radio" name="q82" value="0"> การบริหารราชการอย่างมีประสิทธิภาพ และเกิดความคุ้มค่าในเชิงภารกิจของรัฐ</label><br>
+<label><input type="radio" name="q82" value="0"> การปรับปรุงภารกิจของส่วนราชการ</label><br>
+<label><input type="radio" name="q82" value="1"> การบริหารราชการเพื่อให้เกิดผลสัมฤทธิ์ต่อภารกิจของรัฐ</label>
+
+
+<div class="quiz">
+<br>ข้อ 83. <br>
+แผนปฏิบัติราชการของส่วนราชการ มีกำหนดช่วงระยะเวลากี่ปี<br>
+</div>
+
+<label><input type="radio" name="q83" value="0"> 3 ปี </label><br>
+<label><input type="radio" name="q83" value="0"> 4 ปี</label><br>
+<label><input type="radio" name="q83" value="1"> 5 ปี </label><br>
+<label><input type="radio" name="q83" value="0"> 6 ปี</label>
+
+
+
+
+<div class="quiz">
+<br>ข้อ 84. <br>
+ในกรณีที่เกิดปัญหาและอุปสรรค จากการดำเนินการ ซึ่งเป็นปัญหาที่เกี่ยวข้องกับระเบียบ ข้อบังคับของหน่วยงานอื่น ให้ส่วนราชการดำเนินการอย่างไร
+
+แก้ไข ปัญหาและอุปสรรคนั้นโดยเร็ว ในกรณีที่ปัญหาหรืออุปสรรคนั้น เกิดขึ้นจากส่วนราชการอื่น หรือระเบียบ ข้อบังคับที่ออกโดยส่วนราชการอื่น ให้ส่วนราชการ แจ้งให้ส่วนราชการที่เกี่ยวข้องทราบ เพื่อดำเนินการแก้ไข ปรับปรุงโดยเร็วต่อไป และให้แจ้ง ก.พ.ร. ทราบด้วย  <br>
+</div>
+
+<label><input type="radio" name="q84" value="0"> ดำเนินการตามแผนงานที่วางไว้ เพื่อให้บรรลุเป้าหมายตามที่กำหนด แล้วรายงานให้หน่วยเหนือทราบ</label><br>
+<label><input type="radio" name="q84" value="0"> แจ้งให้ส่วนราชการที่เกี่ยวข้องทราบ เพื่อดำเนินการแก้ไข</label><br>
+<label><input type="radio" name="q84" value="0"> แจ้งให้ ก.พ.ร. ทราบ</label><br>
+<label><input type="radio" name="q84" value="1">ข้อ 2 และ 3  </label>
+
+
+
+<div class="quiz">
+<br>ข้อ 85. <br>
+<small>ข้อสอบเสมือนจริง Paper 2 ก.ค. 66 เช้า</small><br>
+การประเมินผลการปฏิบัติราชการของผู้บังคับบัญชาในภาพรวม ต้องเป็นไปตามข้อใด<br>
+(พ.ร.ฎ.ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี พ.ศ. ๒๕๔๖ )
+<br>
+</div>
+
+<label><input type="radio" name="q85" value="0"> เปิดเผย เพื่อประโยชน์แห่งความสามัคคีของข้าราชการ  </label><br>
+<label><input type="radio" name="q85" value="0"> เปิดเผย เพื่อประโยชน์ในการบริหารงานบุคคล </label><br>
+<label><input type="radio" name="q85" value="1">  เป็นความลับ เพื่อประโยชน์แห่งความสามัคคีของข้าราชการ </label><br>
+<label><input type="radio" name="q85" value="0">  เป็นความลับ เพื่อประโยชน์ในการบริหารงานบุคคล</label>
+
+
+
+
+<div class="quiz">
+<br>ข้อ 86. <br>
+ในกระทรวงหนึ่ง ให้เป็นหน้าที่ของผู้ใด ที่จะต้องจัดให้ส่วนราชการภายในกระทรวง ที่รับผิดชอบ ปฏิบัติงานเกี่ยวกับการบริการประชาชน ร่วมกันจัดตั้งศูนย์บริการร่วม<br>
+(ข้อสอบเสมือนจริง ก.พ. ปี 2565)
+</div>
+<label><input type="radio" name="q86" value="0"> รัฐมนตรีว่าการกระทรวง</label><br>
+<label><input type="radio" name="q86" value="0"> ผู้ช่วยรัฐมนตรีที่ได้รับมอบหมาย</label><br>
+<label><input type="radio" name="q86" value="1"> ปลัดกระทรวง </label><br>
+<label><input type="radio" name="q86" value="0"> ถูกทุกข้อ</label>
+
+<div class="quiz">
+<br>ข้อ 87. <br>
+ข้อใด<u>กล่าวไม่ถูกต้อง</u>เกี่ยวกับแผนปฏิบัติราชการของส่วนราชการ <br>
+</div>
+
+<label><input type="radio" name="q87" value="0">  ก่อนจะดำเนินการตามภารกิจใด ส่วนราชการต้องจัดทำแผนปฏิบัติราชการ ไว้เป็นการล่วงหน้า </label><br>
+<label><input type="radio" name="q87" value="1"> แผนปฏิบัติราชการ ต้องมีรายละเอียดของขั้นตอน ระยะเวลา งบประมาณ และผลกระทบของโครงการ </label><br>
+<label><input type="radio" name="q87" value="0"> ส่วนราชการต้องจัดให้มีการติดตาม และประเมินผลการปฏิบัติตามแผนปฏิบัติราชการ</label><br>
+<label><input type="radio" name="q87" value="0"> แผนปฏิบัติราช การสามารถปรับเปลี่ยนได้ เพื่อให้เกิดความเหมาะสม </label>
+
+<!-- 88 - 93 วิธีปฏิบัติราชการ  -->
+
+<div class="quiz">
+<br>ข้อ 88. <br>
+ข้อใดเป็นคำสั่งทางปกครอง<br>
+</div>
+
+<label><input type="radio" name="q88" value="0"> ประกาศผลการเลือกตั้ง ของ ก.ก.ต.</label><br>
+<label><input type="radio" name="q88" value="0"> หมายเรียกของพนักงานสอบสวนหรือพนักงานฝ่ายปกครอง</label><br>
+<label><input type="radio" name="q88" value="1"> ประกาศรายชื่อผู้ได้รับการบรรจุแต่งตั้ง ของสำนักงานอัยการสูงสุด </label><br>
+<label><input type="radio" name="q88" value="0"> มติคณะกรรมการ ป.ป.ช. ชี้มูลความผิดคดีสำคัญ กรณีเกี่ยวกับการกระทำความผิดต่อหน้าที่ราชการ </label>
+
+<div class="quiz">
+<br>ข้อ 89. <br>
+ข้อใด <strong>ไม่ใช่</strong> คำสั่งทางปกครอง<br>
+</div> 
+<label><input type="radio" name="q89" value="0"> ประกาศผลการสอบคัดเลือกลูกจ้างชั่วคราว</label><br>
+<label><input type="radio" name="q89" value="0"> การสั่งให้นิติบุคคลเป็นผู้ทิ้งงาน</label><br>
+<label><input type="radio" name="q89" value="0"> ใบอนุญาตขับขี่รถจักรยานยนต์</label><br>
+<label><input type="radio" name="q89" value="1"> เทศบัญญัติ ของเทศบาลตำบล เรื่องการกำจัดสิ่งปฏิกูล </label>
+
+
+<div class="quiz">
+<br>ข้อ 90. <br>
+ข้อใด <u>มิได้ถูกกล่าวถึง</u> ในพระราชบัญญัติวิธีปฏิบัติราชการทางปกครอง พ.ศ.2539 <br>
+<small>(ข้อสอบเสมือนจริง Paper 2 ก.ค. 66 บ่าย) </small><br>
+</div>
+
+<label><input type="radio" name="q90" value="0"> การเพิกถอนคําสั่งทางปกครอง </label><br>
+<label><input type="radio" name="q90" value="0"> สํานักงานคณะกรรมการกฤษฎีกา</label><br>
+<label><input type="radio" name="q90" value="1"> การบริหารกิจการบ้านเมืองที่ดี </label><br>
+<label><input type="radio" name="q90" value="0"> การพิจารณาทางปกครอง</label>
+
+<div class="quiz">
+<br>ข้อ 91. <br>
+ข้อใด กล่าวถูกต้องที่สุด เกี่ยวกับสิ่งที่ต้องคำนึงถึง ในการเพิกถอนคําสั่งทางปกครองที่ไม่ชอบด้วยกฎหมาย ซึ่งเป็นการให้เงิน หรือให้ทรัพย์สินหรือให้ประโยชน์ ที่อาจแบ่งแยกได้ <br>
+<br>
+</div>
+
+<label><input type="radio" name="q91" value="0">  ประโยชน์สาธารณะ</label><br>
+<label><input type="radio" name="q91" value="0">  ความเชื่อโดยสุจริต ของคู่กรณี</label><br>
+<label><input type="radio" name="q91" value="0"> ความเชื่อโดยสุจริต ของผู้รับประโยชน์  </label><br>
+<label><input type="radio" name="q91" value="1"> ข้อ 1 และข้อ 3 </label>
+
+
+<div class="quiz">
+<br>ข้อ 92. <br>
+ในกรณีที่คำสั่งทางปกครองใด ไม่ได้ออกโดยรัฐมนตรี และไม่มีกฎหมาย กำหนดขั้นตอนอุทธรณ์ ภายในฝ่ายปกครอง ไว้เป็นการเฉพาะ ให้คู่กรณีอุทธรณ์ คำสั่งทางปกครองนั้น โดยยื่นต่อเจ้าหน้าที่ ผู้ทำคำสั่งทางปกครองภายในกี่วัน นับแต่วันที่ตนได้รับแจ้งคำสั่งดังกล่าว<br>
+</div>
+
+<label><input type="radio" name="q92" value="0"> เจ็ดวัน</label><br>
+<label><input type="radio" name="q92" value="1"> สิบห้าวัน </label><br>
+<label><input type="radio" name="q92" value="0"> สามสิบวัน</label><br>
+<label><input type="radio" name="q92" value="0"> สี่สิบห้าวัน</label>
+
+<div class="quiz">
+<br>ข้อ 93. <br>
+ข้อใดกล่าวถูกต้อง ในกรณีที่ผู้อยู่ในบังคับของมาตรการบังคับทางปกครองตาย 
+<br>
+</div>
+
+<label><input type="radio" name="q93" value="0"> คำสั่งทางปกครองนั้น ถือเป็นสิ้นสุด</label><br>
+<label><input type="radio" name="q93" value="0"> ระยะเวลาอุทธรณ์การใช้มาตรการบังคับทางปกครอง นับต่อไป ในกรณีที่การตายนั้นเป็นการตายก่อนสิ้นสุดระยะเวลาอุทธรณ์การใช้มาตรการบังคับทางปกครอง และไม่ได้ยื่นอุทธรณ์การใช้มาตรการบังคับทางปกครอง</label><br>
+<label><input type="radio" name="q93" value="1">ให้ดำเนินการบังคับทางปกครองต่อไปได้  </label><br>
+<label><input type="radio" name="q93" value="0"> ข้อ 2 และข้อ 3</label>
+
+
+
+<!-- 94 - 96 มาตรฐานจริยธรรม  -->
+<!-- https://docs.google.com/document/d/1tICNakcz7j7zgzI93mWWmFy7OCbknv0tJnMb0MTCbpU/edit  -->
+
+<div class="quiz">
+<br>ข้อ 94. <br>
+ข้อใดมิใช่ “องค์กรกลางบริหารงานบุคคล” ตามพระราชบัญญัติมาตรฐานทางจริยธรรม พ.ศ. 2562 <br>
+(ข้อสอบเสมือนจริง Paper 2 ก.ค. 66 รอบบ่าย) 
+</div>
+
+<label><input type="radio" name="q94" value="1"> คณะกรรมการพัฒนาและส่งเสริมองค์การมหาชน  </label><br>
+<label><input type="radio" name="q94" value="0"> คณะกรรมการข้าราชการตํารวจ </label><br>
+<label><input type="radio" name="q94" value="0"> คณะกรรมการมาตรฐานการบริหารงานบุคคล ส่วนท้องถิ่น</label><br>
+<label><input type="radio" name="q94" value="0"> คณะกรรมการกลางบริหารงานบุคคล ของเจ้าหน้าที่ของรัฐในฝ่ายบริหาร</label>
+
+
+<div class="quiz">
+<br>ข้อ 95. <br>
+ข้อใดมิใช่ “หน่วยงานของรัฐ” ตามพระราชบัญญัติมาตรฐานทางจริยธรรม พ.ศ. 2562 <br>
+<br>
+</div>
+
+<label><input type="radio" name="q95" value="0"> ราชการส่วนท้องถิ่น </label><br>
+<label><input type="radio" name="q95" value="0"> รัฐวิสาหกิจ</label><br>
+<label><input type="radio" name="q95" value="0"> องค์การมหาชน</label><br>
+<label><input type="radio" name="q95" value="1"> หน่วยงานธุรการของรัฐสภา</label><br>
+
+
+
+<div class="quiz">
+<br>ข้อ 96. <br>
+ให้บริการด้วยความเต็มใจ ยิ้มแย้มแจ่มใส รักษาประโยชน์ และเคารพศักดิ์ศรีของทุกคน จัดอยู่ในมาตรฐานทางจริยธรรม ด้านใด<br>
+</div>
+
+<label><input type="radio" name="q96" value="1"> ปฏิบัติหน้าที่อย่างเป็นธรรม และไม่เลือกปฏิบัติ </label><br>
+<label><input type="radio" name="q96" value="0"> ดำรงตนเป็นแบบอย่างที่ดี และรักษาภาพลักษณ์ของทางราชการ </label><br>
+<label><input type="radio" name="q96" value="0"> ซื่อสัตย์ สุจริต มีจิตสำนึกที่ดีและรับผิดชอบต่อหน้าที่</label><br>
+<label><input type="radio" name="q96" value="0"> คิดถึงประโยชน์ส่วนรวม มากกว่าประโยชน์ส่วนตัว และมีจิตสาธารณะ</label>
+
+<!-- 97 - 98 ความรับผิดทางละเมิด  -->
+
+<div class="quiz">
+<br>ข้อ 97. <br>
+ผู้เสียหายมีสิทธิฟ้องคดีต่อผู้ใด ในกรณีเจ้าหน้าที่ได้กระทำละเมิดในการปฏิบัติหน้าที่ 
+
+<br>
+</div>
+
+<label><input type="radio" name="q97" value="1">  หน่วยงานของรัฐ </label><br>
+<label><input type="radio" name="q97" value="0">  เจ้าหน้าที่ </label><br>
+<label><input type="radio" name="q97" value="0"> กรมบัญชีกลาง </label><br>
+<label><input type="radio" name="q97" value="0"> ข้อ 1 หรือ ข้อ 2</label>
+
+
+<div class="quiz">
+<br>ข้อ 98. <br>
+ข้อใดไม่ใช่เหตุผลในการตรา พระราชบัญญัติความรับผิดทางละเมิดของเจ้าหน้าที่ พ.ศ. 2539  <br>
+</div>
+
+<label><input type="radio" name="q98" value="0"> เพื่อให้ความเป็นธรรมต่อเจ้าหน้าที่ผู้ปฏิบัติงานในหน้าที่ราชการ </label><br>
+<label><input type="radio" name="q98" value="0"> เพื่อสร้างขวัญกำลังใจให้เจ้าหน้าที่ผู้ปฏิบัติงานในหน้าที่ราชการ </label><br>
+<label><input type="radio" name="q98" value="0"> เพื่อเพิ่มประสิทธิภาพในการปฏิบัติงานรัฐ</label><br>
+<label><input type="radio" name="q98" value="1"> เพื่อนำหลักเรื่องลูกหนี้ร่วม มาใช้บังคับ แก่เจ้าหน้าที่ ที่กระทำผิด  </label>
+
+
+<!-- 99 - 100 กฎหมายอาญา  -->
+
+<div class="quiz">
+<br>ข้อ 99. <br>
+ความผิดในข้อใด มีโทษร้ายแรงถึงประหารชีวิต<br>
+</div>
+
+<label><input type="radio" name="q99" value="0"> สมาชิกสภาเทศบาล เรียก รับ หรือยอมจะรับทรัพย์สิน หรือประโยชน์อื่นใดสำหรับตนเองหรือผู้อื่นโดยมิชอบ</label><br>
+<label><input type="radio" name="q99" value="0"> เจ้าพนักงาน ใช้อำนาจในตำแหน่งโดยมิชอบ ข่มขืนใจหรือจูงใจเพื่อให้บุคคลใด มอบให้ หรือหามาให้ ซึ่งทรัพย์สินหรือ ประโยชน์อื่นใดแก่ตนเองหรือผู้อื่น</label><br>
+<label><input type="radio" name="q99" value="0"> เจ้าพนักงาน ปฏิบัติหรือละเว้นการปฏิบัติหน้าที่โดยมิชอบ เพื่อให้เกิดความเสียหายแก่ผู้หนึ่งผู้ใด หรือปฏิบัติ หรือละเว้นการปฏิบัติหน้าที่โดยทุจริต</label><br>
+<label><input type="radio" name="q99" value="1">ข้อ 1 และ ข้อ 2 </label>
+
+
+<div class="quiz">
+ข้อ 100. <br>
+เจ้าพนักงานที่ดิน ซึ่งมีหน้าที่รับเรื่องราวจดทะเบียน และทำนิติกรรมเกี่ยวกับที่ดินแก่ราษฎร ได้เรียกเก็บค่าธรรมเนียมการทำนิติกรรมซื้อขายที่ดิน เกินกว่าที่กฎหมายกำหนด และเก็บเอาส่วนเกินไว้ จะมีความผิดฐานใด<br>
+</div>
+
+<label><input type="radio" name="q100" value="0"> เจ้าพนักงาน มีหน้าที่ซื้อ ทำ จัดการหรือรักษาทรัพย์ใด เบียดบังทรัพย์นั้นเป็นของตน หรือเป็นของผู้อื่นโดยทุจริต (มาตรา ๑๔๗)</label><br>
+<label><input type="radio" name="q100" value="0"> เจ้าพนักงาน มีหน้าที่ซื้อ ทำ จัดการหรือรักษาทรัพย์ใด ๆ ใช้อำนาจในตำแหน่งโดยทุจริต อันเป็นการเสียหายแก่รัฐ (มาตรา ๑๕๑)</label><br>
+<label><input type="radio" name="q100" value="0"> เจ้าพนักงาน กระทำการหรือไม่กระทำการอย่างใดในตำแหน่งโดยเห็นแก่ทรัพย์สินหรือประโยชน์อื่นใด ซึ่งตนได้เรียกรับ (มาตรา ๑๕๐)</label><br>
+<label><input type="radio" name="q100" value="1"> เจ้าพนักงาน เรียก รับ หรือยอมจะรับทรัพย์สิน หรือประโยชน์อื่นใดสำหรับตนเอง หรือผู้อื่นโดยมิชอบ เพื่อกระทำการหรือไม่กระทำการอย่างใดในตำแหน่งไม่ว่าการนั้นจะชอบหรือมิชอบด้วยหน้าที่ (มาตรา ๑๔๙)</label>
+
+
+</div>  <!-- end of quiz_law  -->
+<!-- =================== END OF LAW ================  -->
+
+<br>
+<div style="text-align: center"><!-- div for bttn  -->
+<input type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+</div>  <!-- end of div for bttn  -->
+<br><br>
+
+</div>  <!--  end of div content  -->
+
+  <script src="full_exam_3_hrs.js" type="text/javascript" language="JavaScript"></script>
+
+
+ </body>
+</html>

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="whereToBegin" style="display:none">0</div>
+
+<!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <strong>เตรียมสอบ ก.พ.</strong>
+        </div>
+        <div class="modal-body">
+            <p id="myMessage">Place holder for text..</p>
+            <input type="button" value="เริ่มใหม่" onclick="startOver();" />
+            <input style="float: right;" type="button" value="ทำต่อ" onclick="goCont();"/>
+        </div>
+        <div class="modal-footer">
+            https://www.thongjoon.com
+        </div>
+    </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<a name="conver_1"></a>
+
+<div class="upper" id="myPsgeDIV">
+    <div id="top">
+        <small>Conversation #13 is intentionally omitted. Number 13 is thought to be unlucky.</small><br>
+        <strong>คำสั่ง:</strong> ให้ท่านเลือกข้อที่ถูกที่สุด<br><br>
+
+        <div id="a_lng_Psg1_q_number">
+            <div class="isNew">id1706237588:date1669610079</div>
+            <strong>สำหรับ ข้อ1-5</strong><br><br>
+            <div class="conver_container">
+                <div class="item">Waiter: </div>
+                <div class="item">Hello. ___(1)___</div>
+                <div class="item">Customer: </div>
+                <div class="item">Yes, I would like to have some lunch.</div>
+                <div class="item">Waiter: </div>
+                <div class="item">Great! Can I take your order now?</div>
+                <div class="item">Customer: </div>
+                <div class="item">Yes, ___(2)____. Is the spicy soup good?</div>
+                <div class="item">Waiter:</div>
+                <div class="item">Yes, it’s very good.</div>
+                <div class="item">Customer:</div>
+                <div class="item">____(3)___.</div>
+                <div class="item">Customer:</div>
+                <div class="item">I’ll have a small Coke, please.</div>
+                <div class="item">Waiter:</div>
+                <div class="item">___(4)___ I can do for you?</div>
+                <div class="item">Customer:</div>
+                <div class="item">Yes, I’d like a dessert____(5)____?</div>
+                <div class="item">Waiter:</div>
+                <div class="item">Chocolate Banana Ice Cream is our specialty.</div>
+                <div class="item">Customer:</div>
+                <div class="item">Okay, I’ll have one.</div>
+            </div>
+
+            <div class="isNew">id1706237590:date1669610079</div>
+            <br><strong>สำหรับ ข้อ6-10</strong><br><br>
+            <div class="conver_container">
+                <div class="item">Peter: </div>
+                <div class="item">Hi Sam, how have you been? ____(6)____ <div class="tooltip">lately<span class="tooltiptext">lately=เมื่อเร็ว ๆ นี้</span></div>.</div>
+                <div class="item">Sam: </div>
+                <div class="item">Good, thanks. Actually, I have been working and <div class="tooltip">traveling<span class="tooltiptext">traveling=การเดินทาง</span></div> a lot.</div>
+                <div class="item">Peter:</div>
+                <div class="item">Last time we met, you had just started your new job at a multinational company. So, ___(7)____?</div>
+                <div class="item">Sam:</div>
+                <div class="item">As a <div class="tooltip">human resources manager<span class="tooltiptext">human=มนุษย์, resource=ทรัพยากร, manager=ผู้จัดการ<br>ผู้จัดการด้านทรัพยากรมนุษย์</span></div>, I have to work with many office managers and international offices to <div class="tooltip">develop<span class="tooltiptext">develop=พัฒนา</span></div> and <div class="tooltip">deal<span class="tooltiptext">deal=จัดการ</span></div> with the human resources <div class="tooltip">process<span class="tooltiptext">process=ขั้นตอน</span></div> and <div class="tooltip">procedures<span class="tooltiptext">procedures=กระบวนการ</span></div>.</div>
+                <div class="item">Peter:</div>
+                <div class="item">That sounds <div class="tooltip">interesting<span class="tooltiptext">interesting=น่าสนใจ</span></div>. I think your <div class="tooltip">previous experience<span class="tooltiptext">previous=เมื่อก่อน experience=ประสบการณ์</span></div> can help you a lot.</div>
+                <div class="item">Sam:</div>
+                <div class="item">Yes, ___(8)___. But there are a lot of new things here. Though I am not <div class="tooltip">totally<span class="tooltiptext">totally=อย่างสิ้นเชิง <br>total=ทั้งหมด</span></div> new in this field, ____(9)_____ in <div class="tooltip">multinational<span class="tooltiptext">multinational=นานาชาติ</span></div> company before. I have to learn about human resources technologies and <div class="tooltip">cultural diversity<span class="tooltiptext">cultural diversity=ความหลากหลายด้านวัฒนธรรม<br> cultural=วัฒนธรรม, diversity=หลากหลาย </span></div>.</div>
+                <div class="item">Peter:</div>
+                <div class="item">It is a ___(10)____ <div class="tooltip">opportunity<span class="tooltiptext">opportunity=โอกาส</span></div>. It's going to be OK.</div>
+            </div>
+
+            <div class="isNew">id1706237595:date1669610079</div>
+            <br>
+            <strong>สำหรับข้อ 11-15</strong><br>
+            ข้อสอบเสมือนจริง (2562) <br><br>
+            Situation: Job interview<br><br>
+
+            <div class="conver_container">
+                <div class="item">David: </div>
+                <div class="item">Good morning, Miss Lee. My name is David Fort. I am the Marketing Department Manager. Please <div class="tooltip">have a seat<span class="tooltiptext">have a seat=นั่งลง</span></div>. (11)</div>
+                <div class="item">Miss Lee:  </div>
+                <div class="item">Thank you, sir. …..(11)….. </div>
+                <div class="item">David: </div>
+                <div class="item">Nice to meet you too. First of all, could you please ……(12)……? </div>
+                <div class="item">Miss Lee: </div>
+                <div class="item">I <div class="tooltip">graduated<span class="tooltiptext">graduated=จบการศึกษา</span></div> from Lancaster University with master's degree in marketing. I used to work part-time as a market <div class="tooltip">research assistant<span class="tooltiptext">research assistant=ผู้ช่วยวิจัยการตลาด</span></div> in an <div class="tooltip">insurance company<span class="tooltiptext">insurance company=บริษัทประกันภัย</span></div>. I was a market researcher at DDD bank before applying for this job. </div>
+                <div class="item">David: </div>
+                <div class="item">I am very <div class="tooltip">impressed<span class="tooltiptext">impressed=ประทับใจ</span></div> with your <div class="tooltip">resume<span class="tooltiptext">resume=ประวัติย่อ</span></div>. <div class="tooltip">I just wonder<span class="tooltiptext">I just wonder=ผมแค่อยากรู้</span></div> …..(13)….. </div>
+                <div class="item">Miss Lee: </div>
+                <div class="item">Honestly, I want to <div class="tooltip">gain more experience<span class="tooltiptext">gain more experience=ได้รับประสบการณ์เพิ่มเติม</span></div> in a bigger <div class="tooltip">organization<span class="tooltiptext">organization=องค์กร</span></div>. </div>
+                <div class="item">David: </div>
+                <div class="item">I see. So, what skills or talents do you have that will be <div class="tooltip">beneficial<span class="tooltiptext">beneficial=เป็นประโยชน์</span></div> for your position here as a market researcher? </div>
+                <div class="item">Miss Lee: </div>
+                <div class="item">…..(14)….. </div>
+                <div class="item">David: </div>
+                <div class="item">That's good to hear. …..(15)…..? </div>
+                <div class="item">Miss Lee: </div>
+                <div class="item">No, not at all. <div class="tooltip">Working overtime<span class="tooltiptext">Working overtime=การทำงานล่วงเวลา</span></div> is fine with me. </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="lower" id="myQstnDIV">
+        <div style="display: flex; align-items: center; justify-content: flex-end;">
+            <img src="images/grok_logo.png" width="16" height="15" alt="Grok Logo">
+            <span style="font-size: small; margin-left: 5px;">Grok สร้างตัวเลือก เฉลย และอธิบาย</span>
+        </div>
+    <!-- ข้อ 1. -->
+    <form action="#">
+        <div class="question_num" id="a_lng_Psg1_q_number_1"><strong>ข้อ 1.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Welcome to our restaurant. Would you like to see the menu?</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. What do you want to eat today?</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q1" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Are you ready to order now?</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Do you have a reservation?</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_01" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_01')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q1" class="explanation" style="display:none">
+            พนักงานเสิร์ฟกำลังทักทายลูกค้าในตอนเริ่มบทสนทนา การทักทายที่สุภาพและต้อนรับพร้อมเสนอเมนูอาหารเหมาะสม<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. Welcome to our restaurant. Would you like to see the menu?</strong><br>
+            ข้อนี้สุภาพ ต้อนรับลูกค้า และนำไปสู่คำตอบของลูกค้าที่ต้องการสั่งอาหารกลางวันได้อย่างเป็นธรรมชาติ<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: ตรงไปเกินไปและดูไม่สุภาพสำหรับการทักทายครั้งแรก เพราะข้ามขั้นตอนการต้อนรับ<br>
+            - ตัวเลือก 3: สมมติว่าลูกค้าพร้อมสั่งอาหารแล้ว ซึ่งเร็วเกินไปในขั้นตอนนี้<br>
+            - ตัวเลือก 4: การถามเรื่องการจองโต๊ะไม่เกี่ยวข้อง เพราะลูกค้ามานั่งแล้วและบริบทไม่บ่งชี้ว่าต้องจอง<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q1', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_01','yes', '1608958085','a_lng_Psg1_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_1" onclick="show_hide_LngPsg('lgThPsge1_q1', 'lngPsg_1', 'a_lng_Psg1_q_number_1', 'yes', '1608958085'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 2. -->
+    <form action="#">
+        <div class="question_num" id="a_lng_Psg1_q_number_2"><strong>ข้อ 2.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. I’d like to order now</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Can you bring the menu?</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. What’s the special today?</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. I’m not ready yet</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_02" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_02')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q2" class="explanation" style="display:none">
+            ลูกค้าตอบสนองต่อข้อเสนอของพนักงานเสิร์ฟที่พร้อมรับออร์เดอร์ และถามเกี่ยวกับซุปรสเผ็ด ซึ่งแสดงถึงความพร้อมในการสั่งอาหาร<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. I’d like to order now</strong><br>
+            ข้อนี้ยืนยันความตั้งใจของลูกค้าที่จะสั่งอาหาร ซึ่งสอดคล้องกับการถามเกี่ยวกับซุป<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: การขอเมนูไม่จำเป็น เพราะลูกค้าถามเกี่ยวกับเมนูเฉพาะแล้ว<br>
+            - ตัวเลือก 3: การถามเกี่ยวกับเมนูพิเศษไม่เกี่ยวข้องกับคำถามเกี่ยวกับซุปรสเผ็ด<br>
+            - ตัวเลือก 4: การบอกว่าไม่พร้อมขัดแย้งกับการที่ลูกค้าถามเกี่ยวกับเมนู<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q2', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_02','yes', '1608958085','a_lng_Psg1_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_2" onclick="show_hide_LngPsg('lgThPsge1_q2', 'lngPsg_2', 'a_lng_Psg1_q_number_2', 'yes', '1608958085'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 3. -->
+    <form action="#">
+        <div class="question_num" id="a_lng_Psg1_q_number_3"><strong>ข้อ 3.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. I’ll have the spicy soup, please</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Is it very spicy?</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. What else do you recommend?</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Can you make it quick?</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_03" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_03')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q3" class="explanation" style="display:none">
+            ลูกค้าถามเกี่ยวกับซุปรสเผ็ด และพนักงานเสิร์ฟยืนยันว่าอร่อย ขั้นตอนต่อไปที่สมเหตุสมผลคือการสั่งซุปนั้น<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. I’ll have the spicy soup, please</strong><br>
+            ข้อนี้ต่อเนื่องจากความสนใจของลูกค้าในซุปและสอดคล้องกับการสั่งโค้กต่อมา<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: การถามว่ารสเผ็ดมากแค่ไหนเป็นไปได้ แต่ไม่เข้ากับบริบท เพราะลูกค้าสั่งเครื่องดื่มต่อ<br>
+            - ตัวเลือก 3: การขอคำแนะนำเมนูอื่นเบี่ยงเบนจากความสนใจในซุป<br>
+            - ตัวเลือก 4: การขอให้ทำเร็วไม่เกี่ยวข้องกับบริบทของบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q3', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_03','yes','1608958086', 'a_lng_Psg1_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_3" onclick="show_hide_LngPsg('lgThPsge1_q3', 'lngPsg_3', 'a_lng_Psg1_q_number_3', 'yes','1608958086'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 4. -->
+    <form action="#">
+        <div class="question_num" id="a_lng_Psg1_q_number_4"><strong>ข้อ 4.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Is there anything else I can do for you?</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Would you like a large Coke?</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Do you want ice with that?</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Your order will be ready soon</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_04" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_04')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q4" class="explanation" style="display:none">
+            ลูกค้าสั่งโค้กแล้ว และพนักงานเสิร์ฟต้องถามว่าลูกค้าต้องการอะไรเพิ่มเติมหรือไม่<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. Is there anything else I can do for you?</strong><br>
+            ข้อนี้เป็นวิธีมาตรฐานในการถามถึงออร์เดอร์เพิ่มเติม ซึ่งตรงกับคำตอบของลูกค้าที่ต้องการของหวาน<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: การถามเกี่ยวกับขนาดของโค้กเฉพาะเจาะจงเกินไป ไม่ครอบคลุมการถามถึงเมนูอื่น<br>
+            - ตัวเลือก 3: การถามเรื่องน้ำแข็งเฉพาะเจาะจงเกินไปและไม่สอดคล้องกับคำขอกของหวาน<br>
+            - ตัวเลือก 4: การยืนยันว่าออร์เดอร์จะพร้อมเร็ว ๆ นี้ข้ามขั้นตอนการรับออร์เดอร์เพิ่ม<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q4', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_04','yes','1608958086', 'a_lng_Psg1_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_4" onclick="show_hide_LngPsg('lgThPsge1_q4', 'lngPsg_4', 'a_lng_Psg1_q_number_4', 'yes','1608958086'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 5. -->
+    <form action="#">
+        <div class="question_num" id="a_lng_Psg1_q_number_5"><strong>ข้อ 5.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. What desserts do you have?</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Is the ice cream good?</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Can you recommend a dessert?</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Do you have chocolate cake?</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_05" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_05')" style="display:none; cursor: pointer;">Correct answer: 3</div>
+        <div id="lgThPsge1_q5" class="explanation" style="display:none">
+            ลูกค้าต้องการของหวานและขอคำแนะนำจากพนักงานเสิร์ฟ ซึ่งนำไปสู่การแนะนำ Chocolate Banana Ice Cream<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 3. Can you recommend a dessert?</strong><br>
+            ข้อนี้กระตุ้นให้พนักงานเสิร์ฟแนะนำของหวานพิเศษได้โดยตรง<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 1: การขอรายการของหวานทั้งหมดไม่เฉพาะเจาะจงและไม่ตรงกับการแนะนำของพนักงาน<br>
+            - ตัวเลือก 2: การถามเกี่ยวกับไอศกรีมเฉพาะเจาะจงเกินไปและสมมติว่ารู้เมนูแล้ว<br>
+            - ตัวเลือก 4: การถามเกี่ยวกับเค้กช็อกโกแลตเฉพาะเจาะจงเกินไปและไม่สอดคล้องกับคำแนะนำ<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q5', 'ตัวเลือก ข้อ 3', 'lngThPsge1_ans_05','yes','1608958086','a_lng_Psg1_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_5" onclick="show_hide_LngPsg('lgThPsge1_q5', 'lngPsg_5', 'a_lng_Psg1_q_number_5', 'yes','1608958086'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 6. -->
+    <form action="#">
+        <div class="question_num" id="a_lng_Psg1_q_number_6"><strong>ข้อ 6.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q6" type="radio" value="ตัวเลือก ข้อ 1" /> 1. What have you been up to?</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q6" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Are you still working at the same place?</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q6" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Have you been traveling a lot?</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q6" type="radio" value="ตัวเลือก ข้อ 4" /> 4. How’s your family doing?</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_06" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_06')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q6" class="explanation" style="display:none">
+            ปีเตอร์กำลังคุยอัปเดตกับแซมและใช้คำว่า “lately” ซึ่งบ่งบอกถึงการถามเกี่ยวกับกิจกรรมล่าสุดทั่วไป<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. What have you been up to?</strong><br>
+            ข้อนี้เป็นคำถามที่กว้างและเป็นธรรมชาติ ซึ่งเหมาะกับบริบทและกระตุ้นให้แซมตอบเกี่ยวกับงานและการเดินทาง<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: เฉพาะเจาะจงเกินไป เพราะเน้นแค่เรื่องงาน แต่แซมพูดถึงทั้งงานและการเดินทาง<br>
+            - ตัวเลือก 3: สมมติว่าแซมเดินทาง ซึ่งเป็นส่วนหนึ่งของคำตอบแต่ไม่ใช่จุดเน้นของคำถาม<br>
+            - ตัวเลือก 4: การถามเกี่ยวกับครอบครัวไม่เกี่ยวข้องกับคำตอบของแซมเกี่ยวกับงานและการเดินทาง<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q6', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_06','yes','1608958086','a_lng_Psg1_q_number_6'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_6" onclick="show_hide_LngPsg('lgThPsge1_q6', 'lngPsg_6', 'a_lng_Psg1_q_number_6','yes','1608958086'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 7. -->
+    <form action="#">
+        <div class="question_num" id="a_lng_Psg1_q_number_7"><strong>ข้อ 7.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q7" type="radio" value="ตัวเลือก ข้อ 1" /> 1. How’s the job going?</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q7" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Have you been promoted yet?</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q7" type="radio" value="ตัวเลือก ข้อ 3" /> 3. What’s your salary like?</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q7" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Are you looking for a new job?</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_07" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_07')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q7" class="explanation" style="display:none">
+            ปีเตอร์พูดถึงงานใหม่ของแซมและถามถึงความคืบหน้า ซึ่งนำไปสู่คำตอบที่ละเอียดเกี่ยวกับหน้าที่ของแซม<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. How’s the job going?</strong><br>
+            ข้อนี้เป็นคำถามที่เป็นธรรมชาติและเปิดกว้าง ซึ่งเหมาะกับบริบทและกระตุ้นให้แซมอธิบายหน้าที่ของเขา<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: การถามเกี่ยวกับการเลื่อนตำแหน่งเฉพาะเจาะจงเกินไปและไม่เกี่ยวข้องกับคำตอบของแซม<br>
+            - ตัวเลือก 3: การถามเกี่ยวกับเงินเดือนไม่เหมาะสมและไม่มีในบริบทของบทสนทนา<br>
+            - ตัวเลือก 4: การถามเกี่ยวกับการหางานใหม่ขัดแย้งกับบริบทที่พูดถึงงานปัจจุบัน<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q7', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_07','yes','1608958086','a_lng_Psg1_q_number_7'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_7" onclick="show_hide_LngPsg('lgThPsge1_q7', 'lngPsg_7', 'a_lng_Psg1_q_number_7','yes','1608958086'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 8. -->
+    <form action="#">
+        <div class="question_num" id="a_lng_Psg1_q_number_8"><strong>ข้อ 8.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q8" type="radio" value="ตัวเลือก ข้อ 1" /> 1. my previous experience helps a lot</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q8" type="radio" value="ตัวเลือก ข้อ 2" /> 2. I’m still learning the ropes</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q8" type="radio" value="ตัวเลือก ข้อ 3" /> 3. the job is very challenging</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q8" type="radio" value="ตัวเลือก ข้อ 4" /> 4. I’ve worked in similar roles before</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_08" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_08')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q8" class="explanation" style="display:none">
+            ปีเตอร์แสดงความเห็นว่าประสบการณ์ก่อนหน้าของแซมช่วยได้มาก และแซมเห็นด้วยแต่พูดถึงความท้าทายใหม่ ๆ<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. my previous experience helps a lot</strong><br>
+            ข้อนี้ตอบรับความเห็นของปีเตอร์โดยตรงและนำไปสู่การพูดถึงด้านใหม่ของงาน<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: เน้นการเรียนรู้แต่ไม่ตอบรับความเห็นของปีเตอร์เกี่ยวกับประสบการณ์<br>
+            - ตัวเลือก 3: พูดถึงความท้าทายแต่ละเลยการพูดถึงประสบการณ์ก่อนหน้า<br>
+            - ตัวเลือก 4: ซ้ำความคิดเรื่องประสบการณ์แต่ไม่ยืนยันว่าช่วยได้มากอย่างชัดเจน<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q8', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_08','yes','1612854423','a_lng_Psg1_q_number_8'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_8" onclick="show_hide_LngPsg('lgThPsge1_q8', 'lngPsg_8', 'a_lng_Psg1_q_number_8','yes','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 9. -->
+    <form action="#">
+        <div class="question_num" id="a_lng_Psg1_q_number_9"><strong>ข้อ 9.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q9" type="radio" value="ตัวเลือก ข้อ 1" /> 1. I haven’t worked in a multinational company before</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q9" type="radio" value="ตัวเลือก ข้อ 2" /> 2. I’ve worked in several multinational companies</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q9" type="radio" value="ตัวเลือก ข้อ 3" /> 3. I’m familiar with multinational company culture</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q9" type="radio" value="ตัวเลือก ข้อ 4" /> 4. I prefer working in smaller companies</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_09" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_09')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q9" class="explanation" style="display:none">
+            แซมบอกว่าเขาไม่ใช่มือใหม่ในสาขานี้แต่ต้องเรียนรู้เกี่ยวกับบริษัทข้ามชาติ ซึ่งบ่งบอกว่าเขาไม่มีประสบการณ์ในบริษัทประเภทนี้มาก่อน<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. I haven’t worked in a multinational company before</strong><br>
+            ข้อนี้เหมาะกับบริบทที่แซมต้องเรียนรู้เกี่ยวกับกระบวนการและวัฒนธรรมของบริษัทข้ามชาติ<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: ขัดแย้งกับการบอกว่าเป็นครั้งแรกที่แซมทำงานในบริษัทข้ามชาติ<br>
+            - ตัวเลือก 3: สมมติว่าแซมคุ้นเคยกับวัฒนธรรมบริษัทข้ามชาติ ซึ่งแซมบอกว่าต้องเรียนรู้<br>
+            - ตัวเลือก 4: พูดถึงความชอบที่ไม่เกี่ยวข้องกับบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q9', 'ตัวเลือก ข้อ 1', 'lngThPsge1_q9','yes','1612854423','a_lng_Psg1_q_number_9'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_9" onclick="show_hide_LngPsg('lgThPsge1_q9', 'lngPsg_9', 'a_lng_Psg1_q_number_9','yes','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 10. -->
+    <form action="#">
+        <div class="question_num" id="a_lng_Psg1_q_number_10"><strong>ข้อ 10.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q10" type="radio" value="ตัวเลือก ข้อ 1" /> 1. great</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q10" type="radio" value="ตัวเลือก ข้อ 2" /> 2. challenging</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q10" type="radio" value="ตัวเลือก ข้อ 3" /> 3. difficult</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q10" type="radio" value="ตัวเลือก ข้อ 4" /> 4. temporary</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_010" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_010')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q10" class="explanation" style="display:none">
+            ปีเตอร์ตอบสนองในแง่บวกต่อความท้าทายใหม่ของแซม โดยเรียกมันว่า “opportunity” และให้กำลังใจเขา<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. great</strong><br>
+            คำคุณศัพท์แง่บวกนี้เหมาะกับน้ำเสียงที่ให้กำลังใจและบริบทของโอกาส<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: “challenging” ไม่ให้กำลังใจและไม่เหมาะกับน้ำเสียงที่สนับสนุน<br>
+            - ตัวเลือก 3: “difficult” เป็นแง่ลบและไม่สอดคล้องกับน้ำเสียงของปีเตอร์<br>
+            - ตัวเลือก 4: “temporary” ไม่เกี่ยวข้องและไม่มีในบริบท<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q10', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_010','yes','1612854423','a_lng_Psg1_q_number_10'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_10" onclick="show_hide_LngPsg('lgThPsge1_q10', 'lngPsg_10', 'a_lng_Psg1_q_number_10','yes','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 11. -->
+    <form action="#">
+        <div class="question_num" id="c_lng_Psg1_q_number_11"><strong>ข้อ 11.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q11" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Nice to meet you, Mr. Fort</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q11" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Thank you for having me</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q11" type="radio" value="ตัวเลือก ข้อ 3" /> 3. I’m ready to start</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q11" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Can we begin the interview?</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_011" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_011')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q11" class="explanation" style="display:none">
+            เดวิดแนะนำตัวและเชิญนั่ง และมิสลีตอบอย่างสุภาพ ซึ่งนำไปสู่คำพูดของเดวิดว่า “Nice to meet you too.”<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. Nice to meet you, Mr. Fort</strong><br>
+            ข้อนี้เป็นการตอบที่สุภาพและเป็นมืออาชีพ ซึ่งตรงกับคำตอบต่อมาของเดวิดและบริบทการสัมภาษณ์ที่เป็นทางการ<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: การขอบคุณที่เชิญมาสุภาพแต่ไม่เฉพาะเจาะจงเท่ากับการตอบรับการแนะนำตัว<br>
+            - ตัวเลือก 3: การบอกว่าพร้อมเริ่มงานเร็วเกินไปและไม่ใช่การตอบรับการทักทาย<br>
+            - ตัวเลือก 4: การขอเริ่มสัมภาษณ์ดูเร่งรัดเกินไปและไม่เหมาะกับการแลกเปลี่ยนที่สุภาพ<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q11', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_011','yes','1612854423','c_lng_Psg1_q_number_11'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_11" onclick="show_hide_LngPsg('lgThPsge1_q11', 'lngPsg_11', 'c_lng_Psg1_q_number_11','yes','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 12. -->
+    <form action="#">
+        <div class="question_num" id="c_lng_Psg1_q_number_12"><strong>ข้อ 12.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q12" type="radio" value="ตัวเลือก ข้อ 1" /> 1. tell me about yourself</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q12" type="radio" value="ตัวเลือก ข้อ 2" /> 2. explain why you want this job</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q12" type="radio" value="ตัวเลือก ข้อ 3" /> 3. describe your previous job</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q12" type="radio" value="ตัวเลือก ข้อ 4" /> 4. share your career goals</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_012" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_012')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q12" class="explanation" style="display:none">
+            เดวิดเริ่มการสัมภาษณ์และขอให้มิสลีเล่าถึงประวัติการศึกษาและการทำงานของเธอ<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. tell me about yourself</strong><br>
+            ข้อนี้เป็นคำถามสัมภาษณ์ทั่วไปที่กระตุ้นให้มิสลีตอบเกี่ยวกับการศึกษาและประสบการณ์ทำงาน<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: การถามเกี่ยวกับแรงจูงใจมาในภายหลัง ตามที่เห็นในข้อ 13<br>
+            - ตัวเลือก 3: เฉพาะเจาะจงเกินไป เพราะเน้นแค่งานก่อนหน้า แต่มิสลีพูดถึงทั้งการศึกษาและงาน<br>
+            - ตัวเลือก 4: การถามเกี่ยวกับเป้าหมายอาชีพไม่สอดคล้องกับคำตอบเกี่ยวกับประสบการณ์ที่ผ่านมา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q12', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_012','yes','1612854423','c_lng_Psg1_q_number_12'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_12" onclick="show_hide_LngPsg('lgThPsge1_q12', 'lngPsg_12', 'c_lng_Psg1_q_number_12','yes','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 13. -->
+    <form action="#">
+        <div class="question_num" id="c_lng_Psg1_q_number_13"><strong>ข้อ 13.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q13" type="radio" value="ตัวเลือก ข้อ 1" /> 1. why did you apply for this position?</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q13" type="radio" value="ตัวเลือก ข้อ 2" /> 2. what are your salary expectations?</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q13" type="radio" value="ตัวเลือก ข้อ 3" /> 3. how did you hear about this job?</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q13" type="radio" value="ตัวเลือก ข้อ 4" /> 4. what do you know about our company?</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_013" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_013')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q13" class="explanation" style="display:none">
+            เดวิดประทับใจกับประวัติของมิสลีและสงสัยเกี่ยวกับแรงจูงใจ ซึ่งนำไปสู่คำตอบเกี่ยวกับการได้รับประสบการณ์เพิ่มเติม<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. why did you apply for this position?</strong><br>
+            คำถามนี้กระตุ้นให้มิสลีตอบถึงเหตุผลที่สมัครงาน ซึ่งคือการได้รับประสบการณ์ในองค์กรที่ใหญ่ขึ้น<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: ความคาดหวังเรื่องเงินเดือนไม่เกี่ยวข้องกับคำตอบเกี่ยวกับประสบการณ์<br>
+            - ตัวเลือก 3: การถามว่ารู้จักงานนี้จากที่ไหนไม่เกี่ยวข้องกับแรงจูงใจ<br>
+            - ตัวเลือก 4: การถามเกี่ยวกับความรู้ของบริษัทไม่เกี่ยวข้องกับเป้าหมายที่ระบุ<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q13', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_013','yes','1612854423','c_lng_Psg1_q_number_13'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_13" onclick="show_hide_LngPsg('lgThPsge1_q13', 'lngPsg_13', 'c_lng_Psg1_q_number_13','yes','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 14. -->
+    <form action="#">
+        <div class="question_num" id="c_lng_Psg1_q_number_14"><strong>ข้อ 14.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q14" type="radio" value="ตัวเลือก ข้อ 1" /> 1. I have strong analytical skills and experience in market research</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q14" type="radio" value="ตัวเลือก ข้อ 2" /> 2. I’m very good at managing teams</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q14" type="radio" value="ตัวเลือก ข้อ 3" /> 3. I have excellent presentation skills</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q14" type="radio" value="ตัวเลือก ข้อ 4" /> 4. I’m proficient in financial analysis</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_014" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_014')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q14" class="explanation" style="display:none">
+            เดวิดถามเกี่ยวกับทักษะที่เป็นประโยชน์สำหรับตำแหน่งนักวิจัยการตลาด และคำตอบของมิสลีควรสอดคล้องกับประวัติของเธอ<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. I have strong analytical skills and experience in market research</strong><br>
+            ข้อนี้ตรงกับประสบการณ์ของเธอในฐานะผู้ช่วยวิจัยการตลาดและนักวิจัย ซึ่งเกี่ยวข้องโดยตรงกับตำแหน่ง<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: การจัดการทีมไม่มีการกล่าวถึงในประวัติของเธอและไม่เกี่ยวข้องกับตำแหน่ง<br>
+            - ตัวเลือก 3: ทักษะการนำเสนอไม่มีการเน้นในประสบการณ์ของเธอ<br>
+            - ตัวเลือก 4: การวิเคราะห์ทางการเงินไม่เกี่ยวข้องกับการวิจัยการตลาดในบริบทนี้<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q14', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_014','yes','1612854423','c_lng_Psg1_q_number_14'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_14" onclick="show_hide_LngPsg('lgThPsge1_q14', 'lngPsg_14', 'c_lng_Psg1_q_number_14','yes','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+
+    <!-- ข้อ 15. -->
+    <form action="#">
+        <div class="question_num" id="c_lng_Psg1_q_number_15"><strong>ข้อ 15.</strong></div>
+        <div class="question_content"></div>
+        <div class="clear"></div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q15" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Do you mind working overtime?</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q15" type="radio" value="ตัวเลือก ข้อ 2" /> 2. When can you start?</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q15" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Are you willing to travel for work?</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q15" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Do you prefer a flexible schedule?</label></div>
+        </div>
+        <div class="clear"></div>
+        <div id="lngThPsge1_ans_015" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_015')" style="display:none; cursor: pointer;">Correct answer: 1</div>
+        <div id="lgThPsge1_q15" class="explanation" style="display:none">
+            เดวิดถามคำถามที่กระตุ้นให้มิสลีตอบว่าเธอไม่รังเกียจทำงานล่วงเวลา<br><br>
+            <strong>ตัวเลือกที่ถูกต้อง: 1. Do you mind working overtime?</strong><br>
+            ข้อนี้ตรงกับคำตอบของมิสลีที่บอกว่าการทำงานล่วงเวลาไม่เป็นปัญหา<br><br>
+            <strong>ทำไมตัวเลือกอื่นไม่ถูกต้อง:</strong><br>
+            - ตัวเลือก 2: การถามเกี่ยวกับวันที่เริ่มงานไม่เกี่ยวข้องกับการทำงานล่วงเวลา<br>
+            - ตัวเลือก 3: ความพร้อมในการเดินทางเพื่อทำงานไม่มีการกล่าวถึงในคำตอบ<br>
+            - ตัวเลือก 4: ตารางเวลาที่ยืดหยุ่นไม่เกี่ยวข้องกับการพูดถึงการทำงานล่วงเวลา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q15', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_015','yes','1612854423','c_lng_Psg1_q_number_15'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngPsg_15" onclick="show_hide_LngPsg('lgThPsge1_q15', 'lngPsg_15', 'c_lng_Psg1_q_number_15','yes','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <br>
+    <div class="clear_after_item"></div>
+</div>
+
+<script src="long_psge_check_feedback.js"></script>
+</body>
+</html>

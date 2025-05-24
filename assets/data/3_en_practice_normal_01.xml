@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- 1 -->
+  <thisQuestion>
+    <qNum>id02192:date1627453500</qNum>
+    <question>
+Instruction: Select the most appropriate choice for each item. (Q1 - Q5)
+&lt;br /&gt;&lt;br /&gt;Interviewer: Good afternoon, please have a seat.&lt;br /&gt;
+Interviewee: (1) _________.&lt;br /&gt;
+Interviewer: How are you doing?&lt;br /&gt;
+Interviewee: I’m fine, thank you.&lt;br /&gt;
+Interviewer: (2) _________?&lt;br /&gt;
+Interviewee: No, sir, I had no trouble at all.&lt;br /&gt;
+Interviewer: Could you tell me a little about your (3) _________?&lt;br /&gt;
+Interviewee: I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.&lt;br /&gt;
+Interviewer: Any post-graduate degrees?&lt;br /&gt;
+Interviewee: Yes, I enrolled in NYU’s master program for journalism and (4) _________.&lt;br /&gt;
+Interviewer: How about your (5) _________?&lt;br /&gt;
+Interviewee: After I left NYU, I worked for a year at the Cincinnati Daily.&lt;br /&gt;&lt;br /&gt;
+ 
+&lt;b&gt;Q1&lt;/b&gt; : (please use conversation above)&lt;br /&gt;
+	</question>
+    <choice_A>Yes, please.</choice_A>
+    <choice_B>Thank you.</choice_B>
+    <choice_C>With pleasure.</choice_C>
+    <choice_D>Sit down, please.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+Instruction: Select the most appropriate choice for each item. (Q1 - Q5)
+&lt;br /&gt;&lt;br /&gt;Interviewer: Good afternoon, please have a seat.&lt;br /&gt;
+Interviewee: (1) _________.&lt;br /&gt;
+Interviewer: How are you doing?&lt;br /&gt;
+Interviewee: I’m fine, thank you.&lt;br /&gt;
+Interviewer: (2) _________?&lt;br /&gt;
+Interviewee: No, sir, I had no trouble at all.&lt;br /&gt;
+Interviewer: Could you tell me a little about your (3) _________?&lt;br /&gt;
+Interviewee: I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.&lt;br /&gt;
+Interviewer: Any post-graduate degrees?&lt;br /&gt;
+Interviewee: Yes, I enrolled in NYU’s master program for journalism and (4) _________.&lt;br /&gt;
+Interviewer: How about your (5) _________?&lt;br /&gt;
+Interviewee: After I left NYU, I worked for a year at the Cincinnati Daily.&lt;br /&gt;&lt;br /&gt;
+ 
+&lt;b&gt;Q1&lt;/b&gt; : (please use conversation above)&lt;br /&gt;&lt;br /&gt;
+
+	Please have a seat. เป็นการบอกให้นั่งอย่างสุภาพ seat = ที่นั่ง เราต้องขอบคุณทันที เพราะเป็นมารยาทที่ดี&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Yes, please.&lt;br /&gt;
+ใช้สำหรับตอบรับพร้อมกับขอบคุณ เช่น&lt;br /&gt;
+A: Would you like some coffee?&lt;br /&gt;
+B: Yes, please.&lt;br /&gt;&lt;br /&gt;
+
+b. Thank you. ✔&lt;/b&gt;&lt;br /&gt;
+
+c. With pleasure.&lt;br /&gt;
+With pleasure. ใช้สำหรับตอบรับ เมื่อมีการขอร้องให้เราทำอะไรให้ และเราตอบว่า ยินดีทำให้ เช่น &lt;br /&gt;
+A: Can you buy me some milk when you go to the supermarket?&lt;br /&gt;
+B: With pleasure.&lt;br /&gt;&lt;br /&gt;
+
+d. Sit down, please.&lt;br /&gt;
+กรุณานั่งลง&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 2 -->
+  <thisQuestion>
+    <qNum>id02193:date1627453500</qNum>
+    <question>
+Instruction: Select the most appropriate choice for each item. (Q1 - Q5)&lt;br /&gt;&lt;br /&gt;
+Interviewer: Good afternoon, please have a seat.&lt;br /&gt;
+Interviewee: (1) _________.&lt;br /&gt;
+Interviewer: How are you doing?&lt;br /&gt;
+Interviewee: I’m fine, thank you.&lt;br /&gt;
+Interviewer: (2) _________?&lt;br /&gt;
+Interviewee: No, sir, I had no trouble at all.&lt;br /&gt;
+Interviewer: Could you tell me a little about your (3) _________?&lt;br /&gt;
+Interviewee: I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.&lt;br /&gt;
+Interviewer: Any post-graduate degrees?&lt;br /&gt;
+Interviewee: Yes, I enrolled in NYU’s master program for journalism and (4) _________.&lt;br /&gt;
+Interviewer: How about your (5) _________?&lt;br /&gt;
+Interviewee: After I left NYU, I worked for a year at the Cincinnati Daily.&lt;br /&gt;&lt;br /&gt;
+
+ &lt;b&gt;Q2&lt;/b&gt; : (please use conversation above)&lt;br /&gt;
+	</question>
+    <choice_A>What is the problems at your office?</choice_A>
+    <choice_B>Did you like the office you worked?</choice_B>
+    <choice_C>Was there any problem at the office?</choice_C>
+    <choice_D>Did you have any trouble finding us?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+Instruction: Select the most appropriate choice for each item. (Q1 - Q5)&lt;br /&gt;&lt;br /&gt;
+Interviewer: Good afternoon, please have a seat.&lt;br /&gt;
+Interviewee: (1) _________.&lt;br /&gt;
+Interviewer: How are you doing?&lt;br /&gt;
+Interviewee: I’m fine, thank you.&lt;br /&gt;
+Interviewer: (2) _________?&lt;br /&gt;
+Interviewee: No, sir, I had no trouble at all.&lt;br /&gt;
+Interviewer: Could you tell me a little about your (3) _________?&lt;br /&gt;
+Interviewee: I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.&lt;br /&gt;
+Interviewer: Any post-graduate degrees?&lt;br /&gt;
+Interviewee: Yes, I enrolled in NYU’s master program for journalism and (4) _________.&lt;br /&gt;
+Interviewer: How about your (5) _________?&lt;br /&gt;
+Interviewee: After I left NYU, I worked for a year at the Cincinnati Daily.&lt;br /&gt;&lt;br /&gt;
+
+ &lt;b&gt;Q2&lt;/b&gt; : (please use conversation above)&lt;br /&gt;&lt;br /&gt;
+
+	ข้อนี้ต้องดูคำตอบที่ว่า I had no trouble at all. ไม่ยาก ไม่มีปัญหาอะไรเลย	ข้อสุดท้ายเป็นคำตอบที่ถูก เพราะข้ออื่น ๆ ไม่เหมาะสม คำถามแรกในการสัมภาษณ์ไม่น่าจะถามเกี่ยวกับปัญหาที่ทำงาน แต่น่าจะเป็นคำถามทั่ว ๆ ไป เพื่อสร้างบรรยากาศมากกว่า&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. What is the problems at your office?&lt;br /&gt;
+ปัญหาในการทำงานที่ที่ทำงานของท่านคืออะไร&lt;br /&gt;&lt;br /&gt;
+
+b. Did you like the office you worked?&lt;br /&gt;
+คุณชอบที่ทำงานของคุณไหม&lt;br /&gt;&lt;br /&gt;
+
+c. Was there any problem at the office?&lt;br /&gt;
+ที่ทำงานของคุณมีปัญหาอะไรไหม&lt;br /&gt;&lt;br /&gt;
+
+d. Did you have any trouble finding us? ✔&lt;br /&gt;
+คุณหาเราลำบากไหม&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 3 -->
+  <thisQuestion>
+    <qNum>id02194:date1627453500</qNum>
+    <question>
+Instruction: Select the most appropriate choice for each item. (Q1 - Q5)&lt;br /&gt;&lt;br /&gt;
+Interviewer: Good afternoon, please have a seat.&lt;br /&gt;
+Interviewee: (1) _________.&lt;br /&gt;
+Interviewer: How are you doing?&lt;br /&gt;
+Interviewee: I’m fine, thank you.&lt;br /&gt;
+Interviewer: (2) _________?&lt;br /&gt;
+Interviewee: No, sir, I had no trouble at all.&lt;br /&gt;
+Interviewer: Could you tell me a little about your (3) _________?&lt;br /&gt;
+Interviewee: I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.&lt;br /&gt;
+Interviewer: Any post-graduate degrees?&lt;br /&gt;
+Interviewee: Yes, I enrolled in NYU’s master program for journalism and (4) _________.&lt;br /&gt;
+Interviewer: How about your (5) _________?&lt;br /&gt;
+Interviewee: After I left NYU, I worked for a year at the Cincinnati Daily.&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;Q3&lt;/b&gt; : (please use conversation above)&lt;br /&gt;
+	</question>
+    <choice_A>hobbies</choice_A>
+    <choice_B>private life</choice_B>
+    <choice_C>previous experience</choice_C>
+    <choice_D>educational  background</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+Instruction: Select the most appropriate choice for each item. (Q1 - Q5)&lt;br /&gt;&lt;br /&gt;
+Interviewer: Good afternoon, please have a seat.&lt;br /&gt;
+Interviewee: (1) _________.&lt;br /&gt;
+Interviewer: How are you doing?&lt;br /&gt;
+Interviewee: I’m fine, thank you.&lt;br /&gt;
+Interviewer: (2) _________?&lt;br /&gt;
+Interviewee: No, sir, I had no trouble at all.&lt;br /&gt;
+Interviewer: Could you tell me a little about your (3) _________?&lt;br /&gt;
+Interviewee: I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.&lt;br /&gt;
+Interviewer: Any post-graduate degrees?&lt;br /&gt;
+Interviewee: Yes, I enrolled in NYU’s master program for journalism and (4) _________.&lt;br /&gt;
+Interviewer: How about your (5) _________?&lt;br /&gt;
+Interviewee: After I left NYU, I worked for a year at the Cincinnati Daily.&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;Q3&lt;/b&gt; : (please use conversation above)&lt;br /&gt;&lt;br /&gt;
+
+	ข้อนี้ดูที่คำตอบของผู้ถูกสัมภาษณ์ ซึ่งพูดถึงเรื่องการศึกษา เช่น มีคำว่า graduate from UCLA (เรียนจบจาก มหาวิทยาลัยแคลิฟอร์เนีย วิทยาเขตลอสแองเจลิส) a Bachelor’s degree in Journalism (ปริญญาตรี สาขาวารสารศาสตร์) ดังนั้น คำถามจึงเป็นเรื่องการศึกษา&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. hobbies&lt;br /&gt;
+งานอดิเรก &lt;br /&gt;&lt;br /&gt;
+
+b. private life&lt;br /&gt;
+ชีวิตส่วนตัว &lt;br /&gt;&lt;br /&gt;
+
+c. previous experience&lt;br /&gt;
+ประสบการณ์ที่ผ่านมา&lt;br /&gt;&lt;br /&gt;
+
+d. educational  background ✔&lt;br /&gt;
+พื้นฐานการศึกษา &lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 4 -->
+  <thisQuestion>
+    <qNum>id02195:date1627453500</qNum>
+    <question>
+	Instruction: Select the most appropriate choice for each item. (Q1 - Q5)&lt;br /&gt;&lt;br /&gt;
+Interviewer: Good afternoon, please have a seat.&lt;br /&gt;
+Interviewee: (1) _________.&lt;br /&gt;
+Interviewer: How are you doing?&lt;br /&gt;
+Interviewee: I’m fine, thank you.&lt;br /&gt;
+Interviewer: (2) _________?&lt;br /&gt;
+Interviewee: No, sir, I had no trouble at all.&lt;br /&gt;
+Interviewer: Could you tell me a little about your (3) _________?&lt;br /&gt;
+Interviewee: I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.&lt;br /&gt;
+Interviewer: Any post-graduate degrees?&lt;br /&gt;
+Interviewee: Yes, I enrolled in NYU’s master program for journalism and (4) _________.&lt;br /&gt;
+Interviewer: How about your (5) _________?&lt;br /&gt;
+Interviewee: After I left NYU, I worked for a year at the Cincinnati Daily.&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;Q4&lt;/b&gt; : (please use conversation above)&lt;br /&gt;
+	</question>
+    <choice_A>didn’t  finish</choice_A>
+    <choice_B>dropped out in 1998</choice_B>
+    <choice_C>earned a degree</choice_C>
+    <choice_D>took a break</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+Instruction: Select the most appropriate choice for each item. (Q1 - Q5)&lt;br /&gt;&lt;br /&gt;
+Interviewer: Good afternoon, please have a seat.&lt;br /&gt;
+Interviewee: (1) _________.&lt;br /&gt;
+Interviewer: How are you doing?&lt;br /&gt;
+Interviewee: I’m fine, thank you.&lt;br /&gt;
+Interviewer: (2) _________?&lt;br /&gt;
+Interviewee: No, sir, I had no trouble at all.&lt;br /&gt;
+Interviewer: Could you tell me a little about your (3) _________?&lt;br /&gt;
+Interviewee: I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.&lt;br /&gt;
+Interviewer: Any post-graduate degrees?&lt;br /&gt;
+Interviewee: Yes, I enrolled in NYU’s master program for journalism and (4) _________.&lt;br /&gt;
+Interviewer: How about your (5) _________?&lt;br /&gt;
+Interviewee: After I left NYU, I worked for a year at the Cincinnati Daily.&lt;br /&gt;
+
+&lt;b&gt;Q4&lt;/b&gt; : (please use conversation above)&lt;br /&gt;
+	ข้อนี้ต้องสังเกตคำเชื่อม คือ and แสดงว่า ข้อความที่ต้องเติม มีความสอดคล้องกับข้อความข้างหน้า ที่ว่า  &lt;br /&gt;I enrolled in NYU’s master program for journalism.&lt;br /&gt;ผมลงเรียนหลักสูตรวารสารศาตร์ ในระดับปริญญาโท ที่มหาวิทยาลัยนิวยอร์ค (enroll = ลงทะเบียน, master program = หลักสูตรปริญญาโท)&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. didn’t  finish&lt;br /&gt;
+(เรียน)ไม่จบ&lt;br /&gt;
+ไม่ถูกเพราะไม่สอดคล้องกับข้อความข้างหน้า&lt;br /&gt;&lt;br /&gt;
+
+b. dropped out in 1998&lt;br /&gt;
+ตกออกในปี 1998&lt;br /&gt;
+ไม่ถูกเพราะไม่สอดคล้องกับข้อความข้างหน้า&lt;br /&gt;&lt;br /&gt;
+
+c. earned a degree ✔&lt;br /&gt;
+ได้รับปริญญา &lt;br /&gt;&lt;br /&gt;
+
+d. took a break&lt;br /&gt;
+หยุดพักการเรียน&lt;br /&gt;
+ไม่ถูกเพราะไม่สอดคล้องกับข้อความข้างหน้า&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 5 -->
+  <thisQuestion>
+    <qNum>id02196:date1627453500</qNum>
+    <question>
+	Instruction: Select the most appropriate choice for each item. (Q1 - Q5)&lt;br /&gt;&lt;br /&gt;
+Interviewer: Good afternoon, please have a seat.&lt;br /&gt;
+Interviewee: (1) _________.&lt;br /&gt;
+Interviewer: How are you doing?&lt;br /&gt;
+Interviewee: I’m fine, thank you.&lt;br /&gt;
+Interviewer: (2) _________?&lt;br /&gt;
+Interviewee: No, sir, I had no trouble at all.&lt;br /&gt;
+Interviewer: Could you tell me a little about your (3) _________?&lt;br /&gt;
+Interviewee: I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.&lt;br /&gt;
+Interviewer: Any post-graduate degrees?&lt;br /&gt;
+Interviewee: Yes, I enrolled in NYU’s master program for journalism and (4) _________.&lt;br /&gt;
+Interviewer: How about your (5) _________?&lt;br /&gt;
+Interviewee: After I left NYU, I worked for a year at the Cincinnati Daily.&lt;br /&gt;
+
+ &lt;b&gt;Q5&lt;/b&gt; : (please use conversation above)&lt;br /&gt;
+	</question>
+    <choice_A>previous job</choice_A>
+    <choice_B>post education</choice_B>
+    <choice_C>work experience</choice_C>
+    <choice_D>other qualifications</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+Instruction: Select the most appropriate choice for each item. (Q1 - Q5)&lt;br /&gt;&lt;br /&gt;
+Interviewer: Good afternoon, please have a seat.&lt;br /&gt;
+Interviewee: (1) _________.&lt;br /&gt;
+Interviewer: How are you doing?&lt;br /&gt;
+Interviewee: I’m fine, thank you.&lt;br /&gt;
+Interviewer: (2) _________?&lt;br /&gt;
+Interviewee: No, sir, I had no trouble at all.&lt;br /&gt;
+Interviewer: Could you tell me a little about your (3) _________?&lt;br /&gt;
+Interviewee: I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.&lt;br /&gt;
+Interviewer: Any post-graduate degrees?&lt;br /&gt;
+Interviewee: Yes, I enrolled in NYU’s master program for journalism and (4) _________.&lt;br /&gt;
+Interviewer: How about your (5) _________?&lt;br /&gt;
+Interviewee: After I left NYU, I worked for a year at the Cincinnati Daily.&lt;br /&gt;
+
+&lt;b&gt;Q5&lt;/b&gt; : (please use conversation above)&lt;br /&gt;&lt;br /&gt;
+
+	ข้อนี้ดูจากคำตอบต่อมา ซึ่งเป็นการพูดเกี่ยวกับทำงาน คำถามจึงน่าจะถามเกี่ยวกับประสบการณ์การทำงาน ข้อ C จึงถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. previous job&lt;br /&gt;
+งานที่เคยทำก่อนหน้านี้ &lt;br /&gt;
+ไม่ถูกเพราะไม่สัมพันธ์กับคำตอบในบทสนทนา&lt;br /&gt;&lt;br /&gt;
+
+b. post education&lt;br /&gt;
+การศึกษาหลังจากนั้น/หลังปริญญาตรี &lt;br /&gt;
+ไม่ถูกเพราะไม่สัมพันธ์กับคำตอบในบทสนทนา&lt;br /&gt;&lt;br /&gt;
+
+c. work experience ✔&lt;br /&gt;
+ประสบการณ์การทำงาน&lt;br /&gt;
+ไม่ถูกเพราะไม่สัมพันธ์กับคำตอบในบทสนทนา&lt;br /&gt;&lt;br /&gt;
+
+d. other qualifications&lt;br /&gt;
+คุณสมบัติอื่น ๆ&lt;br /&gt;
+ไม่ถูกเพราะไม่สัมพันธ์กับคำตอบในบทสนทนา&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 6 -->
+  <thisQuestion>
+    <qNum>id02197:date1627453500</qNum>
+    <question>
+&lt;b&gt;Q6&lt;/b&gt; : Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+The Prime Minister will be leaving today to ____________the Asia-Europe Meeting.&lt;br /&gt;
+	</question>
+    <choice_A>visit</choice_A>
+    <choice_B>enter</choice_B>
+    <choice_C>attend</choice_C>
+    <choice_D>report</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q6 : Instruction: Fill in the blank.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+The Prime Minister will be leaving today to ____________the Asia-Europe Meeting.&lt;br /&gt;&lt;br /&gt;
+
+การเข้าร่วมประชุม ใช้คำว่า attend a meeting. &lt;br /&gt;
+The Prime Minister will be leaving today to attend the Asia-Europe Meeting. &lt;br /&gt;
+นายกรัฐมนตรีจะออกเดินทางวันนี้เพื่อไปเข้าร่วมประชุมร่วมระหว่างเอเซียและยุโรป&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. visit&lt;br /&gt;
+เยี่ยม/ไปเยี่ยมเยียน/ไปหา &lt;br /&gt;
+ไม่ใช้กับการเข้าประชุม &lt;br /&gt;&lt;br /&gt;
+
+b. enter&lt;br /&gt;
+เข้า เช่น เดินเข้าห้องประชุม &lt;br /&gt;
+He entered the meeting room at 10 o'clock. &lt;br /&gt;
+เขาเข้าสู่ห้องประชุมเวลา 10 นาฬิกา&lt;br /&gt;&lt;br /&gt;
+
+c. attend ✔&lt;br /&gt;
+เข้าร่วมประชุม&lt;br /&gt;&lt;br /&gt;
+
+d. report&lt;br /&gt;
+รายงาน หรือหมายถึง เอกสารรายงานผลการประชุมก็ได้ &lt;br /&gt;
+To write a meeting report, use the agenda as a guide. &lt;br /&gt;
+การเขียนรายงานการประชุม ให้ใช้กำหนดการประชุมเป็นแนวทางในการเขียน&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 7 -->
+  <thisQuestion>
+    <qNum>id02198:date1627453500</qNum>
+    <question>
+&lt;b&gt;Q7&lt;/b&gt; : Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+There is a high ______ of an accident when driving in heavy rain.&lt;br /&gt;
+	</question>
+    <choice_A>risk</choice_A>
+    <choice_B>threat</choice_B>
+    <choice_C>danger</choice_C>
+    <choice_D>warning</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+	&lt;b&gt;Q7&lt;/b&gt; : Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+There is a high ______ of an accident when driving in heavy rain.&lt;br /&gt;
+ขับรถในขณะฝนตกหนัก (heavy rain) มีโอกาสที่จะเกิดอุบัติเหตุสูง คำที่เหมาะที่สุดคือ risk (ความเสี่ยง) มีโอกาสที่จะเกิดอุบัติเหตุสูง&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. threat&lt;br /&gt;
+ขู่ อาฆาต ขู่ที่จะทำร้ายหรือทำอันตราย เป็นเหตุให้เกิดอันตราย&lt;br /&gt;
+Drunken drivers pose a serious threat to other road users.&lt;br /&gt;
+คนเมาขับรถ อาจเป็นเหตุให้ผู้ใช้รถใช้ถนนคนอื่น ๆ เกิดอันตรายร้ายแรงได้&lt;br /&gt;
+threat มักจะใช้กับ adjective เช่น serious, real, potential, constant, major, greatest, immediate จะไม่พูดว่า high threat แต่จะพูดว่า serious threat&lt;br /&gt;&lt;br /&gt;
+
+b. danger &lt;br /&gt;
+อันตราย &lt;br /&gt;
+I felt my life was in danger.&lt;br /&gt;
+ฉันรู้สึกว่า ชีวิตตกอยู่ในอันตราย&lt;br /&gt;
+คำว่า danger มักจะใช้กับคำ adjcetive เช่น great, real, imminent, greatest, immediate, little, serious เป็นต้น&lt;br /&gt;
+danger จะไม่ใช้กับคำว่า high ไม่พูดว่า high danger แต่พูดว่า serious danger&lt;br /&gt;&lt;br /&gt;
+
+c. warning &lt;br /&gt;
+เตือนภัย&lt;br /&gt;
+The earthquake struck without warning while the city was asleep.&lt;br /&gt;
+แผ่นดินไหวโจมตี โดยไม่มีการเตือนล่วงหน้า ในขณะที่เมืองกำลังหลับ&lt;br /&gt;&lt;br /&gt;
+
+d. risk ✔&lt;br /&gt;
+ความเสี่ยง&lt;br /&gt;
+There’s a risk of an accident happening in this fog.&lt;br /&gt;
+มีความเสี่ยงที่จะเกิดอุบัติเหตุในหมอกอย่างนี้&lt;br /&gt;
+risk มักจะใช้กับคำ adjective เช่น high, greater, higher, great, relative, low, less, greatest, significant, little, potential, lower, serious เป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 8 -->
+  <thisQuestion>
+    <qNum>id02199:date1627453500</qNum>
+    <question>
+&lt;b&gt;Q8&lt;/b&gt; : Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+Artists normally use only acoustic guitars to play acoustic ______ of songs.&lt;br /&gt;
+	</question>
+    <choice_A>sounds</choice_A>
+    <choice_B>versions</choice_B>
+    <choice_C>patterns</choice_C>
+    <choice_D>instruments</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q8&lt;/b&gt; : Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+Artists normally use only acoustic guitars to play acoustic ______ of songs.&lt;br /&gt;
+
+โดยปกติศิลปินจะใช้กีต้าร์โปร่ง เพื่อให้ได้เสียงเพลงที่ไม่ปรุงแต่ง&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. sounds	 ✔&lt;br /&gt;
+เสียง&lt;br /&gt;
+เพลงต้องใช้กับ เสียง (sound)&lt;br /&gt;
+acoustic (adj) = ซึ่งเกี่ยวข้องกับเสียง&lt;br /&gt;&lt;br /&gt;
+
+b. versions&lt;br /&gt;
+รุ่น&lt;br /&gt;&lt;br /&gt;
+
+c. patterns&lt;br /&gt;
+กระสวน&lt;br /&gt;&lt;br /&gt;
+
+d. instruments&lt;br /&gt;
+เครื่องมือ&lt;br /&gt;
+musical instruments = เครื่องดนตรี&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 9 -->
+  <thisQuestion>
+    <qNum>id02200:date1627453500</qNum>
+    <question>
+&lt;b&gt;Q9&lt;/b&gt; : Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+If they can buy personal computers, they should also be able to ______ the software.&lt;br /&gt;
+	</question>
+    <choice_A>plan</choice_A>
+    <choice_B>advise</choice_B>
+    <choice_C>afford</choice_C>
+    <choice_D>arrange</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q9&lt;/b&gt; : Instruction: Fill in the blank.&lt;br /&gt;&lt;br /&gt;
+If they can buy personal computers, they should also be able to ______ the software.&lt;br /&gt;
+ข้อนี้ต้องดูเนื้อหาประกอบ ซึ่งเป็นการพูดถึงเรื่องการซื้อของ ซื้อคอมพิวเตอร์ได้ก็ต้องซื้อซอฟท์แวร์ได้ &lt;br /&gt;
+คำศัพท์ที่เหมาะสมที่สุดคือ afford ซึ่งหมายถึง การหามาได้ สามารถซื้อได้โดยไม่เกินกำลัง&lt;br /&gt;
+to be able to มีความหมายเท่ากับคำว่า can คือ สามารถที่จะ...&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. plan&lt;br /&gt;
+วางแผน&lt;br /&gt;&lt;br /&gt;
+
+b. advise&lt;br /&gt;
+ให้คำแนะนำถ้าเป็นคำนาม คือ advice เช่น &lt;br /&gt;
+Your advice is practical. &lt;br /&gt;
+คำแนะนำของท่านเป็นรูปธรรม สามารถนำไปปฏิบัติได้  &lt;br /&gt;&lt;br /&gt;
+
+c. afford ✔&lt;br /&gt;
+สามารถซื้อได้โดยไม่เกินกำลัง&lt;br /&gt;&lt;br /&gt;
+
+d. arrange&lt;br /&gt;
+จัดเรียง&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 10 -->
+  <thisQuestion>
+    <qNum>id02201:date1627453500</qNum>
+    <question>
+&lt;b&gt;Q10&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+Will you accept a credit card or do you prefer _______?&lt;br /&gt;
+	</question>
+    <choice_A>cash</choice_A>
+    <choice_B>bank</choice_B>
+    <choice_C>coins</choice_C>
+    <choice_D>money</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+	&lt;b&gt;Q10&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+Will you accept a credit card or do you prefer _______?&lt;br /&gt;
+ข้อนี้ถามว่า อยากจะให้จ่ายเงินด้วยบัตรเครดิต หรือ ___ ? &lt;br /&gt;
+เพราะฉะนั้น คำที่ต้องการก็คือ เงินสด หรือ cash	นั่นเอง&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. cash ✔&lt;br /&gt;
+เงินสด&lt;br /&gt;
+Will you accept a credit card or do you prefer _______?&lt;br /&gt;
+ประโยคนี้ถามว่า จะจ่ายด้วยบัตรเครดิตหรือ เงินสด &lt;br /&gt;&lt;br /&gt;
+
+b. bank&lt;br /&gt;
+ธนาคาร&lt;br /&gt;&lt;br /&gt;
+
+c. coins&lt;br /&gt;
+เหรียญ คำว่า ธนบัตร คือ notes หรือ bank notes หรือ bill ก็ได้ เช่น 20 dollar bill ธนบัตรใบละ 20 ดอลลาห์ &lt;br /&gt;&lt;br /&gt;
+
+d. money&lt;br /&gt;
+เงิน &lt;br /&gt;
+ในประโยคนี้ ไม่ใช้คำว่า money เพราะ จ่ายด้วยบัตรเครดิต ก็คือจ่ายด้วยเงินทั้งนั้น แต่รูปแบบการจ่ายเงิน เช่น บัตรเครดิต หรือ เงินสด และก็จะไม่พูดว่าจ่ายด้วยเหรียญ (coins) หรือ ธนบัตร (notes) แต่จะใช้คำรวมว่า เงินสด เพราะทั้งเหรียญและธนบัตร ต่างก็เป็นเงินสดทั้งนั้น&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 11 -->
+  <thisQuestion>
+    <qNum>id02202:date1627453500</qNum>
+    <question>
+&lt;b&gt;Q11&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+Thailand's gross domestic product ________ to expand four to five percent this year.&lt;br /&gt;
+	</question>
+    <choice_A>expects</choice_A>
+    <choice_B>is expect</choice_B>
+    <choice_C>expected</choice_C>
+    <choice_D>is expected</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+	&lt;b&gt;Q11&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+Thailand's gross domestic product ________ to expand four to five percent this year.&lt;br /&gt;
+ในปีนี้ ผลผลิตมวลรวมภายในประเทศของประเทศไทยถูกคาดหมายว่าจะขยายตัว 4 - 5 เปอร์เซนต์ 
+&lt;br /&gt;
+expand = ขยายตัว&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ทดสอบไวยากรณ์ ประโยคนี้ต้องใช้เป็น Passive Voice คือ ประธานเป็นผู้ถูกกระทำ&lt;br /&gt;
+กริยาในรูป	Passive Voice คือ Verb to be + กริยาช่องที่ 3 เป็นประโยคที่เน้นว่าประธานถูกกระทำ เช่น &lt;br /&gt;
+รถยนต์ของผมถูกขโมย My car was stolen. &lt;br /&gt;
+ถ้าเป็นประโยคปกติ (Active Voice) จะพูดได้ว่า &lt;br /&gt;
+มีคนขโมยรถผมไป Someone stole my car.	&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. expects&lt;br /&gt;
+คาดว่า&lt;br /&gt;
+ข้อนี้ไม่ถูกเพราะไม่อยู่ในรูป Passive Voice คือ be + กริยาช่องที่ 3&lt;br /&gt;&lt;br /&gt;
+
+b. is expect&lt;br /&gt;
+ข้อนี้ผิด เพราะกริยาเป็นช่องที่ 1 ซึ่งรูปกริยาแบบนี้ไม่มีในภาษาอังกฤษ &lt;br /&gt;&lt;br /&gt;
+
+c. expected&lt;br /&gt;
+ข้อนี้ผิด เพราะ เป็นกริยาช่องที่ 2 ไม่ใช่ Passive Voice&lt;br /&gt;&lt;br /&gt;
+
+d. is expected ✔&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 12 -->
+  <thisQuestion>
+    <qNum>id02203:date1627453500</qNum>
+    <question>
+&lt;b&gt;Q12&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+Quality control is performed _______ every stage of our company's production.&lt;br /&gt;
+	</question>
+    <choice_A>at</choice_A>
+    <choice_B>to</choice_B>
+    <choice_C>with</choice_C>
+    <choice_D>from</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q12&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+Quality control is performed _______ every stage of our company's production.&lt;br /&gt;
+การควบคุมคุณภาพ จะถูกดำเนินการ __ ทุกขั้นตอนในกระบวนการผลิตของบริษัทเรา&lt;br /&gt;&lt;br /&gt;
+
+สำนวนที่ต้องการคือ at every stage of production หมายถึง ทุกขั้นตอนของกระบวนการผลิต ต้องใช้คำว่า at ข้ออื่น ๆ ไม่ถูกต้อง&lt;br /&gt;
+at ใช้เพื่อแสดงตำแหน่ง ณ จุดใดจุดหนึ่ง &lt;br /&gt;&lt;br /&gt;	
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. at ✔&lt;br /&gt;
+b. to&lt;br /&gt;
+c. with&lt;br /&gt;
+d. from&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 13 -->
+  <thisQuestion>
+    <qNum>id02204:date1627453500</qNum>
+    <question>
+&lt;b&gt;Q13&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+You can see all ___________ you need on the screen.&lt;br /&gt;
+	</question>
+    <choice_A>information</choice_A>
+    <choice_B>an information</choice_B>
+    <choice_C>the information</choice_C>
+    <choice_D>of information</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q13&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+You can see all ___________ you need on the screen.&lt;br /&gt;
+คุณสามารถเห็น ____ ทั้งหมดที่คุณต้องการบนหน้าจอนั้น &lt;br /&gt;
+
+	ข้อนี้ทดสอบความรู้คำว่า information และการใช้ the&lt;br /&gt;
+	ข้อความที่มีคำขยายมาต่อท้าย มักจะเป็นข้อความที่ชี้เฉพาะ ไม่ใช่พูดลอย ๆ ในประโยคนี้ information หรือข้อมูล ไม่ใช่ข้อมูลทั่วไป แต่เป็นข้อมูลที่คุณต้องการทั้งหมด ดังนั้นจึงต้องมีคำว่า the นำหน้า information&lt;br /&gt;
+	You can see all &lt;b&gt;the information&lt;/b&gt; you need on the screen.&lt;br /&gt;
+	คุณสามารถเห็นข้อมูลทั้งหมดที่คุณต้องการบนหน้าจอนั้น&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. information&lt;br /&gt;
+ข้อนี้ใช้ไม่ได้เพราะไม่เป็นการชี้เฉพาะ หมายถึงข้อมูลทั่ว ๆ ไป&lt;br /&gt;&lt;br /&gt;
+
+b. an information&lt;br /&gt;
+ใช้ไม่ได้ เพราะ information เป็นคำนามนับไม่ได้ ไม่สามารถมี a หรือ an นำหน้าได้&lt;br /&gt;&lt;br /&gt;
+
+c. the information ✔&lt;br /&gt;&lt;br /&gt;
+
+d. of information&lt;br /&gt;
+ใช้ไม่ได้ ถ้าจะได้ต้องพูดว่า You can see all of the information you need on the screen.&lt;br /&gt;&lt;br /&gt;
+
+ดูเรื่องการใช้ all และ all of เพิ่มเติมที่ http://www.thongjoon.com/2016/05/all-all-of.html&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 14 -->
+  <thisQuestion>
+    <qNum>id02205:date1627453500</qNum>
+    <question>
+&lt;b&gt;Q14&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+As president of Homeland Estate Company, I would like to thank our business partners _____ contributed to our success.&lt;br /&gt;
+</question>
+    <choice_A>who</choice_A>
+    <choice_B>which</choice_B>
+    <choice_C>where</choice_C>
+    <choice_D>whose</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q14&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+As president of Homeland Estate Company, I would like to thank our business partners _____ contributed to our success.&lt;br /&gt;
+	ในฐานะประธานบริษัท Homeland Estate Company ผม/ฉัน ขอขอบคุณหุ้นส่วนธุรกิจของเรา ____ ช่วยให้เราประสบผลสำเร็จ (contribute = give นำมาซึ่ง)&lt;br /&gt;&lt;br /&gt;
+
+คำสรรพนามที่ใช้แทนคน คือ who ในที่นี้ business partners คือ หุ้นส่วนทางธุรกิจ &lt;br /&gt;หมายถึงคนที่เป็นหุ้นส่วนทำธุรกิจด้วยกัน จึงต้องใช้คำว่า who&lt;br /&gt;
+	As president of Homeland Estate Company, I would like to thank our business partners who contributed to our success.&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. who ✔&lt;br /&gt;
+ผู้ซึ่ง&lt;br /&gt;&lt;br /&gt;
+
+b. which&lt;br /&gt;
+ที่/ซึ่ง/อัน (ใช้กับสิ่งของ)&lt;br /&gt;
+The book which I borrowed from the library was stolen. &lt;br /&gt;
+หนังสือที่ฉันยืมมาจากห้องสมุด ถูกขโมยไปแล้ว&lt;br /&gt;&lt;br /&gt;
+
+c. where&lt;br /&gt;
+ที่/ซึ่ง/อัน (ใช้กับสิ่งสถานที่)&lt;br /&gt;
+This is the place where I met your mom.&lt;br /&gt;
+นี่เป็นสถานที่ซึ่งพ่อพบกับแม่ของลูก&lt;br /&gt;&lt;br /&gt;
+
+d. whose&lt;br /&gt;
+ผู้ซึ่งเป็นเจ้าของ&lt;br /&gt;
+That is the man whose house we bought.&lt;br /&gt;
+นั่นคือผู้ชายซึ่งเป็นเจ้าของบ้านที่เราซื้อ&lt;br /&gt;&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 15 -->
+  <thisQuestion>
+    <qNum>id02206:date1627453500</qNum>
+    <question>
+&lt;b&gt;Q15&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+An Australian tourist died in Russia after _______ from swine flu. &lt;br /&gt;
+	</question>
+    <choice_A>suffer</choice_A>
+    <choice_B>to suffer</choice_B>
+    <choice_C>suffering</choice_C>
+    <choice_D>was suffered</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q15&lt;/b&gt; : Instruction: Choose the correct answer.&lt;br /&gt;&lt;br /&gt;
+An Australian tourist died in Russia after _______ from swine flu. &lt;br /&gt;
+นักท่องเที่ยวชาวออสเตรเลียเสียชีวิตในประเทศรัสเซียหลังจากที่ต้องทนทรมานจากโรคไข้หวัดนก&lt;br /&gt;&lt;br /&gt;
+
+คำกริยาที่ตามหลังคำว่า after ซึ่งเป็น preposition จะต้องเติม ing เสมอ &lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. suffer&lt;br /&gt;
+b. to suffer&lt;br /&gt;
+c. suffering ✔&lt;br /&gt;
+d. was suffered&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;คำอธิบายเพิ่มเติม&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำกริยาที่ตามหลัง preposition จะต้องเติม ing เช่น&lt;br /&gt;
+	Always check the oil before starting the car.&lt;br /&gt;
+	ต้องตรวจน้ำมันเครื่องเสมอ ก่อนติดเครื่องรถยนต์ &lt;br /&gt;
+	You cannot make an omelette without breaking eggs.&lt;br /&gt;
+	คุณไม่สามารถทำไข่เจียวโดยไม่มีการต่อยไข่ให้แตกได้&lt;br /&gt;&lt;br /&gt;
+
+	คำ preposition มีหลายคำ เช่น above, at, before, by, for, from,  in, of, on, over, to, under, up  เป็นต้น&lt;br /&gt;
+	คำกริยาที่ตามหลัง Preposition จะต้องเติม ing เช่น&lt;br /&gt;&lt;br /&gt;
+
+	He saved money by giving up cigarettes.&lt;br /&gt;
+	เขาเก็บสะสมเงินได้ ด้วยการเลิกสูบบุหรี่&lt;br /&gt;
+	I look forward to hearing from you soon.&lt;br /&gt;
+	ผม/ฉันหวังว่าจะได้ยินข่าวจากท่านในเร็ว ๆ นี้  (ส่วนใหญ่ใช้ในตอนจบจดหมาย คือ อยากให้เขาตอบจดหมาย กำลังรอคอยคำตอบอยู่)&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id02207:date1627453500</qNum>
+    <question>
+Instruction: Read the following letter and select the best answer for each item. (Q16 - Q20)&lt;br /&gt;&lt;br /&gt;
+OFFICE OF THE CIVIL SERVICE COMMISSION&lt;br /&gt;
+Pitsanuloke Road, Dusit, Bangkok 10300, THAILAND&lt;br /&gt;
+Tel: 66 2547 1000, Fax 66 2547 1000&lt;br /&gt;&lt;br /&gt;
+
+3 May 20XX&lt;br /&gt;&lt;br /&gt;
+
+Mr. Denis Ives&lt;br /&gt;
+Public Sector Management Consultant&lt;br /&gt;
+17 Wagga Street&lt;br /&gt;
+Canberra ACT2607&lt;br /&gt;
+Australia&lt;br /&gt;&lt;br /&gt;
+ 
+Dear Mr. Ives:&lt;br /&gt;&lt;br /&gt;
+
+I am writing to you to express our appreciation for your warm hospitality and efforts in arranging the seminar programme for our group of executives from Thailand.  The programme was very well designed and was structured exactly as we had hoped.  The sessions with you, I would say, were the highlight of the programme.  While the introduction helped us greatly to comprehend the structure and framework of the Australian public service and its reform, your executive session was invaluable in clarifying the issues and areas that had been a bit unclear during the week of discussions and observations.&lt;br /&gt;&lt;br /&gt;
+ 
+It was extremely valuable for us to have had this opportunity to observe the practice of Australian public service reform, to exchange ideas about our work, and to discuss our problems. This programme has given me new insights into our own situation and approaches to improve our procedures.&lt;br /&gt;&lt;br /&gt;
+
+I hope that we will be able to keep in contact, and that perhaps we can reciprocate your hospitality in Thailand in the near future.
+ 
+&lt;br /&gt;&lt;br /&gt;Yours sincerely,&lt;br /&gt;&lt;br /&gt;
+ 
+XXXXXXXXX&lt;br /&gt;
+Secretary-General&lt;br /&gt;&lt;br /&gt;
+  
+&lt;b&gt;Q16&lt;/b&gt; : What is the purpose of this letter?&lt;br /&gt;
+	</question>
+    <choice_A>Thanks for study visit arrangement</choice_A>
+    <choice_B>Thanks for participating in the seminar</choice_B>
+    <choice_C>Acknowledgement of the benefits of the study visit</choice_C>
+    <choice_D>Appreciation for Australian public service management</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q16&lt;/b&gt; : What is the purpose of this letter?&lt;br /&gt;
+จุดประสงค์(purpose)ของจดหมายนี้ คืออะไร&lt;br /&gt;&lt;br /&gt;
+
+จุดประสงค์ของการเขียนจดหมายฉบับนี้ อยู่ในประโยคแรก ที่ว่า&lt;br /&gt;
+	I am writing to you to express our appreciation for your warm hospitality and efforts in arranging the seminar programme for our group of executives from Thailand. &lt;br /&gt;
+	ผม/ฉันเขียนจดหมายนี้เพื่อแสดงความขอบคุณที่ได้ให้การต้อนรับอย่างอบอุ่น รวมทั้งการจัดเตรียมโปรแกรมสัมมนาสำหรับคณะผู้บริหารระดับสูงจากประเทศไทย&lt;br /&gt;
+	express our appreciation = ขอแสดงความขอบคุณ&lt;br /&gt;
+	warm hospitality = การต้อนรับอย่างอบอุ่น  host = เจ้าภาพ hospitality = การต้อนรับ การเป็นเจ้าภาพที่ดี &lt;br /&gt;
+	executives = ผู้บริหารระดับสูงขององค์กร&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Thanks for study visit arrangement ✔&lt;br /&gt;
+	ขอบคุณที่ได้จัดเตรียมการศึกษาดูงาน&lt;br /&gt;&lt;br /&gt;
+
+b. Thanks for participating in the seminar&lt;br /&gt;
+	ขอบคุณที่ได้เข้าร่วมสัมมนา&lt;br /&gt;&lt;br /&gt;
+
+c. Acknowledgement of the benefits of the study visit&lt;br /&gt;
+	ขอบคุณที่ได้รับประโยชน์จากการศึกษาดูงาน&lt;br /&gt;&lt;br /&gt;
+
+d. Appreciation for Australian public service management&lt;br /&gt;
+	แสดงความซาบซึ้งต่อการบริหารจัดการระบบราชการของออสเตรเลีย&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 17 -->
+  <thisQuestion>
+    <qNum>id02208:date1627453500</qNum>
+    <question>
+Instruction: Read the following letter and select the best answer for each item. (Q16 - Q20)
+&lt;br /&gt;&lt;br /&gt;OFFICE OF THE CIVIL SERVICE COMMISSION&lt;br /&gt;
+Pitsanuloke Road, Dusit, Bangkok 10300, THAILAND&lt;br /&gt;
+Tel: 66 2547 1000, Fax 66 2547 1000
+&lt;br /&gt;&lt;br /&gt;3 May 20XX
+&lt;br /&gt;&lt;br /&gt;Mr. Denis Ives&lt;br /&gt;
+Public Sector Management Consultant&lt;br /&gt;
+17 Wagga Street&lt;br /&gt;
+Canberra ACT2607&lt;br /&gt;
+Australia
+&lt;br /&gt;&lt;br /&gt;Dear Mr. Ives:
+&lt;br /&gt;&lt;br /&gt;I am writing to you to express our appreciation for your warm hospitality and efforts in arranging the seminar programme for our group of executives from Thailand.  The programme was very well designed and was structured exactly as we had hoped.  The sessions with you, I would say, were the highlight of the programme.  While the introduction helped us greatly to comprehend the structure and framework of the Australian public service and its reform, your executive session was invaluable in clarifying the issues and areas that had been a bit unclear during the week of discussions and observations.
+&lt;br /&gt;&lt;br /&gt;It was extremely valuable for us to have had this opportunity to observe the practice of Australian public service reform, to exchange ideas about our work, and to discuss our problems. This programme has given me new insights into our own situation and approaches to improve our procedures.
+&lt;br /&gt;&lt;br /&gt;I hope that we will be able to keep in contact, and that perhaps we can reciprocate your hospitality in Thailand in the near future.
+&lt;br /&gt;&lt;br /&gt;Yours sincerely,
+&lt;br /&gt;&lt;br /&gt;XXXXXXXXX&lt;br /&gt;
+Secretary-General&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;Q17&lt;/b&gt; : It can be assumed that the sessions before Mr. Ive's lecture were _____ .&lt;br /&gt;
+	</question>
+    <choice_A>simple</choice_A>
+    <choice_B>explicit</choice_B>
+    <choice_C>confusing</choice_C>
+    <choice_D>comprehensible</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q17&lt;/b&gt; : It can be assumed that the sessions before Mr. Ive's lecture were _____ .&lt;br /&gt;
+	เราสามารถอนุมานได้ว่า ช่วงรายการก่อนการบรรยายของคุณ Ive มีลักษณะ ______&lt;br /&gt;&lt;br /&gt;
+
+	คำตอบสรุปได้จากประโยคที่ว่า&lt;br /&gt;
+	"The sessions with you, I would say, were &lt;b&gt;the highlight of the programme&lt;/b&gt;." และ&lt;br /&gt;
+	" ...your executive session was invaluable &lt;b&gt;in clarifying the issues and areas that had been a bit unclear&lt;/b&gt; during the week of discussions and observations. ... .png&quot;&gt;&lt;br /&gt;
+	"ชั่วโมงที่พบกับท่าน อาจพูดได้ว่า เป็น hightlight ของโปรแกรม .png&quot;&gt;&lt;br /&gt;
+	" ชั่วโมงผู้บริหารของท่าน มีคุณค่ามากในการทำความกระจ่างต่อปัญหา และเนื้อหาที่ยังไม่ชัดเจน ในระหว่างการอภิปรายและการศึกษาดูงานตลอดสัปดาห์ .png&quot;&gt;&lt;br /&gt;
+	clarify = ทำความกระจ่าง ทำให้ชัดเจน&lt;br /&gt;
+	issues = ปัญหา&lt;br /&gt;
+	unclear = ยังไม่ชัดเจน&lt;br /&gt;
+	observation = การสังเกต &lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;ตัวเลือกคำตอบ&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. simple&lt;br /&gt;
+เรียบง่าย&lt;br /&gt;&lt;br /&gt;
+
+b. explicit&lt;br /&gt;
+ชัดเจน&lt;br /&gt;&lt;br /&gt;
+
+c. confusing ✔&lt;br /&gt;
+สับสน&lt;br /&gt;&lt;br /&gt;
+
+d. comprehensible&lt;br /&gt;
+เข้าใจได้&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 18 -->
+  <thisQuestion>
+    <qNum>id02209:date1627453500</qNum>
+    <question>
+Instruction: Read the following letter and select the best answer for each item. (Q16 - Q20)
+&lt;br /&gt;&lt;br /&gt;OFFICE OF THE CIVIL SERVICE COMMISSION&lt;br /&gt;
+Pitsanuloke Road, Dusit, Bangkok 10300, THAILAND&lt;br /&gt;
+Tel: 66 2547 1000, Fax 66 2547 1000
+&lt;br /&gt;&lt;br /&gt;3 May 20XX
+&lt;br /&gt;&lt;br /&gt;Mr. Denis Ives&lt;br /&gt;
+Public Sector Management Consultant&lt;br /&gt;
+17 Wagga Street&lt;br /&gt;
+Canberra ACT2607&lt;br /&gt;
+Australia
+&lt;br /&gt;&lt;br /&gt;Dear Mr. Ives:
+&lt;br /&gt;&lt;br /&gt;I am writing to you to express our appreciation for your warm hospitality and efforts in arranging the seminar programme for our group of executives from Thailand.  The programme was very well designed and was structured exactly as we had hoped.  The sessions with you, I would say, were the highlight of the programme.  While the introduction helped us greatly to comprehend the structure and framework of the Australian public service and its reform, your executive session was invaluable in clarifying the issues and areas that had been a bit unclear during the week of discussions and observations.
+&lt;br /&gt;&lt;br /&gt;It was extremely valuable for us to have had this opportunity to observe the practice of Australian public service reform, to exchange ideas about our work, and to discuss our problems. This programme has given me new insights into our own situation and approaches to improve our procedures.
+&lt;br /&gt;&lt;br /&gt;I hope that we will be able to keep in contact, and that perhaps we can reciprocate your hospitality in Thailand in the near future.
+&lt;br /&gt;&lt;br /&gt;Yours sincerely,
+&lt;br /&gt;&lt;br /&gt;XXXXXXXXX&lt;br /&gt;
+Secretary-General&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;Q18&lt;/b&gt; : What is considered the best part of the seminar programme?&lt;br /&gt;
+	</question>
+    <choice_A>The meeting they had with Mr. Ives </choice_A>
+    <choice_B>Discussion with people involving the reform</choice_B>
+    <choice_C>Observations of Australian public management</choice_C>
+    <choice_D>Exchange of ideas concerning reform obstacles</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q18&lt;/b&gt; : What is considered the best part of the seminar programme?&lt;br /&gt;
+ส่วนใหนของการสัมมนาที่จัดว่า ดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูกอยู่ในประโยคต่อไปนี้&lt;br /&gt;
+	The sessions with you, I would say, were the highlight of the programme.&lt;br /&gt;
+	ชั่วโมงที่พบกับท่าน อาจพูดได้ว่า เป็น hightlight ของโปรแกรม&lt;br /&gt;
+	คำว่า you ในที่นี้ หมายถึง Mr. Ives เพราะในคำขึ้นต้นจดหมาย ทำให้รู้ว่า เขียนจดหมายถึง Mr. Ives &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. The meeting they had with Mr. Ives ✔&lt;br /&gt;
+การประชุมกับคุณ Ives&lt;br /&gt;&lt;br /&gt;
+
+b. Discussion with people involving the reform&lt;br /&gt;
+การอภิปรายกับผู้ที่มีส่วนเกี่ยวข้องกับการปฏิรูป&lt;br /&gt;&lt;br /&gt;
+
+c. Observations of Australian public management&lt;br /&gt;
+การสังเกตการณ์การบริหารงานภาครัฐของออสเตรเลีย&lt;br /&gt;&lt;br /&gt;
+
+d. Exchange of ideas concerning reform obstacles&lt;br /&gt;
+การแลกเปลี่ยนความคิดเห็นเกี่ยวกับอุปสรรคของการปฏิรูป&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 19 -->
+  <thisQuestion>
+    <qNum>id02210:date1627453500</qNum>
+    <question>
+Instruction: Read the following letter and select the best answer for each item. (Q16 - Q20)
+&lt;br /&gt;&lt;br /&gt;OFFICE OF THE CIVIL SERVICE COMMISSION&lt;br /&gt;
+Pitsanuloke Road, Dusit, Bangkok 10300, THAILAND&lt;br /&gt;
+Tel: 66 2547 1000, Fax 66 2547 1000
+&lt;br /&gt;&lt;br /&gt;3 May 20XX
+&lt;br /&gt;&lt;br /&gt;Mr. Denis Ives&lt;br /&gt;
+Public Sector Management Consultant&lt;br /&gt;
+17 Wagga Street&lt;br /&gt;
+Canberra ACT2607&lt;br /&gt;
+Australia
+&lt;br /&gt;&lt;br /&gt;Dear Mr. Ives:
+&lt;br /&gt;&lt;br /&gt;I am writing to you to express our appreciation for your warm hospitality and efforts in arranging the seminar programme for our group of executives from Thailand.  The programme was very well designed and was structured exactly as we had hoped.  The sessions with you, I would say, were the highlight of the programme.  While the introduction helped us greatly to comprehend the structure and framework of the Australian public service and its reform, your executive session was invaluable in clarifying the issues and areas that had been a bit unclear during the week of discussions and observations.
+&lt;br /&gt;&lt;br /&gt;It was extremely valuable for us to have had this opportunity to observe the practice of Australian public service reform, to exchange ideas about our work, and to discuss our problems. This programme has given me new insights into our own situation and approaches to improve our procedures.
+&lt;br /&gt;&lt;br /&gt;I hope that we will be able to keep in contact, and that perhaps we can reciprocate your hospitality in Thailand in the near future.
+&lt;br /&gt;&lt;br /&gt;Yours sincerely,
+&lt;br /&gt;&lt;br /&gt;XXXXXXXXX&lt;br /&gt;
+Secretary-General&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;Q19&lt;/b&gt; : The seminar programme largely deals with the ______.&lt;br /&gt;
+	</question>
+    <choice_A>obstacles of Australian government</choice_A>
+    <choice_B>reform of Australian public service</choice_B>
+    <choice_C>structure of Australian public facilities</choice_C>
+    <choice_D>management of Australian public service</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q19&lt;/b&gt; : The seminar programme largely deals with the ______.&lt;br /&gt;
+โปรแกรมการสัมมนาส่วนใหญ่เป็นเรื่องเกี่ยวกับ______&lt;br /&gt;&lt;br /&gt;
+
+
+	ในจดหมายพูดถึง โครงสร้างและกรอบระบบราชการของออสเตรเลีย (the structure and framework of the Australian public service) และการปฏิรูประบบราชการ (and its reform)&lt;br /&gt;
+	และในอีกตอนหนึ่งที่พูดว่า ได้เห็นการดำเนินงานปฏิรูประบบราชการของออสเตรเลีย (to observe the practice of Australian public service reform) observe = สังเกต practice = ปฏิบัติ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. obstacles of Australian government&lt;br /&gt;
+อุปสรรคของรัฐบาลออสเตรเลีย&lt;br /&gt;&lt;br /&gt;
+
+b. reform of Australian public service&lt;br /&gt;
+การปฏิรูประบบราชการของออสเตรเลีย&lt;br /&gt;&lt;br /&gt;
+
+c. structure of Australian public facilities&lt;br /&gt;
+โครงสร้างสาธารณูปโภคของออสเตรเลีย&lt;br /&gt;&lt;br /&gt;
+
+d. management of Australian public service ✔&lt;br /&gt;
+การบริหารจัดการระบบราชการของออสเตรเลีย&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 20 -->
+  <thisQuestion>
+    <qNum>id02211:date1627453500</qNum>
+    <question>
+Instruction: Read the following letter and select the best answer for each item. (Q16 - Q20)
+&lt;br /&gt;&lt;br /&gt;OFFICE OF THE CIVIL SERVICE COMMISSION&lt;br /&gt;
+Pitsanuloke Road, Dusit, Bangkok 10300, THAILAND&lt;br /&gt;
+Tel: 66 2547 1000, Fax 66 2547 1000
+&lt;br /&gt;&lt;br /&gt;3 May 20XX
+&lt;br /&gt;&lt;br /&gt;Mr. Denis Ives&lt;br /&gt;
+Public Sector Management Consultant&lt;br /&gt;
+17 Wagga Street&lt;br /&gt;
+Canberra ACT2607&lt;br /&gt;
+Australia
+&lt;br /&gt;&lt;br /&gt;Dear Mr. Ives:
+&lt;br /&gt;&lt;br /&gt;I am writing to you to express our appreciation for your warm hospitality and efforts in arranging the seminar programme for our group of executives from Thailand.  The programme was very well designed and was structured exactly as we had hoped.  The sessions with you, I would say, were the highlight of the programme.  While the introduction helped us greatly to comprehend the structure and framework of the Australian public service and its reform, your executive session was invaluable in clarifying the issues and areas that had been a bit unclear during the week of discussions and observations.
+&lt;br /&gt;&lt;br /&gt;It was extremely valuable for us to have had this opportunity to observe the practice of Australian public service reform, to exchange ideas about our work, and to discuss our problems. This programme has given me new &lt;font color="#ff0000.png&quot;&gt;&lt;strong&gt;insights&lt;/strong&gt;&lt;/font&gt; into our own situation and approaches to improve our procedures.
+&lt;br /&gt;&lt;br /&gt;I hope that we will be able to keep in contact, and that perhaps we can reciprocate your hospitality in Thailand in the near future.
+&lt;br /&gt;&lt;br /&gt;Yours sincerely,
+&lt;br /&gt;&lt;br /&gt;XXXXXXXXX&lt;br /&gt;
+Secretary-General&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;Q20&lt;/b&gt; : The word "insight" (paragraph 2) refers to _____.&lt;br /&gt;
+	</question>
+    <choice_A>valuable innovations</choice_A>
+    <choice_B>a long vision</choice_B>
+    <choice_C>modern practices</choice_C>
+    <choice_D>deep understanding</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q20&lt;/b&gt; : The word "insight" (paragraph 2) refers to _____.&lt;br /&gt;
+คำว่า "insight" ในย่อหน้าที่ 2 หมายถึง ______&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. valuable innovations&lt;br /&gt;
+นวตกรรมที่มีคุณค่า&lt;br /&gt;&lt;br /&gt;
+
+b. a long vision&lt;br /&gt;
+วิสัยทัศน์ที่ยาวไกล&lt;br /&gt;&lt;br /&gt;
+
+c. modern practices&lt;br /&gt;
+การดำเนินงานที่ทันสมัย&lt;br /&gt;&lt;br /&gt;
+
+d. deep understanding ✔&lt;br /&gt;
+การเข้าใจอย่างลึกซึ้ง&lt;br /&gt;&lt;br /&gt; 
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 21 -->
+  <thisQuestion>
+    <qNum>id02212:date1627453500</qNum>
+    <question>
+Instruction: Read the following passage and choose the best answer. (Q21 - Q25)&lt;br /&gt;&lt;br /&gt;
+Structured learning certainly has its place. But if it replaces unmediated engagement with the world, it has a negative effect on a child’s education.  Children learn the fragility of flowers by touching their petals.  They learn to cooperate by organizing their own games.  The computer cannot simulate the physical and emotional nuances of resolving a dispute during kickball, or the creativity of inventing new rhymes to the rhythm of jumping rope.  These full-bodied, often deeply heartfelt experiences educate not just the intellect but also the soul of the child.  When children are free to practice on their own, they can test their inner perceptions against the world around them, develop the qualities of care, self-discipline, courage, compassion, generosity, and tolerance – and gradually figure out how to be part of both social and biological communities.
+&lt;br /&gt;&lt;br /&gt;It’s true that engaging with others on the playground can be a harrowing experience, too.  Children often need to be monitored and, at times, disciplined for acts of cruelty, carelessness, selfishness, even violence.  Computers do provide an attractively reliable alternative to the dangers of unsupervised play.  But schools too often use computers or other highly structured activities to prevent these problematic qualities of childhood from surfacing – out of fear or a compulsion to force-feed academics.  This effectively denies children the practice and feedback they need to develop the skills and dispositions of a mature person.  If children do not test the waters of unsupervised social activity, they likely will never be able to swim in the sea of civic responsibility.  If they have no opportunities to dig in the soil, discover the spiders, bugs, birds, and plants that populate even the smallest unpaved playgrounds, they will be less likely to explore, appreciate, and protect nature as adults.
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Q21&lt;/strong&gt; : The passage is mainly about ________.&lt;br /&gt;
+	</question>
+    <choice_A>children’s activities</choice_A>
+    <choice_B>children’s education</choice_B>
+    <choice_C>how to stimulate children’s creativity</choice_C>
+    <choice_D>the negative effects of structured learning</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;b&gt;Q21&lt;/b&gt; : The passage is mainly about ________.&lt;br /&gt;
+เนื้อหาส่วนใหญ่เป็นเรื่องเกี่ยวกับ ______&lt;br /&gt;&lt;br /&gt;
+
+	ในภาพรวมเป็นเรื่อง&lt;strong&gt;การศึกษาของเด็ก&lt;/strong&gt; คือ ถ้าจัดการศึกษาแบบมีโครงสร้างล้วน ๆ กำหนดให้เด็กเรียน ว่าจะให้เรียนรู้อะไรบ้าง ซึ่งลักษณะนี้ผู้เขียนบทความเห็นว่า ขัดต่อธรรมชาติการเรียนรู้ของเด็ก ทางที่ดีต้องปล่อยให้เขาเรียนรู้กับธรรมชาติ แต่ก็ยังอยู่ในความควบคุมบ้างตามโอกาสอันควร ก็จะทำให้เด็กสามารถอยู่ในสังคมได้ มีความอดทน มีวินัย มีความกล้า เป็นต้น ซึ่งจะเห็นได้จากข้อความในประโยคต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+	
+	Structured learning certainly has its place. But if it replaces unmediated engagement with the world, it has a negative effect on &lt;strong&gt;a child’s education&lt;/strong&gt;.&lt;br /&gt;
+	การเรียนรู้แบบมีโครงสร้างนับได้ว่ายังมีความสำคัญอยู่ แต่ถ้าหากการเรียนรู้แบบมีโครงสร้างมาแทนที่การเข้าสู่เรียนรู้โลกอย่างอิสระปราศจากการชี้นำ เสียทั้งหมดแล้ว ย่อมเป็นผลเสียต่อ&lt;strong&gt;การศึกษาของเด็ก&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. children’s activities&lt;br /&gt;
+กิจกรรมของเด็ก&lt;br /&gt;&lt;br /&gt;
+
+b. children’s education ✔&lt;br /&gt;
+การศึกษาของเด็ก&lt;br /&gt;&lt;br /&gt;
+
+c. how to stimulate children’s creativity&lt;br /&gt;
+วิธีกระตุ้นความคิดสร้างสรรค์ของเด็ก&lt;br /&gt;&lt;br /&gt;
+
+d. the negative effects of structured learning&lt;br /&gt;
+ผลเสียของการการเรียนรู้อย่างมีรูปแบบ&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 22 -->
+  <thisQuestion>
+    <qNum>id02213:date1627453500</qNum>
+    <question>
+Instruction: Read the following passage and choose the best answer. (Q21 - Q25)&lt;br /&gt;&lt;br /&gt;
+Structured learning certainly has its place. But if it replaces unmediated engagement with the world, it has a negative effect on a child’s education.  Children learn the fragility of flowers by touching their petals.  They learn to cooperate by organizing their own games.  The computer cannot simulate the physical and emotional nuances of resolving a dispute during kickball, or the creativity of inventing new rhymes to the rhythm of jumping rope.  These full-bodied, often deeply heartfelt experiences educate not just the intellect but also the soul of the child.  When children are free to practice on their own, they can test their inner perceptions against the world around them, develop the qualities of care, self-discipline, courage, compassion, generosity, and tolerance – and gradually figure out how to be part of both social and biological communities.
+&lt;br /&gt;&lt;br /&gt;It’s true that engaging with others on the playground can be a harrowing experience, too.  Children often need to be monitored and, at times, disciplined for acts of cruelty, carelessness, selfishness, even violence.  Computers do provide an attractively reliable alternative to the dangers of unsupervised play.  But schools too often use computers or other highly structured activities to prevent these problematic qualities of childhood from surfacing – out of fear or a compulsion to force-feed academics.  This effectively denies children the practice and feedback they need to develop the skills and dispositions of a mature person.  If children do not test the waters of unsupervised social activity, they likely will never be able to swim in the sea of civic responsibility.  If they have no opportunities to dig in the soil, discover the spiders, bugs, birds, and plants that populate even the smallest unpaved playgrounds, they will be less likely to explore, appreciate, and protect nature as adults.
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Q22&lt;/strong&gt; : The author thinks that _________.&lt;br /&gt;
+	</question>
+    <choice_A>structured learning is the best way for children to learn</choice_A>
+    <choice_B>children learn to co-operate by playing computer games</choice_B>
+    <choice_C>computers can supplement physical activities for children</choice_C>
+    <choice_D>computers cut children off from direct experience of the world</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Q22&lt;/strong&gt; : The author thinks that _________.&lt;br /&gt;
+ผู้เขียนคิดว่า ______&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. structured learning is the best way for children to learn &lt;br /&gt;
+การเรียนรู้ที่มีโครงสร้างเป็นวิธีการเรียนรู้ที่ดีที่สุดของเด็ก&lt;br /&gt;&lt;br /&gt;
+
+ไม่ถูก เพราะผู้เขียน เห็นว่า ถ้าจัดแบบนี้ทั้งหมด จะเป็นผลเสียแก่การศึกษาของเด็ก&lt;br /&gt;
+Structured learning certainly has its place. But if it replaces unmediated engagement with the world, it has a negative effect on a child’s education.&lt;br /&gt;&lt;br /&gt;
+
+b. children learn to co-operate by playing computer games &lt;br /&gt;
+เด็กเรียนรู้การทำงานร่วมกันโดยการเล่นเกมคอมพิวเตอร์&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ผิดชัดเจน เพราะผู้เขียนพูดว่า &lt;br /&gt;
+They (children) learn to cooperate by organizing their own games.&lt;br /&gt;
+เด็กเรียนรู้การทำงานร่วมกันโดยการคิดการเล่นของตนเอง&lt;br /&gt;&lt;br /&gt;
+
+c. computers can supplement physical activities for children &lt;br /&gt;
+คอมพิวเตอร์สามารถใช้เสริมกิจกรรมทางกายภาพของเด็กได้&lt;br /&gt;&lt;br /&gt;
+
+ไม่ถูกเพราะ ผู้เขียนพูดถึงว่า คอมพิวเตอร์อาจจะเป็นทางเลือก หรือ alternative (ไม่ใช่ใช้เสริมกิจกรรม หรือ supplement)กิจกรรมการเล่นที่ไม่มีการดูแลจากผู้ใหญ่ ซึ่งอาจจะเป็นอันตรายได้ &lt;br /&gt;
+Computers do provide an attractively reliable alternative to the dangers of unsupervised play.&lt;br /&gt;&lt;br /&gt;
+
+d. computers cut children off from direct experience of the world ✔&lt;br /&gt;
+คอมพิวเตอร์ตัดเด็กออกจากประสบการณ์ตรงบนโลก&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้สอดคล้องกับข้อความในเรื่อง คือ &lt;br /&gt;
+The computer cannot simulate the physical and emotional nuances of resolving a dispute during kickball, or the creativity of inventing new rhymes to the rhythm of jumping rope. &lt;br /&gt;
+คอมพิวเตอร์ไม่สามารถจำลองด้านกายภาพ ความละเอียดอ่อนของอารมณ์ระหว่างการเล่นเกม kickball หรือ ความสร้างสรรค์ท่วงทำนองใหม่ ให้เข้ากับจังหวะการกระโดดเชือกได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำศัพท์ที่ควรรู้&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+	co-operate = การทำงานร่วมกัน ร่วมมือกัน&lt;br /&gt;
+	attractively = อย่างน่าสนใจ&lt;br /&gt;
+	reliable = ที่เชื่อถือได้&lt;br /&gt;
+	alternative = ทางเลือก ตัวเลือก&lt;br /&gt;
+	unsupervised = ไม่มีการควบคุมดูแล&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 23 -->
+  <thisQuestion>
+    <qNum>id02214:date1627453500</qNum>
+    <question>
+Instruction: Read the following passage and choose the best answer. (Q21 - Q25)&lt;br /&gt;&lt;br /&gt;
+Structured learning certainly has its place. But if it replaces unmediated engagement with the world, it has a negative effect on a child’s education.  Children learn the fragility of flowers by touching their petals.  They learn to cooperate by organizing their own games.  The computer cannot simulate the physical and emotional nuances of resolving a dispute during kickball, or the creativity of inventing new rhymes to the rhythm of jumping rope.  These full-bodied, often deeply heartfelt experiences educate not just the intellect but also the soul of the child.  When children are free to practice on their own, they can test their inner perceptions against the world around them, develop the qualities of care, self-discipline, courage, compassion, generosity, and tolerance – and gradually figure out how to be part of both social and biological communities.
+&lt;br /&gt;&lt;br /&gt;It’s true that engaging with others on the playground can be a harrowing experience, too.  Children often need to be monitored and, at times, disciplined for acts of cruelty, carelessness, selfishness, even violence.  Computers do provide an attractively reliable alternative to the dangers of unsupervised play.  But schools too often use computers or other highly structured activities to prevent these problematic qualities of childhood from surfacing – out of fear or a compulsion to force-feed academics.  This effectively denies children the practice and feedback they need to develop the skills and dispositions of a mature person.  If children do not test the waters of unsupervised social activity, they likely will never be able to swim in the sea of civic responsibility.  If they have no opportunities to dig in the soil, discover the spiders, bugs, birds, and plants that populate even the smallest unpaved playgrounds, they will be less likely to explore, appreciate, and protect nature as adults.
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Q23&lt;/strong&gt; : According to the passage, children should have _________so that they can adapt themselves to be part of society.&lt;br /&gt;
+	</question>
+    <choice_A>free time with their family</choice_A>
+    <choice_B>highly structured activities</choice_B>
+    <choice_C>unsupervised social activities</choice_C>
+    <choice_D>attractive and monitored activities</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Q23&lt;/strong&gt; : According to the passage, children should have _________so that they can adapt themselves to be part of society.&lt;br /&gt;
+จากเรื่องที่อ่าน เด็ก ๆ ควรได้รับ ____ เพื่อที่จะให้พวกเขาได้ปรับตัวเพื่อเป็นส่วนหนึ่งของสังคม&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+a. free time with their family&lt;br /&gt;
+ข้อนี้ไม่ได้กล่าวถึงเลยในเรื่องที่อ่าน&lt;br /&gt;&lt;br /&gt;
+
+b. highly structured activities&lt;br /&gt;
+ไม่ใช่ เพราะผู้เขียนไม่ค่อยเห็นด้วยกับการจัดการเรียนรู้แบบนี้ จะเห็นได้จากประโยคแรกคือ&lt;br /&gt;
+Structured learning certainly has its place. But if it replaces unmediated engagement with the world, it has a negative effect on a child’s education. &lt;br /&gt;&lt;br /&gt;
+
+c. unsupervised social activities ✔&lt;br /&gt;
+ผู้เขียนเห็นว่า ควรปล่อยให้เด็กเป็นอิสระ ได้ประสบกับของจริงบ้างด้วยตนเอง &lt;br /&gt;
+If children do not test the waters of unsupervised social activity, they likely will never be able to swim in the sea of civic responsibility.&lt;br /&gt;
+ถ้าเด็กไม่ได้ลองทำกิจกรรมใหม่ ๆ ทางสังคมที่ไม่มีการดูแลช่วยเหลือ เด็กก็จะไม่สามารถ เป็นพลเมืองที่มีความรับผิดชอบได้ &lt;br /&gt;
+test the waters = ทดลองทำสิ่งใหม่ ๆ และดูผลว่าเป็นอย่างไร (เหมือนกับเอาเท้าจุ่มน้ำเพื่อดูว่า น้ำเย็นแค่ไหน)&lt;br /&gt;&lt;br /&gt;
+
+d. attractive and monitored activities&lt;br /&gt;
+ผู้เขียนไม่เห็นด้วยกับการจัดกิจกรรมทั้งหมดให้แก่เด็ก แต่ควรให้เด็กได้เรียนรู้ด้วยตัวเอง และอาจจะมีการดูแล ลงโทษเป็นบางครั้ง ที่เด็กมีพฤติกรรมโหดร้าย รุนแรง ประมาท เห็นแก่ตัว เป็นต้น&lt;br /&gt;
+Children often need to be monitored and, at times, disciplined for acts of cruelty, carelessness, selfishness, even violence.&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 24 -->
+  <thisQuestion>
+    <qNum>id02215:date1627453500</qNum>
+    <question>
+Instruction: Read the following passage and choose the best answer. (Q21 - Q25)&lt;br /&gt;&lt;br /&gt;
+Structured learning certainly has its place. But if it replaces unmediated engagement with the world, it has a negative effect on a child’s education.  Children learn the fragility of flowers by touching their petals.  They learn to cooperate by organizing their own games.  The computer cannot simulate the physical and emotional nuances of resolving a dispute during kickball, or the creativity of inventing new rhymes to the rhythm of jumping rope.  These full-bodied, often deeply heartfelt experiences educate not just the intellect but also the soul of the child.  When children are free to practice on their own, they can test their inner perceptions against the world around them, develop the qualities of care, self-discipline, courage, compassion, generosity, and tolerance – and gradually figure out how to be part of both social and biological communities.
+&lt;br /&gt;&lt;br /&gt;It’s true that engaging with others on the playground can be a harrowing experience, too.  Children often need to be monitored and, at times, disciplined for acts of cruelty, carelessness, selfishness, even violence.  Computers do provide an attractively reliable alternative to the dangers of unsupervised play.  But schools too often use computers or other highly structured activities to prevent these problematic qualities of childhood from surfacing – out of fear or a compulsion to force-feed academics.  This effectively denies children the practice and feedback they need to develop the skills and dispositions of a mature person.  If children do not test the waters of unsupervised social activity, they likely will never be able to swim in the sea of civic responsibility.  If they have no opportunities to dig in the soil, discover the spiders, bugs, birds, and plants that populate even the smallest unpaved playgrounds, they will be less likely to explore, appreciate, and protect nature as adults.
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Q24&lt;/strong&gt; : Which of the following agrees with the passage?&lt;br /&gt;
+	</question>
+    <choice_A>Children should learn how to swim properly.</choice_A>
+    <choice_B>Children should be encouraged to engage with nature.</choice_B>
+    <choice_C>Children will eventually mature into responsible adults.</choice_C>
+    <choice_D>Children need to be supervised most of the time to prevent violence.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Q24&lt;/strong&gt; : Which of the following agrees with the passage?&lt;br /&gt;
+ข้อใดต่อไปนี้ สอดคล้องกับเรื่องที่อ่าน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Children should learn how to swim properly. &lt;br /&gt;
+เด็ก ๆ ควรจะเรียนรู้วิธีการว่ายน้ำอย่างเหมาะสม&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ไม่ถูก เพราะคำว่า properly หรือ อย่างเหมาะสม เป็นคำที่แสดงถึงการควบคุม จะต้องอยู่ในความดูแลเพื่อให้เหมาะสม&lt;br /&gt;&lt;br /&gt;
+
+b. Children should be encouraged to engage with nature. ✔&lt;br /&gt;
+เด็ก ๆ ควรได้รับการสนับสนุนส่งเสริมให้สัมผัสเรียนรู้กับธรรมชาติ&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ถูกต้อง เพราะ ผู้เขียนเห็นด้วยกับการให้เด็ก ๆ ได้เรียนรู้ด้วยตนเอง เช่น เรียนรู้จากการเล่น การกระโดดเชือก เรียนรู้ความเปราะบางของกลีบดอกไม้ด้วยการสัมผัสเป็นต้น&lt;br /&gt;
+Children learn the fragility of flowers by touching their petals.  &lt;br /&gt;
+เด็ก ๆ เรียนรู้ความเปราะบางของดอกไม้ด้วยการสัมผัสกลีบดอกไม้ &lt;br /&gt;
+They learn to cooperate by organizing their own games.  &lt;br /&gt;
+พวกเขา(เด็ก ๆ)เรียนรู้ความร่วมมือโดยวิธีจัดการการละเล่นของพวกเขาเอง&lt;br /&gt;&lt;br /&gt;
+
+c. Children will eventually mature into responsible adults. &lt;br /&gt;
+เด็ก ๆ ในท้ายที่สุดก็จะบรรลุวุฒิภาวะเป็นผู้ใหญ่ที่มีความรับผิดชอบ&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ไม่ถูก เพราะ ผู้เขียนพูดชัดเจนว่า ถ้าจัดการศึกษาแบบมีโครงสร้างแล้ว มีโอกาสน้อยมากที่จะได้ผู้ใหญ่ที่รักและดูแลธรรมชาติ  &lt;br /&gt;
+" ... they will be less likely to explore, appreciate, and protect nature as adults..png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+d. Children need to be supervised most of the time to prevent violence. &lt;br /&gt;
+เด็ก ๆ ควรจะได้รับการดูแลเกือบตลอดเวลา เพื่ดป้องกันความรุนแรง&lt;br /&gt;&lt;br /&gt;
+
+ไม่ถูก เพราะคำว่า most of the time หมายถึงส่วนใหญ่ แต่ผู้เขียนบอกว่า บางครั้งเท่านั้นที่ต้องมีการควบคุมจัดการ ในเรื่องความรุนแรง Children often need to be monitored and, &lt;strong&gt;at times&lt;/strong&gt;, disciplined for acts of cruelty, carelessness, selfishness, even violence. &lt;br /&gt;
+at times = บางครั้ง&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 25 -->
+  <thisQuestion>
+    <qNum>id02216:date1627453500</qNum>
+    <question>
+Instruction: Read the following passage and choose the best answer. (Q21 - Q25)&lt;br /&gt;&lt;br /&gt;
+Structured learning certainly has its place. But if it replaces unmediated engagement with the world, it has a negative effect on a child’s education.  Children learn the fragility of flowers by touching their petals.  They learn to cooperate by organizing their own games.  The computer cannot simulate the physical and emotional nuances of resolving a dispute during kickball, or the creativity of inventing new rhymes to the rhythm of jumping rope.  These full-bodied, often deeply heartfelt experiences educate not just the intellect but also the soul of the child.  When children are free to practice on their own, they can test their inner perceptions against the world around them, develop the qualities of care, self-discipline, courage, compassion, generosity, and tolerance – and gradually figure out how to be part of both social and biological communities.
+&lt;br /&gt;&lt;br /&gt;It’s true that engaging with others on the playground can be a &lt;strong&gt;&lt;font color='red'&gt;harrowing&lt;/font&gt;&lt;/strong&gt; experience, too.  Children often need to be monitored and, at times, disciplined for acts of cruelty, carelessness, selfishness, even violence.  Computers do provide an attractively reliable alternative to the dangers of unsupervised play.  But schools too often use computers or other highly structured activities to prevent these problematic qualities of childhood from surfacing – out of fear or a compulsion to force-feed academics.  This effectively denies children the practice and feedback they need to develop the skills and dispositions of a mature person.  If children do not test the waters of unsupervised social activity, they likely will never be able to swim in the sea of civic responsibility.  If they have no opportunities to dig in the soil, discover the spiders, bugs, birds, and plants that populate even the smallest unpaved playgrounds, they will be less likely to explore, appreciate, and protect nature as adults.
+
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Q25&lt;/strong&gt; : The word "harrowing" (paragraph 2) is closest in meaning to _____. &lt;br /&gt;&lt;br /&gt;
+	</question>
+    <choice_A>upsetting</choice_A>
+    <choice_B>structured</choice_B>
+    <choice_C>instructive</choice_C>
+    <choice_D>pleasurable</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Q25&lt;/strong&gt; : The word &lt;strong&gt;"harrowing"&lt;/strong&gt; (paragraph 2) is closest in meaning to _____. &lt;br /&gt;&lt;br /&gt;
+
+It’s true that engaging with others on the playground can be a &lt;strong&gt;harrowing&lt;/strong&gt; experience, too. Children often need to be monitored and, at times, disciplined for acts of cruelty, carelessness, selfishness, even violence.  &lt;br /&gt;&lt;br /&gt;
+
+	ถ้าไม่ทราบความหมาย ให้ดูประโยคข้างเคียง จะเห็นว่า มีคำว่า cruelty, carelessness, selfishness, even violence ซึ่งมีความหมายไปในทางลบ เกี่ยวกับ ความโหดร้าย(cruelty) ความประมาท(carelessness) ความเห็นแก่ตัว(selfishness) และแม้กระทั่งความรุนแรง(even violence) ดังนั้น คำตอบที่ดีที่สุด คือ upsetting&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. upsetting ✔&lt;br /&gt;
+ไม่พึงปรารถนา&lt;br /&gt;&lt;br /&gt;
+
+b. structured&lt;br /&gt;
+อย่างมีโครงสร้าง&lt;br /&gt;&lt;br /&gt;
+
+c. instructive&lt;br /&gt;
+อย่างเป็นการสอน&lt;br /&gt;&lt;br /&gt;
+
+d. pleasurable&lt;br /&gt;
+น่าพอใจ&lt;br /&gt;&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+</exams>
+
+

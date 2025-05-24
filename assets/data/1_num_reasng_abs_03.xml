@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0682:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb6_square7_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb6_square7_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb6_square7_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb6_square7_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb6_square7_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb6_square7_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb6_square7_a.png&quot;&gt; ✔&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb6_square7_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb6_square7_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb6_square7_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+สี่เหลี่ยมรูปนอกสุด ลดลงครึ่งหนึ่งแล้วหายไป&lt;br /&gt;
+เส้นตั้งฉากสลับระหว่างมีและไม่มี (มี 1 รูป เว้น 1 รูป)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0683:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb6_square8_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb6_square8_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb6_square8_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb6_square8_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb6_square8_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb6_square8_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb6_square8_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb6_square8_b.png&quot;&gt; ✔&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb6_square8_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb6_square8_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+สี่เหลี่ยมรูปนอกสุด ลดลงครึ่งหนึ่งแล้วหายไป&lt;br /&gt;
+เส้นตั้งฉากสลับระหว่างมีและไม่มี (มี 1 รูป เว้น 1 รูป)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0684:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb6_square9_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb6_square9_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb6_square9_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb6_square9_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb6_square9_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb6_square9_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb6_square9_a.png&quot;&gt; ✔&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb6_square9_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb6_square9_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb6_square9_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+สี่เหลี่ยม หมุนครั้งละ 90 องศา&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0685:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_circle02_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_circle02_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_circle02_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_circle02_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_circle02_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+	&lt;img src=&quot;asset:assets/data/images/nb7_circle02_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_circle02_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_circle02_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_circle02_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_circle02_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+ส่วนของวงกลมลายตาหมากรุก เคลื่อนที่ตามเข็มนาฬิกา ครั้งละ 1 ตำแหน่ง&lt;br /&gt;&lt;br /&gt;
+
+ส่วนของวงกลมลายแนวตั้ง เคลื่อนที่ทวนเข็มนาฬิกาห่างจากตำแหน่งเดิมจำนวน 2 ส่วนเท่ากัน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ตำแหน่งส่วนของวงกลมลายตาหมากรุกในภาพต่อไป ต้องอยู่ถัดไปทางขวา (ตามเข็มนาฬิกา)จากตำแหน่งในรูปที่ 4&lt;br /&gt;	
+ตำแหน่งของวงกลมลายแนวตั้งในภาพต่อไป ต้องอยู่ห่างจากตำแหน่งในรูปที่ 4 ไปทางขวาจำนวน	2 ส่วน&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0686:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_circle01_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_circle01_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_circle01_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_circle01_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_circle01_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_circle01_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_circle01_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_circle01_b.png&quot;&gt; ✔&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_circle01_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_circle01_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+ส่วนของวงกลมลายตาหมากรุก เคลื่อนที่ทวนเข็มนาฬิกา ห่างจากตำแหน่งเดิมจำนวน 1,3,5 ส่วน ตามลำดับ&lt;br /&gt;
+&lt;br /&gt;
+
+ส่วนของวงกลมลายแนวนอน เคลื่อนที่ทวนเข็มนาฬิกาห่างจากตำแหน่งเดิมจำนวน 1 ส่วนเท่ากัน&lt;br /&gt;
+&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ตำแหน่งส่วนของวงกลมลายตาหมากรุกในภาพต่อไปต่อไป ต้องอยู่ห่างจากตำแหน่งในรูปที่ 4 จำนวน 7 ส่วน&lt;br /&gt;ตำแหน่งของวงกลมลายแนวนอนในภาพต่อไป ต้องอยู่ห่างจากตำแหน่งในรูปที่ 4 จำนวน	1 ส่วน&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0687:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_circle03_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_circle03_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_circle03_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_circle03_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_circle03_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_circle03_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_circle03_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_circle03_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_circle03_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_circle03_d.png&quot;&gt; ✔&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+ส่วนของวงกลมลายตาหมากรุก เคลื่อนที่ทวนเข็มนาฬิกา &lt;br /&gt;&lt;br /&gt;
+
+ส่วนของวงกลมลายแนวตั้ง เคลื่อนที่ตามเข็มนาฬิกา&lt;br /&gt;
+
+คำตอบคือ ข้อ 4&lt;br /&gt;&lt;br /&gt;
+
+ตำแหน่งส่วนของวงกลมลายตาหมากรุกในภาพต่อไปต่อไป ต้องอยู่ถัดจากตำแหน่งในรูปที่ 4 ทวนเข็มนาฬิกา&lt;br /&gt;&lt;br /&gt;
+
+ตำแหน่งของวงกลมลายแนวตั้งในภาพต่อไป ต้องอยู่ถัดจากตำแหน่งในรูปที่ 4 ตามเข็มนาฬิกา&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0688:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_circle04_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_circle04_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_circle04_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_circle04_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_circle04_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_circle04_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_circle04_a.png&quot;&gt; ✔&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_circle04_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_circle04_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_circle04_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+ส่วนของวงกลมลายตาหมากรุก เคลื่อนที่ทวนเข็มนาฬิกาจำนวน 1,2,3 ส่วน ตามลำดับ&lt;br /&gt;&lt;br /&gt;
+
+ส่วนของวงกลมสีฟ้า เคลื่อนที่ตามเข็มนาฬิกาจำนวน 1,2,3 ส่วน ตามลำดับ&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1&lt;br /&gt;&lt;br /&gt;
+
+ตำแหน่งส่วนของวงกลมลายตาหมากรุกในภาพต่อไปต่อไป ต้องอยู่จากตำแหน่งในรูปที่ 4 จำนวน 4 ส่วน ทวนเข็มนาฬิกา&lt;br /&gt;&lt;br /&gt;
+
+ตำแหน่งของวงกลมสีฟ้าในภาพต่อไป ต้องอยู่ห่างจากตำแหน่งในรูปที่ 4 จำนวน	4 ส่วน ตามเข็มนาฬิกา&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0689:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_circle05_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_circle05_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_circle05_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_circle05_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_circle05_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_circle05_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_circle05_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_circle05_b.png&quot;&gt; ✔&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_circle05_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_circle05_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+ส่วนของวงกลมสีขาว เพิ่มขึ้นครั้งละ 1 ส่วน(45 องศา) ทางซ้ายและทางขวา สลับกัน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ภาพต่อไปคือส่วนของวงกลม จะเพิ่มขึ้นอีก 45 องศา ไปทางขวาของรูปที่ 4&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0690:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_circle06_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_circle06_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_circle06_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_circle06_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_circle06_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_circle06_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_circle06_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_circle06_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_circle06_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_circle06_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+ส่วนของวงกลมสีขาว เพิ่มขึ้นครั้งละ 45 องศา ตามเข็มและทวนเข็มนาฬิกาสลับกัน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ภาพต่อไปคือส่วนของวงกลม จะเพิ่มขึ้นอีก 45 องศา จากรูปที่ 4 ทวนเข็มนาฬิกา&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!--  from here  -->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0691:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_line01_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_line01_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_line01_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_line01_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_line01_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_line01_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_line01_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_line01_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_line01_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_line01_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+เส้นตรงขยายออก&lt;br /&gt;
+สามเหลี่ยมอยู่ข้างเดียวกัน และสลับกันในแต่ละรูป&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ภาพต่อไปคือ เส้นตรงขยายออกไป และรูปสามเหลี่ยมอยู่ด้านในจุดตัด&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0692:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_line03_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_line03_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_line03_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_line03_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_line03_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_line03_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_line03_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_line03_b.png&quot;&gt; ✔&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_line03_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_line03_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+ภาพลายเส้น หมุนครั้งละ 180 องศา&lt;br /&gt;
+ในการหมุนแต่ละครั้ง จะมีส่วนท้ายลูกศรหดลงทุกครั้ง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ภาพต่อไปคือ ส่วนท้ายของลูกศรจะหดสั้นลงกว่าภาพที่ 4 และ หมุนกลับ 180 องศา&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0693:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_line02_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_line02_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_line02_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_line02_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_line02_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_line02_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_line02_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_line02_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_line02_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_line02_d.png&quot;&gt; ✔&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+
+รูปที่สามคือ สิ่งที่รูปก่อนหน้านี้ 2 รูป มีไมเหมือนกัน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4&lt;br /&gt;&lt;br /&gt;
+
+สิ่งที่รูปที่ 3 และ	4 มีไม่เหมือนกันคือ สี่เหลี่ยมและกากบาท&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0694:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_square04_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_square04_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_square04_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_square04_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_square04_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_square04_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_square04_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_square04_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_square04_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_square04_d.png&quot;&gt; ✔&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+สี่เหลี่ยมสีดำ เคลื่อนที่ไปตามแนวทวนเข็มนาฬิกา ครั้งละ 2 ตาราง&lt;br /&gt;
+สี่เหลี่ยมสีตาหมากรุก อยู่ตำแหน่งเดิม&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4&lt;br /&gt;&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0695:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_square03_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_square03_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_square03_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_square03_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_square03_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_square03_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_square03_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_square03_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_square03_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_square03_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+สี่เหลี่ยมสีตาหมากรุก เคลื่อนที่ไปตามแนวทวนเข็มนาฬิกา ครั้งละ 1 ตาราง&lt;br /&gt;
+สี่เหลี่ยมสีดำ เคลื่อนที่ไปตามแนวตามเข็มนาฬิกา ครั้งละ 1 ตาราง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0696:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_square01_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_square01_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_square01_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_square01_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_square01_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_square01_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_square01_a.png&quot;&gt; ✔&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_square01_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_square01_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_square01_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+สี่เหลี่ยมนอก หมุนตามเข็มนาฬิกา ครั้งละ 45 องศา&lt;br /&gt;
+สี่เหลี่ยมรูปในลายแนวตั้ง อยู่ตำแหน่งเดิม&lt;br /&gt;
+สี่เหลี่ยมรูปในสีดำ เคลื่อนที่ไปตามแนวตามเข็มนาฬิกา ครั้งละ 2 ตาราง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1&lt;br /&gt;&lt;br /&gt;
+
+ภาพต่อไปคือ สี่เหลี่ยมนอกอยู่แนวตั้ง สี่เหลี่ยมในลายแนวตั้งอยู่ตำแหน่งเดิม สี่เหลี่ยมในสีดำเคลื่อนที่จากรูปที่ 4 ไปอีก 2 ตาราง &lt;br /&gt;&lt;br /&gt;
+เนื่องจาก สี่เหลี่ยมลายตั้งอยู่คงที่ ดังนั้นอาจจะนับความห่างของสี่เหลี่ยมสีดำที่ห่างจากสี่เหลี่ยมลายตั้ง ก็ได้ จะเห็นว่า ห่างกัน 1,3,5,7 ตัวต่อไปต้องห่างกัน 9 ตาราง&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0697:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb7_square02_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb7_square02_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb7_square02_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb7_square02_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb7_square02_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb7_square02_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb7_square02_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb7_square02_b.png&quot;&gt; ✔&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb7_square02_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb7_square02_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;&lt;br /&gt;
+
+สี่เหลี่ยมนอก หมุนทวนเข็มนาฬิกา ครั้งละ 45 องศา&lt;br /&gt;
+สี่เหลี่ยมรูปในลายแนวตั้ง อยู่ตำแหน่งเดิม&lt;br /&gt;
+สี่เหลี่ยมรูปในสีดำ เคลื่อนที่ไปตามแนวตามเข็มนาฬิกา ครั้งละ 2 ตาราง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ภาพต่อไปคือ สี่เหลี่ยมนอกอยู่แนวตั้ง สี่เหลี่ยมในลายแนวตั้งอยู่ตำแหน่งเดิม สี่เหลี่ยมในสีดำเคลื่อนที่จากรูปที่ 4 ไปอีก 2 ตาราง &lt;br /&gt;&lt;br /&gt;
+เนื่องจาก สี่เหลี่ยมลายตั้งอยู่คงที่ ดังนั้นอาจจะนับความห่างของสี่เหลี่ยมสีดำที่ห่างจากสี่เหลี่ยมลายตั้ง ก็ได้ จะเห็นว่า ห่างกัน 1,3,5,7 ภาพต่อไปต้องห่างกัน 9 ตาราง&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+</exams>
+
+

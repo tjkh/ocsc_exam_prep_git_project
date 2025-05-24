@@ -1,0 +1,366 @@
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table.equal .for_root{ /* สำหรับตาราง ที่ไม่มีเส้นขอบ เช่น ใช้กับเครื่องหมายรูท  */
+border: 0px;
+border-spacing:0px; 
+border-width:0px; 
+border-collapse: none;
+font-family:verdana;
+width:auto;
+}
+
+table.equal .for_root td{
+padding:0px; 
+border-spacing:0px; 
+border-width:0px; 
+font-size:larger;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 250px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0);  /*Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+ /*   background-color: #808080;   */
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    padding-bottom: 15px;
+	font-size: 120%;
+	font-family: Arial, Helvetica;
+	height: 45px;
+    background-color: #3F51B5;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+	font-size: 65%;
+	height: 10px;
+    background-color: #3F51B5;
+    color: white;
+}
+#myMessage{ // for หมดเวลา
+	font-size: 120%;
+	font-weight: bold;
+    color: red;
+    text-align: center;
+}
+/* for timer */
+#timer {
+	display: inline;
+	color: red;
+}
+
+#timer_wrapper {
+/* display: none;  */
+   margin-top: 5px;
+    width:100%;
+	 height: 40px;
+	position: fixed;
+    top:0; 
+    left:0; 
+    z-index:2000;
+	border-bottom: 2px solid blue;
+	border-top: 2px solid blue;
+}
+
+#nav {
+   margin-top: 05px;
+    width:100%;
+	position: fix;
+    top:40; 
+    left:0; 
+    z-index:2000;
+/* border-bottom: 2px solid red; */
+}
+
+#container {
+    top: 30px;
+	margin-top: 5px;
+}
+
+
+
+
+.timer_wrapper {
+    font-family: sans-serif;
+    font-size: 95%;
+	background-color: white;
+}
+
+.timer_wrapper .row  {
+    margin: 0px;
+	vertical-align:bottom;
+}
+.timer_wrapper .row .btns {
+	display: inline-block;
+}
+.timer_wrapper .row .details {
+    display: inline-block;
+	text-align:center;
+	float:right;
+}
+ .timer_wrapper .row .details .duration {
+    /*border: 1px solid blue;*/
+}     
+.timer_wrapper .row .details .timer {
+    border: 1px solid orange;
+}
+
+.content {
+margin: 40px auto 0;
+overflow-x: hidden;
+overflow-y: auto;
+	}
+
+
+.passage-div {
+      height: 40vh;
+      width: 100%;
+	  border-color: #0000;
+	  overflow-y: scroll;
+   background-color: #ffffcc;
+    /*      background-color: #d2a56d;*/
+    }
+	
+td {
+	text-align: center;
+	font-size: 80%;
+}
+td.alignLeft{
+	text-align: left;
+}
+td.alignRight{
+	text-align: right;
+}
+
+td.alignCenter{
+	text-align: center;
+}
+
+a:visited {
+    background-color: yellow;
+}
+
+div.alignRight{
+	text-align: right;
+	}
+
+
+.qstn-div {
+      height: 40vh;
+      width: 100%;      
+	  border-style: solid dotted;
+	  border-color: #4CAF50;
+	  border-width: 1px;
+      overflow-y: scroll;
+ background-color: #E0ECF8;
+   /*         background-color: #d2a56d;*/
+    }
+
+table {
+    border-collapse: collapse;
+	width:100%;
+}
+
+td{
+   vertical-align: top;
+}
+
+table, td, th {
+    border: 1px solid #aaaaaa;
+}
+
+td.group_label { 
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+background-color: Green;
+/*			background-color: #d2a56d;  */
+	}
+
+td.sub_head { 
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	vertical-align: middle;
+background-color: #96ace7;
+/* 		background-color: #d2a56d;  */
+	}
+
+
+tr:nth-child(even){background-color: #E0E0E0}
+/*  tr:nth-child(even){background-color: #ce8b54}
+tr:nth-child(odd){background-color: #d2a56d}*/
+
+
+th {
+    font-size: 85%;
+ background-color: #c3c388;
+ /*       background-color: #d2a56d;*/
+    color: white;
+	text-align:center;
+}
+
+/* for fraction */
+.frac { display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+     font-size: 1.0em;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+     font-size: 1.0em;
+    border-top: thick solid gray;
+}
+.frac span.symbol {
+    display: none;
+} 
+/* end of for fraction */
+
+.dblUnderlined { 
+border-bottom: 5px double; 
+}
+
+table.equal {  /* สำหรับตาราง ที่ต้องการให้ช่องเท่ากันทุกช่อง  */
+	table-layout: fixed;
+    border-collapse: collapse;
+	width:100%;
+}
+
+div.center_head{
+	clear:both;
+	 text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+td.alignCenter{  /* สำหรับให้ตัวหนังสือ จัดกลาง ในช่องตาราง  */
+	text-align: center;
+}
+
+.indent_15px{
+    display:block;
+    text-indent:15px;
+	}
+
+body {
+    font-size: 1.8em;
+}
+
+
+
+/*
+สำหรับโหมด มืด-สว่าง
+*/
+body {
+  background-color: white;
+  color: black;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+#footer {   /*  id สำหรับ เมนูด้านล่างของหน้าจอ */
+display: none;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    background-color: #1434A4;
+    }
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+}
+
+.curr {   /* สำหรับพื้นหลังเมนู ที่กำลังเลือก  */
+/* background: red; */
+font-color: blue;
+ /* text-decoration: underline overline;  */
+}
+
+.myMenu { /* สำหรับจัดให้เมนูอยู่ใน class นี้ เพื่อวน และเปลี่ยนพื้นหลัง เมื่อเลือกเมนู   */
+font-color: blue;
+}
+a.myMenu{
+text-decoration: none;
+}
+a.curr{
+text-decoration: underline solid red;
+text-decoration-thickness: 25%;
+}

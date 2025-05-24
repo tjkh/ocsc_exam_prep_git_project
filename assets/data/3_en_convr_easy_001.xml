@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01856:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Taxi Driver: .................?&lt;br /&gt;
+Customer: Suvarnabhumi Airport.&lt;br /&gt;
+
+	</question>
+    <choice_A>Where is it?</choice_A>
+    <choice_B>Where you go?</choice_B>
+    <choice_C>Where to, sir?</choice_C>
+    <choice_D>Where you go, sir?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Taxi Driver: .................?&lt;br /&gt;
+คนขับรถแท็กซี่: .................?&lt;br /&gt;
+
+Customer: Suvarnabhumi Airport.&lt;br /&gt;
+ลูกค้า: สนามบินสุวรรณภูมิ&lt;br /&gt;&lt;br /&gt;
+
+
+	1. Where is it?&lt;br /&gt;
+	2. Where you go?&lt;br /&gt;
+	3. Where to, sir? ✔&lt;br /&gt;
+	4. Where you go, sir?&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+จากข้อความ น่าจะเดาได้ว่า คนขับรถคงจะถามลูกค้าว่า จะให้ไปส่งที่ไหน&lt;br /&gt;&lt;br /&gt;
+
+Where is it?&lt;br /&gt;
+มันอยู่ที่ไหน ไม่น่าจะใช่ในสถานการณ์นี้&lt;br /&gt;&lt;br /&gt;
+
+Where you go?&lt;br /&gt;
+รู้เรื่อง แต่เป็นคำพูดที่ไม่ควรใช้ดีกว่า เพราะไม่ถูกไวยากรณ์&lt;br /&gt;&lt;br /&gt;
+
+Where to, sir?&lt;br /&gt;
+สำนวน Where to หมายถึง จะให้ไปส่งที่ไหน และมีคำว่า sir ต่อท้าย แสดงว่า ลูกค้าเป็นผู้ชาย และเป็นการพูดแบบสุภาพ&lt;br /&gt;&lt;br /&gt;
+
+Where you go, sir?&lt;br /&gt;
+รู้เรื่อง แต่เป็นคำพูดที่ไม่ควรใช้ดีกว่า เพราะไม่ถูกไวยากรณ์&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 3 ถูกที่สุด&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01857:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+A: How .......... are you?&lt;br /&gt;
+B: Five ten.&lt;br /&gt;
+
+	</question>
+    <choice_A>long</choice_A>
+    <choice_B>much</choice_B>
+    <choice_C>weight</choice_C>
+    <choice_D>tall</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+A: How .......... are you?&lt;br /&gt;
+A: คุณ ......... เท่าไร&lt;br /&gt;&lt;br /&gt;
+
+B: Five ten.&lt;br /&gt;
+B: 5 10&lt;br /&gt;&lt;br /&gt;
+
+	1. long&lt;br /&gt;
+	2. much&lt;br /&gt;
+	3. weight&lt;br /&gt;
+	4. tall ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+	จากคำตอบ Five ten หมายถึง 5 ฟุต 10 นิ้ว ซึ่งเป็นความสูงของผู้ตอบ ดังนั้น คำถามจึงต้องถามว่า สูงเท่าไร&lt;br /&gt;&lt;br /&gt;
+
+	How long เป็นการถามเกี่ยวกับความยาว หรือ ระยะเวลา เช่น&lt;br /&gt;
+	How long is the table?&lt;br /&gt;
+	โต๊ะนี้ยาวเท่าไร (กี่นิ้ว กี่ฟุต กี่เมตร เป็นต้น)&lt;br /&gt;
+	How long does it take to go there?&lt;br /&gt;
+	ใช้เวลานานเท่าไร ที่จะไปถึงที่นั่น&lt;br /&gt;&lt;br /&gt;
+
+	ถามความสูง ถามว่า How tall are you?&lt;br /&gt;&lt;br /&gt;
+
+	ข้อ 5 ถูกที่สุด&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01858:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Buyer: ..................?&lt;br /&gt;
+Seller: 20 baht each.&lt;br /&gt;
+	</question>
+    <choice_A>How much</choice_A>
+    <choice_B>How many</choice_B>
+    <choice_C>How you sell</choice_C>
+    <choice_D>How price</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Buyer: ..................?&lt;br /&gt;
+คนซื้อ:.....................?&lt;br /&gt;&lt;br /&gt;
+
+Seller: 20 baht each.&lt;br /&gt;
+คนขาย: อันละ 20 บาท&lt;br /&gt;&lt;br /&gt;
+
+	1. How much ✔&lt;br /&gt;
+	2. How many&lt;br /&gt;
+	3. How you sell&lt;br /&gt;
+	4. How price&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+	น่าจะเดาได้ว่า เป็นการถามราคา เพราะ Buyer คือ ผู้ซื้อ และ Seller คือ ผู้ขาย&lt;br /&gt;
+	20 baht each หมายถึง อันละ ยี่สิบบาท&lt;br /&gt;&lt;br /&gt;
+
+ถามราคา คือ How much? หรือ How much is it? หรือ How much is this? ก็ได้&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01859:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Seller: It's fifty baht, ma'am.&lt;br /&gt;
+Buyer: ...........................&lt;br /&gt;
+	</question>
+    <choice_A>Here we are.</choice_A>
+    <choice_B>Here you go.</choice_B>
+    <choice_C>Here we go</choice_C>
+    <choice_D>Shall we go</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+	
+Seller: It's fifty baht, ma'am.&lt;br /&gt;
+ผู้ขาย: 50 บาท ครับ/ค่ะ&lt;br /&gt;&lt;br /&gt;
+
+Buyer: ...........................&lt;br /&gt;
+ผู้ซื้อ: ........................... &lt;br /&gt;&lt;br /&gt;
+
+	1. Here we are.&lt;br /&gt;
+			มาถึงที่นี่แล้ว&lt;br /&gt;
+	2. Here you go. ✔&lt;br /&gt;
+			นี่ค่ะ/ครับ&lt;br /&gt;
+	3. Here we go&lt;br /&gt;
+	4. Shall we go&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำว่า ma'am ย่อมาจากคำว่า madam ใช้พูดกับผู้หญิง เป็นคำสุภาพ ยกย่อง โดยธรรมดาทั่ว ๆ ไป จะใช้คำว่า ma'am ส่วนคำว่า madam ในอเมริกามักจะใช้ในสถานการณ์ที่เป็นทางการ&lt;br /&gt;
+
+ดูตามลิงค์ที่ให้ไว้ สรุปว่า ma'am ถ้าใช้พูดกับคนที่อ่อนวัยกว่า คนฟังจะไม่ชอบ ควรใช้กับผู้หญิงที่อายุมากกว่า หรือไม่งั้นก็ใช้คำว่า Miss แทนก็ได้ ใช้ได้กลาง ๆ ใช้พูดได้กับผู้หญิงทุกคน เพื่อแสดงความสุภาพ เหมือนกับพูดว่า ครับ/คะ นั่นเอง&lt;br /&gt;
+https://www.youtube.com/watch?v=FyuW7jnnd7Y&lt;br /&gt;&lt;br /&gt;
+
+
+
+Here we are. ใช้ในกรณีว่า ชวนกันไปที่ไหนสักแห่ง พอเมื่อไปถึงแล้ว ก็พูดว่า เรามาถึงกันแล้ว&lt;br /&gt;&lt;br /&gt;
+
+Here you go. ใช้พูดพร้อมกับยื่นอะไรให้ เหมือนกับพูดว่า นี่ไงครับ หรือ นี่ครับ เป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+Here we go. วลีนี้ใช้ในภาษาพูด สามารถแปลความและใช้ในกรณีว่ากำลังเริ่มทำอะไรบางอย่าง เช่น&lt;br /&gt;
+Alright. Here we go.&lt;br /&gt;
+โอเค ไปกันเลย&lt;br /&gt;&lt;br /&gt;
+
+Shall we go? เป็นคำชักชวน มักจะขึ้นต้นด้วยคำว่า Shall we....?&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+
+&lt;br /&gt;ขอบคุณ Remilia Scarlet ที่ช่วยตรวจสอบข้อนี้  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01860:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+	A: ................ does it take to drive from Bangkok to Cheigmai?&lt;br /&gt;
+	B: It takes about 8 hours.
+	&lt;br /&gt;
+	</question>
+    <choice_A>How far</choice_A>
+    <choice_B>How long</choice_B>
+    <choice_C>How much</choice_C>
+    <choice_D>How many</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+	A: ................ does it take to drive from Bangkok to Cheigmai?&lt;br /&gt;
+	A: .......... ขับรถจากกรุงเทพไปเชียงใหม่&lt;br /&gt;&lt;br /&gt;
+
+	B: It takes about 8 hours.&lt;br /&gt;
+	B: ประมาณ 8 ชั่วโมง&lt;br /&gt;&lt;br /&gt;
+
+	1. How far(ระยะทางเท่าไร/ไกลเท่าไร)&lt;br /&gt;
+	2. How long (กินเวลาเท่าไร หรือ ยาวเท่าไร)✔&lt;br /&gt;
+	3. How much (เท่าไร)&lt;br /&gt;
+	4. How many (กี่อัน)&lt;br /&gt;&lt;br /&gt;
+
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+How far ถามเกี่ยวกับระยะทาง&lt;br /&gt;&lt;br /&gt;
+
+How long ถามเกี่ยวกับความยาว หรือ ระยะเวลา&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01861:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+A: How's it going?&lt;br /&gt;
+B: ................................
+	&lt;br /&gt;
+	</question>
+    <choice_A>I'm fine. Thank you. And you?</choice_A>
+    <choice_B>I'm good.</choice_B>
+    <choice_C>How do you do?</choice_C>
+    <choice_D>How are you?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+	
+A: How's it going?&lt;br /&gt;
+A:เป็นไงบ้าง&lt;br /&gt;&lt;br /&gt;
+B: ................................ &lt;br /&gt;
+B:......................&lt;br /&gt;&lt;br /&gt;
+
+
+	1. I'm fine. Thank you. And you?&lt;br /&gt;
+			ผม/ฉันสบายดี ขอบคุณ แล้วคุณล่ะ - ตอบได้แต่เชย และไม่จำเป็นต้องขอบคุณ&lt;br /&gt;&lt;br /&gt;
+
+	2. I'm good. ✔&lt;br /&gt;
+			สบายดี&lt;br /&gt;&lt;br /&gt;
+
+	3. How do you do?&lt;br /&gt;
+			ยินดีที่รู้จัก&lt;br /&gt;&lt;br /&gt;
+
+	4. How are you?&lt;br /&gt;
+			สบายดีหรือ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+How's it going? ถามแบบเป็นกันเอง เวลาตอบ ก็ต้องตอบแบบเป็นกันเอง จึงจะเหมาะสม&lt;br /&gt;&lt;br /&gt;
+
+คำอื่น ๆ ที่ใช้ได้ เช่น&lt;br /&gt;&lt;br /&gt;
+
+I'm fine.&lt;br /&gt;
+I'm good.&lt;br /&gt;
+I'm great.&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01862:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Boss: Can I have that report by tomorrow?&lt;br /&gt;
+You: .................................
+&lt;br /&gt;
+	</question>
+    <choice_A>No, you can't.</choice_A>
+    <choice_B>Certainly.</choice_B>
+    <choice_C>Sure do.</choice_C>
+    <choice_D>Sure thing.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+	
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Boss: Can I have that report by tomorrow?&lt;br /&gt;
+นายจ้าง: ผมขอรายงานที่ว่าพรุ่งนี้ได้ไหม&lt;br /&gt;&lt;br /&gt;
+You: .................................&lt;br /&gt;
+คุณ: ............................&lt;br /&gt;&lt;br /&gt;
+
+
+	1. No, you can't.&lt;br /&gt;
+	2. Certainly. ✔&lt;br /&gt;
+	3. Sure do.&lt;br /&gt;
+	4. Sure thing.&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 3 และ 4 เป็นการตอบรับ แต่ควรใช้กับเพื่อน หรือแบบไม่เป็นทางการมากกว่า แต่จากคำพูดของนายจ้าง แสดงว่า พูดแบบเป็นงานเป็นการ &lt;br /&gt;&lt;br /&gt;
+
+ถ้าต้องการปฏิเสธ ก็ต้องพูดแบบสุภาพพร้อมให้เหตุผลประกอบด้วย เช่น&lt;br /&gt;&lt;br /&gt;
+
+I'm afraid I need more time. I need to do a thouroughly data analysis.&lt;br /&gt;
+ผมคิดว่า ผมต้องใช้เวลามากกว่านั้น ผมจำเป็นต้องวิเคราะห์ข้อมูลอย่างถี่ถ้วนสมบูรณ์&lt;br /&gt;&lt;br /&gt;
+
+Certainly เป็นการตอบรับแบบสุภาพ&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+เพิ่มเติม&lt;br /&gt;&lt;br /&gt;
+การใช้คำว่า by ต่อด้วยวัน หรือเวลา เช่น by 4 o'clock, by Wednesday, by tomorrow เป็นต้น&lt;br /&gt;&lt;br /&gt;
+by ต่อด้วยเวลาที่ชัดเจน แปลว่า &lt;strong&gt;ก่อน&lt;/strong&gt;เวลานั้น เช่น&lt;br /&gt;&lt;br /&gt;
+Can I have the report by 4 o'clock?&lt;br /&gt;
+ผมขอรายงานก่อน 4 โมงเย็นนะ &lt;br /&gt;
+(ฝรั่งมักจะไม่ใช้ระบบ 24 ชั่วโมง 4 o'clock หมายถึง 4 โมงเย็น ไม่น่าจะหมายถึงตี 4 -- ใครจะบ้าเอารายงานตอนตี 4 จริงม้ะ)&lt;br /&gt;&lt;br /&gt;
+
+แต่ถ้าเป็น by tomorrow หรือ by Wednesday นี่ ค่อนข้างจะกำกวม ว่า รวม tomorrow หรือ Wednesday หรือเปล่า&lt;br /&gt;&lt;br /&gt;
+
+แต่โดยทั่วไปแล้ว มักจะหมายถึง ก่อน...หรือไม่เกิน เช่น&lt;br /&gt;&lt;br /&gt;
+by tomorrow = ตั้งแต่บัดนี้จนถึงพรุ่งนี้ แต่จะไม่เกินพรุ่งนี้ คือ รวมพรุ่งนี้ด้วย&lt;br /&gt;&lt;br /&gt;
+ทำนองเดียวกัน&lt;br /&gt;&lt;br /&gt;
+by Wednesday = ตั้งแต่บัดนี้ จนถึงวันพุธ แต่จะไม่เกินวันพุธ&lt;br /&gt;&lt;br /&gt;
+
+ถ้าจะระบุให้ชัดเจนว่า เป็นพรุ่งนี้ หรือวันพุธ ก็พูดไปเลย ไม่ต้องมี by เช่น&lt;br /&gt;&lt;br /&gt;
+Can I have the report tomorrow?&lt;br /&gt; 
+ผมขอรายงานนั้น วันพรุ่งนี้นะ&lt;br /&gt;
+Can I have the report on Wednesday?&lt;br /&gt; 
+ผมขอรายงานวันพุธนะ&lt;br /&gt;&lt;br /&gt;
+
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01863:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+A: .............. have you been here?&lt;br /&gt;
+B: Three months.
+
+&lt;br /&gt;
+	</question>
+    <choice_A>How long time</choice_A>
+    <choice_B>How long</choice_B>
+    <choice_C>How much times</choice_C>
+    <choice_D>How many times</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+A: .............. have you been here?&lt;br /&gt;
+A: ........... มาอยู่ที่นี่นานเท่าไร&lt;br /&gt;&lt;br /&gt;
+
+B: Three months.&lt;br /&gt;
+B: มาได้ 3 เดือนแล้ว&lt;br /&gt;&lt;br /&gt;
+
+	1. How long time&lt;br /&gt;
+	2. How long ✔&lt;br /&gt;
+	3. How much times&lt;br /&gt;
+	4. How many times&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ถามว่า มาได้นานเท่าไรแล้ว จะถามเป็น Present Perfect &lt;br /&gt;
+คำว่า นานเท่าไร ใช้คำว่า How long หรือ How much time (ไม่มี s) ก็ได้&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01864:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Tourist: ..................... does it take to get to the top of the mountain?&lt;br /&gt;
+Guide: Probably 3 hours.&lt;br /&gt;
+	</question>
+    <choice_A>How long time</choice_A>
+    <choice_B>How many times</choice_B>
+    <choice_C>How much time</choice_C>
+    <choice_D>How high</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Tourist: ..................... does it take to get to the top of the mountain?&lt;br /&gt;
+Tourist: ..................... กว่าจะถึงยอดเขา&lt;br /&gt;&lt;br /&gt;
+Guide: Probably 3 hours.&lt;br /&gt;
+Guide: น่าจะประมาณสัก 3 ชั่วโมง&lt;br /&gt;&lt;br /&gt;
+
+	1. How long time&lt;br /&gt;
+	2. How many times&lt;br /&gt;
+	3. How much time ✔&lt;br /&gt;
+	4. How high&lt;br /&gt;&lt;br /&gt;
+
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ถามว่า ใช้เวลาเท่าไร ใช้คำว่า How long หรือ How much time ก็ได้&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01865:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+
+Saleswoman: Can I help you?&lt;br /&gt;
+Buyer: Yes. ........................................?&lt;br /&gt;
+Saleswoman: Let's see. A small.&lt;br /&gt;
+
+	</question>
+    <choice_A>How much is this shirt?</choice_A>
+    <choice_B>Is this shirt for a child?</choice_B>
+    <choice_C>What size is this shirt?</choice_C>
+    <choice_D>How much is this shirt?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Saleswoman: Can I help you?&lt;br /&gt;
+คนขาย: สวัสดีค่ะ&lt;br /&gt;&lt;br /&gt;
+Buyer: Yes. ........................................?&lt;br /&gt;
+คนซื้อ: ค่ะ ...........................&lt;br /&gt;&lt;br /&gt;
+Saleswoman: Let's see. A small.&lt;br /&gt;
+คนขาย: ขอดูหน่อย เบอร์เล็กค่ะ&lt;br /&gt;&lt;br /&gt;
+
+	1. How much is this shirt?&lt;br /&gt;
+			เสื้อตัวนี้ราคาเท่าไร&lt;br /&gt;
+	2. Is this shirt for a child?&lt;br /&gt;
+			เสื้อตัวนี้สำหรับเด็กใช่ไหม&lt;br /&gt;
+	3. What size is this shirt?  ✔&lt;br /&gt;
+			เสื้อตัวนี้เบอร์อะไร&lt;br /&gt;
+	4. How much is this shirt?&lt;br /&gt;
+			เสื้อตัวนี้ราคาเท่าไร&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ถามขนาด คือ What size&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01866:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+At a restaurant.&lt;br /&gt;
+Host: Good evening. ..............&lt;br /&gt;
+Woman: Yes. A table for two. My name is Allie Gray.&lt;br /&gt;
+	</question>
+    <choice_A>How can I help you?</choice_A>
+    <choice_B>What can I do for you?</choice_B>
+    <choice_C>Can I help you? What is your name?</choice_C>
+    <choice_D>Do you have a reservation?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+At a restaurant.&lt;br /&gt;
+Host: Good evening. ..............&lt;br /&gt;
+พนักงานต้อนรับ: สวัสดีครับ ..........&lt;br /&gt;
+Woman: Yes. A table for two. My name is Allie Gray.&lt;br /&gt;
+ผู้หญิง: มีค่ะ จองไว้โต๊ะนึงสองที่ ชื่อ Allie Gray.&lt;br /&gt;&lt;br /&gt;
+
+	1. How can I help you?&lt;br /&gt;
+	2. What can I do for you?&lt;br /&gt;
+	3. Can I help you?&lt;br /&gt;
+	4. Do you have a reservation?  ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+Host คือ คนที่คอยต้อนรับลูกค้าที่เข้ามาในร้านอาหาร ส่วนใหญ่เมื่อมีลูกค้าเข้ามา เขามักจะถามว่า ได้จองโต๊ะไว้หรือเปล่า (reseravation = การจอง)&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ ข้อ 5&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01867:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Flight Attendant: ....................................&lt;br /&gt;
+Man: Yes. Diet Coke, please.&lt;br /&gt;
+Flignt Attendant: Ice and lemon?&lt;br /&gt;
+Man: Just lemon.&lt;br /&gt;
+	</question>
+    <choice_A>How would you like your drink, sir?</choice_A>
+    <choice_B>Do you want a drink?</choice_B>
+    <choice_C>Would you like a drink, sir?</choice_C>
+    <choice_D>What can I do for you, sir?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Flight Attendant: ....................................&lt;br /&gt;
+พนักงานบนเครื่องบิน: ........................&lt;br /&gt;&lt;br /&gt;
+Man: Yes. Diet Coke, please.&lt;br /&gt;
+ผู้ชาย: ครับ ของไดเอ็ดโค้ก ขอบคุณ&lt;br /&gt;&lt;br /&gt;
+Flignt Attendant: Ice and lemon?&lt;br /&gt;
+พนักงานบนเครื่องบิน: น้ำแข็งกับมะนาวด้วยหรือเปล่าคะ&lt;br /&gt;&lt;br /&gt;
+Man: Just lemon.&lt;br /&gt;
+ผู้ชาย: ขอมะนาวอย่างเดียวครับ&lt;br /&gt;&lt;br /&gt;
+
+	1. How would you like your drink, sir?&lt;br /&gt;
+	2. Do you want a drink?&lt;br /&gt;
+	3. Would you like a drink, sir? ✔&lt;br /&gt;
+	4. What can I do for you, sir?&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+จากบทสนทนา เดาได้ว่า พนักงานบนเครื่อง คงถามว่า จะรับเครื่องดื่มอะไรไหมคะ ซึ่งตรงกับภาษาอังกฤษว่า&lt;br /&gt;&lt;br /&gt;
+
+Would you like a drink, sir? &lt;br /&gt;&lt;br /&gt;
+
+คำว่า sir เป็นคำสุภาพ ที่ใช้พูดกับผู้ชาย&lt;br /&gt;&lt;br /&gt;
+
+Would you like .....&lt;br /&gt;
+เป็นสำนวนสุภาพ เชิงให้ข้อเสนอแนะ เช่น คุณต้องการที่จะ  &lt;u&gt;   (รับเครื่องดื่ม)    &lt;/u&gt;หรือไม่?&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 2 ความหมายใช้ได้ รู้เรื่อง แต่ไม่ค่อยเข้ากับสถานการณ์ ถ้าเป็นเพื่อนกัน ไปเที่ยวด้วยกัน ใช้คำพูดนี้พอได้ แต่ถ้าเป็นพนักงานให้บริการ ควรใช้คำสุภาพ จะดีกว่า&lt;br /&gt;&lt;br /&gt;
+
+พนักงานบริการบนเครื่องบิน สมัยก่อนใช้คำว่า host(สำหรับผู้ชาย) และ hostess(สำหรับผู้หญิง) แต่ปัจจุบัน ควรใช้คำว่า flight attendant หรือ cabin crew จะดีกว่า &lt;br /&gt;&lt;br /&gt;
+
+แต่ถ้าต้องการสื่อสารกับเขา เช่นเขาเดินผ่านไปแล้ว และต้องการเรียกเขาให้หันมา ควรใช้คำว่า Excuse me? หรือ Sir?(กับผู้ชาย) หรือ ma'am (กับผู้หญิง)&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01868:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+At the airport.&lt;br /&gt;
+Immigration Officer: Good evening, ma'am.&lt;br /&gt;
+Woman: Good evening.&lt;br /&gt;
+Immigration Officer: ......................................&lt;br /&gt;
+Woman: Bangkok.&lt;br /&gt;
+	</question>
+    <choice_A>Where are you arriving from?</choice_A>
+    <choice_B>What Is the Purpose of Your Trip?</choice_B>
+    <choice_C>How Long Do You Intend to Stay?</choice_C>
+    <choice_D>What Is Your Occupation?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+At the airport.&lt;br /&gt;
+ที่สนามบิน&lt;br /&gt;&lt;br /&gt;
+Immigration Officer: Good evening, ma'am.&lt;br /&gt;
+จนท.ตรวจคนเข้าเมือง: สวัสดีครับ&lt;br /&gt;&lt;br /&gt;
+
+Woman: Good evening.&lt;br /&gt;
+ผู้หญิง: สวัสดีค่ะ&lt;br /&gt;&lt;br /&gt;
+
+Immigration Officer: ......................................&lt;br /&gt;
+จนท.ตรวจคนเข้าเมือง:  .................
+Woman: Bangkok.&lt;br /&gt;&lt;br /&gt;
+ผู้หญิง: กรุงเทพ&lt;br /&gt;&lt;br /&gt;
+
+	1. Where are you arriving from? ✔ &lt;br /&gt;
+			คุณมาจากที่ไหน&lt;br /&gt;&lt;br /&gt;
+	2. What Is the Purpose of Your Trip?&lt;br /&gt;
+			คณเดินทางมาเพื่อจุดประสงค์อะไร&lt;br /&gt;&lt;br /&gt;
+	3. How Long Do You Intend to Stay?&lt;br /&gt;
+			คุณตั้งใจว่าจะพักอยู่กี่วัน&lt;br /&gt;&lt;br /&gt;
+	4. What Is Your Occupation?&lt;br /&gt;&lt;br /&gt;
+			คุณมีอาชีพอะไร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Immigration Officer คือ เจ้าหน้าที่ตรวจคนเข้าเมือง&lt;br /&gt;
+Customs Officer คือ เจ้าหน้าที่ศุลกากร&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01869:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+At the airport.&lt;br /&gt;
+Immigration Officer: ................... &lt;br /&gt;
+Woman: Bussiness. I'm here for a conference.&lt;br /&gt;
+	</question>
+    <choice_A>What conference are you attending?</choice_A>
+    <choice_B>What's the purpose of your visit?</choice_B>
+    <choice_C>How long are you staying in the US?</choice_C>
+    <choice_D>Do you know anybody here?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+At the airport.&lt;br /&gt;
+Immigration Officer: ................... &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Woman: Bussiness. I'm here for a conference.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+	1. What conference are you attending?&lt;br /&gt;
+			คุณมาเข้าร่วมประชุมอะไร&lt;br /&gt;&lt;br /&gt;
+	2. What's the purpose of your visit? ✔ &lt;br /&gt;
+			คุณมีจุดประสงค์อะไรในการมาครั้งนี้&lt;br /&gt;&lt;br /&gt;
+	3. How long are you staying in the US?&lt;br /&gt;
+			คุณจะพักอยู่ในอเมริกานานเท่าใด&lt;br /&gt;&lt;br /&gt;
+	4. Do you know anybody here?&lt;br /&gt;
+			คุณรู้จักใครที่นี่หรือเปล่า&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+purpose VS objectives VS goal&lt;br /&gt;&lt;br /&gt;
+purpose = จุดประสงค์ เป็นการตอบคำถามว่า ทำไม เช่น จุดประสงค์ของการมาครั้งนี้ คือการเข้าร่วมประชุม&lt;br /&gt;
+
+objective = จุดประสงค์ หรือกิจกรรมที่กระทำ เพื่อให้ได้ตามเป้าหมาย เช่น จุดประสงค์ของโครงการคือ 1.... 2... และ 3. ....&lt;br /&gt;
+
+goal = เป้าหมายสุดท้าย อาจเป็นระยะสั้น หรือ ระยะยาว ก็ได้&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01870:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Customer: Hello. ..............&lt;br /&gt;
+Saleswoman: What's wrong with it.&lt;br /&gt;
+Customer: Nothing wrong. It's just doesn't fit.&lt;br /&gt;
+	</question>
+    <choice_A>Can you help me, please?</choice_A>
+    <choice_B>This shirt is too big.</choice_B>
+    <choice_C>Can I return this?</choice_C>
+    <choice_D>Where's the fitting room?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+Customer: Hello. ..............&lt;br /&gt;
+ลูกค้า: สวัสดีครับ ...............&lt;br /&gt;&lt;br /&gt;
+Saleswoman: What's wrong with it.&lt;br /&gt;
+คนขาย: มันเป็นอะไรคะ&lt;br /&gt;&lt;br /&gt;
+Customer: Nothing wrong. It's just doesn't fit.&lt;br /&gt;
+ลูกค้า: ไม่มีอะไร เพียงแต่มันใส่ไม่พอดี&lt;br /&gt;&lt;br /&gt;
+
+	1. Can you help me, please?&lt;br /&gt;
+			ช่วยหน่อยได้ไหมครับ&lt;br /&gt;&lt;br /&gt;
+	2. This shirt is too big.&lt;br /&gt;
+			เสื้อตัวนี้มันใหญ่ไป&lt;br /&gt;&lt;br /&gt;
+	3. Can I return this? ✔&lt;br /&gt;
+			ขอคืนนี่หน่อยได้ไหม&lt;br /&gt;&lt;br /&gt;
+	4. Where's the fitting room?&lt;br /&gt;
+			ห้องลองเสื้ออยู่ที่ไหน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดูจากภาพรวมของการสนทนา ลูกค้าน่าจะมาขอเปลี่ยน/คืน อะไรสักอย่าง เพราะมันใส่ไม่พอดี (fit)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ดีที่สุดคือข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01871:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Man: Can I have two tickets, please.&lt;br /&gt;
+Ticket Seller: Sure. Two adults.&lt;br /&gt;
+Man: How much is that?&lt;br /&gt;
+Ticket Seller: .....................&lt;br /&gt;
+	</question>
+    <choice_A>Thank you very much.</choice_A>
+    <choice_B>Enjoy your trip.</choice_B>
+    <choice_C>That's forty dollars.</choice_C>
+    <choice_D>It's not expensive.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+Man: Can I have two tickets, please.&lt;br /&gt;
+ผู้ชาย: ขอตั๋ว 2 ใบนะครับ&lt;br /&gt;&lt;br /&gt;
+Ticket Seller: Sure. Two adults.&lt;br /&gt;
+คนขายตั๋ว: ได้ สำหรับผู้ใหญ่ 2 คน&lt;br /&gt;&lt;br /&gt;
+Man: How much is that?&lt;br /&gt;
+ผู้ชาย: เป็นเงินเท่าไร&lt;br /&gt;&lt;br /&gt;
+Ticket Seller: .....................&lt;br /&gt;
+คนขายตั๋ว: .................&lt;br /&gt;&lt;br /&gt;
+
+	1. Thank you very much.&lt;br /&gt;
+			ขอบคุณมาก&lt;br /&gt;&lt;br /&gt;
+	2. Enjoy your trip.&lt;br /&gt;
+			เที่ยวให้สนุก&lt;br /&gt;&lt;br /&gt;
+	3. That's forty dollars. ✔&lt;br /&gt;
+			สี่สิบเหรียญ&lt;br /&gt;&lt;br /&gt;
+	4. It's not expensive.&lt;br /&gt;
+			ไม่แพง&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดูจากบทสนทนา คนขายตั๋วคงต้องบอกราคาตั๋ว เพราะคนซื้อจะได้ให้สตางค์ถูก &lt;br /&gt;&lt;br /&gt;
+
+ถ้าตอบว่าไม่แพง ก็จะยืดเยื้อกันไปเปล่า ๆ คำตอบข้อ 3 น่าจะดีที่สุด&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01872:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Man1: Excuse me. ........................?&lt;br /&gt;
+Man2: Sure.&lt;br /&gt;
+Man1: Thank you. Here's the camera.&lt;br /&gt;
+Man2: Are you ready. Say cheese.&lt;br /&gt;
+	</question>
+    <choice_A>Can we take a photo together?</choice_A>
+    <choice_B>Can you take a photo of us, please</choice_B>
+    <choice_C>Can I take a picture from both of you?</choice_C>
+    <choice_D>Can I take a picture of both of you?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+Man1: Excuse me. ........................?&lt;br /&gt;
+ผู้ชาย1: ขอโทษครับ ...................&lt;br /&gt;&lt;br /&gt;
+Man2: Sure.&lt;br /&gt;
+ผู้ชาย2: อ๋อ ได้&lt;br /&gt;&lt;br /&gt;
+Man1: Thank you. Here's the camera.&lt;br /&gt;
+ผู้ชาย1: ขอบคุณครับ นี่กล้อง&lt;br /&gt;&lt;br /&gt;
+Man2: Are you ready. Say cheese.&lt;br /&gt;
+ผู้ชาย2: พร้อมหรือยัง พูดคำว่า ชีส&lt;br /&gt;&lt;br /&gt;
+
+	1. Can we take a photo together?&lt;br /&gt;
+			เรามาถ่ายภาพด้วยกันไหม&lt;br /&gt;&lt;br /&gt;
+	2. Can you take a photo of us, please  ✔&lt;br /&gt;
+			คุณช่วยถ่ายภาพเราสองคนหน่อยได้ไหม&lt;br /&gt;&lt;br /&gt;
+	3. Can I take a picture from both of you?&lt;br /&gt;
+			ผมขอภาพจากคุณทั้งสองคน&lt;br /&gt;&lt;br /&gt;
+	4. Can I take a picture of both of you?&lt;br /&gt;&lt;br /&gt;
+			ให้ผมถ่ายภาพคุณทั้งสองได้ไหม&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดูจากบทสนทนา ผู้ชาย1 คงขอให้ผู้ชาย2 ถ่ายภาพของเขากับอีกคนหนึ่ง (ซึ่งน่าจะเป็นแฟน และคงไม่ถนัดถ่ายเซลฟี่ -- selfie)&lt;br /&gt;&lt;br /&gt;
+
+say cheese เป็นคำพูดที่คนถ่ายภาพพูดเพื่อบอกให้ยิ้ม เพราะพูดว่า cheese แล้ว ต้องยิงฟัน เหมือนกับยิ้มนั่นเอง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01873:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Hotel Receptionist: Good afternoon. How can I help you?&lt;br /&gt;
+Woman: Yes, I'm leaving tomorrow very early. ...........&lt;br /&gt;
+Hotel Receptionist: Of course. For what time?&lt;br /&gt;
+Woman: I have to be at the airport at 7.15.&lt;br /&gt;
+Hotel Receptionist: Then, you need a cab at 6 o'clock. I'll order one for you.&lt;br /&gt;
+	</question>
+    <choice_A>Could you prepare my bill so I could pay this evening</choice_A>
+    <choice_B>Is it possible to arrange a wake-up call for 6:30am?</choice_B>
+    <choice_C>What time is breakfast?</choice_C>
+    <choice_D>Could you order me a cab?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+Hotel Receptionist: Good afternoon. How can I help you?&lt;br /&gt;
+พนักงานต้อนรับ: สวัสดีค่ะ มีอะไรคะ&lt;br /&gt;&lt;br /&gt;
+Woman: Yes, I'm leaving tomorrow very early. ...........&lt;br /&gt;
+ผู้หญิง: ฉันจะเชคเอาท์พรุ่งนี้ แต่เช้า ...........&lt;br /&gt;&lt;br /&gt;
+Hotel Receptionist: Of course. For what time?&lt;br /&gt;
+พนักงานต้อนรับ: ได้ค่ะ เวลาเท่าไร&lt;br /&gt;&lt;br /&gt;
+Woman: I have to be at the airport at 7.15.&lt;br /&gt;
+ผู้หญิง: ฉันต้องไปถึงสนามบิน เวลา 7.15 น.&lt;br /&gt;&lt;br /&gt;
+Hotel Receptionist: Then, you need a cab at 6 o'clock. I'll order one for you.&lt;br /&gt;
+พนักงานต้อนรับ: ถ้างั้น คุณต้องใช้แท็กซี่เวลา 6 โมง ดิฉันจะเรียกไว้คันนึงสำหรับคุณค่ะ&lt;br /&gt;&lt;br /&gt;
+
+1. Could you prepare my bill so I could pay this evening&lt;br /&gt;
+คุณช่วยเตรียมใบเสร็จไว้หน่อยนะคะ จะได้จ่ายได้เลยเย็นนี้&lt;br /&gt;&lt;br /&gt;
+2. Is it possible to arrange a wake-up call for 6:30am?&lt;br /&gt;
+ช่วยโทรขึ้นไปปลุกตอน 6.30 น. ได้ไหมคะ&lt;br /&gt;&lt;br /&gt;
+3. What time is breakfast?&lt;br /&gt;
+เวลาอาหารเช้า เวลาอะไร&lt;br /&gt;&lt;br /&gt;
+4. Could you order me a cab?   ✔ &lt;br /&gt;
+ช่วยเรียกแท็กซี่ให้หน่อยได้ไหมคะ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ภาพรวมจากบทสนทนา เดาได้ว่า ผู้หญิงคงมาให้พนักงานเรียกรถแท็กซี่ เพื่อจะได้ไปสนามบินทันเวลา&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 2 ก็น่าจะใช้ได้ แต่ลูกค้าได้บอกเวลาชัดเจนแล้ว พนักงานไม่น่าจะถามเวลาอีก ข้อนี้จึงไม่น่าจะถูก&lt;br /&gt;&lt;br /&gt;
+
+ cab = taxi = taxi cab&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ ข้อ 4&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01874:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+At the Airport Customs and Check in counter&lt;br /&gt;&lt;br /&gt;
+Customs Officer: May I have your passport, please?&lt;br /&gt;
+You: ...............................&lt;br /&gt;
+	</question>
+    <choice_A>Yes, you can.</choice_A>
+    <choice_B>No, you may not.</choice_B>
+    <choice_C>Here you go. </choice_C>
+    <choice_D>Sorry. I don't have one.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+At the Airport Customs and Check in counter&lt;br /&gt;
+ที่เคาเตอร์ ตรวจคนเข้าเมือง ที่สนามบิน&lt;br /&gt;&lt;br /&gt;
+Customs Officer: May I have your passport, please?&lt;br /&gt;
+เจ้าหน้าที่ศุลกากร: ขอดูพาสปอร์ตหน่อยครับ&lt;br /&gt;&lt;br /&gt;
+You: ...............................&lt;br /&gt;&lt;br /&gt;
+
+1. Yes, you can.&lt;br /&gt;
+2. No, you may not.&lt;br /&gt;
+3. Here you go.   ✔ lt;br /&gt;
+4. Sorry. I don't have one.&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 ไม่ถูกไวยากรณ์  ถ้าจะตอบด้วยคำตอบนี้ คำถามน่าจะเป็นทำนองขออนุญาต เช่น Can I sit here? เป็นต้น
+ข้อ 2 และ ข้อ 4 ถ้าตอบแบบนี้ ไม่ผ่านการตรวจแน่นอน และจะเข้าประเทศไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01875:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+At the Airport Customs and Check in counter&lt;br /&gt;&lt;br /&gt;
+Customs Officer: What's the purpose of you visit?&lt;br /&gt;
+You: ...............................&lt;br /&gt;
+	</question>
+    <choice_A>I'm staying at the Airport Hotel.</choice_A>
+    <choice_B>I'm here on vacation.</choice_B>
+    <choice_C>I don't have any purposes.</choice_C>
+    <choice_D>Right here, in California.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+At the Airport Customs and Check in counter&lt;br /&gt;
+ที่เคาเตอร์ ตรวจคนเข้าเมือง ที่สนามบิน&lt;br /&gt;&lt;br /&gt;
+Customs Officer:  What's the purpose of you visit?&lt;br /&gt;
+เจ้าหน้าที่ศุลกากร: คุณมาที่นี่ด้วยจุดประสงค์อะไร&lt;br /&gt;&lt;br /&gt;
+You: ...............................&lt;br /&gt;&lt;br /&gt;
+
+1. I'm staying at the Airport Hotel.&lt;br /&gt;
+ผมพัก(stay)ที่ โรงแรม the Airport Hotel&lt;br /&gt;&lt;br /&gt;
+2. I'm here on vacation.&lt;br /&gt;
+ผมมานี่เพื่อท่องเที่ยว (on vacation = มาพักผ่อนวันหยุด)&lt;br /&gt;&lt;br /&gt;
+3. I don't have any purposes.&lt;br /&gt;
+ผมไม่มีจุดประสงค์อะไร&lt;br /&gt;&lt;br /&gt;
+4. Right here, in California.
+ที่นี่ ที่คาลิฟอร์เนีย&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ถ้าตอบ ข้อ 1, 3, 4 เข้าเมืองไม่ได้แน่นอน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- https://www.youtube.com/watch?v=QE8J4hunquk -->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01876:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. Both bungalows and suites are available.&lt;br /&gt;
+2. Yes. It's one of the best in this area.&lt;br /&gt;
+3. Is BaanNa  Inn a good hotel?&lt;br /&gt;
+4. What are the rooms like?&lt;br /&gt;
+5. The hotel offers a variety of accommodations. &lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>4-5-2-3-1</choice_A>
+    <choice_B>3-2-4-5-1</choice_B>
+    <choice_C>4-2-1-3-5</choice_C>
+    <choice_D>3-5-1-4-2</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. Both bungalows and suites are available.&lt;br /&gt;
+มีทั้งบังกาโลและห้องสูท&lt;br /&gt;&lt;br /&gt;
+
+2. Yes. It's one of the best in this area.&lt;br /&gt;
+ใช่ (BaanNa  Inn)เป็นหนึ่งใน(โรงแรม)ที่ดีที่สุดบริเวณนี้&lt;br /&gt;&lt;br /&gt;
+
+3. Is BaanNa  Inn a good hotel?&lt;br /&gt;
+โรงแรม บ้านนาอินน์ (เป็นโรงแรมที่)ดีไหม&lt;br /&gt;&lt;br /&gt;
+
+4. What are the rooms like?&lt;br /&gt;
+ห้องพักเป็นยังไง&lt;br /&gt;&lt;br /&gt;
+
+5. The hotel offers a variety of accommodations. &lt;br /&gt;
+โรงแรมมีที่พักหลายแบบ&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+3-2-4-5-1&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01877:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. What about the location?&lt;br /&gt;
+
+2. The hotel offers good service and value for money.&lt;br /&gt;
+
+3. How big are the rooms?&lt;br /&gt;
+
+4. The hotel's great location makes it ideal for a quiet retreat.&lt;br /&gt;&lt;br /&gt;
+
+5. What's the Grand Hotel like?&lt;br /&gt;
+
+6. The rooms are spacious and simply furnished.&lt;br /&gt;
+	</question>
+    <choice_A>3-2-5-6-1-4</choice_A>
+    <choice_B>1-2-5-6-3-4</choice_B>
+    <choice_C>5-2-3-6-1-4</choice_C>
+    <choice_D>5-2-1-6-3-4</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. What about the location?&lt;br /&gt;
+แล้วสถานที่ตั้งเป็นอย่างไร&lt;br /&gt;&lt;br /&gt;
+
+2. The hotel offers good service and value for money.&lt;br /&gt;
+โรงแรมบริการดี คุ้มค่าเงิน&lt;br /&gt;&lt;br /&gt;
+
+3. How big are the rooms?&lt;br /&gt;
+ห้องใหญ่แค่ไหน&lt;br /&gt;&lt;br /&gt;
+
+4. The hotel's great location makes it ideal for a quiet retreat.&lt;br /&gt;&lt;br /&gt;
+ที่ตั้งของโรงแรม อยู่ในทำเลที่ตั้ง เงียบสงบ เหมาะสำหรับการพักผ่อนหนีความวุ่นวาย
+
+5. What's the Grand Hotel like?&lt;br /&gt;
+โรงแรม Grand Hotel เป็นอย่างไรบ้าง&lt;br /&gt;&lt;br /&gt;
+
+6. The rooms are spacious and simply furnished.&lt;br /&gt;
+ห้องกว้างขวาง และตกแต่งอย่างเรียบง่าย&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+ location = สถานที่ตั้ง&lt;br /&gt;
+ spacious = กว้างขวาง&lt;br /&gt;
+value = คุณค่า; value for money = คุ้มค่าเงิน&lt;br /&gt;
+You always get value for money at that shop.&lt;br /&gt;
+ซื้อของร้านนั้น คุ้มค่าเงิน&lt;br /&gt;&lt;br /&gt;
+
+Thai Airways offers the best value for money.&lt;br /&gt;
+สายการบินไทย ให้(บริการที่)คุ้มค่าเงินที่สุด&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+5-2-3-6-1-4&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01878:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Choose the best answer.&lt;br /&gt;&lt;br /&gt;
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. What time are we due back?&lt;br /&gt;
+2. The bus will pick you up around 7 am.&lt;br /&gt;
+3. What time will I be picked up?&lt;br /&gt;
+4. We'll drop you off at the hotel around 6.&lt;br /&gt;
+5. Please wait at the hotel reception.&lt;br /&gt;
+
+	</question>
+    <choice_A>1-4-2-3-5</choice_A>
+    <choice_B>1-4-5-3-2</choice_B>
+    <choice_C>3-4-1-2-5</choice_C>
+    <choice_D>3-2-5-1-4</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. What time are we due back?&lt;br /&gt;
+เราจะกลับมาถึงเวลาเท่าไร&lt;br /&gt;&lt;br /&gt;
+
+2. The bus will pick you up around 7 am.&lt;br /&gt;
+รถบัสจะมารับคุณเวลาประมาณ 7 โมงเช้า&lt;br /&gt;&lt;br /&gt;
+
+3. What time will I be picked up?&lt;br /&gt;
+รถจะมารับเวลาเท่าไร&lt;br /&gt;&lt;br /&gt;
+
+4. We'll drop you off at the hotel around 6.&lt;br /&gt;
+เราจะมาส่งคุณที่โรงแรมเวลาประมาณ 6 โมง(เย็น)&lt;br /&gt;&lt;br /&gt;
+
+5. Please wait at the hotel reception.&lt;br /&gt;
+กรุณาคอยที่บริเวณเคาน์เตอร์ต้อนรับของโรงแรม&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+pick up = มารับ&lt;br /&gt;
+
+drop off = มาส่ง มาทิ้งไว้&lt;br /&gt;
+
+around = ประมาณ, รอบ ๆ&lt;br /&gt;
+
+hotel reception = เคาน์เตอร์ต้อนรับของโรงแรม&lt;br /&gt;
+
+คำตอบคือ ข้อ 4&lt;br /&gt;
+3-2-5-1-4&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01879:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. Is this the first visit to Thailand?&lt;br /&gt;
+2. Hi. How are you?&lt;br /&gt;
+3. Yes, it is. I'm really enjoying it.&lt;br /&gt;
+4. Very well, thank you.&lt;br /&gt;
+5. I'm on a two-week holiday.&lt;br /&gt;
+6. How long are you staying.&lt;br /&gt;
+
+	</question>
+    <choice_A>1-3-6-5-2-4</choice_A>
+    <choice_B>6-5-2-4-1-3</choice_B>
+    <choice_C>2-4-1-3-6-5</choice_C>
+    <choice_D>2-4-1-5-6-3</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+1. Is this the first visit to Thailand?&lt;br /&gt;
+นี่เป็นครั้งแรกที่คุณมาประเทศไทยใช่ไหม&lt;br /&gt;&lt;br /&gt;
+
+2. Hi. How are you?&lt;br /&gt;
+สวัสดี เป็นอย่างไรบ้าง&lt;br /&gt;&lt;br /&gt;
+
+3. Yes, it is. I'm really enjoying it.&lt;br /&gt;
+ใช่ ผมชอบมาก&lt;br /&gt;&lt;br /&gt;
+
+4. Very well, thank you.&lt;br /&gt;
+สบายดี ขอบคุณ&lt;br /&gt;&lt;br /&gt;
+
+5. I'm on a two-week holiday.&lt;br /&gt;
+ผมหยุดมาพักผ่อน 2 สัปดาห์&lt;br /&gt;&lt;br /&gt;
+
+6. How long are you staying.&lt;br /&gt;
+คุณจะอยู่นานเท่าไร&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01880:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+At a hotel. Suda, a tour agent, is talking to James.&lt;br /&gt;&lt;br /&gt;
+
+1. I'm James.&lt;br /&gt;
+2. I'm an accountant.&lt;br /&gt;
+3. Hello. I'm sorry. What did you say your name was?
+&lt;br /&gt;
+4. Sorry, James. So, what do you do back home?&lt;br /&gt;
+5. Oh, you know. It pays the bills.&lt;br /&gt;
+6. That's interesting. Do you enjoy your jobs?&lt;br /&gt;
+
+	</question>
+    <choice_A>3-2-1-4-6-5</choice_A>
+    <choice_B>3-1-4-5-6-2</choice_B>
+    <choice_C>1-2-3-4-5-6</choice_C>
+    <choice_D>3-1-4-2-6-5</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+At a hotel. Suda, a tour agent, is talking to James.&lt;br /&gt;&lt;br /&gt;
+
+1. I'm James.&lt;br /&gt;
+ผมเจมส์ครับ&lt;br /&gt;&lt;br /&gt;
+
+2. I'm an accountant.&lt;br /&gt;
+ทำงานบัญชีครับ&lt;br /&gt;&lt;br /&gt;
+
+3. Hello. I'm sorry. What did you say your name was?
+สวัสดี ขอโทษค่ะ คุณบอกว่า คุณชื่ออะไรนะคะ&lt;br /&gt;
+
+4. Sorry, James. So, what do you do back home?&lt;br /&gt;
+ขอโทษค่ะ (ที่จำชื่อคุณไม่ได้) เออ.. แล้วคุณทำงานอะไรคะ (ที่ประเทศของคุณ)lt;br /&gt;&lt;br /&gt;
+
+5. Oh, you know. It pays the bills.&lt;br /&gt;
+เอ้อ.. ก็รู้ ๆ กันอยู่  มันช่วยเลี้ยงชีพได้&lt;br /&gt;&lt;br /&gt;
+
+6. That's interesting. Do you enjoy your jobs?&lt;br /&gt;
+น่าสนใจดี คุณชอบงานนี้หรือเปล่า&lt;br /&gt;&lt;br /&gt;
+
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+It pays the bills. = มันชำระบิลค่าใช้จ่าย เป็นคำตอบที่แสดงว่า ผู้ตอบก็ไม่ค่อยชอบงานที่ทำอยู่เท่าไรนัก แต่ทำไปเพื่อให้ได้เงินมาเป็นค่าใช้จ่าย นั่นเอง
+
+คำตอบคือ ข้อ 4&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01881:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. Sure. How can I help you?&lt;br /&gt;
+2. Hello. I'd like some advice, please.&lt;br /&gt;
+3. I'm on vacation. I'd like to know what tours you recommend.&lt;br /&gt;
+4. I'd like to stay fairly local, I think.&lt;br /&gt;
+5. Okay. Are you looking for a day excursion to some local attractions, an overnight trip or perhaps a weekend get away.&lt;br /&gt;
+6. Thank you.&lt;br /&gt;
+7. In thay case, may I suggest that you look through this brochure and see if there's anything there that interests you.&lt;br /&gt;
+
+
+	</question>
+    <choice_A>1-2-3-5-4-7-6</choice_A>
+    <choice_B>2-1-3-5-4-7-6</choice_B>
+    <choice_C>3-5-7-6-4-1-2</choice_C>
+    <choice_D>3-5-2-1-4-7-6</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. Sure. How can I help you?&lt;br /&gt;
+ได้ มีอะไรให้ช่วยคะ&lt;br /&gt;&lt;br /&gt;
+
+2. Hello. I'd like some advice, please.&lt;br /&gt;
+สวัสดี ผมขอคำแนะนำหน่อยได้ไหมครับ&lt;br /&gt;&lt;br /&gt;
+
+3. I'm on vacation. I'd like to know what tours you recommend.&lt;br /&gt;
+ผมมาเที่ยววันหยุด อยากให้คุณช่วยแนะนำทัวร์ให้หน่อย&lt;br /&gt;&lt;br /&gt;
+
+4. I'd like to stay fairly local, I think.&lt;br /&gt;
+คิดว่า อยากจะพักแบบค่อนข้างพื้นบ้านหน่อย&lt;br /&gt;&lt;br /&gt;
+
+5. Okay. Are you looking for a day excursion to some local attractions, an overnight trip or perhaps a weekend get away.&lt;br /&gt;
+ตกลง  งั้นคุณต้องการทัวร์วันเดียวเที่ยวชมสถานที่ที่น่าสนใจพื้นบ้าน หรือทัวร์ค้างคืน หรือแบบเที่ยววันหยุดสุดสัปดาห์&lt;br /&gt;&lt;br /&gt;
+
+6. Thank you.&lt;br /&gt;
+ขอบคุณ
+&lt;br /&gt;&lt;br /&gt;
+
+7. In thay case, may I suggest that you look through this brochure and see if there's anything there that interests you.&lt;br /&gt;
+ถ้างั้น อยากจะให้คุณลองดูโปรชัวร์แผ่นพับนี้ และดูว่า มีอะไรที่คุณสนใจบ้าง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- ถึงตรงนี้ -->
+  <!--
+
+https://www.youtube.com/watch?v=QE8J4hunquk
+
+
+
+slang
+https://www.youtube.com/watch?v=WU_Qie7reeE
+
+conversation
+https://www.youtube.com/watch?v=BuHiA1Liyds
+
+interview
+IELTS Speaking Test Band 5 Sample
+
+Travel English - At the Airport - How to Go Through Customs and Check in
+https://www.youtube.com/watch?v=Zrwfwz5YYTU
+
+SD Citizenship Interview 2: Beginning Level Questions with Traffic Citation
+https://www.youtube.com/watch?v=rhB60Fk5IJw
+
+Everyday Actions | At Home | Easy English Conversation Practice | ESL
+https://www.youtube.com/watch?v=Zx2OTLBMRH0
+
+Meeting new people | English speaking skills practice
+https://www.youtube.com/watch?v=PfSsyq06TIs
+
+Learn English Conversation Unit 18 Asking information on the Phone
+https://www.youtube.com/watch?v=oEThDLRNtM4
+
+https://www.youtube.com/watch?v=ASaiSXAzA58 (Why do you have a headache?)
+
+making a reservation
+https://www.youtube.com/watch?v=1sLanxXBfDo
+
+-->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01882:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+Suda, a tour agent, is talking to her customer.&lt;br /&gt;&lt;br /&gt;
+1. Suda: Be prepared to barter. &lt;br /&gt;
+2. Suda: You can get some real bargains.&lt;br /&gt;
+3. Customer: Do you have any advice for my visit to the market today?&lt;br /&gt;
+4. Customer: That could be fun.&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>1-2-3-4</choice_A>
+    <choice_B>1-3-2-4</choice_B>
+    <choice_C>3-1-2-4</choice_C>
+    <choice_D>3-2-4-1</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+Suda, a tour agent, is talking to her customer.&lt;br /&gt;&lt;br /&gt;
+
+1. Suda: Be prepared to barter. &lt;br /&gt;
+เตรียมตัวที่จะต่อราคาเอาไว้&lt;br /&gt;&lt;br /&gt;
+
+2. Suda: You can get some real bargains.&lt;br /&gt;
+คุณอาจจะต่อราคาได้ถูกมาก ๆ&lt;br /&gt;&lt;br /&gt;
+
+3. Customer: Do you have any advice for my visit to the market today?&lt;br /&gt;
+คุณมีคำแนะนำให้ผมก่อนไปเที่ยวตลาดไหม&lt;br /&gt;&lt;br /&gt;
+
+4. Customer: That could be fun.&lt;br /&gt;&lt;br /&gt;
+น่าสนุกดีเหมือนกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำอธิบาย&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+barter = การซื้อขายแลกเปลี่ยน&lt;br /&gt;
+bargain = การต่อรองราคา&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01883:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. Martine, can you spell that for me?&lt;br /&gt;
+2. Martine.&lt;br /&gt;
+3. What is your name?&lt;br /&gt;
+4. M-A-R-T-I-N-E&lt;br /&gt;
+5. And where are you from, Martine?&lt;br /&gt;
+6. I'm from England.&lt;br /&gt;
+	</question>
+    <choice_A>3-2-1-4-5-6</choice_A>
+    <choice_B>1-4-3-2-5-6</choice_B>
+    <choice_C>5-6-1-4-3-2</choice_C>
+    <choice_D>1-4-5-6-3-2</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. Martine, can you spell that for me?&lt;br /&gt;
+มาร์ทีน, ช่วยสะกดให้หน่อย&lt;br /&gt;&lt;br /&gt;
+
+2. Martine.&lt;br /&gt;
+มาร์ทีน&lt;br /&gt;&lt;br /&gt;
+
+3. What is your name?&lt;br /&gt;
+คุณชื่ออะไร&lt;br /&gt;&lt;br /&gt;
+
+4. M-A-R-T-I-N-E&lt;br /&gt;
+M-A-R-T-I-N-E&lt;br /&gt;&lt;br /&gt;
+
+5. And where are you from, Martine?&lt;br /&gt;
+และ คุณมาจากไหน มาร์ทีน&lt;br /&gt;&lt;br /&gt;
+
+6. I'm from England.&lt;br /&gt;
+ฉันมาจากอังกฤษ&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ ข้อ 1&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01884:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+1. Yes. My name is Albert Johnson.&lt;br /&gt;
+2. That's okay. &lt;br /&gt;
+3. You can have a seat right over there.&lt;br /&gt;
+4. You can fill out this job application&lt;br /&gt;
+5. May I help you?&lt;br /&gt;
+6. And I'm five minutes  late for a job interview.&lt;br /&gt;
+7. Oh, okay. Thank you.&lt;br /&gt;
+8. You're welcome.&lt;br /&gt;
+	</question>
+    <choice_A>5-7-6-2-4-3-1-8</choice_A>
+    <choice_B>5-1-4-3-7-8-6-2</choice_B>
+    <choice_C>5-1-6-2-4-3-7-8</choice_C>
+    <choice_D>5-1-4-3-6-2-7-8</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+1. Yes. My name is Albert Johnson.&lt;br /&gt;
+ครับ ผมชื่อโรเบิร์ต จอห์นสัน&lt;br /&gt;&lt;br /&gt;
+
+2. That's okay. &lt;br /&gt;
+ไม่เป็นไรค่ะ&lt;br /&gt;&lt;br /&gt;
+
+3. You can have a seat right over there.&lt;br /&gt;
+คุณนั่งที่นั่งตรงนั้นได้&lt;br /&gt;&lt;br /&gt;
+
+4. You can fill out this job application&lt;br /&gt;
+ให้คุณกรอกใบสมัครงานนี้ก่อน&lt;br /&gt;&lt;br /&gt;
+
+5. May I help you?&lt;br /&gt;
+สวัสดีค่ะ&lt;br /&gt;&lt;br /&gt;
+
+6. And I'm five minutes  late for a job interview.&lt;br /&gt;
+และผมมาสัมภาษณ์สมัครงานสายไปห้านาที&lt;br /&gt;&lt;br /&gt;
+
+7. Oh, okay. Thank you.&lt;br /&gt;
+ขอบคุณ&lt;br /&gt;&lt;br /&gt;
+
+8. You're welcome.&lt;br /&gt;
+ไม่เป็นไร&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01885:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+1. Did you enjoy that job?&lt;br /&gt;
+2. Yes, I enjoyed it very much.&lt;br /&gt;
+3. Tell me about your past work experience in business.&lt;br /&gt;
+4. I worked for two years in a chemical company in town in the marketing departmnt.&lt;br /&gt;
+5. I'm sure you'll enjoy working here also.&lt;br /&gt;
+6. I think you have the qualifications for this job.&lt;br /&gt;
+7. I would like to welcome you to the company.&lt;br /&gt;
+	</question>
+    <choice_A>3-4-5-1-2-6-7</choice_A>
+    <choice_B>3-4-1-2-5-6-7</choice_B>
+    <choice_C>1-2-3-4-5-6-7</choice_C>
+    <choice_D>6-7-5-3-4-1-2</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+1. Did you enjoy that job?&lt;br /&gt;
+คุณชอบงานนั้นหรือเปล่า&lt;br /&gt;&lt;br /&gt;
+
+2. Yes, I enjoyed it very much.&lt;br /&gt;
+ชอบ ชอบมาก&lt;br /&gt;&lt;br /&gt;
+
+3. Tell me about your past work experience in business.&lt;br /&gt;
+คุณลองเล่าถึงประสบการณ์ทำงานด้านธุรกิจที่ผ่านมาหน่อยครับ&lt;br /&gt;&lt;br /&gt;
+
+4. I worked for two years in a chemical company in town in the marketing departmnt.&lt;br /&gt;
+ผมทำงานที่บริษัทเคมีในเมือง ในแผนกการตลาด เป็นเวลา 2 ปี&lt;br /&gt;&lt;br /&gt;
+
+5. I'm sure you'll enjoy working here also.&lt;br /&gt;
+ผมแน่ใจว่า คุณคงจะชอบทำงานที่นี่เช่นเดียวกัน&lt;br /&gt;&lt;br /&gt;
+
+6. I think you have the qualifications for this job.&lt;br /&gt;
+ผมคิดว่าคุณมีคุณสมบัติสำหรับงานนี้&lt;br /&gt;&lt;br /&gt;
+
+7. I would like to welcome you to the company.&lt;br /&gt;
+ผมขอต้อนรับคุณเข้าร่วมบริษัทของเรา&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01886:date1627453500</qNum>
+    <question>&lt;strong&gt;Instruction: &lt;/strong&gt;Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+<!-- https://www.youtube.com/watch?v=VBBrkpDp_3U  -->
+At a coffee house. A man wants to buy a woman something to drink.&lt;br /&gt;&lt;br /&gt;
+
+1. Barista: Can I help you?&lt;br /&gt;
+2. Woman: A cappuccino, please.&lt;br /&gt;
+3. Man: And can I have an espresso, please?&lt;br /&gt;
+4. Barista: Anything else?&lt;br /&gt;
+5. Man: What would you like?&lt;br /&gt;
+6. Barista: Regular or large?&lt;br /&gt;
+7. Woman: Large, please.&lt;br /&gt;
+8. Man: No, thanks.&lt;br /&gt;
+9. Barista: OK.&lt;br /&gt;
+
+	</question>
+    <choice_A>1-2-3-4-5-6-7-8-9</choice_A>
+    <choice_B>1-2-6-7-5-3-4-8-9</choice_B>
+    <choice_C>1-5-3-4-8-2-7-6-9</choice_C>
+    <choice_D>1-5-2-6-7-3-4-8-9</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;br /&gt;&lt;br /&gt;
+Put the conversation into the right order.&lt;br /&gt;&lt;br /&gt;
+
+At a coffee house. A man wants to buy a woman something to drink.&lt;br /&gt;&lt;br /&gt;
+
+1. Barista: Can I help you?&lt;br /&gt;
+จะสั่งอะไรครับ&lt;br /&gt;&lt;br /&gt;
+
+2. Woman: A cappuccino, please.&lt;br /&gt;
+ขอคาปูชิโน่ค่ะ&lt;br /&gt;&lt;br /&gt;
+
+3. Man: And can I have an espresso, please?&lt;br /&gt;
+ของผมขอเป็นเอ๊กเปรสโซ่นะครับ&lt;br /&gt;&lt;br /&gt;
+
+4. Barista: Anything else?&lt;br /&gt;
+สั่งอะไรเพิ่มอีกไหม&lt;br /&gt;&lt;br /&gt;
+
+5. Man: What would you like?&lt;br /&gt;
+คุณจะดื่มอะไร&lt;br /&gt;&lt;br /&gt;
+
+6. Barista: Regular or large?&lt;br /&gt;
+ขนาดปกติหรือขนาดใหญ่&lt;br /&gt;&lt;br /&gt;
+
+7. Woman: Large, please.&lt;br /&gt;
+ขอเป็นขนาดใหญ่ค่ะ&lt;br /&gt;&lt;br /&gt;
+
+8. Man: No, thanks.&lt;br /&gt;
+ขอบคุณ&lt;br /&gt;&lt;br /&gt;
+
+9. Barista: OK.&lt;br /&gt;
+โอเค&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ ข้อ 4&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+</exams>
+
+

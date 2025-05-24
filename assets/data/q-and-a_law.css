@@ -1,0 +1,213 @@
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table.equal .for_root{ /* สำหรับตาราง ที่ไม่มีเส้นขอบ เช่น ใช้กับเครื่องหมายรูท  */
+border: 0px;
+border-spacing:0px; 
+border-width:0px; 
+border-collapse: none;
+font-family:verdana;
+width:auto;
+}
+
+table.equal .for_root td{
+padding:0px; 
+border-spacing:0px; 
+border-width:0px; 
+font-size:larger;
+}
+
+
+
+
+
+.content {
+margin: 15px auto 0;
+overflow-x: hidden;
+overflow-y: auto;
+	}
+
+
+.passage-div {
+      height: 40vh;
+      width: 100%;
+	  border-color: #0000;
+	  overflow-y: scroll;
+   background-color: #ffffcc;
+    /*      background-color: #d2a56d;*/
+    }
+	
+
+td.alignLeft{
+	text-align: left;
+}
+td.alignRight{
+	text-align: right;
+}
+
+td.alignCenter{
+	text-align: center;
+}
+
+
+div.alignRight{
+	text-align: right;
+	}
+
+
+.qstn-div {
+      height: 40vh;
+      width: 100%;      
+	  border-style: solid dotted;
+	  border-color: #4CAF50;
+	  border-width: 1px;
+      overflow-y: scroll;
+ background-color: #E0ECF8;
+   /*         background-color: #d2a56d;*/
+    }
+
+table {
+    border-collapse: collapse;
+	width:100%;
+}
+
+td{
+   vertical-align: top;
+}
+
+table, td, th {
+    border: 1px solid #aaaaaa;
+}
+
+td.group_label { 
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+background-color: Green;
+/*			background-color: #d2a56d;  */
+	}
+
+td.sub_head { 
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	vertical-align: middle;
+background-color: #96ace7;
+/* 		background-color: #d2a56d;  */
+	}
+
+
+tr:nth-child(even){background-color: #E0E0E0}
+/*  tr:nth-child(even){background-color: #ce8b54}
+tr:nth-child(odd){background-color: #d2a56d}*/
+
+
+th {
+    font-size: 100%;
+ background-color: #c3c388;
+ /*       background-color: #d2a56d;*/
+    color: white;
+	text-align:center;
+}
+
+/* for fraction */
+.frac { display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+     font-size: 1.0em;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+     font-size: 1.0em;
+    border-top: thin solid black;
+}
+.frac span.symbol {
+    display: none;
+} 
+/* end of for fraction */
+
+.dblUnderlined { 
+border-bottom: 5px double; 
+}
+
+table.equal {  /* สำหรับตาราง ที่ต้องการให้ช่องเท่ากันทุกช่อง  */
+	table-layout: fixed;
+    border-collapse: collapse;
+	width:100%;
+}
+
+div.center_head{
+	clear:both;
+	 text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+td.alignCenter{  /* สำหรับให้ตัวหนังสือ จัดกลาง ในช่องตาราง  */
+	text-align: center;
+}
+
+.indent_15px{
+    display:block;
+    text-indent:15px;
+	}
+
+body {
+    font-size: 1.80em;
+}
+
+
+
+/*
+สำหรับโหมด มืด-สว่าง
+*/
+body {
+  background-color: white;
+  color: black;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#footer {   /*  id สำหรับ เมนูด้านล่างของหน้าจอ */
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    background-color: #1434A4;
+    }
+
+.btn_show_options {
+  display: block;
+  width: 100%;
+  font-size: 80%;
+}
+.btn_show_options_dark {
+  background-color: "#A9A9A9";
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 80%;
+}
+
+
+

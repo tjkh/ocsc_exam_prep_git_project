@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0610:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+5    	8    	17    	44      ____ &lt;br /&gt;    
+
+	</question>
+    <choice_A>134</choice_A>
+    <choice_B>107</choice_B>
+    <choice_C>88</choice_C>
+    <choice_D>125</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+5    	8    	17    	44      ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าเพิ่มขึ้นอย่างต่อเนื่อง แสดงว่า อาจจะมีการบวก หรือ คูณ&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาค่าผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ +3, +9, +27 &lt;br /&gt;&lt;br /&gt;
+
+ลองหา ผลต่างระหว่างตัวเลข อีกชั้น &lt;br /&gt;
+จะเห็นว่า จาก 3 จะเป็น 9 ได้ อาจจะเป็นบวกด้วย 6 หรือ คูณด้วย 3 ถ้าบวกด้วย 6 ตัวเลขต่อไปคือ 9 บวกด้วย 6 ไม่เท่ากับ 27 แต่ถ้าคูณด้วย 3 จะได้ 27 พอดี &lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น ระบบจึงเป็น คูณด้วย 3 และเมื่อคำนวณกลับขึ้นไป จะได้คำตอบ 125 ดังภาพ &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_581744.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0611:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+1    	2    	5    	11     21      ____ &lt;br /&gt;    
+
+	</question>
+    <choice_A>32</choice_A>
+    <choice_B>36</choice_B>
+    <choice_C>38</choice_C>
+    <choice_D>42</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+1    	2    	5    	11     21      ____ &lt;br /&gt; &lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าเพิ่มขึ้นอย่างต่อเนื่องและเพิ่มไม่มาก แสดงว่า อาจจะมีการบวก น่าจะไม่ใช่คูณ หรือยกกำลัง&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาค่าผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ +1, +3, +6, +10 &lt;br /&gt;&lt;br /&gt;
+
+ลองหา ผลต่างระหว่างตัวเลข อีกชั้น จะได้ +2, +3, +4 ดังนั้น ระบบจึงเป็น การบวกด้วยเลขเรียงลำดับ คือ +1, +2, +3, +4&lt;br /&gt;
+
+ตัวต่อไปต้องเป็น +5 จึงจะเป็นอนุกรมที่มีระบบ&lt;br /&gt;&lt;br /&gt;
+
+และเมื่อคำนวณกลับขึ้นไป จะได้คำตอบ 36 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_1251121.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0612:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+2    	3    	6    	12     22      ____ &lt;br /&gt;    
+
+	</question>
+    <choice_A>44</choice_A>
+    <choice_B>32</choice_B>
+    <choice_C>37</choice_C>
+    <choice_D>39</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+2    	3    	6    	12     22      ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าเพิ่มขึ้นอย่างต่อเนื่องและเพิ่มไม่มาก แสดงว่า อาจจะมีการบวก น่าจะไม่ใช่คูณ หรือยกกำลัง&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาค่าผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ +1, +3-, +6, +10 &lt;br /&gt;&lt;br /&gt;
+
+ลองหา ผลต่างระหว่างตัวเลข อีกชั้น จะได้ +2, +3, +4 ดังนั้น ระบบจึงเป็น การบวกด้วยเลขเรียงลำดับ คือ +1, +2, +3, +4  ตัวต่อไปต้องเป็น +5 จึงจะเป็นอนุกรมที่มีระบบ &lt;br /&gt;&lt;br /&gt;
+
+เมื่อคำนวณกลับขึ้นไป จะได้คำตอบ 37 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_23612.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0613:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+15      14      14      12     11     8     ____  &lt;br /&gt;
+	</question>
+    <choice_A>6</choice_A>
+    <choice_B>7</choice_B>
+    <choice_C>3</choice_C>
+    <choice_D>4</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+15      14      14      12     11     8     ____  &lt;br /&gt;&lt;br /&gt;
+ในภาพรวม จะเห็นว่าค่าของตัวเลขลดลง มีบางตัวที่เท่าเดิม สันนิษฐานว่า น่าจะมีการลบ และอาจจะมี 2 ชุด&lt;br /&gt;&lt;br /&gt;
+
+ลองหาค่าความแตกต่างระหว่างคู่ด&lt;br /&gt;&lt;br /&gt;ู
+จาก 15 ไป 14 คือ -1&lt;br /&gt;
+จาก 14 ไป 14 คือ 0&lt;br /&gt;
+จาก 14 ไป 12 คือ -2&lt;br /&gt;
+จาก 12 ไป 11 คือ -1&lt;br /&gt;
+จาก 11 ไป 8 คือ -3&lt;br /&gt;&lt;br /&gt;
+
+น่าจะมีระบบ เป็น 2 ชุด คือ&lt;br /&gt;
+-1, -2 และ -3  กับ &lt;br /&gt;
+0, -1 และต่อไปน่าจะเป็น -2&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 6  ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/nbr_15141412.png&quot;&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- yes หรือ อะไรก็ได้ เพื่อแสดงคำอธิบาย - -->
+    <!-- premium only ไม่แสดง บอกว่าต้องเป็น รุ่น premium -->
+    <!-- none ไม่แสดงคำอธิบาย -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0614:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+23    	24    	29    	39     55      ____ &lt;br /&gt;    
+
+	</question>
+    <choice_A>78</choice_A>
+    <choice_B>75</choice_B>
+    <choice_C>80</choice_C>
+    <choice_D>110</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+23    	24    	29    	39     55      ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าเพิ่มขึ้นอย่างต่อเนื่องและเพิ่มไม่มาก แสดงว่า อาจจะมีการบวก น่าจะไม่ใช่คูณ หรือยกกำลัง&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาค่าผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ +1, +5, +10, +16&lt;br /&gt;&lt;br /&gt;
+
+ลองหา ผลต่างระหว่างตัวเลข อีกชั้น จะได้ +4, +5, +6 ดังนั้น ระบบจึงเป็น การบวกด้วยเลขเรียงลำดับ คือ +4, +5, +6 ตัวต่อไปต้องเป็น +7 จึงจะเป็นอนุกรมที่มีระบบ&lt;br /&gt;&lt;br /&gt;
+
+เมื่อคำนวณกลับขึ้นไป จะได้คำตอบ 78 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_232429.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0615:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+105    	103    	99    	91    	75    	____ &lt;br /&gt;    
+
+	</question>
+    <choice_A>25</choice_A>
+    <choice_B>39</choice_B>
+    <choice_C>43</choice_C>
+    <choice_D>50</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+23    	24    	29    	39     55      ____ &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าลดลงอย่างต่อเนื่องและลดไม่มาก แสดงว่า อาจจะมีการลบ น่าจะไม่ใช่หาร หรือยกกำลัง&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาค่าผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ลบ -2	-4	-8	-16  ตัวต่อไป น่าจะเป็น 32 &lt;br /&gt;&lt;br /&gt;
+
+ลองหา ผลต่างระหว่างตัวเลข อีกชั้น จะเห็นว่า แต่ละตัวเกิดจากการคูณด้วย 2 เมื่อคำนวณกลับขึ้นไป จะได้คำตอบ ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_10510399.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0616:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+105    	103    	97    	79    	____ &lt;br /&gt;    
+
+	</question>
+    <choice_A>47</choice_A>
+    <choice_B>54</choice_B>
+    <choice_C>25</choice_C>
+    <choice_D>29</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+105    	103    	97    	79    	____ &lt;br /&gt; &lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าลดลงอย่างต่อเนื่องและลดไม่มาก แสดงว่า อาจจะมีการลบ น่าจะไม่ใช่หาร หรือยกกำลัง&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาค่าผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ลบ -2,	-6,	-18 สังเกตว่า ตัวหน้าคูณด้วย 3 จะได้ตัวหลัง ตัวต่อไปน่าจะเป็น -18x3 = -54 ดังนั้นค่าสุดท้ายที่ต้องการน่าจะเป็น 79-54=25&lt;br /&gt;&lt;br /&gt;
+
+ลองหา ผลต่างระหว่างตัวเลข อีกชั้นเพื่อความมั่นใจ จะเห็นว่า แต่ละตัวเกิดจากการคูณด้วย 3 เมื่อคำนวณกลับขึ้นไป จะได้คำตอบ 25 ดังภาพ &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_10510397.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0617:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+4    	7    	11    	16    	____ &lt;br /&gt;   
+
+	</question>
+    <choice_A>20</choice_A>
+    <choice_B>22</choice_B>
+    <choice_C>35</choice_C>
+    <choice_D>37</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+4    	7    	11    	16    	____ &lt;br /&gt; &lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าเพิ่มขึ้น ไม่มากนัก เดาว่า น่าจะมีการเอาอะไรมาบวก&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาค่าผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ +3,	+4,	+5 &lt;br /&gt;
+แสดงว่า ตัวสุดท้าย น่าจะต้อง บวกด้วย 6&lt;br /&gt;&lt;br /&gt;
+ ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_47111622.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+&lt;br /&gt;ขอบคุณ คุณอมลวัทน์ สวัสดิวงศ์ ที่ช่วยตรวจสอบข้อนี้  &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0618:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+79    	77    	71    	53    	____ &lt;br /&gt;   
+
+	</question>
+    <choice_A>-3</choice_A>
+    <choice_B>3</choice_B>
+    <choice_C>0</choice_C>
+    <choice_D>-1</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+79    	77    	71    	53    	____ &lt;br /&gt; &lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าลดลงอย่างต่อเนื่องและลดไม่มาก แสดงว่า อาจจะมีการลบ น่าจะไม่ใช่หาร หรือยกกำลัง&lt;br /&gt;&lt;br /&gt; 
+
+ลองหาค่าผลต่างระหว่างตัวเลข  โดยเอาตัวหลังลบด้วยตัวหน้า จะได้ลบ -2,	-6,	-18 สังเกตว่า ตัวหน้าคูณด้วย 3 จะได้ตัวหลัง ตัวต่อไปน่าจะเป็น -18x3 = -54 ดังนั้นค่าสุดท้ายที่ต้องการน่าจะเป็น 53-54= -1&lt;br /&gt;&lt;br /&gt;
+
+ลองหา ผลต่างระหว่างตัวเลข อีกชั้นเพื่อความมั่นใจ จะเห็นว่า แต่ละตัวเกิดจากการคูณด้วย 3 เมื่อคำนวณกลับขึ้นไป จะได้คำตอบเท่ากับ -1 ดังภาพ &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_797771.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 15 -->
+  <thisQuestion>
+    <qNum>id0619:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง:&lt;/strong&gt; เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+3       15       38    76       133      213       ____ &lt;br /&gt;
+	</question>
+    <choice_A>350</choice_A>
+    <choice_B>320</choice_B>
+    <choice_C>360</choice_C>
+    <choice_D>333</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+3       15       38    67       133      213       ____ &lt;br /&gt;&lt;br /&gt;
+
+ในภาพรวม อนุกรมชุดนี้มีค่าเพิ่มขึ้นอย่างต่อเนื่อง แต่ไม่มากนัก เดาว่าน่าจะเกิดจากการบวก&lt;br /&gt;&lt;br /&gt;
+
+ให้ลองหา ผลต่างระหว่างตัวเลข ซึ่งเมื่อหาแล้ว 3 ครั้ง จะเห็นรูปแบบ ดังภาพ &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_31538.png&quot;&gt;&lt;br /&gt;
+
+&lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+การหาผลต่างระหว่างจำนวน ส่วนใหญ่มักจะหาไม่เกิน 3 ชั้น&lt;br /&gt;
+ถ้าหา 3 ชั้นแล้ว ยังไม่เห็นระบบ ให้เปลี่ยนวิธีคิด หรือ ข้ามไปทำข้ออื่นก่อน&lt;br /&gt;&lt;br /&gt;
+
+(ขอบคุณ คุณ  Remilia Scarlet และ กิตติวัฒน์ แสนศรี ที่ช่วยตรวจสอบข้อนี้ และ แจ้งมาให้ทราบ)&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- yes for showing explanation -->
+  </thisQuestion>
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id0620:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง:&lt;/strong&gt; เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+9        10        16        26        25             ____ &lt;br /&gt;
+
+	</question>
+    <choice_A>50</choice_A>
+    <choice_B>51</choice_B>
+    <choice_C>35</choice_C>
+    <choice_D>46</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+9        10        16        26        25             ____ &lt;br /&gt;&lt;br /&gt;
+
+ภาพรวมจะเห็นว่า ค่าตัวเลขมีสูงขึ้นและมีลดลง สันนิษฐานว่า น่าจะมีการยกกำลัง หรืออาจจะมีอนุกรม 2 ชุดซ้อนกันอยู่ เมื่อพิจารณาดูเลข 9, 16, 25 จะเห็นว่ายกกำลังได้ คือ 3&lt;sup&gt;2&lt;/sup&gt;, 4&lt;sup&gt;2&lt;/sup&gt; และ 5&lt;sup&gt;2&lt;/sup&gt; ตามลำดับ แสดงว่าเป็นอนุกรมชุดเดียวกัน อีกชุดคือ 10, 26, ____  น่าจะมีการยกกำลังและบวกเพิ่ม เพราะ 10 มีค่าใกล้กับ 3&lt;sup&gt;2&lt;/sup&gt; ถ้าเอา 3&lt;sup&gt;2&lt;/sup&gt; มาบวกกับ 1 ก็จะได้ 10 พอดี ทำนองเดียวกัน ถ้า 5&lt;sup&gt;2&lt;/sup&gt; แล้วบวกด้วย 1 ก็จะได้ 26 ดังนั้น ตัวเลขที่ต้องการ น่าจะเป็น 6&lt;sup&gt;2&lt;/sup&gt; แล้วบวกด้วย 1 ซึ่งจะได้คำตอบ ดังภาพ &lt;br /&gt;
+	
+&lt;img src=&quot;asset:assets/data/images/nbr_91016.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- yes for showing explanation -->
+  </thisQuestion>
+  <!-- 17 -->
+  <thisQuestion>
+    <qNum>id0621:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง:&lt;/strong&gt; เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+108        43        100        39        92         ___         &lt;br /&gt;
+	</question>
+    <choice_A>45</choice_A>
+    <choice_B>35</choice_B>
+    <choice_C>90</choice_C>
+    <choice_D>85</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+108        43        100        39        92         ___         &lt;br /&gt;&lt;br /&gt;
+
+ภาพรวมจะเห็นค่าของตัวเลข มีเพิ่มขึ้นและลดลง น่าจะมีการยกกำลัง หรือมีอนุกรม 2 ชุดซ้อนกันอยู่ &lt;br /&gt;&lt;br /&gt;
+
+เมื่อพิจารณว่า ตัวเลขในอนุกรมชุดนี้ สามารถยกกำลังหรือมีค่าใกล้เคียงกับเลขยกกำลัง จะพบว่า ไม่น่าจะใช่ &lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น ลองพิจารณาดูในลักษณะอนุกรม 2 ชุด &lt;br /&gt;&lt;br /&gt;
+
+จะพบว่า ชุดแรกคือ 108, 100, 92 มีค่าห่างกัน -8 น่าจะถือว่ามีระบบได้ &lt;br /&gt;
+อนุกรมชุดที่ 2 คือ 43, 39 ห่างกัน -4 ตัวเลขถัดไปที่ต้องการ ก็น่าจะ น้อยลงอีก 4 ด้วยเช่นกัน จึงจะเป็นอนุกรมที่มีความสัมพันธ์กันได้ &lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ 35 ดังภาพ &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_10843100.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- yes for showing explanation -->
+  </thisQuestion>
+  <!-- 18 -->
+  <thisQuestion>
+    <qNum>id0622:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง:&lt;/strong&gt; เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+4    28    70      130    208    304    ____&lt;br /&gt;
+	</question>
+    <choice_A>420</choice_A>
+    <choice_B>450</choice_B>
+    <choice_C>400</choice_C>
+    <choice_D>418</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+4    28    70      130    208    304    ____&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ในภาพรวม จะเห็นว่าอนุกรมค่อนข้างยาว และมีค่าเพิ่มขึ้นอย่างต่อเนื่อง ค่าที่เพิ่มขึ้นค่อนข้างมาก สันนิษฐานว่า อาจจะมีอนุกรม 2 อนุกรมซ้อนกันอยู่ หรือ อาจจะมีการเพิ่มค่าด้วยการคูณ ก็ได้ &lt;br /&gt;&lt;br /&gt;
+
+เมื่อพิจารณาว่า มีอนุกรม 2 ชุดซ้อนกันหรือไม่ มองไม่เห็นความเป็นไปได้&lt;br /&gt;&lt;br /&gt;
+
+เมื่อพิจารณาการนำตัวเลขมาหาร น่าจะเป็นเลข 2 เพราะหารได้หมด แต่ยังมองไม่เห็นความสัมพันธของระบบ&lt;br /&gt;&lt;br /&gt;
+
+สุดท้ายลองหา ผลต่างระหว่างตัวเลข   โดยเอาตัวเลขตัวหลังลบด้วยเลขตัวหน้า หาค่าผลต่างระหว่างตัวเลข 2 ครั้ง ก็จะเห็นระบบว่า เพิ่มขึ้นครั้งละ 18 &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 418 ดังภาพ &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_42870.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- yes for showing explanation -->
+  </thisQuestion>
+  <!-- 19 -->
+  <thisQuestion>
+    <qNum>id0623:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง:&lt;/strong&gt; เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+36       125        256        243        ____     &lt;br /&gt;
+
+	</question>
+    <choice_A>39</choice_A>
+    <choice_B>32</choice_B>
+    <choice_C>64</choice_C>
+    <choice_D>71</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+36       125        256        243        ____     &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ตัวเลขในอนุกรมชุดนี้มีทั้งเพิ่มขึ้นและลดลง ไม่น่าจะหา  ผลต่างระหว่างตัวเลข โดยการ บวก ลบ คูณ หรือหาร แต่น่าจะเป็นเรื่องการยกกำลัง หรือ ตัวหน้าสองหรือสามตัว บวกลบกันได้ตัวที่สามหรือสี่&lt;br /&gt;&lt;br /&gt;
+
+เมื่อพิจารณาดูตัวเลข เหมือนจะเป็นเลขที่มาจากการยกกำลัง เช่น 6&lt;sup&gt;2&lt;/sup&gt; = 36, 5&lt;sup&gt;3&lt;/sup&gt; = 125&lt;br /&gt;&lt;br /&gt;
+
+นั่นคือ ฐานตัวเลข ลดลง จาก 6, 5, 4, 3, ...&lt;br /&gt;
+ตัวเลขยกกำลังเพิ่มขึ้น จาก 2, 3, 4, ...&lt;br /&gt;&lt;br /&gt;
+
+ลองทำต่อก็จะได้คำตอบ 64 ดังภาพ &lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/nbr_36125256.png&quot;&gt;&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- yes for showing explanation -->
+  </thisQuestion>
+  <!-- 20 -->
+  <thisQuestion>
+    <qNum>id0624:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง:&lt;/strong&gt; เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+500        470        420        340        ____     &lt;br /&gt;
+	</question>
+    <choice_A>190</choice_A>
+    <choice_B>220</choice_B>
+    <choice_C>230</choice_C>
+    <choice_D>207</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+500        470        420        340        ____     &lt;br /&gt;&lt;br /&gt;
+
+สังเกตดูภาพรวม จะเห็นว่าตัวเลขลดลงอย่างต่อเนื่อง แต่ลดลงไม่มาก ไม่น่าจะมีอนุกรมซ้อนกัน เพราะค่อนข้างสั้น &lt;br /&gt;&lt;br /&gt;
+
+ลองหาผลต่างระหว่างตัวเลข  จะเห็นระบบ &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 220ดังภาพ &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_500470420.png&quot;&gt;&lt;br /&gt;
+
+
+
+    </explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- yes for showing explanation -->
+  </thisQuestion>
+  <!-- 21 -->
+  <thisQuestion>
+    <qNum>id0625:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง:&lt;/strong&gt; เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\dfrac{1}{9} \quad \dfrac{6}{7} \quad \dfrac{8}{15} \quad \dfrac{21}{15} \quad \dfrac{23}{36} \quad \dfrac{?}{?}&lt;/tex&gt; &lt;br /&gt;
+
+
+	</question>
+      <choice_A>&lt;tex&gt;\frac{54}{25}&lt;/tex&gt;</choice_A>
+      <choice_B>&lt;tex&gt;\frac{57}{38}&lt;/tex&gt;</choice_B>
+      <choice_C>&lt;tex&gt;\frac{62}{50}&lt;/tex&gt;</choice_C>
+      <choice_D>&lt;tex&gt;\frac{74}{62}&lt;/tex&gt;</choice_D>    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+
+        &lt;tex&gt;\dfrac{1}{9} \quad \dfrac{6}{7} \quad \dfrac{8}{15} \quad \dfrac{21}{15} \quad \dfrac{23}{36} \quad \dfrac{?}{?}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+ประเด็นแรก ลองดูความสัมพันธ์ของเศษทั้งหมด เพิ่มขึ้นไม่มาก ดูแล้วน่าจะไม่มีระบบ ทั้งการบวก หรือการคูณ&lt;br /&gt;&lt;br /&gt;
+
+        ประเด็นที่สอง ลองดูเศษส่วนบวก-ลบกัน ได้ตัวถัดไปหรือไม่ 1+9 = 10&lt;br /&gt;
+        ไม่พบเลขนี้ในระบบ น่าจะไม่ใช่&lt;br /&gt;&lt;br /&gt;
+ประเด็นที่สาม ลองดูว่า เศษตัวแรก กับส่วนตัวที่สอง เป็นเศษตัวที่สามหรือไม่ &lt;br /&gt;
+        ผลปรากฎว่า ใช่&lt;br /&gt;
+        ลองดูทุกตัว ก็ใช่หมด &lt;br /&gt;
+        สรุปคือ &lt;br /&gt; &lt;br /&gt;
+
+        เศษตัวแรก กับส่วนตัวที่สอง เป็นเศษตัวที่สาม &lt;br /&gt; &lt;br /&gt;
+
+        แสดงว่าพบระบบแล้ว ดังภาพ &lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/nbr_16821.png&quot;&gt;&lt;br /&gt;
+
+
+    </explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- yes for showing explanation -->
+  </thisQuestion>
+</exams>
+
+

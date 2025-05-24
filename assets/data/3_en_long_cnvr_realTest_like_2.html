@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="whereToBegin" style="display:none">0</div>
+
+<!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <strong>เตรียมสอบ ก.พ.</strong>
+        </div>
+        <div class="modal-body">
+            <p id="myMessage">Place holder for text..</p>
+            <input type="button" value="เริ่มใหม่" onclick="startOver();" />
+            <input style="float: right;" type="button" value="ทำต่อ" onclick="goCont();"/>
+        </div>
+        <div class="modal-footer">
+            https://www.thongjoon.com
+        </div>
+    </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<a name="conver_1"></a>
+
+<div class="upper" id="myPsgeDIV">
+    <div id="top">
+        <strong>Instruction:</strong> Choose the best answer.<br><br>
+
+        <!-- Conversation 1: Ordering Food at a Restaurant -->
+        <div id="a_lng_Psg1_q_number">
+            <div class="isNew">id1745107200:date1745107200</div>
+            <strong>For questions 1-5</strong><br><br>
+            <b>At a beachside restaurant in Phuket, Thailand.</b><br />
+            <div class="conver_container">
+                <div class="conver_item">Waiter:&nbsp;</div>
+                <div class="conver_item">Good morning! Welcome to Phuket Spice. <div class="tooltip">What can I get started for you today?<span class="tooltiptext">What can I get started for you today? = คุณอยากเริ่มสั่งอะไรวันนี้ครับ</span></div></div>
+                <div class="conver_item">Customer:&nbsp;</div>
+                <div class="conver_item">Hello. I’d like to order some food, please.</div>
+                <div class="conver_item">Waiter:&nbsp;</div>
+                <div class="conver_item">Sure thing. What would you like?</div>
+                <div class="conver_item">Customer:&nbsp;</div>
+                <div class="conver_item">I’ll have a green curry with chicken and <div class="tooltip">a side of mango sticky rice<span class="tooltiptext">a side of mango sticky rice = เสริมด้วยข้าวเหนียวมะม่วง คำว่า a side หมายความว่า เป็นอาหารเสริม อาหารประกอบ หรือ เครื่องเคียง ของเคียง ปริมาณเล็กน้อย </span></div>.</div>
+                <div class="conver_item">Waiter:&nbsp;</div>
+                <div class="conver_item"><div class="tooltip">Great choices!<span class="tooltiptext">Great choices! = เลือกได้ดีมาก!</span></div> Would you like anything to drink with that?</div>
+                <div class="conver_item">Customer:&nbsp;</div>
+                <div class="conver_item">Yes, a coconut water, please.</div>
+                <div class="conver_item">Waiter:&nbsp;</div>
+                <div class="conver_item"><div class="tooltip">Fresh<span class="tooltiptext">Fresh = สด</span></div> coconut water, <div class="tooltip">coming right up<span class="tooltiptext">coming right up = มาเลยครับ</span></div>. Anything else?</div>
+                <div class="conver_item">Customer:&nbsp;</div>
+                <div class="conver_item">Hmm, maybe some <div class="tooltip">fried calamari<span class="tooltiptext">fried calamari = ปลาหมึกชุบแป้งทอด</span></div> as an appetizer.</div>
+                <div class="conver_item">Waiter:&nbsp;</div>
+                <div class="conver_item">Perfect. I’ll get your order in. It’ll be out soon!</div>
+                <div class="conver_item">Customer:&nbsp;</div>
+                <div class="conver_item">Thank you!</div>
+            </div>
+        </div>
+
+        <!-- Conversation 2: Doctor Asking Patient About Headache -->
+        <div id="b_lng_Psg2_q_number">
+            <div class="isNew">id1745107201:date1745107200</div><br>
+            <strong>For questions 6-10</strong><br><br>
+            <b>At a clinic in Chiang Mai, Thailand.</b><br />
+            <div class="conver_container">
+                <div class="conver_item">Doctor:&nbsp;</div>
+                <div class="conver_item">Hello, Khun Mary. I hear you’ve been having <div class="tooltip">headaches<span class="tooltiptext">headaches = อาการปวดหัว</span></div>. Can you tell me more?</div>
+                <div class="conver_item">Patient:&nbsp;</div>
+                <div class="conver_item">Hello. Yes, I’ve had this headache for three days now. It’s mostly on the right side.</div>
+                <div class="conver_item">Doctor:&nbsp;</div>
+                <div class="conver_item">Is it <div class="tooltip">a sharp pain<span class="tooltiptext">a sharp pain = อาการปวดแหลม ปวดจี๊ด</span></div> or more like a <div class="tooltip">dull ache<span class="tooltiptext">dull ache = อาการปวดตื้อ ปวดหนุบ ๆ</span></div>?</div>
+                <div class="conver_item">Patient:&nbsp;</div>
+                <div class="conver_item">It’s sharp, especially when I move my head quickly.</div>
+                <div class="conver_item">Doctor:&nbsp;</div>
+                <div class="conver_item">Any other <div class="tooltip">symptoms<span class="tooltiptext">symptoms = อาการ</span></div>, like <div class="tooltip">nausea<span class="tooltiptext">nausea = คลื่นไส้</span></div> or <div class="tooltip">sensitivity to light<span class="tooltiptext">sensitivity to light = ความไวต่อแสง</span></div>?</div>
+                <div class="conver_item">Patient:&nbsp;</div>
+                <div class="conver_item">Yes, bright lights <div class="tooltip">make it worse<span class="tooltiptext">make it worse = ทำให้แย่ลง</span></div>, but no nausea.</div>
+                <div class="conver_item">Doctor:&nbsp;</div>
+                <div class="conver_item">Have you been <div class="tooltip">stressed<span class="tooltiptext">stressed = เครียด</span></div> or <div class="tooltip">dehydrated<span class="tooltiptext">dehydrated = ขาดน้ำ</span></div> lately? That can sometimes cause headaches.</div>
+                <div class="conver_item">Patient:&nbsp;</div>
+                <div class="conver_item">I’ve been <div class="tooltip">working late<span class="tooltiptext">working late = ทำงานดึก</span></div>, so maybe stressed. I drink water, but maybe not enough.</div>
+                <div class="conver_item">Doctor:&nbsp;</div>
+                <div class="conver_item">Okay, let’s try some <div class="tooltip">hydration<span class="tooltiptext">hydration = การเติมน้ำ</span></div> and <div class="tooltip">rest<span class="tooltiptext">rest = การพักผ่อน</span></div> first, and I’ll <div class="tooltip">prescribe<span class="tooltiptext">prescribe = สั่งยา</span></div> something for the pain. Come back if it doesn’t <div class="tooltip">improve<span class="tooltiptext">improve = ดีขึ้น</span></div>.</div>
+                <div class="conver_item">Patient:&nbsp;</div>
+                <div class="conver_item">Thank you, Doctor.</div>
+            </div>
+        </div>
+
+
+        <div style="display: flex; align-items: center; justify-content: flex-end;">
+            <img src="images/grok_logo.png" width="16" height="15" alt="Grok Logo">
+            <span style="font-size: small; margin-left: 5px;">Grok ช่วยเขียน ถาม แปล</span>
+        </div>
+    </div>
+</div>
+
+<div class="lower" id="myQstnDIV">
+    <!-- Question 1 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr1_q_number_1"><strong>ข้อ 1.</strong></div>
+        <div class="question_content">What <div class="tooltip">main dish<span class="tooltiptext">main dish = จานหลัก</span></div> did the customer order?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Pad Thai</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Green curry with chicken</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q1" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Tom Yum Goong</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Khao Soi</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn1_ans_01" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn1_ans_01')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr1_q1" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. Green curry with chicken<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            แขกคนเข้าพักพูดว่า “I’ll have a green curry with chicken,” เป็นการสั่งข้าวเขียวหวานไก่ ซึ่งเป็นอาหารจานหลัก<br><br>
+            1. Pad Thai<br>
+            ผัดไทย<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Green curry with chicken ✔<br>
+            แกงเขียวหวานไก่<br>
+            แขกสั่งอาหารนี้อย่างชัดเจน<br><br>
+            3. Tom Yum Goong<br>
+            ต้มยำกุ้ง<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. Khao Soi<br>
+            ข้าวซอย<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn1_q1', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn1_ans_01', 'yes', '1745107200', 'lng_cnvr1_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr1_1" onclick="show_hide_LngPsg('lgEnCnvr1_q1', 'lngCnvr1_1', 'lng_cnvr1_q_number_1', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 2 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr1_q_number_2"><strong>ข้อ 2.</strong></div>
+        <div class="question_content">What <div class="tooltip">drink<span class="tooltiptext">drink = เครื่องดื่ม</span></div> did the customer choose?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Thai iced tea</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Lemonade</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Coconut water</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Chang beer</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn1_ans_02" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn1_ans_02')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr1_q2" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 3. Coconut water<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The customer requests “a coconut water,” as stated in the conversation.<br><br>
+            1. Thai iced tea<br>
+            ชาเย็นไทย<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Lemonade<br>
+            น้ำมะนาว<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            3. Coconut water ✔<br>
+            น้ำมะพร้าว<br>
+            แขกสั่งเครื่องดื่มนี้อย่างชัดเจน<br><br>
+            4. Chang beer<br>
+            เบียร์ช้าง<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn1_q2', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn1_ans_02', 'yes', '1745107200', 'lng_cnvr1_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr1_2" onclick="show_hide_LngPsg('lgEnCnvr1_q2', 'lngCnvr1_2', 'lng_cnvr1_q_number_2', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 3 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr1_q_number_3"><strong>ข้อ 3.</strong></div>
+        <div class="question_content">What <div class="tooltip">appetizer<span class="tooltiptext">appetizer = อาหารเรียกน้ำย่อย</span></div> was added to the order?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. <div class="tooltip">Spring rolls<span class="tooltiptext">Spring rolls = ปอเปี๊ยะทอด</span></div></label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Papaya salad</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Fried calamari</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. <div class="tooltip">Satay skewers<span class="tooltiptext">Satay skewers = สะเต๊ะ</span></div></label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn1_ans_03" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn1_ans_03')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr1_q3" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 3. Fried calamari<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The customer decides to add “some fried calamari as an appetizer” after initially ordering the main dish and dessert.<br><br>
+            1. Spring rolls<br>
+            ปอเปี๊ยะทอด<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Papaya salad<br>
+            ส้มตำ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            3. Fried calamari ✔<br>
+            ปลาหมึกชุบแป้งทอด<br>
+            แขกสั่งอาหารนี้เป็นอาหารเรียกน้ำย่อย<br><br>
+            4. Satay skewers<br>
+            สะเต๊ะ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn1_q3', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn1_ans_03', 'yes', '1745107200', 'lng_cnvr1_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr1_3" onclick="show_hide_LngPsg('lgEnCnvr1_q3', 'lngCnvr1_3', 'lng_cnvr1_q_number_3', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 4 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr1_q_number_4"><strong>ข้อ 4.</strong></div>
+        <div class="question_content">Where is the restaurant located?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Bangkok</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Chiang Mai</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Phuket</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Pattaya</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn1_ans_04" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn1_ans_04')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr1_q4" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 3. Phuket<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            สังเกตชื่อโรงแรม “Phuket Spice,” แสดงว่าอยู่ที่ภูเก็ต<br><br>
+            1. Bangkok<br>
+            กรุงเทพฯ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Chiang Mai<br>
+            เชียงใหม่<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            3. Phuket ✔<br>
+            ภูเก็ต<br>
+            ชื่อร้านอาหาร “Phuket Spice” บ่งบอกสถานที่<br><br>
+            4. Pattaya<br>
+            พัทยา<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn1_q4', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn1_ans_04', 'yes', '1745107200', 'lng_cnvr1_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr1_4" onclick="show_hide_LngPsg('lgEnCnvr1_q4', 'lngCnvr1_4', 'lng_cnvr1_q_number_4', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 5 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr1_q_number_5"><strong>ข้อ 5.</strong></div>
+        <div class="question_content">How does the waiter respond to the customer’s final order?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. He asks for payment first.</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. He confirms the order and says it’ll be out soon.</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. He suggests a different dish.</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. He says the kitchen is closed.</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn1_ans_05" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn1_ans_05')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr1_q5" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. He confirms the order and says it’ll be out soon.<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The waiter says, “Perfect. I’ll get your order in. It’ll be out soon!” confirming the order.<br><br>
+            1. He asks for payment first.<br>
+            เขาขอให้ชำระเงินก่อน<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. He confirms the order and says it’ll be out soon. ✔<br>
+            เขายืนยันคำสั่งซื้อและบอกว่าจะมาเร็วๆ นี้<br>
+            พนักงานเสิร์ฟพูดว่า “Perfect. I’ll get your order in. It’ll be out soon!”<br><br>
+            3. He suggests a different dish.<br>
+            เขาแนะนำอาหารจานอื่น<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. He says the kitchen is closed.<br>
+            เขาบอกว่าครัวปิดแล้ว<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn1_q5', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn1_ans_05', 'yes', '1745107200', 'lng_cnvr1_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr1_5" onclick="show_hide_LngPsg('lgEnCnvr1_q5', 'lngCnvr1_5', 'lng_cnvr1_q_number_5', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 6 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr2_q_number_6"><strong>ข้อ 6.</strong></div>
+        <div class="question_content">Where is the patient experiencing the headache?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q6" type="radio" value="ตัวเลือก ข้อ 1" /> 1. On the left side</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q6" type="radio" value="ตัวเลือก ข้อ 2" /> 2. On the right side</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q6" type="radio" value="ตัวเลือก ข้อ 3" /> 3. At the back of the head</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q6" type="radio" value="ตัวเลือก ข้อ 4" /> 4. All over the head</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn2_ans_06" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_06')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr2_q6" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. On the right side<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The patient says the headache is “mostly on the right side.”<br><br>
+            1. On the left side<br>
+            ด้านซ้าย<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. On the right side ✔<br>
+            ด้านขวา<br>
+            ผู้ป่วยบอกว่าปวดหัว “mostly on the right side”<br><br>
+            3. At the back of the head<br>
+            ด้านหลังศีรษะ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. All over the head<br>
+            ทั้งศีรษะ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q6', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn2_ans_06', 'yes', '1745107201', 'lng_cnvr2_q_number_6'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr2_6" onclick="show_hide_LngPsg('lgEnCnvr2_q6', 'lngCnvr2_6', 'lng_cnvr2_q_number_6', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 7 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr2_q_number_7"><strong>ข้อ 7.</strong></div>
+        <div class="question_content">How long has the patient had the headache?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q7" type="radio" value="ตัวเลือก ข้อ 1" /> 1. One day</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q7" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Three days</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q7" type="radio" value="ตัวเลือก ข้อ 3" /> 3. One week</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q7" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Two weeks</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn2_ans_07" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_07')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr2_q7" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. Three days<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The patient mentions, “I’ve had this headache for three days now.”<br><br>
+            1. One day<br>
+            หนึ่งวัน<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Three days ✔<br>
+            สามวัน<br>
+            ผู้ป่วยบอกว่า “I’ve had this headache for three days now.”<br><br>
+            3. One week<br>
+            หนึ่งสัปดาห์<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. Two weeks<br>
+            สองสัปดาห์<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q7', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn2_ans_07', 'yes', '1745107201', 'lng_cnvr2_q_number_7'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr2_7" onclick="show_hide_LngPsg('lgEnCnvr2_q7', 'lngCnvr2_7', 'lng_cnvr2_q_number_7', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 8 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr2_q_number_8"><strong>ข้อ 8.</strong></div>
+        <div class="question_content">What type of pain does the patient describe?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q8" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Dull ache</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q8" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Sharp pain</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q8" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Throbbing pain</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q8" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Burning sensation</label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn2_ans_08" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_08')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr2_q8" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. Sharp pain<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The patient describes the headache as “sharp, especially when I move my head quickly.”<br><br>
+            1. Dull ache<br>
+            ปวดตื้อ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Sharp pain ✔<br>
+            ปวดแหลม<br>
+            ผู้ป่วยบอกว่า “It’s sharp, especially when I move my head quickly.”<br><br>
+            3. Throbbing pain<br>
+            ปวดตุบๆ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. Burning sensation<br>
+            รู้สึกแสบร้อน<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q8', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn2_ans_08', 'yes', '1745107201', 'lng_cnvr2_q_number_8'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr2_8" onclick="show_hide_LngPsg('lgEnCnvr2_q8', 'lngCnvr2_8', 'lng_cnvr2_q_number_8', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 9 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr2_q_number_9"><strong>ข้อ 9.</strong></div>
+        <div class="question_content">What symptom does the patient confirm having?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q9" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Nausea</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q9" type="radio" value="ตัวเลือก ข้อ 2" /> 2. <div class="tooltip">Fever<span class="tooltiptext">Fever = ไข้</span></div></label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q9" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Sensitivity to light</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q9" type="radio" value="ตัวเลือก ข้อ 4" /> 4. <div class="tooltip">Dizziness<span class="tooltiptext">Dizziness = วิงเวียน</span></div></label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn2_ans_09" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_09')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr2_q9" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 3. Sensitivity to light<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The patient says, “Bright lights make it worse,” confirming sensitivity to light.<br><br>
+            1. Nausea<br>
+            คลื่นไส้<br>
+            ผู้ป่วยบอกว่าไม่มีอาการนี้<br><br>
+            2. Fever<br>
+            ไข้<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            3. Sensitivity to light ✔<br>
+            ความไวต่อแสง<br>
+            ผู้ป่วยบอกว่า “Bright lights make it worse.”<br><br>
+            4. Dizziness<br>
+            วิงเวียน<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q9', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn2_ans_09', 'yes', '1745107201', 'lng_cnvr2_q_number_9'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr2_9" onclick="show_hide_LngPsg('lgEnCnvr2_q9', 'lngCnvr2_9', 'lng_cnvr2_q_number_9', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+    <!-- Question 10 -->
+    <form action="#">
+        <div class="question_num" id="lng_cnvr2_q_number_10"><strong>ข้อ 10.</strong></div>
+        <div class="question_content">What <div class="tooltip">possible cause<span class="tooltiptext">possible cause = สาเหตุที่เป็นไปได้</span></div> does the doctor <div class="tooltip">suggest<span class="tooltiptext">suggest = แนะนำ</span></div> for the headache?</div>
+        <div class="clear"> </div>
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q10" type="radio" value="ตัวเลือก ข้อ 1" /> 1. <div class="tooltip">An infection<span class="tooltiptext">An infection = การติดเชื้อ</span></div></label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q10" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Stress or dehydration</label></div>
+        </div>
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q10" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Poor vision</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q10" type="radio" value="ตัวเลือก ข้อ 4" /> 4. <div class="tooltip">A head injury<span class="tooltiptext">A head injury = การบาดเจ็บที่ศีรษะ</span></div></label></div>
+        </div>
+        <div class="clear"> </div>
+        <div id="lngEnCnvrstn2_ans_10" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_10')" style="display:none; cursor: pointer;">dummy text</div>
+        <div id="lgEnCnvr2_q10" class="explanation" style="display:none">
+            <strong>คำตอบที่ถูกต้อง:</strong> 2. Stress or dehydration<br><br>
+            <strong>คำอธิบาย:</strong><br>
+            The doctor asks, “Have you been stressed or dehydrated lately? That can sometimes cause headaches,” suggesting these as possible causes.<br><br>
+            1. An infection<br>
+            การติดเชื้อ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            2. Stress or dehydration ✔<br>
+            ความเครียดหรือการขาดน้ำ<br>
+            หมอบอกว่า “Have you been stressed or dehydrated lately? That can sometimes cause headaches.”<br><br>
+            3. Poor vision<br>
+            สายตาไม่ดี<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br><br>
+            4. A head injury<br>
+            การบาดเจ็บที่ศีรษะ<br>
+            ไม่ได้มีการกล่าวถึงในบทสนทนา<br>
+        </div>
+        <div class="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q10', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn2_ans_10', 'yes', '1745107201', 'lng_cnvr2_q_number_10'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr2_10" onclick="show_hide_LngPsg('lgEnCnvr2_q10', 'lngCnvr2_10', 'lng_cnvr2_q_number_10', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+        </div>
+    </form>
+    <div class="clear_after_item"> </div>
+
+</div>
+</div>
+<script src="long_psge_check_feedback.js"></script>
+
+</body>
+</html>

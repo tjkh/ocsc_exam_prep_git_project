@@ -1,0 +1,656 @@
+/* for 1 choice per row */
+.choice_a_1_column{
+	width:90%;
+	padding:3px;
+	margin-left:53px; /* align with item num  */
+	float:left;
+/*	 border: 1px solid #0099ff;   */
+}
+.choice_b_1_column{
+	width:90%;
+	padding:3px;
+	margin-left:53px; /* align with item num  */
+	float:left;
+	/* border: 1px solid #0099ff;  */
+}
+.choice_c_1_column{
+	width:90%;
+	padding:3px;
+	margin-left:53px; /* align with item num  */
+	float:left;
+	 /* border: 1px solid #0099ff;  */
+}
+.choice_d_1_column{
+	width:90%;
+	padding:3px;
+	margin-left:53px; /* align with item num  */
+	float:left;
+	/* border: 1px solid #0099ff; */  
+}
+
+
+
+
+/* for 4 in row */
+.choice_a_4InRow{
+	width:80px;
+	padding:3px;
+	margin-left:53px; /* align with item num  */
+	float:left;
+	 border: 1px solid #0099ff;  
+}
+.choice_b_4InRow{
+    width:80px;
+	padding:3px;
+	margin-left:5px;
+	float:left;
+	border: 1px solid #0099ff; 
+}
+
+.choice_c_4InRow{
+	width:80px;
+	padding:3px;
+	float:left;
+	margin-left:5px;
+	 border: 1px solid #0099ff;  
+}
+
+.choice_d_4InRow{
+	width:80px;
+	padding:3px;
+	float:left;
+	margin-left:5px;
+	border: 1px solid #0099ff;  
+}
+
+
+/* end of for 4 in row */
+/* for quiz */
+.quiz_container{
+/* background: blue; */
+   margin-left: 0px;
+   margin-right: 0px;
+   padding: 0px 20px 0px 0px;
+   height: auto;
+   clear:both;
+ border-radius: 10px;
+   border: 1px solid red; 
+   overflow: hidden;
+}
+
+.quiz_container2{
+/* background: blue; */
+   margin-left:0px;
+   margin-right: 0px;
+  /* padding: 0px 2px 0px 0px; */
+   padding: 2px 4px 2px 2px;
+  /* height: auto; */
+   clear:both;
+ border-radius: 10px;
+   border: 1px solid red; 
+  /* overflow: hidden; */
+   /* overflow-y: scroll; */
+       height: 100vh; /* Take full viewport height */
+       overflow-y: scroll; /* Enable scrolling */
+}
+
+.item_container {
+    float: left;
+    clear:both;
+    overflow: hidden;
+   height: auto;
+   width:100%;
+   margin-left: 5px;
+       max-height: 500px;
+       overflow-y: scroll;
+ /*  border: 5px solid #669966;  */
+}
+
+.choice_left {
+    margin-left:3%;
+	margin-top: 10px;
+    float: left;
+    clear:right;
+    width: 47%;
+    /* border: 1px solid #993399; */
+}
+
+.choice_right {
+    margin-left:1%;
+	margin-top: 10px;
+    float: left;
+	clear:right;
+	width: 47%;
+     overflow: hidden; 
+     /* border: 1px solid #ff66cc; */
+}
+
+.question_num{
+width:50px;
+float:left;
+clear:right;
+/*margin-right:3px; */
+text-align: center;
+     border: 1px solid #993300; 
+}
+
+.question_content{
+float:left;
+clear:both;
+margin-top:10px;
+/*width:90%; */
+/* border: 1px solid #003333; */
+}
+.choice_num_1Col{
+width:95%;
+float:left;
+margin-right:3px;
+text-align: top;
+/*    border: 1px solid #66cccc; */
+}
+
+
+.choice_num{
+width:50px;
+float:left;
+margin-right:3px;
+text-align: top;
+/*    border: 1px solid #66cccc; */
+}
+
+.choice_content{
+float:left;
+margin-top:2px;
+/* width: 85%; */
+/*     border: 1px solid #33ff66; */
+}
+.button{
+clear:both;
+padding: 20px 30px 20px 10px;
+//     border: 1px solid #003399; 
+}
+
+.button_top_3px{
+clear:both;
+padding: 3px 30px 5px 10px;
+    /* border: 1px solid #003399; */
+}
+
+.explanation{
+  margin-top:1px;
+  margin-right:20px
+  padding:10px;
+  background:   #cccc99;
+  color:#000000; 
+  float:left;
+  width:100%;
+ 
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 2.4s;
+    animation-name: animatetop;
+    animation-duration: 2.4s;
+
+}
+.show_answer{
+font-weight:bold;
+  padding-left:10px;
+  background: #330066;
+}
+
+
+.clear{
+height: 5px;
+clear:both;
+}
+
+.clear_after_item{
+height: 15px;
+clear:both;
+}
+
+.quiz_img {
+    vertical-align: top; 
+    /* border: 3px solid #663300; */
+}
+
+.chkAnsBtn{
+cursor:pointer;
+}
+
+.myFloat_Right{
+cursor:pointer;
+}
+
+input[type="radio"]{
+    vertical-align: baseline;
+}
+
+
+/* end of for quiz */
+
+
+
+table {
+    border-collapse: collapse;
+	width:100%;
+}
+
+td{
+   vertical-align: top;
+}
+
+table, td, th {
+    border: 1px solid #aaaaaa;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /*Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+table.equal {   /* สำหรับตาราง ที่ต้องการให้ช่องเท่ากันทุกช่อง  */
+	table-layout: fixed;
+    border-collapse: collapse;
+	width:100%;
+}
+
+table.equal .for_root{ /* สำหรับตาราง ที่ไม่มีเส้นขอบ เช่น ใช้กับเครื่องหมายรูท  */
+border: 0px;
+border-spacing:0px; 
+border-width:0px; 
+border-collapse: none;
+font-family:verdana;
+width:auto;
+}
+
+table.equal .for_root td{
+padding:0px; 
+border-spacing:0px; 
+border-width:0px; 
+font-size:larger;
+}
+
+
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+   /* border: 1px solid #888; */
+    width: 50%;
+    height: 350px;  
+   /*  overflow: auto;  */ 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@-webkit-keyframes div_slide {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    padding-bottom: 15px;
+	font-size: 120%;
+	font-family: Arial, Helvetica;
+	height: 30px;
+    background-color: #3F51B5;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 0px 2px 16px;
+    position: absolute; 
+    background-color: #ffffff;
+    max-height: calc(100% - 30px);
+   /*  width: calc(100% - 20px);  */
+    overflow-y: auto;
+
+    
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    font-size: 65%;
+    height: 10px;
+    background-color: ##3F51B5;
+    color: white;
+}
+
+.indent_15px{
+    display:block;
+    text-indent:15px;
+	}
+
+
+/* for search */
+
+span.searchword{ 
+	background-color:yellow !important; 
+}
+
+span.searchword_2{ 
+	background-color:yellow !important; 
+}
+
+div.center_head{
+	clear:both;
+	 text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+div.find{
+ text-align: right;
+ margin-right: 3px;
+ margin-bottom: 5px;
+}
+
+td.group_label { 
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+/*	background-color: Green;  */
+	}
+
+td.sub_head { 
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #96ace7;
+	}
+
+
+tr:nth-child(even){background-color: #E0E0E0}
+
+th {
+    font-size: 100%;
+    background-color: #c3c388;
+    color: white;
+	text-align:center;
+}
+
+
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+table.true_false {
+    border-collapse: collapse;
+	width:80%;
+	margin: 0 auto;
+}
+
+table.fifty_percent {
+    border-collapse: collapse;
+	width:50%;
+	margin: 0 auto;
+}
+
+table.ninety_nine_percent {
+    border-collapse: collapse;
+	width:98%;
+	margin: 0 auto;
+}
+
+
+
+
+td.ctr{
+text-align: center;
+}
+
+/* for fraction */
+.frac { display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+     font-size: medium;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+     font-size: medium;
+    border-top: thin solid black;
+}
+.frac span.symbol {
+    display: none;
+} 
+/* end of for fraction */
+
+.dblUnderlined { 
+border-bottom: 5px double; 
+}
+
+table.fifty-percent {
+    border-collapse: collapse;
+	width:50%;
+}
+
+td{
+   vertical-align: top;
+}
+
+th.normal_font {
+    font-size: 100%;
+  /*  background-color: Green; */
+    color: white;
+	text-align:center;
+}
+
+.div_indent{
+margin-left: 15px;
+}
+
+p.no_margin{
+   margin:0;
+}
+
+IMG.ctr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+ol.new_indt {
+  list-style-type: none; 
+  counter-reset: item; 
+  margin: 0;
+  padding: 0;
+}
+
+li.new_indt {
+  display: table;
+  counter-increment: item;
+  /*margin-bottom: 0.6em;*/
+  margin-bottom: 0em;
+
+}
+
+li.new_indt:before {
+    content: counters(item, ".") ". "; 
+    display: table-cell;
+    padding-right: 0.6em;    
+}
+
+li.new_indt li {
+    margin: 0;
+}
+
+li.new_indt li:before {
+    content: counters(item, ".") " "; 
+}
+
+img.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+td.alignLeft{
+	text-align: left;
+}
+td.alignRight{
+	text-align: right;
+}
+
+td.alignCenter{
+	text-align: center;
+}
+
+
+div.alignRight{
+	text-align: right;
+	}
+
+
+.qstn-div {
+      height: 40vh;
+      width: 100%;      
+      overflow-y: scroll;
+     /* background-color: #E0ECF8;  */
+    }
+
+.isNew{
+	font-weight:bold; 
+	font-size:65%;
+	text-align: center; 
+	color:#FFFF00; 
+	width: 50px; 
+	border: 1px solid #FF0000; 
+	margin-left: 0px;
+	clear:both; 
+	display:block;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 85%;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+	font-size: 150%;
+	height: 30px;
+    background-color: #3F51B5;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+
+body {
+  background-color: white;
+  color: black;
+}
+

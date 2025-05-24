@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=0.65">
+
+    <script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+<body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+			<!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ทต่างกัน  -->
+            <button id = "start" onclick="countDown(0,30,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+		</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 0.30 ช.ม.
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      http://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <br><br>
+    <div id="ifNotBuy" style="display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+        <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span></br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+
+<!--
+
+=================พรบ ระเบียบการบริหารราชการแผ่นดิน State Admin Regulation =================
+
+-->
+
+
+<strong>คำสั่ง</strong> จงเลือกคำตอบที่ถูกต้องที่สุด <br><br>
+
+<div class="quiz">
+ข้อ 1. <br>
+
+ในการบริหารกิจการบ้านเมือง ตามพระราชบัญญัติระเบียบบริหารราชการแผ่นดิน (มาตรา ๓/๑) ส่วนราชการต้องคำนึงถึงเรื่องใด มากที่สุด
+
+</div>
+
+<label><input type="radio" name="q1" value="0">การใช้ทรัพยากรอย่างคุ้มค่า</label><br>
+<label><input type="radio" name="q1" value="1">ความรับผิดชอบของผู้ปฏิบัติงาน</label><br>
+<label><input type="radio" name="q1" value="0">ผลประโยชน์ที่ประชาชนจะได้รับ</label><br>
+<label><input type="radio" name="q1" value="0">การวางแผนการปฏิบัติงาน</label><br>
+
+
+<div class="quiz">
+ข้อ 2. <br>
+การบรรจุและแต่งตั้งบุคคลเข้าดำรงตำแหน่ง หรือปฏิบัติหน้าที่ต้องคำนึงถึง หลักการอะไร
+<br>
+</div>
+
+<label><input type="radio" name="q2" value="0">ความซื่อสัตย์สุจริต</label><br>
+<label><input type="radio" name="q2" value="1">เพื่อประโยชน์สุขของประชาชน</label><br>
+<label><input type="radio" name="q2" value="0">ความเหมาะสมกับงาน</label><br>
+<label><input type="radio" name="q2" value="0">ความรู้ความเข้าใจสภาพสังคม เศรษฐกิจและสิ่งแวดล้อม</label><br>
+
+
+
+<div class="quiz">
+ข้อ 3. <br>
+การรับโอนข้าราชการที่พ้นจากตำแหน่ง เนื่องจากการยุบส่วนราชการ ต้องกระทำภายในกี่วัน
+<br>
+</div>
+
+<label><input type="radio" name="q3" value="0">ยี่สิบวัน</label><br>
+<label><input type="radio" name="q3" value="1">สามสิบวัน</label><br>
+<label><input type="radio" name="q3" value="0">สี่สิบห้าวัน</label><br>
+<label><input type="radio" name="q3" value="0">หกสิบวัน</label><br>
+
+
+
+<div class="quiz">
+ข้อ 4. <br>
+หน่วยงานใด มีหน้าที่เสนอแนะ และให้คำปรึกษาแก่คณะรัฐมนตรีเกี่ยวกับโครงสร้างระบบราชการ<br>
+</div>
+
+<label><input type="radio" name="q4" value="0">สำนักงบประมาณ</label><br>
+<label><input type="radio" name="q4" value="0">สำนักงาน ก.พ.</label><br>
+<label><input type="radio" name="q4" value="0">สำนักนายกรัฐมนตรี</label><br>
+<label><input type="radio" name="q4" value="1">ก.พ.ร.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 5. <br>
+ ตีความ และวินิจฉัยปัญหา ที่เกิดขึ้นจากการใช้บังคับพระราชบัญญัติระเบียบบริหารราชการแผ่นดิน</div>
+
+<label><input type="radio" name="q5" value="0">สำนักงบประมาณ</label><br>
+<label><input type="radio" name="q5" value="0">สำนักงาน ก.พ.</label><br>
+<label><input type="radio" name="q5" value="0">สำนักนายกรัฐมนตรี</label><br>
+<label><input type="radio" name="q5" value="1">ก.พ.ร.</label><br>
+
+
+<!-- 6-9 โจทย์คณิด 4 ข้อ  -->
+
+
+<div class="quiz">
+ข้อ 6. <br>
+ ใครเป็นผู้บังคับบัญชาของข้าราชการในสำนักนายกรัฐมนตรี
+<br>
+</div>
+
+<label><input type="radio" name="q6" value="1">นายกรัฐมนตรี</label><br>
+<label><input type="radio" name="q6" value="0">รัฐมนตรีประจำสำนักนายก</label><br>
+<label><input type="radio" name="q6" value="0">รัฐมนตรีที่คณะรัฐมนตรีกำหนด</label><br>
+<label><input type="radio" name="q6" value="0">ปลัดสำนักนายกรัฐมนตรี</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 7. <br>
+ผู้ช่วยเลขาธิการนายกรัฐมนตรี มีสถานะตำแหน่งอย่างไร
+<br>
+</div>
+
+<label><input type="radio" name="q7" value="1">เป็นข้าราชการพลเรือนสามัญ</label><br>
+<label><input type="radio" name="q7" value="0">เป็นข้าราชการสังกัดคณะรัฐมนตรี</label><br>
+<label><input type="radio" name="q7" value="0">เป็นข้าราชการการเมือง</label><br>
+<label><input type="radio" name="q7" value="0">เป็นข้าราชการเทียบเท่าตำแหน่งอธิบดี</label><br>
+
+
+<div class="quiz">
+ข้อ 8. <br>
+ในการปฏิบัติหน้าที่ของส่วนราชการ ต้องใช้วิธีการบริหารกิจการบ้านเมืองที่ดี โดยเฉพาะอย่างยิ่งให้ คำนึงถึงสิ่งใด<br>
+</div>
+
+<label><input type="radio" name="q8" value="0">ประสิทธิภาพและประสิทธิผลของงาน</label><br>
+<label><input type="radio" name="q8" value="0">ความซื่อสัตย์ สุจริต</label><br>
+<label><input type="radio" name="q8" value="0">การวางแผนและการปฏิบัติตามแผน</label><br>
+<label><input type="radio" name="q8" value="1">การมีส่วนร่วมของประชาชน</label><br>
+
+
+
+<div class="quiz">
+ข้อ 9. <br>
+จัดทำรายงานประจำปี เกี่ยวกับการพัฒนาและจัดระบบราชการ<br>
+</div>
+
+<label><input type="radio" name="q9" value="1">ก.พ.ร.</label><br>
+<label><input type="radio" name="q9" value="0">สำนักงาน ก.พ.</label><br>
+<label><input type="radio" name="q9" value="0">สำนักนายกรัฐมนตรี</label><br>
+<label><input type="radio" name="q9" value="0">ข้อ 1 และ ข้อ 2</label><br>
+
+
+<!-- พรฎ การบริหารบ้านเมืองที่ดี Good Governance -->
+
+
+<div class="quiz">
+ข้อ 10. <br>
+สำนักงานคณะกรรมการข้าราชการพลเรือน และสำนักงบประมาณ มีหน้าที่ตรวจสอบดูแล มิให้มีการกำหนดตำแหน่ง หรืออัตราของข้าราชการ หรือลูกจ้างของส่วนราชการ ที่จัดตั้งขึ้นใหม่ หรือที่ถูกรวมหรือโอนไปตามวรรคหนึ่ง เพิ่มขึ้น จนกว่าจะครบกำหนดกี่ปี นับแต่วันที่พระราชกฤษฎีกามีผลใช้บังคับ
+<br>
+</div>
+
+<label><input type="radio" name="q10" value="0">2 ปี</label><br>
+<label><input type="radio" name="q10" value="1">3 ปี</label><br>
+<label><input type="radio" name="q10" value="0">4 ปี</label><br>
+<label><input type="radio" name="q10" value="0">5 ปี</label><br>
+
+
+
+<!--  11-15 การเปรึยบเทียบซ้อมูล (สดมภ์ 5 ข้อ   -->
+
+
+<div class="quiz">
+ข้อ 11. <br>
+ถ้านายอำเภอไปราชการ แล้วประสบอุบัติเหตุเสียชีวิต
+ใครเป็นผู้รักษาราชการแทนนายอำเภอ<br>
+</div>
+
+<label><input type="radio" name="q11" value="0">ปลัดอำเภอ</label><br>
+<label><input type="radio" name="q11" value="0">ปลัดอำเภออาวุโส</label><br>
+<label><input type="radio" name="q11" value="0">หัวหน้าส่วนราชการประจำอำเภอผู้มีอาวุโส</label><br>
+<label><input type="radio" name="q11" value="1">บุคคลที่ผู้ว่าราชการแต่งตั้ง</label><br>
+
+
+<div class="quiz">
+ข้อ 12. <br>
+ผู้ใด เป็นกรมการจังหวัดและเลขานุการ ของคณะกรมการจังหวัด<br>
+</div>
+
+<label><input type="radio" name="q12" value="0">ปลัดจังหวัด</label><br>
+<label><input type="radio" name="q12" value="0">เสมียนตราจังหวัด</label><br>
+<label><input type="radio" name="q12" value="1">หัวหน้าสำนักงานจังหวัด</label><br>
+<label><input type="radio" name="q12" value="0">กรมการจังหวัดที่คณะกรมการจังหวัด ลงมติแต่งตั้ง</label><br>
+
+
+
+<div class="quiz">
+ข้อ 13. <br>
+ส่วนราชการใด ไม่มีฐานะเป็นนิติบุคคล
+<br>
+</div>
+
+<label><input type="radio" name="q13" value="0">กระทรวง</label><br>
+<label><input type="radio" name="q13" value="0">กรม</label><br>
+<label><input type="radio" name="q13" value="0">จังหวัด</label><br>
+<label><input type="radio" name="q13" value="1">อำเภอ</label><br>
+
+<div class="quiz">
+ข้อ 14. <br>
+กรรมการผู้ทรงคุณวุฒิ ใน ก.พ.ร. มีกี่คน<br>
+</div>
+
+<label><input type="radio" name="q14" value="0">8 คน</label><br>
+<label><input type="radio" name="q14" value="0">10 คน</label><br>
+<label><input type="radio" name="q14" value="1">ไม่เกิน 10 คน</label><br>
+<label><input type="radio" name="q14" value="0">ไม่เกิน 15 คน</label><br>
+
+
+
+<div class="quiz">
+ข้อ 15. <br>
+ก.พ.ร. เกิดขึ้นตามพระราชบัญญัติระเบียบบริหารราชการแผ่นดิน ฉบับที่เท่าไร<br></div>
+
+<label><input type="radio" name="q15" value="0">ฉบับที่ 2</label><br>
+<label><input type="radio" name="q15" value="0">ฉบับที่ 3</label><br>
+<label><input type="radio" name="q15" value="0">ฉบับที่ 4</label><br>
+<label><input type="radio" name="q15" value="1">ฉบับที่ 5</label><br>
+
+<!--  พระราชกฤษฎีกาว่าด้วย การบริหารบ้านเมืองที่ดี Good Governance   -->
+
+
+<div class="quiz">
+ข้อ 16. <br>
+การบริหารราชการอย่างมีประสิทธิภาพ และเกิดความคุ้มค่าในเชิงภารกิจของรัฐ อยู่ในหมวดใด ของพระราชกฤษฎีกา ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี พ.ศ. 2546 <br>
+</div>
+
+<label><input type="radio" name="q16" value="0">หมวด 3</label><br>
+<label><input type="radio" name="q16" value="1">หมวด 4</label><br>
+<label><input type="radio" name="q16" value="0">หมวด 5</label><br>
+<label><input type="radio" name="q16" value="0">หมวด 6</label><br>
+
+
+<div class="quiz">
+ข้อ 17. <br>
+ในการจัดซื้อหรือจัดจ้าง ส่วนราชการจะต้องดำเนินอย่างไร
+<br>
+</div>
+
+<label><input type="radio" name="q17" value="0">คำนึงถึงประโยชน์ และผลเสียทางสังคม</label><br>
+<label><input type="radio" name="q17" value="0">ดำเนินการ โดยเปิดเผยและเที่ยงธรรม</label><br>
+<label><input type="radio" name="q17" value="0">คำนึงวัตถุประสงค์ที่จะใช้</label><br>
+<label><input type="radio" name="q17" value="1">ถูกทุกข้อ</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 18. <br>
+มีกรณีใดบ้าง ที่การจัดซื้อจัดจ้าง ไม่จำเป็นต้องถือราคาตํ่าสุด ในการเสนอซื้อหรือจ้าง
+<br>
+</div>
+
+<label><input type="radio" name="q18" value="0">ได้รับอนุมัติจากหัวหน้าส่วนราชการ</label><br>
+<label><input type="radio" name="q18" value="0">ตามความเห็นของคณะกรรมการจัดซื้อจัดจ้าง</label><br>
+<label><input type="radio" name="q18" value="1">การใช้งานต้องคำนึงถึง คุณภาพ และการดูแลรักษาเป็นสำคัญ</label><br>
+<label><input type="radio" name="q18" value="0">คุณภาพของสิ่งของ หรืองาน แตกต่างกันอย่างชัดแจ้ง</label><br>
+
+
+<div class="quiz">
+ข้อ 19. <br>
+ส่วนราชการที่มีอำนาจ อนุญาต อนุมัติ หรือให้ความเห็นชอบ แก่ส่วนราชการอื่น จะต้องกระทำให้เสร็จสิ้น ภายในกี่วัน นับแต่วันที่ได้รับคำขอ
+<br>
+</div>
+
+<label><input type="radio" name="q19" value="1">สิบห้าวัน</label><br>
+<label><input type="radio" name="q19" value="0">สามสิบวัน</label><br>
+<label><input type="radio" name="q19" value="0">สี่สิบห้าวัน</label><br>
+<label><input type="radio" name="q19" value="0">เก้าสิบวัน</label><br>
+
+
+<div class="quiz">
+ข้อ 20. <br>
+
+ผู้อำนวยการโรงเรียน สั่งให้ครูไปเยี่ยมบ้านนักเรียน โดยสั่งด้วยวาจา ในกรณีนี้ ครูควรทำอย่างไร
+<br>
+</div>
+
+<label><input type="radio" name="q20" value="0">ไม่จำเป็นต้องปฏิบัติตาม เพราะเป็นการสั่งด้วยวาจา</label><br>
+<label><input type="radio" name="q20" value="0">ปฏิบัติตามคำสั่ง แล้วกลับมารายงานผลด้วยวาจา</label><br>
+<label><input type="radio" name="q20" value="0">ไม่ต้องปฏิบัติตามคำสั่ง เพราะเป็นคำสั่งที่มิชอบด้วยกฎหมาย</label><br>
+<label><input type="radio" name="q20" value="1">ปฏิบัติตามคำสั่ง และเมื่อกลับมาแล้ว บันทึกรายงานผลการปฏิบัติงาน โดยอ้างอิงคำสั่งที่สั่งด้วยวาจา</label><br>
+
+
+<!--   21-25 อุปมา-อุปไมย 5 ข้อ   -->
+
+
+<div class="quiz">
+ข้อ 21. <br>
+หมวด ๕ ของ พระราชกฤษฏีกา ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี พ.ศ. ๒๕๔๖ คือข้อใด
+<br>
+</div>
+
+<label><input type="radio" name="q21" value="0">การบริหารราชการเพื่อให้เกิดประโยชน์สุขของประชาชน</label><br>
+<label><input type="radio" name="q21" value="0">การบริหารราชการเพื่อให้เกิดผลสัมฤทธิ์ต่อภารกิจของรัฐ</label><br>
+<label><input type="radio" name="q21" value="1">การลดขั้นตอนการปฏิบัติงาน</label><br>
+<label><input type="radio" name="q21" value="0">ความคุ้มค่าในเชิงภารกิจของรัฐ</label><br>
+
+
+
+<div class="quiz">
+ข้อ 22. <br>
+การกระจายอำนาจการตัดสินใจ ให้แก่ผู้ดำรงตำแหน่งที่มี หน้าที่รับผิดชอบ มีวัตถุประสงค์อย่างไร
+<br>
+</div>
+
+<label><input type="radio" name="q22" value="0">เพื่อให้เกิดการกระจายอำนาจ ไม่รวมศูนย์อำนาจ</label><br>
+<label><input type="radio" name="q22" value="0">เพื่อความโปร่งใสในการปฏิบัติงาน</label><br>
+<label><input type="radio" name="q22" value="1">เพื่อความสะดวก รวดเร็ว ในการบริการประชาชน</label><br>
+<label><input type="radio" name="q22" value="0">เพื่อแบ่งเบาภาระ ความรับผิดชอบ</label><br>
+
+
+
+<div class="quiz">
+ข้อ 23. <br>
+พระราชกฤษฎีกา ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี พ.ศ. ๒๕๔๖ กล่าวถึง การใช้เทคโนโลยีสารสนเทศ ไว้อย่างไร
+<br>
+</div>
+
+<label><input type="radio" name="q23" value="0">การใช้เทคโนโลยีสารสนเทศ ถือเป็นปฏิบัติงานอย่างไม่เป็นทางการ</label><br>
+<label><input type="radio" name="q23" value="1">สามารถใช้เทคโนโลยีสารสนเทศ ติดตาม กำกับดูแลการใช้อำนาจ ของผู้รับมอบอำนาจและผู้มอบอำนาจได้ ตามความเหมาะสม</label><br>
+<label><input type="radio" name="q23" value="0">ส่งเสริมให้เจ้าหน้าที่ ผู้ปฏิบัติงาน ใช้เทคโนโลยีสารสนเทศ ในการปฏิบัติงาน เพื่อความประหยัดงบประมาณ</label><br>
+<label><input type="radio" name="q23" value="0">ให้กระทรวงเทคโนโลยีสารสนเทศและการสื่อสาร จัดให้มีระบบเครือข่ายสารสนเทศระดับกรม ทุกกรม</label><br>
+
+
+
+<div class="quiz">
+ข้อ 24. <br>
+การที่ส่วนราชการ จัดทำแผนภูมิ ขั้นตอนและระยะเวลาการดำเนินการ รวมทั้งรายละเอียดอื่น ๆ ที่เกี่ยวข้อง เปิดเผยไว้ ณ ที่ทำการของส่วนราชการนั้น ๆ จัดได้ว่า เป็นการทำตามกฏหมายใด
+<br>
+</div>
+<label><input type="radio" name="q24" value="0">พระราชบัญญัติระเบียบบริหารราชการแผ่นดิน</label><br>
+<label><input type="radio" name="q24" value="0">พระราชบัญญัติ วิธีปฏิบัติราชการทางปกครอง</label><br>
+<label><input type="radio" name="q24" value="0">พระราชบัญญัติ ความรับผิดทางละเมิดของเจ้าหน้าที่</label><br>
+<label><input type="radio" name="q24" value="1">พระราชกฤษฎีกา ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี</label><br>
+
+<div class="quiz">
+ข้อ 25. <br>
+ผู้ที่มีหน้าที่ในการดำเนินการให้ส่วนราชการภายในกระทรวง จัดตั้งศูนย์บริการร่วม คือใคร
+<br>
+</div>
+<label><input type="radio" name="q25" value="0">รัฐมนตรีว่าการกระทรวง</label><br>
+<label><input type="radio" name="q25" value="1">ปลัดกระทรวง</label><br>
+<label><input type="radio" name="q25" value="0">ก.พ.ร.</label><br>
+<label><input type="radio" name="q25" value="0">สำนักงาน ก.พ.</label><br>
+
+
+<!--  26-30 สรุปความจากภาษา 5 ข้อ -->
+
+
+
+
+<div class="quiz">
+ข้อ 26. <br>
+ศูนย์บริการร่วม มีลักษณะคล้ายข้อใดมากที่สุด<br>
+</div>
+<label><input type="radio" name="q26" value="0">FIX IT Center</label><br>
+<label><input type="radio" name="q26" value="1">One Stop Service Center</label><br>
+<label><input type="radio" name="q26" value="0">Call Center</label><br>
+<label><input type="radio" name="q26" value="0">ศูนย์แนะแนวการศึกษาต่อ</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 27. <br>
+ สิ่งที่จำเป็นต้องมีในศูนย์บริการร่วม คือข้อใด<br>
+</div>
+
+<label><input type="radio" name="q27" value="1">แบบคำขอต่าง ๆ</label><br>
+<label><input type="radio" name="q27" value="0">อุปกรณ์ฝึกทักษะ ที่เกี่ยวข้อง</label><br>
+<label><input type="radio" name="q27" value="0">แผนผังขั้นตอนการดำเนินงานที่เกี่ยวข้อง</label><br>
+<label><input type="radio" name="q27" value="0">คู่มือแนวทางการปฏิบัติงาน</label><br>
+
+
+
+<div class="quiz">
+ข้อ 28. <br>
+สิ่งแรกที่เจ้าหน้าที่ในศูนย์บริการร่วม จะแนะนำผู้มาติดต่อ คือข้อใด<br>
+</div>
+<label><input type="radio" name="q28" value="0">บอกขั้นตอนการรับบริการ</label><br>
+<label><input type="radio" name="q28" value="1">ตรวจสอบเอกสารให้ถูกต้อง ครบถ้วน</label><br>
+<label><input type="radio" name="q28" value="0">ชี้แจงวิธีการติดต่อหน่วยงานที่เกี่ยวข้อง</label><br>
+<label><input type="radio" name="q28" value="0">อธิบายวิธีการกรอกแบบฟอร์ม คำร้องต่าง ๆ ที่เกี่ยวข้อง</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 29. <br>
+พระราชกฤษฎีกาว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี กำหนดให้มี แพลตฟอร์มดิจิทัลกลาง ไว้ในมาตราอะไร
+<br>
+</div>
+<label><input type="radio" name="q29" value="0">มาตรา ๑๔</label><br>
+<label><input type="radio" name="q29" value="0">มาตรา ๑๕</label><br>
+<label><input type="radio" name="q29" value="1">มาตรา ๑๖</label><br>
+<label><input type="radio" name="q29" value="0">มาตรา ๑๗</label><br>
+
+
+
+
+
+<div class="quiz">
+ข้อ 30. <br>
+เมื่อประชาชน เขียนหนังสือสอบถามข้อมูลของส่วนราชการ เป็นหน้าที่ของส่วนราชการนั้น จะต้องตอบคำถามให้ทราบ ภายในกี่วัน
+<br>
+</div>
+<label><input type="radio" name="q30" value="0">ภายในสิบห้าวัน</label><br>
+<label><input type="radio" name="q30" value="0">ภายในสามสิบวัน</label><br>
+<label><input type="radio" name="q30" value="0">ภายในกำหนดเวลาการทำงาน ที่ประกาศไว้</label><br>
+<label><input type="radio" name="q30" value="1">ข้อ 1 หรือ ข้อ 3</label><br>
+
+<!--  31-35 ลรุปความจากสัญูญูลักษณ์ 5 ข้อ  -->
+
+
+<div class="quiz">
+ข้อ 31. <br>
+การที่เว็บไซต์ของ ส่วนราชการแห่งหนึ่ง มีส่วนที่ให้ประชาชนแสดงความคิดเห็น จัดได้ว่า เป็นการทำตามมาตราใด ของพระราชกฤษฎีกา ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี 
+<br>
+</div>
+<label><input type="radio" name="q31" value="0">มาตรา 37</label><br>
+<label><input type="radio" name="q31" value="0">มาตรา 38</label><br>
+<label><input type="radio" name="q31" value="1">มาตรา 39</label><br>
+<label><input type="radio" name="q31" value="0">มาตรา 40</label><br>
+
+<div class="quiz">
+ข้อ 32. <br>
+ตาม พระราชกฤษฎีกา
+ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี พ.ศ. ๒๕๔๖ คณะผู้ประเมินอิสระ ใช้หลักเกณฑ์ของส่วนราชการใด ในการประเมินผลการปฎิบัติราชการ 
+<br>
+</div>
+<label><input type="radio" name="q32" value="0">เกณฑ์ของส่วนราชการที่รับการประเมิน</label><br>
+<label><input type="radio" name="q32" value="0">สำนักงานรับรองมาตรฐานและประเมินคุณภาพการศึกษา</label><br>
+<label><input type="radio" name="q32" value="0">สำนักงาน ก.พ.</label><br>
+<label><input type="radio" name="q32" value="1">ก.พ.ร.</label><br>
+
+<!--  พระราชบัญญัติวิธีปฏิบัติราชการทางปกครอง พ.ศ. 2539  -->
+
+
+<div class="quiz">
+ข้อ 33. <br>
+องค์ประกอบของ คำสั่งทางปกครอง ที่ว่า มีผลบังคับเฉพาะกรณี มุ่งชี้ให้เห็นความแตกต่างระหว่าง เรื่องใดกับเรื่องใด
+<br>
+</div>
+<label><input type="radio" name="q33" value="1">คำสั่งทางปกครอง และกฎ</label><br>
+<label><input type="radio" name="q33" value="0">บทลงโทษ และลดโทษ</label><br>
+<label><input type="radio" name="q33" value="0">การโยกย้ายและ การเลื่อนตำแหน่ง</label><br>
+<label><input type="radio" name="q33" value="0">คำสั่งทางปกครอง และวิธีปฏิบัติทางปกครอง</label><br>
+
+
+<div class="quiz">
+ข้อ 34. <br>
+รูปแบบของคำสั่งทางปกครองรูปแบบใด ที่ใช้กันมากที่สุด ในการปฏิบัติราชการ ทางปกครอง
+<br>
+</div>
+<label><input type="radio" name="q34" value="0">คำสั่งด้วยวาจา</label><br>
+<label><input type="radio" name="q34" value="1">คำสั่งเป็นหนังสือ</label><br>
+<label><input type="radio" name="q34" value="0">คำสั่งจากป้ายประกาศ</label><br>
+<label><input type="radio" name="q34" value="0">คำสั่งจากสัญญาณมือหรือนกหวีด</label><br>
+
+
+<div class="quiz">
+ข้อ 35. <br>
+การเกิดผลของคำสั่งทางปกครอง มาตรา 42 วรรคหนึ่งบัญญัติว่าอย่างไร
+<br>
+</div>
+<label><input type="radio" name="q35" value="1">คำสั่งทางปกครอง ให้มีผลใช้ยันต่อบุคคลตั้งแต่ ขณะที่ผู้นั้น ได้รับแจ้งเป็นต้นไป</label><br>
+<label><input type="radio" name="q35" value="0">คำสั่งทางปกครอง ย่อมมีผลตราบเท่าที่ยังไม่มีการเพิกถอน หรือสิ้นผลลงโดยเงื่อนไขเวลาหรือโดยเหตุอื่น</label><br>
+<label><input type="radio" name="q35" value="0">คำสั่งทางปกครองจะสิ้นสุดลง เมื่อมีเอกสารพยานหลักฐาน</label><br>
+<label><input type="radio" name="q35" value="0">คำสั่งทางปกครองจะต้องกระทำโดยเจ้าหน้าที่ ซึ่งมีอำนาจในเรื่องนั้น</label><br>
+
+
+<!--  36-40 การสรุปเหตุผลเชิงตรรกะ 5 ข้อ  -->
+
+<div class="quiz">
+ข้อ 36. <br>
+"กฎ" เหมือนกับ "คำสั่งทางปกครอง" อย่างไร
+<br>
+</div>
+<label><input type="radio" name="q36" value="0">เป็นคำสั่งทางปกครองเหมือนกัน</label><br>
+<label><input type="radio" name="q36" value="1">เป็นผลิตผลของการกระทำทางปกครอง เหมือนกัน</label><br>
+<label><input type="radio" name="q36" value="0">มุ่งหมายให้เกิดผลบังคับเฉพาะแก่กรณีใดกรณีหนึ่งเหมือนกัน</label><br>
+<label><input type="radio" name="q36" value="0">มีผลบังคับเป็นการทั่วไปเหมือนกัน</label><br>
+
+
+<div class="quiz">
+ข้อ 37. <br>
+&quot;พระราชกฤษฎีกา กฎกระทรวง ประกาศกระทรวง ข้อบัญญัติ ท้องถิ่น ระเบียบ ข้อบังคับ หรือบทบัญญัติอื่น ที่มีผลบังคับเป็นการทั่วไป โดยไม่มุ่งหมายให้ใช้บังคับแก่กรณีใด หรือบุคคลใดเป็นการเฉพาะ&quot;<br><br>
+คำกล่าวนี้ เป็นนิยามของข้อใด
+<br>
+</div>
+<label><input type="radio" name="q37" value="0">คำสั่งทางปกครอง</label><br>
+<label><input type="radio" name="q37" value="0">ระเบียบ</label><br>
+<label><input type="radio" name="q37" value="0">ข้อบังคับ</label><br>
+<label><input type="radio" name="q37" value="1">กฎ</label><br>
+
+
+<div class="quiz">
+ข้อ 38. <br>
+ข้อใด ไม่ใช่ &quot;คู่กรณี&quot; ตามมาตรา 5<br>
+</div>
+<label><input type="radio" name="q38" value="0">ผู้ยื่นคำขอ</label><br>
+<label><input type="radio" name="q38" value="0">ผู้คัดค้านคำขอ</label><br>
+<label><input type="radio" name="q38" value="0">ผู้จะอยู่ในบังคับของคำสั่งทางปกครอง</label><br>
+<label><input type="radio" name="q38" value="1">ผู้ที่ได้รับมอบ ให้ใช้อำนาจทางปกครองของรัฐ</label><br>
+
+
+<div class="quiz">
+ข้อ 39. <br>
+ผู้ใด เป็นผู้กระทำคำสั่งทางปกครอง
+<br>
+</div>
+<label><input type="radio" name="q39" value="0">ผู้บังคับบัญชา</label><br>
+<label><input type="radio" name="q39" value="0">นายกรัฐมนตรี</label><br>
+<label><input type="radio" name="q39" value="0">คณะกรรมการกฤษฎีกา</label><br>
+<label><input type="radio" name="q39" value="1">เจ้าหน้าที่ที่มีอำนาจในเรื่องนั้น</label><br>
+
+
+<div class="quiz">
+ข้อ 40. <br>
+ถ้าคำสั่งทางปกครอง มีข้อผิดพลาดเล็กน้อย จะดำเนินการอย่างไร
+<br>
+</div>
+<label><input type="radio" name="q40" value="0">ออกคำสั่งทางปกครองใหม่ แล้วแจ้งผู้เกี่ยวข้องทราบ</label><br>
+<label><input type="radio" name="q40" value="0">ยกเลิกคำสั่งทางปกครองนั้น แล้วแจ้งผู้เกี่ยวข้องทราบ</label><br>
+<label><input type="radio" name="q40" value="1">แก้ไขเพิ่มเติมให้ถูกต้อง แล้วแจ้งผู้เกี่ยวข้องทราบ</label><br>
+<label><input type="radio" name="q40" value="0">ไม่ต้องดำเนินการอะไร เพราะเป็นข้อผิดพลาดเพียงเล็กน้อย</label><br>
+
+
+<!-- หน้าที่และความรับผิด ในการปฏิบัติหน้าที่ราชการ   -->
+
+
+<div class="quiz">
+ข้อ 41. <br>
+ข้อใด คือเป้าหมายหลักของ พระราชบัญญัติความรับผิดทางละเมิดของเจ้าหน้าที่ พ.ศ. 2539
+<br>
+</div>
+<label><input type="radio" name="q41" value="0">เพื่อรักษาผลประโยชน์ของหน่วยงานของรัฐ</label><br>
+<label><input type="radio" name="q41" value="0">เพื่อรักษาผลประโยชน์ของผู้เสียหาย อันเกิดจากกระกระทำจากหน่วยงานของรัฐ</label><br>
+<label><input type="radio" name="q41" value="1">ให้ความเป็นธรรมแก่เจ้าหน้าที่ผู้ปฏิบัติงาน ในหน่วยงานของรัฐ</label><br>
+<label><input type="radio" name="q41" value="0">เพื่อสร้างขวัญและกำลังใจ ให้แก่เจ้าหน้าที่ผู้ปฏิบัติงาน ในหน่วยงานของรัฐ</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 42. <br>
+&quot;นาย ส. พนักงานขับรถ และ นาย ป. ลูกจ้างประจำตำแหน่งคนงาน ของหน่วยงานของรัฐแห่งหนึ่ง ออกปฏิบัติงานด้วยกัน นาย ส. ได้ขับรถพลิกคว่ำ ทำให้บุคคลทั้งสองได้รับบาดเจ็บ และรถยนต์ของทางราชการได้รับความเสียหาย&quot;<br><br>
+
+กรณีนี้ ข้อใดมีความเป็นไปได้ มากที่สุด
+<br>
+</div>
+<label><input type="radio" name="q42" value="0">นาย ส. ฟ้องค่าเสียหายจากหน่วยงานของรัฐได้ทั้งหมด</label><br>
+<label><input type="radio" name="q42" value="1">นาย ป. ฟ้องค่าเสียหายจากหน่วยงานของรัฐได้</label><br>
+<label><input type="radio" name="q42" value="0">หน่วยงานของรัฐ ให้นาย ส. ชดใช้ค่าเสียหายทั้งหมด</label><br>
+<label><input type="radio" name="q42" value="0">ข้อ 1 และ ข้อ 2</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 43. <br>
+&quot;นาย ส. เป็นลูกจ้างตำแหน่งพนักงานขับรถ ของหน่วยงานของรัฐแห่งหนึ่ง ได้รับคำสั่งให้ขับรถไปสถานที่แห่งหนึ่ง ขณะขับรถยนต์มาตามถนนตามปกติ มีผู้ขับขี่รถจักรยานยนต์ออกจากซอยด้านซ้ายมือตัดหน้าในระยะกระชั้นชิดมาก นาย ส. จึงหักหลบโดยไม่มีโอกาสได้ทันคิดหรือตัดสินใจว่าควรจะหักหลบไปทางใดได้โดยปลอดภัย จึงไปชนรถยนต์ของ นาย ก. ที่สวนทางมา&quot;<br><br>
+
+ในกรณีนี้ ข้อใด มีความเป็นไปได้มากที่สุด
+<br>
+</div>
+<label><input type="radio" name="q43" value="1">นาย ก. ฟ้องเรียกค่าเสียหาย จาก นาย ส.</label><br>
+<label><input type="radio" name="q43" value="0">หน่วยงานที่นาย ส. สังกัด ต้องชดใช้ค่าเสียหายให้แก่ นาย ก.</label><br>
+<label><input type="radio" name="q43" value="0">นาย ก. เรียกร้องค่าเสียหาย จากผู้ขับขี่รถจักรยานยนต์</label><br>
+<label><input type="radio" name="q43" value="0">นาย ส. และ ผู้ขับขี่รถจักรยานยนต์ ต้องชดใช้ค่าเสียหายให้แก่ นาย ก.</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 44. <br>
+คณะกรรมการสอบข้อเท็จจริงความรับผิดทางละเมิด ที่ตั้งขึ้นโดยหน่วยงานของรัฐ มีจำนวนกี่คน<br>
+</div>
+<label><input type="radio" name="q44" value="1">ไม่เกิน 5 คน</label><br>
+<label><input type="radio" name="q44" value="0">ไม่เกิน 7 คน</label><br>
+<label><input type="radio" name="q44" value="0">3-7 คน</label><br>
+<label><input type="radio" name="q44" value="0">5-10 คน</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 45. <br>
+ในกรณีที่การละเมิดเกิดจากเจ้าหน้าที่ ซึ่งไม่ได้สังกัดหน่วยงานของรัฐแห่งใด หน่วยงานใดจะเป็นผู้รับผิดชอบชดใช้ค่าเสียหาย
+<br>
+</div>
+<label><input type="radio" name="q45" value="0">กระทรวงมหาดไทย</label><br>
+<label><input type="radio" name="q45" value="1">กระทรวงการคลัง</label><br>
+<label><input type="radio" name="q45" value="0">สำนักนายกรัฐมนตรี</label><br>
+<label><input type="radio" name="q45" value="0">กรมบัญชีกลาง</label><br>
+
+
+
+<!-- 46-50 เจตคติและจริยธรรมของข้าราชการ  -->
+
+<div class="quiz">
+ข้อ 46. <br>
+รัฐธรรมนูญแห่งราชอาณาจักรไทย พ.ศ. 2560 มาตราใด ที่กำหนดให้รัฐ ต้องจัดให้มีมาตรฐานทางจริยธรรม
+<br>
+</div>
+<label><input type="radio" name="q46" value="0">มาตรา 75</label><br>
+<label><input type="radio" name="q46" value="1">มาตรา 76</label><br>
+<label><input type="radio" name="q46" value="0">มาตรา 77</label><br>
+<label><input type="radio" name="q46" value="0">มาตรา 78</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 47. <br>
+มาตรฐานทางจริยธรรมและประมวลจริยธรรม ตามพระราชบัญญัติมาตรฐานทางจริยธรรม พ.ศ. 2562 มีทั้งหมด กี่ข้อ
+<br>
+</div>
+<label><input type="radio" name="q47" value="0">5 ข้อ</label><br>
+<label><input type="radio" name="q47" value="0">6 ข้อ</label><br>
+<label><input type="radio" name="q47" value="1">7 ข้อ</label><br>
+<label><input type="radio" name="q47" value="0">8 ข้อ</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 48. <br>
+ก.ม.จ.  เป็นคำย่อของหน่วยงานใด
+<br>
+</div>
+<label><input type="radio" name="q48" value="0">คณะกรรมการมาตรการทางจริยธรรม</label><br>
+<label><input type="radio" name="q48" value="1">คณะกรรมการมาตรฐานทางจริยธรรม</label><br>
+<label><input type="radio" name="q48" value="0">คณะกรรมการมาตรฐานทางจรรยาบรรณ</label><br>
+<label><input type="radio" name="q48" value="0">คณะกรรมการมาตรการทางจรรยาบรรณ</label><br>
+
+<div class="quiz">
+ข้อ 49. <br>
+ผู้ที่ทำหน้าที่ประธาน ก.ม.จ. คือใคร
+<br>
+</div>
+<label><input type="radio" name="q49" value="0">นายกรัฐมนตรี</label><br>
+<label><input type="radio" name="q49" value="0">รองนายกรัฐมนตรีซึ่งนายกรัฐมนตรีมอบหมาย</label><br>
+<label><input type="radio" name="q49" value="0">เลขาธิการ ก.พ.</label><br>
+<label><input type="radio" name="q49" value="1">ข้อ 1 หรือ ข้อ 2</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 50. <br>
+ผู้ที่ทำหน้าที่กรรมการและเลขานุการ ของ ก.ม.จ. คือใคร
+<br>
+</div>
+<label><input type="radio" name="q50" value="0">ปลัดสำนักนายกรัฐมนตรี</label><br>
+<label><input type="radio" name="q50" value="0">ปลัดกระทรวงการคลัง</label><br>
+<label><input type="radio" name="q50" value="1">เลขาธิการ ก.พ.</label><br>
+<label><input type="radio" name="q50" value="0">เลขาธิการ ก.พ.ร.</label><br>
+
+
+<br>
+<input id="send" type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+
+</div>  <!--  end of div content  -->
+ </body>
+</html>

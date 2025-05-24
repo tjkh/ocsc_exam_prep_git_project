@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- ร้อยละ -->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id091:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+บริษัทแห่งหนึ่งขายสินค้า ทำผลกำไรในปีนี้สูงกว่าปีก่อน 30% ถ้าผลกำไรในปีก่อนเป็นเงิน 250,000 บาทกำไรในปีนี้คิดเป็นกี่บาท&lt;br /&gt;
+
+	</question>
+    <choice_A>กำไรปีนี้ 75,000 บาท</choice_A>
+    <choice_B>กำไรปีนี้ 90,000 บาท</choice_B>
+    <choice_C>กำไรปีนี้ 325,000 บาท</choice_C>
+    <choice_D>กำไรปีนี้ 350,000 บาท</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+บริษัทแห่งหนึ่งขายสินค้า ทำผลกำไรในปีนี้สูงกว่าปีก่อน 30% ถ้าผลกำไรในปีก่อนเป็นเงิน 250,000 บาทกำไรในปีนี้คิดเป็นกี่บาท&lt;br /&gt;&lt;br /&gt;
+
+1. กำไรปีนี้ 75,000 บาท&lt;br /&gt;
+2. กำไรปีนี้ 90,000 บาท&lt;br /&gt;
+3. กำไรปีนี้ 325,000 บาท ✔&lt;br /&gt;
+4. กำไรปีนี้ 350,000 บาท&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+คิดแบบธรรมดา&lt;br /&gt;&lt;br /&gt;
+
+กำไรปีก่อน 100 บาท กำไรปีนี้ได้	= 100+30 = 130 บาท&lt;br /&gt;
+กำไรปีก่อน 1 บาท กำไรปีนี้ได้ = 130÷100 บาท&lt;br /&gt;
+กำไรปีก่อน 250,000 กำไรปีนี้ได้ = (130÷100)x250000 บาท&lt;br /&gt;
+∴ กำไรปีนี้ได้ = 325,000 บาท&lt;br /&gt;&lt;br /&gt;
+
+คิดแบบลัด&lt;br /&gt;&lt;br /&gt;
+
+การหาเปอร์เซ็นต์ของจำนวนใด ๆ ให้เพิ่มจุดทศนิยมที่เปอร์เซ็นต์ 2 ตำแหน่ง แล้วนำไปคูณกับเลขจำนวนนั้น เช่น&lt;br /&gt;&lt;br /&gt;
+
+5% ของ 200 = 200x0.05 = 10&lt;br /&gt;
+20% ของ 200 = 200x0.2 = 40&lt;br /&gt;&lt;br /&gt;
+
+จากโจทย์ เพิ่มขึ้น 30% ของ 250,000 = 250,000x0.3 = 75,000 บาท&lt;br /&gt;
+∴ ปีนี้ได้กำไร = 250,000+75,000 = 325,000 บาท&lt;br /&gt;&lt;br /&gt;
+
+
+<!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+--></explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id092:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id093:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id094:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id095:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id096:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id097:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id098:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id099:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0100:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0101:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0102:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0103:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0104:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0105:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0106:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0107:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0108:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0109:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0110:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0111:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0112:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0113:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0114:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0115:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0116:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0117:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0118:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0119:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0120:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0121:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#37; เครื่องหมายเปอร์เซ็นต์
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0122:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0123:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0124:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0125:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0126:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0127:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0128:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0129:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0130:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0131:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0132:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0133:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0134:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0135:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0136:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0137:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0138:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+	
+	</question>
+    <choice_A>
+    </choice_A>
+    <choice_B>
+    </choice_B>
+    <choice_C>
+    </choice_C>
+    <choice_D>
+    </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+      <!--
+&#x2714; เครื่องหมายถูก
+&#xf7;  เครื่องหมายหาร 
+&#x2234;  เพราะฉะนั้น 
+&lt;sup&gt;11&lt;/sup&gt;&#8260; &lt;sub&gt;22&lt;/sub&gt;  เศษส่วน  
+-->
+    </explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+</exams>
+
+

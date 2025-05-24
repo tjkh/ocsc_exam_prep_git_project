@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- สมการ -->
+  <!-- XX1 -->
+  <thisQuestion>
+    <qNum>id0169:date1627453500</qNum>
+    <question>
+&lt;strong&gt;ฝึกความชำนาญ แก้สมการด้วยวิธีลัด &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+3x+y = 15&lt;br /&gt;
+x+2y = 10&lt;br /&gt;
+	</question>
+    <choice_A>x=2, y=3</choice_A>
+    <choice_B>x=3, y = 2</choice_B>
+    <choice_C>x= 4, y=3</choice_C>
+    <choice_D>5= 3, y=4</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+3x+y = 15&lt;br /&gt;
+x+2y = 10&lt;br /&gt;&lt;br /&gt;
+
+1. x=2, y=3&lt;br /&gt;
+2. x=3, y = 2&lt;br /&gt;
+3. x= 4, y=3 ✔&lt;br /&gt;
+4. 5= 3, y=4&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+x = ((1)(10)-(2)(15))/((1)(1)-(3)(2)))&lt;br /&gt;
+x = (10-30)/(1-6) = -20/-5 &lt;br /&gt;
+x = 4&lt;br /&gt;&lt;br /&gt;
+
+หาค่าของ y &lt;br /&gt;
+3x+y = 15 &lt;br /&gt;
+y = 15 - 3x &lt;br /&gt;
+y = 15-((3)(4)) = 15-12 &lt;br /&gt;
+y = 3 &lt;br /&gt;&lt;br /&gt;
+
+คำตอบ คือ ข้อ 
+
+ดูวิธีคิดที่&lt;br /&gt;
+http://www.thongjoon.com/2017/07/blog-post_29.html&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX2 -->
+  <thisQuestion>
+    <qNum>id0170:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+x+6y = 32&lt;br /&gt;
+x+3y = 17&lt;br /&gt;
+
+	</question>
+    <choice_A>x = 2, y = 5</choice_A>
+    <choice_B>x = 5, y = 2</choice_B>
+    <choice_C>x = 3, y = 6</choice_C>
+    <choice_D>x = 6, y = 3</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+x+6y = 32&lt;br /&gt;
+x+3y = 17&lt;br /&gt;&lt;br /&gt;
+
+1. x = 2, y = 5 ✔&lt;br /&gt;
+2. x = 5, y = 2&lt;br /&gt;
+3. x = 3, y = 6&lt;br /&gt;
+4. x = 6, y = 3&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+x = ((6)(17)-(3)(32))/((6)(1)-(1)(3)))&lt;br /&gt;
+x = (102-96)/(6-3) = 6/3 &lt;br /&gt;
+x = 2&lt;br /&gt;&lt;br /&gt;
+
+หาค่าของ y&lt;br /&gt;
+x+3y = 17&lt;br /&gt;
+3y = 17-2&lt;br /&gt;
+y = 15/3 &lt;br /&gt;
+y = 5 &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1&lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX3 -->
+  <thisQuestion>
+    <qNum>id0171:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+3a+4b = 33&lt;br /&gt;
+6a+3b = 36&lt;br /&gt;
+
+	</question>
+    <choice_A>a = 7,b = 5</choice_A>
+    <choice_B>a = 5,b = 7</choice_B>
+    <choice_C>a = 6,b = 3</choice_C>
+    <choice_D>a = 3,b = 6</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+3a+4b = 33&lt;br /&gt;
+6a+3b = 36&lt;br /&gt;&lt;br /&gt;
+
+1. a = 7,b = 5&lt;br /&gt;
+2. a = 5,b = 7&lt;br /&gt;
+3. a = 6,b = 3&lt;br /&gt;
+4. a = 3,b = 6 ✔&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+a = ((4)(36)-(3)(33))/((4)(6)-(3)(3)))&lt;br /&gt;
+a = (144-99)/(24-9) = 45/15 &lt;br /&gt;
+a = 3&lt;br /&gt;&lt;br /&gt;
+
+หาค่าของ b&lt;br /&gt;
+3a+4b = 33&lt;br /&gt;
+4b = 33 - 3a&lt;br /&gt;
+4b = 33 - (3)(3)&lt;br /&gt;
+b = (33 - 9)/4 = 24/4&lt;br /&gt;
+b = 6&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4 &lt;br /&gt;
+
+</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX4 -->
+  <thisQuestion>
+    <qNum>id0172:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+6x+y = 18&lt;br /&gt;
+5x+2y = 22&lt;br /&gt;
+
+	</question>
+    <choice_A>x = 3, y = 9</choice_A>
+    <choice_B>x = 9, y = 3</choice_B>
+    <choice_C>x = 2, y = 6</choice_C>
+    <choice_D>x = 6, y = 2</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+6x+y = 18&lt;br /&gt;
+5x+2y = 22&lt;br /&gt;&lt;br /&gt;
+
+1. x = 3, y = 9&lt;br /&gt;
+2. x = 9, y = 3&lt;br /&gt;
+3. x = 2, y = 6 ✔&lt;br /&gt;
+4. x = 6, y = 2&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+x = ((1)(22)-(2)(18))/((1)(5)-(6)(2)))&lt;br /&gt;
+x = (22-36)/(5-12) = -14/-7 &lt;br /&gt;
+x = 2&lt;br /&gt;&lt;br /&gt;
+
+หาค่าของ y&lt;br /&gt;
+6x+y = 18&lt;br /&gt;
+y = 18-6a&lt;br /&gt;
+y = 18-6(2) = 18-12 &lt;br /&gt;
+y = 6&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3 &lt;br /&gt;
+
+</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX5 -->
+  <thisQuestion>
+    <qNum>id0173:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+2a+2b = 18&lt;br /&gt;
+a+3b = 17&lt;br /&gt;
+
+	</question>
+    <choice_A>a = 4, b = 5</choice_A>
+    <choice_B>a = 5, b = 4</choice_B>
+    <choice_C>a = 3, b = 2</choice_C>
+    <choice_D>a = 2, b = 3</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+2a+2b = 18&lt;br /&gt;
+a+3b = 17&lt;br /&gt;&lt;br /&gt;
+
+1. a = 4, b = 5&lt;br /&gt;
+2. a = 5, b = 4 ✔&lt;br /&gt;
+3. a = 3, b = 2&lt;br /&gt;
+4. a = 2, b = 3&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+a = ((2)(17)-(3)(18))/(2)(1)-(2)(3)))&lt;br /&gt;
+a = (34-54)/(2-6) = -20/-4 &lt;br /&gt;
+a = 5&lt;br /&gt;&lt;br /&gt;
+
+หาค่าของ b&lt;br /&gt;
+2a+2b = 18&lt;br /&gt;
+2b = 18 - 2a&lt;br /&gt;
+2b = 18 - 2(5) &lt;br /&gt;
+2b = 18 - 10 = 8&lt;br /&gt;
+b = 4
+
+
+
+คำตอบคือ ข้อ 2 &lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX6 -->
+  <thisQuestion>
+    <qNum>id0174:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+5x+2y = 32&lt;br /&gt;
+6x+6y = 42&lt;br /&gt;
+x = 6, y = 1
+	</question>
+    <choice_A>x = 1, y = 6</choice_A>
+    <choice_B>x = 6, y = 1</choice_B>
+    <choice_C>x = 3, y = 18</choice_C>
+    <choice_D>x = 18, y = 3</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+5x+2y = 32&lt;br /&gt;
+6x+6y = 42&lt;br /&gt;&lt;br /&gt;
+
+1. x = 1, y = 6&lt;br /&gt;
+2. x = 6, y = 1✔&lt;br /&gt;
+3. x = 3, y = 18&lt;br /&gt;
+4. x = 18, y = 3&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+x = ((2)(42)-(6)(32))/(2)(6)-(5)(6)))&lt;br /&gt;
+x = (84-192)/(12-30) = -108/-18 &lt;br /&gt;
+x = 6&lt;br /&gt;&lt;br /&gt;
+
+หาค่าของ y&lt;br /&gt;
+5x+2y = 32&lt;br /&gt;
+2y = 32-5x&lt;br /&gt;
+2y = 32-(5)(6)=2&lt;br /&gt;
+y = 1&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2 &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX7 -->
+  <thisQuestion>
+    <qNum>id0175:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+2a+b = 13&lt;br /&gt;
+a+b = 8&lt;br /&gt;
+
+	</question>
+    <choice_A>a = 9, b = 15</choice_A>
+    <choice_B>a = 15, b = 9</choice_B>
+    <choice_C>a = 5, b = 3</choice_C>
+    <choice_D>a = 3, b = 5</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+2a+b = 13&lt;br /&gt;
+a+b = 8&lt;br /&gt;
+
+1. a = 9, b = 15&lt;br /&gt;
+2. a = 15, b = 9&lt;br /&gt;
+3. a = 5, b = 3 ✔ &lt;br /&gt;
+4. a = 3, b = 5&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+a = ((1)(8)-(1)(13))/(1)(1)-(2)(1)))&lt;br /&gt;
+a = (8-13)/(1-2) = -5/-1 &lt;br /&gt;
+a = 5&lt;br /&gt;&lt;br /&gt;
+
+หาค่าของ b&lt;br /&gt;
+a+b = 8&lt;br /&gt;
+b = 8-a&lt;br /&gt;
+b = 8-5&lt;br /&gt;
+b = 3&lt;br /&gt;
+
+คำตอบคือ ข้อ 3 &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX8 -->
+  <thisQuestion>
+    <qNum>id0176:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+3x+5y = 17&lt;br /&gt;
+2x+y = 9&lt;br /&gt;
+
+	</question>
+    <choice_A>x = 2,y = 8</choice_A>
+    <choice_B>x = 8,y = 2</choice_B>
+    <choice_C>x = 4,y = 1</choice_C>
+    <choice_D>x = 1,y = 4</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+3x+5y = 17&lt;br /&gt;
+2x+y = 9&lt;br /&gt;&lt;br /&gt;
+
+1. x = 2,y = 8&lt;br /&gt;
+2. x = 8,y = 2&lt;br /&gt;
+3. x = 4,y = 1 ✔&lt;br /&gt;
+4. x = 1,y = 4&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+x = ((5)(9)-(1)(17))/(5)(2)-(3)(1)))&lt;br /&gt;
+x = (45-17)/(10-3) = 28/7 &lt;br /&gt;
+x = 4&lt;br /&gt;&lt;br /&gt;
+
+หาค่าของ y&lt;br /&gt;
+2x+y = 9&lt;br /&gt;
+y = 9-2x&lt;br /&gt;
+y = 9-(2)(4)&lt;br /&gt;
+y = 1&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3 &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX9 -->
+  <thisQuestion>
+    <qNum>id0177:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+x-y = -4&lt;br /&gt;
+2x+3y = 22&lt;br /&gt;
+	</question>
+    <choice_A> x =2, y = 6</choice_A>
+    <choice_B> x =6, y = 2</choice_B>
+    <choice_C> x =4, y = 8</choice_C>
+    <choice_D> x =8, y = 4</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+x-y = -4&lt;br /&gt;
+2x+3y = 22&lt;br /&gt;&lt;br /&gt;
+
+1.  x =2, y = 6✔&lt;br /&gt;
+2. x =6, y = 2&lt;br /&gt;
+3. x =4, y = 8&lt;br /&gt;
+4. x =8, y = 4&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+x = ((-1)(22)-(3)(-4))/(-1)(2)-(1)(3)))&lt;br /&gt;
+x = (-22-(-12))/(-2-3) = -10/-5 &lt;br /&gt;
+x = 2&lt;br /&gt;&lt;br /&gt;
+
+หาค่าของ y&lt;br /&gt;
+2x+3y = 22&lt;br /&gt;
+3y = 22-2x&lt;br /&gt;
+3y = 22-(2)(2)&lt;br /&gt;
+y = 18/3 &lt;br /&gt;
+y  = 6&lt;br /&gt;
+
+คำตอบคือ ข้อ 2 &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX10 -->
+  <thisQuestion>
+    <qNum>id0178:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+3x+7y = 27&lt;br /&gt;
+5x+2y = 16 &lt;br /&gt;
+
+	</question>
+    <choice_A>x=7, y=5</choice_A>
+    <choice_B>x=5, y=7</choice_B>
+    <choice_C>x=3, y=2</choice_C>
+    <choice_D>x=2, y=3</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+3x+7y = 27&lt;br /&gt;
+5x+2y = 16 &lt;br /&gt;
+
+
+1. x=7, y=5&lt;br /&gt;
+2. x=5, y=7&lt;br /&gt;
+3. x=3, y=2&lt;br /&gt;
+4. x=2, y=3 ✔&lt;br /&gt;&lt;br /&gt;
+
+วิธีคิด&lt;br /&gt;&lt;br /&gt;
+
+x = ((7)(16)-(2)(27))/(7)(5)-(3)(2)))&lt;br /&gt;
+x = (112-54)/(35-6) = 58/29 &lt;br /&gt;
+x = 2&lt;br /&gt;&lt;br /&gt;
+
+หาค่าของ y&lt;br /&gt;
+5x+2y = 16&lt;br /&gt;
+2y = 16-5x&lt;br /&gt;
+2y = 16-(5)(2)&lt;br /&gt;
+2y = 6&lt;br /&gt;
+y = 3&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4 &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX11 -->
+  <thisQuestion>
+    <qNum>id0179:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+10x&lt;sup&gt;2&lt;/sup&gt;+13x-3 = 0&lt;br /&gt;
+	</question>
+    <choice_A>-3/2, 1/5</choice_A>
+    <choice_B>3,5</choice_B>
+    <choice_C>-3, -5</choice_C>
+    <choice_D>-3, 5</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+10x&lt;sup&gt;2&lt;/sup&gt;+13x-3 = 0&lt;br /&gt;&lt;br /&gt;
+
+1. -3/2, 1/5 ✔&lt;br /&gt;
+2. 3,5&lt;br /&gt;
+3. -3, -5&lt;br /&gt;
+4. -3, 5&lt;br /&gt;&lt;br /&gt;
+
+
+วิธีคิดแบบลัด&lt;br /&gt;&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;นำค่าสัมประสิทธิ์ ของ x&lt;sup&gt;2&lt;/sup&gt; มาคูณกับค่าคงที่ (constant)&lt;br /&gt;
+(10)(-3) = -30
+&lt;/li&gt;
+&lt;li&gt;หาตัวเลข 2 ตัวที่ คูณกันแล้วได้ผลตาม ข้อ 1(คือ +6) และบวกกัน ได้เป็นค่าสัมประสิทธิ์ของ x(คือ -7)&lt;br /&gt;
+ตัวเลข 2 ตัว คือ 15 และ-2 เพราะ&lt;br /&gt;
+15 คูณ -2 ได้ -30 &lt;br /&gt;
+(15) + (-2) = 13&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;กลับเครื่องหมายของตัวเลขทั้งสองตัว แล้วหารด้วยค่าสัมประสิทธิ์ ของ x&lt;sup&gt;2&lt;/sup&gt;&lt;br /&gt;
+-15/10, 2/10&lt;br /&gt;
+-3/2, 1/5
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;br /&gt;
+
+คำตอบคือ ข้อ 1 &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX12 -->
+  <thisQuestion>
+    <qNum>id0180:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+p&lt;sup&gt;2&lt;/sup&gt;-10p+25 = 0&lt;br /&gt;
+	</question>
+    <choice_A>-3</choice_A>
+    <choice_B>3</choice_B>
+    <choice_C>-5</choice_C>
+    <choice_D>5</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านแก้สมการ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+p&lt;sup&gt;2&lt;/sup&gt;-10p+25 = 0&lt;br /&gt;
+
+1. -3 ✔&lt;br /&gt;
+2. 3&lt;br /&gt;
+3. -5&lt;br /&gt;
+4. 5 ✔&lt;br /&gt;&lt;br /&gt;
+
+
+วิธีคิดแบบลัด&lt;br /&gt;&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;นำค่าสัมประสิทธิ์ ของ x&lt;sup&gt;2&lt;/sup&gt; มาคูณกับค่าคงที่ (constant)&lt;br /&gt;
+(1)(25) = 25
+&lt;/li&gt;
+&lt;li&gt;หาตัวเลข 2 ตัวที่ คูณกันแล้วได้ผลตาม ข้อ 1(คือ +6) และบวกกัน ได้เป็นค่าสัมประสิทธิ์ของ x(คือ -7)&lt;br /&gt;
+ตัวเลข 2 ตัว คือ -5 และ-5 เพราะ&lt;br /&gt;
+-5 คูณ -5 ได้ 25 &lt;br /&gt;
+(-5) + (-5) = -10&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;กลับเครื่องหมายของตัวเลขทั้งสองตัว แล้วหารด้วยค่าสัมประสิทธิ์ ของ x&lt;sup&gt;2&lt;/sup&gt;&lt;br /&gt;
+5/1, 5/1&lt;br /&gt;
+5&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;br /&gt;
+
+คำตอบคือ ข้อ 4 &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- ถึงตรงนี้ -->
+  <!-- จากไฟล์ notePad.pptx -->
+</exams>
+
+

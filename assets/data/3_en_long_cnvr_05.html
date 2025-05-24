@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+
+    <title>Document</title>
+</head>
+<!--
+<body onload="manageNewLabel();">
+-->
+<body>
+<!--
+<div id="abc" style="display:block">abc place holder</div>
+<div id="isBought" style="display:block">xxfalsexx</div>
+<div id="a1" style="display:block">a place holder</div>
+-->
+
+<div id="whereToBegin" style="display:none ">0</div> <!-- เก็บก่อนออกจากไฟล์ จะใช้ตอนเมื่อกลับเข้ามาใหม่-->
+
+<!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <strong>เตรียมสอบ ก.พ.</strong>
+        </div>
+        <div class="modal-body">
+            <p id= "myMessage">Place holder for text..</p>
+            <input type = "button"  value = "เริ่มใหม่"  onclick = "startOver();" />
+            <input  style="float: right;" type = "button"  value = "ทำต่อ"  onclick = "goCont();"/>
+        </div>
+        <div class="modal-footer">
+            https://www.thongjoon.com
+        </div>
+    </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<a name="conver_1"></a>
+
+
+
+<div class="upper" id="myPsgeDIV">
+    <div id="top">
+        <strong>คำสั่ง:</strong> ให้ท่านเลือกข้อที่ถูกที่สุด<br><br>
+        <!-- ถ้าต้องการให้แสดง NEW หน้าข้อ ก็เอา div ไปไว้หน้าข้อ ส่วนเวลา คำนวนใหม่ทุกครั้ง เพื่อใช้เป็น id สำหรับอ้างถึงภายหลัง -->
+
+        <!-- id ของบทอ่าน จะขึ้นต้นด้วย a, b, c ... ตามลำดับ ส่วนที่เหลือ จะเหมือน id ของแต่ละข้อ โดยไม่มี "_ต่อด้วยตัวเลขข้อ" เพราะจะเอาไปใช้ เวลากลับมาทำต่อ จะได้ scroll ทั้งข้อ และบทอ่าน ให้ตรงกัน  -->
+
+        <div id="a_lng_Psg1_q_number">  <!--  ชื่อ id สำหรับบทอ่าน ต่างกันที่ตัวแรก คือ เป็น a_ สำหรับ paragraph แรก  b_  สำหรับ paragraph ต่อไป ...  -->
+            <div class="isNew">id1608958085:date1653524970</div>
+            <strong>สำหรับ ข้อ 1-5</strong><br><br>
+            <div class="conver_container">
+                <div class="conver_item">Receptionist:&ensp;</div>
+                <div class="conver_item">Company XYZ, this is Suda. .............(1) ..........</div>
+                <div class="conver_item">Fred:</div>
+                <div class="conver_item">Hello. Could I speak to Jack Parkins, please?</div>
+                <div class="conver_item">Receptionist:</div>
+                <div class="conver_item">.......(2) ..........</div>
+                <div class="conver_item">Fred:</div>
+                <div class="conver_item">This is Fred Blinkingham. I'm a friend of Jack's.</div>
+                <div class="conver_item">Receptionist:</div>
+                <div class="conver_item">I'm afraid he's out at the moment. ..........(3) ..........</div>
+                <div class="conver_item">Fred:</div>
+                <div class="conver_item">Yes. Can you ask him to give me a call? My number is 909-345-8965</div>
+                <div class="conver_item">Receptionist:</div>
+                <div class="conver_item">............(4) ..................</div>
+                <div class="conver_item">Fred: </div>
+                <div class="conver_item">Certainly. That's 909-345-8965</div>
+                <div class="conver_item">Receptionist:</div>
+                <div class="conver_item">OK. I'll make sure Mr. Parkins gets your message.</div>
+                <div class="conver_item">Fred: </div>
+                <div class="conver_item">.......(5) ............... Goodbye.</div>
+                <div class="conver_item">Receptionist: </div>
+                <div class="conver_item">Goodbye.</div>
+            </div> <!-- end of div id="c_lng_Psg1_q_number"  -->
+
+</div>
+        </div>
+
+    </div>   <!--  end  of upper  -->
+
+    <div class="lower" id="myQstnDIV">
+
+        <form action="#">
+            <div class="question_num"   id="lng_cnvr2_q_number_1"><strong>ข้อ 1.</strong></div>
+            <div class="question_content">
+                &nbsp;
+            </div>
+
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <div class="choice_a_1_column">
+                <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Who is calling, please?
+                </label></div>
+            </div>
+            <div class="choice_b_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. How may I help you? </label></div>
+            </div>  <!--  choice_b  -->
+            <div class="choice_c_1_column">
+                <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q1" type="radio" value="ตัวเลือก ข้อ 3" />3. Would you like to hold? </label></div>
+            </div> <!-- choice_c -->
+            <div class="choice_d_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Is there anything else I can help you with? </label></div>
+            </div> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="lngEnCnvrstn2_ans_01" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_01')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="lgEnCnvr2_q1" class="explanation" style="display:none">
+
+                1. Who is calling, please?<br>
+                ขอทราบชื่อหน่อยค่ะ<br><br>
+                2. How may I help you?  &#x2714;<br>
+                จะช่วยอะไรได้บ้างคะ <br>
+                แปลเป็นไทยอาจจะฟังดูขัด ๆ แต่เป็นวัฒนธรรมของเขา ที่จะถามคำถามนี้ เพื่อเสนอให้ความช่วยเหลือ เป็นคำถามที่สุภาพ<br><br>
+                3. Would you like to hold?<br>
+                คุณจะถือสายรอ(hold) ไหมคะ<br><br>
+                4. Is there anything else I can help you with?<br>
+                มีอะไรอีก(what else) ที่ดิฉันพอช่วยได้บ้างคะ<br><br>
+
+                คำตอบที่ถูก คือ ข้อ 2 <br /><br />
+
+                คำอธิบาย<br /><br />
+
+                Receptionist: Company XYZ, this is Suda. .............(1) .......... <br>
+                บริษัท XYZ สุดาพูดค่ะ. ........(1) ...........<br><br>
+                Fred: Hello. Could I speak to Jack Parkins, please?<br>
+                สวัสดีครับ ผมขอพูดกับ Jack Parkinsหน่อยได้ไหมครับ <br><br>
+                Receptionist: .......(2) ..........<br><br>
+                Fred: This is Fred Jones. I'm a friend of Jack's.<br>
+                นี่คือ Fred Jones ผมเป็นเพื่อนของ แจ๊ค<br><br>
+                Receptionist: I'm afraid he's out at the moment. ..........(3) ..........<br>
+                ขอโทษค่ะ (น่ากลัวว่า) เขาไม่อยู่ในตอนนี้ ........(3) ...........<br><br>
+                Fred:  Yes. Can you ask him to give me a call? My number is 909-345-8965<br>
+                ใช่ คุณช่วยขอ (ask) ให้เขา โทรมาถึงผม ได้ไหม? เบอร์ผม คือ 909-345-8965<br><br>
+                Receptionist: ............(4) ..................<br><br>
+                Fred:  Certainly. That's 909-345-8965<br>
+                ได้แน่นอน เบอร์  909-345-8965 <br><br>
+                Receptionist: OK. I'll make sure Mr. Parkins gets your message.<br>
+                ตกลง ดิฉันจะทำให้แน่ใจว่า คุณ Parkins ได้รับข้อความฝากของคุณ<br><br>
+                Fred: .......(5) ............... Goodbye.<br>
+                ...........(5) ......... ลาก่อน<br><br>
+                Receptionist: Goodbye.<br>
+                ลาก่อน<br><br>
+
+
+            </div>  <!-- lgEnCnvr2_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q1', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn2_ans_01', 'yes', '1649040284', 'lng_cnvr2_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="lngCnvr2_1" onclick="show_hide_LngPsg('lgEnCnvr2_q1', 'lngCnvr2_1', 'lng_cnvr2_q_number_1' , 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_LngPsgCnvr('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+
+        <!-- ข้อ 2. -->
+
+        <form action="#">
+            <div class="question_num"   id="lng_cnvr2_q_number_2"><strong>ข้อ 2.</strong></div>
+            <div class="question_content">
+                &nbsp;
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <div class="choice_a_1_column">
+                <div class="choice_num_1Col_1Col"><label> <input name="longEnCnvrstn2_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Can I put you on hold for a minute?</label></div>
+            </div>
+            <div class="choice_b_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Let me see if he’s available. </label></div>
+            </div>  <!--  choice_b  -->
+            <div class="choice_c_1_column">
+                <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Who am I speaking with? </label></div>
+            </div> <!-- choice_c -->
+            <div class="choice_d_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Sure, one moment please. </label></div>
+            </div> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="lngEnCnvrstn2_ans_02" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_02')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="lgEnCnvr2_q2" class="explanation" style="display:none">
+                1. Can I put you on hold for a minute?<br>
+                ช่วยถือสายรอ สักประเดี๋ยวนะคะ<br><br>
+                2. Let me see if he’s available.<br>
+                ขอเชคดูหน่อยนะคะ ว่าเขาว่างหรือเปล่า<br><br>
+                3. Who am I speaking with?  &#x2714; <br>
+                ดิฉันกำลังพูดอยู่กับใครคะ<br><br>
+                4. Sure, one moment please. <br>
+                ได้ค่ะ สักครู่นะคะ<br><br>
+
+                คำตอบที่ถูก คือ ข้อ 3 <br />
+            </div>  <!-- lgEnCnvr2_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q2', 'ตัวเลือก ข้อ 3', 'lngEnCnvrstn2_ans_02', 'yes', '1649040284', 'lng_cnvr2_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="lngCnvr2_2" onclick="show_hide_LngPsg('lgEnCnvr2_q2', 'lngCnvr2_2', 'lng_cnvr2_q_number_2', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_LngPsgCnvr('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+        <!-- จบข้อ 2 -->
+
+        <!-- ข้อ 3. -->
+        <form action="#">
+            <div class="question_num"   id="lng_cnvr2_q_number_3"><strong>ข้อ 3.</strong></div>
+            <div class="question_content">
+                &nbsp;
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <div class="choice_a_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. May I have your name please? </label></div>
+            </div>
+            <div class="choice_b_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Can I take a message? </label></div>
+            </div>  <!--  choice_b  -->
+            <div class="choice_c_1_column">
+                <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Sure, let me check on that. </label></div>
+            </div> <!-- choice_c -->
+            <div class="choice_d_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Do you mind holding while I check on that? </label></div>
+            </div> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="lngEnCnvrstn2_ans_03" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_03')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="lgEnCnvr2_q3" class="explanation" style="display:none">
+
+                1. May I have your name please?<br>
+                ขอทราบชื่อหน่อย ได้ไหมคะ<br><br>
+                2. Can I take a message?  &#x2714; <br>
+                ให้ดิฉันจดฝากข้อความไหมคะ<br><br>
+                3. Sure, let me check on that.<br>
+                ได้แน่นอนค่ะ ให้ดิฉันตรวจสอบก่อนนะคะ<br><br>
+                4.  Do you mind holding while I check on that?<br>
+                คุณรังเกียจที่จะถือสายรอ ขณะที่ดิฉันตรวจสอบไหมคะ<br> <br>
+
+
+                คำตอบที่ถูก คือ ข้อ 2 <br />
+
+            </div>  <!-- lgEnCnvr2_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q3', 'ตัวเลือก ข้อ 2', 'lngEnCnvrstn2_ans_03', 'yes', '1649040284', 'lng_cnvr2_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="lngCnvr2_3" onclick="show_hide_LngPsg('lgEnCnvr2_q3', 'lngCnvr2_3', 'lng_cnvr2_q_number_3', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_LngPsgCnvr('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+
+        <!-- จบข้อ 3 -->
+
+        <!-- ข้อ 4. -->
+
+        <form action="#">
+            <div class="question_num"   id="lng_cnvr2_q_number_4"><strong>ข้อ 4.</strong></div>
+            <div class="question_content">
+                &nbsp;
+            </div>
+
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <div class="choice_a_1_column">
+                <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. I’m sorry, could you repeat that? </label></div>
+            </div>
+            <div class="choice_b_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Hang on a moment, I’ll put you through. </label></div>
+            </div>  <!--  choice_b  -->
+            <div class="choice_c_1_column">
+                <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Would you mind spelling that for me please? </label></div>
+            </div> <!-- choice_c -->
+            <div class="choice_d_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Could you call back later please? </label></div>
+            </div> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="lngEnCnvrstn2_ans_04" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_04')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="lgEnCnvr2_q4" class="explanation" style="display:none">
+
+                1. I’m sorry, could you repeat that?  &#x2714;<br>
+                เสียใจด้วยค่ะ, ช่วยพูดซ้ำ(repeat) อีกครั้งได้ไหมคะ<br><br>
+                2. Hang on a moment, I’ll put you through.<br>
+                รอสักครู่, ดิฉันจะต่อสายให้นะคะ<br><br>
+                3. Would you mind spelling that for me please?<br>
+                คุณจะรังเกียจ สะกดให้หน่อย ไหมคะ<br>
+                เบอร์โทรศัพท์ ไม่ต้องขอให้สะกด<br><br>
+                4. Could you call back later, please?<br>
+                คุณช่วยกรุณาโทรกลับหน่อย ได้ไหมคะ<br><br>
+
+                ข้อ 1 เป็นข้อที่ถูก<br>
+
+            </div>  <!-- lgEnCnvr2_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q4', 'ตัวเลือก ข้อ 1', 'lngEnCnvrstn2_ans_04', 'no', '1649040284', 'lng_cnvr2_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="lngCnvr2_4" onclick="show_hide_LngPsg('lgEnCnvr2_q4', 'lngCnvr2_4', 'lng_cnvr2_q_number_4', 'no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_LngPsgCnvr('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+
+        <!-- จบข้อ 4 -->
+
+        <!-- ข้อ 5. -->
+
+        <form action="#">
+            <div class="question_num"   id="lng_cnvr2_q_number_5"><strong>ข้อ 5.</strong></div>
+            <div class="question_content">
+                &nbsp;
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <div class="choice_a_1_column">
+                <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Thank you very much. </label></div>
+            </div>
+            <div class="choice_b_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. It doesn’t matter. </label></div>
+            </div>  <!--  choice_b  -->
+            <div class="choice_c_1_column">
+                <div class="choice_num_1Col"><label> <input name="longEnCnvrstn2_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Never mind. </label></div>
+            </div> <!-- choice_c -->
+            <div class="choice_d_1_column">
+                <div class="choice_num_1Col"><label><input name="longEnCnvrstn2_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. It’s my pleasure. </label></div>
+            </div> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="lngEnCnvrstn2_ans_05" class="show_answer" onclick="hide_div_lngCnvr('lngEnCnvrstn2_ans_05')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="lgEnCnvr2_q5" class="explanation" style="display:none">
+
+                1. Thank you very much.  &#x2714;<br>
+                ขอบคุณมาก<br><br>
+                2. It doesn’t matter.<br>
+                ไม่เป็นไร ไม่สำคัญ<br><br>
+                3. Never mind.<br>
+                ไม่เป็นไร<br><br>
+                4. It’s my pleasure.<br>
+                มันเป็นความสุขของผม<br>
+                สำนวนนี้ ใช้สำหรับการตอบรับ คำขอบคุณ<br><br>
+
+                ข้อ 1 เป็นข้อที่ถูก<br>
+            </div>  <!-- lgEnCnvr2_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn2_q5', 'ตัวเลือก ข้อ 1', 'lngEnCnvrstn2_ans_05', 'no', '1649040284', 'lng_cnvr2_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_Th_LngPsge('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="lngCnvr2_5" onclick="show_hide_LngPsg('lgEnCnvr2_q5', 'lngCnvr2_5', 'lng_cnvr2_q_number_5', 'no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_LngPsgCnvr('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+
+        <!-- จบข้อ 5 -->
+
+
+
+
+
+    </div>  <!--  lower  -->
+
+
+
+    <script src="long_psge_check_feedback.js"></script>
+
+
+</body>
+</html>

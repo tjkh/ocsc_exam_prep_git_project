@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+<body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+            <button id = "start" onclick="countDown(0,40,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+	</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 40 นาที
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <br><br>
+    <div id="ifNotBuy" style="display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+        <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span></br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+
+<!--  
+================= 1-5 Conversation =================
+-->
+
+
+<strong>Instruction: </strong> Choose the best answer.<br><br>
+<strong>For question 1-5</strong><br><br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+
+Mr. A: Hi, nice to meet you.<br>
+Mr. B: ...........(1).............<br>
+Mr. A: What job are you applying for?<br>
+Mr. B: ...............(2)........................<br>
+Mr. A: How much experience do you have in this field?<br>
+Mr. B: ...................(3)....................... <br>
+Mr. A: Why did you leave your former company?<br>
+Mr. B: .......................(4)........................<br>
+Mr. A: Can you tell me what your strengths are? <br>
+Mr. B: ..................(5)............................ <br>
+Mr. A: O.K. I will let you know of our decision by e-mail.<br>
+Mr. B: Thank you. <br>
+
+  </div>
+<br>
+<div class="quiz">
+ข้อ 1. <br>
+
+</div>
+
+<label><input type="radio" name="q1" value="0">It's nice to have met you.</label><br>
+<label><input type="radio" name="q1" value="1">Yes, nice to meet you too.</label><br>
+<label><input type="radio" name="q1" value="0">Yes, it's nice talking to you.</label><br>
+<label><input type="radio" name="q1" value="0">It's nice meeting you, too.</label><br>
+
+
+<div class="quiz">
+ข้อ 2. <br>
+
+</div>
+
+<label><input type="radio" name="q2" value="0">I worked as an accountant in a big company.</label><br>
+<label><input type="radio" name="q2" value="0">I hope I will have a good job here.</label><br>
+<label><input type="radio" name="q2" value="1">I'm applying for the accounting position.</label><br>
+<label><input type="radio" name="q2" value="0">I am looking forward to working here.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 3. <br>
+</div>
+
+<label><input type="radio" name="q3" value="0">I worked as an accountant in a big company.</label><br>
+<label><input type="radio" name="q3" value="0">I like the working as an accountant very much. </label><br>
+<label><input type="radio" name="q3" value="1">I worked as an accountant for 10</label><br>
+<label><input type="radio" name="q3" value="0">I have a bachelor degree in accountancy.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 4. <br>
+
+</div>
+
+<label><input type="radio" name="q4" value="0">I am interested in a job with more money.</label><br>
+<label><input type="radio" name="q4" value="0">I was not on good terms with the company.</label><br>
+<label><input type="radio" name="q4" value="0">I got fired. It was not my fault at all. </label><br>
+<label><input type="radio" name="q4" value="1">The company shut down due to the economy. </label><br>
+
+
+
+<div class="quiz">
+ข้อ 5. <br>
+</div>
+
+<label><input type="radio" name="q5" value="0">I am too much of a perfectionist</label><br>
+<label><input type="radio" name="q5" value="0">I work too hard sometimes.</label><br>
+<label><input type="radio" name="q5" value="1">I'm honest and deligent worker.</label><br>
+<label><input type="radio" name="q5" value="0">I care too much about my work.</label><br>
+
+
+<!--  
+================= 6-10 Vovabulary =================
+-->
+<br><strong>Instructions: </strong>Select the most appropriate choice for each item.<br /> <br />
+
+
+<div class="quiz">
+ข้อ 6. <br>
+The chances of winning the lottery are very low. Although Jim ........... he'll ever win, he buys a lottery ticket every weekend. <br>
+</div>
+
+<label><input type="radio" name="q6" value="0">imagines</label><br>
+<label><input type="radio" name="q6" value="0">expects</label><br>
+<label><input type="radio" name="q6" value="0">hopes</label><br>
+<label><input type="radio" name="q6" value="1">doubts</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 7. <br>
+The company owner .... the meeting. The other managers didn't even get the chance to speak. <br>
+</div>
+
+<label><input type="radio" name="q7" value="0">ensured</label><br>
+<label><input type="radio" name="q7" value="0">alleviated</label><br>
+<label><input type="radio" name="q7" value="0">facilitated</label><br>
+<label><input type="radio" name="q7" value="1">dominated</label><br>
+
+
+<div class="quiz">
+ข้อ 8. <br>
+The old lady walked with .... because the sidewalk was very slippery.<br>
+</div>
+
+<label><input type="radio" name="q8" value="1">caution</label><br>
+<label><input type="radio" name="q8" value="0">relief</label><br>
+<label><input type="radio" name="q8" value="0">desire</label><br>
+<label><input type="radio" name="q8" value="0">confidence</label><br>
+
+
+
+<div class="quiz">
+ข้อ 9. <br>
+After two hours of hard training, the coach felt that his players ............ a break. <br>
+</div>
+
+<label><input type="radio" name="q9" value="1">deserved</label><br>
+<label><input type="radio" name="q9" value="0">encouraged</label><br>
+<label><input type="radio" name="q9" value="0">identified</label><br>
+<label><input type="radio" name="q9" value="0">wasted</label><br>
+
+
+
+<div class="quiz">
+ข้อ 10. <br>
+According to a recent .... , sixty percent of Thai people prefer reading their news online to reading a real newspaper. <br>
+</div>
+
+<label><input type="radio" name="q10" value="0">bargain</label><br>
+<label><input type="radio" name="q10" value="0">exchange</label><br>
+<label><input type="radio" name="q10" value="1">survey</label><br>
+<label><input type="radio" name="q10" value="0">method</label><br>
+
+
+
+
+<!--  
+================= 11-15 Grammar/Structure =================
+-->
+
+
+<div class="quiz">
+ข้อ 11. <br>
+They suggested ............... at the hotel. <br>
+</div>
+
+<label><input type="radio" name="q11" value="0">stay</label><br>
+<label><input type="radio" name="q11" value="1">staying</label><br>
+<label><input type="radio" name="q11" value="0">stayed</label><br>
+<label><input type="radio" name="q11" value="0">to stay </label><br>
+
+
+<div class="quiz">
+ข้อ 12. <br>
+Tom and Mary ............. married for twenty years.<br>
+</div>
+
+<label><input type="radio" name="q12" value="0">are</label><br>
+<label><input type="radio" name="q12" value="0">were</label><br>
+<label><input type="radio" name="q12" value="0">has been</label><br>
+<label><input type="radio" name="q12" value="1">have been</label><br>
+
+
+
+<div class="quiz">
+ข้อ 13. <br>
+It is the blood of Lady Eleanore de Canterville, who ............... on that spot by her husband in 1575.
+<br>
+</div>
+
+<label><input type="radio" name="q13" value="0">murdered</label><br>
+<label><input type="radio" name="q13" value="1">was murdered</label><br>
+<label><input type="radio" name="q13" value="0">was murdering</label><br>
+<label><input type="radio" name="q13" value="0">had been murdered</label><br>
+
+<div class="quiz">
+ข้อ 14. <br>
+Sir Simon disappeared seven years later. His body ...................., but his ghost still haunts the Castle.
+<br>
+</div>
+
+<label><input type="radio" name="q14" value="0">is never found</label><br>
+<label><input type="radio" name="q14" value="0">was never found</label><br>
+<label><input type="radio" name="q14" value="1">has never been found</label><br>
+<label><input type="radio" name="q14" value="0">had never been found</label><br>
+
+
+
+
+
+
+<div class="quiz">
+ข้อ 15. <br>
+Remind me again - what ................ tea tonight?
+<br>
+</div>
+
+<label><input type="radio" name="q15" value="0">do you like for</label><br>
+<label><input type="radio" name="q15" value="0">do you want</label><br>
+<label><input type="radio" name="q15" value="1">you want to have for</label><br>
+<label><input type="radio" name="q15" value="0">did you want for</label><br>
+
+
+
+<!--  
+================= 16-25 Reading 10 ข้อ =================
+from: https://web2.uvcs.uvic.ca/courses/elc/studyzone/490/reading/dog2-reading.htm
+-->
+<br><strong>สำหรับ ข้อ 21-25</strong><br><br>
+<strong>Instructions:</strong> Read the following passage and select the best answer for each item.<br><br>
+
+<div class="qstn-div">
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<p>Brendan's best friend is Tip. Tip and Brendan are inseparable. They teach each other things and they look after each other. Tip has helped Brendan become more responsible, more caring, and a better friend. Brendan is a nine-year-old boy, and Tip is a ten-year-old dog. Brendan and Tip are an example of how owning a dog can have a positive effect on a child's development. Having a dog develops a child's sense of responsibility, broadens his capacity for empathy, and teaches the nature of friendship.
+
+<p>Having a dog helps a child learn how to act responsibly. As a dog owner, the child must take care of the animal's daily needs. The dog must be fed and exercised every day. A dog is completely dependent on its owner for all its needs, including the need for good health and a safe environment. Therefore, being responsible for a dog also means taking care of the dog so that it stays healthy. Furthermore, the owner must take responsibility for the safety of the dog and the safety of the people it comes into contact with. If the child forgets any of these duties and responsibilities, or ignores any of the dog's needs, the dog will suffer. This teaches the child that his responsibility to the dog is more important than his desire to play with his toys, talk on the phone, or watch TV. This is true not only for the care of a dog, but also for the care of oneself, another person, or one's job. Learning how to take responsibility for the health and welfare of a dog leads to learning how to take responsibility for oneself.
+
+<p>Another lesson that a child can learn from having a dog is how to be empathetic. Empathy is the ability to put oneself in another person's, or in this case another creature's, situation and imagine that person's or creature's feelings or problems. A dog cannot express itself with speech, so its owner must learn how to interpret its behaviour. The child must learn to understand what the dog's behaviour means. Is the dog frightened, aggressive, or sick? The child needs to understand what is going on in the dog's mind. Understanding a situation from the dog's perspective helps the child understand why the dog is behaving in a certain way and what the dog needs. The result of learning to read a dog's behaviour is that the child develops empathy. By learning how to empathize with a dog, the child also learns how to empathize with other people. This leads to the child becoming a more considerate and caring person.
+
+<p>Being considerate and caring are important characteristics in a good friend. One of the most significant benefits of owning a dog is the example of true friendship that a dog provides. A dog gives unconditional love to its owner. A dog will not stop loving its owner because of a little anger, indifference, or neglect. The dog will wait patiently for its owner to pat its head and say a few kind words. This acceptance of the negative qualities and appreciation for the positive qualities of its owner provide a wonderful model of how to be a good friend. A child soon realizes that his dog will always listen to him, will always be ready to play with him, will always protect him, and will always forgive him. A child who has learned to be even half as good a friend to others as his dog is to him will have learned one of the most valuable lessons in life.
+
+<p>These are some of the most important lessons a child will ever learn. The benefits of owning a dog will last the child's entire lifetime. The understanding and appreciation of responsibility, empathy, and friendship that a child develops from the experience of having a dog will help him or her grow into a reliable, caring, and mature adult.</div>
+</div>
+<br><br>
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 16. <br>
+The dog's name is _________.</div>
+
+<label><input type="radio" name="q16" value="0"> Brendan</label><br>
+<label><input type="radio" name="q16" value="0">Brennan</label><br>
+<label><input type="radio" name="q16" value="1">Tip</label><br>
+<label><input type="radio" name="q16" value="0">Kip</label><br>
+
+
+<div class="quiz">
+ข้อ 17. <br>
+Which of the following have a positive effect on a child's development?</div>
+
+<label><input type="radio" name="q17" value="0">feeling responsible</label><br>
+<label><input type="radio" name="q17" value="0"> feeling empathy</label><br>
+<label><input type="radio" name="q17" value="0">building friendships</label><br>
+<label><input type="radio" name="q17" value="1">all of the above</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 18. <br>
+A child learns how to be responsible for a dog by _________.</div>
+
+<label><input type="radio" name="q18" value="1">taking care of the dog's daily needs</label><br>
+<label><input type="radio" name="q18" value="0">taking away a safe environment</label><br>
+<label><input type="radio" name="q18" value="0">feeding the dog weekly</label><br>
+<label><input type="radio" name="q18" value="0">becoming dependent on the dog</label><br>
+
+
+<div class="quiz">
+ข้อ 19. <br>
+Learning how to care for a dog can help children _________.</div>
+
+<label><input type="radio" name="q19" value="1">take care of themselves</label><br>
+<label><input type="radio" name="q19" value="0">choose the dog over playing</label><br>
+<label><input type="radio" name="q19" value="0">get welfare for themselves</label><br>
+<label><input type="radio" name="q19" value="0">understand other animals' needs</label><br>
+
+
+<div class="quiz">
+ข้อ 20. <br>
+Children can learn how to _________.</div>
+
+<label><input type="radio" name="q20" value="1">understand the dog's needs</label><br>
+<label><input type="radio" name="q20" value="0">only care about themselves, and not others</label><br>
+<label><input type="radio" name="q20" value="0">get rid of the dog they don't want to take care of it</label><br>
+<label><input type="radio" name="q20" value="0">be irresponsible</label><br>
+
+
+<!--   21-25 อุปมา-อุปไมย 5 ข้อ   -->
+
+
+<div class="quiz">
+ข้อ 21. <br>
+The dog's owner must interpret which of the following from their dog's behaviour?</div>
+
+<label><input type="radio" name="q21" value="0">fear</label><br>
+<label><input type="radio" name="q21" value="0">happiness</label><br>
+<label><input type="radio" name="q21" value="0">illness</label><br>
+<label><input type="radio" name="q21" value="1">all of the above</label><br>
+
+
+
+<div class="quiz">
+ข้อ 22. <br>
+Which of the following is a positive result of learning how to interpret a dog's behaviour?</div>
+
+<label><input type="radio" name="q22" value="0">becoming selfish</label><br>
+<label><input type="radio" name="q22" value="1">becoming empathetic</label><br>
+<label><input type="radio" name="q22" value="0">becoming arrogant</label><br>
+<label><input type="radio" name="q22" value="0">being thoughtless</label><br>
+
+
+
+<div class="quiz">
+ข้อ 23. <br>
+What kind of love does a dog provide?</div>
+
+<label><input type="radio" name="q23" value="1">shallow</label><br>
+<label><input type="radio" name="q23" value="0">one-sided</label><br>
+<label><input type="radio" name="q23" value="0">friendship</label><br>
+<label><input type="radio" name="q23" value="0">unconditional</label><br>
+
+
+
+<div class="quiz">
+ข้อ 24. <br>
+Which of the following is NOT a benefit of a child owning a dog?</div>
+<label><input type="radio" name="q24" value="1">companionship</label><br>
+<label><input type="radio" name="q24" value="0">reliability</label><br>
+<label><input type="radio" name="q24" value="0">friendship</label><br>
+<label><input type="radio" name="q24" value="0">neglect</label><br>
+
+
+
+
+
+
+<div class="quiz">
+ข้อ 25. <br>
+What should be the title of this passage?
+</div>
+<label><input type="radio" name="q25" value="0">Brendan's Best Friend Is Tip</label><br>
+<label><input type="radio" name="q25" value="0">A Man's Best Friend</label><br>
+<label><input type="radio" name="q25" value="1">The Positive Effects on Children of Owning a Dog</label><br>
+<label><input type="radio" name="q25" value="0">How a Dog Helps Children</label><br>
+
+</div>  <!-- astn-div  -->
+
+
+
+<br>
+<input id="send" type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+</div>
+
+</div>  <!--  end of div content  -->
+  <script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

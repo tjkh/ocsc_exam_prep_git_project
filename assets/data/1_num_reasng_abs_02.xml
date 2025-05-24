@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0664:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปที่หายไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb4_1cross_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb4_1cross_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb4_1cross_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb4_1cross_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb4_1cross_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb4_1cross_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb4_1cross_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb4_1cross_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb4_1cross_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb4_1cross_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+สี่เหลี่ยมรูปนอก หมุนทวนเข็มนาฬิกา&lt;br /&gt;
+สามเหลี่ยมหมุนตามเข็มนาฬิกา&lt;br /&gt;
+กากบาทคงที่&lt;br /&gt;
+กากบาทสลับกับสามเหลี่ยม&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0665:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb4_2cross_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb4_2cross_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb4_2cross_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb4_2cross_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb4_2cross_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb4_2cross_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb4_2cross_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb4_2cross_b.png&quot;&gt; ✔&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb4_2cross_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb4_2cross_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+สี่เหลี่ยมรูปนอก หมุนทวนเข็มนาฬิกา&lt;br /&gt;
+สามเหลี่ยมหมุนตามเข็มนาฬิกา&lt;br /&gt;
+กากบาท หมุนทวนเข็มนาฬิกา&lt;br /&gt;
+กากบาทสลับกับสามเหลี่ยม&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0666:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปที่หายไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb4_1board_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb4_1board_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb4_1board_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb4_1board_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb4_1board_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb4_1board_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb4_1board_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb4_1board_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb4_1board_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb4_1board_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดาว เคลื่อนที่ทะแยงมุมขวา&lt;br /&gt;
+วงกลมขาว เคลื่อนที่ทะแยงมุมซ้าย&lt;br /&gt;
+วงกลมดำ เคลื่อนที่แบบขั้นบันได&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0667:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปที่หายไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb4_2board_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb4_2board_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb4_2board_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb4_2board_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb4_2board_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb4_2board_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb4_2board_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb4_2board_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb4_2board_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb4_2board_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดาว เคลื่อนที่แบบขั้นบันได&lt;br /&gt;
+วงกลมขาว เคลื่อนที่ทะแยงมุมซ้าย&lt;br /&gt;
+วงกลมดำ เคลื่อนที่ทะแยงมุมขวา&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0668:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปที่หายไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb4_3board_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb4_3board_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb4_3board_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb4_3board_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb4_3board_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb4_3board_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb4_3board_a.png&quot;&gt; ✔&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb4_3board_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb4_3board_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb4_3board_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+วงกลมดำ เคลื่อนที่ไปทางขวา&lt;br /&gt;
+วงกลมขาว เคลื่อนที่ไปทางซ้าย&lt;br /&gt;
+ดาว เคลื่อนที่ไปทางซ้าย&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0669:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปที่หายไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb5_1ovrlap_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb5_1ovrlap_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb5_1ovrlap_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb5_1ovrlap_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb5_1ovrlap_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb5_1ovrlap_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb5_1ovrlap_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb5_1ovrlap_b.png&quot;&gt; ✔&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb5_1ovrlap_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb5_1ovrlap_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในแต่ละภาพ จะเห็นว่ามีวงกลมซ้อนกัน เพิ่มขึ้นครั้งละ 1 วง&lt;br /&gt;
+รูปสุดท้ายมีวงกลมซ้อนกัน 5 วง&lt;br /&gt;
+รูปต่อไป ต้องมีวงกลมซ้อนกัน 6 วง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0670:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปที่หายไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb5_1circle_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb5_1circle_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb5_1circle_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb5_1circle_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb5_1circle_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb5_1circle_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb5_1circle_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb5_1circle_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb5_1circle_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb5_1circle_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+วงกลมรูปใน มีสีขาวและสีดำสลับกัน&lt;br /&gt;
+แขนของวงกลมเพิ่มขึ้น&lt;br /&gt;
+รูปต่อไป ต้องมีแขนครบทั้งหมด และวงกลมใน ต้องเป็นสีดำ&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0671:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปใดไม่เข้าพวก&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb5_odd01_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb5_odd01_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb5_odd01_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb5_odd01_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb5_odd01_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb5_odd01_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb5_odd01_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb5_odd01_b.png&quot;&gt; ✔&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb5_odd01_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb5_odd01_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+ใบไม้เอียงไปเอียงมาไม่มีระบบ&lt;br /&gt;
+ใบไม้ 3 ใบ มีแขนงกิ่งใบจำนวน 3 ก้านเหมือนกัน&lt;br /&gt;
+มีอยู่ 1 ใบที่ไม่เหมือนใบอื่น คือมีแขนงกิ่งใบ จำนวน 4 แขนง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0672:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปใดไม่เข้าพวก&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb5_odd02_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb5_odd02_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb5_odd02_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb5_odd02_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb5_odd02_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb5_odd02_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb5_odd02_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb5_odd02_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb5_odd02_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb5_odd02_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+รูปวงรีมีตั้งตรงและเอียงอย่างละเท่า ๆ กัน&lt;br /&gt;
+ขีดข้างใน เอียงไปเอียงมา ไม่เป็นระบบ&lt;br /&gt;
+รูปที่ 3 มีจำนวนขีดมากกว่ารูปอื่นอยู่ 1 ขีด&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0673:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปใดไม่เข้าพวก&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb5_odd03_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb5_odd03_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb5_odd03_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb5_odd03_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb5_odd03_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb5_odd03_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb5_odd03_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb5_odd03_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb5_odd03_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb5_odd03_d.png&quot;&gt; ✔&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+รูปวงรีมีตั้งตรงและเอียงไม่เป็นระบบ&lt;br /&gt;
+ทุกรูปมีจำนวนเส้นเท่ากัน และมีเส้นประ 1 เส้น&lt;br /&gt;
+รูปที่ 4 เส้นอยู่ระหว่างเส้นทึบ รูปอื่น เส้นประอยู่ด้านซ้ายของเส้นทึบ&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0674:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปใดไม่เข้าพวก&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb5_odd04_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb5_odd04_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb5_odd04_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb5_odd04_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb5_odd04_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb5_odd04_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb5_odd04_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb5_odd04_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb5_odd04_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb5_odd04_d.png&quot;&gt; ✔&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+รูปที่ 4 มีทิศทางของลูกศรต่างจากรูปอื่น&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0675:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปใดไม่เข้าพวก&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb5_odd05_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb5_odd05_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb5_odd05_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb5_odd05_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb5_odd05_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb5_odd05_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb5_odd05_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb5_odd05_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb5_odd05_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb5_odd05_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+รูปที่ 3 มีจำนวนจุดดำต่างจากรูปอื่น&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0676:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปที่หายไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb6_square1_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb6_square1_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb6_square1_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb6_square1_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb6_square1_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb6_square1_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb6_square1_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb6_square1_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb6_square1_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb6_square1_d.png&quot;&gt; ✔&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+สี่เหลี่ยม ดำ-ขาว เคลื่อนที่ไปข้างหน้า ทางขวา&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0677:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปที่หายไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb6_square2_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb6_square2_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb6_square2_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb6_square2_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb6_square2_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb6_square2_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb6_square2_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb6_square2_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb6_square2_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb6_square2_d.png&quot;&gt; ✔&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+สี่เหลี่ยม ดำ-ขาว เคลื่อนที่ไปข้างหน้า ทางซ้าย&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0678:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปที่หายไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb6_square3_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb6_square3_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb6_square3_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb6_square3_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb6_square3_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb6_square3_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb6_square3_a.png&quot;&gt; ✔&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb6_square3_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb6_square3_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb6_square3_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+สี่เหลี่ยม ดำ-ขาว เคลื่อนที่ไปข้างหน้า ทางซ้าย&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0679:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปที่หายไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb6_square4_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb6_square4_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb6_square4_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb6_square4_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb6_square4_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb6_square4_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb6_square4_a.png&quot;&gt; ✔&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb6_square4_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb6_square4_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb6_square4_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+สี่เหลี่ยม ดำ-ขาว เคลื่อนที่ไปข้างหน้า ทางขวา&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0680:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb6_square5_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb6_square5_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb6_square5_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb6_square5_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb6_square5_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb6_square5_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb6_square5_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb6_square5_b.png&quot;&gt; ✔&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb6_square5_c.png&quot;&gt;&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb6_square5_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+รูปเหลี่ยมเคลื่อนที่ตามทะแยงมุม&lt;br /&gt;
+เส้น เคลื่อนที่ตามเข็มนาฬิกา เป็นระยะทางครั้งละครึ่งหนึ่งของด้านสี่เหลี่ยมนอก&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2&lt;br /&gt;
+	
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0681:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;รูปต่อไป คือข้อใด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/nb6_square6_q.png&quot;&gt;&lt;br /&gt;
+	</question>
+    <choice_A>&lt;img src=&quot;asset:assets/data/images/nb6_square6_a.png&quot;&gt;</choice_A>
+    <choice_B>&lt;img src=&quot;asset:assets/data/images/nb6_square6_b.png&quot;&gt;</choice_B>
+    <choice_C>&lt;img src=&quot;asset:assets/data/images/nb6_square6_c.png&quot;&gt;</choice_C>
+    <choice_D>&lt;img src=&quot;asset:assets/data/images/nb6_square6_d.png&quot;&gt;</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A(1)=2, B(2)=3, C(3)=4, D(4)=5 -->
+    <explanation>
+&lt;img src=&quot;asset:assets/data/images/nb6_square6_q.png&quot;&gt;&lt;br /&gt;
+	1. &lt;img src=&quot;asset:assets/data/images/nb6_square6_a.png&quot;&gt;&lt;br /&gt;
+	2. &lt;img src=&quot;asset:assets/data/images/nb6_square6_b.png&quot;&gt;&lt;br /&gt;
+	3. &lt;img src=&quot;asset:assets/data/images/nb6_square6_c.png&quot;&gt; ✔&lt;br /&gt;
+	4. &lt;img src=&quot;asset:assets/data/images/nb6_square6_d.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต&lt;br /&gt;
+รูปเหลี่ยมเคลื่อนที่ตามทะแยงมุม&lt;br /&gt;
+เส้น เคลื่อนที่ทวนเข็มนาฬิกา เป็นระยะทางครั้งละครึ่งหนึ่งของด้านสี่เหลี่ยมนอก&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3&lt;br /&gt;&lt;br /&gt;  
+
+(ขอบคุณ คุณ  Remilia Scarlet ที่ช่วยตรวจสอบข้อนี้ และ แจ้งมาให้ทราบ)&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+</exams>
+
+

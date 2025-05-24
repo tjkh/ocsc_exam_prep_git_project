@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="my_style.css">
+    <link rel="stylesheet" type="text/css" href="cont_full_version.css">
+    <style>
+        .equal-width td { width: 50%; }
+       ol{
+         padding-left:3px;
+       }
+
+       /* Second Level */
+       ol ol{
+         padding-left:5px;
+       }
+
+       /* Third Level */
+       ol ol ol{
+         padding-left:6px;
+       }
+
+       ul{
+         padding-left:6px;
+       }
+
+       /* Second Level */
+       ul ul{
+         padding-left:5px;
+       }
+
+       /* Third Level */
+       ul ul ul{
+         padding-left:6px;
+       }
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+
+<!-- แก้ปัญหา  Samsung แสดงหน้าว่าง/ดำ -->
+<div id="first_div"></div>
+&nbsp;&nbsp;
+<div id="second_div"></div>
+
+
+<strong>เทคนิคการแก้ปัญหาเงื่อนไขสัญลักษณ์อย่างรวดเร็ว</strong><br><br>
+
+<div style="border: 3px solid red; border-radius:15px; padding:15px;">
+    <ol style="margin-left: 5px; padding-left:15px;">
+        <li>ปรับเครื่องหมายเชิงปฏิเสธที่พบ</li>
+        <li>ตรวจหาเครื่องหมายสวนทางกัน ถ้าพบ สรุปว่า ไม่แน่ชัดได้เลย</li>
+        <li>ต้องทำข้างหนึ่งของเงื่อนไขให้เหมือนข้างหนึ่งของข้อสรุป ก่อนที่จะนำอีกข้างมาเทียบ เสมอ</li>
+        <li>การตัดสิน ให้ดูว่า ข้อสรุปครอบคลุมเงื่อนไขที่พิสูจน์ได้หรือไม่</li>
+        <li>ดูภาพรวมแนวทางแก้ปัญหา ถ้ายากให้ข้ามไปก่อน</li>
+    </ol>
+</div>
+<br><br>
+
+<strong>หลักการใหญ่ ๆ ของ</strong> การแก้ปัญหาเงื่อนไขสัญลักษณ์ โดยทั่วไป ก็เหมือนกับการแก้สมการ เช่น ย้ายข้างได้ กลับเศษเป็นส่วนได้ เป็นต้น แต่มีหลักการหรือขั้นตอน ดังนี้<br><br>
+
+<div style="padding-left:3px; margin-top:5px; margin-bottom:0px; padding-top:5px;">
+    <strong> 3 ขั้นตอน การแก้ปัญหาโจทย์ เงื่อนไขสัญลักษณ์</strong>
+
+    <ol style="margin-left: 5px; padding-left:5px;">
+        <li><u>เตรียมเงื่อนไข-ข้อสรุป</u><br>
+            <ul>
+                <li>เปลี่ยนเครื่องหมาย<br>ไม่มากกว่า (≯) เป็น น้อยกว่าหรือเท่ากับ (≤)<br>ไม่น้อยกว่า(≮) เป็น มากกว่าหรือเท่ากับ (≥)<br>ไม่มากกว่าหรือเท่ากับ (≱) เป็น น้อยกว่า(&lt;)<br>ไม่น้อยกว่าหรือเท่ากับ(≰) เป็น มากกว่า (&gt;)<br></li>
+                <li>ถ้าเงื่อนไขเป็นเศษส่วน ควรทำให้อยู่ในรูปจำนวนเต็ม โดย<br>ถ้าส่วนเป็นตัวอักษร ให้กลับเศษเป็นส่วนทั้ง 2 ข้าง <strong>และ</strong> เปลี่ยนเครื่องหมายเป็นตรงข้าม เช่น<br>
+                    <span class="frac">1<span class="symbol">/</span><span class="bottom">A</span></span> &gt; <span class="frac">1<span class="symbol">/</span><span class="bottom">B</span></span> เป็น
+                    A &lt; B<br>หาตัวมาคูณเพื่อให้ส่วนหมดไป เช่น <br><span class="frac">A<span class="symbol">/</span><span class="bottom">2</span></span> &gt;
+                    <span class="frac">B<span class="symbol">/</span><span class="bottom">4</span></span> &nbsp;&nbsp;เอา 4 คูณทั้งสองข้าง ได้เป็น 2A &gt; B</li>
+                <li>หรืออาจจะติดส่วนเอาไว้ก็ได้ เผื่อว่า มีอะไรมาตัดเพื่อกำจัดส่วนได้ภายหลัง แต่อย่าลืมทำทั้งสองข้างของอสมการ</li>
+                <li>บางครั้ง ข้อสรุป เป็นเศษส่วน หรือสามารถตัดทอนลงได้ ก็ควรทำ เช่น <span class="frac">1<span class="symbol">/</span><span class="bottom">A</span></span> &gt; <span class="frac">1<span class="symbol">/</span><span class="bottom">B</span></span> เป็น A &lt; B</li>
+            </ul>
+            <br>
+        </li>
+        <li><u>พิสูจน์เงื่อนไขเพื่อไปเปรียบเทียบกับข้อสรุป</u><br><br>
+            ในแต่ละข้อสรุป ให้ตรวจสอบว่ามีตัวเชื่อมมากกว่า 1 ตัวเชื่อมหรือไม่ <strong>ถ้ามีตัวเชื่อม มากกว่า 1 ตัวเชื่อม</strong>ให้ตรวจสอบทุกตัวเชื่อม ถ้าความสัมพันธ์ผ่านตัวเชื่อมหนึ่ง มีผลไม่แน่ชัด แต่ ถ้าผ่านอีกตัวเชื่อมหนึ่ง มีผลเป็น มากกว่า ให้ถือว่า ตัวหนึ่ง มีค่ามากกว่า อีกตัวหนึ่ง เช่น<br>
+            เงื่อนไขที่ 1: A &gt; B &gt; C &lt; D<br>
+            เงื่อนไขที่ 2: B &gt; E &gt; D &gt; F<br>
+            ข้อสรุป: A &gt; D<br><br>
+            จาก A ไป D มี 2 เส้นทาง คือ ผ่าน B, C และผ่านตัวเชื่อม D<br>
+            จาก A ไป D  ผ่าน B, C มีผลเป็นไม่แน่ชัด เพราะมีเครื่องหมายสวนทางกัน<br>
+            จาก A ไป D  ผ่าน B (จาก เงื่อนไขที่ 1 ไปเงื่อนไขที่ 2) มีผลเป็น มากกว่า<br>
+            กรณีนี้ ให้สรุปว่า A &gt; D<br>
+            ข้อสรุปของโจทย์ เป็นจริง<br><br>
+
+            หรือ ถ้าผลการใช้เส้นทางหนึ่ง ขัดกับผลของอีกเส้นทางหนึ่ง ก็ให้สรุปว่า ไม่แน่ชัด เพราะอาจจะมีผลได้มากกว่า 1 อย่าง<br><br>
+
+            <strong>ในการพิสูจน์เงื่อนไขมีหลักการสำคัญ คือ</strong><br><br>
+            <div style="border: 1px solid black; background-color:#00008B; color:white; border-radius:15px; padding:5px;"><br>ต้องทำให้ด้านใดด้านหนึ่งของเงื่อนไข ให้เท่ากับ ด้านใดด้านหนึ่งของข้อสรุปเสียก่อน<br><br> จากนั้นจึงนำอีกด้านหนึ่งของข้อสรุปมาเทียบ<br></br>อย่าทำ 2 ด้านพร้อมกัน เพราะใช้ได้ไม่ทุกกรณี<br></div><br><br>
+
+            ตัวอย่าง<br><br>
+
+
+            เงื่อนไขที่ 1: 2A &gt; B &gt; 2C<br>
+            เงื่อนไขที่ 2: K &lt; C &gt; 2G<br><br>
+
+            ข้อสรุป: G &lt; A<br><br>
+
+
+            เราต้องพิสูจน์เงื่อนไขว่า เป็นไปตามข้อสรุปหรือไม่ โดย
+            <ol>
+
+                <li>การทำให้ด้านใดด้านหนึ่งของเงื่อนไข มีค่าเท่ากับด้านใดด้านหนึ่งของข้อสรุป
+                    <ul>
+                        <li>ถ้ามี 2 เงื่อนไข หรือมี เงื่อนไข 2 บรรทัด ให้หาตัวเชื่อม ถ้าตัวเชื่อมไม่เท่ากัน ต้องทำให้เท่ากันเสียก่อน โดยการหาตัวคูณมาคูณตลอดทั้งแถว เช่น<br><br>
+                            จากตัวอย่างข้างบน ควรทำเงื่อนไขที่ 2 ให้ เป็น 2C เพื่อให้ใช้เป็นตัวเชื่อมได้ โดยเอา 2 คูณตลอด ได้เป็น<br><br>
+                            2K &lt; 2C &gt; 4G<br><br>
+                        </li>
+
+                        <li>จัดเรียงเงื่อนไขใหม่ ตามข้อสรุป<br>
+                            จากตัวอย่างข้างบน ให้เขียนจาก G ไป A คือ <br><br>
+                            เงื่อนไข ที่ 1:  2A &gt; B &gt; 2C<br>
+                            เงื่อนไข ที่ 2:  2K &lt; 2C &gt; 4G<br><br>
+                            จาก G ไป A คือ<br><br>
+                            4G &lt; 2C &lt; B &lt; 2A<br>
+                            (ระวัง เปลี่ยนเครื่องหมายให้ถูกด้วย)<br><br>
+                            หมายเหตุ<br>
+                            ถ้าสังเกตว่ามีเครื่องหมายสวนทางกัน เช่น <br>
+                            4G &lt; 2C &gt; B &lt; 2A<br>
+                            แสดงว่า เราไม่สามารถสรุป ระหว่าง G กับ A ได้ ว่า อะไร มากกว่า หรือน้อยกว่ากัน<br>
+                            แต่ ต้องระวังไว้หน่อยหนึ่ง คือ ให้ดูว่า เรามีเส้นทางอื่นหรือไม่ เพราะบางครั้ง อาจจะสรุปได้ ก็ได้<br><br>
+                        </li>
+                        <li>เราเรียงลำดับได้ตามข้อสรุปแล้ว แต่ยังไม่ได้ตัวที่เท่ากับข้อสรุป ต่อไปเราต้องหาอะไร มา บวก ลบ คูณ หาร ตลอดแถว เพื่อให้ได้ ค่าตามด้านใดด้านหนึ่งของข้อสรุป เช่น<br>
+                            จากตัวอย่าง ข้อสรุปต้องการ A แต่เรามี 2A เราต้องเอา 2 มาหารตลอด เพื่อให้ได้ ตามข้อสรุป <br>
+                            <span class="frac">4G<span class="symbol">/</span><span class="bottom">2</span></span>
+                            &lt;
+                            <span class="frac">2C<span class="symbol">/</span><span class="bottom">2</span></span>
+                            &lt;
+                            <span class="frac">B<span class="symbol">/</span><span class="bottom">2</span></span>
+                            &lt;
+                            <span class="frac">2A<span class="symbol">/</span><span class="bottom">2</span></span>
+                            <br>
+                            2G &lt; C &lt; <span class="frac">B<span class="symbol">/</span><span class="bottom">2</span></span>
+                            &lt; A
+
+                        </li>
+                        <li>ยุบเครื่องหมาย <br>
+                            จากตัวอย่าง จะเห็นว่า จาก G ไป A มีเครื่องหมาย &lt; และตัว  C และ B คั่น เราสามารถยุบเครื่องหมาย และข้ามตัวที่อยู่ระหว่างทางออกไปได้ <br><br>
+                            <strong>หลักการยุบรวม</strong><br>
+                            การยุบเครื่องหมาย ให้ยุบเครื่องหมายที่สำคัญน้อยกว่าออกไป คือ<br>
+                            <div style="border: 1px solid black; background-color:#00008B; color:white; border-radius:15px; padding:5px;">
+                                เครื่องหมาย &gt; และ &lt; สำคัญมากที่สุด<br>
+                                เครื่องหมาย ≥ และ ≤ สำคัญรองลงมา<br>
+                                เครื่องหมาย = สำคัญลำดับที่ 3 หรือ ข้ามไปได้เลยเพราะเท่ากัน <br><br>
+                            </div>
+                            จากตัวอย่าง ยุบแล้วได้เป็น<br>2G &lt; A<br><br>
+
+
+                            ตัวอย่างอื่น ๆ<br><br>
+                            A ≥ B = C &gt; D<br>
+                            ระหว่าง A และ D เครื่องหมาย &gt; สำคัญมากสุด ยุบแล้ว ได้เป็น<br>
+                            A &gt; D<br>
+                            ระหว่าง A และ C เครื่องหมาย ≥ สำคัญมากกว่า เครื่องหมาย = ยุบแล้ว ได้เป็น<br>
+                            A ≥ C<br><br>
+                            A = X &gt; Y ≱ B <br>
+                            เครื่องหมาย &gt; ชนะทุกเครื่องหมาย ตัดออกแล้ว ได้เป็น<br>
+                            A &gt; B<br><br>
+
+                            A  ≱  X = Y &gt; B <br>
+                            ตัดเครื่องหมาย ได้เป็น<br>
+                            A &gt; B<br><br>
+
+                            A = X &lt; Y ≰ B  <br>
+                            เครื่องหมาย &lt; ชนะทุกเครื่องหมาย ตัดออกแล้ว ได้เป็น<br>
+                            A &lt; B<br><br>
+
+                            A  &lt;  X ≰ Y &lt; B <br>
+                            ตัดเครื่องหมาย ได้เป็น<br>
+                            A &lt; B<br><br>
+
+
+
+                        </li>
+                    </ul></li> <!-- จบ การทำให้ด้านใดด้านหนึ่ง...  -->
+                <li>เอาอีกด้านหนึ่งของข้อสรุปมาเทียบ<br>
+                    ในตัวอย่างข้อสรุปนี้ เราได้ A เหมือนข้อสรุปด้านหนึ่งแล้ว<br> ต่อมาก็ต้องเอา G ตามข้อสรุปมาเทียบ <br>
+                    G &nbsp;&nbsp;&nbsp; 2G &lt; A<br>
+                    จะเห็นว่า G น้อยกว่า 2G เขียนได้ ดังนี้ <br>
+                    G &lt; 2G &lt; A<br>
+                    ยุบรวมได้เป็น<br>
+                    G &lt; A<br>
+                    การพิสูจน์เงื่อนไขเสร็จเรียบร้อยแล้ว<br><br>
+                </li><!-- จบ เอาอีกด้านหนึ่งของ...  -->
+            </ol>
+        </li> <!-- จบ เตรียมเงื่อนไข...  -->
+        <li><u>ตัดสินข้อสรุป</u><br><br>
+
+            การตัดสินว่าข้อสรุปเป็นจริง เป็นเท็จ หรือ สรุปได้ไม่แน่ชัด มีหลัก ดังนี้ <br>
+            ให้ยึดเครื่องหมายในข้อสรุปเป็นหลัก แล้วเปรียบเทียบกับเครื่องหมายจากผลการพิสูจน์เงื่อนไข<br><br>
+            <ul>
+                <li><strong>กรณีข้อสรุปเป็นจริง</strong>
+                    <ul>
+                        <li>เครื่องหมายในข้อสรุป ครอบคลุม เครื่องหมายจากผลการพิสูจน์เงื่อนไข<br>หรือ พูดอีกอย่างได้ว่า เครื่องหมายที่ได้จากการพิสูจน์เงื่อนไข ทุกเครื่องหมาย มึอยู่ในเครื่องหมายของข้อสรุป  เช่น ข้อสรุปมีเครื่องหมายมากกว่าหรือเท่ากับ แต่การพิสูจน์เงื่อนไข มีเครื่องหมายเท่ากับเพียงเครื่องหมายเดียว เช่น<br>
+                            ข้อสรุป: A ≥ B<br>
+                            ผลการพิสูจน์เงื่อนไข: A = B<br>
+                            หรือ<br>
+                            ข้อสรุป: A ≤ B<br>
+                            ผลการพิสูจน์เงื่อนไข: A &lt; B<br>
+                        </li>
+                        <li>เครื่องหมายในข้อสรุป เหมือนกับ เครื่องหมายจากผลการพิสูจน์เงื่อนไข เช่น<br>
+                            ข้อสรุป: A &gt; B<br>
+                            ผลการพิสูจน์เงื่อนไข: A &gt; B<br>
+                            หรือ<br>
+                            ข้อสรุป: A ≤ B<br>
+                            ผลการพิสูจน์เงื่อนไข: A ≤ B<br>
+                        </li>
+                    </ul>
+                </li><br>
+                <li><strong>กรณีข้อสรุปเป็นเท็จ</strong> <br>
+                    กรณีข้อสรุปเป็นเท็จ คือ เครื่องหมายในข้อสรุป ไม่เหมือนกับ เครื่องหมายจากผลการพิสูจน์เงื่อนไขอย่างสิ้นเชิง คือไม่มีตัวใดเลยที่เหมือนกัน เช่น<br>
+                    กรณีต่อไปนี้ เป็นเท็จทั้งสิ้น
+                    <ul>
+                        <li>ข้อสรุป: A ≥ B<br>
+                            ผลการพิสูจน์เงื่อนไข: A &lt; B<br>
+                        </li>
+                        <li>ข้อสรุป: A &lt; B<br>
+                            ผลการพิสูจน์เงื่อนไข: A &gt; B<br>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+
+
+                <li><strong>ข้อสรุปไม่แน่ชัด หรือสรุปไม่ได้ </strong><br>
+
+                    <ul>
+                        <li>เครื่องหมายในข้อสรุป ไม่ครอบคลุม เครื่องหมายจากผลการพิสูจน์เงื่อนไขทั้งหมด<br>หรือ พูดอีกอย่างได้ว่า มีเครื่องหมายที่ได้จากการพิสูจน์เงื่อนไข บางเครื่องหมาย ที่ไม่อยู่ในเครื่องหมายของข้อสรุป  เช่น ข้อสรุปมีเครื่องหมายมากกว่าเพียงตัวเดียว แต่การพิสูจน์เงื่อนไข มีเครื่องหมายมากกว่าหรือเท่ากับ เครื่องหมายเท่ากับ ในผลการพิสูจน์เงื่อนไข ไม่มีอยู่ในข้อสรุป เช่น<br>
+                            ข้อสรุป: A &gt; B<br>
+                            ผลการพิสูจน์เงื่อนไข: A ≥ B<br>
+                            หรือ<br>
+                            ข้อสรุป: A = B<br>
+                            ผลการพิสูจน์เงื่อนไข: A ≤ B<br>
+                        </li>
+                        <li>กรณีพบว่ามีเครื่องหมายสวนทางกัน เช่น<br>
+                            A &gt; B &gt; C &lt; D<br>
+                            การเปรียบเทียบระหว่าง A และ B คือ ไม่แน่ชัด<br><br>
+
+                            <strong>ทำไมเครื่องหมายสวนทางกัน จึงสรุปไม่ได้</strong><br>
+                            ถ้า A &lt; B &gt; C<br>
+                            ระหว่าง A กับ C จะสรุปไม่ได้ว่า มากหรือน้อยหรือเท่ากัน เพราะมีโอกาสเป็นไปได้ทั้งหมด<br>
+                            เพราะทั้ง A และ C ต่างก็น้อยกว่า B เหมือนกัน<br>
+                            ถ้าให้ B มีค่าเท่ากับ 100<br><br>
+
+                            A ก็อาจจะเท่ากับ 50 และ C ก็อาจจะเท่ากับ 50 ก็ได้ เพราะต่างก็น้อยกว่า 100 เหมือนกัน<br>
+                            กรณีนี้ สรุปได้ว่า A = C<br><br>
+
+                            อีกกรณีหนึ่ง<br>
+                            A = 80; C = 20 ก็ได้เหมือนกัน เพราะต่างก็น้อยกว่า 100<br>
+                            กรณีนี้ สรุปได้ว่า A &gt; C<br><br>
+
+                            อีกกรณีหนึ่ง<br>
+                            A = 30; C = 70 ก็ได้เหมือนกัน เพราะต่างก็น้อยกว่า 100<br>
+                            กรณีนี้ สรุปได้ว่า A &lt; C<br><br>
+
+                            ดังนั้น จึงสรุปว่า ถ้าพบเครื่องหมายสวนทางกัน สรุปได้ทันทีว่า สรุปไม่ได้<br>
+                            แต่มีข้อแม้นิดนึงว่า ให้ดูซิว่า มีกรณีอื่นที่ในเงื่อนไขหรือไม่ที่เราจะสามารถเปรียบเทียบระหว่าง A กับ C ได้<br>
+                            ถ้าพบว่ามี และสามารถเปรียบเทียบได้ อย่างนี้ ก็จะไม่ถือว่า สรุปได้ไม่แน่ชัด เพราะสรุปได้นั่นเอง<br><br>
+
+
+                        </li>
+                    </ul>
+                </li>
+
+            </ul><!-- จบ ข้อสรุปเป็นจริง...  -->
+            <br><br>เพื่อความเข้าใจ ให้ดูตารางท้ายนี้ ประกอบด้วย
+
+        </li> <!-- จบ ตัดสินข้อสรุป  -->
+    </ol>
+</div>
+
+ตารางการตัดสินข้อสรุป
+
+<div id="fadeout"><div id="myDefault" class="read_more">  ... (อ่านต่อ ในรุ่นเต็ม นะครับ)</div></div>
+
+<div id="full_version">
+    <!--
+    <div id="full_version" style="display: block">
+    -->
+    <div style="padding-left:20px; margin-top:5px; margin-bottom:5px; padding-top:5px;">
+
+        <div style="margin-left:0px; margin-top:1em; width:100%; ">
+            <table class="show_eval_conclusion">
+                <tr ><td class="sub_head" rowspan=2>ผลการพิสูจน์ <br>เงื่อนไข</td><td class="sub_head" colspan=6>ข้อสรุปของโจทย์</td></tr>
+                <tr><td class="ctr">A&lt;B&nbsp;</td><td class="ctr">A&#x2264;B&nbsp;</td><td class="ctr">A>B &nbsp;</td><td class="ctr">A&#x2265;B&nbsp;</td><td class="ctr">A=B&nbsp;</td><td class="ctr">A&#x2260;B&nbsp;</td></tr>
+                <tr><td class="ctr">A&lt;B</td><td class="ctr">จริง</td><td class="ctr">จริง</td><td class="ctr">เท็จ</td><td class="ctr">เท็จ</td><td class="ctr">เท็จ</td><td class="ctr">จริง</td></tr>
+                <tr><td class="ctr">A&#x2264;B (&lt; , =)</td><td class="ctr">ไม่แน่</td><td class="ctr">จริง</td><td class="ctr">เท็จ</td><td class="ctr">ไม่แน่</td><td class="ctr">ไม่แน่</td><td class="ctr">ไม่แน่</td></tr>
+                <tr><td class="ctr">A&gt;B</td><td class="ctr">เท็จ</td><td class="ctr">เท็จ</td><td class="ctr">จริง</td><td class="ctr">จริง</td><td class="ctr">เท็จ</td><td class="ctr">จริง</td></tr>
+                <tr><td class="ctr">A&#x2265;B (>, =)</td><td class="ctr">เท็จ</td><td class="ctr">ไม่แน่</td><td class="ctr">ไม่แน่</td><td class="ctr">จริง</td><td class="ctr">ไม่แน่</td><td class="ctr">ไม่แน่</td></tr>
+                <tr><td class="ctr">A=B</td><td class="ctr">เท็จ</td><td class="ctr">จริง</td><td class="ctr">เท็จ</td><td class="ctr">จริง</td><td class="ctr">จริง</td><td class="ctr">เท็จ</td></tr>
+                   </table>
+        </div></div>
+
+    <br><br>
+    <strong>แนวทางการพิสูจน์เงื่อนไข ตามลักษณะของโจทย์ </strong><br>
+    <ul>
+        <li>ถ้าโจทย์ถาม ตัวมากสุดหรือน้อยสุด<br>
+            ให้ดูว่า แต่ละบรรทัด ตัวไหน มากหรือน้อยที่สุด แล้วเอามาเปรียบเทียบกันโดยใช้ข้อมูลจากเงื่อนไข<br>
+            ถ้าเปรียบเทียบกันได้ ให้ตอบตามผลการสรุป<br>
+            ถ้าไม่มีข้อมูลในเงื่อนไขให้เปรียบเทียบ ให้ตอบว่าไม่แน่ชัด
+        </li>
+        <li>ถ้าโจทย์ให้เปรียบเทียบที่มีการบวก เช่น (A+B) &gt; (C+D)<br>
+            หลักคิดคือ ตัวที่มากกว่ารวมกัน ย่อมน้อยกว่า ตัวที่น้อยกว่ารวมกัน<br>
+            ดังนั้น<br>
+            ถ้าพิสูจน์ว่า ทุกตัวของด้านหนึ่ง มากกว่าหรือน้อยกว่า ทุกตัวของอีกด้านหนึ่ง เราก็จะสรุปได้ว่า ด้านไหน น้อยกว่า หรือมากกว่าอีกด้านหนึ่ง<br>
+            แต่ถ้าเราพิสูจน์ได้ว่า บางตัวของด้านหนึ่งมากกว่าบางตัวของอีกด้านหนึ่ง แต่มีบางตัวกลับน้อยกว่า อย่างนี้ เราจะไม่รู้ว่า ด้านไหนมากกว่า หรือน้อยกว่าอีกด้านหนึ่ง อย่างนี้ ให้ตอบว่า ไม่แน่ชัด<br>
+            ในทางปฏิบัติ เราจึงมักจะจับคู่การพิสูจน์ เช่น<br>
+            (A+B) &gt; (C+D)<br>
+            เราก็เปรียบเทียบ ระหว่าง A กับ C และ B กับ D หรือ ระหว่าง A กับ D และ B กับ C เป็นต้น<br>
+            ถ้าเราพิสูจน์ได้ว่า A &gt; C และ B &gt; D หรือ  A &gt; D และ B &gt; C เราสรุปได้ว่า (A+B) &gt; (C+D) เป็นจริง<br>
+            ถ้าเราพิสูจน์ได้ว่า A &lt; C และ B &lt; D หรือ  A &lt; D และ B &lt; C เราสรุปได้ว่า (A+B) &lt; (C+D) เป็นจริง<br>
+        </li>
+        <li>โจทย์ที่เป็นเศษส่วน ถ้ามีส่วนเป็นตัวอักษร ให้กลับเศษเป็นส่วน เพื่อให้ตัวอักษรอยู่ด้านบน เพื่อให้สะดวก <br>
+            ถ้าเป็นเครื่องหมายเท่ากับ ไม่ต้องเปลี่ยนเครื่องหมาย เช่น <span class='frac'>2<span class='symbol'>/</span><span class='bottom'>F</span></span> = <span class='frac'>3<span class='symbol'>/</span><span class='bottom'>A </span></span> กลับได้ เป็น <span class='frac'>F<span class='symbol'>/</span><span class='bottom'>2</span></span> = <span class='frac'>A<span class='symbol'>/</span><span class='bottom'>2</span></span> <br>
+            ถ้าเป็นเครื่องหมาย น้อยกว่า หรือมากกว่า ต้องเปลี่ยนเป็นตรงข้าม เช่น<br>
+            <span class='frac'>2<span class='symbol'>/</span><span class='bottom'>F</span></span> &gt; <span class='frac'>3<span class='symbol'>/</span><span class='bottom'>A </span></span> กลับได้ เป็น <span class='frac'>F<span class='symbol'>/</span><span class='bottom'>2</span></span> &lt; <span class='frac'>A<span class='symbol'>/</span><span class='bottom'>2</span></span> <br>
+            หรือ<br>
+            <span class='frac'>2<span class='symbol'>/</span><span class='bottom'>F</span></span> ≥ <span class='frac'>3<span class='symbol'>/</span><span class='bottom'>A </span></span> กลับได้ เป็น <span class='frac'>F<span class='symbol'>/</span><span class='bottom'>2</span></span> ≤ <span class='frac'>A<span class='symbol'>/</span><span class='bottom'>2</span></span>  (สังเกตได้ว่า เครื่องหมายเท่ากับ ยังอยู่เหมือนเดิม)<br>
+            ถ้าจำไม่ได้ ให้ลองเปรียบเทียบกับตัวเลขดู เช่น<br>
+            <span class='frac'>1<span class='symbol'>/</span><span class='bottom'>2</span></span> = <span class='frac'>5<span class='symbol'>/</span><span class='bottom'>10 </span></span> กลับได้ เป็น <span class='frac'>2<span class='symbol'>/</span><span class='bottom'>1</span></span> = <span class='frac'>10<span class='symbol'>/</span><span class='bottom'>5</span></span> <br>
+            คูณไขว้<br>
+            2x5 = 1x10<br>
+            10 = 10<br><br>
+            <span class='frac'>1<span class='symbol'>/</span><span class='bottom'>2</span></span> &gt; <span class='frac'>1<span class='symbol'>/</span><span class='bottom'>3 </span></span> กลับได้ เป็น <span class='frac'>2<span class='symbol'>/</span><span class='bottom'>1</span></span> &lt; <span class='frac'>3<span class='symbol'>/</span><span class='bottom'>1</span></span> <br>
+            คูณไขว้<br>
+            2x1 &lt; 1x3<br>
+            2 &lt; 3 เป็นจริง กรณี มากกว่า หรือน้อยกว่า เมื่อกลับเศษเป็นส่วน ต้องเปลี่ยนเครื่องหมายเป็นตรงข้าม<br><br>
+
+
+
+
+
+            <br>
+
+        </li>
+
+    </ul>
+
+    <br>
+
+    <strong>คุณสมบัติของอสมการ</strong> (Properties of Inequalities)
+    <ol style="padding:20px; margin-top: 5px; margin-bottom: 5px;">
+        <li>คุณสมบัติด้านการส่งผ่าน (Transitive Property)<br>
+            ถ้าเรานำค่ามาเรียงกันในทิศทางเดียวกัน เราสามารถข้ามตัวกลางได้ เช่น<br>
+            A&gt;B&gt;C&gt;D เราสามารถสรุปได้ว่า A&gt;D<br>
+        </li>
+        </li>
+        <li>การบวกและลบ<br>
+            เราสามารถนำตัวเลขตัวเดียวกัน มาบวก หรือ ลบ จำนวนที่ไม่เท่ากันได้ โดยยังมีทิศทางคงเดิม เช่น<br>
+            ถ้า A &gt; B &gt; C แล้ว สรุปได้ว่า A+5 &gt; B+5&gt; C+5 หรือ<br>
+            ถ้า A+D &gt; B+D &gt; C+D แล้ว สรุปได้ว่า A &gt; B &gt; C<br>
+        </li>
+        <li>
+            การคูณและหาร ด้วยจำนวนเต็มบวกที่ไม่ใช่ศูนย์<br>
+            เราสามารถนำเลขจำนวนเต็มที่มีค่าเป็นบวกที่ไม่เป็นศูนย์มาคูณหรือหาร จำนวนที่ไม่เท่ากัน ได้ โดยไม่ทำให้ทิศทางการไม่เท่ากันเปลี่ยนแปลง เช่น<br>
+            ถ้าเป็นเลขจำนวนเต็มบวกที่ไม่ใช่ศูนย์ และ A &gt; B &gt; C แล้ว สรุปได้ว่า 5A &gt; 5B &gt; 5C<br><br>
+        </li>
+        <li>การกลับเศษส่วน ต้องเปลี่ยนเครื่องหมายเป็นตรงข้าม เช่น มากกว่า เป็นน้อยกว่า <br>
+            ตัวอย่าง<br>
+            <span class="frac">1<span class="symbol">/</span><span class="bottom">A</span></span> &gt;
+            <span class="frac">3<span class="symbol">/</span><span class="bottom">B</span></span>
+            กลับเศษเป็นส่วน ได้เป็น <span class="frac">A<span class="symbol">/</span><span class="bottom">1</span></span>
+            &lt; <span class="frac">B<span class="symbol">/</span><span class="bottom">3</span></span> <br>
+            ลองคิดถึงหลักความจริงก็ได้ เช่น <br>
+            <span class="frac">1<span class="symbol">/</span><span class="bottom">5</span></span> &gt;
+            <span class="frac">1<span class="symbol">/</span><span class="bottom">8</span></span> <br>
+            (หนึ่งส่วนในห้าส่วน ย่อมมากกว่า หนึ่งส่วนในแปดส่วน) <br>
+            เมื่อกลับเศษเป็นส่วน เราจะได้ว่า <br>
+            <span class="frac">5<span class="symbol">/</span><span class="bottom">1</span></span> &lt;
+            <span class="frac">8<span class="symbol">/</span><span class="bottom">1</span></span> หรือ 5 น้อยกว่า 8 นั่นเอง <br>
+        </li>
+    </ol>
+
+
+
+</div>
+
+
+
+<script src="cont_full_version.js" type="text/javascript" language="JavaScript"></script>
+
+
+</body>
+</html>
+

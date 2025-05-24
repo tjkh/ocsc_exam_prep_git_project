@@ -1,0 +1,1014 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+<body>
+<div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ทต่างกัน  -->
+            <button id = "start" onclick="countDown(2,0,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+		</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 2 ชั่วโมง
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <br><br>
+    <div id="ifNotBuy" style="display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+        <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span></br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+
+<!--
+ความสามารถทั่วไป 40 ข้อ
+ภาษาไทย 20 ข้อ
+
+================= ความสามารถทั่วไป =================
+
+1-5 อนุกรม 5 ข้อ
+-->
+
+
+<strong>คำสั่ง</strong> จงเลือกคำตอบจากตัวเลือก 1. – 4. มาเติมลงในช่องว่าง เพื่อให้ได้อนุกรม ที่มีความสัมพันธ์ต่อเนื่องกัน อย่างสมเหตุสมผลมากที่สุด<br><br>
+
+<div class="quiz">
+ข้อ 1. <br>
+2&#160;&#160; 9&#160;&#160;	23&#160;&#160; 79&#160;&#160; 415&#160;&#160;  ____<br>
+</div>
+
+<label><input type="radio" name="q1" value="0">936</label><br>
+<label><input type="radio" name="q1" value="0">2415</label><br>
+<label><input type="radio" name="q1" value="1">3103</label><br>
+<label><input type="radio" name="q1" value="0">1246</label><br>
+
+
+<div class="quiz">
+ข้อ 2. <br>
+10010&#160;&#160; 10000&#160;&#160;	10000&#160;&#160; 1000&#160;&#160; 9990&#160;&#160; 100&#160;&#160; ___ <br>
+</div>
+
+<label><input type="radio" name="q2" value="1">9980</label><br>
+<label><input type="radio" name="q2" value="0">990</label><br>
+<label><input type="radio" name="q2" value="0">190</label><br>
+<label><input type="radio" name="q2" value="0">10</label><br>
+
+
+
+<div class="quiz">
+ข้อ 3. <br>
+7&#160;&#160; 7&#160;&#160;	9&#160;&#160; 27&#160;&#160; 31&#160;&#160;  ____ <br>
+</div>
+
+<label><input type="radio" name="q3" value="1">87</label><br>
+<label><input type="radio" name="q3" value="0">127</label><br>
+<label><input type="radio" name="q3" value="0">155</label><br>
+<label><input type="radio" name="q3" value="0">161</label><br>
+
+
+
+<div class="quiz">
+ข้อ 4. <br>
+8&#160;&#160; 3&#160;&#160;	11&#160;&#160;14&#160;&#160; 25 &#160;&#160; ____ <br>
+</div>
+
+<label><input type="radio" name="q4" value="0">10</label><br>
+<label><input type="radio" name="q4" value="0">11</label><br>
+<label><input type="radio" name="q4" value="1">39</label><br>
+<label><input type="radio" name="q4" value="0">45</label><br>
+
+
+
+<div class="quiz">
+ข้อ 5. <br>
+70&#160;&#160;71&#160;&#160;76&#160;&#160;70&#160;&#160;81&#160;&#160;86&#160;&#160;70&#160;&#160;____ <br>
+</div>
+
+<label><input type="radio" name="q5" value="0">71</label><br>
+<label><input type="radio" name="q5" value="0">16</label><br>
+<label><input type="radio" name="q5" value="1">91</label><br>
+<label><input type="radio" name="q5" value="0">83</label><br>
+
+
+<!-- 6-9 โจทย์คณิด 4 ข้อ  -->
+
+
+<div class="quiz">
+ข้อ 6. <br>
+<strong>คำสั่ง: </strong>ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br /> <br /> 
+มีนกอยู่ 3 ชนิด โดยแต่ละชนิด มีจำนวนไม่เท่ากันดังนี้ นกชนิดที่หนึ่งมีทั้งหมด 32 ตัว นกชนิดที่สองมีทั้งหมด 48 ตัว และนกชนิดที่สามทีทั้งหมด 64 ตัว ต้องการแบ่งนกให้เด็กๆ โดยให้แต่ละคน ได้นกมากที่สุดคนละเท่าๆกัน และเด็กหนึ่งคนจะได้นก เพียงประเภทเดียว จะสามารถแบ่งนกให้เด็กๆได้กี่คน และเด็กจะได้คนละกี่ตัว<br />
+</div>
+
+<label><input type="radio" name="q6" value="1">แบ่งให้เด็ก 9 คน คนละ 16 ตัว</label><br>
+<label><input type="radio" name="q6" value="0">แบ่งให้เด็ก 8 คน คนละ 18 ตัว</label><br>
+<label><input type="radio" name="q6" value="0">แบ่งให้เด็ก  9 คน คนละ 20 ตัว</label><br>
+<label><input type="radio" name="q6" value="0">แบ่งให้เด็ก 6 คน คนละ 22 ตัว</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 7. <br>
+<strong>คำสั่ง: </strong>ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br /> <br /> 
+
+ในการสร้างศาลาหลังหนึ่งใข้คนงาน 7 คน สร้างเสร็จในเวลา 20 วันหากเพิ่มคนงานอีก 3 คน จะ สร้างเสร็จในเวลากี่วัน<br /> 
+</div>
+
+<label><input type="radio" name="q7" value="0">12 วัน</label><br>
+<label><input type="radio" name="q7" value="0">12.5 วัน</label><br>
+<label><input type="radio" name="q7" value="1">14 วัน</label><br>
+<label><input type="radio" name="q7" value="0">15 วัน</label><br>
+
+
+<div class="quiz">
+ข้อ 8. <br>
+<strong>คำสั่ง: </strong>ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br /><br />
+สนามฟุตบอล 800 เมตร นายเขียววิ่งรอบสนามใช้เวลา 20 นาที   นายดำใช้เวลาวิ่ง 25 นาที เมื่อออกวิ่งพร้อมกันที่จุดเริ่มต้น โดยวิ่งไปทางเดียวกัน นายเขียววิ่งได้กี่รอบ เขียวกับดำจึงมาถึงจุดเริ่มต้นพร้อมกัน<br /><br />
+</div>
+
+<label><input type="radio" name="q8" value="0">2</label><br>
+<label><input type="radio" name="q8" value="0">4</label><br>
+<label><input type="radio" name="q8" value="1">5</label><br>
+<label><input type="radio" name="q8" value="0">10</label><br>
+
+
+
+<div class="quiz">
+ข้อ 9. <br>
+นาย A ขับรถระยะทาง 300 กิโลเมตร ช่วง 100 กิโลเมตรแรกขับด้วยความเร็ว 50 กิโลเมตร/
+ชั่วโมง ช่วง 100 กิโลเมตรต่อมาขับด้วยความเร็ว 100 กิโลเมตร/ชั่วโมง และช่วง 100 กิโลเมตร
+สุดท้ายขับด้วยความเร็ว 50 กิโลเมตร/ชั่วโมง จงหาว่านาย A ขับรถด้วยอัตราเร็วเท่าไร
+
+<br>
+</div>
+
+<label><input type="radio" name="q9" value="0">40</label><br>
+<label><input type="radio" name="q9" value="0">50</label><br>
+<label><input type="radio" name="q9" value="1">60</label><br>
+<label><input type="radio" name="q9" value="0">70</label><br>
+
+
+<!-- 10 โอเปอเรชั่น 1 ข้อ -->
+
+
+<div class="quiz">
+ข้อ 10. <br>
+<strong>คำสั่ง:</strong>ให้ท่านหาคำตอบ โดยใช้วิธีการเดียวกันกับตัวเลข 2 ชุดแรกที่กำหนดให้<br />
+<br />
+9 * 8 = 34<br />
+6 * 3 = 18<br />
+4 * 4 = ?<br />
+
+
+</div>
+
+<label><input type="radio" name="q10" value="0">12</label><br>
+<label><input type="radio" name="q10" value="1">16</label><br>
+<label><input type="radio" name="q10" value="0">32</label><br>
+<label><input type="radio" name="q10" value="0">64</label><br>
+
+<!--  11-15 การเปรึยบเทียบซ้อมูล เงื่อนไขสัญลักษณ์   -->
+<br>
+<strong>คำชี้แจง ข้อ 11-15</strong><br><br>
+ ให้พิจารณาเงื่อนไขที่กำหนดให้ (ทุกตัวอักษรมีค่ามากกว่าศูนย์) แล้วตอบโดยยึดหลักเกณฑ์ดังนี้<br><br>
+
+เลือกตอบข้อ 1. ถ้าข้อสรุปทั้งสอง ถูกด้องหรือเป็นจริง ตามเงื่อนไข<br>
+เลือกตอบข้อ 2. ถ้าข้อสรุปทั้งลอง ผิดหรือไม่เป็นจริง ตามเงื่อนไข<br>
+เลือกตอบข้อ 3. ถ้าข้อสรุปทั้งสอง สรุปไม่แน่นอน หรือไม่สามารถสรุปได้แน่ชัด ว่าถูกต้องหรือผิดตามเงื่อนไข<br>
+เลือกตอบข้อ 4. ถ้าข้อสรุปทั้งสองสรุปไม่เหมือนกัน คือ มีข้อสรุปใดข้อสรุปหนึ่งที่เป็นจริง <br>หรือไม่เป็นจริง หรือไม่แน่ชัด ซึ่งไม่เท่ากับอีกข้อสรุปหนึ่ง<br><br>
+
+
+<div class="quiz">
+ข้อ 11. <br>
+<strong>เงื่อนไข</strong><br>
+A &gt; B ≮ (C+D) = E<br>
+4P = B ≮ 2Q &lt; R &gt; S<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: B ≠ Q <br>
+ข้อสรุปที่ 2: A ≮ (B - P) <br>
+
+</div>
+
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+
+<div class="quiz">
+ข้อ 12. <br>
+<strong>เงื่อนไข</strong><br>
+
+A &gt; B ≮ (C+D) = E<br>
+4P = B ≮ 2Q &lt; R &gt; S<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: P &lt; E <br>
+ข้อสรุปที่ 2: A &gt; 5Q <br>
+
+</div>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<div class="quiz">
+ข้อ 13. <br>
+<strong>เงื่อนไข</strong><br>
+
+A &gt; B ≮ (C+D) = E<br>
+4P = B ≮ 2Q &lt; R &gt; S<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: D &gt; A <br>
+ข้อสรุปที่ 2: BR &lt; 2E <br>
+</div>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<div class="quiz">
+ข้อ 14. <br>
+<strong>เงื่อนไข</strong><br>
+
+A &gt; B ≮ (C+D) = E<br>
+4P = B ≮ 2Q &lt; R &gt; S<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: Q &gt; CR <br>
+ข้อสรุปที่ 2: R ≯ A<br>
+</div>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<div class="quiz">
+ข้อ 15<br>
+<strong>เงื่อนไข</strong><br>
+
+A &gt; B ≮ (C+D) = E<br>
+4P = B ≮ 2Q &lt; R &gt; S<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: A = E <br>
+ข้อสรุปที่ 2: B &gt; S <br>
+</div>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<!--  16-20 วิเคราะห์ข้อมูลตาราง 5 ข้อ   -->
+
+<strong>ใช้ข้อมูลในตารางข้างล่างนี้ สำหรับคำถาม ข้อ 16-20</strong><br>
+
+อัตราการใช้ปุ๋ยเคมี ในภาคต่างๆ ระหว่างปี พ.ศ. 2559 – 2561
+<table>
+<tr><th>ภาค</th><th>2559</th><th>2560</th><th>2561</th><th>&#9651;%</th></tr>
+<tr><td class="alignCenter">เหนือ</td><td class="alignRight">140,210</td><td class="alignRight">167,350</td><td class="alignRight">170,927</td><td class="alignRight">??</td></tr>
+<tr><td class="alignCenter">อีสาน</td><td class="alignRight">153,230</td><td class="alignRight">189,120</td><td class="alignRight">195,342</td><td class="alignRight">3.28</td></tr>
+<tr><td class="alignCenter">กลาง</td><td class="alignRight">434,250</td><td class="alignRight">563,430</td><td class="alignRight">590,783</td><td class="alignRight">??</td></tr>
+<tr><td class="alignCenter">ใต้</td><td class="alignRight">130,350</td><td class="alignRight">215,760</td><td class="alignRight">226,727</td><td class="alignRight">5.08</td></tr>
+
+<tr><td class="alignCenter">รวม</td><td class="alignRight">??</td><td class="alignRight">??</td><td class="alignRight">??</td><td class="alignRight">??<strong></strong></td></tr>
+
+</table>
+<br>
+
+
+<div class="quiz">
+ข้อ 16. <br>
+ปี 2561 ภาคเหนือใช้ปุ๋ยเพิ่มขึ้น ร้อยละเท่าไร
+<br>
+</div>
+
+<label><input type="radio" name="q16" value="1">2.14%</label><br>
+<label><input type="radio" name="q16" value="0">5.25%</label><br>
+<label><input type="radio" name="q16" value="0">6.23%</label><br>
+<label><input type="radio" name="q16" value="0">10.55% </label><br>
+
+
+<div class="quiz">
+ข้อ 17. <br>
+ภาคใด ใช้ปุ๋ยมากที่สุด<br />
+</div>
+
+<label><input type="radio" name="q17" value="0">ภาคเหนือ</label><br>
+<label><input type="radio" name="q17" value="0">ภาคอีสาน</label><br>
+<label><input type="radio" name="q17" value="1">ภาคกลาง</label><br>
+<label><input type="radio" name="q17" value="0">ภาคใต้</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 18. <br>
+ภาคเหนือและภาคใต้ ใช้ปุ๋ยต่างกันร้อยละเท่าไร
+<br>
+</div>
+
+<label><input type="radio" name="q18" value="0">16.57%</label><br>
+<label><input type="radio" name="q18" value="1">17.94%</label><br>
+<label><input type="radio" name="q18" value="0">19.87%</label><br>
+<label><input type="radio" name="q18" value="0">20.23%</label><br>
+
+
+<div class="quiz">
+ข้อ 19. <br>
+ปริมาณการใช้ปุ๋ยเคมี ของภาคเหนือและภาคกลาง ในปีใด ที่มีอัตราส่วน ใกล้เคียงกับ 1 : 3 มากที่สุด
+<br>
+</div>
+
+<label><input type="radio" name="q19" value="1">2559</label><br>
+<label><input type="radio" name="q19" value="0">2560</label><br>
+<label><input type="radio" name="q19" value="0">2561</label><br>
+<label><input type="radio" name="q19" value="0">2560 และ 2561</label><br>
+
+
+<div class="quiz">
+ข้อ 20.<br>
+
+ในปี 2561 อัตราการใช้ปุ๋ยเคมี ของภาคใต้คิดเป็นร้อยละเท่าใรของปริมาณการใช้ปุ๋ยเคมี ทั้งหมด
+<br>
+</div>
+
+<label><input type="radio" name="q20" value="0">9.30%</label><br>
+<label><input type="radio" name="q20" value="0">12.25%</label><br>
+<label><input type="radio" name="q20" value="0">15.45%</label><br>
+<label><input type="radio" name="q20" value="1">19.15%</label><br>
+
+
+<!--   21-25 อุปมา-อุปไมย 5 ข้อ   -->
+
+<strong>คำสั่ง: </strong>ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br /><br />
+
+<div class="quiz">
+ข้อ 21. <br>
+อดอาหาร : น้ำหนัก :: _____ : _____<br />
+</div>
+
+<label><input type="radio" name="q21" value="0">อาหาร : อ้วน</label><br>
+<label><input type="radio" name="q21" value="0">ขนมปัง : แป้ง</label><br>
+<label><input type="radio" name="q21" value="1">ยา : ความเจ็บปวด</label><br>
+<label><input type="radio" name="q21" value="0">ลดลง : เพิ่มขึ้น</label><br>
+
+
+
+<div class="quiz">
+ข้อ 22. <br>
+สามเหลี่ยม : ปิรามิด :: _____ : _____<br />
+</div>
+
+<label><input type="radio" name="q22" value="0">หลอดแก้ว : ทรงกระบอก</label><br>
+<label><input type="radio" name="q22" value="0">กระเป๋า : สี่เหลี่ยม</label><br>
+<label><input type="radio" name="q22" value="0">ไอศกรีม : แท่ง</label><br>
+<label><input type="radio" name="q22" value="1">สี่เหลี่ยม : หีบ</label><br>
+
+
+
+<div class="quiz">
+ข้อ 23. <br>
+หมอ : โรค :: _____ :_____<br />
+</div>
+
+<label><input type="radio" name="q23" value="1">นายอำเภอ : การปกครอง</label><br>
+<label><input type="radio" name="q23" value="0">เงิน : ตระหนี่</label><br>
+<label><input type="radio" name="q23" value="0">ใบสั่งยา : เภสัชกร</label><br>
+<label><input type="radio" name="q23" value="0">ขโมย : การทำโทษ</label><br>
+
+
+
+<div class="quiz">
+ข้อ 24. <br>
+ความระมัดระวัง : อุบัติเหตุ :: _____ : _____<br />
+</div>
+<label><input type="radio" name="q24" value="0">ความประมาท : ความตาย</label><br>
+<label><input type="radio" name="q24" value="1">ยาม : โจรกรรม</label><br>
+<label><input type="radio" name="q24" value="0">อนามัย : สุขภาพ</label><br>
+<label><input type="radio" name="q24" value="0">ความวิตก : ภยันตราย</label><br>
+
+
+
+
+
+
+<div class="quiz">
+ข้อ 25. <br>
+พุ่ง : หลาว :: _____ : _____<br />
+</div>
+<label><input type="radio" name="q25" value="0">ฆ่า : ลูกปืน</label><br>
+<label><input type="radio" name="q25" value="1">ยิง : ธนู</label><br>
+<label><input type="radio" name="q25" value="0">ตี : วิ่ง</label><br>
+<label><input type="radio" name="q25" value="0">มีด : แทง</label><br>
+
+
+<!--  26-30 สรุปความจากภาษา 5 ข้อ -->
+
+<br>
+<strong><u>คำสั่ง</u></strong> ในแต่ละข้อจะประกอบด้วยเงื่อนไขหรือข้อมูลที่กำหนดให้ และข้อสรุปเป็นคู่ ๆ จากเงื่อนไขนั้น ให้ศึกษาเงื่อนไขที่กำหนดให้ก่อน แล้วจึงอาศัยความรู้ที่ได้จากเงื่อนไขดังกล่าว มาใช้พิจารณาข้อสรุปทั้งสองของแต่ละข้อ แล้วตอบลงในกระดาษคำตอบ โดยยึดหลักในการตอบดังนี้ <br><br>
+
+<strong>หลักในการทำตอบ</strong><br>
+ตอบ 1. ถ้าข้อสรุป<u>ทั้งสองเป็นจริง</u>ตามเงื่อนไข <br>
+ตอบ 2. ถ้าข้อสรุป<u>ทั้งสองไม่เป็นจริง</u>ตามเงื่อนไข<br>
+ตอบ 3. ถ้าข้อสรุป<u>ทั้งสองไม่แน่ชัด</u> คือดูจากเงื่อนไขแล้ว ไม่สามารถสรุปได้ว่าจริงหรือไม่ <br>
+ตอบ 4. ถ้าข้อสรุปทั้งสอง<u>มีข้อสรุปใดข้อสรุปหนึ่งที่เป็นจริง หรือไม่จริง หรือไม่แน่ซัด ซึ่งไม่ซ้ำกับอีกข้อสรุปหนึ่ง</u><br><br>
+
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+ในการประกวดร้องเพลงลูกทุ่ง มีผู้สมัครเข้ารอบสุดท้ายทั้งหมด 7 คน คือ สมนึก จามร พิชัย กอบแก้ว ทองเทศ มนัส และชิดชัย แต่ละคนมาจากจังหวัดต่าง ๆ ซึ่งไม่ได้เรียงลำดับตามชื่อ ผู้เข้าประกวดที่เข้ารอบดังกล่าว คือ น่าน ชลบุรี สงขลา ชัยนาท พัทลุง ปราจีนบุรี และหนองคาย ผู้เข้ารอบได้จับฉลาก เพื่อจะร้องเพลง ในลำดับต่าง ๆ ดังนี้ <br /><br />
+
+1. ผู้แข่งขันที่ร้องในลำดับที่ 3 มาจากจังหวัดพัทลุง<br />
+2. กอบแก้ว ซึ่งไม่ได้มาจากจังหวัดปราจีนบุรี จะเป็นผู้ร้องต่อจาก ทองเทศ<br />
+3. สมนึก มาจากจังหวัดสงขลา<br />
+4. ผู้แข่งขันจากจังหวัดน่านจะเป็นคนร้องคนที่ 6<br />
+5. ผู้แข่งขันจากจังหวัดปราจีนบุรี ร้องต่อจาก จังหวัดพัทลุง<br />
+6. ชิดชัยร้องก่อนผู้มาจากจังหวัดพัทลุง<br />
+7. ชิดชัย จะร้องต่อจากมนัส และจามรจะร้องต่อชิดชัย<br />
+8. ทองเทศ ซึ่งมาจากจังหวัดหนองคาย จะร้องเป็นคนที่ 5<br />
+
+
+
+</div>
+<br><br>
+
+
+<div class="quiz">
+ข้อ 26. <br>
+<strong>ข้อสรุปที่ 1</strong>:   มนัสร้องเพลงเป็นคนแรก<br>
+<strong>ข้อสรุปที่ 2</strong>:    สมนึก เป็นผู้ร้องคนสุดท้าย<br>
+</div>
+<br>
+<label><input type="radio" name="q26" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 27. <br>
+<strong>ข้อสรุปที่ 1</strong>:   ทองเทศมาจาก จังหวัดน่าน <br>
+<strong>ข้อสรุปที่ 2</strong>:    ผู้สมัครจังหวัดน่าน จะร้องต่อจาก จังหวัดสงขลา<br>
+</div>
+<br>
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q27" value="1">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 28. <br>
+<strong>ข้อสรุปที่ 1</strong>:   สมนึก ร้องต่อจาก จามร<br>
+<strong>ข้อสรุปที่ 2</strong>:    มาจากจังหวัดชัยนาท<br>
+</div>
+<br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q28" value="1">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 29. <br>
+<strong>ข้อสรุปที่ 1</strong>:   สมนึก ร้องในลำดับที่ 6<br>
+<strong>ข้อสรุปที่ 2</strong>:    ผู้แข่งขันจากจังหวัดปราจีนบุรี ร้องในลำดับที่ 4<br>
+</div>
+<br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q29" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 30. <br>
+<strong>ข้อสรุปที่ 1</strong>:   ชิดชัย มาจาก จังหวัดชลบุรี<br>
+<strong>ข้อสรุปที่ 2</strong>:   มนัส มาจาก จังหวัดชัยนาท <br>
+</div>
+<br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q30" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<!--  31-35 ลรุปความจากสัญูญูลักษณ์ 5 ข้อ  -->
+<!--  จากไฟล์ 1_symbol_cndtng_02.xml ข้อ 6-10  -->
+
+<div class="quiz">
+ข้อ 31. <br>
+
+<strong>เงื่อนไข</strong><br>
+(A+B) = C &lt; D ≯ E<br>
+C = (F+G) &gt; 2H<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: A+B &gt; 2H<br>
+ข้อสรุปที่ 2: E มีค่ามากที่สุด<br><br>
+
+
+</div>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+<div class="quiz">
+ข้อ 32. <br>
+
+<strong>เงื่อนไข</strong><br>
+(A+B) = C &lt; D ≯ E<br>
+C = (F+G) &gt; 2H<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1:  A = F<br>
+ข้อสรุปที่ 2: 2B &gt; G<br><br>
+
+</div>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q32" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 33. <br>
+
+<strong>เงื่อนไข</strong><br>
+(A+B) = C &lt; D ≯ E<br>
+C = (F+G) &gt; 2H<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1:  3D &gt; 2G<br>
+ข้อสรุปที่ 2: 4E &gt; 3F<br><br>
+
+</div>
+<label><input type="radio" name="q33" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 34. <br>
+
+<strong>เงื่อนไข</strong><br>
+(A+B) = C &lt; D ≯ E<br>
+C = (F+G) &gt; 2H<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: D &lt; H<br>
+ข้อสรุปที่ 2: 2E &lt; H<br><br>
+
+</div>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q34" value="1">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 35. <br>
+
+<strong>เงื่อนไข</strong><br>
+(A+B) = C &lt; D ≯ E<br>
+C = (F+G) &gt; 2H<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: 2E &lt; B&gt; 2H<br>
+ข้อสรุปที่ 2: (A+G) = (B+F)<br><br>
+
+</div>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q35" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<!--  36-40 การสรุปเหตุผลเชิงตรรกะ 5 ข้อ  -->
+
+<div class="quiz">
+ข้อ 36. <br>
+คนที่นับถือศาสนาบางคนยึดมั่นในหลักธรรมะแล้วจะมีความสุข<br><br>
+
+ข้อใด<strong>ไม่สอดคล้อง</strong>กับข้อความข้างต้น<br>
+<br>
+</div>
+<label><input type="radio" name="q36" value="0">คนที่นับถือศาสนาบางคนถ้าไม่ยึดมั่นในหลักธรรมะแล้วจะมีความสุข</label><br>
+<label><input type="radio" name="q36" value="0">คนที่นับถือศาสนาบางคนถ้าไม่ยึดมั่นในหลักธรรมะแล้วจะไม่มีความสุข</label><br>
+<label><input type="radio" name="q36" value="1">คนที่นับถือศาสนาทุกคนถ้ายึดมั่นในหลักธรรมะแล้วจะไม่มีความสุข</label><br>
+<label><input type="radio" name="q36" value="0">คนที่นับถือศาสนาทุกคนถ้ายึดไม่มั่นในหลักธรรมะแล้วจะไม่มีความสุข</label><br><br>
+
+
+<div class="quiz">
+ข้อ 37. <br>
+จากการศึกษาพบว่าคนที่กินอาหารมากกว่า 650 แคลลอรี่ต่อวันทุกคนจะเป็นโรคอ้วน ร้อยละ 55 ของคนที่เป็นโรคอ้วนจะเป็นโรคเบาหวานซึ่งมีผลกระทบต่อสุขภาพในระยะยาว<br><br>
+
+ข้อใด<strong>ไม่สอดคล้อง</strong>กับข้อความข้างต้น<br>
+
+<br>
+</div>
+<label><input type="radio" name="q37" value="1">คนที่กินอาหารมากกว่า 650 แคลลอรี่ต่อวันบางคนจะไม่เป็นโรคอ้วน</label><br>
+<label><input type="radio" name="q37" value="0">คนที่กินอาหารไม่มากกว่า 650 แคลลอรี่ต่อวันทุกคนจะไม่เป็นโรคอ้วน</label><br>
+<label><input type="radio" name="q37" value="0">คนที่ไม่ป็นโรคอ้วนจะกินอาหารต่อวันไม่มากกว่า 650 แคลลอรี่</label><br>
+<label><input type="radio" name="q37" value="0">คนที่เป็นโรคอ้วนส่วนมากจะเป็นโรคเบาหวาน </label><br><br>
+
+
+<div class="quiz">
+ข้อ 38. <br>
+ในช่วงฤดูมรสุม หากปริมาณน้ำฝนที่ตกลงมาในปริมาณ 80 มิลลิเมตรเป็นเวลานานติดต่อกัน
+2 ชั่วโมง จะทำให้น้ำท่วมขังเป็นบริเวณกว้าง ส่งผลให้หน่วยงานต่าง ๆ  ของกรุงเทพมหานครต้องใช้
+งบประมาณเพื่อป้องกันน้ำท่วมถึง 1 ใน 5 ของงบประมาณทั้งหมด<br><br>
+
+ข้อใด<strong>ไม่สอดคล้อง</strong>กับข้อความข้างต้น<br>
+<br>
+</div>
+<label><input type="radio" name="q38" value="1">หากมีปริมาณน้ำฝน ที่ตกลงมาในปริมาณ 80 มิลลิเมตร เป็นเวลานานกว่า 2 ชั่วโมง จะทำให้น้ำท่วมขัง ในเขตกรุงเทพมหานคร เป็นบริเวณกว้าง</label><br>
+<label><input type="radio" name="q38" value="0">งบประมาณร้อยละ 80 ของกรุงเทพมหานคร ใช้เพื่อดำเนินการเรื่องอื่น ที่ไม่ใช่การป้องกันน้ำท่วม</label><br>
+<label><input type="radio" name="q38" value="0">หากมีปริมาณน้ำฝน ที่ตกลงมาในปริมาณ 80 มิลลิเมตร เป็นเวลา 2 ชั่วโมง จะไม่ก่อให้เกิดน้ำท่วมขัง ในเขตกรุงเทพมหานคร</label><br>
+<label><input type="radio" name="q38" value="0">กรุงเทพมหานคร ต้องใช้งบประมาณ ในการป้องกันน้ำท่วม ถึงร้อยละ 20 ของงบประมาณทั้งหมด</label><br><br>
+
+
+<div class="quiz">
+ข้อ 39. <br>
+มีคนไทยส่วนน้อยที่ออกกำลังกายสม่ำเสมอ<br><br>
+
+ข้อใดไม่สอดคล้องกับข้อความข้างต้น<br>
+
+<br>
+</div>
+<label><input type="radio" name="q39" value="0">คนไทยบางคนออกกำลังกายอย่างสม่ำเสมอ</label><br>
+<label><input type="radio" name="q39" value="0">คนไทยส่วนมากออกกำลังกายอย่างสม่ำเสมอ</label><br>
+<label><input type="radio" name="q39" value="1">คนไทยส่วนน้อยไม่ออกกำลังกายอย่างสม่ำเสมอ</label><br>
+<label><input type="radio" name="q39" value="0">คนไทยส่วนมากไม่ออกกำลังกายอย่างสม่ำเสมอ</label><br><br>
+
+
+<div class="quiz">
+ข้อ 40. <br>
+คนไทยน้อยมากนับถือศาสนาพุทธลัทธิชินโต<br><br>
+
+ข้อใดสอดคล้องกับข้อความข้างต้น<br>
+<br>
+</div>
+<label><input type="radio" name="q40" value="1">คนไทยบางคนนับถือศาสนาพุทธลัทธิชินโต</label><br>
+<label><input type="radio" name="q40" value="0">ไม่มีคนไทยคนใดนับถือศาสนาพุทธลัทธิชินโต</label><br>
+<label><input type="radio" name="q40" value="0">คนไทยจำนวนไม่มากไม่นับถือศาสนาพุทธลัทธิชินโต</label><br>
+<label><input type="radio" name="q40" value="0">คนไทยจำนวนไม่น้อยนับถือศาสนาพุทธลัทธิชินโต</label><br><br>
+
+
+================= ภาษาไทย =================
+
+<!-- 41-45 การเรียงความ 5ข้อ   -->
+
+
+<div class="quiz">
+ข้อ 41. <br>
+ข้อใด ควรอยู่ลำดับที่ 3<br>
+
+</div>
+<label><input type="radio" name="q41" value="0">การฝึกฝนความเพียร</label><br>
+<label><input type="radio" name="q41" value="1">แต่พอได้เพียรจนเป็นนิสัยแล้ว</label><br>
+<label><input type="radio" name="q41" value="0">ก็จะกลับเป็นพลังอย่างสำคัญ</label><br>
+<label><input type="radio" name="q41" value="0">ถึงหากแรก ๆ จะรู้สึกเหน็ดเหนื่อยลำบาก</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 42. <br>
+ข้อใด ควรอยู่ลำดับที่ 3<br>
+
+</div>
+<label><input type="radio" name="q42" value="1">ทั้งเพื่อการบริโภคโดยตรง</label><br>
+<label><input type="radio" name="q42" value="0">ที่มีความต้องการสูงทั่วโลก</label><br>
+<label><input type="radio" name="q42" value="0">น้ำตาลเป็นสารความหวานจากพืช</label><br>
+<label><input type="radio" name="q42" value="0">อาทิ เครื่องดื่ม ผลิตภัณฑ์จากนม ขนมหวาน และเบเกอรี่ เป็นต้น</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 43. <br>
+ข้อใด ควรอยู่ลำดับที่ 4<br>
+1. อย่าประมาทในตัวเอง อย่าประมาทในชีวิต<br>
+2. อยู่ไกลแค่ไหน ก็ได้กลิ่นหอมคุณงาม ความดี<br>
+3. ดอกไม้แห่งคุณงามความดี หอมนาน ติดตรึงตาและใจ <br>
+4. เพราะฉะนั้น เราต้องรีบทำคุณงาม ความดี ไว้อยู่เสมอ  <br>
+5. ถึงแม้ตัวจะตาย ก็ไม่วายคลายกลิ่นหอมแห่งความดีนั้น <br>
+
+
+</div>
+<label><input type="radio" name="q43" value="0">ข้อ 1</label><br>
+<label><input type="radio" name="q43" value="0">ข้อ 3</label><br>
+<label><input type="radio" name="q43" value="1">ข้อ 4</label><br>
+<label><input type="radio" name="q43" value="0">ข้อ 5</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 44. <br>
+ข้อใด ควรอยู่ลำดับที่ 2<br>
+
+1. โดยไม่ได้ทำความดีอะไรเลย<br>
+2. ความประมาท เลินเล่อ คือความเผลอสติ <br>
+3. และเป็นเหตุทำให้เวลาล่วงเลยไปเปล่าๆ <br>
+4. บางครั้งปล่อยสติมากเกินไปจนทำให้เสียคน <br>
+5. ปราศจากความระมัดระวังเป็นเหตุให้ทำผิด พูดผิด และคิดผิด <br>
+
+</div>
+<label><input type="radio" name="q44" value="0">ข้อ 1</label><br>
+<label><input type="radio" name="q44" value="0">ข้อ 2</label><br>
+<label><input type="radio" name="q44" value="0">ข้อ 4</label><br>
+<label><input type="radio" name="q44" value="1">ข้อ 5</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 45. <br>
+ข้อใด ควรอยู่ลำดับที่ 3<br>
+
+1. หรือที่เรียกว่า การศึกษาเพื่อปวงชนทุกคน <br>
+2. เทคโนโลยีสมัยใหม่ มีบทบาทสำคัญ ในการช่วยการจัดการศึกษา<br>
+3. ซึ่งจะต้องจัด การศึกษาตลอดชีวิต สำหรับทุกคน <br>
+4. ให้บรรลุอุดมการณ์ทางการศึกษา ตามนโยบายการจัดการศึกษาของรัฐ <br>
+5. อันเป็นการสร้างโอกาส ความเท่าเทียมกัน ทางด้านการศึกษา <br>
+</div>
+<label><input type="radio" name="q45" value="0">ข้อ 1</label><br>
+<label><input type="radio" name="q45" value="0">ข้อ 2</label><br>
+<label><input type="radio" name="q45" value="1">ข้อ 3</label><br>
+<label><input type="radio" name="q45" value="0">ข้อ 5</label><br>
+
+
+
+<!-- 46-50 ความบกพร่องของภาษา 5ข้อ  -->
+
+<div class="quiz">
+ข้อ 46. <br>
+ประโยคใดมีความหมายชัดเจนที่สุด</div>
+<label><input type="radio" name="q46" value="0">ฉันขายรถพี่สาว</label><br>
+<label><input type="radio" name="q46" value="0">มานะชอบกินแกงร้อน</label><br>
+<label><input type="radio" name="q46" value="1">เมื่อเดือนก่อนเขาทาสีบ้านที่เขาซื้อ</label><br>
+<label><input type="radio" name="q46" value="0">เขาสนิทกับน้องสาวคุณทิพวัลย์ที่เป็นพยาบาล</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 47. <br>
+ข้อใดใช้ภาษา กำกวม </div>
+<label><input type="radio" name="q47" value="1">พี่ของน้อยที่ถูกรถชนไม่มาทำงาน</label><br>
+<label><input type="radio" name="q47" value="0">โรคติดต่อที่เกิดจากเชื้อรารักษายาก</label><br>
+<label><input type="radio" name="q47" value="0">รถคันที่ภารโรงขับออกไปราคาแพงมาก</label><br>
+<label><input type="radio" name="q47" value="0">ชาวสวนปาล์มเข้ามาร้องทุกข์ที่หน้าทำเนียบรัฐบาล</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 48. <br>
+ข้อใดใช้ภาษา ถูกต้องสมบูรณ์ที่สุด </div>
+<label><input type="radio" name="q48" value="0">ชีวิตของลูกผู้ชายคนหนึ่ง</label><br>
+<label><input type="radio" name="q48" value="0">ความพยายามที่ทุกคนมีอยู่</label><br>
+<label><input type="radio" name="q48" value="1">อุปสรรคเป็นสิ่งที่ต้องฝ่าฟัน</label><br>
+<label><input type="radio" name="q48" value="0">ผู้สมัครสอบเป็นครูอัตราจ้าง</label><br>
+
+<div class="quiz">
+ข้อ 49. <br>
+ข้อใดใช้สำนวน  <strong>ไม่ถูกต้อง</strong></div>
+<label><input type="radio" name="q49" value="0">ผมกลัวเขาอยู่หมือนกัน แต่ก็ทนใจดีสู้เสือ</label><br>
+<label><input type="radio" name="q49" value="0">เขาเขียนบทความยาวสิบหน้า แต่น้ำท่วมทุ่ง ผักบุ้งโหรงเหรง</label><br>
+<label><input type="radio" name="q49" value="0">เขาไม่มีพวกพ้องให้พึ่งพาอาศัย เป็นคนหัวเดียวกระเทียมลีบแท้ ๆ</label><br>
+<label><input type="radio" name="q49" value="1">เขาเป็นคนขวานผ่าซาก ชอบพูดจาว่าร้ายคนอื่นอยู่สมอ</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 50. <br>
+ข้อใดใช้ภาษาเหมาะสมที่สุด</div>
+<label><input type="radio" name="q50" value="1">แม่ค้าขายส้มตำไก่ย่าง เป็นอาชีพที่มีรายได้ดี และไม่ตกงาน</label><br>
+<label><input type="radio" name="q50" value="0">อาหารประเภทยำ มีรสชาติเผ็ดร้อนกลมกล่อมถูกปากคนไทย</label><br>
+<label><input type="radio" name="q50" value="0">แม้ว่าฐานะของเราจะไม่ดีนัก พ่อแม่ก็ส่งให้ลูกทุกคนเรียนจบมหาวิทยาลัยได้</label><br>
+<label><input type="radio" name="q50" value="0">เพราะว่าอาจารย์วิสูตรมีชื่อเสียงทางด้านดนตรีไทยมาก ผมจึงเลือกลงทะเบียนเรียนกับท่าน</label><br>
+
+
+<!-- 51-55 การเติมคำ 5ข้อ  -->
+
+
+<div class="quiz">
+ข้อ 51. <br>
+ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+ผู้เสียหายทำเรื่องยื่น ....... คณะกรรมการคุ้มครองสิทธิผู้บริโภค
+
+</div>
+<label><input type="radio" name="q51" value="0">กับ</label><br>
+<label><input type="radio" name="q51" value="0">แก่</label><br>
+<label><input type="radio" name="q51" value="0">แต่</label><br>
+<label><input type="radio" name="q51" value="1">ต่อ</label><br>
+
+
+<div class="quiz">
+ข้อ 52. <br>
+ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+ธนาคารแห่งประเทศไทย คาดหมาย ......... เงินเฟ้อทั่วไป เฉลี่ยทั้งปี ร้อยละ 2.5 
+
+</div>
+<label><input type="radio" name="q52" value="0">จำนวน</label><br>
+<label><input type="radio" name="q52" value="1">อัตรา</label><br>
+<label><input type="radio" name="q52" value="0">ขนาด</label><br>
+<label><input type="radio" name="q52" value="0">ปริมาณ</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 53. <br>
+ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+เขาวิ่งออกกำลังกายทุกเช้า เป็น ……….. ประจำวัน
+
+</div>
+<label><input type="radio" name="q53" value="0">ภารกิจ</label><br>
+<label><input type="radio" name="q53" value="0">กิจธุระ</label><br>
+<label><input type="radio" name="q53" value="1">กิจวัตร</label><br>
+<label><input type="radio" name="q53" value="0">จริยวัตร</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 54. <br>
+ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<div class="indent_15px">
+ความเครียดทำให้เพิ่มฮอร์โมนอะดรีนาลีนในเลือด  ทำให้หัวใจเต้นเร็ว เส้นเลือดบีบตัว กล้ามเนื้อเขม็งตึง ระบบย่อยอาหารผิดปกติ เกิดอาการปวดหัว ปวดท้อง ใจสั่น แข้งขาอ่อนแรง  ความเครียดจึงเป็นตัวการให้แก่เร็ว<br>
+</div><!-- div class="indent_15px -->
+</div><!-- qstn-div -->
+</div><!-- quiz -->
+
+<label><input type="radio" name="q54" value="0">ความเครียด ทำให้ฮอร์โมนบางชนิดในเลือด เพิ่มสูงขึ้น</label><br>
+<label><input type="radio" name="q54" value="0">อิทธิพลที่ส่งผล ต่อการทำงานของหัวใจ คือความเครียด</label><br>
+<label><input type="radio" name="q54" value="0">ความเครียด มีส่วนทำให้ระบบการย่อยอาหาร ทำงานผิดปกติ</label><br>
+<label><input type="radio" name="q54" value="1">ความเครียด เป็นสาเหตุให้แก่เร็ว ก่อนวัยอันสมควร</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 55. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<div class="indent_15px">
+
+ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+ความสมบูรณ์ของชีวิตมาจากความเข้าใจชีวิตเป็นพื้นฐาน คือ เข้าใจธรรมชาติ เข้าใจความเป็นมนุษย์ และความสัมพันธ์ที่เกื้อกูลกันระหว่างมนุษย์กับมนุษย์ และมนุษย์กับธรรมชาติ มีความรัก ความเมตตาต่อเพื่อนมนุษย์และธรรมชาติอย่างจริงใจ<br><br>
+จากบทความข้างต้น ใจความสำคัญคือข้อใด 
+</div><!-- div class="indent_15px -->
+</div><!-- qstn-div -->
+</div>
+
+<label><input type="radio" name="q55" value="1">ความสมบูรณ์ของชีวิต</label><br>
+<label><input type="radio" name="q55" value="0">พื้นฐานความเข้าใจชีวิตมนุษย์</label><br>
+<label><input type="radio" name="q55" value="0">ความเมตตาต่อเพื่อนมนุษย์และธรรมชาติ</label><br>
+<label><input type="radio" name="q55" value="0">ความเป็นมนุษย์กับความเข้าใจธรรมชาติ</label><br>
+
+
+
+<!-- 56-60 บทความสั้น/ยาว 5ข้อ  -->
+<br>
+ <strong>สำหรับ ข้อ 56-60</strong><br><br> 
+
+<div class="qstn-div">
+
+<div class="indent_15px">
+ จังหวัดอ่างทอง มีลักษณะภูมิประเทศเป็นที่ราบลุ่ม มีแม่น้ำไหลผ่านสองสาย คือ แม่น้ำน้อยและแม่น้ำเจ้าพระยา ชาวบ้านส่วนใหญ่จึงมีอาชีพทำนา ซึ่งต้องพึ่งพาธรรมชาติ ถ้าปีใดฝนตกน้อยหรือมากไป ผลผลิตที่เก็บเกี่ยว ก็จะลดน้อยลง ตามความเสียหายที่เกิดขึ้น
+</div>
+<div class="indent_15px">ช่วงปี พ.ศ. 2510 – 2518 เป็นเวลา 8 ปี ติดต่อกันที่ชาวบ้านตำบลบ้านวัดตาล (ภายหลังเปลี่ยนชื่อเป็นตำบลบางเสด็จ) อำเภอป่าโมก ได้รับผลกระทบจากภัยน้ำท่วม จนแทบสิ้นเนื้อประดาตัว พระบาทสมเด็จพระเจ้าอยู่หัว และสมเด็จพระนางเจ้าฯ พระบรมราชินีนาถ จึงเสด็จพระราชทานความช่วยเหลือ แก่ราษฎรผู้ประสบอุทกภัยในปี พ.ศ. 2518
+</div>
+<div class="indent_15px">ด้วยพระปรีชาญาณ และพระมหากรุณาธิคุณ ของสมเด็จพระนางเจ้า ฯ ที่ทรงดำริ ให้มีการฝึกฝนอาชีพการปั้นตุ๊กตาชาววัง จากดินเหนียวให้แก่กลุ่มแม่บ้าน ให้ทำเป็นงานอดิเรกเพื่อเพิ่มพูนรายได้ และทรงรับเป็นโครงการในพระบรมราชินูปถัมภ์ โดยในปี พ.ศ. 2519 พระองค์ท่านได้ส่งอาจารย์พร้อมวัสดุอุปกรณ์ทุกอย่างมาสอนที่วัดสระแก้ว สอนสัปดาห์ละ 2 วัน แต่เรียนได้เพียง 3 สัปดาห์ ชาวบ้านเกิดความหวาดกลัวเพราะการปั้นตุ๊กตาชาววังถือเป็นศิลปะชั้นสูง ถ้าเรียนโดยไม่มีการทำพิธียกครูอาจไม่เป็นมงคล ประกอบกับในช่วงเวลานั้น มีลูกเด็กเล็กแดงเจ็บป่วยบ่อย ๆ เมื่อสมเด็จพระเทพรัตนราชสุดา เสด็จมาทำพิธีครอบครู ซึ่งเป็นพิธีกรรมแสดงความเคารพต่อสิ่งศักดิ์สิทธิ์ ชาวบ้านจึงคลายความกังวลลงได้ 
+</div>
+<div class="indent_15px">กรรรมวิธีการปั้นตุ๊กตาชาววัง มีหลายขั้นตอน เริ่มด้วยการเตรียมดิน ซึ่งช่างปั้นต้องเป็นคนไปหาเอง เพื่อให้ดินเหนียว เหมาะกับงานปั้นตุ๊กตา เมื่อเผาออกมาแล้ว จะมีสีแดงสวยงามตามธรรมชาติ ดินที่ได้มานั้น ต้องนำมาละลายน้ำ และผ่านกรองเอาเศษกรวด เศษหิน ออกให้หมดเสียก่อน จึงจะนำมาปั้นได้ 
+ด้วยฝีมือที่ชำนาญ ทำให้การปั้นใช้เวลาไม่มาก บางชิ้นส่วน เช่น ศีรษะตุ๊กตา หรือผลไม้ที่มีความละเอียดมาก จะใช้แม่พิมพ์ปูนพาสเตอร์ดินเหนียวออกมา ช่วงที่ยากและทำให้ตุ๊กตาเสียหายมากที่สุด คือการเผา เนื่องจากที่นี่ยังใช้เทคโนโลยีแบบดั้งเดิม จึงต้องควบคุมอุณหภูมิ ให้เหมาะอยู่เป็นวัน ๆ ถ้าเพิ่มความร้อนเร็ว หรือช้าจนเกินไป จะทำให้ตัวตุ๊กตาแตกหัก บางทีเผาเสร็จเหลือตุ๊กตาไม่ถึงครึ่ง
+</div>
+<div class="indent_15px">ลงท้ายด้วยการระบายสี ที่ต้องมีการรองพื้นด้วยสีโปสเตอร์ขาวก่อน ตามด้วยสีน้ำมันขาวอีกที ก่อนจะระบายเสื้อผ้า และวาดหน้าตาได้ แต่ละขั้นตอนมีกระบวนการที่จุกจิก ยุ่งยาก ต้องพิถีพิถัน ทำให้เสียเวลามาก คนทำต้องอดทนและใจเย็น
+</div>
+<div class="indent_15px">ตุ๊กตาชาววัง นอกจากจะทำตามขั้นตอนตอนข้างต้นแล้ว ยังมีการปั้นอีกแบบหนึ่งที่เรียกว่า การปั้นเหมือนจริง ซึ่งจะมีความละเอียดเหมือนคนจริง ๆ มากกว่า สีผิวจะเป็นสีของดินเผาแท้ จะลงสีเฉพาะเสื้อผ้าเท่านั้น ใบหน้าก็จะไม่มีการหล่อพิมพ์ แต่จะใช้อุปกรณ์แกะเป็นหน้าตา ตุ๊กตาแบบนี้จะแพงกว่าแบบแรก เพราะมีกรรมวิธียากกว่ามาก<br><br></div>
+  </div>
+<br>
+
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 56. <br>
+การปั้นตุ๊กตาชาววัง ที่สีผิวเป็นสีของดินเผา เรียกว่าอะไร</div>
+<label><input type="radio" name="q56" value="0">ตุ๊กตาดินเผา</label><br>
+<label><input type="radio" name="q56" value="0">ตุ๊กตาพระราชทาน</label><br>
+<label><input type="radio" name="q56" value="1">ตุ๊กตาปั้นเหมือนจริง</label><br>
+<label><input type="radio" name="q56" value="0">ตุ๊กตาบางเสด็จ</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 57. <br>
+ชื่อเรื่องที่เหมาะสมกับบทความข้างต้น คือข้อใด</div>
+<label><input type="radio" name="q57" value="0">อ่างทองดินแดนแห่งความสมบูรณ์ </label><br>
+<label><input type="radio" name="q57" value="1">ตุ๊กตาชาววังบางเสด็จ </label><br>
+<label><input type="radio" name="q57" value="0">กรรมวิธีการปั้นตุ๊กตาชาววัง </label><br>
+<label><input type="radio" name="q57" value="0">ตุ๊กตาชาววังกับรายได้เสริม</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 58. <br>
+ขั้นตอนการทำตุ๊กตาชาววังของชาวบ้านตำบลบางเสด็จ มีทั้งหมดกี่ขั้นตอน</div>
+<label><input type="radio" name="q58" value="0">2 ขั้นตอน</label><br>
+<label><input type="radio" name="q58" value="0">3 ขั้นตอน</label><br>
+<label><input type="radio" name="q58" value="1">4 ขั้นตอน </label><br>
+<label><input type="radio" name="q58" value="0">5 ขั้นตอน</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 59. <br>
+หากจะให้ตุ๊กตาชาววังของชาวบ้านตำบลบางเสด็จมีการจำหน่ายมากขึ้นควรได้รับการช่วยเหลือในเรื่องใด </div>
+<label><input type="radio" name="q59" value="1">เทคโนโลยีการเผาตุ๊กตาดินเผา </label><br>
+<label><input type="radio" name="q59" value="0">เงินทุนที่มากขึ้นกว่าเดิม</label><br>
+<label><input type="radio" name="q59" value="0">การตลาดที่กว้างขวางขึ้น</label><br>
+<label><input type="radio" name="q59" value="0">การขนส่งที่มีประสิทธิภาพ</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 60. <br>
+ขั้นตอนใดในการปั้นตุ๊กตา ที่มีความสูญเสียมากที่สุด</div>
+<label><input type="radio" name="q60" value="0">การเลือกใช้ดินที่ไม่เหมาะสมและการกรองเศษดิน เศษหิน </label><br>
+<label><input type="radio" name="q60" value="0">การปั้นที่ขาดความชำนาญ</label><br>
+<label><input type="radio" name="q60" value="1">การเผาแบบดั้งเดิม</label><br>
+<label><input type="radio" name="q60" value="0">การใช้เครื่องมือแกะหน้าตา ของตุ๊กตา  </label><br>
+
+</div>  <!-- end of qstn-div   -->
+
+
+<br><br>
+<input id="send" type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+</div>
+
+</div>  <!--  end of div content  -->
+
+<script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

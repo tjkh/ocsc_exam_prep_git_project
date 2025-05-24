@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- 1 -->
+  <thisQuestion>
+    <qNum>id01887:date1626667150</qNum>
+    <question>
+      <!-- ถ้าจะเอาภาพมาไว้ก่อน ก็เอามาไว้ที่นี่ได้เลย  -->
+      <!--	&lt;img src=&quot;asset:assets/data/images/air_pay.png&quot;&gt;&lt;br /&gt;  -->
+&lt;strong&gt;John:&lt;/strong&gt; Excuse me ________________?&lt;br /&gt;
+&lt;strong&gt;Jessica:&lt;/strong&gt; My name is Jessica. What's yours?&lt;br /&gt;
+&lt;strong&gt;John:&lt;/strong&gt; John. &lt;br /&gt;
+	</question>
+    <choice_A> Hello, how are you?</choice_A>
+    <choice_B> What's your name?</choice_B>
+    <choice_C> Are you Jassica?</choice_C>
+    <choice_D> My name is John. And you?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;John:&lt;/strong&gt; Excuse me _______?&lt;br /&gt;
+	ขอโทษครับ _________?&lt;br /&gt;
+&lt;strong&gt;Jessica:&lt;/strong&gt; My name is Jessica. What's yours?&lt;br /&gt;
+	ฉันชื่อแจสซิกา คุณชื่ออะไร&lt;br /&gt;
+&lt;strong&gt;John:&lt;/strong&gt; John.&lt;br /&gt;
+	จอห์น&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Hello, how are you?&lt;br /&gt;
+สวัสดี สบายดีหรือ &lt;br /&gt;
+ไม่ถูกเพราะ คำพูดนี้ ใช้สำหรับการทักทาย&lt;br /&gt;
+คำตอบ เช่น I'm fine, thanks. เป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+b. What's your name? ✔&lt;br /&gt;
+คุณชื่ออะไร&lt;br /&gt;&lt;br /&gt;
+
+c. Are you Jassica?&lt;br /&gt;
+คุณคือแจสซิกาใช่ไหม&lt;br /&gt;
+ไม่ถูกเพราะ คำตอบต้อง เป็น Yes หรือ  No เพราะเป็นคำถามประเภท Yes/No Question&lt;br /&gt;
+ในที่นี้ ต้องตอบว่า Yes, I'm Jessica.&lt;br /&gt;&lt;br /&gt;
+
+d. My name is John. And you?&lt;br /&gt;
+ผมชื่อจอห์น แล้วคุณล่ะ&lt;br /&gt;
+ข้อนี้ผิดเพราะถ้าจอห์นพูดประโยคนี้ แจสซิกาจะไม่ถามว่า คุณชื่ออะไร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+คำถามประเภท Yes/No Question&lt;br /&gt;&lt;br /&gt;
+
+ประโยคคำถามชนิดนี้ต้องการคำตอบรับ (Yes) หรือปฏิเสธ (No) เป็นคำถามที่ลงท้ายด้วย ไหม? หรือไม่? หรือเปล่า? ใช่ไหม? ได้ไหม? เป็นต้น &lt;br /&gt;
+แบ่งออกเป็น 3 ชนิด คือ&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;1. ขึ้นต้นประโยคด้วย Verb to be (Is, Am, Are, Was, Were)&lt;/strong&gt; เช่น&lt;br /&gt;
+	Are you hungry?&lt;br /&gt;
+	คุณหิวไหม&lt;br /&gt;
+	Is it very hot today?&lt;br /&gt;
+	วันนี้ร้อนมากใช่ไหม&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;2. ขึ้นต้นประโยคด้วยกริยา Do,  Does หรือ Did&lt;/strong&gt; เช่น&lt;br /&gt;
+	Do you know his address?&lt;br /&gt;
+	คุณรู้ที่อยู่ของเขาไหม&lt;br /&gt;
+	Does she teach at your school?&lt;br /&gt;
+	เธอสอนอยู่ที่โรงเรียนคุณใช่ไหม&lt;br /&gt;
+	Did you go to school yesterday?&lt;br /&gt;
+	เมื่อวานคุณไปโรงเรียนหรือเปล่า&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;3. ขึ้นต้นประโยคด้วยกริยาช่วย (helping verb)&lt;/strong&gt;  เช่น Will, Can, May, Would, Should เป็นต้น เช่น&lt;br /&gt;
+	Can you speak Thai?&lt;br /&gt;
+	คุณพูดไทยได้ไหม&lt;br /&gt;
+	May I help you?&lt;br /&gt;
+	ฉันจะช่วยเอาไหม&lt;br /&gt;
+	Will you go shopping after class?&lt;br /&gt;
+	เลิกเรียนแล้วคุณจะไปซื้อของหรือเปล่า?&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;โดยสรุป&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+ถ้าประโยคคำถามขึ้นต้นด้วย Verb to be (Is, Am, Are, Was, Were) หรือ กริยาช่วย เช่น Do, Does, Did, Will, Shall, Should, Could เป็นต้น เป็นคำถามประเภท Yes/No Question ต้องตอบรับหรือปฏิเสธ 
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 2 -->
+  <thisQuestion>
+    <qNum>id01888:date1626667150</qNum>
+    <question>&lt;strong&gt;John:&lt;/strong&gt; Do you know what time it is?&lt;br /&gt;
+&lt;strong&gt;Jessica:&lt;/strong&gt; Sure. It's five.&lt;br /&gt;
+&lt;strong&gt;John:&lt;/strong&gt; _____________.&lt;br /&gt;
+&lt;strong&gt;Jessica:&lt;/strong&gt; You're welcome.&lt;br /&gt;
+	</question>
+    <choice_A> Pardon me?</choice_A>
+    <choice_B> Oh! I'm late.</choice_B>
+    <choice_C> Thank you so much.</choice_C>
+    <choice_D> It doesn't matter.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;John:&lt;/strong&gt; Do you know what time it is?&lt;br /&gt;
+	คุณทราบหรือไม่ว่า ตอนนี้เวลาเท่าไร&lt;br /&gt;
+&lt;strong&gt;Jessica:&lt;/strong&gt; Sure. It's five.&lt;br /&gt;
+	ทราบ 5 โมง&lt;br /&gt;
+&lt;strong&gt;John:&lt;/strong&gt; _____________.&lt;br /&gt;
+	__________&lt;br /&gt;
+&lt;strong&gt;Jessica:&lt;/strong&gt; You're welcome.&lt;br /&gt;
+	ไม่เป็นไร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Pardon me?&lt;br /&gt;
+อะไรนะครับ&lt;br /&gt;
+ไม่ถูกเพราะ ประโยคนี้เป็นการขอให้พูดอีกครั้ง ถ้าใช้ประโยคนี้ คำพูดต่อไปจะเป็นการบอกเวลาใหม่&lt;br /&gt;&lt;br /&gt;
+
+b. Oh! I'm late.&lt;br /&gt;
+ตายจริง ผมสายแล้ว&lt;br /&gt;
+ไม่ถูก เพราะเมื่อเขาบอกเวลาให้ ก็ควรที่จะขอบคุณ นอกจากนี้ยังไม่สอดคล้องกับประโยคต่อไป ซึ่งเป็นการตอบรับคำขอบคุณ&lt;br /&gt;&lt;br /&gt;
+
+c. Thank you so much. ✔&lt;br /&gt;
+ขอบคุณมาก &lt;br /&gt;&lt;br /&gt;
+
+d. It doesn't matter.&lt;br /&gt;
+ไม่เป็นไร &lt;br /&gt;
+ไม่ถูก เพราะประโยคนี้ใช้ตอบรับคำขอโทษ&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 3 -->
+  <thisQuestion>
+    <qNum>id01889:date1626667150</qNum>
+    <question>&lt;strong&gt;James:&lt;/strong&gt; Hello, Lisa. How are you?&lt;br /&gt;
+&lt;strong&gt;Lisa:&lt;/strong&gt; ___________. How are you?&lt;br /&gt;
+&lt;strong&gt;James:&lt;/strong&gt; Good.&lt;br /&gt;
+	</question>
+    <choice_A> I'm good.</choice_A>
+    <choice_B> Don't mention it.</choice_B>
+    <choice_C> I'm from Thailand</choice_C>
+    <choice_D> I'm sixty kilograms.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;James:&lt;/strong&gt; Hello, Lisa. How are you?&lt;br /&gt;
+	สวัสดีลิซ่า เป็นอย่างไรบ้าง&lt;br /&gt;
+&lt;strong&gt;Lisa:&lt;/strong&gt; ___________. How are you?&lt;br /&gt;
+	____ แล้วคุณล่ะ&lt;br /&gt;
+&lt;strong&gt;James:&lt;/strong&gt; Good.&lt;br /&gt;
+	สบายดี&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. I'm good. ✔ &lt;br /&gt;
+ฉันสบายดี&lt;br /&gt;&lt;br /&gt;
+การตอบรับคำถาม How are you? พูดได้หลายอย่าง เช่น &lt;br /&gt;
+	Good.&lt;br /&gt;
+	I'm Good.&lt;br /&gt;
+	I'm OK.&lt;br /&gt;
+	I'm fine.&lt;br /&gt;
+	Fine, thanks.&lt;br /&gt;
+	Good, thanks.&lt;br /&gt;
+	Not bad, thanks.&lt;br /&gt;&lt;br /&gt;
+
+ทั้งหมดเป็นคำตอบทักทายตามมารยาท มีความหมายในทำนองว่า สบายดีตามปกติ 
+บางคนบอกว่า I'm good. กับ I'm fine. มีความหมายต่างกัน&lt;br /&gt;
+I'm fine. = สบายดีตามปกติ ค่อนข้างจะเป็นคำตอบตามมารยาท&lt;br /&gt;
+I'm good. = มีเรื่องดี มีความสุข  &lt;br /&gt;&lt;br /&gt;
+
+b. Don't mention it.&lt;br /&gt;
+ไม่ต้องพูดถึงมัน &lt;br /&gt;
+ไม่ถูกเพราะ ประโยคนี้ใช้สำหรับตอบรับการขอโทษ&lt;br /&gt;&lt;br /&gt;
+
+c. I'm from Thailand.&lt;br /&gt;
+ผมมาจากประเทศไทย&lt;br /&gt;
+ไม่ถูกเพราะเขาไม่ได้ถามว่า มาจากไหน &lt;br /&gt;
+Where are you from?&lt;br /&gt;&lt;br /&gt;
+
+d. I'm sixty kilograms.&lt;br /&gt;
+ผมหนัก 60 กิโลกรัม&lt;br /&gt;
+ไม่ถูกเพราะไม่เกี่ยวข้องกับเรื่องที่สนทนา&lt;br /&gt;
+ถ้าถามว่าคุณหนักเท่าไร ให้ถามว่า&lt;br /&gt;
+How much do you weigh? &lt;br /&gt;
+&lt;strong&gt;แต่ไม่ควรถาม&lt;/strong&gt;เพราะเขาถือว่าเป็นเรื่องส่วนตัว อายุก็เหมือนกัน ไม่ควรถาม และเงินเดือนก็ไม่ควรถาม เพราะถือว่าเป็นเรื่องส่วนตัว
+</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 4 -->
+  <thisQuestion>
+    <qNum>id01890:date1627453501</qNum>
+    <question>&lt;strong&gt;Lisa:&lt;/strong&gt; _________________?&lt;br /&gt;
+&lt;strong&gt;James:&lt;/strong&gt; I'm from California.&lt;br /&gt;
+&lt;strong&gt;Lisa:&lt;/strong&gt; Nice to meet you.&lt;br /&gt;
+	</question>
+    <choice_A> Are you from California?</choice_A>
+    <choice_B> Where is California?</choice_B>
+    <choice_C> Where are you from?</choice_C>
+    <choice_D> How is California?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Lisa:&lt;/strong&gt; _________________?&lt;br /&gt;
+	_______&lt;br /&gt;
+&lt;strong&gt;James:&lt;/strong&gt; I'm from California.&lt;br /&gt;
+	ผมมาจากคาลิฟอเนียร์&lt;br /&gt;
+&lt;strong&gt;Lisa:&lt;/strong&gt; Nice to meet you.&lt;br /&gt;
+	ยินดีที่ได้รู้จัก&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Are you from California?&lt;br /&gt;
+คุณมาจากคาลิฟอร์เนียใช่ไหม&lt;br /&gt;
+ถ้าถามอย่างนี้ ต้องตอบว่า Yes หรือ No&lt;br /&gt;&lt;br /&gt;
+
+b. Where is California?&lt;br /&gt;
+คาลิฟอร์เนียอยู่ที่ไหน&lt;br /&gt;
+ถ้าถามอย่างนี้ ต้องตอบว่า It's in America.&lt;br /&gt;&lt;br /&gt;
+
+c. Where are you from? ✔&lt;br /&gt;
+คุณมาจากที่ไหน &lt;br /&gt;&lt;br /&gt;
+
+d. How is California?&lt;br /&gt;
+คาลิฟอร์เนียเป็นอย่างไร	&lt;br /&gt;
+ถ้าถามอย่างนี้ อาจจะตอบว่า It's very nice. ก็ได้&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 5 -->
+  <thisQuestion>
+    <qNum>id01891:date1627453501</qNum>
+    <question>&lt;strong&gt;Mary:&lt;/strong&gt; Excuse me? Are you American?&lt;br /&gt;
+&lt;strong&gt;Roberto:&lt;/strong&gt; No, I am not.&lt;br /&gt;
+&lt;strong&gt;Mary:&lt;/strong&gt;_______________&lt;br /&gt;
+R&lt;strong&gt;oberto:&lt;/strong&gt; A little, but not very well.&lt;br /&gt;
+	</question>
+    <choice_A> Are you speak English?</choice_A>
+    <choice_B> How you speak English?</choice_B>
+    <choice_C> Do you speak English?</choice_C>
+    <choice_D> Are you speaking English?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Mary:&lt;/strong&gt; Excuse me? Are you American?&lt;br /&gt;
+	ขอโทษค่ะ คุณเป็นคนอเมริกันใช่หรือไม่&lt;br /&gt;
+&lt;strong&gt;Roberto:&lt;/strong&gt; No, I am not.&lt;br /&gt;
+	ไม่ใช่ครับ&lt;br /&gt;
+&lt;strong&gt;Mary:&lt;/strong&gt;_______________&lt;br /&gt;
+	_________
+&lt;strong&gt;Roberto:&lt;/strong&gt; A little, but not very well.&lt;br /&gt;
+	ได้นิดหน่อย แต่ไม่ค่อยดี&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ต้องดูที่คำพูดต่อจากช่องว่าง แสดงว่าผู้ถามคงจะถามว่า ทำอะไรได้หรือไม่&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Are you speak English?&lt;br /&gt;
+ผิด เพราะประโยคไม่ถูกต้อง ใช้ Are you speak... ไม่ได้ ต้องเป็น Do you speak ...&lt;br /&gt;&lt;br /&gt;
+
+b. How you speak English?&lt;br /&gt;
+ผิด เพราะประโยคไม่ถูกต้อง ที่ข้อถูกถามว่า How do you speak ....&lt;br /&gt;&lt;br /&gt;
+
+c. Do you speak English? ✔&lt;br /&gt;
+คุณพูดอังกฤษหรือเปล่า &lt;br /&gt;&lt;br /&gt;
+
+d. Are you speaking English?&lt;br /&gt;
+คุณกำลังพูดภาษาอังกฤษอยู่ใช่หรือไม่&lt;br /&gt;
+ยังไม่ถูกเพราะไม่น่าจะถาม ถ้าจะถามก็ต่อเมื่อฟังไม่รู้เรื่องเลย ไม่รู้ว่าพูดภาษาอะไร&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 6 -->
+  <thisQuestion>
+    <qNum>id01892:date1627453501</qNum>
+    <question>&lt;strong&gt;Suda:&lt;/strong&gt; How do you like Thailand?&lt;br /&gt;
+&lt;strong&gt;Robert:&lt;/strong&gt; Very much. People are nice.&lt;br /&gt;
+&lt;strong&gt;Suda:&lt;/strong&gt; __________&lt;br /&gt;
+&lt;strong&gt;Robert:&lt;/strong&gt; 2 months.&lt;br /&gt;
+	</question>
+    <choice_A> How many people did you see?</choice_A>
+    <choice_B> How much do you like Thailand?</choice_B>
+    <choice_C> How long have you been here?</choice_C>
+    <choice_D> How good are Thai people?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Suda:&lt;/strong&gt; How do you like Thailand?&lt;br /&gt;
+	คุณชอบเมืองไทยอย่างไร&lt;br /&gt;
+&lt;strong&gt;Robert:&lt;/strong&gt; Very much. People are nice.&lt;br /&gt;
+	ชอบมาก คนไทยดี น่ารัก&lt;br /&gt;
+&lt;strong&gt;Suda:&lt;/strong&gt; __________&lt;br /&gt;
+	_______&lt;br /&gt;
+&lt;strong&gt;Robert:&lt;/strong&gt; 2 months.&lt;br /&gt;
+	เป็นเวลา 2 เดือน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. How many people did you see?&lt;br /&gt;
+คุณได้พบคนกี่คน&lt;br /&gt;&lt;br /&gt;
+
+b. How much do you like Thailand?&lt;br /&gt;
+คุณชอบเมืองไทยมากแค่ไหน&lt;br /&gt;&lt;br /&gt;
+
+c. How long have you been here? ✔&lt;br /&gt;
+คุณมาที่นี่นานเท่าไร&lt;br /&gt;
+คำตอบเต็ม ๆ คือ I have been here for two months.&lt;br /&gt;&lt;br /&gt;
+
+d. How good are Thai people?&lt;br /&gt;
+คนไทยดีอย่างไร&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 7 -->
+  <thisQuestion>
+    <qNum>id01893:date1627453500</qNum>
+    <question>&lt;strong&gt;Suda:&lt;/strong&gt; What do you do for work?&lt;br /&gt;
+&lt;strong&gt;Robert:&lt;/strong&gt; I'm a student. __________&lt;br /&gt;
+&lt;strong&gt;Suda:&lt;/strong&gt; I'm a student, too.&lt;br /&gt;
+	</question>
+    <choice_A> How are you?</choice_A>
+    <choice_B> How about you?</choice_B>
+    <choice_C> Are you a student?</choice_C>
+    <choice_D> How do you do?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Suda:&lt;/strong&gt; What do you do for work?&lt;br /&gt;
+	คุณทำงานอะไร&lt;br /&gt;
+&lt;strong&gt;Robert:&lt;/strong&gt; I'm a student. __________&lt;br /&gt;
+	ผมเป็นนักศึกษา __________&lt;br /&gt;
+&lt;strong&gt;Suda:&lt;/strong&gt; I'm a student, too.&lt;br /&gt;
+	ฉันก็เป็นนักศึกษาเหมือนกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. How are you?&lt;br /&gt;
+สบายดีหรือ&lt;br /&gt;
+
+b. How about you? ✔&lt;br /&gt;
+แล้วคุณล่ะ &lt;br /&gt;&lt;br /&gt;
+
+c. Are you a student?&lt;br /&gt;
+คุณเป็นนักศึกษาใช่ใหม&lt;br /&gt;
+คำตอบน่าจะเป็นการรับว่า ใช่ หรือไม่ใช่&lt;br /&gt;&lt;br /&gt;
+
+d. How do you do?&lt;br /&gt;
+ยินดีที่ได้รู้จัก&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ไวยากรณ์น่ารู้&lt;/strong&gt;&lt;br /&gt;
+การถามเกี่ยวกับอาชีพ ให้ถามเป็น Present Simple Tense &lt;br /&gt;
+What do you do? = โดยปกติคุณทำอะไร คุณทำอะไรเป็นประจำ(หมายถึง ทำงานอะไร)&lt;br /&gt;
+What are you doing? = ในตอนนี้ คุณกำลังทำอะไร&lt;br /&gt;
+How do you do? = ใช้พูดเมื่อได้รับการแนะนำให้รู้จักกัน คำตอบมักจะเป็น How do you do? เหมือนกัน&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 8 -->
+  <thisQuestion>
+    <qNum>id01894:date1627453500</qNum>
+    <question>&lt;strong&gt;Amy:&lt;/strong&gt; Excuse me? ___________&lt;br /&gt;
+&lt;strong&gt;Suda:&lt;/strong&gt; Yes. You can take an airport-link at Phaya-thai station.&lt;br /&gt;
+	</question>
+    <choice_A>Where can I take the airport-link to the airport?</choice_A>
+    <choice_B>Do you know how can I get to the airport?</choice_B>
+    <choice_C>Where is the Phaya-thai station to the airport?</choice_C>
+    <choice_D>How far is it from Phaya-thai station to the airport?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Amy:&lt;/strong&gt; Excuse me? ___________&lt;br /&gt;
+	ขอโทษค่ะ _________&lt;br /&gt;
+&lt;strong&gt;Suda:&lt;/strong&gt; Yes. You can take an airport-link at Phaya-thai station.&lt;br /&gt;
+	รู้ค่ะ คุณไปขึ้นแอร์พอตลิงค์ ที่สถานีพญาไท&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Where can I take the airport-link to the airport?&lt;br /&gt;
+ฉันจะขึ้นแอร์พอตลิงค์ไปสนามบินได้ที่ไหน&lt;br /&gt;&lt;br /&gt;
+
+b. Do you know how can I get to the airport? ✔&lt;br /&gt;
+คุณรู้ไหมว่า ฉันจะไปสนามบินได้อย่างไร &lt;br /&gt;&lt;br /&gt;
+
+c. Where is the Phaya-thai station to the airport?&lt;br /&gt;
+สถานีพญาไทไปสนามบิน อยู่ที่ไหน&lt;br /&gt;&lt;br /&gt;
+
+d. How far is it from Phaya-thai station to the airport?&lt;br /&gt;
+สถานีพญาไท ไกลจากสนามบินเท่าไร&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 9 -->
+  <thisQuestion>
+    <qNum>id01895:date1627453500</qNum>
+    <question>&lt;strong&gt;Amy:&lt;/strong&gt; _____________ I don't see it.&lt;br /&gt;
+&lt;strong&gt;Suda:&lt;/strong&gt; Across the street.&lt;br /&gt;
+&lt;strong&gt;Amy:&lt;/strong&gt; Oh! I see it now.&lt;br /&gt;
+	</question>
+    <choice_A>Where is Phaya-thai station?</choice_A>
+    <choice_B>How can I get to Phaya-thai station?</choice_B>
+    <choice_C>How far is Phaya-thai station?</choice_C>
+    <choice_D>What is Phaya-thai station?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Amy:&lt;/strong&gt; _____________ I don't see it.&lt;br /&gt;
+	__________ ฉันไม่เห็น&lt;br /&gt;
+&lt;strong&gt;Suda:&lt;/strong&gt; Across the street.&lt;br /&gt;
+	ฝั่งตรงข้ามถนน&lt;br /&gt;
+&lt;strong&gt;Amy:&lt;/strong&gt; Oh! I see it now.&lt;br /&gt;
+	อ้อ เห็นแล้ว&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. Where is Phaya-thai station? ✔&lt;br /&gt;
+สถานีพญาไท อยู่ที่ไหน&lt;br /&gt;&lt;br /&gt;
+
+b. How can I get to Phaya-thai station?&lt;br /&gt;
+ฉันจะไปสถานีพญาไท ได้อย่างไร&lt;br /&gt;&lt;br /&gt;
+
+c. How far is Phaya-thai station?&lt;br /&gt;
+สถานีพญาไท อยู่ไกลแค่ไหน&lt;br /&gt;&lt;br /&gt;
+
+d. What is Phaya-thai station?&lt;br /&gt;
+สถานีพญาไท คืออะไร&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <!-- 10 -->
+  <thisQuestion>
+    <qNum>id01896:date1627453500</qNum>
+    <question>&lt;strong&gt;Susan:&lt;/strong&gt; David, _______________&lt;br /&gt;
+&lt;strong&gt;David:&lt;/strong&gt; Yes, I'd like some coffee.&lt;br /&gt;
+	</question>
+    <choice_A>would you like to eat?</choice_A>
+    <choice_B>do you want to eat something?</choice_B>
+    <choice_C>would you like something to drink?</choice_C>
+    <choice_D>do you like some coffee?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Susan:&lt;/strong&gt; David, _______________&lt;br /&gt;
+	เดวิท ____________&lt;br /&gt;
+&lt;strong&gt;David:&lt;/strong&gt; Yes, I'd like some coffee.&lt;br /&gt;
+	ใช่ ผมขอกาแฟ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. would you like to eat?&lt;br /&gt;
+คุณต้องการกินใช่ไหม&lt;br /&gt;&lt;br /&gt;
+
+b. do you want to eat something?&lt;br /&gt;
+คุณต้องการกินอะไรใช่ไหม&lt;br /&gt;&lt;br /&gt;
+
+c. would you like something to drink? ✔&lt;br /&gt;
+คุณต้องการดื่มอะไรไหม&lt;br /&gt;&lt;br /&gt;
+
+d. do you like some coffee?	&lt;br /&gt;
+ข้อนี้ผิดเพราะ เราไม่ใช้ do you like เพื่อเป็นการเสนอ หรือ การขอร้อง &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ไวยากรณ์&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+Would you like .....? ใช้สำหรับพูดเพื่อเสนอบางสิ่งบางอย่าง หรือ ร้องขออะไรบางอย่าง เป็นคำพูดที่สุภาพ เช่น&lt;br /&gt;
+Would you like a biscuit with your coffee?&lt;br /&gt;
+คุณต้องการบิสกิตกินกับกาแฟไหมคะ/ครับ&lt;br /&gt;&lt;br /&gt;
+
+Would you like + กริยาที่มี to เช่น&lt;br /&gt;
+Would you like to go to the movie?&lt;br /&gt;&lt;br /&gt;
+
+ดูเพิ่มเติมที่ &lt;br /&gt;
+http://www.thongjoon.com/2016/04/do-you-like-vs-would-you-like.html
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 11 -->
+  <thisQuestion>
+    <qNum>id01897:date1627453500</qNum>
+    <question>&lt;strong&gt;David:&lt;/strong&gt; Can I have some coffee?&lt;br /&gt;
+&lt;strong&gt;Susan:&lt;/strong&gt; Sorry. I don't have any.&lt;br /&gt;
+&lt;strong&gt;David:&lt;/strong&gt; ___________ I'll have a glass of water.&lt;br /&gt;
+&lt;strong&gt;Susan:&lt;/strong&gt; Sure. Here you go.&lt;br /&gt;
+	</question>
+    <choice_A>You're welcome.</choice_A>
+    <choice_B>It's my pleasure.</choice_B>
+    <choice_C>Don't mention it.</choice_C>
+    <choice_D>That's OK.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;David:&lt;/strong&gt; Can I have some coffee?&lt;br /&gt;
+	ผมขอกาแฟหน่อยได้ไหมครับ&lt;br /&gt;
+&lt;strong&gt;Susan:&lt;/strong&gt; Sorry. I don't have any.&lt;br /&gt;
+	แย่จริง ฉันไม่มีกาแฟ&lt;br /&gt;
+&lt;strong&gt;David:&lt;/strong&gt; ___________ I'll have a glass of water.&lt;br /&gt;
+	_____ งั้น ขอเป็นน้ำเปล่าแก้วนึง&lt;br /&gt;
+&lt;strong&gt;Susan:&lt;/strong&gt; Sure. Here you go.&lt;br /&gt;
+	นี่ค่ะ&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. You're welcome.&lt;br /&gt;
+คำนี้ใช้ตอบรับคำขอบคุณ เช่น&lt;br /&gt;
+A: Thank you for the drive.&lt;br /&gt;
+B: You're welcome.&lt;br /&gt;&lt;br /&gt;
+
+b. It's my pleasure.&lt;br /&gt;
+คำนี้ใช้ตอบรับคำขอบคุณ ทำนองว่า ด้วยความยินดี&lt;br /&gt;&lt;br /&gt;
+
+c. Don't mention it.&lt;br /&gt;
+ใช้สำหรับการตอบรับคำขอบคุณ&lt;br /&gt;&lt;br /&gt;
+
+d. That's OK. ✔&lt;br /&gt;
+ไม่เป็นไร &lt;br /&gt;&lt;br /&gt;
+
+ดูเพิ่มเติมที่ &lt;br /&gt;
+http://www.thongjoon.com/2016/04/it-doesnt-matter-dont-mention-it.html
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 12 -->
+  <thisQuestion>
+    <qNum>id01898:date1627453500</qNum>
+    <question>&lt;strong&gt;Richard:&lt;/strong&gt; Mary, would you like to get something to eat with me?&lt;br /&gt;
+&lt;strong&gt;Mary:&lt;/strong&gt; Yes. When?&lt;br /&gt;
+&lt;strong&gt;Richard:&lt;/strong&gt; ______ &lt;br /&gt;
+&lt;strong&gt;Mary:&lt;/strong&gt; All right. See you then.&lt;br /&gt;
+	</question>
+    <choice_A>At Big-C.</choice_A>
+    <choice_B>At five this evening.</choice_B>
+    <choice_C>What time do you want to see me?</choice_C>
+    <choice_D>Is it all right if I will be a little late?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Richard:&lt;/strong&gt; Mary, would you like to get something to eat with me?&lt;br /&gt;
+	แมรี่ จะออกไปทานอะไรกับผมไหม&lt;br /&gt;
+&lt;strong&gt;Mary:&lt;/strong&gt; Yes. When?&lt;br /&gt;
+	ได้ เมื่อไรล่ะ&lt;br /&gt;
+&lt;strong&gt;Richard:&lt;/strong&gt; _______&lt;br /&gt;
+	_______&lt;br /&gt;
+&lt;strong&gt;Mary:&lt;/strong&gt; All right. See you then.&lt;br /&gt;
+	ตกลง แล้วเจอกัน (ตามที่นัด)&lt;br /&gt;&lt;br /&gt;
+
+จากบทสนทนา ข้อความที่ขาดหายไปต้องเกี่ยวกับ วัน/เวลา จึงจะได้ความหมาย&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;	
+	
+a. At Big-C.&lt;br /&gt;
+ที่บิกซี&lt;br /&gt;&lt;br /&gt;
+
+b. At five this evening. ✔&lt;br /&gt;
+5 โมงเย็นนี้ &lt;br /&gt;
+
+c. What time do you want to see me?&lt;br /&gt;
+คุณต้องการพบฉันเวลาอะไร&lt;br /&gt;
+
+d. Is it all right if I will be a little late?&lt;br /&gt;
+จะเป็นไรไหม ถ้าผมมาช้านิดหน่อย&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 13 -->
+  <thisQuestion>
+    <qNum>id01899:date1627453500</qNum>
+    <question>&lt;strong&gt;Waitress:&lt;/strong&gt; Hello, sir. Would you like to order now?&lt;br /&gt;
+&lt;strong&gt;Charles:&lt;/strong&gt; Yes please.&lt;br /&gt;
+&lt;strong&gt;Waitress:&lt;/strong&gt; What would you like to drink?&lt;br /&gt;
+&lt;strong&gt;Chales:&lt;/strong&gt; ______________.&lt;br /&gt;
+&lt;strong&gt;Waitress:&lt;/strong&gt; We have bottled water, juice and Coke.&lt;br /&gt;
+	</question>
+    <choice_A>I'll have a small Coke, please.</choice_A>
+    <choice_B>Do you have bottled water?</choice_B>
+    <choice_C>I would like some juce and Coke.</choice_C>
+    <choice_D>What do you have?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Waitress:&lt;/strong&gt; Hello, sir. Would you like to order now?&lt;br /&gt;
+	สวัสดีครับ/ค่ะ คุณต้องการสั่งอาหารหรือยังครับ/คะ&lt;br /&gt;
+&lt;strong&gt;Charles:&lt;/strong&gt; Yes, please.&lt;br /&gt;
+	สั่งเลย&lt;br /&gt;
+&lt;strong&gt;Waitress:&lt;/strong&gt; What would you like to drink?&lt;br /&gt;
+	ต้องการเครื่องดื่มอะไรครับ/คะ&lt;br /&gt;
+&lt;strong&gt;Charles:&lt;/strong&gt; ______________.&lt;br /&gt;
+	_____.&lt;br /&gt;
+&lt;strong&gt;Waitress:&lt;/strong&gt; We have bottled water, juice and Coke&lt;br /&gt;
+	เรามีน้ำเปล่าบรรจุขวด น้ำผลไม้ และโค้ก&lt;br /&gt;&lt;br /&gt;
+
+จากบทสนทนา Charles น่าจะถามว่า มีเครื่องดื่มอะไร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. I'll have a small Coke, please.&lt;br /&gt;
+ผมขอโค้กแก้วเล็กนะครับ&lt;br /&gt;&lt;br /&gt;
+
+b. Do you have bottled water?&lt;br /&gt;
+คุณมีน้ำเปล่าบรรจุขวดหรือไม่&lt;br /&gt;&lt;br /&gt;
+
+c. I would like some juce and Coke.&lt;br /&gt;
+ผมขอน้ำผลไม้คั้น และโค้ก&lt;br /&gt;&lt;br /&gt;
+
+d. What do you have? ✔&lt;br /&gt;
+คุณมี(เครื่องดื่ม)อะไร &lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 14 -->
+  <thisQuestion>
+    <qNum>id01900:date1627453500</qNum>
+    <question>&lt;strong&gt;Waitress:&lt;/strong&gt; ______________________&lt;br /&gt;
+&lt;strong&gt;Charles:&lt;/strong&gt; I'll have a tuna sandwich and a bowl of vegetable soup.&lt;br /&gt;
+	</question>
+    <choice_A>What would you like to drink?</choice_A>
+    <choice_B>What would you like to eat?</choice_B>
+    <choice_C>What would you like to say?</choice_C>
+    <choice_D>What would you like to do?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Waitress:&lt;/strong&gt; ____________&lt;br /&gt;
+	__________&lt;br /&gt;
+&lt;strong&gt;Charles:&lt;/strong&gt; I'll have a tuna sandwich and a bowl of vegetable soup.&lt;br /&gt;
+	ผมขอเป็นแซนวิชทูน่า และซุปผัก 1 ถ้วย&lt;br /&gt;&lt;br /&gt;
+
+จากบทสนทนา พนักงานบริการคงจะถามว่า จะสั่งอาหารอะไร&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. What would you like to drink?&lt;br /&gt;
+คุณจะดื่มเครื่องดื่มอะไร&lt;br /&gt;&lt;br /&gt;
+
+b. What would you like to eat?  ✔&lt;br /&gt;
+คุณจะรับประทานอะไร &lt;br /&gt;&lt;br /&gt;
+
+c. What would you like to say?&lt;br /&gt;
+คุณต้องการจะพูดอะไร&lt;br /&gt;&lt;br /&gt;
+
+d. What would you like to do?&lt;br /&gt;
+คุณต้องการจะทำอะไร&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 15 -->
+  <thisQuestion>
+    <qNum>id01901:date1627453500</qNum>
+    <question>&lt;strong&gt;Susan:&lt;/strong&gt; Hi, Chris. Where are you going?&lt;br /&gt;
+&lt;strong&gt;Chris:&lt;/strong&gt; I'm going to Lotus. I need to buy something.&lt;br /&gt;
+&lt;strong&gt;Susan:&lt;/strong&gt; Really? _______________.&lt;br /&gt;
+&lt;strong&gt;Chris:&lt;/strong&gt; Would you like to come with me?&lt;br /&gt;
+&lt;strong&gt;Susan:&lt;/strong&gt; Yeah, let's go together.&lt;br /&gt;
+	</question>
+    <choice_A>I'm going to Bic C.</choice_A>
+    <choice_B>Can I go with you?</choice_B>
+    <choice_C>I want to go there, too.</choice_C>
+    <choice_D>What do you want to buy?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Susan:&lt;/strong&gt; Hi, Chris. Where are you going?&lt;br /&gt;
+	หวัดดี คริส กำลังจะไปไหน&lt;br /&gt;
+&lt;strong&gt;Chris:&lt;/strong&gt; I'm going to Lotus. I need to buy something.&lt;br /&gt;
+	จะไปห้างโลตัส จะไปซื้ออะไรหน่อย&lt;br /&gt;
+&lt;strong&gt;Susan:&lt;/strong&gt; Really? _______________.&lt;br /&gt;
+	จริงหรือ _______&lt;br /&gt;
+&lt;strong&gt;Chris:&lt;/strong&gt; Would you like to come with me?&lt;br /&gt;
+	ต้องการไปด้วยกันไหม&lt;br /&gt;
+&lt;strong&gt;Susan:&lt;/strong&gt; Yeah, let's go together.&lt;br /&gt;
+	ดี ไปด้วยกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. I'm going to Bic-C.&lt;br /&gt;
+ฉันกำลังไปบิกซี&lt;br /&gt;&lt;br /&gt;
+
+b. Can I go with you?&lt;br /&gt;
+ฉันไปด้วยได้ไหม&lt;br /&gt;&lt;br /&gt;
+
+c. I want to go there, too.  ✔&lt;br /&gt;
+ฉันต้องการไปที่นั่นเหมือนกัน &lt;br /&gt;&lt;br /&gt;
+
+d. What do you want to buy?&lt;br /&gt;
+คุณต้องการจะไปซื้ออะไร&lt;br /&gt;&lt;br /&gt;
+	
+&lt;strong&gt;ไวยากรณ์&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+การใช้ too ใช้แสดงความสอดคล้องกับประโยคก่อนหน้านี้ ประโยคก่อนหน้านี้ ต้องเป็นประโยคบอกเล่า ถ้าเป็นประโยคปฏิเสธ จะใช้คำว่า neither ตัวอย่าง&lt;br /&gt;&lt;br /&gt;
+
+Suda saw the movie. Her sister saw it too.&lt;br /&gt;
+สุดาดูหนังเรื่องนั้นแล้ว น้องสาวของเธอก็ดูแล้วเหมือนกัน&lt;br /&gt;&lt;br /&gt;
+
+Suda didn't say anything about the movie. Neither did her sister.&lt;br /&gt;
+สุดาไม่ได้พูดอะไรเกี่ยวกับหนังเรื่องนั้นเลย น้องของเธอก็ไม่ได้พูดอะไรเช่นกัน&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id01902:date1627453500</qNum>
+    <question>&lt;strong&gt;Karen:&lt;/strong&gt; Hello, Richard. How have you been?&lt;br /&gt;
+&lt;strong&gt;Richard:&lt;/strong&gt; Not too good.&lt;br /&gt;
+&lt;strong&gt;Karen:&lt;/strong&gt; Why?&lt;br /&gt;
+&lt;strong&gt;Richard:&lt;/strong&gt; I'm sick.&lt;br /&gt;
+&lt;strong&gt;Karen:&lt;/strong&gt; ___________________&lt;br /&gt;
+</question>
+    <choice_A>I'm glad to hear that.</choice_A>
+    <choice_B>Congratulations!</choice_B>
+    <choice_C>I'm so sory. I didn't mean it.</choice_C>
+    <choice_D>Sorry to hear that.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Karen:&lt;/strong&gt; Hello, Richard. How have you been?&lt;br /&gt;
+	สวัสดีริชาร์ด เป็นไงบ้าง&lt;br /&gt;
+&lt;strong&gt;Richard:&lt;/strong&gt; Not too good.&lt;br /&gt;
+	ไม่ค่อยดีเลย&lt;br /&gt;
+&lt;strong&gt;Karen:&lt;/strong&gt; Why?&lt;br /&gt;
+	ทำไม&lt;br /&gt;
+&lt;strong&gt;Richard:&lt;/strong&gt; I'm sick.&lt;br /&gt;
+	ผมป่วย ไม่สบาย&lt;br /&gt;
+&lt;strong&gt;Karen:&lt;/strong&gt; ___________________&lt;br /&gt;
+	___________&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. I'm glad to hear that.&lt;br /&gt;
+ดีใจจังที่ได้ยินเช่นนั้น&lt;br /&gt;&lt;br /&gt;
+
+b. Congratulations!&lt;br /&gt;
+ขอแสดงความยินดีด้วย&lt;br /&gt;&lt;br /&gt;
+
+c. I'm so sory. I didn't mean it.&lt;br /&gt;
+ขอแสดงความเสียใจด้วย ฉันไม่ได้ตั้งใจ&lt;br /&gt;&lt;br /&gt;
+
+d. Sorry to hear that.  ✔&lt;br /&gt;
+เสียใจด้วย &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;เรื่องน่ารู้&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เมื่อได้ยินข่าวที่ไม่ค่อยดี โดยธรรมเนียมจะต้องพูดแสดงความเสียใจด้วย เช่น &lt;br /&gt;
+	- I am sorry to hear that.&lt;br /&gt;
+	- That must have been awful.&lt;br /&gt;
+	- Oh no…&lt;br /&gt;
+	- Oh no. I’m so sorry to hear that.&lt;br /&gt;
+	- That’s rough. เป็นต้น&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 17 -->
+  <thisQuestion>
+    <qNum>id01903:date1627453500</qNum>
+    <question>&lt;strong&gt;Micheal:&lt;/strong&gt; Robert, this is my friend, Mrs. Smith.&lt;br /&gt;
+&lt;strong&gt;Robert:&lt;/strong&gt; Hi. Nice to meet you.&lt;br /&gt;
+&lt;strong&gt;Mrs.Smith:&lt;/strong&gt; _____________&lt;br /&gt;
+	</question>
+    <choice_A>How are you?</choice_A>
+    <choice_B>How have you been?</choice_B>
+    <choice_C>Nice to meet you, too.</choice_C>
+    <choice_D>Hi. What are you up to?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Micheal:&lt;/strong&gt; Robert, this is my friend, Mrs. Smith.&lt;br /&gt;
+	โรเบิรต์ นี่เพื่อนผม คุณสมิธ&lt;br /&gt;
+&lt;strong&gt;Robert:&lt;/strong&gt; Hi. Nice to meet you.&lt;br /&gt;
+	ยินดีที่ได้รู้จัก&lt;br /&gt;
+&lt;strong&gt;Mrs.Smith:&lt;/strong&gt; _____________&lt;br /&gt;
+	___________&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. How are you?&lt;br /&gt;
+เป็นอย่างไรบ้าง&lt;br /&gt;&lt;br /&gt;
+
+b. How have you been?&lt;br /&gt;
+ที่แล้วมาเป็นอย่างไรบ้าง&lt;br /&gt;&lt;br /&gt;
+
+c. Nice to meet you, too.  ✔&lt;br /&gt;
+ยินดีที่ได้รู้จักคุณ เช่นกัน&lt;br /&gt;&lt;br /&gt;
+
+d. Hi. What are you up to?&lt;br /&gt;
+หวัดดี กำลังทำอะไรช่วงนี้&lt;br /&gt;&lt;br /&gt;
+</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 18 -->
+  <thisQuestion>
+    <qNum>id01904:date1627453500</qNum>
+    <question>&lt;strong&gt;Robert:&lt;/strong&gt; Mrs.Smith, _____&lt;br /&gt;
+&lt;strong&gt;Mrs.Smith:&lt;/strong&gt; I'm a doctor.&lt;br /&gt;
+	</question>
+    <choice_A>what do you do for work?</choice_A>
+    <choice_B>how's your work going?</choice_B>
+    <choice_C>how's everything?</choice_C>
+    <choice_D>how do you do?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Robert:&lt;/strong&gt; Mrs.Smith, ____________&lt;br /&gt;
+	คุณสมิธ _______&lt;br /&gt;
+&lt;strong&gt;Mrs.Smith:&lt;/strong&gt; I'm a doctor.&lt;br /&gt;
+	ฉันเป็นหมอ&lt;br /&gt;&lt;br /&gt;
+
+จากบทสนทนา เข้าใจว่า Robert คงถามเกี่ยวกับอาชีพของ Mrs.Smith&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. what do you do for work? ✔&lt;br /&gt;
+คุณทำงานอะไร &lt;br /&gt;&lt;br /&gt;
+
+b. how's your work going?&lt;br /&gt;
+งานของคุณเป็นอย่างไรบ้าง (เจริญก้าวหน้าดี หรือมีปัญหาอย่างไร)&lt;br /&gt;&lt;br /&gt;
+
+c. how's everything?&lt;br /&gt;
+เป็นอย่างไรบ้าง (ทุกเรื่อง)&lt;br /&gt;&lt;br /&gt;
+
+d. How do you do?&lt;br /&gt;
+ใช้พูดเมื่อได้รับการแนะนำให้รู้จักกัน เช่น&lt;br /&gt;&lt;br /&gt;
+
+Suda: Pibun, this is Jack. Jack, this is Pibun.&lt;br /&gt;
+Pibun: How do you do?&lt;br /&gt;
+Jack: How do you do? Nice to meet you.&lt;br /&gt;&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 19 -->
+  <thisQuestion>
+    <qNum>id01905:date1627453500</qNum>
+    <question> In a department store&lt;br /&gt;
+&lt;strong&gt;Malee:&lt;/strong&gt; Hello sir, may I help you?&lt;br /&gt;
+&lt;strong&gt;&lt;strong&gt;Dan:&lt;/strong&gt;&lt;/strong&gt; Yes. Can I see that shirt, please?&lt;br /&gt;
+&lt;strong&gt;Malee:&lt;/strong&gt; Sure. Here it is.&lt;br /&gt;
+&lt;strong&gt;&lt;strong&gt;Dan:&lt;/strong&gt;&lt;/strong&gt; ____________&lt;br /&gt;
+&lt;strong&gt;Malee:&lt;/strong&gt; 200 Baht.&lt;br /&gt;
+&lt;strong&gt;&lt;strong&gt;Dan:&lt;/strong&gt;&lt;/strong&gt; I'll take two.&lt;br /&gt;	
+	</question>
+    <choice_A>What size is it?</choice_A>
+    <choice_B>How much does it cost?</choice_B>
+    <choice_C>What is it made of?</choice_C>
+    <choice_D>Is it hand-made?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Malee:&lt;/strong&gt; Hello sir, may I help you?&lt;br /&gt;
+	สวัสดีค่ะ มีอะไรให้ช่วยไหมคะ&lt;br /&gt;
+&lt;strong&gt;Dan:&lt;/strong&gt; Yes. Can I see that shirt, please?&lt;br /&gt;
+	มีครับ ผมขอดูเสื้อตัวนั้นหน่อย&lt;br /&gt;
+&lt;strong&gt;Malee:&lt;/strong&gt; Sure. Here it is.&lt;br /&gt;
+	ได้ค่ะ นี่ค่ะ&lt;br /&gt;
+&lt;strong&gt;Dan:&lt;/strong&gt; ____________&lt;br /&gt;
+	________&lt;br /&gt;
+&lt;strong&gt;Malee:&lt;/strong&gt; 200 Baht.&lt;br /&gt;
+	200 บาท&lt;br /&gt;
+&lt;strong&gt;Dan:&lt;/strong&gt; I'll take two.&lt;br /&gt;
+	ผมซื้อ 2 ตัว&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. What size is it?&lt;br /&gt;
+เบอร์อะไร (ขนาดเสื้อ)&lt;br /&gt;
+ถ้าจะตอบ ต้องตอบเช่น Size M.&lt;br /&gt;&lt;br /&gt;
+
+b. How much does it cost? ✔&lt;br /&gt;
+ราคาเท่าไร&lt;br /&gt;&lt;br /&gt;
+
+c. What is it made of?&lt;br /&gt;
+มันทำจากอะไร&lt;br /&gt;
+คำตอบเช่น &lt;br /&gt;
+It's made of cotton. (ทำจากฝ้าย)&lt;br /&gt;&lt;br /&gt;
+
+d. Is it hand-made?&lt;br /&gt;
+เป็นเสื้อทำด้วยมือใช่หรือไม่&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;การถามราคาสิ่งของ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+การถามราคาสินค้า อาจจะใช้สำนวน ต่อไปนี้&lt;br /&gt;
+	-How much is it?
+	-How much is this?
+	-How much does it cost ? 
+	-What's the price of ...?	
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+  <!-- 20 -->
+  <thisQuestion>
+    <qNum>id01906:date1627453500</qNum>
+    <question>&lt;strong&gt;&lt;strong&gt;Paul:&lt;/strong&gt;&lt;/strong&gt; Hello, I'm looking for First Hotel. __________ &lt;br /&gt;
+&lt;strong&gt;Lucy:&lt;/strong&gt; Sure. It's down this street on the left.&lt;br /&gt;
+	</question>
+    <choice_A>How far is it from here?</choice_A>
+    <choice_B>Should I walk or take a taxi?</choice_B>
+    <choice_C>Do you know where it is?</choice_C>
+    <choice_D>How can I get there?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt;Paul:&lt;/strong&gt; Hello, I'm looking for First Hotel. ______ &lt;br /&gt;
+	สวัสดีครับ ผมกำลังหาโรงแรมเฟริสท์ ______&lt;br /&gt;
+&lt;strong&gt;Lucy:&lt;/strong&gt; Sure. It's down this street on the left.&lt;br /&gt;
+	แน่นอน อยู่บนถนนนี้ไปไม่ไกล อยู่ซ้ายมือ&lt;br /&gt;&lt;br /&gt;
+
+คำว่า down the street หมายถึงอยู่ใกล้	ๆ บนถนนเดียวกันนี่แหละ โดยทั่วไปมีความหมายเดียวกับ up the street เช่น&lt;br /&gt;&lt;br /&gt;
+
+A: Where is the new movie theater?&lt;br /&gt;
+B: It’s right up the street from the Japanese restaurant. หรือ&lt;br /&gt;
+	It’s just down the street from the Japanese restaurant. ก็ได้&lt;br /&gt;
+	อยู่ใกล้กับร้านอาหารญี่ปุ่น บนถนนเดียวกัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;ตัวเลือกคำตอบ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+a. How far is it from here?&lt;br /&gt;
+ไกลจากที่นี่ไหม&lt;br /&gt;
+คำตอบน่าจะเป็นระยะทาง เช่น About 500 meters. หรือ Very far from here. เป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+b. Should I walk or take a taxi?&lt;br /&gt;
+ผมควรเดินหรือไปแท็กซี่ (ไม่เกี่ยวกับเรื่อง)&lt;br /&gt;&lt;br /&gt;
+
+c. Do you know where it is? ✔&lt;br /&gt;
+คุณทราบไหมว่าอยู่ที่ไหน &lt;br /&gt;&lt;br /&gt;
+
+d. How can I get there?&lt;br /&gt;
+จะไปที่นั่นได้อย่างไร &lt;br /&gt;
+คำถามนี้ความจริงใช้ได้ แต่จากคำตอบ Lucy บอกว่า Sure แสดงว่ามีคำถามอะไรที่ตอบ Yes/No ดังนั้น Paul คงไม่ได้ถามคำถามนี้แน่นอน&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+  </thisQuestion>
+</exams>
+
+

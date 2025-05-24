@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+
+
+    <title>Document</title>
+</head>
+<!--
+<body onload="manageNewLabel();">
+-->
+<body>
+<!--
+<div id="abc" style="display:block">abc place holder</div>
+<div id="isBought" style="display:block">xxfalsexx</div>
+<div id="a1" style="display:block">a place holder</div>
+-->
+
+<div id="whereToBegin" style="display:none ">0</div> <!-- เก็บก่อนออกจากไฟล์ จะใช้ตอนเมื่อกลับเข้ามาใหม่-->
+
+<!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <strong>เตรียมสอบ ก.พ.</strong>
+        </div>
+        <div class="modal-body">
+            <p id= "myMessage">Place holder for text..</p>
+            <input type = "button"  value = "เริ่มใหม่"  onclick = "startOver();" />
+            <input  style="float: right;" type = "button"  value = "ทำต่อ"  onclick = "goCont();"/>
+        </div>
+        <div class="modal-footer">
+            https://www.thongjoon.com
+        </div>
+    </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<a name="conver_1"></a>
+
+
+
+<div class="upper" id="myPsgeDIV">
+    <div id="top">
+        <strong>Instruction:</strong> Choose the best answer for each blank.<br><br>
+        <!-- ถ้าต้องการให้แสดง NEW หน้าข้อ ก็เอา div ไปไว้หน้าข้อ ส่วนเวลา คำนวนใหม่ทุกครั้ง เพื่อใช้เป็น id สำหรับอ้างถึงภายหลัง -->
+
+        <!-- id ของบทอ่าน จะขึ้นต้นด้วย a, b, c ... ตามลำดับ ส่วนที่เหลือ จะเหมือน id ของแต่ละข้อ โดยไม่มี "_ต่อด้วยตัวเลขข้อ" เพราะจะเอาไปใช้ เวลากลับมาทำต่อ จะได้ scroll ทั้งข้อ และบทอ่าน ให้ตรงกัน  -->
+
+        <div id="a_lng_Psg1_q_number">  <!--  ชื่อ id สำหรับบทอ่าน ต่างกันที่ตัวแรก คือ เป็น a_ สำหรับ paragraph แรก  b_  สำหรับ paragraph ต่อไป ...  -->
+            <div class="isNew">id1648946378:date1648946379</div>
+            <strong>สำหรับข้อ 1-5</strong><br><br>
+            <div class="conver_container">
+                <div class="conver_item">Interviewer:&ensp;</div>
+                <div class="conver_item">Good afternoon, please have a seat.</div>
+                <div class="conver_item">Interviewee:</div>
+                <div class="conver_item">......(1)....</div>
+                <div class="conver_item">Interviewer:</div>
+                <div class="conver_item">How are you doing?</div>
+                <div class="conver_item">Interviewee:</div>
+                <div class="conver_item">I’m fine, thank you.</div>
+                <div class="conver_item">Interviewer:</div>
+                <div class="conver_item">….(2)…. ?</div>
+                <div class="conver_item">Interviewee:</div>
+                <div class="conver_item">No, sir, I had no trouble at all.</div>
+                <div class="conver_item">Interviewer:</div>
+                <div class="conver_item">Could you tell me a little about your ….(3)….  ?</div>
+                <div class="conver_item">Interviewee:</div>
+                <div class="conver_item">I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.</div>
+                <div class="conver_item">Interviewer:</div>
+                <div class="conver_item">Any post-graduate degrees?</div>
+                <div class="conver_item">Interviewee:</div>
+                <div class="conver_item">Yes, I enrolled in NYU’s master program for journalism and ….(4)….?</div>
+                <div class="conver_item">Interviewer:</div>
+                <div class="conver_item">How about your ….(5)….?</div>
+                <div class="conver_item">Interviewee:</div>
+                <div class="conver_item">After I left NYU, I worked for a year at the Cincinnati Daily.</div>
+                <div class="conver_item"></div>
+                <div class="conver_item"></div>
+                <div class="conver_item"></div>
+            </div>  <!-- end of  div class="conver_container -->
+        </div><br>
+
+        <!-- end of div id="a_lng_Psg1_q_number"  -->
+
+
+        <div id="b_lng_Psg1_q_number">
+
+            <!-- ถ้ามีหลายบทสนทนา ให้ใช้ข้างล่างนี้  -->
+            <!--
+            <div class="isNew">id1608958086:date1653524970</div>
+            <strong>สำหรับ ข้อ 3 - 7</strong><br><br>
+            <div class="indent_15px">
+             จังหวัดอ่างทอง มีลักษณะภูมิประเทศเป็นที่ราบลุ่ม มีแม่น้ำไหลผ่านสองสาย คือ แม่น้ำน้อยและแม่น้ำเจ้าพระยา ชาวบ้านส่วนใหญ่จึงมีอาชีพทำนา ซึ่งต้องพึ่งพาธรรมชาติ ถ้าปีใดฝนตกน้อยหรือมากไป ผลผลิตที่เก็บเกี่ยว ก็จะลดน้อยลง ตามความเสียหายที่เกิดขึ้น
+            </div>
+            <div class="indent_15px">ช่วงปี พ.ศ. 2510 – 2518 เป็นเวลา 8 ปี ติดต่อกันที่ชาวบ้านตำบลบ้านวัดตาล (ภายหลังเปลี่ยนชื่อเป็นตำบลบางเสด็จ) อำเภอป่าโมก ได้รับผลกระทบจากภัยน้ำท่วม จนแทบสิ้นเนื้อประดาตัว พระบาทสมเด็จพระเจ้าอยู่หัว และสมเด็จพระนางเจ้าฯ พระบรมราชินีนาถ จึงเสด็จพระราชทานความช่วยเหลือ แก่ราษฎรผู้ประสบอุทกภัยในปี พ.ศ. 2518
+            </div>
+            <div class="indent_15px">ด้วยพระปรีชาญาณ และพระมหากรุณาธิคุณ ของสมเด็จพระนางเจ้า ฯ ที่ทรงดำริ ให้มีการฝึกฝนอาชีพการปั้นตุ๊กตาชาววัง จากดินเหนียวให้แก่กลุ่มแม่บ้าน ให้ทำเป็นงานอดิเรกเพื่อเพิ่มพูนรายได้ และทรงรับเป็นโครงการในพระบรมราชินูปถัมภ์ โดยในปี พ.ศ. 2519 พระองค์ท่านได้ส่งอาจารย์พร้อมวัสดุอุปกรณ์ทุกอย่างมาสอนที่วัดสระแก้ว สอนสัปดาห์ละ 2 วัน แต่เรียนได้เพียง 3 สัปดาห์ ชาวบ้านเกิดความหวาดกลัวเพราะการปั้นตุ๊กตาชาววังถือเป็นศิลปะชั้นสูง ถ้าเรียนโดยไม่มีการทำพิธียกครูอาจไม่เป็นมงคล ประกอบกับในช่วงเวลานั้น มีลูกเด็กเล็กแดงเจ็บป่วยบ่อย ๆ เมื่อสมเด็จพระเทพรัตนราชสุดา เสด็จมาทำพิธีครอบครู ซึ่งเป็นพิธีกรรมแสดงความเคารพต่อสิ่งศักดิ์สิทธิ์ ชาวบ้านจึงคลายความกังวลลงได้
+            </div>
+            <div class="indent_15px">กรรรมวิธีการปั้นตุ๊กตาชาววัง มีหลายขั้นตอน เริ่มด้วยการเตรียมดิน ซึ่งช่างปั้นต้องเป็นคนไปหาเอง เพื่อให้ดินเหนียว เหมาะกับงานปั้นตุ๊กตา เมื่อเผาออกมาแล้ว จะมีสีแดงสวยงามตามธรรมชาติ ดินที่ได้มานั้น ต้องนำมาละลายน้ำ และผ่านกรองเอาเศษกรวด เศษหิน ออกให้หมดเสียก่อน จึงจะนำมาปั้นได้
+            ด้วยฝีมือที่ชำนาญ ทำให้การปั้นใช้เวลาไม่มาก บางชิ้นส่วน เช่น ศีรษะตุ๊กตา หรือผลไม้ที่มีความละเอียดมาก จะใช้แม่พิมพ์ปูนพาสเตอร์ดินเหนียวออกมา ช่วงที่ยากและทำให้ตุ๊กตาเสียหายมากที่สุด คือการเผา เนื่องจากที่นี่ยังใช้เทคโนโลยีแบบดั้งเดิม จึงต้องควบคุมอุณหภูมิ ให้เหมาะอยู่เป็นวัน ๆ ถ้าเพิ่มความร้อนเร็ว หรือช้าจนเกินไป จะทำให้ตัวตุ๊กตาแตกหัก บางทีเผาเสร็จเหลือตุ๊กตาไม่ถึงครึ่ง
+            </div>
+            <div class="indent_15px">ลงท้ายด้วยการระบายสี ที่ต้องมีการรองพื้นด้วยสีโปสเตอร์ขาวก่อน ตามด้วยสีน้ำมันขาวอีกที ก่อนจะระบายเสื้อผ้า และวาดหน้าตาได้ แต่ละขั้นตอนมีกระบวนการที่จุกจิก ยุ่งยาก ต้องพิถีพิถัน ทำให้เสียเวลามาก คนทำต้องอดทนและใจเย็น
+            </div>
+            <div class="indent_15px">ตุ๊กตาชาววัง นอกจากจะทำตามขั้นตอนตอนข้างต้นแล้ว ยังมีการปั้นอีกแบบหนึ่งที่เรียกว่า การปั้นเหมือนจริง ซึ่งจะมีความละเอียดเหมือนคนจริง ๆ มากกว่า สีผิวจะเป็นสีของดินเผาแท้ จะลงสีเฉพาะเสื้อผ้าเท่านั้น ใบหน้าก็จะไม่มีการหล่อพิมพ์ แต่จะใช้อุปกรณ์แกะเป็นหน้าตา ตุ๊กตาแบบนี้จะแพงกว่าแบบแรก เพราะมีกรรมวิธียากกว่ามาก<br><br></div>
+            </div>
+            -->
+            <!-- end of div id="b_lng_Psg1_q_number"  -->
+
+            <!--
+                  <div id="c_lng_Psg1_q_number">
+                      <div class="isNew">id1612854423:date1653524970</div>
+                      <strong>สำหรับข้อ 8-11</strong><br><br>
+
+                      หนังสือหรือข้อเขียนใด ๆ คือ สิ่งที่มนุษย์เขียนขึ้น การเขียนจึงหมายถึง สิ่งที่มนุษย์คิดออกมาเป็นตัวอักษร  มนุษย์เขียนอะไร คำตอบ คือ มนุษย์เขียนสิ่งที่ตนเองรู้หรือคิด ถ้าอย่างนั้น การอ่านคืออะไร การอ่าน คือ ความหมายที่จะถ่ายทอดสิ่งที่มนุษย์เขียนไว้กลับออกมาเป็นความคิด เมื่อพิจารณาอย่างนี้แล้ว ย่อมเห็นว่า การอ่านกับการเขียน เป็นของคู่กันมีความสัมพันธ์กันอย่างแยกไม่ออก<br><br>
+
+                      อย่างไรจึงจะเรียกว่า อ่านดี หรือ เขียนดี เรื่องนี้นักปราชญ์ทางภาษาได้ให้ทรรศนะไว้ว่า “ผู้เขียนแสดงความคิดอย่างไร ผู้อ่านก็ได้ความคิดอย่างนั้น เอนเอียงไปตามนั้น หรือปฏิบัติตามนั้น” อย่างนี้เรียกว่า เขียนดี และ “ผู้เขียนแสดงความคิดเห็นอย่างไร ผู้อ่านเข้าใจได้หมดรู้เท่าทันทุกความคิด แต่ผู้อ่านมีความคิดเป็นของตนเอง รู้จักวิเคราะห์เลือกรับแต่ความคิดที่เป็นประโยชน์ ขจัดความคิดที่ไร้สาระออกไป เพราะอ่านอย่างมีวิจารณญาณ” อย่างนี้เรียกว่า อ่านดี
+                      <br><br>
+                      -->
+        </div> <!-- end of div id="c_lng_Psg1_q_number"  -->
+
+
+    </div>
+
+</div>   <!--  end  of upper  -->
+
+<div class="lower" id="myQstnDIV">
+
+    <form action="#">
+        <div class="question_num"   id="lng_cnvr1_q_number_1"><strong>ข้อ 1.</strong></div>
+        <div class="question_content">
+            &nbsp;
+        </div>
+
+        <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnCnvrstn1_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Yes, please
+            </label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Thank you</label></div>
+        </div>  <!--  choice_b  -->
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnCnvrstn1_q1" type="radio" value="ตัวเลือก ข้อ 3" />3. With pleasure</label></div>
+        </div>
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Sit down, please </label></div>
+        </div> <!--  choice_d  -->
+        <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+        <div id="lngEnPsge1_ans_01" class="show_answer" onclick="hide_div_lngCnvr('lngEnPsge1_ans_01')" style="display:none; cursor: pointer;">
+            dummy text
+        </div>
+        <div id="lgEnCnvr1_q1" class="explanation" style="display:none">
+
+            1. Yes, please <br />
+            ได้เลยครับ/ค่ะ ตามสบาย<br><br>
+            2. Thank you &#x2714; <br />
+            ขอบคุณ<br><br>
+            3. With pleasure <br />
+            ด้วยความยินดี เต็มใจที่จะทำให้<br><br>
+            4. Sit down, please <br />
+            เชิญนั่ง<br><br />
+
+            คำอธิบาย<br /><br />
+
+            เมื่อผู้สัมภาษณ์บอกให้นั่ง ผู้เข้าสัมภาษณ์ต้องขอบคุณ ข้อ 2 จึงเป็นข้อที่ถูก<br><br>
+
+            <strong>Interviewer:</strong>  Good afternoon, please have a seat.  <br />
+            (สวัสดี เชิญนั่ง)<br />
+            <strong>Interviewee:</strong>  ....(1)....  <br /><br />
+            <strong>Interviewer:</strong>  How are you doing?  <br />
+            สบายดีหรือ? - คำทักทาย <br /> <br />
+            <strong>Interviewee:</strong>   I’m fine, thank you.  <br />
+            สบายดีครับ ขอบคุณ <br /> <br />
+            <strong>Interviewer:</strong>  ….(2)…. ?  <br /><br />
+            <strong>Interviewee:</strong>  No, sir, I had no trouble at all.  <br />
+            ไม่เลยครับ/ค่ะ ไม่ลำบากเลย <br /> <br />
+            <strong>Interviewer:</strong>  Could you tell me a little about your ….(3)….  ?  <br />
+            ไหน ลองบอกเกี่ยวกับ .....3...... ของคุณมาอย่างสั้น ๆ  <br /> <br />
+            <strong>Interviewee:</strong>  I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.  <br />
+            ผม/ฉัน จบปริญญาตรี วารสารศาสตร์ จาก มหาวิทยาลัยคาลิฟอร์เนีย ลอสเองเจลิส ในปี 1995 <br /> <br />
+            <strong>Interviewer:</strong>   Any post-graduate degrees?  <br />
+            แล้วป.โท ป.เอกล่ะ  มีไหม <br /> <br />
+            <strong>Interviewee:</strong>  Yes, I enrolled in NYU’s master program for journalism and ….(4)….?  <br />
+            มีครับ ผม/ฉันลงเรียน ป.โท วารสาร ที่ มหาวิทยาลัยนิวยอร์ค และ ....4..... <br /> <br />
+            <strong>Interviewer:</strong>  How about your ….(5)….?  <br />
+            แล้ว .............5............ ของคุณล่ะ <br /> <br />
+            <strong>Interviewee:</strong>  After I left NYU, I worked for a year at the Cincinnati Daily.  <br /><br />
+            หลังจากออกจาก ม.นิวยอร์ค แล้ว ผมเข้าทำงานที่ หนังสือพิมพ์ ซินซินเนติ เดลี่ <br /> <br />
+
+
+            เมื่อได้รับเชิญให้นั่ง โดยมารยาท ต้องขอบคุณ <br />
+            สำนวน have a seat. หมายถึง เชิญให้นั่ง <br />
+            seat = ที่นั่ง <br />
+            Is this seat taken? <br />
+            ที่นั่งนี้ว่างไหม -(มีคนจองหรือยัง) <br /> <br />
+
+            With pleasure. <br />
+            ใช้ตอบรับเมื่อได้รับการร้องของว่า จะทำให้ด้วยความเต็มใจ เช่น <br /><br>
+            Fred: Would you please take this note over to the woman in the red dress?  <br />
+            (ช่วยเอากระดาษนี้ไปให้ผู้หญิงในชุดสีแดงหน่อยนะครับ) <br />
+            Waiter: With pleasure, sir. <br />
+            (ด้วยความยินดีครับ) <br /> <br />
+
+            นอกจากนี้ เรายังสามารถใช้ With pleasure เพื่อคำตอบรับการรับเชิญอย่างเป็นทางการ ก็ได้ <br /><br>
+            Smith: Would you like to come and have lunch on Sunday? <br />
+            ขอเชิญมารับประทานอาหารกลางวัน วันอาทิตย์นี้นะครับ <br />
+            Barbara: With pleasure. I’d love to come. <br />
+            ด้วยความยินดีค่ะ  <br /> <br />
+
+            คำตอบที่ถูก คือ ข้อ 2 <br />
+
+        </div>  <!-- lgEnCnvr1_q..  -->
+        <div class ="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn1_q1', 'ตัวเลือก ข้อ 2', 'lngEnPsge1_ans_01', 'yes', '1648946378', 'lng_cnvr1_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <!-- checkAns_t_lngCnvr('ข้อ', 'ตัวเลือกที่ถูก')  -->
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr_1" onclick="show_hide_LngPsg('lgEnCnvr1_q1', 'lngCnvr_1', 'lng_cnvr1_q_number_1', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+            <!--  show_hide_t_lngCnvr('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+        </div> <!-- button -->
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+
+
+    <!-- ข้อ 2. -->
+
+    <form action="#">
+        <div class="question_num"   id="lng_cnvr1_q_number_2"><strong>ข้อ 2.</strong></div>
+        <div class="question_content">
+            &nbsp;
+        </div>
+        <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col_1Col"><label> <input name="longEnCnvrstn1_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. What is the problems at your office</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Did you like the office you worked </label></div>
+        </div>  <!--  choice_b  -->
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnCnvrstn1_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Was there any problems at the office </label></div>
+        </div> <!-- choice_c -->
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Did you have any trouble finding us </label></div>
+        </div> <!--  choice_d  -->
+        <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+        <div id="lngEnPsge1_ans_02" class="show_answer" onclick="hide_div_lngCnvr('lngEnPsge1_ans_02')" style="display:none; cursor: pointer;">
+            dummy text
+        </div>
+        <div id="lgEnCnvr1_q2" class="explanation" style="display:none">
+
+
+            1. What is the problems at your office <br />
+            ปัญหาที่ที่ทำงานของคุณคืออะไร <br /><br />
+            2. Did you like the office you worked <br />
+            คุณชอบสำนักงานที่คุณเคยทำงานหรือไม่  <br /><br />
+            3. Was there any problems at the office <br />
+            ที่ที่ทำงานเก่าของคุณ มีปัญหาอะไรหรือไม่  <br /><br />
+            4. Did you have any trouble finding us &#x2714;  <br />
+            คุณมาที่นี่ (มาพบเรา) ลำบากหรือไม่ <br /> <br /><br />
+
+            คำอธิบาย<br /><br />
+
+            ตอบว่า ไม่ลำบาก (no trouble) ก็แสดงว่า คงถามว่า ลำบากไหม (any trouble?) ดังนั้น ข้อ 4 จึงถูกที่สุด<br><br>
+
+            trouble = ลำบาก <br />
+            เมื่อใครทำอะไรให้ ซึ่งเรารู้ว่าเขาต้องใช้ความพยายามทำให้ เราขอบคุณเขาว่า <br />
+            Thanks for your trouble. <br />
+            ขอบคุณมากเลย ที่อุตส่าห์ (เสียสละ ด้วยความยากลำบาก) ที่ทำให้ผม/ฉัน <br /> <br />
+
+            at all = เลย, แม้แต่นิดเดียว (ใช้ในประโยคปฏิเสธ) <br />
+            Not at all.  <br />
+            ไม่เป็นไร ใช้สำหรับการตอบรับคำขอบคุณ <br /> <br />
+
+            คำตอบที่ถูก คือ ข้อ 4 <br />
+        </div>  <!-- lgEnCnvr1_q..  -->
+        <div class ="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn1_q2', 'ตัวเลือก ข้อ 4', 'lngEnPsge1_ans_02', 'yes', '1648946378', 'lng_cnvr1_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <!-- checkAns_t_lngCnvr('ข้อ', 'ตัวเลือกที่ถูก')  -->
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr_2" onclick="show_hide_LngPsg('lgEnCnvr1_q2', 'lngCnvr_2', 'lng_cnvr1_q_number_2', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+            <!--  show_hide_t_lngCnvr('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+        </div> <!-- button -->
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+    <!-- จบข้อ 2 -->
+
+    <!-- ข้อ 3. -->
+    <form action="#">
+        <div class="question_num"   id="lng_cnvr1_q_number_3"><strong>ข้อ 3.</strong></div>
+        <div class="question_content">
+            &nbsp;
+        </div>
+        <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. hobbies </label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. private life </label></div>
+        </div>  <!--  choice_b  -->
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnCnvrstn1_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. previous experience </label></div>
+        </div> <!-- choice_c -->
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. educational background </label></div>
+        </div> <!--  choice_d  -->
+        <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+        <div id="lngEnPsge1_ans_03" class="show_answer" onclick="hide_div_lngCnvr('lngEnPsge1_ans_03')" style="display:none; cursor: pointer;">
+            dummy text
+        </div>
+        <div id="lgEnCnvr1_q3" class="explanation" style="display:none">
+
+            1. hobbies (งานอดิเรก)<br>
+            2. private life (ชีวิตส่วนตัว)<br>
+            3. previous experience (ประสบการณ์ที่ผ่านมา)<br>
+            4. educational background (พื้นฐานการศึกษา) &#x2714;<br><br>
+
+            คำอธิบาย<br /><br />
+            สังเกตในคำตอบ มีคำว่า graduate คือ จบปริญญา ดังนั้น คำถาม จึงต้องถามเกี่ยวกับ การศึกษา นั่นเอง<br><br>
+
+            คำตอบที่ถูก คือ ข้อ 4 <br />
+
+        </div>  <!-- lgEnCnvr1_q..  -->
+        <div class ="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn1_q3', 'ตัวเลือก ข้อ 4', 'lngEnPsge1_ans_03', 'yes', '1648946378', 'lng_cnvr1_q_number_3' ); return false;" type="submit" value="ตรวจคำตอบ" />
+            <!-- checkAns_t_lngCnvr('ข้อ', 'ตัวเลือกที่ถูก')  -->
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr_3" onclick="show_hide_LngPsg('lgEnCnvr1_q3', 'lngCnvr_3', 'lng_cnvr1_q_number_3', 'no'); return false;" type="submit" value="ดูคำอธิบาย" />
+            <!--  show_hide_t_lngCnvr('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+        </div> <!-- button -->
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+
+    <!-- จบข้อ 3 -->
+
+    <!-- ข้อ 4. -->
+
+    <form action="#">
+        <div class="question_num"   id="lng_cnvr1_q_number_4"><strong>ข้อ 4.</strong></div>
+        <div class="question_content">
+            &nbsp;
+        </div>
+
+        <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnCnvrstn1_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. didn’t finish </label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. dropped out in 1998 </label></div>
+        </div>  <!--  choice_b  -->
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnCnvrstn1_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. earned a degree </label></div>
+        </div> <!-- choice_c -->
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. took a break </label></div>
+        </div> <!--  choice_d  -->
+        <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+        <div id="lngEnPsge1_ans_04" class="show_answer" onclick="hide_div_lngCnvr('lngEnPsge1_ans_04')" style="display:none; cursor: pointer;">
+            dummy text
+        </div>
+        <div id="lgEnCnvr1_q4" class="explanation" style="display:none">
+            1. didn’t finish (ไม่จบ)<br>
+            2. dropped out in 1998 (พักการเรียน ในปี 1988)<br>
+            3. earned a degree (จบได้รับปริญญา)  &#x2714;<br>
+            4. took a break(หยุดเรียนชั่วคราว)<br><br>
+
+            คำอธิบาย<br><br>
+
+            เรารู้ว่า เขาเรียนจบ เพราะ เขาบอกว่า เขาเรียน ป.โท วารวารศาสตร์ ( journalism) และเมื่อจบแล้ว เข้าทำงานกับหนังสือพิมพ์ Cincinnati Daily จึงอนุมานได้ว่า เขาเรียนจบ ป.โท แน่นอน ข้อ 3 จึงถูก<br><br>
+
+            ข้อ 2 ไม่ถูกเพราะ เขาจบ ป.ตรี จาก UCLA ในปี 1995 ดังนั้น จะพักการเรียน ระดับ ป.โท ในปี 1988 ไม่ได้ <br><br>
+
+            เทคนิคการเดา<br>
+            ตัวเลือก 3 ข้อ (ข้อ 1 ข้อ 2 และข้อ 4) บอกว่าเรียนไม่จบ มีเพียงข้อ 3 เท่านั้น ที่บอกว่าจบ จึงมีแนวโน้มว่า ข้อ 3 น่าจะเป็นข้อที่ถูก<br><br>
+
+            สำนวนได้รับปริญญา คือ earned a degree<br>
+            คำว่า earn หมายถึง รายได้จากการทำงาน หรือ ได้รับในสิ่งที่ควรจะได้ จากการลงทุน ลงแรงไป<br><br>
+            I earn ฿18,000 a month.<br>
+            ฉันมีรายได้ เดือนละ 18,000 บาท<br><br>
+            She earned a promotion.<br>
+            เธอได้รับการเลื่อนตำแหน่ง (จากน้ำพักน้ำแรงของเธอ)<br><br>
+
+            ดังนั้น ข้อ 3 จึงเป็นข้อที่ถูกที่สุด<br>
+
+        </div>  <!-- lgEnCnvr1_q..  -->
+        <div class ="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn1_q4', 'ตัวเลือก ข้อ 3', 'lngEnPsge1_ans_04', 'yes', '1648946378', 'lng_cnvr1_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <!-- checkAns_t_lngCnvr('ข้อ', 'ตัวเลือกที่ถูก')  -->
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr_4" onclick="show_hide_LngPsg('lgEnCnvr1_q4', 'lngCnvr_4', 'lng_cnvr1_q_number_4', 'no'); return false;" type="submit" value="ดูคำอธิบาย" />
+            <!--  show_hide_t_lngCnvr('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+        </div> <!-- button -->
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+
+    <!-- จบข้อ 4 -->
+
+    <!-- ข้อ 5. -->
+
+    <form action="#">
+        <div class="question_num"   id="lng_cnvr1_q_number_5"><strong>ข้อ 5.</strong></div>
+        <div class="question_content">
+            &nbsp;
+        </div>
+        <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnCnvrstn1_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. previous job</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. education</label></div>
+        </div>  <!--  choice_b  -->
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnCnvrstn1_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. work experience</label></div>
+        </div> <!-- choice_c -->
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnCnvrstn1_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. other qualifications</label></div>
+        </div> <!--  choice_d  -->
+        <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+        <div id="lngEnPsge1_ans_05" class="show_answer" onclick="hide_div_lngCnvr('lngEnPsge1_ans_05')" style="display:none; cursor: pointer;">
+            dummy text
+        </div>
+        <div id="lgEnCnvr1_q5" class="explanation" style="display:none">
+
+            1. previous job  &#x2714;<br />
+            งานก่อนหน้านี้<br /><br />
+            2. education<br />
+            การศึกษา<br /><br />
+            3. work experience<br />
+            ประสบการณ์การทำงาน<br /><br />
+            4. other qualifications <br />
+            คุณวุฒิอื่น ๆ<br /><br />
+
+            คำตอบเป็นเรื่องการทำงาน ดังนั้น คำถาม จึงต้องเป็นเรื่องงาน<br /><br />
+
+            ถ้าเป็นข้อ 3 คำตอบ อาจจะต้องอธิบาย ประสบการณ์การทำงานมากกว่านี้ ข้อ 1 จึงเป็นตัวเลือกที่ดีกว่า<br /><br />
+
+            ข้อ 1 เป็นข้อที่ถูก<br>
+        </div>  <!-- lgEnCnvr1_q..  -->
+        <div class ="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longEnCnvrstn1_q5', 'ตัวเลือก ข้อ 1', 'lngEnPsge1_ans_05', 'no', '1648946378', 'lng_cnvr1_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <!-- checkAns_t_lngCnvr('ข้อ', 'ตัวเลือกที่ถูก')  -->
+            <input class="myFloat_Right" style="color:blue;" id="lngCnvr_5" onclick="show_hide_LngPsg('lgEnCnvr1_q5', 'lngCnvr_5', 'lng_cnvr1_q_number_5', 'no'); return false;" type="submit" value="ดูคำอธิบาย" />
+            <!--  show_hide_t_lngCnvr('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+        </div> <!-- button -->
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+
+    <!-- จบข้อ 5 -->
+
+
+
+
+
+
+
+
+
+
+    <!-- ถ้ามีหลายบทสนทนา ให้เอาตัวเลือกของแต่ละบทสนทนา เอมาแทนที่ข้างล่างนี้  -->
+
+
+
+
+
+
+    <!-- ข้อ 2. -->
+    <!--
+    <form action="#">
+    <div class="question_num"   id="a_lng_Psg1_q_number_2"><strong>ข้อ 2.</strong></div>
+    <div class="question_content">
+    ข้อใด เป็นจุดประสงค์หลักของผู้เขียนบทความนี้
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div class="choice_a_1_column">
+             <div class="choice_num_1Col_1Col"><label> <input name="longThPsge1_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. เพื่อกระตุ้นให้เห็นอันตราย จากการเพิ่มของประชากร</label></div>
+     </div>
+    <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. เพื่อแสดงทัศนะเกี่ยวกับทรัพยากรธรรมชาติ </label></div>
+    </div>
+    <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longThPsge1_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. เพื่อเสนอแนะการอนุรักษ์ทรัพยากรธรรมชาติ </label></div>
+    </div>
+    <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. เพื่ออธิบายการเกิดช่องโหว่ของบรรยากาศ </label></div>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div id="lngThPsge1_ans_02" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_02')" style="display:none; cursor: pointer;">
+                  dummy text
+    </div>
+    <div id="lgThPsge1_q2" class="explanation" style="display:none">
+
+    บทความนี้ ผู้เขียนต้องการแสดงให้เห็นถึงอันตรายการเพิ่มประชาการอย่างรวดเร็ว จะทำให้มีผลต่อทรัพยากรธรรมชาติและสิ่งแวดล้อม<br><br>
+    ข้อที่ถูกคือ ข้อ 1<br>
+
+    </div>
+    -->
+    <!-- lgThPsge1_q..  -->
+
+
+    <!--
+    <div class ="button">
+    <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q2', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_02','yes', '1608958085','a_lng_Psg1_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" />
+    <input class="myFloat_Right" style="color:blue;" id="lngPsg_2" onclick="show_hide_LngPsg('lgThPsge1_q2', 'lngPsg_2', 'a_lng_Psg1_q_number_2', 'yes', '1608958085'); return false;" type="submit" value="ดูคำอธิบาย" />
+    </div>
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+    -->
+    <!-- จบข้อ 2 -->
+
+    <!-- ข้อ 3. -->
+    <!--
+    <form action="#">
+    <div class="question_num"   id="b_lng_Psg1_q_number_3"><strong>ข้อ 3.</strong></div>
+    <div class="question_content">
+    การปั้นตุ๊กตาชาววัง ที่สีผิวเป็นสีของดินเผา เรียกว่าอะไร
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div class="choice_a_1_column">
+    <div class="choice_num_1Col"><label><input name="longThPsge1_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ตุ๊กตาดินเผา </label></div>
+     </div>
+    <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ตุ๊กตาพระราชทาน </label></div>
+    </div>
+    <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longThPsge1_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ตุ๊กตาปั้นเหมือนจริง  </label></div>
+    </div>
+    <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ตุ๊กตาบางเสด็จ  </label></div>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div id="lngThPsge1_ans_03" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_03')" style="display:none; cursor: pointer;">
+                  dummy text
+    </div>
+    <div id="lgThPsge1_q3" class="explanation" style="display:none">
+
+    คำตอบอยู่ในบทอ่าน<br>
+    ยังมีการปั้นอีกแบบหนึ่งที่เรียกว่า <strong>การปั้นเหมือนจริง</strong> ซึ่งจะมีความละเอียดเหมือนคนจริง ๆ มากกว่า สีผิวจะเป็นสีของดินเผาแท้ <br>
+    ข้อ 3 จึงเป็นคำตอบที่ถูก<br>
+
+    </div>
+    -->
+    <!-- lgThPsge1_q..  -->
+
+    <!--
+    <div class ="button">
+    <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q3', 'ตัวเลือก ข้อ 3', 'lngThPsge1_ans_03', 'yes','1608958086', 'b_lng_Psg1_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" />
+    <input class="myFloat_Right" style="color:blue;" id="lngPsg_3" onclick="show_hide_LngPsg('lgThPsge1_q3', 'lngPsg_3', 'b_lng_Psg1_q_number_3', 'yes','1608958086'); return false;" type="submit" value="ดูคำอธิบาย" />
+    </div>
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+    -->
+    <!-- จบข้อ 3 -->
+
+    <!-- ข้อ 4. -->
+    <!--
+    <form action="#">
+    <div class="question_num"   id="b_lng_Psg1_q_number_4"><strong>ข้อ 4.</strong></div>
+    <div class="question_content">
+    ชื่อเรื่องที่เหมาะสมกับบทความข้างต้น คือข้อใด
+    </div>
+
+    <div class="clear">&nbsp;</div>
+    <div class="choice_a_1_column">
+             <div class="choice_num_1Col"><label> <input name="longThPsge1_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. อ่างทองดินแดนแห่งความสมบูรณ์ </label></div>
+     </div>
+    <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ตุ๊กตาชาววังบางเสด็จ </label></div>
+    </div>
+    <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longThPsge1_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. กรรมวิธีการปั้นตุ๊กตาชาววัง </label></div>
+    </div>
+    <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ตุ๊กตาชาววังกับรายได้เสริม </label></div>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div id="lngThPsge1_ans_04" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_04')" style="display:none; cursor: pointer;">
+                  dummy text
+    </div>
+    <div id="lgThPsge1_q4" class="explanation" style="display:none">
+    เป็นเรื่องของชาวบ้านตำบลบ้านวัดตาล (บางเสด็จ) ที่ประสบปัญหาและได้รับพระราชทานความช่วยเหลือ ในแก้ปัญหาด้วยการปั้นตุ๊กตาชาววัง<br><br>
+
+    ดังนั้น ข้อ 2 จึงเป็นข้อที่ถูกที่สุด<br>
+
+    </div>
+    <div class ="button">
+    <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q4', 'ตัวเลือก ข้อ 2', 'lngThPsge1_ans_04', 'no','1608958086', 'b_lng_Psg1_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" />
+
+    <input class="myFloat_Right" style="color:blue;" id="lngPsg_4" onclick="show_hide_LngPsg('lgThPsge1_q4', 'lngPsg_4', 'b_lng_Psg1_q_number_4', 'no','1608958086'); return false;" type="submit" value="ดูคำอธิบาย" />
+
+    </div>
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+    -->
+
+    <!-- จบข้อ 4 -->
+
+    <!-- ข้อ 5. -->
+    <!--
+    <form action="#">
+    <div class="question_num"   id="b_lng_Psg1_q_number_5"><strong>ข้อ 5.</strong></div>
+    <div class="question_content">
+    ขั้นตอนการทำตุ๊กตาชาววังของชาวบ้านตำบลบางเสด็จ มีทั้งหมดกี่ขั้นตอน
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div class="choice_a_1_column">
+             <div class="choice_num_1Col"><label> <input name="longThPsge1_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 2 ขั้นตอน </label></div>
+     </div>
+    <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 3 ขั้นตอน</label></div>
+    </div>
+    <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longThPsge1_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 4 ขั้นตอน </label></div>
+    </div>
+    <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 5 ขั้นตอน </label></div>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div id="lngThPsge1_ans_05" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_05')" style="display:none; cursor: pointer;">
+                  dummy text
+    </div>
+    <div id="lgThPsge1_q5" class="explanation" style="display:none">
+
+    มี 4 ขั้นตอน ได้แก่ เตรียมดิน ปั้น เผา และลงสี<br><br>
+
+    ข้อ 3 จึงเป็นข้อที่ถูก<br>
+
+    </div>
+    <div class ="button">
+    <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q5', 'ตัวเลือก ข้อ 3', 'lngThPsge1_ans_05', 'no','1608958086','b_lng_Psg1_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" />
+
+    <input class="myFloat_Right" style="color:blue;" id="lngPsg_5" onclick="show_hide_LngPsg('lgThPsge1_q5', 'lngPsg_5', 'b_lng_Psg1_q_number_5', 'no','1608958086'); return false;" type="submit" value="ดูคำอธิบาย" />
+    </div>
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+    -->
+    <!-- จบข้อ 5 -->
+
+    <!-- ข้อ 6. -->
+    <!--
+    <form action="#">
+    <div class="question_num"   id="b_lng_Psg1_q_number_6"><strong>ข้อ 6.</strong></div>
+    <div class="question_content">
+    หากจะให้ตุ๊กตาชาววังของชาวบ้านตำบลบางเสด็จมีการจำหน่ายมากขึ้นควรได้รับการช่วยเหลือในเรื่องใด
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div class="choice_a_1_column">
+             <div class="choice_num_1Col"><label> <input name="longThPsge1_q6" type="radio" value="ตัวเลือก ข้อ 1" /> 1. เทคโนโลยีการเผาตุ๊กตาดินเผา </label></div>
+     </div>
+    <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q6" type="radio" value="ตัวเลือก ข้อ 2" /> 2. เงินทุนที่มากขึ้นกว่าเดิม</label></div>
+    </div>
+    <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longThPsge1_q6" type="radio" value="ตัวเลือก ข้อ 3" /> 3. การตลาดที่กว้างขวางขึ้น  </label></div>
+    </div>
+    <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q6" type="radio" value="ตัวเลือก ข้อ 4" /> 4. การขนส่งที่มีประสิทธิภาพ </label></div>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div id="lngThPsge1_ans_06" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_06')" style="display:none; cursor: pointer;">
+                  dummy text
+    </div>
+    <div id="lgThPsge1_q6" class="explanation" style="display:none">
+
+    ในบทความ ไม่ได้กล่าวถึงเรื่อง การเงิน การตลาด หรือการขนส่ง<br>
+    แต่มีข้อความตอนหนึ่ง ระบุปัญหาด้านเทคโนโลยี ดังนี้<br>
+    "ช่วงที่ยากและทำให้ตุ๊กตาเสียหายมากที่สุดคือ การเผา เนื่องจากที่นี่ยังใช้เทคโนโลยีแบบดั้งเดิม"<br><br>
+    ดังนั้น ถ้าจะเสนอแนะ จึงควรเป็นเรื่องเทคโนโลยีในการเผา เพราะเป็นปัญหาของชาวบ้าน<br><br>
+
+    คำตอบคือ ข้อ 1<br>
+
+    </div>
+    <div class ="button">
+    <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q6', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_06','no','1608958086','b_lng_Psg1_q_number_6'); return false;" type="submit" value="ตรวจคำตอบ" />
+
+    <input class="myFloat_Right" style="color:blue;" id="lngPsg_6" onclick="show_hide_LngPsg('lgThPsge1_q6', 'lngPsg_6', 'b_lng_Psg1_q_number_6','no','1608958086'); return false;" type="submit" value="ดูคำอธิบาย" />
+    </div>
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+    -->
+    <!-- จบข้อ 6 -->
+
+    <!-- ข้อ 7. -->
+    <!--
+    <form action="#">
+    <div class="question_num"   id="b_lng_Psg1_q_number_7"><strong>ข้อ 7.</strong></div>
+    <div class="question_content">
+    ขั้นตอนใดในการปั้นตุ๊กตา ที่มีความสูญเสียมากที่สุด
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div class="choice_a_1_column">
+             <div class="choice_num_1Col"><label> <input name="longThPsge1_q7" type="radio" value="ตัวเลือก ข้อ 1" /> 1. การเลือกใช้ดินที่ไม่เหมาะสมและการกรองเศษดิน เศษหิน </label></div>
+     </div>
+    <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q7" type="radio" value="ตัวเลือก ข้อ 2" /> 2. การปั้นที่ขาดความชำนาญ </label></div>
+    </div>
+    <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longThPsge1_q7" type="radio" value="ตัวเลือก ข้อ 3" /> 3. การเผาแบบดั้งเดิม </label></div>
+    </div>
+    <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longThPsge1_q7" type="radio" value="ตัวเลือก ข้อ 4" /> 4. การใช้เครื่องมือแกะหน้าตา ของตุ๊กตา  </label></div>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div id="lngThPsge1_ans_07" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_07')" style="display:none; cursor: pointer;">
+                  dummy text
+    </div>
+    <div id="lgThPsge1_q7" class="explanation" style="display:none">
+
+    มีพูดถึงไว้ในบทความ ดังนี้<br>
+    "ช่วงที่ยากและทำให้ตุ๊กตาเสียหายมากที่สุด คือการเผา เนื่องจากที่นี่ยังใช้เทคโนโลยีแบบดั้งเดิม"<br><br>
+
+    คำตอบคือ ข้อ 3<br>
+
+    </div>
+    <div class ="button">
+    <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q7', 'ตัวเลือก ข้อ 3', 'lngThPsge1_ans_07','no','1608958086','b_lng_Psg1_q_number_7'); return false;" type="submit" value="ตรวจคำตอบ" />
+
+    <input class="myFloat_Right" style="color:blue;" id="lngPsg_7" onclick="show_hide_LngPsg('lgThPsge1_q7', 'lngPsg_7', 'b_lng_Psg1_q_number_7','no','1608958086'); return false;" type="submit" value="ดูคำอธิบาย" />
+    </div>
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+    -->
+    <!-- จบข้อ 7 -->
+
+    <!-- ข้อ 8. -->
+    <!--
+          <form action="#">
+              <div class="question_num"   id="c_lng_Psg1_q_number_8"><strong>ข้อ 8.</strong></div>
+              <div class="question_content">
+                  บทความนี้กล่าวถึงเรื่องอะไร
+
+              </div>
+              <div class="clear">&nbsp;</div>
+              <div class="choice_a_1_column">
+                  <div class="choice_num_1Col"><label> <input name="longThPsge1_q8" type="radio" value="ตัวเลือก ข้อ 1" /> 1. การเขียนหนังสือ </label></div>
+              </div>
+              <div class="choice_b_1_column">
+                  <div class="choice_num_1Col"><label><input name="longThPsge1_q8" type="radio" value="ตัวเลือก ข้อ 2" /> 2. การเขียนกับการอ่าน</label></div>
+              </div>
+              <div class="choice_c_1_column">
+                  <div class="choice_num_1Col"><label> <input name="longThPsge1_q8" type="radio" value="ตัวเลือก ข้อ 3" /> 3. การเป็นนักอ่านที่ดี </label></div>
+              </div>
+              <div class="choice_d_1_column">
+                  <div class="choice_num_1Col"><label><input name="longThPsge1_q8" type="radio" value="ตัวเลือก ข้อ 4" /> 4. การอ่านขั้นใช้วิจารณญาณ  </label></div>
+              </div>
+              <div class="clear">&nbsp;</div>
+              <div id="lngThPsge1_ans_08" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_08')" style="display:none; cursor: pointer;">
+                  dummy text
+              </div>
+              <div id="lgThPsge1_q8" class="explanation" style="display:none">
+
+                  เนื้อหาของบทความพูดถึง การเขียนและการอ่าน  โดยอธิบายความเพิ่มถึงคำว่า เขียนดี และอ่านดี
+                  ดังนั้น คำตอบที่ถูกต้องในข้อนี้ คือ ข้อ 2<br><br>
+
+                  คำตอบคือ ข้อ 2<br>
+
+              </div>
+              <div class ="button">
+                  <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q8', 'ตัวเลือก ข้อ 2', 'lngThPsge1_ans_08','no','1612854423','c_lng_Psg1_q_number_8'); return false;" type="submit" value="ตรวจคำตอบ" />
+
+                  <input class="myFloat_Right" style="color:blue;" id="lngPsg_8" onclick="show_hide_LngPsg('lgThPsge1_q8', 'lngPsg_8', 'c_lng_Psg1_q_number_8','no','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+
+              </div>
+          </form> <br>
+          <div class="clear_after_item">&nbsp;</div>
+    -->
+
+    <!-- จบข้อ 8 -->
+
+    <!-- ข้อ 9. -->
+    <!--
+          <form action="#">
+              <div class="question_num"   id="c_lng_Psg1_q_number_9"><strong>ข้อ 9.</strong></div>
+              <div class="question_content">
+                  การเขียนที่ดีจะต้องมีลักษณะอย่างไร
+              </div>
+              <div class="clear">&nbsp;</div>
+              <div class="choice_a_1_column">
+                  <div class="choice_num_1Col"><label> <input name="longThPsge1_q9" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ผู้อ่านเข้าใจความหมายของข้อเขียนได้ตรงกับที่ผู้เขียนต้องการ</label></div>
+              </div>
+              <div class="choice_b_1_column">
+                  <div class="choice_num_1Col"><label><input name="longThPsge1_q9" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ผู้เขียนใช้เหตุผลและหลักฐานต่างๆ ประกอบการเขียน</label></div>
+              </div>
+              <div class="choice_c_1_column">
+                  <div class="choice_num_1Col"><label> <input name="longThPsge1_q9" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ความคิดที่แสดงออกมาทันสมัยและเป็นจริง</label></div>
+              </div>
+              <div class="choice_d_1_column">
+                  <div class="choice_num_1Col"><label><input name="longThPsge1_q9" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ภาษาที่ใช้สละสลวยและเข้าใจง่าย </label></div>
+              </div>
+              <div class="clear">&nbsp;</div>
+              <div id="lngThPsge1_ans_09" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_09')" style="display:none; cursor: pointer;">
+                  dummy text
+              </div>
+              <div id="lgThPsge1_q9" class="explanation" style="display:none">
+                  ในย่อหน้าที่ 2 พูดถึง "เขียนดี" ไว้ดังนี้ <br>
+                  “ผู้เขียนแสดงความคิดอย่างไร ผู้อ่านก็ได้ความคิดอย่างนั้น เอนเอียงไปตามนั้น หรือปฏิบัติตามนั้น” อย่างนี้เรียกว่า เขียนดี <br><br>
+
+                  ส่วนข้ออื่น ๆ ไม่ได้พูดถึงในบทความนี้ <br><br>
+
+                  คำตอบที่ถูกต้อง คือ ข้อ 1<br><br>
+
+                  คำตอบคือ ข้อ 1<br>
+
+              </div>
+              <div class ="button">
+                  <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q9', 'ตัวเลือก ข้อ 1', 'lngThPsge1_ans_09','no','1612854423','c_lng_Psg1_q_number_9'); return false;" type="submit" value="ตรวจคำตอบ" />
+
+                  <input class="myFloat_Right" style="color:blue;" id="lngPsg_9" onclick="show_hide_LngPsg('lgThPsge1_q9', 'lngPsg_9', 'c_lng_Psg1_q_number_9','no','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+
+              </div>
+          </form> <br>
+          <div class="clear_after_item">&nbsp;</div>
+    -->
+
+    <!-- จบข้อ 9 -->
+
+    <!-- ข้อ 10. -->
+    <!--
+          <form action="#">
+              <div class="question_num"   id="c_lng_Psg1_q_number_10"><strong>ข้อ 10.</strong></div>
+              <div class="question_content">
+                  ที่กล่าวว่า “อ่านดี” หมายความว่าอย่างไร
+              </div>
+              <div class="clear">&nbsp;</div>
+              <div class="choice_a_1_column">
+                  <div class="choice_num_1Col"><label> <input name="longThPsge1_q10" type="radio" value="ตัวเลือก ข้อ 1" /> 1. อ่านเอาจริงเอาจัง </label></div>
+              </div>
+              <div class="choice_b_1_column">
+                  <div class="choice_num_1Col"><label><input name="longThPsge1_q10" type="radio" value="ตัวเลือก ข้อ 2" /> 2. เลือกอ่านเฉพาะบางตอนที่ดีและมีสาระ </label></div>
+              </div>
+              <div class="choice_c_1_column">
+                  <div class="choice_num_1Col"><label> <input name="longThPsge1_q10" type="radio" value="ตัวเลือก ข้อ 3" /> 3. อ่านแล้วมีความรู้สึกคล้อยตาม </label></div>
+              </div>
+              <div class="choice_d_1_column">
+                  <div class="choice_num_1Col"><label><input name="longThPsge1_q10" type="radio" value="ตัวเลือก ข้อ 4" /> 4. อ่านแล้วได้ความรู้และความคิด  </label></div>
+              </div>
+              <div class="clear">&nbsp;</div>
+              <div id="lngThPsge1_ans_010" class="show_answer" onclick="hide_div_lngPsge('lngThPsge1_ans_010')" style="display:none; cursor: pointer;">
+                  dummy text
+              </div>
+              <div id="lgThPsge1_q10" class="explanation" style="display:none">
+
+                  “ผู้เขียนแสดงความคิดเห็นอย่างไร ผู้อ่านเข้าใจได้หมดรู้เท่าทันทุกความคิดแต่ผู้อ่านมีความคิดเป็นของตนเอง รู้จักวิเคราะห์เลือกรับแต่ความคิดที่เป็นประโยชน์ ขจัดความคิดที่ไร้สาระออกไป เพราะอ่านอย่างมีวิจารณญาณ” อย่างนี้เรียกว่า อ่านดี
+
+
+                  คำตอบที่ถูกต้อง ข้อ 3
+
+                  ข้ออื่น ๆ ไม่ถูก เพราะ บทความไม่ได้กล่าวไว้อย่างนั้น
+
+                  คำตอบคือ ข้อ 3<br>
+
+              </div>
+              <div class ="button">
+                  <input class="chkAnsBtn" name="send" onclick="checkAns_Th_LngPsge('longThPsge1_q10', 'ตัวเลือก ข้อ 3', 'lngThPsge1_ans_010','no','1612854423','c_lng_Psg1_q_number_10'); return false;" type="submit" value="ตรวจคำตอบ" />
+
+                  <input class="myFloat_Right" style="color:blue;" id="lngPsg_10" onclick="show_hide_LngPsg('lgThPsge1_q10', 'lngPsg_10', 'c_lng_Psg1_q_number_10','no','1612854423'); return false;" type="submit" value="ดูคำอธิบาย" />
+
+              </div>
+          </form> <br>
+          <div class="clear_after_item">&nbsp;</div>
+    -->
+    <!-- จบข้อ 10 -->
+
+
+</div>  <!--  lower  -->
+
+
+
+<script src="long_psge_check_feedback.js"></script>
+
+
+</body>
+</html>

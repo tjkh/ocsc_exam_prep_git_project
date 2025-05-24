@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+<body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+            <button id = "start" onclick="countDown(0,40,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+	</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 40 นาที
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <br><br>
+    <div id="ifNotBuy" style="display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+        <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span></br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+
+<!--  
+================= 1-5 Conversation =================
+-->
+
+
+<strong>Instruction:</strong> Choose the best answer.<br><br>
+
+<strong>สำหรับ ข้อ 1-5</strong><br><br>
+
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<strong>Interviewer:</strong> Good afternoon, please have a seat.<br>
+<strong>Interviewee:</strong> ......(1)....<br>
+<strong>Interviewer:</strong> How are you doing?<br>
+<strong>Interviewee:</strong> I’m fine, thank you.<br>
+<strong>Interviewer:</strong> ….(2)…. ?<br>
+<strong>Interviewee:</strong> No, sir, I had no trouble at all.<br>
+<strong>Interviewer:</strong> Could you tell me a little about your ….(3)….  ?<br>
+<strong>Interviewee:</strong> I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.<br>
+<strong>Interviewer:</strong> Any post-graduate degrees?<br>
+<strong>Interviewee:</strong> Yes, I enrolled in NYU’s master program for journalism and ….(4)….?<br>
+<strong>Interviewer:</strong> How about your ….(5)….?<br>
+<strong>Interviewee:</strong> After I left NYU, I worked for a year at the Cincinnati Daily.<br>
+</div>
+
+<br><br>
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 1. <br>
+</div>
+
+<label><input type="radio" name="q1" value="0">Yes, please</label><br>
+<label><input type="radio" name="q1" value="1">Thank you</label><br>
+<label><input type="radio" name="q1" value="0">With pleasure</label><br>
+<label><input type="radio" name="q1" value="0">Sit down, please </label><br>
+
+
+<div class="quiz">
+ข้อ 2. <br>
+</div>
+
+<label><input type="radio" name="q2" value="0">What is the problems at your office</label><br>
+<label><input type="radio" name="q2" value="0">Did you like the office you worked</label><br>
+<label><input type="radio" name="q2" value="0">Was there any problems at the office</label><br>
+<label><input type="radio" name="q2" value="1">Did you have any trouble finding us</label><br>
+
+
+
+<div class="quiz">
+ข้อ 3. <br>
+</div>
+
+<label><input type="radio" name="q3" value="0">hobbies</label><br>
+<label><input type="radio" name="q3" value="0">private life</label><br>
+<label><input type="radio" name="q3" value="0">previous experience</label><br>
+<label><input type="radio" name="q3" value="1">educational background </label><br>
+
+
+
+<div class="quiz">
+ข้อ 4. <br>
+</div>
+
+<label><input type="radio" name="q4" value="0">I didn’t finish</label><br>
+<label><input type="radio" name="q4" value="0">I dropped out in 1998</label><br>
+<label><input type="radio" name="q4" value="1">earned a degree</label><br>
+<label><input type="radio" name="q4" value="0">took a break </label><br>
+
+
+
+<div class="quiz">
+ข้อ 5. <br>
+</div>
+
+<label><input type="radio" name="q5" value="0">previous job</label><br>
+<label><input type="radio" name="q5" value="1">education</label><br>
+<label><input type="radio" name="q5" value="0">work experience</label><br>
+<label><input type="radio" name="q5" value="0">other qualifications</label><br>
+
+</div>  <!--  end of qstn-div  -->  
+<!--  
+================= 6-10 Vovabulary =================
+-->
+<strong>Instructions: </strong>Select the most appropriate choice for each item.<br /> <br />
+
+
+<div class="quiz">
+ข้อ 6. <br>
+Somsak got ........... from his job because his boss caught him stealing office supplies.<br>
+</div>
+
+<label><input type="radio" name="q6" value="1">signed</label><br>
+<label><input type="radio" name="q6" value="0">rejected</label><br>
+<label><input type="radio" name="q6" value="0">reached</label><br>
+<label><input type="radio" name="q6" value="0">fired</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 7. <br>
+Sombat had his ........... tested yesterday. The doctor said he needed glasses. <br>
+</div>
+
+<label><input type="radio" name="q7" value="0">stool</label><br>
+<label><input type="radio" name="q7" value="1">vision</label><br>
+<label><input type="radio" name="q7" value="0">blood</label><br>
+<label><input type="radio" name="q7" value="0">pressure</label><br>
+
+
+<div class="quiz">
+ข้อ 8. <br>
+My boss .... me the task of cleaning the kitchen floor. <br>
+</div>
+
+<label><input type="radio" name="q8" value="0">labeled</label><br>
+<label><input type="radio" name="q8" value="0">sent</label><br>
+<label><input type="radio" name="q8" value="1">assigned</label><br>
+<label><input type="radio" name="q8" value="0">recruited</label><br>
+
+
+
+<div class="quiz">
+ข้อ 9. <br>
+I want to be a successful politician. That's a goal I want to .......... . <br>
+</div>
+
+<label><input type="radio" name="q9" value="1">achieve</label><br>
+<label><input type="radio" name="q9" value="0">recall</label><br>
+<label><input type="radio" name="q9" value="0">invent</label><br>
+<label><input type="radio" name="q9" value="0">acquire</label><br>
+
+
+
+<div class="quiz">
+ข้อ 10. <br>
+Sunisa has always been .... of her sister, Sumalee, who is very beautiful and popular.<br>
+</div>
+
+<label><input type="radio" name="q10" value="1">jealous</label><br>
+<label><input type="radio" name="q10" value="0">guilty</label><br>
+<label><input type="radio" name="q10" value="0">capable</label><br>
+<label><input type="radio" name="q10" value="0">acceptable</label><br>
+
+
+
+
+<!--  
+================= 11-15 Grammar/Structure =================
+-->
+
+
+<div class="quiz">
+ข้อ 11. <br>
+We’re having our house ............. this weekend.  <br>
+</div>
+
+<label><input type="radio" name="q11" value="0">paint</label><br>
+<label><input type="radio" name="q11" value="0">painting</label><br>
+<label><input type="radio" name="q11" value="0">to paint</label><br>
+<label><input type="radio" name="q11" value="1">painted</label><br>
+
+
+<div class="quiz">
+ข้อ 12. <br>
+Jack had the tailor ................ him for a suit. 
+<br>
+</div>
+
+<label><input type="radio" name="q12" value="1">measure</label><br>
+<label><input type="radio" name="q12" value="0">to measure</label><br>
+<label><input type="radio" name="q12" value="0">measuring</label><br>
+<label><input type="radio" name="q12" value="0">measured</label><br>
+
+
+
+<div class="quiz">
+ข้อ 13. <br>
+The teacher made all the students ............ their papers, because the first drafts were not acceptable. <br>
+</div>
+
+<label><input type="radio" name="q13" value="1">rewrite</label><br>
+<label><input type="radio" name="q13" value="0">to rewrite </label><br>
+<label><input type="radio" name="q13" value="0">rewriting</label><br>
+<label><input type="radio" name="q13" value="0">rewrote</label><br>
+
+<div class="quiz">
+ข้อ 14. <br>
+I had my car ......... yesterday because it was very dirty. <br>
+</div>
+
+<label><input type="radio" name="q14" value="0">wash</label><br>
+<label><input type="radio" name="q14" value="0">washing</label><br>
+<label><input type="radio" name="q14" value="0">to wash</label><br>
+<label><input type="radio" name="q14" value="1">washed</label><br>
+
+
+
+
+
+
+<div class="quiz">
+ข้อ 15. <br>
+Parents should not let their kids ............... violent movies.<br>
+</div>
+
+<label><input type="radio" name="q15" value="1">watch</label><br>
+<label><input type="radio" name="q15" value="0">watching</label><br>
+<label><input type="radio" name="q15" value="0">to watch </label><br>
+<label><input type="radio" name="q15" value="0">watched</label><br>
+
+
+
+<!--  
+================= 16-25 Reading 10 ข้อ =================
+
+from:https://web2.uvcs.uvic.ca/courses/elc/studyzone/490/reading/floods2-reading.htm
+
+-->
+
+<br><strong>สำหรับ ข้อ 21-25</strong><br><br>
+<strong>Instructions:</strong> Read the following passage and select the best answer for each item.<br><br>
+
+<div class="qstn-div">
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+Floods are second only to fire as the most common of all natural disasters. They occur almost everywhere in the world, resulting in widespread damage and even death. Consequently, scientists have long tried to perfect their ability to predict floods. So far, the best that scientists can do is to recognize the potential for flooding in certain conditions. There are a number of conditions, from deep snow on the ground to human error, that cause flooding.
+
+When deep snow melts it creates a large amount of water. Although deep snow alone rarely causes floods, when it occurs together with heavy rain and sudden warmer weather it can lead to serious flooding. If there is a fast snow melt on top of frozen or very wet ground, flooding is more likely to occur than when the ground is not frozen. Frozen ground or ground that is very wet and already saturated with water cannot absorb the additional water created by the melting snow. Melting snow also contributes to high water levels in rivers and streams. Whenever rivers are already at their full capacity of water, heavy rains will result in the rivers overflowing and flooding the surrounding land.
+
+Rivers that are covered in ice can also lead to flooding. When ice begins to melt, the surface of the ice cracks and breaks into large pieces. These pieces of ice move and float down the river. They can form a dam in the river, causing the water behind the dam to rise and flood the land upstream. If the dam breaks suddenly, then the large amount of water held behind the dam can flood the areas downstream too.
+
+Broken ice dams are not the only dam problems that can cause flooding. When a large human-made dam breaks or fails to hold the water collected behind it, the results can be devastating. Dams contain such huge amounts of water behind them that when sudden breaks occur, the destructive force of the water is like a great tidal wave. Unleashed dam waters can travel tens of kilometres, cover the ground in metres of mud and debris, and drown and crush every thing and creature in their path.
+
+Although scientists cannot always predict exactly when floods will occur, they do know a great deal about when floods are likely, or probably, going to occur. Deep snow, ice-covered rivers, and weak dams are all strong conditions for potential flooding. Hopefully, this knowledge of why floods happen can help us reduce the damage they cause.
+</div>
+</div>
+<br><br>
+
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 16. <br>
+Which one is not a natural disaster?.</div>
+
+<label><input type="radio" name="q16" value="">droughts</label><br>
+<label><input type="radio" name="q16" value="1"> large lakes</label><br>
+<label><input type="radio" name="q16" value="0">earthquake</label><br>
+<label><input type="radio" name="q16" value="0">global warming</label><br>
+
+
+<div class="quiz">
+ข้อ 17. <br>
+Which of the following are included as causes for floods in the reading passage?
+</div>
+
+<label><input type="radio" name="q17" value="0">droughts</label><br>
+<label><input type="radio" name="q17" value="0"> large lakes</label><br>
+<label><input type="radio" name="q17" value="0">poorly built roads</label><br>
+<label><input type="radio" name="q17" value="1">melting snow</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 18. <br>
+How does deep snow cause flooding?</div>
+
+<label><input type="radio" name="q18" value="0"> melting snow causes flooding</label><br>
+<label><input type="radio" name="q18" value="0">too much rain causes flooding</label><br>
+<label><input type="radio" name="q18" value="1">sudden warm temperatures combined with heavy rains causes flooding</label><br>
+<label><input type="radio" name="q18" value="0"> freezing water causes flooding</label><br>
+
+
+<div class="quiz">
+ข้อ 19. <br>
+A broken human-made dam is compared to what?</div>
+
+<label><input type="radio" name="q19" value="1">a tsunami</label><br>
+<label><input type="radio" name="q19" value="1">a tidal wave</label><br>
+<label><input type="radio" name="q19" value="0">broken ice dam</label><br>
+<label><input type="radio" name="q19" value="0">overflowing</label><br>
+
+
+<div class="quiz">
+ข้อ 20. <br>
+Which of the following best describes how a frozen river can cause a flood.</div>
+
+<label><input type="radio" name="q20" value="0">The ice in the river melts too quickly and causes a flood.</label><br>
+<label><input type="radio" name="q20" value="0">The ice in the river cracks causing the water to overflow.</label><br>
+<label><input type="radio" name="q20" value="1">The ice in the river cracks into pieces
+that eventually create a dam causing the water to overflow.</label><br>
+<label><input type="radio" name="q20" value="0">The water behind the ice dam collects and when the dam breaks, it causes flooding upstream.</label><br>
+
+
+<!--   21-25 อุปมา-อุปไมย 5 ข้อ   -->
+
+
+<div class="quiz">
+ข้อ 21. <br>
+How far can dam water travel when it is unleashed from a broken dam?</div>
+
+<label><input type="radio" name="q21" value="0">less than 10 kilometres</label><br>
+<label><input type="radio" name="q21" value="1">tens of kilometres</label><br>
+<label><input type="radio" name="q21" value="0"> thousands of kilometres</label><br>
+<label><input type="radio" name="q21" value="0">tens of thousands of kilometres downstream</label><br>
+
+
+
+<div class="quiz">
+ข้อ 22. <br>
+Why does saturated ground contribute to flooding problems?</div>
+
+<label><input type="radio" name="q22" value="1">the ground cannot absorb more moisture</label><br>
+<label><input type="radio" name="q22" value="0">the ground is too hard, so the water runs off</label><br>
+<label><input type="radio" name="q22" value="0">the ground forms a kind of dam</label><br>
+<label><input type="radio" name="q22" value="0">it remains frozen</label><br>
+
+
+
+<div class="quiz">
+ข้อ 23. <br>
+What kinds of problems can floods cause?</div>
+
+<label><input type="radio" name="q23" value="0">death</label><br>
+<label><input type="radio" name="q23" value="0">widespread damage</label><br>
+<label><input type="radio" name="q23" value="0">destruction of plants and animals</label><br>
+<label><input type="radio" name="q23" value="1">all of the abov</label><br>
+
+
+
+<div class="quiz">
+ข้อ 24. <br>
+What is the most common natural disaster?</div>
+<label><input type="radio" name="q24" value="0">flood</label><br>
+<label><input type="radio" name="q24" value="1">fire</label><br>
+<label><input type="radio" name="q24" value="0">wind damage</label><br>
+<label><input type="radio" name="q24" value="0">rain</label><br>
+
+
+
+
+
+
+<div class="quiz">
+ข้อ 25. <br>
+How does melting snow cause problems related to flooding?</div>
+<label><input type="radio" name="q25" value="0">it makes the rivers run too fast</label><br>
+<label><input type="radio" name="q25" value="0">it makes the water too cold</label><br>
+<label><input type="radio" name="q25" value="0"> it causes pieces of ice to block the river</label><br>
+<label><input type="radio" name="q25" value="1">it makes the level of the river rise</label><br>
+
+
+</div>   <!-- qstn-div  -->
+
+
+<br>
+<input id="send" type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+</div>
+
+</div>  <!--  end of div content  -->
+
+  <script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

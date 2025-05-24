@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+<body>
+<div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ทต่างกัน  -->
+            <button id = "start" onclick="countDown(2,0,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+		</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 2 ชั่วโมง
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <br><br>
+    <div id="ifNotBuy" style="display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+        <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span></br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+
+<!--
+ความสามารถทั่วไป 40 ข้อ
+ภาษาไทย 20 ข้อ
+
+================= ความสามารถทั่วไป =================
+
+1-5 อนุกรม 5 ข้อ
+-->
+
+
+<strong>คำสั่ง</strong> จงเลือกคำตอบจากตัวเลือก 1. – 4. มาเติมลงในช่องว่าง เพื่อให้ได้อนุกรม ที่มีความสัมพันธ์ต่อเนื่องกัน อย่างสมเหตุสมผลมากที่สุด<br><br>
+
+<div class="quiz">
+ข้อ 1. <br>
+17&#160;&#160;&#160;&#160;      20&#160;&#160;&#160;&#160;     25&#160;&#160;&#160;&#160;      32&#160;&#160;&#160;&#160;      41&#160;&#160;&#160;&#160;       ____<br>
+</div>
+
+<label><input type="radio" name="q1" value="0">45</label><br>
+<label><input type="radio" name="q1" value="0">50</label><br>
+<label><input type="radio" name="q1" value="1">52</label><br>
+<label><input type="radio" name="q1" value="0">59</label><br>
+
+
+<div class="quiz">
+ข้อ 2. <br>
+2&#160;&#160; 6&#160;&#160;5&#160;&#160;13&#160;&#160; 24 &#160;&#160; ____<br>
+</div>
+
+<label><input type="radio" name="q2" value="1">42</label><br>
+<label><input type="radio" name="q2" value="0">37</label><br>
+<label><input type="radio" name="q2" value="0">53</label><br>
+<label><input type="radio" name="q2" value="0">39</label><br>
+
+
+
+<div class="quiz">
+ข้อ 3. <br>
+67&#160;&#160;&#160;&#160;     64&#160;&#160;&#160;&#160;    59&#160;&#160;&#160;&#160;     52&#160;&#160;&#160;&#160;      43&#160;&#160;&#160;&#160;      ____<br>
+</div>
+
+<label><input type="radio" name="q3" value="0">19</label><br>
+<label><input type="radio" name="q3" value="1">32</label><br>
+<label><input type="radio" name="q3" value="0">27</label><br>
+<label><input type="radio" name="q3" value="0">39</label><br>
+
+
+<div class="quiz">
+ข้อ 4. <br>
+92&#160;&#160;&#160;&#160;  89&#160;&#160;&#160;&#160; 84&#160;&#160;&#160;&#160;  77&#160;&#160;&#160;&#160;   68&#160;&#160;&#160;&#160;    ____<br>
+</div>
+
+<label><input type="radio" name="q4" value="0">55</label><br>
+<label><input type="radio" name="q4" value="1">57</label><br>
+<label><input type="radio" name="q4" value="0">65</label><br>
+<label><input type="radio" name="q4" value="0">60</label><br>
+
+<!-- ถึงตรงนี้ -->
+
+
+<div class="quiz">
+ข้อ 5. <br>
+215&#160;&#160;&#160;&#160;  212&#160;&#160;&#160;&#160; 207&#160;&#160;&#160;&#160;  200&#160;&#160;&#160;&#160;   191&#160;&#160;&#160;&#160;    ____<br>
+</div>
+
+<label><input type="radio" name="q5" value="1">180</label><br>
+<label><input type="radio" name="q5" value="0">179</label><br>
+<label><input type="radio" name="q5" value="0">175</label><br>
+<label><input type="radio" name="q5" value="0">185</label><br>
+
+
+<!-- 6-9 โจทย์คณิด 4 ข้อ  -->
+
+
+<div class="quiz">
+ข้อ 6. <br>
+<strong>คำสั่ง: </strong>ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br /> <br />
+
+โดนัท 9 ชิ้น ขนมปัง 12 ชิ้น เค้ก 6 ชิ้น ถ้าแบ่งใส่จาน โดยให้แต่ละจานมีจำนวนขนมแต่ละชนิดจำนวนเท่า ๆ กัน จะได้กี่จาน และแต่ละจานจะมีขนมรวมกันทั้งหมดกี่ชิ้น<br />
+</div>
+
+<label><input type="radio" name="q6" value="1">3 จาน จานละ 9 ชิ้น</label><br>
+<label><input type="radio" name="q6" value="0">4 จาน จานละ 7 ชิ้น</label><br>
+<label><input type="radio" name="q6" value="0">3 จาน จานละ 8 ชิ้น</label><br>
+<label><input type="radio" name="q6" value="0">4 จาน จานละ 9 ชิ้น</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 7. <br>
+<strong>คำสั่ง: </strong>ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br /><br />
+
+เจ้าของที่ดินรูปสี่เหลี่ยมผืนผ้า กว้าง 91 เมตร ยาว 105 เมตร ต้องการทำรั้วลวดหนามล้อมที่ดิน  ให้เสาแต่ละต้น มีระยะห่างเท่ากันมากที่สุดเท่าที่จะทำได้ ต้องใช้เสาทั้งหมดกี่ต้น<br />
+
+</div>
+
+<label><input type="radio" name="q7" value="0">55 ต้น</label><br>
+<label><input type="radio" name="q7" value="1">56 ต้น</label><br>
+<label><input type="radio" name="q7" value="0">57 ต้น</label><br>
+<label><input type="radio" name="q7" value="0">58 ต้น</label><br>
+
+<!--  กำลังทำข้อ 8 ทุกฉบับ  -->
+<div class="quiz">
+ข้อ 8. <br>
+<strong>คำสั่ง: </strong>ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br /> <br /> 
+คนงาน 4 คน ก่อกำแพงเสร็จใน 3 วัน ต้องการก่อกำแพงให้เสร็จใน 2 วัน ต้องใช้คนงานกี่คน <br />
+</div>
+
+<label><input type="radio" name="q8" value="0">5 คน</label><br>
+<label><input type="radio" name="q8" value="1">6 คน</label><br>
+<label><input type="radio" name="q8" value="0">7 คน</label><br>
+<label><input type="radio" name="q8" value="0">8 คน</label><br>
+
+
+
+<div class="quiz">
+ข้อ 9. <br>
+<strong>คำสั่ง: </strong>เติมตัวเลขที่ขาดหายไป<br /><br />
+
+ABCD เป็นสี่เหลี่ยมด้านไม่เท่า ดังภาพ จงหามุม BCD 
+</div>
+<div class = "for_image"><img  style ="max-width:100%" src="images/nb8_irr_quad.png"></div>
+<label><input type="radio" name="q9" value="1">60 องศา</label><br>
+<label><input type="radio" name="q9" value="0">70 องศา</label><br>
+<label><input type="radio" name="q9" value="0">75 องศา</label><br>
+<label><input type="radio" name="q9" value="0">80 องศา</label><br>
+
+
+<!-- 10 โอเปอเรชั่น 1 ข้อ -->
+
+
+<div class="quiz">
+ข้อ 10. <br>
+<strong>คำสั่ง:</strong>ให้ท่านหาคำตอบ โดยใช้วิธีการเดียวกันกับตัวเลข 2 ชุดแรกที่กำหนดให้<br />
+<br />
+8 * 9 = 72<br />
+5 * 8 = 40<br />
+2 * 4 = ?
+<br />
+
+</div>
+
+<label><input type="radio" name="q10" value="0">2</label><br>
+<label><input type="radio" name="q10" value="1">8</label><br>
+<label><input type="radio" name="q10" value="0">16</label><br>
+<label><input type="radio" name="q10" value="0">32</label><br>
+<!--  11-15 การเปรึยบเทียบซ้อมูล เงื่อนไขสัญลักษณ์   -->
+<br>
+<strong>คำชี้แจง ข้อ 11-15</strong><br><br>
+ ให้พิจารณาเงื่อนไขที่กำหนดให้ (ทุกตัวอักษรมีค่ามากกว่าศูนย์) แล้วตอบโดยยึดหลักเกณฑ์ดังนี้<br><br>
+
+เลือกตอบข้อ 1. ถ้าข้อสรุปทั้งสอง ถูกด้องหรือเป็นจริง ตามเงื่อนไข<br>
+เลือกตอบข้อ 2. ถ้าข้อสรุปทั้งลอง ผิดหรือไม่เป็นจริง ตามเงื่อนไข<br>
+เลือกตอบข้อ 3. ถ้าข้อสรุปทั้งสอง สรุปไม่แน่นอน หรือไม่สามารถสรุปได้แน่ชัด ว่าถูกต้องหรือผิดตามเงื่อนไข<br>
+เลือกตอบข้อ 4. ถ้าข้อสรุปทั้งสองสรุปไม่เหมือนกัน คือ มีข้อสรุปใดข้อสรุปหนึ่งที่เป็นจริง <br>หรือไม่เป็นจริง หรือไม่แน่ชัด ซึ่งไม่เท่ากับอีกข้อสรุปหนึ่ง<br><br>
+
+<div class="quiz">
+ข้อ 11. <br>
+<strong>เงื่อนไข</strong><br>
+2P &gt; Q &lt; 3R &lt; 3S <br>
+Q &lt; T ≠ U &gt; (V+W) <br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: W &gt; 2U <br>
+ข้อสรุปที่ 2: T &lt; 4R <br>
+
+</div>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<div class="quiz">
+ข้อ 12. <br>
+2P &gt; Q &lt; 3R &lt; 3S <br>
+Q &lt; T ≠ U &gt; (V+W) <br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: T = P <br>
+ข้อสรุปที่ 2: U &lt; 6R <br>
+
+</div>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<div class="quiz">
+ข้อ 13. <br>
+2P &gt; Q &lt; 3R &lt; 3S <br>
+Q &lt; T ≠ U &gt; (V+W) <br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: W &lt; P <br>
+ข้อสรุปที่ 2: S &gt; 2R <br>
+
+</div>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<div class="quiz">
+ข้อ 14. <br>
+2P &gt; Q &lt; 3R &lt; 3S <br>
+Q &lt; T ≠ U &gt; (V+W) <br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+
+ข้อสรุปที่ 1: 4R &gt; T <br>
+ข้อสรุปที่ 2: V &lt; 2Q <br>
+
+</div>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<div class="quiz">
+ข้อ 15<br>
+
+2P &gt; Q &lt; 3R &lt; 3S <br>
+Q &lt; T ≠ U &gt; (V+W) <br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: P &gt; S <br>
+ข้อสรุปที่ 2: P &gt; 2R <br>
+
+</div>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<!--  16-20 วิเคราะห์ข้อมูลตาราง 5 ข้อ   -->
+
+<br>
+<strong>ใช้ข้อมูลในตารางข้างล่างนี้ สำหรับคำถาม ข้อ 16-20</strong><br>
+<!-- Psychometric Success Numerical Ability - Data Interpretation Practice Test 1 -->
+
+การจำหน่ายรถยนต์ ในเขตกรุงเทพมหานครและปริมณฑลระหว่างเดือนมกราคม – พฤษภาคม <br>
+<div class="alignRight">(หน่วย : คัน)&nbsp;&nbsp;&nbsp;</div>
+
+<div class = "for_image">
+<table>
+<tr><th>เดือน</th><th>Toyota</th><th>Mazda</th><th align="right">Honda</th><th>Mitsu</th><th>Isuzu</td></tr>
+<tr><td align="left">ม.ค.</td><td class="alignRight">340</td><td class="alignRight">64</td><td class="alignRight">221</td><td class="alignRight">147</td><td class="alignRight">104</td></tr>
+<tr><td align="left">ก.พ.</td><td class="alignRight">570</td><td class="alignRight">125</td><td class="alignRight">315</td><td class="alignRight">102</td><td class="alignRight">96</td></tr>
+<tr><td align="left">มี.ค.</td><td class="alignRight">112</td><td class="alignRight">16</td><td class="alignRight">118</td><td class="alignRight">61</td><td class="alignRight">57</td></tr>
+<tr><td align="left">เม.ย.</td><td class="alignRight">43</td><td class="alignRight">8</td><td class="alignRight">96</td><td class="alignRight">31</td><td class="alignRight">84</td></tr>
+<tr><td align="left">พ.ค.</td><td class="alignRight">165</td><td class="alignRight">41</td><td class="alignRight">83</td><td class="alignRight">24</td><td class="alignRight">38</td></tr>
+</table>
+<br><br>
+</div>
+
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 16. <br>
+ระหว่างเดือนมกราคม – พฤษภาคม ยอดจำหน่ายของโตโยต้า มีจำนวนมากกว่าอันดับที่ 3 เป็นจำนวนกี่คัน
+<br />
+</div>
+
+<label><input type="radio" name="q16" value="0">1,000</label><br>
+<label><input type="radio" name="q16" value="0">786</label><br>
+<label><input type="radio" name="q16" value="0">397</label><br>
+<label><input type="radio" name="q16" value="1">851</label><br>
+
+
+<div class="quiz">
+ข้อ 17. <br>
+ยอดจำหน่ายรถยนต์ เดือนกุมภาพันธ์ มากกว่า เดือนพฤษภาคม คิดเป็นร้อยละเท่าไร
+<br>
+</div>
+
+<label><input type="radio" name="q17" value="0">20%</label><br>
+<label><input type="radio" name="q17" value="1">244%</label><br>
+<label><input type="radio" name="q17" value="0">90%</label><br>
+<label><input type="radio" name="q17" value="0">155%</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 18. <br>
+รถยนต์ที่จำหน่ายมากเป็นอันดับ 2 มียอดจำหน่ายโดยเฉลี่ย ประมาณกี่คัน ต่อเดือน
+<br>
+</div>
+
+<label><input type="radio" name="q18" value="0">50</label><br>
+<label><input type="radio" name="q18" value="0">100</label><br>
+<label><input type="radio" name="q18" value="1">166</label><br>
+<label><input type="radio" name="q18" value="0">256</label><br>
+
+
+<div class="quiz">
+ข้อ 19. <br>
+ถ้า รถโตโยต้า ราคาคันละ 750,000 บาท อยากทราบว่า มูลค่าการจำหน่ายเดือนพฤษภาคม มากกว่าเดือนมีนาคมเป็นจำนวนกี่ล้านบาท<br>
+</div>
+
+<label><input type="radio" name="q19" value="0">10 ล้านบาท</label><br>
+<label><input type="radio" name="q19" value="1">40 ล้านบาท</label><br>
+<label><input type="radio" name="q19" value="0">70 ล้านบาท</label><br>
+<label><input type="radio" name="q19" value="0">100 ล้านบาท</label><br>
+
+
+<div class="quiz">
+ข้อ 20.<br>
+
+จากตารางข้างต้นข้อใดกล่าวได้ถูกต้อง<br>
+</div>
+
+<label><input type="radio" name="q20" value="1">ระหว่างเดือนมกราคม – พฤษภาคม มูลค่าการจำหน่ายของโตโยต้า มากกว่าฮอนด้า</label><br>
+<label><input type="radio" name="q20" value="0">ระหว่างเดือนมกราคม – พฤษภาคม จำหน่ายรถยนต์ทั้งหมด ได้มากกว่า 4,000 คัน </label><br>
+<label><input type="radio" name="q20" value="0">ระหว่างเดือนมกราคม – พฤษภาคม การจำหน่ายรถยนต์โดยเฉลี่ยประมาณ 712 คันต่อเดือน</label><br>
+<label><input type="radio" name="q20" value="0">หากเรียงลำดับจำนวนที่จำหน่ายจากมากไปหาน้อยคือ โตโยต้า มิตซู อีซูซุ และมาสด้า</label><br>
+
+</div>  <!-- end of qstn-div   -->
+
+<!--   21-25 อุปมา-อุปไมย 5 ข้อ   -->
+<strong>คำสั่ง: </strong>ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br /><br />
+
+<div class="quiz">
+ข้อ 21. <br>
+หนังสือ : ตัวอักษร :: _____ : _____<br />
+</div>
+
+<label><input type="radio" name="q21" value="0">ซอง : กระดาษ</label><br>
+<label><input type="radio" name="q21" value="0">บ้าน : ซอย</label><br>
+<label><input type="radio" name="q21" value="0">โรงหนัง : ป้ายโฆษณา</label><br>
+<label><input type="radio" name="q21" value="1">ปฏิทิน : วันที่</label><br>
+
+
+
+<div class="quiz">
+ข้อ 22. <br>
+คุก : อาชญากรรม :: _____ : _____<br />
+</div>
+
+<label><input type="radio" name="q22" value="1">ผู้พิพากษา : อาชญากร</label><br>
+<label><input type="radio" name="q22" value="0">นักโทษ : ขโมย</label><br>
+<label><input type="radio" name="q22" value="0">ป่าช้า : ความตาย</label><br>
+<label><input type="radio" name="q22" value="0">อิสรภาพ : นก</label><br>
+
+
+
+<div class="quiz">
+ข้อ 23. <br>
+ท่อน้ำ : น้ำ :: _____ : _____<br />
+</div>
+
+<label><input type="radio" name="q23" value="1">สายไฟ : ไฟฟ้า</label><br>
+<label><input type="radio" name="q23" value="0">เสียง : สูญญากาศ</label><br>
+<label><input type="radio" name="q23" value="0">ถนน : รถยนต์</label><br>
+<label><input type="radio" name="q23" value="0">วงกลม : ส่วนโค้ง</label><br>
+
+
+
+<div class="quiz">
+ข้อ 24. <br>
+การสอบ : ทุจริต :: _____ : _____<br />
+</div>
+<label><input type="radio" name="q24" value="0">กองทัพ : เกณฑ์ทหาร</label><br>
+<label><input type="radio" name="q24" value="0">หลอกลวง : ธุรกิจ</label><br>
+<label><input type="radio" name="q24" value="1">กฎหมาย : คับแคบ</label><br>
+<label><input type="radio" name="q24" value="0">ความเสี่ยง : เสมียน</label><br>
+
+
+<div class="quiz">
+ข้อ 25. <br>
+ปุ๋ย : ชาวนา :: _____ : _____<br />
+</div>
+<label><input type="radio" name="q25" value="0">ข้าวโพด : ชาวไร่</label><br>
+<label><input type="radio" name="q25" value="1">รำข้าว : คนเลี้ยงหมู</label><br>
+<label><input type="radio" name="q25" value="0">ดอกเบี้ย : นายธนาคาร</label><br>
+<label><input type="radio" name="q25" value="0">ทหาร : ประชาชน</label><br>
+
+
+<!--  26-30 สรุปความจากภาษา 5 ข้อ -->
+
+<br>
+<strong><u>คำสั่ง</u></strong> ในแต่ละข้อจะประกอบด้วยเงื่อนไขหรือข้อมูลที่กำหนดให้ และข้อสรุปเป็นคู่ ๆ จากเงื่อนไขนั้น ให้ศึกษาเงื่อนไขที่กำหนดให้ก่อน แล้วจึงอาศัยความรู้ที่ได้จากเงื่อนไขดังกล่าว มาใช้พิจารณาข้อสรุปทั้งสองของแต่ละข้อ แล้วตอบลงในกระดาษคำตอบ โดยยึดหลักในการตอบดังนี้ <br><br>
+
+<strong>หลักในการทำตอบ</strong><br>
+ตอบ 1. ถ้าข้อสรุป<u>ทั้งสองเป็นจริง</u>ตามเงื่อนไข <br>
+ตอบ 2. ถ้าข้อสรุป<u>ทั้งสองไม่เป็นจริง</u>ตามเงื่อนไข<br>
+ตอบ 3. ถ้าข้อสรุป<u>ทั้งสองไม่แน่ชัด</u> คือดูจากเงื่อนไขแล้ว ไม่สามารถสรุปได้ว่าจริงหรือไม่ <br>
+ตอบ 4. ถ้าข้อสรุปทั้งสอง<u>มีข้อสรุปใดข้อสรุปหนึ่งที่เป็นจริง หรือไม่จริง หรือไม่แน่ซัด ซึ่งไม่ซ้ำกับอีกข้อสรุปหนึ่ง</u><br><br>
+
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+1. มีผลไม้อยู่ 9 ชนิด จัดวางไว้บนชั้น 3 ชั้น  แต่ละชั้นมีช่องเรียงกัน 3 ช่อง และในแต่ละช่อง สามารถวางผลไม่ได้เพียง 1 ลูกเท่านั้น<br />
+2. ผลไม้ทั้ง 9 ชนิดได้แก่ มังคุด แอปเปิ้ล องุ่น ลำไย ทุเรียน แตงโม มะม่วง ส้ม และ ลองกอง<br />
+3. มังคุดและแอปเปิ้ล วางอยู่ชั้นบนสุด<br />
+4. ชั้นกลางมี  องุ่นวางอยู่ในช่องที่ 1 และมะม่วงวางอยู่ในช่องที่ 3<br />
+5. ชั้นล่าง ลำไยวางอยู่ในช่องที่ 2 และติดกับ ลองกอง<br />
+6. แตงโมวางอยู่ที่ชั้นกลาง และอยู่ในช่องกลาง โดยอยู่คนละชั้นกับ ส้ม<br />
+7. ส้มวางอยู่ชั้นล่าง และอยู่ใต้องุ่น<br />
+8. ทุเรียนไม่อยู่ในชั้นกลาง และไม่อยู่ในชั้นล่าง<br />
+9. แอปเปิ้ลอยู่ชั้นเหนือองุ่น และวางอยู่ข้าง ๆ มังคุด<br /><br />
+
+
+
+</div>
+<br><br>
+
+
+<div class="quiz">
+ข้อ 26. <br>
+<strong>ข้อสรุปที่ 1</strong>:   แอปเปิ้ลวางอยู่ชั้นบน ช่องที่ 1<br>
+<strong>ข้อสรุปที่ 2</strong>:    แตงโมวางอยู่ในชั้นกลาง ช่องที่ 2<br>
+</div>
+<br>
+<label><input type="radio" name="q26" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 27. <br>
+<strong>ข้อสรุปที่ 1</strong>:   ส้มวางอยู่ชั้นล่าง<br>
+<strong>ข้อสรุปที่ 2</strong>:    มังคุดวางอยู่ใต้มะละกอ<br>
+</div>
+<br>
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q27" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 28. <br>
+<strong>ข้อสรุปที่ 1</strong>:   ส้ม ลำไย และ ลองกอง วางอยู่คนละชั้นกัน<br>
+<strong>ข้อสรุปที่ 2</strong>:    ทุเรียนอยู่ชั้นเดียวกับ องุ่น และแตงโม<br>
+</div>
+<br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q28" value="1">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 29. <br>
+<strong>ข้อสรุปที่ 1</strong>:   มังคุดอยู่ระหว่างแอบเปิ้ลกับทุเรียน<br>
+<strong>ข้อสรุปที่ 2</strong>:    ลองกองอยู่ใต้มะม่วง<br>
+</div>
+<br>
+<label><input type="radio" name="q29" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 30. <br>
+<strong>ข้อสรุปที่ 1</strong>:  แอบเปิ้ลอยู่ใต้องุ่น <br>
+<strong>ข้อสรุปที่ 2</strong>:    แตงโมอยู่ติดกับส้ม<br>
+</div>
+<br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q30" value="1">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<!--  31-35 ลรุปความจากสัญูญูลักษณ์ 5 ข้อ  -->
+
+
+<div class="quiz">
+ข้อ 31. <br>
+
+<strong>เงื่อนไข</strong><br>
+
+A ≤  C ≥ (E + F) ≥ 2B <br>
+G &lt; M ≥ R &gt; C ≥ S<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: A &gt; C <br>
+ข้อสรุปที่ 2: A = B<br><br>
+
+</div>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+<div class="quiz">
+ข้อ 32. <br>
+<strong>เงื่อนไข</strong><br>
+
+A ≤  C ≥ (E + F) ≥ 2B <br>
+G &lt; M ≥ R &gt; C ≥ S<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: B = M<br>
+ข้อสรุปที่ 2: C &gt; G  <br><br>
+
+</div>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q32" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 33. <br>
+<strong>เงื่อนไข</strong><br>
+
+A ≤  C ≥ (E + F) ≥ 2B <br>
+G &lt; M ≥ R &gt; C ≥ S<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: 2C &gt; 2B <br>
+ข้อสรุปที่ 2: G &lt; R<br><br>
+
+</div>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q33" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 34. <br>
+<strong>เงื่อนไข</strong><br>
+
+A ≤  C ≥ (E + F) ≥ 2B <br>
+G &lt; M ≥ R &gt; C ≥ S<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: A = M <br>
+ข้อสรุปที่ 2: C &gt; R <br><br>
+
+</div>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q34" value="1">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<div class="quiz">
+ข้อ 35. <br>
+<strong>เงื่อนไข</strong><br>
+
+A ≤  C ≥ (E + F) ≥ 2B <br>
+G &lt; M ≥ R &gt; C ≥ S<br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: F &lt; M  <br>
+ข้อสรุปที่ 2: 3M &gt; 2A <br><br>
+
+</div>
+<label><input type="radio" name="q35" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br><br>
+
+
+<!--  36-40 การสรุปเหตุผลเชิงตรรกะ 5 ข้อ  -->
+
+<div class="quiz">
+ข้อ 36. <br>
+ถ้าฉันเป็นหวัด ฉันจะเจ็บคอ <br>ฉันเจ็บคอ <br>ดังนั้นสรุปว่า <br><br>
+</div>
+<label><input type="radio" name="q36" value="0">ฉันต้องไปหาหมอ</label><br>
+<label><input type="radio" name="q36" value="0">ฉันเป็นหวัด</label><br>
+<label><input type="radio" name="q36" value="0">ฉันกำลังจะเป็นไข้</label><br>
+<label><input type="radio" name="q36" value="1">สรุปไม่ได้</label><br><br>
+
+
+<div class="quiz">
+ข้อ 37. <br>
+ถ้าสมหมายเป็นมะเร็ง สมหมายจะป่วยมาก <br>แต่สมหมายไม่เป็นมะเร็ง <br>ดังนั้น<br>
+<br>
+</div>
+<label><input type="radio" name="q37" value="0">สมหมายป่วยเป็นวัณโรค</label><br>
+<label><input type="radio" name="q37" value="0">สมหมายไม่ป่วยมาก</label><br>
+<label><input type="radio" name="q37" value="0">สมหมายสุขภาพดี</label><br>
+<label><input type="radio" name="q37" value="1">สรุปไม่ได้</label><br><br>
+
+
+<div class="quiz">
+ข้อ 38. <br>
+ถ้าณรงค์ศักดิ์เป็นครู ชาวบ้านจะเคารพนับถือเขามาก <br>แต่ชาวบ้านไม่ได้เคารพนับถือเขา <br>ดังนั้น<br>
+<br>
+</div>
+<label><input type="radio" name="q38" value="1">ณรงค์ศักดิ์ ไม่ได้เป็นครู</label><br>
+<label><input type="radio" name="q38" value="0">ณรงค์ศักดิ์ เป็นคนว่างงาน</label><br>
+<label><input type="radio" name="q38" value="0">ณรงค์ศักดิ์ เป็นพระ</label><br>
+<label><input type="radio" name="q38" value="0">สรุปไม่ได้</label><br><br>
+
+
+<div class="quiz">
+ข้อ 39. <br>
+การพยากรณ์อากาศของกรมอุตุ ฯ ถ้าไม่ผิดก็ถูก <br>การพยากรณ์อากาศถูกต้อง <br>สรุปว่า<br>
+<br>
+</div>
+<label><input type="radio" name="q39" value="1">การพยากรณ์อากาศไม่ผิด</label><br>
+<label><input type="radio" name="q39" value="0">การพยากรณ์อากาศไม่ถูก</label><br>
+<label><input type="radio" name="q39" value="0">การพยากรณ์อากาศผิดพลาด</label><br>
+<label><input type="radio" name="q39" value="0">สรุปไม่ได้</label><br><br>
+
+
+<div class="quiz">
+ข้อ 40. <br>
+ผู้ต้องหา ถ้าไม่ได้กระทำผิดก็เป็นผู้บริสุทธิ์ <br>ผู้ต้องหาเป็นผู้บริสุทธิ์ <br>ดังนั้นสรุปว่า<br>
+<br>
+</div>
+<label><input type="radio" name="q40" value="0">ผู้ต้องหาเป็นผู้บริสุทธิ์</label><br>
+<label><input type="radio" name="q40" value="0">ผู้ต้องหาไม่ต้องรับโทษ</label><br>
+<label><input type="radio" name="q40" value="1">ผู้ต้องหาไม่ได้กระทำความผิด</label><br>
+<label><input type="radio" name="q40" value="0">สรุปไม่ได้</label><br><br>
+
+
+================= ภาษาไทย =================
+
+<!-- 41-45 การเรียงความ 5ข้อ   -->
+
+
+<div class="quiz">
+ข้อ 41. <br>
+จงเรียงประโยคต่อไปนี้ ให้ถูกต้อง<br>
+1. กล่าวคือ เป็นประโยชน์ที่กฎหมาย "รับรอง" ว่ามีอยู่ <br>
+2. สิทธิ คือ ประโยชน์ที่กฎหมายรับรองและคุ้มครองให้ <br>
+3. คือคุ้มครองมิให้มีการละเมิดสิทธิ <br>
+4. รวมทั้งบังคับให้เป็นไป ตามสิทธิในกรณีที่มีการละเมิดด้วย<br>
+5. และเป็นประโยชน์ที่กฎหมาย "คุ้มครอง" <br>
+
+</div>
+<label><input type="radio" name="q41" value="0">2 - 3 - 5 - 1 - 4</label><br>
+<label><input type="radio" name="q41" value="1">2 - 1 - 5 - 3 - 4</label><br>
+<label><input type="radio" name="q41" value="0">3 - 4 - 1 - 5 - 2</label><br>
+<label><input type="radio" name="q41" value="0">2 - 4 - 3 - 1 - 5</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 42. <br>
+จงเรียงประโยคต่อไปนี้ ให้ถูกต้อง<br>
+1. เป็นสมบัติทางวัฒนธรรมอันก่อให้เกิดความเป็นเอกภาพ <br>
+2. ภาษาไทยเป็นเอกลักษณ์ประจำชาติ <br>
+3. อีกทั้ง เป็นเครื่องมือในการติดต่อสื่อสารความเข้าใจและความสัมพันธ์ที่ดีต่อกัน<br>
+4. และเสริมสร้างบุคลิกภาพของคนในชาติให้มีความเป็นไทย<br>
+
+</div>
+<label><input type="radio" name="q42" value="0">1 - 4 - 3 - 2</label><br>
+<label><input type="radio" name="q42" value="0">2 - 3 - 1 - 4</label><br>
+<label><input type="radio" name="q42" value="1">2 - 1 - 4 - 3</label><br>
+<label><input type="radio" name="q42" value="0">2 - 4 - 1 - 3</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 43. <br>
+จงเรียงประโยคต่อไปนี้ ให้ถูกต้อง<br>
+1. ทุกสังคมต่างมีองค์ประกอบที่สำคัญ 2 ประการ<br>
+2. แม้ว่าสังคมมนุษย์จะมีขนาดของสังคมหรือลักษณะเฉพาะที่แตกต่างกัน <br>
+3. แต่เมื่อกล่าวถึงโครงสร้างทางสังคมโดยทั่วไป<br>
+4. ได้แก่ กลุ่มสังคมและสถาบันทางสังคมการศึกษา<br>
+
+</div>
+<label><input type="radio" name="q43" value="0">1 - 4 - 3 - 2</label><br>
+<label><input type="radio" name="q43" value="1">2 - 3 - 1 - 4</label><br>
+<label><input type="radio" name="q43" value="0">1 - 4 - 2 - 3</label><br>
+<label><input type="radio" name="q43" value="0">3 - 1 - 4 - 2</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 44. <br>
+จงเรียงประโยคต่อไปนี้ ให้ถูกต้อง<br>
+1. เพราะผู้ติดยาเสพติดอาจจะสร้างปัญหาสังคมที่รุนแรงตามมาได้<br>
+2. ที่ก่อให้เกิดผลเสียต่อผู้เสพเองและต่อสังคมส่วนรวม <br>
+3. ปัญหายาเสพติด เป็นปัญหาทางสังคม <br>
+4. และแก้ไขปัญหายาเสพติดให้พ้นจากสังคม โดยเร็วที่สุด<br>
+5. ดังนั้น ประชากรทุกคนจึงต้องร่วมมือกันปกป้อง <br>
+6. เช่น อาชญากรรม จี้ปล้น การทำร้ายร่างกาย และการฆ่าตัวตาย เป็นต้น<br>
+
+</div>
+<label><input type="radio" name="q44" value="0">3 - 1 - 6 - 2 - 5 - 4</label><br>
+<label><input type="radio" name="q44" value="0">3 - 5 - 4 - 1 - 2 -  6</label><br>
+<label><input type="radio" name="q44" value="0">3 - 2 - 5 - 4 - 6 - 1</label><br>
+<label><input type="radio" name="q44" value="1">3 - 2 - 1  - 6 - 5 - 4</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 45. <br>
+จงเรียงประโยคต่อไปนี้ ให้ถูกต้อง<br>
+ 1.  เพื่อให้สังคมดำเนินไปอย่างราบรื่น <br>
+  2. แต่บางครั้งก็อาจเกิดปัญหาหรือข้อขัดแย้งขึ้น<br>
+ 3. แม้ว่าสังคมจะมีกลไกในการแก้ปัญหาสังคม <br>
+ 4. ซึ่งอาจเป็นผลมาจากปัจจัยภายใน <br>
+ 5. หรือจากปัจจัยภายนอกของสังคม ก็ได้<br><br>
+
+</div>
+<label><input type="radio" name="q45" value="0">1 - 2 - 3 - 4 - 5</label><br>
+<label><input type="radio" name="q45" value="0">3 - 4 - 5 - 1 - 2</label><br>
+<label><input type="radio" name="q45" value="1">3 - 1 - 2 - 4 - 5 </label><br>
+<label><input type="radio" name="q45" value="0">1 - 3 - 2 - 4 - 5</label><br>
+
+
+
+<!-- 46-50 ความบกพร่องของภาษา 5ข้อ  -->
+
+<div class="quiz">
+ข้อ 46. <br>
+ประโยคในข้อใด ใช้ภาษาถูกต้อง รัดกุม มากที่สุด</div>
+<label><input type="radio" name="q46" value="0">พี่น้องทะเลาะกันจนคุณแม่ต้องไปเกลี้ยกล่อมให้คืนดีกัน</label><br>
+<label><input type="radio" name="q46" value="0">ตำรวจนำรอยนิ้วมือไปตรวจตรา หาร่องรอยหลักฐาน เพื่อคลี่คลายคดี</label><br>
+<label><input type="radio" name="q46" value="0">หน้าเว็บเพจมักจะมีการเชื่อมโยง ซึ่งสามารถคลิ๊กไปยังหน้าอื่น ๆ หรือเว็บอื่นได้ </label><br>
+<label><input type="radio" name="q46" value="1">อาหารตามสั่ง ผัดกะเพราไก่ไข่ดาว ที่ร้านเจ๊แดง ราคา จานละ 25 บาท</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 47. <br>
+ประโยคในข้อใด ใช้ภาษาถูกต้อง รัดกุม มากที่สุด</div>
+<label><input type="radio" name="q47" value="0">แกงกระหรี่ไก่ร้านนี้ รสชาติดี อร่อยมาก</label><br>
+<label><input type="radio" name="q47" value="0">มายากลชุดนี้ ต้องดูให้ดี อย่ากระพริบตาทีเดียว</label><br>
+<label><input type="radio" name="q47" value="1">การเลือกใช้คำพูด ต้องเลือกให้ถูกต้องตามกาลเทศะ และบุคคล</label><br>
+<label><input type="radio" name="q47" value="0">ที่ชายทะเลบางแห่ง มีแมงกระพรุนไฟจำนวนมาก ลงเล่นน้ำต้องระวังจะไปถูกมันเข้า</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 48. <br>
+ประโยคในข้อใด ใช้ภาษาถูกต้อง รัดกุม มากที่สุด</div>
+<label><input type="radio" name="q48" value="0">ยุพินไม่รู้จักประหยัด อดออม ใช้จ่ายสุรุ่ยสุร่าย เป็นกะเชอก้นรั่ว</label><br>
+<label><input type="radio" name="q48" value="0">สมเด็จพระนเรศวรมหาราชได้กรีฑาทัพไปต้านทัพพม่าที่ด่านเจดีย์ 3 องค์</label><br>
+<label><input type="radio" name="q48" value="1">สุภาพรเป็นคนมีกิริยาวาจาเรียบร้อย แต่ไม่คร่ำครึ สมเป็นกุลสตรี ยุคเมืองไทย 4.0</label><br>
+<label><input type="radio" name="q48" value="0">หลายคนรับประทานอาหารอย่างรีบเร่ง แข่งกับเวลา ทำให้เป็นโรคเกี่ยวกับกะเพาะอาหาร</label><br>
+
+<div class="quiz">
+ข้อ 49. <br>
+ประโยคในข้อใด ใช้ภาษาถูกต้อง รัดกุม มากที่สุด</div>
+<label><input type="radio" name="q49" value="0">วันพรุ่งนี้ คณะศึกษานิเทศจะมาตรวจเยี่ยมที่โรงเรียนของเรา</label><br>
+<label><input type="radio" name="q49" value="1">หน้ามะม่วง แม่เคยทำข้าวเหนียวมูนกับมะม่วงอกร่องสุกให้กิน อร่อยมาก</label><br>
+<label><input type="radio" name="q49" value="0">ป่าดิบเขา เป็นป่าที่มีต้นไม้ขึ้นอย่างแน่นหนา ส่วนใหญ่อยู่บนเทือกเขาสูงทางภาคเหนือ</label><br>
+<label><input type="radio" name="q49" value="0">ผู้อ่านเองก็สามารถจะสัมผัสถึง ความละเอียดละมุนละไม ของภาษาที่ผู้เขียนใช้ได้</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 50. <br>
+ประโยคในข้อใด ใช้ภาษาถูกต้อง รัดกุม มากที่สุด</div>
+<label><input type="radio" name="q50" value="1">อาหารเช้าวันนี้ของผม คือ กาแฟร้อนกับ ซาลาเปา</label><br>
+<label><input type="radio" name="q50" value="0">โรงเรียนเป็นสถาบันที่มีอิทธิพลกับความคิดของเด็กมาก</label><br>
+<label><input type="radio" name="q50" value="0">ในที่ประชุม มีสมาชิกบางคนประท้วงข้อเสนอเรื่องการสร้างโรงงาน</label><br>
+<label><input type="radio" name="q50" value="0">หลังงานคอนเสิร์ต จะเห็นว่ามี เศษกระดาษ ถุงพลาสติก และ ขยะมูลฝอยอื่น ๆ เรี่ยราดอยู่ทั่วไปในบริเวณที่จัดงาน</label><br><br>
+
+
+<!-- 51-55 การเติมคำ 5ข้อ  -->
+
+<strong>คําในตัวเลือกใดเหมาะสมที่จะเติมลงในช่องว่างของข้อความ</strong><br><br>
+
+<div class="quiz">
+ข้อ 51. <br>
+เนื่องใน ........ วันเฉลิมพระชนมพรรษา สมเด็จพระนางเจ้าสุทิดา พัชรสุธาพิมลลักษณ พระบรมราชินี 3 มิถุนายน 2563<br>
+</div>
+<label><input type="radio" name="q51" value="0">วโรกาส</label><br>
+<label><input type="radio" name="q51" value="1">โอกาส</label><br>
+<label><input type="radio" name="q51" value="0">ดิถี</label><br>
+<label><input type="radio" name="q51" value="0">วาระดิถี</label>
+
+
+<div class="quiz">
+ข้อ 52. <br>
+รัฐบาลมี ... หลักที่จะต้องจัดบริการ ....... ไว้ให้แก่ประชาชน </div>
+<label><input type="radio" name="q52" value="0">งาน, สาธารณะ</label><br>
+<label><input type="radio" name="q52" value="0">ความรับผิดชอบ, สาธารณะ</label><br>
+<label><input type="radio" name="q52" value="1">หน้าที่, สาธารณประโยชน์ </label><br>
+<label><input type="radio" name="q52" value="0">ความรับผิดชอบ, สาธารณะ</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 53. <br>
+ฝ่ายปราบจลาจลต้านทานฝูงชนไว้ได้อย่าง ........ </div>
+<label><input type="radio" name="q53" value="0">เรียบร้อย </label><br>
+<label><input type="radio" name="q53" value="0">ง่ายดาย </label><br>
+<label><input type="radio" name="q53" value="1">เหนียวแน่น</label><br>
+<label><input type="radio" name="q53" value="0">แน่นอน</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 54. <br>
+ด้วยความตระหนักใน ....... ทําให้เขาทนทํางาน โดยไม่ทอดทิ้ง</div>
+<label><input type="radio" name="q54" value="1">ความรับผิดชอบ</label><br>
+<label><input type="radio" name="q54" value="0">หน้าที่</label><br>
+<label><input type="radio" name="q54" value="0">ผลงาน</label><br>
+<label><input type="radio" name="q54" value="0">การงาน</label><br>
+
+
+
+<div class="quiz">
+ข้อ 55. <br>
+การทํามาหากินในระยะนี้ดูช่าง .......  ไปทุกเสียอย่าง</div>
+<label><input type="radio" name="q55" value="0">ลําบาก</label><br>
+<label><input type="radio" name="q55" value="0">กันดาร</label><br>
+<label><input type="radio" name="q55" value="1">ฝืดเคือง</label><br>
+<label><input type="radio" name="q55" value="0">อัตคัด</label><br>
+
+
+
+<!-- 56-60 บทความสั้น/ยาว 5ข้อ  -->
+
+<strong>จงอ่านข้อความต่อไปนี้ แล้วตอบคําถามข้อ 56-57</strong><br><br>
+
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<div class="indent_15px">
+วัฒนธรรมไทยสมัยก่อน เกิดจากคนที่มีความเป็นอยู่แตกต่างจากสมัยนี้ และมีสภาพแวดล้อมต่างกัน คนสมัยก่อนมีเวลามากพอจะสร้างสรรค์ของประณีต่าง ๆ ในสมัยนี้ เราไม่มีเวลาพอ จึงสร้างสรรค์ของใหม่ไม่ได้ เมื่อวัฒนธรรมไทยที่ตกทอดมาถึงเราในปัจจุบัน เป็นวัฒนธรรมต่างสมัย เป็นวัฒนธรรมที่เกิดขึ้นในสมัยหนึ่ง ในสภาพ แวดล้อมที่ต่างกับปัจจุบัน แล้วเราจะถือว่าวัฒนธรรมไทยนั้น เป็นของดี เป็นของที่ควรจะรักษาเอาไว้ในทุกกรณีหรือไม่
+</div>
+</div>
+<br><br>
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 56. <br>
+วัฒนธรรมไทยในสมัยก่อนแตกต่างจากวัฒนธรรมไทยปัจจุบัน เพราะอะไร<br>
+</div>
+<label><input type="radio" name="q56" value="1">เกิดจากสภาพแวดล้อม และความเป็นอยู่ต่างกัน</label><br>
+<label><input type="radio" name="q56" value="0">ความคิดสร้างสรรค์ของคน ต่างยุคต่างสมัยกัน</label><br>
+<label><input type="radio" name="q56" value="0">สภาพแวดล้อมสมัยก่อน เอื้อมากกว่าปัจจุบัน</label><br>
+<label><input type="radio" name="q56" value="0">คนสมัยก่อน มีเวลามากกว่าคนในปัจจุบัน</label><br>
+
+
+<div class="quiz">
+ข้อ 57. <br>
+ผู้เขียนข้อความนี้มีทัศนคติต่อวัฒนธรรม อย่างไร<br>
+</div>
+<label><input type="radio" name="q57" value="0">คติในการถ่ายทอดวัฒนธรรมนั้น ต้องถือหลักความเหมาะสมแก่การดําเนินชีวิต</label><br>
+<label><input type="radio" name="q57" value="0">การดํารงรักษาวัฒนธรรมอันดีงามของไทยนั้น ต้องมีทัศนคติว่า ควรพิจารณาให้ลึกซึ้งเสียก่อน</label><br>
+<label><input type="radio" name="q57" value="1">วัฒนธรรมที่เกิดขึ้นในยุคใดสมัยใดก็เหมาะแก่คนในยุคสมัยนั้นเท่านั้นหาเหมาะแก่คนต่างสมัยกันไม่</label><br>
+<label><input type="radio" name="q57" value="0">ถึงแม้วัฒนธรรมเก่าจะแตกต่างจากวัฒนธรรมใหม่ ก็ยังนับว่าเป็นวัฒนธรรมไทยด้วยกัน จึงควรรักษาไว้เป็นมรดกแก่ลูกหลาน </label>
+
+</div><!-- qstn-div  -->
+
+<br><br>
+
+<strong>จงอ่านข้อความต่อไปนี้แล้วตอบคําถามข้อ 58-60</strong><br><br>
+
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<div class="indent_15px">
+อนงค์เป็นสาวตาดําขําคม ช่างเล่นช่างหัว มีอารมณ์ขันถูกใจสมเกียรติอะไร ๆ ก็ดีหมด มีเรื่องสมเกียรติตะขิดตะขวงอย่างเดียว คือ อนงค์ดูจะเป็นคนมีเหงื่อมาก เหงื่อไหลไคลย้อยอยู่เสมอ คงเป็นเพราะ ทำอะไรรวดเร็ว จนดูกระหืดกระหอบเป็นนิจ เสื้อผ้า เผ้าผมก็เลยพลอยเปื้อนเหงื่อไปหมด พอสมเกียรติขยับจะเข้าใกล้ชิดทีไร มองเห็นคอเสื้อของอนงค์เป็นคราบดํา ทําให้ต้องถอยห่าง ทําใจไม่ได้ว่าของมันชักออก ผมเปียกเหงื่อดูเหนียวหนับก็ไม่เป็นไร สระเสียก็สะอาด สมเกียรติวิเคราะห์ตัวเองแล้ว ยอมรับว่ารักอนงค์จริง แต่จะรักสนิทมากขึ้น ถ้าอนงค์จะปรับปรุงส่วนที่สมเกียรติไม่ชอบ
+</div>
+</div>
+
+<br><br>
+<div class="qstn-div">
+
+<div class="quiz">
+ข้อ 58. <br>
+การที่เป็นคนเหงื่อมากทําให้เป็นอย่างไร<br>
+</div>
+<label><input type="radio" name="q58" value="0">หงุดหงิด</label><br>
+<label><input type="radio" name="q58" value="0">ทำอะไรรวดเร็ว</label><br>
+<label><input type="radio" name="q58" value="0">มีกลิ่นตัวแรง</label><br>
+<label><input type="radio" name="q58" value="1">ใช้เสื้อผ้าเปลือง</label><br>
+
+
+<div class="quiz">
+ข้อ 59. <br>
+อนงค์ควรทําอย่างไรจึงจะไม่มีกลิ่นเหงื่อ<br>
+</div>
+<label><input type="radio" name="q59" value="0">รักษาความสะอาดของร่างกาย</label><br>
+<label><input type="radio" name="q59" value="1">ทําอะไร ๆ ให้ช้าลงกว่าเดิม</label><br>
+<label><input type="radio" name="q59" value="0">ใช้ยาระงับกลิ่นตัว</label><br>
+<label><input type="radio" name="q59" value="0">ถูกทุกข้อ</label><br>
+
+<div class="quiz">
+ข้อ 60. <br>
+สมเกียรติควรบอกให้อนงค์ปรับปรุงตัวเองด้วยเหตุผลใด<br>
+</div>
+<label><input type="radio" name="q60" value="0">เพราะเกลียดเหงื่อ</label><br>
+<label><input type="radio" name="q60" value="1">เพราะรักอนงค์จริงใจ</label><br>
+<label><input type="radio" name="q60" value="0">เพราะจะได้เข้าใกล้ได้</label><br>
+<label><input type="radio" name="q60" value="0">เพราะจะได้ไม่มีคนอื่นรังเกียจ </label><br>
+
+</div>  <!-- div class="qstn-div"   -->
+
+
+<br>
+<input id="send" type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+</div>
+
+</div>  <!--  end of div content  -->
+
+<script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

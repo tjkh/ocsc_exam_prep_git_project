@@ -1,0 +1,215 @@
+<!doctype html>
+<!-- pagination from: https://stackoverflow.com/questions/25434813/simple-pagination-in-javascript -->
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="my_style.css">
+    <link rel="stylesheet" type="text/css" href="symbol_cndtng_exercise.css">
+
+	<style>
+
+    body {
+        font-size: 16px;
+    }
+/* ให้เส้นคั่น ห่างจากขอบซ้าย นิดนึง*/ 
+
+hr{margin-left:30;}
+
+ .equal-width td { width: 50%; } 
+ol{
+  padding-left:15px;
+}
+
+/* Second Level */
+ol ol{
+  padding-left:17px;
+}
+
+/* Third Level */
+ol ol ol{
+  padding-left:18px;
+}
+
+ul{
+  padding-left:15px;
+}
+
+/* Second Level */
+ul ul{
+  padding-left:17px;
+}
+
+/* Third Level */
+ul ul ul{
+  padding-left:18px;
+}
+</style>
+	
+	<title>Document</title>
+</head>
+<!--
+<body onload="changePage(1, false;)">
+-->
+<!-- changePage(page num, isStartTiming true= จับเวลา false= จับเวลาไม่เดิน)  -->
+
+
+<body onload="changeData('how_to_evaluate')">
+
+<!-- เรียกใช้ข้อมูลจากไฟล์ข้างนอก ไม่ง่น ช้ามาก  -->
+<script src= "data-for-symbol_cndtng_exercise.js"></script>
+
+<div id ="timer_wrapper" class ="timer_wrapper">
+    <div id = "row" class ="timer_wrapper row">
+        <div class ="timer_wrapper row btns">
+            จับเวลา:&nbsp;&nbsp;
+            <!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+
+            <!--   มีการตั้งเวลา 2 ที่ คือ ที่แรกตอนกดปุ่มเริ่มจับเวลา ซึ่งอยู่ในไฟล์ html -->
+            <!--และอีกที่ในไฟล์ js ตอนเรียกใช้ countDown() จะทำงานเมื่อเปลี่ยนหน้า หรือเปลี่ยนข้อ จะเริ่มใหม่โดยอัตโนมัติ จะได้ ไม่ต้องกดจับเวลาใหม่ ทุกครั้งที่ขึ้นข้อใหม่ -->
+            <!-- ระวัง ต้องให้ การตั้งเวลาทั้งสองที่ ตรงกันด้วย-->
+
+
+
+            <button id = "start" onclick="countDown(0,01,48)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+
+        </div>
+
+        <div class ="timer_wrapper row details">
+            <div id="full_time" class ="timer_wrapper row detail duration">
+                ข้อละ: 1:48 นาที
+            </div> <!-- end osf duration -->
+
+            <div class ="timer_wrapper row detail timer">
+                <div id="timer">0 : 0 : 0</div>
+            </div> <!-- end of timer -->
+
+        </div> <!-- end of details -->
+
+    </div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <strong>เตรียมสอบ ก.พ.</strong>
+        </div>
+        <div class="modal-body">
+            <p id= "myMessage">Place holder for text..</p>
+        </div>
+        <div class="modal-footer">
+            https://www.thongjoon.com
+        </div>
+    </div>
+</div>
+<div id="container">
+    <div id="content" style="margin-top: 70px"> <!--  start div content  -->
+        <!-- ตัวข้อสอบ เริ่มที่นี่ -->
+        <!-- $\frac{a}{b}$  เศษส่วนใช้ katex ทำงานได้ แต่ ใช้ใน json ยังไม่ได้ -->
+    <!--     <strong>เมนู</strong>
+
+
+    <br>    -->
+        <div id = "nav"> <!--  class="myMenu curr" เป็นการ add two classes to a html element. -->
+<!--  ชื่อเมนูในส่วน name=  ตั้งให้ตรงกับชื่อตัวแปร สำหรับเมนูนี้ ในไฟล์ symbol_cndtng_exercise.js  -->
+            <!--  addBkg(this) ที่ วิธีทำเงื่อนไข(แบบย่อ) เพราะเป็นหน้าแรกที่เข้ามาเจอ จึงเอาเส้นแดงขีดเส้นใต้บอกที่เมนูว่า กำลังอยู่เมนูนี้  -->
+
+            [ <a href="#" class="myMenu curr" onclick="addBkg(this); changeData('how_to_evaluate'); return false;">วิธีทำข้อสอบเงื่อนไข</a> |
+            <a href="#" class="myMenu" id="exMenu_normal_cndtng" onclick="addBkg(this); changeData('normal'); return false;">เงื่อนไขปกติ</a> |
+            <a href="#" class="myMenu"  id="exMenu_fraction_cndtng" onclick="addBkg(this); changeData('fraction'); return false;">เศษส่วน</a> |
+            <a href="#" class="myMenu" id="exMenu_plus_minus_cndtng" onclick="addBkg(this); changeData('plus_minus'); return false;">บวก-ลบ</a>  |
+            <a href="#" class="myMenu" id="exMenu_min_max_cndtng_cndtng" onclick="addBkg(this); changeData('min_max'); return false;">น้อยสุด-มากสุด</a>  |
+            <a href="#" class="myMenu" id="exMenu_multi_connection_cndtng" onclick="addBkg(this); changeData('multi_connection'); return false;">ตัวเชื่อม 2 ตัว</a>  |
+            <a href="#" class="myMenu" id="exMenu_mixed_cndtng" onclick="addBkg(this); changeData('mixed'); return false;"> เงื่อนไขคละรูปแบบ</a>
+
+            <!--
+
+            [ <a href="#" class="myMenu curr" onclick="addBkg(this); changeData('how_to_evaluate'); return false;">วิธีทำเงื่อนไข(แบบย่อ)</a> |
+            <a href="#" class="myMenu" id="exMenu_normal_cndtng" name="normal_cndtng" onclick="addBkg(this); changeData('normal'); return false;">เงื่อนไขปกติ</a> |
+            <a href="#" class="myMenu"  id="exMenu_fraction_cndtng"  name="fraction_cndtng" onclick="addBkg(this); changeData('fraction'); return false;">เงื่อนไข เศษส่วน</a> |
+            <a href="#" class="myMenu" id="exMenu_plus_minus_cndtng"  name="plus_minus_cndtng" onclick="addBkg(this); changeData('plus_minus'); return false;">เงื่อนไข บวก-ลบ</a>  |
+            <a href="#" class="myMenu" id="exMenu_min_max_cndtng_cndtng"  name="min_max_cndtng" onclick="addBkg(this); changeData('min_max'); return false;">น้อยสุด-มากสุด</a>  |
+            <a href="#" class="myMenu" id="exMenu_multi_connection"  name="multi_connection_cndtng" onclick="addBkg(this); changeData('multi_connection'); return false;">ตัวเชื่อม 2 ตัว</a>  |
+            -->
+            <!-- id mixed ไม่ต้องมี exMenu_ นำหน้า เพราะ จะสุ่มทุกครั้งเนื่องจากเอา เงื่อนไขชนิดอื่น มารวมกัน จึงต้องสุ่มเพื่อให้ปนกัน เลยทำให้กำหนดหน้าเริ่มต้นไม่ได้ เพราะข้อมูลจะเปลี่ยนตลอดเมื่อเริ่มต้นใหม่ เนื่องจากมีการสุ่มนั่นเอง -->
+
+
+            <!--
+            <a href="#" class="myMenu" id="exMenu_mixed_cndtng"  name="mixed_cndtng" onclick="addBkg(this); changeData('mixed'); return false;"> คละรูปแบบ</a>
+            |
+            <a href="#" class="myMenu" onclick="addBkg(this); changeData('fraction'); return false;">เศษส่วน</a>  |
+            <a href="#" class="myMenu" onclick="addBkg(this); changeData('pair_diff'); return false;">ฝึกตีแฉก</a>  |
+            <a href="#" class="myMenu" onclick="addBkg(this); changeData('mixed'); return false;">คละรูปแบบ</a> | <a href="#" class="myMenu" onclick="addBkg(this); changeData('old_exam'); return false;">ข้อสอบเก่า</a>
+            -->
+			]<br><br>
+        </div>
+
+<!--  สำหรับคำถาม  -->
+        <div id="listingTable" style="display: block; border: 2px solid blue;
+  padding: 0px; border-radius: 15px; padding-bottom: 10px; padding-top: 15px;  padding-left: 15px;"></div>
+    </div>
+    <!--
+    <div><form>
+        <label>ตอบ:</label>
+        <input id="myInput" type="number" pattern="[0-9]*" inputmode="numeric" maxlength="10" style="height: 25px; font-size: 100%">
+    </form></div>
+
+    ถ้าใน Android / iOs ให้เรียกแป้นตัวเลข จากข้างล่างนี้
+    -->
+    <!--
+    <div><form>
+      <label>ตอบ:</label>
+      <input type="number" maxlength="10" style="height: 25px; font-size: 100%" pattern="[0-9]*" inputmode="numeric">
+    </form></div>
+    -->
+    <br>
+	<!--  สำหรับเฉลย  -->
+    <div id="showAnswer" style="display: none; border: 2px solid blue;
+  border-radius: 15px; padding-bottom: 10px; padding-top: 15px;  padding-left: 15px;"></div>
+
+    <br>
+    <div style="text-align: center;">
+        <button onclick="showItAns()" id="showAnswer_btn" style="font-size: 80%;">ตรวจคำตอบ</button><br>
+    </div>
+    <br>
+    <div id="msgForNon-buyers" style="display:none; color:red; border: 2px solid red;
+  padding: 0px; border-radius: 25px; text-align: center"><span style="font-size: 100%"><strong>  ทำต่อในรุ่นเต็มนะครับ</strong></span><br>ซื้อเดี๋ยวนี้ ใช้งานได้ทันที</div>
+      <hr>
+    <div id="footer" style="height: 30px; text-align: center; display: flex; justify-content: space-between; padding: 5px">
+        <hr style="margin-top: 0em; margin-bottom: 0.3em;">
+
+		<div style="display: flex; flex: 1; justify-content: flex-start;">
+        <button onclick="goToPage('start')" id="go_first" style="margin-left: 10px; margin-right: 10px; float: Left; font-size: 80%; touch-action: manipulation;"> &#x2759;&#x276E;</button>
+        <button onclick="prevPage()" id="btn_prev" style="float: Left; font-size: 80%; touch-action: manipulation;">&#x276E; ย้อนกลับ</button>
+		</div>
+
+        <span id="item_num" style="color: white;">ข้อ: <span id="page"></span></span>
+
+		<div style="display: flex; flex: 1; justify-content: flex-end;">
+            <button onclick="nextPage()" id="btn_next" style="margin-right: 5px; float: Right; font-size: 80%; touch-action: manipulation;">ต่อไป &#x276F;</button><button onclick="goToPage('end')" id="go_last" style="margin-left: 5px; float: Right; font-size: 80%; touch-action: manipulation;">&#x276F;&#x2759;</button>&nbsp;&nbsp;
+</div>
+
+
+
+        <hr style="  margin-top: 0.3em; margin-bottom: 0.3em;">
+    </div>
+
+
+</div>
+
+<script src="_js_exercise_shared_functions.js" type="text/javascript" language="JavaScript"></script>
+<script src="symbol_cndtng_exercise.js" type="text/javascript" language="JavaScript"></script>
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script><br>
+
+
+</body>
+</html>

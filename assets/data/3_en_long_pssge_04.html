@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+
+    <title>Document</title>
+    <style>
+/*added a text indent to overide indent styles further down*/
+.tooltip {
+    display: inline-block;
+    text-indent:0em;
+	/* border-bottom: 1px dotted black;  */
+	  border-bottom: 2px dotted;
+      border-bottom-color: rgba(0, 255, 0, 0.5);
+	  display: inline-block;
+  text-indent:0em;
+}
+
+.tooltiptext, .tooltiptext {
+   display: none;
+    width: calc(100vw - 35px);
+    border-radius: 6px;
+    left: 10px;
+    line-height: normal;
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+     display: none;
+    width: calc(100vw - 55px);
+  background-color: #022f71;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+.tooltip:hover .tooltiptext {
+      display: block;
+}
+</style>
+
+
+</head>
+<body>
+<!-- ชดเชย input ของ modal ที่มีในไฟล์อื่น เพื่อให้เอา 6 หารจะได้ลงตัว เป็นจำนวนข้อทั้งหมด  -->
+<input type="button" value="Add" style="display: none">
+<input type="button" value="Add2" style="display: none">
+<a name="conver_3"></a>
+<div class="upper" id="top">
+    <!-- ข้อ 1. -->
+    <!--
+    ข้อมูลจาก wikipedia
+    -->
+    <div class="isNew">1641869622:date1641710989</div>
+    <strong>สำหรับ ข้อ 1-5</strong><br><br>
+    <div class="tooltip">Social distancing<span class="tooltiptext">การเว้นระยะห่างทางสังคม<br>distance=ระยะทางไกล</span></div> is a set of <div class="tooltip">infection control actions<span class="tooltiptext">มาตรการการควบคุมการติดเชื้อ<br>infection=การติดเชื้อ, control=การควบคุม, action=การกระทำ</span></div> <div class="tooltip">intended<span class="tooltiptext">มีจุดประสงค์เพื่อ</span></div> to stop or slow down the <div class="tooltip">spread<span class="tooltiptext"> การแพร่กระจาย</span></div> of a <div class="tooltip">contagious disease<span class="tooltiptext">โรคติดต่อ<br>contagious=ซึ่งติดต่อกันได้, disease=โรค</span></div>. The <div class="tooltip">objective<span class="tooltiptext">จุดประสงค์</span></div> of social distancing is to <div class="tooltip">reduce<span class="tooltiptext"> ลดจำนวนลง</span></div> the <div class="tooltip">probability<span class="tooltiptext">ความเป็นไปได้, โอกาส</span></div> of <div class="tooltip">contact<span class="tooltiptext">การสัมผัส</span></div> between <div class="tooltip">persons carrying an infection, and others<span class="tooltiptext">บุคคลที่มีการติดเชื้อกับผู้อื่น<br>carry=นำพา, บรรทุก, พาไป</span></div> who are not infected, so as to <div class="tooltip">minimize<span class="tooltiptext">ทำให้น้อยที่สุด<br>minimal=เล็ก</span></div> disease <div class="tooltip">transmission<span class="tooltiptext">การถ่ายทอด, การแพร่กระจาย</span></div>, <div class="tooltip">morbidity<span class="tooltiptext">อัตราการเกิดโรค</span></div> and <div class="tooltip">ultimately<span class="tooltiptext">สูงสุด</span></div> <div class="tooltip">mortality<span class="tooltiptext">ตาย<br>ultimately mortality เป็นการพูดต่อเนื่องมาจากอัตราการเกิดโรค และท้ายที่สุดไปจนถึงการเสียชีวิต</span></div>.<br><br>
+
+    Social distancing is <div class="tooltip">most effective<span class="tooltiptext">มีประสิทธิภาพสูงสุด</span></div> when an infection can be transmitted <div class="tooltip">via<span class="tooltiptext">โดยผ่านทาง</span></div> <div class="tooltip">droplet<span class="tooltiptext">สารคัดหลั่ง</span></div> <div class="tooltip">contact<span class="tooltiptext">การสัมผัส</span></div> (coughing or sneezing); <div class="tooltip">direct physical contact<span class="tooltiptext">การสัมผัสทางกายภาพโดยตรง<br>physical=ทางกายภาพ, direct=ตรง, contact=การสัมผัส</span></div>, including sexual contact; <div class="tooltip">indirect<span class="tooltiptext"> โดยอ้อม</span></div> physical contact (e.g., by touching a <div class="tooltip">contaminated surface<span class="tooltiptext"> พื้นผิวที่มีการปนเปื้อน<br>surface=พื้นผิว</span></div>); or <div class="tooltip">airborne<span class="tooltiptext"> มาทางอากาศ</span></div> transmission (if the <div class="tooltip">microorganism<span class="tooltiptext">จุลินชีพขนาดเล็ก</span></div> can <div class="tooltip">survive<span class="tooltiptext"> มีชีวิตรอด</span></div> in the air for long periods).
+    <br>
+</div>
+
+<div class="lower">
+    <form action="#">
+        <div class="question_num"   id="lng_pssge4_q_number_1"><strong>ข้อ 1.</strong></div>
+        <div class="question_content">
+            What should be the title of this passage?<br>
+        </div>
+
+        <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnPssage4_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Social distancing.
+            </label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. How to stop COVID-19.</label></div>
+        </div>  <!--  choice_b  -->
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnPssage4_q1" type="radio" value="ตัวเลือก ข้อ 3" />3. What is social distancing best for.</label></div>
+        </div> <!-- choice_c -->
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. How to slow down the spread of a contagious disease. </label></div>
+        </div> <!--  choice_d  -->
+        <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+        <div id="lngEnPsge4_ans_01" class="show_answer" onclick="hide_div_spelling('lngEnPsge4_ans_01')" style="display:none; cursor: pointer;">
+            dummy text
+        </div>
+        <div id="lgEnPssge4_q1" class="explanation" style="display:none">
+            คำอธิบาย<br /><br />
+
+            ข้อ 1 ถูกที่สุด เพราะเป็นเรื่องเกี่ยวกับ Social distancing<br>
+            ข้อ 2 ในเรื่องไม่ได้พูดถึงการหยุดไวรัส Covid-19<br>
+            ข้อ 3 ในเรื่องอ่าน ไม่ได้พูดว่า social distancing สำหรับอะไรที่ดีที่สุด<br>
+            ข้อ 4 ไม่ครอบคลุมเนื้อหา<br><br>
+
+            <strong>สรุปเรื่องที่อ่าน</strong><br><br>
+            การเว้นระยะห่างทางสังคม เป็นการกระทำต่าง ๆ (a set of actions) ที่ควบคุม(control) การติดเชื้อ (infection) เพื่อ (intended) หยุด หรือ ชะลอ การแพร่กระจาย (spread of) ของโรคติดต่อ (contagious disease) จุดมุ่งหมายของ การเว้นระยะห่างทางสังคม คือ การลดโอกาส (probability)การสัมผัส(contact) ระหว่างคนที่ติดเชื้อ, และคนอื่นที่ไม่ติดเชื้อ, เพื่อ(so as) การแพร่เชื้อโรค, อัตราการป่วย(morbidity), และ ที่สูงสุดคือการเสียชีวิต (mortality) ให้เป็นไปน้อยที่สุด<br><br>
+
+            การเว้นระยะห่างทางสังคม มีประสิทธิภาพสูงสุด เมื่อการติดเชื้อ สามารถติดต่อได้ทางการสัมผัสละอองเสมหะ--droplet-- (ไอหรือจาม); การสัมผัสโดยตรง, รวมทั้งการสัมผัสทางเพศ; การสัมผัสทางอ้อม (เช่น โดยการสัมผัสพื้นผิวที่แปดเปื้อน); หรือ การแพร่ฟุ้งกระจายในอากาศ (ถ้าจุลชีพสามารถมีชีวิตอยู่ได้--survive-- ในอากาศเป็นเวลานาน)
+
+            <br><br>
+
+        </div>  <!-- lgEnPssge4_q..  -->
+        <div class ="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage4_q1', 'ตัวเลือก ข้อ 1', 'lngEnPsge4_ans_01', 'yes', '1641869622', 'lng_pssge4_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+            <input class="myFloat_Right" style="color:blue;" id="lngPsge4_1" onclick="show_hide_expl('lgEnPssge4_q1', 'lngPsge4_1', 'lng_pssge4_q_number_1', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" />
+            <!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+        </div> <!-- button -->
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+
+    <!-- ข้อ 2. -->
+
+    <form action="#">
+        <div class="question_num"   id="lng_pssge4_q_number_2"><strong>ข้อ 2.</strong></div>
+        <div class="question_content">
+            What is NOT the objective of social distancing? &nbsp;
+        </div>
+        <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col_1Col"><label> <input name="longEnPssage4_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. To fight a contagious disease.</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. To cure a person infected with a contagious disease.</label></div>
+        </div>  <!--  choice_b  -->
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnPssage4_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. To slow down the spread of a contagious disease. </label></div>
+        </div> <!-- choice_c -->
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. To reduce a contagious disease transmission.</label></div>
+        </div> <!--  choice_d  -->
+        <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+        <div id="lngEnPsge4_ans_02" class="show_answer" onclick="hide_div_spelling('lngEnPsge4_ans_02')" style="display:none; cursor: pointer;">
+            dummy text
+        </div>
+        <div id="lgEnPssge4_q2" class="explanation" style="display:none">
+
+
+            คำอธิบาย<br /><br />
+            objective = จุดประสงค์  -- ข้อใดไม่ใช่จุดประสงค์ของ social distancing<br><br>
+            1. เพื่อสู้กับโรคติดต่อ<br><br>
+
+            2. เพื่อรักษา (cure) ผู้ที่ติดเชื้อ เชื้อโรคติดต่อ<br>social distancing ไม่ใช่การรักษา แต่เป็นวิธีการป้องกัน<br><br>
+
+            3. เพื่อชะลอการแพร่กระจาย<br><br>
+            4. เพื่อลดการถ่ายเทเชื้อโรค โรคติดต่อ<br><br>
+
+            ข้อ 2 จึงไม่ใช่จุดประสงค์ของ social distancing<br>
+        </div>  <!-- lgEnPssge4_q..  -->
+        <div class ="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage4_q2', 'ตัวเลือก ข้อ 2', 'lngEnPsge4_ans_02', 'yes', '1641869622', 'lng_pssge4_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+            <input class="myFloat_Right" style="color:blue;" id="lngPsge4_2" onclick="show_hide_expl('lgEnPssge4_q2', 'lngPsge4_2', 'lng_pssge4_q_number_2', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" />
+            <!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+        </div> <!-- button -->
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+    <!-- จบข้อ 2 -->
+
+    <!-- ถึงตรงนี้ -->
+
+    <!-- ข้อ 3. -->
+    <form action="#">
+        <div class="question_num"   id="lng_pssge4_q_number_3"><strong>ข้อ 3.</strong></div>
+        <div class="question_content">
+            Who is practicing social distancing?</div>
+        <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Suchart goes to the beach with his friends.</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Suda organizes a birthday party at her home.</label></div>
+        </div>  <!--  choice_b  -->
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnPssage4_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Song-sri stays home and only goes out if she need to.  </label></div>
+        </div> <!-- choice_c -->
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Seree invites her relatives to come for dinner.</label></div>
+        </div> <!--  choice_d  -->
+        <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+        <div id="lngEnPsge4_ans_03" class="show_answer" onclick="hide_div_spelling('lngEnPsge4_ans_03')" style="display:none; cursor: pointer;">
+            dummy text
+        </div>
+        <div id="lgEnPssge4_q3" class="explanation" style="display:none">
+
+            คำอธิบาย<br /><br />
+
+            ใครกำลังทำ social distancing<br><br>
+            ไปเที่ยวชายทะเล การจัดงานปาร์ตี้ และการเชิญคนมากินข้าวที่บ้าน  ไม่ใช่ social distancing<br><br>
+
+            คำตอบที่ถูก คือ ข้อ 3 อยู่บ้าน ออกไปนอกบ้านเท่าที่จำเป็น<br />
+
+        </div>  <!-- lgEnPssge4_q..  -->
+        <div class ="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage4_q3', 'ตัวเลือก ข้อ 3', 'lngEnPsge4_ans_03', 'yes', '1641869622', 'lng_pssge4_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+            <input class="myFloat_Right" style="color:blue;" id="lngPsge4_3" onclick="show_hide_expl('lgEnPssge4_q3', 'lngPsge4_3', 'lng_pssge4_q_number_3', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" />
+            <!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+        </div> <!-- button -->
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+
+    <!-- จบข้อ 3 -->
+
+    <!-- ข้อ 4. -->
+
+    <form action="#">
+        <div class="question_num"   id="lng_pssge4_q_number_4"><strong>ข้อ 4.</strong></div>
+        <div class="question_content">
+            What diseace needs social distancing?
+        </div>
+
+        <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnPssage4_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Dementia</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Cancer</label></div>
+        </div>  <!--  choice_b  -->
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnPssage4_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Diarrhea</label></div>
+        </div> <!-- choice_c -->
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. COVID-19</label></div>
+        </div> <!--  choice_d  -->
+        <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+        <div id="lngEnPsge4_ans_04" class="show_answer" onclick="hide_div_spelling('lngEnPsge4_ans_04')" style="display:none; cursor: pointer;">
+            dummy text
+        </div>
+        <div id="lgEnPssge4_q4" class="explanation" style="display:none">
+
+            คำอธิบาย<br><br>
+
+            โรคชนิดใด ต้องการ social distancing<br>
+            ในบทอ่าน บอกว่า <br>
+            Social distancing is a set of infection control actions intended to stop or slow down the spread of a contagious disease(โรคติดต่อ) <br>
+            จึงต้องดูว่า ข้อใด ที่เป็นโรคติดต่อได้<br><br>
+
+            running errands = ออกไปทำธุระนอกบ้าน เช่น ไปเบิกเงินธนาคาร ไปกินข้าวที่ร้านอาหาร เป็นต้น <br><br>
+            1. Dementia โรคความจำเสื่อม<br>
+            2. Cancer มะเร็ง<br>
+            3. Diarrhea ท้องร่วง ท้องเดิน ท้องเสีย<br>
+            4. COVID-19 โควิด-19 ติดต่อได้<br><br>
+
+            ข้อที่ถูกคือ ข้อ 4<br>
+
+        </div>  <!-- lgEnPssge4_q..  -->
+        <div class ="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage4_q4', 'ตัวเลือก ข้อ 4', 'lngEnPsge4_ans_04', 'yes', '1641869622', 'lng_pssge4_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+            <input class="myFloat_Right" style="color:blue;" id="lngPsge4_4" onclick="show_hide_expl('lgEnPssge4_q4', 'lngPsge4_4', 'lng_pssge4_q_number_4', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" />
+            <!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+        </div> <!-- button -->
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+
+    <!-- จบข้อ 4 -->
+
+    <!-- ข้อ 5. -->
+
+    <form action="#">
+        <div class="question_num"   id="lng_pssge4_q_number_5"><strong>ข้อ 5.</strong></div>
+        <div class="question_content">
+            Which one is a contagious disease?
+        </div>
+        <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+        <div class="choice_a_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnPssage4_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Cardiovascular disease</label></div>
+        </div>
+        <div class="choice_b_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Diabetes</label></div>
+        </div>  <!--  choice_b  -->
+        <div class="choice_c_1_column">
+            <div class="choice_num_1Col"><label> <input name="longEnPssage4_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Arthritis</label></div>
+        </div> <!-- choice_c -->
+        <div class="choice_d_1_column">
+            <div class="choice_num_1Col"><label><input name="longEnPssage4_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Flu</label></div>
+        </div> <!--  choice_d  -->
+        <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+        <div id="lngEnPsge4_ans_05" class="show_answer" onclick="hide_div_spelling('lngEnPsge4_ans_05')" style="display:none; cursor: pointer;">
+            dummy text
+        </div>
+        <div id="lgEnPssge4_q5" class="explanation" style="display:none">
+
+            ข้อใด คือโรคติดต่อ<br>
+            contagious disease = โรคติดต่อ<br><br>
+
+            1. Cardiovascular disease โรคเกี่ยวกับหัวใจ<br>
+            2. Diabetes โรคเบาหวาน<br>
+            3. Arthritis โรคข้อ-กระดูก<br>
+            4. Flu  ไข้หวัด<br><br>
+
+            ข้อ 4 เป็นข้อที่ถูก เพราะเป็นโรคที่ติดต่อได้<br>
+        </div>  <!-- lgEnPssge4_q..  -->
+        <div class ="button">
+            <input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage4_q5', 'ตัวเลือก ข้อ 4', 'lngEnPsge4_ans_05', 'yes', '1641869622', 'lng_pssge4_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" />
+            <!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+            <input class="myFloat_Right" style="color:blue;" id="lngPsge4_5" onclick="show_hide_expl('lgEnPssge4_q5', 'lngPsge4_5', 'lng_pssge4_q_number_5', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" />
+            <!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+        </div> <!-- button -->
+    </form> <br>
+    <div class="clear_after_item">&nbsp;</div>
+
+    <!-- จบข้อ 5 -->
+
+</div>  <!--  lower  -->
+
+<script src="check_and_feedback_new.js" type="text/javascript" language="JavaScript"></script>
+</body>
+</html>

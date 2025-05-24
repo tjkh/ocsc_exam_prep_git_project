@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   สำหรับพื้นหลังของ dialog ที่ใช้แสดงการตรวจคำตอบที่คลิกเลือก จะบอกว่า ถูกหรือผิด ส่วนนี้เป็นพื้นหลัง   -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--   <solid android:color="@color/colorGreen" /> ของเดิมจาก พื้นสีเขียวอ่อน และมีมุมมน  -->
+    <solid android:color="@android:color/transparent" /> <!--   ไม่เอาสีพื้นเลยดีกว่า    -->
+    <corners android:radius="15dp" />
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+</shape>

@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+
+
+<!-- XX1 -->
+<thisQuestion>
+	<qNum>id1245:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+นกมีหู หนูมีปีก  &lt;br /&gt;
+นกมีหู  &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+</question>  
+	<choice_A>หนูมีหู</choice_A>
+	<choice_B>นกไม่มีปีก</choice_B>
+	<choice_C>หนูมีปีก</choice_C>
+	<choice_D>นกไม่มีหู</choice_D>    
+	<choice_E></choice_E>
+	<correctAns>4</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+นกมีหู หนูมีปีก  &lt;br /&gt;นกมีหู  &lt;br /&gt;ดังนั้น &lt;br /&gt;&lt;br /&gt;
+1. หนูมีหู&lt;br /&gt;
+2. นกไม่มีปีก &lt;br /&gt;
+3. หนูมีปีก &#x2714; &lt;br /&gt;
+4. นกไม่มีหู &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = หนูมีหู &lt;br /&gt;
+Q = หนูมีปีก &lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ P สรุป: Q &lt;br /&gt;
+(Modus Ponens)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: หนูมีปีก &lt;br /&gt;
+
+	</explanation>
+	<isExplain>yes</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX2 -->
+<thisQuestion>
+	<qNum>id1247:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+นกมีหู หนูมีปีก  &lt;br /&gt;
+นกไม่มีหู  &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+</question>  
+	<choice_A>หนูไม่มีหู</choice_A>
+	<choice_B>หนูไม่มีปีก</choice_B>
+	<choice_C>นกมีปีก</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    
+	<choice_E></choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+นกมีหู หนูมีปีก  &lt;br /&gt;นกไม่มีหู  &lt;br /&gt;ดังนั้น &lt;br /&gt;&lt;br /&gt;
+1. หนูไม่มีหู&lt;br /&gt;
+2. หนูไม่มีปีก &lt;br /&gt;
+3. นกมีปีก &lt;br /&gt;
+4. สรุปไม่ได้ &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = หนูมีหู &lt;br /&gt;
+Q = หนูมีปีก &lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;P สรุป: สรุปไม่ได้ &lt;br /&gt;
+(ปฎิเสธส่วนหน้า - Denying the Antecedent)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>yes</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX3 -->
+<thisQuestion>
+	<qNum>id1248:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+นกมีหู หนูมีปีก  &lt;br /&gt;
+หนูไม่มีปีก  &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+</question>  
+	<choice_A>หนูมีหู</choice_A>
+	<choice_B>นกไม่มีปีก</choice_B>
+	<choice_C>หนูมีปีก</choice_C>
+	<choice_D>นกไม่มีหู</choice_D><choice_E></choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+นกมีหู หนูมีปีก  &lt;br /&gt;หนูไม่มีปีก  &lt;br /&gt;ดังนั้น &lt;br /&gt;&lt;br /&gt;
+1. หนูมีหู&lt;br /&gt;
+2. นกไม่มีปีก &lt;br /&gt;
+3. หนูมีปีก &lt;br /&gt;
+4. นกไม่มีหู &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = หนูมีหู &lt;br /&gt;
+Q = หนูมีปีก &lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป: &#126;P &lt;br /&gt;
+(Modus Tollens)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: นกไม่มีหู &lt;br /&gt;
+
+	</explanation>
+	<isExplain>yes</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX4 -->
+<thisQuestion>
+	<qNum>id1249:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+นกมีหู หนูมีปีก  &lt;br /&gt;
+หนูมีปีก  &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+</question>  
+	<choice_A>หนูมีหู</choice_A>
+	<choice_B>นกไม่มีปีก</choice_B>
+	<choice_C>หนูมีปีก</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+นกมีหู หนูมีปีก  &lt;br /&gt;หนูมีปีก  &lt;br /&gt;ดังนั้น &lt;br /&gt;&lt;br /&gt;
+1. หนูมีหู&lt;br /&gt;
+2. นกไม่มีปีก &lt;br /&gt;
+3. หนูมีปีก &lt;br /&gt;
+4. สรุปไม่ได้ &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = หนูมีหู &lt;br /&gt;
+Q = หนูมีปีก &lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ Q สรุป: สรุปไม่ได้ &lt;br /&gt;
+(ยืนยันส่วนหลัง - Affirming the Consequent)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้  &lt;br /&gt;
+
+	</explanation>
+	<isExplain>yes</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX5 -->
+<thisQuestion>
+	<qNum>id1250:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าวันนี้ฝนไม่ตก ฉันจะซักผ้า &lt;br /&gt;
+ฉันไม่ซักผ้า &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+	</question>  
+	<choice_A>วันนี้ฝนตก</choice_A>
+	<choice_B>วันนี้เมฆมาก</choice_B>
+	<choice_C>วันนี้ฝนไม่ตก</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>2</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+ถ้าวันนี้ฝนไม่ตก ฉันจะซักผ้า &lt;br /&gt;ฉันไม่ซักผ้า &lt;br /&gt;ดังนั้น &lt;br /&gt; &lt;br /&gt;
+
+1. วันนี้ฝนตก &#x2714;&lt;br /&gt;
+2. วันนี้เมฆมาก&lt;br /&gt;
+3. วันนี้ฝนไม่ตก&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+P = วันนี้ฝนไม่ตก&lt;br /&gt;
+Q = ฉันจะซักผ้า&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป: &#126;P&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1: วันนี้ฝนตก &lt;br /&gt;
+
+	</explanation>
+	<isExplain>yes</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX6 -->
+<thisQuestion>
+	<qNum>id1251:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+คนถูกทำโทษเพราะทำความผิด &lt;br /&gt;
+เขาไม่ถูกทำโทษ &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+	</question>  
+	<choice_A>เขาไม่ถูกจับได้</choice_A>
+	<choice_B>เขาถูกทำโทษ</choice_B>
+	<choice_C>เขาไม่ได้ทำผิด</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>4</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+คนถูกทำโทษเพราะทำความผิด &lt;br /&gt;เขาไม่ถูกทำโทษ &lt;br /&gt;ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. เขาไม่ถูกจับได้&lt;br /&gt;
+2. เขาถูกทำโทษ&lt;br /&gt;
+3. เขาไม่ได้ทำผิด &#x2714;&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+P = คนทำความผิด&lt;br /&gt;
+Q = คนถูกทำโทษ&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป: &#126;P&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: เขาไม่ได้ทำผิด &lt;br /&gt;
+
+	</explanation>
+	<isExplain>yes</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- จบ ลองทำ ชุดที่ 1  -->
+
+<!-- XX7 -->
+<thisQuestion>
+	<qNum>id1252:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+กินอาหารมากทำให้อิ่ม &lt;br /&gt;
+วันนี้ฉันอิ่ม &lt;br /&gt;
+สรุปว่า&lt;br /&gt;
+	</question>  
+	<choice_A>ฉันกินอาหารมาก</choice_A>
+	<choice_B>ฉันไม่ได้กินอาหาร</choice_B>
+	<choice_C>ฉันไม่หิว</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+กินอาหารมากทำให้อิ่ม &lt;br /&gt;วันนี้ฉันอิ่ม &lt;br /&gt;สรุปว่า&lt;br /&gt;&lt;br /&gt;
+
+1. ฉันกินอาหารมาก&lt;br /&gt;
+2. ฉันไม่ได้กินอาหาร&lt;br /&gt;
+3. ฉันไม่หิว&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+P = (คน)กินอาหารมาก&lt;br /&gt;
+Q = (คน)อิ่ม&lt;br /&gt;
+P &#x2192; Q และ Q สรุป: สรุปไม่ได้ &lt;br /&gt;
+สรุปไม่ได้ตามหลัก ยืนยันส่วนหลัง (Affirming the Consequent)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4:  &lt;br /&gt;
+
+	</explanation>
+	<isExplain>yes</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX8 -->
+<thisQuestion>
+	<qNum>id1253:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+เขาจะไปเชียงใหม่ถ้ามีคนมาชวน &lt;br /&gt;
+เขาไม่ไปเชียงใหม่ &lt;br /&gt;
+สรุปว่า&lt;br /&gt;
+	</question>  
+	<choice_A>เขาปฏิเสธคนที่มาชวน</choice_A>
+	<choice_B>เขาไปเชียงราย</choice_B>
+	<choice_C>ไม่มีคนมาชวนไปเชียงใหม่</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>4</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+เขาจะไปเชียงใหม่ถ้ามีคนมาชวน &lt;br /&gt;เขาไม่ไปเชียงใหม่ &lt;br /&gt;สรุปว่า&lt;br /&gt;&lt;br /&gt;
+
+1. เขาปฏิเสธคนที่มาชวน&lt;br /&gt;
+2.เขาไปเชียงราย&lt;br /&gt;
+3. ไม่มีคนมาชวนไปเชียงใหม่ &#x2714;&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = มีคนมาชวน&lt;br /&gt;
+Q = เขาจะไปเชียงใหม่&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป: &#126;P&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ไม่มีคนมาชวนไปเชียงใหม่ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>yes</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX9 -->
+<thisQuestion>
+	<qNum>id1254:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าเขาถูกรางวัลใหญ่ เขาจะเลี้ยงฉลอง &lt;br /&gt;
+เขาถูกรางวัลใหญ่ รางวัลที่ 2 &lt;br /&gt;
+สรุปว่า&lt;br /&gt;
+	</question>  
+	<choice_A>เขาถูกรางวัลใหญ่</choice_A>
+	<choice_B>เขาจะได้เงินก้อนโต</choice_B>
+	<choice_C>เขาจะจัดงานเลี้ยงฉลอง</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>4</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+ถ้าเขาถูกรางวัลใหญ่ เขาจะเลี้ยงฉลอง &lt;br /&gt;เขาถูกรางวัลใหญ่ รางวัลที่ 2  &lt;br /&gt;สรุปว่า&lt;br /&gt;&lt;br /&gt;
+
+1. เขาถูกรางวัลใหญ่&lt;br /&gt;
+2. เขาจะได้เงินก้อนโต&lt;br /&gt;
+3. เขาจะจัดงานเลี้ยงฉลอง &#x2714;&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+P = เขาถูกรางวัลใหญ่&lt;br /&gt;
+Q = เขาจะเลี้ยงฉลอง&lt;br /&gt;
+P &#x2192; Q และ P สรุป: Q&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+
+	</explanation>
+	<isExplain>yes</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX10 -->
+<thisQuestion>
+	<qNum>id1255:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าไปทำงาน ผมจะโทรถึงคุณนิสา &lt;br /&gt;
+วันนี้ผมไม่ไปทำงาน &lt;br /&gt;
+แสดงว่า&lt;br /&gt;
+	</question>  
+	<choice_A>ผมไม่โทรถึงคุณนิสา</choice_A>
+	<choice_B>ผมอาจจะไม่สบาย</choice_B>
+	<choice_C>ผมจะโทรถึงคุณนิสา</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าไปทำงาน ผมจะโทรถึงคุณนิสา &lt;br /&gt;วันนี้ผมไม่ไปทำงาน &lt;br /&gt;แสดงว่า&lt;br /&gt;&lt;br /&gt;
+
+1. ผมไม่โทรถึงคุณนิสา&lt;br /&gt;
+2. ผมอาจจะไม่สบาย&lt;br /&gt;
+3. ผมจะโทรถึงคุณนิสา&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P =  (ผม)ไปทำงาน&lt;br /&gt;
+Q = ผมจะโทรถึงคุณนิสา&lt;br /&gt;
+P &#x2192; Q และ &#126;P สรุป: สรุปไม่ได้ &lt;br /&gt;
+ตามหลักการ ปฏิเสธส่วนหน้า (Denying the Antecedent)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX11 -->
+<thisQuestion>
+	<qNum>id1256:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ครูทุกคนต้องไปโรงเรียน &lt;br /&gt;
+สมศักดิ์ไม่ใช่ครู &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+	</question>  
+	<choice_A>สมศักดิ์ต้องไปโรงเรียน</choice_A>
+	<choice_B>สมศักดิ์ไม่ต้องไปโรงเรียน</choice_B>
+	<choice_C>สมศักดิ์เป็นภารโรง</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+
+ครูทุกคนต้องไปโรงเรียน &lt;br /&gt;สมศักดิ์ไม่ใช่ครู &lt;br /&gt;ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. สมศักดิ์ต้องไปโรงเรียน &lt;br /&gt;
+2. สมศักดิ์ไม่ต้องไปโรงเรียน &lt;br /&gt;
+3. สมศักดิ์เป็นภารโรง &lt;br /&gt;
+4. สรุปไม่ได้ &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = ครู&lt;br /&gt;
+Q = ไปโรงเรียน&lt;br /&gt;
+P &#x2192; Q และ &#126;P สรุป: สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX12 -->
+<thisQuestion>
+	<qNum>id1257:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+คนสวยทุกคน เป็นคนหุ่นดี&lt;br /&gt;
+ธิดาเป็นเทพีสงกรานต์ &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+	</question>  
+	<choice_A>ธิดาเป็นคนหุ่นดี</choice_A>
+	<choice_B>ธิดาเป็นคนสวย</choice_B>
+	<choice_C>ธิดาเป็นคนสวยและหุ่นดี</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+
+คนสวยทุกคน เป็นคนหุ่นดี &lt;br /&gt;ธิดาเป็นเทพีสงกรานต์ &lt;br /&gt;ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. ธิดาเป็นคนหุ่นดี&lt;br /&gt;
+2. ธิดาเป็นคนสวย&lt;br /&gt;
+3. ธิดาเป็นคนสวยและหุ่นดี&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+P = คนสวย&lt;br /&gt;
+Q = คนหุ่นดี&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปไม่เกี่ยวข้องกับเงื่อนไข เหตุผลที่ยกมา&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/logic_01_pretty_girl.png&quot;&gt;&lt;br /&gt;
+นางสงกรานต์ อาจจะไม่สวย หุ่นไม่ดี ก็ได้ ไม่มีเงื่อนไขว่า นางสงกรานต์ต้องหุ่นดี หรือต้องสวย (ตามแผนภาพข้างบน) ก็ได้ จึงไม่แน่นอน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+  		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX13 -->
+<thisQuestion>
+	<qNum>id1258:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+แดงสูงกว่าดำ &lt;br /&gt;แต่เขียวสูงกว่าแดง &lt;br /&gt;และดำสูงกว่าเหลือง &lt;br /&gt;
+ใครสูงที่สุด&lt;br /&gt;
+	</question>  
+	<choice_A>แดง</choice_A>
+	<choice_B>เขียว</choice_B>
+	<choice_C>ดำ</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>3</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+แดงสูงกว่าดำ &lt;br /&gt;แต่เขียวสูงกว่าแดง &lt;br /&gt;และดำสูงกว่าเหลือง &lt;br /&gt;ใครสูงที่สุด&lt;br /&gt;&lt;br /&gt;
+
+1. แดง&lt;br /&gt;
+2. เขียว &#x2714;&lt;br /&gt;
+3. ดำ&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;
+
+&lt;strong&gt;เรียงความสูงได้ดังภาพ&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/logic_01_men_tallest.png&quot;&gt;&lt;br /&gt;
+คำตอบคือ ข้อ 2: เขียว &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX14 -->
+<thisQuestion>
+	<qNum>id1259:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+คนที่สุขภาพแข็งแรงเพราะออกกำลังกายเป็นประจำ &lt;br /&gt;
+สมานมีสุขภาพแข็งแรง &lt;br /&gt;
+สรุปว่า&lt;br /&gt;
+	</question>  
+	<choice_A>สมานออกกำลังกายเป็นประจำ</choice_A>
+	<choice_B>สมานกินอาหารที่ถูกสุขภาพ</choice_B>
+	<choice_C>สมานไม่ออกกำลังกาย</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+คนที่สุขภาพแข็งแรงเพราะออกกำลังกายเป็นประจำ &lt;br /&gt;สมานมีสุขภาพแข็งแรง &lt;br /&gt;สรุปว่า&lt;br /&gt;&lt;br /&gt;
+
+1. สมานออกกำลังกายเป็นประจำ&lt;br /&gt;
+2. สมานกินอาหารที่ถูกสุขภาพ&lt;br /&gt;
+3. สมานไม่ออกกำลังกาย&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = ออกกำลังกายเป็นประจำ&lt;br /&gt;
+Q = สุขภาพแข็งแรง&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ Q สรุป: สรุปไม่ได้&lt;br /&gt;
+ตามกฎ ยืนยันส่วนหลัง (Affirming the Consequent)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX15 -->
+<thisQuestion>
+	<qNum>id1260:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าสุดามาหาฉัน ฉันจะไปว่ายน้ำ &lt;br /&gt;
+ฉันไม่ได้ไปว่ายน้ำ &lt;br /&gt;
+ฉะนั้น&lt;br /&gt;
+	</question>  
+	<choice_A>สุดาไม่ได้มาหาฉัน</choice_A>
+	<choice_B>สุดาไม่ได้ว่ายน้ำ</choice_B>
+	<choice_C>สุดาไปว่ายน้ำคนเดียว</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>2</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+
+ถ้าสุดามาหาฉัน ฉันจะไปว่ายน้ำ &lt;br /&gt;ฉันไม่ได้ไปว่ายน้ำ &lt;br /&gt;ฉะนั้น สรุปว่า&lt;br /&gt;&lt;br /&gt;
+
+1. สุดาไม่ได้มาหาฉัน &#x2714; &lt;br /&gt;
+2. สุดาไม่ได้ว่ายน้ำ&lt;br /&gt;
+3. สุดาไปว่ายน้ำคนเดียว&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = สุดามาหาฉัน&lt;br /&gt;
+Q = ฉันจะไปว่ายน้ำ&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป: &#126;P&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1: สุดาไม่ได้มาหาฉัน &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX16 -->
+<thisQuestion>
+	<qNum>id1261:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+บัณฑิตทุกคนที่จบจาก มหาวิทยาลัยราชภัฏทุกแห่ง เป็นคนมีความรับผิดชอบ&lt;br /&gt;
+นายประสาทจบจากมหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง&lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+	</question>  
+	<choice_A>มหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง ผลิตบัณฑิตที่มีความรับผิดชอบ</choice_A>
+	<choice_B>บัณฑิตที่จบจากมหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง มีคุณภาพ</choice_B>
+	<choice_C>นายประสาท จบจากมหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง</choice_C>
+	<choice_D>นายประสาท เป็นคนมีความรับผิดชอบ</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+บัณฑิตทุกคนที่จบจาก มหาวิทยาลัยราชภัฏทุกแห่ง เป็นคนมีความรับผิดชอบ &lt;br /&gt;นายประสาทจบจาก มหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง &lt;br /&gt;ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. มหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง ผลิตบัณฑิตที่มีความรับผิดชอบ&lt;br /&gt;
+2. บัณฑิตที่จบจากมหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง มีคุณภาพ&lt;br /&gt;
+3. นายประสาท จบจากมหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง&lt;br /&gt;
+4. นายประสาท เป็นคนมีความรับผิดชอบ &#x2714;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/logic_01_rachapat.png&quot;&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: นายประสาท เป็นคนมีความรับผิดชอบ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX17 -->
+<thisQuestion>
+	<qNum>id1262:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+คนมี 2 ขา &lt;br /&gt;
+ปุ๊กปิ๊กไม่ใช่คน &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+	</question>  
+	<choice_A>ปุ๊กปิ๊กเป็นแมว</choice_A>
+	<choice_B>ปุ๊กปิ๊กเป็นผู้หญิง</choice_B>
+	<choice_C>ปุ๊กปิ๊กไม่มีสองขา</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+คนมี 2 ขา &lt;br /&gt;ปุ๊กปิ๊กไม่ใช่คน &lt;br /&gt;ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. ปุ๊กปิ๊กเป็นแมว&lt;br /&gt;
+2. ปุ๊กปิ๊กเป็นผู้หญิง&lt;br /&gt;
+3. ปุ๊กปิ๊กไม่มีสองขา&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = คน &lt;br /&gt;
+Q = มี 2 ขา &lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;P สรุป: สรุปไม่ได้&lt;br /&gt;
+สรุปไม่ได้ ตามกฎปฏิเสธส่วนหน้า (Denying the Antecedent)&lt;br /&gt;
+ปุ๊กปิ๊กอาจจะเป็นอะไรก็ได้ที่ไม่ใช่คน เช่น แมว ช้าง ปลา ต้นไม้ เป็นต้น &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX18 -->
+<thisQuestion>
+	<qNum>id163:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ยาเสพติดทุกชนิดเป็นสิ่งให้โทษ &lt;br /&gt;
+สุราเป็นสิ่งให้โทษ &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+	</question>  
+	<choice_A>สุราเป็นยาเสพติด</choice_A>
+	<choice_B>ยาเสพติดคือสุรา</choice_B>
+	<choice_C>สุราทุกชนิดให้โทษ</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+ยาเสพติดทุกชนิดเป็นสิ่งให้โทษ &lt;br /&gt;สุราเป็นสิ่งให้โทษ &lt;br /&gt;ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. สุราเป็นยาเสพติด&lt;br /&gt;
+2. ยาเสพติดคือสุรา&lt;br /&gt;
+3. สุราบางชนิดให้โทษ&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/logic_01_drug_no_good.png&quot;&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX19 -->
+<thisQuestion>
+	<qNum>id1264:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าฝนตกแล้วจะตากผ้าไม่แห้ง &lt;br /&gt;
+วันนี้ตากผ้าแห้ง &lt;br /&gt;
+ดังนั้น&lt;br /&gt;
+	</question> 
+	<choice_A>ฝนตก</choice_A>
+	<choice_B>ฝนไม่ตก</choice_B>
+	<choice_C>แดดดี</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>3</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+ถ้าฝนตกแล้วจะตากผ้าไม่แห้ง &lt;br /&gt;วันนี้ตากผ้าแห้ง &lt;br /&gt;ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. ฝนตก&lt;br /&gt;
+2. ฝนไม่ตก &#x2714;&lt;br /&gt;
+3. แดดดี&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = ฝนตก &lt;br /&gt;
+Q = ตากผ้าไม่แห้ง&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป: &#126;P&lt;br /&gt;
+(Modus Tollens)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: ฝนไม่ตก &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX20 -->
+<thisQuestion>
+	<qNum>id1265:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+แดงนอนตื่นสายเฉพาะวันหยุด &lt;br /&gt;
+วันนี้แดงตื่นเช้า &lt;br /&gt;
+แสดงว่า&lt;br /&gt;
+	</question>  
+	<choice_A>แดงต้องไปทำงาน</choice_A>
+	<choice_B>วันนี้แดงขยัน</choice_B>
+	<choice_C>วันนี้ไม่ใช่วันหยุด</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>4</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+แดงนอนตื่นสายเฉพาะวันหยุด &lt;br /&gt;วันนี้แดงตื่นเช้า &lt;br /&gt;แสดงว่า&lt;br /&gt;&lt;br /&gt;
+
+1. แดงต้องไปทำงาน&lt;br /&gt;
+2. วันนี้แดงขยัน&lt;br /&gt;
+3. วันนี้ไม่ใช่วันหยุด &#x2714;&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = วันหยุด&lt;br /&gt;
+Q = นอนตื่นสาย&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป: &#126;P&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: วันนี้ไม่ใช่วันหยุด &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX21 -->
+<thisQuestion>
+	<qNum>id1266:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+สุดาซักเสื้อผ้าเฉพาะวันเสาร์ &lt;br /&gt;
+วันนี้สุดาไม่ซักเสื้อผ้า &lt;br /&gt;
+สรุปว่า&lt;br /&gt;
+	</question>
+	<choice_A>สุดาไม่มีผงซักฟอก</choice_A>
+	<choice_B>วันนี้วันศุกร์</choice_B>
+	<choice_C>วันนี้ไม่ใช่วันเสาร์</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>4</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+สุดาซักเสื้อผ้าเฉพาะวันเสาร์ &lt;br /&gt;วันนี้สุดาไม่ซักเสื้อผ้า &lt;br /&gt;สรุปว่า&lt;br /&gt;&lt;br /&gt;
+
+1. สุดาไม่มีผงซักฟอก&lt;br /&gt;
+2. วันนี้วันศุกร์&lt;br /&gt;
+3. วันนี้ไม่ใช่วันเสาร์ &#x2714;&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = วันเสาร์ &lt;br /&gt;
+Q = สุดาซักเสื้อผ้า&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป:  &#126;P&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: วันนี้ไม่ใช่วันเสาร์ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX22 -->
+<thisQuestion>
+	<qNum>id1267:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าฝนตก ฉันจะไม่ไปดูภาพยนตร์ &lt;br /&gt;
+วันนี้ฉันไปดูภาพยนตร์ &lt;br /&gt;
+ดังนั้นสรุปได้ว่า&lt;br /&gt;
+	</question>  
+	<choice_A>วันนี้ฝนตก</choice_A>
+	<choice_B>วันนี้ฝนไม่ตก</choice_B>
+	<choice_C>วันนี้ฝนอาจจะไม่ตก</choice_C>
+	<choice_D>ยังสรุปแน่นอนไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>3</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+ถ้าฝนตก ฉันจะไม่ไปดูภาพยนตร์ &lt;br /&gt;วันนี้ฉันไปดูภาพยนตร์ &lt;br /&gt;ดังนั้นสรุปได้ว่า&lt;br /&gt;&lt;br /&gt;
+
+1. วันนี้ฝนตก&lt;br /&gt;
+2. วันนี้ฝนไม่ตก &#x2714;&lt;br /&gt;
+3. วันนี้ฝนอาจจะไม่ตก&lt;br /&gt;
+4. ยังสรุปแน่นอนไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = ฝนตก&lt;br /&gt;
+Q = ฉันจะไม่ไปดูภาพยนตร์&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป: &#126;P &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: วันนี้ฝนไม่ตก &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX23 -->
+<thisQuestion>
+	<qNum>id1268:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+	สมนึกเป็นคนซื่อสัตย์ &lt;br /&gt;
+	สมนึกเป็นลูกกตัญญู &lt;br /&gt;
+	สรุปได้ว่า&lt;br /&gt;
+	</question>
+	<choice_A>สมนึกเป็นคนซื่อสัตย์</choice_A>
+	<choice_B>สมนึกเป็นลูกกตัญญู</choice_B>
+	<choice_C>สมนึกเป็นลูกกตัญญูที่ซื่อสัตย์</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+	สมนึกเป็นคนซื่อสัตย์ &lt;br /&gt;สมนึกเป็นลูกกตัญญู &lt;br /&gt;สรุปได้ว่า&lt;br /&gt;&lt;br /&gt;
+
+
+1. สมนึกเป็นคนซื่อสัตย์&lt;br /&gt;
+2. สมนึกเป็นลูกกตัญญู&lt;br /&gt;
+3. สมนึกเป็นลูกกตัญญูที่ซื่อสัตย์&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+เงื่อนไขไม่ได้บอกความสัมพันธ์ของ ความซื่อสัตย์และความกตัญญู อีกทั้งสมนึก อาจจะเป็นคนเดียวกัน หรือคนละคน ก็ได้ จึงสรุปไม่ได้ชัดเจน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX24 -->
+<thisQuestion>
+	<qNum>id1269:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าบุญชูพลาดรถไฟ ขบวน 7 โมงเช้า แล้วจะมาโรงเรียนสายสาย&lt;br /&gt; 
+วันนี้บุญชูมาโรงเรียนสาย &lt;br /&gt;
+สรุปได้ว่า&lt;br /&gt;
+
+	</question>  
+	<choice_A>บุญชูพลาดรถไฟ ขบวน 7 โมงเช้า</choice_A>
+	<choice_B>บุญชูขี่รถมอเตอร์ไซต์มาโรงเรียน</choice_B>
+	<choice_C>บุญชูนอนตื่นสาย</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+ถ้าบุญชูพลาดรถไฟ ขบวน 7 โมงเช้า แล้วจะมาโรงเรียนสายสาย&lt;br /&gt; วันนี้บุญชูมาโรงเรียนสาย &lt;br /&gt;สรุปได้ว่า
+
+1. บุญชูพลาดรถไฟ ขบวน 7 โมงเช้า&lt;br /&gt;
+2. บุญชูขี่รถมอเตอร์ไซต์มาโรงเรียน&lt;br /&gt;
+3. บุญชูนอนตื่นสาย&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = บุญชูพลาดรถไฟ ขบวน 7 โมงเช้า&lt;br /&gt;
+Q = (บุญชู)มาโรงเรียนสายสาย&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ Q สรุป: สรุปไม่ได้&lt;br /&gt;
+(ยืนยันส่วนหลัง -- Affirming the Consequent)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX25 -->
+<thisQuestion>
+	<qNum>id1270:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าเจ้าสัวซีพีเป็นเจ้าของเหมืองทองคำ เขาจะเป็นมหาเศรษฐี &lt;br /&gt;เจ้าสัวซีพีเป็นมหาเศรษฐี &lt;br /&gt;สรุปได้ว่า&lt;br /&gt;
+
+	</question>  &lt;br /&gt;
+	<choice_A>เจ้าสัวซีพีเป็นเจ้าของเหมืองทองคำ</choice_A>
+	<choice_B>เจ้าสัวซีพี ร่ำรวยเพราะทำงานหนัก</choice_B>
+	<choice_C>เจ้าของเหมืองทองคำทุกคนเป็นเศรษฐี</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+ถ้าเจ้าสัวซีพีเป็นเจ้าของเหมืองทองคำ เขาจะเป็นมหาเศรษฐี &lt;br /&gt;เจ้าสัวซีพีเป็นมหาเศรษฐี &lt;br /&gt;สรุปได้ว่า&lt;br /&gt;&lt;br /&gt;
+
+1. เจ้าสัวซีพีเป็นเจ้าของเหมืองทองคำ&lt;br /&gt;
+2. เจ้าสัวซีพี ร่ำรวยเพราะทำงานหนัก&lt;br /&gt;
+3. เจ้าของเหมืองทองคำทุกคนเป็นเศรษฐี&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714;&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = เจ้าสัวซีพีเป็นเจ้าของเหมืองทองคำ&lt;br /&gt;
+Q = เขาเป็นมหาเศรษฐี&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ Q สรุป: สรุปไม่ได้&lt;br /&gt;
+(ยืนยันส่วนหลัง -- Affirming the Consequent)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX26 -->
+<thisQuestion>
+	<qNum>id1271:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าฉันเป็นหวัด ฉันจะเจ็บคอ &lt;br /&gt;ฉันเจ็บคอ &lt;br /&gt;ดังนั้นสรุปว่า &lt;br /&gt;
+	</question>  
+	<choice_A>ฉันต้องไปหาหมอ</choice_A>
+	<choice_B>ฉันเป็นหวัด</choice_B>
+	<choice_C>ฉันกำลังจะเป็นไข้</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+ถ้าฉันเป็นหวัด ฉันจะเจ็บคอ &lt;br /&gt;วันนี้ฉันเจ็บคอ &lt;br /&gt;ดังนั้นสรุปว่า &lt;br /&gt;&lt;br /&gt;
+
+1. ฉันต้องไปหาหมอ&lt;br /&gt;
+2. ฉันเป็นหวัด&lt;br /&gt;
+3. ฉันกำลังจะเป็นไข้&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = ฉันเป็นหวัด &lt;br /&gt;
+Q = ฉันจะเจ็บคอ&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ Q สรุป: สรุปไม่ได้&lt;br /&gt;
+(ยืนยันส่วนหลัง -- Affirming the Consequent)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX27 -->
+<thisQuestion>
+	<qNum>id1272:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าสมหมายเป็นมะเร็ง สมหมายจะป่วยมาก &lt;br /&gt;แต่สมหมายไม่เป็นมะเร็ง &lt;br /&gt;ดังนั้น&lt;br /&gt;
+	</question>  
+	<choice_A>สมหมายป่วยเป็นวัณโรค</choice_A>
+	<choice_B>สมหมายไม่ป่วยมาก</choice_B>
+	<choice_C>สมหมายสุขภาพดี</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+
+ถ้าสมหมายเป็นมะเร็ง สมหมายจะป่วยมาก &lt;br /&gt;แต่สมหมายไม่เป็นมะเร็ง &lt;br /&gt;ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. สมหมายป่วยเป็นวัณโรค&lt;br /&gt;
+2. สมหมายไม่ป่วยมาก&lt;br /&gt;
+3. สมหมายสุขภาพดี&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = สมหมายเป็นมะเร็ง&lt;br /&gt;
+Q = สมหมายจะป่วยมาก&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;P สรุป: สรุปไม่ได้&lt;br /&gt;
+(ปฎิเสธส่วนหน้า - Denying the Antecedent)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX28 -->
+<thisQuestion>
+	<qNum>id1273:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+
+ถ้าณรงค์ศักดิ์เป็นครู ชาวบ้านจะเคารพนับถือเขามาก &lt;br /&gt;แต่ชาวบ้านไม่ได้เคารพนับถือเขา &lt;br /&gt;ดังนั้น&lt;br /&gt;
+
+	</question>  
+	<choice_A>ณรงค์ศักดิ์ ไม่ได้เป็นครู</choice_A>
+	<choice_B>ณรงค์ศักดิ์ เป็นคนว่างงาน</choice_B>
+	<choice_C>ณรงค์ศักดิ์ เป็นพระ</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>2</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+
+ถ้าณรงค์ศักดิ์เป็นครู ชาวบ้านจะเคารพนับถือเขามาก &lt;br /&gt;แต่ชาวบ้านไม่ได้เคารพนับถือเขา &lt;br /&gt;ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. ณรงค์ศักดิ์ ไม่ได้เป็นครู &#x2714;&lt;br /&gt;
+2. ณรงค์ศักดิ์ เป็นคนว่างงาน&lt;br /&gt;
+3. ณรงค์ศักดิ์ เป็นพระ&lt;br /&gt;
+4. สรุปไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = ณรงค์ศักดิ์เป็นครู &lt;br /&gt;
+Q = ชาวบ้านจะเคารพนับถือเขามาก &lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ  &#126;Q สรุป: &#126;P&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1: ณรงค์ศักดิ์ ไม่ได้เป็นครู &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX29 -->
+<thisQuestion>
+	<qNum>id1274:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+การพยากรณ์อากาศของกรมอุตุ ฯ ถ้าไม่ผิดก็ถูก &lt;br /&gt;การพยากรณ์อากาศถูกต้อง &lt;br /&gt;สรุปว่า&lt;br /&gt;
+
+	</question>  
+	<choice_A>การพยากรณ์อากาศไม่ผิด</choice_A>
+		<choice_B>การพยากรณ์อากาศไม่ถูก</choice_B>
+	<choice_C>การพยากรณ์อากาศผิดพลาด</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>2</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+การพยากรณ์อากาศของกรมอุตุ ฯ ถ้าไม่ผิดก็ถูก &lt;br /&gt;การพยากรณ์อากาศถูกต้อง &lt;br /&gt;สรุปว่า&lt;br /&gt;&lt;br /&gt;
+
+1. การพยากรณ์อากาศไม่ผิด &#x2714;&lt;br /&gt;
+2. การพยากรษ์อากาศไม่ถูก &lt;br /&gt;
+3. การพยากรณ์อากาศผิดพลาด &lt;br /&gt;
+4. สรุปไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = การพยากรณ์อากาศของกรมอุตุ ฯ ไม่ผิด&lt;br /&gt;
+Q = การพยากรณ์อากาศของกรมอุตุ ฯ ถูกต้อง&lt;br /&gt;
+กรณี biconditional &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1: การพยากรณ์อากาศไม่ผิด &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX30 -->
+<thisQuestion>
+	<qNum>id1275:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ผู้ต้องหา ถ้าไม่ได้กระทำผิดก็เป็นผู้บริสุทธิ์ &lt;br /&gt;ผู้ต้องหาเป็นผู้บริสุทธิ์ &lt;br /&gt;ดังนั้นสรุปว่า&lt;br /&gt;
+	</question>  
+	<choice_A>ผู้ต้องหาเป็นผู้บริสุทธิ์</choice_A>
+	<choice_B>ผู้ต้องหาไม่ต้องรับโทษ</choice_B>
+	<choice_C>ผู้ต้องหาไม่ได้กระทำความผิด</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>4</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+
+ถ้าผู้ต้องหาไม่ได้กระทำความผิด ก็เป็นผู้บริสุทธิ์ &lt;br /&gt;ผู้ต้องหาเป็นผู้บริสุทธิ์ &lt;br /&gt;ดังนั้นสรุปว่า&lt;br /&gt;&lt;br /&gt;
+
+1. ผู้ต้องหาเป็นผู้บริสุทธิ์&lt;br /&gt;
+2. ผู้ต้องหาไม่ต้องรับโทษ&lt;br /&gt;
+3. ผู้ต้องหาไม่ได้กระทำความผิด &#x2714;&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = ผู้ต้องหาไม่ได้กระทำผิด&lt;br /&gt;
+Q = ผู้ต้องหาเป็นผู้บริสุทธิ์&lt;br /&gt;
+กรณี biconditional &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: ผู้ต้องหาไม่ได้กระทำความผิด &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX31 -->
+<thisQuestion>
+	<qNum>id1276:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+อากาศเย็นเพราะฝนตก &lt;br /&gt;วันนี้อากาศไม่เย็น &lt;br /&gt;ฉะนั้น&lt;br /&gt;
+	</question>  
+	<choice_A>วันนี้แดดออก</choice_A>
+	<choice_B>วันนี้ฝนไม่ตก</choice_B>
+	<choice_C>วันนี้ไม่ใช่ฤดูฝน</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>3</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+อากาศเย็นเพราะฝนตก &lt;br /&gt;วันนี้อากาศไม่เย็น &lt;br /&gt;ฉะนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. วันนี้แดดออก&lt;br /&gt;
+2. วันนี้ฝนไม่ตก &#x2714; &lt;br /&gt;
+3. วันนี้ไม่ใช่ฤดูฝน&lt;br /&gt;
+4. สรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = ฝนตก&lt;br /&gt;
+Q = อากาศเย็น&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป: &#126;P &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: วันนี้ฝนไม่ตก &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX32 -->
+<thisQuestion>
+	<qNum>id1277:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ถ้าจัตุรัสเป็นรูปสี่เหลี่ยม &lt;br /&gt;แต่รูปนี้ไม่เป็นสี่เหลี่ยม &lt;br /&gt;ดังนั้น&lt;br /&gt;
+</question>  
+	<choice_A>รูปนี้อาจจะเป็นจัตุรัส</choice_A>
+	<choice_B>รูปนี้ไม่ใช่จัตุรัส</choice_B>
+	<choice_C>รูปนี้อาจจะมีเหลี่ยม</choice_C>
+	<choice_D>รูปนี้เป็นทรงกลม</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>3</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+ถ้าจัตุรัสเป็นรูปสี่เหลี่ยม &lt;br /&gt;
+รูปนี้ไม่เป็นสี่เหลี่ยม &lt;br /&gt;
+ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. รูปนี้อาจจะเป็นจัตุรัส&lt;br /&gt;
+2. รูปนี้ไม่ใช่จัตุรัส &#x2714; &lt;br /&gt;
+3. รูปนี้อาจจะมีเหลี่ยม&lt;br /&gt;
+4. รูปนี้เป็นทรงกลม&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+P = จัตุรัส&lt;br /&gt;
+Q = รูปสี่เหลี่ยม&lt;br /&gt;&lt;br /&gt;
+P &#x2192; Q และ &#126;Q สรุป: &#126;P &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: รูปนี้ไม่ใช่จัตุรัส &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX33 -->
+<thisQuestion>
+	<qNum>id1278:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+ครอบครัวนี้คุณพ่อเป็นทหารเรือ &lt;br /&gt;คุณแม่เป็นครู &lt;br /&gt;คุณปู่เป็นทหารอากาศ &lt;br /&gt;สรุปได้ว่า&lt;br /&gt;
+	</question>
+	<choice_A>คุณพ่อรับราชการ</choice_A>
+	<choice_B>คุณแม่ชอบสอนหนังสือ</choice_B>
+	<choice_C>คุณพ่อและคุณปู่รักทหาร</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+
+ครอบครัวนี้คุณพ่อเป็นทหารเรือ &lt;br /&gt;คุณแม่เป็นครู &lt;br /&gt;คุณปู่เป็นทหารอากาศ &lt;br /&gt;สรุปได้ว่า&lt;br /&gt;&lt;br /&gt;
+
+1. คุณพ่อรับราชการ&lt;br /&gt;
+2. คุณแม่ชอบสอนหนังสือ&lt;br /&gt;
+3. คุณพ่อและคุณปู่รักทหาร&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714; &lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+ไม่มีข้อมูลเพียงพอแก่การสรุป&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX34 -->
+<thisQuestion>
+	<qNum>id1279:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+คนมีความรู้ทุกคนเป็นคนเก่ง &lt;br /&gt;คนเก่งบางคนเป็นคนดี &lt;br /&gt;สรุปได้ว่า&lt;br /&gt;
+</question>  
+	<choice_A>คนดีบางคนเป็นคนมีความรู้</choice_A>
+	<choice_B>คนมีความรู้ทุกคนเป็นคนดี</choice_B>
+	<choice_C>คนมีความรู้บางคนเป็นคนดี</choice_C>
+	<choice_D>สรุปไม่ได้</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>5</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+คนมีความรู้ทุกคนเป็นคนเก่ง &lt;br /&gt;คนเก่งบางคนเป็นคนดี &lt;br /&gt;สรุปได้ว่า&lt;br /&gt;&lt;br /&gt;
+
+1. คนดีบางคนเป็นคนมีความรู้&lt;br /&gt;
+2. คนมีความรู้ทุกคนเป็นคนดี&lt;br /&gt;
+3 คนมีความรู้บางคนเป็นคนดี&lt;br /&gt;
+4. สรุปไม่ได้ &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/logic_01_good_people.png&quot;&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4: สรุปไม่ได้ &lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+<!-- XX35 -->
+<thisQuestion>
+	<qNum>id1280:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+คนบางคนที่ชอบเล่นเทนนิสชอบเล่นฟุตบอล &lt;br /&gt;
+บางคนที่ชอบเล่นแบดมินตันชอบเล่นเทนนิส &lt;br /&gt;
+ผู้ที่ชอบเล่นฟุตบอลทุกคนชอบเล่นเทนนิส &lt;br /&gt;
+ไม่มีใครที่ชอบทั้งแบดมินตันและฟุตบอล&lt;br /&gt;
+สรุปว่า&lt;br /&gt;
+	</question>  
+	<choice_A>ผู้ที่ชอบเทนนิสทุกคน ชอบเล่นฟุตบอล และบางคนชอบเล่นแบดมินตัน</choice_A>
+	<choice_B>ผู้ที่ชอบเทนนิสบางคนชอบแบดมินตัน และบางคนชอบฟุตบอล</choice_B>
+	<choice_C>ผู้ที่ชอบเทนนิสบางคนชอบแบดมินตัน แต่ทุกคนชอบฟุตบอล</choice_C>
+	<choice_D>ผู้ที่ชอบเทนนิสทุกคนชอบแบดมินตัน และบางคนชอบฟุตบอล</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>3</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+คนบางคนที่ชอบเล่นเทนนิสชอบเล่นฟุตบอล &lt;br /&gt;
+บางคนที่ชอบเล่นแบดมินตันชอบเล่นเทนนิส &lt;br /&gt;
+ผู้ที่ชอบเล่นฟุตบอลทุกคนชอบเล่นเทนนิส &lt;br /&gt;
+ไม่มีใครที่ชอบทั้งแบดมินตันและฟุตบอล&lt;br /&gt;
+สรุปว่า&lt;br /&gt;&lt;br /&gt;
+
+1. ผู้ที่ชอบเทนนิสทุกคน ชอบเล่นฟุตบอล และบางคนชอบเล่นแบดมินตัน&lt;br /&gt;
+2. ผู้ที่ชอบเทนนิสบางคนชอบแบดมินตัน และบางคนชอบฟุตบอล &#x2714; &lt;br /&gt;
+3. ผู้ที่ชอบเทนนิสบางคนชอบแบดมินตัน แต่ทุกคนชอบฟุตบอล&lt;br /&gt;
+4. ผู้ที่ชอบเทนนิสทุกคนชอบแบดมินตัน และบางคนชอบฟุตบอล&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/logic_01_like_tennis.png&quot;&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2: ผู้ที่ชอบเทนนิสบางคนชอบแบดมินตัน และบางคนชอบฟุตบอล  &lt;br /&gt;
+&lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+
+<!-- XX36 -->
+<thisQuestion>
+	<qNum>id1281:date1627453500</qNum>
+	<qNum>ข้อ xx</qNum>
+	<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt; &lt;br /&gt;
+คนจีนทุกคนเป็นคนขยัน&lt;br /&gt; 
+คนขยันทุกคนเป็นคนซื่อสัตย์ &lt;br /&gt;
+คนซื่อสัตย์ทุกคนเป็นคนโอบอ้อมอารี &lt;br /&gt;
+ดังนั้น &lt;br /&gt;
+</question>  
+	<choice_A>คนจีนบางคนเป็นคนซื่อสัตย์</choice_A>
+	<choice_B>คนซื่อสัตย์บางคนเป็นคนโอบอ้อมอารี</choice_B>
+	<choice_C>คนจีนทุกคนเป็นคนโอบอ้อมอารี</choice_C>
+	<choice_D>คนโอบอ้อมอารีทุกคนเป็นคนขยัน</choice_D>    <choice_E>
+</choice_E>
+	<correctAns>4</correctAns> <!-- A=2, B=3, C=4, D=5 -->
+	<explanation>
+คนจีนทุกคนเป็นคนขยัน &lt;br /&gt;คนขยันทุกคนเป็นคนซื่อสัตย์ &lt;br /&gt;คนซื่อสัตย์ทุกคนเป็นคนโอบอ้อมอารี &lt;br /&gt;ดังนั้น&lt;br /&gt;&lt;br /&gt;
+
+1. คนจีนบางคนเป็นคนซื่อสัตย์&lt;br /&gt;
+2. คนซื่อสัตย์บางคนเป็นคนโอบอ้อมอารี&lt;br /&gt;
+3. คนจีนทุกคนเป็นคนโอบอ้อมอารี &#x2714;&lt;br /&gt;
+4. คนโอบอ้อมอารีทุกคนเป็นคนขยัน&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/logic_01_chinese_generous.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3: คนจีนทุกคนเป็นคนโอบอ้อมอารี  &lt;br /&gt;
+&lt;br /&gt;
+
+	</explanation>
+	<isExplain>disable answer</isExplain>
+		<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+		<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->	
+</thisQuestion>
+
+
+</exams>
+
+

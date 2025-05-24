@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+  <style>
+  .my_indent{
+    display:block;
+    text-indent:10px;
+	}
+  </style>
+     <title>ppp</title>
+ </head>
+<body>
+
+<img src="images/thank_you_so_much.png" width="100%"  alt="pp"/>
+<!--
+<img src="thank_you_so_much.png" width="100%" />
+-->
+<div id="first_div"></div>
+
+
+<div style="border-radius: 10px; border: 2px solid #73AD21; padding: 5px;">
+<div class="my_indent">ขอขอบคุณ ผู้มีรายชื่อต่อไปนี้ ที่มีส่วนร่วมในการพัฒนา ปรับปรุง แอปเตรียมสอบ ก.พ. ให้มีความสมบูรณ์มากยิ่งขึ้น โดยส่งข้อมูล ความคิดเห็น ตลอดจนข้อสอบ เพิ่มเติม ผ่านทางเมนู 3 จุด </div>
+<div class="my_indent">ท่านเองก็สามารถเข้ามามีส่วนร่วมได้ ผมจะนำชื่อของท่านมาเพิ่มไว้ที่นี่ด้วย ขอบคุณล่วงหน้านะครับ</div>
+</div>
+<p id="demo"></p>
+<div id="second_div"></div>
+<script>
+
+var txt = "";
+var names = ["Theerasak Fakkai<!-- Theerasak Fakkai@gmail.com -->", // มีคอมเม้น เป็น อีเมล ซ่อนเอาไว้ด้วยเผื่อเป็นข้อมูลติดต่อภายหลัง
+"เพ็ญนภา เรืองวงษ์  <!-- penapha080@gmail.com --> ", 
+"หมัดอาลาวี แวดราแม  <!-- mad.alawee15775@gmail.com --> ", 
+"อมลวัทน์ สวัสดิวงศ์  <!-- amonwatsawasdiwong@gmail.com --> ", 
+"Benjamart Kongson  <!-- kongsonbenjamart@gmail.com --> ", 
+"กิตติวัฒน์ แสนศรี  <!-- kingchakkit2540@gmail.com --> ", 
+"poompat@live.com  <!-- poompat@live.com --> ", 
+"Remilia Scarlet  <!-- remiliaojousamaremichan@gmail.com --> ", 
+"ธวัช สมานเผ่าพงศ์  <!-- ching_net@hotmail.com --> ", 
+"Nor-azizi Waha  <!-- Nor-azizi Waha --> ", 
+"ATNOON CHANNEL <!-- manoonsamee@gmail.com --> ", 
+"ณัฐพร ศุภวิเศษ  <!-- janesky.smile@gmail.com --> ", 
+"Mali kheawcha-um  <!-- malimai3@hotmail.com --> ",
+"jirawat_007 <!-- jirawat jm3@gmail.com --> ", 
+"Sirimongkol Mongkol <!-- sirimongkol.mon@pcru.ac.th -->",
+"ดารินทร์ งามสันเทียะ  <!-- pam29939@gmail.com -->",
+"Ann Aungsana  <!-- anneipooh@gmail.com  -->",
+"Taii rattana  <!-- boonpakdee2535@gmail.com  -->",
+"Natthamon M. <!-- nuntamon4428@gmail.com -->",
+"Roongroj Panpoka <!-- roongroj.panpoka@gmail.com -->",
+" Kriitiinna Suwansombat  <!-- kriitiinna@gmail.com -->",
+
+
+
+];
+
+// กรอง เพื่อไม่ให้ชื่อซ้ำ เผื่อเผลอไป เอาชื่อซ้ำกันมาใส่ใน  array
+var uniq = names.reduce(function(a,b){
+    if (a.indexOf(b) < 0 ) a.push(b);
+    return a;
+  },[]);
+
+// เรียงชื่อแบบไทย ด้วย ฟังก์ชัน localeCompare
+sortedList= uniq.sort((a, b) => a.localeCompare(b, 'th'))
+
+//const sortedList = sortThaiDictionary(uniq);
+sortedList.forEach(listNameFunction); // สั่งพิมพ์ พร้อมมีตัวเลขข้างหน้า
+
+
+
+//const sortedNames  = uniq.concat().sort(); // เรียง และเอาไปไว้ในอีกตัวแปร  มีการกรองเอาชื่อซ้ำกันออกไป 
+                                                    //ชื่อที่ไม่ซ้ำ เอาไว้ในตัวแปร uniq
+
+//const sortedNames  = names.concat().sort(); // เรียง และเอาไปไว้ในอีกตัวแปร  อันนี้ ไม่ได้กรองชื่อซ้ำ
+//sortedNames.forEach(listNameFunction); // สั่งพิมพ์ พร้อมมีตัวเลขข้างหน้า
+document.getElementById("demo").innerHTML = txt;
+
+function listNameFunction(value, index, array) {
+ // txt = txt + (index+1) +". " + value  + ",&nbsp;&nbsp;";  // เรียงบรรทัดเดียว ต่อ ๆ กันไป ถ้ามีชื่อเยอะ ๆ
+ txt = txt + (index+1) +". " + value  + "<br>"; // ขึ้นบรรทัดใหม่ แต่ละชื่อ ในกรณีที่มีชื่อไม่มาก
+}
+</script>
+
+</body>
+</html>

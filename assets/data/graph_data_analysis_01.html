@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="check_and_feedback.css">
+
+  <title>การวิเคราะห์ข้อมูล สถิติ กราฟ</title>
+  <style>
+</style>
+
+ <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+	  <!--
+      <h2>Modal Header</h2>
+	  -->
+    </div>
+    <div class="modal-body">
+
+			<p id= "myMessage">Some text in the Modal..</p>
+
+
+    </div>
+    <div class="modal-footer">
+      http://www.thongjoon.com
+    </div>
+  </div>
+
+</div>
+
+
+  <script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+ </head>
+ <body>
+
+ <!-- แก้ปัญหา  Samsung แสดงหน้าว่าง/ดำ -->
+ <div id="first_div"></div>
+ &nbsp;&nbsp;
+ <div id="second_div"></div>
+
+
+
+ <strong>คำสั่ง พิจารณาข้อมูลที่กำหนดให้แล้วตอบคำถาม</strong><br><br>
+ปริมาณการใช้ปุ๋ยเคมีของเกษตรกรแยกตามภาค (หน่วย : ตัน)
+<table>
+<tr><th>ภาค</th><th> ปี 2540</th><th> ปี 2541</th><th> ปี 2542</th></tr>
+<tr><td>เหนือ</td><td> 142,111</td><td> 130,148</td><td> 154,987</td></tr>
+<tr><td>อีสาน</td><td> 198,470</td><td> 169,401</td><td> 240,084</td></tr>
+<tr><td>กลาง</td><td> 427,356</td><td> 401,928</td><td> 480,757</td></tr>
+<tr><td>ใต้</td><td> 126,598</td><td> 141,026</td><td> 176,213</td></tr>
+</table><br>
+ข้อ 21. โดยเฉลี่ยแล้วในแต่ละปี เกษตรกรในภาคใดที่ใช้ปุ๋ยเคมีในปริมาณต่ำสุด<br>
+<form action="#">
+<label><input type="radio" name="region" value="ภาคเหนือ">ภาคเหนือ</label><br>
+<label><input type="radio" name="region" value="ภาคตะวันออกเฉียงเหนือ">ภาคตะวันออกเฉียงเหนือ</label><br>
+<label><input type="radio" name="region" value="ภาคกลาง">ภาคกลาง</label><br>
+<label><input type="radio" name="region" value="ภาคใต้">ภาคใต้</label><br>
+<p id="region" style="display: none";>
+1. นี่เป็นคำอธิบาย<br>
+2. ขึ้นบรรทัดใหม่<br>
+3. ขึ้นบรรทัดใหม่<br>
+</p>
+<div>
+<input type="submit" name="send" value="ตรวจคำตอบ" onclick="checkAns('region', 'ภาคใต้'); return false;">
+<input type="submit" name="send" value="คำอธิบาย" onclick="explanation('region'); return false;" class="myFloat_Right;">
+</div>
+</form><br><br>
+ข้อ 22. ในช่วงปี 2540 – 2542 ปริมาณการใช้ปุ๋ยเคมีของเกษตรกรภาคตะวันออกเฉียงเหนือสูงกว่าภาคใต้ คิดเป็นร้อยละเท่าใด
+<form action="#">
+<label><input type="radio" name="higher" value="ร้อยละ 27">ร้อยละ 27</label><br>
+<label><input type="radio" name="higher" value="ร้อยละ 30">ร้อยละ 30</label><br>
+<label><input type="radio" name="higher" value="ร้อยละ 37">ร้อยละ 37</label><br>
+<label><input type="radio" name="higher" value="ร้อยละ 45">ร้อยละ 45</label><br>
+
+<p id="higher" style="display: none";>
+1. นี่เป็นคำอธิบายX XXXX X<br>
+2. ขึ้นบรรทัดใหม่YYY YYYY YYYYYY<br>
+3. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+4. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+5. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+6. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+7. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+8. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+9.ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+10. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+11. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+12. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+13. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ<br>
+14. ขึ้นบรรทัดใหม่ZZZZZZZ ZZZZZZZZZZZ ZZZZZ  tne END จบแล้ว<br>
+
+<br>
+</p>
+
+
+<div>
+<input type="submit" name="send" value="ตรวจคำตอบ" onclick="checkAns('higher', 'ร้อยละ 27'); return false;">
+
+<input type="submit" name="send" value="คำอธิบาย" onclick="explanation('higher'); return false;" class="myFloat_Right;">
+<!--
+<input type="submit" name="send" value="คำอธิบาย" onclick="explanation(); return false;" class="myFloat_Right;" style="display:none;">
+-->
+
+</div>
+
+</form><br><br>
+
+ข้อ 23. ปริมาณการใช้ปุ๋ยเคมีรวมทุกภาคในปี 2542 สูงกว่าปี 2541 กี่เปอร์เซ็นต์
+<form action="#">
+<label><input type="radio" name="percent" value="ร้อยละ 20">ร้อยละ 20</label><br>
+<label><input type="radio" name="percent" value="ร้อยละ 25">ร้อยละ 25</label><br>
+<label><input type="radio" name="percent" value="ร้อยละ 30">ร้อยละ 30</label><br>
+<label><input type="radio" name="percent" value="ร้อยละ 35">ร้อยละ 35</label><br>
+<input type="submit" name="send" value="ตรวจคำตอบ" onclick="checkAns('percent', 'ร้อยละ 30'); return false;">
+</form><br><br>
+
+ข้อ 24. ปริมาณการใช้ปุ๋ยเคมีของภาคกลางเมื่อปี 2542 สูงกว่าภาคเหนือเมื่อปี 2541 ร้อยละเท่าใ ด
+<form action="#">
+<label><input type="radio" name="41_42" value="ร้อยละ 80">ร้อยละ 80</label><br>
+<label><input type="radio" name="41_42" value="ร้อยละ 150">ร้อยละ 150</label><br>
+<label><input type="radio" name="41_42" value="ร้อยละ 240">ร้อยละ 240</label><br>
+<label><input type="radio" name="41_42" value="ร้อยละ 270">ร้อยละ 270</label><br>
+<input type="submit" name="send" value="ตรวจคำตอบ"onclick="checkAns('41_42', 'ร้อยละ 80'); return false;">
+</form><br><br>
+
+ข้อ 25. จากข้อมูลข้างต้นข้อใดกล่าวไม่ถูกต้อง
+<form action="#">
+<label><input type="radio" name="not_true" value="ภาคตะวันออกเฉียงเหนือใช้ปุ๋ยเคมีปีละประมาณ 2 แสนตัน">ภาคตะวันออกเฉียงเหนือใช้ปุ๋ยเคมีปีละประมาณ 2 แสนตัน</label><br>
+<label><input type="radio" name="not_true" value="ปี 2540 เป็นปีที่เกษตรกรใช้ปุ๋ยเคมีปริมาณต่ำที่สุด">ปี 2540 เป็นปีที่เกษตรกรใช้ปุ๋ยเคมีปริมาณต่ำที่สุด</label><br>
+<label><input type="radio" name="not_true" value="ปี 2542 ปริมาณการใช้ปุ๋ยเคมีมากกว่าปี 2541 ประมาณ 209,500 ตัน">ปี 2542 ปริมาณการใช้ปุ๋ยเคมีมากกว่าปี 2541 ประมาณ 209,500 ตัน</label><br>
+<label><input type="radio" name="not_true" value="ปี 2541 ปริมาณการใช้ปุ๋ยเคมีของทุกภาคลดลงจากปี 2540 ยกเว้นภาคใต้">ปี 2541 ปริมาณการใช้ปุ๋ยเคมีของทุกภาคลดลงจากปี 2540 ยกเว้นภาคใต้</label><br>
+<input type="submit" name="send" value="ตรวจคำตอบ" onclick="checkAns('not_true', 'ปี 2540 เป็นปีที่เกษตรกรใช้ปุ๋ยเคมีปริมาณต่ำที่สุด'); return false;">
+</form><br><br>
+
+<strong>คำสั่ง พิจารณาข้อมูลที่กำหนดให้แล้วตอบคำถาม</strong><br>
+
+ปริมาณการใช้ปุ๋ยเคมีของเกษตรกรแยกเป็นรายปี ตั้งแต่มีการเพาะปลูก 2541/42-2543/44
+หน่วย : ตัน<br>
+
+<table>
+<tr><th>พืช</th><th> ปี 2541/42</th><th> ปี 2542/43</th><th> ปี 2543/44</th><th> ค่าเฉลี่ย</th></tr>
+<tr><td>ข้าว</td><td> 494,147</td><td> 439,074</td><td> 584,561</td><td> 505,927</td></tr>
+<tr><td>- ข้าวนาปี</td><td> 340,055</td><td> 269,621</td><td> ?</td><td> ?</td></tr>
+<tr><td>- ข้าวนาปรัง</td><td> 154,092</td><td> 169,453</td><td> ?</td><td> 170,927</td></tr>
+<tr><td>อ้อย</td><td> 140,101</td><td> 123,730</td><td> 138,851</td><td> ?</td></tr>
+<tr><td>ยาสูบ</td><td> 28,669</td><td> 32,528</td><td> 24,737</td><td> 28,645</td></tr>
+<tr><td>พืชไร่</td><td> 20,067</td><td> 18,743</td><td> 26,547</td><td> 21,786</td></tr>
+<tr><td>ผักต่างๆ</td><td> 101,413</td><td> 98,565</td><td> 126,229</td><td> 108,735</td></tr>
+<tr><td>ยางพารา</td><td> 67,091</td><td> 82,576</td><td> 89,946</td><td> 79,872</td></tr>
+<tr><td>ปาล์มน้ำมัน</td><td> 17,444</td><td> 19,122</td><td> ?</td><td> 21,698</td></tr>
+<tr><td>ผลไม้และพืชยืนต้น</td><td> 25,610</td><td> 28,165</td><td> 32,642</td><td> 28,805</td></tr>
+<tr><td>รวมทั้งสิ้น</td><td> ?</td><td>?</td><td> 1,052,041</td><td> 929,695</td></tr>
+</table>
+
+ข้อ 26. ในระหว่างปีการเพาะปลูก 2541/42 – 2543/44 เกษตรกรใช้ปุ๋ยเคมีกับพืชประเภทข้าวรวมเฉลี่ยคิดเป็นร้อยละเท่า ใดของปริมาณการใช้ปุ๋ยเคมีเฉลี่ยทั้งหมด 
+<form action="#">
+<label><input type="radio" name="amount" value="ร้อยละ 50.74">ร้อยละ 50.74</label><br>
+<label><input type="radio" name="amount" value="ร้อยละ 54.42">ร้อยละ 54.42</label><br>
+<label><input type="radio" name="amount" value="ร้อยละ 60.18">ร้อยละ 60.18</label><br>
+<label><input type="radio" name="amount" value="ร้อยละ 64.78">ร้อยละ 64.78</label><br>
+<input type="submit" name="send" value="ตรวจคำตอบ" onclick="checkAns('amount', 'north'); return false;">
+</form><br><br>
+
+ข้อ 27. ปริมาณการใช้ปุ๋ยเคมีระหว่างพืชประเภทข้าวนาปี กับข้าวนาปรังของปีการเพาะปลูกใด มีอัตราส่วนเท่ากับ 8 : 5
+<form action="#">
+<label><input type="radio" name="rice" value="ปี 2541/42">ปี 2541 และ 2542</label><br>
+<label><input type="radio" name="rice" value="ปี 2542/43">ปี 2542 และ 2543</label><br>
+<label><input type="radio" name="rice" value="ปี 2543/44">ปี 2543 และ 2544</label><br>
+<label><input type="radio" name="rice" value="ถูกทั้ง 3 ปี">ถูกทั้ง 3 ปี</label><br>
+<input type="submit" name="send" value="ตรวจคำตอบ" onclick="checkAns('rice', 'north'); return false;">
+</form><br><br>
+
+ข้อ 28. ปริมาณการใช้ปุ๋ยเคมีกับผลไม้และพืชยืนต้นในปีการเพาะปลูก 2543/44 สูงกว่าปีการเพาะปลูก 2541/42 อยู่ร้อยละเท่าใด
+<form action="#">
+<label><input type="radio" name="fruit" value="ร้อยละ 24">ร้อยละ 24</label><br>
+<label><input type="radio" name="fruit" value="ร้อยละ 27">ร้อยละ 27</label><br>
+<label><input type="radio" name="fruit" value="ร้อยละ 30">ร้อยละ 30</label><br>
+<label><input type="radio" name="fruit" value="ร้อยละ 36">ร้อยละ 36</label><br>
+<input type="submit" name="send" value="ตรวจคำตอบ" onclick="checkAns('fruit', 'north'); return false;">
+</form><br><br>
+
+ข้อ 29 ในปีการเพาะปลูก 2542/43 ปริมาณการใช้ปุ๋ยเคมีของพืชประเภทอ้อยสูงกว่าผักต่างๆ อยู่ร้อยละเท่าใด
+<form action="#">
+<label><input type="radio" name="sugar" value="ร้อยละ 18">ร้อยละ 18</label><br>
+<label><input type="radio" name="sugar" value="ร้อยละ 22">ร้อยละ 22</label><br>
+<label><input type="radio" name="sugar" value="ร้อยละ 26">ร้อยละ 26</label><br>
+<label><input type="radio" name="sugar" value="ร้อยละ 30">ร้อยละ 30</label><br>
+<input type="submit" name="send" value="ตรวจคำตอบ" onclick="checkAns('sugar', 'north'); return false;">
+</form><br><br>
+
+ข้อ 30. ในปีการเพาะปลูก 2543/44 เกษตรกรใช้ปุ๋ยเคมีกับปาล์มน้ำมันทั้งหมดกี่ตัน
+<form action="#">
+<label><input type="radio" name="palm" value="25,136 ตัน">25,136 ตัน</label><br>
+<label><input type="radio" name="palm" value="27,636 ตัน">27,636 ตัน</label><br>
+<label><input type="radio" name="palm" value="28,528 ตัน ">28,528 ตัน </label><br>
+<label><input type="radio" name="palm" value="29,274 ตัน">29,274 ตัน</label><br>
+<input type="submit" name="send" value="ตรวจคำตอบ" onclick="checkAns('palm', 'north'); return false;">
+</form><br><br>
+
+เฉลยแนวข้อสอบกพ. การวิเคราะห์หาความสัมพันธ์ของจำนวนหรือปริมาณ
+
+ข้อ21 4
+ข้อ 22 1
+ข้อ 23 3
+ข้อ 24 1
+ข้อ 25 2
+ส่งอีเมลข้อมูลนี้
+
+
+ <script src="check_and_feedback.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

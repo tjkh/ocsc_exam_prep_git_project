@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+
+
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>id0592:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+5     7    	14    16     32	     ____	&lt;br /&gt;
+
+
+</question>
+<choice_A>64</choice_A>
+<choice_B>34</choice_B>
+<choice_C>52</choice_C>
+<choice_D>67</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+5     7    	14    16     32	     ____	&lt;br /&gt;&lt;br /&gt;
+
+
+ในภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้นเรื่อย ๆ ไม่เท่ากัน&lt;br /&gt;&lt;br /&gt;
+
+ลองหาผลต่างระหว่างตัวเลข จะพบว่าน่าสนใจ คือ +2, +7, +2, +16 &lt;br /&gt;
+
+และถ้าดูให้ดีอีกนิด จะเห็นว่า 14=7x2 และ 32=16x2 เป็นการคูณด้วย 2 เหมือนกัน&lt;br /&gt;&lt;br /&gt;
+
+จึงสรุปได้ว่า บวกด้วย 2 สลับกับการคูณด้วย 2 &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 32+2=34 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_571416.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- XX -->
+<thisQuestion>
+<qNum>id0593:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+87        84       79        72         63         ____&lt;br /&gt;
+
+</question>
+<choice_A>49</choice_A>
+<choice_B>61</choice_B>
+<choice_C>52</choice_C>
+<choice_D>50</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+87        84       79        72         63         ____&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ลดลงอย่างต่อเนื่อง และลดลงครั้งละไม่มาก แสดงว่า อาจจะมีลบ ไม่น่าจะมีการลบแบบยกกำลัง เพราะลดลงไม่มาก &lt;br /&gt;&lt;br /&gt;
+
+ลองหาผลต่างระหว่างตัวเลข ก็จะเห็นระบบ ว่า ลดลง เป็นเลขคี่ &lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_878479.png&quot;&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 7 -->
+<thisQuestion>
+<qNum>id0594:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+9   12  	11  14   13     16    ____ &lt;br /&gt;&lt;br /&gt;
+
+</question>
+<choice_A>12</choice_A>
+<choice_B>10</choice_B>
+<choice_C>17</choice_C>
+<choice_D>15</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+9   12  	11  14   13     16    ____ &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+ในภาพรวม จะเห็นว่า ตัวเลขมีเพิ่มขึ้นและลดลง ถ้าสังเกตให้มากขึ้น จะเห็นว่า เพิ่มขึ้น 3 และลดลง 1
+ดังนั้น คำตอบคือ 16-1=15 ดังภาพ&lt;br /&gt; &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_9121114_2.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+มองอีกอย่าง จะเห็นว่ามีอนุกรมซ้อนกัน 2 อนุกรม โดยแต่ละอนุกรม เพิ่มขึ้นครั้งละ 2 ดังภาพ&lt;br /&gt; &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_9121114.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 2 -->
+<thisQuestion>
+<qNum>id0595:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+2   7  	14   23    ___	&lt;br /&gt;
+</question>
+<choice_A>34</choice_A>
+<choice_B>37</choice_B>
+<choice_C>30</choice_C>
+<choice_D>32</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>2</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+2   7  	14  23    ___	&lt;br /&gt;&lt;br /&gt;
+
+จากภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้นอย่างต่อเนื่อง &lt;br /&gt;
+ลองตีแฉก(หลัง-หน้า)หาผลต่างระหว่างตัวเลข &lt;br /&gt;
+
+7-2 = +5&lt;br /&gt;
+14-7 = +7&lt;br /&gt;
+23-14 = +9&lt;br /&gt;&lt;br /&gt;
+
+จะเห็นว่า เป็น +5, +7, +9 ตัวต่อไปต้องเป็น 11 &lt;br /&gt;
+เพราะเพิ่มครั้งละ 2&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 23+11 = 34&lt;br /&gt;&lt;br /&gt;
+
+
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_271423.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>id1652591964:date1652591964</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+5     0    	2    7     9     18	     ____	&lt;br /&gt;
+
+</question>
+<choice_A>64</choice_A>
+<choice_B>34</choice_B>
+<choice_C>27</choice_C>
+<choice_D>67</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+5     0    	2    7     9     18	     ____		&lt;br /&gt;&lt;br /&gt;
+
+
+ในภาพรวม จะเห็นว่าตัวเลขมีเพิ่มขึ้น และลดลง และมีหลายจำนวน เดาก่อนเลยว่า น่าจะมีการเอาตัวเลขข้างหน้ามากระทำ ในลักษณะสะสม &lt;br /&gt;&lt;br /&gt;
+5 + 0 เป็น 2 ไม่ได้ &lt;br /&gt;
+ถ้า เอา 3 ตัว&lt;br /&gt;
+5  + 0  + 2 เป็น 7&lt;br /&gt;
+ลองต่อ โดยใช้ 3 ตัว&lt;br /&gt;
+0  + 2  + 7 เป็น 9&lt;br /&gt;
+2  + 7  + 9 เป็น 18&lt;br /&gt;
+&#x2234; คำตอบคือ 7  + 9 + 18 = 34&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 34 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_50279.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+&lt;strong&gt;เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+กลับไปดูเรื่อง หลักการทำข้อสอบอนุกรม ในหน้าเมนู นะครับ เพื่อว่า พอมองชุดตัวเลขแล้ว จะได้ตั้งสมมติฐานได้ ประหยัดเวลาในการทำข้อสอบ &lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>id1652591965:date1652591965</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+60     3    56    12     52     48     48     ____	&lt;br /&gt;
+
+
+</question>
+<choice_A>64</choice_A>
+<choice_B>134</choice_B>
+<choice_C>192</choice_C>
+<choice_D>267</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+60     3    56    12     52     48     48     ____	&lt;br /&gt;
+
+
+ในภาพรวม จะเห็นว่า ค่อนข้างยาว มี 7 จำนวน มีเพิ่มขึ้น-ลดลง&lt;br /&gt;&lt;br /&gt;
+
+สันนิษฐานไว้ก่อนว่า อาจจะเป็นการสะสม หรือ มีซ้อนกันหลายชุด&lt;br /&gt;
+
+ตรวจดูคร่าว ๆ ไม่น่าจะเป็นแบบสะสม เพราะ ชุดตัวเลขข้างหน้า กับตัวถัดไป ไม่น่าจะเกิดจากการบวกหรือลบกันได้&lt;br /&gt;&lt;br /&gt;
+
+ลองดูแบบมีหลายชุด คือ &lt;br /&gt;
+60   56   52   48  และ&lt;br /&gt;
+3   12   18&lt;br /&gt;
+จะเห็นว่า&lt;br /&gt;
+60   56   52   48  ลดลงครั้งละ 4&lt;br /&gt;
+3   12   18 เพิ่มขึ้น โดยการคูณด้วย 4&lt;br /&gt;&lt;br /&gt;
+
+จึงสรุปได้ว่า ตัวเลขที่หายไป คือ &lt;br /&gt;
+48 x 4 = 192&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 192 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_6035612.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>id1652591966_katex:date1652591966</qNum>
+<question>&lt;strong&gt;คำสั่ง:&lt;/strong&gt; เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{1}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;   &lt;tex&gt;\frac{1}{2}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{7}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{19}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{67}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{?}{6}&lt;/tex&gt;&lt;br /&gt;
+
+</question>
+<choice_A>&lt;tex&gt;\frac{132}{6}&lt;/tex&gt;</choice_A>
+<choice_B>&lt;tex&gt;\frac{145}{2}&lt;/tex&gt;</choice_B>
+<choice_C>&lt;tex&gt;\frac{307}{6}&lt;/tex&gt;</choice_C>
+<choice_D>&lt;tex&gt;\frac{357}{6}&lt;/tex&gt;</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+&lt;tex&gt;\frac{1}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;   &lt;tex&gt;\frac{1}{2}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{7}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{19}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{67}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{?}{6}&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ มีลักษณะเป็นเศษส่วน&lt;br /&gt;&lt;br /&gt;
+มีข้อสังเกตเห็นชัดคือ ส่วนเท่ากัน ยกเว้นตัวเดียวคือ &lt;tex&gt;\frac{1}{2}&lt;/tex&gt; &lt;br /&gt;&lt;br /&gt;
+
+อย่างนี้ ต้องทำส่วนให้เท่ากัน เสียก่อน&lt;br /&gt;&lt;br /&gt;
+
+เอา 3 คูณทั้งเศษและส่วน ได้ &lt;tex&gt;\frac{1\times3}{2\times3} = \frac{3}{6}&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+ได้เป็น &lt;br /&gt;
+&lt;tex&gt;\frac{1}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;   &lt;tex&gt;\frac{3}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{7}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{19}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{67}{6}&lt;/tex&gt;  &nbsp;&nbsp;&nbsp;    &lt;tex&gt;\frac{?}{6}&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+
+ดูเศษทั้งหมดคือ 1    3    7    19    67   ....&lt;br /&gt;&lt;br /&gt;
+
+จะสังเกตเห็นว่า คู่สุดท้ายห่างกันเกินครึ่ง เป็นลักษณะการ "เพิ่มเร็ว"&lt;br /&gt;&lt;br /&gt;
+ลองเอาคู่หลังมาหารกันดู 67 ได้ประมาณ 3 กว่า ๆ &lt;br /&gt;
+ระหว่าง 7 กับ 19 ได้ประมาณ 3 กว่า ๆ &lt;br /&gt;
+ระหว่าง 3 กับ 7 ได้ประมาณ 2 กว่า ๆ &lt;br /&gt;
+ไม่น่าจะมีระบบ&lt;br /&gt;&lt;br /&gt;
+
+ถึงตรงนี้ ให้ลองตีแฉก ก็จะเห็นระบบ&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ &lt;tex&gt;\frac{307}{6}&lt;/tex&gt; ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_11719.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>id1652591967:date1652591967</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+13     16    	22    31     43	     ____	&lt;br /&gt;
+
+
+</question>
+<choice_A>65</choice_A>
+<choice_B>36</choice_B>
+<choice_C>58</choice_C>
+<choice_D>60</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+13     16    	22    31     43	     ____	&lt;br /&gt;&lt;br /&gt;
+
+
+ในภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้นเรื่อย ๆ ไม่เท่ากัน และเพิ่มไม่มาก คู่สุดท้ายเพิ่มน้อยกว่าครึ่ง&lt;br /&gt;&lt;br /&gt;
+
+ลองหาผลต่างระหว่างตัวเลข จะพบว่าน่าสนใจ คือ +3, +6, +9, +12 &lt;br /&gt;การเพิ่มขึ้น เป็นลักษณะสูตรคูณ แม่ 3 &lt;br /&gt;&lt;br /&gt;
+ตัวต่อไปคือ 15 &lt;br /&gt;&lt;br /&gt;
+ลองหาอีกชั้นก็ได้ เพื่อความแน่ใจ จะเห็นว่า ทุกคู่ จะบวกด้วย 3&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 43+15= 58 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_13162231.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>id1652591968:date1652591968</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+1     9    	63    315        ____	&lt;br /&gt;
+
+</question>
+<choice_A>713</choice_A>
+<choice_B>843</choice_B>
+<choice_C>945</choice_C>
+<choice_D>1,575</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+1     9    	63    315        ____	&lt;br /&gt;&lt;br /&gt;
+
+
+ในภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้นจำนวนมาก อย่างรวดเร็ว และมีจำนวนไม่กี่ตัว เป็นลักษณะ เพิ่มเร็ว&lt;br /&gt;&lt;br /&gt;
+
+ลักษณะเพิ่มเร็ว คือ อาจมีการคูณ หรือยกกำลัง หรือ อาจมีการบวกผสม เช่น คูณแล้วบวก เป็นต้น&lt;br /&gt;&lt;br /&gt;
+
+เบื้องต้น ให้สันนิษฐานว่า ต้องมีการคูณ หรือยกกำลัง&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลขตัวแรก จาก 1 ทำอย่างไร ให้ได้ 9&lt;br /&gt;
+1×9 = 9&lt;br /&gt;&lt;br /&gt;
+
+ตัวเลขตัวที่สอง จาก 9 ทำอย่างไร ให้ได้ 63&lt;br /&gt;
+9×7 = 63&lt;br /&gt;&lt;br /&gt;
+
+คูณด้วย 9, 7 ตัวต่อไป น่าจะคูณด้วย 5 เพราะลดลงครั้งละ 2&lt;br /&gt;&lt;br /&gt;
+
+ลองดู&lt;br /&gt;
+ตัวเลขตัวที่สาม คูณด้วย 5 &lt;br /&gt;
+63×5 = 315&lt;br /&gt;&lt;br /&gt;
+
+สรุปว่า ตัวหน้าคูณด้วย 9, 7, 5&lt;br /&gt;&lt;br /&gt;
+
+ตัวต่อไปต้องคูณด้วย 3&lt;br /&gt;
+315×3 = 945&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ 945  ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_1963315_.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>id1652591969:date1652591969</qNum>
+<question>
+&lt;small&gt;(ข้อสอบเสมือนจริง ก.พ.)  &lt;/small&gt; &lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+0     3    	12    39     ____	&lt;br /&gt;
+</question>
+<choice_A>105</choice_A>
+<choice_B>120</choice_B>
+<choice_C>134</choice_C>
+<choice_D>150</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+0     3    	12    39     ____	&lt;br /&gt;&lt;br /&gt;
+
+
+ในภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้น อย่างก้าวกระโดด และมีจำนวนตัวเลขไม่กี่ชุด&lt;br /&gt;&lt;br /&gt;
+อย่างนี้เป็นลักษณะ เพิ่มเร็ว ความสัมพันธ์ของตัวเลข ต้องเป็นการคูณ หรือ ยกกำลัง หรือ คูณแล้วบวกเพิ่ม&lt;br /&gt;&lt;br /&gt;
+
+ถามว่า 12 คูณอะไร ได้ 39 &lt;br /&gt;
+12 x 3 = 36 ขาดอีก 3 หรือได้อีกแบบว่า&lt;br /&gt;
+(12 x 3) + 3 = 39&lt;br /&gt;&lt;br /&gt;
+ลองดูอีกคู่ &lt;br /&gt;
+ถามว่า 3 คูณอะไร ได้ 12&lt;br /&gt;
+3 x 4 = 12&lt;br /&gt;
+ดูเหมือนว่าจะไม่ใช่เสียแล้ว&lt;br /&gt;&lt;br /&gt;
+แต่อย่าเพิ่ง&lt;br /&gt;&lt;br /&gt;
+ให้นึกว่า การที่จะได้อะไรสักอย่าง ย่อมมีวิธีการได้มาหลายวิธี&lt;br /&gt;
+เช่น 6 = 3+3 หรือ 6 = 3 x 2 หรือ 6 = 2 +2 +2 ก็ย่อมได้&lt;br /&gt;&lt;br /&gt;
+
+ถ้าคู่ก่อน ได้มาแบบ คูณ กับ บวก&lt;br /&gt;
+3 กับ 12 จะให้เป็น คูณ กับ บวก ได้ไหม จะได้มีรูปแบบเหมือน ๆ กัน&lt;br /&gt;
+12 = (3 x 3) + 3&lt;br /&gt;
+ใช่เลย&lt;br /&gt;&lt;br /&gt;
+
+ลองอีกคู่ คือ 0 กับ 3 ลองใช้วิธี คูณ กับ บวก เหมือนรูปแบบที่เจอมาแล้วจากคู่ก่อน&lt;br /&gt;
+3 = (0 x 3) + 3&lt;br /&gt;
+&#x2234; ตัวหน้า คูณด้วย 3 และบวกด้วย 3 จะได้เป็นตัวถัดไป&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 120 ดังภาพ&lt;br /&gt;
+
+
+&lt;img src=&quot;asset:assets/data/images/nbr_031239.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>id1652591970:date1652591970</qNum>
+<question>
+&lt;small&gt;(ข้อสอบเสมือนจริง ก.พ. 2560)  &lt;/small&gt; &lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+3     7    	15    31     63     127	     ____	&lt;br /&gt;
+
+</question>
+<choice_A>210</choice_A>
+<choice_B>255</choice_B>
+<choice_C>345</choice_C>
+<choice_D>350</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+3     7    	15    31     63     127	     ____	&lt;br /&gt;&lt;br /&gt;
+
+ในภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้นเรื่อย ๆ คู่สุดท้ายมากกว่ากันเกินครึ่งหนึ่ง น่าจะเป็นลักษณะเพิ่มเร็ว หรือ เกิดจากการคูณ หรือยกกำลัง หรือ มีคูณกับบวก &lt;br /&gt;&lt;br /&gt;
+
+คู่แรก 3 กับ 7&lt;br /&gt;
+7 = (3 x 2) +1&lt;br /&gt;&lt;br /&gt;
+
+คู่ที่ 2 ระหว่าง 7 กับ 15&lt;br /&gt;
+15 = (7 x 2) +1&lt;br /&gt;&lt;br /&gt;
+
+คู่ที่ 3 ระหว่าง  15 กับ 31&lt;br /&gt;
+31 = (15 x 2) +1&lt;br /&gt;&lt;br /&gt;
+
+คู่ที่ 4 ระหว่าง  31 กับ 63&lt;br /&gt;
+63 = (31 x 2) +1&lt;br /&gt;&lt;br /&gt;
+
+&#x2234; ได้รูปแบบคือ ตัวหน้า คูณด้วย 2 แล้วบวกด้วย 1 จะได้เป็นตัวหลัง&lt;br /&gt;&lt;br /&gt;
+
+ได้คำตอบคือ 255 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_37153163.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>1652591971:date1652591971</qNum>
+<question>
+&lt;small&gt;(ข้อสอบเสมือนจริง ก.พ. 2560)  &lt;/small&gt; &lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+6     13    	32    101	     ____	&lt;br /&gt;
+</question>
+<choice_A>245</choice_A>
+<choice_B>349</choice_B>
+<choice_C>408</choice_C>
+<choice_D>506</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+6     13    	32    101	     ____	&lt;br /&gt;&lt;br /&gt;
+
+
+ในภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้น ค่อนข้างมาก น่าจะมีการคูณ หรือ ยกกำลัง หรือ คูณแล้วบวกร่วมด้วย&lt;br /&gt;&lt;br /&gt;
+
+ลองดูคู่แรก ระหว่าง 6 กับ 13&lt;br /&gt;&lt;br /&gt;
+13 = (6 x 2) + 1 หรือ&lt;br /&gt;
+13 = (6 x 1) + 7&lt;br /&gt;&lt;br /&gt;
+
+คู่ที่ 2  ระหว่าง 13 กับ 32&lt;br /&gt;&lt;br /&gt;
+ลองดูแบบคู่แรก คือ คูณด้วย 2 บวกด้วย 1 &lt;br /&gt;
+(13 x 2) + 1 = 27 &lt;br /&gt;
+ใช้ไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+แต่ถ้าคูณด้วย 2 และบวกด้วย 6 ก็จะได้ 32 พอดี&lt;br /&gt;
+32 = (13 x 2) + 6&lt;br /&gt;&lt;br /&gt;
+
+
+
+สังเกต เห็นว่า ตัวคูณเพิ่ม จาก 1 เป็น 2  &lt;br /&gt;
+และสังเกตว่า ตัวบวก ลดลง คือ จาก 7 เป็น 6 &lt;br /&gt;&lt;br /&gt;
+
+
+สรุปว่า รูปแบบน่าจะเป็น การคูณด้วยตัวเลขที่เพิ่มขึ้น แล้วบวกด้วยตัวเลขที่ลดลง &lt;br /&gt;&lt;br /&gt;
+
+
+
+คู่ที่ 3  ระหว่าง 32 กับ 101 ลองคูณด้วย 3 แล้วบวกด้วย 5&lt;br /&gt;
+101 = (32 x 3) + 5&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น คำตอบคือ ตัวหน้า คูณด้วย 4 แล้วบวกด้วย 4 &lt;br /&gt;&lt;br /&gt;
+
+&#x2234; คำตอบ คือ (101 x 4) + 4 = 408&lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_61332101.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>1652591971:date1652591971</qNum>
+<question>
+&lt;small&gt;(ข้อสอบเสมือนจริง ก.พ. 2560)  &lt;/small&gt; &lt;br /&gt;
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+15     -28    	58    -114	     ____	&lt;br /&gt;
+</question>
+<choice_A>-230</choice_A>
+<choice_B>230</choice_B>
+<choice_C>-320</choice_C>
+<choice_D>320</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+15     -28    	58    -114	     ____	&lt;br /&gt;&lt;br /&gt;
+ในภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้น ค่อนข้างมาก แต่มีเครื่องหมายสลับ บวก-ลบ
+
+น่าจะมีการคูณ หรือ ยกกำลัง หรือ คูณแล้วบวกร่วมด้วย และอาจจะมีเรื่องเครื่องหมายเข้ามาเกี่ยวข้อง&lt;br /&gt;&lt;br /&gt;
+
+ลองดูคู่แรก ระหว่าง 15 กับ -28&lt;br /&gt;&lt;br /&gt;
+
+จาก 15 ทำอย่างไรจึงจะได้ -28&lt;br /&gt;&lt;br /&gt;
+
+15×2 = 30 แล้วลบด้วย 2 จะเหลือ 28&lt;br /&gt;
+แต่ เราต้องการ -28&lt;br /&gt;
+ดังนั้น แทนที่จะคูณด้วย 2 เราก็คูณด้วย -2 ก็จะได้ -28&lt;br /&gt;
+เพราะ บวก คูณ ลบ ได้ บวก&lt;br /&gt;
+เครื่องหมายเหมือนกัน คูณกัน ได้ บวก&lt;br /&gt;
+เครื่องหมายต่างกัน คูณกัน ได้ ลบ
+&lt;br /&gt;&lt;br /&gt;
+
+-28 = (15 x (-2)) + 2 หรือ&lt;br /&gt;
+
+คู่ที่ 2  ระหว่าง -28 กับ 58&lt;br /&gt;&lt;br /&gt;
+ลองดูรูปแบบเหมือนคู่แรก คือ คูณด้วย -2 แล้ว บวกด้วย 2&lt;br /&gt;
+ลบคูณลบ ได้ บวก&lt;br /&gt;
+-28x(-2) จึงได้ +56 &lt;br /&gt;&lt;br /&gt;
+เมื่อเอา 2 มาบวกเหมือนคู่แรก ก็จะได้ 58&lt;br /&gt;&lt;br /&gt;
+
+58 = ((-28) x (-2)) + 2&lt;br /&gt;
+
+น่าจะได้ระบบแล้ว แต่ลองอีกคู่เพื่อให้แน่ใจ
+
+คู่ที่ 3  ระหว่าง 58 กับ -114 ลองคูณด้วย -2 บวกด้วย 2&lt;br /&gt;
+-114 = (58 x (-2)) + 2&lt;br /&gt;&lt;br /&gt;
+
+&#x2234; สรุปได้ว่า ตัวหน้า คูณด้วย -2 แล้วบวกด้วย 2 จะได้เป็นตัวถัดไป &lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบ คือ ((-114) x (-2)) + 2 = 230 &lt;br /&gt;&lt;br /&gt;
+
+คำตอบ คือ 230 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/152858114.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+</explanation>
+<isExplain>yes</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+
+
+<!-- 4 -->
+<thisQuestion>
+<qNum>id0596:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+100     99    	95     86     70     ____	&lt;br /&gt;
+
+
+</question>
+<choice_A>50</choice_A>
+<choice_B>45</choice_B>
+<choice_C>32</choice_C>
+<choice_D>29</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+100     99    	95     86     70     ____	&lt;br /&gt;&lt;br /&gt;
+
+ในภาพรวม จะเห็นว่าตัวเลขลดลงเรื่อย ๆ ไม่เท่ากัน ไม่น่าจะมี 2 อนุกรมซ้อนกัน &lt;br /&gt;&lt;br /&gt;
+
+ตีแฉก โดบเอาตัวหลัง - ตัวหน้า &lt;br /&gt;
+
+99 - 100 = -1&lt;br /&gt;
+95 - 99 = -4&lt;br /&gt;
+86 - 95 = -9 &lt;br /&gt;
+70 - 86 = -16&lt;br /&gt;&lt;br /&gt;
+
+
+-1, -4, -9, -16 ลองตีแฉกต่อ&lt;br /&gt;
+(-4)-(-1) = -4 + 1 = -3&lt;br /&gt;
+&lt;small&gt; &lt;strong&gt; ลบคูณลบได้ บวก -(-1) จึงได้ +1 &lt;/strong&gt;  &lt;/small&gt;&lt;br /&gt;
+(-9)-(-4) = -9 + 4 = -5&lt;br /&gt;
+(-16)-(-9) = -16 +9 = -7&lt;br /&gt;&lt;br /&gt;
+
+
+
+-3, -5, และ -7  &lt;br /&gt;
+ตัวต่อไป ต้องเป็น -9
+&lt;br /&gt;&lt;br /&gt;
+สรุปแล้ว จึงได้ผล 45 ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_100999586.png&quot;&gt;&lt;br /&gt;
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 3 -->
+<thisQuestion>
+<qNum>id0597:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+4     9    	13     22     35     ____	&lt;br /&gt;
+</question>
+<choice_A>57</choice_A>
+<choice_B>65</choice_B>
+<choice_C>59</choice_C>
+<choice_D>52</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>2</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+4     9    	13     22     35     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้นไม่มากนัก อาจจะเป็นอนุกรมการบวก&lt;br /&gt;&lt;br /&gt;
+
+ลองหาผลต่างระหว่างตัวเลข จะได้ +5, +4, +9, +14 ดูแล้วไม่น่าจะเป็นระบบ&lt;br /&gt;&lt;br /&gt;
+
+ลองดูว่าเป็นอนุกรม 2 ชุด หรือไม่ ชุดแรกคือ  4, 13, 35 และ 9, 22 ดูแล้วไม่น่าจะเป็นระบบ&lt;br /&gt;&lt;br /&gt;
+
+สุดท้าย ลองหาว่า ตัวที่ 3 เป็นผลมาจาก 2 ตัวก่อนหน้าหรือไม่ พบว่า ใช่ คือ 4+9=12, 9+3=22, 13+22=35  ดังนั้น คำตอบคือ 22+35 = 57&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_491322.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 1 -->
+<thisQuestion>
+<qNum>id0598:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+4   6  	12   14   28   30   ____	&lt;br /&gt;
+
+</question>
+<choice_A>54</choice_A>
+<choice_B>65</choice_B>
+<choice_C>58</choice_C>
+<choice_D>60</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+4   6  	12   14   28   30   ____	&lt;br /&gt;&lt;br /&gt;
+
+ในภาพรวม จะเห็นว่าตัวเลขมีค่าเพิ่มขึ้นอย่างต่อเนื่อง การยกกำลังน่าจะไม่มี เพราะเพิ่มไม่มากนัก&lt;br /&gt;&lt;br /&gt;
+
+ลองหาผลต่างระหว่างตัวเลข โดยเอาตัวเลขตัวหลังลบด้วยเลขตัวหน้า จะได้ +2, +6, +2, +14, +2 ตัวเลขดูไม่เป็นระบบ น่าจะไม่ใช่วิธีการหาผลต่างระหว่างตัวเลข&lt;br /&gt;&lt;br /&gt;
+
+ลองดูว่า สองตัวแรก รวมกันหรือลบกัน หรือคูณกัน หรือหารกัน ได้ตัวที่สามหรือไม่ คำตอบคือไม่ได้ เพราะ 4+6 ไม่เท่ากับ 12&lt;br /&gt;&lt;br /&gt;
+
+สุดท้ายลองดูว่า อาจจะมีอนุกรม 2 ชุดซ้อนกันอยู่ ซึ่งจะเห็นว่ามีอนุกรมซ้อนกันจริง ๆ และเป็นระบบ&lt;br /&gt;
+
+ตีแฉก (หลัง-หน้า) ได้ +8, +16&lt;br /&gt;
+จาก 8 ไป 16 คือ คูณด้วย 2&lt;br /&gt;
+ตัวต่อไปก็ต้องคูณด้วย 2 จึงได้ 32&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ  28 + 32 = 60&lt;br /&gt;&lt;br /&gt;
+
+ดังภาพ &lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_461214.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+
+
+
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 5 -->
+<thisQuestion>
+<qNum>id0599:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+15   31  	63  127   255    ____	&lt;br /&gt;
+
+</question>
+<choice_A>523</choice_A>
+<choice_B>511</choice_B>
+<choice_C>513</choice_C>
+<choice_D>517</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+15   31  	63  127   255    ____	&lt;br /&gt;
+
+ในภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้นเรื่อย ๆ น่าจะมีการบวก หรือคูณ &lt;br /&gt;&lt;br /&gt;
+
+จาก 15 ไป 31 ได้ 15x2 = 30 ถ้าเอา 1 ไปบวก1 ก็จะได้ 31 พอดี&lt;br /&gt;
+(ข้อสังเกตคือ 30 มากเป็น 2 เท่า ของ 15 ดังนั้น ถ้าต้องการ 31 ก็บวกเพิ่มอีกนิดหน่อย)&lt;br /&gt;&lt;br /&gt;
+
+จาก 31 ไป 61 ได้ 30x2 = 60 ถ้าเอา 1 ไปบวก1 ก็จะได้ 61 พอดี&lt;br /&gt;&lt;br /&gt;
+
+จากตรงนี้ น่าจะสรุปเป็นรูปแบบ หรือกฎได้ ทุกตัวคูณด้วย 2 แล้วบวกด้วย 1 ถ้ายังไม่แน่ใจก็หาต่ออีก ก็จะเห็นรูปแบบว่า คูณ 2บวกด้วย 1 &lt;br /&gt;&lt;br /&gt;
+
+คำตอบจึงเป็น (255x2)+1 = 511  ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_153163.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+อีกวิธีหนึ่ง จะใช้การหาค่าผลต่างระหว่างตัวเลขก็ได้ ดังภาพ&lt;br /&gt; (แต่น่าจะช้ากว่าการคิดแบบแรก) &lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_153163_2.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 12 -->
+<thisQuestion>
+<qNum>id0600:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+<!-- 1,  1/2,   2/6,  6/24,  ....   -->
+
+&lt;tex&gt;1 \quad \dfrac{1}{2} \quad \dfrac{2}{6} \quad \dfrac{6}{24} \quad &lt;/tex&gt; .......&lt;br /&gt;
+
+</question>
+<choice_A>&lt;tex&gt;\frac{5}{5}&lt;/tex&gt;</choice_A>
+<choice_B>&lt;tex&gt;\frac{12}{35}&lt;/tex&gt;</choice_B>
+<choice_C>&lt;tex&gt;\frac{24}{120}&lt;/tex&gt;</choice_C>
+<choice_D>&lt;tex&gt;\frac{32}{125}&lt;/tex&gt;</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>4</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+<!-- 1,  1/2,   2/6,  6/24,  ....   -->
+
+&lt;tex&gt;1 \quad \dfrac{1}{2} \quad \dfrac{2}{6} \quad \dfrac{6}{24} \quad &lt;/tex&gt; .......&lt;br /&gt;&lt;br /&gt;
+
+จะเห็นว่า ส่วนใหญ่เป็นเศษส่วน ยกเว้น 1&lt;br /&gt;
+ทำ 1 ให้เป็นเศษส่วน ได้  &lt;tex&gt; \quad \dfrac{1}{1}  &lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+อนุกรมชุดใหม่ คือ&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\dfrac{1}{1}\quad \dfrac{1}{2} \quad \dfrac{2}{6} \quad \dfrac{6}{24} \quad &lt;/tex&gt; .......&lt;br /&gt;&lt;br /&gt;
+
+
+
+ลองดูความสัมพันธ์ ระหว่างเศษกับเศษ ของทุกตัว &lt;br /&gt;
+เศษคือ 1, 1, 2, 6 ดูไม่น่าจะสัมพันธ์กัน&lt;br /&gt;
+ส่วนคือ 1, 2, 6, 24 ดูว่า &lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์ คือ ส่วนของตัวหน้า เป็น เศษของตัวถัดไป&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น เศษตัวสุดท้ายที่ต้องการ คือ 24 เพราะเป็นเศษของตัวหน้า&lt;br /&gt;&lt;br /&gt;
+
+คราวนี้ มาดูส่วน คือ 1, 2, 6, 24 จะเห็นว่า เป็นเลขน้อย ๆ คูณหารกันได้ลงตัว &lt;br /&gt;&lt;br /&gt;
+
+คำถามคือ &lt;br /&gt;
+จาก 1 ทำอย่างไรจึงจะได้ 2&lt;br /&gt;
+จาก 2 ทำอย่างไรจึงจะได้ 6&lt;br /&gt;
+จาก 6 ทำอย่างไรจึงจะได้ 24&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ&lt;br /&gt;&lt;br /&gt;
+
+1×2 = 2&lt;br /&gt;
+2×3 = 6 &lt;br /&gt;
+6×4 = 24&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้นส่วนตัวที่ต้องการคือ&lt;br /&gt;
+24×5 = 120&lt;br /&gt;
+เพราะตัวคูณเพิ่มขึ้นครั้งละ 1 &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ  &lt;tex&gt; \frac{24}{120}  &lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_12624.png&quot;&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- XX -->
+<thisQuestion>
+<qNum>id0601:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+10    	13    	18    	26    	38        ____ &lt;br /&gt;
+
+</question>
+<choice_A>48</choice_A>
+<choice_B>58</choice_B>
+<choice_C>60</choice_C>
+<choice_D>55</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+10    	13    	18    	26    	38        ____ &lt;br /&gt; &lt;br /&gt;
+
+ดูภาพรวม เพิ่มขึ้นอย่างต่อเนื่อง&lt;br /&gt;
+เดาว่า ต้องมีการบวก หรือการคูณ&lt;br /&gt;
+แต่เพิ่มไม่มากอย่างนี้ ไม่ใช่คูณแน่&lt;br /&gt;&lt;br /&gt;
+
+ตรวจสอบแบบสะสม ไม่น่าจะได้ &lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉกเลย  โดยเอาตัวหลังตั้ง ลบด้วยตัวหน้า &lt;br /&gt;&lt;br /&gt;
+
+13-10 = +3&lt;br /&gt;
+18-13 = +5&lt;br /&gt;
+...&lt;br /&gt;&lt;br /&gt;
+
+จะได้ผลดังภาพ &lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_1013182638.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 6 -->
+<thisQuestion>
+<qNum>id0602:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+5   11  	17  25   33   43    ____	&lt;br /&gt;
+
+</question>
+<choice_A>49</choice_A>
+<choice_B>51</choice_B>
+<choice_C>52</choice_C>
+<choice_D>53</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+5   11  	17  25   33   43    ____	&lt;br /&gt;&lt;br /&gt;
+
+ในภาพรวมจะเห็นว่าตัวเลขเพิ่มขึ้นเรื่อย ๆ อย่างต่อเนื่อง จำนวนไม่มากนัก &lt;br /&gt;&lt;br /&gt;
+
+
+ไม่ใช่แบบสะสมแน่&lt;br /&gt;&lt;br /&gt;
+
+ไม่น่าจะมีการยกกำลัง เพราะตัวเลขต่างกันไม่มาก &lt;br /&gt;&lt;br /&gt;
+
+ตีแฉกเลย โดยเอา ตัวหลัง - ตัวหน้า&lt;br /&gt;&lt;br /&gt;
+
+11-5 = 6&lt;br /&gt;
+17-11 = 6&lt;br /&gt;
+25-17 = 8&lt;br /&gt;
+...&lt;br /&gt;&lt;br /&gt;
+
+
+
+จะเห็นรูปแบบ เป็น +6, +6, +8, +8, +10 ดังนั้นตัวต่อไปน่าจะเป็น +10 ด้วย นั่นคือ มีการเพิ่มครั้งละ 2 แต่มีการซ้ำอยู่กับที่ 1 ครั้ง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 43+10 = 53  ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_5111725.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 10 -->
+<thisQuestion>
+<qNum>id0603:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt;2 \quad 1 \quad \frac{1}{2} \quad \frac{1}{4} \quad &lt;/tex&gt; .......
+<!--  2, 1, (1/2), (1/4), ...  -->
+</question>
+<choice_A>&lt;tex&gt;\frac{1}{3}&lt;/tex&gt; </choice_A>
+<choice_B>&lt;tex&gt;\frac{1}{8}&lt;/tex&gt;  </choice_B>
+<choice_C>&lt;tex&gt;\frac{2}{8}&lt;/tex&gt;  </choice_C>
+<choice_D>&lt;tex&gt;\frac{1}{16}&lt;/tex&gt; </choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+&lt;tex&gt;2 \quad 1 \quad \frac{1}{2} \quad \frac{1}{4} \quad &lt;/tex&gt; .......&lt;br /&gt;&lt;br /&gt;
+<!--  2, 1, (1/2), (1/4), ...  -->
+
+ในภาพรวม จะเห็นว่า ค่าของตัวเลขลดลงครึ่งหนึ่ง คือ ตัวหน้าหารด้วย 2 จะได้ตัวถัดไป&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น คำตอบคือ &lt;tex&gt;\frac{1}{8}&lt;/tex&gt;   ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_211214.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 11 -->
+<thisQuestion>
+<qNum>id0604:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+&lt;tex&gt;\dfrac{1}{9} \quad \dfrac{1}{3} \quad 1\quad 3 \quad 9 \quad &lt;/tex&gt; ..... &lt;br /&gt;
+
+<!--   (1/9), (1/3), 1, 3 , 9, ...   --></question>
+<choice_A> &lt;tex&gt;\dfrac{2}{3}&lt;/tex&gt;</choice_A>
+<choice_B>6</choice_B>
+<choice_C>9</choice_C>
+<choice_D>27</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+<!--   (1/9), (1/3), 1, 3 , 9, ...   -->
+&lt;tex&gt;\dfrac{1}{9} \quad \dfrac{1}{3} \quad 1\quad 3 \quad 9 \quad &lt;/tex&gt; ..... &lt;br /&gt; &lt;br /&gt;
+
+เป็นเศษส่วน ทำ 1, 3, 9 เป็นเศษส่วนก็ ไม่น่าจะช่วยอะไรได้&lt;br /&gt;&lt;br /&gt;
+
+ลองดูความสัมพันธ์&lt;br /&gt;&lt;br /&gt;
+
+จาก 1 ไป 3 เอา 3 คูณ&lt;br /&gt;
+จาก 3 ไป 9 ก็เอา 3 คูณ เหมือนกัน&lt;br /&gt;&lt;br /&gt;
+
+
+ลองเอา 3 คูณอนุกรมทุกตัว จะเห็นว่า ได้เป็นระบบ คือ&lt;br /&gt;
+ตัวหน้า คูณด้วย 3 เป็นตัวหลัง&lt;br /&gt;&lt;br /&gt;
+
+&lt;tex&gt;\frac{1}{9} ×3\quad =  \quad \frac{1}{3}  &lt;/tex&gt;  &lt;br /&gt;
+&lt;tex&gt;\frac{1}{3} ×3\quad = \quad 1  &lt;/tex&gt;  &lt;br /&gt;
+1×3 = 3 &lt;br /&gt;
+3×3 = 9 &lt;br /&gt; &lt;br /&gt;
+
+
+
+คำตอบคือ 9x3 = 27&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/11139.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 8 -->
+<thisQuestion>
+<qNum>id0605:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+0.5 &nbsp;&nbsp;&nbsp; 0.55 &nbsp;&nbsp;&nbsp;	0.65 &nbsp;&nbsp;&nbsp; 0.8 &nbsp;&nbsp;&nbsp; ____ &lt;br /&gt;
+
+</question>
+<choice_A>0.7</choice_A>
+<choice_B>0.9</choice_B>
+<choice_C>0.95</choice_C>
+<choice_D>1</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+0.5   0.55  	0.65  0.8   ____ &lt;br /&gt;&lt;br /&gt;
+
+ในภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้นเรื่อย ๆ ไม่มากนัก &lt;br /&gt;&lt;br /&gt;
+
+แบบสะสมไม่น่าจะใช่&lt;br /&gt;
+ไม่น่าจะมีการคูณหรือยกกำลัง เพราะตัวเลขต่างกันไม่มาก&lt;br /&gt;&lt;br /&gt;
+
+คิดอะไรไม่ออก ตีแฉกเลย&lt;br /&gt;
+ตัวหลัง - ตัวหน้า&lt;br /&gt;&lt;br /&gt;
+
+0.55 - 0.5 = 0.05&lt;br /&gt;
+0.65 - 0.55 = 0.10&lt;br /&gt;
+0.8 - 0.65 = 0.15&lt;br /&gt;&lt;br /&gt;
+
+ตีแฉกอีกชั้น จะเห็นรูปแบบ คือ เพิ่มครั้งละ 0.05&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 1&lt;br /&gt;
+
+
+
+&lt;img src=&quot;asset:assets/data/images/new_0505506508.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 15 -->
+<thisQuestion>
+<qNum>id0606:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+3   6   18  	72  360    ____	&lt;br /&gt;
+</question>
+<choice_A>2,160</choice_A>
+<choice_B>2,450</choice_B>
+<choice_C>3,950</choice_C>
+<choice_D>4,120</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>2</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+3   6   18  	72  360    ____	&lt;br /&gt;&lt;br /&gt;
+
+ในภาพรวม จะเห็นว่าตัวเลขเพิ่มขึ้น จากน้อยไปหามาก &lt;br /&gt;
+คู่หลังเพิ่มมากกว่าเท่าตัว แบบนี้เรียกว่า เพิ่มเร็ว&lt;br /&gt;
+การเพิ่มเร็ว น่าจะมีการคูณ หรือยกกำลัง หรือมีบวกเข้ามาผสมด้วย&lt;br /&gt;
+
+สันนิษฐานว่า น่าจะต้องมีการคูณ หรือการยกกำลัง ไว้ก่อน &lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม จาก 3 ไป 6, จาก 6 ไป 18 และ จาก 18 ไป 72 จะเห็นความสัมพันธ์ คือ&lt;br /&gt;
+3x2 = 6&lt;br /&gt;
+6x3 = 18&lt;br /&gt;
+18x4=72&lt;br /&gt;&lt;br /&gt;
+
+สรุปความสัมพันธ์ คือ x2, x3, x4, x5, ...&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น คำตอบคือ 360x6 = 2,160 &lt;br /&gt;&lt;br /&gt;
+ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_361872.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 9 -->
+<thisQuestion>
+<qNum>id0607:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+8   43   11   41   14   39   ____	&lt;br /&gt;
+
+</question>
+<choice_A>14</choice_A>
+<choice_B>17</choice_B>
+<choice_C>37</choice_C>
+<choice_D>44</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>3</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+8   43   11   41   14   39   ____	&lt;br /&gt;&lt;br /&gt;
+
+ในภาพรวมจะเห็นว่า มีค่าตัวเลขเพิ่มขึ้นและลดลง อนุกรมค่อนข้างยาว สันนิษฐานว่า อาจจะมี 2 ชุดซ้อนกัน&lt;br /&gt;&lt;br /&gt;
+
+ถ้าเป็น 2 ชุด&lt;br /&gt;
+ชุดแรกคือ 8, 11, 14, ....&lt;br /&gt;
+ชุดที่สองคือ 43, 41, 39, ....&lt;br /&gt;&lt;br /&gt;
+
+ชุดที่จะนำไปสู่คำตอบคือ ชุดที่ 1 ซึ่งจะเห็นว่า เพิ่มขึ้นครั้งละ 3&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ 14+3=17  ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb3_84311.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 14 -->
+<thisQuestion>
+<qNum>id0608:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+7   8  	9   24   41    ____	&lt;br /&gt;
+</question>
+<choice_A>79</choice_A>
+<choice_B>82</choice_B>
+<choice_C>65</choice_C>
+<choice_D>74</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+7   8  	9  24   41    ____	&lt;br /&gt;&lt;br /&gt;
+
+
+ในภาพรวม จะเห็นว่าตัวเลขมีค่าเพิ่มขึ้นไม่มากนัก และเพิ่มขึ้นไม่เท่ากัน และชุดนี้ มีไม่กี่จำนวน &lt;br /&gt;&lt;br /&gt;
+
+ไม่น่าจะมีหลายชุดซ้อนกัน &lt;br /&gt;&lt;br /&gt;
+
+ไม่น่าจะมีการคูณ หรือ ยกกำลัง เพราะตัวเลขต่างกันไม่มาก &lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉก ได้ +1, -1, +15, +17 ดูแล้วไม่น่าจะมีระบบ&lt;br /&gt;&lt;br /&gt;
+
+ลองดูแบบสะสม 2-3 ตัวหน้า รวมกันเป็นตัวถัดไป&lt;br /&gt;&lt;br /&gt;
+
+7+8+9 = 24&lt;br /&gt;
+8+9+24 = 41&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบคือ 9+24+41=74  ดังภาพ&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nb2_78924.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+<!-- 8 -->
+<thisQuestion>
+<qNum>id0609:date1627453500</qNum>
+<question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;เติมตัวเลขที่ขาดหายไป&lt;br /&gt;&lt;br /&gt;
+
+500     425    	275    50     ____	&lt;br /&gt;
+
+</question>
+<choice_A>25</choice_A>
+<choice_B>-25</choice_B>
+<choice_C>-125</choice_C>
+<choice_D>-250</choice_D>
+<choice_E>
+</choice_E>
+<correctAns>5</correctAns>
+<!-- A=2, B=3, C=4, D=5 -->
+<explanation>
+500     425    	275    50     ____	&lt;br /&gt;&lt;br /&gt;
+
+ดูภาพรวม ชุดอนุกรมมีค่าลดลงอย่างต่อเนื่องและลดลงค่อนข้างมาก แสดงว่า
+อาจจะมีการลบ หรือหาร หรือยกกำลังหรือ มีทั้งลบ ยกกำลัง หรือหาร หลายอย่างปนกัน&lt;br /&gt;&lt;br /&gt;
+
+ลองตีแฉก  โดยเอาตัวหลังลบด้วยตัวหน้า &lt;br /&gt;&lt;br /&gt;
+
+425-500 = -75&lt;br /&gt;
+275-425 = -150&lt;br /&gt;
+50-275 = -225&lt;br /&gt;&lt;br /&gt;
+
+ผลลัพธ์ที่ได้คือ -75	-150	-225 &lt;br /&gt;&lt;br /&gt;
+
+สังเกตว่า ตัวเลขค่อนข้างสวย ลงท้ายด้วย 5 และ 0 &lt;br /&gt;&lt;br /&gt;
+
+ตีแฉกอีกชั้นจะเห็นระบบว่า ต่างกันอยู่ 75 เท่ากันทุกจำนวน &lt;br /&gt;
+เมื่อคำนวณกลับขึ้นไป จะได้คำตอบ -250 ดังภาพ&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/nbr_500425.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;&lt;br /&gt;
+</explanation>
+<isExplain>disable answer</isExplain>
+<!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+<!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+</thisQuestion>
+</exams>
+
+

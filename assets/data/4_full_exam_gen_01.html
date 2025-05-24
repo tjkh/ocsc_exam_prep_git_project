@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.65">
+ <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+<body>
+
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+            <button id = "start" onclick="countDown(1,48,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+
+		</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 1:48 ช.ม.
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end of timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+<br><br>
+
+<!--
+ความสามารถทั่วไป 40 ข้อ
+ภาษาไทย 20 ข้อ
+
+================= ความสามารถทั่วไป =================
+
+1-5 อนุกรม 5 ข้อ
+-->
+ <div id="showMsgNotFullVersion" style="font-weight: bold; background: red; color: white; display: none; text-align:center;"> ชุดนี้ฝึกทำได้เฉพาะรุ่นเต็ม นะครับ</div>
+
+<strong>คำสั่ง</strong> จงเลือกคำตอบจากตัวเลือก 1. – 4. มาเติมลงในช่องว่าง เพื่อให้ได้อนุกรม ที่มีความสัมพันธ์ต่อเนื่องกัน อย่างสมเหตุสมผลมากที่สุด<br>
+
+<br><div class="quiz">
+ข้อ 1. นำตัวเลขมาเติมลงในช่องว่าง เพื่อให้ได้อนุกรม ที่มีความสัมพันธ์ต่อเนื่องกัน<br>
+9&#160;&#160;&#160;&#160; 13&#160;&#160;&#160;&#160;	17&#160;&#160;&#160;&#160;21&#160;&#160;&#160;&#160; ____ 
+
+
+</div>
+
+<label><input type="radio" name="q1" value="0">22</label><br>
+<label><input type="radio" name="q1" value="0">35</label><br>
+<label><input type="radio" name="q1" value="0">27</label><br>
+<label><input type="radio" name="q1" value="1">25</label><br>
+
+
+<br><br><div class="quiz">
+ข้อ 2. นำตัวเลขมาเติมลงในช่องว่าง เพื่อให้ได้อนุกรม ที่มีความสัมพันธ์ต่อเนื่องกัน<br>
+8&#160;&#160;&#160;&#160; 15&#160;&#160;&#160;&#160;	22&#160;&#160;&#160;&#160;29&#160;&#160;&#160;&#160; ____<br>
+</div>
+
+<label><input type="radio" name="q2" value="0">51</label><br>
+<label><input type="radio" name="q2" value="0">45</label><br>
+<label><input type="radio" name="q2" value="1">36</label><br>
+<label><input type="radio" name="q2" value="0">65</label><br>
+
+<br><div class="quiz">
+ข้อ 3. นำตัวเลขมาเติมลงในช่องว่าง เพื่อให้ได้อนุกรม ที่มีความสัมพันธ์ต่อเนื่องกัน<br>
+58&#160;&#160;&#160;&#160; 54&#160;&#160;&#160;&#160;	50&#160;&#160;&#160;&#160;46&#160;&#160;&#160;&#160; ____<br>
+</div>
+
+<label><input type="radio" name="q3" value="1">42</label><br>
+<label><input type="radio" name="q3" value="0">54</label><br>
+<label><input type="radio" name="q3" value="0">35</label><br>
+<label><input type="radio" name="q3" value="0">24</label><br>
+
+
+
+<br><br><div class="quiz">
+ข้อ 4. นำตัวเลขมาเติมลงในช่องว่าง เพื่อให้ได้อนุกรม ที่มีความสัมพันธ์ต่อเนื่องกัน<br><br>
+3&#160;&#160;&#160;&#160;	9&#160;&#160;&#160;&#160;	12&#160;&#160;&#160;&#160;	21&#160;&#160;&#160;&#160;	33&#160;&#160;&#160;&#160;  ____<br>
+</div>
+
+<label><input type="radio" name="q4" value="0">42</label><br>
+<label><input type="radio" name="q4" value="1">54</label><br>
+<label><input type="radio" name="q4" value="0">66</label><br>
+<label><input type="radio" name="q4" value="0">59</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 5. นำตัวเลขมาเติมลงในช่องว่าง เพื่อให้ได้อนุกรม ที่มีความสัมพันธ์ต่อเนื่องกัน<br><br>
+21&#160;&#160;&#160;&#160; 15&#160;&#160;&#160;&#160;	9&#160;&#160;&#160;&#160;3&#160;&#160;&#160;&#160; ____<br>
+</div>
+
+<label><input type="radio" name="q5" value="1">-3</label><br>
+<label><input type="radio" name="q5" value="0">-1</label><br>
+<label><input type="radio" name="q5" value="0">0</label><br>
+<label><input type="radio" name="q5" value="0">1</label><br>
+
+
+<!-- 6-9 โจทย์คณิด 4 ข้อ  -->
+
+
+<br><div class="quiz">
+ข้อ 6. ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+บริษัทแห่งหนึ่งมีพนักงาน 30 คน เมื่อถึงวันปีใหม่ ทุกคนจะต้องส่งบัตรอวยพรให้กันและกัน อยากทราบว่า จะมีบัตรอวยพรรวมทั้งสิ้นกี่ใบ<br>
+</div>
+
+<label><input type="radio" name="q6" value="1">870 ใบ</label><br>
+<label><input type="radio" name="q6" value="0">890 ใบ23</label><br>
+<label><input type="radio" name="q6" value="0">900 ใบ</label><br>
+<label><input type="radio" name="q6" value="0">930 ใบ</label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 7. ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+นักกีฬาจากประเทศไทย 30 คน และนักกีฬาจากจากประเทศจีน 35 คน มีการจับมือกัน จนครบระหว่างสองทีม ถามว่า จะมีการจับมือกันทั้งหมด กี่ครั้ง <br>
+</div>
+
+<label><input type="radio" name="q7" value="0">1,000 ครั้ง</label><br>
+<label><input type="radio" name="q7" value="1">1,050 ครั้ง</label><br>
+<label><input type="radio" name="q7" value="0">1,100 ครั้ง</label><br>
+<label><input type="radio" name="q7" value="0">1,150 ครั้ง</label><br>
+
+
+<br><div class="quiz">
+ข้อ 8. ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+กระเป๋ายี่ห้อหนึ่งติดราคาขายไว้ โดยคิดกำไร 25&#37;  ถ้าจะลดราคาขายของกระเป๋ายี่ห้อนี้ลง 10&#37; โดยต้องการกำไรเท่าเดิม ปริมาณการขาย จะต้องเพิ่มจากเดิม กี่เท่า <br>
+</div>
+
+<label><input type="radio" name="q8" value="1">1 เท่า</label><br>
+<label><input type="radio" name="q8" value="0">1.5 เท่า</label><br>
+<label><input type="radio" name="q8" value="0">2 เท่า</label><br>
+<label><input type="radio" name="q8" value="0">3 เท่า</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 9. ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+แท้งค์น้ำสี่เหลี่ยมลูกบาศก์มีพื้นที่พื้นผิว 6 ตารางเมตร แท้งน้ำใบนี้ จุน้ำประปากี่ลิตร<br>
+</div>
+
+<label><input type="radio" name="q9" value="0">500 ลิตร</label><br>
+<label><input type="radio" name="q9" value="1">1,000 ลิตร</label><br>
+<label><input type="radio" name="q9" value="0">1,500 ลิตร</label><br>
+<label><input type="radio" name="q9" value="0">2,000 ลิตร</label><br>
+
+
+<!-- 10 โอเปอเรชั่น 1 ข้อ -->
+
+
+<br><div class="quiz">
+ข้อ 10. ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+ 3 * 5 = 16  <br>
+ 5 * 7 = 36 <br>    
+5 * 4 = ? <br>
+</div>
+
+<label><input type="radio" name="q10" value="0">29</label><br>
+<label><input type="radio" name="q10" value="0">32</label><br>
+<label><input type="radio" name="q10" value="0">35</label><br>
+<label><input type="radio" name="q10" value="1">36</label><br><br>
+
+
+
+<!--  11-15 การเปรึยบเทียบซ้อมูล (สดมภ์ 5 ข้อ   -->
+<strong>คำชี้แจง ข้อ 11-15</strong><br><br>
+ ให้พิจารณาเงื่อนไขที่กำหนดให้ (ทุกตัวอักษรมีค่ามากกว่าศูนย์) แล้วตอบโดยยึดหลักเกณฑ์ดังนี้<br><br>
+
+เลือกตอบข้อ 1. ถ้าข้อสรุปทั้งสอง ถูกด้องหรือเป็นจริง ตามเงื่อนไข<br>
+เลือกตอบข้อ 2. ถ้าข้อสรุปทั้งลอง ผิดหรือไม่เป็นจริง ตามเงื่อนไข<br>
+เลือกตอบข้อ 3. ถ้าข้อสรุปทั้งสอง สรุปไม่แน่นอน หรือไม่สามารถสรุปได้แน่ชัด ว่าถูกต้องหรือผิดตามเงื่อนไข<br>
+เลือกตอบข้อ 4. ถ้าข้อสรุปทั้งสองสรุปไม่เหมือนกัน คือ มีข้อสรุปใดข้อสรุปหนึ่งที่เป็นจริง <br>หรือไม่เป็นจริง หรือไม่แน่ชัด ซึ่งไม่เท่ากับอีกข้อสรุปหนึ่ง<br><br>
+
+<div class="quiz">
+ข้อ 11. <br>
+</div>
+            L+M = N &gt; 2P &gt; Q+R<br>
+            N &lt; S ≮ 3T = 4U<br><br>
+
+            ข้อสรุปที่ 1: U &lt; Q<br>
+            ข้อสรุปที่ 2: T &gt; M<br>
+
+<br>
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+
+<br><div class="quiz">
+ข้อ 12. <br>
+</div>
+
+L+M = N &gt; 2P &gt; Q+R<br>
+N &lt; S ≮ 3T = 4U<br><br>
+
+ข้อสรุปที่ 1: T &lt; N<br>
+ข้อสรุปที่ 2: P &gt; R
+<br><br>
+
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<br><div class="quiz">
+ข้อ 13. <br>
+</div>
+
+L+M = N &gt; 2P &gt; Q+R<br>
+N &lt; S ≮ 3T = 4U<br><br>
+
+ข้อสรุปที่ 1: 2N &lt; Q<br>
+ข้อสรุปที่ 2: 10U &gt; 3S<br>
+<br>
+
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<br><div class="quiz">
+ข้อ 14. <br>
+</div>
+
+L+M = N &gt; 2P &gt; Q+R<br>
+N &lt; S ≮ 3T = 4U<br><br>
+
+ข้อสรุปที่ 1: T &gt; U<br>
+ข้อสรุปที่ 2: N &gt; M<br>
+<br>
+
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<br><div class="quiz">
+ข้อ 15. <br>
+</div>
+
+            L+M = N &gt; 2P &gt; Q+R<br>
+            N &lt; S ≮ 3T = 4U<br><br>
+
+            ข้อสรุปที่ 1: N &lt; P<br>
+            ข้อสรุปที่ 2: S &gt; L<br>
+<br>
+
+
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+
+<!--  16-20 วิเคราะห์ข้อมูลตาราง 5 ข้อ   -->
+<br><br>
+<strong>ใช้ข้อมูลในตารางข้างล่างนี้ สำหรับคำถาม ข้อ 16-20</strong><br>
+<div class = "for_image">
+มูลค่าการส่งออก สินค้าที่สำคัญของประเทศไทย ระหว่าง 2552-2561<br>
+<div class="alignRight">หน่วย 1: ล้านบาท</div>
+
+<table>
+<tr><th>ปี</th><th>ข้าว</th><th>ยาง</th><th>ดีบุก</th><th>ข้าวโพด</th></tr>
+<tr><td class="alignCenter">2552</td><td class="alignRight">22,510</td><td class="alignRight">9,490</td><td class="alignRight">7,883</td><td class="alignRight">8,330</td></tr>
+<tr><td class="alignCenter">2553</td><td class="alignRight">20,157</td><td class="alignRight">11,787</td><td class="alignRight">5,469</td><td class="alignRight">8,486</td></tr>
+<tr><td class="alignCenter">2554</td><td class="alignRight">25,939</td><td class="alignRight">13,001</td><td class="alignRight">5,431</td><td class="alignRight">10,050</td></tr>
+<tr><td class="alignCenter">2555</td><td class="alignRight">22,256</td><td class="alignRight">13,576</td><td class="alignRight">5,462</td><td class="alignRight">7,609</td></tr>
+<tr><td class="alignCenter">2556</td><td class="alignRight">20,315</td><td class="alignRight">15,116</td><td class="alignRight">2,929</td><td class="alignRight">9,176</td></tr>
+<tr><td class="alignCenter">2557</td><td class="alignRight">22,702</td><td class="alignRight">19,848</td><td class="alignRight">2,257</td><td class="alignRight">3,849</td></tr>
+<tr><td class="alignCenter">2558</td><td class="alignRight">33,044</td><td class="alignRight">27,132</td><td class="alignRight">3,113</td><td class="alignRight">3,810</td></tr>
+<tr><td class="alignCenter">2559</td><td class="alignRight">44,803</td><td class="alignRight">26,450</td><td class="alignRight">2,394</td><td class="alignRight">3,801</td></tr>
+<tr><td class="alignCenter">2560</td><td class="alignRight">27,257</td><td class="alignRight">23,557</td><td class="alignRight">2,018</td><td class="alignRight">4,142</td></tr>
+<tr><td class="alignCenter">2561</td><td class="alignRight">29,559</td><td class="alignRight">26,384</td><td class="alignRight">934</td><td class="alignRight">3,913</td></tr>
+</table>
+
+</div>  <!--   for image  -->
+
+<br>
+
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 16. <br>
+ระหว่างปี 2552 – 2554 มูลค่าสินค้าส่งออกชนิดใดที่มีอัตราเปลี่ยนแปลงมากที่สุด<br>
+</div>
+
+<label><input type="radio" name="q16" value="0">ข้าว</label><br>
+<label><input type="radio" name="q16" value="1">ยาง</label><br>
+<label><input type="radio" name="q16" value="0">ดีบุก</label><br>
+<label><input type="radio" name="q16" value="0">ข้าวโพด</label><br>
+
+
+<!-- ข้อ 17 -->
+
+<br><div class="quiz">
+ข้อ 17. <br>
+ในปี 2558 อัตราส่วนมูลค่าส่งออก โดยประมาณ ของ ข้าว : ยาง : ข้าวโพด คือข้อใด <br>
+</div>
+
+<label><input type="radio" name="q17" value="1">11:9:1 </label><br>
+<label><input type="radio" name="q17" value="0">12:8:2</label><br>
+<label><input type="radio" name="q17" value="0">15:10:3</label><br>
+<label><input type="radio" name="q17" value="0">16:11:5</label><br>
+
+<br><div class="quiz">
+ข้อ 18. <br>
+ปี 2561 มูลค่าการส่งออกยาง มีมูลค่าเพิ่มขึ้น ร้อยละเท่าไร <br>
+</div>
+
+<label><input type="radio" name="q18" value="1">12% </label><br>
+<label><input type="radio" name="q18" value="0">15%</label><br>
+<label><input type="radio" name="q18" value="0">18%</label><br>
+<label><input type="radio" name="q18" value="0">20%</label><br>
+
+
+<br><div class="quiz">
+ข้อ 19. <br>
+ปี 2561 มูลค่าการส่งออกข้าวและยาง มีมูลค่าต่างกัน ร้อยละเท่าไร <br>
+</div>
+
+<label><input type="radio" name="q19" value="0">3.35% </label><br>
+<label><input type="radio" name="q19" value="0">9.12%</label><br>
+<label><input type="radio" name="q19" value="1">11.35%</label><br>
+<label><input type="radio" name="q19" value="0">21.38%</label><br>
+
+
+<br><div class="quiz">
+ข้อ 30. <br>
+มูลค่าเฉลี่ยต่อปี การส่งออกข้าวระหว่าง 2558-2561 ประมาณกี่ล้านบาท  <br>
+</div>
+
+<label><input type="radio" name="q20" value="0">1. 33.25 ล้านบาท </label><br>
+<label><input type="radio" name="q20" value="0">332.50 ล้านบาท</label><br>
+<label><input type="radio" name="q20" value="0">3,325 ล้านบาท </label><br>
+<label><input type="radio" name="q20" value="1">33,250 ล้านบาท</label><br>
+
+</div> <!-- end of qstn-div  -->
+
+<!--   21-25 อุปมา-อุปไมย 5 ข้อ   -->
+
+<!-- เอาข้อสอบมาจากไฟล์ 
+"E:\_examPrep_Data_all\กพ-ระดับ3\1_ความสามารถทั่วไป\1_metaphor_lang_01.xml"
+-->
+
+
+<br><div class="quiz">
+ข้อ 21. <br>
+ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+ขายาว : นกกระยาง :: ขรุขระ  : _____ <br>
+</div>
+
+<label><input type="radio" name="q21" value="0">บอระเพ็ด</label><br>
+<label><input type="radio" name="q21" value="1">ผิวดวงจันทร์</label><br>
+<label><input type="radio" name="q21" value="0"><label><input type="radio" name="q21" value="0">กรวด</label><br>
+</label><br>
+<label><input type="radio" name="q21" value="0">ถนน</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 22. <br>
+ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+งง : ไก่ตาแตก :: งุ่มง่าม : _____<br>
+</div>
+
+<label><input type="radio" name="q22" value="0">เด็กทารก</label><br>
+<label><input type="radio" name="q22" value="0">เต่า</label><br>
+<label><input type="radio" name="q22" value="1">คนแก่</label><br>
+<label><input type="radio" name="q22" value="0">หอยทาก</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 23. <br>
+ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+แคบ : รูหนู :: งอน : _____<br>
+</div>
+
+<label><input type="radio" name="q23" value="0">เสี้ยวพระจันทร์</label><br>
+<label><input type="radio" name="q23" value="0">เช้ง</label><br>
+<label><input type="radio" name="q23" value="0">หญิงงาม</label><br>
+<label><input type="radio" name="q23" value="1">ช้อนหอย</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 24. <br>
+ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+งง : ไก่ตาแตก :: เงียบ : _____<br>
+</div>
+<label><input type="radio" name="q24" value="1">เป่าสาก</label><br>
+<label><input type="radio" name="q24" value="0">กลางดึก</label><br>
+<label><input type="radio" name="q24" value="0">ไม่มีใคร</label><br>
+<label><input type="radio" name="q24" value="0">ปลาตาย</label><br>
+
+
+<br><div class="quiz">
+ข้อ 25. <br>
+ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br>
+จืดชืด : น้ำยาเย็น :: แจวอ้าว : _____<br>
+</div>
+<label><input type="radio" name="q25" value="0">เรือแจว</label><br>
+<label><input type="radio" name="q25" value="0">เรือจ้าง</label><br>
+<label><input type="radio" name="q25" value="1">เรือยนต์</label><br>
+<label><input type="radio" name="q25" value="0">เรือเครื่อง</label><br>
+
+
+<!--  26-30 สรุปความจากภาษา 5 ข้อ -->
+
+<!-- เอาข้อสอบมาจากไฟล์ 
+"E:\_examPrep_Data_all\กพ-ระดับ3\1_ความสามารถทั่วไป\1_thai_conclusion_from_text_01.xml"
+-->
+
+ข้อ 26-30 ให้ใช้ข้อความข้างล่างนี้<br><br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<div class="indent_15px">
+Alonzo Kurt Rudolf และ Willard มีอาชีพเป็น นักแสดง จิตรกร นักร้อง และนักเขียน โดยไม่เรียงกันตามลำดับข้างต้น<br>
+- Alonzo และ Rudolf อยู่ในกลุ่มผู้ชมในวันเปิดตัววันแรก ของนักร้อง<br>
+- Kurt และ นักเขียน เป็นหุ่นให้จิตรกรวาดภาพเหมือนจริงคู่กัน<br>
+- นักเขียน เขียนชีวประวัติของ Willard และมีโครงการจะเขียนประวัติของ Alonzo<br>
+- Alonzo ไม่เคยพบกับ Rudolf
+</div></div>
+
+<br><br>
+
+<div class="qstn-div">
+
+<br><div class="quiz">
+ข้อ 26. <br><br>
+
+ข้อสรุปที่ 1: Kurt เป็นนักร้อง<br>
+ข้อสรุปที่ 2: Willard เป็นจิตรกร<br>
+</div>
+<label><input type="radio" name="q26" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 27. <br>
+ข้อสรุปที่ 1: Alonzo เป็นนักเขียน<br>
+ข้อสรุปที่ 2: Rudolf เป็นนักร้อง<br>
+</div>
+
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q27" value="1">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+
+
+<br><div class="quiz">
+ข้อ 28. <br>
+ข้อสรุปที่ 1: Kurt เป็นนักร้อง <br>
+ข้อสรุปที่ 2: Willard เป็นนักแสดง <br>
+</div>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q28" value="1">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 29. <br>
+ข้อสรุปที่ 1: Rudolf เป็นนักเขียน <br>
+ข้อสรุปที่ 2: Alonzo เป็นนักแสดง <br>
+</div>
+<label><input type="radio" name="q29" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<br><div class="quiz">
+ข้อ 30. <br>
+ข้อสรุปที่ 1: Kurt ไม่ใช่นักแสดง <br>
+ข้อสรุปที่ 2: Alonzo ไม่ใช่นักร้อง <br>
+</div>
+<label><input type="radio" name="q30" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+<br><br>
+
+</div>   <!-- end of  qstn-div for 26-30 -->
+
+<!--  31-35 ลรุปความจากสัญูญูลักษณ์ 5 ข้อ  -->
+
+<!-- เอาข้อสอบมาจากไฟล์ 
+"E:\_examPrep_Data_all\กพ-ระดับ3\1_ความสามารถทั่วไป\1_thai_conclusion_from_text_01.xml"
+-->
+
+ <strong>ข้อ 31-35</strong> ให้พิจารณาเงื่อนไขที่กำหนดให้ (ทุกตัวอักษรมีค่ามากกว่าศูนย์) แล้วตอบโดยยึดหลักเกณฑ์ดังนี้<br><br>
+
+เลือกตอบข้อ 1. ถ้าข้อสรุปทั้งสอง ถูกด้องหรือเป็นจริง ตามเงื่อนไข<br>
+เลือกตอบข้อ 2. ถ้าข้อสรุปทั้งลอง ผิดหรือไม่เป็นจริง ตามเงื่อนไข<br>
+เลือกตอบข้อ 3. ถ้าข้อสรุปทั้งสอง สรุปไม่แน่นอน หรือไม่สามารถสรุปได้แน่ชัด ว่าถูกต้องหรือผิดตามเงื่อนไข<br>
+เลือกตอบข้อ 4. ถ้าข้อสรุปทั้งสองสรุปไม่เหมือนกัน คือ มีข้อสรุปใดข้อสรุปหนึ่งที่เป็นจริง <br>หรือไม่เป็นจริง หรือไม่แน่ชัด ซึ่งไม่เท่ากับอีกข้อสรุปหนึ่ง<br><br>
+
+
+<br><div class="quiz">
+ข้อ 31. <br>
+<strong>เงื่อนไข</strong><br>
+A &gt; B &lt; C = 2N &gt; M <br>
+E &gt; C &lt; P &gt; S &lt; T <br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: A &gt; M <br>
+ข้อสรุปที่ 2: A = E <br>
+
+</div>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<br><div class="quiz">
+
+<!-- เอาข้อสอบมาจากไฟล์ 
+"E:\_examPrep_Data_all\กพ-ระดับ3\1_ความสามารถทั่วไป\1_thai_conclusion_from_text_01.xml"
+
+-->
+
+
+
+ข้อ 32. <br>
+<strong>เงื่อนไข</strong><br>
+
+ถ้า A &gt; B &lt; C = 2N &gt; M<br>
+และ E &gt; C &lt; P &gt; S &lt; T <br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1:  B = N<br>
+ข้อสรุปที่ 2: C &gt; T<br>
+<br>
+</div>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q32" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+
+<br><div class="quiz">
+ข้อ 33. <br>
+<strong>เงื่อนไข</strong><br>
+
+ถ้า A &gt; B &lt; C = 2N &gt; M<br>
+และ E &gt; C &lt; P &gt; S &lt; T <br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+     ข้อสรุปที่ 1: 3M &gt; 2N<br>
+     ข้อสรุปที่ 2: E &lt; S<br>
+</div>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q33" value="1">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+
+<br><div class="quiz">
+ข้อ 34. <br>
+<strong>เงื่อนไข</strong><br>
+
+ถ้า A &gt; B &lt; C = 2N &gt; M<br>
+และ E &gt; C &lt; P &gt; S &lt; T <br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: 5B &lt; 4P<br />
+ข้อสรุปที่ 2: 2P &gt; M<br />
+
+
+</div>
+<label><input type="radio" name="q34" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+
+<br><div class="quiz">
+ข้อ 35. <br>
+<strong>เงื่อนไข</strong><br>
+
+ถ้า A &gt; B &lt; C = 2N &gt; M<br>
+และ E &gt; C &lt; P &gt; S &lt; T <br>
+(ทุกตัวอักษรมีค่ามากกว่าศูนย์)<br><br>
+
+ข้อสรุปที่ 1: B &lt; P <br>
+ข้อสรุปที่ 2: 6N &lt; 4E<br><br>
+
+</div>
+<label><input type="radio" name="q35" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อไม่เป็นจริงตามเงื่อนไข</label><br>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อไม่อาจสรุปได้</label><br>
+<label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อ สรุปแตกต่างกัน</label><br>
+
+<!--  36-40 การสรุปเหตุผลเชิงตรรกะ 5 ข้อ  -->
+
+<!-- เอาข้อสอบมาจากไฟล์ 
+"E:\_examPrep_Data_all\กพ-ระดับ3\1_ความสามารถทั่วไป\1_logical_conclusion_01.xml""
+
+-->
+
+
+<br><div class="quiz">
+ข้อ 36. <br><br>
+นกมีหู หนูมีปีก  <br>
+นกมีหู  <br>
+ดังนั้น<br>
+
+<br>
+</div> 
+<label><input type="radio" name="q36" value="0">หนูมีหู</label><br>
+<label><input type="radio" name="q36" value="0">นกไม่มีปีก</label><br>
+<label><input type="radio" name="q36" value="1">หนูมีปีก</label><br>
+<label><input type="radio" name="q36" value="0">นกไม่มีหู</label><br>
+
+
+<br><div class="quiz">
+ข้อ 37. <br>
+<br>
+นกมีหู หนูมีปีก  <br>
+นกไม่มีหู  <br>
+ดังนั้น<br>
+<br>
+</div>
+<label><input type="radio" name="q37" value="0">หนูไม่มีหู</label><br>
+<label><input type="radio" name="q37" value="0">หนูไม่มีปีก</label><br>
+<label><input type="radio" name="q37" value="0">นกมีปีก</label><br>
+<label><input type="radio" name="q37" value="1">สรุปไม่ได้</label><br>
+
+
+<br><div class="quiz">
+ข้อ 38. <br>
+<br>
+นกมีหู หนูมีปีก  <br>
+หนูไม่มีปีก  <br>
+ดังนั้น<br>
+<br>
+</div>
+<label><input type="radio" name="q38" value="0">หนูมีหู</label><br>
+<label><input type="radio" name="q38" value="0">นกไม่มีปีก</label><br>
+<label><input type="radio" name="q38" value="0">หนูมีปีก</label><br>
+<label><input type="radio" name="q38" value="1">นกไม่มีหู</label><br>
+
+
+<br><div class="quiz">
+ข้อ 39. <br>
+<br>
+ถ้าวันนี้ฝนไม่ตก ฉันจะซักผ้า <br>
+ฉันไม่ซักผ้า <br>
+ดังนั้น<br>
+<br>
+</div>
+<label><input type="radio" name="q39" value="1">วันนี้ฝนตก</label><br>
+<label><input type="radio" name="q39" value="0">วันนี้เมฆมาก</label><br>
+<label><input type="radio" name="q39" value="0">วันนี้ฝนไม่ตก</label><br>
+<label><input type="radio" name="q39" value="0">สรุปไม่ได้</label><br>
+
+
+<br><div class="quiz">
+ข้อ 40. <br>
+<br>
+คนถูกทำโทษเพราะทำความผิด <br>
+เขาไม่ถูกทำโทษ <br>
+ดังนั้น<br>
+<br>
+</div>
+<label><input type="radio" name="q40" value="0">เขาไม่ถูกจับได้</label><br>
+<label><input type="radio" name="q40" value="0">เขาถูกทำโทษ</label><br>
+<label><input type="radio" name="q40" value="1">เขาไม่ได้ทำผิด</label><br>
+<label><input type="radio" name="q40" value="0">สรุปไม่ได้</label><br>
+
+<!-- 
+================= ภาษาไทย =================
+-->
+
+
+<!-- 41-45 การเรียงความ 5ข้อ   -->
+<!-- from: "E:\_examPrep_Data_all\กพ-ระดับ3\2_ภาษาไทย\2_th_3_word_order_1.xml" -->
+
+<br><div class="quiz">
+ข้อ 41. <br>
+<br>
+
+จงเรียงประโยคให้ถูกต้อง<br><br>
+
+1. ทางราชการประกาศให้ปี 2560<br>
+2. ซึ่งขณะนี้ได้มีการประชุม<br>
+3. เป็นปีแห่งการท่องเที่ยว<br>
+4. และการแต่งตั้งกรรมการประสานงานระหว่างหน่วยราชการต่างๆ ไปแล้ว<br>
+<br>
+</div>
+<label><input type="radio" name="q41" value="0">1 - 3 - 4 - 2</label><br>
+<label><input type="radio" name="q41" value="1">1 - 3 - 2 - 4</label><br>
+<label><input type="radio" name="q41" value="0">1 - 2 - 3 - 4</label><br>
+<label><input type="radio" name="q41" value="0">1 - 4 - 3 - 2</label><br>
+
+<!-- from: "E:\_examPrep_Data_all\กพ-ระดับ3\2_ภาษาไทย\2_th_3_word_order_1.xml" -->
+
+
+<br><div class="quiz">
+ข้อ 42. <br>
+1. นับว่าเป็นอุปสรรคต่อการขนส่งระหว่างประเทศและภายในประเทศ<br>
+2. การขยายตัวทางอุตสาหกรรมต่างๆ ก็ช้าลงไปด้วย<br>
+3. การขาดแคลนน้ำมัน และน้ำมันมีราคาแพง<br>
+4. ค่าขนส่งแพงขึ้น รายได้จากการท่องเที่ยวของประเทศ เริ่มลดลง<br><br>
+<br>
+</div>
+<label><input type="radio" name="q42" value="0">4 - 3 - 2 - 1</label><br>
+<label><input type="radio" name="q42" value="0">3 - 2 - 4 - 1</label><br>
+<label><input type="radio" name="q42" value="1">3 - 1 - 2 - 4</label><br>
+<label><input type="radio" name="q42" value="0">3 - 1 - 4 - 2</label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 43. <br>1. เป็นเรื่องที่น่าละอาย<br>
+2. สอดรู้วุ่นในกิจ<br>
+3. ภาระแท้ๆ ของตนเอง<br>
+4. การทำตนเป็นคน<br>
+5. ของผู้อื่นและละเลยต่อ<br>
+<br>
+</div>
+<label><input type="radio" name="q43" value="0">3 - 2 - 1 - 5 - 4</label><br>
+<label><input type="radio" name="q43" value="0">4 - 5 - 3 - 2 - 1</label><br>
+<label><input type="radio" name="q43" value="1">4 - 2 - 5 - 3 - 1</label><br>
+<label><input type="radio" name="q43" value="0">1 - 4 - 5 - 3 - 2</label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 44. <br>
+
+1. ปัญหายาเสพติดนี้ครูอาจารย์ทั่วไปใช้วิธีแก้คล้ายๆ กัน <br>
+2. การแก้ปัญหาเช่นนี้ เป็นการปัดสวะไปให้พ้นตัวเท่านั้น <br>
+3. บางโรงเรียนแก้โดยไล่เด็กออกไป <br>
+4. ส่วนใหญ่ก็ติดต่อกับผู้ปกครอง หรือไม่ก็แจ้งตำรวจจับส่ง สถานกักกันบำบัดรักษา <br>
+5. ยังไม่มีมาตรการใดช่วยเหลือให้ได้ผล<br>
+
+<br>
+</div>
+<label><input type="radio" name="q44" value="1">1 - 4 - 3 - 2 - 5 </label><br>
+<label><input type="radio" name="q44" value="0">1 - 2 - 3 - 4 - 5</label><br>
+<label><input type="radio" name="q44" value="0">2 - 4 - 3 - 1 - 5</label><br>
+<label><input type="radio" name="q44" value="0">5 - 4 - 2 - 1 - 3</label><br>
+
+<br><div class="quiz">
+ข้อ 45. <br>
+1. แห่งความเปลี่ยนแปลงที่<br>
+2. ราวกับกระดานหกไปวันหนึ่ง ๆ <br>
+3. ชีวิตคือละคร ละครก็คือชีวิต <br>
+4. เป็นชีวิตแห่งอนิจจัง <br>
+5. โลดเต้นกระดอนขึ้นลง <br>
+
+<br>
+</div>
+<label><input type="radio" name="q45" value="1">3 - 1  - 5 - 2 - 4</label><br>
+<label><input type="radio" name="q45" value="0">3 - 5 - 4 - 1 - 2</label><br>
+<label><input type="radio" name="q45" value="0">1- 2 - 3 - 5 - 4</label><br>
+<label><input type="radio" name="q45" value="0">4 - 1 - 2 - 3 - 5</label><br>
+
+<!-- 46-50 ความบกพร่องของภาษา 5ข้อ  -->
+
+<!-- from: 
+"E:\_examPrep_Data_all\กพ-ระดับ3\2_ภาษาไทย\2_th_2_sentence1.xml"
+-->
+
+
+<br><div class="quiz">
+ข้อ 46. <br>
+<br>ประโยคในข้อใด ใช้ภาษาถูกต้องมากที่สุด<br><br>
+</div>
+<label><input type="radio" name="q46" value="0">เราต้องขืนใจกินทั้ง ๆ ที่ไม่หิวเลย</label><br>
+<label><input type="radio" name="q46" value="0">บ้านเรือนของผู้คนปลูกเป็นระยะ ๆ</label><br>
+<label><input type="radio" name="q46" value="0">คุณพ่อให้ช่างมาซ่อมประตูแผ่นที่ชำรุด</label><br>
+<label><input type="radio" name="q46" value="1">ช้างสาร งูเห่า ข้าเก่า เมียรัก ทั้งหมดนี้ อย่าได้ไว้วางใจ</label><br>
+
+<br><div class="quiz">
+ข้อ 47. <br>
+<br>ประโยคในข้อใด ใช้ภาษาถูกต้องมากที่สุด<br><br>
+</div>
+<label><input type="radio" name="q47" value="0">ดิฉันปณิธานไว้ว่า จะไม่ข้องแวะกับอบายมุข</label><br>
+<label><input type="radio" name="q47" value="0">ภาษานี้ง่ายต่อการเข้าใจ</label><br>
+<label><input type="radio" name="q47" value="0">หล่อนเดินมาพร้อมกับรอยยิ้มบนใบหน้า</label><br>
+<label><input type="radio" name="q47" value="1">โรงเรียนจะปฐมนิเทศนักเรียนที่เพิ่งเข้าใหม่เร็ว ๆ นี้</label><br>
+
+<br><div class="quiz">
+ข้อ 48. <br>
+<br>ประโยคในข้อใด ใช้ภาษาถูกต้องมากที่สุด<br><br>
+</div>
+<label><input type="radio" name="q48" value="0">เขาขานสะกอร์ การเลือกตั้ง 2562 ผิด</label><br>
+<label><input type="radio" name="q48" value="0">คุณอธิบายไม่เคลียร์</label><br>
+<label><input type="radio" name="q48" value="0">เขาเห็นไม่เหมือนกัน</label><br>
+<label><input type="radio" name="q48" value="1">ฉันชอบกินช็อกโกเลตมาก</label><br>
+
+<br><div class="quiz">
+ข้อ 49. <br>
+<br>ประโยคในข้อใด ใช้ภาษาถูกต้องมากที่สุด<br><br>
+</div>
+<label><input type="radio" name="q49" value="0">ปีนี้ ฝนตกตามฤดูกาล ทำให้มีผลผลิตทางการเกษตรออกสู่ตลาด ค่อนข้างมาก</label><br>
+<label><input type="radio" name="q49" value="0">อันธรรมดาคนเราเกิดมาในโลกนี้ บ้างก็จนเหลือเกิน บ้างก็รวยเหลือล้น</label><br>
+<label><input type="radio" name="q49" value="1">ชะนีเป็นสัตว์เลี้ยงลูกด้วยนม มีลักษณะคล้ายลิง</label><br>
+<label><input type="radio" name="q49" value="0">ยาดีขมปาก และเป็นประโยชน์ต่อคนไข้</label><br>
+
+
+<br><div class="quiz">
+ข้อ 50. <br>
+<br>ประโยคในข้อใด ใช้ภาษาถูกต้องมากที่สุด<br><br>
+</div>
+<label><input type="radio" name="q50" value="1">จุดประสงค์ พ.ร.บ. แรงงานสัมพันธ์ คือ การแสวงหาทางปรองดอง ระหว่างนายจ้างกับลูกจ้าง ให้มีผลดียิ่งขึ้น</label><br>
+<label><input type="radio" name="q50" value="0">ความรักของพ่อแม่มีมากเพียงใด ความทุกข์ที่เกิดจากลูกประพฤติตัวไม่ดีก็มีมากเท่านั้น</label><br>
+<label><input type="radio" name="q50" value="0">ชายควรมีความรักเป็นเครื่องนำความมีภรรยา และมีภรรยาเป็นเครื่องนำความรัก</label><br>
+<label><input type="radio" name="q50" value="0">เมื่อใดไร้พ่อแม่ แล้วเธอจะรู้ว่าชีวิตคืออะไร </label><br>
+
+
+<!-- 51-55 การเติมคำ 5ข้อ  -->
+
+<!-- from: 
+"E:\_examPrep_Data_all\กพ-ระดับ3\2_ภาษาไทย\2_th_1_word2.xml"
+-->
+
+
+
+<br><div class="quiz">
+ข้อ 51. <br>
+<strong>คำสั่ง: </strong>ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด<br> <br>
+
+เด็ก ๆ มักจะชอบ .............. ผู้ใหญ่ เพื่อให้เขารัก<br>
+
+<br>
+</div>
+<label><input type="radio" name="q51" value="0">ออดอ้อน</label><br>
+<label><input type="radio" name="q51" value="1">ประจบ</label><br>
+<label><input type="radio" name="q51" value="0">อ้อนวอน</label><br>
+<label><input type="radio" name="q51" value="0">ตีสนิท</label><br>
+
+<br><div class="quiz">
+ข้อ 52. <br>
+เขามีสติปัญญารอบคอบ  ............ ยิ่งนัก 
+<br>
+</div>
+<label><input type="radio" name="q52" value="0">เฉียบคม</label><br>
+<label><input type="radio" name="q52" value="1">เฉียบแหลม</label><br>
+<label><input type="radio" name="q52" value="0">หลักแหลม</label><br>
+<label><input type="radio" name="q52" value="0">แหลมคม</label><br>
+
+
+<br><div class="quiz">
+ข้อ 53. <br>
+เทศบาลตำบลของเรามี ........... สร้างตลาดนัดเพิ่มขึ้นอีก 1 แห่ง ในปีหน้า
+<br>
+</div>
+<label><input type="radio" name="q53" value="0">หลักการ</label><br>
+<label><input type="radio" name="q53" value="0">แผนการ</label><br>
+<label><input type="radio" name="q53" value="1">โครงการ</label><br>
+<label><input type="radio" name="q53" value="0">กำหนดการ</label><br>
+
+
+<br><div class="quiz">
+ข้อ 54. <br>
+หลังจากตำรวจรับแจ้งความไว้แล้ว จึงดำเนินการ ............. หาตัวคนร้ายทันที 
+<br>
+</div>
+<label><input type="radio" name="q54" value="0">สืบสวน</label><br>
+<label><input type="radio" name="q54" value="1">สอบสวน</label><br>
+<label><input type="radio" name="q54" value="0">ไต่สวน</label><br>
+<label><input type="radio" name="q54" value="0">ไต่ถาม</label><br>
+
+
+<br><div class="quiz">
+ข้อ 55. <br>
+ตำรวจกำลัง ........... ผู้ต้องหาคดีฆ่าข่มขืน โดยเรียกผู้ต้องหาเข้าพบทีละคน
+<br>
+</div>
+<label><input type="radio" name="q55" value="0">สืบสวน</label><br>
+<label><input type="radio" name="q55" value="1">ไต่สวน</label><br>
+<label><input type="radio" name="q55" value="0">ไต่ถาม</label><br>
+<label><input type="radio" name="q55" value="0">สอบสวน</label><br>
+
+
+
+<!-- 56-60 บทความสั้น/ยาว 5ข้อ  -->
+
+
+<!-- ถึงตรงนี้  -->
+<!-- from: 
+"E:\_examPrep_Data_all\กพ-ระดับ3\2_ภาษาไทย\2_th_4_short_passage_01.xml"
+-->
+
+
+
+
+<br><div class="quiz">
+ข้อ 56. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<div class="indent_15px">
+
+ความสมบูรณ์ของชีวิตมาจากความเข้าใจชีวิตเป็นพื้นฐาน คือ เข้าใจธรรมชาติ เข้าใจความเป็นมนุษย์ และความสัมพันธ์ที่เกื้อกูลกันระหว่างมนุษย์กับมนุษย์ และมนุษย์กับธรรมชาติ มีความรัก ความเมตตาต่อเพื่อนมนุษย์และธรรมชาติอย่างจริงใจ <br> <br>
+</div></div>
+
+จากบทความข้างต้น ใจความสำคัญคือข้อใด <br>
+
+ <br>
+</div>
+<label><input type="radio" name="q56" value="1">ความสมบูรณ์ของชีวิต</label><br>
+<label><input type="radio" name="q56" value="0">พื้นฐานความเข้าใจชีวิตมนุษย์</label><br>
+<label><input type="radio" name="q56" value="0">ความเมตตาต่อเพื่อนมนุษย์และธรรมชาติ</label><br>
+<label><input type="radio" name="q56" value="0">ความเป็นมนุษย์กับความเข้าใจธรรมชาติ</label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 57. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<div class="indent_15px">
+ความเครียดทำให้เพิ่มฮอร์โมนอะดรีนาลีนในเลือด  ทำให้หัวใจเต้นเร็ว เส้นเลือดบีบตัว กล้ามเนื้อเขม็งตึง ระบบย่อยอาหารผิดปกติ เกิดอาการปวดหัว ปวดท้อง ใจสั่น แข้งขาอ่อนแรง  ความเครียดจึงเป็นตัวการให้แก่เร็ว <br> <br>
+</div></div>
+จากบทความข้างต้น ใจความสำคัญคือข้อใด <br>
+</div>
+<label><input type="radio" name="q57" value="0">ความเครียด ทำให้ฮอร์โมนบางชนิดในเลือด เพิ่มสูงขึ้น</label><br>
+<label><input type="radio" name="q57" value="0">	<choice_B>อิทธิพลที่ส่งผล ต่อการทำงานของหัวใจ คือความเครียด</choice_B>
+</label><br>
+<label><input type="radio" name="q57" value="0">ความเครียด มีส่วนทำให้ระบบการย่อยอาหาร ทำงานผิดปกติ</label><br>
+<label><input type="radio" name="q57" value="1">ความเครียด เป็นสาเหตุให้แก่เร็ว ก่อนวัยอันสมควร</label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 58. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<div class="indent_15px">
+โดยทั่วไปผักที่ขายตามท้องตลาดส่วนใหญ่ เกษตรกรมักใช้สารกำจัดศัตรูพืช หากไม่มีความรอบคอบในการใช้ จะทำให้เกิดสารตกค้าง ทำให้มีปัญหาต่อสุขภาพ ฉะนั้นเมื่อซื้อผักไปรับประทาน จึงควรล้างผักด้วยน้ำหลาย ๆ ครั้ง เพราะจะช่วยกำจัดสารตกค้างไปได้บ้าง บางคนอาจแช่ผักโดยใช้น้ำผสมโซเดียมไบคาร์บอเนตก็ได้ แต่อาจทำให้วิตามินลดล<br><br>
+</div></div>
+
+จากบทความข้างต้น ใจความสำคัญคือข้อใด
+<br>
+</div>
+<label><input type="radio" name="q58" value="0">ผักที่ขายตามท้องตลาดส่วนใหญ่มีสารตกค้าง</label><br>
+<label><input type="radio" name="q58" value="0">เกษตรกรส่วนใหญ่ใช้สารกำจัดศัตรูพืช</label><br>
+<label><input type="radio" name="q58" value="1">ควรล้างผักด้วยน้ำหลาย ๆ ครั้ง ก่อนรับประทาน</label><br>
+<label><input type="radio" name="q58" value="0">น้ำผสมโซเดียมไบคาร์บอเนต ทำให้วิตามินลดลง</label><br>
+
+<br><div class="quiz">
+ข้อ 59. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<div class="indent_15px">
+การรักษาศีลเพื่อบังคับตนเองให้มีระเบียบวินัย ในการกระทำทุกสิ่งทุกอย่าง เช่น เรามาอยู่วัด มานุ่งขาวห่มขาว ไม่ใช่ถือแต่ศีลแปดข้อเท่านั้น แต่เราต้องนึกว่า ศีลนั้นคือความมีระเบียบ มีวินัย เราเดินอย่างมีระเบียบมีวินัย นั่งอย่างมีระเบียบ กินอย่างมีระเบียบ ทำอะไรก็ทำอย่างมีระเบียบนั่นเป็นคนที่มีศีล ถ้าเราไม่มีระเบียบ ก็ไม่มีศีล<br><br>
+</div></div>
+จากบทความข้างต้น ใจความสำคัญคือข้อใด
+<br>
+</div>
+<label><input type="radio" name="q59" value="0">ระเบียบวินัยมากกว่าการถือศีลแปดข้อ</label><br>
+<label><input type="radio" name="q59" value="0">การถือศีลเป็นการฝึกระเบียบวินัย</label><br>
+<label><input type="radio" name="q59" value="0">ถ้าไม่มีระเบียบวินัยก็ไม่มีศีล</label><br>
+<label><input type="radio" name="q59" value="1">ข้อ 2 และ 3</label><br>
+
+
+
+
+<br><div class="quiz">
+ข้อ 60. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<div class="indent_15px">
+การเดิน การว่ายน้ำ การฝึกโยคะ การออกกำลังกายด้วยอุปกรณ์ต่าง ๆ ตลอดจนการหายใจลึก ๆ ล้วนมีส่วนทำให้สุขภาพแข็งแรง
+</div></div>
+
+จากบทความข้างต้น ใจความสำคัญคือข้อใด
+
+<br>
+</div>
+<label><input type="radio" name="q60" value="0">การออกกำลังกายด้วยอุปกรณ์ต่าง ๆ เป็นวิธีที่ดีที่สุด ที่ทำให้สุขภาพแข็งแรง</label><br>
+<label><input type="radio" name="q60" value="0">สุขภาพแข็งแรง ขึ้นอยู่กับการออกกำลังกายและการหายใจ</label><br>
+<label><input type="radio" name="q60" value="0">การออกกำลังกาย ทำให้สุขภาพแข็งแรง</label><br>
+<label><input type="radio" name="q60" value="1">การทำให้สุขภาพแข็งแรงทำได้หลายวิธี</label><br>
+
+<br>
+
+<div>
+<input id="send" type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+
+</div>
+
+</div>  <!--  end of div content  -->
+
+  <script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

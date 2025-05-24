@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+  <title>Document</title>
+
+ </head>
+ <body>
+ <!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+ <div id="myModal" class="modal">
+     <!-- Modal content -->
+     <div class="modal-content">
+         <div class="modal-header">
+             <span class="close">×</span>
+             <strong>เตรียมสอบ ก.พ.</strong>
+         </div>
+         <div class="modal-body">
+             <p id= "myMessage">Place holder for text..</p>
+             <input type = "button"  value = "เริ่มใหม่"  onclick = "startOver();" />
+             <input  style="float: right;" type = "button"  value = "ทำต่อ"  onclick = "goCont();"/>
+         </div>
+         <div class="modal-footer">
+             http://www.thongjoon.com
+         </div>
+     </div>
+ </div>
+
+ <script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<a name="conver_1"></a> 
+  <div class="upper" id="top">
+<!-- Letter 1 (Easier, Ms. Carter) -->
+<div class="isNew">id1742984533:date1742984533</div>
+<strong>สำหรับ ข้อ 1-5</strong><br><br>
+<strong>Instructions:</strong> Read the following letter and select the best answer for each item.<br><br>
+Dear Ms. Carter,  <br>
+We are happy to tell you that you are moving from <div class="tooltip">sales assistant<span class="tooltiptext">ผู้ช่วยฝ่ายขาย</span></div> to <div class="tooltip">sales manager<span class="tooltiptext">ผู้จัดการฝ่ายขาย</span></div>, starting next week. Your hard work, <div class="tooltip">friendly personality<span class="tooltiptext">บุคลิกที่เป็นมิตร</span></div>, and good <div class="tooltip">sales results<span class="tooltiptext">ผลการขายที่ดี</span></div> have given you this new job. Your main <div class="tooltip">tasks<span class="tooltiptext">งาน</span></div> will be to <div class="tooltip">manage the sales team<span class="tooltiptext">จัดการทีมขาย</span></div>, plan <div class="tooltip">sales goals<span class="tooltiptext">เป้าหมายการขาย</span></div>, and help customers. We believe you will do very well in this <div class="tooltip">role<span class="tooltiptext">บทบาท</span></div>. Congratulations on your <div class="tooltip">success<span class="tooltiptext">ความสำเร็จ</span></div>, and good luck in your new job!  <br>
+Yours sincerely,  <br>
+Anna Brown  <br>
+Store Manager  <br><br>
+
+<!-- Letter 2 (Harder, Mr. Lopez) -->
+<div class="isNew">id1742984534:date1742984534</div>
+<strong>สำหรับ ข้อ 6-10</strong><br><br>
+<strong>Instructions:</strong> Read the following letter and select the best answer for each item.<br><br>
+Dear Mr. Lopez,  <br>
+We are <div class="tooltip">delighted<span class="tooltiptext">ยินดี</span></div> to <div class="tooltip">announce<span class="tooltiptext">ประกาศ</span></div> that you have been <div class="tooltip">selected<span class="tooltiptext">ได้รับเลือก</span></div> as the new <div class="tooltip">training coordinator<span class="tooltiptext">ผู้ประสานงานฝึกอบรม</span></div> for our company, <div class="tooltip">effective<span class="tooltiptext">มีผล</span></div> from the beginning of next month. Your <div class="tooltip">strong communication skills<span class="tooltiptext">ทักษะการสื่อสารที่แข็งแกร่ง</span></div>, <div class="tooltip">dedication<span class="tooltiptext">ความทุ่มเท</span></div> to employee development, and <div class="tooltip">experience in organizing workshops<span class="tooltiptext">ประสบการณ์ในการจัดเวิร์กช็อป</span></div> have <div class="tooltip">impressed<span class="tooltiptext">สร้างความประทับใจ</span></div> us greatly. In this role, you will be <div class="tooltip">responsible<span class="tooltiptext">รับผิดชอบ</span></div> for <div class="tooltip">designing training programs<span class="tooltiptext">การออกแบบโปรแกรมฝึกอบรม</span></div>, <div class="tooltip">scheduling sessions<span class="tooltiptext">การจัดตารางเซสชัน</span></div>, and evaluating their <div class="tooltip">effectiveness<span class="tooltiptext">ประสิทธิภาพ</span></div> to ensure our staff <div class="tooltip">improves continuously<span class="tooltiptext">พัฒนาอย่างต่อเนื่อง</span></div>. We are <div class="tooltip">confident<span class="tooltiptext">มั่นใจ</span></div> that your expertise will <div class="tooltip">contribute significantly<span class="tooltiptext">มีส่วนช่วยอย่างมาก</span></div> to our team’s growth. Congratulations on this <div class="tooltip">well-deserved promotion<span class="tooltiptext">การเลื่อนตำแหน่งที่สมควรได้รับ</span></div>, and best wishes for your success!  <br>
+Yours sincerely,  <br>
+Emily Watson  <br>
+Human Resources Director  <br><br>
+  </div>
+
+  <div class="lower">
+<!-- Questions for Letter 1 (Ms. Carter) -->
+<form action="#">
+<div class="question_num" id="lng_Lttr1_q_number_1"><strong>ข้อ 1.</strong></div>
+<div class="question_content">The letter is mainly about ...</div>
+<div class="clear"> </div>
+<div class="choice_a_1_column">   
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. A new store opening</label></div>
+</div> 
+<div class="choice_b_1_column"> 
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. A <div class="tooltip">job promotion<span class="tooltiptext">การเลื่อนตำแหน่งงาน</span></div></label></div>
+</div>
+<div class="choice_c_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Selling more products</label></div>
+</div>
+<div class="choice_d_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Hiring new staff</label></div>
+</div>
+<div class="clear"> </div>
+<div id="lngEnLttr1_ans_01" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_01')" style="display:none; cursor: pointer;">dummy text</div>
+<div id="lgEnLttr1_q1" class="explanation" style="display:none">
+The letter tells Ms. Carter she is moving from sales assistant to sales manager, which is a job promotion. The other options are not mentioned in the letter.<br>
+คำตอบคือ ข้อ 2
+</div>
+<div class="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q1', 'ตัวเลือก ข้อ 2', 'lngEnLttr1_ans_01', 'yes', '1641711006', 'lng_Lttr1_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" />
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_1" onclick="show_hide_expl('lgEnLttr1_q1', 'lngLttr_1', 'lng_Lttr1_q_number_1', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+</div>
+</form><br>
+<div class="clear_after_item"> </div>
+
+<form action="#">
+<div class="question_num" id="lng_Lttr1_q_number_2"><strong>ข้อ 2.</strong></div>
+<div class="question_content">What does the word "tasks" mean?</div>
+<div class="clear"> </div>
+<div class="choice_a_1_column">   
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Jobs or duties</label></div>
+</div> 
+<div class="choice_b_1_column"> 
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Friends</label></div>
+</div>
+<div class="choice_c_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Money</label></div>
+</div>
+<div class="choice_d_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Ideas</label></div>
+</div>
+<div class="clear"> </div>
+<div id="lngEnLttr1_ans_02" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_02')" style="display:none; cursor: pointer;">dummy text</div>
+<div id="lgEnLttr1_q2" class="explanation" style="display:none">
+"Tasks" in the letter refers to the work Ms. Carter will do, like managing the team and planning goals. It means jobs or duties, not the other options.<br>
+คำตอบคือ ข้อ 1
+</div>
+<div class="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q2', 'ตัวเลือก ข้อ 1', 'lngEnLttr1_ans_02', 'yes', '1641711006', 'lng_Lttr1_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" />
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_2" onclick="show_hide_expl('lgEnLttr1_q2', 'lngLttr_2', 'lng_Lttr1_q_number_2', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+</div>
+</form><br>
+<div class="clear_after_item"> </div>
+
+<form action="#">
+<div class="question_num" id="lng_Lttr1_q_number_3"><strong>ข้อ 3.</strong></div>
+<div class="question_content">What is Ms. Carter’s new job?</div>
+<div class="clear"> </div>
+<div class="choice_a_1_column">   
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Sales assistant</label></div>
+</div> 
+<div class="choice_b_1_column"> 
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Store manager</label></div>
+</div>
+<div class="choice_c_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Sales manager</label></div>
+</div>
+<div class="choice_d_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Customer helper</label></div>
+</div>
+<div class="clear"> </div>
+<div id="lngEnLttr1_ans_03" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_03')" style="display:none; cursor: pointer;">dummy text</div>
+<div id="lgEnLttr1_q3" class="explanation" style="display:none">
+The letter says Ms. Carter is now a sales manager. The other options are either her old job or not mentioned.<br>
+คำตอบคือ ข้อ 3
+</div>
+<div class="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q3', 'ตัวเลือก ข้อ 3', 'lngEnLttr1_ans_03', 'yes', '1641711006', 'lng_Lttr1_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" />
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_3" onclick="show_hide_expl('lgEnLttr1_q3', 'lngLttr_3', 'lng_Lttr1_q_number_3', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+</div>
+</form><br>
+<div class="clear_after_item"> </div>
+
+<form action="#">
+<div class="question_num" id="lng_Lttr1_q_number_4"><strong>ข้อ 4.</strong></div>
+<div class="question_content">What will Ms. Carter do in her new role?</div>
+<div class="clear"> </div>
+<div class="choice_a_1_column">   
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Clean the store</label></div>
+</div> 
+<div class="choice_b_1_column"> 
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Manage the sales team</label></div>
+</div>
+<div class="choice_c_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Work alone</label></div>
+</div>
+<div class="choice_d_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Fix products</label></div>
+</div>
+<div class="clear"> </div>
+<div id="lngEnLttr1_ans_04" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_04')" style="display:none; cursor: pointer;">dummy text</div>
+<div id="lgEnLttr1_q4" class="explanation" style="display:none">
+The letter lists her tasks, including managing the sales team. The other options are not part of her new job.<br>
+คำตอบคือ ข้อ 2
+</div>
+<div class="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q4', 'ตัวเลือก ข้อ 2', 'lngEnLttr1_ans_04', 'yes', '1641711006', 'lng_Lttr1_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" />
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_4" onclick="show_hide_expl('lgEnLttr1_q4', 'lngLttr_4', 'lng_Lttr1_q_number_4', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+</div>
+</form><br>
+<div class="clear_after_item"> </div>
+
+<form action="#">
+<div class="question_num" id="lng_Lttr1_q_number_5"><strong>ข้อ 5.</strong></div>
+<div class="question_content">Why did Ms. Carter get the promotion?</div>
+<div class="clear"> </div>
+<div class="choice_a_1_column">   
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. She has good sales results</label></div>
+</div> 
+<div class="choice_b_1_column"> 
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. She is new to the company</label></div>
+</div>
+<div class="choice_c_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. She knows the store manager</label></div>
+</div>
+<div class="choice_d_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. She has a lot of free time</label></div>
+</div>
+<div class="clear"> </div>
+<div id="lngEnLttr1_ans_05" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_05')" style="display:none; cursor: pointer;">dummy text</div>
+<div id="lgEnLttr1_q5" class="explanation" style="display:none">
+The letter says her hard work, friendly personality, and good sales results earned her the promotion. The other options are not given as reasons.<br>
+คำตอบคือ ข้อ 1
+</div>
+<div class="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q5', 'ตัวเลือก ข้อ 1', 'lngEnLttr1_ans_05', 'yes', '1641711006', 'lng_Lttr1_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" />
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_5" onclick="show_hide_expl('lgEnLttr1_q5', 'lngLttr_5', 'lng_Lttr1_q_number_5', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+</div>
+</form><br>
+<div class="clear_after_item"> </div>
+
+<!-- Questions for Letter 2 (Mr. Lopez) -->
+<form action="#">
+<div class="question_num" id="lng_Lttr2_q_number_6"><strong>ข้อ 6.</strong></div>
+<div class="question_content">The letter is mainly about ...</div>
+<div class="clear"> </div>
+<div class="choice_a_1_column">   
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q6" type="radio" value="ตัวเลือก ข้อ 1" /> 1. A company party</label></div>
+</div> 
+<div class="choice_b_1_column"> 
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q6" type="radio" value="ตัวเลือก ข้อ 2" /> 2. A <div class="tooltip">job promotion<span class="tooltiptext">การเลื่อนตำแหน่งงาน</span></div></label></div>
+</div>
+<div class="choice_c_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q6" type="radio" value="ตัวเลือก ข้อ 3" /> 3. <div class="tooltip">Hiring external trainers<span class="tooltiptext">การจ้างครูฝึกจากภายนอก</span></div></label></div>
+</div>
+<div class="choice_d_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q6" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Changing company rules</label></div>
+</div>
+<div class="clear"> </div>
+<div id="lngEnLttr2_ans_06" class="show_answer" onclick="hide_div_spelling('lngEnLttr2_ans_06')" style="display:none; cursor: pointer;">dummy text</div>
+<div id="lgEnLttr2_q6" class="explanation" style="display:none">
+The letter informs Mr. Lopez about his new role as training coordinator, which is a job promotion. The other options are not mentioned or relevant to the main point.<br>
+คำตอบคือ ข้อ 2
+</div> <!-- end of lower div  -->
+<div class="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr2_q6', 'ตัวเลือก ข้อ 2', 'lngEnLttr2_ans_06', 'yes', '1641711007', 'lng_Lttr2_q_number_6'); return false;" type="submit" value="ตรวจคำตอบ" />
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_6" onclick="show_hide_expl('lgEnLttr2_q6', 'lngLttr_6', 'lng_Lttr2_q_number_6', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+</div>
+</form><br>
+<div class="clear_after_item"> </div>
+
+<form action="#">
+<div class="question_num" id="lng_Lttr2_q_number_7"><strong>ข้อ 7.</strong></div>
+<div class="question_content">What does the word "expertise" mean?</div>
+<div class="clear"> </div>
+<div class="choice_a_1_column">   
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q7" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Effort</label></div>
+</div> 
+<div class="choice_b_1_column"> 
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q7" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Special knowledge or skills</label></div>
+</div>
+<div class="choice_c_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q7" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Time</label></div>
+</div>
+<div class="choice_d_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q7" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Support</label></div>
+</div>
+<div class="clear"> </div>
+<div id="lngEnLttr2_ans_07" class="show_answer" onclick="hide_div_spelling('lngEnLttr2_ans_07')" style="display:none; cursor: pointer;">dummy text</div>
+<div id="lgEnLttr2_q7" class="explanation" style="display:none">
+"Expertise" refers to Mr. Lopez’s strong abilities and experience, meaning special knowledge or skills. The other options do not fit the context.<br>
+คำตอบคือ ข้อ 2
+</div>
+<div class="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr2_q7', 'ตัวเลือก ข้อ 2', 'lngEnLttr2_ans_07', 'yes', '1641711007', 'lng_Lttr2_q_number_7'); return false;" type="submit" value="ตรวจคำตอบ" />
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_7" onclick="show_hide_expl('lgEnLttr2_q7', 'lngLttr_7', 'lng_Lttr2_q_number_7', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+</div>
+</form><br>
+<div class="clear_after_item"> </div>
+
+<form action="#">
+<div class="question_num" id="lng_Lttr2_q_number_8"><strong>ข้อ 8.</strong></div>
+<div class="question_content">What is Mr. Lopez’s new position?</div>
+<div class="clear"> </div>
+<div class="choice_a_1_column">   
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q8" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Human Resources Director</label></div>
+</div> 
+<div class="choice_b_1_column"> 
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q8" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Workshop assistant</label></div>
+</div>
+<div class="choice_c_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q8" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Training coordinator</label></div>
+</div>
+<div class="choice_d_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q8" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Staff evaluator</label></div>
+</div>
+<div class="clear"> </div>
+<div id="lngEnLttr2_ans_08" class="show_answer" onclick="hide_div_spelling('lngEnLttr2_ans_08')" style="display:none; cursor: pointer;">dummy text</div>
+<div id="lgEnLttr2_q8" class="explanation" style="display:none">
+The letter clearly states that Mr. Lopez is now the training coordinator. The other options are either incorrect or not his role.<br>
+คำตอบคือ ข้อ 3
+</div>
+<div class="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr2_q8', 'ตัวเลือก ข้อ 3', 'lngEnLttr2_ans_08', 'yes', '1641711007', 'lng_Lttr2_q_number_8'); return false;" type="submit" value="ตรวจคำตอบ" />
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_8" onclick="show_hide_expl('lgEnLttr2_q8', 'lngLttr_8', 'lng_Lttr2_q_number_8', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+</div>
+</form><br>
+<div class="clear_after_item"> </div>
+
+<form action="#">
+<div class="question_num" id="lng_Lttr2_q_number_9"><strong>ข้อ 9.</strong></div>
+<div class="question_content">What will Mr. Lopez do in his new job?</div>
+<div class="clear"> </div>
+<div class="choice_a_1_column">   
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q9" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Sell products to customers</label></div>
+</div> 
+<div class="choice_b_1_column"> 
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q9" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Design training programs</label></div>
+</div>
+<div class="choice_c_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q9" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Manage the company’s finances</label></div>
+</div>
+<div class="choice_d_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q9" type="radio" value="ตัวเลือก ข้อ 4" /> 4. <div class="tooltip">Repair office equipment<span class="tooltiptext">ซ่อมอุปกรณ์สำนักงาน</span></div></label></div>
+</div>
+<div class="clear"> </div>
+<div id="lngEnLttr2_ans_09" class="show_answer" onclick="hide_div_spelling('lngEnLttr2_ans_09')" style="display:none; cursor: pointer;">dummy text</div>
+<div id="lgEnLttr2_q9" class="explanation" style="display:none">
+The letter lists his responsibilities, including designing training programs. The other options are unrelated to his described duties.<br>
+คำตอบคือ ข้อ 2
+</div>
+<div class="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr2_q9', 'ตัวเลือก ข้อ 2', 'lngEnLttr2_ans_09', 'yes', '1641711007', 'lng_Lttr2_q_number_9'); return false;" type="submit" value="ตรวจคำตอบ" />
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_9" onclick="show_hide_expl('lgEnLttr2_q9', 'lngLttr_9', 'lng_Lttr2_q_number_9', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+</div>
+</form><br>
+<div class="clear_after_item"> </div>
+
+<form action="#">
+<div class="question_num" id="lng_Lttr2_q_number_10"><strong>ข้อ 10.</strong></div>
+<div class="question_content">Why was Mr. Lopez chosen for this role?</div>
+<div class="clear"> </div>
+<div class="choice_a_1_column">   
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q10" type="radio" value="ตัวเลือก ข้อ 1" /> 1. He has experience in organizing workshops</label></div>
+</div> 
+<div class="choice_b_1_column"> 
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q10" type="radio" value="ตัวเลือก ข้อ 2" /> 2. He <div class="tooltip">applied<span class="tooltiptext">สมัคร</span></div> for the job many times</label></div>
+</div>
+<div class="choice_c_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q10" type="radio" value="ตัวเลือก ข้อ 3" /> 3. He is the oldest employee</label></div>
+</div>
+<div class="choice_d_1_column">
+    <div class="choice_num_1Col"><label><input name="longEnLttr2_q10" type="radio" value="ตัวเลือก ข้อ 4" /> 4. He works in human resources</label></div>
+</div>
+<div class="clear"> </div>
+<div id="lngEnLttr2_ans_10" class="show_answer" onclick="hide_div_spelling('lngEnLttr2_ans_10')" style="display:none; cursor: pointer;">dummy text</div>
+<div id="lgEnLttr2_q10" class="explanation" style="display:none">
+The letter highlights his communication skills, dedication, and experience in organizing workshops as reasons for his selection. The other options are not supported by the text.<br>
+คำตอบคือ ข้อ 1
+</div>
+<div class="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr2_q10', 'ตัวเลือก ข้อ 1', 'lngEnLttr2_ans_10', 'yes', '1641711007', 'lng_Lttr2_q_number_10'); return false;" type="submit" value="ตรวจคำตอบ" />
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_10" onclick="show_hide_expl('lgEnLttr2_q10', 'lngLttr_10', 'lng_Lttr2_q_number_10', 'yes'); return false;" type="submit" value="ดูคำอธิบาย" />
+</div>
+</form><br>
+<div class="clear_after_item"> </div>
+
+  </div>  <!--  lower  -->
+
+ <script src="check_and_feedback_new.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

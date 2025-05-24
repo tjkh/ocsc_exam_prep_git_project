@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="th">
+<!-- https://codepen.io/insidethediv/pen/PoKvqMo -->
+<!-- https://stackoverflow.com/questions/54617991/how-to-highlight-words-in-a-table-with-a-filter  -->
+ <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+input::placeholder {
+	  color: #FF5733;
+	  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td {
+    white-space: normal !important;
+    word-wrap: break-word;
+    vertical-align: top;
+    padding: 4px;
+  }
+
+  td table {
+    width: 100%;
+  }
+
+  td table td {
+    border: none;
+    padding: 2px 4px;
+    font-size: 90%;
+  }
+  /* New styles for fixed search box */
+.search-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.search-container input {
+    width: 80%;
+    max-width: 500px;
+    padding: 8px;
+    font-size: 16px;
+}
+.content {
+    margin-top: 134px; /* Adjust based on search-container height */
+}
+
+
+
+</style>
+ <link rel="stylesheet" type="text/css" href="vocab_study.css">
+
+  <title>character_of_nouns</title>
+ </head>
+ <body>
+ <div class="search-container">
+  <div style="text-align: center; color: black">
+	<h2>ลักษณนามที่ควรรู้</h2>
+</div>
+     <label for="myInput"></label><input type="text" id="myInput" onkeyup="myFunction(this); ;this.style.color='black';" placeholder="คำนาม หรือ ลักษณนาม ที่ค้นหา">
+     <small class="hint-text">พิมพ์ คำ หรือ ลักษณนาม ที่ต้องการค้นหา</small>
+</div>   <!--  end of div class="search-container  -->
+
+<div class="content">
+<table id="myTable">
+	<tr>
+		<th>คำนาม</th>
+		<th>ลักษณนาม</th>
+	</tr>
+	<tr><td>กงจักร</td><td>กง,วง</td></tr>
+	<tr><td>กงธนู</td><td>คัน</td></tr>
+	<tr><td>กบ</td><td>ตัว</td></tr>
+	<tr><td>กรงขัง</td><td>กรง</td></tr>
+	<tr><td>กรรไกร</td><td>เล่ม (ไม่ใช่ อัน หรือ ด้าม)</td></tr>
+	<tr><td>กรวด</td><td>ก้อน</td></tr>
+	<tr><td>กรอบพระ</td><td>กรอบ,อัน</td></tr>
+	<tr><td>กระจก</td><td>แผ่น</td></tr>
+	<tr><td>กระจกเงา</td><td>บาน</td></tr>
+	<tr><td>กระจับปี่</td><td>คัน</td></tr>
+	<tr><td>กระจาด</td><td>ใบ</td></tr>
+	<tr><td>กระแจะ</td><td>วง,คู่</td></tr>
+	<tr><td>กระโจม</td><td>หลัง</td></tr>
+	<tr><td>กระชอน</td><td>อัน</td></tr>
+	<tr><td>กระชัง</td><td>ใบ</td></tr>
+	<tr><td>กระชาย</td><td>แง่ง,หัว</td></tr>
+	<tr><td>กระชุ</td><td>ใบ</td></tr>
+	<tr><td>กระเช้า</td><td>ใบ</td></tr>
+	<tr><td>กระแชง</td><td>ผืน</td></tr>
+	<tr><td>กระด้ง</td><td>ใบ</td></tr>
+	<tr><td>กระดอง</td><td>กระดอง,ฝา</td></tr>
+	<tr><td>กระดาน</td><td>แผ่น</td></tr>
+	<tr><td>กระดานดำ</td><td>แผ่น</td></tr>
+	<tr><td>กระดุม</td><td>เม็ด</td></tr>
+	<tr><td>กระดูก</td><td>ท่อน,ชิ้น</td></tr>
+	<tr><td>กระต๊อบ</td><td>หลัง</td></tr>
+	<tr><td>กระต่าย</td><td>ตัว</td></tr>
+	<tr><td>กระติก</td><td>ใบ</td></tr>
+	<tr><td>กระถาง</td><td>ใบ,ลูก</td></tr>
+	<tr><td>กระโถน</td><td>ใบ,ลูก</td></tr>
+	<tr><td>กระทง</td><td>ใบ</td></tr>
+	<tr><td>กระทรวง</td><td>กระทรวง</td></tr>
+	<tr><td>กระเทียม</td><td>หัว,กลีบ,จุก</td></tr>
+	<tr><td>กระบวย</td><td>อัน</td></tr>
+	<tr><td>กระบอก</td><td>อัน</td></tr>
+	<tr><td>กระบองเพชร</td><td>ต้น</td></tr>
+	<tr><td>กระบี่</td><td>เล่ม</td></tr>
+	<tr><td>กระบุง</td><td>ใบ,ลูก</td></tr>
+	<tr><td>กระเบื้อง</td><td>แผ่น</td></tr>
+	<tr><td>กระป๋อง</td><td>ใบ</td></tr>
+	<tr><td>กระปุก</td><td>ใบ</td></tr>
+	<tr><td>กระเป๋า</td><td>ใบ</td></tr>
+	<tr><td>กระโปรง</td><td>ตัว</td></tr>
+	<tr><td>กระสวย</td><td>อัน</td></tr>
+	<tr><td>กระสอบ</td><td>ใบ</td></tr>
+	<tr><td>กระสุน</td><td>ลูก,นัด</td></tr>
+	<tr><td>กรับ</td><td>คู่</td></tr>
+	<tr><td>กริช</td><td>เล่ม</td></tr>
+	<tr><td>กลด</td><td>คัน</td></tr>
+	<tr><td>กลอง</td><td>ใบ,ลูก</td></tr>
+	<tr><td>กล่อง</td><td>ใบ,กล่อง,ลูก</td></tr>
+	<tr><td>กล้อง</td><td>กล้อง (ไม่ใช่ ตัว)</td></tr>
+	<tr><td>กลอย</td><td>หัว</td></tr>
+	<tr><td>กษัตริย์</td><td>พระองค์</td></tr>
+	<tr><td>ก๊อก</td><td>ก๊อก</td></tr>
+	<tr><td>กองกอย</td><td>ตัว</td></tr>
+	<tr><td>กองทัพ</td><td>กองทัพ</td></tr>
+	<tr><td>กองพล</td><td>กองพล</td></tr>
+	<tr><td>กะละปังหา</td><td>กิ่ง,ต้น</td></tr>
+	<tr><td>กะละมัง</td><td>ใบ,ลูก</td></tr>
+	<tr><td>กังหัน</td><td>ตัว</td></tr>
+	<tr><td>กันชน</td><td>อัน</td></tr>
+	<tr><td>กันสาด</td><td>อัน,ด้าน</td></tr>
+	<tr><td>กัลปพฤกษ์</td><td>ต้น</td></tr>
+	<tr><td>ก้าม</td><td>ก้าม</td></tr>
+	<tr><td>การ์ตูน</td><td>ตัว,เรื่อง</td></tr>
+	<tr><td>กาสาวพัสตร์</td><td>ผืน</td></tr>
+	<tr><td>กำไล</td><td>วง</td></tr>
+	<tr><td>กินนร</td><td>ตัว,ตน</td></tr>
+	<tr><td>กิ๊บ</td><td>อัน (ไม่ใช่ ตัว)</td></tr>
+	<tr><td>กุญแจ</td><td>ดอก,ลูก</td></tr>
+	<tr><td>กุฎี</td><td>หลัง</td></tr>
+	<tr><td>เกวียน</td><td>เล่ม</td></tr>
+	<tr><td>เกียร์</td><td>ชุด</td></tr>
+	<tr><td>เกี๊ยะ</td><td>คู่</td></tr>
+	<tr><td>แก้ว</td><td>ใบ</td></tr>
+	<tr><td>โกดัง</td><td>หลัง</td></tr>
+	<tr><td>ขน</td><td>เส้น</td></tr>
+	<tr><td>ขนม</td><td>ชิ้น</td></tr>
+	<tr><td>ขนมครก</td><td>ฝา,คู่</td></tr>
+	<tr><td>ขนมจีน</td><td>จับ,หัว</td></tr>
+	<tr><td>ขมิ้น</td><td>แง่ง,หัว</td></tr>
+	<tr><td>ขลุ่ย</td><td>เลา</td></tr>
+	<tr><td>ขวาน</td><td>เล่ม</td></tr>
+	<tr><td>ขอ,ตะขอ</td><td>ตัว</td></tr>
+	<tr><td>ขอสับ</td><td>อัน</td></tr>
+	<tr><td>ขัน</td><td>ใบ</td></tr>
+	<tr><td>ข่าย</td><td>ผืน</td></tr>
+	<tr><td>ข้าว</td><td>เม็ด</td></tr>
+	<tr><td>ข้าวเกรียบ</td><td>แผ่น</td></tr>
+	<tr><td>ข้าวต้มผัด</td><td>มัด,กลีบ</td></tr>
+	<tr><td>ข้าวตอก</td><td>ดอก</td></tr>
+	<tr><td>ข้าวโพด</td><td>ฝัก</td></tr>
+	<tr><td>ข้าวเม่าทอด</td><td>ลูก,แพ</td></tr>
+	<tr><td>ข้าวหลาม</td><td>กระบอก</td></tr>
+	<tr><td>ขิง</td><td>แง่ง,หัว</td></tr>
+	<tr><td>ขิม</td><td>ตัว</td></tr>
+	<tr><td>เข่ง</td><td>ใบ,ลูก</td></tr>
+	<tr><td>เขต</td><td>เขต</td></tr>
+	<tr><td>เข็ม</td><td>เล่ม</td></tr>
+	<tr><td>เข็มขัด</td><td>เส้น,สาย</td></tr>
+	<tr><td>เข็มหมุด</td><td>ตัว</td></tr>
+	<tr><td>เขา,ภูเขา</td><td>เขา,ภูเขา</td></tr>
+	<tr><td>เขา(สัตว์)</td><td>เขา,ข้าง,คู่</td></tr>
+	<tr><td>เขื่อน</td><td>เขื่อน</td></tr>
+	<tr><td>ไข่</td><td>ฟอง</td></tr>
+	<tr><td>ไข่มุก</td><td>เม็ด</td></tr>
+	<tr><td>คทา</td><td>อัน,เล่ม</td></tr>
+	<tr><td>คบเพลิง</td><td>อัน,ดุ้น</td></tr>
+	<tr><td>ครก</td><td>ใบ,ลูก</td></tr>
+	<tr><td>ครอบครัว</td><td>ครอบครัว</td></tr>
+	<tr><td>ครีบ</td><td>ครีบ</td></tr>
+	<tr><td>ครุฑ</td><td>ครุฑ</td></tr>
+	<tr><td>คลอง</td><td>คลอง</td></tr>
+	<tr><td>คลินิก</td><td>แห่ง</td></tr>
+	<tr><td>คอก</td><td>คอก</td></tr>
+	<tr><td>ค้อน</td><td>เต้า</td></tr>
+	<tr><td>คอนเสิร์ต</td><td>วง</td></tr>
+	<tr><td>คอมพิวเตอร์</td><td>เครื่อง</td></tr>
+	<tr><td>คันฉ่อง</td><td>อัน</td></tr>
+	<tr><td>คันไถ</td><td>คัน</td></tr>
+	<tr><td>คาง</td><td>คาง</td></tr>
+	<tr><td>ค่าย</td><td>ค่าย</td></tr>
+	<tr><td>คาราวาน</td><td>กอง</td></tr>
+	<tr><td>คีม</td><td>อัน,เล่ม</td></tr>
+	<tr><td>คุก</td><td>แห่ง,คุก</td></tr>
+	<tr><td>คุกกี้</td><td>ชิ้น,อัน</td></tr>
+	<tr><td>คูหา</td><td>คูหา</td></tr>
+	<tr><td>เค้ก</td><td>ชิ้น,อัน</td></tr>
+	<tr><td>เคเบิล</td><td>เส้น,สาย</td></tr>
+	<tr><td>เครื่องบันทึกเสียง</td><td>เครื่อง</td></tr>
+	<tr><td>เครื่องบิน</td><td>ลำ,เครื่อง</td></tr>
+	<tr><td>เครื่องแบบ</td><td>ชุด</td></tr>
+	<tr><td>เครื่องร่อน</td><td>ลำ</td></tr>
+	<tr><td>เคียว</td><td>เล่ม</td></tr>
+	<tr><td>แคร่</td><td>แคร่</td></tr>
+	<tr><td>โคม</td><td>ดวง,ใบ,ลูก</td></tr>
+	<tr><td>โคลง</td><td>บท</td></tr>
+	<tr><td>ฆ้อง</td><td>ใบ,ลูก</td></tr>
+	<tr><td>งวง</td><td>งวง</td></tr>
+	<tr><td>งอบ</td><td>ใบ</td></tr>
+	<tr><td>งาช้าง</td><td>กิ่ง</td></tr>
+	<tr><td>ง้าว</td><td>เล่ม</td></tr>
+	<tr><td>งิ้ว</td><td>ตัว,ใบ</td></tr>
+	<tr><td>จดหมาย</td><td>ฉบับ</td></tr>
+	<tr><td>จรวด</td><td>ลำ</td></tr>
+	<tr><td>จอ</td><td>ผืน,จอ</td></tr>
+	<tr><td>จอบ</td><td>เล่ม (ไม่ใช่ อัน หรือ ด้าม)</td></tr>
+	<tr><td>จะเข้</td><td>ตัว</td></tr>
+	<tr><td>จักร</td><td>คัน,หลัง</td></tr>
+	<tr><td>จังหวัด</td><td>จังหวัด</td></tr>
+	<tr><td>จาก</td><td>ตับ</td></tr>
+	<tr><td>จาน</td><td>ใบ,ลูก</td></tr>
+	<tr><td>จานบิน,จานผี</td><td>ลำ</td></tr>
+	<tr><td>จานเสียง</td><td>แผ่น</td></tr>
+	<tr><td>จิต</td><td>ดวง</td></tr>
+	<tr><td>จีวร</td><td>ผืน</td></tr>
+	<tr><td>จุลสาร</td><td>ฉบับ,เล่ม</td></tr>
+	<tr><td>เจดีย์</td><td>องค์</td></tr>
+	<tr><td>แจกัน</td><td>ใบ</td></tr>
+	<tr><td>ใจ,ดวงใจ,หัวใจ</td><td>ดวง</td></tr>
+	<tr><td>ฉลองพระองค์</td><td>องค์</td></tr>
+	<tr><td>ฉลองพระบาท</td><td>ข้าง,คู่,องค์</td></tr>
+	<tr><td>ฉัตร</td><td>คัน</td></tr>
+	<tr><td>ฉาง</td><td>หลัง</td></tr>
+	<tr><td>ฉาบ</td><td>ข้าง,คู่</td></tr>
+	<tr><td>โฉนด</td><td>ฉบับ</td></tr>
+	<tr><td>ฉิ่ง</td><td>ข้าง,คู่</td></tr>
+	<tr><td>ฉมวก</td><td>เล่ม</td></tr>
+	<tr><td>ชฎา</td><td>หัว</td></tr>
+	<tr><td>ชนัก</td><td>เล่ม</td></tr>
+	<tr><td>ชมรม</td><td>ชมรม</td></tr>
+	<tr><td>ช้อน</td><td>คัน (ไม่ใช่ อัน หรือ ด้าม)</td></tr>
+	<tr><td>ช้อนส้อม</td><td>คู่</td></tr>
+	<tr><td>ชอล์ก</td><td>แท่ง,กล่อง</td></tr>
+	<tr><td>ชะลอม</td><td>ใบ,ลูก</td></tr>
+	<tr><td>ชะแลง</td><td>อัน</td></tr>
+	<tr><td>ช้าง</td><td>เชือก</td></tr>
+	<tr><td>ชานชาลา</td><td>ชาน</td></tr>
+	<tr><td>ชานหมาก</td><td>คำ</td></tr>
+	<tr><td>ชายแครง</td><td>ผืน</td></tr>
+	<tr><td>ชิงช้าสวรรค์</td><td>เครื่อง</td></tr>
+	<tr><td>ชุมทาง</td><td>ชุมทาง</td></tr>
+	<tr><td>ชุมสายโทรศัพท์</td><td>ชุมสาย</td></tr>
+	<tr><td>เช็ค</td><td>ฉบับ,ใบ,เล่ม</td></tr>
+	<tr><td>เชิงเทียน</td><td>อัน,ข้าง,คู่</td></tr>
+	<tr><td>แชร์</td><td>มือ,วง</td></tr>
+	<tr><td>ซอ</td><td>คัน</td></tr>
+	<tr><td>ซอง</td><td>ซอง</td></tr>
+	<tr><td>ซากศพ</td><td>ซาก</td></tr>
+	<tr><td>ซาลาเปา</td><td>ลูก,ใบ</td></tr>
+	<tr><td>ซิการ์</td><td>มวน</td></tr>
+	<tr><td>ซิ่น</td><td>ถุง,ผืน</td></tr>
+	<tr><td>ซิป</td><td>อัน,เส้น,สาย</td></tr>
+	<tr><td>ซี่โครง</td><td>ซี่</td></tr>
+	<tr><td>ซุง</td><td>ท่อน,ต้น</td></tr>
+	<tr><td>เซียมซี</td><td>ติ้ว</td></tr>
+	<tr><td>โซ่</td><td>เส้น,สาย</td></tr>
+	<tr><td>ฌาปนสถาน</td><td>แห่ง</td></tr>
+	<tr><td>ญัตติ</td><td>ญัตติ</td></tr>
+	<tr><td>ฎีกา</td><td>ฎีกา</td></tr>
+	<tr><td>ฐาน</td><td>ฐาน</td></tr>
+	<tr><td>ฐานทัพ</td><td>ฐานทัพ</td></tr>
+	<tr><td>เณร,สามเณร</td><td>รูป</td></tr>
+	<tr><td>ดนตรี</td><td>วง</td></tr>
+	<tr><td>ดราฟต์</td><td>ฉบับ,ใบ</td></tr>
+	<tr><td>ดวงใจ</td><td>ดวง</td></tr>
+	<tr><td>ดวงตราไปรษณีย์</td><td>ดวง</td></tr>
+	<tr><td>ดวงตา</td><td>ดวง</td></tr>
+	<tr><td>ดอกจัน</td><td>ตัว</td></tr>
+	<tr><td>ดอกไม้</td><td>ดอก,ช่อ,พวง</td></tr>
+	<tr><td>ดั้งจมูก</td><td>ดั้ง</td></tr>
+	<tr><td>ด่าน</td><td>ด่าน</td></tr>
+	<tr><td>ดาบ</td><td>เล่ม</td></tr>
+	<tr><td>ดาบส</td><td>ตน</td></tr>
+	<tr><td>ดารา,ดาว</td><td>ดาว</td></tr>
+	<tr><td>ดาวตก</td><td>ดวง</td></tr>
+	<tr><td>ดินสอ</td><td>แท่ง</td></tr>
+	<tr><td>ดุริยางค์</td><td>วง</td></tr>
+	<tr><td>ดุม</td><td>เม็ด</td></tr>
+	<tr><td>เดือย</td><td>อัน</td></tr>
+	<tr><td>ไดนาโม</td><td>ลูก</td></tr>
+	<tr><td>ตถาคต</td><td>องค์</td></tr>
+	<tr><td>ตระกูล</td><td>ตระกูล</td></tr>
+	<tr><td>ตรา</td><td>ดวง</td></tr>
+	<tr><td>ตรายาง</td><td>อัน</td></tr>
+	<tr><td>ตราสาร</td><td>ฉบับ</td></tr>
+	<tr><td>ตรี</td><td>เล่ม</td></tr>
+	<tr><td>ตลับ</td><td>ใบ,ลูก</td></tr>
+	<tr><td>ตลับลูกปืน</td><td>ตลับ</td></tr>
+	<tr><td>ตลาด</td><td>ตลาด</td></tr>
+	<tr><td>ตลาดหลักทรัพย์</td><td>แห่ง</td></tr>
+	<tr><td>ตวัก</td><td>อัน</td></tr>
+	<tr><td>ตะกร้อ</td><td>ลูก</td></tr>
+	<tr><td>ตะกร้า</td><td>ลูก</td></tr>
+	<tr><td>ตะเกียง</td><td>ดวง</td></tr>
+	<tr><td>ตะเกียบ</td><td>ข้าง,คู่</td></tr>
+	<tr><td>ตะขอ</td><td>ตัว,คู่</td></tr>
+	<tr><td>ตะไบ</td><td>เล่ม,อัน</td></tr>
+	<tr><td>ตะปู</td><td>ตัว,ดอก</td></tr>
+	<tr><td>ตะโพน</td><td>ใบ,ลูก</td></tr>
+	<tr><td>ตะวัน</td><td>ดวง</td></tr>
+	<tr><td>ตะหลิว</td><td>อัน</td></tr>
+	<tr><td>ตั่ง</td><td>ตัว</td></tr>
+	<tr><td>ตั๋ว</td><td>ใบ</td></tr>
+	<tr><td>ตัวโน้ต</td><td>ตัว</td></tr>
+	<tr><td>ตาข่าย</td><td>ผืน,ปาก</td></tr>
+	<tr><td>ตาชั่ง</td><td>เครื่อง</td></tr>
+	<tr><td>ตำนาน</td><td>เรื่อง</td></tr>
+	<tr><td>ตำรับ</td><td>ตำรับ</td></tr>
+	<tr><td>ตำรา</td><td>เล่ม,ฉบับ</td></tr>
+	<tr><td>ตุ๊กตา</td><td>ตัว</td></tr>
+	<tr><td>ตุ่ม</td><td>ใบ,ลูก</td></tr>
+	<tr><td>โต๊ะ</td><td>ตัว</td></tr>
+	<tr><td>ไต้ฝุ่น</td><td>ลูก</td></tr>
+	<tr><td>ถนน</td><td>สาย</td></tr>
+	<tr><td>ถาด</td><td>ใบ</td></tr>
+	<tr><td>ถ้ำ</td><td>ถ้ำ</td></tr>
+	<tr><td>ถุงเท้า</td><td>ข้าง,คู่</td></tr>
+	<tr><td>เถระ</td><td>รูป</td></tr>
+	<tr><td>โถส้วม</td><td>โถ</td></tr>
+	<tr><td>ทวน</td><td>เล่ม</td></tr>
+	<tr><td>ทวีป</td><td>ทวีป</td></tr>
+	<tr><td>ทองคำเปลว</td><td>แผ่น</td></tr>
+	<tr><td>ทะเล</td><td>ทะเล</td></tr>
+	<tr><td>ทัพ</td><td>กอง,ทัพ</td></tr>
+	<tr><td>ทางหลวง</td><td>สาย</td></tr>
+	<tr><td>ที่ดิน</td><td>แปลง,ผืน</td></tr>
+	<tr><td>ที่นอน</td><td>ผืน,แผ่น</td></tr>
+	<tr><td>เทพเจ้า</td><td>องค์</td></tr>
+	<tr><td>เทวดา</td><td>องค์</td></tr>
+	<tr><td>เทียน</td><td>เล่ม</td></tr>
+	<tr><td>เทือกเขา</td><td>เทือก</td></tr>
+	<tr><td>โทรทัศน์</td><td>เครื่อง</td></tr>
+	<tr><td>ธง (ธงกระดาษ)</td><td>ธง</td></tr>
+	<tr><td>ธง (ผืนธง)</td><td>ผืน</td></tr>
+	<tr><td>ธง (มีคัน)</td><td>คัน</td></tr>
+	<tr><td>ธงชาติ</td><td>ผืน</td></tr>
+	<tr><td>ธนบัตร</td><td>ใบ,ฉบับ</td></tr>
+	<tr><td>ธนาคาร</td><td>ธนาคาร (ไม่ใช่ แห่ง)</td></tr>
+	<tr><td>ธนาณัติ</td><td>ฉบับ,ใบ</td></tr>
+	<tr><td>ธรรมาสน์</td><td>หลัง</td></tr>
+	<tr><td>ธูป</td><td>ดอก</td></tr>
+	<tr><td>นม</td><td>เต้า</td></tr>
+	<tr><td>นรก</td><td>ขุม</td></tr>
+	<tr><td>นักบวช</td><td>รูป</td></tr>
+	<tr><td>นักบุญ</td><td>รูป</td></tr>
+	<tr><td>นา</td><td>แปลง,ผืน</td></tr>
+	<tr><td>นางฟ้า</td><td>องค์</td></tr>
+	<tr><td>นามบัตร</td><td>แผ่น (ไม่ใช่ ใบ)</td></tr>
+	<tr><td>นาฬิกา</td><td>เรือน</td></tr>
+	<tr><td>น้ำพุ</td><td>สาย,ที่,แห่ง,อ่าง</td></tr>
+	<tr><td>นิตยสาร</td><td>ฉบับ</td></tr>
+	<tr><td>นิทาน</td><td>เรื่อง</td></tr>
+	<tr><td>บทกลอน</td><td>บท</td></tr>
+	<tr><td>บทความ</td><td>เรื่อง</td></tr>
+	<tr><td>บังกะโล</td><td>หลัง</td></tr>
+	<tr><td>บัตรเชิญ</td><td>บัตร</td></tr>
+	<tr><td>บัตรประจำตัว</td><td>ฉบับ</td></tr>
+	<tr><td>บาตร</td><td>ใบ,ลูก</td></tr>
+	<tr><td>บาทหลวง</td><td>รูป</td></tr>
+	<tr><td>บายศรี</td><td>สำรับ</td></tr>
+	<tr><td>บุหรี่</td><td>มวน</td></tr>
+	<tr><td>เบ็ด</td><td>ตัว</td></tr>
+	<tr><td>ใบมีดโกน</td><td>ใบ</td></tr>
+	<tr><td>ปฏิทิน</td><td>ฉบับ,แผ่น,อัน</td></tr>
+	<tr><td>ประกาศนียบัตร</td><td>ฉบับ</td></tr>
+	<tr><td>ประทุน</td><td>หลัง</td></tr>
+	<tr><td>ปลิง</td><td>ตัว</td></tr>
+	<tr><td>ปิ่นโต</td><td>ใบ,เถา,สาย</td></tr>
+	<tr><td>ปี่</td><td>เลา</td></tr>
+	<tr><td>ปี่พาทย์</td><td>วง,ราง</td></tr>
+	<tr><td>ปืน</td><td>กระบอก</td></tr>
+	<tr><td>เปียโน</td><td>หลัง</td></tr>
+	<tr><td>แปรง</td><td>อัน</td></tr>
+	<tr><td>ผ้ากฐิน</td><td>ชุด,ไตร</td></tr>
+	<tr><td>ผ้าซิ่น</td><td>ผืน,ถุง</td></tr>
+	<tr><td>ผ้าถุง</td><td>ถุง</td></tr>
+	<tr><td>ผ้าบังสุกุล</td><td>ผืน</td></tr>
+	<tr><td>เผือก</td><td>หัว</td></tr>
+	<tr><td>ฝอยทอง</td><td>แพ</td></tr>
+	<tr><td>ฝี</td><td>หัว</td></tr>
+	<tr><td>ไฝ</td><td>เม็ด</td></tr>
+	<tr><td>พยาน</td><td>คน,ปาก</td></tr>
+	<tr><td>พระโกศ</td><td>องค์</td></tr>
+	<tr><td>พระขรรค์</td><td>เล่ม</td></tr>
+	<tr><td>พระเจ้าอยู่หัว</td><td>พระองค์</td></tr>
+	<tr><td>พระตำหนัก</td><td>องค์</td></tr>
+	<tr><td>พระธำมรงค์</td><td>องค์</td></tr>
+	<tr><td>พระพุทธรูป</td><td>องค์</td></tr>
+	<tr><td>พระสงฆ์</td><td>รูป</td></tr>
+	<tr><td>พริก</td><td>เม็ด</td></tr>
+	<tr><td>พวงมาลัย</td><td>พวง</td></tr>
+	<tr><td>พัด</td><td>เล่ม (ไม่ใช่ อัน)</td></tr>
+	<tr><td>พิณ</td><td>คัน</td></tr>
+	<tr><td>พินัยกรรม</td><td>ฉบับ</td></tr>
+	<tr><td>พิมเสน</td><td>เกล็ด</td></tr>
+	<tr><td>พู่กัน</td><td>ด้าม,เล่ม</td></tr>
+	<tr><td>ไพ่</td><td>สำรับ</td></tr>
+	<tr><td>ฟัน</td><td>ซี่,แถว</td></tr>
+	<tr><td>ฟิล์ม</td><td>แผ่น,ม้วน</td></tr>
+	<tr><td>ไฟฉาย</td><td>กระบอก</td></tr>
+	<tr><td>ภัตตาคาร</td><td>แห่ง</td></tr>
+	<tr><td>ภาพยนตร์</td><td>เรื่อง</td></tr>
+	<tr><td>ภิกษุ</td><td>รูป</td></tr>
+	<tr><td>ภูเขา</td><td>ลูก</td></tr>
+	<tr><td>มณฑป</td><td>หลัง</td></tr>
+	<tr><td>มโนราห์</td><td>ตัว,เรื่อง</td></tr>
+	<tr><td>มรสุม</td><td>ลูก</td></tr>
+	<tr><td>มโหรี</td><td>วง</td></tr>
+	<tr><td>มอเตอร์</td><td>หัว</td></tr>
+	<tr><td>มัมมี่</td><td>ศพ</td></tr>
+	<tr><td>มู่ลี่</td><td>ผืน,ม้วน</td></tr>
+	<tr><td>เมฆ</td><td>กลุ่ม,ก้อน</td></tr>
+	<tr><td>แม่น้ำ</td><td>สาย</td></tr>
+	<tr><td>ไม้กวาด</td><td>อัน (ไม่ใช่ ด้าม)</td></tr>
+	<tr><td>ไม้ขีดไฟ</td><td>ก้าน,กลัด,กล่อง,แผง,ห่อ</td></tr>
+	<tr><td>ไม้คาน</td><td>เล่ม,อัน</td></tr>
+	<tr><td>ไม้แคะหู</td><td>เล่ม (ไม่ใช่ อัน)</td></tr>
+	<tr><td>ไม้ตีพริก</td><td>อัน</td></tr>
+	<tr><td>ไม้อัด</td><td>แผ่น</td></tr>
+	<tr><td>ยมทูต</td><td>ตน</td></tr>
+	<tr><td>ยมบาล</td><td>ตน</td></tr>
+	<tr><td>ยมราช</td><td>องค์</td></tr>
+	<tr><td>ยักษ์</td><td>ตน</td></tr>
+	<tr><td>ยางลบ</td><td>ก้อน,แท่ง,อัน</td></tr>
+	<tr><td>โยธวาทิต</td><td>วง</td></tr>
+	<tr><td>รถ</td><td>คัน</td></tr>
+	<tr><td>รถไฟ</td><td>ขบวน</td></tr>
+	<tr><td>ร่มชูชีพ</td><td>ชุด</td></tr>
+	<tr><td>รวงผึ้ง</td><td>รวง</td></tr>
+	<tr><td>ระนาด</td><td>ลูก,ผืน,ราง</td></tr>
+	<tr><td>ระบำ</td><td>ชุด,วง</td></tr>
+	<tr><td>ระหัด</td><td>ตัว,เครื่อง</td></tr>
+	<tr><td>รัดประคด</td><td>ผืน</td></tr>
+	<tr><td>รายงาน</td><td>ฉบับ,เรื่อง</td></tr>
+	<tr><td>รุ้งกินน้ำ</td><td>ตัว</td></tr>
+	<tr><td>เรือ</td><td>ลำ</td></tr>
+	<tr><td>เรือน</td><td>หลัง</td></tr>
+	<tr><td>เรือนจำ</td><td>แห่ง</td></tr>
+	<tr><td>โรงเรียน</td><td>โรง</td></tr>
+	<tr><td>ลวด</td><td>เส้น,ขด,ม้วน</td></tr>
+	<tr><td>ลอดช่อง</td><td>ตัว</td></tr>
+	<tr><td>ละคร</td><td>ตัว,โรง,คณะ</td></tr>
+	<tr><td>ลัง</td><td>ใบ,ลัง</td></tr>
+	<tr><td>ลัทธิ</td><td>ลัทธิ</td></tr>
+	<tr><td>ลำตัด</td><td>คณะ,วง</td></tr>
+	<tr><td>ลำธาร</td><td>สาย</td></tr>
+	<tr><td>ลิปสติก</td><td>แท่ง</td></tr>
+	<tr><td>ลิฟต์</td><td>ตัว</td></tr>
+	<tr><td>ลูกกระดุม</td><td>เม็ด,สำรับ</td></tr>
+	<tr><td>ลูกกวาด</td><td>เม็ด</td></tr>
+	<tr><td>ลูกคิด</td><td>ราง,ลูก</td></tr>
+	<tr><td>ลูกน้ำ</td><td>ตัว</td></tr>
+	<tr><td>ลูกปัด</td><td>เม็ด,ลูก</td></tr>
+	<tr><td>ลูกปืน</td><td>ลูก,นัด</td></tr>
+	<tr><td>ลูกหนี้</td><td>คน,ราย</td></tr>
+	<tr><td>ลูกเห็บ</td><td>เม็ด,ก้อน,ลูก</td></tr>
+	<tr><td>เลื่อย</td><td>ปื้น</td></tr>
+	<tr><td>โลง</td><td>โลง</td></tr>
+	<tr><td>วงเวียน (เครื่องมือสำหรับเขียนวงกลม)</td><td>อัน</td></tr>
+	<tr><td>วนอุทยาน</td><td>แห่ง</td></tr>
+	<tr><td>วอ</td><td>คัน,หลัง</td></tr>
+	<tr><td>ว่าว</td><td>ตัว</td></tr>
+	<tr><td>วิมาน</td><td>องค์</td></tr>
+	<tr><td>วิหาร</td><td>หลัง</td></tr>
+	<tr><td>ไวโอลิน</td><td>คัน</td></tr>
+	<tr><td>ศพ</td><td>ศพ</td></tr>
+	<tr><td>ศร</td><td>คัน</td></tr>
+	<tr><td>ศาลพระภูมิ</td><td>ศาล,หลัง</td></tr>
+	<tr><td>ศาลา</td><td>หลัง</td></tr>
+	<tr><td>สงฆ์</td><td>รูป</td></tr>
+	<tr><td>สตางค์</td><td>สตางค์</td></tr>
+	<tr><td>สถูป</td><td>องค์</td></tr>
+	<tr><td>สนับมือ</td><td>อัน</td></tr>
+	<tr><td>สบู่</td><td>ก้อน</td></tr>
+	<tr><td>สไบ</td><td>ผืน</td></tr>
+	<tr><td>สมอเรือ</td><td>ตัว</td></tr>
+	<tr><td>สมุด</td><td>เล่ม</td></tr>
+	<tr><td>สร้อย</td><td>เส้น</td></tr>
+	<tr><td>สลากกินแบ่ง</td><td>ฉบับ,ใบ</td></tr>
+	<tr><td>สวิง</td><td>ปาก</td></tr>
+	<tr><td>สังข์</td><td>ขอน</td></tr>
+	<tr><td>สัตว์</td><td>ตัว</td></tr>
+	<tr><td>สัปทน</td><td>คัน</td></tr>
+	<tr><td>สามเณร</td><td>รูป</td></tr>
+	<tr><td>สายพาน</td><td>เส้น</td></tr>
+	<tr><td>สาแหรก</td><td>ข้าง,คู่</td></tr>
+	<tr><td>สิว</td><td>เม็ด</td></tr>
+	<tr><td>สิ่ว</td><td>เล่ม,ปาก,อัน</td></tr>
+	<tr><td>เสียม</td><td>เล่ม</td></tr>
+	<tr><td>โสร่ง</td><td>ตัว,ผืน</td></tr>
+	<tr><td>สถาบัน</td><td>สถาบัน</td></tr>
+	<tr><td>ส้อม (เครื่องใช้ในการกินอาหาร)</td><td>คัน</td></tr>
+	<tr><td>หน่วยกิต</td><td>หน่วยกิต</td></tr>
+	<tr><td>หน่อไม้</td><td>หน่อ</td></tr>
+	<tr><td>หนังสือพิมพ์</td><td>ฉบับ</td></tr>
+	<tr><td>หน้าต่าง</td><td>บาน,ช่อง</td></tr>
+	<tr><td>หมวก</td><td>ใบ,ลูก</td></tr>
+	<tr><td>หม้อ</td><td>ใบ,ลูก</td></tr>
+	<tr><td>หมอน</td><td>ใบ,ลูก</td></tr>
+	<tr><td>หลอด</td><td>หลอด</td></tr>
+	<tr><td>หวี</td><td>เล่ม</td></tr>
+	<tr><td>หอไตร</td><td>หลัง</td></tr>
+	<tr><td>หอประชุม</td><td>หลัง</td></tr>
+	<tr><td>หัวโขน</td><td>หัว</td></tr>
+	<tr><td>หิน</td><td>ก้อน</td></tr>
+	<tr><td>หีบ</td><td>ใบ,ลูก</td></tr>
+	<tr><td>หีบเพลงเป่า</td><td>อัน</td></tr>
+	<tr><td>หุบเขา</td><td>แห่ง</td></tr>
+	<tr><td>เห็ด</td><td>ดอก</td></tr>
+	<tr><td>เหรียญ</td><td>เหรียญ,อัน</td></tr>
+	<tr><td>แห</td><td>ปาก</td></tr>
+	<tr><td>อกไก่</td><td>ตัว</td></tr>
+	<tr><td>อนุสาวรีย์</td><td>แห่ง</td></tr>
+	<tr><td>อวน</td><td>ปาก</td></tr>
+	<tr><td>อัครชายา</td><td>องค์</td></tr>
+	<tr><td>อัครมเหสี</td><td>องค์</td></tr>
+	<tr><td>อัฐบริขาร</td><td>ชุด</td></tr>
+	<tr><td>อัปสร</td><td>นาง</td></tr>
+	<tr><td>อาศรม</td><td>หลัง</td></tr>
+	<tr><td>อิฐ</td><td>ก้อน</td></tr>
+	<tr><td>อังสะ</td><td>ตัว</td></tr>
+	<tr><td>ออร์แกน</td><td>เครื่อง,หลัง,ตัว</td></tr>
+	<tr><td>อสุรกาย</td><td>ตน</td></tr>
+	<tr><td>อ่าง</td><td>ใบ,ลูก</td></tr>
+	<tr><td>อ่าว</td><td>อ่าว</td></tr>
+	<tr><td>อาสนะ</td><td>ที่,ผืน</td></tr>
+	<tr><td>อำเภอ</td><td>อำเภอ</td></tr>
+	<tr><td>เฮลิคอปเตอร์</td><td>เครื่อง,ลำ</td></tr>
+	<tr><td>ไฮโดรมิเตอร์</td><td>ตัว,อัน</td></tr>
+</table>
+<small>ดูเพิ่มเติมที่ http://legacy.orst.go.th/?page_id=641<br>
+หรือ หนังสือลักษณนาม ฉบับราชบัณฑิตยสถาน พิมพ์ครั้งที่ ๖</small>
+
+</div> <!-- div class="content  -->
+  <script src="vocab_study.js" type="text/javascript" language="JavaScript"></script>
+ </body>
+</html>

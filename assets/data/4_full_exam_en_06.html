@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+<body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+            <!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+            <button id = "start" onclick="countDown(0,40,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+
+		</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 40 นาที
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <br><br>
+    <div id="ifNotBuy" style="display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+        <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span></br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+
+<!--  
+================= 1-5 Conversation =================
+-->
+
+
+<strong>Instruction:</strong> Choose the best answer.<br><br>
+
+<div class="quiz">
+ข้อ 1. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+
+	<strong>Thong:</strong>I'm  going  to  work  in  Udorn.  Is  it  very  hot  there? <br />
+<strong>Nid:</strong>	........................
+
+<br>
+</div>
+</div>
+
+<label><input type="radio" name="q1" value="0">Take  good  care  of  yourself.  You'll  love  it. </label><br>
+<label><input type="radio" name="q1" value="1">Don't  worry.  You'll  soon  get  used  to  the  heat. </label><br>
+<label><input type="radio" name="q1" value="0">You'll  see  a  lot  of  interesting  things  there,  the  heat  among  them. </label><br>
+<label><input type="radio" name="q1" value="0">Haven't  you  got  any  plans  at  all  against  the  heat? </label><br>
+
+
+<div class="quiz">
+ข้อ 2. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<strong>Dang:</strong>  Oh  dear.  I  got  home   very  late  last  night.  I  hope  I  didn't  disturb  you.<br />
+<strong>Toy:</strong> ....................
+<br>
+</div>
+</div>
+
+<label><input type="radio" name="q2" value="1">No,  I  didn't  hear  anything.</label><br>
+<label><input type="radio" name="q2" value="0">Nobody  knew  about  it.</label><br>
+<label><input type="radio" name="q2" value="0">You'd  better  not  tell  me.</label><br>
+<label><input type="radio" name="q2" value="0">Don't  speak  to  me  like  that.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 3. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+At a department store. <br />
+<strong>Salesgirl:</strong> ............................... <br />
+<strong>Customer:</strong> No, thanks. I'm just looking around.
+<br>
+</div>
+</div>
+
+<label><input type="radio" name="q3" value="1">Anything I can help you with?</label><br>
+<label><input type="radio" name="q3" value="0">What do you think of it? </label><br>
+<label><input type="radio" name="q3" value="0">Don't you have small change?</label><br>
+<label><input type="radio" name="q3" value="0">It's reasonable, isn't it?</label><br>
+
+
+
+<div class="quiz">
+ข้อ 4. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<strong>Boonmee:</strong> What's the thing you hate doing most? <br />
+<strong>Pornsri:</strong> .....................................
+<br>
+</div>
+</div>
+
+<label><input type="radio" name="q4" value="0">I don't mind cleaning the house.</label><br>
+<label><input type="radio" name="q4" value="1">I can't bear getting up early.</label><br>
+<label><input type="radio" name="q4" value="0">What's the idea? Don't you trust me?</label><br>
+<label><input type="radio" name="q4" value="0">Not at all, but you'd better not ask.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 5. <br>
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<strong>A:</strong> ..............................<br>
+<strong>B:</strong> Not really. You see, it's highly fattening. Besides, if I eat too much of it, I kind of feel uncomfortable. <br />
+<strong>A:</strong> Me, too.
+<br>
+</div>
+</div>
+
+<label><input type="radio" name="q5" value="0">Would you like durian?</label><br>
+<label><input type="radio" name="q5" value="1">How much do you like durian?</label><br>
+<label><input type="radio" name="q5" value="0">How much do you eat durian</label><br>
+<label><input type="radio" name="q5" value="0">What don't you like about durian?</label><br>
+
+
+<!--  
+================= 6-10 Vovabulary =================
+-->
+<br><strong>Instructions: </strong>Select the most appropriate choice for each item.<br /> <br />
+
+
+<div class="quiz">
+ข้อ 6. <br>
+This problem is not an easy one. It is very ................<br>
+</div>
+
+<label><input type="radio" name="q6" value="0">simple</label><br>
+<label><input type="radio" name="q6" value="0">plain</label><br>
+<label><input type="radio" name="q6" value="1">complicated</label><br>
+<label><input type="radio" name="q6" value="0">straightforward</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 7. <br>
+What is your monthly ..................... for your cellular phone?<br>
+</div>
+
+<label><input type="radio" name="q7" value="0">charge</label><br>
+<label><input type="radio" name="q7" value="1">fee</label><br>
+<label><input type="radio" name="q7" value="0">cost</label><br>
+<label><input type="radio" name="q7" value="0">price</label><br>
+
+
+<div class="quiz">
+ข้อ 8. <br>
+He put on sunglasses to .................. his eyes from ultraviolet rays.<br>
+</div>
+
+<label><input type="radio" name="q8" value="0">filter</label><br>
+<label><input type="radio" name="q8" value="0">preserve</label><br>
+<label><input type="radio" name="q8" value="0">prevent</label><br>
+<label><input type="radio" name="q8" value="1">protect</label><br>
+
+
+
+<div class="quiz">
+ข้อ 9. <br>
+The ...................... will have to be reinforced to prevent the house from sinking further into the ground. <br>
+</div>
+
+<label><input type="radio" name="q9" value="0">roof</label><br>
+<label><input type="radio" name="q9" value="0">ceiling</label><br>
+<label><input type="radio" name="q9" value="1">foundations</label><br>
+<label><input type="radio" name="q9" value="0">excavation</label><br>
+
+
+
+<div class="quiz">
+ข้อ 10. <br>
+ These problems are not ................... to our city. They also occur in other cities as well.<br>
+</div>
+
+<label><input type="radio" name="q10" value="0">important</label><br>
+<label><input type="radio" name="q10" value="1">unique</label><br>
+<label><input type="radio" name="q10" value="0">relevant</label><br>
+<label><input type="radio" name="q10" value="0">related</label><br>
+
+
+
+
+<!--  
+================= 11-15 Grammar/Structure =================
+-->
+
+
+<div class="quiz">
+ข้อ 11. <br>
+She practiced ................. the song. <br>
+</div>
+
+<label><input type="radio" name="q11" value="0">sing</label><br>
+<label><input type="radio" name="q11" value="0">to sing</label><br>
+<label><input type="radio" name="q11" value="1">singing</label><br>
+<label><input type="radio" name="q11" value="0">sang</label><br>
+
+
+<div class="quiz">
+ข้อ 12. <br>
+Suda .................. the school yet. She wants to finish her lesson plan.<br>
+</div>
+
+<label><input type="radio" name="q12" value="0">is not leaving</label><br>
+<label><input type="radio" name="q12" value="0">doesn't leave</label><br>
+<label><input type="radio" name="q12" value="1">hasn't left </label><br>
+<label><input type="radio" name="q12" value="0">didn't leave</label><br>
+
+
+
+<div class="quiz">
+ข้อ 13. <br>
+While Sukit was working in the garden, the alarm clock .................<br>
+</div>
+
+<label><input type="radio" name="q13" value="0">goes off</label><br>
+<label><input type="radio" name="q13" value="1">went off</label><br>
+<label><input type="radio" name="q13" value="0">was going off </label><br>
+<label><input type="radio" name="q13" value="0">had gone off</label><br>
+
+<div class="quiz">
+ข้อ 14. <br>
+After a few moments, the woman ............ the window and looked out curiously.
+<br>
+</div>
+
+<label><input type="radio" name="q14" value="0">opens</label><br>
+<label><input type="radio" name="q14" value="1">opened</label><br>
+<label><input type="radio" name="q14" value="0">has opened</label><br>
+<label><input type="radio" name="q14" value="0">had opened</label><br>
+
+
+<div class="quiz">
+ข้อ 15. <br>
+.................. different food from all over the world in London.<br>
+</div>
+
+<label><input type="radio" name="q15" value="0">There are a lot of</label><br>
+<label><input type="radio" name="q15" value="1">There's loads of</label><br>
+<label><input type="radio" name="q15" value="0">There's many</label><br>
+<label><input type="radio" name="q15" value="0">There is a lots of</label><br><br>
+
+
+
+<!--  
+================= 16-25 Reading 10 ข้อ =================
+-->
+
+
+<strong>สำหรับ ข้อ 16-20</strong><br><br>
+
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+
+
+Ms. C: Please take a seat.<br>
+Ms. D: Thank you. ............ (16)...................<br>
+Ms C: Which job are you applying for?<br>
+Ms D: I'm applying for the job as ..........(17)............ <br>
+Ms. C:  .............(18).................<br>
+Ms. D: I was a computer expert at ABC Computer for 3 years. <br>
+Ms. C: Why did you leave the company?<br>
+Ms. D: ......... (19) .............<br>
+Ms C: Tell me why we should hire you.<br>
+Ms D: ............... (20) ...............<br>
+Ms. C: I will let you know of our decision by e-mail.<br>
+Ms. D: OK, thanks for your time.<br>
+Ms. C: Nice to have met you.
+</div>
+
+<br><br>
+<div class="qstn-div">
+
+<div class="quiz">
+ข้อ 16. <br>
+</div>
+
+<label><input type="radio" name="q16" value="0">Nice meeting you.</label><br>
+<label><input type="radio" name="q16" value="1">I am glad to meet you.</label><br>
+<label><input type="radio" name="q16" value="0">Nice to see you.</label><br>
+<label><input type="radio" name="q16" value="0">I am applying for a job as a web designer.</label><br>
+
+
+<div class="quiz">
+ข้อ 17. <br>
+</div>
+
+<label><input type="radio" name="q17" value="0">a company manager</label><br>
+<label><input type="radio" name="q17" value="0">a sales representative</label><br>
+<label><input type="radio" name="q17" value="1">a computer technical officer</label><br>
+<label><input type="radio" name="q17" value="0">an accountant</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 18. <br>
+</div>
+
+<label><input type="radio" name="q18" value="0">Do you have any long-term education goals?</label><br>
+<label><input type="radio" name="q18" value="0">Tell me about your educational background.</label><br>
+<label><input type="radio" name="q18" value="1">So what kind of experience do you have in this field?</label><br>
+<label><input type="radio" name="q18" value="0">Describe the duties of your previous job.</label><br>
+
+
+<div class="quiz">
+ข้อ 19. <br>
+</div>
+
+<label><input type="radio" name="q19" value="0">I pay close attention to my customer’s needs. </label><br>
+<label><input type="radio" name="q19" value="0">I’m an extremely trustworthy employee.</label><br>
+<label><input type="radio" name="q19" value="1">I left for an opportunity to advance my career. </label><br>
+<label><input type="radio" name="q19" value="0">I worked for Anderson and Assoc. as a computer engineer. </label><br>
+
+
+<div class="quiz">
+ข้อ 20. <br>
+</div>
+
+<label><input type="radio" name="q20" value="0">I’m looking for a job that suits my qualifications.</label><br>
+<label><input type="radio" name="q20" value="1"> I think I am a great match for this position.</label><br>
+<label><input type="radio" name="q20" value="0"> I want to further my career in computer programming. </label><br>
+<label><input type="radio" name="q20" value="0">I want to take on more responsibility.</label>
+
+</div>  <!-  qstn-div  -->
+
+<br><br>
+
+<strong>สำหรับ ข้อ 21-25</strong><br><br>
+<strong>Instructions:</strong> Read the following letter and select the best answer for each item.<br><br>
+ 
+<div class="qstn-div">
+A study presented in proceedings of the National Academy of Sciences, USA, indicates the broccoli, grown under the right conditions, contains sulforaphane glucosinolate (SGS), a substance that may <strong>boost</strong> the body’s natural defense systems against cancer and even kill cancer cells. But you would have to eat pounds of broccoli to get enough SGS to be effective. Continued food research by Johns Hopkins University, Baltimore, and the USDA, however, found that three-day-old broccoli seedlings contain a concentrated amount of SGS – - 20 times the amount found in broccoli – - so only an ounce provides the same benefits. Sold as BroccoSprouts, the seedlings are grown under controlled conditions to ensure SGS content, and can be used on salads, sandwiches and omelets for a “zingy” taste. They have been patented by Johns Hopkins University, and 19 growers nationwide are licensed to grow <strong>them</strong>. BroccoSprouts are available in select grocery and health food stores nationwide.
+
+</div>  <!--  qstn-div  -->
+
+<br><br>
+<div class="qstn-div">
+
+<div class="quiz">
+ข้อ 21. <br>
+The best title for this passage is___.</div>
+
+<label><input type="radio" name="q21" value="1">Baby broccoli may fight cancer</label><br>
+<label><input type="radio" name="q21" value="0">Broccoli is found useful</label><br>
+<label><input type="radio" name="q21" value="0">SGS is important for the body</label><br>
+<label><input type="radio" name="q21" value="0">Cancer cells can be killed</label><br>
+
+
+
+<div class="quiz">
+ข้อ 22. <br>
+The verb “<strong>boost</strong>”  can be best replaced by ___.</div>
+
+<label><input type="radio" name="q22" value="0">advance</label><br>
+<label><input type="radio" name="q22" value="0">preserve</label><br>
+<label><input type="radio" name="q22" value="0">expand</label><br>
+<label><input type="radio" name="q22" value="1">improve</label><br>
+
+
+
+<div class="quiz">
+ข้อ 23. <br>
+In the phrase"19 growers nationwide are licensed to grow <strong>them</strong>", the word “them” efers to___.</div>
+
+<label><input type="radio" name="q23" value="0">salads</label><br>
+<label><input type="radio" name="q23" value="0">broccoli plants</label><br>
+<label><input type="radio" name="q23" value="1">the seedlings</label><br>
+<label><input type="radio" name="q23" value="0">health foods</label><br>
+
+
+
+<div class="quiz">
+ข้อ 24. <br>
+The passage could probably be found in the section___.</div>
+<label><input type="radio" name="q24" value="0">Secrets for Safety</label><br>
+<label><input type="radio" name="q24" value="1">Natural Health</label><br>
+<label><input type="radio" name="q24" value="0">Health Medicine</label><br>
+<label><input type="radio" name="q24" value="0">Natural Safety Systems</label><br>
+
+
+
+
+
+
+<div class="quiz">
+ข้อ 25. <br>
+We can infer from the passage that SGS___.</div>
+<label><input type="radio" name="q25" value="1">is very beneficial to our health</label><br>
+<label><input type="radio" name="q25" value="0">can be found only in broccoli sprouts</label><br>
+<label><input type="radio" name="q25" value="0">is used mainly to kill cancer cells</label><br>
+<label><input type="radio" name="q25" value="0">can be used on salads and some other foods</label><br>
+
+</div>  <!--  qstn-div  -->
+
+
+
+
+<br>
+<input id="send" type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+</div>
+
+</div>  <!--  end of div content  -->
+
+  <script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

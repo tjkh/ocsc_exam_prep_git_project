@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01907:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+	You are in an English class. You want to go out. &lt;br /&gt; &lt;br /&gt;
+	You: ..................... &lt;br /&gt;
+	Teacher: Of course, go ahead.&lt;br /&gt;
+	You: Thank you, sir.&lt;br /&gt;
+	</question>
+    <choice_A>Will I go out?</choice_A>
+    <choice_B>May I be excused?</choice_B>
+    <choice_C>Will I leave the room?</choice_C>
+    <choice_D>Do I have to leave the room?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+ 
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+You are in an English class. You want to go out.  &lt;br /&gt;
+What do you say to the teacher? &lt;br /&gt;
+ท่านกำลังเรียนวิชาภาษาอังกฤษท่านต้องการ ออกไปข้างนอก จะพูดกับครูว่าอย่างไร &lt;br /&gt; &lt;br /&gt;
+
+1. Will I go out? &lt;br /&gt;
+2. May I be excused?  ✔ &lt;br /&gt;
+3. Will I leave the room? &lt;br /&gt;
+4. Do I have to leave the room? &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูกคือ May I be excused? &lt;br /&gt;
+หรืออาจจะพูดว่า &lt;br /&gt;
+May I go out? ก็ได้ แต่สู้ พูดว่า &lt;br /&gt;
+May I be excused? ดีกว่าเยอะ คล้ายกับพูดว่า &lt;br /&gt;
+ขอตัวออกไปข้างนอกหน่อย &lt;br /&gt; &lt;br /&gt;
+
+&lt;strong&gt; การขออนุญาต (Asking for permission)&lt;/strong&gt; 
+
+การขออนุญาต ให้ขึ้นต้นประโยค ด้วยคำว่า May, Can หรือ Could เช่น &lt;br /&gt; &lt;br /&gt;
+
+May I be excused? &lt;br /&gt;
+ขออนุญาต(ออกไปจากที่นี่) &lt;br /&gt; &lt;br /&gt;
+May I have another glass of water? &lt;br /&gt;
+ขอน้ำเพิ่มอีกแก้วได้ไหม &lt;br /&gt; &lt;br /&gt;
+Can I leave early? &lt;br /&gt;
+ผมขอออกไปก่อนได้ไหม &lt;br /&gt; &lt;br /&gt;
+Can I leave the room? &lt;br /&gt;
+ผมขอออกจากห้องนี้ได้ไหม &lt;br /&gt; &lt;br /&gt;
+
+May I... กับ May you ... &lt;br /&gt; &lt;br /&gt;
+May I... ใช้สำหรับการขออนุญาต เช่น  &lt;br /&gt;
+May I go out to swim? &lt;br /&gt;
+ขออนุญาตออกไปว่ายน้ำ  &lt;br /&gt; &lt;br /&gt;
+
+May you ... ใช้เพื่อบอกความปรารถนา หรือ การอวยพร เช่น  &lt;br /&gt;
+May you be happy always. &lt;br /&gt;
+ขอให้มีความสุขนิรันดร &lt;br /&gt; &lt;br /&gt;
+
+ถ้าจะ:ขอให้ใครทำอะ:ไร อย่าพูดว่า May you... แต่ให้ใช้  &lt;br /&gt;
+Can you...หรือ Could you... เช่น  &lt;br /&gt;
+Can you open the door, please?  &lt;br /&gt;
+อย่าพูดว่า &lt;br /&gt;
+May you open the door, please? &lt;br /&gt; &lt;br /&gt;
+ดูเพิ่มเติมที่
+https://www.thongjoon.com/2016/05/maycancould-i.html
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  หรือ อะไรก็ได้-->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+    <!-- ส่วนนี้ บาง xml ใช้ว่า picFileName  เพราะจะให้แสดงภาพ แต่เปลี่ยนแล้ว เป็นว่าเอาไว้สำหรับ
+		บอกว่า เมื่อคลิกคำอธิบาย จะให้มีหรือไม่ให้มี บางตัวเลือกก็ไม่ให้แสดงเลย 
+		ชื่อไม่สำคัญ เพราะเอาตำแหน่งแทน ดู ItemFragment.java จะเห็นมีตัวแปร  itemIsExplain เก็บค่านี้ 
+		ส่วนภาพ จำไม่ได้แล้ว แต่จำได้ลาง ๆ ว่า ถ้าเป็นภาพในตัวคำถาม ก็เอาไว้ส่วนหัว ถ้าเป็นในส่วนคำอธิบาย ก็ใช้โค้ด html เพราะ ในหน้าคำอธิบาย ให้ใช้โค้ดได้ 
+		-->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01908:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+You are in a bus. You want to sit next to a man. &lt;br /&gt;
+What should you say?&lt;br /&gt;
+	</question>
+    <choice_A>May you sit down? </choice_A>
+    <choice_B>Will you sit here? </choice_B>
+    <choice_C>I want to sit here </choice_C>
+    <choice_D>Can I sit here? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+You are in a bus. You want to sit next to a man. &lt;br /&gt;
+คุณอยู่ในรถประจำทาง คุณต้องการนั่งถัดจากชายคนหนึ่ง&lt;br /&gt;
+What should you say?&lt;br /&gt;
+คุณควรจะพูดว่าอย่างไร&lt;br /&gt;&lt;br /&gt;
+
+1. Would you like to sit down? (คุณต้องการนั่งไหม)&lt;br /&gt;
+2. Will you sit here? (คุณนั่งตรงนี้ไหม)&lt;br /&gt;
+3. I want to sit here. (ไม่สุภาพ)&lt;br /&gt;
+4. Can I sit here?(ขอผมนั่งตรงนี้ได้ไหม)✔&lt;br /&gt;&lt;br /&gt;
+
+คำว่า Can  สามารถใช้เป็นคำขอร้องที่สุภาพได้ เช่น&lt;br /&gt;&lt;br /&gt;
+Can I talk to you for a minute?&lt;br /&gt;
+ผมขอคุยด้วยสักนาทีได้ไหม&lt;br /&gt;&lt;br /&gt;
+Can you pass me the salt, please?&lt;br /&gt;
+ช่วยส่งเกลือให้หน่อย&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01909:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+You want to borrow some money from your friend. &lt;br /&gt;
+What should you say?
+	</question>
+    <choice_A>Did you lend me 100 Baht? </choice_A>
+    <choice_B>Can you lend me 100 Baht, please? </choice_B>
+    <choice_C>I want to borrow 100 Baht from you. </choice_C>
+    <choice_D>Can you borrow 100 Baht from me, please? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+You want to borrow some money from your friend. &lt;br /&gt;
+คุณต้องการยืม (borrow) เงินจำนวนหนึ่งจากเพื่อนของคุณ &lt;br /&gt;
+What should you say? &lt;br /&gt;
+คุณควรจะพูดว่าอะไร&lt;br /&gt;&lt;br /&gt;
+
+1. Did you lend me 100 Baht?&lt;br /&gt;
+คุณเคยให้เงินผมยืม 100 บาท ใช่หรือไม่?&lt;br /&gt;
+2. Can you lend me 100 Baht, please? ✔&lt;br /&gt;
+คุณจะกรุณา(Can) ให้ผมยืมเงินสัก 100 บาท หรือไม่?&lt;br /&gt;
+3. I want to borrow 100 Baht from you.&lt;br /&gt;
+ผมต้องการ ... เป็นการบังคับเกินไป&lt;br /&gt;
+4. Can you borrow 100 Baht from me, please?&lt;br /&gt;
+คุณจะกรุณายืมเงินผม 100 บาท ได้หรือไม่?&lt;br /&gt;&lt;br /&gt;
+
+ใช้ Can เพื่อเป็นการขอร้องอย่างสุภาพ&lt;br /&gt;
+borrow = ขอยืม&lt;br /&gt;
+lend = ให้ยืม&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01910:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt; &lt;br /&gt;
+	
+	You are in a library. There is an empty seat next to a student. You want to sit there.  &lt;br /&gt;
+	What do you say to the student? &lt;br /&gt;
+	</question>
+    <choice_A>Is this seat empty? </choice_A>
+    <choice_B>Is this seat taken? </choice_B>
+    <choice_C>Is this seat nobody? </choice_C>
+    <choice_D>Is this seat anybody? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+ 
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+You are in a library. There is an empty seat next to a student. You want to sit there.  &lt;br /&gt;
+คุณอยู่ในห้องสมุด มีเก้าอี้ว่างที่อยู่ถัดไปจากนักเรียนคนหนึ่ง คุณต้องการนั่งที่เก้าอี้ตัวนั้น &lt;br /&gt;
+What do you say to the student? &lt;br /&gt;
+คุณจะพูดกับนักเรียนคนนั้นว่าอย่างไร &lt;br /&gt; &lt;br /&gt;
+1. Is this seat empty? &lt;br /&gt;
+2. Is this seat taken? ✔ &lt;br /&gt;
+3. Is this seat nobody? &lt;br /&gt;
+4. Is this seat anybody? &lt;br /&gt; &lt;br /&gt;
+
+ในสำนวนภาษาอังกฤษ ถ้าจะถามว่า เก้าอี้ตัวนี้ว่างไหม เขาจะใช้สำนวนว่า มีใครจองเก้านี้ตัวนี้หรือยัง ซึ่งถามเป็นภาษาอังกฤษว่า &lt;br /&gt; &lt;br /&gt;
+Is this seat taken? &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01911:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Someone asks you, "Do you mind lending me your book?". You don't want to lend him the book. &lt;br /&gt;
+What should you say?&lt;br /&gt;
+	</question>
+    <choice_A>Yes, I do mind. </choice_A>
+    <choice_B>No, not at all. </choice_B>
+    <choice_C>I'm sorry. It's not mine. </choice_C>
+    <choice_D>No, I don't mind lending you one. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+ 
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+Someone asks you, "Do you mind lending me your book?". You don't want to lend him the book. &lt;br /&gt;
+มีคนถามว่า "จะรังเกียจไหม ที่จะให้ฉันยืมหนังสือเล่มนั้น" คุณไม่ต้องการให้ยืม&lt;br /&gt;
+What should you say?&lt;br /&gt;
+คุณควรพูดว่าอะไร&lt;br /&gt;&lt;br /&gt;
+
+1. Yes, I do mind.&lt;br /&gt;
+ใช่ ผมรังเกียจ&lt;br /&gt;
+2. No, not at all.&lt;br /&gt;
+ไม่เลยครับ&lt;br /&gt;
+3. I'm sorry. It's not mine.✔&lt;br /&gt;
+เสียใจครับ มันไม่ใช่ของผม&lt;br /&gt;
+4. No, I don't mind lending you one.&lt;br /&gt;
+ไม่เลยครับ ผมไม่รังเกียจที่จะให้คุณยืมเล่มนึง&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 มีความหมายว่า รังเกียจ ไม่ให้ยืม ซึ่งไม่สุภาพมาก ๆ ไม่ควรใช้&lt;br /&gt;&lt;br /&gt;
+ข้อ 3 ถูก เพราะเป็นการตอบปฏิเสธอย่างสุภาพ ถึงแม้ว่าเหตุผลนั้น จะใช่หรือไม่ใช่ก็ตาม&lt;br /&gt;&lt;br /&gt;
+ &lt;br /&gt;
+กริยาที่ตามหลังคำว่า mind ต้องเติม ing &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01912:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Someone on the phone asks to speak to your brother. Your brother is not at home. &lt;br /&gt;
+What should you say?&lt;br /&gt;
+
+	</question>
+    <choice_A>I'm sorry. He is out. </choice_A>
+    <choice_B>Who's calling, please? </choice_B>
+    <choice_C>Just a moment, please? </choice_C>
+    <choice_D>May I know who is calling, please? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Someone on the phone asks to speak to your brother. Your brother is not at home. &lt;br /&gt;
+What should you say?&lt;br /&gt;&lt;br /&gt;
+
+1. I'm sorry. He is out. ✔ &lt;br /&gt;
+2. Who's calling, please?&lt;br /&gt;
+3. Just a moment, please?&lt;br /&gt;
+4. May I know who is calling, please? &lt;br /&gt;&lt;br /&gt;
+
+Just a moment, please. = รอสักครู่นะครับ&lt;br /&gt;&lt;br /&gt;
+
+สำนวน He is out. คือไม่อยู่นั่นเอง อาจจะใช้สำนวนอื่น ๆ อีกได้ เช่น&lt;br /&gt;&lt;br /&gt;
+
+He is not in.&lt;br /&gt;
+He is out to lunch. (เขาออกไปกินอาหารกลางวันข้างนอก)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01913:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+You want someone on the phone to leave a message. &lt;br /&gt;
+What should you say?&lt;br /&gt;
+
+	</question>
+    <choice_A>Do you want a message? </choice_A>
+    <choice_B>Do you want to write a message? </choice_B>
+    <choice_C>Do you want to leave a message?</choice_C>
+    <choice_D>Do you want me to leave a message? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+ 
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+You want someone on the phone to leave a message. &lt;br /&gt;
+คุณต้องการให้ผู้ที่โทรมา ฝากข้อความไว้ &lt;br /&gt;
+What should you &lt;br /&gt;
+คุณจะพูดว่าอะไร&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. Do you want a message? &lt;br /&gt;
+คุณต้องการข้อความหรือไม่&lt;br /&gt;
+2. Do you want to write a message?&lt;br /&gt;
+คุณต้องการเขียนข้อความหรือไม่&lt;br /&gt;
+3. Do you want to leave a message?✔&lt;br /&gt;
+คุณต้องการฝากข้อความหรือไม่&lt;br /&gt;
+4. Do you want me to leave a message?&lt;br /&gt;
+คุณต้องการให้ฉันฝากข้อความหรือไม่&lt;br /&gt;&lt;br /&gt;
+
+ในการโทรศัพท์ ถ้าต้องการฝากข้อความถึง ให้ใช้สำนวนว่า to leave a message. &lt;br /&gt;
+ถ้าจะให้สุภาพมากขึ้น ควรถามว่า &lt;br /&gt;&lt;br /&gt;
+
+Would you like to leave a message? &lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01914:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+You want someone on the phone to wait. &lt;br /&gt;
+What should you say?&lt;br /&gt;
+ 
+	</question>
+    <choice_A>Will you call back? </choice_A>
+    <choice_B>The line is busy. </choice_B>
+    <choice_C>Please call him again. </choice_C>
+    <choice_D>Hold the line, please? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+ 
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+You want someone on the phone to wait. &lt;br /&gt;
+คุณต้องการให้ผู้ที่โทรศัพท์เข้ามา รอสักครู่&lt;br /&gt;
+What should you say?&lt;br /&gt;
+คุณจะพูดว่าอะไร&lt;br /&gt;&lt;br /&gt;
+
+1. Will you call back?&lt;br /&gt;
+คุณจะโทรกลับมาใหม่หรือไม่&lt;br /&gt;
+2. The line is busy.&lt;br /&gt;
+สายไม่ว่าง&lt;br /&gt;
+3. Please call him again.&lt;br /&gt;
+กรุณาโทรมาหาเขาใหม่อีกครั้ง&lt;br /&gt;
+4. Hold the line, please? ✔&lt;br /&gt;
+กรุณาถือสายรอสักครู่&lt;br /&gt;&lt;br /&gt;
+
+นอกจากนี้ ยังสามารถใช้สำนวนอื่น ๆ ได้อีก เช่น &lt;br /&gt;
+Hang on a moment.&lt;br /&gt;
+Hold on, please.&lt;br /&gt;
+Could you hold on, please?&lt;br /&gt;&lt;br /&gt; 
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01915:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+You want to know who is calling. &lt;br /&gt;
+What should you say?&lt;br /&gt;
+
+	</question>
+    <choice_A> Who are you? </choice_A>
+    <choice_B>What is your name? </choice_B>
+    <choice_C>Can you tell me who you are? </choice_C>
+    <choice_D>May I ask who's calling?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+ 
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+You want to know who is calling. &lt;br /&gt;
+คุณต้องการทราบว่า คนที่กำลังโทรมาชื่ออะไร&lt;br /&gt;
+What should you say?&lt;br /&gt;
+คุณควรพูดว่าอะไร&lt;br /&gt;&lt;br /&gt;
+
+1. Who are you?&lt;br /&gt;
+2. What is your name?&lt;br /&gt;
+คำตอบข้อ 4 สุภาพมากกว่า ข้อนี้จึงยังไม่ถูก&lt;br /&gt;
+3. Can you tell me who you are?&lt;br /&gt;
+4. May I ask who's calling? ✔&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 4 เหมาะสมที่สุด &lt;br /&gt;&lt;br /&gt;
+อาจจะใช้สำนวนอื่น ๆ ได้อีก เช่น&lt;br /&gt;
+Who's calling, please?&lt;br /&gt;
+May I know who is calling, please?&lt;br /&gt;
+May I know who am I speaking to, please?&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01916:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Somsak: Hello. Can I talk to Suda, please?&lt;br /&gt;
+Suda: ..............................&lt;br /&gt;
+
+	</question>
+    <choice_A>Speaking. </choice_A>
+    <choice_B>Certainly. </choice_B>
+    <choice_C>Yes, you may. </choice_C>
+    <choice_D> Go on, please.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+ 
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Somsak: Hello. Can I talk to Suda, please?&lt;br /&gt;
+Suda: ..............................&lt;br /&gt;&lt;br /&gt;
+
+1. Speaking.✔ &lt;br /&gt;
+2. Certainly.&lt;br /&gt;
+3. Yes, you may.&lt;br /&gt;
+4. Go on, please.&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 เหมาะสมที่สุด&lt;br /&gt;
+นอกจากนี้ อาจจะใช้สำนวนว่า This is she/he. ก็ได้ เช่น &lt;br /&gt;
+
+Caller: Can I talk to Mike, please?&lt;br /&gt;
+Mike: This is he.&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01917:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+On the phone.&lt;br /&gt;
+John: Hello, my name is John Doe from XYZ Corporation.  May I please speak with Ms. Suda Smith?&lt;br /&gt;
+Suda: ....................................&lt;br /&gt;
+John: Hi, Suda. How are you?.&lt;br /&gt;
+	</question>
+    <choice_A>This is it. </choice_A>
+    <choice_B>It is speaking. </choice_B>
+    <choice_C>This is she. </choice_C>
+    <choice_D>My name is Suda. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+On the phone.&lt;br /&gt;
+John: Hello, my name is John Doe from XYZ Corporation.  May I please speak with Ms. Suda Smith?&lt;br /&gt;
+Suda: ....................................&lt;br /&gt;
+John: Hi, Suda. How are you?.&lt;br /&gt;&lt;br /&gt;
+
+1. This is it.&lt;br /&gt;
+2. It is speaking.&lt;br /&gt;
+3. This is she.  ✔ &lt;br /&gt;
+4. My name is Suda. &lt;br /&gt; &lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01918:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+You want a receptionist to connect you to room 232. &lt;br /&gt;
+What should you say?&lt;br /&gt;
+
+	</question>
+    <choice_A>Can you call room 232, please? </choice_A>
+    <choice_B>May I speak to room 232, please? </choice_B>
+    <choice_C>Could you put the line to room 232, please? </choice_C>
+    <choice_D>Could you put me through to room 232, please? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+You want a receptionist to connect you to room 232. &lt;br /&gt;
+คุณต้องการให้พนักงานต้อนรับ ช่วยส่งต่อโทรศัพท์ไปยังห้อง 232&lt;br /&gt;
+What should you say?&lt;br /&gt;
+คุณควรพูดว่าอะไร&lt;br /&gt;&lt;br /&gt;
+
+1. Can you call room 232, please?&lt;br /&gt;
+2. May I speak to room 232, please?&lt;br /&gt;
+3. Could you put the line to room 232, please?&lt;br /&gt;
+4. Could you put me through to room 232, please?  ✔&lt;br /&gt;
+ช่วยต่อโทรศัพท์ผมไปยังห้อง 232 หน่อยครับ&lt;br /&gt;&lt;br /&gt;
+
+Could you .....&lt;Can you connect me to room 232, please? /&gt;
+เป็นการขอร้องอย่างสุภาพ&lt;br /&gt;&lt;br /&gt;
+
+อาจจะใช้สำนวน อื่น ๆ ได้อีก เช่น&lt;br /&gt;
+Can you connect me to room 232, please?&lt;br /&gt;
+Could you connect me to room 232, please?&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01919:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Your friend is leaving for a holiday. What should you say to him before he leaves?&lt;br /&gt;
+
+	</question>
+    <choice_A>Goodbye. </choice_A>
+    <choice_B>Enjoy yourself. </choice_B>
+    <choice_C>See you later. </choice_C>
+    <choice_D>Go ahead. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+ 
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Your friend is leaving for a holiday. What should you say to him before he leaves?&lt;br /&gt;&lt;br /&gt;
+
+1. Goodbye.&lt;br /&gt;
+ลาก่อน (ใช้สำหรับการลาจากกัน โดยทั่ว ๆ ไป)&lt;br /&gt;
+2. Enjoy yourself. ✔&lt;br /&gt;
+เที่ยวให้สนุก (เหมาะที่สุด เพราะรู้ว่าเขากำลัง จะไปเที่ยวพักผ่อน)&lt;br /&gt;
+3. See you later.&lt;br /&gt;
+แล้วพบกัน (ใช้สำหรับการลาจากกัน โดยทั่ว ๆ ไป)&lt;br /&gt;
+4. Go ahead. &lt;br /&gt;
+เอาเลย&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01920:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+You are with your friends and you want to go to bed. &lt;br /&gt;
+What should you say?&lt;br /&gt;
+
+	</question>
+    <choice_A>Goodbye. </choice_A>
+    <choice_B>Good luck. </choice_B>
+    <choice_C>Good night. </choice_C>
+    <choice_D>See you later </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+You are with your friends and you want to go to bed. &lt;br /&gt;
+What should you say?&lt;br /&gt;&lt;br /&gt;
+
+1. Goodbye.&lt;br /&gt;
+2. Good luck.&lt;br /&gt;
+3. Good night. ✔&lt;br /&gt;
+4. See you later&lt;br /&gt;&lt;br /&gt;
+
+Good night ใช้บอกลาเมื่อจะไปนอน หรือ คิดว่าจะไม่พบกันอีก จนกว่าจะถึงวันใหม่&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01921:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+What should a checkout girl say to her customer before the customer leaves?&lt;br /&gt;
+
+	</question>
+    <choice_A>Goodbye. </choice_A>
+    <choice_B>See you later. </choice_B>
+    <choice_C>Have a nice trip. Thank you. </choice_C>
+    <choice_D>Thank you. Have a nice day.  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+What should a checkout girl say to her customer before the customer leaves?&lt;br /&gt;&lt;br /&gt;
+
+1. Goodbye.&lt;br /&gt;
+2. See you later.&lt;br /&gt;
+3. Have a nice trip. Thank you.&lt;br /&gt;
+4. Thank you. Have a nice day.  ✔&lt;br /&gt;&lt;br /&gt;
+
+checkout girl = พนักงานในซูเปอร์มาร์เก็ต ที่ทำหน้าที่คิดเงิน และเก็บเงิน ที่เคาน์เตอร์ ก่อนออกจากซูเปอร์มาร์เก็ต &lt;br /&gt;&lt;br /&gt;
+
+พนักงานควรขอบคุณก่อน แล้วจึงบอกว่า Have a nice day.&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01922:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+You are introduced to someone. After talking to him, you want to leave.&lt;br /&gt; 
+What should you say?&lt;br /&gt;
+
+	</question>
+    <choice_A>Goodbye. </choice_A>
+    <choice_B>Take care. </choice_B>
+    <choice_C>Nice to meet you </choice_C>
+    <choice_D>Nice meeting you. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+ ✔
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+You are introduced to someone. After talking to him, you want to leave.&lt;br /&gt;  
+What should you say?&lt;br /&gt;&lt;br /&gt;
+
+1. Goodbye.&lt;br /&gt;
+2. Take care.&lt;br /&gt;
+3. Nice to meet you.&lt;br /&gt;
+4. Nice meeting you. &lt;br /&gt;
+
+Nice to meet you. ใช้พูดทันทีที่ได้รับการ แนะนำให้รู้จักกัน &lt;br /&gt;&lt;br /&gt;
+
+Nice meeting you. ใช้พูดหลังจากที่ได้แนะนำ ให้รู้จักกัน และได้พูดคุยกันบ้างพอสมควรแล้ว ก่อนจะจากกัน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01923:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Your friend is sick. You want to give him an advice. &lt;br /&gt;
+What should you say?&lt;br /&gt;
+
+	</question>
+    <choice_A>You must see a doctor. </choice_A>
+    <choice_B>You can see a doctor. </choice_B>
+    <choice_C>You should see a doctor. </choice_C>
+    <choice_D>You have to see a doctor. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+Your friend is sick. You want to give him an advice. &lt;br /&gt;
+What should you say?&lt;br /&gt;&lt;br /&gt;
+
+1. You must see a doctor.&lt;br /&gt;
+2. You can see a doctor.&lt;br /&gt;
+3. You should see a doctor. ✔&lt;br /&gt;
+4. You have to see a doctor. &lt;br /&gt;&lt;br /&gt;
+
+must = have to = จำเป็นต้อง ไม่ใช่การเสนอแนะ แต่เป็นการบังคับว่า ต้องทำ&lt;br /&gt;&lt;br /&gt;
+
+เมื่อต้องการเสนอแนะ ควรใช้คำว่า should&lt;br /&gt;&lt;br /&gt;
+
+นอกจากคำว่า should แล้ว เรายังสามารถใช้คำ อื่นๆ เพื่อให้คำแนะนำได้อีก เช่น &lt;br /&gt;&lt;br /&gt;
+
+Why don't you ...&lt;br /&gt;
+How about...&lt;br /&gt;
+You'd better...&lt;br /&gt;&lt;br /&gt;
+
+ตัวอย่างประโยค&lt;br /&gt;&lt;br /&gt;
+
+Why don't you take a break?&lt;br /&gt;
+ทำไมไม่หยุดพักสักประเดี๋ยวนึงล่ะ&lt;br /&gt;&lt;br /&gt;
+
+How about going to the beach?&lt;br /&gt;
+ไปชายทะเลเป็นไง/ดีไหม&lt;br /&gt;&lt;br /&gt;
+
+You'd better see a doctor.&lt;br /&gt;
+คุณควรไปหาหมอดีกว่า &lt;br /&gt;
+ย่อมาจาก You had better...&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01924:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+student A: Our school is very dirty. .............................&lt;br /&gt;
+Student B : I think so, too.&lt;br /&gt;
+
+
+	</question>
+    <choice_A>Don't litter. </choice_A>
+    <choice_B>Will you stop littering? </choice_B>
+    <choice_C>Everyone should not litter. </choice_C>
+    <choice_D>Do you mind stopping littering?  </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+student A: Our school is very dirty. .............................&lt;br /&gt;
+Student B : I think so, too.&lt;br /&gt;&lt;br /&gt;
+
+1. Don't litter.&lt;br /&gt;
+2. Will you stop littering?&lt;br /&gt;
+3. Everyone should not litter.  ✔&lt;br /&gt;
+4. Do you mind stopping littering? &lt;br /&gt;&lt;br /&gt;
+
+litter = ทิ้งขยะเรี่ยราด&lt;br /&gt;&lt;br /&gt;
+
+จากคำพูดของนักเรียนคนที่ 2 ซึ่งเห็นด้วย แสดงว่า คนที่ 1 น่าจะพูดทำนองชักชวนกันว่า ทุกคนควรช่วยกันรักษาความสะอาด&lt;br /&gt;
+คำพูดชักชวน หรือเสนอแนะ ใช้คำว่า should&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01925:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+A and B are friends.&lt;br /&gt;
+A : You have been working on this for 3 hours.  ........................&lt;br /&gt;
+B : Thanks. But I have to finish it by eleven.&lt;br /&gt;
+
+	</question>
+    <choice_A>Stop working. </choice_A>
+    <choice_B>You should take a break. </choice_B>
+    <choice_C>Do you mind taking a rest? </choice_C>
+    <choice_D>You may stop working for a while. </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+A and B are friends.&lt;br /&gt;
+A : You have been working on this for 3 hours.  ........................&lt;br /&gt;
+เธอทำงานนี้มา 3 ชั่วโมงแล้วนะ .....................&lt;br /&gt;
+B : Thanks. But I have to finish it by eleven.&lt;br /&gt;
+ขอบคุณ แต่ฉันต้องทำให้เสร็จก่อน 11 โมง &lt;br /&gt;&lt;br /&gt;
+
+1. Stop working.&lt;br /&gt;
+เป็นคำสั่งให้หยุดทำงาน&lt;br /&gt;
+2. You should take a break.  ✔&lt;br /&gt;
+เป็นข้อเสนอแนะให้หยุดพัก&lt;br /&gt;
+3. Do you mind taking a rest?&lt;br /&gt;
+do you mind ใช้เมื่อต้องการขออนุญาตทำอะไรสักอย่าง &lt;br /&gt;
+Do you mind if I sit here? (ขอนั่งตรงนี้หน่อย)&lt;br /&gt;
+4. You may stop working for a while.&lt;br /&gt;
+เป็นคำอนุญาตให้หยุดทำงานได้&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id01926:date1627453500</qNum>
+    <question>&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+John: Good morning.&lt;br /&gt;
+Alan: Good morning. ...................................&lt;br /&gt;
+John: I'm very well, thank you. And you?&lt;br /&gt;
+Alan: I'm fine. Thank you for asking.&lt;br /&gt;&lt;br /&gt;
+
+	</question>
+    <choice_A>How are you? </choice_A>
+    <choice_B>How do you do? </choice_B>
+    <choice_C>How about you today? </choice_C>
+    <choice_D>Whare have you been? </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+
+&lt;strong&gt; Choose the best answer.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+John: Good morning.&lt;br /&gt;
+Alan: Good morning. ...................................&lt;br /&gt;
+John: I'm very well, thank you. And you?&lt;br /&gt;
+Alan: I'm fine. Thank you for asking.&lt;br /&gt;&lt;br /&gt;
+
+1. How are you? ✔&lt;br /&gt;
+2. How do you do?&lt;br /&gt;
+3. How about you today?&lt;br /&gt;
+4. Whare have you been? &lt;br /&gt;&lt;br /&gt;
+
+การทักทายกัน ใช้คำว่า&lt;br /&gt;
+How are you? (สบายดีหรือ?)&lt;br /&gt;
+
+นอกจากนี้ อาจจะใช้คำอื่น ๆ เช่น&lt;br /&gt;
+How are you today?&lt;br /&gt;
+How are you doing?&lt;br /&gt;
+What's up? (ใช้กับเพื่อน ๆ)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disble answer  -->
+  </thisQuestion>
+</exams>
+
+

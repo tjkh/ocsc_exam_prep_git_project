@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+  <script src="testFromFlutter.js" type="text/javascript" language="JavaScript"></script>
+</head>
+ <body>
+ <div id="abcdef">djhsdjfhjsdfh asfsdaf</div>
+ <div id="abc">djhsdjf</div>
+
+       <!-- ข้อ 2. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="tbl_q2"><strong>ข้อ 2.</strong></div>
+            <div class="question_content">ข้อความใด กล่าวได้ถูกต้องตามแผนภูมิ<br>
+
+                <br /></div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <label> <input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ณ วันที่ 8 เมษายน 2563 ประเทศญี่ปุ่น มีผู้ติดเชื้อมากเป็นอันดับที่ 3</label><br>
+            <label><input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ประเทศสิงคโปร์ มีผู้ติดเชื้อมากกว่า ประเทศญี่ปุ่น</label><br> <!--  choice_b  -->
+            <label> <input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. อินเดีย มีผู้ติดเชื้อมากที่สุด เนื่องจากขาดแคลนบุคลากรทางการแพทย์</label><br> <!-- choice_c -->
+            <label><input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ประเทศไทย มีผู้ติดเชื้อน้อยที่สุด</label><br> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="gct_ans_2" class="show_answer" onclick="hide_div_spelling('gct_ans_2')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="gct_expl_tbl_q2" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br>
+                ข้อ 3 น่าจะถูกได้ แต่ไม่ถูกเพราะ ในแผนภูมิไม่ได้บอกถึงสาเหตุของการติดเชื้อ<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 4 ถูกที่สุด<br>
+
+            </div>  <!-- gct_expl_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q2', 'ตัวเลือก ข้อ 4'); return false;" type="submit" value="ตรวจคำตอบ" />
+            
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 2 -->
+
+ </body>
+</html>

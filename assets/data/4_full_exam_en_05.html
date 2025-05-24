@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+<body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+            <!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+            <button id = "start" onclick="countDown(0,40,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+
+		</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 40 นาที
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <br><br>
+    <div id="ifNotBuy" style="display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+        <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span></br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+
+<!--  
+================= 1-5 Conversation =================
+-->
+
+
+<strong>Instruction: </strong> Choose the best answer.<br><br>
+
+<strong>สำหรับ ข้อ 1-5</strong><br><br>
+
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<strong>Ms. C:</strong> Please take a seat.<br>
+<strong>Ms. D:</strong> Thank you. ............ (1)...................<br>
+<strong>Ms. C:</strong>Which job are you applying for?<br>
+<strong>Ms. D:</strong> I'm applying for the job as ..........(2)............ <br>
+<strong>Ms. C:</strong>  .............(3).................<br>
+<strong>Ms. D:</strong> I was a computer expert at ABC Computer for 3 years. <br>
+<strong>Ms. C:</strong> Why did you leave the company?<br>
+<strong>Ms. D:</strong> ......... (4) .............<br>
+<strong>Ms C:</strong>Tell me why we should hire you.<br>
+<strong>Ms. D:</strong> ............... (5) ...............<br>
+<strong>Ms. C:</strong> I will let you know of our decision by e-mail.<br>
+<strong>Ms. D:</strong> OK, thanks for your time.<br>
+<strong>Ms. C:</strong> Nice to have met you.<br>
+
+</div>
+<br><br>
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 1. <br>
+</div>
+
+<label><input type="radio" name="q1" value="0">Nice meeting you.</label><br>
+<label><input type="radio" name="q1" value="1">I am glad to meet you.</label><br>
+<label><input type="radio" name="q1" value="0">Nice to see you.</label><br>
+<label><input type="radio" name="q1" value="0">I am applying for a job as a web designer.</label><br>
+
+
+<div class="quiz">
+ข้อ 2. <br>
+</div>
+
+<label><input type="radio" name="q2" value="0">Oh, dear.</label><br>
+<label><input type="radio" name="q2" value="1">a sales representative</label><br>
+<label><input type="radio" name="q2" value="0">a computer technical officer</label><br>
+<label><input type="radio" name="q2" value="0">an accountant</label><br>
+
+
+
+<div class="quiz">
+ข้อ 3. <br>
+</div>
+
+<label><input type="radio" name="q3" value="0">Do you have any long-term education goals?</label><br>
+<label><input type="radio" name="q3" value="0">Tell me about your educational background.</label><br>
+<label><input type="radio" name="q3" value="1">So what kind of experience do you have in this field?</label><br>
+<label><input type="radio" name="q3" value="0">Describe the duties of your previous job.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 4. <br>
+</div>
+
+<label><input type="radio" name="q4" value="0">I pay close attention to my customer’s needs.</label><br>
+<label><input type="radio" name="q4" value="0">I’m an extremely trustworthy employee.</label><br>
+<label><input type="radio" name="q4" value="1">I left for an opportunity to advance my career.</label><br>
+<label><input type="radio" name="q4" value="0">I worked for Anderson and Assoc. as a computer engineer.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 5. <br>
+</div>
+
+<label><input type="radio" name="q5" value="0">I’m looking for a job that suits my qualifications. </label><br>
+<label><input type="radio" name="q5" value="1">I think I am a great match for this position. </label><br>
+<label><input type="radio" name="q5" value="0">I want to further my career in computer programming.</label><br>
+<label><input type="radio" name="q5" value="0">I want to take on more responsibility.</label><br>
+
+</div>  <!-- qstn-div  -->
+<!--  
+================= 6-10 Vovabulary =================
+-->
+<br><strong>Instructions: </strong>Select the most appropriate choice for each item.<br /> <br />
+
+
+<div class="quiz">
+ข้อ 6. <br>
+Diamonds are .........., which is probably one of the reasons they are valuable.<br>
+</div>
+
+<label><input type="radio" name="q6" value="0">broad</label><br>
+<label><input type="radio" name="q6" value="0">flexible</label><br>
+<label><input type="radio" name="q6" value="0">talented</label><br>
+<label><input type="radio" name="q6" value="1">rare</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 7. <br>
+Lisara is ......... buying a pet but she's not sure what kind to get. <br>
+</div>
+
+<label><input type="radio" name="q7" value="0">recalling</label><br>
+<label><input type="radio" name="q7" value="1">considering</label><br>
+<label><input type="radio" name="q7" value="0">regretting</label><br>
+<label><input type="radio" name="q7" value="0">recommending</label><br>
+
+
+<div class="quiz">
+ข้อ 8. <br>
+Taweep's job ........ communicating with newspapers and magazines about his company's new products. <br>
+</div>
+
+<label><input type="radio" name="q8" value="0">appreciates</label><br>
+<label><input type="radio" name="q8" value="0">adores</label><br>
+<label><input type="radio" name="q8" value="0">regards</label><br>
+<label><input type="radio" name="q8" value="1">involves</label><br>
+
+
+
+<div class="quiz">
+ข้อ 9. <br>
+I need some money. Could you ................ me some money, please?<br>
+</div>
+
+<label><input type="radio" name="q9" value="0">borrow</label><br>
+<label><input type="radio" name="q9" value="0">rent</label><br>
+<label><input type="radio" name="q9" value="1">lend</label><br>
+<label><input type="radio" name="q9" value="0">let</label><br>
+
+
+
+<div class="quiz">
+ข้อ 10. <br>
+If you aren’t sure of a word, check .................. meaning in your dictionary.<br>
+</div>
+
+<label><input type="radio" name="q10" value="0">it's</label><br>
+<label><input type="radio" name="q10" value="1">its</label><br>
+<label><input type="radio" name="q10" value="0">their</label><br>
+<label><input type="radio" name="q10" value="0">this</label><br>
+
+
+
+
+<!--  
+================= 11-15 Grammar/Structure =================
+-->
+
+
+<div class="quiz">
+ข้อ 11. <br>
+He postponed ............... to Bangkok. <br>
+</div>
+
+<label><input type="radio" name="q11" value="0">return</label><br>
+<label><input type="radio" name="q11" value="0">to return</label><br>
+<label><input type="radio" name="q11" value="1">returning</label><br>
+<label><input type="radio" name="q11" value="0">returned</label><br>
+
+
+<div class="quiz">
+ข้อ 12. <br>
+A: I haven't seen Tom since Tuesday.<br>
+B: He's at home. He ............. his arm.<br>
+</div>
+
+<label><input type="radio" name="q12" value="0">recently breaks</label><br>
+<label><input type="radio" name="q12" value="0">is recently breaking</label><br>
+<label><input type="radio" name="q12" value="1">has recently broken</label><br>
+<label><input type="radio" name="q12" value="0">recently broke </label><br>
+
+
+
+<div class="quiz">
+ข้อ 13. <br>
+Jongkon .................. in the kitchen while Sutep ................. the cows.<br>
+</div>
+
+<label><input type="radio" name="q13" value="0">was cooking, fed</label><br>
+<label><input type="radio" name="q13" value="1">was cooking, was feeding</label><br>
+<label><input type="radio" name="q13" value="0">had cooked, fed</label><br>
+<label><input type="radio" name="q13" value="0">had cooked, had been feeding</label><br>
+
+<div class="quiz">
+ข้อ 14. <br>
+The most popular and most photographed sculptural work done ..........  Augusta Savage was probably “The Harp”, shown at the 1939-1940 New York World’s Fair.
+<br>
+</div>
+
+<label><input type="radio" name="q14" value="0">in</label><br>
+<label><input type="radio" name="q14" value="1">by</label><br>
+<label><input type="radio" name="q14" value="0">with</label><br>
+<label><input type="radio" name="q14" value="0">from</label><br>
+
+
+
+
+
+
+<div class="quiz">
+ข้อ 15. <br>
+Sarah would have made sure John was here .............. were coming too.
+. <br>
+</div>
+
+<label><input type="radio" name="q15" value="0">when she had known I</label><br>
+<label><input type="radio" name="q15" value="0">if he has known you</label><br>
+<label><input type="radio" name="q15" value="1">if she had known you</label><br>
+<label><input type="radio" name="q15" value="0">if she knew</label><br><br>
+
+
+
+<!--  
+================= 16-25 Reading 10 ข้อ =================
+-->
+<strong>สำหรับ ข้อ 16-20</strong><br><br>
+
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+A: ABC Computer. ............ (1) ................<br>
+B: Could I speak to Mr. Adams, please?<br>
+A: .........(2) .......... but the line's busy. Would you like to .... (3) ....<br>
+B: Oh, it's a shame. ............... (4) ............?<br>
+A: Certainly.<br>
+B: Could you tell Mr Adams to call me back?<br>
+A: Certainly. Could you give me your ......(5)......., please?<br>
+B: Yes, it's 032-231-245.<br>
+A: That's 032-231-245.<br>
+B: Thanks for your help. Goodbye.<br>
+A: Goodbye.
+</div>
+<br><br>
+
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 16. <br>
+</div>
+
+<label><input type="radio" name="q16" value="0">How do you do?</label><br>
+<label><input type="radio" name="q16" value="1">How can I help you?</label><br>
+<label><input type="radio" name="q16" value="0">How are you today?</label><br>
+<label><input type="radio" name="q16" value="0">Long time no see.</label><br>
+
+
+<div class="quiz">
+ข้อ 17. <br>
+</div>
+
+<label><input type="radio" name="q17" value="1">I'm sorry.</label><br>
+<label><input type="radio" name="q17" value="0">No, he is not in.</label><br>
+<label><input type="radio" name="q17" value="0">Yes, Mr. Adams is out to lunch. </label><br>
+<label><input type="radio" name="q17" value="0"> Of course. He is in a meeting. </label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 18. <br>
+</div>
+
+<label><input type="radio" name="q18" value="1">hang up </label><br>
+<label><input type="radio" name="q18" value="0">go on</label><br>
+<label><input type="radio" name="q18" value="0">hold</label><br>
+<label><input type="radio" name="q18" value="0">talk</label><br>
+
+
+<div class="quiz">
+ข้อ 19. <br>
+</div>
+
+<label><input type="radio" name="q19" value="0">Would you like to leave a message</label><br>
+<label><input type="radio" name="q19" value="0">Could you tell him that I called, please</label><br>
+<label><input type="radio" name="q19" value="1">Could I leave a message</label><br>
+<label><input type="radio" name="q19" value="0">Could you ask him to call back</label><br>
+
+
+<div class="quiz">
+ข้อ 20. <br>
+</div>
+
+<label><input type="radio" name="q20" value="1">number</label><br>
+<label><input type="radio" name="q20" value="0">address</label><br>
+<label><input type="radio" name="q20" value="0">telephone</label><br>
+<label><input type="radio" name="q20" value="0">location</label>
+
+</div>  <!--  qstn-div   -->
+<!--   21-25 อุปมา-อุปไมย 5 ข้อ   -->
+
+<br><br>
+
+<strong>สำหรับ ข้อ 21-25</strong><br><br>
+<strong>Instructions:</strong> Read the following letter and select the best answer for each item.<br><br>
+
+<div class="qstn-div">
+To,<br>
+Bane Hudson<br>
+Recruitment Manager<br>
+Glen Technologies Limited<br>
+45 Off Shore Road<br>
+South Carolina, North Dakota 8902<br><br>
+
+Dated: 21st of May 2019<br><br>
+
+Subject: Letter for the position of a technical assistant<br><br>
+
+Dear Mr. Hudson,<br><br>
+
+I came across the information posted by your company website regarding the vacancy in the position of a technical assistant. I would like to apply for the particular job position as I believe that I have skills and knowledge required for this job position.<br><br>
+
+I have always been keen in being a part of your organization. I have been working in the technical field since last four years and have three years of work experience in the position of a technical assistant. I am currently working with GL Technologies Limited since last two years in similar position. In my present job, I have to take notes as advised by the technical person I am assisting. I have to attend to the needs of the employees and try to solve the technical problem they are facing.<br><br>
+
+I can assure you that I have excellent technical skills. My contact details are mentioned in my resume that I am enclosing. I am looking forward to get a positive reply from your end.<br><br>
+
+Regards,<br><br>
+
+Jack Sparrow<br><br>
+
+<font size=1>From: https://www.sampleletters.org/technical-assistant-cover-letter.html
+</font>
+
+
+
+</div>  <!--  qstn-div  -->
+
+<br><br>
+<div class="qstn-div">
+
+<div class="quiz">
+ข้อ 21. <br>
+What is the purpose of this letter?
+</div>
+
+<label><input type="radio" name="q21" value="1">To apply for a job. </label><br>
+<label><input type="radio" name="q21" value="0">To offer a job vacancy for technical assistant.</label><br>
+<label><input type="radio" name="q21" value="0">To submit a resume.</label><br>
+<label><input type="radio" name="q21" value="0">To assure that he has excellent technical skills.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 22. <br>
+Who is Mr. Hudson?</div>
+
+<label><input type="radio" name="q22" value="0">a technical person</label><br>
+<label><input type="radio" name="q22" value="0">a job applicant </label><br>
+<label><input type="radio" name="q22" value="1">a recruitment manager</label><br>
+<label><input type="radio" name="q22" value="0">CEO of Glen Technologies Limited</label><br>
+
+
+
+<div class="quiz">
+ข้อ 23. <br>
+How did Sparrow find the advertisement?
+</div>
+
+<label><input type="radio" name="q23" value="0">on a newspaper </label><br>
+<label><input type="radio" name="q23" value="0">a job notice on a bulletin board</label><br>
+<label><input type="radio" name="q23" value="1">on a website</label><br>
+<label><input type="radio" name="q23" value="0">He came across the advertisment by chance.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 24. <br>
+What does the word "position" in  "to apply for the particular job position" refer to?
+</div>
+<label><input type="radio" name="q24" value="0">recruitment manager</label><br>
+<label><input type="radio" name="q24" value="1">technical assistant</label><br>
+<label><input type="radio" name="q24" value="0">technical person</label><br>
+<label><input type="radio" name="q24" value="0">tecnical assistant at GL Technologies Limited</label><br>
+
+
+
+
+
+
+<div class="quiz">
+ข้อ 25. <br>
+What is <strong>NOT</strong> related to Saparrow's present job?
+</div>
+<label><input type="radio" name="q25" value="0">taking notes</label><br>
+<label><input type="radio" name="q25" value="0">paying attention to employee's needs</label><br>
+<label><input type="radio" name="q25" value="0">solving technical problems of employees</label><br>
+<label><input type="radio" name="q25" value="1">assisting a technical person to solve technical problems</label><br>
+
+</div>  <!--  qstn-div  -->
+
+
+
+<br>
+<input id="send" type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+</div>
+
+</div>  <!--  end of div content  -->
+
+  <script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

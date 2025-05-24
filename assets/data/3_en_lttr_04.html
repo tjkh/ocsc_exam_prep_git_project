@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+
+  <title>Document</title>
+ </head>
+ <body>
+ <!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+ <div id="myModal" class="modal">
+     <!-- Modal content -->
+     <div class="modal-content">
+         <div class="modal-header">
+             <span class="close">×</span>
+             <strong>เตรียมสอบ ก.พ.</strong>
+         </div>
+         <div class="modal-body">
+             <p id= "myMessage">Place holder for text..</p>
+             <input type = "button"  value = "เริ่มใหม่"  onclick = "startOver();" />
+             <input  style="float: right;" type = "button"  value = "ทำต่อ"  onclick = "goCont();"/>
+         </div>
+         <div class="modal-footer">
+             http://www.thongjoon.com
+         </div>
+     </div>
+ </div>
+
+ <script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div class="upper" id="top">
+<!-- ข้อ 1. -->
+    <div class="isNew">id1641711009:date1641710989</div>
+<strong>สำหรับ ข้อ 1-5</strong><br><br>
+<strong>Instructions:</strong> Read the following letter and select the best answer for each item.<br><br>
+Mr. Bill Stevenson <br>
+General Manager<br>
+XYZ Company<br>
+456 Somewhere Road <br>
+Tallahasee, Fla 32306<br><br>
+
+15 September 2019<br><br>
+
+David Jones <br>
+123 Anywhere Street <br>
+Tallahasee, Fla 32306<br><br>
+
+
+Dear Mr. Jones:<br><br>
+
+We <div class="tooltip">address<span class="tooltiptext">ในที่นี้หมายถึง จัดทำจดหมายนี้ <br>address=จ่าหน้าซองจดหมาย กล่าว พูดกับ เป็นต้น</span></div> this letter to <div class="tooltip">deeply apologize<span class="tooltiptext"> ขออภัยอย่างสุดซึ้ง</span></div> for the difficulty you have faced in terms of the <div class="tooltip">shipment of the goods<span class="tooltiptext">การส่งสินค้าชิ้นนั้น</span></div>. The goods under the order no. 369 that reached your door step on the 16th April turned out to be <div class="tooltip">defective<span class="tooltiptext">มีข้อบกพร่อง มีจุดเสีย</span></div>. We do understand your <div class="tooltip">disappointment<span class="tooltiptext">ความผิดหวัง</span></div> in us; we deeply <div class="tooltip">regret<span class="tooltiptext">เสียใจ</span></div> your <div class="tooltip">inconvenience<span class="tooltiptext"> ความไม่สะดวก</span></div>.<br><br>
+
+Our products are shipped only after checking with the quality. Our products are always <div class="tooltip">high quality products<span class="tooltiptext">ผลิตภัณฑ์ที่มีคุณภาพสูง</span></div>. The problem that you had to face <div class="tooltip">cropped up<span class="tooltiptext">เกิดขึ้นโดยไม่คาดคิด</span></div> <div class="tooltip">due to<span class="tooltiptext"> เนื่องมาจาก เกิดขึ้นเพราะ</span></div> the <div class="tooltip">loop holes<span class="tooltiptext">ช่องโหว่</span></div> in our <div class="tooltip">administrative<span class="tooltiptext">เกี่ยวกับการบริหาร</span></div> department who shipped the products without any check.<br><br>
+
+We have already <div class="tooltip">dispatched<span class="tooltiptext">ส่ง</span></div> a new product for you from our end. We hope to bring in best quality <div class="tooltip">throughout<span class="tooltiptext">ตลอดทั้งหมด</span></div>.<br><br>
+
+If you have faced any other form of inconvenience, please feel free to contact us.<br><br>
+
+Sincerely,<br><br>
+
+XXX<br>
+Bill Stevenson<br>
+
+  </div>
+
+  <div class="lower">
+<form action="#">
+<div class="question_num"   id="lng_Lttr4_q_number_1"><strong>ข้อ 1.</strong></div>
+<div class="question_content">
+What is the purpose of this letter?
+</div>
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnLttr3_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. To apologize for the faulty product. </label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnLttr3_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. To explain to Mr. Jones why he got the defective product.</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnLttr3_q1" type="radio" value="ตัวเลือก ข้อ 3" />3. To assure Mr. Jones that he will get a good product. </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnLttr3_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. To dispatch a new product to Mr. Jones. </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnLttr3_ans_01" class="show_answer" onclick="hide_div_spelling('lngEnLttr3_ans_01')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnLttr3_q1" class="explanation" style="display:none">
+What is the purpose of this letter?<br>
+จุดประสงค์ของจดหมายนี้ คืออะไร<br><br>
+จุดประสงค์ของจดหมายธุรกิจส่วนใหญ่ มักจะอยู่ย่อหน้าแรก และมักจะย้ำอีกครั้งในย่อหน้าสุดท้าย สำหรับจดหมายฉบับนี้ อยู่ที่ประโยคแรก คือ<br>
+We address this letter to deeply apologize for the difficulty you have faced in terms of the shipment of the goods.<br>
+เราเขียนจดหมายนี้ เพื่อขอโทษ (apologize) อย่างสุดซึ้ง ที่ท่านได้ประสบ(faced)กับปัญหา (difficulty) เกี่ยวกับการส่งสินค้านั้น (the shipment of the goods)<br><br>
+
+  1. To apologize for the faulty product. &#x2714;<br>
+เพื่อขอโทษเกี่ยวกับสินค้ามีจุดบกพร่อง<br><br>
+  2. To explain to Mr. Jones why he got the defective product.<br>
+เพื่ออธิบาย ให้แก่  Mr. Jones ถึงสาเหตุที่ทำให้ได้รับสินค้าที่มีมีจุดบกพร่อง<br><br>
+  3. To assure Mr. Jones that he will get a good product.<br>
+เพื่อยืนยันแก่ Mr. Jones ว่า จะได้รับสินค้าที่ดี<br><br>
+  4. To dispatch a new product to Mr. Jones.<br>
+เพื่อจัดส่งสินค้าใหม่ ให้แก่  Mr. Jones<br><br>
+
+คำตอบคือ ข้อ 1<br><br />
+
+สาระสำคัญของจดหมาย<br><br>
+เรียน คุณโจนส์<br><br>
+เราเขียนจดหมายนี้ เพื่อขอโทษ (apologize) อย่างสุดซึ้ง ที่ท่านได้ประสบ(faced)กับปัญหา (difficulty) เกี่ยวกับการส่งสินค้านั้น (the shipment of the goods) สินค้า ตามคำสั่งซื้อที่ 369 ซึ่งไปถึงหน้าประตูบ้านท่าน เมื่อวันที่ 16 เมษายน มีสภาพชำรุด ไม่สมบูรณ์ (defective) เราเข้าใจความผิดหวังของท่านที่มีต่อพวกเรา เราเสียใจอย่างสุดซึ้ง ต่อความไม่สะดวกของท่าน (inconvenience)<br><br>
+
+สินค้าของเราจะถูกส่งออกไป(are shipped) หลังจากที่ได้รับการตรวจคุณภาพ (quality) แล้วเท่านั้น (only) โดยปกติ สินค้าของเรา เป็นสินค้าที่มีคุณภาพสูง (high quality products) ปัญหาที่ท่านประสบ มีสาเหตุเนื่องมาจาก (due to) ช่องโหว่ในฝ่ายบริหารของเรา ซึ่งจัดส่งสินค้า โดยไม่ได้ตรวจสอบ (without any check)<br><br>
+
+เราได้จัดส่ง (dispatched) สินค้าใหม่ให้ท่านแล้ว เราหวังว่าจะนำมาซึ่งสินค้าที่มีคุณภาพที่ดีที่สุด โดยตลอด ตั้งแต่ต้นจนจบ<br><br>
+
+ถ้าท่านประสบกับความไม่สะดวกอื่น ๆ (any other form of inconvenience) โปรดอย่าได้กังวลใจ (feel free) ในการติดต่อ (contact)เรา<br><br>
+
+ขอแสดงความนับถือ<br><br>
+</div>  <!-- lgEnLttr3_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr3_q1', 'ตัวเลือก ข้อ 1', 'lngEnLttr3_ans_01', 'yes', '1641711009', 'lng_Lttr4_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_1" onclick="show_hide_expl('lgEnLttr3_q1', 'lngLttr_1', 'lng_Lttr4_q_number_1','yes' ,'yes'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- ข้อ 2. -->
+
+<form action="#">
+<div class="question_num"   id="lng_Lttr4_q_number_2"><strong>ข้อ 2.</strong></div>
+<div class="question_content">
+When was the product delivered to Mr. Jones? 
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col_1Col"><label> <input name="longEnLttr3_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 15th  of September</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnLttr3_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 15th of April</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnLttr3_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 16th of September</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnLttr3_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 16th of April </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnLttr3_ans_02" class="show_answer" onclick="hide_div_spelling('lngEnLttr3_ans_02')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnLttr3_q2" class="explanation" style="display:none">
+
+When was the product delivered to Mr. Jones? <br>
+สินค้าส่งไปถึง Mr. Jones เมื่อไร<br><br>
+  1. 15th of September<br><br>
+
+  2. 15th of April<br><br>
+
+  3. 16th of Septembe<br><br>
+
+  4. 16th of April &#x2714;<br><br>
+
+The goods under the order no. 369 that reached your door step on the 16th April  ... <br><br>
+
+คำตอบคือ ข้อ 4<br><br>
+</div>  <!-- lgEnLttr3_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr3_q2', 'ตัวเลือก ข้อ 4', 'lngEnLttr3_ans_02', 'yes', '1641711009', 'lng_Lttr4_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_2" onclick="show_hide_expl('lgEnLttr3_q2', 'lngLttr_2', 'lng_Lttr4_q_number_2','yes'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+<!-- จบข้อ 2 -->
+
+<!-- ข้อ 3. -->
+<form action="#">
+<div class="question_num"   id="lng_Lttr4_q_number_3"><strong>ข้อ 3.</strong></div>
+<div class="question_content">
+Who was this letter addressed to?
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+<div class="choice_num_1Col"><label><input name="longEnLttr3_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Mr. Jones </label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnLttr3_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Mr. Stevenson </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnLttr3_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. General Manager  </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnLttr3_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. XYZ Company</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnLttr3_ans_03" class="show_answer" onclick="hide_div_spelling('lngEnLttr3_ans_03')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnLttr3_q3" class="explanation" style="display:none">
+
+Who was this letter addressed to?<br>
+จดหมายฉบับนี้ ส่งถึงใคร<br><br>
+
+1. Mr. Jones &#x2714;<br>
+2.  Mr. Stevenson<br>
+3. General Manager<br>
+4. XYZ Compan<br><br>
+
+คำตอบที่ถูกคือ ข้อ 1<br><br>
+
+</div>  <!-- lgEnLttr3_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr3_q3', 'ตัวเลือก ข้อ 1', 'lngEnLttr3_ans_03', 'no', '1641711009', 'lng_Lttr4_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_3" onclick="show_hide_expl('lgEnLttr3_q3', 'lngLttr_3', 'lng_Lttr4_q_number_3','no'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 3 -->
+
+<!-- ข้อ 4. -->
+
+<form action="#">
+<div class="question_num"   id="lng_Lttr4_q_number_4"><strong>ข้อ 4.</strong></div>
+<div class="question_content">
+What was the cause of the problem?
+</div>
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnLttr3_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. The products were shipped only after checking with the quality.</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnLttr3_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. The products were always high quality products. </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnLttr3_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. The products were not checked before shipping. </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnLttr3_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. The products were not dispatched on time.</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnLttr3_ans_04" class="show_answer" onclick="hide_div_spelling('lngEnLttr3_ans_04')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnLttr3_q4" class="explanation" style="display:none">
+What was the cause of the problem?<br>
+อะไรคือต้นเหตุของปัญหา<br><br>
+1. The products were shipped only after checking with the quality.<br>
+สินค้าจะถูกส่ง ต่อเมื่อได้รับการตรวจสอบแล้วเท่านั้น<br><br>
+2. The products were always high quality products. <br>
+สินค้า เป็นสินค้าที่มีคุณภาพสูง<br><br>
+3. The products were not checked before shipping.  &#x2714;<br>
+สินค้าไม่ได้รับการตรวจสอบ ก่อนส่ง<br><br>
+4.The products were not dispatched on time.<br>
+สินค้าไม่ได้ส่งตามกำหนด<br><br>
+
+ข้อ 3 เป็นข้อที่ถูก<br><br>
+</div>  <!-- lgEnLttr3_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr3_q4', 'ตัวเลือก ข้อ 3', 'lngEnLttr3_ans_04', 'yes', '1641711009', 'lng_Lttr4_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_4" onclick="show_hide_expl('lgEnLttr3_q4', 'lngLttr_4', 'lng_Lttr4_q_number_4','no'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 4 -->
+
+<!-- ข้อ 5. -->
+
+<form action="#">
+<div class="question_num"   id="lng_Lttr4_q_number_5"><strong>ข้อ 5.</strong></div>
+<div class="question_content">
+What should Mr. Jones do if he finds another problem about the products?
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnLttr3_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Reject the products</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnLttr3_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Send the products back to the company.</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnLttr3_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Inform the company. </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnLttr3_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Get money back.</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnLttr3_ans_05" class="show_answer" onclick="hide_div_spelling('lngEnLttr3_ans_05')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnLttr3_q5" class="explanation" style="display:none">
+
+What should Mr. Jones do if he finds another problem about the products?<br>
+Mr. Jones ควรทำอย่างไร ถ้าพบปัญหาอีกปัญหาเกี่ยวกับสินค้านั้น<br><br>
+
+1. Reject the products<br>
+ปฏิเสธสินค้านั้น<br><br>
+2. Send the products back to the company.<br>
+ส่งสินค้าคืนบริษัท<br><br>
+3. Inform the company. &#x2714;<br>
+แจ้งบริษัท คือทำตามที่บริษัทบอกไว้ ตอนท้ายจดหมาย<br>
+If you have faced any other form of inconvenience, please feel free to contact us.<br><br>
+
+4. Get money back.<br>
+ขอเงินคืน<br><br>
+
+
+ข้อที่ถูกคือ ข้อ 3<br><br>
+</div>  <!-- lgEnLttr3_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr3_q5', 'ตัวเลือก ข้อ 3', 'lngEnLttr3_ans_05', 'yes', '1641711009', 'lng_Lttr4_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_5" onclick="show_hide_expl('lgEnLttr3_q5', 'lngLttr_5', 'lng_Lttr4_q_number_5','no'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 5 -->
+
+  </div>  <!--  lower  -->
+ <script src="check_and_feedback_new.js" type="text/javascript" language="JavaScript"></script>
+ </body>
+</html>

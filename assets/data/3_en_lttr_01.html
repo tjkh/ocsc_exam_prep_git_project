@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+  <title>Document</title>
+
+ </head>
+ <body>
+ <!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+ <div id="myModal" class="modal">
+     <!-- Modal content -->
+     <div class="modal-content">
+         <div class="modal-header">
+             <span class="close">×</span>
+             <strong>เตรียมสอบ ก.พ.</strong>
+         </div>
+         <div class="modal-body">
+             <p id= "myMessage">Place holder for text..</p>
+             <input type = "button"  value = "เริ่มใหม่"  onclick = "startOver();" />
+             <input  style="float: right;" type = "button"  value = "ทำต่อ"  onclick = "goCont();"/>
+         </div>
+         <div class="modal-footer">
+             http://www.thongjoon.com
+         </div>
+     </div>
+ </div>
+
+ <script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<a name="conver_1"></a> 
+  <div class="upper" id="top">
+<!-- ข้อ 1. -->
+<div class="isNew">id1641711006:date1641710989</div>
+<strong>สำหรับ ข้อ 1-5</strong><br><br>
+<strong>Instructions:</strong> Read the following letter and select the best answer for each item.<br><br>
+Ms. Joan Rice <br>
+Purchasing Manager <br>
+BB Publisher Company <br>
+Sector 10, Faridabad - 121000 <br><br>
+
+December 11, 2019<br><br>
+
+Mr. Norman Campbell <br>
+President<br>
+New Printech Company Sector - 17, Faridabad – 12190<br><br>
+
+Dear Mr. Campbell,<br><br>
+
+I write to you <div class="tooltip">on behalf of<span class="tooltiptext">on behalf of = ในนามของ</span></div> the company to cancel <div class="tooltip">our order of<span class="tooltiptext">on behalf of = คำสั่งซื้อของเราเกี่ยวกับ</span></div> ten printers from your company. The printer that you have <div class="tooltip">delivered<span class="tooltiptext">delivered = ที่ได้จัดส่งมาให้</span></div> to us for one-week <div class="tooltip">trial<span class="trial = tooltiptext">ทดลองใช้</span></div> has not been <div class="tooltip">performing<span class="tooltiptext">performing = การทำงาน</span></div> well. Some functions <div class="tooltip">specified<span class="tooltiptext">specified = ระบุ</span></div> in the brochure are poorly done by the printers. In addition, we have been experiencing problems of frequent paper jams and <div class="tooltip">ink blots<span class="tooltiptext">ink blots = หมึกเลอะ</span></div>. Our technicians have already checked and <div class="tooltip">repaired<span class="tooltiptext">repaired = ซ่อม</span></div> the printer but the problem <div class="tooltip">persists<span class="tooltiptext">persists = ยังคงอยู่</span></div>.<br><br>
+We have decided to buy another model of printers from your company. Please send us the brochures and the prices of your new model of printers. Our sales manager will conduct other details of this business with you.<br><br>
+
+Sincerely,<br><br>
+
+XXXXXX<br>
+Ms. Joan Rice<br><br>
+
+  </div>
+
+  <div class="lower">
+<form action="#">
+<div class="question_num"   id="lng_Lttr1_q_number_1"><strong>ข้อ 1.</strong></div>
+<div class="question_content">
+The purpose of this letter is to                   .
+</div>
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. return the printers that have been used </label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ask for technician and order more printers</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 3" />3. stop the order of ten printers and choose another model </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnLttr1_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. complain that printers are not the model specified in the brochure </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnLttr1_ans_01" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_01')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnLttr1_q1" class="explanation" style="display:none">
+The purpose of this letter is to                   .<br>
+จุดประสงค์ของจดหมายนี้คือ ..........<br><br>
+  1. return the printers that have been used<br>
+  (คืนเครื่องพิมพ์ที่ใช้แล้ว)<br><br>
+  2. ask for technician and order more printer<br>
+  (ขอช่าง และสั่งเครื่องพิมพ์เพิ่ม)<br><br>
+  3. stop the order of ten printers and choose another model &#x2714;<br>
+  (หยุดคำสั่งซื้อเครื่องพิมพ์ จำนวน 10 เครื่อง และเลือกรุ่นอื่น)<br><br>
+  4. complain that printers are not the model specified in the brochure<br>
+(ต่อว่า เครื่องพิมพ์ไม่ใช่รุ่นที่ระบุไว้ในแผ่นพับ)<br><br>
+
+คำตอบคือ ข้อ 3<br><br />
+
+สาระสำคัญของจดหมาย<br><br>
+
+ข้าพเจ้าเขียนจดหมายนี้ ในนามของบริษัท (BB Publisher Company) เพื่อยกเลิก (cancel) คำสั่งซื้อ (order) เครื่องพิมพ์ จำนวน 10 เครื่อง จากบริษัทของท่าน เครื่องพิมพ์ที่ท่านได้จัดส่งมาให้ เพื่อการทำลองใช้ เป็นเวลา 1 สัปดาห์ (one-week trial) ใช้งานได้ไม่ดี การทำงาน (functions) บางอย่าง ตามที่ระบุไว้ใสแผ่นปลิว ทำงานได้ไม่ดี นอกจากนี้ (In addition) เรายังพบปัญหากระดาษติด (paper jams) และ หมึกเลอะเป็นจุด ๆ (ink blots) ค่อนข้างบ่อย ซึ่งทางช่างเทคนิคของเราได้ตรวจสอบและ ซ่อม แต่ปัญหาก็ยังคงมีอยู่ (persists)<br><br>
+เราได้ตัดสินใจที่จะซื้อเครื่องพิมพ์รุ่นอื่นจากบริษัทของท่าน กรุณาส่งแผ่นปลิว พร้อมทั้งราคาเครื่องพิมพ์รุ่นใหม่ ผู้จัดการฝ่ายขายของเรา จะติดต่อดำเนินการในรายละเอียดต่อไป<br><br>
+
+
+</div>  <!-- lgEnLttr1_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q1', 'ตัวเลือก ข้อ 3', 'lngEnLttr1_ans_01', 'yes', '1641711006', 'lng_Lttr1_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_1" onclick="show_hide_expl('lgEnLttr1_q1', 'lngLttr_1', 'lng_Lttr1_q_number_1' ,'yes'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- ข้อ 2. -->
+
+<form action="#">
+<div class="question_num"   id="lng_Lttr1_q_number_2"><strong>ข้อ 2.</strong></div>
+<div class="question_content">
+What is NOT the problem of the one-week trial printer?
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col_1Col"><label> <input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. It puts ink spots on the paper.</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. The paper sticks in the printer. </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Some functions do not work well.</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnLttr1_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. The printer was not delivered on time. </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnLttr1_ans_02" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_02')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnLttr1_q2" class="explanation" style="display:none">
+
+What is NOT the problem of the one-week trial printer?<br>
+(อะไรที่ ไม่ใช่ปัญหา จากการทดลองใช้เป็นเวลา 1 สัปดาห์)<br><br>
+  1. It puts ink spots on the paper.<br>
+  (มีหมึกเป็นจุด ๆ บนกระดาษ)<br>
+  we have been experiencing problems of frequent ink blots<br>
+ ink blots = หมึกเลอะเป็นจุด ๆ<br><br>
+
+  2. The paper sticks in the printer.<br>
+  (กระดาษติดในเครื่องพิมพ์)<br>
+  we have been experiencing problems of frequent paper jams<br>
+ paper jams = กระดาษติด<br><br>
+
+  3. Some functions do not work well.<br>
+  (การทำงานบางอย่าง ทำได้ไม่ดี)<br>
+  Some functions specified in the brochure are poorly done by the printers.<br><br>
+
+  4. The printer was not delivered on time &#x2714;<br>
+  (เครื่องพิมพ์ไม่ได้จัดส่งมาตรงตามเวลาที่กำหนด)<br>
+  ข้อนี้ ไม่มีกล่าวถึง บอกแต่เพียงว่า ส่งมาให้ทดลองใช้ 1 สัปดาห์ จึงเข้าใจว่า น่าจะส่งมาตามกำหนด<br><br>
+
+คำตอบคือ ข้อ 4<br>
+</div>  <!-- lgEnLttr1_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q2', 'ตัวเลือก ข้อ 4', 'lngEnLttr1_ans_02', 'yes', '1641711006', 'lng_Lttr1_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_2" onclick="show_hide_expl('lgEnLttr1_q2', 'lngLttr_2', 'lng_Lttr1_q_number_2','yes'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+<!-- จบข้อ 2 -->
+
+<!-- ข้อ 3. -->
+<form action="#">
+<div class="question_num"   id="lng_Lttr1_q_number_3"><strong>ข้อ 3.</strong></div>
+<div class="question_content">
+The word “frequent”  means ........
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+<div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. clear </label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. happening often </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. serious  </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnLttr1_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. broken </label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnLttr1_ans_03" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_03')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnLttr1_q3" class="explanation" style="display:none">
+
+The word “frequent” means ..... <br>
+(คำว่า "frequent") แปลว่า ........<br><br>
+
+1. clear = เคลีย ว่างเปล่า<br>
+2. happening often = เกิดขึ้นบ่อย &#x2714;<br>
+3. serious = ร้ายแรงมาก<br>
+4. broken = แตก หัก พัง เสียหาย<br><br>
+
+คำตอบที่ถูกคือ ข้อ 2<br>
+
+</div>  <!-- lgEnLttr1_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q3', 'ตัวเลือก ข้อ 2', 'lngEnLttr1_ans_03', 'yes', '1641711006', 'lng_Lttr1_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_3" onclick="show_hide_expl('lgEnLttr1_q3', 'lngLttr_3', 'lng_Lttr1_q_number_3','yes'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 3 -->
+
+<!-- ข้อ 4. -->
+
+<form action="#">
+<div class="question_num"   id="lng_Lttr1_q_number_4"><strong>ข้อ 4.</strong></div>
+<div class="question_content">
+What happened after the technicians had tried to repair the printer ?
+</div>
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. The printer was fixed. </label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. The problems were not solved. </label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. The technicians ordered new printers. </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnLttr1_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. The printer was sent back to New Printech Company.</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnLttr1_ans_04" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_04')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnLttr1_q4" class="explanation" style="display:none">
+What happened after the technicians had tried to repair the printer ?<br>
+(อะไรเกิดขึ้น หลังจากที่ช่างได้พยายามซ่อมเครื่องพิมพ์)<br><br>
+1. The printer was fixed.<br>
+(เครื่องพิมพ์ได้รับการซ่อมแล้ว - คือใช้งานได้นั่นเอง)<br><br>
+2. The problems were not solved. &#x2714;<br>
+(ปัญหายังไม่ได้รับการแก้ไข)<br>
+Our technicians have already checked and repaired the printer but the problem persists.<br>
+problem persists = ปัญหายังคงอยู่<br><br>
+3. The technicians ordered new printers.<br>
+(ช่างสั่งซื้อเครื่องพิมพ์ชุดใหม่)<br><br>
+4. The printer was sent back to New Printech Company.<br>
+(เครื่องพิมพ์ถูกส่งกลับไปยังบริษัท New Printech Company)<br><br>
+
+ข้อ 2 เป็นข้อที่ถูก<br>
+</div>  <!-- lgEnLttr1_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q4', 'ตัวเลือก ข้อ 2', 'lngEnLttr1_ans_04', 'yes', '1641711006', 'lng_Lttr1_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_4" onclick="show_hide_expl('lgEnLttr1_q4', 'lngLttr_4', 'lng_Lttr1_q_number_4','yes'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 4 -->
+
+<!-- ข้อ 5. -->
+
+<form action="#">
+<div class="question_num"   id="lng_Lttr1_q_number_5"><strong>ข้อ 5.</strong></div>
+<div class="question_content">
+Which of the following statements is TRUE ?
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Ms. Joan wanted to get a refund from New Printech Company.</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Ms. Joan asked the printer company to send a technician to fix ten printers.</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Ms. Joan wanted to get the brochures and the price list of new model of printers. </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnLttr1_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Ms. Joan ordered a wrong model of ten printers and wanted to change the order.</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnLttr1_ans_05" class="show_answer" onclick="hide_div_spelling('lngEnLttr1_ans_05')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnLttr1_q5" class="explanation" style="display:none">
+
+Which of the following statements is TRUE ?<br><br>
+1. Ms. Joan wanted to get a refund from New Printech Company.<br>
+Ms. Joan ต้องการคืนเครื่องพิมพ์และรับเงินคืน (refund)<br><br>
+2. Ms. Joan asked the printer company to send a technician to fix ten printers.<br>
+Ms. Joan ขอให้บริษัทส่งช่างมาซ่อมเครื่องพิมพ์<br><br>
+3. Ms. Joan wanted to get the brochures and the price list of new model of printers. &#x2714;<br>
+Ms. Joan ขอแผ่นปลิวเครื่องพิมพ์รุ่นใหม่ พร้อมทั้งราคา<br>
+ Please send us the brochures and the prices of your new model of printers.<br><br>
+4. Ms. Joan ordered the wrong model of ten printers and wanted to change the order.<br>
+Ms. Joan สั่งซื้อเครื่องพิมพ์ผิดรุ่น จำนวน 5 เครื่อง และต้องการเปลี่ยนคำสั่งซื้อ (เขาไม่ได้สั่งซื้อผิด แต่รุ่นที่สั่ง ทำงานไม่ดี จึงขอเปลี่ยน)<br><br>
+
+
+ข้อที่ถูกคือ ข้อ 3<br>
+</div>  <!-- lgEnLttr1_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnLttr1_q5', 'ตัวเลือก ข้อ 3', 'lngEnLttr1_ans_05', 'no', '1641711006', 'lng_Lttr1_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" />
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngLttr_5" onclick="show_hide_expl('lgEnLttr1_q5', 'lngLttr_5', 'lng_Lttr1_q_number_5','no'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 5 -->
+
+  </div>  <!--  lower  -->
+
+ <script src="check_and_feedback_new.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

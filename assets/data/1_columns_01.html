@@ -1,0 +1,2039 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="mystyle_show_hide_div.css">
+
+
+    <title>สดมภ์</title>
+</head>
+<body>
+<!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+            <strong>เตรียมสอบ ก.พ.</strong>
+        </div>
+        <div class="modal-body">
+            <p id= "myMessage">Place holder for text..</p>
+            <input type = "button"  value = "เริ่มใหม่"  onclick = "startOver();" />
+            <input  style="float: right;" type = "button"  value = "ทำต่อ"  onclick = "goCont();"/>
+        </div>
+        <div class="modal-footer">
+            https://www.thongjoon.com
+        </div>
+    </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<!--
+<p>Click the button to display an alert box.</p>
+<button onclick="checkVersion()">Try it</button>
+<p>
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+-->
+
+<div class="quiz_container2"  id="top"><br>
+    <strong>แนวข้อสอบสดมภ์</strong><br><br>
+ข้อสอบ ก.พ. ปีหลัง ๆ ตั้งแต่ปี 2564 เป็นต้นมา ได้ เปลี่ยนรูปแบบลักษณะข้อสอบสดมภ์ เป็น
+    โจทย์คำถามธรรมดา เช่น<br> ถ้า 4 * 6 = 38  และ  9 * 2 = 7 แล้ว 10 * 12 มีค่าเท่ากับเท่าใด<br><br>
+    จะเห็นการหาคำตอบต้องใช้วิธีการทางคณิตศาสตร์ เช่นเดียวกับสดมภ์ ดังนั้น การฝึกคิดหาคำตอบจึงเป็นทักษะที่ควรฝึกเอาไว้ด้วย เพื่อให้เกิดทักษะการคิด ซึ่งจะเป็นประโยชน์มากในการสอบ ก.พ. <br><br>
+    <strong>คำชี้แจง</strong><br><br>
+    ให้พิจารณาข้อมูลทางปริมาณที่กำหนดให้ 2 จำนวน ปริมาณแรกอยู่สดมภ์ ก. และ อีกปริมาณอยู่สดมภ์ ข. แล้วเปรียบเทียบ 2 สดมภ์นี้ โดยมีสดมภ์ ค. เป็นข้อมูลเพิ่มเติม แล้วตอบโดยยึดหลักเกณฑ์ดังนี้<br><br>
+
+    ตอบ 1 หากค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.<br>
+    ตอบ 2 หากค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข.<br>
+    ตอบ 3 หากค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข.<br>
+    ตอบ 4 หากไม่สามารถสรุปได้ว่า ค่าในสดมภ์ใดมีค่ามากกว่ากัน<br><br>
+
+
+
+    <!-- ข้อ 1. -->
+    <div class="item_container">
+        <div class="isNew">id1608958085:date1641452855</div> <!-- 1608958085 ต้องตรงกับที่ส่งไปใน checkAns  -->
+        <form action="#">
+            <div class="question_num"  id="column_q1"><strong>ข้อ 1.</strong></div>
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">
+<span class="frac">A<span class="symbol">/</span><span class="bottom">5</span>
+</span> </td><td class="alignCenter"><span class="frac">B<span class="symbol">/</span><span class="bottom">7</span>
+</span></td><td>A คือ จำนวนที่หารด้วย 5 ลงตัว<br>B คือ จำนวนที่หารด้วย 7 ลงตัว</td></tr>
+            </table>
+
+
+
+
+
+            <div class="question_content">
+                &nbsp;
+            </div> <!-- question_content  -->
+
+
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <label> <input name="col_choice_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข.</label><br> <!--  choice_b  -->
+            <label> <input name="col_choice_q1" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข.</label><br> <!-- choice_c -->
+            <label><input name="col_choice_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_01" class="show_answer" onclick="hide_div_spelling('column_ans_01')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q1" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                A คือ จำนวนที่หารด้วย 5 ลงตัว <br>
+                &#x2234; ค่าที่เป็นไปได้ของ A คือ 5, 10, 15, 20, ...<br><br>
+
+                B คือ จำนวนที่หารด้วย 7 ลงตัว <br>
+                &#x2234; ค่าที่เป็นไปได้ของ A คือ 7, 14, 21, 28, ...<br><br>
+
+
+                ลองแทนค่าดู <br><br>
+
+                ถ้า A=5 และ B=7<br>
+                สดมภ์ ก.<br>
+                <span class="frac">5<span class="symbol">/</span><span class="bottom">5</span>
+</span>  = 1<br>
+                สดมภ์ ข.<br>
+                <span class="frac">7<span class="symbol">/</span><span class="bottom">7</span>
+</span>  = 1<br>
+                สรุปว่า สดมภ์ ก. = สดมภ์ ข.<br><br>
+
+
+                ถ้า A = 5, B = 14<br>
+                สดมภ์ ก.<br>
+                <span class="frac">5<span class="symbol">/</span><span class="bottom">5</span>
+</span>  = 1<br>
+                สดมภ์ ข.<br>
+                <span class="frac">14<span class="symbol">/</span><span class="bottom">7</span>
+</span>  = 2<br>
+                สรุปว่า สดมภ์ ก. &lt;  สดมภ์ ข.<br><br>
+
+                ถ้า A = 10, B = 7<br>
+                สดมภ์ ก.<br>
+                <span class="frac">10<span class="symbol">/</span><span class="bottom">5</span>
+</span>  = 2<br>
+                สดมภ์ ข.<br>
+                <span class="frac">7<span class="symbol">/</span><span class="bottom">7</span>
+</span>  = 1<br>
+                สรุปว่า สดมภ์ ก. &gt;  สดมภ์ ข.<br><br>
+
+                ดังนั้น จึงไม่สามารถสรุปได้ว่า ค่าของสดมภ์ จะมากกว่าหรือน้อยกว่ากันได้ <br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 4<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q1', 'ตัวเลือก ข้อ 4', 'column_ans_01','yes', '1608958085', 'column_q1'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_1" onclick="show_hide_expl('expl_col_q1', 'quiz_col_1','column_q1','yes', '1608958085'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 1 -->
+
+
+    <!-- ข้อ 2. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q2"><strong>ข้อ 2.</strong></div>
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">20%</td><td class="alignCenter">ถ้าใช้น้ำผึ้งไป 70 กรัม จะเหลือน้ำผึ้งกี่เปอร์เซ็น</td><td>น้ำผึ้งในขวดหนัก 95 กรัม</td></tr>
+            </table>
+
+
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <label> <input name="col_choice_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข.</label><br><!--  choice_b  -->
+            <label> <input name="col_choice_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข.</label><br> <!-- choice_c -->
+            <label><input name="col_choice_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_02" class="show_answer" onclick="hide_div_spelling('column_ans_02')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q2" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                สดมภ์ ก. = 20%<br><br>
+
+
+                สดมภ์ ข.<br>
+                70 กรัม ของ 95 คิดเป็นร้อยละ<br>
+                <span class="frac">70x95<span class="symbol">/</span><span class="bottom">100</span>
+</span> = 66.5%<br><br>
+
+                ถ้าคิดแบบสั้น คือ 0.7x95 = 66.5%<br><br>
+
+                สรุปได้ว่า สดมภ์ ก. &lt; สดมภ์ ข.<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 2<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q2', 'ตัวเลือก ข้อ 2', 'column_ans_02','yes', '11111',  'column_q2'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_2" onclick="show_hide_expl('expl_col_q2', 'quiz_col_2','column_q2','yes', '11111'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 2 -->
+
+    <!-- ข้อ 3. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q3"><strong>ข้อ 3.</strong></div>
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter"><span class="frac">A+4b+8<span class="symbol">/</span><span class="bottom">3Y</span>
+</span></td><td class="alignCenter"><span class="frac">A+4(b+2)<span class="symbol">/</span><span class="bottom">Y</span>
+</span></td><td>A, b, Y มีค่ามากกว่า 0</td></tr>
+
+            </table>
+
+
+
+
+
+
+            <div class="question_content">&nbsp;
+
+                <br></div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <label><input name="col_choice_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.</label><br>
+            <label><input name="col_choice_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข.</label><br>
+            <label> <input name="col_choice_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข</label><br>
+            <label><input name="col_choice_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_03" class="show_answer" onclick="hide_div_spelling('column_ans_03')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q3" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                จะเห็นว่า ตัวเศษ ประกอบด้วย A,  b และตัวเลข<br>
+                ตัวส่วน เป็น ตัว Y<br><br>
+
+                ถ้าทำส่วนให้เท่ากัน ก็จะสามารถเปรียบเทียบกันได้ว่า สดมภ์ไหน มากกว่ากัน<br><br>
+
+                เอา <span class="frac">3<span class="symbol">/</span><span class="bottom">3</span>
+</span> คูณ กับ สดมภ์ ข <br><br>
+
+                <span class="frac">3A+12(b+2)<span class="symbol">/</span><span class="bottom">3Y</span>
+</span> <br><br>
+
+                <span class="frac">3A+12b+24)<span class="symbol">/</span><span class="bottom">3Y</span>
+</span> <br><br>
+
+                สรุปได้ว่า สดมภ์ ก &lt; สดมภ์ ข.<br><br>
+
+                หรือถ้าไม่ถนัด อาจจะใช้การแ่ทนค่าดูก็ได้ เช่น<br>
+                ให้ A=2, b=3 และ Y=4<br><br>
+
+                สดมภ์ ก.<br>
+                <span class="frac">2+4(3)+8<span class="symbol">/</span><span class="bottom">3(4)</span>
+</span> = 1.9<br><br>
+
+                สดมภ์ ข.<br>
+                <span class="frac">2+4(3+2)<span class="symbol">/</span><span class="bottom">4</span>
+</span> = 5.5<br><br>
+
+                สรุปได้ว่า สดมภ์ ก &lt; สดมภ์ ข.<br><br>
+
+
+                คำตอบ คือ ข้อ 2<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q3', 'ตัวเลือก ข้อ 2', 'column_ans_03','yes', '11111',  'column_q3'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_3" onclick="show_hide_expl('expl_col_q3', 'quiz_col_3','column_q3','yes', '11111'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 3 -->
+
+
+
+
+    <!-- ข้อ 4. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q4"><strong>ข้อ 4.</strong></div>
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">A</td><td class="alignCenter">4</td><td>โดยที่ X<sup>A+2</sup> = X<sup>3</sup>X<sup>3</sup></td></tr>
+
+            </table>
+
+
+
+
+
+            <div class="question_content">&nbsp;</div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <label> <input name="col_choice_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.</label><br>
+            <label><input name="col_choice_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข.</label><br>
+            <label> <input name="col_choice_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข</label><br>
+            <label><input name="col_choice_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br> <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_04" class="show_answer" onclick="hide_div_spelling('column_ans_04')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q4" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                X<sup>A+2</sup> = X<sup>3</suP>X<sup>3</sup><br><br>
+                จาก สมบัติของเลขยกกำลัง ที่กล่าวว่า ถ้า  a  เป็นจำนวนใด ๆ  m   และ   n   เป็นจำนวนเต็มบวกแล้ว ฐานเดียวกัน กำลังคูณกัน  ได้ กำลังบวก เช่น<br>
+                a<sup>m</sup> x a<sup>n</sup> = a<sup>m+n</sup><br>
+
+                ดังนั้น<br><br>
+
+                X<sup>A+2</sup> = X<sup>3+3</sup> <br>
+                X<sup>A+2</sup> = X<sup>6</sup><br>
+                X<sup>A+2</sup> = X<sup>4+2</sup><br><br>
+
+                &#x2234; A = 4<br><br>
+
+                สรุป สดมภ์ ก. = สดมภ์ ข.<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 3<br>
+
+            </div>  <!-- expl_col_q..  -->
+
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q4', 'ตัวเลือก ข้อ 3', 'column_ans_04','yes', '11111',  'column_q4'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_4" onclick="show_hide_expl('expl_col_q4', 'quiz_col_4','column_q4','yes', '11111'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 4 -->
+
+
+
+    <!-- ข้อ 5. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q5"><strong>ข้อ 5.</strong></div>
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">A</td><td class="alignCenter">B</td><td>5&lt;A&lt;10<br>2&lt;B&lt;11<br>โดยที่ A, B เป็นจำนวนเต็มบวก</td></tr>
+            </table>
+
+
+
+
+
+            <div class="question_content">&nbsp;<br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="gct_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="gct_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="gct_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="gct_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้  </label><br> <!--  choice_d  -->
+
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_05" class="show_answer" onclick="hide_div_spelling('column_ans_05')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q5" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                จากข้อมูลที่กำหนดให้ใน สดมภ์ ค. เราจะได้ค่าของ A และ B ดังนี้ <br><br>
+
+                A มีค่าที่เป็นไปได้ ระหว่าง 6 -9 คือ 6, 7, 8 และ 9<br>
+                B มีค่าที่เป็นไปได้ ระหว่าง 3 -10 คือ 3, 4, 5, 6, 7, 8, 9 และ 10<br><br>
+
+                ลองแทนค่าดู <br><br>
+
+                ถ้า A = 6 และ B = 3<br>
+                สรุปว่า สดมภ์ ก. &gt; สดมภ์ ข.<br><br>
+
+                ถ้า A = 7 และ B = 7<br>
+                สรุปว่า สดมภ์ ก. = สดมภ์ ข.<br><br>
+
+                ถ้า A = 9 และ B = 10<br>
+                สรุปว่า สดมภ์ ก. &lt; สดมภ์ ข.<br><br>
+
+                &#x2234;  สรุปไม่ได้ <br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 4<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('gct_q5', 'ตัวเลือก ข้อ 4', 'column_ans_05','yes', '11111',  'column_q5'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_5" onclick="show_hide_expl('expl_col_q5', 'quiz_col_5','column_q5','yes', '11111'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 5 -->
+
+
+    <!-- ข้อ 6. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q6"><strong>ข้อ 6.</strong></div>
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">ความยาวของเส้นรอบรูป ของสามเหลี่ยมด้านเท่า ที่มีความยาวด้านละ y </td><td class="alignCenter">ความยาวของเส้นรอบรูป ของสี่เหลี่ยมด้านเท่า ที่มีความยาวด้านละ x </td><td>2x = y</td></tr>
+            </table>
+
+
+            <div class="question_content">&nbsp;
+                <br></div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+            <label> <input name="gct_q6" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="gct_q6" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="gct_q6" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="gct_q6" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้  </label><br><!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_06" class="show_answer" onclick="hide_div_spelling('column_ans_06')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q6" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+                เนื่องจาก x และ y เป็นความยาวของด้านของสี่เหลี่ยมด้านเท่า และสามเหลี่ยมด้านเท่า ดังนั้น จึงมีค่ามากกว่า 0<br><br>
+
+                สดมภ์ ก.<br>
+                สามเหลี่ยมด้านเท่า ยาวด้านละ y<br>
+                ดังนั้น เส้นรอบรูป ของสามเหลี่ยมรูปนี้ = y+y+y<br>
+                =3y<br><br>
+
+                สดมภ์ ข.<br>
+                สี่เหลี่ยมด้านเท่า ยาวด้านละ x<br>
+                ดังนั้น เส้นรอบรูป ของสี่เหลี่ยมรูปนี้ = x+x+x+x<br>
+                =4x<br><br>
+
+                จาก สดมภ์ ค. <br>
+                2x = y<br>
+                เอา 2 คูณ เพื่อให้เท่ากับ 4x จะได้นำไปเปรียบเทียบได้<br>
+                2(2x) = 2y<br>
+                4x = 2y<br><br>
+
+                แทนค่า 4x ในสดมภ์ ข. ได้ = 2y<br><br>
+
+                ดังนั้น ข้อมูลในสดมภ์ ก.(3y) จึงมากกว่า สดมภ์ ข. (2y)<br><br>
+
+                &#x2234; สดมภ์ ก &gt; สดมภ์ ข.<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 1<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('gct_q6', 'ตัวเลือก ข้อ 1', 'column_ans_06','no', '11111',  'column_q6'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_6" onclick="show_hide_expl('expl_col_q6', 'quiz_col_6','column_q6'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 6 -->
+
+
+
+    <!-- ข้อ 7. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q7"><strong>ข้อ 7.</strong></div>
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter"><span class="frac">1<span class="symbol">/</span><span class="bottom">100</span></span></td><td class="alignCenter">10<sup>-2</sup></td><td>-</td></tr>
+            </table>
+
+
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="gct_q7" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="gct_q7" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="gct_q7" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="gct_q7" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้  </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_07" class="show_answer" onclick="hide_div_spelling('column_ans_07')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q7" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                สดมภ์ ก.<br>
+                <span class="frac">1<span class="symbol">/</span><span class="bottom">100</span></span><br><br>
+
+                สดมภ์ ข.<br>
+                10<sup>-2</sup><br>
+                สมบัติของเลขยกกำลัง: จำนวนยกกำลังลบได้เท่ากับ  <span class="frac">1<span class="symbol">/</span><span class="bottom">จำนวนนั้น</span></span><br><br>
+
+                ดังนั้น 10<sup>-2</sup> = <span class="frac">1<span class="symbol">/</span><span class="bottom">10<sup>2</sup></span></span><br>
+                = <span class="frac">1<span class="symbol">/</span><span class="bottom">10 x 10</span></span><br>
+                = <span class="frac">1<span class="symbol">/</span><span class="bottom">100</span></span><br><br>
+
+                &#x2234; สดมภ์ ก. = สดมภ์ ข.<br><br>
+
+
+                ตัวเลือกที่ถูกคือ ข้อ 3<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('gct_q7', 'ตัวเลือก ข้อ 3', 'column_ans_07','no', '11111',  'column_q7'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_7" onclick="show_hide_expl('expl_col_q7', 'quiz_col_7','column_q7'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 7 -->
+
+    <!-- ข้อ 8. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q8"><strong>ข้อ 8.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">X + Y</td><td class="alignCenter">2Y</td><td>3&lt;X&lt;5<br>4&lt;Y&lt;6<br>โดยที่ X, Y เป็นจำนวนเต็มบวก</td></tr>
+            </table>
+
+
+            <div class="question_content">มูลค่าการส่งออกข้าวในภาพรวม เดือนใดมีการเปลี่ยนแปลง มากที่สุดเมื่อคิดเป็นร้อยละ
+                <br>
+
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="gct_q8" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="gct_q8" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="gct_q8" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="gct_q8" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้  </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_08" class="show_answer" onclick="hide_div_spelling('column_ans_08')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q8" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                จากสดมภ์ ค. ค่าของ X คือ 4<br>
+                จากสดมภ์ ค. ค่าของ Y คือ 5<br><br>
+
+                แทนค่าใน สดมภ์ ก. และ สดมภ์ ข.<br><br>
+
+                ถ้า X = 4 และ Y = 5<br>
+                สดมภ์ ก.<br>
+                X + Y<br>
+                4 + 5 = 9<br>
+                สดมภ์ ข.<br>
+                2Y<br>
+                2(5) = 10<br>
+                สรุปว่า สดมภ์ ก. น้อยกว่า สดมภ์ ข.<br><br>
+
+
+                คำตอบคือ ข้อ 2<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('gct_q8', 'ตัวเลือก ข้อ 2', 'column_ans_08','no', '11111',  'column_q8'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_8" onclick="show_hide_expl('expl_col_q8', 'quiz_col_8','column_q8'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 8 -->
+
+
+    <!-- ข้อ 9. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q9"><strong>ข้อ 9.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">x<sup>2</sup> + y<sup>2</sup></td><td class="alignCenter">(x+y)<sup>2</sup></td><td>x, y เป็นเลขจำนวนเต็มบวก<br> x >1 <br>y > 1</td></tr>
+            </table>
+
+
+            <div class="question_content">&nbsp;
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="gct_q9" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="gct_q9" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="gct_q9" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="gct_q9" type="radio" value="ตัวเลือก ข้อ 4" /> 4.  สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_09" class="show_answer" onclick="hide_div_spelling('column_ans_09')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q9" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                จาก สดมภ์ ค.<br>
+                x มีค่าตั้งแต่  1, 2, 3, 4, ...<br>
+                y มีค่าตั้งแต่  1, 2, 3, 4, ...<br><br>
+
+                ลองแทนค่าดูในแต่ละสดมภ์<br><br>
+
+                ถ้า x=1, y=1<br>
+                สดมภ์ ก.<br>
+                1<sup>2</sup>+1<sup>2</sup><br>
+                (1x1) + (1x1) = 2<br>
+                สดมภ์ ข.<br>
+                (1 + 1)<sup>2</sup><br>
+                (2)<sup>2</sup> = 4<br>
+                สรุปว่า สดมภ์ ก น้อยกว่า สดมภ์ ข<br><br>
+
+                ถ้า x=2, y=1<br>
+                สดมภ์ ก.<br>
+                2<sup>2</sup>+1<sup>2</sup><br>
+                (2x2) + (1x1) = 5<br>
+                สดมภ์ ข.<br>
+                (2 + 1)<sup>2</sup><br>
+                (3)<sup>2</sup> = 9<br>
+                สรุปว่า สดมภ์ ก น้อยกว่า สดมภ์ ข<br><br>
+
+                ถ้า x=1, y=2<br>
+                สดมภ์ ก.<br>
+                1<sup>2</sup>+2<sup>2</sup><br>
+                (1x1) + (2x2) = 5<br>
+                สดมภ์ ข.<br>
+                (1 + 2)<sup>2</sup><br>
+                (3)<sup>2</sup> = 9<br>
+                สรุปว่า สดมภ์ ก น้อยกว่า สดมภ์ ข<br><br>
+
+                &#x2234; สดมภ์ ก น้อยกว่า สดมภ์ ข<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 2<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('gct_q9', 'ตัวเลือก ข้อ 2', 'column_ans_09','no', '11111',  'column_q9'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_9" onclick="show_hide_expl('expl_col_q9', 'quiz_col_9','column_q9'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 9 -->
+
+    <!-- ข้อ 10. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q10"><strong>ข้อ 10.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter"><span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;x&nbsp;</span></span> + <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;y&nbsp;</span></span></td>
+                    <td class="alignCenter"><span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;x+y&nbsp;</span></span></td><td>-</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q10" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="col_choice_q10" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q10" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="col_choice_q10" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_10" class="show_answer" onclick="hide_div_spelling('column_ans_10')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q10" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                การหาค่ารูท ถ้าเป็นการ บวก ลบ กัน ให้คิดเป็นตัว ๆ ไป<br>
+                แต่ถ้า คูณ หรือ หาร ให้เอาตัวเลขที่อยู่ในรูท มาคูณ หรือหารกันได้เลย<br><br>
+
+                ในเมื่อไม่จำกัดว่า ค่า x และ y จะมีค่าอะไรได้บ้าง ดังนั้น จึงสามารถเป็นได้ทุกค่า คือ ตั้งแต่จำนวนเต็มลบ ศูนย์ หรือจำนวนเต็มบวก หรือแม้แต่เป็นเลขเศษส่วน หรือทศนิยมก็ได้ อย่างไรก็ตาม ในระบบเลขจำนวนจริง (Real Numbers) ตัวเลขภายใต้เครื่องหมายรูทที่สอง (square root) จะมีค่าติดลบไม่ได้ เพราะไม่มีเลขใดที่ตัวมันเองคูณกันแล้วได้ผลเป็นลบ (The square root of a negative number does not exist among the set of Real Numbers.)<br><br>
+
+                ดังนั้น ค่าที่ x และ y จะมีได้ คือ ตั้งแต่ 0 ขึ้นไป (ค่ามากกว่า หรือเท่ากับ 0)<br><br>
+
+                ถ้า x=0 และ y=0<br><br>
+
+                สดมภ์ ก.<br>
+                <span style="white-space: nowrap; font-size:larger">
+&#x221a;<span style="text-decoration:overline;">&nbsp;0&nbsp;</span></span> + <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;0&nbsp;</span></span><br>
+                = 0+0 (เพราะ <span style="white-space: nowrap; font-size:larger">
+&#x221a;<span style="text-decoration:overline;">&nbsp;0&nbsp;</span></span> = 0)<br>
+                = 0<br><br>
+
+                สดมภ์ ข.<br>
+                <span style="white-space: nowrap; font-size:larger">
+&#x221a;<span style="text-decoration:overline;">&nbsp;0+0&nbsp;</span></span><br>
+                = <span style="white-space: nowrap; font-size:larger">
+&#x221a;<span style="text-decoration:overline;">&nbsp;0&nbsp;</span></span><br>
+                =0<br><br>
+                สรุปว่า สดมภ์ ก = สดมภ์ ข<br><br>
+
+                ถ้าให้ x หรือ y ตัวใดตัวหนึ่ง มีค่าเป็น 0 ส่วนที่เหลือ มีค่ามากกว่า 0 ก็จะได้ผลเช่นเดียวกัน คือ  สดมภ์ ก = สดมภ์ ข<br><br>
+
+                คราวนี้ให้ x = 4 และ y = 4 ดูบ้าง<br><br>
+
+                สดมภ์ ก.<br>
+                <span style="white-space: nowrap; font-size:larger">
+&#x221a;<span style="text-decoration:overline;">&nbsp;4&nbsp;</span></span> + <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;4&nbsp;</span></span><br>
+                =<span style="white-space: nowrap; font-size:larger">
+&#x221a;<span style="text-decoration:overline;">&nbsp;2x2&nbsp;</span></span> + <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;2x2&nbsp;</span></span><br>
+                = 2+2 <br>
+                = 4<br><br>
+
+                สดมภ์ ข.<br>
+                <span style="white-space: nowrap; font-size:larger">
+&#x221a;<span style="text-decoration:overline;">&nbsp;4+4&nbsp;</span></span><br>
+                = <span style="white-space: nowrap; font-size:larger">
+&#x221a;<span style="text-decoration:overline;">&nbsp;8&nbsp;</span></span><br>
+                =<span style="white-space: nowrap; font-size:larger">
+&#x221a;<span style="text-decoration:overline;">&nbsp;2x2x2&nbsp;</span></span><br>
+                =2<span style="white-space: nowrap; font-size:larger">
+&#x221a;<span style="text-decoration:overline;">&nbsp;2&nbsp;</span></span><br><br>
+
+                ลองให้ x มากกว่า y และ x น้อยกว่า y เช่น x=4, y=9 หรือ x=9, y=4 ก็จะได้ผลเช่นเดียวกัน คือ  สดมภ์ ก มากกว่า สดมภ์ ข<br><br>
+
+                สรุปว่า สดมภ์ ก มากกว่า สดมภ์ ข<br><br>
+
+                <strong>ดังนั้น จะเห็นว่า ค่าในสดมภ์ ก และ สดมภ์ ข มีค่าไม่แน่นอน</strong> อาจจะเท่ากันหรือไม่เท่ากัน ก็ได้<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 4 สรุปไม่ได้<br><br>
+
+                ขอบคุณ คุณTheerasak Fakkai ที่ช่วยท้วงติงข้อนี้ นะครับ<br>
+
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q10', 'ตัวเลือก ข้อ 4', 'column_ans_10','no', '11111',  'column_q10'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_10" onclick="show_hide_expl('expl_col_q10', 'quiz_col_10','column_q10','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 10 -->
+
+
+
+
+    <!-- ข้อ 11. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q11"><strong>ข้อ 11.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">x</td><td class="alignCenter">y</td><td>4<sup>x</sup> = 8<sup>y</sup><br>x &gt; 0<br>y &gt; 0</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q11" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="col_choice_q11" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q11" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="col_choice_q11" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_11" class="show_answer" onclick="hide_div_spelling('column_ans_11')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q11" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                จาก สดมภ์ ค.<br>
+                4<sup>x</sup> = 8<sup>y</sup><br><br>
+                จากข้อมูลนี้ ค่า x ต้องมากกว่า ค่า y แน่นอน เพราะ ตัวเลขน้อย ต้องยกกำลังมากครั้งกว่า กว่าที่จะเท่ากับตัวเลขมากยกกำลัง<br><br>
+
+                ลองแทนค่าดู <br><br>
+
+                8<sup>2</sup> = 64<br>
+                8<sup>3</sup> = 512<br><br>
+
+                4<sup>2</sup> = 16<br>
+                4<sup>3</sup> = 64<br>
+                4<sup>4</sup> = 256<br>
+                4<sup>5</sup> = 1024<br><br>
+
+                สรุปว่า x=3, y=2<br><br>
+
+                &#x2234; สดมภ์ ก. มากกว่า สดมภ์ ข<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 1<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q11', 'ตัวเลือก ข้อ 1', 'column_ans_11','no', '11111',  'column_q11'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_11" onclick="show_hide_expl('expl_col_q11', 'quiz_col_11','column_q11','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 11 -->
+
+    <!-- ข้อ 12. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num" id="column_q12"><strong>ข้อ 12.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">A+B</td><td class="alignCenter">2B</td><td>3&lt;A&lt;5<br>4&lt;B&lt;6<br>A และ B เป็นจำนวนเต็มบวก</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q12" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="col_choice_q12" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q12" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="col_choice_q12" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_12" class="show_answer" onclick="hide_div_spelling('column_ans_12')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q12" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                จาก สดมภ์ ค. เราสรุปว่า<br><br>
+                A = 4 เพราะ เลขจำนวนเต็มที่มากกว่า 3 และน้อยกว่า 5 ก็คือ 4 นั่นเอง<br><br>
+                และ ในทำนองเดียวกัน<br>
+                B=5<br><br>
+
+                สดมภ์ ก.<br>
+                A+B = 4+5 = 9<br><br>
+
+                สดมภ์ ข.<br>
+                2B = 2(5) = 10<br><br>
+
+                &#x2234; สดมภ์ ก. น้อยกว่า สดมภ์ ข.<br><br>
+
+
+                ตัวเลือกที่ถูกคือ ข้อ 2<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q12', 'ตัวเลือก ข้อ 2', 'column_ans_12','no', '11111',  'column_q12'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_12" onclick="show_hide_expl('expl_col_q12', 'quiz_col_12','column_q12','no' ); return false;" type="submit" value="ดูคำอธิบาย" />
+
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 12-->
+
+
+
+    <!-- ข้อ 13. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q13"><strong>ข้อ 13.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">x</td><td class="alignCenter">4y</td><td>x+2y = 8<br>2x-y = 11</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;<br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q13" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="col_choice_q13" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q13" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="col_choice_q13" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_13" class="show_answer" onclick="hide_div_spelling('column_ans_13')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q13" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                แก้สมการ หาค่า x และ y
+
+                x+2y = 8 ---------- (1)<br>
+                2x-y = 11 --------- (2)<br><br>
+
+                (2)x2<br>
+                4x-2y = 22 --------(3)<br><br>
+
+                (1)+(3)<br>
+                5x = 30 <br>
+                x = <span class="frac">30<span class="symbol">/</span><span class="bottom">5</span></span><br>
+                x = 6<br><br>
+
+                แทนค่า x ใน (1)<br>
+                6+2y = 8<br>
+                y = <span class="frac">8-6<span class="symbol">/</span><span class="bottom">2</span></span><br>
+                y = 1<br><br>
+
+                สดมภ์ ก. = 6<br>
+                สดมภ์ ข. = 4(1) = 4<br><br>
+
+                &#x2234; สดมภ์ ก. มากกว่า สดมภ์ ข.<br><br>
+
+
+                ตัวเลือกที่ถูกคือ ข้อ 1<br>
+            </div>  <!-- expl_col_q..  -->
+
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q13', 'ตัวเลือก ข้อ 1', 'column_ans_13','no', '11111',  'column_q13'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_13" onclick="show_hide_expl('expl_col_q13', 'quiz_col_13','column_q13','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 13-->
+
+    <!-- ข้อ 14. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q14"><strong>ข้อ 14.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter"><span class="frac">2<span class="symbol">/</span><span class="bottom">3</span></span></td><td class="alignCenter">8<sup>-3</sup></td><td>-</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q14" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q14" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q14" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="col_choice_q14" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_14" class="show_answer" onclick="hide_div_spelling('column_ans_14')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q14" class="explanation" style="display:none">
+
+                <strong>วิธีคิด</strong><br><br>
+
+                จากสมบัติของเลขยกกำลัง <br>
+                จำนวนยกกำลังลบได้เท่ากับ <span class="frac">1<span class="symbol">/</span><span class="bottom">จำนวนนั้น</span></span><br><br>
+
+                ดังนั้น 8<sup>-3</sup> = <span class="frac">1<span class="symbol">/</span><span class="bottom">8<sup>3</sup></span></span> = <span class="frac">1<span class="symbol">/</span><span class="bottom">512</span></span><br><br>
+
+                สดมภ์ ก. = <span class="frac">2<span class="symbol">/</span><span class="bottom">3</span></span><br>
+                สดมภ์ ข. = <span class="frac">1<span class="symbol">/</span><span class="bottom">512</span></span><br><br>
+
+                &#x2234; สดมภ์ ก. มากกว่า สดมภ์ ข.<br><br>
+
+                คำตอบคือ ข้อ 1<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q14', 'ตัวเลือก ข้อ 1', 'column_ans_14','no', '11111',  'column_q14'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_14" onclick="show_hide_expl('expl_col_q14', 'quiz_col_14','column_q14','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 14  -->
+
+
+    <!-- ข้อ 15. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q15"><strong>ข้อ 15.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">24</td><td class="alignCenter"><span class="frac"><span style="white-space: nowrap; font-size:larger">3&#x221a;<span style="text-decoration:overline;">&nbsp;5(64)&nbsp;</span></span><span class="symbol">/</span><span class="bottom"><span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;5&nbsp;</span></span>
+</span></span>
+                </td><td>-</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q15" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="col_choice_q15" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q15" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="col_choice_q15" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_15" class="show_answer" onclick="hide_div_spelling('column_ans_15')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q15" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+
+                จาก สมบัติของรูท
+                <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;ab&nbsp;</span></span> = <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;a&nbsp;</span></span> * <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;b&nbsp;</span></span><br><br>
+
+                ดังนั้น
+
+                <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;5(64)&nbsp;</span></span> = <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;5&nbsp;</span></span> * <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;64&nbsp;</span></span><br><br><br>
+
+                สดมภ์ ข. <br><br>
+
+                <span class="frac"><span style="white-space: nowrap; font-size:larger">3&#x221a;<span style="text-decoration:overline;">&nbsp;5&nbsp;</span>&#x221a;<span style="text-decoration:overline;">&nbsp;64&nbsp;</span></span><span class="symbol">/</span><span class="bottom"><span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;5&nbsp;</span></span>
+</span></span><br><br>
+
+                <span style="white-space: nowrap; font-size:larger">3&#x221a;<span style="text-decoration:overline;">&nbsp;64&nbsp;</span></span><br><br>
+
+                <span style="white-space: nowrap; font-size:larger">3&#x221a;<span style="text-decoration:overline;">&nbsp;8x8&nbsp;</span></span><br><br>
+
+                3x8 = 24<br><br>
+
+                &#x2234; สดมภ์ ก. = สดมภ์ ข.<br><br>
+
+
+                ตัวเลือกที่ถูกคือ ข้อ 3<br>
+                <br />
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q15', 'ตัวเลือก ข้อ 3', 'column_ans_15','no', '11111',  'column_q15'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_15" onclick="show_hide_expl('expl_col_q15', 'quiz_col_15','column_q15','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 15 -->
+
+
+    <!-- ข้อ 16. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q16"><strong>ข้อ 16.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">(.1)<sup>2</sup></td><td class="alignCenter">1*10<sup>-2</sup></td><td>-</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q16" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="col_choice_q16" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข.</label><br>
+            <label> <input name="col_choice_q16" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="col_choice_q16" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_16" class="show_answer" onclick="hide_div_spelling('column_ans_16')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q16" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                สดมภ์ ก.<br>
+                (0.1)(0.1) = 0.01 (ทศนิยม 2 ตำแหน่ง)<br><br>
+
+                สดมภ์ ข.<br>
+                1*10<sup>-2</sup><br>
+                1*<span class="frac">1<span class="symbol">/</span><span class="bottom">10<sup>2</sup></span></span><br>
+
+                1*<span class="frac">1<span class="symbol">/</span><span class="bottom">100</span></span><br>
+                1*0.01<br>
+                0.01<br><br>
+
+                สรุปว่า สดมภ์ ก. = สดมภ์ ข.<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 3<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q16', 'ตัวเลือก ข้อ 3', 'column_ans_16','no', '11111',  'column_q16'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_16" onclick="show_hide_expl('expl_col_q16', 'quiz_col_16','column_q16','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 16 -->
+
+    <!-- ข้อ 17. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q17"><strong>ข้อ 17.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">จำนวนคุกกี้ ที่ใช้แป้งสาลี จำนวน 1 กก.</td><td class="alignCenter">จำนวนคุกกี้ ที่ใช้แป้งสาลี จำนวน 1 กก.</td><td>-</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q17" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="col_choice_q17" type="radio" value="ตัวเลือก ข้อ 2" /> 2.  ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q17" type="radio" value="ตัวเลือก ข้อ 3" /> 3.  ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="col_choice_q17" type="radio" value="ตัวเลือก ข้อ 4" /> 4.  สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_17" class="show_answer" onclick="hide_div_spelling('column_ans_17')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q17" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                สรุปไม่ได้ เพราะ ไม่ทราบขนาดของคุกกี้ ว่า มีขนาดเท่ากันหรือไม่<br><br>
+
+                คำตอบคือ ข้อ 4<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q17', 'ตัวเลือก ข้อ 4', 'column_ans_17','no', '11111',  'column_q17'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_17" onclick="show_hide_expl('expl_col_q17', 'quiz_col_17','column_q17','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 17 -->
+
+    <!-- ข้อ 18. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q18"><strong>ข้อ 18.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">30</td><td class="alignCenter">N</td><td>4N+2 = 58</td></tr>
+            </table>
+
+            <div class="question_content"> &nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q18" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข.  </label><br>
+            <label><input name="col_choice_q18" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q18" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="col_choice_q18" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_18" class="show_answer" onclick="hide_div_spelling('column_ans_18')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q18" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                หาค่า N จากสมการใน สดมภ์ ค.<br><br>
+
+                4N+2 = 58<br>
+                4N = 58-2<br>
+                N = <span class="frac">56<span class="symbol">/</span><span class="bottom">4</span></span><br>
+                N = 14<br><br>
+
+                &#x2234; สดมภ์ ก. มากกว่า สดมภ์ ข.<br><br>
+
+                คำตอบ คือ ข้อ 1<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q18', 'ตัวเลือก ข้อ 1', 'column_ans_18','no', '11111',  'column_q18', '11111',  'column_q19'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_18" onclick="show_hide_expl('expl_col_q18', 'quiz_col_18','column_q18','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 18 -->
+
+
+
+
+
+    <!-- ข้อ 19. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q19"><strong>ข้อ 19.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter"><span class="frac">1<span class="symbol">/</span><span class="bottom">a</span></span></td><td class="alignCenter"><span class="frac">1<span class="symbol">/</span><span class="bottom">b</span></span></td><td>a และ b เป็นจำนวนเต็มบวก</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q19" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q19" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q19" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข </label><br>
+            <label><input name="col_choice_q19" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_19" class="show_answer" onclick="hide_div_spelling('column_ans_19')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q19" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                ลองแทนค่าดู <br><br>
+
+                ถ้า a=1 และ b=2<br>
+                สดมภ์ ก.<br>
+                <span class="frac">1<span class="symbol">/</span><span class="bottom">1</span></span> = 1<br>
+                สดมภ์ ข.<br>
+                <span class="frac">1<span class="symbol">/</span><span class="bottom">2</span></span> = 0.5<br>
+                สรุป สดมภ์ ก มากกว่า สดมภ์ ข.<br><br>
+
+
+                ถ้า a=2 และ b=1<br>
+                สดมภ์ ก.<br>
+                <span class="frac">1<span class="symbol">/</span><span class="bottom">2</span></span> = 0.5<br>
+                สดมภ์ ข.<br>
+                <span class="frac">1<span class="symbol">/</span><span class="bottom">1</span></span> = 1<br>
+                สรุป สดมภ์ ก น้อยกว่า สดมภ์ ข.<br><br>
+
+
+                &#x2234; สรุปไม่ได้<br><br>
+
+                คำตอบ คือ ข้อ 4<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q19', 'ตัวเลือก ข้อ 4', 'column_ans_19','no', '11111',  'column_q19'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_19" onclick="show_hide_expl('expl_col_q19', 'quiz_col_19','column_q19','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 19 -->
+
+
+
+
+    <!-- ข้อ 20. -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q20"><strong>ข้อ 20.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter"><span class="frac">0<span class="symbol">/</span><span class="bottom">X</span></span></td><td>
+
+                    <table class="for_root">
+                        <tr>
+                            <td  class="for_root"> </td>
+                            <td  class="for_root">
+                                ____
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: right">
+                                &#x221a;
+                            </td>
+                            <td  class="for_root">
+                                &nbsp;X<sup>4</sup>&nbsp;
+                            </td>
+                        </tr>
+                    </table>
+
+
+
+                </td><td>X &#x2260; 0</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;<br>
+
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q20" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q20" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q20" type="radio" value="ตัวเลือก ข้อ 3" /> 3.ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q20" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_20" class="show_answer" onclick="hide_div_spelling('column_ans_20')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q20" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                สดมภ์ ก.<br>
+                <span class="frac">0<span class="symbol">/</span><span class="bottom">X</span></span> = 0<br>
+                (เศษส่วนที่มีเศษเป็น 0 จะมีค่าเป็น 0 เสมอ)<br><br>
+
+                สดมภ์ ข.<br>
+                <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;X.X.X.X</span></span><br>
+                X<sup>2</sup><br><br>
+
+                ถ้า X=1<br>
+                X<sup>2</sup> = 1<sup>2</sup> = 1<br><br>
+
+                ถ้า X=-1<br>
+                X<sup>2</sup> = (-1)<sup>2</sup> = (-1)(-1) = 1<br><br>
+
+                &#x2234; สดมภ์ ก. น้อยกว่า สดมภ์ ข.<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 2<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q20', 'ตัวเลือก ข้อ 2', 'column_ans_20','no', '11111',  'column_q20'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_20" onclick="show_hide_expl('expl_col_q20', 'quiz_col_20','column_q20','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 20 -->
+
+    <!-- ข้อ 21 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q21"><strong>ข้อ 21.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+                <tr><td class="alignCenter"><span class="frac">ab+b<span class="symbol">/</span><span class="bottom">b</span></span></td><td class="alignCenter">a+1</td><td>b &#x2260; 0</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q21" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q21" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q21" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q21" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_21" class="show_answer" onclick="hide_div_spelling('column_ans_21')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q21" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                สดมภ์ ก.<br>
+                <span class="frac">ab+b<span class="symbol">/</span><span class="bottom">b</span></span> = <span class="frac">ab<span class="symbol">/</span><span class="bottom">b</span></span> + <span class="frac">b<span class="symbol">/</span><span class="bottom">b</span></span> = a+1<br><br>
+
+                สดมภ์ ข.<br>
+                a+1<br><br>
+
+                &#x2234; สดมภ์ ก. = สดมภ์ ข. <br><br>
+
+
+                คำตอบ คือ ข้อ 3<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q21', 'ตัวเลือก ข้อ 3', 'column_ans_21','no', '11111',  'column_q21'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_21" onclick="show_hide_expl('expl_col_q21', 'quiz_col_21','column_q21','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 21 -->
+
+
+
+
+
+    <!-- ข้อ 22 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q22"><strong>ข้อ 22.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter"><span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;y + 1&nbsp;</span></span>
+                </td><td class="alignCenter">1+<span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;a&nbsp;</span></span></td><td>y, a  &#x2208; I</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;<br />
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q22" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q22" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q22" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q22" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_22" class="show_answer" onclick="hide_div_spelling('column_ans_22')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q22" class="explanation" style="display:none">
+
+                วิธีคิด<br><br>
+
+                เครื่องหมาย &#x2208; หมายถึง เป็นสมาชิกของ<br>
+                y, a  &#x2208; I คือ y และ z เป็นสมาชิกของเลขจำนวนเต็ม (I = Integer)<br><br>
+
+                จากข้อมูลที่ให้มาในสดมภ์ ค. ไม่เพียงพอที่จะเปรียบเทียบได้ <br><br>
+
+                &#x2234; จึงสรุปไม่ได้<br><br>
+
+                คำตอบ คือ ข้อ 4<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q22', 'ตัวเลือก ข้อ 4', 'column_ans_22','no', '11111',  'column_q22'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_22" onclick="show_hide_expl('expl_col_q22', 'quiz_col_22','column_q22','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 22 -->
+
+    <!-- ข้อ 23 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q23"><strong>ข้อ 23.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">2a</td><td class="alignCenter">15</td><td><span class="frac">a<span class="symbol">/</span><span class="bottom">4</span></span> &gt; <span class="frac">b<span class="symbol">/</span><span class="bottom">2</span></span> &gt; 2</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q23" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q23" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q23" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q23" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_23" class="show_answer" onclick="hide_div_spelling('column_ans_23')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q23" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                จาก สดมภ์ ค.<br>
+                <span class="frac">a<span class="symbol">/</span><span class="bottom">4</span></span> &gt; <span class="frac">b<span class="symbol">/</span><span class="bottom">2</span></span> &gt; 2<br><br>
+
+                เอา 4 คูณตลอด เพื่อกำจัดส่วน<br>
+                a &gt; 2b &gt; 8<br>
+                a &gt; 8<br><br>
+
+                เอา 2 คูณ เพื่อให้ได้ 2a ตามที่กำหนดใน สดมภ์ ก.<br>
+                2a &gt; 16<br><br>
+
+                เอาข้อมูลใน สดมภ์ ข. มาเปรียบเทียบ จะพบว่า<br>
+                2a &gt; 16 &gt; 15<br><br>
+
+                ดังนั้น<br>
+                2a &gt; 15<br><br>
+
+                สรุปว่า สดมภ์ ก. มากกว่า สดมภ์ ข.<br><br>
+
+                ตัวเลือกที่ถูกคือ ข้อ 1<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q23', 'ตัวเลือก ข้อ 1', 'column_ans_23','no', '11111',  'column_q23'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_23" onclick="show_hide_expl('expl_col_q23', 'quiz_col_23','column_q23','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 23 -->
+
+    <!-- ข้อ 24 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q24"><strong>ข้อ 24.</strong></div>
+
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">b<sup>2</sup>-a<sup>2</sup></td><td class="alignCenter">-3</td><td>(a-b)(a+b) &gt; 3</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;<br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q24" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q24" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q24" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q24" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_24" class="show_answer" onclick="hide_div_spelling('column_ans_24')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q24" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                จากสดมภ์ ค.<br><br>
+                (a-b)(a+b) &gt; 3<br>
+                แก้สมการ<br>
+                a<sup>2</sup> +ab -ab -b<sup>2</sup> &gt; 3<br>
+                a<sup>2</sup> - b<sup>2</sup> &gt; 3<br><br>
+
+                เอา -1 คูณตลอด<br>
+                -a<sup>2</sup> + b<sup>2</sup> &lt; -3<br>
+                b<sup>2</sup> - a<sup>2</sup>  &lt; -3<br>
+                (การคูณ หรือหาร ด้วยจำนวนลบ ต้องเปลี่ยนเครื่องหมายเป็นตรงข้าม)<br><br>
+
+
+
+                สรุปว่า สดมภ์ ก. น้อยกว่า สดมภ์ ข.<br><br>
+
+
+                คำตอบคือ ข้อ 2<br>
+
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q24', 'ตัวเลือก ข้อ 2', 'column_ans_24','no', '11111',  'column_q24'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_24" onclick="show_hide_expl('expl_col_q24', 'quiz_col_24','column_q24','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 24 -->
+
+    <!-- ข้อ 25 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="question_num"  id="column_q25"><strong>ข้อ 25.</strong></div>
+            <!--   -->
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">2y</td><td class="alignCenter">x</td><td>3x+4y = 23<br>5x-4y = 17</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q25" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q25" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q25" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q25" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_25" class="show_answer" onclick="hide_div_spelling('column_ans_25')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q25" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                ถอดสมการใน สดมภ์ ค. เพื่อหาค่า x และ y<br><br>
+                3x+4y = 23 ----(1)<br>
+                5x-4y = 17 ---- (2)<br>
+                (1)+(2)<br>
+                3x+5x+4y-4y=23+17<br>
+                8x = 40<br>
+                x = <span class="frac">40<span class="symbol">/</span><span class="bottom">8</span></span> = 5<br><br>
+
+                แทนค่า x ใน (1)<br>
+                3(5)+4y = 23<br>
+                4y = 23-15<br>
+                4y = 8<br>
+                y = <span class="frac">8<span class="symbol">/</span><span class="bottom">4</span></span> = 2<br><br>
+
+                สดมภ์ ก.<br>
+                2y = 2(2) = 4<br><br>
+
+                สดมภ์ ข.<br>
+                x = 5<br><br>
+
+                สรุปว่า สดมภ์ ก.  น้อยกว่า สดมภ์ ข.<br><br>
+
+                คำตอบคือ ข้อ 2<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q25', 'ตัวเลือก ข้อ 2', 'column_ans_25','no', '11111',  'column_q25'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_25" onclick="show_hide_expl('expl_col_q25', 'quiz_col_25','column_q25','no'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 25 -->
+
+    <!-- ข้อ 26 -->
+    <div class="item_container">
+        <form action="#">
+            <!-- ถ้าต้องการให้แสดง NEW หน้าข้อ ก็เอา div ไปไว้หน้าข้อ ส่วนเวลา คำนวนใหม่ทุกครั้ง เพื่อใช้เป็น id สำหรับอ้างถึงภายหลัง -->
+            <div class="isNew">1609397806:date1646026666</div>
+            <div class="question_num"  id="column_q26"><strong>ข้อ 26.</strong></div>
+            <!--   -->
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">&#x213C;</td><td class="alignCenter">3.14</td><td>-</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q26" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q26" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q26" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q26" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_26" class="show_answer" onclick="hide_div_spelling('column_ans_26')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q26" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+                ค่า &#x213C;  คือ 22/7 จึงมากกว่า 3.14 เพราะ ถ้าคิดทศนิยม แล้ว จะได้มากถึง 3.14159...<br><br>
+
+                คำตอบคือ ข้อ 1<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q26', 'ตัวเลือก ข้อ 1', 'column_ans_26','no','1609397806', 'column_q26'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_26" onclick="show_hide_expl('expl_col_q26', 'quiz_col_26','column_q26','no','1609397806'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 26 -->
+
+    <!-- ข้อ 27 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="isNew">1609399246:date1646026666</div>
+            <div class="question_num"  id="column_q27"><strong>ข้อ 27.</strong></div>
+            <!--   -->
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">z</td><td class="alignCenter">-2</td><td>z<sup>2</sup>-1 = 10</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q27" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q27" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q27" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q27" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_27" class="show_answer" onclick="hide_div_spelling('column_ans_27')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q27" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                หาค่าของ z<br><br>
+                z<sup>2</sup> - 1 = 10 <br>
+                z<sup>2</sup> = 10 - 1 <br>
+                z<sup>2</sup> = <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;9&nbsp;</span></span>
+                <br>
+                z<sup>2</sup> =  <span style="white-space: nowrap; font-size:larger">&#x221a;<span style="text-decoration:overline;">&nbsp;3x3&nbsp;</span></span><br>
+                z = 3<br>
+
+                สรุปว่า สดมภ์ ก.  มากกว่า สดมภ์ ข.<br><br>
+
+                คำตอบคือ ข้อ 1<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q27', 'ตัวเลือก ข้อ 1', 'column_ans_27','no','1609399246', '11111',  'column_q27'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_27" onclick="show_hide_expl('expl_col_q27', 'quiz_col_27','column_q27','no','1609399246'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 27 -->
+
+    <!-- ข้อ 28 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="isNew">1609399856:date1646026666</div>
+            <div class="question_num"  id="column_q28"><strong>ข้อ 28.</strong></div>
+            <!--   -->
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">(2<sup>-1</sup>)<sup>-3</sup></td><td class="alignCenter">(2<sup>3</sup>)<sup>-1</sup></td><td>-</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q28" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q28" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q28" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q28" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_28" class="show_answer" onclick="hide_div_spelling('column_ans_28')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q28" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                เลขยกกำลังจำนวนใด ๆ ที่ไม่เป็นศูนย์ เมื่อยกกำลังด้วย −1 จะทำให้เกิดส่วนกลับหรือตัวผกผันการคูณ<br><br>
+                ดังนั้น<br>
+                การคูณเลขยกกำลังให้นำเลขยกกำลังที่มีฐาน (ตัวเลข) เหมือนกันมาบวกกัน<br>
+                และ<br><br>
+
+                (2<sup>-1</sup>)<sup>-3</sup> = 2<sup>(-1)+(-3)</sup> = 2<sup>-4</sup> = <span class="frac">1<span class="symbol">/</span><span class="bottom">2<sup>4</sup></span></span> = <span class="frac">1<span class="symbol">/</span><span class="bottom">16</span></span> = 0.06<br><br>
+
+                (2<sup>3</sup>)<sup>-1</sup> = (2<sup>3+(-1)</sup>) = (2<sup>2</sup>) = 4<br><br>
+
+
+                สรุปว่า สดมภ์ ก.  น้อยกว่า สดมภ์ ข.<br><br>
+
+                คำตอบคือ ข้อ 2<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q28', 'ตัวเลือก ข้อ 2', 'column_ans_28','no','1609399856', 'column_q28'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_28" onclick="show_hide_expl('expl_col_q28', 'quiz_col_28','column_q28','no','1609399856'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 28 -->
+
+
+    <!-- ข้อ 29 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="isNew">1609400097:date1646026666</div>
+            <div class="question_num"  id="column_q29"><strong>ข้อ 29.</strong></div>
+            <!--   -->
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">(2+3)<sup>-1</sup></td><td class="alignCenter">5</td><td>-</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q29" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q29" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q29" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q29" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_29" class="show_answer" onclick="hide_div_spelling('column_ans_29')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q29" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                เลขยกกำลังจำนวนใด ๆ ที่ไม่เป็นศูนย์ เมื่อยกกำลังด้วย −1 จะทำให้เกิดส่วนกลับหรือตัวผกผันการคูณ<br><br>
+                ดังนั้น<br><br>
+
+                (2+3)<sup>-1</sup> = <span class="frac">1<span class="symbol">/</span><span class="bottom">2+3</span></span> = <span class="frac">1<span class="symbol">/</span><span class="bottom">5</span></span> = 0.2<br><br>
+
+                สรุปว่า สดมภ์ ก.  น้อยกว่า สดมภ์ ข.<br><br>
+
+                คำตอบคือ ข้อ 2<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q29', 'ตัวเลือก ข้อ 2', 'column_ans_29','no','1609400097', 'column_q29'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_29" onclick="show_hide_expl('expl_col_q29', 'quiz_col_29','column_q29','no','1609400097'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 29 -->
+
+
+    <!-- ข้อ 30 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="isNew">1609399932:date1646026666</div>
+            <div class="question_num"  id="column_q30"><strong>ข้อ 30.</strong></div>
+            <!--   -->
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">|z|<sup>2</sup></td><td class="alignCenter">z<sup>2</sup></td><td>z &gt; 0</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q30" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q30" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q30" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q30" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_30" class="show_answer" onclick="hide_div_spelling('column_ans_30')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q30" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                ค่าสัมบูรณ์  (absolute value) ในคณิตศาสตร์ คือ ผลต่างระหว่างจำนวนนั้นกับ 0 พูดง่าย ๆ คือ จำนวนนั้น ห่างจาก 0 กี่หน่วย เช่น<br><br>
+
+                |5| ห่างจาก 0 ไป 5 หน่วย จึงมีค่าเท่ากับ 5 <br>
+                |-5| ห่างจาก 0 ไป 5 หน่วย จึงมีค่าเท่ากับ 5 <br>
+                พูดง่าย ๆ ว่า |-5| มีค่าเท่ากับ 5<br><br>
+
+                |-7| มีค่าเท่ากับ 7<br>
+                |7| ก็มีค่าเท่ากับ 7 เช่นกัน<br><br>
+
+                สรุปว่า |z|<sup>2</sup> = |z| = z<br><br>
+
+                สรุปว่า สดมภ์ ก. เท่ากับ สดมภ์ ข.<br><br>
+
+                คำตอบคือ ข้อ 3<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q30', 'ตัวเลือก ข้อ 3', 'column_ans_30','no','1609399932', 'column_q30'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_30" onclick="show_hide_expl('expl_col_q30', 'quiz_col_30','column_q30','no','1609399932'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 30 -->
+
+    <!-- ข้อ 31 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="isNew">1609404297:date1646026666</div>
+            <div class="question_num"  id="column_q31"><strong>ข้อ 31.</strong></div>
+            <!--   -->
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter">ABC<sup>-1</sup></td><td class="alignCenter"><span class="frac">1<span class="symbol">/</span><span class="bottom">ABC</span></span></td><td>ABC &#x2260; 0</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q31" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q31" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q31" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q31" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_31" class="show_answer" onclick="hide_div_spelling('column_ans_31')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q31" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                จากนิยาม จำนวนใด ๆ ที่ไม่เป็นศูนย์ เมื่อยกกำลังด้วย −1 จะทำให้เกิดส่วนกลับหรือตัวผกผันการคูณ<br><br>
+
+                ดังนั้น <br><br>
+
+                ABC<sup>-1</sup> = <span class="frac">1<span class="symbol">/</span><span class="bottom">ABC</span></span><br><br>
+
+                ข้อนี้อย่าทำผิดทีเดียว ไม่ต้องคิดเลย<br><br>
+
+                สรุปว่า สดมภ์ ก. เท่ากับ สดมภ์ ข.<br><br>
+
+                คำตอบคือ ข้อ 3<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q31', 'ตัวเลือก ข้อ 3', 'column_ans_31','no','1609404297', 'column_q31'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_31" onclick="show_hide_expl('expl_col_q31', 'quiz_col_31','column_q31','no','1609404297'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 31 -->
+
+    <!-- ข้อ 32 -->
+    <div class="item_container">
+        <form action="#">
+            <div class="isNew">1609404350:date1646026666</div>
+            <div class="question_num"  id="column_q32"><strong>ข้อ 32.</strong></div>
+            <!--   -->
+            <br><br>
+            <table class="equal">
+                <tr><th class="alignCenter">สดมภ์ ก.</th><th class="alignCenter">สดมภ์ ข.</th><th class="alignCenter">สดมภ์ ค.</th></tr>
+
+                <tr><td class="alignCenter"><span class="frac">A+B<span class="symbol">/</span><span class="bottom">A-B</span></span></td><td class="alignCenter"><span class="frac">A-B<span class="symbol">/</span><span class="bottom">A+B</span></span></td><td>A และ B เป็นจำนวนเต็มบวก</td></tr>
+            </table>
+
+            <div class="question_content">&nbsp;
+                <br>
+            </div>
+            <div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+            <label> <input name="col_choice_q32" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ค่าในสดมภ์ ก. <strong>มากกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q32" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ค่าในสดมภ์ ก. <strong>น้อยกว่า</strong> ค่าในสดมภ์ ข. </label><br>
+            <label> <input name="col_choice_q32" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ค่าในสดมภ์ ก. <strong>เท่ากับ</strong> ค่าในสดมภ์ ข. </label><br>
+            <label><input name="col_choice_q32" type="radio" value="ตัวเลือก ข้อ 4" /> 4. สรุปไม่ได้ </label><br>
+            <!--  choice_d  -->
+            <div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+            <div id="column_ans_32" class="show_answer" onclick="hide_div_spelling('column_ans_32')" style="display:none; cursor: pointer;">
+                dummy text
+            </div>
+            <div id="expl_col_q32" class="explanation" style="display:none">
+                <strong>วิธีคิด</strong><br><br>
+
+                ข้อนี้ ถ้าไม่อยากคิดมาก ก็ลองแทนค่าดู มีการลบกัน ตัวแรกเอาค่ามากไว้ก่อน จะได้ไม่มีค่าติดลบ<br><br>
+                ให้ A = 5, B = 2<br>
+                <span class="frac">A+B<span class="symbol">/</span><span class="bottom">A-B</span></span> = <span class="frac">5+2<span class="symbol">/</span><span class="bottom">5-2</span></span> = <span class="frac">7<span class="symbol">/</span><span class="bottom">3</span></span> = 2.33<br><br>
+
+                <span class="frac">A-B<span class="symbol">/</span><span class="bottom">A+B</span></span> = <span class="frac">5-2<span class="symbol">/</span><span class="bottom">5+2</span></span> = <span class="frac">3<span class="symbol">/</span><span class="bottom">7</span></span> = 0.42<br><br>
+
+                สรุปว่า สดมภ์ ก. มากกว่า สดมภ์ ข.<br><br>
+
+
+                คำตอบคือ ข้อ 1<br>
+            </div>  <!-- expl_col_q..  -->
+            <div class ="button">
+                <input class="chkAnsBtn" name="send" onclick="checkAns('col_choice_q32', 'ตัวเลือก ข้อ 1', 'column_ans_32','no','1609404350', 'column_q32','column_q32'); return false;" type="submit" value="ตรวจคำตอบ" />
+                <!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+                <input class="myFloat_Right" style="color:blue;" id="quiz_col_32" onclick="show_hide_expl('expl_col_q32', 'quiz_col_32','column_q32','no','1609404350'); return false;" type="submit" value="ดูคำอธิบาย" />
+                <!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+            </div> <!-- button -->
+        </form> <br>
+        <div class="clear_after_item">&nbsp;</div>
+    </div> <!--  item_container  -->
+    <!-- จบข้อ 32 -->
+
+
+
+
+
+
+</div>
+<!--  quiz_container  -->
+<script src="check_and_feedback_new.js" type="text/javascript" language="JavaScript"></script>
+
+</body>
+</html>

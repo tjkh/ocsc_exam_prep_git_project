@@ -1,0 +1,44 @@
+.act-center-text{
+	text-align:center;
+	clear:both;
+}
+
+.act-paragraph{
+margin-top: 0.0em; 
+margin-bottom: 0.0em;
+text-indent: 2em;
+}
+
+p{
+margin-top: 0.0em; 
+margin-bottom: 0.0em;
+text-indent: 2em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, td, th {
+  border:1px solid #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  color: white;
+  font-size:larger;
+  font-weight: bold;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+  vertical-align: top;
+}
+
+tr:nth-child(odd) {background-color: #f2f2f2;}
+
+

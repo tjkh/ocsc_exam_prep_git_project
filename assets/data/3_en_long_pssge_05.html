@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="mystyle_ex_prep.css">
+
+  <title>Document</title>
+     <style>
+/*added a text indent to overide indent styles further down*/
+.tooltip {
+    display: inline-block;
+    text-indent:0em;
+	border-bottom: 2px dotted;
+    border-bottom-color: rgba(0, 255, 0, 0.5);
+	display: inline-block;
+    text-indent:0em;
+}
+
+.tooltiptext, .tooltiptext {
+   display: none;
+    width: calc(100vw - 35px);
+    border-radius: 6px;
+    left: 10px;
+    line-height: normal;
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+     display: none;
+    width: calc(100vw - 55px);
+  background-color: #022f71;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+.tooltip:hover .tooltiptext {
+      display: block;
+}
+</style>
+
+ </head>
+ <body>
+ <!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+ <div id="myModal" class="modal">
+     <!-- Modal content -->
+     <div class="modal-content">
+         <div class="modal-header">
+             <span class="close">×</span>
+             <strong>เตรียมสอบ ก.พ.</strong>
+         </div>
+         <div class="modal-body">
+             <p id= "myMessage">Place holder for text..</p>
+             <input type = "button"  value = "เริ่มใหม่"  onclick = "startOver();" />
+             <input  style="float: right;" type = "button"  value = "ทำต่อ"  onclick = "goCont();"/>
+         </div>
+         <div class="modal-footer">
+             http://www.thongjoon.com
+         </div>
+     </div>
+ </div>
+
+ <script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<a name="conver_3"></a> 
+  <div class="upper" id="top">
+<!-- ข้อ 1. -->
+<!--
+ข้อมูล  cornell_study.txt
+-->
+<div class="isNew">1641869623:date1641710989</div>
+<strong>สำหรับ ข้อ 1-5</strong><br><br>
+<div class="tooltip">A Cornell University study<span class="tooltiptext">จากรายงานการวิจัยของ มหาวิทยาลัยคอร์แนล<br>study=การวิจัย, การศึกษาเล่าเรียน</span></div>, <div class="tooltip">published<span class="tooltiptext"> ตีพิมพ์</span></div> in October in The Journal of Studies on Alcohol, <div class="tooltip">set outb<span class="tooltiptext"> เริ่มต้นการทำอะไรสักอย่าง อย่างมีจุดมุ่งหมาย, เริ่มต้นการเดินทาง ในที่นี้คือ การวิจัยนี้ <u>จัดทำขึ้นเพื่อ</u></span></div> to <div class="tooltip">measure how pervasive alcohol use<span class="tooltiptext"> เพื่อศึกษาว่าแอลกอร์ฮอล์(เช่น เหล้า เบียร์) มีแพร่หลายเพียงใด<br>measure=วัด,ประเมิน pervasive=แพร่หลาย, use=การใช้</span></div> was in two weeks’ worth of <div class="tooltip">prime time<span class="tooltiptext"> prime time ของรายการทีวีคือช่วงที่มีคนดูมาก เช่น ก่อน 2 ทุ่ม, network=เครือข่าย ในที่นี้ หมายถึงเครือข่ายสื่อ<br>สรุปความหมายคือ ใช้เวลาเก็บข้อมูลรายการ(วิทยุ/โทรทัศน์) เป็นเวลา 2 สัปดาห์ ในช่วงเวลาที่มีคนดูจำนวนมาก</span></div> network programming. The <div class="tooltip">researchers<span class="tooltiptext"> นักวิจัย</span></div> found <div class="tooltip">almost half of the shows awash in liquor<span class="tooltiptext"> เกือบครึ่้งหนึ่งของรายการทั้งหมด ท่วมไปด้วยน้ำเมา<br>awash=เต็มไปด้วยน้ำ หรือ มีมากเกินความจำเป็น</span></div>: alcohol <div class="tooltip">turned up<span class="tooltiptext">เกิดขึ้น(โดยไม่ได้วางแผนไว้ก่อน) ในที่นี้หมายถึง พบว่ามีปริมาณ</span></div> on 41% of the shows, which <div class="tooltip">averaged<span class="tooltiptext"> เฉลี่ย</span></div> more than five drinks <div class="tooltip">apiece<span class="tooltiptext"> แต่ละรายการ <br>สรุปคือ พบว่า ร้อยละ 41 ของรายการ มีแอลกอฮอล์ เฉลี่ยมากกว่ารายการละ 5 drinks (1 drink = เหล้าที่มีแอลกอฮอล์ 40% จำนวน ประมาณ 44 ซีซี </span></div>.<br><br>
+Researchers at Stanford University took a different <div class="tooltip">tack<span class="tooltiptext">วิธี</span></div> in exploring the <div class="tooltip">medium's role<span class="tooltiptext">บทบาทของสื่อ<br>medium=สื่อกลาง, role=บทบาท</span></div> in teenage drinking. They <div class="tooltip">quizzed<span class="tooltiptext">ให้ทำแบบสอบถาม</span></div> <div class="tooltip">ninth-graders<span class="tooltiptext">นักเรียนที่เรียนอยู่ระดับ 9 หรือ ม.3</span></div> in six high schools in San Jose, California about their <div class="tooltip">drinking histories<span class="tooltiptext">ประวัติการดื่มแอลกอฮอร์</span></div>, then returned 18 months later to ask not only about alcohol, but also about how often the teenagers watched television, music videos and movies online.<br><br>
+Among the 1,533 students who completed <div class="tooltip">both surveys<span class="tooltiptext">การสำรวจทั้งสองครั้ง<br>คือครั้งแรกถามเกี่ยวกับประวัติการดื่ม ครั้งที่สองถามเกี่ยวกับแอลกอฮอล์ และความถี่ในการดูทีวี วิดีโอ หรือหนังออนไลน์</span></div>, one finding <div class="tooltip">stood out<span class="tooltiptext">ปรากฎเด่นชัด</span></div>: non-drinkers who increased their viewing of music videos were the <div class="tooltip">most likely<span class="tooltiptext">มีแนวโน้มมากที่สุดที่จะ</span></div> to have started drinking. The study, published <div class="tooltip">Nov. 2<span class="tooltiptext">November 2th.</span></div> in the online version of <div class="tooltip">the Journal of Pediatrics<span class="tooltiptext">วารสารกุมารเวชศาสตร์</span></div>, calculated that every additional hour per day <div class="tooltip">devoted<span class="tooltiptext">อุทิศ</span></div> to music videos <div class="tooltip">made a student<span class="tooltiptext"> ทำให้นักเรียนคนหนึ่ง<br>made=ทำให้</span></div> almost a third more likely to <div class="tooltip">take up drinking<span class="tooltiptext">เริ่มต้นการดื่มแอลกอฮอล์ </span></div>.<br><br>
+Watching more movies online, on the other hand, was linked to an 11% <div class="tooltip">decrease<span class="tooltiptext"> ลดลง</span></div> in the risk of drinking. Television viewing in general was tied to a 9% <div class="tooltip">increase<span class="tooltiptext"> เพิ่มขึ้น</span></div> in risk for every <div class="tooltip">additional<span class="tooltiptext"> ที่เพิ่มขึ้น</span></div> hour per day.
+<br>
+</div>
+
+  <div class="lower">
+<form action="#">
+<div class="question_num"   id="lng_pssge5_q_number_1"><strong>ข้อ 1.</strong></div>
+<div class="question_content">
+What is true according to this article?<br>
+</div>
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnPssage5_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Watching TV decreases teenage drinking by 9%.
+</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnPssage5_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Alcohol is shown on more than half of the prime-time TV programs.</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnPssage5_q1" type="radio" value="ตัวเลือก ข้อ 3" />3. Researchers at Stanford University published their study in The Journal of Studies on Alcohol.</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnPssage5_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. Watching more movies online decreases the risk of drinking. </label></div>
+</div> <!--  choice_d  -->
+
+
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnPsge5_ans_01" class="show_answer" onclick="hide_div_spelling('lngEnPsge5_ans_01')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnPssge5_q1" class="explanation" style="display:none">
+	คำอธิบาย<br /><br />
+1. Watching TV decreases teenage drinking by 9%.<br>
+ไม่ถูก เพราะ Television viewing in general was tied to a 9% increase in risk for every additional hour per day.<br><br>
+2. Alcohol is shown on more than half of the prime-time TV programs.<br>
+ไม่ถูกเพราะเกือบครึ่ง คือ ไม่ถึงครึ่ง<br>
+The researchers found almost half of the shows awash in liquor<br><br>
+3. Researchers at Stanford University published their study in The Journal of Studies on Alcohol.<br>
+ไม่ถูก เพราะตีพิมพ์ใน  the Journal of Pediatrics<br>
+The study, published Nov. 2 in the online version of the Journal of Pediatrics, ...<br><br>
+ 4. Watching more movies online decreases the risk of drinking.<br>
+ถูกต้อง ลดลงถึง 11%<br>
+Watching more movies online, on the other hand, was linked to an 11% decrease in the risk of drinking. 
+<br><br>
+
+<strong>สรุปเรื่องที่อ่าน</strong><br><br>
+การศึกษาวิจัยของมหาวิทยาลัยคอร์แนล ซึ่งลงตีพิมพ์ เมื่อเดือนตุลาคม ในวารสาร The Journal of Studies on Alcohol จัดทำขึ้นโดย มีวัตถุประสงค์เพื่อ วัดความมาก-น้อย ของการใช้เครื่องดื่มแอลกอฮอล์ ในช่วงเวลาทอง หรือ prime time ของรายการโทรทัศน์ช่องเครือข่ายต่าง ๆ ในเวลา 2 สัปดาห์  นักวิจัยพบว่า รายการโทรทัศน์เกือบครึ่งหนึ่ง(almost half) ชุ่มโชก(awash)ไปด้วยน้ำเมา(liquor): รายการโทรทัศน์ ร้อยละ 41 มีเครื่องดื่มแอลกอฮอล์, โดยเฉลี่ยมากกว่า 5 ดริ้งต่อรายการ (ประมาณ 200 ซีซี)<br><br>
+
+นักวิจัยที่มหาวิทยาลัยแสดนฟอร์ด ได้ศึกษาถึงบทบาท (role)ของสื่อ ที่มีต่อการดื่มของวัยรุ่น (teenage drinking) โดยใช้วิธีการที่แตกต่างออกไป (แตกต่างจากการศึกษาของ มหาวิทยาลัย Cornell) นักวิจัยได้สอบถาม(quizzing) นักเรียนระดับ 9 ในโรงเรียนมัธยม 6 แห่ง ในเมืองซาน โฮเซ่ มลรัฐแคลิฟอร์เนีย เกี่ยวกับประวัติการดื่มของนักเรียนเหล่านั้น และในอีก 18 เดือนต่อมา ได้กลับมาถามใหม่ 
+โดยนอกจากจะถามเรื่องแอลกอฮอล์แล้ว ยังถามเรื่องความถี่ในการดูโทรทัศน์ วิดีโอเพลง และ ภาพยนต์ออนไลน์ อีกด้วย<br><br>
+
+ในจำนวนนักเรียน 1,533 คนที่ตอบแบบสำรวจ (surveys) ทั้งสองครั้ง มีข้อค้นพบที่เด่นมากอย่างหนึ่ง คือ:  ผู้ที่ไม่ดื่ม (non-drinkers) ที่ดูวิดีโอเพลงมากขึ้น(increased their viewing of music video) มีแนวโน้มมาก (most likely) ที่จะเริ่มต้นดื่ม งานวิจัยนี้, ตีพิมพ์ในฉบับที่ 2 ในวารสารออนไลน์ ชื่อ the Journal of Pediatrics, คำนวณว่า ในทุก ๆ ชั่วโมง ที่ใช้ไปในการดูวิดีโอเพลง ที่เพิ่มขึ้นในแต่ละวัน  จะทำให้นักเรียนคนหนึ่ง  มีแนวโน้มที่จะเริ่มต้นดื่ม เพิ่มขึ้นเกือบหนึ่งในสาม ในทางตรงกันข้าม การดูภาพยนต์ออนไลน์ สัมพันธ์กับ ความเสี่ยงที่จะดื่มลดลง ร้อยละ 11 การดูโทรทัศน์ โดยทั่วไป ทำให้ความเสี่ยงเพิ่มขึ้น ร้อยละ 9 ต่อชั่วโมง(การดูโทรทัศน์)ที่เพิ่มขึ้นในแต่ละวัน
+<br><br>
+<strong>ไวยากรณ์นิดหน่อย</strong>
+ในบทอ่านนี้ มีการใช้เครื่องหมายคอมม่า เพื่อมาขยายความค่อนข้างมาก<br>
+การใช้เครื่องหมายคอมม่าในลักษณะนี้ เป็นการขยายความเพิ่มเติม สามารถตัดออกไปได้ โดยที่ใจความหลักยังชัดเจนเหมือนเดิม ซึ่งเราเรียกว่าเป็น nonrestrictive clause<br>
+หลักคือ เราต้องหา ประธาน กริยา และกรรม หรือ ส่วนขยายให้ได้ <br><br>
+ประโยคแรก<br>
+A Cornell University study, published in October in The Journal of Studies on Alcohol, set out to measure how pervasive....<br><br>
+ประธาน = A study<br>
+กริยา = set out to measure<br>
+กรรม = how pervasive ....<br><br>
+
+
+</div>  <!-- lgEnPssge5_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage5_q1', 'ตัวเลือก ข้อ 4', 'lngEnPsge5_ans_01', 'yes', '1641869623', 'lng_pssge5_q_number_1'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngPsge5_1" onclick="show_hide_expl('lgEnPssge5_q1', 'lngPsge5_1', 'lng_pssge5_q_number_1', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- ข้อ 2. -->
+
+<form action="#">
+<div class="question_num"   id="lng_pssge5_q_number_2"><strong>ข้อ 2.</strong></div>
+<div class="question_content">
+How many studies are there in this article?</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col_1Col"><label> <input name="longEnPssage5_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. One.</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnPssage5_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Two.</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnPssage5_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Three. </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnPssage5_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. None.</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnPsge5_ans_02" class="show_answer" onclick="hide_div_spelling('lngEnPsge5_ans_02')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnPssge5_q2" class="explanation" style="display:none">
+
+
+	คำอธิบาย<br /><br />
+ในบทอ่านมีการพูดถึงวิจัยกี่เรื่อง<br><br>
+คำตอบคือ 2 เรื่อง<br>
+เป็นการวิจัยของ มหาวิทยาลัย Cornell และ คณะวิจัยของ มหาวิทยาลัย Stanford University<br><br>
+</div>  <!-- lgEnPssge5_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage5_q2', 'ตัวเลือก ข้อ 2', 'lngEnPsge5_ans_02', 'yes', '1641869623', 'lng_pssge5_q_number_2'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngPsge5_2" onclick="show_hide_expl('lgEnPssge5_q2', 'lngPsge5_2', 'lng_pssge5_q_number_2', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+<!-- จบข้อ 2 -->
+
+
+<!-- ข้อ 3. -->
+<form action="#">
+<div class="question_num"   id="lng_pssge5_q_number_3"><strong>ข้อ 3.</strong></div>
+<div class="question_content">
+Which question is NOT likely to be included in the Stanford University survey?</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+<div class="choice_num_1Col"><label><input name="longEnPssage5_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. How often do you watch television?</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnPssage5_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. How many times a week do you watch music video?</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnPssage5_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. How much money do you spend on drinks? </label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnPssage5_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. How often do you watch movie online?</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnPsge5_ans_03" class="show_answer" onclick="hide_div_spelling('lngEnPsge5_ans_03')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnPssge5_q3" class="explanation" style="display:none">
+
+	คำอธิบาย<br /><br />
+การวิจัยของคณะวิจัย มหาวิทยาลัย Standford สนใจเรื่องบทบาทของสื่อ ต่อการดื่มของเยาวชน โดยพบว่า สื่อที่มีในรายงานการวิจัยคือ<br><br>
+music video <br>
+movie online<br>
+และ television<br><br>
+
+ดังนั้น ตัวเลือก ข้อ 3 จึงไม่น่าจะมี เพราะในรายงานวิจัย ไม่ได้กล่าวถึงเรื่องเงิน ที่นำไปซื้อเหล้า หรือ เครื่องดื่มแอลกอฮอล์<br><br>
+
+คำตอบที่ถูกคือ ข้อ 3
+<br>
+</div>  <!-- lgEnPssge5_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage5_q3', 'ตัวเลือก ข้อ 3', 'lngEnPsge5_ans_03', 'no', '1641869623', 'lng_pssge5_q_number_3'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngPsge5_3" onclick="show_hide_expl('lgEnPssge5_q3', 'lngPsge5_3', 'lng_pssge5_q_number_3', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 3 -->
+
+
+
+<!-- ข้อ 4. -->
+
+<form action="#">
+<div class="question_num"   id="lng_pssge5_q_number_4"><strong>ข้อ 4.</strong></div>
+<div class="question_content">
+If a teenager watches one more hour of music videos a day, what is the percentage that he will start drinking increased?
+</div>
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnPssage5_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 30%</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnPssage5_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 40%</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnPssage5_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 50%</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnPssage5_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 70%</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnPsge5_ans_04" class="show_answer" onclick="hide_div_spelling('lngEnPsge5_ans_04')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnPssge5_q4" class="explanation" style="display:none">
+
+คำอธิบาย<br><br>
+
+every additional hour per day devoted to music videos made a student almost a third more likely to take up drinking<br>
+ในทุก ๆ ชั่วโมง ที่ใช้ไปในการดูวิดีโอเพลง ที่เพิ่มขึ้นในแต่ละวัน  จะทำให้นักเรียนคนหนึ่ง  มีแนวโน้มที่จะเริ่มต้นดื่ม เพิ่มขึ้นเกือบหนึ่งในสาม <br><br>
+หนึ่งในสาม ก็ประมาณ 30
+<br><br>
+
+
+ข้อที่ถูกคือ ข้อ 1<br>
+
+</div>  <!-- lgEnPssge5_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage5_q4', 'ตัวเลือก ข้อ 1', 'lngEnPsge5_ans_04', 'no', '1641869623', 'lng_pssge5_q_number_4'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngPsge5_4" onclick="show_hide_expl('lgEnPssge5_q4', 'lngPsge5_4', 'lng_pssge5_q_number_4', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 4 -->
+
+<!-- ถึงตรงนี้   ออกข้อสอบใหม่ ของเก่า ไม่ค่อยดี  -->
+
+<!-- ข้อ 5. -->
+
+<form action="#">
+<div class="question_num"   id="lng_pssge5_q_number_5"><strong>ข้อ 5.</strong></div>
+<div class="question_content">
+What publication does this study most likely to appear?
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnPssage5_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. Music Magazine</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnPssage5_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. Journal of Public Health</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnPssage5_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. Pharmaceutical Research
+</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnPssage5_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. TV Guide</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnPsge5_ans_05" class="show_answer" onclick="hide_div_spelling('lngEnPsge5_ans_05')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnPssge5_q5" class="explanation" style="display:none">
+
+วารสารอะไรที่บทความนี้ น่าจะไปปรากฏมากที่สุด<br>
+appear = ปรากฏ<br><br>
+
+1. Music Magazine เมกกาซีนดนตรี<br>
+2. Journal of Public Health วารสารสุขภาพเพื่อสาธารณะ<br>
+3. Pharmaceutical Research วารสารวิจัยเภสัชศาสตร์<br>
+4. TV Guide  หนังสือรายการทีวี<br><br>
+
+ข้อ 2 เป็นข้อที่ถูก เพราะเป็นเรื่องที่เกี่ยวข้องกับสุขภาพ <br>
+</div>  <!-- lgEnPssge5_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage5_q5', 'ตัวเลือก ข้อ 2', 'lngEnPsge5_ans_05', 'no', '1641869623', 'lng_pssge5_q_number_5'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngPsge5_5" onclick="show_hide_expl('lgEnPssge5_q5', 'lngPsge5_5', 'lng_pssge5_q_number_5', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 5 -->
+
+
+<!-- ข้อ 6. -->
+
+<form action="#">
+<div class="question_num"   id="lng_pssge6_q_number_6"><strong>ข้อ 6.</strong></div>
+<div class="question_content">
+Which one is LEAST likely to encourage teenage drinking?
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<div class="choice_a_1_column">   
+         <div class="choice_num_1Col"><label> <input name="longEnPssage6_q6" type="radio" value="ตัวเลือก ข้อ 1" /> 1. music video</label></div>
+ </div> 
+<div class="choice_b_1_column"> 
+	    <div class="choice_num_1Col"><label><input name="longEnPssage6_q6" type="radio" value="ตัวเลือก ข้อ 2" /> 2. TV series</label></div>
+</div>  <!--  choice_b  -->
+<div class="choice_c_1_column">
+        <div class="choice_num_1Col"><label> <input name="longEnPssage6_q6" type="radio" value="ตัวเลือก ข้อ 3" /> 3. online movie
+</label></div>
+</div> <!-- choice_c -->
+<div class="choice_d_1_column">
+        <div class="choice_num_1Col"><label><input name="longEnPssage6_q6" type="radio" value="ตัวเลือก ข้อ 4" /> 4. prime time show</label></div>
+</div> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="lngEnPsge6_ans_06" class="show_answer" onclick="hide_div_spelling('lngEnPsge6_ans_06')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="lgEnPssge6_q6" class="explanation" style="display:none">
+
+ข้อใด ที่กระตุ้นให้เยาวชนดื่มน้อยที่สุด<br><br>
+
+Watching more movies online, on the other hand, was linked to an 11% decrease in the risk of drinking.<br>decrease = ลดลง<br><br>
+
+ความเสี่ยงที่จะดื่มลดลง	(decrease in the risk of drinking) จึงกระตุ้นน้อยที่สุด<br><br>
+
+ข้อ 3 เป็นข้อที่ถูก  <br>
+มีข้อสังเกตอย่างหนึ่งคือ เขาใช้คำว่า on the other hand ซึ่งจะเป็นการนำเสนอข้อมูลที่มักจะตรงกันข้าม กับที่กล่าวมาข้างต้น<br>
+</div>  <!-- lgEnPssge6_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('longEnPssage6_q6', 'ตัวเลือก ข้อ 3', 'lngEnPsge6_ans_06', 'no', '1641869623', 'lng_pssge5_q_number_6'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="lngPsge6_6" onclick="show_hide_expl('lgEnPssge6_q6', 'lngPsge6_6', 'lng_pssge6_q_number_6', 'no' ); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_expl('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+
+<!-- จบข้อ 6 -->
+
+  </div>  <!--  lower  -->
+ <script src="check_and_feedback_new.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

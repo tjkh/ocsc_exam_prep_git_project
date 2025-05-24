@@ -1,0 +1,1538 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="mystyle_show_hide_div.css">
+  <script src="check_and_feedback_new.js" type="text/javascript" language="JavaScript"></script>
+
+  <title>การวิเคราะห์ข้อมูล จากตาราง</title>
+ </head>
+ <body>
+  <!-- The Modal สำหรับแสดง ให้เลือก ทำต่อหรือเริ่มใหม่ -->
+ <div id="myModal" class="modal">
+     <!-- Modal content -->
+     <div class="modal-content">
+         <div class="modal-header">
+             <span class="close">×</span>
+             <strong>เตรียมสอบ ก.พ.</strong>
+         </div>
+         <div class="modal-body">
+             <p id= "myMessage">Place holder for text..</p>
+             <input type = "button"  value = "เริ่มใหม่"  onclick = "startOver();" />
+             <input  style="float: right;" type = "button"  value = "ทำต่อ"  onclick = "goCont();"/>
+         </div>
+         <div class="modal-footer">
+             http://www.thongjoon.com
+         </div>
+     </div>
+ </div>
+
+ <script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+
+<div id="top" class="quiz_container2"><br>
+<strong>แนวข้อสอบวิเคราะห์ข้อมูลจากตาราง</strong><br><br>
+<strong>คำสั่ง:</strong>ให้ท่านเลือกข้อที่ถูกต้องมากที่สุด<br><br>
+
+<div class="isNew">1611290693</div>
+<strong>ใช้ข้อมูลในตารางข้างล่างนี้ สำหรับคำถาม ข้อ 1-5</strong><br>
+<!-- Psychometric Success Numerical Ability - Data Interpretation Practice Test 1 -->
+
+การจำหน่ายรถยนต์ ในเขตกรุงเทพมหานครและปริมณฑลระหว่างเดือนมกราคม – พฤษภาคม <br>
+<div class="alignRight">(หน่วย : คัน)&nbsp;&nbsp;&nbsp;</div>
+
+<div class = "for_image">
+<table>
+<tr><th>เดือน</th><th>Toyota</th><th>Mazda</th><th align="right">Honda</th><th>Mitsu</th><th>Isuzu</th></tr>
+<tr><td align="left">ม.ค.</td><td class="alignRight">340</td><td class="alignRight">64</td><td class="alignRight">221</td><td class="alignRight">147</td><td class="alignRight">104</td></tr>
+<tr><td align="left">ก.พ.</td><td class="alignRight">570</td><td class="alignRight">125</td><td class="alignRight">315</td><td class="alignRight">102</td><td class="alignRight">96</td></tr>
+<tr><td align="left">มี.ค.</td><td class="alignRight">112</td><td class="alignRight">16</td><td class="alignRight">118</td><td class="alignRight">61</td><td class="alignRight">57</td></tr>
+<tr><td align="left">เม.ย.</td><td class="alignRight">43</td><td class="alignRight">8</td><td class="alignRight">96</td><td class="alignRight">31</td><td class="alignRight">84</td></tr>
+<tr><td align="left">พ.ค.</td><td class="alignRight">165</td><td class="alignRight">41</td><td class="alignRight">83</td><td class="alignRight">24</td><td class="alignRight">38</td></tr>
+</table>
+<br><br>
+</div>
+
+<div class="qstn-div">
+<!-- ข้อ 1. -->
+<div class="item_container">
+<form action="#">
+
+<div class="question_num"  id="tbl_q1"><strong>ข้อ 1.</strong></div>
+<div class="question_content">ระหว่างเดือนมกราคม – พฤษภาคม ยอดจำหน่ายของโตโยต้า มีจำนวนมากกว่าอันดับที่ 3 เป็นจำนวนกี่คัน
+<br /></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<label> <input name="gct_tbl_q1" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 1,000 </label><br>
+<label><input name="gct_tbl_q1" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 786</label><br> <!--  choice_b  -->
+<label> <input name="gct_tbl_q1" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 397</label><br> <!-- choice_c -->
+<label><input name="gct_tbl_q1" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 851 </label><br> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_01" class="show_answer" onclick="hide_div_spelling('gct_ans_01')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q1" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+หาผลรวมการจำหน่ายรถยนต์<br>
+ยอดจำหน่ายของโตโยต้า มีจำนวน 1,230 คัน<br>
+ยอดจำหน่ายอันดับที่ 3 คือ อีซูซุ มีจำนวน 379 คัน<br>
+&#x2234; ยอดจำหน่ายต่างกัน = 1,230 – 379<br> 
+= 851 คัน<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 4<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q1', 'ตัวเลือก ข้อ 4', 'gct_ans_01', 'yes','1611290693', 'tbl_q1'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_1" onclick="show_hide_expl('gct_expl_tbl_q1', 'quiz_tbl_1','tbl_q1', 'yes', '1611290693'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 1 -->
+
+
+<!-- ข้อ 2. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q2"><strong>ข้อ 2.</strong></div>
+<div class="question_content">ยอดจำหน่ายรถยนต์ เดือนกุมภาพันธ์ มากกว่า เดือนพฤษภาคม คิดเป็นร้อยละเท่าไร<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<label> <input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 20%</label><br>
+<label><input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 244%</label><br><!--  choice_b  -->
+<label> <input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 90%</label><br> <!-- choice_c -->
+<label><input name="gct_tbl_q2" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 155%</label><br> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_02" class="show_answer" onclick="hide_div_spelling('gct_ans_02')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q2" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+ยอดจำหน่าย เดือน ก.พ. = 570+125+315+102+96 <br>
+= 1,208<br>
+ยอดจำหน่าย เดือน พ.ค. = 165+41+83+24+38 <br>
+= 351<br><br>
+
+จากสูตร<br>
+((new_value/original_value)-1)(100)<br><br>
+แทนค่า<br>
+= ((1,208/351)-1)(100)<br>
+= 244.15%<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 2<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q2', 'ตัวเลือก ข้อ 2', 'gct_ans_02', 'yes','1611290694','tbl_q2'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_2" onclick="show_hide_expl('gct_expl_tbl_q2', 'quiz_tbl_2','tbl_q2', 'yes', '1611290694'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 2 -->
+
+<!-- ข้อ 3. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q3"><strong>ข้อ 3.</strong></div>
+<div class="question_content">รถยนต์ที่จำหน่ายมากเป็นอันดับ 2 มียอดจำหน่ายโดยเฉลี่ย ประมาณกี่คัน ต่อเดือน
+
+<br></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<label><input name="gct_tbl_q3" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 50</label><br>
+<label><input name="gct_tbl_q3" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 100</label><br><label> <input name="gct_tbl_q3" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 166</label><br><label><input name="gct_tbl_q3" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 256</label><br> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_03" class="show_answer" onclick="hide_div_spelling('gct_ans_03')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q3" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+ยอดจำหน่ายอันดับ 2 คือ Honda จำนวน 833 คัน ในเวลา 5 เดือน<br>
+&#x2234; เฉลี่ย จำหน่าย เดือนละ 833/5 = 166.6 คัน<br><br>
+
+คำตอบ คือ ข้อ 3<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q3', 'ตัวเลือก ข้อ 3', 'gct_ans_03', 'yes','111111','tbl_q3'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_3" onclick="show_hide_expl('gct_expl_tbl_q3', 'quiz_tbl_3','tbl_q3', 'yes','111111'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 3 -->
+
+<!-- ข้อ 4. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q4"><strong>ข้อ 4.</strong></div>
+<div class="question_content">ถ้า รถโตโยต้า ราคาคันละ 750,000 บาท อยากทราบว่า มูลค่าการจำหน่ายเดือนพฤษภาคม มากกว่าเดือนมีนาคมเป็นจำนวนกี่ล้านบาท</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<label> <input name="gct_tbl_q4" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 10 ล้านบาท </label><br>
+<label><input name="gct_tbl_q4" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 40 ล้านบาท </label><br>
+<label> <input name="gct_tbl_q4" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 70 ล้านบาท </label><br>
+<label><input name="gct_tbl_q4" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 100 ล้านบาท </label><br> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_04" class="show_answer" onclick="hide_div_spelling('gct_ans_04')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q4" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+รถ Toyota เดือนพฤษภาคม มากกว่า มีนาคม = 165 – 112 <br>
+= 53 คัน<br>
+ราคา คันละ 750,000 บาท<br>
+เป็นเงิน = 53 × 750,000 <br>
+= 39,750,000<br>
+หรือ ประมาณ 40 ล้าน<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 2<br>
+
+</div>  <!-- gct_expl_q..  -->
+
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q4', 'ตัวเลือก ข้อ 2', 'gct_ans_04', 'yes','111112','tbl_q4'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_4" onclick="show_hide_expl('gct_expl_tbl_q4', 'quiz_tbl_4','tbl_q4', 'yes','111112'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 4 -->
+
+
+
+<!-- ข้อ 5. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q5"><strong>ข้อ 5.</strong></div>
+<div class="question_content">จากตารางข้างต้นข้อใดกล่าวได้ถูกต้อง<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_q5" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ระหว่างเดือนมกราคม – พฤษภาคม มูลค่าการจำหน่ายของโตโยต้า มากกว่าฮอนด้า </label><br>
+<label><input name="gct_q5" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ระหว่างเดือนมกราคม – พฤษภาคม จำหน่ายรถยนต์ทั้งหมด ได้มากกว่า 4,000 คัน </label><br><label> <input name="gct_q5" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ระหว่างเดือนมกราคม – พฤษภาคม การจำหน่ายรถยนต์โดยเฉลี่ยประมาณ 712 คันต่อเดือน</label><br><label><input name="gct_q5" type="radio" value="ตัวเลือก ข้อ 4" /> 4. หากเรียงลำดับจำนวนที่จำหน่ายจากมากไปหาน้อยคือ โตโยต้า มิตซู อีซูซุ และมาสด้า </label><br> <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_05" class="show_answer" onclick="hide_div_spelling('gct_ans_05')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q5" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+ระหว่างเดือนมกราคม – พฤษภาคม<br> มูลค่าการจำหน่ายของโตโยต้ามากกว่าฮอนด้า<br>
+โตโยต้า = 1,230<br>
+ฮอนด้า = 833<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 1<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_q5', 'ตัวเลือก ข้อ 1', 'gct_ans_05', 'yes','111113','tbl_q5'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_5" onclick="show_hide_expl('gct_expl_tbl_q5', 'quiz_tbl_5','tbl_q5', 'yes','111113'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 5 -->
+
+</div>   <!-- end of qstn-div  -->
+
+
+
+<strong>ใช้ข้อมูลนี้ สำหรับคำถาม ข้อ 6-10</strong><br>
+<div class = "for_image">
+มูลค่าการส่งออกข้าวไทย 4 เดือนแรก ปี 2560<br>
+<!-- http://www.thairiceexporters.or.th/statistic_2017.html<strong></strong> -->
+<div class="alignRight">หน่วย: ล้านบาท</div><strong></strong>
+<table>
+<tr><th>ชนิด</th><th>ม.ค.</th><th>ก.พ.</th><th>มี.ค.</th><th>เม.ย.</th></tr>
+<tr><td class="alignLeft">ข้าวขาว</td><td class="alignRight">5,175</td><td class="alignRight">5,603</td><td class="alignRight">5,898</td><td class="alignRight">5,388</td></tr>
+<tr><td class="alignLeft">ข้าวหอมมะลิ</td><td class="alignRight">3,117</td><td class="alignRight">3,556</td><td class="alignRight">3,355</td><td class="alignRight">2,469</td></tr>
+<tr><td class="alignLeft">ข้าวหัก</td><td class="alignRight">1,511</td><td class="alignRight">1,610</td><td class="alignRight">1,765</td><td class="alignRight">1,688</td></tr>
+<tr><td class="alignLeft">ข้าวเหนียว</td><td class="alignRight">502</td><td class="alignRight">432</td><td class="alignRight">373</td><td class="alignRight">221</td></tr>
+<tr><td class="alignLeft">ข้าวนึ่ง</td><td class="alignRight">1,887</td><td class="alignRight">2,438</td><td class="alignRight">2,594</td><td class="alignRight">3,347</td></tr>
+<tr><td class="alignLeft">Total</td><td class="alignRight">12,192</td><td class="alignRight">13,639</td><td class="alignRight">13,985</td><td class="alignRight">13,113</td></tr>
+</table>
+<br>
+</div>
+
+
+<div class="qstn-div">
+<!-- ข้อ 6. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q6"><strong>ข้อ 6.</strong></div>
+<div class="question_content">มูลค่าการส่งออกข้าวขาว เดือน เมษายน ลดลงจากเดือน มีนาคม ร้อยละเท่าไร
+<br></div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+<label> <input name="gct_q6" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 4.5 </label><br>
+<label><input name="gct_q6" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 8.6</label><br>
+<label> <input name="gct_q6" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 9.0 </label><br><label><input name="gct_q6" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 10.2 </label><br><!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_06" class="show_answer" onclick="hide_div_spelling('gct_ans_06')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q6" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+มี.ค. มูลค่าส่งออก = 5,898 บาท<br>
+เม.ย. มูลค่าส่งออก = 5,388 บาท<br><br>
+
+สูตรการหาการเปลี่ยนแปลง(&#9651;%) คือ<br>
+((new_value/original_value)-1)(100)<br><br>
+
+เพื่อให้คำนวนได้เร็วขึ้น ควรตัดตัวเลขออก 2 หลัก <br>
+แทนค่าในสูตร<br>
+=((53/58)-1)(100)<br>
+= -8.62<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 2<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_q6', 'ตัวเลือก ข้อ 2', 'gct_ans_06', 'yes','111114','tbl_q6'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_6" onclick="show_hide_expl('gct_expl_tbl_q6', 'quiz_tbl_6','tbl_q6', 'yes','111114'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 6 -->
+
+<!-- ข้อ 7. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q7"><strong>ข้อ 7.</strong></div>
+<div class="question_content">มูลค่าการส่งออกข้าวขาว และข้าวหอมมะลิ ในเดือน มกราคม ต่างกันร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_q7" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 35%</label><br>
+<label><input name="gct_q7" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 40% </label><br>
+<label> <input name="gct_q7" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 49% </label><br>
+<label><input name="gct_q7" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 55% </label><br>
+ <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_07" class="show_answer" onclick="hide_div_spelling('gct_ans_07')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q7" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+มูลค่าส่งออกข้าวขาว = 5,175 บาท<br>
+มูลค่าส่งออกข้าวหอมมะลิ = 3,117 บาท<br><br>
+
+สูตรการหาความต่าง คือ<br>
+<span class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</span> x 100<br><br>
+
+เพื่อให้คำนวนได้เร็วขึ้น ควรตัดตัวเลขออก 2 หลัก <br>
+แทนค่าในสูตร<br>
+=<span class="frac">(51)-(31)<span class="symbol">/</span><span class="bottom">((51)+(31))/2</span>
+</span> x 100<br>
+= 48.7%<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 3<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_q7', 'ตัวเลือก ข้อ 3', 'gct_ans_07', 'yes','111115','tbl_q7'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_7" onclick="show_hide_expl('gct_expl_tbl_q7', 'quiz_tbl_7','tbl_q7','111115'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 7 -->
+
+<!-- ข้อ 8. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q8"><strong>ข้อ 8.</strong></div>
+<div class="question_content">มูลค่าการส่งออกข้าวในภาพรวม เดือนใดมีการเปลี่ยนแปลง มากที่สุดเมื่อคิดเป็นร้อยละ
+<br>
+
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_q8" type="radio" value="ตัวเลือก ข้อ 1" /> 1. มกราคม</label><br>
+<label><input name="gct_q8" type="radio" value="ตัวเลือก ข้อ 2" /> 2. กุมภาพันธ์ </label><br>
+<label> <input name="gct_q8" type="radio" value="ตัวเลือก ข้อ 3" /> 3. มีนาคม</label><br>
+<label><input name="gct_q8" type="radio" value="ตัวเลือก ข้อ 4" /> 4. เมษายน</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_08" class="show_answer" onclick="hide_div_spelling('gct_ans_08')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q8" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+ดูการเปลี่ยนแปลง ต้องเปรียบเทียบกับเดือนก่อนหน้า<br>
+เดือนมกราคม ไม่มีข้อมูลการเปรียบเทียบ จึงไม่สามารถคำนวนได้<br><br>
+
+การนำตัวเลขมาคำนวน ให้ตัดตัวเลขออก 2 หลัก เพื่อให้คิดเร็วขึ้น<br><br>
+
+เดือน ก.พ. เปลี่ยนแปลง = ((121/136)-1)(100) = 12.3<br>
+เดือน มี.ค. เปลี่ยนแปลง =  ((139/121)-1)(100) = 2.2<br>
+เดือน เม.ย. เปลี่ยนแปลง =  ((131/136)-1)(100) = -5.7<br><br>
+
+จะเห็นว่า เดือน ม.ค.-ก.พ. มีการเปลี่ยนแปลงมากที่สุด<br><br>
+
+คำตอบคือ ข้อ 2<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_q8', 'ตัวเลือก ข้อ 2', 'gct_ans_08', 'yes','111116','tbl_q8'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_8" onclick="show_hide_expl('gct_expl_tbl_q8', 'quiz_tbl_8','tbl_q8','111116'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 8 -->
+
+<!-- ข้อ 9. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q9"><strong>ข้อ 9.</strong></div>
+<div class="question_content">มูลค่าการส่งออกข้าวหอมมะลิ ในเดือน เมษายน มีการเปลี่ยนแปลง ร้อยละเท่าไร
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_q9" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ลดลง 24% </label><br>
+<label><input name="gct_q9" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ลดลง 26.4% </label><br>
+<label> <input name="gct_q9" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ลดลง 31.4%</label><br>
+<label><input name="gct_q9" type="radio" value="ตัวเลือก ข้อ 4" /> 4.  ลดลง 37%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_09" class="show_answer" onclick="hide_div_spelling('gct_ans_09')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q9" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+มี.ค. มูลค่าส่งออก = 3,355 บาท<br>
+เม.ย. มูลค่าส่งออก = 2,469 บาท<br><br>
+  
+สูตรการหาการเปลี่ยนแปลง(&#9651;%) คือ<br>
+((new_value/original_value)-1)(100)<br><br>
+
+เพื่อให้คำนวนได้เร็วขึ้น ควรตัดตัวเลขออก 2 หลัก <br>
+แทนค่าในสูตร<br>
+=((24/33)-1)(100)<br>
+= -27.2<br>
+ตัวเลือกคำตอบที่ใกล้เคียงที่สุดคือ ข้อ 2<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 2<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_q9', 'ตัวเลือก ข้อ 2', 'gct_ans_09', 'yes','111117','tbl_q9'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_9" onclick="show_hide_expl('gct_expl_tbl_q9', 'quiz_tbl_9','tbl_q9','111117'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 9 -->
+
+<!-- ข้อ 10. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q10"><strong>ข้อ 10.</strong></div>
+<div class="question_content">มูลค่าการส่งออก ข้าวขาว ในเดือน เมษายน คิดเป็นร้อยละเท่าไรของ มูลค่าการส่งออกข้าวทั้งหมด ในเดือนเดียวกัน
+<br>
+</div>   
+
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q10" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 50.3%</label><br>
+<label><input name="gct_tbl_q10" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 61.8% </label><br>
+<label> <input name="gct_tbl_q10" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 72.5% </label><br>
+<label><input name="gct_tbl_q10" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 83.5%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_10" class="show_answer" onclick="hide_div_spelling('gct_ans_10')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q10" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+มูลค่าส่งออกข้าวขาว = 5,175 บาท<br>
+มูลค่าส่งออกข้าวทั้งหมด = 13,113 บาท<br><br>
+
+สูตรการหาความต่าง คือ<br>
+<span class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</span> x 100<br><br>
+
+เพื่อให้คำนวนได้เร็วขึ้น ควรตัดตัวเลขออก 2 หลัก <br>
+แทนค่าในสูตร<br>
+=<span class="frac">(5)-(13)<span class="symbol">/</span><span class="bottom">((5)+(13))/2</span>
+</span> x 100<br>
+= -88.8%<br>
+คำตอบที่ใกล้เคียงที่สุด คือ ข้อ 4<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 4<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q10', 'ตัวเลือก ข้อ 4', 'gct_ans_10', 'yes','111118','tbl_q10'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_10" onclick="show_hide_expl('gct_expl_tbl_q10', 'quiz_tbl_10','tbl_q10','111118'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 10 -->
+
+</div>  <!-- class="qstn-div"  -->
+
+
+
+<strong>ใช้ข้อมูลนี้ สำหรับคำถาม ข้อ 11-15</strong><br>
+<div class = "for_image">
+ปริมาณการส่งออกข้าวไทย 4 เดือนแรก ปี 2560<br>
+<!-- http://www.thairiceexporters.or.th/statistic_2017.html<strong></strong> -->
+<div class="alignRight">หน่วย: เมตริกตัน</div><strong></strong>
+<table>
+<tr><th>ชนิด</th><th>ม.ค.</th><th>ก.พ.</th><th>มี.ค.</th><th>เม.ย.</th></tr>
+<tr><td class="alignLeft">ข้าวขาว</td><td class="alignRight">408,506</td><td class="alignRight">441,076</td><td class="alignRight">466,107</td><td class="alignRight">425,238</td></tr>
+<tr><td class="alignLeft">ข้าวหอมมะลิ</td><td class="alignRight">123,740</td><td class="alignRight">146,785</td><td class="alignRight">137,801</td><td class="alignRight">101,597</td></tr>
+<tr><td class="alignLeft">ข้าวหัก</td><td class="alignRight">119,149</td><td class="alignRight">116,304</td><td class="alignRight">127,499</td><td class="alignRight">130,198</td></tr>
+<tr><td class="alignLeft">ข้าวเหนียว</td><td class="alignRight">22,438
+</td><td class="alignRight">18,383</td><td class="alignRight">15,229</td><td class="alignRight">9,020</td></tr>
+<tr><td class="alignLeft">ข้าวนึ่ง</td><td class="alignRight">145,500</td><td class="alignRight">187,167</td><td class="alignRight">202,951</td><td class="alignRight">266,033</td></tr>
+<tr><td class="alignLeft">Total</td><td class="alignRight">819,333</td><td class="alignRight">909,715</td><td class="alignRight">949,587</td><td class="alignRight">932,086</td></tr>
+</table>
+<br>
+</div>
+
+<div class="qstn-div">
+<!-- ข้อ 11. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q11"><strong>ข้อ 11.</strong></div>
+<div class="question_content">มูลค่าการส่งออกข้าวหัก เดือนเมษายน มีอัตราการเปลี่ยนแปลง ร้อยละเท่าไร
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q11" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 2.1%</label><br>
+<label><input name="gct_tbl_q11" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 3.5% </label><br>
+<label> <input name="gct_tbl_q11" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 4.8%</label><br>
+<label><input name="gct_tbl_q11" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 5.2%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_11" class="show_answer" onclick="hide_div_spelling('gct_ans_11')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q11" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+
+มูลค่าการส่งออกข้าวหัก เดือนมีนาคม = 127,499<br>
+มูลค่าการส่งออกข้าวหัก เดือนเมษายน = 130,198<br><br>
+
+สูตรการหาการเปลี่ยนแปลง(&#9651;%) คือ<br>
+((new_value/original_value)-1)(100)<br><br>
+
+เพื่อให้คำนวนได้เร็วขึ้น ควรตัดตัวเลขออก 2 หลัก <br>
+แทนค่าในสูตร<br>
+=((130/127)-1)(100)<br>
+= 2.36<br>
+ตัวเลือกคำตอบที่ใกล้เคียงที่สุดคือ ข้อ 1<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 1<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q11', 'ตัวเลือก ข้อ 1', 'gct_ans_11', 'yes','111119','tbl_q11'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_11" onclick="show_hide_expl('gct_expl_tbl_q11', 'quiz_tbl_11','tbl_q11','111119'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 11 -->
+
+<!-- ข้อ 12. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num" id="tbl_q12"><strong>ข้อ 12.</strong></div>
+<div class="question_content">ปริมาณการส่งออกข้าวหอมมะลิ และข้าวหัก เดือน ม.ค.-เม.ย. ต่างกัน ร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q12" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 1.2%</label><br>
+<label><input name="gct_tbl_q12" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 2.1%</label><br>
+<label> <input name="gct_tbl_q12" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 3.4%</label><br>
+<label><input name="gct_tbl_q12" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 4.5%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_12" class="show_answer" onclick="hide_div_spelling('gct_ans_12')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q12" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+
+ข้าวหอมมะลิ เดือน ม.ค.-เม.ย. ส่งออก = 123+146+137_101 = 507<br>
+ข้าวหัก ดือน ม.ค.-เม.ย. ส่งออก = 119+116+127+130 = 492<br><br>
+
+หาความแตกต่าง ระหว่าง 2 จำนวน ต้องเปรียบเทียบ กับ ค่าเฉลี่ยของผลรวมของทั้งสองจำนวน<br><br>
+สูตร<br>
+<span class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</span> x 100
+
+<br><br>
+แทนค่า<br>
+<span class="frac">507-492<span class="symbol">/</span><span class="bottom">(507+492)/2</span>
+</span> x 100 <br>
+= 3.04<br>
+ใกล้เคียงกับ ข้อ 3 มากที่สุด<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 3<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q12', 'ตัวเลือก ข้อ 3', 'gct_ans_12', 'yes','1111110','tbl_q12'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_12" onclick="show_hide_expl('gct_expl_tbl_q12', 'quiz_tbl_12','tbl_q12','1111110' ); return false;" type="submit" value="ดูคำอธิบาย" /> 
+
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 12-->
+
+<!-- ข้อ 13. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q13"><strong>ข้อ 13.</strong></div>
+<div class="question_content">ปริมาณการส่งออก ข้าวนึ่งเดือน มี.ค. เพิ่มขึ้นจากเดือน ก.พ. ร้อยละเท่าไร<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q13" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 2.56%</label><br>
+<label><input name="gct_tbl_q13" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 6.35%</label><br>
+<label> <input name="gct_tbl_q13" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 8.43%</label><br>
+<label><input name="gct_tbl_q13" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 10.23% </label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_13" class="show_answer" onclick="hide_div_spelling('gct_ans_13')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q13" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+
+ปริมาณการส่งออก ข้าวนึ่งเดือน ก.พ. = 187,167<br>
+ปริมาณการส่งออก ข้าวนึ่งเดือน มี.ค.. = 202,951<br><br>
+
+สูตรการหาการเปลี่ยนแปลง(&#9651;%) คือ<br>
+((new_value/original_value)-1)(100)<br><br>
+
+เพื่อให้คำนวนได้เร็วขึ้น ควรตัดตัวเลขออก 2 หลัก (เกิน 5 ปัดขึ้น 1) <br>
+แทนค่าในสูตร<br>
+=((203/187)-1)(100)<br>
+= 8.55%<br>
+ตัวเลือกคำตอบที่ใกล้เคียงที่สุดคือ ข้อ 3<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 3<br>
+
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q13', 'ตัวเลือก ข้อ 3', 'gct_ans_13', 'yes','1111111','tbl_q13'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_13" onclick="show_hide_expl('gct_expl_tbl_q13', 'quiz_tbl_13','tbl_q13','1111111'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 13-->
+
+<!-- ข้อ 14. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q14"><strong>ข้อ 14.</strong></div>
+<div class="question_content">ปริมาณการส่งออกข้าวขาว เดือนใดมีการเปลี่ยนแปลง มากที่สุดเมื่อคิดเป็นร้อยละ
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q14" type="radio" value="ตัวเลือก ข้อ 1" /> 1. มกราคม</label><br>
+<label><input name="gct_tbl_q14" type="radio" value="ตัวเลือก ข้อ 2" /> 2. กุมภาพันธ์</label><br>
+<label> <input name="gct_tbl_q14" type="radio" value="ตัวเลือก ข้อ 3" /> 3. มีนาคม</label><br>
+<label><input name="gct_tbl_q14" type="radio" value="ตัวเลือก ข้อ 4" /> 4. เมษายน</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_14" class="show_answer" onclick="hide_div_spelling('gct_ans_14')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q14" class="explanation" style="display:none">
+
+<strong>วิธีคิด</strong><br><br>
+ดูการเปลี่ยนแปลง ต้องเปรียบเทียบกับเดือนก่อนหน้า<br>
+เดือนมกราคม ไม่มีข้อมูลการเปรียบเทียบ จึงไม่สามารถคำนวนได้<br><br>
+
+การนำตัวเลขมาคำนวน ให้ตัดตัวเลขออก 2 หลัก(ปัดขึ้นด้วยถ้าเกินครึ่ง) เพื่อให้คิดเร็วขึ้น<br><br>
+
+เดือน ก.พ. เปลี่ยนแปลง = ((441/409)-1)(100) = 7.8<br>
+เดือน มี.ค. เปลี่ยนแปลง =  ((466/441)-1)(100) = 5.6<br>
+เดือน เม.ย. เปลี่ยนแปลง =  (425/466)-1)(100) = -8.7<br><br>
+
+จะเห็นว่า เดือน เม.ย. มีความเปลี่ยนแปลงมากที่สุด<br><br>
+
+คำตอบคือ ข้อ 4<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q14', 'ตัวเลือก ข้อ 4', 'gct_ans_14', 'yes','1111112','tbl_q14'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_14" onclick="show_hide_expl('gct_expl_tbl_q14', 'quiz_tbl_14','tbl_q14','1111112'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 14  -->
+
+<!-- ข้อ 15. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q15"><strong>ข้อ 15.</strong></div>
+<div class="question_content">ปริมาณการส่งออกข้าวหักและข้าวนึ่ง ในระหว่างเดือน มีนาคมและเดือนเมษายน เป็นอย่างไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q15" type="radio" value="ตัวเลือก ข้อ 1" /> 1. การส่งออกข้าวหัก น้อยกว่าข้าวนึ่ง ประมาณ 45%</label><br>
+<label><input name="gct_tbl_q15" type="radio" value="ตัวเลือก ข้อ 2" /> 2. การส่งออกข้าวหัก น้อยกว่าข้าวนึ่ง ประมาณ 58%</label><br>
+<label> <input name="gct_tbl_q15" type="radio" value="ตัวเลือก ข้อ 3" /> 3. การส่งออกข้าวหัก น้อยกว่าข้าวนึ่ง ประมาณ 75%</label><br>
+<label><input name="gct_tbl_q15" type="radio" value="ตัวเลือก ข้อ 4" /> 4. การส่งออกข้าวหัก น้อยกว่าข้าวนึ่ง ประมาณ 82%</label><br>
+ <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_15" class="show_answer" onclick="hide_div_spelling('gct_ans_15')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q15" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+เพื่อให้คำนวนได้เร็วขึ้น ควรตัดตัวเลขออก 2 หลัก พร้อมทั้งปัดขึ้นเมื่อเกินครึ่ง <br>
+มูลค่าส่งออกข้าวหัก = 127+130 = 257<br>
+มูลค่าส่งออกข้าวนึ่ง = 203+266 = 469 <br><br>
+
+สูตรการหาความต่าง คือ<br>
+<span class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</span> x 100<br><br>
+
+แทนค่าในสูตร<br>
+=<span class="frac">(257)-(469)<span class="symbol">/</span><span class="bottom">((257)+(469))/2</span>
+</span> x 100<br>
+= -58.4%<br>
+คำตอบที่ใกล้เคียงที่สุด คือ ข้อ 2<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 2<br>
+<br />
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q15', 'ตัวเลือก ข้อ 2', 'gct_ans_15', 'yes','111118','tbl_q15'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_15" onclick="show_hide_expl('gct_expl_tbl_q15', 'quiz_tbl_15','tbl_q15'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 15 -->
+
+</div>   <!-- end of class="qstn-div"  -->
+
+
+
+<strong>ใช้ข้อมูลในตารางข้างล่างนี้ สำหรับคำถาม ข้อ 16-20</strong><br>
+
+<div class = "for_image">
+เปรียบเทียบจำนวนนักท่องเที่ยว รายไตรมาส ปี 2560-2561<br>
+<div class="alignRight">หน่วย 1: ล้าน คน</div>
+<table>
+<tr><th>ไตรมาส</th><th>2560</th><th>2561</th><th>&#9651;%</th></tr>
+<tr><td class="alignCenter">1</td><td class="alignRight">10.50</td><td class="alignRight">12.15</td><td class="alignRight">15.71</td></tr>
+<tr><td class="alignCenter">2</td><td class="alignRight">10.55</td><td class="alignRight">??</td><td class="alignRight">9.00</td></tr>
+<tr><td class="alignCenter">3</td><td class="alignRight">9.45</td><td class="alignRight">12.45</td><td class="alignRight">??</td></tr>
+<tr><td class="alignCenter">4</td><td class="alignRight">12.52</td><td class="alignRight">??</td><td class="alignRight">15.81</td></tr>
+<tr><td class="alignCenter">รวม</td><td class="alignRight">??</td><td class="alignRight">50.60</td><td class="alignRight">17.62</td></tr>
+</table><br>
+</div>
+
+
+<div class="qstn-div">
+
+<!-- ข้อ 16. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q16"><strong>ข้อ 16.</strong></div>
+<div class="question_content">อัตราการเพิ่มขึ้น ของนักท่องเที่ยว ไตรมาสที่ 3 ปี 2561 คิดเป็นร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+			
+<label> <input name="gct_tbl_q16" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 24.09</label><br>
+<label><input name="gct_tbl_q16" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 27.39</label><br>
+<label> <input name="gct_tbl_q16" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 31.75 </label><br>
+<label><input name="gct_tbl_q16" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 35.45 </label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_16" class="show_answer" onclick="hide_div_spelling('gct_ans_16')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q16" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+จำนวนนักท่องเที่ยว ไตรมาสที่ 3 ปี 2559  = 9.45 ล้านคน<br>
+จำนวนนักท่องเที่ยว ไตรมาสที่ 3 ปี 2560  = 12.45 ล้านคน<br><br>
+
+สูตรการหาการเปลี่ยนแปลง(&#9651;%) คือ<br>
+((new_value/original_value)-1)(100)<br><br>
+
+เพื่อให้คำนวนได้เร็วขึ้น ควรตัดตัวเลขออก 1 หลัก (เกิน 5 ปัดขึ้น 1) <br>
+ถ้าตัดออก 2 หลัก อาจจะหยาบเกินไป<br>
+แทนค่าในสูตร<br>
+=((125/95)-1)(100)<br>
+= 31.5<br>
+ตัวเลือกคำตอบที่ใกล้เคียงที่สุดคือ ข้อ 3<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 3<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q16', 'ตัวเลือก ข้อ 3', 'gct_ans_16', 'yes','111118','tbl_q16'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_16" onclick="show_hide_expl('gct_expl_tbl_q16', 'quiz_tbl_16','tbl_q16'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 16 -->
+
+<!-- ข้อ 17. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q17"><strong>ข้อ 17.</strong></div>
+<div class="question_content">จำนวนนักท่องเที่ยว ไตรมาสที่ 2 ปี 2561 มีประมาณกี่คน
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q17" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 11.50 ล้านคน</label><br>
+<label><input name="gct_tbl_q17" type="radio" value="ตัวเลือก ข้อ 2" /> 2.  12.70 ล้านคน</label><br>
+<label> <input name="gct_tbl_q17" type="radio" value="ตัวเลือก ข้อ 3" /> 3.  14.59 ล้านคน</label><br>
+<label><input name="gct_tbl_q17" type="radio" value="ตัวเลือก ข้อ 4" /> 4.  15.45 ล้านคน</label><br>
+ <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_17" class="show_answer" onclick="hide_div_spelling('gct_ans_17')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q17" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+เราทราบ อัตราการเปลี่ยนแปลง จำนวนเดิมหรือ original value โจทย์ต้องการทราบ จำนวนปัจจุบัน หรือ new value <br>
+ดังนั้น จึงสามารถใช้สูตรได้<br><br>
+
+สูตรการหาการเปลี่ยนแปลง(&#9651;%) คือ<br>
+&#9651;% = ((new_value/original_value)-1)(100)<br><br>
+
+แทนค่าในสูตร<br>
+9.00 = ((X/10.55)-1)(100)<br>
+X = ((9*10.55)/100)+10.55<br>
+X = 11.49 หรือ 11.50 ล้านคน<br><br>
+
+คำตอบคือ ข้อ 1<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q17', 'ตัวเลือก ข้อ 1', 'gct_ans_17', 'yes','111118','tbl_q17'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_17" onclick="show_hide_expl('gct_expl_tbl_q17', 'quiz_tbl_17','tbl_q17'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 17 -->
+
+<!-- ข้อ 18. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q18"><strong>ข้อ 18.</strong></div>
+<div class="question_content"> นักท่องเที่ยวในปี 2560 มากกว่า หรือน้อยกว่า ปี 2559 คิดเป็นร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q18" type="radio" value="ตัวเลือก ข้อ 1" /> 1. น้อยกว่า คิดเป็นร้อยละ 17.62</label><br>
+<label><input name="gct_tbl_q18" type="radio" value="ตัวเลือก ข้อ 2" /> 2. มากกว่า คิดเป็นร้อยละ 17.62</label><br>
+<label> <input name="gct_tbl_q18" type="radio" value="ตัวเลือก ข้อ 3" /> 3. น้อยกว่า คิดเป็นร้อยละ 43.02</label><br>
+<label><input name="gct_tbl_q18" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ข้อมูลไม่เพียงพอในการคำนวน</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_18" class="show_answer" onclick="hide_div_spelling('gct_ans_18')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q18" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+เครื่องหมาย &#9651;% คือ ร้อยละแสดงความเปลี่ยนแปลง ค่าเป็นบวก แสดงว่า ปี 2561 มากกว่า ปี 2560 ร้อยละ 17.62<br><br>
+
+คำตอบ คือ ข้อ 2<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q18', 'ตัวเลือก ข้อ 2', 'gct_ans_18', 'yes','111118','tbl_q18'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_18" onclick="show_hide_expl('gct_expl_tbl_q18', 'quiz_tbl_18','tbl_q18'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 18 -->
+
+
+<!-- ข้อ 19. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q19"><strong>ข้อ 19.</strong></div>
+<div class="question_content">อัตราส่วนของนักท่องเที่ยว ในปี 2560:ปี2561 ในไตรมาสใด มีอัตราส่วนเป็น 3:4 <br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q19" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ไตรมาสที่ 1</label><br>
+<label><input name="gct_tbl_q19" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ไตรมาสที่ 2</label><br>
+<label> <input name="gct_tbl_q19" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ไตรมาสที่  3</label><br>
+<label><input name="gct_tbl_q19" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ไตรมาสที่  4</label><br>
+ <!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_19" class="show_answer" onclick="hide_div_spelling('gct_ans_19')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q19" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+การหาอัตราส่วนของ เลข 2 จำนวน ให้นำ ห.ร.ม. มาหาร (ห.ร.ม. ของเลข 2 จำนวน คือ ตัวเลขที่มากที่สุด ที่สามารถหารตัวเลขทั้งสองตัว ได้ลงตัวพอดี ไม่มีเศษ) เช่น<br><br>
+
+ห.ร.ม. ของ 2 และ 8 คือ 2<br>
+วิธีการหา ห.ร.ม.<br>
+2 = 2x1<br>
+8 = 2x2x2<br>
+&#x2234;ห.ร.ม. คือ 2<br><br>
+จงหา ห.ร.ม. ของ 4 และ 12<br>
+4 = 2x2<br>
+12 = 2x2x3<br>
+&#x2234;ห.ร.ม. คือ 2x2 = 4<br><br>
+
+
+ในการหาคำตอบต้องหาอัตราส่วน ทีละไตรมาส โดยเอามาเฉพาะตัวเลขจำนวนเต็ม ก็พอ ดังนี้<br><br>
+
+ไตรมาสที่ 1 <br>
+10:12 <br>
+ห.ร.ม. ของ 10 และ 12 คือ 2<br>
+(10/2):(12/2)<br>
+&#x2234;อัตราส่วนคือ 5:6<br><br>
+
+ไตรมาสที่ 2 <br>
+10:11<br>
+ห.ร.ม. ของ 10 และ 11 คือ 1<br>
+(10/1):(11/1)<br>
+&#x2234;อัตราส่วนคือ 10:11<br><br>
+
+ไตรมาสที่ 3 <br>
+9:12 <br>
+ห.ร.ม. ของ 9 และ 12 คือ 3<br>
+(9/3):(12/3)<br>
+&#x2234;อัตราส่วนคือ 3:4<br><br>
+
+ไตรมาสที่ 4 <br>
+12:14 <br>
+ห.ร.ม. ของ 12 และ 14 คือ 2<br>
+(12/2):(14/2)<br>
+&#x2234;อัตราส่วนคือ 6:7<br><br>
+
+คำตอบ คือ ข้อ 3<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q19', 'ตัวเลือก ข้อ 3', 'gct_ans_19', 'yes','111118','tbl_q19'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_19" onclick="show_hide_expl('gct_expl_tbl_q19', 'quiz_tbl_19','tbl_q19'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 19 -->
+
+<!-- ข้อ 20. -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q20"><strong>ข้อ 20.</strong></div>
+<div class="question_content">จำนวนนักท่องเที่ยว ในปี 2560 และปี 2561 ต่างกันประมาณ ร้อยละเท่าไร
+<br>
+
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q20" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 5.61</label><br>
+<label><input name="gct_tbl_q20" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 8.50 </label><br>
+<label> <input name="gct_tbl_q20" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 16.19</label><br>
+<label><input name="gct_tbl_q20" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 20.50</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_20" class="show_answer" onclick="hide_div_spelling('gct_ans_20')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q20" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+หาจำนวนนักท่องเที่ยว ในปี 2560 โดยประมาณ แล้วจึงเข้าสูตร หาความแตกต่าง<br><br>
+
+จำนวนนักท่องเที่ยว ปี 2560 = 11+11+9+13 = 44 ล้านคน<br><br>
+จำนวนนักท่องเที่ยว ปี 2561 = 51 ล้านคน(ปัดขึ้น)<br><br>
+
+สูตรการหาความต่าง คือ<br>
+<span class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</span> x 100<br><br>
+
+แทนค่าในสูตร<br>
+=<span class="frac">(44)-(51)<span class="symbol">/</span><span class="bottom">((44)+(51))/2</span>
+</span> x 100<br>
+= -14.7%<br>
+
+คำตอบที่ใกล้เคียงที่สุด คือ ข้อ 3<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 3<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q20', 'ตัวเลือก ข้อ 3', 'gct_ans_20', 'yes','111118','tbl_q20'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_20" onclick="show_hide_expl('gct_expl_tbl_q20', 'quiz_tbl_20','tbl_q20'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 20 -->
+
+</div> <!-- end of div class="qstn-div" -->
+
+
+
+<strong>ใช้ข้อมูลในตารางข้างล่างนี้ สำหรับคำถาม ข้อ 21-25</strong><br>
+
+อัตราการใช้ปุ๋ยเคมี ในภาคต่างๆ ระหว่างปี พ.ศ. 2559 – 2561
+<table>
+<tr><th>ภาค</th><th>2559</th><th>2560</th><th>2561</th><th>&#9651;%</th></tr>
+<tr><td class="alignCenter">เหนือ</td><td class="alignRight">140,210</td><td class="alignRight">167,350</td><td class="alignRight">170,927</td><td class="alignRight">??</td></tr>
+<tr><td class="alignCenter">อีสาน</td><td class="alignRight">153,230</td><td class="alignRight">189,120</td><td class="alignRight">195,342</td><td class="alignRight">3.28</td></tr>
+<tr><td class="alignCenter">กลาง</td><td class="alignRight">434,250</td><td class="alignRight">563,430</td><td class="alignRight">590,783</td><td class="alignRight">??</td></tr>
+<tr><td class="alignCenter">ใต้</td><td class="alignRight">130,350</td><td class="alignRight">215,760</td><td class="alignRight">226,727</td><td class="alignRight">5.08</td></tr>
+
+<tr><td class="alignCenter">รวม</td><td class="alignRight">??</td><td class="alignRight">??</td><td class="alignRight">??</td><td class="alignRight">??<strong></strong></td></tr>
+
+</table>
+<br>
+
+
+<div class="qstn-div">
+<!-- ข้อ 21 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q21"><strong>ข้อ 21.</strong></div>
+<div class="question_content">ปี 2561 ภาคเหนือใช้ปุ๋ยเพิ่มขึ้น ร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q21" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 2.14%</label><br>
+<label><input name="gct_tbl_q21" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 5.25%</label><br>
+<label> <input name="gct_tbl_q21" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 6.23%</label><br>
+<label><input name="gct_tbl_q21" type="radio" value="ตัวเลือก ข้อ 4" /> 4.  10.55%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_21" class="show_answer" onclick="hide_div_spelling('gct_ans_21')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q21" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+
+ปี 2560 ภาคเหนือใช้ปุ๋ย = 167,350  <br>
+ปี 2561 ภาคเหนือใช้ปุ๋ย = 170,927<br><br>
+
+สูตรการหาการเปลี่ยนแปลง(&#9651;%) คือ<br>
+&#9651;% = ((new_value/original_value)-1)(100)<br><br>
+
+แทนค่าในสูตร<br>
+&#9651;% = ((171/167)-1)(100)<br>
+= 2.39%<br>
+ได้ค่าใกล้เคียงกับตัวเลือกข้อ 1 มากที่สุด<br><br>
+
+คำตอบ คือ ข้อ 3<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q21', 'ตัวเลือก ข้อ 1', 'gct_ans_21', 'yes','111118','tbl_q21'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_21" onclick="show_hide_expl('gct_expl_tbl_q21', 'quiz_tbl_21','tbl_q21'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 21 -->
+
+<!-- ข้อ 22 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q22"><strong>ข้อ 22.</strong></div>
+<div class="question_content">ภาคใด ใช้ปุ๋ยมากที่สุด<br />
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q22" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ภาคเหนือ</label><br>
+<label><input name="gct_tbl_q22" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ภาคอีสาน</label><br>
+<label> <input name="gct_tbl_q22" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ภาคกลาง</label><br>
+<label><input name="gct_tbl_q22" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ภาคใต้</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_22" class="show_answer" onclick="hide_div_spelling('gct_ans_22')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q22" class="explanation" style="display:none">
+
+เพื่อการคำนวนที่รวดเร็ว ควรตัดตัวเลขออก 3 หลัก<br><br>
+ภาคเหนือ ใช้ปุ๋ย = 140 +167 +171 = 478 <br>
+ภาคอีสาน ใช้ปุ๋ย = 153 +189 +195 = 537 <br>
+ภาคกลาง ใช้ปุ๋ย = 434 +563 +591 = 1,588 <br>
+ภาคใต้ ใช้ปุ๋ย = 130 +216 +227 = 573 <br><br>
+
+&#x2234; ภาคกลาง ใช้ปุ๋ยมากที่สุด<br><br>
+
+คำตอบ คือ ข้อ 3<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q22', 'ตัวเลือก ข้อ 3', 'gct_ans_22', 'yes','111118','tbl_q22'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_22" onclick="show_hide_expl('gct_expl_tbl_q22', 'quiz_tbl_22','tbl_q22'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 22 -->
+
+<!-- ข้อ 23 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q23"><strong>ข้อ 23.</strong></div>
+<div class="question_content">ภาคเหนือและภาคใต้ ใช้ปุ๋ยต่างกันร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q23" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 16.57%</label><br>
+<label><input name="gct_tbl_q23" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 17.94% </label><br>
+<label> <input name="gct_tbl_q23" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 19.87% </label><br>
+<label><input name="gct_tbl_q23" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 20.23%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_23" class="show_answer" onclick="hide_div_spelling('gct_ans_23')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q23" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+ใช้ผลการคำนวนการใช้ปุ๋ย จากข้อที่แล้ว<br>
+ภาคเหนือ ใช้ปุ๋ย  478<br>
+ภาคใต้ ใช้ปุ๋ย 573<br>
+
+สูตรการหาความต่าง คือ<br>
+<span class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</span> x 100<br><br>
+
+แทนค่าในสูตร<br>
+=<span class="frac">(478)-(573)<span class="symbol">/</span><span class="bottom">((478)+(573))/2</span>
+</span> x 100<br>
+= -18.07%<br>
+
+คำตอบที่ใกล้เคียงที่สุด คือ ข้อ 2 (17.94)<br><br>
+
+ตัวเลือกที่ถูกคือ ข้อ 2<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q23', 'ตัวเลือก ข้อ 2', 'gct_ans_23', 'yes','111118','tbl_q23'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_23" onclick="show_hide_expl('gct_expl_tbl_q23', 'quiz_tbl_23','tbl_q23'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 23 -->
+
+<!-- ข้อ 24 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q24"><strong>ข้อ 24.</strong></div>
+<div class="question_content">ปริมาณการใช้ปุ๋ยเคมี ของภาคเหนือและภาคกลาง ในปีใด ที่มีอัตราส่วน ใกล้เคียงกับ 1 : 3 มากที่สุด
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q24" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 2559</label><br>
+<label><input name="gct_tbl_q24" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 2560</label><br>
+<label> <input name="gct_tbl_q24" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 2561</label><br>
+<label><input name="gct_tbl_q24" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 2560 และ 2561 </label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_24" class="show_answer" onclick="hide_div_spelling('gct_ans_24')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q24" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+
+ต้องทำ อัตราส่วน ให้เป็นเศษส่วน และแปลงเป็น ทศนิยม แล้วจึงนำมาเปรียบเทียบกัน<br><br>
+
+1:3 = <span class="frac">1<span class="symbol">/</span><span class="bottom">3</span> 
+</span> = 0.33<br><br>
+
+ปี 2559 ภาคเหนือ: ภาคกลาง = 140:434 = <span class="frac">140<span class="symbol">/</span><span class="bottom">434</span> 
+</span> = 0.32<br><br>
+
+ปี 2560 ภาคเหนือ: ภาคกลาง = 167:563 = <span class="frac">167<span class="symbol">/</span><span class="bottom">563</span> 
+</span> = 0.29<br><br>
+
+ปี 2561 ภาคเหนือ: ภาคกลาง = 171:591 = <span class="frac">171<span class="symbol">/</span><span class="bottom">591</span> 
+</span> = 0.28<br><br>
+
+&#x2234;  ปี 2559 ใกล้เคียงกับอัตราส่วน 1:3 มากที่สุด<br>
+(0.32 มีค่าใกล้กับ 0.33 มากกว่าตัวเลือกข้ออื่น ๆ)<br><br>
+
+คำตอบคือ ข้อ 1<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q24', 'ตัวเลือก ข้อ 1', 'gct_ans_24', 'yes','111118','tbl_q24'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_24" onclick="show_hide_expl('gct_expl_tbl_q24', 'quiz_tbl_24','tbl_q24'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 24 -->
+
+<!-- ข้อ 25 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q25"><strong>ข้อ 25.</strong></div>
+<div class="question_content">ในปี 2561 อัตราการใช้ปุ๋ยเคมี ของภาคใต้คิดเป็นร้อยละเท่าใรของปริมาณการใช้ปุ๋ยเคมี ทั้งหมด
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q25" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 9.30%</label><br>
+<label><input name="gct_tbl_q25" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 12.25%</label><br>
+<label> <input name="gct_tbl_q25" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 15.45% </label><br>
+<label><input name="gct_tbl_q25" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 19.15% </label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_25" class="show_answer" onclick="hide_div_spelling('gct_ans_25')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q25" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+ปี 2561 ทุกภาคใช้ปุ๋ย รวม = 171 + 195 + 591 + 227 = 1,184 <br>
+ปี 2561 ภาคใต้ ใช้ปุ๋ย =  227 <br><br>
+
+227 คิดเป็นร้อยละ ของ 1,184 = <span class="frac">227 x 100<span class="symbol">/</span><span class="bottom">1,184</span> 
+</span> = 19.17<br><br>
+
+คำตอบข้อ 4 ใกล้เคียงที่สุด<br><br>
+
+คำตอบคือ ข้อ 4<br>
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q25', 'ตัวเลือก ข้อ 4', 'gct_ans_25', 'yes','111118','tbl_q25'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_25" onclick="show_hide_expl('gct_expl_tbl_q25', 'quiz_tbl_25','tbl_q25'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 25 -->
+
+</div>   <!-- end of  class="qstn-div"  -->
+
+
+<strong>ใช้ข้อมูลในตารางข้างล่างนี้ สำหรับคำถาม ข้อ 26-30</strong><br>
+<div class = "for_image">
+มูลค่าการส่งออก สินค้าที่สำคัญของประเทศไทย ระหว่าง 2552-2561<br>
+<div class="alignRight">หน่วย 1: ล้านบาท</div>
+
+<table>
+<tr><th>ปี</th><th>ข้าว</th><th>ยาง</th><th>ดีบุก</th><th>ข้าวโพด</th></tr>
+<tr><td class="alignCenter">2552</td><td class="alignRight">22,510</td><td class="alignRight">9,490</td><td class="alignRight">7,883</td><td class="alignRight">8,330</td></tr>
+<tr><td class="alignCenter">2553</td><td class="alignRight">20,157</td><td class="alignRight">11,787</td><td class="alignRight">5,469</td><td class="alignRight">8,486</td></tr>
+<tr><td class="alignCenter">2554</td><td class="alignRight">25,939</td><td class="alignRight">13,001</td><td class="alignRight">5,431</td><td class="alignRight">10,050</td></tr>
+<tr><td class="alignCenter">2555</td><td class="alignRight">22,256</td><td class="alignRight">13,576</td><td class="alignRight">5,462</td><td class="alignRight">7,609</td></tr>
+<tr><td class="alignCenter">2556</td><td class="alignRight">20,315</td><td class="alignRight">15,116</td><td class="alignRight">2,929</td><td class="alignRight">9,176</td></tr>
+<tr><td class="alignCenter">2557</td><td class="alignRight">22,702</td><td class="alignRight">19,848</td><td class="alignRight">2,257</td><td class="alignRight">3,849</td></tr>
+<tr><td class="alignCenter">2558</td><td class="alignRight">33,044</td><td class="alignRight">27,132</td><td class="alignRight">3,113</td><td class="alignRight">3,810</td></tr>
+<tr><td class="alignCenter">2559</td><td class="alignRight">44,803</td><td class="alignRight">26,450</td><td class="alignRight">2,394</td><td class="alignRight">3,801</td></tr>
+<tr><td class="alignCenter">2560</td><td class="alignRight">27,257</td><td class="alignRight">23,557</td><td class="alignRight">2,018</td><td class="alignRight">4,142</td></tr>
+<tr><td class="alignCenter">2561</td><td class="alignRight">29,559</td><td class="alignRight">26,384</td><td class="alignRight">934</td><td class="alignRight">3,913</td></tr>
+</table>
+<br>
+</div>
+
+<div class="qstn-div">
+<!-- ข้อ 26 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q26"><strong>ข้อ 26.</strong></div>
+<div class="question_content">ระหว่างปี 2552 – 2554 มูลค่าสินค้าส่งออกชนิดใดที่มีอัตราเปลี่ยนแปลงมากที่สุด
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q26" type="radio" value="ตัวเลือก ข้อ 1" /> 1. ข้าว</label><br>
+<label><input name="gct_tbl_q26" type="radio" value="ตัวเลือก ข้อ 2" /> 2. ยาง</label><br>
+<label> <input name="gct_tbl_q26" type="radio" value="ตัวเลือก ข้อ 3" /> 3. ดีบุก </label><br>
+<label><input name="gct_tbl_q26" type="radio" value="ตัวเลือก ข้อ 4" /> 4. ข้าวโพด</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_26" class="show_answer" onclick="hide_div_spelling('gct_ans_26')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q26" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+
+สูตรการหาการเปลี่ยนแปลง(&#9651;%) คือ<br>
+&#9651;% = ((new_value/original_value)-1)(100)<br><br>
+
+แทนค่าในสูตร <br>
+(ปี 2552 และ 2554)<br><br>
+
+ข้าว  = ((25/22)-1)(100) = 13.6<br><br>
+
+ยาง  = ((130/95)-1)(100) = 36.8<br><br>
+
+ดีบุก  = ((54/78)-1)(100) = -30.7<br><br>
+
+ข้าวโพด  = ((101/83)-1)(100) = 21.6<br><br>
+
+คำตอบคือ ข้อ 2<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q26', 'ตัวเลือก ข้อ 2', 'gct_ans_26', 'yes','111118','tbl_q26'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_26" onclick="show_hide_expl('gct_expl_tbl_q26', 'quiz_tbl_26','tbl_q26'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 26 -->
+
+<!-- ข้อ 27 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q27"><strong>ข้อ 27.</strong></div>
+<div class="question_content">ในปี 2558 อัตราส่วนมูลค่าส่งออก โดยประมาณ ของ ข้าว : ยาง : ข้าวโพด คือข้อใด
+<br>
+
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q27" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 11:9:1 </label><br>
+<label><input name="gct_tbl_q27" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 12:8:2</label><br>
+<label> <input name="gct_tbl_q27" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 15:10:3</label><br>
+<label><input name="gct_tbl_q27" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 16:11:5</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_27" class="show_answer" onclick="hide_div_spelling('gct_ans_27')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q27" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+
+ให้ตัดตัวเลขออก 3 หลัก จะได้ ข้อมูล ปี 2558 คือ<br>
+ข้าว:ยาง:ข้าวโพด = 33:27:3<br>
+เอา 3 (ห.ร.ม.) มาหาร จะได้<br>
+11:9:1<br><br>
+
+คำตอบที่ถูกคือ ข้อ 1<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q27', 'ตัวเลือก ข้อ 1', 'gct_ans_27', 'yes','111118','tbl_q27'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_27" onclick="show_hide_expl('gct_expl_tbl_q27', 'quiz_tbl_27','tbl_q27'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 27 -->
+
+<!-- ข้อ 28 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q28"><strong>ข้อ 28.</strong></div>
+<div class="question_content">ปี 2561 มูลค่าการส่งออกยาง มีมูลค่าเพิ่มขึ้น ร้อยละเท่าไร
+<br>
+
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q28" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 12% </label><br>
+<label><input name="gct_tbl_q28" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 15%</label><br>
+<label> <input name="gct_tbl_q28" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 18% </label><br>
+<label><input name="gct_tbl_q28" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 20%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_28" class="show_answer" onclick="hide_div_spelling('gct_ans_28')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q28" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+ปี 2560 มูลค่าการส่งออกยาง = 23,557<br>
+ปี 2561 มูลค่าการส่งออกยาง = 26,384<br><br>
+
+สูตรการหาการเปลี่ยนแปลง(&#9651;%) คือ<br>
+&#9651;% = ((new_value/original_value)-1)(100)<br><br>
+
+แทนค่าในสูตร <br>
+&#9651;% = ((24/26)-1)(100) = 8.3<br><br>
+
+ค่าใกล้เคียงกับ 12% มากที่สุด<br><br>
+
+คำตอบคือ ข้อ 1<br><br>
+
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q28', 'ตัวเลือก ข้อ 1', 'gct_ans_28', 'yes','111118','tbl_q28'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_28" onclick="show_hide_expl('gct_expl_tbl_q28', 'quiz_tbl_28','tbl_q28'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 28 -->
+
+<!-- ข้อ 29 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q29"><strong>ข้อ 29.</strong></div>
+<div class="question_content">ปี 2561 มูลค่าการส่งออกข้าวและยาง มีมูลค่าต่างกัน ร้อยละเท่าไร
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q29" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 3.35% </label><br>
+<label><input name="gct_tbl_q29" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 9.12%</label><br>
+<label> <input name="gct_tbl_q29" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 11.35%</label><br>
+<label><input name="gct_tbl_q29" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 21.38%</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_29" class="show_answer" onclick="hide_div_spelling('gct_ans_29')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q29" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+ปี 2561 ส่งออกข้าว = 29,559 บาท<br>
+ปี 2561 ส่งออกยาง = 26,384 บาท<br><br>
+
+สูตรการหาความต่าง คือ<br>
+<span class="frac">(จำนวนที่ 1)-(จำนวนที่ 2)<span class="symbol">/</span><span class="bottom">((จำนวนที่ 1)+(จำนวนที่ 2))/2</span>
+</span> x 100<br><br>
+
+แทนค่าในสูตร<br>
+=<span class="frac">(30)-(26)<span class="symbol">/</span><span class="bottom">((30)+(26))/2</span>
+</span> x 100<br>
+= 14.2%<br>
+
+คำตอบที่ใกล้เคียงที่สุด คือ ข้อ 3 (11.35%)<br><br>
+
+คำตอบคือ ข้อ 3
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q29', 'ตัวเลือก ข้อ 3', 'gct_ans_29', 'yes','111118','tbl_q29'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_29" onclick="show_hide_expl('gct_expl_tbl_q29', 'quiz_tbl_29','tbl_q29'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย')  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 29 -->
+
+<!-- ข้อ 30 -->
+<div class="item_container">
+<form action="#">
+<div class="question_num"  id="tbl_q30"><strong>ข้อ 30.</strong></div>
+<div class="question_content">มูลค่าเฉลี่ยต่อปี การส่งออกข้าวระหว่าง 2558-2561 ประมาณกี่ล้านบาท
+<br>
+</div>
+<div class="clear">&nbsp;</div>   <!-- line break to start following div next line  -->
+
+<label> <input name="gct_tbl_q30" type="radio" value="ตัวเลือก ข้อ 1" /> 1. 33.25 ล้านบาท </label><br>
+<label><input name="gct_tbl_q30" type="radio" value="ตัวเลือก ข้อ 2" /> 2. 332.50 ล้านบาท</label><br>
+<label> <input name="gct_tbl_q30" type="radio" value="ตัวเลือก ข้อ 3" /> 3. 3,325 ล้านบาท </label><br>
+<label><input name="gct_tbl_q30" type="radio" value="ตัวเลือก ข้อ 4" /> 4. 33,250 ล้านบาท</label><br>
+<!--  choice_d  -->
+<div class="clear">&nbsp;</div><!-- line break to start following div next line  -->
+<div id="gct_ans_30" class="show_answer" onclick="hide_div_spelling('gct_ans_30')" style="display:none; cursor: pointer;">
+              dummy text
+</div>
+<div id="gct_expl_tbl_q30" class="explanation" style="display:none">
+<strong>วิธีคิด</strong><br><br>
+
+ตัดตัวเลขออก 3 หลัก นำมารวมกันแล้วหารด้วย 3<br><br>
+
+33+44+27+29 = 133<br>
+133/4 = 33.25<br>
+เราตัดตัวเลขออก 3 หลัก เมื่อได้คำตอบจึงต้องคูณด้วย 1,000 เพื่อจะได้ค่าเท่าเดิม<br>
+33.25x1000 = 33,250 ล้านบาท<br><br>
+
+คำตอบคือ ข้อ 4<br>
+
+</div>  <!-- gct_expl_q..  -->
+<div class ="button">
+<input class="chkAnsBtn" name="send" onclick="checkAns('gct_tbl_q30', 'ตัวเลือก ข้อ 4', 'gct_ans_30', 'yes','111118','tbl_q30'); return false;" type="submit" value="ตรวจคำตอบ" /> 
+<!-- checkAns_tbl('ข้อ', 'ตัวเลือกที่ถูก')  -->
+<input class="myFloat_Right" style="color:blue;" id="quiz_tbl_30" onclick="show_hide_expl('gct_expl_tbl_q30', 'quiz_tbl_30','tbl_q30'); return false;" type="submit" value="ดูคำอธิบาย" /> 
+<!--  show_hide_t_spelling('id คำอธิบาย','id ปุ่ม ดูคำอธิบาย') xxx  -->
+</div> <!-- button -->
+</form> <br>
+<div class="clear_after_item">&nbsp;</div>
+ </div> <!--  item_container  -->
+<!-- จบข้อ 30 -->
+
+</div>  <!-- end of class="qstn-div"   -->
+<br><br>
+<div style="text-align: right">ขอให้โชคดี ทุกคน&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<br><br>
+
+
+
+ </div> 
+ <!--  quiz_container  -->
+ </body>
+</html>

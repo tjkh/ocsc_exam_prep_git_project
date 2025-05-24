@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- 1 -->
+  <thisQuestion>
+    <qNum>id02757:date1627453500</qNum>
+    <question>
+	You are at &lt;b&gt;a shopping center with two friends&lt;/b&gt;. Everyone wants to go to a different store.
+	You says: "_______"
+	</question>
+    <choice_A>Let’s have a meeting at 2.30.</choice_A>
+    <choice_B>Return to me at 2.30.
+	</choice_B>
+    <choice_C>Can you find me here at 2.30?</choice_C>
+    <choice_D>Shall we meet here at 2.30?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+	การนัดหมายให้มาพบกัน ควรขึ้นต้นประโยคว่า Shall we ... ซึ่งเป็นการชักชวนแบบกลาง ๆ ผู้ถูกชักชวนสามารถให้เหตุผลในการปฏิเสธ หรือให้ทางเลือกอื่นได้ ไม่เป็นการบังคับ
+	Let\'s have a meeting at ... ก็เป็นการชักชวนในลักษณะเดียวกัน แต่คำว่า meeting หมายถึงการประชุม ไม่ใช่การนัดพบกัน
+	</explanation>
+    <isExplain>nonexx</isExplain>
+  </thisQuestion>
+  <!-- 2 -->
+  <thisQuestion>
+    <qNum>id02758:date1627453500</qNum>
+    <question>
+	You want to buy a shirt in the department store. You see one that you like on sale, but it is too small. 
+	You ask the sales assistant, "_______"	
+	</question>
+    <choice_A>I &lt;strong&gt;need&lt;/strong&gt; a smaller one.</choice_A>
+    <choice_B>Is the sale still on for all sizes?</choice_B>
+    <choice_C>Will you sell me a bigger one?</choice_C>
+    <choice_D>Do you have a smaller size?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- a=2, b=3,c=4,d=5 -->
+    <explanation>
+	the sale still on for all sizes หมายถึงว่า การลดราคานี้ ใช้ได้กับทุกขนาด 
+	Can you make it bigger? เป็นการขอให้ทำให้ใหญ่ขึ้น ซึ่งตามปกติร้านค้าก็คงจะไม่ทำให้
+	Will you sell me a bigger one? ไม่น่าจะดีนัก เพราะยังไม่ทราบว่าขนาดใหญ่กว่านี้จะมีหรือไม่
+	Do you have a smaller size? เป็นการถามหาขนาดที่เล็กลงกว่านี้ ซึ่งใช้ไม่ได้กับสถานการณ์นี้
+	ไวยากรณ์
+	ประโยคคำถามที่ขึ้นต้นด้วย Is Will Can หรือ Do เป็นประโยคคำถามชนิด Yes/No Question ซึ่งผู้ถามต้องการคำตอบว่า ใช่หรือไม่
+	ถ้าต้องการให้ผู้อื่นช่วยทำอะไรให้ อาจจะขึ้นต้นประโยคว่า Can you... เช่น Can you lend me some money? 
+	</explanation>
+    <isExplain>Explanation Available</isExplain>
+  </thisQuestion>
+  <!-- 3 -->
+  <thisQuestion>
+    <qNum>id02759:date1627453500</qNum>
+    <question>
+	You are in a shop and want to buy a watch but there is no price tag. 
+	You say to the shopkeeper, " _______"
+	</question>
+    <choice_A>What’s the expense?</choice_A>
+    <choice_B>How many do you want?</choice_B>
+    <choice_C>What’s the worth of this watch?</choice_C>
+    <choice_D>How much does this cost?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <explanation>
+	price tag คือ ป้ายบอกราคา เมื่อไม่มีป้ายบอกราคา คำถามจึงควรเป็นคำถามที่ถามเกี่ยวกับราคาสิ่งของ คำถามที่ดีที่สุดเกี่ยวกับการถามราคาสิ่งของคือ How much does this(หรือ it) cost? คำว่า cost คือ ราคา, ต้นทุน
+	expense = ค่าใช้จ่าย
+	worth =	ใช้ในความหมายที่มีคุณค่า มีค่า
+	It was worth it. = มันคุ้มค่า
+	That was worth the wait. = มันคุ้มกับการรอคอย
+	</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 4 -->
+  <thisQuestion>
+    <qNum>id02760:date1627453500</qNum>
+    <question>
+You are in a shoe store trying on shoes. The sale clerk asks you, "_______"
+	</question>
+    <choice_A>Why are your feet so big?</choice_A>
+    <choice_B>How big are you?</choice_B>
+    <choice_C>Are you comfortable?</choice_C>
+    <choice_D>Do they fit?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <explanation>
+	trying on shoes คือ กำลังลองรองเท้า ว่าใส่พอดีหรือไม่
+	Why are your feet so big? = ทำไมเท้าคุณใหญ่จัง
+	How big are you? คุณ(ตัว)ใหญ่แค่ไหน
+	Are you comfortable? เป็นไง สบายใหม (เช่น นั่งสบายใหม อึดอัดไปหรือเปล่า เป็นต้น)
+	Do they fit? they ในที่นี้ก็คือ รองเท้า เพราะกำลังลองรองเท้าอยู่fit คือ พอดี รองเท้าที่ลองใส่แล้วพอดีหรือไม่</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 5 -->
+  <thisQuestion>
+    <qNum>id02761:date1627453500</qNum>
+    <question>
+As you are leaving a shop, the salesgirl says pleasantly, "_______"
+	</question>
+    <choice_A>Where are you going?</choice_A>
+    <choice_B>Please come again.</choice_B>
+    <choice_C>Watch your purse.</choice_C>
+    <choice_D>Did you forget to pay?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <explanation>
+	leave = ออกจาก (leaf = ใบไม้)
+	pleasantly = อย่างมีไมตรี อย่างยิ้มแย้ม
+	Please come again. = แล้วกลับมา(ซื้อ)อีกนะคะ</explanation>
+    <isExplain>noneppp</isExplain>
+  </thisQuestion>
+  <!-- 6 -->
+  <thisQuestion>
+    <qNum>id02762:date1627453500</qNum>
+    <question>
+A salesgirl in a department store comes up to a new customer and says : "_______"
+	</question>
+    <choice_A>Do you need some help?</choice_A>
+    <choice_B>Can you help me?</choice_B>
+    <choice_C>What are you doing here?</choice_C>
+    <choice_D>Why didn’t you call me?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <explanation>
+	come up to = เข้ามาใกล้
+	คนขายในห้างสรรพสินค้า เมื่อเดินมาหาลูกค้า ก็มักจะเสนอให้ความช่วยเหลือเกี่ยวกับของที่ลูกค้าต้องการซื้อ
+	Do you need some help? = ต้องการความช่วยเหลือไหมคะ
+	Can you help me? ช่วยหน่อยนะครับ/คะ
+	What are you doing here? คุณมาทำอะไรที่นี่
+	Why didn't you call me? ทำไมไม่โทรมา(ก่อน)? call = เรียก หรือ โทรศัพท์ เช่น make a call 
+	call on = เยี่ยม ไปหา เช่น  I called on my neighbors last night and returned a book I had borrowed. เมื่อคืนไปหาเพื่อนบ้านและคืนหนังสือที่ยืมมา</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 7 -->
+  <thisQuestion>
+    <qNum>id02763:date1627453500</qNum>
+    <question>
+	Wanlop wants to buy some trousers. The salesgirl says: "_______"
+	</question>
+    <choice_A>May I know your weight?</choice_A>
+    <choice_B>What size do you wear?</choice_B>
+    <choice_C>May I examine you?</choice_C>
+    <choice_D>Where is your waist?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <explanation>
+	ซื้อกางเกงขายาว (trousers) คนขายน่าจะพูดเรื่องขนาดของกางเกง
+	May I know your weight? = ฉันขอทราบน้ำหนักของคุณ
+	What size do you wear?= คุณใช้(กางเกง)ขนาดอะไร (เบอร์ M, L หรือ XL เป็นต้น)
+	May I examine you? = ฉันขอตรวจ(examine)คุณหน่อย
+	Where is your waist? = เอว(waist)คุณอยู่ไหน
+	</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 8 -->
+  <thisQuestion>
+    <qNum>id02764:date1627453500</qNum>
+    <question>
+You ask the owner of a news-stand for the latest issue of your favorite magazine.
+He says, "_______"
+	</question>
+    <choice_A>They have all disappeared.</choice_A>
+    <choice_B>They are all sold out.</choice_B>
+    <choice_C>Sorry, you can’t help it.</choice_C>
+    <choice_D>I don’t mind.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <explanation>
+	a news-stand = แผงขายหนังสือ
+	latest issue = ฉบับล่าสุด
+	favorite = ที่ชื่นชอบ
+	ไปถามถึงวารสารฉบับล่าสุด คำตอบของคนขายมีข้อเดียวที่ใช้ได้ คือ ขายหมดไปแล้ว (sold out = ขายหมดแล้ว)
+	They have all disappeared. = มันหายไปหมด ขายหมด ใช้คำว่า sold out ส่วนหายไปเฉย ๆ โดยไม่รู้ร่องรอย จะใช้คำว่า disappear ในที่นี้ ใช้คำว่า disappear ไม่เหมาะสม
+	Sorry, you can’t help it. = เสียใจ คุณช่วยอะไรไม่ได้ 
+	I don’t mind. = ฉันไม่รังเกียจ</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 9 -->
+  <thisQuestion>
+    <qNum>id02765:date1627453500</qNum>
+    <question>
+You fell asleep while watching football on TV.
+The next morning, you call your friend and ask :  "_______"
+	</question>
+    <choice_A>How did it happen?</choice_A>
+    <choice_B>Who won?</choice_B>
+    <choice_C>Who’s playing?</choice_C>
+    <choice_D>How come?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <explanation>
+	หลับหน้าทีวีขณะดูฟุตบอล วันรุ่งขึ้นต้องถามอย่างไร
+	How did it happen? = มันเกิดขึ้นอย่างไร happen = เกิดขึ้น ถ้าจะถามได้ ต้องคุยกันมาก่อนว่าเรื่องอะไร เช่น คนดูขว้างสิ่งของลงมาที่สนาม เราก็อาจจะถามถึงสาเหตุว่า เรื่องมันเกิดขึ้นได้อย่างไร How did it happen? 
+	Who won? = ใครชนะ win-won-won
+	Who’s playing? = ใครเล่น
+	How come? = ทำไม เป็นภาษาพูด มีความหมายเดียวกับคำว่า why
+	</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 10 -->
+  <thisQuestion>
+    <qNum>id02766:date1627453500</qNum>
+    <question>
+Two students skip class and are sitting in a coffee shop when they see their headmaster come in. The headmaster sees them and says : "_______"
+	</question>
+    <choice_A>What are you doing here?</choice_A>
+    <choice_B>Where are you going?</choice_B>
+    <choice_C>How would you do this?</choice_C>
+    <choice_D>Why don’t you give me a treat?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <explanation>
+	skip = ข้ามไป ไม่ทำ skip class = โดดเรียน ไม่เข้าเรียน
+	headmaster = ครูใหญ่
+	ครูใหญ่พบนักเรียนที่โดดเรียน ไม่เข้าห้องเรียน จะต้องถามว่าอย่างไร
+	What are you doing here? = พวกเธอทำอะไรกันที่นี่
+	Where are you going? = พวกเธอกำลังจะไปไหน
+	How would you do this?= เธอทำสิ่งนี้อย่างไร
+	Why don’t you give me a treat? = ทำไมพวกเธอไม่เลี้ยงครูล่ะ (treat = เลี้ยงอาหาร)</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 11 -->
+  <thisQuestion>
+    <qNum>id02767:date1627453500</qNum>
+    <question>
+Just after an important examination, Alan asks James, "_______"
+	</question>
+    <choice_A>What did you do?</choice_A>
+    <choice_B>Can you find it OK?</choice_B>
+    <choice_C>Did you do it?</choice_C>
+    <choice_D>How did you do it?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <explanation>
+	ถามเกี่ยวกับว่า ทำข้อสอบได้ไหม ควรถามว่า How did you do it? Is it easy for you? Is it difficult? เป็นต้น</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 12 -->
+  <thisQuestion>
+    <qNum>id02768:date1627453500</qNum>
+    <question>
+Sak goes to see a doctor. The first thing the doctor says to him is: "_______"
+	</question>
+    <choice_A>Can you tell me everything that’s wrong?</choice_A>
+    <choice_B>So what have you been doing?</choice_B>
+    <choice_C>May I help you?</choice_C>
+    <choice_D>What seems to be the problem?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <explanation>
+	สิ่งแรกที่หมอถาม น่าจะเป็นเกี่ยวกับว่าเป็นอะไร สำนวนที่ใช้คือ What seems to be the problem?
+	</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 13 -->
+  <thisQuestion>
+    <qNum>id02769:date1627453500</qNum>
+    <question>
+Jane went out with friends. When she arrived home at 3:30 a.m., her worried mother asked her : "_______"
+	</question>
+    <choice_A>What do you do?</choice_A>
+    <choice_B>Where have you been?</choice_B>
+    <choice_C>Who did you drive with?</choice_C>
+    <choice_D>How far was it?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <explanation>
+	3:30 a.m. คือ ตีสามครึ่ง คุณแม่ต้องเป็นห่วงมาเป็นธรรมดา
+	What do you do? = ใช้ถามเกี่ยวกับการงานอาชีพ คำตอบ เช่น I am a farmer. I am a student. เป็นต้น
+	Where have you been? = ไปอยู่ที่ไหนมา ใช้ Present perfect tense (have + กริยาช่อง 3)แสดงความหมายว่า ตั้งแต่ก่อนหน้านี้ จนถึงเดี๋ยวนี้ ไปอยู่ที่ไหนมา
+	Who did you drive with? = ขับรถกับใคร
+	How far was it? = ไกลแค่ไหน
+	</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 14 -->
+  <thisQuestion>
+    <qNum>id02770:date1627453500</qNum>
+    <question>
+Your friend did not get a scholarship to study abroad.
+You try to cheer him up by saying, "_______"
+	</question>
+    <choice_A>You can’t teach an old dog new tricks.</choice_A>
+    <choice_B>Bird’s of a feather flock together.</choice_B>
+    <choice_C>Every cloud has a silver lining.</choice_C>
+    <choice_D>Strike while the iron’s hot.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <explanation>
+	scholarship to study abroad = ทุนศึกษาต่อต่างประเทศ
+	cheer up = ให้กำลังใจ ทำให้หายเศร้า ปลอบ
+	คำพูดที่ใช้ปลอบใจให้หายเศร้า น่าจะเป็นทำนองว่า อย่าไปเสียใจให้มาก 
+	You can’t teach an old dog new tricks. = หมาแก่ สอนให้ทำอะไรใหม่ ๆ ไม่ได้
+	Bird’s of a feather flock together. = นกขนสีเดียวกันอยู่ในหมู่เดียวกัน
+	Every cloud has a silver lining. = ในเรื่องร้ายย่อมมีเรื่องดี ๆ (ก้อนเมฆดำทะมีนบดบังแสงอาทิตย์ แต่ที่ขอบ ๆ ของก้อนเมฆจะเห็นมีเป็นสีทอง)
+	Strike while the iron’s hot. = ตีเหล็กเมื่อยังร้อน strike = ตี, โจมตี
+	</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 15 -->
+  <thisQuestion>
+    <qNum>id02771:date1627453500</qNum>
+    <question>
+You meet a friend who has just had her car stolen. You say, "_______"
+	</question>
+    <choice_A>Very disappointed in you.</choice_A>
+    <choice_B>Never more exciting for you.</choice_B>
+    <choice_C>Really sorry to hear the news.</choice_C>
+    <choice_D>Can’t stand such a loss.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <explanation>
+	had her car stolen = รถถูกขโมย
+	ควรต้องพูดแสดงความเสียใจที่รถถูกขโมยไป
+	Very disappointed in you. = ผิดหวังเธอมาก
+	Never more exciting for you. = ไม่มีอะไรที่ตื่นเต้นสำหรับคุณมากไปกว่านี้อีกแล้ว
+	Really sorry to hear the news. = เสียใจด้วยอย่างมากที่ได้ยินข่าว (ว่ารถถูกขโมย)
+	Can’t stand such a loss. = ทนไม่ได้กับความสูญเสีย a loss เป็นคำนาม หมายถึง ความสูญเสีย
+	</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id02772:date1627453500</qNum>
+    <question>
+You are visiting a friend in the hospital. When you leave you say, "_______"
+	</question>
+    <choice_A>Get well soon.</choice_A>
+    <choice_B>Recover better.</choice_B>
+    <choice_C>Get in shape.</choice_C>
+    <choice_D>Speed up.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <explanation>
+	hospital = โรงพยาบาล
+	leave = ออกจาก leave - left - left
+	ไปเยี่ยมเพื่อน ตอนก่อนจะกลับควรพูดว่าอย่างไร
+	สำนวนที่ใช้คือ Get well soon. ขอให้หายเร็ว ๆ
+	Get in shape หมายถึง ทำรูปร่างให้สมส่วน สมบูรณ์ แข็งแรง
+	Speed up. ใช้กับความเร็ว เร่งให้เร็วขึ้น
+	</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 17 -->
+  <thisQuestion>
+    <qNum>id02773:date1627453500</qNum>
+    <question>
+A: Let's eat at Joe's tonight.
+B:_________. I think it's cheaper at Winnie's.
+	</question>
+    <choice_A>Great!</choice_A>
+    <choice_B>Yes, it's a good idea.</choice_B>
+    <choice_C>Never mind.</choice_C>
+    <choice_D>Shall we go somewhere else?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <explanation>
+	B: เสนอว่า ควรไปกินที่ Winnie's ดีกว่า เพราะราคาถูกกว่า คำว่า Shall we เป็นการชักชวน เป็นการตอบปฏิเสธคำชวนแบบสุภาพ โดยเสนอเงื่อนไขใหม่ คำตอบข้ออื่น ๆ ไม่เหมาะสมกับสถานการณ์
+	Great! = ดีมาก (ไปกันเลย)
+	Yes, it's a good idea. = เป็นความคิดใช้ได้
+	Never mind = ไม่เป็นไร ใช้เป็นคำตอบการชักชวนไม่ได้</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 18 -->
+  <thisQuestion>
+    <qNum>id02774:date1627453500</qNum>
+    <question>
+A: I like Phuket a lot. I come here every year. _____________________?
+B: I like it, too. The beach is beatiful and people are nice.
+	</question>
+    <choice_A>How is the beach</choice_A>
+    <choice_B>What do you do</choice_B>
+    <choice_C>How do you find it here</choice_C>
+    <choice_D>How are things</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <explanation>
+	คำตอบแสดงความคิดเห็นสอดคล้องกับผู้ถาม พร้อมกับให้เหตุผลประกอบว่า ชายหาดสวย คนน่ารัก ดังนั้น คำถามจึงควรเป็นการถามความเห็นเกี่ยวกับภูเก็ต
+	How is the beach? ถามเกี่ยวกับชายหาด คำตอบข้อ 3 ตรงกว่า
+	What do you do? ถามเกี่ยวกับอาชีพ ว่าทำอาชีพอะไร ไม่เกี่ยวกับเรื่องนี้
+	How do you find it here? คุณว่าที่นี่(ภูเก็ต)เป็นยังไง
+	How are things? ใช้ถาม เป็นการทักทายกัน คล้ายกับว่า เป็นยังไงบ้าง ทุกอย่าง OK ไหม</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 19 -->
+  <thisQuestion>
+    <qNum>id02775:date1627453500</qNum>
+    <question>
+A: Let's go out to eat.
+B: That sounds like fun.
+A: Where do you want to go?
+B: Let me think a minute.
+A: _________________________ .
+B: That sounds delicious.
+	</question>
+    <choice_A>Let's go to the movies.</choice_A>
+    <choice_B>I feel like Chinese.</choice_B>
+    <choice_C>I don't like Mexican food.</choice_C>
+    <choice_D>Do you have your preferences?</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <explanation>
+	A ชวน B ไปกินอาหารนอกบ้าน (go out to eat) ซึ่ง B เห็นด้วย sounds like หมายถึง ดูรู้สึกว่า ข้อเสนอของ A จึงน่าจะเป็นเรื่องอาหาร หรือร้านอาหาร คำตอบ I feel like Chinese. จึงเป็นคำตอบที่ดีที่สุด เพราะบอกว่า เขารู้สึกอยากกินอาหารจีน
+	Let's go to the movies. (ไปดูหนังกันดีกว่า) ใช้ไม่ได้ เพราะไม่เข้ากับเรื่อง กำลังพูดเรื่องจะไปกินนอกบ้าน 
+	I don't like Mexican food. ไม่เข้ากับคำตอบของ B เพราะ B บอกว่า รู้สึกน่าอร่อย That's sound delicious.
+	Do you have your preferences? คุณมีอะไรชอบอยู่ในใจหรือเปล่า ข้อนี้ไม่เข้ากับคำตอบ ของ B
+	</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+  <!-- 20 -->
+  <thisQuestion>
+    <qNum>id02776:date1627453500</qNum>
+    <question>
+A: I can't believe how long this line is.
+B: This is the most popular restaurant in town.
+A: ____________________________________________ .
+B: That's because they cook it while you wait.
+	</question>
+    <choice_A>How do you like your steak?</choice_A>
+    <choice_B>What would you like to have?</choice_B>
+    <choice_C>Let's order now.</choice_C>
+    <choice_D> It's the slowest hamburger.</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <explanation>
+	จากบทสนทนา ทำให้คาดเดาสถานการณ์ว่า ทั้งสองคนกำลังไปต่อคิวสั่ง hamburger ที่ร้านที่ดังที่สุดในเมือง คำว่า line ธรรมดา หมายถึงเส้น แต่ในที่นี้คือ คิว long line คือคิวยาว
+	A ดูท่าทางจะไม่ค่อยชอบเพราะคิวยาว ต้องรอนาน ส่วน B ก็พยายามหาเหตุผลมาอธิบาย ว่า เป็นร้านดังที่สุดที่นี่ (most popular in town)
+	ช่องว่างที่เป็นคำพูดของ A น่าจะเป็นทำนองบ่นว่า ซึ่ง คำตอบข้อสุดท้ายจะดีที่สุด
+	How do you like your steak? (คุณต้องการสเต็กแบบใหน สุกมาก หรือสุกน้อย) ไม่เข้ากับสถานการณ์ และการให้เหตุผลของ B ที่พยายามอธิบายว่า สาเหตุที่ช้าเพราะ เขากำลังทำในขณะที่เรากำลังคอย
+	What would you like to have? (ต้องการสั่ง/กินอะไร) ไม่เข้ากับคำตอบของ B
+	Let's order now. (สั่งอาหารดีกว่า) กำลังเข้าคิว ยังสั่งไม่ได้ ยังไม่ถึงคิว และ ไม่เข้ากับคำตอบของ B อีกด้วย
+
+	</explanation>
+    <isExplain>none</isExplain>
+  </thisQuestion>
+</exams>
+
+

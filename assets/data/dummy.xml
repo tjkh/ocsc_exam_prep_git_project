@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <thisQuestion>
+    <qNum>id1670311158:date1670311159</qNum>
+    <question>คำถามข้อที่ 1
+    &lt;div style="color: #000000; background-color: #cce7f1; &quot;&gt;
+inside div tag with picture
+      &lt;br&gt;
+      บัตร ธนาคารกรุงไทย      &lt;br&gt;
+      &lt;img src=&quot;asset:assets/data/images/ktc2_sm.png&quot;&gt;
+      แอร์เพย์
+      &lt;div style=&quot;text-align: center&quot;&gt;
+      &lt;img src=&quot;asset:assets/data/images/air_pay.png&quot;&gt;
+      &lt;/div&gt;
+      ทดสอบรูป air-pay จัดกลาง
+      &lt;/div&gt;
+    </question>
+    <choice_A>answer choice 1 A</choice_A>
+    <choice_B>answer choice 1 B</choice_B>
+    <choice_C>answer choice 1 C</choice_C>
+    <choice_D>answer choice 1 D</choice_D>
+    <choice_E>answer choice 1 E</choice_E>
+    <correctAns>55</correctAns>
+    <explanation>นี่คือคำอธิบาย</explanation>
+    <isExplain>yes</isExplain>
+  </thisQuestion>
+  <thisQuestion>
+    <qNum>id02778_katex:date1633687094</qNum>
+    <question>
+      คำถามข้อที่ 2 ใช้ flutter_html เพื่อสัญลักษณ์ทางคณิตศาสตร์
+
+      เศษส่วน &lt;tex&gt;\frac{3}{4}&lt;/tex&gt; &lt;br /&gt;
+
+      ต้องระวัง อย่าให้ยาวมาก จะ overflow&lt;br /&gt;&lt;br /&gt;
+      ใช้ \dfrac{}{} ตัวเศษส่วนจะใหญ่ขึ้น แต่อยู่สูงกว่าบรรทัดนิดนึง เพราะเป็นแบบ display &lt;br /&gt;
+      ถ้าใช้ \frac{}{} จะตัวเล็กหน่อย แต่อยู่ตรงบรรทัด เพราะอยู่ในลักษณะ inline &lt;br /&gt;
+      ถ้าใช้ \large \frac{}{} จะตัวใหญ่ขึ้นมานิดนึง แต่ลอยขึ้นมานิดนึง (อยู่ในลักษณะ inline) &lt;br /&gt;
+     ถ้าใช้ \Large \frac{}{} จะตัวใหญ่ขึ้นมานิดนึง และลอยขึ้นมานิดนึง (อยู่ในลักษณะ inline) &lt;br /&gt;
+     ถ้าใช้ \Huge \frac{}{} จะตัวใหญ่ขึ้นมามาก และลอยขึ้นมานเยอะ (อยู่ในลักษณะ inline) &lt;br /&gt;
+   ดูที่  https://tex.stackexchange.com/search?q=%5Clarge+%5Cfrac%7B &lt;br /&gt;
+
+      มีรูป  ใช้ได้ตามปกติ
+
+
+       </question>
+       <choice_A>answer choice 2 A</choice_A>
+       <choice_B>answer choice 2 B</choice_B>
+       <choice_C>answer choice 2 C</choice_C>
+       <choice_D>answer choice 2 D</choice_D>
+       <choice_E>
+       </choice_E>
+       <correctAns>55</correctAns>
+       <explanation>นี่คือคำอธิบาย  &lt;br&gt;
+
+         มีรูป มีเศษส่วน ใช้ได้ตามปกติ
+
+       </explanation>
+       <isExplain>yes</isExplain>
+     </thisQuestion>
+     <thisQuestion>
+       <qNum>id02779:date1633687094</qNum>
+       <question>คำถามข้อที่ 3</question>
+       <choice_A>answer choice 3 A</choice_A>
+       <choice_B>answer choice 3 B</choice_B>
+       <choice_C>answer choice 3 C</choice_C>
+       <choice_D>answer choice 3 D</choice_D>
+       <choice_E>answer choice 3 E</choice_E>
+       <correctAns>55</correctAns>
+       <explanation>นี่คือคำอธิบาย</explanation>
+       <isExplain>yes</isExplain>
+     </thisQuestion>
+     <thisQuestion>
+       <qNum>id02780:date1633687094</qNum>
+       <question>คำถามข้อที่ 4</question>
+       <choice_A>answer choice 4 A</choice_A>
+       <choice_B>answer choice 4 B</choice_B>
+       <choice_C>answer choice 4 C</choice_C>
+       <choice_D>answer choice 4 D</choice_D>
+       <choice_E>
+       </choice_E>
+       <correctAns>55</correctAns>
+       <explanation>นี่คือคำอธิบาย</explanation>
+       <isExplain>yes</isExplain>
+     </thisQuestion>
+     <thisQuestion>
+       <qNum>id02781:date1668749358</qNum>
+       <question>คำถามข้อที่ 5</question>
+       <choice_A>answer choice 5 A</choice_A>
+       <choice_B>answer choice 5 B</choice_B>
+       <choice_C>answer choice 5 C</choice_C>
+       <choice_D>answer choice 5 D</choice_D>
+       <choice_E>answer choice 5 E</choice_E>
+       <correctAns>55</correctAns>
+       <explanation>นี่คือคำอธิบาย</explanation>
+       <isExplain>yes</isExplain>
+     </thisQuestion>
+     <thisQuestion>
+       <qNum>id02782:date1668749358</qNum>
+       <question>คำถามข้อที่ 6</question>
+       <choice_A>answer choice 6 A</choice_A>
+       <choice_B>answer choice 6 B</choice_B>
+       <choice_C>answer choice 6 C</choice_C>
+       <choice_D>answer choice 6 D</choice_D>
+       <choice_E>answer choice 6 E</choice_E>
+       <correctAns>55</correctAns>
+       <explanation>นี่คือคำอธิบาย</explanation>
+       <isExplain>yes</isExplain>
+     </thisQuestion>
+     <thisQuestion>
+       <qNum>id02783:date1668749358</qNum>
+       <question>คำถามข้อที่ 7</question>
+       <choice_A>answer choice 7 A</choice_A>
+       <choice_B>answer choice 7 B</choice_B>
+       <choice_C>answer choice 7 C</choice_C>
+       <choice_D>answer choice 7 D</choice_D>
+       <choice_E>answer choice 7 E</choice_E>
+       <correctAns>55</correctAns>
+       <explanation>นี่คือคำอธิบาย</explanation>
+       <isExplain>yes</isExplain>
+     </thisQuestion>
+     <thisQuestion>
+       <qNum>id02784:date1668749358</qNum>
+       <question>คำถามข้อที่ 8</question>
+       <choice_A>answer choice 8 A</choice_A>
+       <choice_B>answer choice 8 B</choice_B>
+       <choice_C>answer choice 8 C</choice_C>
+       <choice_D>answer choice 8 D</choice_D>
+       <choice_E>answer choice 8 E</choice_E>
+       <correctAns>55</correctAns>
+       <explanation>นี่คือคำอธิบาย</explanation>
+       <isExplain>yes</isExplain>
+     </thisQuestion>
+     <thisQuestion>
+       <qNum>id02785:date1668749358</qNum>
+       <question>คำถามข้อที่ 9</question>
+       <choice_A>answer choice 9 A</choice_A>
+       <choice_B>answer choice 9 B</choice_B>
+       <choice_C>answer choice 9 C</choice_C>
+       <choice_D>answer choice 9 D</choice_D>
+       <choice_E>answer choice 9 E</choice_E>
+       <correctAns>55</correctAns>
+       <explanation>นี่คือคำอธิบาย</explanation>
+       <isExplain>yes</isExplain>
+     </thisQuestion>
+     <thisQuestion>
+       <qNum>id02786:date1668749358</qNum>
+       <question>คำถามข้อที่ 10</question>
+       <choice_A>answer choice 10 A</choice_A>
+       <choice_B>answer choice 10 B</choice_B>
+       <choice_C>answer choice 10 C</choice_C>
+       <choice_D>answer choice 10 D</choice_D>
+       <choice_E>answer choice 10 E</choice_E>
+       <correctAns>55</correctAns>
+       <explanation>นี่คือคำอธิบาย</explanation>
+       <isExplain>yes</isExplain>
+     </thisQuestion>
+     <thisQuestion>
+       <qNum>id02787:date1668749358</qNum>
+       <question>คำถามข้อที่ 11</question>
+       <choice_A>answer choice 11 A</choice_A>
+       <choice_B>answer choice 11 B</choice_B>
+       <choice_C>answer choice 11 C</choice_C>
+       <choice_D>answer choice 11 D</choice_D>
+       <choice_E>answer choice 11 E</choice_E>
+       <correctAns>55</correctAns>
+       <explanation>นี่คือคำอธิบาย</explanation>
+       <isExplain>yes</isExplain>
+     </thisQuestion>
+   </exams>
+
+

@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+ <body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ทต่างกัน  -->
+            <button id = "start" onclick="countDown(2,0,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+		</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 30 นาที
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">x</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+<br><br>
+
+<!--
+
+-->
+<strong>Instruction:</strong> Select the most appropriate choice for each item. (Q1 – Q5)<br><br>
+
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<strong>Interviewer:</strong> Good afternoon, please have a seat.<br>
+<strong>Interviewee:</strong> (1) _________.<br>
+<strong>Interviewer:</strong> How are you doing?<br>
+<strong>Interviewee:</strong> I’m fine, thank you.<br>
+<strong>Interviewer:</strong> (2) _________?<br>
+<strong>Interviewee:</strong> No, sir, I had no trouble at all.<br>
+<strong>Interviewer:</strong> Could you tell me a little about your (3) _________?<br>
+<strong>Interviewee:</strong> I graduated from UCLA in 1995, with a Bachelor’s degree in Journalism.<br>
+<strong>Interviewer:</strong> Any post-graduate degrees?<br>
+<strong>Interviewee:</strong> Yes, I enrolled in NYU’s master program for journalism and (4) _________.<br>
+<strong>Interviewer:</strong> How about your (5) _________?<br>
+<strong>Interviewee:</strong> After I left NYU, I worked for a year at the Cincinnati Daily.<br>
+
+</div>
+
+
+<div class="quiz">
+Q 1. <br>
+</div>
+
+<label><input type="radio" name="q1" value="0">Yes, please</label><br>
+<label><input type="radio" name="q1" value="1">Thank you</label><br>
+<label><input type="radio" name="q1" value="0">With pleasure</label><br>
+<label><input type="radio" name="q1" value="0">Sit down, please</label><br>
+
+
+<div class="quiz">
+Q 2. <br>
+</div>
+
+<label><input type="radio" name="q2" value="0">What is the problems at your office</label><br>
+<label><input type="radio" name="q2" value="0">Did you like the office you worked</label><br>
+<label><input type="radio" name="q2" value="0">Was there any problems at the office</label><br>
+<label><input type="radio" name="q2" value="1">Did you have any trouble finding us</label><br>
+
+
+
+<div class="quiz">
+Q 3. <br>
+13   9   3   15   25   5   17   49   7   19   81   9   21 ... <br>
+</div>
+
+<label><input type="radio" name="q3" value="0">hobbies</label><br>
+<label><input type="radio" name="q3" value="0">private life</label><br>
+<label><input type="radio" name="q3" value="0">previous experience</label><br>
+<label><input type="radio" name="q3" value="1">educational  background</label><br>
+
+
+
+<div class="quiz">
+Q 4. <br>
+13   9   3   15   25   5   17   49   7   19   81   9   21 ... <br>
+</div>
+
+<label><input type="radio" name="q4" value="0">didn’t  finish</label><br>
+<label><input type="radio" name="q4" value="0">dropped out in 1998</label><br>
+<label><input type="radio" name="q4" value="1">earned a degree</label><br>
+<label><input type="radio" name="q4" value="0">took a break</label><br>
+
+
+
+<div class="quiz">
+Q 5. <br>
+</div>
+
+<label><input type="radio" name="q5" value="0">previous job</label><br>
+<label><input type="radio" name="q5" value="0">post education</label><br>
+<label><input type="radio" name="q5" value="1">work experience</label><br>
+<label><input type="radio" name="q5" value="0">other qualifications</label><br>
+
+
+<!-- 6-9 โจทย์คณิด 4 ข้อ  -->
+<br>
+<strong>Instruction :</strong> Fill in the blank. (Q6-Q10)<br><br>
+<div class="quiz">
+Q 6. <br>
+
+The Prime Minister will be leaving today to ____________the Asia-Europe Meeting.<br>
+</div>
+
+<label><input type="radio" name="q6" value="0">visit</label><br>
+<label><input type="radio" name="q6" value="0">enter</label><br>
+<label><input type="radio" name="q6" value="1">attend</label><br>
+<label><input type="radio" name="q6" value="0">report</label><br>
+
+
+
+
+<div class="quiz">
+Q 7. <br>
+There is a high ______ of an accident when driving in heavy rain.<br></div>
+
+<label><input type="radio" name="q7" value="1">risk</label><br>
+<label><input type="radio" name="q7" value="0">threat</label><br>
+<label><input type="radio" name="q7" value="0">danger</label><br>
+<label><input type="radio" name="q7" value="0">warning</label><br>
+
+
+<div class="quiz">
+Q 8. <br>
+Artists normally use only acoustic guitars to play acoustic ______ <br></div>
+
+<label><input type="radio" name="q8" value="0">sounds</label><br>
+<label><input type="radio" name="q8" value="1">versions</label><br>
+<label><input type="radio" name="q8" value="0">patterns</label><br>
+<label><input type="radio" name="q8" value="0">instruments</label><br>
+
+
+
+<div class="quiz">
+Q 9. <br>
+If they can buy personal computers, they should also be able to ______ the software.</div>
+
+<label><input type="radio" name="q9" value="0">plan</label><br>
+<label><input type="radio" name="q9" value="0">advise</label><br>
+<label><input type="radio" name="q9" value="1">afford</label><br>
+<label><input type="radio" name="q9" value="0">arrange</label><br>
+
+
+<!-- 10 โอเปอเรชั่น 1 ข้อ -->
+
+
+<div class="quiz">
+Q 10. <br>
+Will you accept a credit card or do you prefer _______?<br></div>
+
+<label><input type="radio" name="q10" value="1">cash</label><br>
+<label><input type="radio" name="q10" value="0">bank</label><br>
+<label><input type="radio" name="q10" value="0">coins</label><br>
+<label><input type="radio" name="q10" value="0">money</label><br>
+
+
+
+<!--  11-15 การเปรึยบเทียบซ้อมูล (สดมภ์ 5 ข้อ   -->
+<br>
+<strong>Instruction: </strong>Choose the correct answer. (Q11 – Q15)<br><br>
+<div class="quiz">
+Q 11. <br>
+Thailand’s gross domestic product ________ to expand four to five percent this year.<br></div>
+
+<label><input type="radio" name="q11" value="0">expects</label><br>
+<label><input type="radio" name="q11" value="0">is expect</label><br>
+<label><input type="radio" name="q11" value="0">expected</label><br>
+<label><input type="radio" name="q11" value="1">is expected</label><br>
+
+
+<div class="quiz">
+Q 12. <br>
+Quality control is performed _______ every stage of our company’s production.<br></div>
+
+<label><input type="radio" name="q12" value="1">at</label><br>
+<label><input type="radio" name="q12" value="0">to</label><br>
+<label><input type="radio" name="q12" value="0">with</label><br>
+<label><input type="radio" name="q12" value="0">from</label><br>
+
+
+
+<div class="quiz">
+Q 13. <br>
+You can see all ___________ you need on the screen.<br></div>
+
+<label><input type="radio" name="q13" value="0">information</label><br>
+<label><input type="radio" name="q13" value="0">an information</label><br>
+<label><input type="radio" name="q13" value="1">the information</label><br>
+<label><input type="radio" name="q13" value="0">of information</label><br>
+
+<div class="quiz">
+Q 14. <br>
+As president of Homeland Estate Company, I would like to thank our business partners _____ contributed to our success.<br></div>
+
+<label><input type="radio" name="q14" value="1">who</label><br>
+<label><input type="radio" name="q14" value="0">which</label><br>
+<label><input type="radio" name="q14" value="0">where</label><br>
+<label><input type="radio" name="q14" value="0">whose</label><br>
+
+
+<div class="quiz">
+Q 15. <br>
+An Australian tourist died in Russia after _______ from swine flu.<br></div>
+
+<label><input type="radio" name="q15" value="0">suffer</label><br>
+<label><input type="radio" name="q15" value="0">to suffer</label><br>
+<label><input type="radio" name="q15" value="1">suffering</label><br>
+<label><input type="radio" name="q15" value="0">was suffered</label><br><br>
+
+
+
+<!--  16-20 วิเคราะห์ข้อมูลตาราง 5 ข้อ   -->
+<strong>Instruction:</strong> Read the following letter and select the best answer for each item. (Q16 – Q20)<br><br>
+
+
+<div class="qstn-div">
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+OFFICE OF THE CIVIL SERVICE COMMISSION<br><br>
+Pitsanuloke Road, Dusit, Bangkok 10300, THAILAND<br><br>
+Tel: 66 2547 1000, Fax 66 2547 1000<br><br>
+3 May 20XX<br><br>
+Mr. Denis Ives<br>
+Public Sector Management Consultant<br>
+17 Wagga Street<br>
+Canberra ACT2607<br>
+Australia<br><br>
+Dear Mr. Ives:<br><br>
+
+I am writing to you to express our appreciation for your warm hospitality and efforts in arranging the seminar programme for our group of executives from Thailand.  The programme was very well designed and was structured exactly as we had hoped.  The sessions with you, I would say, were the highlight of the programme.  While the introduction helped us greatly to comprehend the structure and framework of the Australian public service and its reform, your executive session was invaluable in clarifying the issues and areas that had been a bit unclear during the week of discussions and observations.<br><br>
+
+It was extremely valuable for us to have had this opportunity to observe the practice of Australian public service reform, to exchange ideas about our work, and to discuss our problems. This programme has given me new insights into our own situation and approaches to improve our procedures.<br><br>
+I hope that we will be able to keep in contact, and that perhaps we can reciprocate your hospitality in Thailand in the near future.<br><br>
+Yours sincerely,<br><br>
+XXXXXXXXX<br><br>
+Secretary-General<br>
+</div>  <!--  div style=  -->
+</div>   <!--  qstn-div  -->
+
+<div class="quiz">
+Q 16. <br>
+What is the purpose of this letter?
+</div>
+
+<label><input type="radio" name="q16" value="1">Thanks for study visit arrangement</label><br>
+<label><input type="radio" name="q16" value="0">Thanks for participating in the seminar</label><br>
+<label><input type="radio" name="q16" value="0">Acknowledgement of the benefits of the study visit</label><br>
+<label><input type="radio" name="q16" value="0">Appreciation for Australian public service management</label><br>
+
+
+<div class="quiz">
+Q 17. <br>
+It can be assumed that the sessions before Mr. Ive’s lecture were _____ .</div>
+
+<label><input type="radio" name="q17" value="0">simple</label><br>
+<label><input type="radio" name="q17" value="0">explicit</label><br>
+<label><input type="radio" name="q17" value="1">confusing</label><br>
+<label><input type="radio" name="q17" value="0">comprehensible</label><br>
+
+
+
+
+<div class="quiz">
+Q 18. <br>
+What is considered the best part of the seminar programme?</div>
+
+<label><input type="radio" name="q18" value="1">The meeting they had with Mr. Ives</label><br>
+<label><input type="radio" name="q18" value="0">Discussion with people involving the reform</label><br>
+<label><input type="radio" name="q18" value="0">Observations of Australian public management</label><br>
+<label><input type="radio" name="q18" value="0">Exchange of ideas concerning reform obstacles</label><br>
+
+
+<div class="quiz">
+Q 19. <br>
+The seminar programme largely deals with the ______.<br></div>
+
+<label><input type="radio" name="q19" value="0">obstacles of Australian government</label><br>
+<label><input type="radio" name="q19" value="1">reform of Australian public service</label><br>
+<label><input type="radio" name="q19" value="0">structure of Australian public facilities</label><br>
+<label><input type="radio" name="q19" value="0">management of Australian public service</label><br>
+
+
+<div class="quiz">
+Q 19. <br>
+The word “insight” (paragraph 2) refers to _____.</div>
+
+<label><input type="radio" name="q20" value="0">valuable innovations</label><br>
+<label><input type="radio" name="q20" value="0">a long vision</label><br>
+<label><input type="radio" name="q20" value="0">modern practices</label><br>
+<label><input type="radio" name="q20" value="1">deep understanding</label><br>
+
+
+<!--   21-25 อุปมา-อุปไมย 5 ข้อ   -->
+<br>
+<strong>Instruction: </strong>Read the following passage and choose the best answer. (Q21 – Q25)<br><br>
+<div class="qstn-div">
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<p>Structured learning certainly has its place. But if it replaces unmediated engagement with the world, it has a negative effect on a child’s education.  Children learn the fragility of flowers by touching their petals.  They learn to cooperate by organizing their own games.  The computer cannot simulate the physical and emotional nuances of resolving a dispute during kickball, or the creativity of inventing new rhymes to the rhythm of jumping rope.  These full-bodied, often deeply heartfelt experiences educate not just the intellect but also the soul of the child.  When children are free to practice on their own, they can test their inner perceptions against the world around them, develop the qualities of care, self-discipline, courage, compassion, generosity, and tolerance – and gradually figure out how to be part of both social and biological communities.</p>
+<p>It’s true that engaging with others on the playground can be a harrowing experience, too.  Children often need to be monitored and, at times, disciplined for acts of cruelty, carelessness, selfishness, even violence.  Computers do provide an attractively reliable alternative to the dangers of unsupervised play.  But schools too often use computers or other highly structured activities to prevent these problematic qualities of childhood from surfacing – out of fear or a compulsion to force-feed academics.  This effectively denies children the practice and feedback they need to develop the skills and dispositions of a mature person.  If children do not test the waters of unsupervised social activity, they likely will never be able to swim in the sea of civic responsibility.  If they have no opportunities to dig in the soil, discover the spiders, bugs, birds, and plants that populate even the smallest unpaved playgrounds, they will be less likely to explore, appreciate, and protect nature as adults.</p>
+</div>
+</div>
+
+<div class="quiz">
+Q 21. <br>
+The passage is mainly about ________.</div>
+
+<label><input type="radio" name="q21" value="0">children’s activities</label><br>
+<label><input type="radio" name="q21" value="0">children’s education</label><br>
+<label><input type="radio" name="q21" value="0">how to stimulate children’s creativity</label><br>
+<label><input type="radio" name="q21" value="1">the negative effects of structured learning</label><br>
+
+
+
+<div class="quiz">
+Q 22. <br>
+13   9   3   15   25   5   17   49   7   19   81   9   21 ... <br>
+</div>
+
+<label><input type="radio" name="q22" value="0">structured learning is the best way for children to learn</label><br>
+<label><input type="radio" name="q22" value="0">children learn to co-operate by playing computer games</label><br>
+<label><input type="radio" name="q22" value="0">computers can supplement physical activities for children</label><br>
+<label><input type="radio" name="q22" value="1">computers cut children off from direct experience of the world</label><br>
+
+
+
+<div class="quiz">
+Q 23. <br>
+According to the passage, children should have _________so that they can adapt themselves to be part of society.<br></div>
+
+<label><input type="radio" name="q23" value="1">free time with their family</label><br>
+<label><input type="radio" name="q23" value="0">highly structured activities</label><br>
+<label><input type="radio" name="q23" value="0">unsupervised social activities</label><br>
+<label><input type="radio" name="q23" value="0">attractive and monitored activities</label><br>
+
+
+
+<div class="quiz">
+Q 24. <br>
+Which of the following agrees with the passage?<br></div>
+<label><input type="radio" name="q24" value="0">Children should learn how to swim properly.</label><br>
+<label><input type="radio" name="q24" value="1">Children should be encouraged to engage with nature.</label><br>
+<label><input type="radio" name="q24" value="0">Children will eventually mature into responsible adults.</label><br>
+<label><input type="radio" name="q24" value="0">Children need to be supervised most of the time to prevent violence.</label><br>
+
+
+
+
+
+
+<div class="quiz">
+Q 25. <br>
+The word “harrowing” (paragraph 2, line 1) is closest in meaning to _____.<br></div>
+<label><input type="radio" name="q25" value="1">upsetting</label><br>
+<label><input type="radio" name="q25" value="0">structured</label><br>
+<label><input type="radio" name="q25" value="0">instructive</label><br>
+<label><input type="radio" name="q25" value="0">pleasurable</label><br>
+
+
+<!--  26-30 สรุปความจากภาษา 5 ข้อ -->
+
+
+<br>
+<input type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;"class="myFloat_Right;">
+</div>
+
+</div>  <!--  end of div content  -->
+
+  <script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

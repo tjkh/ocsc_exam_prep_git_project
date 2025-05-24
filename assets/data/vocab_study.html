@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="th">
+<!-- https://codepen.io/insidethediv/pen/PoKvqMo -->
+<!-- https://stackoverflow.com/questions/54617991/how-to-highlight-words-in-a-table-with-a-filter  -->
+ <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+input::placeholder {
+	  color: #FF5733;
+	  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td {
+    white-space: normal !important;
+    word-wrap: break-word;
+    vertical-align: top;
+    padding: 4px;
+  }
+
+  td table {
+    width: 100%;
+  }
+
+  td table td {
+    border: none;
+    padding: 2px 4px;
+    font-size: 90%;
+  }
+  
+    /* New styles for fixed search box */
+.search-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.search-container input {
+    width: 80%;
+    max-width: 500px;
+    padding: 8px;
+    font-size: 16px;
+}
+.content {
+    margin-top: 134px; /* Adjust based on search-container height */
+}
+
+</style>
+ <link rel="stylesheet" type="text/css" href="vocab_study.css">
+
+  <title>vocab_study</title>
+ </head>
+ <body>
+  <div class="search-container">
+  <div style="text-align: center; color: black">
+	<h2>คำศัพท์ควรรู้ ก่อนสอบ</h2>
+  </div>
+  <!--
+<input type="text" id="searchBox-3" placeholder="พิมพ์คำค้น">
+<table id="table-3">
+  -->
+  <input type="text" id="myInput" onkeyup="myFunction(this); ;this.style.color='black';" placeholder="พิมพ์คำค้น คำแปล หรือหมวดหมู่...">
+
+      <small class="hint-text"> หมวดหมู่: เคยออก, พบบ่อย, phrasal verb, prefix </small>
+</div>  <!--  end of search container  -->
+
+<div class = "content">
+<table id="myTable">
+	<tr>
+		<th>คำศัพท์</th>
+		<th>คำแปล</th>
+	</tr>
+
+    <tr><td>ab-</td><td>เอาออกไป (prefix)</td></tr>
+    <tr><td>abduct</td><td>ลักพาตัว</td></tr>
+    <tr><td>ability</td><td>ความสามารถ</td></tr>
+    <tr><td>able</td><td>สามารถ</td></tr>
+    <tr><td>about</td><td>ประมาณคร่าว ๆ, เกี่ยวกับ</td></tr>
+    <tr><td>absence</td><td>ขาดหายไป</td></tr>
+    <tr><td>absent</td><td>ไม่มา</td></tr>
+    <tr><td>absolute</td><td>ค่าสัมบูรณ์ (ไม่คิดเครื่องหมายบวก-ลบ)</td></tr>
+    <tr><td>absolute</td><td>อย่างแท้จริง</td></tr>
+    <tr><td>accept</td><td>ยอมรับ</td></tr>
+    <tr><td>acceptable</td><td>สามารถยอมรับได้</td></tr>
+    <tr><td>acceptance</td><td>การยอมรับ</td></tr>
+    <tr><td>access</td><td>เข้าถึง</td></tr>
+    <tr><td>access</td><td>ทางเข้า</td></tr>
+    <tr><td>accessible</td><td>สามารถเข้าถึงได้</td></tr>
+    <tr><td>accommodate</td><td>จัดที่อยู่ให้</td></tr>
+    <tr><td>accordingly</td><td>ตามที่ อย่างสอดคล้อง</td></tr>
+    <tr><td>account for</td><td>อธิบาย เป็นเหตุผลของ</td></tr>
+    <tr><td>accurate</td><td>ถูกต้อง</td></tr>
+    <tr><td>accusation</td><td>ข้อกล่าวหา</td></tr>
+    <tr><td>accuse</td><td>กล่าวหา</td></tr>
+    <tr><td>achieve</td><td>ประสบผลสำเร็จ</td></tr>
+    <tr><td>achievement</td><td>ความสำเร็จ</td></tr>
+    <tr><td>acknowledge</td><td>ตอบรับ รับทราบ</td></tr>
+    <tr><td>acquire</td><td>ได้รับ</td></tr>
+    <tr><td>adapt</td><td>ดัดแปลง</td></tr>
+    <tr><td>addition</td><td>การเพิ่มเติม</td></tr>
+    <tr><td>address</td><td>คำปราศรัย</td></tr>
+    <tr><td>address</td><td>จัดการปัญหา กล่าว</td></tr>
+    <tr><td>adept</td><td>ชำนาญ</td></tr>
+    <tr><td>adequate</td><td>เพียงพอ</td></tr>
+    <tr><td>adjacent</td><td>ประชิดกัน ติดกัน</td></tr>
+    <tr><td>adjust</td><td>ปรับเปลี่ยน</td></tr>
+    <tr><td>admin</td><td>ยอมรับ</td></tr>
+    <tr><td>administrative</td><td>เกี่ยวกับการบริหาร</td></tr>
+    <tr><td>admirable</td><td>น่าชื่นชม</td></tr>
+    <tr><td>admire</td><td>ชื่นชม</td></tr>
+    <tr><td>admission</td><td>รับเข้า</td></tr>
+    <tr><td>adopt</td><td>คัดลอก</td></tr>
+    <tr><td>advance</td><td>ก้าวหน้า, ขั้นสูง</td></tr>
+    <tr><td>adversary</td><td>ผู้ต่อต้าน, ศัตรู</td></tr>
+    <tr><td>adverse</td><td>เป็นผลร้าย,ตรงกันข้าม</td></tr>
+    <tr><td>advertisement</td><td>โฆษณา</td></tr>
+    <tr><td>advice</td><td>คำแนะนำ ข้อเสนอแนะ <br>give an advice (noun) ให้คำแนะนำ</td></tr>
+    <tr><td>advise</td><td>แนะนำ ให้คำปรึกษา <br> Please advise. (verb) ช่วยแนะหน่อย</td></tr>
+    <tr><td>advisor</td><td>ที่ปรึกษา</td></tr>
+    <tr><td>affect</td><td>มีผลต่อ กระทบ</td></tr>
+    <tr><td>affluent</td><td>ร่ำรวย</td></tr>
+    <tr><td>afford</td><td> ซื้อได้<br>(เคยออก)</td></tr>
+    <tr><td>afford</td><td>พอซื้อได้</td></tr>
+    <tr><td>affordable</td><td>สามาถซื้อได้ จัดหามาได้</td></tr>
+    <tr><td>agriculture</td><td>การเกษตร</td></tr>
+    <tr><td>aim</td><td>ตั้งใจ ตั้งเป้า</td></tr>
+    <tr><td>airfare</td><td>ค่าตั๋วเครื่องบิน</td></tr>
+    <tr><td>allow</td><td> อุญาต<br>(เคยออก)</td></tr>
+    <tr><td>allow</td><td>อนุญาต</td></tr>
+    <tr><td>almost</td><td>เกือบจะ</td></tr>
+    <tr><td>along with</td><td>ไปด้วยกัน</td></tr>
+    <tr><td>alongside</td><td>ข้าง ๆ</td></tr>
+    <tr><td>aloud</td><td>(เสียง)ดัง</td></tr>
+    <tr><td>already</td><td>แล้ว</td></tr>
+    <tr><td>alter</td><td>เปลี่ยนแปลง</td></tr>
+    <tr><td>alteration</td><td>การเปลี่ยน</td></tr>
+    <tr><td>alternate</td><td>สลับ</td></tr>
+    <tr><td>alternatives</td><td>ตัวเลือก</td></tr>
+    <tr><td>although</td><td>แม้ว่า</td></tr>
+    <tr><td>altogether</td><td>โดยสิ้นเชิง</td></tr>
+    <tr><td>ambient</td><td>รอบ ๆ</td></tr>
+    <tr><td>ambition</td><td>ทะเยอทะยาน</td></tr>
+    <tr><td>among</td><td>ท่ามกลาง(สิ่งหลายสิ่ง)</td></tr>
+    <tr><td>amount</td><td>ปริมาณ(ใช้กับนามนับไม่ได้)</td></tr>
+    <tr><td>amputate</td><td>ตัดแขน – ตัดขา<br>(พบบ่อย)</td></tr>
+    <tr><td>analysis</td><td>การวิเคราะห์</td></tr>
+    <tr><td>ancient</td><td>เก่าแก่, โบราณ</td></tr>
+    <tr><td>anger</td><td>ความโกรธ</td></tr>
+    <tr><td>angle</td><td>มุม</td></tr>
+    <tr><td>anitcipate</td><td>คาดว่าอะไรจะเกิดขึ้น</td></tr>
+    <tr><td>aniversary</td><td>ครบรอบ</td></tr>
+    <tr><td>ankle</td><td>ข้อเท้า</td></tr>
+    <tr><td>announce</td><td>ประกาศ</td></tr>
+    <tr><td>annoyed</td><td>รำคาญ</td></tr>
+    <tr><td>anxiety</td><td>วิตกกังวล</td></tr>
+    <tr><td>apart from</td><td>นอกจาก</td></tr>
+    <tr><td>apart</td><td>แยกออก</td></tr>
+    <tr><td>apartment</td><td>อะพาร์ทเม้น</td></tr>
+    <tr><td>apologize </td><td>ขอโทษ (พบบ่อย)</td></tr>
+    <tr><td>apparent</td><td>ซึ่งเห็นได้ชัดเจน</td></tr>
+    <tr><td>appearance</td><td>การปรากฏตัว</td></tr>
+    <tr><td>appliance</td><td>อุปกรณ์</td></tr>
+    <tr><td>application</td><td>แอพ, โปรแกรม</td></tr>
+    <tr><td>application</td><td>การสมัคร</td></tr>
+    <tr><td>apply for</td><td>สมัคร</td></tr>
+    <tr><td>apply</td><td>ประยุกต์</td></tr>
+    <tr><td>appoint</td><td>แต่งตั้ง</td></tr>
+    <tr><td>appointment</td><td>การแต่งตั้ง</td></tr>
+    <tr><td>appointment</td><td>การแต่งตั้ง</td></tr>
+    <tr><td>appointment</td><td>นัดหมาย</td></tr>
+    <tr><td>appraisal</td><td>การประเมิน</td></tr>
+    <tr><td>appreciate </td><td>ซาบซึ้ง(คำขอบคุณ)<br>I’d really appreciate it. (พบบ่อย)</td></tr>
+    <tr><td>appropriate</td><td>เหมาะสม</td></tr>
+    <tr><td>approval</td><td>การอนุมัติ</td></tr>
+    <tr><td>approve</td><td>อนุมัติ เห็นด้วย</td></tr>
+    <tr><td>approximate</td><td>ประมาณ</td></tr>
+    <tr><td>approximately</td><td>โดยประมาณ</td></tr>
+    <tr><td>aqua-</td><td>น้ำ (prefix)</td></tr>
+    <tr><td>aquarium</td><td>พิพิธภัณฑ์สัตว์น้ำ</td></tr>
+    <tr><td>architect</td><td>ผู้สร้าง สถาปนิก</td></tr>
+    <tr><td>arid</td><td>แห้งแล้ง<br>(พบบ่อย)</td></tr>
+    <tr><td>arise</td><td>สูงขึ้น</td></tr>
+    <tr><td>around</td><td>ประมาณ, รอบ ๆ</td></tr>
+    <tr><td>arrange</td><td>เรียง</td></tr>
+    <tr><td>arrange</td><td>จัดการ</td></tr>
+    <tr><td>array</td><td>การจัดเรียงตามลำดับ</td></tr>
+    <tr><td>artifact</td><td>สิ่งประดิษฐ์</td></tr>
+    <tr><td>artificial</td><td>เทียม, ประดิษฐ์ขึ้น</td></tr>
+    <tr><td>aside</td><td>ข้าง</td></tr>
+    <tr><td>aspect</td><td>ด้าน</td></tr>
+    <tr><td>assembly</td><td>การรวมกลุ่ม</td></tr>
+    <tr><td>assign</td><td>มอบหมาย</td></tr>
+    <tr><td>assist</td><td>ช่วยเหลือ</td></tr>
+    <tr><td>assist</td><td>ช่วยเหลือ</td></tr>
+    <tr><td>assistance</td><td>ความช่วยเหลือ</td></tr>
+    <tr><td>assistance</td><td>ความช่วยเหลือ</td></tr>
+    <tr><td>assistant</td><td>ผู้ช่วย</td></tr>
+    <tr><td>assume</td><td>สันนิษฐาน, ยอมรับ</td></tr>
+    <tr><td>assumption</td><td>สมมุติฐาน</td></tr>
+    <tr><td>atmosphere</td><td>บรรยากาศ</td></tr>
+    <tr><td>attain</td><td>ถึง บรรลุเป้าหมาย</td></tr>
+    <tr><td>attain</td><td>บรรลุ, สำเร็จ</td></tr>
+    <tr><td>attempt</td><td>พยายาม</td></tr>
+    <tr><td>attempt</td><td>พยายาม</td></tr>
+    <tr><td>attend</td><td>เข้าร่วม ฟังหรือดูอย่างตั้งใจ</td></tr>
+    <tr><td>attendance</td><td>การเข้าร่วม</td></tr>
+    <tr><td>attendee</td><td>ผู้เข้าร่วม</td></tr>
+    <tr><td>attention</td><td>ความสนใจ</td></tr>
+    <tr><td>attribute</td><td>ถือว่า อ้างเหตุผล</td></tr>
+    <tr><td>aucer attack</td><td>โรคกะเพาะ</td></tr>
+    <tr><td>authority</td><td>ผู้มีอำนาจ ฝ่ายบริหาร</td></tr>
+    <tr><td>authorize</td><td>ให้อำนาจ</td></tr>
+    <tr><td>available</td><td>หาได้ ใช้ประโยชน์</td></tr>
+    <tr><td>avert</td><td>เลี่ยง<br>(พบบ่อย)</td></tr>
+    <tr><td>avid</td><td>ซึ่งปรารถนา</td></tr>
+    <tr><td>award</td><td>ให้รางวัล</td></tr>
+    <tr><td>aware</td><td>ตระหนักรู้ รับทราบ</td></tr>
+    <tr><td>away</td><td>ไปจากกัน</td></tr>
+    <tr><td>awkward</td><td>งุ่มง่าม</td></tr>
+    <tr><td>axact</td><td>จำนวนที่แน่นอน</td></tr>
+    <tr><td>axis</td><td>แกน</td></tr>
+    <tr><td>ban</td><td>ห้าม</td></tr>
+    <tr><td>band</td><td>แถบ, วงดนตรี</td></tr>
+    <tr><td>bandage</td><td>ผ้าพันแผล</td></tr>
+    <tr><td>bandit</td><td>ผู้ร้าย</td></tr>
+    <tr><td>barter</td><td>แลกเปลี่ยน ต่อรอง</td></tr>
+    <tr><td>base</td><td>ฐาน</td></tr>
+    <tr><td>beak</td><td>ปากนก</td></tr>
+    <tr><td>beaker</td><td>หลอดแก้วทดลอง</td></tr>
+    <tr><td>behalf</td><td>ปฏิบัติ</td></tr>
+    <tr><td>behavior</td><td>นิสัย, พฤติกรรม</td></tr>
+    <tr><td>below</td><td>ด้านล่าง</td></tr>
+    <tr><td>bend</td><td>โค้งงอ</td></tr>
+    <tr><td>beneath</td><td>ข้างใต้</td></tr>
+    <tr><td>between</td><td>ระหว่าง(สิ่งสองสิ่ง)</td></tr>
+    <tr><td>blame</td><td>ปรักปรำ</td></tr>
+    <tr><td>bond</td><td>ตัวเชื่อม, หุ้น</td></tr>
+    <tr><td>bored</td><td>เบื่อ</td></tr>
+    <tr><td>bother</td><td>รบกวน (เคยออก ปี 2568)</td></tr>
+    <tr><td>break</td><td>หยุด</td></tr>
+    <tr><td>brother</td><td>น้อง/พี่ชาย</td></tr>
+    <tr><td>bunch of bull</td><td>ไม่ได้เรื่อง (ขี้หมา)</td></tr>
+    <tr><td>bunch</td><td>พวง</td></tr>
+    <tr><td>cabinet</td><td>ตู้ที่มีลิ้นชัก, คณะรัฐมนตรี</td></tr>
+    <tr><td>caesarian</td><td>การผ่าคลอดลูก<br>(พบบ่อย)</td></tr>
+    <tr><td>call off</td><td>เลื่อน</td></tr>
+    <tr><td>call up </td><td>โทรเรียก<br>(phrasal verb)</td></tr>
+    <tr><td>camp</td><td>ตั้งค่าย (เคยออก ปี 2568)</td></tr>
+	<tr><td>cancel</td><td>ยกเลิก</td></tr>
+    <tr><td>cancellation</td><td>การยกเลิก</td></tr>
+    <tr><td>capable</td><td>สามารถ</td></tr>
+    <tr><td>capacity</td><td>ความสามารถ,ความจุ</td></tr>
+    <tr><td>carjack</td><td>จี้รถยนต์</td></tr>
+    <tr><td>casualty</td><td>ผู้บาดเจ็บ-ล้มตาย<br>(พบบ่อย)</td></tr>
+    <tr><td>catastrophe</td><td>ภัยพิบัติ<br>(พบบ่อย)</td></tr>
+    <tr><td>catch</td><td>จับ</td></tr>
+    <tr><td>celebration</td><td> การฉลอง<br>(เคยออก)</td></tr>
+    <tr><td>century</td><td>100 ปี</td></tr>
+    <tr><td>certain</td><td>แน่นอน</td></tr>
+    <tr><td>charge</td><td>กล่าวหา</td></tr>
+    <tr><td>chase</td><td>ไล่</td></tr>
+    <tr><td>cheap</td><td>ถูก</td></tr>
+	<tr><td>cheat</td><td>หลอกลวง ทุจริต <br>(เคยออก ปี 2568)</td></tr>
+    <tr><td>chop</td><td>ตัด potk chop=หมูหั่นเป็นแผ่น</td></tr>
+    <tr><td>collapse</td><td>ล้ม</td></tr>
+    <tr><td>collide</td><td>ชนกัน<br>(พบบ่อย)</td></tr>
+    <tr><td>come over </td><td>มาเยี่ยม<br>(phrasal verb)</td></tr>
+    <tr><td>competent</td><td>มีความสามารถ</td></tr>
+    <tr><td>component</td><td>องค์ประกอบ</td></tr>
+    <tr><td>compose (of)</td><td>ประกอบด้วย</td></tr>
+    <tr><td>compress</td><td>บีบ อัด</td></tr>
+    <tr><td>conceal</td><td>ปกปิด</td></tr>
+    <tr><td>conclude</td><td>สรุป</td></tr>
+    <tr><td>conclusion</td><td>การสรุป</td></tr>
+    <tr><td>conflict</td><td>ขัดแย้ง</td></tr>
+    <tr><td>conform</td><td>สอดคล้องกัน</td></tr>
+    <tr><td>confront</td><td>เผชิญหน้า</td></tr>
+    <tr><td>confused</td><td>สับสน</td></tr>
+    <tr><td>confusion</td><td>ความสับสน</td></tr>
+    <tr><td>consequence</td><td>ผลที่ตามมา</td></tr>
+    <tr><td>consist of</td><td>ประกอบด้วย</td></tr>
+    <tr><td>consist</td><td>มั่นคง</td></tr>
+    <tr><td>consistency</td><td>ความมั่นคง คงเส้นคงวา</td></tr>
+    <tr><td>consistent</td><td>อย่างมั่นคง</td></tr>
+    <tr><td>constant</td><td>ค่าคงที่</td></tr>
+    <tr><td>constitute</td><td>แต่งตั้ง</td></tr>
+    <tr><td>conventional</td><td>ธรรมดา</td></tr>
+    <tr><td>coward</td><td>ขี้ขลาด</td></tr>
+    <tr><td>crash</td><td>เครื่องบินตก- ชนกัน<br>(พบบ่อย)</td></tr>
+    <tr><td>crash</td><td>รถชน car crash</td></tr>
+    <tr><td>criterion</td><td>เกณฑ์</td></tr>
+    <tr><td>crop</td><td>เก็บเกี่ยว/ปลูก พืชผล</td></tr>
+    <tr><td>crush</td><td>บด</td></tr>
+    <tr><td>curious</td><td>อยากรู้อยากเห็น</td></tr>
+    <tr><td>curiousity</td><td>ความอยากรู้อยากเห็น</td></tr>
+    <tr><td>cuttlefish</td><td>ปลาหมึก</td></tr>
+    <tr><td>damp</td><td>เปียก</td></tr>
+    <tr><td>daughter </td><td>ลูกสาว (พบบ่อย)</td></tr>
+    <tr><td>deal</td><td>จัดการ</td></tr>
+    <tr><td>deca-</td><td>สิบ decade - สิบปี</td></tr>
+    <tr><td>decade</td><td>10 ปี</td></tr>
+    <tr><td>decay</td><td>เน่าเปื่อย<br>(พบบ่อย)</td></tr>
+    <tr><td>decease</td><td>ตาย</td></tr>
+    <tr><td>deceive</td><td>หลอกลวง</td></tr>
+    <tr><td>decide</td><td> ตัดสินใจ<br>(เคยออก)</td></tr>
+    <tr><td>decline</td><td>ปฏิเสธ</td></tr>
+    <tr><td>decompose</td><td>เน่าเปื่อย<br>(พบบ่อย)</td></tr>
+    <tr><td>dedicate</td><td>อุทิศ</td></tr>
+    <tr><td>deer</td><td>แพง</td></tr>
+    <tr><td>define</td><td>กำหนด</td></tr>
+    <tr><td>definition</td><td>นิยาม</td></tr>
+    <tr><td>deliberate</td><td>ตั้งใจ</td></tr>
+    <tr><td>delicate</td><td>ละเอียดอ่อน</td></tr>
+    <tr><td>deliver</td><td>ส่งให้</td></tr>
+    <tr><td>demage</td><td>ความเสียหาย – ค่าเสียหาย<br>(พบบ่อย)</td></tr>
+    <tr><td>demolish</td><td>รื้อ – ทำลาย<br>(พบบ่อย)</td></tr>
+    <tr><td>desert</td><td>ละทิ้ง, ขนมหวาน, ทะเลทราย</td></tr>
+    <tr><td>deserve</td><td>สมควรได้รับ <br>It serves you right!! (สมน้ำหน้า)</td></tr>
+    <tr><td>design</td><td>ออกแบบ</td></tr>
+    <tr><td>designate</td><td>กำหนด, ที่ได้รับแต่งตั้ง</td></tr>
+    <tr><td>desire</td><td>ความต้องการ</td></tr>
+    <tr><td>desperate</td><td>หมดหวัง เข้าตาจน</td></tr>
+    <tr><td>despite</td><td>ถึงแม้ว่า, ดูหมิ่น, ดูถูก</td></tr>
+    <tr><td>destroy</td><td>ทำลาย<br>(พบบ่อย)</td></tr>
+    <tr><td>destruction</td><td>การทำลาย – สิ่งที่ถูกทำลาย<br>(พบบ่อย)</td></tr>
+    <tr><td>determination</td><td>ความตั้งใจ มุ่งมั่น</td></tr>
+	<tr><td>device</td><td>อุปกรณ์ เครื่องมือ <br>(เคยออก ปี 2568)</td></tr>
+    <tr><td>di-, duo, bi-</td><td>สอง</td></tr>
+    <tr><td>difficult</td><td>ยาก</td></tr>
+    <tr><td>dis-</td><td>ไม่- (เป็น prefix)</td></tr>
+    <tr><td>disable</td><td>ไร้ความสามารถ</td></tr>
+    <tr><td>disabled</td><td>พิการ ไร้ความสามารถ</td></tr>
+    <tr><td>disaster</td><td>ภัยพิบัติ<br>(พบบ่อย)</td></tr>
+    <tr><td>disease</td><td>โรค</td></tr>
+    <tr><td>disguise</td><td>ปลอมตัว</td></tr>
+    <tr><td>disgust</td><td>น่าเกลียด</td></tr>
+    <tr><td>dislike</td><td>ไม่ชอบ</td></tr>
+    <tr><td>dismay</td><td>ท้อใจ, ท้อแท้, ตกตลึง</td></tr>
+    <tr><td>dismiss</td><td>ยกเลิก, ปล่อยไป, ไล่ออก</td></tr>
+    <tr><td>dissappoint</td><td>ผิดหวัง</td></tr>
+    <tr><td>distinct</td><td>โดดเด่น</td></tr>
+    <tr><td>distinguish</td><td>แยกแยะ แตกต่าง</td></tr>
+    <tr><td>distinguished guests</td><td>แขกผู้มีเกียรติ</td></tr>
+	<tr><td>disturb</td><td>รบกวน (เคยออก ปี 2568)</td></tr>
+    <tr><td>divide</td><td>แบ่ง</td></tr>
+    <tr><td>divine</td><td>สวรรค์,พระเจ้า,สาวก</td></tr>
+    <tr><td>division</td><td>ส่วน</td></tr>
+    <tr><td>do over </td><td>ทำใหม่<br>(phrasal verb)</td></tr>
+    <tr><td>doctor </td><td>หมอ (พบบ่อย)</td></tr>
+    <tr><td>doubt</td><td>ความสงสัย</td></tr>
+    <tr><td>downward</td><td>ลงล่าง</td></tr>
+    <tr><td>drought</td><td>ความแห้งแล้ง<br>(พบบ่อย)</td></tr>
+    <tr><td>dump</td><td>ทิ้ง</td></tr>
+    <tr><td>eager</td><td>ความอยาก</td></tr>
+    <tr><td>earn</td><td>รายได้, ได้รับ, กำไร</td></tr>
+    <tr><td>earthquake</td><td>แผ่นดินไหว<br>(พบบ่อย)</td></tr>
+	<tr><td>ease</td><td>บรรเทา (เคยออก ปี 2568)</td></tr>
+    <tr><td>effort</td><td>ความพยายาม</td></tr>
+    <tr><td>elbow</td><td>ข้อศอก</td></tr>
+	<tr><td>eligible</td><td>มีสิทธิ์ที่จะ.. <br>(เคยออก ปี 2568)</td></tr>
+    <tr><td>emerge</td><td>ปรากฎออกมา</td></tr>
+	<tr><td>emphasize</td><td>เน้น ย้ำ <br> (เคยออก ปี 2568)</td></tr>
+    <tr><td>enjoy</td><td>สนุก</td></tr>
+    <tr><td>enter</td><td>เข้า</td></tr>
+    <tr><td>entertainment</td><td>การบันเทิง</td></tr>
+    <tr><td>entire</td><td>ทั้งหมด</td></tr>
+    <tr><td>entitle</td><td>ให้สิทธิ, ให้ตำแหน่ง</td></tr>
+    <tr><td>entitlement</td><td>การแต่งตั้ง</td></tr>
+    <tr><td>entry</td><td>ทางเข้า</td></tr>
+    <tr><td>epidemic</td><td>โรคระบาด<br>(พบบ่อย)</td></tr>
+    <tr><td>equal</td><td>เท่ากัน</td></tr>
+    <tr><td>equate</td><td>เท่ากัน</td></tr>
+    <tr><td>equivalent</td><td>เท่ากัน</td></tr>
+    <tr><td>eruption</td><td>การระเบิด<br>(พบบ่อย)</td></tr>
+    <tr><td>evacuate</td><td>อพยพออกจากที่เกิดเหตุ<br>(พบบ่อย)</td></tr>
+    <tr><td>ex-</td><td>ออก (เป็น prefix)</td></tr>
+    <tr><td>exactly</td><td> เป๊ะเลย<br> exactly what she said เหมือนที่เธอพูดเป๊ะเลย<br>(เคยออก)</td></tr>
+    <tr><td>exceed</td><td>เกินมากไปกว่า</td></tr>
+    <tr><td>excel</td><td>ดีกว่า</td></tr>
+    <tr><td>excess</td><td>ส่วนเกิน</td></tr>
+    <tr><td>excite</td><td>ตื่นเต้น</td></tr>
+    <tr><td>excitement</td><td>ความตื่นเต้น</td></tr>
+    <tr><td>exclude</td><td>ไม่รวม</td></tr>
+    <tr><td>excuse</td><td>แก้ตัว ขอโทษ</td></tr>
+    <tr><td>exile</td><td>เนรเทศ in exile ลี้ภัยต่างประเทศ</td></tr>
+    <tr><td>exist</td><td>การคงอยู่</td></tr>
+    <tr><td>exit</td><td>ทางออก<br>(พบบ่อย)</td></tr>
+    <tr><td>exit</td><td>ออก</td></tr>
+    <tr><td>expect</td><td>คาดหวัง</td></tr>
+    <tr><td>expensive</td><td>แพง</td></tr>
+    <tr><td>explode (v.)</td><td>ระเบิด<br>(พบบ่อย)</td></tr>
+    <tr><td>expose</td><td>เปิดให้เห็น</td></tr>
+	<tr><td>expression</td><td>การแสดงออก (เคยออก ปี 2568)</td></tr>
+    <tr><td>extend</td><td>ขยายออกไป</td></tr>
+    <tr><td>extent</td><td>ขอบเขตเนื้อหา</td></tr>
+    <tr><td>external</td><td>ด้านนอก</td></tr>
+    <tr><td>extinct</td><td>ดับ</td></tr>
+    <tr><td>extinguish</td><td>ดับเพลิง<br>(พบบ่อย)</td></tr>
+    <tr><td>extingusher</td><td>ถังดับเพลิง<br>(พบบ่อย)</td></tr>
+    <tr><td>fake</td><td>ปลอม,ไม่จริง</td></tr>
+    <tr><td>false</td><td>ผิด,ไม่ถูก</td></tr>
+    <tr><td>fame</td><td>ชื่อเสียง</td></tr>
+    <tr><td>famine</td><td>ทุพภิกขภัย-ความอดอยาก<br>(พบบ่อย)</td></tr>
+    <tr><td>famous</td><td>มีชื่อเสียง</td></tr>
+    <tr><td>farther</td><td>ไกลออกไป</td></tr>
+    <tr><td>father</td><td>พ่อ</td></tr>
+    <tr><td>fatigue</td><td>เหนื่อย</td></tr>
+    <tr><td>favor</td><td>ชื่นชอบ, ช่วยเหลือ <br>Could you do me a favor?<br>ขอช่วยหน่อยได้ไหมครับ/คะ?</td></tr>
+    <tr><td>favorite </td><td>ชื่นชอบ(พบบ่อย)</td></tr>
+    <tr><td>favorite</td><td>ชอบ<br>What's your favorite food?<br>ชอบทานอะไร</td></tr>
+    <tr><td>fever</td><td>ไข้ <br>have a fever เป็นไข้</td></tr>
+    <tr><td>figure</td><td>คำนวณ</td></tr>
+    <tr><td>fill out </td><td>เติม<br>(phrasal verb)</td></tr>
+    <tr><td>fill up</td><td>ทำให้เต็ม<br>(phrasal verb)</td></tr>
+    <tr><td>fire engine</td><td>รถดับเพลิง<br>(พบบ่อย)</td></tr>
+    <tr><td>fire extinctquisher</td><td>ถังดับเพลิง</td></tr>
+    <tr><td>fire</td><td>ไล่ออกจากงาน, ไฟ</td></tr>
+    <tr><td>flip</td><td>พลิก-พลิกคว่ำ<br>(พบบ่อย)</td></tr>
+    <tr><td>flood</td><td>น้ำท่วม<br>(พบบ่อย)</td></tr>
+    <tr><td>flour</td><td>แป้ง</td></tr>
+    <tr><td>flower</td><td>ดอกไม้</td></tr>
+    <tr><td>foe</td><td>ศัตรู</td></tr>
+    <tr><td>folks</td><td>คน</td></tr>
+    <tr><td>forgetful</td><td> ขี้ลืม<br>(เคยออก)</td></tr>
+    <tr><td>forks</td><td>ซ่อม</td></tr>
+    <tr><td>fragile</td><td>เปราะบาง แตกง่าย</td></tr>
+    <tr><td>fragment</td><td>ซากที่หักออกมาเป็นใหญ่ๆ<br>(พบบ่อย)</td></tr>
+    <tr><td>friend</td><td>เพื่อน</td></tr>
+    <tr><td>further</td><td>(v)-ไปข้างหน้า, สูงขึ้น (adv)-นอกจากนี้<br>further study - เรียนต่อ</td></tr>
+    <tr><td>future</td><td>อนาคต (เคยออก)</td></tr>
+    <tr><td>generate</td><td>ผลิต,กำเนิด</td></tr>
+    <tr><td>genetic</td><td>พันธุกรรม มาจากคำว่า gene</td></tr>
+    <tr><td>genuine (จีนูอีน)</td><td> ของแท้</td></tr>
+    <tr><td>get along </td><td>ก้าวหน้า<br>(phrasal verb)</td></tr>
+    <tr><td>get along with</td><td>เข้ากันได้<br>(phrasal verb)</td></tr>
+    <tr><td>get through </td><td>เสร็จ<br>(phrasal verb)</td></tr>
+    <tr><td>get up </td><td>ตื่น<br>(phrasal verb)</td></tr>
+    <tr><td>give up </td><td>ยอมแพ้<br>(phrasal verb)</td></tr>
+    <tr><td>give</td><td>ให้</td></tr>
+    <tr><td>go on </td><td>ทำต่อไป<br>(phrasal verb)</td></tr>
+    <tr><td>go over </td><td>ทบทวน<br>(phrasal verb)</td></tr>
+    <tr><td>gracious</td><td>สง่างาม</td></tr>
+    <tr><td>gradual</td><td>ทีละน้อย</td></tr>
+    <tr><td>graduate</td><td>ผู้จบการศึกษา</td></tr>
+    <tr><td>grant</td><td>ยินยอม, เงินช่วย</td></tr>
+    <tr><td>grow</td><td>เจริญเติบโต</td></tr>
+    <tr><td>gust</td><td>ลมพัดกระโชก<br>(พบบ่อย)</td></tr>
+    <tr><td>hand in </td><td>ส่ง<br>(phrasal verb)</td></tr>
+    <tr><td>handle</td><td>จัดการ</td></tr>
+    <tr><td>hard</td><td>ยาก</td></tr>
+    <tr><td>headache</td><td>ปวดหัว</td></tr>
+    <tr><td>heel</td><td>ส้นเท้า</td></tr>
+    <tr><td>hence</td><td>ดังนั้น</td></tr>
+    <tr><td>hepta-</td><td>เจ็ด</td></tr>
+    <tr><td>hexa-</td><td>หก</td></tr>
+    <tr><td>hidden</td><td>ซ่อน</td></tr>
+    <tr><td>hijack</td><td>จี้ เช่น จี้เครื่องบิน</td></tr>
+    <tr><td>holocaust</td><td>การทำลายหรือเผาจนสิ้นเชิง<br>(พบบ่อย)</td></tr>
+	<tr><td>huge</td><td>ใหญ่โต<br>(เคยออก ปี 2568)</td></tr>
+	<tr><td>hunter</td><td>ผู้ล่า นักล่า<br>(เคยออก ปี 2568)</td></tr>
+    <tr><td>hurrcane</td><td>พายุเธอริเคน<br>(พบบ่อย)</td></tr>
+    <tr><td>hurt</td><td>ทำร้าย<br>(เคยออก ปี 2568)</td></tr>
+	 <tr><td>hurtle</td><td>พุ่งออกจาก<br>(พบบ่อย)</td></tr>
+    <tr><td>impolite</td><td>ไม่สุภาพ</td></tr>
+    <tr><td>import</td><td>นำเข้าประเทศ</td></tr>
+    <tr><td>importance</td><td>สำคัญ</td></tr>
+    <tr><td>important</td><td>สำคัญ</td></tr>
+    <tr><td>impose</td><td>กำหนด, บังคับ</td></tr>
+    <tr><td>impotent</td><td>หมดกำลัง, ไร้สมรรถภาพ(ทางเพศ)</td></tr>
+    <tr><td>impress</td><td>ประทับใจ</td></tr>
+    <tr><td>impression</td><td>ความประทับใจ</td></tr>
+    <tr><td>in spite of</td><td>ทั้ง ๆ ที่</td></tr>
+    <tr><td>inactive</td><td>ไม่ทำงาน</td></tr>
+    <tr><td>include</td><td>รวม</td></tr>
+    <tr><td>inevitable</td><td>หลีกเลี่ยงไม่ได้</td></tr>
+    <tr><td>infection</td><td>ติดเชื้อ</td></tr>
+    <tr><td>infliction</td><td>การทำโทษ</td></tr>
+    <tr><td>inform</td><td>บอก</td></tr>
+    <tr><td>informal</td><td>อย่างไม่เป็นทางการ</td></tr>
+    <tr><td>information</td><td>ข่าวสาร</td></tr>
+    <tr><td>injured</td><td>บาดเจ็บ<br>(พบบ่อย)</td></tr>
+    <tr><td>innocent</td><td>บริสุทธิ์, ไร้เดียงสา</td></tr>
+    <tr><td>innovation</td><td>นวัตกรรม</td></tr>
+    <tr><td>insane</td><td>บ้าคลั่ง ขาดสติ</td></tr>
+    <tr><td>insist</td><td>ยืนยัน รบเร้า</td></tr>
+    <tr><td>inspire</td><td>ทำให้เกิดแรงบันดาลใจ</td></tr>
+    <tr><td>instance</td><td>ตัวอย่าง, กรณี</td></tr>
+    <tr><td>instant</td><td>ทันที</td></tr>
+    <tr><td>institute</td><td>สถาบัน</td></tr>
+    <tr><td>inter-</td><td>ระหว่าง (เป็น prefix)</td></tr>
+    <tr><td>intercept</td><td>แทรกขัดจังหวะ</td></tr>
+    <tr><td>interest</td><td>ความสนใจ</td></tr>
+    <tr><td>interested in </td><td>สนใจ(พบบ่อย)</td></tr>
+    <tr><td>interested</td><td>(ฉัน/คน)สนใจ(อะไรสักอย่าง)</td></tr>
+    <tr><td>interesting</td><td>เป็นที่น่าสนใจ</td></tr>
+    <tr><td>interfere</td><td>รบกวน, แทรกเข้ามาโดยไม่ได้เชิญ</td></tr>
+    <tr><td>intermission</td><td>ช่วงหยุดระหว่างการแสดง</td></tr>
+    <tr><td>international</td><td>ระหว่างประเทศ</td></tr>
+    <tr><td>irritate</td><td>ระคายเคือง</td></tr>
+    <tr><td>island</td><td> เกาะ<br>(เคยออก)</td></tr>
+    <tr><td>judge</td><td>ตัดสิน</td></tr>
+    <tr><td>justice</td><td>ยุติธรรม</td></tr>
+    <tr><td>justify</td><td>พิสูจน์ว่าถูกต้อง</td></tr>
+
+    <tr><td>Keep Off </td><td>ห้ามเข้า ห้ามยุ่ง<br>(phrasal verb)<br>Keep off the grass.<br>อย่าเข้ามาเหยียบสนามหญ้า</td></tr>
+    <tr><td>keep on </td><td>ทำต่อไป(แม้ว่าจะมีอุปสรรค สู้สู้...)<br>(phrasal verb)</td></tr>
+    <tr><td>keep under </td><td>บังคับให้อยู่ในระดับต่ำกว่า หรืออยู่ในความควบคุม<br>(phrasal verb เคยออก)</td></tr>
+    <tr><td>keep up </td><td>ทำต่อไปในระดับที่กำลังทำอยู่<br>(phrasal verb)</td></tr>
+    <tr><td>kidnap</td><td>ลักพาตัว</td></tr>
+    <tr><td>knee</td><td>หัวเข่า</td></tr>
+    <tr><td>know</td><td> รู้, รู้จัก <br> I know you. ฉันรู้จักคุณ<br>(เคยออก)</td></tr>
+    <tr><td>lack</td><td>ขาดไป ไม่มี</td></tr>
+    <tr><td>lay off</td><td>เลิกจ้าง</td></tr>
+    <tr><td>lay</td><td>วางนอนลง, (ไก่)วางไข่</td></tr>
+    <tr><td>lean</td><td>ผอม, เอียง,(เนื้อ)มีมีมัน</td></tr>
+    <tr><td>leave</td><td> ออกจาก<br>(เคยออก)</td></tr>
+    <tr><td>level</td><td>ทำให้ราบ<br>(พบบ่อย)</td></tr>
+    <tr><td>liberal</td><td>เสรีนิยม</td></tr>
+    <tr><td>liberate</td><td> ปลดปล่อย</td></tr>
+    <tr><td>liberty</td><td>เสรีภาพ</td></tr>
+    <tr><td>lie down</td><td>นอน</td></tr>
+    <tr><td>lie</td><td>โกหก</td></tr>
+    <tr><td>lie</td><td>นอนลง</td></tr>
+    <tr><td>lift</td><td>ยกขึนจากพื้น</td></tr>
+    <tr><td>load</td><td>บรรทุก</td></tr>
+    <tr><td>loan</td><td>กู้ยืม, เงินยืม</td></tr>
+    <tr><td>look for </td><td>หา<br>(phrasal verb)</td></tr>
+    <tr><td>look into </td><td>สืบสวน ค้นหา<br>(phrasal verb)</td></tr>
+    <tr><td>look out </td><td>ระวัง!<br>(phrasal verb)</td></tr>
+    <tr><td>look up </td><td>ค้นหา<br>(phrasal verb)</td></tr>
+    <tr><td>loose</td><td>หลวม</td></tr>
+    <tr><td>lose, lost</td><td>สูญหาย</td></tr>
+    <tr><td>luxurious</td><td> หรูหรา<br>(เคยออก)</td></tr>
+    <tr><td>make (one's mind) up </td><td>ตัดสินใจ<br>(phrasal verb)</td></tr>
+    <tr><td>manage</td><td>จัดการ</td></tr>
+    <tr><td>measurement</td><td>การวัด</td></tr>
+    <tr><td>millennium</td><td>1,000 ปี</td></tr>
+    <tr><td>mindful</td><td> ระวัง, มีสติอยู่เสมอ<br>(เคยออก)</td></tr>
+    <tr><td>mono-</td><td>หนึ่ง, เอก</td></tr>
+    <tr><td>mortgage</td><td>สัญญาเช่า</td></tr>
+    <tr><td>mountain</td><td> ภูเขา<br>(เคยออก)</td></tr>
+    <tr><td>name</td><td>แต่งตั้ง </td></tr>
+    <tr><td>nausea</td><td>คลื่นไส้</td></tr>
+    <tr><td>neat</td><td>สุภาพ</td></tr>
+    <tr><td>need</td><td> จำเป็น, ต้องการ<br>(เคยออก)</td></tr>
+    <tr><td>nerve</td><td>ประสาท</td></tr>
+    <tr><td>nevertheless</td><td>อย่างไรก็ตาม</td></tr>
+    <tr><td>noisy</td><td>เสียงดังแบบรบกวน</td></tr>
+    <tr><td>nominate</td><td>แต่งตั้ง </td></tr>
+    <tr><td>nona-</td><td>เก้า</td></tr>
+    <tr><td>nonetheless</td><td>อย่างไรก็ตาม</td></tr>
+    <tr><td>norm</td><td>บรรทัดฐาน</td></tr>
+    <tr><td>number</td><td>จำนวน(ใช้กับนามนับได้)</td></tr>
+    <tr><td>obtain</td><td>หามาได้</td></tr>
+    <tr><td>occupation</td><td>อาชีพ</td></tr>
+    <tr><td>occupy</td><td>ยุ่ง, ยึดครอง, อาศัย <br>This chair is occupied. เก้าอี้นี้ไม่ว่าง มีคนจองแล้ว</td></tr>
+    <tr><td>occur</td><td>ปรากฏ</td></tr>
+    <tr><td>occurance</td><td>การปรากฏ</td></tr>
+    <tr><td>octa-</td><td>แปด</td></tr>
+    <tr><td>octopus</td><td>ปลาหมีก(8หนวด)</td></tr>
+    <tr><td>odinary</td><td>ธรรมดา</td></tr>
+    <tr><td>offend</td><td>ทำให้ไม่พอใจ</td></tr>
+    <tr><td>offensive</td><td>ก้าวร้าว</td></tr>
+    <tr><td>offer</td><td> เสนอให้, ข้อเสนอ<br>(เคยออก)</td></tr>
+    <tr><td>office </td><td>สำนักงาน(พบบ่อย)</td></tr>
+    <tr><td>opponent</td><td>คู่ต่อสู้</td></tr>
+    <tr><td>opponent</td><td>ฝ่ายตรงข้าม</td></tr>
+    <tr><td>oppose</td><td> ตรงข้าม<br>(เคยออก)</td></tr>
+    <tr><td>oppose</td><td>ตรงกันข้าม</td></tr>
+    <tr><td>opposite</td><td>ตรงข้าม</td></tr>
+    <tr><td>opposition</td><td>ฝ่ายค้าน</td></tr>
+    <tr><td>optimistic</td><td> มองโลกในแง่ดี<br>(เคยออก)</td></tr>
+    <tr><td>option</td><td> ตัวเลือก<br>(เคยออก)</td></tr>
+    <tr><td>ordeal</td><td>ทุกข์ทรมาน – ฝันร้าย<br>(พบบ่อย)</td></tr>
+    <tr><td>orderly</td><td>เป็นระเบียบ</td></tr>
+    <tr><td>organize</td><td> จัดระเบียบ, จัดงาน<br>(เคยออก)</td></tr>
+    <tr><td>original</td><td> ต้นกำเนิด, แหล่งที่มา, ดั้งเดิม<br>(เคยออก)</td></tr>
+    <tr><td>other/others/the other/the others/another</td><td>
+  other, others=อื่น ๆ <br>I have one cat, and I would like to get other pets.<br> ฉันมีแมวตัวนึงแล้ว และอยากได้สัตว์เลี้ยงอื่น ๆ อีก</td></tr>
+	<tr><td>the other, the others</td><td>ที่เหลือ <br>
+       I have two apples. One is red, and the other is green. ฉันมีแอปเปิ้ล 2 ลูก ลูกนึงสีแดง ที่เหลือสีเขียว<br>(เคยออก ปี 2568)</td></tr>
+	<tr><td>another</td><td> อีกอัน อีกคน &nbsp;&nbsp;&nbsp;
+       I finished my coffee. Can I have another cup? กินกาแฟหมดไปแก้วแล้ว ขออีกแก้วได้ไหม<br>(เคยออก ปี 2568)</td></tr>
+	<tr><td>outstanding</td><td> โดดเด่น<br>(เคยออก)</td></tr>
+    <tr><td>overtake</td><td>แซง<br>(พบบ่อย)</td></tr>
+    <tr><td>owe</td><td>เป็นหนี้</td></tr>
+    <tr><td>owing to</td><td>เนื่องจาก because of</td></tr>
+    <tr><td>own</td><td>เป็นเจ้าของ</td></tr>
+    <tr><td>pain</td><td>ความเจ็บปวด</td></tr>
+    <tr><td>pale</td><td>ซีดจาง</td></tr>
+    <tr><td>paliament</td><td>สภา</td></tr>
+    <tr><td>participate</td><td>เข้าร่วม</td></tr>
+    <tr><td>peak</td><td>สูงสุด</td></tr>
+    <tr><td>penalty</td><td>การลงโทษ, เบี้ยปรับ</td></tr>
+    <tr><td>penta-</td><td>ห้า pentagon-ห้าเหลี่ยม</td></tr>
+    <tr><td>permit</td><td>อนุญาต</td></tr>
+    <tr><td>person </td><td>บุคคล (พบบ่อย)</td></tr>
+    <tr><td>phone </td><td>โทรศัพท์ (พบบ่อย)</td></tr>
+    <tr><td>pile</td><td>กอง</td></tr>
+    <tr><td>pill</td><td>ยา</td></tr>
+    <tr><td>plant</td><td>พืช</td></tr>
+    <tr><td>plantation</td><td>พื้นที่ปลูกพืช sugarcane plantation (ไร่อ้อย)</td></tr>
+    <tr><td>pledge</td><td>สัญญาจ้าง pledge guilty/ not guilty</td></tr>
+    <tr><td>plumber </td><td>ช่างประปา </td></tr>
+    <tr><td>poor visibility</td><td>ทัศนวิสัยที่ไม่ดี<br>(พบบ่อย)</td></tr>
+    <tr><td>population</td><td>ประชากร<br>(เคยออก)</td></tr>
+    <tr><td>position</td><td> ตำแหน่ง<br>(เคยออก)</td></tr>
+    <tr><td>positive</td><td>ทางบวก</td></tr>
+    <tr><td>possess</td><td>เป็นเจ้าของ</td></tr>
+    <tr><td>postpone</td><td>เลื่อน</td></tr>
+    <tr><td>practical</td><td>ทำได้, ในทางปฏิบัติ<br>ตรงข้ามกับ theor</td></tr>
+    <tr><td>practice</td><td>ฝึก, ปฏิบัติ</td></tr>
+    <tr><td>pre-</td><td>ก่อน(prefix)</td></tr>
+    <tr><td>precausion</td><td>ข้อความระวัง</td></tr>
+    <tr><td>precious</td><td>มีค่ามาก</td></tr>
+    <tr><td>precise</td><td>แน่นอน</td></tr>
+	<tr><td>predator</td><td>นักล่า ผู้ล่า <br>(เคยออก ปี 2568)</td></tr>
+    <tr><td>predict</td><td>ทำนาย</td></tr>
+    <tr><td>prefer</td><td>ชอบมากกว่า</td></tr>
+    <tr><td>prerequisite</td><td>สิ่งจำเป็นต้องมีก่อน</td></tr>
+    <tr><td>present</td><td>ของขวัญ</td></tr>
+    <tr><td>present</td><td>นำเสนอ</td></tr>
+    <tr><td>present</td><td>ปัจจุบัน</td></tr>
+    <tr><td>presentable</td><td>เรียบร้อย ออกงานได้</td></tr>
+    <tr><td>preservative</td><td>สารกันบูด</td></tr>
+    <tr><td>preserve</td><td>สงวนรักษาไว้</td></tr>
+    <tr><td>press</td><td>กด, พิมพ์, หนังสือพิมพ์</td></tr>
+    <tr><td>prestige</td><td>มีชื่อเสียงเกียรติยศ</td></tr>
+    <tr><td>presumably</td><td>น่าเป็นไปได้</td></tr>
+    <tr><td>pretend</td><td>แกล้งทำ</td></tr>
+    <tr><td>pretense</td><td>ข้ออ้าง, แกล้งทำ</td></tr>
+    <tr><td>prevent</td><td>ป้องกัน</td></tr>
+    <tr><td>preview</td><td>ดูก่อน</td></tr>
+    <tr><td>previous</td><td>ก่อนหน้านี้</td></tr>
+	<tr><td>prey</td><td>เหยื่อ ผู้ถูกล่า <br>(เคยออก ปี 2568)</td></tr>
+    <tr><td>principal</td><td>ครูใหญ่</td></tr>
+    <tr><td>principle</td><td>หลักการ</td></tr>
+    <tr><td>prior</td><td>ก่อนหน้านี้</td></tr>
+    <tr><td>proceed</td><td>ก้าวไปข้างหน้า</td></tr>
+    <tr><td>proceed</td><td>รายได้</td></tr>
+    <tr><td>process</td><td>กระบวนการ</td></tr>
+    <tr><td>procession</td><td>ขบวนแห่</td></tr>
+    <tr><td>produce</td><td>ผลิตผลการเกษตร</td></tr>
+    <tr><td>product</td><td>ผลผลิต(เชิงอุตสาหกรรม)</td></tr>
+    <tr><td>profound</td><td>ลึกซึ้ง</td></tr>
+    <tr><td>progress</td><td>ก้าวหน้า</td></tr>
+    <tr><td>progression</td><td>ความก้าวหน้า</td></tr>
+    <tr><td>prohibit</td><td>ห้าม</td></tr>
+    <tr><td>proper</td><td>เหมาะสม</td></tr>
+    <tr><td>property</td><td>สมบัติ</td></tr>
+    <tr><td>prospect</td><td>โอกาส ความคาดหวัง</td></tr>
+    <tr><td>protect</td><td>คุ้มครอง</td></tr>
+    <tr><td>proximate</td><td>ใกล้เคียง เกือนเหมือน</td></tr>
+    <tr><td>punishment</td><td>การลงโทษ</td></tr>
+    <tr><td>purpose</td><td> จุดประสงค์<br>(เคยออก)</td></tr>
+    <tr><td>pursue</td><td>ไล่ตาม</td></tr>
+    <tr><td>put off </td><td>เลื่อน<br>(phrasal verb)</td></tr>
+    <tr><td>put out </td><td>ดับไฟ<br>(phrasal verb)</td></tr>
+    <tr><td>quake</td><td>สั่นสะเทือน<br>(พบบ่อย)</td></tr>
+	<tr><td>qualify</td><td>มีสิทธิ์<br>(เคยออก ปี 2568)</td></tr>
+    <tr><td>quit</td><td>เลิก</td></tr>
+    <tr><td>raise</td><td>ยกขึ้น</td></tr>
+    <tr><td>realize</td><td>รู้ตัว</td></tr>
+    <tr><td>reasonable</td><td>สมควร</td></tr>
+    <tr><td>recede</td><td>ลดลง – ถอยกลับ<br>(พบบ่อย)</td></tr>
+    <tr><td>receive</td><td>รับไว้</td></tr>
+    <tr><td>recline</td><td>เอน ครึ่งนั่งครึ่งนอน</td></tr>
+	 <tr><td>reduce</td><td>ทำให้ลดลง<br>(เคยออก ปี 2568)</td></tr>
+    <tr><td>refuse</td><td>ปฎิเสธ</td></tr>
+    <tr><td>reject</td><td>ปฏิเสธ</td></tr>
+    <tr><td>relapse</td><td>กลับสู่สภาพเดิม, โรคกำเริบมาอีก</td></tr>
+    <tr><td>rely</td><td>พึ่งพา</td></tr>
+    <tr><td>remain</td><td>ยังคงเหลืออยู่</td></tr>
+    <tr><td>remember</td><td>จำได้</td></tr>
+    <tr><td>remind</td><td>เตือน</td></tr>
+    <tr><td>renovate</td><td>ปรับปรุง</td></tr>
+    <tr><td>renown (รีนาว)</td><td>เป็นที่รู้จักกันทั่วไป</td></tr>
+    <tr><td>represent</td><td>ตัวแทน</td></tr>
+    <tr><td>reputation</td><td>ชื่อเสียง</td></tr>
+    <tr><td>requirement</td><td>ความต้องการ</td></tr>
+    <tr><td>rescue</td><td>ช่วยชีวิต<br>(พบบ่อย)</td></tr>
+    <tr><td>reserve</td><td>สงวนไว้</td></tr>
+    <tr><td>resist</td><td>ต่อต้าน</td></tr>
+    <tr><td>respect</td><td>เคารพ นับถือ</td></tr>
+    <tr><td>respectable</td><td>น่านับถือ</td></tr>
+    <tr><td>respectful</td><td>น่านับถือ</td></tr>
+    <tr><td>response</td><td> การตอบสนอง<br>(เคยออก)</td></tr>
+    <tr><td>restore</td><td>บูรณะ ซ่อมแซม <br> (เคยออก ปี 2568)</td></tr>
+	<tr><td>reveal</td><td>เปิดเผย</td></tr>
+    <tr><td>revise</td><td>เขียนใหม่ ทบทวน แก้ไข</td></tr>
+    <tr><td>revoke</td><td>ยกเลิก</td></tr>
+    <tr><td>reward</td><td>รางวัล</td></tr>
+    <tr><td>rise</td><td>ขึ้นสู่</td></tr>
+    <tr><td>rival</td><td>คู่แข่ง คู่ต่อสู้</td></tr>
+    <tr><td>rock</td><td>สั่นสะเทือน<br>(พบบ่อย)</td></tr>
+    <tr><td>role</td><td>บทบาท</td></tr>
+    <tr><td>roll</td><td>ม้วน</td></tr>
+    <tr><td>root</td><td>ราก</td></tr>
+    <tr><td>rot</td><td>เน่าเปื่อย<br>(พบบ่อย)</td></tr>
+    <tr><td>ruins</td><td>ซากปรักหักพัง<br>(พบบ่อย)</td></tr>
+    <tr><td>rule</td><td>กฏเกณฑ์</td></tr>
+    <tr><td>run across </td><td>พบโดยบังเอิญ<br>(phrasal verb)</td></tr>
+    <tr><td>run into </td><td>พบโดยบังเอิญ<br>(phrasal verb)</td></tr>
+    <tr><td>run out of </td><td>หมด<br>(phrasal verb)</td></tr>
+    <tr><td>run over </td><td>ถูกรถชน<br>(phrasal verb)</td></tr>
+    <tr><td>sabotage</td><td>การก่อวินาศกรรม<br>(พบบ่อย)</td></tr>
+    <tr><td>sane</td><td>สติสมบูรณ์</td></tr>
+    <tr><td>sauce</td><td>ซอสปรุงรส</td></tr>
+    <tr><td>secret admirer</td><td>ผู้ชื่นชอบที่ไม่เปิดเผยตัว</td></tr>
+    <tr><td>secret</td><td>ความลับ</td></tr>
+    <tr><td>secure</td><td>มั่นคง ปลอดภัย</td></tr>
+    <tr><td>security guard</td><td>ผู้รักษาความปลอดภัย</td></tr>
+    <tr><td>senator</td><td>วุฒิสภา</td></tr>
+    <tr><td>separate</td><td>แยก</td></tr>
+    <tr><td>shake</td><td>สั่นสะเทือน<br>(พบบ่อย)</td></tr>
+    <tr><td>shellfish</td><td>สัตว์ประเภท หอย ปู กุ้ง ส่วนใหญ่อยู่ในน้ำเค็ม</td></tr>
+    <tr><td>shock</td><td>สั่นสะเทือน<br>(พบบ่อย)</td></tr>
+    <tr><td>shop</td><td>ร้านค้า</td></tr>
+    <tr><td>show up</td><td>ปรากฎออกมา<br>(phrasal verb)</td></tr>
+    <tr><td>slam</td><td>เสียงดังปัง<br>(พบบ่อย)</td></tr>
+    <tr><td>soak</td><td>เปียกโชก</td></tr>
+    <tr><td>somewhat</td><td>ค่อนข้าง</td></tr>
+    <tr><td>sort of</td><td>เหมือนจะ, จำพวกนั้น</td></tr>
+    <tr><td>sort</td><td>จัดเรียง</td></tr>
+    <tr><td>source</td><td>แหล่งที่มา</td></tr>
+    <tr><td>spare</td><td>ไว้ชีวิต, อะไหล่</td></tr>
+    <tr><td>spread</td><td>แพร่-ระบาด<br>(พบบ่อย)</td></tr>
+    <tr><td>squeeze</td><td>บีบ</td></tr>
+    <tr><td>squid</td><td>ปลาหมีก</td></tr>
+    <tr><td>standard</td><td>มาตรฐาน</td></tr>
+    <tr><td>stomachahe</td><td>ปวดท้อง</td></tr>
+    <tr><td>struggle</td><td>ดิ้นรน ต่อสู้</td></tr>
+    <tr><td>submerge</td><td>จมอยู่ใต้น้ำ<br>(พบบ่อย)</td></tr>
+    <tr><td>submit</td><td>ส่ง</td></tr>
+    <tr><td>substance</td><td>สสาร</td></tr>
+    <tr><td>substitute</td><td>แทนที่</td></tr>
+    <tr><td>suffer</td><td>ทนทุกข์ทรมาน<br>(พบบ่อย)</td></tr>
+    <tr><td>suitable</td><td>เหมาะ</td></tr>
+    <tr><td>superficial</td><td>เหนือธรรมชาติ</td></tr>
+    <tr><td>support</td><td>ช่วยเหลือ</td></tr>
+    <tr><td>survival</td><td>การรอดชีวิต<br>(พบบ่อย)</td></tr>
+    <tr><td>survive</td><td>รอดชีวิต<br>(พบบ่อย)</td></tr>
+    <tr><td>survivor</td><td>ผู้รอดชีวิต<br>(พบบ่อย)</td></tr>
+    <tr><td>suspect</td><td>สงสัย</td></tr>
+    <tr><td>suspicious</td><td>น่าสงสัย</td></tr>
+    <tr><td>swallow</td><td>กลืน</td></tr>
+    <tr><td>swallow</td><td>นกนางแอ่น</td></tr>
+    <tr><td>swear</td><td>สบถ(สาบาน)</td></tr>
+    <tr><td>swell</td><td>บวม</td></tr>
+    <tr><td>tackle</td><td>จัดการ</td></tr>
+    <tr><td>take off</td><td>เครื่องบิน บินขึ้น<br>(เคยออก-มี.ค.68)<br>The plane will take off from the airport in ten minutes.</td></tr>
+    <tr><td>tetra-</td><td>สี่</td></tr>
+    <tr><td>thirsty </td><td>กระหายน้ำ</td></tr>
+    <tr><td>thoroughly</td><td>อย่างละเอียดถี่ถ้วน</td></tr>
+    <tr><td>though</td><td>แม้ว่า</td></tr>
+    <tr><td>thought</td><td>ความคิด</td></tr>
+    <tr><td>thoughtful</td><td> รอบคอบ<br>(เคยออก)</td></tr>
+    <tr><td>thread</td><td>เส้นด้าย</td></tr>
+    <tr><td>threat</td><td>ขู่ คุกคาม</td></tr>
+    <tr><td>tidy</td><td>เรียบร้อย</td></tr>
+    <tr><td>top</td><td>จุดยอด, ด้านบน</td></tr>
+    <tr><td>tornado</td><td>พายุทอร์นาโด<br>(พบบ่อย)</td></tr>
+    <tr><td>touch</td><td>แตะ, สัมผัส</td></tr>
+    <tr><td>tough(ทัฟ)</td><td>ยาก</td></tr>
+    <tr><td>tourist</td><td> นักท่องเที่ยว<br>(เคยออก)</td></tr>
+    <tr><td>trace</td><td>ร่องรอย</td></tr>
+    <tr><td>trade</td><td>การค้าขาย</td></tr>
+    <tr><td>tradition</td><td>ประเพณี</td></tr>
+    <tr><td>tragedy</td><td>โศกนาฏกรรม<br>(พบบ่อย)</td></tr>
+    <tr><td>trail</td><td>ทางเดินในป่า, ตามรอย</td></tr>
+    <tr><td>trans-</td><td>การเปลี่ยน</td></tr>
+    <tr><td>transfer</td><td>การถ่ายโอน</td></tr>
+    <tr><td>transform</td><td>การแปลงจากสิ่งหนึ่งเป็นอีกสิ่งหนึ่ง</td></tr>
+    <tr><td>transition</td><td>การเปลี่ยนแปลง</td></tr>
+    <tr><td>translate</td><td>แปล</td></tr>
+    <tr><td>transport</td><td>การขนส่ง</td></tr>
+    <tr><td>transportation</td><td> การคมนาคม<br>(เคยออก)</td></tr>
+    <tr><td>traveler</td><td> นักเดินทาง <br>(เคยออก)</td></tr>
+    <tr><td>treat</td><td>เลี้ยง(อาหาร)</td></tr>
+    <tr><td>treat</td><td>การปฏิบัติต่อ</td></tr>
+    <tr><td>treat</td><td>รักษา</td></tr>
+    <tr><td>treatment</td><td>การรักษา, กระบวนการทดลอง</td></tr>
+    <tr><td>tri-</td><td>สามtricycle - รถสามล้อ</td></tr>
+    <tr><td>try out </td><td>ทดสอบ<br>(phrasal verb)</td></tr>
+    <tr><td>try</td><td>พยายาม</td></tr>
+    <tr><td>turn off </td><td>ปิด ดับเครื่อง<br>(phrasal verb)</td></tr>
+    <tr><td>turn on </td><td>เปิด เช่น เปิดไฟ<br>(phrasal verb)</td></tr>
+    <tr><td>typhoon</td><td>พายุใต้ฝุ่น<br>(พบบ่อย)</td></tr>
+    <tr><td>underneath</td><td>ข้างล่าง</td></tr>
+    <tr><td>upward</td><td>ไปบน</td></tr>
+    <tr><td>urge</td><td>กระตุ้น</td></tr>
+    <tr><td>urgent</td><td>เร่งด่วน</td></tr>
+    <tr><td>urn</td><td>โกศ, เหยือก</td></tr>
+    <tr><td>usable</td><td>ใช้งานได้</td></tr>
+    <tr><td>use up</td><td>หมด<br>(phrasal verb)</td></tr>
+    <tr><td>usual</td><td>ปกติ</td></tr>
+    <tr><td>usually</td><td>โดยปกติ</td></tr>
+    <tr><td>vertex</td><td>จุดสูงสุด</td></tr>
+    <tr><td>viral</td><td>แพร่กระจาย</td></tr>
+    <tr><td>vita-</td><td>ชีวิต</td></tr>
+    <tr><td>vitae</td><td>ประวัติย่อ</td></tr>
+    <tr><td>vital</td><td>สำคัญ</td></tr>
+    <tr><td>vitamin</td><td>ไวตามิน</td></tr>
+    <tr><td>volcano</td><td>ภูเขาไฟ<br>(พบบ่อย)</td></tr>
+    <tr><td>waste</td><td>สูญเปล่า</td></tr>
+    <tr><td>watchful</td><td> เผ้าระวัง, ตื่นตัว<br>(เคยออก)</td></tr>
+    <tr><td>wealthy</td><td> มั่งคั่ง <br>(เคยออก)</td></tr>
+    <tr><td>west</td><td>ทิศตะวันตก</td></tr>
+	<tr><td>within</td><td>ภายใน <br>(เคยออก ปี 2568)</td></tr>
+    <tr><td>worship</td><td>สวดอ้อนวอน</td></tr>
+    <tr><td>worshiper</td><td>ผู้สวด</td></tr>
+    <tr><td>wreckage</td><td>เศษหิน – เศษปูน(พบบ่อย)</td></tr>
+</table>
+</div>  <!-- end of div class = "content" -->
+  <script src="vocab_study.js" type="text/javascript" language="JavaScript"></script>
+ </body>
+</html>

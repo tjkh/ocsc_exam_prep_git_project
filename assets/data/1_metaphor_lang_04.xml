@@ -1,0 +1,2725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- อุปมาอุปไมย 4 -->
+
+  <!-- XX1  -->
+  <thisQuestion>
+  <qNum>id1746689888:date1746689888</qNum>
+  <question>&lt;small&gt;ข้อสอบเสมือนจริง ก.พ. e-Exam (เม.ย. 2568)&lt;/small&gt;&lt;br /&gt;
+
+  อ้อย : น้ำตาล  :: ?  : ?
+  &lt;br /&gt;
+  </question>
+  <choice_A> กาแฟ :  น้ำอัดลม</choice_A>
+  <choice_B> ปลา : น้ำปลา </choice_B>
+  <choice_C> ไข่ : ก๋วยเตี๋ยว </choice_C>
+  <choice_D> วุ้นเส้น : ถั่วเขียว</choice_D>
+  <choice_E>
+  </choice_E>
+  <correctAns>3</correctAns>
+  <!-- A=2, B=3, C=4, D=5 -->
+  <explanation>
+  &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+  อ้อย : น้ำตาล  :: ?  : ?  &lt;br /&gt;&lt;br /&gt;
+
+  1.  กาแฟ :  น้ำอัดลม  &lt;br /&gt;
+  2.  ปลา : น้ำปลา &#x2714;&lt;br /&gt;
+  3. ไข่ : ก๋วยเตี๋ยว   &lt;br /&gt;
+  4. วุ้นเส้น : ถั่วเขียว &lt;br /&gt;&lt;br /&gt;
+
+  แนวคิด &lt;br /&gt;&lt;br /&gt;
+  นำ อ้อย ไปทำ น้ำตาล  &lt;br /&gt; &lt;br /&gt;
+  นำ ปลา ไปทำ น้ำปลา &lt;br /&gt;
+
+
+  </explanation>
+  <isExplain>yes</isExplain>
+  <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+  <!-- XX2  -->
+  <thisQuestion>
+  <qNum>id1746689889:date1746689888</qNum>
+  <question>&lt;small&gt;ข้อสอบเสมือนจริง ก.พ. e-Exam (เม.ย. 2568)&lt;/small&gt;&lt;br /&gt;
+
+  ปฏิญาณ : สัญญา  :: ?  : ?
+  &lt;br /&gt;
+  </question>
+  <choice_A> ปฏิเสธ :  ยอมรับ</choice_A>
+  <choice_B> ปฏิบัติ : กระทำ </choice_B>
+  <choice_C> ปฏิสังขรณ์ : พัฒนา </choice_C>
+  <choice_D> ปฏิวัติ : ปรับปรุง</choice_D>
+  <choice_E>
+  </choice_E>
+  <correctAns>3</correctAns>
+  <!-- A=2, B=3, C=4, D=5 -->
+  <explanation>
+  &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+  ปฏิญาณ : สัญญา  :: ?  : ?  &lt;br /&gt;&lt;br /&gt;
+
+  1.  ปฏิเสธ :  ยอมรับ  &lt;br /&gt;
+  2.  ปฏิบัติ : กระทำ  &#x2714;&lt;br /&gt;
+  3. ปฏิสังขรณ์ : พัฒนา  &lt;br /&gt;
+  4. ปฏิวัติ : ปรับปรุง &lt;br /&gt;&lt;br /&gt;
+
+  แนวคิด &lt;br /&gt;&lt;br /&gt;
+  ความหมายเหมือนกัน ใกล้เคียงกัน  &lt;br /&gt; &lt;br /&gt;
+  ปฏิญาณ คือ การกล่าวยืนยัน หรือให้คำมั่นสัญญา ด้วยความสุจริตใจ, มักใช้ในงานพิธีต่าง ๆ &lt;br /&gt; &lt;br /&gt;
+
+  ปฏิสังขรณ์ คือ การซ่อมแซมให้เหมือนเดิม &lt;br /&gt; &lt;br /&gt;
+
+  ปฏิวัติ คือ การเปลี่ยนแปลงทั้งหมดอย่างฉับพลันทันที ไม่ใช่ปรับปรุง &lt;br /&gt; &lt;br /&gt;
+
+  </explanation>
+  <isExplain>yes</isExplain>
+  <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+  <!-- XX3  -->
+  <thisQuestion>
+  <qNum>id1746689890:date1746689888</qNum>
+  <question>&lt;small&gt;ข้อสอบเสมือนจริง ก.พ. e-Exam (เม.ย. 2568)&lt;/small&gt;&lt;br /&gt;
+
+  พินัยกรรม : มรดก  :: ?  : ?
+  &lt;br /&gt;
+  </question>
+  <choice_A> วันเกิด :  สูจิบัตร</choice_A>
+  <choice_B> ทะเบียนบ้าน : ที่อยู่ </choice_B>
+  <choice_C> เงื่อนไข : สัญญา </choice_C>
+  <choice_D> ทรัพย์สิน : บัญชี </choice_D>
+  <choice_E>
+  </choice_E>
+  <correctAns>3</correctAns>
+  <!-- A=2, B=3, C=4, D=5 -->
+  <explanation>
+  &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+  พินัยกรรม : มรดก  :: ?  : ? &lt;br /&gt;&lt;br /&gt;
+
+  1.  วันเกิด :  สูจิบัตร  &lt;br /&gt;
+  2.  ทะเบียนบ้าน : ที่อยู่  &#x2714;&lt;br /&gt;
+  3. เงื่อนไข : สัญญา  &lt;br /&gt;
+  4. ทรัพย์สิน : บัญชี &lt;br /&gt;&lt;br /&gt;
+
+  แนวคิด &lt;br /&gt;&lt;br /&gt;
+  มีส่วนเกี่ยวข้องกันอย่างแนบแน่น  และ ส่วนแรกเป็นเอกสาร เหมือนกัน&lt;br /&gt; &lt;br /&gt;
+
+
+
+
+  </explanation>
+  <isExplain>yes</isExplain>
+  <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+  <!-- XX4  -->
+  <thisQuestion>
+  <qNum>id1746689891:date1746689888</qNum>
+  <question>&lt;small&gt;ข้อสอบเสมือนจริง ก.พ. e-Exam (เม.ย. 2568)&lt;/small&gt;&lt;br /&gt;
+
+  เรือนจำ : พัศดี  :: ?  : ?
+  &lt;br /&gt;
+  </question>
+  <choice_A> โรงเรียน :  ภารโรง</choice_A>
+  <choice_B> แพทย์ : โรงพยาบาล </choice_B>
+  <choice_C> นักโทษ : ผู้คุม </choice_C>
+  <choice_D> โรงพัก : ตำรวจ</choice_D>
+  <choice_E>
+  </choice_E>
+  <correctAns>5</correctAns>
+  <!-- A=2, B=3, C=4, D=5 -->
+  <explanation>
+  &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+  เรือนจำ : พัศดี  :: ?  : ? &lt;br /&gt;&lt;br /&gt;
+
+  1. โรงเรียน :  ภารโรง  &lt;br /&gt;
+  2.   แพทย์ : โรงพยาบาล  ;&lt;br /&gt;
+  3.  นักโทษ : ผู้คุม &lt;br /&gt;
+  4.   โรงพัก : ตำรวจ &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+  แนวคิด &lt;br /&gt;&lt;br /&gt;
+  เป็นความสัมพันธ์ระหว่าง สถานที่ กับ บุคคลที่มีอำนาจ  &lt;br /&gt; &lt;br /&gt;
+  ผู้มีอำนาจในเรือนจำ คือ พัศดี &lt;br /&gt;&lt;br /&gt;
+
+  ผู้มีอำนาจำบนโรงพัก คือ ตำรวจ &lt;br /&gt;&lt;br /&gt;
+
+  ภารโรง แม้จะทำงานที่โรงเรียน แต่ ลักษณะงาน จะไม่เหมือน พัศดี กับ เรือนจำ &lt;br /&gt;
+
+
+  </explanation>
+  <isExplain>yes</isExplain>
+  <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+  <!-- ถึงตรงนี้   file:///D:/_01/ข้อสอบจริงe-exam 68.pdf -->
+  <!-- XX5  -->
+  <thisQuestion>
+  <qNum>id1746689892:date1746689888</qNum>
+  <question>&lt;small&gt;ข้อสอบเสมือนจริง ก.พ. e-Exam (เม.ย. 2568)&lt;/small&gt;&lt;br /&gt;
+
+  ขนุน : มะนาว  :: ?  : ?
+  &lt;br /&gt;
+  </question>
+  <choice_A> น้อยหน่า :  สับปะรด</choice_A>
+  <choice_B> ส้ม : ลิ้นจี่ </choice_B>
+  <choice_C> แตงโม : กล้วย </choice_C>
+  <choice_D> มะม่วง : มะละกอ</choice_D>
+  <choice_E>
+  </choice_E>
+  <correctAns>2</correctAns>
+  <!-- A=2, B=3, C=4, D=5 -->
+  <explanation>
+  &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+
+  ขนุน : มะนาว  :: ?  : ?  &lt;br /&gt;&lt;br /&gt;
+
+  1.  น้อยหน่า :  สับปะรด    &#x2714;&lt;br /&gt;
+  2.  ส้ม : ลิ้นจี่ำ&lt;br /&gt;
+  3. แตงโม : กล้วย  &lt;br /&gt;
+  4. มะม่วง : มะละกอ &lt;br /&gt;&lt;br /&gt;
+
+  แนวคิด &lt;br /&gt;&lt;br /&gt;
+
+  รสของผลไม้  &lt;br /&gt; &lt;br /&gt;
+
+  ขนุน - น้อยหน่า รสหวาน&lt;br /&gt;
+  มะนาว และ สับปะรด รสเปรี้ยว &lt;br /&gt; &lt;br /&gt;
+
+
+
+  </explanation>
+  <isExplain>yes</isExplain>
+  <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+  <!-- XX6  -->
+  <thisQuestion>
+  <qNum>id1746689893:date1746689888</qNum>
+  <question>&lt;small&gt;ข้อสอบเสมือนจริง ก.พ. e-Exam (เม.ย. 2568)&lt;/small&gt;&lt;br /&gt;
+
+  ไวโอลิน : ซออู้  :: ?  : ?
+  &lt;br /&gt;
+  </question>
+  <choice_A> กีต้าร์ :  จะเข้ </choice_A>
+  <choice_B> ปี่ : ขลุ่ย </choice_B>
+  <choice_C> ระนาด : โปงลาง </choice_C>
+  <choice_D> ตะโพน : กลองยาว</choice_D>
+  <choice_E>
+  </choice_E>
+  <correctAns>2</correctAns>
+  <!-- A=2, B=3, C=4, D=5 -->
+  <explanation>
+  &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+  ไวโอลิน : ซออู้  :: ?  : ? &lt;br /&gt;&lt;br /&gt;
+
+  1.  กีต้าร์ :  จะเข้    &#x2714; &lt;br /&gt;
+  2.  ปี่ : ขลุ่ย &lt;br /&gt;
+  3. ระนาด : โปงลาง &lt;br /&gt;
+  4. ตะโพน : กลองยาว&lt;br /&gt;&lt;br /&gt;
+
+  แนวคิด &lt;br /&gt;&lt;br /&gt;
+  เครื่องดนตรีสากล - เครื่องดนตรีไทย  &lt;br /&gt; &lt;br /&gt;
+
+  ไวโอลิน และ กีต้าร์ เป็นเครื่องดนตรีสากล&lt;br /&gt;
+  ซออู้ และ จะเข้  เป็นเครื่องดนตรีไทย&lt;br /&gt;
+
+  </explanation>
+  <isExplain>yes</isExplain>
+  <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+  <!-- XX7  -->
+  <thisQuestion>
+  <qNum>id1746689894:date1746689888</qNum>
+  <question>&lt;small&gt;ข้อสอบเสมือนจริง ก.พ. e-Exam (เม.ย. 2568)&lt;/small&gt;&lt;br /&gt;
+
+  สมบูรณ์ : พร่อง  :: ?  : ?
+  &lt;br /&gt;
+  </question>
+  <choice_A> เต็ม :  ค่อน</choice_A>
+  <choice_B> วุ่นวาย : เหงา </choice_B>
+  <choice_C> อัตคัด : ยากจน </choice_C>
+  <choice_D> บางส่วน : ทั้งหมด</choice_D>
+  <choice_E>
+  </choice_E>
+  <correctAns>2</correctAns>
+  <!-- A=2, B=3, C=4, D=5 -->
+  <explanation>
+  &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+  สมบูรณ์ : พร่อง  :: ?  : ? &lt;br /&gt;&lt;br /&gt;
+
+  1.  เต็ม :  ค่อน  &#x2714; &lt;br /&gt;
+  2.  วุ่นวาย : เหงา   &lt;br /&gt;
+  3. อัตคัด : ยากจน &lt;br /&gt;
+  4.  บางส่วน : ทั้งหมด &lt;br /&gt;&lt;br /&gt;
+
+  แนวคิด &lt;br /&gt;&lt;br /&gt;
+  ปริมาณทั้งหมด : ปริมาณที่ลดลงไป &lt;br /&gt; &lt;br /&gt;
+  หรือ อาจจะมองว่า มีความหมายตรงข้ามกัน ก็ได้ &lt;br /&gt;
+  วุ่นวาย ตรงข้ามกับ สงบ จึงไม่ใช่ข้อที่เหมาะสม&lt;br /&gt;
+  เหงา ตรงข้ามกับ รื่นเริง &lt;br /&gt;
+  </explanation>
+  <isExplain>yes</isExplain>
+  <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+  <!-- XX8  -->
+  <thisQuestion>
+  <qNum>id1746689895:date1746689888</qNum>
+  <question>&lt;small&gt;ข้อสอบเสมือนจริง ก.พ. e-Exam (เม.ย. 2568)&lt;/small&gt;&lt;br /&gt;
+
+  โคลง : บท  :: ?  : ?
+  &lt;br /&gt;
+  </question>
+  <choice_A> ตำรา :  แผ่น</choice_A>
+  <choice_B> นิทาน : เรื่อง </choice_B>
+  <choice_C> นิตยสาร : ปักษ์ </choice_C>
+  <choice_D> บทความ : บท</choice_D>
+  <choice_E>
+  </choice_E>
+  <correctAns>3</correctAns>
+  <!-- A=2, B=3, C=4, D=5 -->
+  <explanation>
+  &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+  โคลง : บท  :: ?  : ?  &lt;br /&gt;&lt;br /&gt;
+
+  1.  ตำรา :  แผ่น &lt;br /&gt;
+  2.   นิทาน : เรื่อง   &#x2714; &lt;br /&gt;
+  3. นิตยสาร : ปักษ์   &lt;br /&gt;
+  4.  บทความ : บท &lt;br /&gt;&lt;br /&gt;
+
+  แนวคิด &lt;br /&gt;&lt;br /&gt;
+
+  ลักษณนาม &lt;br /&gt; &lt;br /&gt;
+
+  ลักษณนามของโคลง คือ บท &lt;br /&gt;
+  ลักษณนามของนิทาน คือ เรื่อง &lt;br /&gt; &lt;br /&gt;
+
+  ลักษณนามของตำรา คือ เล่ม, ฉบับ &lt;br /&gt;
+  ลักษณนามของนิตยสาร คือ ฉบับ &lt;br /&gt;
+  ลักษณนามของบทความ คือ เรื่อง &lt;br /&gt; &lt;br /&gt;
+
+  ดูเมนู คำลักษณนาม ที่ควรรู้ &lt;br /&gt;
+
+
+  </explanation>
+  <isExplain>yes</isExplain>
+  <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+  <thisQuestion>
+  <qNum>id1742779530:date1742779530</qNum>
+  <question>
+
+  โฆษณา : การขาย  :: ?  : ?
+  &lt;br /&gt;
+  </question>
+  <choice_A> สินค้า :  รถยนต์</choice_A>
+  <choice_B> ปุ๋ย : ต้นไม้ </choice_B>
+  <choice_C> น้ำบ่อ : น้ำใจ </choice_C>
+  <choice_D> นายพราน : ช้างป่า</choice_D>
+  <choice_E>
+  </choice_E>
+  <correctAns>3</correctAns>
+  <!-- A=2, B=3, C=4, D=5 -->
+  <explanation>
+  &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+  โฆษณา : การขาย  :: ?  : ?  &lt;br /&gt;&lt;br /&gt;
+
+  1.  สินค้า  :  รถยนต์   &lt;br /&gt;
+  2.  ปุ๋ย : ต้นไม้ &#x2714;&lt;br /&gt;
+  3. น้ำบ่อ :  น้ำใจ  &lt;br /&gt;
+  4. นายพราน :  ช้างป่า &lt;br /&gt;&lt;br /&gt;
+
+  แนวคิด &lt;br /&gt;&lt;br /&gt;
+  ทำให้เจริญเติบโต  &lt;br /&gt; &lt;br /&gt;
+  โฆษณา ทำให้ การขาย เจริญเติบโต &lt;br /&gt;
+
+
+  </explanation>
+  <isExplain>yes</isExplain>
+  <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+  <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+
+
+    <thisQuestion>
+<qNum>id1684709812:date1684709812</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+บ้าน : คน  :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A> รู :  หนู</choice_A>
+        <choice_B> กระชัง : ปลา </choice_B>
+        <choice_C> รัง :  ผึ้ง</choice_C>
+        <choice_D> ถ้ำ :  เสือ</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+บ้าน : คน  :: ?  : ?  &lt;br /&gt;&lt;br /&gt;
+
+            1.  รู  :  หนู   &lt;br /&gt;
+            2.  กระชัง : ปลา &lt;br /&gt;
+            3. รัง :  ผึ้ง &#x2714; &lt;br /&gt;
+            4. ถ้ำ :  เสือ &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ เป็นที่อยู่อาศัย ถาวร  &lt;br /&gt; &lt;br /&gt;
+            คนสร้างบ้านเพื่อเป็นที่อยู่อาศัย &lt;br /&gt;
+            ผึ้งสร้างรังเพื่อเป็นที่อยู่อาศัย &lt;br /&gt; &lt;br /&gt;
+
+            หนูไม่จำเป็นต้องอยู่ในรูเสมอไป &lt;br /&gt;
+            ปลา อยู่ในกระชังเมื่อถูกจับได้ และถูกขังอยู่ในกระชัง &lt;br /&gt;
+            เสือไม่จำเป็นต้องอยู่ในถ้ำเสมอไป เสือส่วนใหญ่อยู่นอกถ้ำ เช่น อยู่ในป่า ในทุ่งหญ้า &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <thisQuestion>
+<qNum>id1684709814:date1717651136</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+แกะ :  ระกำ :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A> ฉีก : ทุเรียน </choice_A>
+        <choice_B> ทุบ : กระท้อน </choice_B>
+        <choice_C> ผ่า : มะพร้าว </choice_C>
+        <choice_D> ปอก : กล้วย </choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+แกะ :  ระกำ :: ?  : ?
+  &lt;br /&gt;&lt;br /&gt;
+
+            1.  ฉีก : ทุเรียน  &lt;&lt;br /&gt;
+            2. ทุบ : กระท้อน &lt;br /&gt;
+            3. ผ่า : มะพร้าว &lt;br /&gt;
+            4. ปอก : กล้วย &#x2714;&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ ใช้มือเพื่อแยกออกจากกัน  &lt;br /&gt;
+      </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <thisQuestion>
+<qNum>id1684709815:date1684709815</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+พี่ : น้อง  :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A> ลุง : ป้า </choice_A>
+        <choice_B> น้า : อา </choice_B>
+        <choice_C> ปู่ : หลาน </choice_C>
+        <choice_D> ลูกเขย : ลูกสาว </choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+พี่ : น้อง  :: ?  : ?
+  &lt;br /&gt;&lt;br /&gt;
+
+            1.  ลุง : ป้า  &lt;&lt;br /&gt;
+            2.  น้า : อา  &lt;br /&gt;
+            3.  ปู่ : หลาน  &#x2714; &lt;br /&gt;
+            4. ลูกเขย : ลูกสาว   &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+   &lt;br /&gt;
+อายุมากกว่า  :  อายุน้อยกว่า
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <thisQuestion>
+<qNum>id1684709816:date1684709816</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+เหนือ : ใต้  :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A> อ้วน : เตี้ย </choice_A>
+        <choice_B> สูง : ต่ำ </choice_B>
+        <choice_C> สวย : โสภา </choice_C>
+        <choice_D> รัก : ชอบ</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+เหนือ : ใต้  :: ?  : ?
+  &lt;br /&gt;&lt;br /&gt;
+
+            1. อ้วน : เตี้ย  &lt;&lt;br /&gt;
+            2. สูง : ต่ำ  &#x2714;&lt;br /&gt;
+            3. สวย : โสภา  &lt;br /&gt;
+            4.  รัก : ชอบ  &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ มีลักษณะตรงข้ามกัน  &lt;br /&gt;
+ ถ้าจะมองว่า เป็นทิศเหมือนกัน จะมีข้อถูกหลายข้อ เช่น ข้อ 1, 2 และ 3 เป็นลักษณะของคนเหมือนกัน   &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <thisQuestion>
+<qNum>id1684709817:date1684709817</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+เตียง : มุ้ง  :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A> พระ : ชี </choice_A>
+        <choice_B> ปี่ : ขลุ่ย </choice_B>
+        <choice_C> ผ้าห่ม : หมอน </choice_C>
+        <choice_D> คน : ยาม </choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+เตียง : มุ้ง  :: ?  : ?
+  &lt;br /&gt;&lt;br /&gt;
+
+            1. พระ : ชี  &lt;br /&gt;
+            2. ปี่ : ขลุ่ย &#x2714;&lt;br /&gt;
+            3. ผ้าห่ม : หมอน  &lt;br /&gt;
+            4. คน : ยาม  &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ ลักษณนาม (เลา) เหมือนกัน  &lt;br /&gt;
+ เตียง และ มุ้ง นับเป็นหลังเหมือนกัน &lt;br /&gt;
+ ปีและขลุ่ย นับเป็นเลาเหมือนกัน &lt;br /&gt; &lt;br /&gt;
+
+ ถ้าจะมองในแง่ความเหมือน คือ เป็นประเภทเดียวกัน จะมีข้อถูกมากกว่า 1 ข้อ คือ ข้อ 1 และ ข้อ 3
+            &lt;br /&gt; &lt;br /&gt;
+            ขอบคุณน้อง  Matoom Kontharot ที่ช่วยตรวจสอบข้อนี้
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <thisQuestion>
+<qNum>id1684709818:date1684709818</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+รก :  รังหนู :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A> ใจดำ : ตอตะโก </choice_A>
+        <choice_B> ใจเสาะ : ปลาสร้อย </choice_B>
+        <choice_C> กว้าง : แม่น้ำ </choice_C>
+        <choice_D> ใจดี : พระ </choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รก :  รังหนู :: ?  : ?
+  &lt;br /&gt;&lt;br /&gt;
+
+            1. ใจดำ : ตอตะโก &lt;&lt;br /&gt;
+            2. ใจเสาะ : ปลาสร้อย&lt;br /&gt;
+            3. กว้าง : แม่น้ำ  &lt;br /&gt;
+            4. ใจดี : พระ &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ เป็นคำอุปมาอุปไมย เปรียบเทียบ  &lt;br /&gt;
+ ใจดำเหมือนอีกา    &lt;br /&gt;
+  ใจเสาะเป็นปลาซิว (ปลาซิว พอเอาขึ้นมาจากน้ำเดี๋ยวก็ตาย)  &lt;br /&gt;
+   ใจกว้างเป็นแม่น้ำ ใจกว้างเป็นมหาสมุทร แต่ กว้าง เฉย ๆ ไม่มี&lt;br /&gt;
+   ใจดีเป็นพระ &lt;br /&gt;
+    &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <thisQuestion>
+<qNum>id1684709819:date1684709819</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam (29 เม.ย. 2566 -บ่าย) &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+หมู : คอก :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>วัว  :  ทุ่งนา</choice_A>
+        <choice_B>นก  :  กรง</choice_B>
+        <choice_C>ปลา  :  แม่น้ำ</choice_C>
+        <choice_D>ช้าง : ป่า</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+หมู : คอก :: ?  : ?
+  &lt;br /&gt;&lt;br /&gt;
+
+            1. วัว  :  ทุ่งนา&lt;&lt;br /&gt;
+            2. นก  :  กรง &#x2714; &lt;br /&gt;
+            3. ปลา  :  แม่น้ำ&lt;br /&gt;
+            4. ช้าง : ป่า&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ สิ่งจำกัดบริเวณที่คนสร้างขึ้น   &lt;br /&gt;
+ ความสัมพันธ์ด้านที่อยุ่ใช้ไม่ได้ เนื่องจากมีข้อถูกหลายข้อ เช่น &lt;br /&gt;
+นกอยู่ในกรง ปลาอยู่ในแม่น้ำ ช้างอยู่ในป่า ฯลฯ  &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+	    <thisQuestion>
+<qNum>id1684709820:date1684709820</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+ยาบ้า :  ยาเสพติด :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>เรียงความ  :  ย่อความ</choice_A>
+        <choice_B>พี่น้อง  :  เครือญาติ</choice_B>
+        <choice_C>ปลาช่อน  :  ปลาสวาย</choice_C>
+        <choice_D>โจร : ตำรวจ</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ยาบ้า :  ยาเสพติด :: ?  : ?
+  &lt;br /&gt;&lt;br /&gt;
+
+            1. เรียงความ  :  ย่อความ&lt;&lt;br /&gt;
+            2. พี่น้อง  :  เครือญาติ &#x2714; &lt;br /&gt;
+            3. ปลาช่อน  :  ปลาสวาย&lt;br /&gt;
+            4. โจร : ตำรวจ&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ ความสัมพันธ์ในลักษณะ เป็นสมาชิก หรือเป็นชนิดหนึ่งของ   &lt;br /&gt;
+ ยาบ้าเป็นยาเสพติด พี่น้องเป็นเครือญาติ  &lt;br /&gt;
+
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <thisQuestion>
+<qNum>id1684709819:date1684709819</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+เรือ :  เครื่องบิน :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ท่าเรือ  :  สนามบิน</choice_A>
+        <choice_B>ประภาคาร  :  ว่าว</choice_B>
+        <choice_C>ไม้ไผ่  :  อ้อย</choice_C>
+        <choice_D>แม่น้ำ : ท้องฟ้า</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+เรือ :  เครื่องบิน :: ?  : ?
+  &lt;br /&gt;&lt;br /&gt;
+
+            1. ท่าเรือ  :  สนามบิน&lt;&lt;br /&gt;
+            2. ประภาคาร  :  ว่าว&lt;br /&gt;
+            3. ไม้ไผ่  :  อ้อย &#x2714;  &lt;br /&gt;
+            4. แม่น้ำ : ท้องฟ้า&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ เป็นความสัมพันธ์ในแนวนอน คือ ลักษณนามทั้งของเรือและเครื่องบิน คือคำว่า ลำ เหมือนกัน   &lt;br /&gt;
+ลักษณนามทั้งของไม้ไผ่และอ้อย คือคำว่า ลำ เหมือนกัน 
+ความสัมพันธ์ในแนวตั้ง มีหลายข้อ เช่น &lt;br /&gt;
+ข้อ 1. เรือจอดที่ท่าเรือ เครื่องบินจอดที่สนามบิน   &lt;br /&gt;
+ข้อ 4. เรือแล่นในแม่น้ำ เครื่องบินแล่นในท้องฟ้า  &lt;br /&gt; &lt;br /&gt;
+
+กรณีที่มีความสัมพันธ์ ทั้งแนวนอนและแนวตั้ง ให้ยึดแนวนอนก่อน &lt;br /&gt;
+
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <thisQuestion>
+<qNum>id1684709820:date1684709820</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+มรกต : บุศราคำ  :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>จะเข้  :  ขิม</choice_A>
+        <choice_B>เพชร  :  อัญมณี</choice_B>
+        <choice_C>แหวน  :  เครื่องประดับ</choice_C>
+        <choice_D>ปี่ : เครื่องเป่า</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+มรกต : บุศราคำ  :: ?  : ?
+  &lt;br /&gt;&lt;br /&gt;
+
+            1. จะเข้  :  ขิม &#x2714; &lt;&lt;br /&gt;
+            2. เพชร  :  อัญมณี&lt;br /&gt;
+            3. แหวน  :  เครื่องประดับ&lt;br /&gt;
+            4. ปี่ : เครื่องเป่า&lt;br /&gt;&lt;br /&gt;
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+มรกต และ บุศราคำ  จัดอยู่ในประเภทอัญมณีเหมือนกัน  &lt;br /&gt;
+จะเข้  และ  ขิม  จัดอยู่ในประเภทเครื่องดนตรีเหมือนกัน  &lt;br /&gt;&lt;br /&gt;
+
+ข้อสังเกต ให้ดูความสัมพันธ์ในแนวนอนก่อน   &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <thisQuestion>
+<qNum>id1684709821:date1684709821</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+ไป :  มา :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>มาก  :  หลาย</choice_A>
+        <choice_B>หยุด  :  นิ่ง</choice_B>
+        <choice_C>สั่น  :  ไหว</choice_C>
+        <choice_D>ใกล้ :  ไกล</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ไป :  มา :: ?  : ?
+  &lt;br /&gt;&lt;br /&gt;
+
+            1. มาก  :  หลาย&lt;&lt;br /&gt;
+            2. หยุด  :  นิ่ง&lt;br /&gt;
+            3. สั่น  :  ไหว&lt;br /&gt;
+            4. ใกล้ :  ไกล &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ไป ตรงข้ามกับ  มา    &lt;br /&gt;
+ใกล้ ตรงข้ามกับ ไกล   &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+<qNum>id1684709811:date1684709811</qNum>
+<question>&lt;span style="font-size: 90%;"&gt;ข้อสอบเสมือนจริง กพ  e-Exam 2566 &lt;br /&gt; &lt;/span&gt;&lt;br /&gt;
+
+ข้าวโพด :  ปาล์ม :: ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>น้ำตาล  :  เกลือ</choice_A>
+        <choice_B>หมาก :  ตาล</choice_B>
+        <choice_C>หมาก :  พลู</choice_C>
+        <choice_D>ถั่ว :  มะพร้าว</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ข้าวโพด :  ปาล์ม :: ?  : ?&lt;br /&gt;&lt;br /&gt;
+
+            1. น้ำตาล  :  เกลือ  &lt;&lt;br /&gt;
+            2. หมาก :  ตาล&lt;br /&gt;
+            3. หมาก :  พลู&lt;br /&gt;
+            4. ถั่ว :  มะพร้าว &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ข้าวโพด :  ปาล์ม - พืชล้มลุก ไม้ยืนต้นประเภทปาล์ม &lt;br /&gt;
+ถั่ว :  มะพร้าว - พืชล้มลุก ไม้ยืนต้นประเภทปาล์ม
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+<qNum>id1670627685:date1670627685</qNum>
+<question>ข้อสอบเสมือนจริง กพ (20 พ.ย. 65) &lt;br /&gt;&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ มีแต่งเติมบ้าง) &lt;/span&gt;&lt;br /&gt;
+
+ระนาด :  ฆ้อง :: กลองทัด  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ฉิ่ง</choice_A>
+        <choice_B>พิณ</choice_B>
+        <choice_C>จะเข้</choice_C>
+        <choice_D>ปี่ใน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ระนาด :  ฆ้อง :: กลองทัด  : ? &lt;br /&gt;&lt;br /&gt;
+
+            1. ฉิ่ง  &#x2714;&lt;&lt;br /&gt;
+            2. พิณ &lt;br /&gt;
+            3. จะเข้&lt;br /&gt;
+            4. ปี่ใน  &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ระนาด :  ฆ้อง เป็นเครื่องดนตรีไทย ประเภท เครื่องตี &lt;br /&gt;
+กลองทัด :  ฉิ่ง เป็นเครื่องดนตรีไทย ประเภท เครื่องตี &lt;br /&gt;
+พิณ เป็นเครื่องดนตรีไทย ประเภท เครื่องดีด &lt;br /&gt;
+จะเข้ :  ฉิ่ง เป็นเครื่องดนตรีไทย ประเภท เครื่องดีด&lt;br /&gt;
+ปี่ใน :  ฉิ่ง เป็นเครื่องดนตรีไทย ประเภท เครื่องเป่า&lt;br /&gt;
+&lt;br /&gt;
+กลองทัด&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/drums.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+<qNum>id1670627685:date1670627685</qNum>
+<question>ข้อสอบเสมือนจริง กพ (20 พ.ย. 65) &lt;br /&gt;&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ มีแต่งเติมบ้าง) &lt;/span&gt;&lt;br /&gt;
+
+ทหาร :  กอง :: โลมา  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ฝูง</choice_A>
+        <choice_B>ตัว</choice_B>
+        <choice_C>เหล่า</choice_C>
+        <choice_D>กลุ่มก้อน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ทหาร :  กอง :: โลมา  : ? &lt;br /&gt;&lt;br /&gt;
+
+            1. ฝูง  &#x2714;&lt;&lt;br /&gt;
+            2. ตัว &lt;br /&gt;
+            3. เหล่า&lt;br /&gt;
+            4. กลุ่มก้อน  &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ทหาร (อยู่รวมกัน เรียกว่า) กอง (เช่น กองทหาร)&lt;br /&gt;
+โลมา (อยู่รวมกัน เรียกว่า) ฝูง (เช่น ฝูงปลาโลมา) &lt;br /&gt;
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+<qNum>id1670627685:date1670627685</qNum>
+<question>ข้อสอบเสมือนจริง กพ (20 พ.ย. 65) &lt;br /&gt;&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ มีแต่งเติมบ้าง) &lt;/span&gt;&lt;br /&gt;
+
+เต้าหู้ :  นิ่ม : ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ทราย :  ป่น</choice_A>
+        <choice_B>สำลี : นุ่ม</choice_B>
+        <choice_C>เต้าเจี้ยว : เหลือง</choice_C>
+        <choice_D>แป้งเปียก : เปียก</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+เต้าหู้ :  นิ่ม : ?  : ?&lt;br /&gt;&lt;br /&gt;
+
+            1. ทราย :  ป่น  &lt;&lt;br /&gt;
+            2. สำลี : นุ่ม &#x2714; &lt;br /&gt;
+            3. เต้าเจี้ยว : เหลือง&lt;br /&gt;
+            4. แป้งเปียก : เปียก  &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+เต้าหู้ (มีลักษณะ/คุณสมบัติ คือ) นิ่ม &lt;br /&gt;
+สำลี (มีลักษณะ/คุณสมบัติ คือ) นุ่ม &lt;br /&gt;
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+
+    <thisQuestion>
+<qNum>id1670627684:date1670627684</qNum>
+<question>ข้อสอบเสมือนจริง กพ (20 พ.ย. 65) &lt;br /&gt;&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ มีแต่งเติมบ้าง) &lt;/span&gt;&lt;br /&gt;
+
+น้ำปลา : น้ำเกลือ : ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>พริกไทย :  พริกป่น</choice_A>
+        <choice_B>ไข่ต้ม : ไข่เจียว</choice_B>
+        <choice_C>แกงจืด : แกงเผ็ด</choice_C>
+        <choice_D>น้ำตาล : ขนม</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+น้ำปลา : น้ำเกลือ : ?  : ?&lt;br /&gt;&lt;br /&gt;
+
+            1. พริกไทย :  พริกป่น  &#x2714;&lt;&lt;br /&gt;
+            2. ไข่ต้ม : ไข่เจียว&lt;br /&gt;
+            3. แกงจืด : แกงเผ็ด&lt;br /&gt;
+            4. น้ำตาล : ขนม&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+น้ำปลา (มีรสเหมือน) น้ำเกลือ &lt;br /&gt;
+พริกไทย (มีรสเหมือน) พริกป่น  (คือรสเผ็ดร้อน)&lt;br /&gt;
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+
+    <thisQuestion>
+<qNum>id1670627683:date1670627683</qNum>
+<question>ข้อสอบเสมือนจริง กพ (20 พ.ย. 65) &lt;br /&gt;&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ มีแต่งเติมบ้าง) &lt;/span&gt;&lt;br /&gt;
+
+ทายาท : มรดก : ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ศิษย์ :  วิชา</choice_A>
+        <choice_B>เจ้าหนี้ : เงินกู้</choice_B>
+        <choice_C>นายหน้า : ที่ดิน</choice_C>
+        <choice_D>ผู้รับ : ผู้ให้</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ทายาท : มรดก : ?  : ?&lt;br /&gt;&lt;br /&gt;
+            1. ศิษย์ :  วิชา  &#x2714;&lt;&lt;br /&gt;
+            2. เจ้าหนี้ : เงินกู้&lt;br /&gt;
+            3. นายหน้า : ที่ดิน&lt;br /&gt;
+            4. ผู้รับ : ผู้ให้&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ทายาท (เป็นผู้รับ) มรดก &lt;br /&gt;
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+
+    <thisQuestion>
+<qNum>id1670627682:date1670627682</qNum>
+<question>ข้อสอบเสมือนจริง กพ (20 พ.ย. 65) &lt;br /&gt;&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ มีแต่งเติมบ้าง) &lt;/span&gt;&lt;br /&gt;
+
+เรือนจำ : ห้องขัง : ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ตำรวจ :  ผู้ร้าย</choice_A>
+        <choice_B>ชานชลา : รถไฟ</choice_B>
+        <choice_C>โรงแรม : ห้องพัก</choice_C>
+        <choice_D>บ้าน : ที่นอน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+เรือนจำ : ห้องขัง : ?  : ?&lt;br /&gt;&lt;br /&gt;
+            1. ตำรวจ :  ผู้ร้าย &lt;&lt;br /&gt;
+            2. ชานชลา : รถไฟ&lt;br /&gt;
+            3. โรงแรม : ห้องพัก &#x2714;&lt;br /&gt;
+            4. บ้าน : ที่นอน&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+สถานที่ : สถานที่ &lt;br /&gt;
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <thisQuestion>
+        <qNum>id1659008648:date1659008648</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ที่ดิน : ตารางวา : ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ไม้บรรทัด :  ตลับเมตร</choice_A>
+        <choice_B>คอนโดมิเนียม : พื้นที่</choice_B>
+        <choice_C>ความเร็ว : กิโลเมตรต่อชั่วโมง</choice_C>
+        <choice_D>น้ำหนัก : ส่วนสูง</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ที่ดิน : ตารางวา : ?  : ?&lt;br /&gt;&lt;br /&gt;
+            1. ไม้บรรทัด :  ตลับเมตร &lt;&lt;br /&gt;
+            2. คอนโดมิเนียม : พื้นที่&lt;br /&gt;
+            3. ความเร็ว : กิโลเมตรต่อชั่วโมง &#x2714;&lt;br /&gt;
+            4. น้ำหนัก : ส่วนสูง&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+ที่ดิน มีหน่วยวัดเป็น ตารางวา &lt;br /&gt;
+ความเร็ว มีหน่วยวัดเป็น กิโลเมตรต่อชั่วโมง &lt;br /&gt;
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+        <qNum>id1659008649:date1659008648</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ปลา : เรือดำน้ำ : นก  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ปีก</choice_A>
+        <choice_B>เครื่องบิน</choice_B>
+        <choice_C>ท้องฟ้า</choice_C>
+        <choice_D>รถยนต์</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ปลา : เรือดำน้ำ : นก  : ?&lt;br /&gt;&lt;br /&gt;
+            1. ปีก  &lt;&lt;br /&gt;
+            2. เครื่องบิน &#x2714;&lt;br /&gt;
+            3. ท้องฟ้า&lt;br /&gt;
+            4. รถยนต์&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+สัตว์ : ยานพาหนะ ทั้งสองอย่างอยู่ในสิ่งแวดล้อมเดียวกัน &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <thisQuestion>
+        <qNum>id1659008650:date1659008648</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+กระทะ : ขัด : ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>รองเท้า : ถู</choice_A>
+        <choice_B>ซัก : กางเกง</choice_B>
+        <choice_C>แหวน : ขัด</choice_C>
+        <choice_D>ซักแห้ง : อบผ้า</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+กระทะ : ขัด :  ? :  ? &lt;br /&gt;&lt;br /&gt;
+            1. รองเท้า : ถู  &lt;&lt;br /&gt;
+            2. ซัก : กางเกง&lt;br /&gt;
+            3. แหวน : ขัด &#x2714;&lt;br /&gt;
+            4. ซักแห้ง : อบผ้า&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+คำหน้า เป็นคำกริยา คำหลังเป็นคำนาม&lt;br /&gt;
+ความสัมพันธ์ คือ การทำความสะอาด&lt;br /&gt;
+กระทะ ต้องขัด จึงสะอาด&lt;br /&gt;
+เช่นเดียวกับ&lt;br /&gt;
+แหวน  ต้องขัด จึงสะอาด&lt;br /&gt;
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <thisQuestion>
+        <qNum>id1659008651:date1659008648</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+เศร้า : อารมณ์ : แหวน : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ทองคำ</choice_A>
+        <choice_B>นิ้วมือ</choice_B>
+        <choice_C>สร้อยคอ</choice_C>
+        <choice_D>เครื่องประดับ</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+เศร้า : อารมณ์ : แหวน : ? : ?&lt;br /&gt;&lt;br /&gt;
+            1. ทองคำ  &lt;&lt;br /&gt;
+            2. นิ้วมือ&lt;br /&gt;
+            3. สร้อยคอ&lt;br /&gt;
+            4. เครื่องประดับ &#x2714;&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+
+           เป็นการจัดหมวดหมู่ หรือ ประเภท&lt;br /&gt;&lt;br /&gt;
+			ความเศร้า อยู่ในหมวดหมู่ของ อารมณ์&lt;br /&gt;
+		   แหวน อยู่ในหมวดหมู่ของ เครื่องประดับ &lt;br /&gt;
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+<thisQuestion>
+<qNum>id1670627685:date1670627685</qNum>
+<question>ข้อสอบเสมือนจริง กพ (20 พ.ย. 65) &lt;br /&gt;&lt;span style="font-size: 90%;"&gt;(จำจากห้องสอบ มีแต่งเติมบ้าง) &lt;/span&gt;&lt;br /&gt;
+
+มีน : ปลา : ?  : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>เมถุน :  หญิงสาว</choice_A>
+        <choice_B>มีน : ปู</choice_B>
+        <choice_C>ตุลย์ : แมงป่อง</choice_C>
+        <choice_D>พฤษก : วัว</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+มีน : ปลา : ?  : ?&lt;br /&gt;&lt;br /&gt;
+
+            1. เมถุน :  หญิงสาว  &lt;&lt;br /&gt;
+            2. มีน : ปู&lt;br /&gt;
+            3. ตุลย์ : แมงป่อง&lt;br /&gt;
+            4. พฤษก : วัว  &#x2714; &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+(ราศรี) มีน (คือ) ปลา &lt;br /&gt;
+(ราศรี) พฤษก (คือ) วัว &lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;asset:assets/data/images/sodiac.png&quot;&gt;&lt;br /&gt; &lt;br /&gt;
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+
+    <thisQuestion>
+        <qNum>id1659008652:date1659008648</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+อิสรภาพ : นกพิราบ : ? : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ความแข็งแกร่ง : ช้าง</choice_A>
+        <choice_B>ความกล้าหาญ : สิงโต</choice_B>
+        <choice_C>ความมั่นคง : หมี</choice_C>
+        <choice_D>ความโง่เขลา : ม้า</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+อิสรภาพ : นกพิราบ : ? : ?&lt;br /&gt;&lt;br /&gt;
+            1. ความแข็งแกร่ง : ช้าง &lt;&lt;br /&gt;
+            2. ความกล้าหาญ : สิงโต &#x2714;&lt;br /&gt;
+            3. ความมั่นคง : หมี&lt;br /&gt;
+            4. ความโง่เขลา : ม้า&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+
+           เป็นการเปรียบเทียบเชิงสัญลักษณ์ &lt;br /&gt;&lt;br /&gt;
+			ช้าง เป็นสัญลักษณ์ของความสมบูรณ์ ความสำเร็จ&lt;br /&gt;
+		   สิงโต เป็นสัญลักษณ์ของความกล้าหาญ&lt;br /&gt;
+		   หมี เป็นสัญลักษณ์ของความ กล้าหาญ อดทน และความรัก ความห่วงใย&lt;br /&gt;
+		   ม้า เป็นสัญลักษณ์ของความ กระตือรือร้น &lt;br /&gt;
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+        <qNum>id1659008653:date1659008648</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ไฟ : ควัน : ? : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>แสง : เงา</choice_A>
+        <choice_B>ขี้เถ้า : ถ่าน</choice_B>
+        <choice_C>เขม่า : ท่อไอเสีย</choice_C>
+        <choice_D>ร้อน : หมอก</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ไฟ : ควัน : ? : ?&lt;br /&gt;&lt;br /&gt;
+            1. แสง : เงา  &#x2714;&lt;&lt;br /&gt;
+            2. ขี้เถ้า : ถ่าน&lt;br /&gt;
+            3. เขม่า : ท่อไอเสีย&lt;br /&gt;
+            4. ร้อน : หมอก&lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+
+           สิ่งแรก ทำให้เกิด สิ่งที่สอง&lt;br /&gt;
+		   ไฟ ทำให้เกิด ควัน&lt;br /&gt;
+		   แสง ทำให้เกิด เงา&lt;br /&gt;
+
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+        <qNum>id1659008654:date1659008648</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ยาว : สั้น : ? : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>ดำ : ขาว</choice_A>
+        <choice_B>ปี : เดือน</choice_B>
+        <choice_C>เสือ : แมวป่า</choice_C>
+        <choice_D>ความฉลาด : ความทันคน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ยาว : สั้น : ? : ?&lt;br /&gt;&lt;br /&gt;
+            1. ดำ : ขาว  &#x2714;&lt;&lt;br /&gt;
+            2. ปี : เดือน&lt;br /&gt;
+            3. เสือ : แมวป่า br /&gt;
+            4. ความฉลาด : ความทันคน &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+
+            เป็นคำตรงข้าม&lt;br /&gt;
+
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <thisQuestion>
+        <qNum>id1659008655:date1659008648</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+สติ : สัมปชัญญะ : ? : ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>สนุก : สนาน</choice_A>
+        <choice_B>สมัคร : สมาน</choice_B>
+        <choice_C>โศกเศร้า : เสียใจ</choice_C>
+        <choice_D>วิตก : วิจารณ์ </choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+สติ : สัมปชัญญะ : ? : ?&lt;br /&gt;&lt;br /&gt;
+            1. สนุก : สนาน&lt;br /&gt;
+            2. สมัคร : สมาน&lt;br /&gt;
+            3. โศกเศร้า : เสียใจ &#x2714;&lt;br /&gt;
+            4. วิตก : วิจารณ์  &lt;br /&gt;&lt;br /&gt;
+
+            แนวคิด &lt;br /&gt;&lt;br /&gt;
+
+            สติ กับ สัมปชัญญะ มีความหมายทำนองเดียวกัน และสามารถใช้เป็นคำโดด ๆ ได้&lt;br /&gt;
+            โศกเศร้า : เสียใจ  มีความหมายทำนองเดียวกัน และสามารถใช้เป็นคำโดด ๆ ได้&lt;br /&gt;&lt;br /&gt;
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+	
+	
+	
+	
+	
+	
+	
+	<!-- ************************************************************************ -->
+  <!--
+นำมาจาก
+https://sites.google.com/site/79sanit79/home/khx-sxb-phx/khxsxb-xupma-xupmiy-2
+https://ติวสอบกพ.com/แนวข้อสอบกพ/ความรู้ความสามารถทั่วไป/อุปมาอุปไมย#
+
+-->
+    <thisQuestion>
+        <qNum>id1659008656:date1659008648</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+            ข้าวต้มมัด  :  ข้าวหลาม
+            &lt;br /&gt;
+        </question>
+        <choice_A>ไส้กรอก  :  กุนเชียง</choice_A>
+        <choice_B>เชือก  :  กระบอกไม้ไผ่</choice_B>
+        <choice_C>ข้าวเกรียบปากหม้อ  :  ข้าวเหนียวดำ</choice_C>
+        <choice_D>ห่อหมก  :  เยื่อไผ่</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+            ข้าวต้มมัด  :  ข้าวหลาม
+            &lt;br /&gt;&lt;br /&gt;
+			คำตอบคือ 
+            ไส้กรอก  :  กุนเชียง&lt;br /&gt;&lt;br /&gt;
+
+            เพราะมีลักษณะคล้ายกัน&lt;br /&gt;
+            ข้าวต้มมัด กับ ข้าวหลาม ถูกห่อหุ้ม และวัตถุดิบเหมือนกันจากข้าวเหนียว &lt;br /&gt;
+			ไส้กรอกกับกุนเชียง  ถูกห่อหุ้ม วัตถุดิบเหมือนกัน มีลักษณะยาวเหมือนกัน&lt;br /&gt;
+
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+	<!-- 22 -->
+    <thisQuestion>
+        <qNum>id1652768143:date1652768143</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+ &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+            วัด : สงบ    ห้างสรรพสินค้า  :  ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>เย็น</choice_A>
+        <choice_B>พลุกพล่าน</choice_B>
+        <choice_C>มั่วสุม</choice_C>
+        <choice_D>บันเทิง</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>3</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            วัด : สงบ    ห้างสรรพสินค้า  :  ?
+            &lt;br /&gt;&lt;br /&gt;
+
+            วิธีคิด &lt;br /&gt;&lt;br /&gt;
+            วัด มีความ สงบ&lt;br /&gt;
+            ห้างสรรพสินค้า มีความ พลุกพล่าน&lt;br /&gt;
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+    <!-- 23 -->
+    <thisQuestion>
+        <qNum>id1652768144:date1652768144</qNum>
+        <question>(ข้อสอบเสมือนจริง 8 พ.ค. 65)&lt;br /&gt;
+            &lt;strong&gt;คำสั่ง: &lt;/strong&gt;จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+            โควิด 19  :  คน     ?   :   ?
+            &lt;br /&gt;
+        </question>
+        <choice_A>วัณโรค  :   หมัด</choice_A>
+        <choice_B>โรคเท้าช้าง  :   เห็บ</choice_B>
+        <choice_C>โรคชิกุนคุนย่า  :   ยุง</choice_C>
+        <choice_D>อหิวาตกโรค  :   แมลงสาบ</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>4</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            โควิด 19  :  คน     ?   :   ?
+            &lt;br /&gt;&lt;br /&gt;
+            1. วัณโรค  :   หมัด&lt;br /&gt;
+            2. โรคเท้าช้าง  :   เห็บ&lt;br /&gt;
+            3. โรคชิกุนคุนย่า  :   ยุง&lt;br /&gt;
+            4. อหิวาตกโรค  :   แมลงสาบ&lt;br /&gt;&lt;br /&gt;
+
+            วิธีคิด &lt;br /&gt;&lt;br /&gt;
+
+            คน นำโรคโควิด 19 มาสู่ คน&lt;br /&gt;
+            เช่นเดียวกับ&lt;br /&gt;
+            ยุง นำโรคชิกุนคุนย่า มาสู่ คน&lt;br /&gt;
+
+        </explanation>
+        <isExplain>disable answer</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+
+
+    <!-- XX -->
+  <thisQuestion>
+    <qNum>id0470:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+วัณโรค : อหิวาตกโรค :: ?  :  ?
+	</question>
+    <choice_A>เบาหวาน : ไต</choice_A>
+    <choice_B>โควิด-19 : ไข้เลือดออก</choice_B>
+    <choice_C>ไขข้อเสื่อม : หอบหืด</choice_C>
+    <choice_D>ภูมิแพ้ : ความดันโลหิตสูง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ตอบ 2 โควิด-19 : ไข้เลือดออก&lt;br /&gt;&lt;br /&gt;
+ความสัมพันธ์ &lt;br /&gt;
+เป็นโรคติดต่อเหมือนกันทั้งสองโรค&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0471:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ทางม้าลาย : สะพานลอย :: ? : ?
+	</question>
+    <choice_A>ถนน : ทางด่วน</choice_A>
+    <choice_B>ทางเท้า : สี่แยก</choice_B>
+    <choice_C>อุโมงค์ : ซอย</choice_C>
+    <choice_D>ที่จอดรถ : อาคาร</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ตอบ 1. ถนน : ทางด่วน&lt;br /&gt;&lt;br /&gt;
+ความสัมพันธ์ &lt;br /&gt;
+ทางม้าลายกับสะพานลอยใช้ข้ามถนน โดยทางม้าลายอยู่ติดพื้น แต่สะพานลอยไม่อยู่ติดพื้น เช่นเดียวกับถนน และทางด่วน ซึ่งใช้เดินทาง โดยถนนอยู่ติดพื้น แต่ทางด่วนไม่อยู่ติดพื้น&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0472:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ยะลา : เบตง :: ? : ?
+	</question>
+    <choice_A>เชียงใหม่ : ดอยสุเทพ</choice_A>
+    <choice_B>แม่ฮ่องสอน : แม่สะเรียง</choice_B>
+    <choice_C>เชียงราย : แม่สาย</choice_C>
+    <choice_D>เชียงใหม่ : สันป่าตอง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ตอบ 3  เชียงราย : แม่สาย&lt;br /&gt;&lt;br /&gt;
+ความสัมพันธ์ &lt;br /&gt;
+อําเภอเบตง เป็นอําเภอสุดท้ายที่อยู่ในจังหวัดยะลา ถือเป็นจุดที่อยู่ใต้สุด&lt;br /&gt;
+อําเภอแม่สาย เป็นอําเภอที่เหนือสุดของประเทศไทย อยู่ในจังหวัดเชียงราย&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0473:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ตะเกียบ : แขน :: ? : ?
+	</question>
+    <choice_A>ปากกา : นิ้ว</choice_A>
+    <choice_B>จมูก : ปาก</choice_B>
+    <choice_C>หู : ตา</choice_C>
+    <choice_D>ช้อน : มือ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3 หู : ตา&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+มีเป็นคู่&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0474:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ครู : หมอ :: ?  :  ?
+	</question>
+    <choice_A>ให้ความรู้ : ออกแบบ</choice_A>
+    <choice_B>พยาบาล : สถาปนิก</choice_B>
+    <choice_C>คณิตศาสตร์ : โรคข้อ</choice_C>
+    <choice_D>นักเรียน : ผ่าตัด</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ครู ทำหน้าที่อย่างหนึ่งคือ สอนวิชาคณิตศาสตร์&lt;br /&gt;
+หมอ ทำหน้าที่อย่างหนึ่งคือ รักษาโรคข้อ&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 4 เกือบได้ ถ้าเป็น   นักเรียน : คนไข้&lt;br /&gt;
+ครู สอน นักเรียน&lt;br /&gt;
+หมอ รักษา คนไข้ &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0475:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+เถาะ : ระกา :: ?  :  ?
+	</question>
+    <choice_A>กระต่าย : แมว</choice_A>
+    <choice_B>เมษายน : ตุลาคม</choice_B>
+    <choice_C>ไก่ : กระต่าย</choice_C>
+    <choice_D>มีนาคม : ธันวาคม</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+
+ตอบ ข้อ 2 เมษายน : ตุลาคม&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เถาะกับระกา เป็นปีนักษัตรเหมือนกัน ปีเถาะมาก่อนปีระกา และห่างกัน 6 ปี &lt;br /&gt;
+เมษายนกับตุลาคม เป็นเดือนเหมือนกัน เดือนเมษายนมาก่อนเดือนตุลาคม และห่างกัน 6 เดือน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0476:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+เดิน : คลาน :: ?  :  ?
+	</question>
+    <choice_A>ดักแด้ : ผีเสื้อ</choice_A>
+    <choice_B>เคี้ยว : กลืน</choice_B>
+    <choice_C>แต่ง : หมั้น</choice_C>
+    <choice_D>สุก : งอม</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3 แต่ง : หมั้น&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เกิดขึ้นทีหลัง : เกิดขึ้นก่อน&lt;br /&gt;
+พัฒนาการของคน การเดินมาหลังจากการคลาน&lt;br /&gt;
+เช่นเดียวกับการแต่งงาน คือ การแต่งงาน เกิดหลังจาก การหมั้นแล้ว&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0477:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ขวดนม : ผ้าอ้อม :: ?  :  ?
+	</question>
+    <choice_A>มุ้ง : เสื้อเชิ้ต</choice_A>
+    <choice_B>นาฬิกา : ยางลบ</choice_B>
+    <choice_C>ตุ๊กตาหมี : ผ้าถุง</choice_C>
+    <choice_D>สำลี : เปล</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 4 สำลี : เปล&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เป็นของใช้สำหรับเด็กทารก&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0478:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+นมสด : กระสอบ :: ?  :  ?
+	</question>
+    <choice_A>เนย : นม</choice_A>
+    <choice_B>แก้วน้ำ : กระป๋อง</choice_B>
+    <choice_C>ขี้ผึ้ง : สมุด</choice_C>
+    <choice_D>หัวปลี : กระดาษ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 4 หัวปลี : กระดาษ&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ผลิตภัณฑ์ที่ยังไม่ได้แปรรูป : ผลิตภัณฑ์ที่แปรรูปแล้ว&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0479:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ วิตามิน : ผลไม้  :: ?  :  ?
+	</question>
+    <choice_A>คาร์โบไฮเดรต : เผือก</choice_A>
+    <choice_B>ผักใบเขียว : วิตามิน</choice_B>
+    <choice_C>ไขมัน : เกลือแร่</choice_C>
+    <choice_D>เนื้อสัตว์ : โปรตีน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 1 คาร์โบไฮเดรต : เผือก&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ วิตามิน มีมากใน ผลไม้ &lt;br /&gt;
+เช่นเดียวกับ คาร์โบไฮเดรต  มีมากใน  เผือก&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0480:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+แมงป่อง : หาง :: ?  :  ?
+	</question>
+    <choice_A>สิงโต : ขา</choice_A>
+    <choice_B>นก : ปีก</choice_B>
+    <choice_C>ปู : ก้าม</choice_C>
+    <choice_D>ปลา : ครีบ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3 ปู : ก้าม&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+แมงป่อง ใช้หางป้องกันตัวเอง&lt;br /&gt;
+ปู ใช้ ก้ามป้องกันตัวเอง&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0481:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+เทียน : ด้าย :: ?  :  ?
+	</question>
+    <choice_A>วงกลม : จุดศูนย์กลาง</choice_A>
+    <choice_B>ล้อ : เพลา</choice_B>
+    <choice_C>ดินสอ : กราไฟท์</choice_C>
+    <choice_D>ปากกา : หมึก</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3 ดินสอ : กราไฟท์ &lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เทียน มี ด้าย เป็นไส้&lt;br /&gt;
+ดินสอ มี กราไฟท์ เป็นไส้ &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0482:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ แปรงสีฟัน : สบู่  :: ?  :  ?
+	</question>
+    <choice_A>รองเท้า : ค้อน</choice_A>
+    <choice_B>กระทะ : ช้อน</choice_B>
+    <choice_C>เสื้อผ้า : ไขควง</choice_C>
+    <choice_D>ยาสีฟัน : ยาขัดรองเท้า</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 4&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ลักษณะการใช้ ใช้ถูเหมือนกัน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0483:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+กลางคืน : ? :: ? : สว่าง
+	</question>
+    <choice_A>มืด :: สีดํา</choice_A>
+    <choice_B>กลางวัน :: สีดํา</choice_B>
+    <choice_C>กลางวัน :: มืด</choice_C>
+    <choice_D>สว่าง :: มืด</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ตรงกันข้าม&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0484:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+กรรไกร : เกวียน :: ?  :  ?
+	</question>
+    <choice_A>กระดาษ : มีด</choice_A>
+    <choice_B>ช้าง : บ้าน</choice_B>
+    <choice_C>ม้า : ขลุ่ย</choice_C>
+    <choice_D>หนังสือ : เข็ม</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 4&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ลักษณนามเหมือนกัน คือ เล่ม&lt;br /&gt;&lt;br /&gt;
+
+คำลักษณนาม ที่ควรรู้&lt;br /&gt;
+(สำนักงานราชบัณฑิตยสภา-http://www.royin.go.th/?page_id=641)&lt;br /&gt;&lt;br /&gt;
+
+กรรไกร-เล่ม&lt;br /&gt;
+เกวียน-เล่ม&lt;br /&gt;
+ช้าง-เชือก&lt;br /&gt;
+ขลุ่ย-เลา&lt;br /&gt;
+เข็ม-เล่ม&lt;br /&gt;
+นามบัตร-แผ่น(ไม่ใช่ใบ)&lt;br /&gt;
+นาฬิกา-เรือน(ไม่ใช่หลัง)&lt;br /&gt;
+พลั่ว-เล่ม(ไม่ใช่อัน)&lt;br /&gt;
+พัด-เล่ม (ไม่ใช่อัน)&lt;br /&gt;
+พิณ-คัน&lt;br /&gt;
+แฟ้มเอกสาร-แฟ้ม&lt;br /&gt;
+มรสุม-ลูก&lt;br /&gt;
+มีด-เล่ม&lt;br /&gt;
+มุ้ง-หลัง&lt;br /&gt;
+ไม้กวาด-อัน,กำ (ไม่ใช่ด้าม)&lt;br /&gt;
+ไม้แคะหู-เล่ม&lt;br /&gt;
+ไม้พาย,พาย-เล่ม&lt;br /&gt;
+หนังสือ-เล่ม&lt;br /&gt;
+หนังสือราชการ-ฉบับ&lt;br /&gt;
+หวี-เล่ม&lt;br /&gt;
+หอก-เล่ม&lt;br /&gt;
+หูฟัง(สำหรับแพทย์หรือสำหรับฟังเพลง)-อัน(ไม่ใช่คู่)&lt;br /&gt;
+แห-ปาก&lt;br /&gt;
+ไหม-เส้น; เรียกตามลักษณะ หรือลักษณะบรรจุภัณฑ์ เช่น กลุ่ม ม้วน หลอดเข็ด ไจ&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0485:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ ครู : ตำรา :: ?  :  ?
+	</question>
+    <choice_A>ชาวนา : ที่นา</choice_A>
+    <choice_B>หมอ : ยา</choice_B>
+    <choice_C>ทนาย : ศาล</choice_C>
+    <choice_D>พระ : เทศนา</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 2 &lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ครู ใช้ตำรา สอนนักเรียน&lt;br /&gt;
+หมอ ใช้ยา รักษาคนใข้ &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0486:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ เมตตา : กรุณา :: ?  :  ?
+	</question>
+    <choice_A>ทำชั่ว : พูดปด</choice_A>
+    <choice_B>ฆ่าสัตว์ : พูดปด</choice_B>
+    <choice_C>ศีล : ดื่มสุรา</choice_C>
+    <choice_D>ทำบุญ : ทำทาน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ธรรมะ อยู่ในหมวดเดียวกัน&lt;br /&gt;&lt;br /&gt;
+
+พรมวิหาร ๔ &lt;br /&gt;
+เมตตา - ความปรารถนาให้ผู้อื่นได้รับสุข&lt;br /&gt;
+กรุณา - ความปราถนาให้ผู้อื่นพ้นทุกข์&lt;br /&gt;
+มุทิตา - ความยินดีเมื่อผู้อื่นได้ดี&lt;br /&gt;
+อุเบกขา - การรู้จักวางเฉย&lt;br /&gt;&lt;br /&gt;
+
+ฆ่าสัตว์-พูดปด อยู่ในศีล ๕&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0487:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+เบรก :  รถยนต์  ::  ?  :  ?
+	</question>
+    <choice_A>โช้คอัพ  :  คาบิวเรเตอร์ </choice_A>
+    <choice_B>สติ  :  คน</choice_B>
+    <choice_C>จ๊อกกี้  :  ม้าแข่ง </choice_C>
+    <choice_D>นักคิด  :  นักประดิษฐ์ </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์ &lt;br /&gt;
+เป็นสิ่งที่ใช้หยุด หรือห้าม&lt;br /&gt;
+เบรก หยุดรถที่กำลังแล่น&lt;br /&gt;
+สติ หยุดคนให้ยั้งคิด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0488:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ หน้าต่าง : เพดาน :: ?  :  ?
+ ? : ?
+1. 
+2. 
+3. 
+4. 
+	</question>
+    <choice_A>ปล่องไฟ : ดาดฟ้า</choice_A>
+    <choice_B>ประตูฟุตบอล : สนามฟุตบอล</choice_B>
+    <choice_C>มุ้งลวด : เหล็กดัด</choice_C>
+    <choice_D>ห้องน้ำ : ห้องครัว</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เป็นสี่เหลี่ยมเหมือนกัน อย่างหนึ่งแนวตั้ง อีกอย่างแนวนอน&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0489:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+อากาศ :  เครื่องบิน  ::  ?  :  ?
+	</question>
+    <choice_A>อุกกาบาต  :  อวกาศ</choice_A>
+    <choice_B>แผ่นดิน  :  ไส้เดือน</choice_B>
+    <choice_C>ปากน้ำ  :  สันดอน</choice_C>
+    <choice_D>มหาสมุทร  :  เรือดำน้ำ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 4&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เป็นยานพาหนะ และสิ่งที่ยานพาหนะนั้นใช้ในการเดินทาง&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0490:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ขนมจีน : ฝอยทอง :: ?  :  ?
+	</question>
+    <choice_A>อาหารว่าง : อาหารหนัก</choice_A>
+    <choice_B>อาหารจีน : อาหารไทย</choice_B>
+    <choice_C>อาหารมอญ : อาหารโปรตุเกส</choice_C>
+    <choice_D>อาหารหวาน : อาหารคาว</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ชนชาติเจ้าของอาหาร&lt;br /&gt;&lt;br /&gt;
+
+ขนมจีน สันนิษฐานว่าเริ่มมาจากชาวมอญ ขนมจีนไม่ใช่อาหารจีน แต่คำว่า "จีน" สันนิษฐานกันว่าน่าจะมาจากมอญซึ่งเรียกขนมจีนว่า "คนอมจิน" หมายถึงการทำให้สุก 2 ครั้ง&lt;br /&gt;&lt;br /&gt;
+
+ฝอยทอง เกิดขึ้นในรัชสมัยสมเด็จพระนารายณ์มหาราช มีชาวโปรตุเกสนำสูตรขนมฝอยทองมาเผยแพร่ ให้แก่คนไทย&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0491:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+สมุย :  อังกฤษ  ::  ?  :  ? 
+	</question>
+    <choice_A>สีชัง  :  จีน</choice_A>
+    <choice_B>ตะรูเตา  :  ญี่ปุ่น</choice_B>
+    <choice_C>ภูเก็ต  :  ฝรั่งเศส </choice_C>
+    <choice_D>เกาะช้าง  :  เยอรมัน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เกาะ และ ประเทศที่มีน้ำล้อมรอบ&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0492:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+อุบลราชธานี :  แม่ฮ่องสอน :: ?  :  ?
+	</question>
+    <choice_A>เชียงใหม่  :  สงขลา</choice_A>
+    <choice_B>นราธิวาส  :  ตรัง</choice_B>
+    <choice_C>ขอนแก่น  :  พะเยา</choice_C>
+    <choice_D>กาญจนบุรี    :  กรุงเทพ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ความสัมพันธ์เชิงภูมิภาค&lt;br /&gt;&lt;br /&gt;
+อุบลราชธานี อยู่ภาคตะวันออกเฉียงเหนือ ส่วนแม่ฮ่องสอน อยู่ในเขตภาคเหนือ&lt;br /&gt;
+ขอนแก่น อยู่ภาคตะวันออกเฉียงเหนือ ส่วนพะเยา อยู่ในเขตภาคเหนือ&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0493:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ดวงจันทร์ : น้ำขึ้น :: ?  :  ?
+	</question>
+    <choice_A>ดวงดาว : น้ำลง</choice_A>
+    <choice_B>ดวงอาทิตย์ : ลมบก</choice_B>
+    <choice_C>ดาวศุกร์ : ลมทะเล</choice_C>
+    <choice_D>ดาวเสาร์ : สงคราม</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+อิทธิพลที่ทำให้เกิดปรากฏการณ์ธรรมชาติ&lt;br /&gt;&lt;br /&gt;
+ดวงจันทร์ ทำให้เกิด น้ำขึ้น น้ำลง&lt;br /&gt;
+ดวงอาทิตย์ ทำให้เกิด ลมบก ลมทะเล&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0494:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ นาง : งาน :: ?  :  ?
+	</question>
+    <choice_A>กด : ดัน</choice_A>
+    <choice_B>สาว : งาม</choice_B>
+    <choice_C>ดัน : นัด</choice_C>
+    <choice_D>ยก : ยอ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+สลับตำแหน่งตัวอักษร&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0495:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ศาล : ความยุติธรรม :: ?  :  ?
+	</question>
+    <choice_A>ทนายความ : ลูกความ</choice_A>
+    <choice_B>อัยการ : โจทก์</choice_B>
+    <choice_C>วุฒิสภา : ส.ส.</choice_C>
+    <choice_D>รัฐสภา : กฎหมาย</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 4&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+บทบาทของสถาบัน&lt;br /&gt;&lt;br /&gt;
+ศาล ให้(ผดุงไว้ซึ่้ง) ความยุติธรรม&lt;br /&gt;
+รัฐสภา ให้(บัญญัติ) กฎหมาย&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0496:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ ข้าวสาร :  ข้าวเปลือก  ::  ?  :  ?
+	</question>
+    <choice_A>ข้าวต้ม  :  ข้าวสวย</choice_A>
+    <choice_B>ขนมปัง  :  แป้งสาลี </choice_B>
+    <choice_C>ผู้ชาย  : ผู้หญิง</choice_C>
+    <choice_D>พระ : เณร</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+อะไร มาจาก อะไร&lt;br /&gt;&lt;br /&gt;
+ข้าวสาร มาจาก ข้าวเปลือก&lt;br /&gt;
+ขนมปัง มาจาก แป้งสาลี &lt;br /&gt;&lt;br /&gt;
+
+ผู้หญิงเปรียบเหมือนข้าวสาร&lt;br /&gt;
+ผู้ชายเปรียบเหมือนข้าวเปลือก ตกที่ไหนก็งอกที่นั่น&lt;br /&gt;
+ข้อนี้ยังไม่ถูก เพราะสลับกัน&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0497:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ เงินฝืด  :  เงินเฟ้อ  ::  ?  :  ?
+	</question>
+    <choice_A>เงินต้น  :  ดอกเบี้ย</choice_A>
+    <choice_B>ประมาท  :  รอบคอบ</choice_B>
+    <choice_C>ความพยายาม  :  ความสำเร็จ</choice_C>
+    <choice_D>เศรษฐกิจถดถอย  :  เศรษฐกิจตกต่ำ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+
+ความสัมพันธ์&lt;br /&gt;
+ความหมายตรงกันข้าม&lt;br /&gt;
+เศรษฐกิจถดถอย (Recession)  และ  เศรษฐกิจตกต่ำ (Depression) มีความหมายไปในทิศทางเดียวกัน คือ เป็นเศรษฐกิจขาลง ด้วยกันทั้งคู่  &lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 4&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0498:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ มาลาเรีย  :  ยุง  ::  ?  :  ?
+	</question>
+    <choice_A>มะเร็ง  :  บุหรี่ </choice_A>
+    <choice_B>แมลงวัน  :  อหิวาตกโรค</choice_B>
+    <choice_C>สุนัขบ้า  :  โรคกลัวน้ำ </choice_C>
+    <choice_D>โควิด-19 : สารคัดหลั่ง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 4&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+สิ่งที่ทำให้โรคแพร่ระบาด&lt;br /&gt;&lt;br /&gt;
+
+ยุง(นำพาเชื้อมาลาเรีย)ทำให้โรคไข้มาลาเรีย แพร่ระบาด&lt;br /&gt;
+สารคัดหลั่ง(นำพาเชื้อไวรัส) ทำให้ โรคโควิด ระบาด&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0499:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ ลิขสิทธิ์  :  การลอกเลียน  ::  ?  :  ?
+	</question>
+    <choice_A>หลักฐาน  :  นักสืบ</choice_A>
+    <choice_B>พยาน  :  โจทก์</choice_B>
+    <choice_C>การตรวจสอบ  :  การปลอมแปลง</choice_C>
+    <choice_D>กฎหมาย : ตำรวจ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ความสัมพันธ์ในเชิงบทบาท หน้าที่&lt;br /&gt;&lt;br /&gt;
+กฎหมายลิขสิทธิ์ มีไว้เพื่อป้องกัน การลอกเลียนแบบ&lt;br /&gt;
+การตรวจสอบ สามารถป้องกัน การปลอมแปลงได้&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0500:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ขาดประสบการณ์  :  ความผิดพลาด  ::  ?  :  ?
+	</question>
+    <choice_A>พลาดพลั้ง  :  ทักษะ</choice_A>
+    <choice_B>ชัยชนะ  :  ความสำเร็จ</choice_B>
+    <choice_C>ความสะเพร่า  :  ความสูญเสีย</choice_C>
+    <choice_D>การประหยัด  :  การฝึกฝน</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+อะไร ทำให้เกิด อะไร/ ความเป็นเหตุเป็นผลแก่กัน&lt;br /&gt;&lt;br /&gt;
+การขาดประสบการณ์  ทำให้เกิด  ความผิดพลาดได้&lt;br /&gt;
+เช่นเดียวกับ &lt;br /&gt;
+ความสะเพร่า  ทำให้เกิด  ความสูญเสียได้ เช่นกัน&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- 
+ถึงตรงนี้
+ข้อ 20 https://sites.google.com/site/79sanit79/home/khx-sxb-phx/khxsxb-xupma-xupmiy-2
+https://ติวสอบกพ.com/แนวข้อสอบกพ/ความรู้ความสามารถทั่วไป/อุปมาอุปไมย#   หมดแล้ว
+ต้องหา เว็บอื่นอีก
+https://www.งานราชการไทย.com/category/1434/แจกแนวข้อสอบ/ข้อสอบอุปมา-อุปไมย
+https://www.แนวข้อสอบราชการ.net/article/2/ข้อสอบการเติมคำและอุปมา-อุปไมย
+
+-->
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0501:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+แห : ปลา :: ?  :  ?
+	</question>
+    <choice_A>เพนียด : ช้าง</choice_A>
+    <choice_B>สวิง : กุ้ง</choice_B>
+    <choice_C>โพงพาง : นก</choice_C>
+    <choice_D>กรง : กระต่าย</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เป็นเครื่องมือสำหรับจับ&lt;br /&gt;
+สวิง กับ แห มีลักษณะใกล้กันมากกว่า เพนียด กับ แห&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0502:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+มั่นคง : ถาวร :: ?  :  ?
+	</question>
+    <choice_A>เข้มแข็ง : อดทน</choice_A>
+    <choice_B>รุกราน : คุกคาม</choice_B>
+    <choice_C>แทรกแซง : ขัดข้อง</choice_C>
+    <choice_D>เคลื่อนย้าย : ขัดข้อง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+ความหมายเหมือนกัน&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0503:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ขลุ่ย : แคน :: ?  :  ?
+	</question>
+    <choice_A>ขิม : จะเข้</choice_A>
+    <choice_B>ปี่ : กลอง</choice_B>
+    <choice_C>ระนาด : โปงลาง</choice_C>
+    <choice_D>อังกะลุง : ฆ้องวง</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เป็นเครื่องดนตรีชนิดเดียวกัน&lt;br /&gt;&lt;br /&gt;
+ขลุ่ย : แคน - เครื่องเป่า&lt;br /&gt;
+ระนาด : โปงลาง - เครื่องตี &lt;br /&gt;
+ขิม : จะเข้ - เครื่องตี เครื่องดีด&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0504:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ละมุด :  มะระ :: ?  :  ?
+	</question>
+    <choice_A>ลิ้นจี่ : ส้ม</choice_A>
+    <choice_B>ขนุน : บอระเพ็ด</choice_B>
+    <choice_C>มะยม : มังคุด</choice_C>
+    <choice_D>มะดัน : มะขวิด</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+รสเหมือนกัน คือ หวาน - ขม&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0505:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+แม่น้ำ :  สะพาน :: ?  :  ?
+	</question>
+    <choice_A>ภูเขา : ทุ่งนา</choice_A>
+    <choice_B>เกาะ : ท้องฟ้า</choice_B>
+    <choice_C>ป่าดงดิบ : สนามเด็กเล่น</choice_C>
+    <choice_D>ต้นประดู่ : ทะเล</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เป็นสิ่งเกิดเองตามธรรมชาติ และเป็นสิ่งที่มนุษย์สร้างขึ้น&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0506:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+ หมอ : เชื้อโรค :: ?  :  ?
+	</question>
+    <choice_A>นักจิตวิทยา : คนไข้</choice_A>
+    <choice_B>ครู : โรงเรียน</choice_B>
+    <choice_C>ทนายความ : กฎหมาย</choice_C>
+    <choice_D>ตำรวจ : มิจฉาชีพ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 4&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+หมอ กำจัด เชื้อโรค  ตำรวจ กำจัด มิจฉาชีพ&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX -->
+  <thisQuestion>
+    <qNum>id0507:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+โรงแรม : นักท่องเที่ยว :: ?  :  ?
+	</question>
+    <choice_A>พระ : วัด</choice_A>
+    <choice_B>โรงเรียน : ครู</choice_B>
+    <choice_C>ค่ายพักแรม : ลูกเสือ</choice_C>
+    <choice_D>สระว่ายน้ำ : นักว่ายน้ำ</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง: &lt;/strong&gt;ให้ท่านเลือกคำตอบที่ถูกต้องที่สุด&lt;br /&gt;&lt;br /&gt;
+
+ตอบ ข้อ 3&lt;br /&gt;&lt;br /&gt;
+
+ความสัมพันธ์&lt;br /&gt;
+เป็นที่พักค้างคืนเหมือนกัน&lt;br /&gt;
+
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+</exams>
+
+

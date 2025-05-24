@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- 1 -->
+  <thisQuestion>
+    <qNum>id02217:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+We have moved here ........... she was six years old.&lt;br /&gt;
+
+	</question>
+    <choice_A>since </choice_A>
+    <choice_B>for </choice_B>
+    <choice_C>when </choice_C>
+    <choice_D>while </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+We have moved here ........... she was six years old.&lt;br /&gt;
+พวกเราย้ายมาอยู่ที่นี่ ............ เธออายุได้ 6 ขวบ&lt;br /&gt;&lt;br /&gt;
+
+1. since ✔&lt;br /&gt;
+2. for&lt;br /&gt;
+3. when&lt;br /&gt;
+4. while&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+since, for ใช้ใน Perfect Tense&lt;br /&gt;
+when มักจะใช้ใน Past Tense&lt;br /&gt;
+while มักจะใช้กับ Contiuous Tense&lt;br /&gt;&lt;br /&gt;
+
+since = ตั้งแต่ ใช้กับ จุดของเวลา เช่น ตั้งแต่เธอจากฉันไป ตั้งแต่ปี 2560 เป็นต้น&lt;br /&gt;
+for = เป็นระยะเวลา เช่น เป็นเวลา 5 ปี&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ ต้องใช้ since เพราะ เป็น Present Perfect และ อายุได้ 6 ขวบ เป็นจุดของเวลา&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 1&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 2 -->
+  <thisQuestion>
+    <qNum>id02218:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+He opened the door ............... he saw me.&lt;br /&gt;
+
+	</question>
+    <choice_A>since </choice_A>
+    <choice_B>for </choice_B>
+    <choice_C>which </choice_C>
+    <choice_D>when </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+He opened the door ............... he saw me.&lt;br /&gt;
+เขาได้เปิดประตู ........... เขาเห็นฉันbr &lt;br /&gt;&lt;br /&gt;
+
+1. since&lt;br /&gt;
+2. for&lt;br /&gt;
+3. which&lt;br /&gt;
+4. when ✔&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+since และ for ใช้ใน Perfect Tense&lt;br /&gt;
+which ใช้ตรงนี้ไม่ได้ ไม่มีความหมาย&lt;br /&gt;
+when ข้อนี้ ใช้เป็นตัวเชื่อมที่ทำหน้าที่ขยายกริยา คือ เปิดประตูเมื่อไรนั่นเอง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 3 -->
+  <thisQuestion>
+    <qNum>id02219:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+I ............... here since childhood and I know everyone in this village.&lt;br /&gt;
+
+	</question>
+    <choice_A>live </choice_A>
+    <choice_B>lived </choice_B>
+    <choice_C>have lived </choice_C>
+    <choice_D>am living </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+I ............... here since childhood and I know everyone in this village.&lt;br /&gt;
+ฉัน ...(อยู่)..... ที่นี่ตั้งแต่วัยเด็ก และฉันรู้จักทุกคนในหมู่บ้านนี้lt;br /&gt; &lt;br /&gt;
+
+1. live&lt;br /&gt;
+2. lived&lt;br /&gt;
+3. have lived ✔&lt;br /&gt;
+4. am living&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+คำว่า since แสดงว่า เป็น Perfect Tense ซึ่งมีรูปแบบคือ&lt;br /&gt;
+ประธาน + have/has + กริยาช่องที่ 3&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 4 -->
+  <thisQuestion>
+    <qNum>id02220:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Don't forget that the train .............. at seven o'clock.&lt;br /&gt;
+	</question>
+    <choice_A>leaves </choice_A>
+    <choice_B>is leaving </choice_B>
+    <choice_C>has left </choice_C>
+    <choice_D>has been leaving </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Don't forget that the train .............. at seven o'clock.&lt;br /&gt;
+อย่าลืมว่า รถไฟ ....(ออก).... เวลา 7 นาฬิกา&lt;br /&gt; &lt;br /&gt;
+
+1. leaves ✔&lt;br /&gt;
+2. is leaving&lt;br /&gt;
+3. has left&lt;br /&gt;
+4. has been leaving&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+พูดถึง ตาราง กำหนดการที่กำหนดไว้แล้ว เช่น ตารางรถไฟ ต้องใช้ Present Simple Tense&lt;br /&gt;&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+ประธาน + กริยาช่องที่ 1 (ประธานเอกพจน์บุรุษที่ 3 กริยาเติม -s)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 5 -->
+  <thisQuestion>
+    <qNum>id02221:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+A: I haven't seen Tom since Tuesday.&lt;br /&gt;
+B: He's at home. He ............. his arm.&lt;br /&gt;
+	</question>
+    <choice_A>recently breaks </choice_A>
+    <choice_B>is recently breaking </choice_B>
+    <choice_C>has recently broken </choice_C>
+    <choice_D>recently broke </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+A: I haven't seen Tom since Tuesday.&lt;br /&gt;
+A: ฉันไม่เห็นทอมมาตั้งแต่วันอังคาร&lt;br /&gt;&lt;br /&gt;
+B: He's at home. He ............. his arm.&lt;br /&gt;
+B: เขาอยู่บ้าน เขา .......(แขนหักเมื่อเร็ว ๆ นี้).........&lt;br /&gt; &lt;br /&gt;
+
+1. recently breaks &lt;br /&gt;
+2. is recently breaking&lt;br /&gt;
+3. has recently broken ✔&lt;br /&gt;
+4. recently broke&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+มีคำว่า recently แสดงว่า น่าจะอยู่ใน Present Perfect Tense&lt;br /&gt;&lt;br /&gt;
+ผลของกิจกรรมที่ได้ทำแล้วในอดีต มีความสำคัญกับปัจจุบัน ขณะที่พูด (ทำเมื่อไร ไม่สำคัญ) ต้องใช้ Present Perfect Tense&lt;br /&gt;&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+ประธาน + have/has + กริยาช่องที่ 3&lt;br /&gt;&lt;br /&gt;
+
+ในข้อนี้ ทอมทำแขนหัก ซึ่งมีผลถึงขณะที่คุยกัน เพราะเขาไม่มาให้เห็น ซึ่งเป็นผลมาจากการแขนหัก&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 6 -->
+  <thisQuestion>
+    <qNum>id02222:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Suda .................. the school yet. She wants to finish her lesson plan.&lt;br /&gt;
+
+	</question>
+    <choice_A>is not leaving </choice_A>
+    <choice_B>doesn't leave </choice_B>
+    <choice_C>hasn't left </choice_C>
+    <choice_D>didn't leave </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Suda .................. the school yet. She wants to finish her lesson plan.&lt;br /&gt;
+สุดา ...(ออจาก).... โรงเรียน. เขาต้องการทำแผนการสอนให้เสร็จ&lt;br /&gt; &lt;br /&gt;
+
+1. is not leaving&lt;br /&gt;
+2. doesn't leave&lt;br /&gt;
+3. hasn't left ✔&lt;br /&gt;
+4. didn't leave&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+มีคำว่า yet แสดงว่าเป็น Perfect Tense&lt;br /&gt;
+เหตุการเกิดขึ้นแล้ว และยังสืบเนื่องถึงปัจจุบัน ใช้ Present Perfect Tense&lt;br /&gt;&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+ประธาน + have/has + กริยาช่องที่ 3&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 7 -->
+  <thisQuestion>
+    <qNum>id02223:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+The next train to Korat .............. at eight this evening.&lt;br /&gt;
+
+	</question>
+    <choice_A>is leaving </choice_A>
+    <choice_B>leaves </choice_B>
+    <choice_C>will be leaving </choice_C>
+    <choice_D>has been left </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+The next train to Korat .............. at eight this evening.&lt;br /&gt;
+รถไฟไปโคราช ...(ออก)... เวลา 2 ทุ่ม&lt;br /&gt; &lt;br /&gt;
+
+1. is leaving&lt;br /&gt;
+2. leaves ✔&lt;br /&gt;
+3. will be leaving&lt;br /&gt;
+4. has been left&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+พูดถึง ตาราง กำหนดการที่กำหนดไว้แล้ว เช่น ตารางรถไฟ ต้องใช้ Present Simple Tense&lt;br /&gt;&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+ประธาน + กริยาช่องที่ 1 (ประธานเอกพจน์บุรุษที่ 3 กริยาเติม -s)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 8 -->
+  <thisQuestion>
+    <qNum>id02224:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Jandee ................. her grand mother last month.&lt;br /&gt;
+
+	</question>
+    <choice_A>visits </choice_A>
+    <choice_B>visited </choice_B>
+    <choice_C>has visited </choice_C>
+    <choice_D>is visiting </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Jandee ................. her grand mother last month.&lt;br /&gt;
+จันดี ....(เยี่ยม)... ย่า/ยาย เมื่อเดือนที่แล้ว&lt;br /&gt; &lt;br /&gt;
+
+1. visits&lt;br /&gt;
+2. visited ✔&lt;br /&gt;
+3. has visited&lt;br /&gt;
+4. is visiting&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+มีคำว่า last month แสดงว่าเป็น Past Tense&lt;br /&gt;
+พูดถึงเรื่องที่ผ่านมาแล้ว ใช้เป็น Past Simple&lt;br /&gt;&lt;br /&gt;
+รูปแบบคือ&lt;br /&gt;
+ประธาน + กริยาช่องที่ 2&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 เป็น Present Simple&lt;br /&gt;
+ข้อ 2 เป็น Past Simple&lt;br /&gt;
+ข้อ 3 เป็น Present Perfecr&lt;br /&gt;
+ข้อ 4 เป็น Present Continuous&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 9 -->
+  <thisQuestion>
+    <qNum>id02225:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Tom and Mary ............. married for twenty years.&lt;br /&gt;
+
+	</question>
+    <choice_A>are </choice_A>
+    <choice_B>were </choice_B>
+    <choice_C>has been </choice_C>
+    <choice_D>have been </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Tom and Mary ............. married for twenty years.&lt;br /&gt;
+ทอมและแมรี่ ....(แต่งงาน).... เป็นเวลา 20 ปี&lt;br /&gt; &lt;br /&gt;
+
+1. are&lt;br /&gt;
+2. were&lt;br /&gt;
+3. has been&lt;br /&gt;
+4. have been ✔&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+มีคำว่า for + ระยะเวลา แสดงว่าอยู่ใน Perfect Tense&lt;br /&gt;&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+ประธาน + have/has + กริยาช่อง 3&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 เป็น Present Simple&lt;br /&gt;&lt;br /&gt;
+ข้อ 2 เป็น Past Simple&lt;br /&gt;&lt;br /&gt;
+ข้อ 3 เป็น Present Perfect แต่ผิด เพราะ Tom and Mary เป็นพหูพจน์ ต้องใช้ have&lt;br /&gt;&lt;br /&gt;
+ข้อ 4 เป็น Present Perfect ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4&lt;br /&gt;
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 10 -->
+  <thisQuestion>
+    <qNum>id02226:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+The workers were loading the truck when the phone _____.&lt;br /&gt;
+
+	</question>
+    <choice_A>rings </choice_A>
+    <choice_B>rang </choice_B>
+    <choice_C>is ringing </choice_C>
+    <choice_D>has rung </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+The workers were loading the truck when the phone _____.&lt;br /&gt;
+คนงานกำลังขนของขึ้นรถบรรทุก (loading the truck) เมื่อตอนที่โทรศัพท์ ....(ดังขึ้น).....&lt;br /&gt; &lt;br /&gt;
+
+1. rings&lt;br /&gt;
+2. rang ✔&lt;br /&gt;
+3. is ringing&lt;br /&gt;
+4. has rung&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+ใช้ Past Continuous คู่กับ Past Simple  &lt;br /&gt;
+	-ใช้ Past Continuous กับกิจกรรมที่กำลังทำอยู่ซึ่งมักจะต้องใช้เวลานานกว่า &lt;br /&gt;
+	-ใช้ Past Simple กับกิจกรรมที่เกิดขึ้นแป๊บเดียว&lt;br /&gt;&lt;br /&gt;
+
+รูปแบบ&lt;br /&gt;
+Past Continuous&lt;br /&gt;
+ประธาน + be + กริยาเติม -ing&lt;br /&gt;&lt;br /&gt;
+
+Past Simple&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+ประธาน + กริยาช่องที่ 2&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 11 -->
+  <thisQuestion>
+    <qNum>id02227:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Normally, she ......... a nice girl. But now, she ......... rude.&lt;br /&gt;
+
+	</question>
+    <choice_A>is, has been </choice_A>
+    <choice_B>has been, is being </choice_B>
+    <choice_C>is, is being </choice_C>
+    <choice_D>was, is </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Normally, she ......... a nice girl. But now, she ......... rude.&lt;br /&gt;
+โดยปกติ เธอ ...(เป็น)... คนเรียบร้อย. แต่ตอนนี้ เธอ ...(เป็น)... คนไม่สุภาพ&lt;br /&gt; &lt;br /&gt;
+
+1. is, has been&lt;br /&gt;
+2. has been, is being &lt;br /&gt;
+3. is, is being ✔&lt;br /&gt;
+4. was, is&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+Normally, she is a nice girl.&lt;br /&gt;
+เป็นการพูดถึงลักษณะนิสัยของคน ใช้เป็น Present Simple&lt;br /&gt;&lt;br /&gt;
+
+But now, she is being rude.&lt;br /&gt;
+พูดถึงสภาพขณะนั้น สังเกตมีคำว่า now ต้องใช้ Present Continuous รูปแบบคือ&lt;br /&gt;
+ประธาน + กริยาเติม -ing&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 12 -->
+  <thisQuestion>
+    <qNum>id02228:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Suda ............... to Chiangmai last year but she ............ to Doi Sutep.&lt;br /&gt;
+
+	</question>
+    <choice_A>goes, has never been </choice_A>
+    <choice_B>went, never goes </choice_B>
+    <choice_C>has been, doesn't go</choice_C>
+    <choice_D>went, has never been </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Suda ............... to Chiangmai last year but she ............ to Doi Sutep.&lt;br /&gt;
+สุดา ....(ไป).... เชียงใหม่เมื่อปีที่แล้ว แต่เธอ ....(ไม่เคยไป).... ดอยสุเทพ&lt;br /&gt; &lt;br /&gt;
+
+1. goes, has never been&lt;br /&gt;
+2. went, never goes&lt;br /&gt;
+3. has been, doesn't go&lt;br /&gt;
+4. went, has never been ✔ &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+Suda went to Chiangmai last year &lt;br /&gt;
+มีคำว่า last year แสดงว่า เป็น Past Simple &lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+ประธาน + กริยาช่องที่ 2&lt;br /&gt;&lt;br /&gt;
+
+she has never been to Doi Sutep.&lt;br /&gt;
+พูดถึงเหตุการณ์ในอดีต ต่อเนื่องถึงปัจจุบัน ใช้ Present Perfect&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+ประธาน + have/has + กริยาช่องที่ 3&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 13 -->
+  <thisQuestion>
+    <qNum>id02229:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+The new teacher, who ................ yesterday, will start teaching tomorrow.&lt;br /&gt;
+
+	</question>
+    <choice_A>arrive </choice_A>
+    <choice_B>arrives </choice_B>
+    <choice_C>arrived </choice_C>
+    <choice_D>has just arrived </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+The new teacher, who ................ yesterday, will start teaching next week.&lt;br /&gt;
+ครูคนใหม่ ซึ่ง ...(เดินทางมาถึง)... เมื่อวานนี้, จะเริ่มสอนอาทิตย์หน้า&lt;br /&gt; &lt;br /&gt;
+
+1. arrive&lt;br /&gt;
+2. arrives&lt;br /&gt;
+3. arrived ✔&lt;br /&gt;
+4. has just arrived&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+มีคำว่า yesterday แสดงว่าเป็นเหตุการณ์ที่เกิดขึ้นแล้ว จึงใช้ Past Simple &lt;br /&gt;&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+ประธาน + กริยาช่องที่ 2&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 14 -->
+  <thisQuestion>
+    <qNum>id02230:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+The next bus ................ at 6 p.m. but, I still .............. a ticket.&lt;br /&gt;
+
+	</question>
+    <choice_A>is leaving, didn't buy</choice_A>
+    <choice_B>will leave, don't buy </choice_B>
+    <choice_C>has left, didn't buy </choice_C>
+    <choice_D>leaves, haven't bought </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+The next bus ................ at 6 p.m., but I still .............. a ticket.&lt;br /&gt;
+รถบัสคันต่อไป ...(ออก)... เวลา 6 โมงเย็น. แต่ฉันยัง ..(ไม่ได้ซื้อ)... ตั๋วเลย&lt;br /&gt; &lt;br /&gt;
+
+1. is leaving, didn't buy&lt;br /&gt;
+2. will leave, don't buy&lt;br /&gt;
+3. has left, didn't buy&lt;br /&gt;
+4. leaves, haven't bought ✔&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+The next bus leaves at 6 p.m.&lt;br /&gt;
+พูดเกี่ยวกับตารางเวลา ใช้ Present Simple Tense&lt;br /&gt;&lt;br /&gt;
+
+I still haven't bought a ticket (yet).&lt;br /&gt;
+มีคำว่า still แสดงว่าเป็น Perfect&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 15 -->
+  <thisQuestion>
+    <qNum>id02231:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Jongkon .................. in the kitchen while Sutep ................. the cows.&lt;br /&gt;
+
+	</question>
+    <choice_A>was cooking, fed </choice_A>
+    <choice_B>was cooking, was feeding </choice_B>
+    <choice_C>had cooked, fed </choice_C>
+    <choice_D>had cooked, had been feeding </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Jongkon .................. in the kitchen while Sutep ................. the cows.&lt;br /&gt;
+จงกล ....(ทำอาหาร)... ในครัว ขณะที่ สุเทพ ....(ให้อาหาร).... วัว&lt;br /&gt; &lt;br /&gt;
+
+1. was cooking, fed&lt;br /&gt;
+2. was cooking, was feeding ✔&lt;br /&gt;
+3. had cooked, fed&lt;br /&gt;
+4. had cooked, had been feeding&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+มีคำว่า while แสดงว่า กิจกรรมทั้งสอง เกิดขึ้นพร้อม ๆ กัน ใช้เป็น Continuous Tense&lt;br /&gt;&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+ประธาน + be + กริยาเติม -ing&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 16 -->
+  <thisQuestion>
+    <qNum>id02232:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+While Sukit was working in the garden, the alarm clock .................&lt;br /&gt;
+
+	</question>
+    <choice_A>goes off </choice_A>
+    <choice_B>went off </choice_B>
+    <choice_C>was going off </choice_C>
+    <choice_D>had gone off</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+While Sukit was working in the garden, the alarm clock .................&lt;br /&gt;
+ขณะที่สุกิจ กำลังทำงานอยู่ในสวน นาฬิกาปลุกก็ ....(ดังขึ้น)....&lt;br /&gt; &lt;br /&gt;
+
+1. goes off &lt;br /&gt;
+2. went off ✔&lt;br /&gt;
+3. was going off &lt;br /&gt;
+4. had gone off&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+ใช้ Past Continuous คู่กับ Past Simple&lt;br /&gt;
+	-ใช้ Past Continuous กับกิจกรรมที่กำลังทำอยู่ซึ่งมักจะต้องใช้เวลานานกว่า&lt;br /&gt;
+	-ใช้ Past Simple กับกิจกรรมที่เกิดขึ้นแป๊บเดียว&lt;br /&gt;&lt;br /&gt;
+คำตอบที่ถูก คือ ข้อ 2&lt;br /&gt;&lt;br /&gt;
+
+คำศัพท์ &lt;br /&gt;&lt;br /&gt;
+go off มีหลายความหมาย ความหมายหนึ่งคือ ระเบิด หรือ ส่งเสียงดัง เช่น &lt;br /&gt;&lt;br /&gt;
+My alarm clock went off at seven o'clock.&lt;br /&gt;
+นาฬิกาปลุก ส่งเสียงปลุก เวลา 7 โมง&lt;br /&gt;&lt;br /&gt;
+The bomb went off in the market.&lt;br /&gt;
+ระเบิด ระเบิดขึ้นในตลาด&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 17 -->
+  <thisQuestion>
+    <qNum>id02233:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Witthaya ............... the homework before his mother ..............&lt;br /&gt;
+
+	</question>
+    <choice_A>was finishing, arrived </choice_A>
+    <choice_B>finished, had arrived </choice_B>
+    <choice_C>had finished, arrived </choice_C>
+    <choice_D>finished, was arriving </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Witthaya ............... the homework before his mother ..............&lt;br /&gt;
+วิทยา ....(เสร็จ) ..... การบ้าน ก่อนที่ แม่ของเขาจะ ....(มาถึง).....&lt;br /&gt; &lt;br /&gt;
+
+1. was finishing, arrived &lt;br /&gt;
+2. finished, had arrived&lt;br /&gt;
+3. had finished, arrived ✔&lt;br /&gt;
+4. finished, was arriving&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+ใช้ Past Perfect คู่กับ Past Simple Tense&lt;br /&gt;
+	-เหตุการณ์เกิดก่อน ใช้ Past Perfect Tense&lt;br /&gt;
+	-เหตุการณ์เกิดหลัง ใช้ Past Simple Tense&lt;br /&gt;&lt;br /&gt;
+
+Witthaya had finished the homework &lt;br /&gt;
+เกิดขึ้นก่อน&lt;br /&gt;&lt;br /&gt;
+
+his mother arrived&lt;br /&gt;
+เกิดทีหลัง&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 18 -->
+  <thisQuestion>
+    <qNum>id02234:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Miss Wilai _____ if she had not known about this party.&lt;br /&gt;
+	</question>
+    <choice_A>would have come </choice_A>
+    <choice_B>would come </choice_B>
+    <choice_C>will be coming </choice_C>
+    <choice_D>will come </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Khun Wilai _____ if she had not known about this party.&lt;br /&gt;
+คุณวิไล ........ ถ้าเธอรู้เกี่ยวกับงานปาร์ตี้นี้ล่วงหน้า&lt;br /&gt; &lt;br /&gt;
+
+1. would have come✔&lt;br /&gt;
+2. would come&lt;br /&gt;
+3. will be coming&lt;br /&gt;
+4. will come&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+ &lt;b&gt;สรุปรูปแบบประโยคเงื่อนไข IF&lt;/b&gt;&lt;br&gt;
+
+Main clause เป็น Past perfect ดังนั้น If clause ต้องเป็น would have + ช่อง 3&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1&lt;br /&gt;&lt;br /&gt;
+
+ดูเพิ่มเติมได้ที่ https://www.thongjoon.com/2018/10/if-clause.html&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 19 -->
+  <thisQuestion>
+    <qNum>id02235:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+&lt;br /&gt;
+The director always gets his assistant .................. the meeting when he is out.&lt;br /&gt;
+	</question>
+    <choice_A>preside over </choice_A>
+    <choice_B>presided over </choice_B>
+    <choice_C>to preside over </choice_C>
+    <choice_D>presiding over </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+The director always gets his assistant ............. the meeting when he is on an official trip.&lt;br /&gt;
+ผู้อำนวยการ มักจะให้ผู้ช่วย ....(เป็นประธาน)..... ที่ประชุม เมื่อเขาไปราชการ&lt;br /&gt; &lt;br /&gt;
+
+1. preside over&lt;br /&gt;
+2. presided over&lt;br /&gt;
+3. to preside over ✔&lt;br /&gt;
+4. presiding over &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+ให้ใครทำอะไร&lt;br /&gt;
+get someone to do something&lt;br /&gt;
+get his assistant to preside over the meeting &lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 20 -->
+  <thisQuestion>
+    <qNum>id02236:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Vitoon ............... home, before his wife ................... cooking.&lt;br /&gt;
+
+	</question>
+    <choice_A> was coming, was finishing </choice_A>
+    <choice_B>came, had finished </choice_B>
+    <choice_C>had come, finished </choice_C>
+    <choice_D>came, finished </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Vitoon ............... home, before his wife ................ cooking&lt;br /&gt;
+วิฑูร ...(มาถึง)... บ้าน ก่อนที่ภรรยาจะ ...(ทำอาหารเสร็จ)&lt;br /&gt; &lt;br /&gt;
+
+1. was coming, was finishing &lt;br /&gt;
+2. came, had finished &lt;br /&gt;
+3. had come, finished ✔&lt;br /&gt;
+4. came, finished&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+กิจกรรมที่เกิดก่อนในอดีต เป็น Past perfect&lt;br /&gt;
+กิจกรรมที่เกิดหลัง เป็น Past simple&lt;br /&gt;&lt;br /&gt;
+Vitoon &lt;strong&gt;had come&lt;/strong&gt; home, before his wife &lt;strong&gt;finished&lt;/strong&gt; cooking.&lt;br /&gt;&lt;br /&gt;
+คำตอบที่ถูก คือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 21 -->
+  <thisQuestion>
+    <qNum>id02237:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+If the food is unsatisfactory, we ................. it without question.&lt;br /&gt;
+	</question>
+    <choice_A>will replace </choice_A>
+    <choice_B>replaced </choice_B>
+    <choice_C>would replace </choice_C>
+    <choice_D>had replaced </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+If the food is unsatisfactory, we ............... it without question.&lt;br /&gt;
+ถ้าอาหารไม่เป็นที่พอใจ (unsatisfactory), เรา ...(เปลี่ยน)........ โดยไม่ปราศจากคำถาม&lt;br /&gt; &lt;br /&gt;
+✔
+1. will replace&lt;br /&gt;
+2. replaced&lt;br /&gt;
+3. would replace&lt;br /&gt;
+4. had replaced &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+เป็นประโยคเงื่อนไข (If cluase) ที่เป็นไปได้ &lt;br /&gt;&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+Present simple + Future simple&lt;br /&gt;
+is unsatifactory + will replace&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 1&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 22 -->
+  <thisQuestion>
+    <qNum>id02238:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+If it rains tomorrow, we ............... the trip to the beach.&lt;br /&gt;
+
+	</question>
+    <choice_A>are canceling </choice_A>
+    <choice_B>have canceled </choice_B>
+    <choice_C>will cancel </choice_C>
+    <choice_D>canceled </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+If it rains tomorrow, we ........... the trip to the beach.&lt;br /&gt;
+ถ้าฝนตกพรุ่งนี้ เรา ............. การไปเที่ยวทะเล&lt;br /&gt; &lt;br /&gt;
+✔
+1. are canceling&lt;br /&gt;
+2. have canceled&lt;br /&gt;
+3. will cancel &lt;br /&gt;
+4. canceled&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+เป็นประโยคเงื่อนไข (If cluase) ที่เป็นไปได้ &lt;br /&gt;&lt;br /&gt;
+รูปแบบ&lt;br /&gt;
+Present simple + Future simple&lt;br /&gt;
+it rains + will cancel&lt;br /&gt;&lt;br /&gt;
+
+
+คำตอบที่ถูก คือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 23 -->
+  <thisQuestion>
+    <qNum>id02239:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+ If we ............. until midnight, we would have finished the report. &lt;br /&gt;
+
+	</question>
+    <choice_A>work </choice_A>
+    <choice_B>worked </choice_B>
+    <choice_C>were working</choice_C>
+    <choice_D>had worked </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+ If we ............. until midnight, we would have finished the report. &lt;br /&gt;
+ถ้าเรา ...(ทำงาน)......... จนถึงเที่ยงคืน, เราน่าจะทำรายงานเสร็จไปแล้ว. &lt;br /&gt; &lt;br /&gt;
+
+1. work&lt;br /&gt;
+2. worked&lt;br /&gt;
+3. were working&lt;br /&gt;
+4. had worked✔ &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+สังเกตง่าย ๆ &lt;br /&gt;
+มีคำว่า would have + ช่อง 3 แสดงว่า If clause ต้องเป็น Past perfect&lt;br /&gt;&lt;br /&gt;
+
+พูดถึงเรื่องอดีตที่ผ่านมาแล้ว เป็นไปไม่ได้ที่จะย้อนอดีตให้มันเกิดใหม่ &lt;br /&gt;
+ลักษณะนี้ รูปแบบประโยคคือ&lt;br /&gt;&lt;br /&gt;
+Past perfect + would have ช่อง 3&lt;br /&gt;
+had worked + would have finished&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 24 -->
+  <thisQuestion>
+    <qNum>id02240:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+They ........... hire you if you had a valid driver’s license. It's a pity that you don't have any.&lt;br /&gt;
+
+	</question>
+    <choice_A>will </choice_A>
+    <choice_B>would </choice_B>
+    <choice_C>will have </choice_C>
+    <choice_D>would have </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+They ........... hire you if you had a valid driver’s license. It's a pity that you don't have any.&lt;br /&gt;
+พวกนั้น ......(จ้าง).... คุณ ถ้าคุณมีใบขับขี่ที่ถูกต้อง. มันน่าเสียดาย ที่คุณไม่มีสักใบ&lt;br /&gt; &lt;br /&gt;
+
+1. will&lt;br /&gt;
+2. would ✔&lt;br /&gt;
+3. will have&lt;br /&gt;
+4. would have&lt;br /&gt; &lt;br /&gt;
+
+ตอบที่ถูก คือ ข้อ 2&lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+ถ้าดูรูปแบบประโยค ส่วนหนึ่ง (If clause) เป็น Past simple อีกส่วน (Main clause) จะเป็น would + ช่อง 1&lt;br /&gt;
+
+เป็นเรื่องสมมุติว่า ถ้ามีใบขับขี่ละก็ เขาจะจ้างแน่นอน แต่จริง ๆ คือ ไม่มี เป็น If clause ชนิด Type 2&lt;br /&gt;&lt;br /&gt;
+รูปแบบ Type 2&lt;br /&gt;
+Past simeple + would ช่อง 1&lt;br /&gt;
+had valid license + would hire&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ ต้องระวังหน่อย เพราะเห็นว่า มีคำว่า had จะนึกว่าเป็น Past perfect ไม่ได้ เพราะ had ตัวนี้ เป็นกริยาหลักของประโยค เป็นช่อง 2 อยู่ใน Past simple tense&lt;br /&gt;&lt;br /&gt;
+
+ถ้าจะเป็น Past perfect ต้องมี กริยาช่อง 3 ด้วย เช่น &lt;br /&gt;
+They ........... you if you &lt;strong&gt;had owned&lt;/strong&gt; a valid driver’s license.&lt;br /&gt;&lt;br /&gt;
+ถ้าอย่างนี้ แสดงว่า เป็นเหตุการณ์ที่ผ่านมาแล้ว คืออาจจะไปสัมภาษณ์ และเขาถามหาใบขับขี่ ซึ่งไม่มีให้เขาดู เป็นต้น&lt;br /&gt;
+เป็นเหตุการณ์ในอดีต จะย้อนอดีตไม่ได้ &lt;br /&gt;&lt;br /&gt;
+รูปแบบ เป็น Type 3&lt;br /&gt;
+Past perfet + would have ช่อง 3&lt;br /&gt;
+They would have hired you if you had owned a valid driver’s license.&lt;br /&gt;&lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 25 -->
+  <thisQuestion>
+    <qNum>id02241:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+While I ............. , I saw a terrible road accident.&lt;br /&gt;  
+
+	</question>
+    <choice_A>walk </choice_A>
+    <choice_B>am walking </choice_B>
+    <choice_C>was walking </choice_C>
+    <choice_D>had walked </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+While I ............. , I saw a terrible road accident.&lt;br /&gt;  
+ในขณะที่ฉัน ..............., ฉันเห็นอุบัติเหตุทางถนนที่ร้ายแรงมาก&lt;br /&gt; &lt;br /&gt;
+
+1. walk&lt;br /&gt;
+2. am walking&lt;br /&gt;
+3. was walking ✔&lt;br /&gt;
+4. had walked&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+ตามหลังคำว่า while จะเป็น Continuous ในข้อนี้ ใช้คู่กับอีกประโยค ที่เป็น Past simple tense ดังนั้น ส่วนที่ต้องการ ต้องเป็น Past continuous&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 เป็น Present simple จะใช้คู่กับ Past simple อย่างนี้ไม่ได้ เพราะ ขัดแย้งกัน คือ ได้เห็นแล้ว ดังนั้น การเดินก็ต้องเกิดขึ้นแล้ว จึงต้องเป็น Past&lt;br /&gt;&lt;br /&gt;
+ข้อ 2 เป็น Present continuous ใช้คู่กับ Past simple ไม่ได้ &lt;br /&gt;&lt;br /&gt;
+ข้อ 3 ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ข้อ 4 เป็น Past perfect มักจะอยู่หลังคำว่า After &lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3 &lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 26 -->
+  <thisQuestion>
+    <qNum>id02242:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+A: I was waiting for your call for hours last night.&lt;br /&gt;
+B: Sorry. I ........... TV. from 7 to 11 and I simply ........... to call you.&lt;br /&gt;
+
+	</question>
+    <choice_A>watched, forgot </choice_A>
+    <choice_B>watched, had forgot </choice_B>
+    <choice_C>was watching, forgot </choice_C>
+    <choice_D>had watched, had forgot </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+A: I was waiting for your call for hours last night.&lt;br /&gt;
+A:ฉันคอยโทรศัพท์ของคุณเป็นชั่วโมง เมื่อคืนนี้
+B: Sorry. I ........... TV. from 7 to 11 and I simply ........... to call you.&lt;br /&gt;
+B: ขอโทษ ฉัน ...(ดู).... ทีวี ตั้งแต่ 1 ทุ่ม ถึง 5 ทุ่ม ฉันเลย ...(ลืม).... โทรหาคุณ&lt;br /&gt; &lt;br /&gt;
+
+1. watched, forgot&lt;br /&gt;
+2. watched, had forgot&lt;br /&gt;
+3. was watching, forgot ✔&lt;br /&gt;
+4. had watched, had forgot&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+
+มีการระบุช่วงเวลาในอดีต ให้ใช้ Past continuous&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 3&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 27 -->
+  <thisQuestion>
+    <qNum>id02243:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Suda  ............ her television and ................ for a walk yesterday.&lt;br /&gt;
+
+	</question>
+    <choice_A>turns off, goes </choice_A>
+    <choice_B>had turned off, had gone </choice_B>
+    <choice_C>turned off, was going</choice_C>
+    <choice_D>turned off, went </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Suda  ............ her television and ................ for a walk yesterday.&lt;br /&gt;
+สุดา .....(ปิด)........ โทรทัศน์ของเธอ และ .......(ออกไป).......... เดินเล่น เมื่อวานนี้&lt;br /&gt; &lt;br /&gt;
+
+1. turns off, goes&lt;br /&gt;
+2. had turned off, had gone &lt;br /&gt;
+3. turned off, was going&lt;br /&gt;
+4. turned off, went ✔&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+ เป็นเหตุการณ์ในอดีต เกิดขึ้นต่อเนื่องกัน ใช้เป็น Past simple  จะสังเกตเห็นได้จากคำว่า and เป็นตัวเชื่อม&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 4&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 28 -->
+  <thisQuestion>
+    <qNum>id02244:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Her father ........... to Singapore when Suda ......... 10 years old.&lt;br /&gt;
+
+	</question>
+    <choice_A>has been, was </choice_A>
+    <choice_B>went, was </choice_B>
+    <choice_C>went, had been </choice_C>
+    <choice_D>had gone, was </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Her father ........... to Singapore when Suda ......... 10 years old.&lt;br /&gt;
+พ่อของเธอ .....(ไป)....... สิงคโปร์ ตอนที่ สุดา ....(มีอายุ)...... 10 ขวบ&lt;br /&gt; &lt;br /&gt;
+
+1. has been, was&lt;br /&gt;
+2. went, was✔ &lt;br /&gt;
+3. had gone, was&lt;br /&gt;
+4. had gone, was &lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+คำว่า when Suda was 10 years old เป็นการระบุเวลาว่าเป็นเวลาที่เกิดในอดีต เหมือนกับคำว่า yesterday, 10 years ago นั่นเอง&lt;br /&gt;&lt;br /&gt;
+
+ดังนั้น จึงต้องใช้ Past simple tense เมื่อพูดถึงสิ่งที่เกิดขึ้นแล้วในอดีต&lt;br /&gt;
+รูปแบบประโยค&lt;br /&gt;
+ประธาน + กริยาช่องที่ 2 &lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 29 -->
+  <thisQuestion>
+    <qNum>id02245:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+I ..................... here since 5 o'clock and I am getting tired.&lt;br /&gt;
+
+	</question>
+    <choice_A>have been </choice_A>
+    <choice_B>had been </choice_B>
+    <choice_C>was </choice_C>
+    <choice_D>am </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+I ..................... here since 5 o'clock and I am getting tired.&lt;br /&gt;
+ฉัน .....(มาอยู่)...... ที่นี่ ตั้งแต่ ตี 5 และ ฉันกำลังเบื่อ&lt;br /&gt; &lt;br /&gt;
+
+1. have been ✔&lt;br /&gt;
+2. had been&lt;br /&gt;
+3. was&lt;br /&gt;
+4. am&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+มีคำว่า since ตั้งแต่ ตี 5 แสดงว่า เป็น Perfect tense และพูดว่า กำลังเบื่อ แสดงว่า เป็นเหตุการณ์ในปัจจุบัน จึงเป็น Present perfect&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 1&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+  <!-- 30 -->
+  <thisQuestion>
+    <qNum>id02246:date1627453500</qNum>
+    <question>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+Pitoon .......... the book when he was 12 years old.&lt;br /&gt;
+
+	</question>
+    <choice_A>reads </choice_A>
+    <choice_B>read </choice_B>
+    <choice_C>will read </choice_C>
+    <choice_D>have read </choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>&lt;strong&gt;Instructions: &lt;/strong&gt;Choose the best answer.&lt;br /&gt; &lt;br /&gt;
+
+Pitoon .......... the book when he was 12 years old.&lt;br /&gt;
+ไพฑูรย์ .....(อ่าน)....... หนังสือเล่มนั้น เมื่อตอนเขามีอายุได้ 12 ปี&lt;br /&gt; &lt;br /&gt;
+
+1. reads&lt;br /&gt;
+2. read ✔&lt;br /&gt;
+3. will read&lt;br /&gt;
+4. have read&lt;br /&gt; &lt;br /&gt;
+
+	คำอธิบาย&lt;br /&gt;&lt;br /&gt;
+เหตุการณ์ที่ผ่านมาแล้ว ใช้ Past simple tense&lt;br /&gt;
+read มีรูปแบบเหมือนกัน ทั้ง ช่อง 1 ช่อง 2 และ ช่อง 3 แต่อ่านออกเสียงผิดกัน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบที่ถูก คือ ข้อ 2&lt;br /&gt;
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- จบข้อ 1 -->
+</exams>
+
+

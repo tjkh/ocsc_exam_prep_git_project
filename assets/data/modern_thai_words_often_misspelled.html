@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+body {
+   font-family: "Open Sans", sans-serif;  
+  line-height: 1.25;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+#full_version {display: none;}
+.fadeout {
+    position: relative; 
+    bottom: 4em;
+    height: 4em;
+    background: -webkit-linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 100%
+    ); 
+    background-image: -moz-linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    background-image: -o-linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    background-image: -ms-linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
+} 
+.read_more{
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  text-align: center; 
+  color: red;
+  margin: 0; padding: 5px 0;
+}
+
+  </style>
+
+  <title>คำภาษาไทย ยุคดิจิทัล ที่มักเขียนผิด</title>
+ </head>
+
+ <body>
+
+<!--
+     <div id="abc" style="display: block">djhsdjfhjsdfhxx</div>
+     <div id="abcd" style="display: block">djhsdjfhjsdfhxxx asfsdafxxx</div>
+ -->
+ <!--
+ ถ้าเป็นตาราง แบ่ง div `ไม่ได้ ต้องแบ่งเป็น สองส่วน คือ ส่วนแรก มีข้อมูลเฉพาะที่ต้องการ
+ ให้อ่าน อยู่ในส่วน <table> ...</table> ส่วนที่สอง มีครบทั้งหมดตั้งแต่ต้น
+ ใน con_full_version.js จะตรวจสอบ และถ้ามี div ชื่อ demo_version และซื้อแล้ว ก็จะไม่แสดง
+ ส่วนนี้ แต่จะแสดงส่วนที่สอง คือแสดงทั้งหมด แต่ถ้ายังไม่ซื้อ ก็จะแสดงเฉพาะส่วนแรก
+ -->
+<div id ="demo_version">
+ในข้อสอบ วิชาภาษาไทย ก.พ. มักจะมีข้อสอบเกี่ยวกับการเขียนตัวสะกด ซึ่งอาจจะออกมาในรูปการเติมคำ หรือให้คำหลาย ๆ คำแล้วให้หาว่า ข้่อใดเขียนถูกหมด เป็นต้น โดยเฉพาะคำศัพท์ใหม่ ๆ หรือคำทับศัพท์ใหม่ ๆ ในยุคดิจิทัล มักจะมีออกข้อสอบอยู่เสมอ
+
+<br />
+<h2>
+  หลักการเขียนทับศัพท์ภาษาอังกฤษ ที่ควรทราบ</h2>
+<ol>
+<li>การทับศัพท์ ให้ถอดอักษรในภาษาเดิม พอควรแก่การแสดงที่มาของรูปศัพท์ และให้เขียนในรูปที่อ่านได้สะดวกในภาษาไทย เช่น graphic = กราฟิก (ไม่ใช่ กราฟิค)</li>
+<li>คำทับศัพท์ที่ใช้กันมานานจนถือเป็นภาษาไทย และปรากฏในพจนานุกรม ฉบับราชบัณฑิตยสถานแล้ว ให้ใช้ต่อไปตามเดิม เช่น ช็อกโกเลต, ช็อกโกแลต, เชิ้ต, ก๊าซ, แก๊ส</li>
+<li>การเขียนคําทับศัพท์ไม่ต้องใส่เครื่องหมายวรรณยุกต์ ยกเว้นในกรณีที่ คํานั้นมีเสียงซ้ำกับคําไทย จนทําให้เกิดความสับสน อาจใส่เครื่องหมายวรรณยุกต์ได้ เช่น coke = โค้ก coma = โคม่า </li>
+</ol>
+<b>คำทับศัพท์ ที่มักเขียนผิด
+  </b><br />
+<!--more--><br />
+<table id="tbl_1">
+  <thead>
+<tr>
+      <th scope="col">คำศัพท์</th>
+      <th scope="col">คำที่เขียนถูก</th>
+      <th scope="col">คำที่มักเขียนผิด</th>
+    </tr>
+</thead>
+  <tbody>
+<tr>
+      <td data-label="คำศัพท์">Application</td>
+      <td data-label="คำที่เขียนถูก">แอปพลิเคชัน</td>
+      <td data-label="คำที่มักเขียนผิด">แอพพลิเคชั่น</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Art</td>
+      <td data-label="คำที่เขียนถูก">อาร์ต</td>
+      <td data-label="คำที่มักเขียนผิด">อาร์ท</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Browser</td>
+      <td data-label="คำที่เขียนถูก">เบราว์เซอร์</td>
+      <td data-label="คำที่มักเขียนผิด">บราวเซอร์</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Classic</td>
+      <td data-label="คำที่เขียนถูก">คลาสสิก</td>
+      <td data-label="คำที่มักเขียนผิด">คลาสสิค</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์">Click</td>
+      <td data-label="คำที่เขียนถูก">คลิก</td>
+      <td data-label="คำที่มักเขียนผิด">คลิ๊ก</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Digital</td>
+      <td data-label="คำที่เขียนถูก">ดิจิทัล</td>
+      <td data-label="คำที่มักเขียนผิด">ดิจิตอล</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">E-book</td>
+      <td data-label="คำที่เขียนถูก">อีบุ๊ก</td>
+      <td data-label="คำที่มักเขียนผิด">อีบุ๊ค</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">E-mail</td>
+      <td data-label="คำที่เขียนถูก">อีเมล</td>
+      <td data-label="คำที่มักเขียนผิด">อีเมล์</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Facebook</td>
+      <td data-label="คำที่เขียนถูก">เฟซบุ๊ก </td>
+      <td data-label="คำที่มักเขียนผิด">เฟสบุ๊ก, เฟซบุค, เฟซบุ๊ค</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Fax</td>
+      <td data-label="คำที่เขียนถูก">แฟกซ์ แฝ็กซ์</td>
+      <td data-label="คำที่มักเขียนผิด">&nbsp;</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์">Function</td>
+      <td data-label="คำที่เขียนถูก">ฟังก์ชัน</td>
+      <td data-label="คำที่มักเขียนผิด">ฟังก์ชั่น</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Graphic</td>
+      <td data-label="คำที่เขียนถูก">กราฟิก</td>
+      <td data-label="คำที่มักเขียนผิด">กราฟฟิค กราฟฟิก</td>
+    </tr>
+
+<tr>
+      <td data-label="คำศัพท์" scope="row">Hardware**</td>
+      <td data-label="คำที่เขียนถูก">ฮาร์ดแวร์ ส่วนเครื่อง หรือส่วนอุปกรณ์ </td>
+      <td data-label="คำที่มักเขียนผิด">กระด้างภัณฑ์</td>
+    </tr>
+
+<tr>
+      <td data-label="คำศัพท์" scope="row">Internet</td>
+      <td data-label="คำที่เขียนถูก">อินเทอร์เน็ต</td>
+      <td data-label="คำที่มักเขียนผิด">อินเตอร์เน็ต</td>
+    </tr>
+</tbody>
+</table>
+	<div id="fadeout" class="fadeout"><div id="myDefault" class="read_more">  ... (อ่านต่อ ในรุ่นเต็ม นะครับ)</div></div></div>
+
+<div id="full_version">
+ในข้อสอบ วิชาภาษาไทย ก.พ. มักจะมีข้อสอบเกี่ยวกับการเขียนตัวสะกด ซึ่งอาจจะออกมาในรูปการเติมคำ หรือให้คำหลาย ๆ คำแล้วให้หาว่า ข้่อใดเขียนถูกหมด เป็นต้น โดยเฉพาะคำศัพท์ใหม่ ๆ หรือคำทับศัพท์ใหม่ ๆ ในยุคดิจิทัล มักจะมีออกข้อสอบอยู่เสมอ
+
+<br />
+<h2>
+  หลักการเขียนทับศัพท์ภาษาอังกฤษ ที่ควรทราบ</h2>
+<ol>
+<li>การทับศัพท์ ให้ถอดอักษรในภาษาเดิม พอควรแก่การแสดงที่มาของรูปศัพท์ และให้เขียนในรูปที่อ่านได้สะดวกในภาษาไทย เช่น graphic = กราฟิก (ไม่ใช่ กราฟิค)</li>
+<li>คำทับศัพท์ที่ใช้กันมานานจนถือเป็นภาษาไทย และปรากฏในพจนานุกรม ฉบับราชบัณฑิตยสถานแล้ว ให้ใช้ต่อไปตามเดิม เช่น ช็อกโกเลต, ช็อกโกแลต, เชิ้ต, ก๊าซ, แก๊ส</li>
+<li>การเขียนคําทับศัพท์ไม่ต้องใส่เครื่องหมายวรรณยุกต์ ยกเว้นในกรณีที่ คํานั้นมีเสียงซ้ำกับคําไทย จนทําให้เกิดความสับสน อาจใส่เครื่องหมายวรรณยุกต์ได้ เช่น coke = โค้ก coma = โคม่า </li>
+</ol>
+<b>คำทับศัพท์ ที่มักเขียนผิด
+  </b><br />
+<!--more--><br />
+<table>
+  <thead>
+<tr>
+      <th scope="col">คำศัพท์</th>
+      <th scope="col">คำที่เขียนถูก</th>
+      <th scope="col">คำที่มักเขียนผิด</th>
+    </tr>
+</thead>
+  <tbody>
+<tr>
+      <td data-label="คำศัพท์">Application</td>
+      <td data-label="คำที่เขียนถูก">แอปพลิเคชัน</td>
+      <td data-label="คำที่มักเขียนผิด">แอพพลิเคชั่น</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Art</td>
+      <td data-label="คำที่เขียนถูก">อาร์ต</td>
+      <td data-label="คำที่มักเขียนผิด">อาร์ท</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Browser</td>
+      <td data-label="คำที่เขียนถูก">เบราว์เซอร์</td>
+      <td data-label="คำที่มักเขียนผิด">บราวเซอร์</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Classic</td>
+      <td data-label="คำที่เขียนถูก">คลาสสิก</td>
+      <td data-label="คำที่มักเขียนผิด">คลาสสิค</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์">Click</td>
+      <td data-label="คำที่เขียนถูก">คลิก</td>
+      <td data-label="คำที่มักเขียนผิด">คลิ๊ก</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Digital</td>
+      <td data-label="คำที่เขียนถูก">ดิจิทัล</td>
+      <td data-label="คำที่มักเขียนผิด">ดิจิตอล</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">E-book</td>
+      <td data-label="คำที่เขียนถูก">อีบุ๊ก</td>
+      <td data-label="คำที่มักเขียนผิด">อีบุ๊ค</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">E-mail</td>
+      <td data-label="คำที่เขียนถูก">อีเมล</td>
+      <td data-label="คำที่มักเขียนผิด">อีเมล์</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Facebook</td>
+      <td data-label="คำที่เขียนถูก">เฟซบุ๊ก </td>
+      <td data-label="คำที่มักเขียนผิด">เฟสบุ๊ก, เฟซบุค, เฟซบุ๊ค</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Fax</td>
+      <td data-label="คำที่เขียนถูก">แฟกซ์ แฝ็กซ์</td>
+      <td data-label="คำที่มักเขียนผิด">&nbsp;</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์">Function</td>
+      <td data-label="คำที่เขียนถูก">ฟังก์ชัน</td>
+      <td data-label="คำที่มักเขียนผิด">ฟังก์ชั่น</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Graphic</td>
+      <td data-label="คำที่เขียนถูก">กราฟิก</td>
+      <td data-label="คำที่มักเขียนผิด">กราฟฟิค กราฟฟิก</td>
+    </tr>
+
+<tr>
+      <td data-label="คำศัพท์" scope="row">Hardware**</td>
+      <td data-label="คำที่เขียนถูก">ฮาร์ดแวร์ ส่วนเครื่อง หรือส่วนอุปกรณ์ </td>
+      <td data-label="คำที่มักเขียนผิด">กระด้างภัณฑ์</td>
+    </tr>
+
+<tr>
+      <td data-label="คำศัพท์" scope="row">Internet</td>
+      <td data-label="คำที่เขียนถูก">อินเทอร์เน็ต</td>
+      <td data-label="คำที่มักเขียนผิด">อินเตอร์เน็ต</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Joystick</td>
+      <td data-label="คำที่เขียนถูก">แท่งควบคุม</td>
+      <td data-label="คำที่มักเขียนผิด">แท่งหรรษา</td>
+    </tr>
+
+
+
+<tr>
+      <td data-label="คำศัพท์" scope="row">Lab</td>
+      <td data-label="คำที่เขียนถูก">แล็บ</td>
+      <td data-label="คำที่มักเขียนผิด">แล็ป</td>
+    </tr>
+
+<tr>
+      <td data-label="คำศัพท์" scope="row">Like</td>
+      <td data-label="คำที่เขียนถูก">กดไลค์*</td>
+      <td data-label="คำที่มักเขียนผิด">&nbsp;</td>
+    </tr>
+
+<tr>
+      <td data-label="คำศัพท์">Link</td>
+      <td data-label="คำที่เขียนถูก">ลิงก์</td>
+      </td><td data-label="คำที่มักเขียนผิด">ลิงค์</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Mobile </td>
+      <td data-label="คำที่เขียนถูก">โมไบล์</td>
+      <td data-label="คำที่มักเขียนผิด">โมบาย</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">pickup truck</td>
+      <td data-label="คำที่เขียนถูก">รถพิกอัป</td>
+      <td data-label="คำที่มักเขียนผิด">รถปิคอัพ</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Quota</td>
+      <td data-label="คำที่เขียนถูก">โควตา</td>
+      <td data-label="คำที่มักเขียนผิด">โควต้า</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์">Remote</td>
+      <td data-label="คำที่เขียนถูก">รีโมต</td>
+      <td data-label="คำที่มักเขียนผิด">รีโมท, รีโหมด</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Set</td>
+      <td data-label="คำที่เขียนถูก">เซต</td>
+      <td data-label="คำที่มักเขียนผิด">เซ็ต</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">shirt</td>
+      <td data-label="คำที่เขียนถูก">เชิ้ต</td>
+      <td data-label="คำที่มักเขียนผิด">เชิ๊ต</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Shopping</td>
+      <td data-label="คำที่เขียนถูก">ชอปปิง</td>
+      <td data-label="คำที่มักเขียนผิด">ช้อปปิ้ง</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์">Smart</td>
+      <td data-label="คำที่เขียนถูก">สมาร์ต</td>
+      <td data-label="คำที่มักเขียนผิด">สมาร์ท</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Software**</td>
+      <td data-label="คำที่เขียนถูก">ซอฟต์แวร์ หรือ ชุดคำสั่ง</td>
+      <td data-label="คำที่มักเขียนผิด">ซอฟท์แวร์ หรือ ละมุนภัณฑ์</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Start</td>
+      <td data-label="คำที่เขียนถูก">สตาร์ต</td>
+      <td data-label="คำที่มักเขียนผิด">สตาร์ท</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Stuff </td>
+      <td data-label="คำที่เขียนถูก">สตัฟฟ์</td>
+      <td data-label="คำที่มักเขียนผิด">สตั๊ฟ</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์">Switch</td>
+      <td data-label="คำที่เขียนถูก">สวิตช์</td>
+      <td data-label="คำที่มักเขียนผิด">สวิทซ์</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Tent</td>
+      <td data-label="คำที่เขียนถูก">เต็นท์</td>
+      <td data-label="คำที่มักเขียนผิด">เต๊นท์</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Ultraviolet</td>
+      <td data-label="คำที่เขียนถูก">อัลตราไวโอเลต</td>
+      <td data-label="คำที่มักเขียนผิด">อุลตร้าไวโอเลต</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Update</td>
+      <td data-label="คำที่เขียนถูก">อัปเดต</td>
+      <td data-label="คำที่มักเขียนผิด">อัพเดท</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์">Upload</td>
+      <td data-label="คำที่เขียนถูก">อัปโหลด</td>
+      <td data-label="คำที่มักเขียนผิด">อัพโหลด</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Version</td>
+      <td data-label="คำที่เขียนถูก">เวอร์ชัน</td>
+      <td data-label="คำที่มักเขียนผิด">เวอร์ชั่น</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Website</td>
+      <td data-label="คำที่เขียนถูก">เว็บไซต์</td>
+      <td data-label="คำที่มักเขียนผิด">เว็ปไซด์</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์" scope="row">Workshop</td>
+      <td data-label="คำที่เขียนถูก">เวิร์กชอป</td>
+      <td data-label="คำที่มักเขียนผิด">เวิร์คช็อป</td>
+    </tr>
+<tr>
+      <td data-label="คำศัพท์">x-ray  </td>
+      <td data-label="คำที่เขียนถูก">เอกซเรย์</td>
+      <td data-label="คำที่มักเขียนผิด">เอ็กซเรย์</td>
+ </tr>
+</tbody>
+</table>
+* ศ.ดร.อุดม วโรตม์สิกขดิตถ์ อ้างจาก https://hilight.kapook.com/view/95663 <br>
+** “กระด้างภัณฑ์” “ละมุนภัณฑ์” “แท่งหรรษา” ไม่ใช่ศัพท์บัญญัติของราชบัณฑิตยสถาน <br><br>
+
+
+ที่มา:<br />
+http://www.royin.go.th/ <br />
+http://www.royin.go.th/?knowledges=อีบุ๊ก-๒๗-กรกฎาคม-๒๕๕๔<br>
+https://www.ega.or.th/th/content/890/887/<br />
+https://www.kroobannok.com/1818<br>
+พจนานุกรมคำใหม่ เล่ม ๑-๓ ฉบับราชบัณฑิตยสถาน (พิมพ์ครั้งที่ ๒ )
+</div>
+
+ <script src="cont_full_version.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

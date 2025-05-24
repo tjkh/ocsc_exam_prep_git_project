@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+	
+	<!-- เพิ่มใหม่ ข้อยาก และ ข้อสอบเสมือนจริง
+พี่ขิม
+https://www.youtube.com/watch?v=bDrZhpDA-yA
+
+playlist ข้อสอบเสมือนจริง เงื่อนไข
+https://www.youtube.com/watch?v=vEGu2EP29fA&list=PLU04QPmoHiURHHDxK74PlMHCcxr3z43XI
+
+	-->
+
+
+    <!-- 41 -->
+    <thisQuestion>
+        <qNum>id1654053736:date1654053737</qNum>
+        <question> เงื่อนไขสัญลักษณ์
+            &lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;
+        </question>
+
+        <choice_A>เป็นจริงทั้งสองข้อ</choice_A>
+        <choice_B>เป็นเท็จทั้งสองข้อ</choice_B>
+        <choice_C>สรุปไม่แน่นอนทั้งสองข้อ</choice_C>
+        <choice_D>ทั้งสองข้อมีผลสรุปต่างกัน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+
+            เปลี่ยนเครื่องหมาย ≮ เป็น ≥ &lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C  ≥  Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            จาก C ไป A ตามเงื่อนไข คือ&lt;br /&gt;&lt;br /&gt;
+			C = (A + B) &lt;br /&gt;&lt;br /&gt;
+			เราได้ด้านหนึ่ง เท่ากับ ตัวแปรตัวหนึ่งในข้อสรุปแล้ว สามารถเติมอีกด้านได้
+			เติม A ทางด้านขวามือ&lt;br /&gt;&lt;br /&gt;
+			C = (A + B)   A&lt;br /&gt;&lt;br /&gt;
+			เติมเครื่องหมายเปรียบเทียบ &lt;br /&gt;
+			 (A + B) ย่อมมากกว่า A เพราะ  A ตัวเองเปล่า ๆ ย่อมน้อยกว่า ตัวเองที่มีอะไรมาบวกเพิ่ม&lt;br /&gt;&lt;br /&gt;
+			C = (A + B) &gt;  A&lt;br /&gt;&lt;br /&gt;
+			ยุบรวม หรือส่งต่อเครื่องหมาย&lt;br /&gt;
+			เครื่องหมาย  &gt;  มีลำดับความสำคัญมากกว่า เครื่องหมาย = &lt;br /&gt;
+			ยุบรวมตามคุณสมบัติด้านการส่งผ่าน จะได้เครื่องหมาย &lt;&lt;br /&gt;&lt;br /&gt;
+			C &gt;  A&lt;br /&gt;&lt;br /&gt;
+			เราได้เหมือนกับข้อสรุปแล้ว ตัดสินข้อสรุปได้ &lt;br /&gt;
+			ข้อสรุปของโจทย์ว่า มากกว่า เราหาได้จากเงือนไขว่า  C มากกว่า A เหมือนกัน&lt;br /&gt;
+			ดังนั้น ข้อสรุปของโจทย์ข้อนี้ เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: ของโจทย์ ที่ว่า C &gt; B จึงเป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+
+            จาก Y ไป Z ในเงื่อนไข คือ&lt;br /&gt;
+			2Y = C  ≥  Z&lt;br /&gt;&lt;br /&gt;
+			ยุบรวม ตามกฎการส่งผ่าน ได้เป็น&lt;br /&gt;
+			2Y ≥  Z&lt;br /&gt;&lt;br /&gt;
+			เราได้ข้างหนึ่งเหมือนข้อสรุปแล้ว &lt;br /&gt;
+			นำอีกตัวในข้อสรุปมาเปรียบเทียบได้ &lt;br /&gt;&lt;br /&gt;
+			Y &lt; 2Y ≥  Z&lt;br /&gt;&lt;br /&gt;
+			พบว่ามีเครื่องหมายสวนทางกัน สรุปไม่ได้ &lt;br /&gt;
+
+            ข้อสรุปที่ 2: ของโจทย์ ที่ว่า  Y =  Z  จึงสรุปไม่ได้ &lt;br /&gt;&lt;br /&gt;
+
+            สรุปว่า การสรุปของโจทย์ทั้งสองข้อ มีผลสรุปต่างกัน&lt;br /&gt;&lt;br /&gt;
+
+            ข้อนี้ตอบ ข้อ 4 &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <!-- 41 -->
+    <thisQuestion>
+        <qNum>id1654053738_katex:date1654053737</qNum>
+        <question>คำสั่ง: จงเลือกคำตอบที่ถูกต้อง
+(A + B) = C  ≯ D &lt; E
+X &gt; 2Y = C ≮ Z
+
+ข้อสรุปที่ 1: XY  ≠  BY
+ข้อสรุปที่ 2: A + Y &lt;  DY
+        </question>
+
+        <choice_A>เป็นจริงทั้งสองข้อ</choice_A>
+        <choice_B>เป็นเท็จทั้งสองข้อ</choice_B>
+        <choice_C>สรุปไม่แน่นอนทั้งสองข้อ</choice_C>
+        <choice_D>ทั้งสองข้อมีผลสรุปต่างกัน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>2</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            (A + B) = C  ≯  D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: XY  ≠  BY&lt;br /&gt;
+            ข้อสรุปที่ 2: A + Y &lt;  DY &lt;br /&gt;
+
+            เปลี่ยนเครื่องหมาย ≯ เป็น ≤ &lt;br /&gt;&lt;br /&gt;
+            เปลี่ยนเครื่องหมาย ≮ เป็น ≥ &lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C ≤ D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C  ≥  Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: XY  ≠  BY&lt;br /&gt;&lt;br /&gt;
+ในเรื่อง อสมการ เราสามารถ นำเลขจำนวนเต็มบวก มาคูณหรือหาร ทั้งสองข้างได้ โดยที่เครื่องหมายไม่เปลี่ยนแปลง&lt;br /&gt;
+(แต่ถ้าเอาจำนวนลบมา คูณหรือหาร จะทำให้เครื่องหมายเปลี่ยนเป็นตรงข้าม)&lt;br /&gt;&lt;br /&gt;
+
+ในกรณีนี้ เราสามารถกำจัด Y ออกไปได้ โดยการเอา Y มาหารทั้งสองข้าง ก็จะเหลือแต่ X กับ B&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 1: XY  ≠  BY&lt;br /&gt;
+เอา  Y มาหารทั้งสองข้าง&lt;br /&gt;
+&lt;tex&gt;\frac{XY}{Y}   ≠  \frac{BY}{Y}&lt;/tex&gt;&lt;br /&gt;&lt;br /&gt;
+ข้อสรุป คือ&lt;br /&gt;&lt;br /&gt;
+X    ≠   B&lt;br /&gt;&lt;br /&gt;
+
+จาก X ไป B ตามเงื่อนไข คือ&lt;br /&gt;
+X &gt; 2Y = C = (A + B)&lt;br /&gt;&lt;br /&gt;
+ยุบรวม ได้ &lt;br /&gt;
+X &gt;  (A + B)&lt;br /&gt;&lt;br /&gt;
+เราก็ได้ 1 ตัวที่เหมือนเงื่อนไขแล้ว&lt;br /&gt;
+เอา B มาเทียบได้เลย เป็น&lt;br /&gt;&lt;br /&gt;
+X &gt; (A + B) &gt; B&lt;br /&gt;&lt;br /&gt;
+ยุบแล้วได้&lt;br /&gt;
+X &gt;  B&lt;br /&gt;&lt;br /&gt;
+
+ตัดสินข้อสรุป X ≠ B&lt;br /&gt;
+นั่นคือ อาจจะเป็น  X &gt; B  หรือ X &lt; B มี 2 กรณี&lt;br /&gt;&lt;br /&gt;
+
+แต่เราพิสูจน์เงื่อนไข ได้ว่า &lt;br /&gt;&lt;br /&gt;
+
+X &gt;  B&lt;br /&gt;&lt;br /&gt;
+
+แสดงว่า ข้อสรุป ครอบคลุม เงื่อนไขที่เราพิสูจน์ได้&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปนี้ จึง เป็นจริง&lt;br /&gt;
+
+จึงสรุปว่า ข้อสรุปข้อ 1 เป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+ข้อสรุปที่ 2: A + Y &lt;  DY &lt;br /&gt;&lt;br /&gt;
+จากข้อสรุป เราจะเห็นว่า ข้างหนึ่ง เอา Y มาบวก กับอีกข้างหนึ่ง เอา Y มาคูณ&lt;br /&gt;&lt;br /&gt;
+กรณีของข้อสรุปนี้ จะเป็นจริงได้ ก็ต่อเมื่อ A ต้องน้อยกว่า หรือเท่ากับ D&lt;br /&gt;&lt;br /&gt;
+เพราะ เลขน้อย เพิ่มขึ้นโดยเอาตัวเลขมาบวก เปรียบเทียบกับ เลขมาก ที่เอาตัวเลขเดียวกันมาคูณ &lt;br /&gt;&lt;br /&gt;
+ผลก็คือ เลขน้อยที่มีการบวก ก็ย่อม น้อยกว่า เลขมากที่มีการคูณเพิ่มแน่นอน เช่น&lt;br /&gt;
+20 +2  ย่อมน้อยกว่า 30 x 2&lt;br /&gt;&lt;br /&gt;
+
+แต่ถ้าตัวเลขตัวแรก มากกว่า ตัวเลขตัวหลัง อย่างนี้ก็จะสรุปไม่ได้ เพราะอาจจะมากกว่า หรือ น้อยกว่า ก็ได้ เช่น&lt;br /&gt;
+5 + 2 ย่อมน้อยกว่า 30 x 2&lt;br /&gt;
+แต่ถ้าตัวหน้ามากกว่า เช่น&lt;br /&gt;
+30 + 2  จะมากกว่า 5 x 2&lt;br /&gt;
+จึงสรุปไม่ได้&lt;br /&gt;&lt;br /&gt;
+
+ถ้างั้น ลองพิสูจน์ ระหว่าง A กับ D ดู 
+
+จาก A ไปหา D ตามเงื่อนไข คือ &lt;br /&gt;&lt;br /&gt;
+
+(A + B) = C ≤ D&lt;br /&gt;&lt;br /&gt;
+
+เราได้ข้างหนึ่งจากเงื่อนไข คือ D เหมือนข้อสรุปแล้ว &lt;br /&gt;
+ต่อมา เอา A มาเทียบได้เลย เป็น&lt;br /&gt;&lt;br /&gt;
+
+A &lt; (A + B) = C ≤ D&lt;br /&gt;&lt;br /&gt;
+
+ยุบรวมได้ &lt;br /&gt;&lt;br /&gt;
+
+A &lt; D&lt;br /&gt;&lt;br /&gt;
+
+เมื่อ A น้อยกว่า D ดังนั้น ข้อสรุปข้อ 2 จึงเป็นจริง
+
+ข้อสรุปที่ 2: ของโจทย์ ที่ว่า  A + Y &lt;  DY   จึงเป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+สรุปว่า การสรุปของโจทย์ทั้งสองข้อเป็นจริง&lt;br /&gt;&lt;br /&gt;
+
+ข้อนี้ตอบ ข้อ 1 &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+    <!-- 41 -->
+    <thisQuestion>
+        <qNum>id1654053739:date1654053737</qNum>
+        <question> เงื่อนไขสัญลักษณ์
+            &lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;
+        </question>
+
+        <choice_A>เป็นจริงทั้งสองข้อ</choice_A>
+        <choice_B>เป็นเท็จทั้งสองข้อ</choice_B>
+        <choice_C>สรุปไม่แน่นอนทั้งสองข้อ</choice_C>
+        <choice_D>ทั้งสองข้อมีผลสรุปต่างกัน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+
+            เปลี่ยนเครื่องหมาย ≮ เป็น ≥ &lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C  ≥  Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            จาก C ไป A ตามเงื่อนไข คือ&lt;br /&gt;
+
+
+
+            ข้อสรุปที่ 1: ของโจทย์ ที่ว่า  จึง       &lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+            จาก Y ไป Z ในเงื่อนไข คือ&lt;br /&gt;
+&lt;br /&gt;
+
+            ข้อสรุปที่ 2: ของโจทย์ ที่ว่า        จึง           &lt;br /&gt;&lt;br /&gt;
+
+            สรุปว่า การสรุปของโจทย์ทั้งสองข้อ    &lt;br /&gt;&lt;br /&gt;
+
+            ข้อนี้ตอบ ข้อ  &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <!-- 41 -->
+    <thisQuestion>
+        <qNum>id1654053740:date1654053737</qNum>
+        <question> เงื่อนไขสัญลักษณ์
+            &lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;
+        </question>
+
+        <choice_A>เป็นจริงทั้งสองข้อ</choice_A>
+        <choice_B>เป็นเท็จทั้งสองข้อ</choice_B>
+        <choice_C>สรุปไม่แน่นอนทั้งสองข้อ</choice_C>
+        <choice_D>ทั้งสองข้อมีผลสรุปต่างกัน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+
+            เปลี่ยนเครื่องหมาย ≮ เป็น ≥ &lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C  ≥  Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            จาก C ไป A ตามเงื่อนไข คือ&lt;br /&gt;
+
+
+
+            ข้อสรุปที่ 1: ของโจทย์ ที่ว่า  จึง       &lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+            จาก Y ไป Z ในเงื่อนไข คือ&lt;br /&gt;
+&lt;br /&gt;
+
+            ข้อสรุปที่ 2: ของโจทย์ ที่ว่า        จึง           &lt;br /&gt;&lt;br /&gt;
+
+            สรุปว่า การสรุปของโจทย์ทั้งสองข้อ    &lt;br /&gt;&lt;br /&gt;
+
+            ข้อนี้ตอบ ข้อ  &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <!-- 41 -->
+    <thisQuestion>
+        <qNum>id1654053741:date1654053737</qNum>
+        <question> เงื่อนไขสัญลักษณ์
+            &lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;
+        </question>
+
+        <choice_A>เป็นจริงทั้งสองข้อ</choice_A>
+        <choice_B>เป็นเท็จทั้งสองข้อ</choice_B>
+        <choice_C>สรุปไม่แน่นอนทั้งสองข้อ</choice_C>
+        <choice_D>ทั้งสองข้อมีผลสรุปต่างกัน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+
+            เปลี่ยนเครื่องหมาย ≮ เป็น ≥ &lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C  ≥  Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            จาก C ไป A ตามเงื่อนไข คือ&lt;br /&gt;
+
+
+
+            ข้อสรุปที่ 1: ของโจทย์ ที่ว่า  จึง       &lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+            จาก Y ไป Z ในเงื่อนไข คือ&lt;br /&gt;
+&lt;br /&gt;
+
+            ข้อสรุปที่ 2: ของโจทย์ ที่ว่า        จึง           &lt;br /&gt;&lt;br /&gt;
+
+            สรุปว่า การสรุปของโจทย์ทั้งสองข้อ    &lt;br /&gt;&lt;br /&gt;
+
+            ข้อนี้ตอบ ข้อ  &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <!-- 41 -->
+    <thisQuestion>
+        <qNum>id1654053742:date1654053737</qNum>
+        <question> เงื่อนไขสัญลักษณ์
+            &lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;
+        </question>
+
+        <choice_A>เป็นจริงทั้งสองข้อ</choice_A>
+        <choice_B>เป็นเท็จทั้งสองข้อ</choice_B>
+        <choice_C>สรุปไม่แน่นอนทั้งสองข้อ</choice_C>
+        <choice_D>ทั้งสองข้อมีผลสรุปต่างกัน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+
+            เปลี่ยนเครื่องหมาย ≮ เป็น ≥ &lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C  ≥  Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            จาก C ไป A ตามเงื่อนไข คือ&lt;br /&gt;
+
+
+
+            ข้อสรุปที่ 1: ของโจทย์ ที่ว่า  จึง       &lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+            จาก Y ไป Z ในเงื่อนไข คือ&lt;br /&gt;
+&lt;br /&gt;
+
+            ข้อสรุปที่ 2: ของโจทย์ ที่ว่า        จึง           &lt;br /&gt;&lt;br /&gt;
+
+            สรุปว่า การสรุปของโจทย์ทั้งสองข้อ    &lt;br /&gt;&lt;br /&gt;
+
+            ข้อนี้ตอบ ข้อ  &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+    <!-- 41 -->
+    <thisQuestion>
+        <qNum>id1654053743:date1654053737</qNum>
+        <question> เงื่อนไขสัญลักษณ์
+            &lt;br /&gt;
+            คำสั่ง: จงเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;
+        </question>
+
+        <choice_A>เป็นจริงทั้งสองข้อ</choice_A>
+        <choice_B>เป็นเท็จทั้งสองข้อ</choice_B>
+        <choice_C>สรุปไม่แน่นอนทั้งสองข้อ</choice_C>
+        <choice_D>ทั้งสองข้อมีผลสรุปต่างกัน</choice_D>
+        <choice_E>
+        </choice_E>
+        <correctAns>5</correctAns>
+        <!-- A=2, B=3, C=4, D=5 -->
+        <explanation>
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C ≮ Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+
+            เปลี่ยนเครื่องหมาย ≮ เป็น ≥ &lt;br /&gt;&lt;br /&gt;
+
+            (A + B) = C &#x226F; D &lt; E&lt;br /&gt;
+            X &gt; 2Y = C  ≥  Z&lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 1: C &gt; A&lt;br /&gt;
+            จาก C ไป A ตามเงื่อนไข คือ&lt;br /&gt;
+
+
+
+            ข้อสรุปที่ 1: ของโจทย์ ที่ว่า  จึง       &lt;br /&gt;&lt;br /&gt;
+
+            ข้อสรุปที่ 2: Y =  Z &lt;br /&gt;&lt;br /&gt;
+            จาก Y ไป Z ในเงื่อนไข คือ&lt;br /&gt;
+&lt;br /&gt;
+
+            ข้อสรุปที่ 2: ของโจทย์ ที่ว่า        จึง           &lt;br /&gt;&lt;br /&gt;
+
+            สรุปว่า การสรุปของโจทย์ทั้งสองข้อ    &lt;br /&gt;&lt;br /&gt;
+
+            ข้อนี้ตอบ ข้อ  &lt;br /&gt;
+
+        </explanation>
+        <isExplain>yes</isExplain>
+        <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+        <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+    </thisQuestion>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ถึงตรงนี้
+
+https://www.youtube.com/watch?v=bDrZhpDA-yA
+เวลา  29:24
+
+-->
+
+
+
+    <!-- ๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕๕   -->
+
+
+	</exams>
+

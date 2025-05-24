@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="th">
+ <head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=0.65">
+  <link rel="stylesheet" type="text/css" href="full_exam.css">
+ </head>
+<body>
+  <div id ="timer_wrapper" class ="timer_wrapper">
+	<div id = "row" class ="timer_wrapper row">
+		<div class ="timer_wrapper row btns">
+			จับเวลา:&nbsp;&nbsp;
+			<!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+            <button id = "start" onclick="countDown(0,40,0)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset"onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+	</div>
+
+		<div class ="timer_wrapper row details">
+			<div id="full_time" class ="timer_wrapper row detail duration">
+				เวลา: 40 นาที
+			</div> <!-- end osf duration -->
+
+			<div class ="timer_wrapper row detail timer">
+				<div id="timer">0 : 0 : 0</div> 
+			</div> <!-- end osf timer -->
+
+			</div> <!-- end of details -->
+
+	</div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+	  <strong>เตรียมสอบ ก.พ.</strong>
+    </div>
+    <div class="modal-body">
+		<p id= "myMessage">Place holder for text..</p>
+    </div>
+    <div class="modal-footer">
+      https://www.thongjoon.com
+    </div>
+  </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<div id="content"> <!--  start div content  -->
+<!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <br><br>
+    <div id="ifNotBuy" style="display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+        <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span></br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+
+<!--  
+================= 1-5 Conversation =================
+-->
+
+
+<strong>Instruction: </strong> Choose the best answer.<br><br>
+
+<strong>สำหรับ ข้อ 1-5</strong><br><br>
+
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+
+<strong>Receptionist:</strong> Company XYZ, this is Suda. .............(1) .......... <br>
+<strong>Fred:</strong> Hello. Could I speak to Jack Parkins, please?<br>
+<strong>Receptionist:</strong> .......(2) ..........<br>
+<strong>Fred:</strong> This is Fred Blinkingham. I'm a friend of Jack's.<br>
+<strong>Receptionist:</strong> I'm afraid he's out at the moment. ..........(3) ..........<br>
+Fred:  Yes. Can you ask him to give me a call? My number is 909-345-8965<br>
+<strong>Receptionist:</strong> ............(4) ..................<br>
+<strong>Fred:</strong>  Certainly. That's 909-345-8965<br>
+<strong>Receptionist:</strong> OK. I'll make sure Mr. Parkins gets your message.<br>
+<strong>Fred:</strong> .......(5) ............... Goodbye.<br>
+<strong>Receptionist:</strong> Goodbye.<br>
+
+</div>
+
+<br><br>
+<div class="qstn-div">
+<div class="quiz">
+ข้อ 1. <br>
+</div>
+
+<label><input type="radio" name="q1" value="0">Who is calling, please?</label><br>
+<label><input type="radio" name="q1" value="1">How may I help you? </label><br>
+<label><input type="radio" name="q1" value="0">Would you like to hold?</label><br>
+<label><input type="radio" name="q1" value="0">Is there anything else I can help you with?</label><br>
+
+
+<div class="quiz">
+ข้อ 2. <br>
+</div>
+
+<label><input type="radio" name="q2" value="0">Can I put you on hold for a minute?</label><br>
+<label><input type="radio" name="q2" value="0">Let me see if he’s available. </label><br>
+<label><input type="radio" name="q2" value="1">Who am I speaking with?</label><br>
+<label><input type="radio" name="q2" value="0">Sure, one moment please.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 3. <br>
+</div>
+
+<label><input type="radio" name="q3" value="0">May I have your name please?</label><br>
+<label><input type="radio" name="q3" value="1">Can I take a message?</label><br>
+<label><input type="radio" name="q3" value="0">Sure, let me check on that. </label><br>
+<label><input type="radio" name="q3" value="0">Do you mind holding while I check on that?</label><br>
+
+
+
+<div class="quiz">
+ข้อ 4. <br>
+</div>
+
+<label><input type="radio" name="q4" value="1">I’m sorry, could you repeat that?</label><br>
+<label><input type="radio" name="q4" value="0">Hang on a moment, I’ll put you through. </label><br>
+<label><input type="radio" name="q4" value="0">Would you mind spelling that for me please?</label><br>
+<label><input type="radio" name="q4" value="0">Could you call back later please?</label><br>
+
+
+
+<div class="quiz">
+ข้อ 5. <br>
+</div>
+
+<label><input type="radio" name="q5" value="1">Thank you very much.</label><br>
+<label><input type="radio" name="q5" value="0">It doesn’t matter.</label><br>
+<label><input type="radio" name="q5" value="0">Never mind.</label><br>
+<label><input type="radio" name="q5" value="0">It’s my pleasure.</label><br>
+
+</div>  <!-- qstn-div   -->
+
+<!--  
+================= 6-10 Vovabulary =================
+-->
+<br><strong>Instructions: </strong>Select the most appropriate choice for each item.<br /> <br />
+
+
+<div class="quiz">
+ข้อ 6. <br>
+Chiang Mai is one of the most beautiful cities in Thailand. It has a ........ of about 1.5 million. <br>
+</div>
+
+<label><input type="radio" name="q6" value="1">population</label><br>
+<label><input type="radio" name="q6" value="0">number</label><br>
+<label><input type="radio" name="q6" value="0">people</label><br>
+<label><input type="radio" name="q6" value="0">person</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 7. <br>
+Which TV .................. do you like better, sports or news? <br>
+</div>
+
+<label><input type="radio" name="q7" value="0">projects</label><br>
+<label><input type="radio" name="q7" value="1">programs</label><br>
+<label><input type="radio" name="q7" value="0">series</label><br>
+<label><input type="radio" name="q7" value="0">advertisements</label><br>
+
+
+<div class="quiz">
+ข้อ 8. <br>
+Suchart and his friends ........... grants from the government to do a research on nutrition. <br>
+</div>
+
+<label><input type="radio" name="q8" value="1">receive</label><br>
+<label><input type="radio" name="q8" value="0">carry</label><br>
+<label><input type="radio" name="q8" value="0">create</label><br>
+<label><input type="radio" name="q8" value="0">conduct</label><br>
+
+
+
+<div class="quiz">
+ข้อ 9. <br>
+English is the ........ language used in ASEAN
+<br>
+</div>
+
+<label><input type="radio" name="q9" value="0">common</label><br>
+<label><input type="radio" name="q9" value="0">popular</label><br>
+<label><input type="radio" name="q9" value="1">official</label><br>
+<label><input type="radio" name="q9" value="0">spoken</label><br>
+
+
+
+<div class="quiz">
+ข้อ 10. <br>
+It is very .... to do your shopping on the Internet. All you need is a credit card. <br>
+</div>
+
+<label><input type="radio" name="q10" value="0">polite</label><br>
+<label><input type="radio" name="q10" value="1">convenient</label><br>
+<label><input type="radio" name="q10" value="0">enthusiastic</label><br>
+<label><input type="radio" name="q10" value="0">foolish</label><br>
+
+
+
+
+<!--  
+================= 11-15 Grammar/Structure =================
+-->
+
+
+<div class="quiz">
+ข้อ 11. <br>
+He risked ............... caught. <br>
+</div>
+
+<label><input type="radio" name="q11" value="0">be</label><br>
+<label><input type="radio" name="q11" value="1">being</label><br>
+<label><input type="radio" name="q11" value="0">to be</label><br>
+<label><input type="radio" name="q11" value="0">to have been</label><br>
+
+
+<div class="quiz">
+ข้อ 12. <br>
+Jandee ................. her grand mother last month.<br>
+</div>
+
+<label><input type="radio" name="q12" value="0">visits</label><br>
+<label><input type="radio" name="q12" value="1">visited</label><br>
+<label><input type="radio" name="q12" value="0">has visited</label><br>
+<label><input type="radio" name="q12" value="0">is visiting</label><br>
+
+
+
+<div class="quiz">
+ข้อ 13. <br>
+Mrs Otis saw a red stain on the floor just by the fireplace and said to Mrs Umney, “I am afraid something .......... there.
+<br>
+</div>
+
+<label><input type="radio" name="q13" value="0">spills</label><br>
+<label><input type="radio" name="q13" value="0">has spilt</label><br>
+<label><input type="radio" name="q13" value="1">has been spilt</label><br>
+<label><input type="radio" name="q13" value="0">had been spilt</label><br>
+
+<div class="quiz">
+ข้อ 14. <br>
+I don't want any blood-stains in my sitting-room. It must ............... at once.
+<br>
+</div>
+
+<label><input type="radio" name="q14" value="0">remove</label><br>
+<label><input type="radio" name="q14" value="0">removed</label><br>
+<label><input type="radio" name="q14" value="1">be removed</label><br>
+<label><input type="radio" name="q14" value="0">be removing</label><br>
+
+
+
+
+
+
+<div class="quiz">
+ข้อ 15. <br>
+"Paul's loving his new job in the States." "What? I didn't ................ abroad!"<br>
+</div>
+
+<label><input type="radio" name="q15" value="1">even know he was living</label><br>
+<label><input type="radio" name="q15" value="0">even knew he is living</label><br>
+<label><input type="radio" name="q15" value="0">know he has lived</label><br>
+<label><input type="radio" name="q15" value="0">know he does live</label><br>
+
+
+
+<!--  
+================= 16-25 Reading 10 ข้อ =================
+-->
+<br><strong>The following passage is for question 16-25.</strong><br><br>
+
+<div class="qstn-div">
+<div style="margin-left: 0px; border: 1px solid #4CAF50; display: inline-block; padding: 5px;">
+<!-- from:https://web2.uvcs.uvic.ca/courses/elc/studyzone/410/reading/happy-brain1.htm -->
+<p>The human brain remembers negative experiences more easily than positive ones. Our brains have developed this way because threats, like dangerous animals, had a more immediate effect on our ancestors’ survival compared to positive things like food or shelter. As a result, you likely know what makes you unhappy, but do you know what makes you happy?
+
+<p>Research suggests that our level of happiness depends partly on factors we cannot control – our genes and our life circumstances. But our level of happiness is also shaped by the choices we make. If you’ve been chasing wealth, fame, good looks, material things, and power, you may be looking for happiness in all the wrong places. Psychologists suggest that the following seven habits make people happier.
+
+<p>People who form close relationships tend to be happier than those who do not. The number of friends we have is not important. What matters is the quality of our relationships. Relationships that bring happiness usually involve the sharing of feelings, mutual respect, acceptance, trust, fun and empathy.
+
+<p>People who make a habit of caring for the well-being of others tend to be happier. This might involve volunteering for an organization or reaching out to support friends and family on a regular basis.
+
+<p>People who exercise regularly improve both their physical and mental well-being. Some research has shown that exercise can be as effective as medication in treating depression.
+
+<p>When we are so interested in an activity we enjoy that we lose track of time, we are in a state of flow. The activity could be making art, playing piano, surfing, or playing a game. People who experience flow in their work or hobbies tend to be happier.
+
+<p>People who include spirituality in their daily life tend to be happier. Practicing spirituality is a way of recognizing and trying to understand the wonder and beauty of existence. Some people do this by going to a place of worship or praying. Some people practice yoga or meditation. Some people go for long walks in nature.
+
+<p>People are more likely to be happy if they know what their strengths are and use them regularly. People who set goals and use their strengths to achieve them tend to be happier. People are especially happy when they can use their strengths to serve the greater good.
+
+<p>People who think positively by being grateful, mindful, and optimistic are more likely to be happy. Being grateful means being thankful. Being mindful means being open to, focusing on, and enjoying the experiences of the present moment. Being optimistic means being hopeful about the future. 
+</div>
+</div>
+
+<br><br>
+<div class="qstn-div">
+
+<div class="quiz">
+ข้อ 16. <br>
+What is not given as a way people can include spirituality in their daily lives?</div>
+
+<label><input type="radio" name="q16" value="0">taking long walks in nature</label><br>
+<label><input type="radio" name="q16" value="0">going to a place of worship</label><br>
+<label><input type="radio" name="q16" value="1"> getting regular exercise</label><br>
+<label><input type="radio" name="q16" value="0">practicing yoga</label><br>
+
+
+<div class="quiz">
+ข้อ 17. <br>
+Why doesn't the brain remember positive experiences as much as negative ones?</div>
+
+<label><input type="radio" name="q17" value="0">Our ancestors didn't understand what made them happy.</label><br>
+<label><input type="radio" name="q17" value="1">Positive experiences were not as important for the survival of our ancestors as negative ones.</label><br>
+<label><input type="radio" name="q17" value="0">Positive experiences like having food and shelter were necessary for the survival of our ancestors.</label><br>
+<label><input type="radio" name="q17" value="0">Our ancestors experienced more threats in their daily lives.</label><br>
+
+
+
+
+<div class="quiz">
+ข้อ 18. <br>
+The writer probably believes that _______________ can help someone experiencing depression.</div>
+
+<label><input type="radio" name="q18" value="0">learning to make art</label><br>
+<label><input type="radio" name="q18" value="0"> learning to play the piano or guitar</label><br>
+<label><input type="radio" name="q18" value="0"> caring for the wellbeing of others</label><br>
+<label><input type="radio" name="q18" value="1">starting an exercise program</label><br>
+
+
+<div class="quiz">
+ข้อ 19. <br>
+What is part of thinking positively?</div>
+
+<label><input type="radio" name="q19" value="0">wishing that we could change the past</label><br>
+<label><input type="radio" name="q19" value="0">feeling bad about decisions we have made</label><br>
+<label><input type="radio" name="q19" value="1"> appreciating what we have</label><br>
+<label><input type="radio" name="q19" value="0">planning well ahead in the future</label><br>
+
+
+<div class="quiz">
+ข้อ 20. <br>
+Things we cannot control that affect our level of happiness are _______________ .</div>
+
+<label><input type="radio" name="q20" value="0">the number of volunteer positions we have</label><br>
+<label><input type="radio" name="q20" value="0"> the number and quality of relationships we have</label><br>
+<label><input type="radio" name="q20" value="0">the chasing of wealth and fame</label><br>
+<label><input type="radio" name="q20" value="1">our genes</label><br>
+
+
+<!--   21-25 อุปมา-อุปไมย 5 ข้อ   -->
+
+
+<div class="quiz">
+ข้อ 21. <br>
+What is not mentioned in the reading as being part of a quality relationship?</div>
+
+<label><input type="radio" name="q21" value="1">enthusiasm</label><br>
+<label><input type="radio" name="q21" value="0">sharing of feelings</label><br>
+<label><input type="radio" name="q21" value="0">ftrust</label><br>
+<label><input type="radio" name="q21" value="0">mutual respect</label><br>
+
+
+
+<div class="quiz">
+ข้อ 22. <br>
+What is not part of being mindful?</div>
+
+<label><input type="radio" name="q22" value="1"> taking pleasure in what you are doing at this time</label><br>
+<label><input type="radio" name="q22" value="0">focusing on this moment</label><br>
+<label><input type="radio" name="q22" value="1">  enjoying the memory of a past experience</label><br>
+<label><input type="radio" name="q22" value="0">open to the experiences of the present moment</label><br>
+
+
+
+<div class="quiz">
+ข้อ 23. <br>
+How does the author explain spirituality?</div>
+
+<label><input type="radio" name="q23" value="0">It is a way of making new friends.</label><br>
+<label><input type="radio" name="q23" value="0"> It is a way of recognizing the need to protect and preserve the beauty of nature.</label><br>
+<label><input type="radio" name="q23" value="1"> It is a way of recognizing and trying to understand the wonder and beauty of life.</label><br>
+<label><input type="radio" name="q23" value="0">It is a way of being mindful to the present environments.</label><br>
+
+
+
+<div class="quiz">
+ข้อ 24. <br>
+ It is a way of recognizing and trying to understand the wonder and beauty of life.</div>
+<label><input type="radio" name="q24" value="1">we feel the need to help others</label><br>
+<label><input type="radio" name="q24" value="0">people include spirituality in their daily lives</label><br>
+<label><input type="radio" name="q24" value="1">time seems to pass very quickly</label><br>
+<label><input type="radio" name="q24" value="0">we practice yoga</label><br>
+
+
+
+
+
+
+<div class="quiz">
+ข้อ 25. <br>
+What would the author think is not a way of caring for the well-being of others?</div>
+<label><input type="radio" name="q25" value="0">volunteering at a home for old people</label><br>
+<label><input type="radio" name="q25" value="1">  practicing yoga or meditation</label><br>
+<label><input type="radio" name="q25" value="0">giving advice to a friend who has marriage problems</label><br>
+<label><input type="radio" name="q25" value="0">visiting your grand-pa on a regular basis </label><br>
+
+</div>  <!-- qstn-div  -->
+
+
+
+<br>
+<input id="send" type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+</div>
+
+</div>  <!--  end of div content  -->
+  <script src="full_exam.js" type="text/javascript" language="JavaScript"></script>
+
+ </body>
+</html>

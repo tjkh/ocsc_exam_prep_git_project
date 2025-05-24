@@ -1,0 +1,724 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;  /* Ensures body and html take full height */
+  overflow-y: auto;  /* Enable scrolling */
+}
+
+
+/* for 1 choice per row */
+.choice_a_1_column{
+	width:90%;
+	padding:3px;
+	margin-left: 5px; /* align with item num  */
+	float:left;
+ /* border: 1px solid #0099ff;  */
+}
+.choice_b_1_column{
+	width:90%;
+	padding:3px;
+	margin-left:5px; /* align with item num  */
+	float:left;
+	/* border: 1px solid #0099ff;  */
+}
+.choice_c_1_column{
+	width:90%;
+	padding:3px;
+	margin-left:5px; /* align with item num  */
+	float:left;
+	 /* border: 1px solid #0099ff;  */
+}
+.choice_d_1_column{
+	width:90%;
+	padding:3px;
+	margin-left:5px; /* align with item num  */
+	float:left;
+	/* border: 1px solid #0099ff; */  
+}
+
+
+
+
+/* for 4 in row */
+.choice_a_4InRow{
+	width:80px;
+	padding:3px;
+	margin-left:5px; /* align with item num  */
+	float:left;
+	 border: 1px solid #0099ff;  
+}
+.choice_b_4InRow{
+    width:80px;
+	padding:3px;
+	margin-left:5px;
+	float:left;
+	border: 1px solid #0099ff; 
+}
+
+.choice_c_4InRow{
+	width:80px;
+	padding:3px;
+	float:left;
+	margin-left:5px;
+	 border: 1px solid #0099ff;  
+}
+
+.choice_d_4InRow{
+	width:80px;
+	padding:3px;
+	float:left;
+	margin-left:5px;
+	border: 1px solid #0099ff;  
+}
+
+
+
+/* end of for 4 in row */
+/* for quiz */
+.quiz_container{
+/* background: blue; */
+   margin-left: 0px;
+   margin-right: 0px;
+   padding: 0px 20px 0px 0px;
+   height: auto;
+   clear:both;
+ border-radius: 10px;
+   border: 1px solid red; 
+   overflow: hidden;
+}
+
+.quiz_container * {
+    /*padding: 2px 2px; */
+     padding-left: 10px;
+}
+.quiz_container2{
+/* background: blue; */
+   margin-left:0px;
+   margin-right: 0px;
+   padding: 0px 20px 0px 0px;
+   height: auto;
+   clear:both;
+ border-radius: 10px;
+   border: 1px solid red; 
+   overflow: hidden;
+}
+
+.item_container {
+    float: left;
+    clear:both;
+    overflow: hidden;
+   height: auto;
+   width:100%;
+   margin-left: 5px;
+ /*  border: 5px solid #669966; */ 
+}
+
+.choice_left {
+    margin-left:3%;
+	margin-top: 10px;
+    float: left;
+    clear:right;
+    width: 47%;
+    /* border: 1px solid #993399; */
+}
+
+.choice_right {
+    margin-left:1%;
+	margin-top: 10px;
+    float: left;
+	clear:right;
+	width: 47%;
+     overflow: hidden; 
+     /* border: 1px solid #ff66cc; */
+}
+
+.question_num{
+width:55px;
+float:left;
+clear:right;
+/*margin-right:3px; */
+text-align: center;
+     border: 1px solid #993300; 
+}
+
+.question_content{
+float:left;
+clear:both;
+margin-top:10px;
+/*width:90%; */
+/* border: 1px solid #003333; */
+}
+.choice_num_1Col{
+width:95%;
+float:left;
+margin-right:3px;
+text-align: top;
+/*    border: 1px solid #66cccc; */
+}
+
+
+.choice_num{
+width:50px;
+float:left;
+margin-right:3px;
+text-align: top;
+/*    border: 1px solid #66cccc; */
+}
+
+.choice_content{
+float:left;
+margin-top:2px;
+/* width: 85%; */
+/*     border: 1px solid #33ff66; */
+}
+.button{
+clear:both;
+padding: 5px 30px 5px 10px;
+/*     border: 1px solid #003399; */
+}
+
+.button_top_3px{
+clear:both;
+padding: 3px 30px 5px 10px;
+    /* border: 1px solid #003399; */
+}
+
+.explanation{
+  margin-top:1px;
+  margin-right:20px
+  padding:10px;
+  background: #999900;
+  color:#ffffff; 
+  float:left;
+  width:100%;
+ 
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 2.4s;
+    animation-name: animatetop;
+    animation-duration: 2.4s;
+
+}
+.show_answer{
+font-weight:bold;
+  padding-left:10px;
+  background: #330066;
+}
+
+
+.clear{
+height: 5px;
+clear:both;
+}
+
+.clear_after_item{
+height: 15px;
+clear:both;
+}
+
+.quiz_img {
+    vertical-align: top; 
+    /* border: 3px solid #663300; */
+}
+
+.chkAnsBtn{
+cursor:pointer;
+}
+
+.myFloat_Right{
+cursor:pointer;
+}
+
+input[type="radio"]{
+    vertical-align: baseline;
+}
+
+
+/* end of for quiz */
+table {
+    border-collapse: collapse;
+	width:100%;
+}
+
+td{
+   vertical-align: top;
+}
+
+table, td, th {
+    border: 1px solid #aaaaaa;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /*Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+   /* border: 1px solid #888; */
+    width: 85%;
+    height: 150px;
+   /*  overflow: auto;  */ 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@-webkit-keyframes div_slide {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    padding-bottom: 15px;
+	font-size: 120%;
+	font-family: Arial, Helvetica;
+	height: 30px;
+    background-color: #3F51B5;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 0px 2px 16px;
+    position: absolute; 
+    background-color: #ffffff;
+    max-height: calc(100% - 30px);
+   /*  width: calc(100% - 20px);  */
+    overflow-y: auto;
+
+    
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    font-size: 65%;
+    height: 10px;
+    background-color: ##3F51B5;
+    color: white;
+}
+
+.indent_15px{
+    display:block;
+    text-indent:15px;
+	}
+
+/* for search */
+
+span.searchword{ 
+	background-color:yellow !important; 
+}
+
+span.searchword_2{ 
+	background-color:yellow !important; 
+}
+
+div.center_head{
+	clear:both;
+	 text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+div.find{
+ text-align: right;
+ margin-right: 3px;
+ margin-bottom: 5px;
+}
+
+td.group_label { 
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: Green;
+	}
+
+td.sub_head { 
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #96ace7;
+	}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+	font-size: 150%;
+    background-color: Green;
+    color: white;
+	text-align:center;
+}
+
+th.normal_font {
+    font-size: 100%;
+    background-color: Green;
+    color: white;
+	text-align:center;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+table.true_false {
+    border-collapse: collapse;
+	width:80%;
+	margin: 0 auto;
+}
+
+table.fifty_percent {
+    border-collapse: collapse;
+	width:50%;
+	margin: 0 auto;
+}
+
+
+td.ctr{
+text-align: center;
+}
+
+/* for fraction */
+.frac { display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+     font-size: x-small;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+     font-size: x-small;
+    border-top: thin solid black;
+}
+.frac span.symbol {
+    display: none;
+} 
+/* end of for fraction */
+
+.dblUnderlined { 
+border-bottom: 5px double; 
+}
+
+table.fifty-percent {
+    border-collapse: collapse;
+	width:50%;
+}
+
+td{
+   vertical-align: top;
+}
+
+th.normal_font {
+    font-size: 100%;
+    background-color: Green;
+    color: white;
+	text-align:center;
+}
+
+.div_indent{
+margin-left: 15px;
+}
+
+p.no_margin{
+   margin:0;
+}
+
+IMG.ctr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+ol.new_indt {
+  list-style-type: none; 
+  counter-reset: item; 
+  margin: 0;
+  padding: 0;
+}
+
+li.new_indt {
+  display: table;
+  counter-increment: item;
+  /*margin-bottom: 0.6em;*/
+  margin-bottom: 0em;
+
+}
+
+li.new_indt:before {
+    content: counters(item, ".") ". "; 
+    display: table-cell;
+    padding-right: 0.6em;    
+}
+
+li.new_indt li {
+    margin: 0;
+}
+
+li.new_indt li:before {
+    content: counters(item, ".") " "; 
+}
+
+img.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+img.ctr_maxwidth{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    max-width:100%
+}
+
+td.alignLeft{
+	text-align: left;
+}
+td.alignRight{
+	text-align: right;
+}
+
+td.alignCenter{
+	text-align: center;
+}
+
+div.alignRight{
+	text-align: right;
+	}
+
+table.center_80{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.upper, .lower {
+  position: relative; /* Using relative positioning to maintain flow */
+  left: 0;
+  right: 0;
+  margin: 0em 0.2em 0em 0.2em;
+  /* padding: 0px 0px 0px 0px;  */
+  border-radius: 10px;
+  border: 2px solid Gainsboro;
+  overflow-y: auto; /* Allow scrolling */
+  padding-left: 5px;
+  padding-right: 3px;
+}
+
+.upper {
+ position: relative; /* Or fixed if you need it to be fixed */
+  top: 20px;  /* Start 50px from the top */
+  height: calc(48vh - 50px); /* Half of the viewport height minus 50px */
+/*  top: 0;   */
+ /* top: 50; */
+/*  height: 48%; */
+
+}
+
+.lower {
+  position: fixed;
+
+  top: 52vh;  /* Start at 52% of the viewport height */
+  height: 48vh; /* Takes up the other half of the screen */
+ /* bottom: 0;
+  height: 47%; */
+}
+
+/* ลดการย่อหน้าของ order list  */
+ol,li {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    counter-reset: foo;
+    display: table;
+}
+
+li {
+    list-style: none;
+    counter-increment: foo;
+    display: table-row;
+}
+
+li::before {
+    content: counter(foo) ".";
+    display: table-cell;
+    text-align: right;
+    padding-right: .3em;
+}
+
+.qstn-div {
+      height: 40vh;
+      width: 100%;      
+	  border-style: solid dotted;
+	  border-color: #4CAF50;
+	  border-width: 1px;
+      overflow-y: scroll;
+      background-color: #E0ECF8;
+    }
+
+
+.isNew{
+	display:none;
+	font-weight:bold;
+	font-size:65%;
+	text-align: center;
+	color:#FFFF00;
+	width: 50px;
+	border: 1px solid #FF0000;
+	margin-left: 5px;
+	clear:both;">
+}
+
+
+/* new tooltip modified by chatGPT  */
+
+
+ .tooltip {
+      position: relative;
+      display: inline-block;
+  /*    border-bottom: 1px dotted black;  */
+    text-indent:0em;
+	border-bottom: 2px dotted;
+      cursor: pointer; /* Add cursor style for better user experience */
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 100%; /* Set the width to 100% of the screen */
+      background-color: #022f71;
+      color: #fff;
+      text-align: center;
+      border-radius: 0px;
+      padding: 10px; /* Adjust padding for better appearance */
+      box-sizing: border-box; /* Include padding in the total width */
+      position: fixed; /* Fixed position to stay at the bottom */
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+      z-index: 2; /* Set a higher z-index to make it appear on top of buttons */
+      transition: opacity 0.3s ease; /* Add transition for a smoother effect */
+
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+/*  สำหรับบทสนทนา  */
+    .conver_container {
+        display: grid;
+        grid-template-columns: auto 1fr; /* First column auto width, second column takes remaining space */
+        grid-gap: 0px; /* Gap between grid items */
+    }
+    .conver_item {
+        padding: 0px;
+    }
+
+
+
+
+
+/*  end of tool tip modified by chatGPT */
+
+
+
+
+/* for inline translation */
+/*added a text indent to overide indent styles further down*/
+/*
+.tooltip {
+    display: inline-block;
+    text-indent:0em;
+  border-bottom: 1px dotted black;
+	display: inline-block;
+  border-bottom: 1px dotted black;
+  text-indent:0em;
+}
+
+.tooltiptext, .tooltiptext {
+
+    border-radius: 6px;
+    left: 10px;
+    line-height: normal;
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+     display: none;
+    width: calc(100vw - 155px);
+  background-color: #022f71;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+.tooltip:hover .tooltiptext {
+      display: block;
+}
+*/
+
+
+
+/*  สำหรับ tooltip แสดงคำแปล */
+/*  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup */
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration:underline;
+  text-decoration-style: dotted;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

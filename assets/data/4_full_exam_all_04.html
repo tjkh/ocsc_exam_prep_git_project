@@ -1,0 +1,1723 @@
+<!doctype html>
+<!--   ios เล่น วิดีโอแบบ inline ไม่ได้ เอาวิดีโอออก สำหรับ ios และปรับคำพูดนิดหน่อย   -->
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.65">
+    <link rel="stylesheet" type="text/css" href="full_exam_3_hrs.css">
+    <link rel="stylesheet" type="text/css" href="my_style.css">
+
+    <style>
+/*  ส่งขึ้น ให้ body font ออก เพราะจะทำให้ตัวเล็กมาก  
+body {
+  font-size: 16px;
+}
+ */
+.myCancelChar {  /*  สำหรับตัวอักษรทับกัน เช่น ให้ slash ทับตัวอักษร C เพื่อบอกว่า ไม่เอา */
+ display: inline-block;
+    width: 12px;
+    height: 17px;
+    position: relative;
+
+}
+span.upperChar {  /*  ตัวอักษรบน */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    text-align: center;
+	font-size: 20px;
+	color: red;
+	  top: 3px; /*   ทำให้อยู่ในแนวเดียวกันกับข้อความอื่นในบรรทัดนี้ */
+}
+span.lowerChar { /*  ตัวอักษรล่าง ที่ถูกทับ */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	 top: 3px; /*   ทำให้อยู่ในแนวเดียวกันกับข้อความอื่นในบรรทัดนี้ */
+}
+
+
+div.title {
+        margin-top: 0;
+        position: relative;
+    }
+    div.title:before {
+        content: "";
+        display: block;
+        border-top: solid 1px black;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        border-bottom: 1px solid #000;
+    }
+
+    div.title span {
+       background: #fff;
+       padding: 0 5px;
+       position: relative;
+       z-index: 5;
+       margin-left: 50px;
+    }
+
+/* สำหรับภาพ เต็มจอ ถ้าเป็น tablet เอาแค่ 80% */
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        @media (min-width: 600px) {  /* ถ้าหน้าจอ 600px ขึ้นไป */
+            /* Adjust styles for tablets */
+            .container {
+                max-width: 80%;
+            }
+        }
+
+  /* CSS class for the equal width table */
+  .equal-width-table {
+    width: 100%; /* Set table width to 100% of its container */
+	margin-right: 5px;
+    border-collapse: collapse; /* Collapse borders */
+    table-layout: fixed; /* Fix the layout to allow equal width */
+
+  }
+  .equal-width-table tr, td {
+  /*  border: 1px solid #ddd;  Add borders to cells */
+	border: 1px solid gray;
+    padding: 0px; /* Add padding to cells */
+    text-align: center; /* Align text to the left */
+     font-size: 24px;
+background-color: transparent; /* Make the background color transparent */
+  }
+table tr td.painted {
+  background: #E0ECF8;
+  border-style: hidden;
+  vertical-align: top;
+  /*  ส่งขึ้น ให้กำหนดเป็น 28px  */
+  font-size: 28px;
+  text-align: left;
+}
+
+</style>
+
+</head>
+<body>
+<div id ="timer_wrapper" class ="timer_wrapper">
+    <div id = "row" class ="timer_wrapper row">
+        <div class ="timer_wrapper row btns">
+            จับเวลา:&nbsp;&nbsp;
+            <!--  เมื่อกดปุ่ม เริ่ม ให้ส่งค่า เวลาที่ใช้ทำข้อสอบชุดนี้ ในรูป ช.ม., นาที, วินาที  -->
+            <!--  ไปยัง countDown()  ข้อสอบแต่ละชุด สามารถกำหนดเวลาให้ที่ต่างกัน เช่น countDown(0,40,0) คือ ให้เวลาทำข้อสอบ 40 นาที-->
+            <button id = "start" onclick="countDown(3,00,00)" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">เริ่ม</button>
+            <button id = "pause" onclick="pauseCountDown()" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px; color: red; display:none">Pause</button>
+            <button id = "reset" onclick="resetCountDown()"  style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;">Reset</button>
+
+        </div>
+
+        <div class ="timer_wrapper row details">
+            <div id="full_time" class ="timer_wrapper row detail duration">
+                เวลา: 3 ชั่วโมง
+            </div> <!-- end osf duration -->
+
+            <div class ="timer_wrapper row detail timer">
+                <div id="timer">0 : 0 : 0</div>
+            </div> <!-- end osf timer -->
+
+        </div> <!-- end of details -->
+
+    </div> <!-- end of timer_wrapper row  -->
+</div> <!-- end of timer_wrapper  -->
+
+
+<!-- The Modal สำหรับแสดง feedback -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">x</span>
+            <strong>เตรียมสอบ ก.พ.</strong>
+        </div>
+        <div class="modal-body">
+            <p id= "myMessage">Place holder for text..</p>
+        </div>
+        <div class="modal-footer">
+            https://www.thongjoon.com
+        </div>
+    </div>
+</div>
+
+<script src="get_modal.js" type="text/javascript" language="JavaScript"></script>
+
+<!--
+<div id="showNotAvailable_notBuyVersion">
+    มีเฉลยในรุ่นเต็ม นะครับ<br>
+    <small>เพียง 199.- เท่านั้น</small>
+</div>
+-->
+
+
+
+<div id="content"> <!--  start div content  -->
+    <!-- ตัวข้อสอบ เริ่มที่นี่ -->
+    <!-- display: none ไว้ก่อน ถ้ายังไม่ซื้อค่อยแสดง ดีกว่าแสดงก่อนแล้วลบ -->
+
+
+    <!--  ถ้ายังไม่ซื้อ ไม่ตรวจ  -->
+    <br><br>
+    <div id="ifNotBuy" style=" display: none; border: 2px solid red;  padding: 0px; border-radius: 25px; text-align: center; background-color: yellow; color: red; ">
+        <strong><span style="color: black">ข้อสอบชุดนี้ ลองทำได้</span><br>เฉพาะรุ่นเต็มเท่านั้น</strong><br> <span style="color: black;">ชุดที่ไม่มีข้อความนี้<br>จะตรวจและบอกคะแนนพร้อมเปอร์เซ็นต์</span><br>
+    </div>
+    <br>
+
+
+
+
+    <div style="text-align: center">
+        <strong>ความสามารถในการวิเคราะห์</strong> <br>(เกณฑ์่ผ่าน 60%)<br><br>
+    </div>
+    <strong>ความสามารถในการคิดวิเคราะห์เชิงภาษา</strong><br><br>
+    <u><strong>การเรียงประโยค</strong></u><br>
+    <!-- ============ GENERAL ==========  -->
+    <div id="quiz_general">
+
+        <!-- 36-40 เรียงประโยค  -->
+        <br><br>
+        <strong>คำสั่ง: </strong>ข้อ 1-5 จงพิจารณาข้อความในตัวเลือก แล้วจัดเรียงลําดับให้ถูกต้อง<br>
+        <div class="quiz">
+            <br>ข้อ 1. ข้อความใดอยู่ลำดับที่ 3
+
+            <ol>
+                <li> ความเรียงจึงเป็นงานเขียนที่สื่อความคิดของผู้เขียนเป็นสำคัญ  </li>
+                <li> ความเรียง เป็นงานเขียนที่เน้นในเรื่องของการแสดงความคิดเห็น  </li>
+                <li> ทำให้ความเรียงเป็นงานที่ให้คุณค่าด้านแง่คิดในเชิงปรัชญาเกี่ยวกับโลกและชีวิต </li>
+                <li> เป็นงานเขียนร้อยแก้วที่ไม่ยาวนัก  </li>
+                <li> และเป็นเรื่องราวที่ผู้เขียนแสดงความคิดเห็น    </li>
+            </ol>
+        </div>
+
+        <label><input type="radio" name="q1" value="0">ข้อความที่ 1 </label><br>
+        <label><input type="radio" name="q1" value="1">ข้อความที่ 5 </label><br>
+        <label><input type="radio" name="q1" value="0">ข้อความที่ 3</label><br>
+        <label><input type="radio" name="q1" value="0">ข้อความที่ 4</label>
+
+        <div class="quiz">
+            <br>ข้อ 2. ข้อความใดอยู่ลำดับที่ 4
+            <ol>
+                <li> ฉันได้รับการดูแลอย่างดีจากพ่อแม่
+                <li> ตั้งแต่วันที่ฉันจำความได้
+                <li> แต่พ่อและแม่ก็ไม่สั่งให้ฉันทำงานบ้างเลย
+                <li> หลายครั้งฉันมีความรู้สึกอยากจะแบ่งเบาภาระพ่อและแม่บ้าง
+            </ol>
+        </div>
+
+        <label><input type="radio" name="q2" value="0">ข้อความที่ 1 </label><br>
+        <label><input type="radio" name="q2" value="0">ข้อความที่ 2 </label><br>
+        <label><input type="radio" name="q2" value="1">ข้อความที่ 3 </label><br>
+        <label><input type="radio" name="q2" value="0">ข้อความที่ 4 </label>
+
+        <div class="quiz">
+            <br>ข้อ 3. ข้อความใดอยู่ลําดับที่ 2<br><br>
+
+            <ol>
+                <li> แต่คําว่าเรียงความเรามักจะใช้ในความหมายของวิชาการเขียนเรียงความ
+                <li>  ส่วนความเรียงนั้นใช้เรียกสิ่งที่เขียน หรือเรียบเรียงขึ้นเป็นเรื่องราว ด้วยภาษาที่ใช้พูดกันธรรมดา
+                <li> แท้จริงความเรียงก็คือเรียงความอย่างหนึ่ง
+                <li> "ความเรียงกับเรียงความ" สองคํานี้มีผู้ใช้แทนกันบ้างสลับกันบ้าง
+            </ol>
+
+        </div>
+
+        <label><input type="radio" name="q3" value="0">ข้อความที่ 1</label><br>
+        <label><input type="radio" name="q3" value="0">ข้อความที่ 2 </label><br>
+        <label><input type="radio" name="q3" value="1">ข้อความที่ 3  </label><br>
+        <label><input type="radio" name="q3" value="0">ข้อความที่ 4 </label><br>
+
+        <div class="quiz">
+            <br>ข้อ 4. ข้อความใดอยู่ลำดับที่ 4
+            <ol>
+                <li> ทําความหนักอกหนักใจให้แก่โรงเรียนและผู้ปกครอง
+                <li> จะเป็นได้หรือไม่ว่าการที่นักเรียนของเราทุกวันนี้กลายเป็นเด็กเกเร
+                <li> คอยแต่จะฝ่าฝืนระเบียบของโรงเรียน
+                <li> ก็เพราะครูไม่สนใจในบุคลิกภาพของตน
+            </ol>
+        </div>
+
+        <label><input type="radio" name="q4" value="0">ข้อความที่ 1 </label><br>
+        <label><input type="radio" name="q4" value="0">ข้อความที่ 2 </label><br>
+        <label><input type="radio" name="q4" value="0">ข้อความที่ 3 </label><br>
+        <label><input type="radio" name="q4" value="1">ข้อความที่ 4 </label>
+        <div class="quiz">
+            <br>ข้อ 5. ข้อความใดอยู่ลําดับที่ 2
+
+            <ol>
+                <li> สำหรับประเทศไทยมีองค์การบริหารจัดการก๊าซเรือนกระจก เป็นหน่วยวิเคราะห์ และรับรองโครงการคาร์บอนเครดิต
+                <li> “คาร์บอนเครดิต” หมายถึง สิทธิที่เกิดจากการลดการปล่อยก๊าซเรือนกระจก หรือ คาร์บอนไดออกไซด์ออกสู่สิ่งแวดล้อม
+                <li> ซึ่งสิทธิดังกล่าวจะต้องมีการรับรองโดยหน่วยรับรองของทางราชการ
+                <li> รวมถึง การเก็บกัก หรือ การดูดกลับด้วย จากกิจกรรมหรือโครงการ
+
+            </ol>
+        </div>
+
+        <label><input type="radio" name="q5" value="0">ข้อความที่ 1 </label><br>
+        <label><input type="radio" name="q5" value="0">ข้อความที่ 2 </label><br>
+        <label><input type="radio" name="q5" value="0">ข้อความที่ 3  </label><br>
+        <label><input type="radio" name="q5" value="1">ข้อความที่ 4 </label><br><br>
+
+
+        <u><strong>ความเข้าใจภาษา</strong></u><br><br>
+
+        <!-- 41-50 ความเข้าใจภาษา  -->
+        <strong>คำสั่ง:</strong> ข้อ 6 - 15 อ่านข้อความแล้วตอบคำถาม<br>
+
+        <!-- https://readingthai01.blogspot.com/2014/10/blog-post.html  -->
+        <div class="quiz">
+            <br>ข้อ 6. <br>
+            เรามักได้ยินกันอยู่เสมอ ๆ ในเวลาอธิษฐานว่า  เกิดชาติหน้าฉันใด  ขอให้มีอาการครบ  ๓๒ หรือไม่ก็ขอให้เด็กในท้องมีอาการครบ ๓๒  ส่วนมากก็จะนึกกันว่า หมายถึง อวัยวะต่าง ๆ  ภายนอกร่างกาย เช่น  หู ตา จมูก  แต่เมื่อนับไปนับมาก็ไม่ครบสักที  อันที่จริงแล้วอาการ ๓๒ หมายถึง สภาพความเป็นอยู่ลักษณะที่เป็นมนุษย์ตามคติเดิมของไทย ได้แก่ ธาตุดิน ๒๐ อย่าง (คือ ผม ขน เล็บ ฟัน หนัง เนื้อ เอ็น กระดูก เยื่อในกระดูก ไตหรือพุง หัวใจ ตับ พังผืด ม้าม ปอด ไส้ใหญ่ ไส้น้อย อาหารใหม่ อาหารเก่า และสมองศีรษะ) และธาตุน้ำ ๑๒ อย่าง (คือ น้ำดี เสมหะหรือเสลด หนอง เลือด เหงื่อ มันข้นหรือไขมัน น้ำตา มันเหลวหรือน้ำเหลือง น้ำลาย น้ำมูก ไขข้อ และปัสสาวะ) เมื่อมีส่วนประกอบเหล่านี้ครบสมบูรณ์มักเรียกว่า อาการครบ ๓๒
+            <br><br>
+            สาระสำคัญของข้อความนี้ คืออะไร
+        </div>
+        <label><input type="radio" name="q6" value="1"> อาการ ๓๒ คือ สภาพความเป็นอยู่ลักษณะที่เป็นมนุษย์ตามคติเดิมของไทย </label><br>
+        <label><input type="radio" name="q6" value="0">  อาการ ๓๒ ประกอบด้วย ธาตุดิน ๒๐ อย่างและธาตุน้ำ ๑๒ อย่าง </label><br>
+        <label><input type="radio" name="q6" value="0">  เกิดชาติหน้าฉันใด  ขอให้มีอาการครบ  ๓๒ </label><br>
+        <label><input type="radio" name="q6" value="0"> ความเข้าใจผิดเกี่ยวกับการอธิษฐาน </label><br>
+
+
+        <div class="quiz">
+            <br>ข้อ 7. <br>
+            ดอกมะเขือเป็นสัญลักษณ์ของความเคารพ    ความอ่อนน้อมถ่อมตน    โดยธรรมชาติของต้นมะเขือเมื่อมีดอก  ดอกที่จะทำให้ผลมะเขือได้  ต้องโค้งลง  เสมือนผู้อยู่ในอาการแสดงความเคารพ หรือคารวะบุคคลที่ตนยกย่องบูชา  ถ้าดอกมะเขือดอกใดชี้ดอกขึ้นเหมือนดอกไม้ชนิดอื่น ดอกนั้นจะไม่ให้ผลและจะเน่าร่วงหล่นไป   เปรียบได้กับบุคคลที่ขาดความอ่อนน้อมถ่อมตน
+            ขาดความเคารพก็จะหมดโอกาสที่จะได้รับถ่ายทอดความรู้จากครู
+            <br><br>
+            สาระสำคัญของบทความข้างต้นคือข้อใด</div>
+
+        <label><input type="radio" name="q7" value="1"> ดอกมะเขือเป็นสัญลักษณ์ของความเคารพ    ความอ่อนน้อมถ่อมตน 
+        </label><br>
+        <label><input type="radio" name="q7" value="0"> การนําดอกมะเขือมาใช้ในพิธีไหว้ครู </label><br>
+        <label><input type="radio" name="q7" value="0"> ธรรมชาติของดอกมะเขือ</label><br>
+        <label><input type="radio" name="q7" value="0">สัญลักษณ์ของดอกมะเขือ</label>
+
+
+        <div class="quiz">
+            <br>ข้อ 8. <br>
+            แม่บ้านที่ทำการค้าหรือรับจ้างต่าง ๆ เหล่านี้ เลี้ยงลูกไปด้วยไม่ได้ปล่อยทิ้งไว้  บ้านช่องก็ดูแลควบคุมไปด้วยในตัว  แม่บ้านเก็บเงินไว้เป็นกอบเป็นกำ หลาย ๆ ปีเข้า ก็พอมีเงินซื้อสวน ไร่นา  แม่บ้านขยายเนื้อที่ในบ้านให้เกว้างขวางขึ้น ทำมรดกไว้ให้ลูกหลาน ที่ดินก็ราคาไม่แพง หาซื้อง่าย
+            <br><br>
+            ข้อใดสรุปได้สอดคล้องกับข้อความมากที่สุด
+            <br>
+        </div>
+
+        <label><input type="radio" name="q8" value="1"> แม่บ้านทำงานไปด้วย เลี้ยงลูกไปด้วย </label><br>
+        <label><input type="radio" name="q8" value="0"> แม่บ้านขยัน ดูแลบ้านช่อง </label><br>
+        <label><input type="radio" name="q8" value="0"> แม่บ้านที่ทำงานไปด้วย มักจะเลี้ยงลูกไปด้วย</label><br>
+        <label><input type="radio" name="q8" value="0">  แม่บ้านทำงานไปด้วย เลี้ยงลูกไปด้วย เป็นคนดี</label>
+
+        <div class="quiz">
+            <br>ข้อ 9. <br>
+            ทุกครั้งที่ฉันได้เสื้อตัว กางเกงตัวใหม่มาเป็นสมบัติ ฉันเกิดความรู้สึกดีใจอยากสวมใส่อยากอวดก็คงเป็นความรู้สึกเช่นเดียวกับเด็กทุกคนที่ได้ของใหม่นั่นแหละ ยิ่งเด็กห้องแถวยากจนอย่างฉันนาน ๆ จะได้ของใหม่ สักชิ้น เสื้อผ้าสักตัว ก็ย่อมต้องดีอกดีใจเป็นทวีคูณ
+            <br><br>
+            สาระสําคัญของข้อความนี้คือข้อใด </div>
+
+        <label><input type="radio" name="q9" value="0"> สมบัติชิ้นใหม่ของฉัน</label><br>
+        <label><input type="radio" name="q9" value="0"> เด็กห้องแถวกับสมบัติชิ้นใหม่ </label><br>
+        <label><input type="radio" name="q9" value="1"> ฉันดีใจที่ได้เสื้อผ้าชุดใหม่ </label><br>
+        <label><input type="radio" name="q9" value="0">เด็กห้องแถวยากจนอย่างฉันนาน ๆ จะได้ของใหม่ สักชิ้น เสื้อผ้าสักตัว</label>
+
+        <div class="quiz">
+            <br>ข้อ 10. <br>
+            การเล่าเรียนในสมัยโบราณต้องอาศัยการฟังเป็นพื้น ท่านจึงจัดเอาการฟังเป็นข้อสำคัญ  คนที่จะเป็นนักปราชญ์ได้ก็ต้องได้ฟังมามาก ซึ่งเรียกว่าพหูสูต แต่สมัยนี้วิชาการหนังสือแพร่หลายทั่วไป จึงควรนับการอ่านเข้าในพหูสูตนี้ด้วย รวมความว่า ผู้ที่เป็นนักปราชญ์ จะต้องฟังมากและอ่านมากด้วย
+            <br><br>
+            ข้อใดสอดคล้องกับเรื่องที่อ่าน
+        </div>
+
+        <label><input type="radio" name="q10" value="0"> การฟังมีความสำคัญมากกว่าการอ่าน</label><br>
+        <label><input type="radio" name="q10" value="0"> การอ่านมีความสำคัญมากกว่าการฟัง</label><br>
+        <label><input type="radio" name="q10" value="1"> ผู้ที่เป็นพหูสูต ต้องฟังมาก อ่านมาก </label><br>
+        <label><input type="radio" name="q10" value="0"> สมัยโบราณใช้ทั้งการฟังและการอ่านเป็นพื้น</label>
+        <br><br>
+
+        <strong>สำหรับ ข้อ 11-15</strong><br>
+
+        <div class="qstn-div">
+            <!--   http://elsd.ssru.ac.th/bualak_na/pluginfile.php/302/mod_page/intro/เฉลยแบบทดสอบ%20บทที่%20๑%20เรื่องการอ่านจับใจความสำคัญ.pdf  -->
+
+            &ensp;&ensp;การทอผ้าเป็นงานศิลปหัตถกรรมพื้นบ้านในทั่วทุกภาคของประเทศไทยมาตั้งแต่สมัยโบราณ และมักมี เอกลักษณ์เฉพาะของท้องถิ่นที่ทำให้ดูสวยงามและแปลกตาแตกต่างกันไป ในทีนี้จะนำศิลปหัตถกรรมการทอผ้าบาง ชนิด ที่ได้รับการสนับสนุนส่งเสริมจาก มูลนิธิส่งเสริมศิลปาชีพ ฯ มาอธิบายเพื่อเป็นตัวอย่าง คือ การทอผ้าไหม และการทอผ้าจก <br><br>
+
+            &ensp;&ensp;การทอผ้าไหม ผ้าไหมเป็นงานหัตถศิลป์ที่รู้จักกันทั่วโลกด้วยคุณภาพที่มีเอกลักษณ์ในความงดงาม และความ คงทนของเนื้อผ้า มีลวดลายและเคล็ดลับวิธีที่แตกต่างกันไปตามแต่ละภาค ผ้าไหมมัดหมี่ เป็น ภูมิปัญญาชาวบ้านภาคอีสาน ที่สั่งสมและถ่ายถอดต่อ ๆ กันมาภายในครอบครัว <br><br>
+
+            &ensp;&ensp;ผ้าไหมมัดหมี่เป็นผ้าที่ทอขึ้นจาก   ที่ผ่านการมัด เพื่อสร้างลวดลายก่อนย้อมสีและทอ เวลาย้อมส่วนที่ถูก มัดไว้ก็จะไม่ติดสีจึงทำให้เกิดลวดลาย ถ้าต้องการหลายสีก็ต้องมัดและย้อมทับหลายครั้ง จนกว่าจะได้สีครบตาม ต้องการ หลังจากย้อมสีแล้วก็จะแก้เชือกที่มัดออก นำเส้นด้ายกรอเข้ากับหลอด เพื่อทอเป็นผืนผ้าต่อไป การทอผ้ามัดหมี่ มีทั้งที่เรียกว่า มัดหมี่ด้ายเส้นยืน มัดหมี่ด้ายเส้นพุ่ง และมัดหมี่ผสม <br><br>
+
+            &ensp;&ensp;ประเทศไทยมีการทอผ้ามัดหมี่มาเป็นเวลานานแล้ว โดยเฉพาะในภาคอีสาน ชาวบ้านจะทอผ้ามัดหมี่กันในหลายท้องที่และสอนต่อ ๆ กันมาในครอบครัว เมื่อสมเด็จพระนางเจ้า ฯ พระบรมราชินีนาถ เสด็จ พระราชดำเนินไปทรงเยี่ยมราษฎรในภาคอีสาน ทอดพระเนตรเห็นหญิงชาวบ้านสูงอายุ ที่มารอรับเสด็จนุ่งผ้าไหมมัดหมี่ ที่ผลิตจากชาวบ้าน และทรงตรวจคุณภาพผ้าไหม พร้อมทั้งพระราชทานคำแนะนำ ให้ชาวบ้านพัฒนาการทอ ให้มี คุณภาพดีขึ้น หลังจากนั้นจึงทรงพระกรุณาโปรดเกล้า ฯ ให้มีการฝึกสอนการทอผ้าไหมมัดหมี่ ใน ศูนย์ศิลปาชีพ โครงการศิลปาชีพ และกลุ่มศิลปาชีพที่ตั้งขึ้นในที่ต่าง ๆ<br><br>
+
+            &ensp;&ensp;การทอผ้าจก ผ้าจกเป็นผ้าทอผืนแคบ ๆ อาจทอขึ้นจากฝ้ายหรือไหม หรือผสมกันทั้ง 2 อย่างก็ได้ คำว่า “จก”  เป็นวิธีการทอผ้าให้เกิดลวดลายขึ้น โดยการใช้ไม้ปลายแหลม หรือขนเม่น งัดซ้อนด้ายยืนขึ้น และใช้ด้ายสีสอดไปตาม รอยซ้อนนั้น การสอดด้ายสีต่าง ๆ ไปตามรอยงัดซ้อนในจังหวะต่าง ๆ กัน ทำให้เกิดลวดลายคล้ายผ้าปัก ดังนั้นการทอ ผ้าจกจึงเป็นการทอและการจกลายไปพร้อม ๆ กัน ทำลวดลายสอดสลับด้วยไหมหรือด้ายสีต่าง ๆ ผ้าชนิดนี้นิยมใช้เป็น ส่วนประกอบตกแต่งผ้าผืนใหญ่ โดยเฉพาะผ้าซิ่น ซึ่งเมื่อประกอบด้วยผ้าจกแล้ว ก็เรียกว่า ผ้าซิ่นตีนจก <br><br>
+
+            &ensp;&ensp;การทอผ้าจกต้องใช้ความประณีตมาก ผ้าหนึ่งผืนกว่าจะทอเสร็จใช้เวลาหลายเดือนนักวิชาการด้านผ้าจึงมัก จัดให้การทอผ้าจกเป็นสุดยอดของการทอผ้า <br><br>
+
+            &ensp;&ensp;ศิลปะการทอผ้าจกสืบทอดมาจากวัฒนธรรมของชาวไทยเชื้อสายลาวพวน ซึ่งตั้งบ้านเรือนอยู่ที่ตำบลหาดเสี้ยว  อำเภอศรีสัชนาลัย จังหวัดสุโขทัย ดังนั้น จึงถือเป็นต้นแบบของการทอผ้าชนิดนี้ เดิมมักเป็นลายหน้ากระดาน หรือลาย แถบคั่นเป็นชั้น ๆ ต่อมาได้มีการคิดดัดแปลงเป็นลวดลายและสีสันให้หลากหลายมากขึ้น และจากการสนับสนุนของ มูลนิธิส่งเสริมศิลปาชีพ ฯ ในปัจจุบันได้มีการทอผ้าจกเกิดขึ้นหลายจังหวัดในภาคเหนือ เช่น อำเภอแม่แจ่ม จังหวัดเชียงใหม่ และอำเภอลอง จังหวัดแพร่ <br>
+
+
+        </div>
+        <br>
+        <div class="qstn-div">
+
+            <!--
+            ข้อ 1-10 เป็นของใหม่ ถ้าใช้ TextCrawler หรือ AstroGrep ค้นหา จะมีแต่เพียงในไฟล์นี้ เท่านั้น
+            ถึงตรงนี้
+            -->
+
+
+
+
+            <div class="quiz">
+                <br>ข้อ 11. <br>
+                เพราะเหตุใดจึงเรียกผ้าไหมชนิดหนึ่งว่า “ผ้าไหมมัดหมี่”<br></div>
+
+            <label><input type="radio" name="q11" value="0">เพราะกรรมวิธีการต้มเส้นไหมเป็นกรรมวิธีเดียวกันกับการต้มเส้นหมี่ </label><br>
+            <label><input type="radio" name="q11" value="0">เพราะเส้นไหมที่นำมาทอเล็ก บาง และกลมคล้ายลักษณะของเส้นหมี่ </label><br>
+            <label><input type="radio" name="q11" value="1">เพราะความสวยงามของผ้าไหมชนิดนี้เกิดจากเทคนิคการมัดย้อมเส้นไหม</label>  <br>
+            <label><input type="radio" name="q11" value="0">เพราะผ้าไหมชนิดนี้มีต้นกำเนิดจากหมู่บ้านมัดหมี่ ทางภาคอีสานของไทย</label>
+
+
+            <div class="quiz">
+                <br>ข้อ 12. <br>
+                คำว่า “ด้ายเส้นยืน” ในย่อหน้าที่ ๓ หมายถึงสิ่งใด </div>
+
+
+            <br>
+            <label><input type="radio" name="q12" value="1">  เส้นไหมแนวตั้งที่ใช้เป็นแกนในการทอผ้า </label> <br>
+            <label><input type="radio" name="q12" value="0">  เส้นไหมแนวนอนที่ใช้ขัดกับเส้นแนวตั้ง </label><br>
+            <label><input type="radio" name="q12" value="0"> เส้นไหมที่มัดย้อมให้เกิดลวดลายแล้ว </label><br>
+            <label><input type="radio" name="q12" value="0"> เส้นไหมที่ใช้ในการพุ่งเพื่อวัดขนาดผ้า</label>
+
+            <div class="quiz">
+                <br>ข้อ 13. <br>
+                ข้อแตกต่างระหว่าง ผ้าไหมมัดหมี่และผ้าจก ที่เห็นได้อย่างชัดเจน จากบทความนี้ คือข้อใด </div><br>
+
+            <label><input type="radio" name="q13" value="0"> อายุของผู้ผลิต</label><br>
+            <label><input type="radio" name="q13" value="0"> วัสดุที่ใช้</label><br>
+            <label><input type="radio" name="q13" value="1"> แหล่งกำเนิด </label><br>
+            <label><input type="radio" name="q13" value="0"> ความยาวของผืนผ้า </label><br>
+			
+            <div class="quiz">
+                <br>ข้อ 14. <br>
+                จากข้อความข้างต้นข้อใด สรุปได้<em>ไม่ถูกต้อง</em> </div>
+
+
+            <label><input type="radio" name="q14" value="1"> การทอผ้าเป็นงานหัตถศิลป์ของภาคเหนือและภาคอีสานของไทย</label><br>
+            <label><input type="radio" name="q14" value="0"> มูลนิธิศิลปาชีพส่งเสริมและสนับสนุนให้ชาวบ้านทอผ้าเป็นอาชีพเสริม  </label><br>
+            <label><input type="radio" name="q14" value="0"> การสร้างลายผ้าด้วยเทคนิคการจกต้องอาศัยระยะเวลาในการผลิต </label><br>
+            <label><input type="radio" name="q14" value="0"> มูลนิธิศิลปาชีพมักส่งเสริมให้ชาวบ้านพัฒนาสินค้าให้มีคุณภาพดีขึ้น</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 15. <br>
+                จากข้อความข้างต้นงานทอผ้าเป็นงานหัตถศิลป์ที่แสดงให้เห็นคุณลักษณะประการใดของคนไทย ได้ดีที่สุด </div>
+
+            <label><input type="radio" name="q15" value="0"> คนไทยเป็นคนรักสวยรักงามจึงออกแบบเสื้อผ้าเครื่องแต่งกายให้สวยงาม </label><br>
+            <label><input type="radio" name="q15" value="1"> คนไทยมีความคิดริเริ่มสร้างสรรค์จึงคิดวิธีการทอผ้าให้มีลักษณะเฉพาะถิ่น  </label><br>
+            <label><input type="radio" name="q15" value="0"> คนไทยมักไม่ปล่อยให้เวลาว่างผ่านไปอย่างไร้ประโยชน์จึงทำให้เกิดงานหัตถกรรม </label><br>
+            <label><input type="radio" name="q15" value="0"> คนไทยยอมรับวัฒนธรรมที่หลากหลายจึงทำให้มีธรรมเนียมประเพณีแตกต่างกัน </label>
+
+        </div>  <!-- end of div class="qstn-div" for 11-15  -->
+
+        <br>
+        <strong>ความสามารถในการคิดวิเคราะห์เชิงนามธรรม</strong><br><br>
+
+        <u><strong>อุปมาอุปไมย</strong></u><br>
+        <!-- 16-20 อุปมาอุปไมย  -->
+
+        <div class="quiz">
+            <br>ข้อ 16. &ensp;
+            ลำปาง : เชียงใหม่ :: &ensp; ? &ensp; : &ensp;? <br>
+        </div>
+
+        <label><input type="radio" name="q16" value="1"> ยะลา : ปัตตานี </label><br>
+        <label><input type="radio" name="q16" value="0"> กรุงเทพ : สงขลา </label><br>
+        <label><input type="radio" name="q16" value="0"> อยุธยา  : สุรินทร์</label><br>
+        <label><input type="radio" name="q16" value="0"> อุบลราชธานี : นครสวรรค์</label>
+
+        <div class="quiz">
+            <br>ข้อ 17. &ensp;
+            เทา : ดำ :: &ensp; ? &ensp; : &ensp;? <br>
+        </div>
+
+        <label><input type="radio" name="q17" value="0">น้ำเงิน : ม่วง </label><br>
+        <label><input type="radio" name="q17" value="1">ฟ้า : ขาว </label><br>
+        <label><input type="radio" name="q17" value="0">เหลือง : เขียว</label><br>
+        <label><input type="radio" name="q17" value="0">แสด : ชมพู</label><br>
+
+
+        <div class="quiz">
+            <br>ข้อ 18. &ensp;
+            สภานิติบัญญัติ : กฎหมาย :: &ensp; ? &ensp; : &ensp;? <br>
+        </div>
+
+        <label><input type="radio" name="q18" value="0"> สภากรุงเทพมหานคร : เทศบัญญัติ </label><br>
+        <label><input type="radio" name="q18" value="0"> กรุงเทพมหานคร : เทศบัญญัติ</label><br>
+        <label><input type="radio" name="q18" value="1"> สภากรุงเทพมหานคร : ข้อบัญญัติกรุงเทพมหานคร</label><br>
+        <label><input type="radio" name="q18" value="0"> กรุงเทพมหานคร : พระราชบัญญัติระเบียบบริหารราชการกรุงเทพมหานคร</label><br>
+		
+        <div class="quiz">
+            <br>ข้อ 19. &ensp;
+            ไก่ : ไข้หวัดนก :: &ensp; ? &ensp; : &ensp;? <br>
+        </div>
+
+        <label><input type="radio" name="q19" value="0">ไข้เลือดออก : ติดต่อ</label><br>
+        <label><input type="radio" name="q19" value="0">ลิง : วอกแว็ก</label><br>
+        <label><input type="radio" name="q19" value="1">คน : ไขหวัดใหญ่ </label><br>
+        <label><input type="radio" name="q19" value="0">เอดส์ : เพศสัมพันธ์</label>
+
+        <div class="quiz">
+            <br>ข้อ 20. &ensp;
+            หน้าต่าง : เพดาน :: &ensp; ? &ensp; : &ensp;? <br>
+        </div>
+
+        <label><input type="radio" name="q20" value="0">มุ้งลวด : เหล็กดัด</label><br>
+        <label><input type="radio" name="q20" value="0">เสาไฟฟ้า : ปล่องควัน</label><br>
+        <label><input type="radio" name="q20" value="0">มุ้งลวด : เหล็กดัด</label><br>
+        <label><input type="radio" name="q20" value="1">ประตูฟุตบอล : สนาม </label>
+        <br><br>
+
+
+        <u><strong>การสรุปความจากภาษา</strong></u><br><br>
+        <u><strong>คำสั่ง</strong></u>  ในแต่ละข้อจะประกอบด้วยเงื่อนไขหรือข้อมูลที่กำหนดให้ และข้อสรุปเป็นคู่ ๆ จากเงื่อนไขนั้น ให้ศึกษาเงื่อนไขที่กำหนดให้ก่อน แล้วจึงอาศัยความรู้ที่ได้จากเงื่อนไขดังกล่าวมาใช้พิจารณา ข้อสรุปทั้งสองของแต่ละข้อ แล้วทำตอบลงในกระดาษคำตอบ โดยยึดหลักในการทำตอบดังนี้ <br><br>
+
+        <div style="width: 100%;">
+
+            <!-- คำแนะนำ  วิธีการตอบ สรุปความ-->
+            <div class="container">
+                <img style="display: block;  margin-left: auto;  margin-right: auto;  width:100%; max-width:600px;" src="images/symbol_con_how_to.png" alt="คำสั่ง">
+            </div>
+
+        </div>
+        <!-- 31-35 เงื่อนไขภาษา  -->
+        <!-- https://www.youtube.com/watch?v=Aw4N2aWz78o   -->
+        <br><br>
+        เงื่อนไข สำหรับ -25<br>
+        <div class="qstn-div">
+            <br>
+            <!-- https://www.youtube.com/watch?v=AIlv4XxMHRE&t=99s
+            รอบเช้า 20 พย 65 ข้อสอบ ก.พ. รอบเช้า วันที่ 20 พ.ย. 65  -->
+
+            M, N, P, R, J, K และ X เป็นเลขจํานวนเต็มบวกที่ไม่ซ้ำกัน และไม่ได้เรียงลำดับตามอักษรข้างต้น ทั้งนี้ตัวเลขแต่ละตัวห่างกันเท่ากับ 3 โดยมีค่าตั้งแต่ 3 – 30<br><br>
+
+            เงื่อนไข<br>
+            - M เป็นเลขที่อยู่ตรงกลาง<br>
+            - N มีค่าน้อยกว่า M<br>
+            - P มีค่ามากกว่า N แต่น้อยกว่า R<br>
+            - J มากกว่า M อยู่ 6<br>
+            - K น้อยกว่า N แต่ X มากกว่า M<br><br>
+
+ 
+        </div>  <!-- จบกรอบเงื่อนไข   -->
+        <br><br>
+        <div class="qstn-div"> <!-- เริ่มกรอบคำถามเงื่อนไข   -->
+            <div class="quiz">
+                <br>ข้อ 21. <br>
+                <strong>ข้อสรุปที่ 1:</strong> ค่าต่ำสุดของ N คือ 3 <br>
+                <strong>ข้อสรุปที่ 2:</strong>  ค่าสูงสุดของ X คือ 30 <br><br>
+            </div>
+
+            <label><input type="radio" name="q21" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q21" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q21" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด  </label><br>
+            <label><input type="radio" name="q21" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+            <div class="quiz">
+                <br>ข้อ 22. <br>
+                <strong> ข้อสรุปที่ 1:</strong> ค่าสูงสุดของ K คือ 15 <br>
+                <strong>ข้อสรุปที่ 2:</strong> ค่าต่ำสุดของ R = 15  <br><br>
+
+
+            </div>
+
+            <label><input type="radio" name="q22" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+            <label><input type="radio" name="q22" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q22" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+            <label><input type="radio" name="q22" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label><br>
+
+            <div class="quiz">
+                <br>ข้อ 23. <br>
+                <strong>ข้อสรุปที่ 1:</strong> ถ้า M = 16 แล้ว J = 22 <br>
+                <strong>ข้อสรุปที่ 2:</strong> ถ้า M = 15 แล้ว P + M = 39 <br><br>
+            </div>
+
+            <label><input type="radio" name="q23" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+            <label><input type="radio" name="q23" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q23" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+            <label><input type="radio" name="q23" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label><br>
+
+            <div class="quiz">
+                <br>ข้อ 24. <br>
+                <strong>ข้อสรุปที่ 1:</strong> ถ้า R = 16 แล้ว N = 7  <br>
+                <strong>ข้อสรุปที่ 2:</strong> ถ้า J = 19 แล้ว P มากกว่า K <br><br>
+
+            </div>
+
+            <label><input type="radio" name="q24" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+            <label><input type="radio" name="q24" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q24" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+            <label><input type="radio" name="q24" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label><br>
+
+            <div class="quiz">
+                <br>ข้อ 25. <br>
+                <strong>ข้อสรุปที่ 1:</strong> 
+             ถ้า P = 10 แล้ว N + J = 28 
+                <br>
+                <strong>ข้อสรุปที่ 2:</strong> 
+				ค่าน้อยสุดของ N = 6 และค่ามากสุดของ M = 18
+				<br><br>
+
+
+            </div>
+
+            <label><input type="radio" name="q25" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+            <label><input type="radio" name="q25" value="1">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+            <label><input type="radio" name="q25" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+            <label><input type="radio" name="q25" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label><br>
+
+        </div> <!-- จบกรอบคำถามเงื่อนไข   -->
+        <br>
+        <!-- การสรุปความจากสัญลักษณ์ -->
+
+<!-- ตรวจถึงตรงนี้   -->
+
+        <div style="width: 100%;">
+
+            <!-- คำแนะนำ  วิธีการตอบ สรุปความ-->
+            <div class = "container">
+                <img style="display: block;  margin-left: auto;  margin-right: auto;  width:100%; max-width:600px;" src="images/symbol_con_instruction.png" alt="คำสั่ง">
+            </div>
+
+        </div>
+        <div style="width: 100%;">
+            <!-- คำแนะนำ  วิธีการตอบ สรุปความ-->
+            <div class="container">
+                <img src="images/symbol_con_how_to.png">
+            </div>
+
+        </div>
+        <!--  26-35 เงื่อนไขสัญญลักษณ์  -->
+
+        <!--  ข้อสอบ กพ 2556 20 พ.ย. 2565 ข้อ 34-38   -->
+
+        <div class="quiz">
+            <br>ข้อ 26. <br><br>
+            <u>เงื่อนไข:</u><br>
+            2B &lt; (C + D) = E &lt; 3F &gt; G <br>
+            H  &lt; (L + M) ≥ E &lt; <span class='frac'>G<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+            (ทุกตัวอักษรมีค่ามากกว่าศูนย์)
+        </div><br><br>
+
+        <u>ข้อสรุปที่ 1:</u> E &lt; C<br>
+        <u>ข้อสรุปที่ 2:</u> B &gt; E<br><br>
+
+        <label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q26" value="1">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+        <label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q26" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label>
+
+
+        <div class="quiz">
+            <br>ข้อ 27. <br><br>
+
+            <u>เงื่อนไข:</u><br>
+            2B &lt; (C + D) = E &lt; 3F &gt; G <br>
+            H  &lt; (L + M) ≥ E &lt; <span class='frac'>G<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+            (ทุกตัวอักษรมีค่ามากกว่าศูนย์)
+        </div><br><br>
+        <u>ข้อสรุปที่ 1:</u> D &lt; 3F<br>
+        <u>ข้อสรุปที่ 2:</u> 3G &gt; E<br><br>
+
+        <label><input type="radio" name="q27" value="1">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+        <label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด </label><br>
+        <label><input type="radio" name="q27" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label>
+
+        <div class="quiz">
+            <br>ข้อ 28. <br><br>
+            <u>เงื่อนไข:</u><br>
+            2B &lt; (C + D) = E &lt; 3F &gt; G <br>
+            H  &lt; (L + M) ≥ E &lt; <span class='frac'>G<span class='symbol'>/</span><span class='bottom'>2</span></span><br>
+            (ทุกตัวอักษรมีค่ามากกว่าศูนย์)
+        </div><br><br>
+
+        <u>ข้อสรุปที่ 1:</u> B &lt; C<br>
+        <u>ข้อสรุปที่ 2:</u> 2D &gt; G<br><br>
+
+        <label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q28" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q28" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน  </label>
+        <div class="quiz">
+            <br>ข้อ 29. <br><br>
+            <u>เงื่อนไข:</u><br>
+            2B &lt; (C + D) = E &lt; 3F &gt; G <br>
+            H  &lt; (L + M) ≥ E &lt; <span class='frac'>G<span class='symbol'>/</span><span class='bottom'>2</span></span><br>ทุกตัวอักษรมีค่ามากกว่าศูนย์
+        </div><br><br>
+
+        <u>ข้อสรุปที่ 1:</u> 2C + 2D &lt; 3F<br>
+        <u>ข้อสรุปที่ 2:</u> H &lt; 2M<br><br>
+
+        <label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q29" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q29" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน  </label>
+
+
+        <div class="quiz">
+            <br>ข้อ 30. <br><br>
+            <u>เงื่อนไข:</u><br>
+            2B &lt; (C + D) = E &lt; 3F &gt; G <br>
+            H  &lt; (L + M) ≥ E &lt; <span class='frac'>G<span class='symbol'>/</span><span class='bottom'>2</span></span><br>ทุกตัวอักษรมีค่ามากกว่าศูนย์
+        </div><br><br>
+
+        <u>ข้อสรุปที่ 1:</u> C = M<br>
+        <u>ข้อสรุปที่ 2:</u> E &gt; B<br><br>
+
+        <label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q30" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q30" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+
+        <!--  ข้อสอบ กพ 2556 20 พ.ย. 2565 ข้อ 42-46   -->
+        <div class="quiz">
+            <br>ข้อ 31. <br><br>
+
+            <u>เงื่อนไข:</u><br>
+            <span class="frac">J<span class="symbol">/</span><span class="bottom">K</span></span> = 3 = (L + M) = N<br>
+            L  ≯ P  ≯ Q<br>
+            (ทุกตัวอักษรมีค่ามากกว่า 0)<br><br>
+
+            <u>ข้อสรุปที่ 1:</u> J  ≱ KM<br>
+            <u>ข้อสรุปที่ 2:</u> (J + N)  ≥ (K + 3)<br><br>
+        </div>
+
+        <label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+        <label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q31" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด </label><br>
+        <label><input type="radio" name="q31" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+        <div class="quiz">
+            <br>ข้อ 32.  <br><br>
+            <u>เงื่อนไข:</u><br>
+            <span class="frac">J<span class="symbol">/</span><span class="bottom">K</span></span> = 3 = (L + M) = N<br>
+            L  ≯ P  ≯ Q<br>
+            (ทุกตัวอักษรมีค่ามากกว่า 0)<br><br>
+
+
+            <u>ข้อสรุปที่ 1:</u> L &gt; 3<br>
+            <u>ข้อสรุปที่ 2:</u> N  ≠  M<br><br>
+        </div>
+
+        <label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q32" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด </label><br>
+        <label><input type="radio" name="q32" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน  </label>
+
+        <div class="quiz">
+            <br>ข้อ 33.  <br><br>
+
+            <u>เงื่อนไข:</u><br>
+            <span class="frac">J<span class="symbol">/</span><span class="bottom">K</span></span> = 3 = (L + M) = N<br>
+            L  ≯ P  ≯ Q<br>
+            (ทุกตัวอักษรมีค่ามากกว่า 0)<br><br>
+
+
+            <u>ข้อสรุปที่ 1:</u> P = Q<br>
+            <u>ข้อสรุปที่ 2:</u> K &gt; N<br><br>
+        </div>
+
+        <label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข </label><br>
+        <label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q33" value="1">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด  </label><br>
+        <label><input type="radio" name="q33" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน </label>
+
+        <div class="quiz">
+            <br>ข้อ 34.  <br><br>
+
+            <u>เงื่อนไข:</u><br>
+            <span class="frac">J<span class="symbol">/</span><span class="bottom">K</span></span> = 3 = (L + M) = N<br>
+            L  ≯ P  ≯ Q<br>
+            (ทุกตัวอักษรมีค่ามากกว่า 0)<br><br>
+
+
+            <u>ข้อสรุปที่ 1:</u> N  ≤  (P + M)<br>
+            <u>ข้อสรุปที่ 2:</u> <span class="frac">J<span class="symbol">/</span><span class="bottom">K</span></span> &lt; (L + Q)<br><br>
+        </div>
+
+        <label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q34" value="0">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด</label><br>
+        <label><input type="radio" name="q34" value="1">ข้อสรุปทั้งสองข้อสรุปต่างกัน   </label>
+
+
+        <div class="quiz">
+            <br>ข้อ 35.  <br><br>
+
+            <u>เงื่อนไข:</u><br>
+            <span class="frac">J<span class="symbol">/</span><span class="bottom">K</span></span> = 3 = (L + M) = N<br>
+            L  ≯ P  ≯ Q<br>
+            (ทุกตัวอักษรมีค่ามากกว่า 0)<br><br>
+
+
+            <u>ข้อสรุปที่ 1:</u> 3 &lt; KN<br>
+            <u>ข้อสรุปที่ 2:</u> JK &gt; 3<br><br>
+        </div>
+
+        <label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อเป็นจริงตามเงื่อนไข</label><br>
+        <label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อเป็นเท็จตามเงื่อนไข </label><br>
+        <label><input type="radio" name="q35" value="1">ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด   </label><br>
+        <label><input type="radio" name="q35" value="0">ข้อสรุปทั้งสองข้อสรุปต่างกัน</label>
+
+        <br><br>
+
+        <strong>ความสามารถในการคิดวิเคราะห์เชิงปริมาณ</strong><br><br>
+
+        <strong><u>อนุกรม</u></strong><br><br>
+
+        <u>คำสั่ง</u> จงเลือกคำตอบจากตัวเลือก 1. – 4. มาเติมลงในช่องว่าง เพื่อให้ได้อนุกรมที่มีความสัมพันธ์ต่อเนื่องกันอย่างสมเหตุสมผลมากที่สุด<br><br>
+        <!-- 1-5 อนุกรม  -->
+        <div class="quiz">  <!-- ต้องมี div class="quiz" ทุกข้อ เพราะเอาไปใช้นับจำนวนข้อ  -->
+            ข้อ 36.
+            <div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;"> <!-- box -->
+                <br>
+                7 &ensp;
+                9 &ensp;
+                -3 &ensp;
+                13 &ensp;
+                19 &ensp;
+                29 &ensp;
+                ........ <br><br>
+
+
+                <label><input type="radio" name="q36" value="0">39 &ensp; </label><br>
+                <label><input type="radio" name="q36" value="0">48 &ensp; </label><br>
+                <label><input type="radio" name="q36" value="0">54</label><br>
+                <label><input type="radio" name="q36" value="1">61 </label>
+
+
+            </div>  <!-- end of box -->
+        </div> <!-- end of quiz -->
+
+        <br>
+        <div class="quiz">
+            ข้อ 37. <br>
+            <div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+
+                <br>
+                1024 &ensp;
+                841 &ensp;
+                576 &ensp;
+                289 &ensp;
+                64 &ensp;
+                .......... &ensp;
+                <br>
+                <small>(ข้อสอบเสมือนจริง กพ 2566)</small>
+                <br><br>
+
+
+                <label><input type="radio" name="q37" value="0"> 3</label><br>
+                <label><input type="radio" name="q37" value="1"> 9 </label><br>
+                <label><input type="radio" name="q37" value="0"> 21</label><br>
+                <label><input type="radio" name="q37" value="0"> 27</label><br>
+
+            </div>  <!-- end of box -->
+        </div> <!-- end of quiz -->
+
+
+
+        <div class="quiz">
+            <br>ข้อ 38. <br>
+            <div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+                <br>
+                1 &ensp;
+                32 &ensp;
+                81 &ensp;
+                64&ensp;
+                25&ensp;
+                6&ensp;
+                ?
+                <br><br>
+
+                <label><input type="radio" name="q38" value="0"> 0</label><br>
+                <label><input type="radio" name="q38" value="1"> 1</label><br>
+                <label><input type="radio" name="q38" value="0"> 3</label><br>
+                <label><input type="radio" name="q38" value="0"> 9</label><br>
+
+            </div>  <!-- end of box -->
+        </div> <!-- end of quiz -->
+
+
+        <div class="quiz">
+            <br>ข้อ 39. <br>
+            <div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+                <br>
+                1 &ensp;
+                8 &ensp;
+                18 &ensp;
+                36 &ensp;
+                67 &ensp;
+                116 &ensp;
+                ........ <br><br>
+
+
+                <label><input type="radio" name="q39" value="1"> 188 </label><br>
+                <label><input type="radio" name="q39" value="0"> 183</label><br>
+                <label><input type="radio" name="q39" value="0"> 151</label><br>
+                <label><input type="radio" name="q39" value="0"> 84</label><br>
+
+            </div>  <!-- end of box -->
+        </div> <!-- end of quiz -->
+
+
+        <div class="quiz">
+            <br>ข้อ 40. <br>
+            <div style="margin-left: 0px; border: 1px solid #4CAF50; padding: 5px;">
+                <br>
+                16 &ensp;
+                16 &ensp;
+                19 &ensp;
+                49 &ensp;
+                22 &ensp;
+                100 &ensp;
+                25 &ensp;
+                ........ <br><br>
+
+                <label><input type="radio" name="q40" value="0"> 172</label><br>
+                <label><input type="radio" name="q40" value="0"> 164</label><br>
+                <label><input type="radio" name="q40" value="1"> 169  </label><br>
+                <label><input type="radio" name="q40" value="0"> 185</label><br>
+
+            </div>  <!-- end of box -->
+        </div> <!-- end of quiz -->
+
+
+        <br><br>
+        <strong><u>โจทย์คณิตศาสตร์ </u></strong><br><br>
+        <u>คำสั่ง</u> จงเลือกคำตอบที่ถูกที่สุดจากตัวเลือก 1. – 4. แล้วกดเลือกคำตอบ<br><br>
+
+        <!-- 11-15 คณิตศาสตร์ทั่วไป  operate 1 ข้อ  -->
+        <div class="quiz">
+            <br> ข้อ 41. <br>
+            ถ้า 2 * 7 = 196 และ<br>
+            3 * 8 = 576 แล้ว<br>
+            1 * 12 = ?  <br>
+            <hr>
+        </div>
+
+        <br>
+        <label><input type="radio" name="q41" value="0">24</label><br>
+        <label><input type="radio" name="q41" value="1">144 </label><br>
+        <label><input type="radio" name="q41" value="0">370</label><br>
+        <label><input type="radio" name="q41" value="0">595</label>
+        <div class="quiz">
+            <br>ข้อ 42. <br>
+            มีเลขจำนวนเต็มบวกกี่ตัว ที่หาร 150 ได้ลงตัว<br>
+            <small>(ข้อสอบเสมือนจริง ปี 2566)</small>
+            <!-- 130% x 2,550 = 3,315 บาท  -->
+        </div><br>
+
+        <label><input type="radio" name="q42" value="0"> 5 ตัว </label><br>
+        <label><input type="radio" name="q42" value="0"> 10 ตัว </label><br>
+        <label><input type="radio" name="q42" value="1"> 12 ตัว</label><br>
+        <label><input type="radio" name="q42" value="0"> 15 ตัว</label>
+
+
+        <div class="quiz">
+            <br>ข้อ 43. <br>
+            กระเป๋าใบหนึ่ง ติดราคาป้ายไว้ 200 บาท แต่ลดให้ลูกค้าอีก 20% จากราคาป้าย ซึ่งผู้ขายยังได้กำไรอยู่ 25% ถามว่า กระเป๋าใบนี้ มีต้นทุนกี่บาท ?
+
+            <br>
+        </div>
+        <br>
+        <label><input type="radio" name="q43" value="0">110 บาท</label><br>
+        <label><input type="radio" name="q43" value="1">128 บาท </label><br>
+        <label><input type="radio" name="q43" value="0">130 บาท</label><br>
+        <label><input type="radio" name="q43" value="0">132 บาท</label>
+
+
+
+        <div class="quiz">
+            <br>ข้อ 44. <br>
+            โน้ตบุ๊คตัวหนึ่ง ราคาทุน 24,000 บาท ต้องการขายให้ได้กำไร 20% หลังจากที่ลดราคาแล้ว 40% จะต้องติดป้ายราคาขายโน๊ตบุ๊คตัวนี้ กี่บาท<br><br>
+        </div>
+
+        <label><input type="radio" name="q44" value="0"> 47,000 บาท</label><br>
+        <label><input type="radio" name="q44" value="1"> 48,000  บาท </label><br>
+        <label><input type="radio" name="q44" value="0">49,000  บาท </label><br>
+        <label><input type="radio" name="q44" value="0">50,000  บาท </label>
+
+
+        <div class="quiz">
+            <br>ข้อ 45. <br>
+            สมศักดิ์ซื้อของทั้งหมด เป็นเงิน 661 บาท โดยซื้อน้ำมันพืช 2 ขวด ราคาขวดละ 89 บาท ซื้อน้ำยาซักผ้านุ่ม 3 ถุง ราคาถุงละ 28 บาท เงินที่เหลือทั้งหมด ซื้อสบู่ ราคาก้อนละ 57 บาท ถามว่า สมศักดิ์ซื้อของทั้งหมด กี่ชิ้น<br><br>
+        </div>
+
+        <label><input type="radio" name="q45" value="0">7 ชิ้น</label><br>
+        <label><input type="radio" name="q45" value="0">10 ชิ้น</label><br>
+        <label><input type="radio" name="q45" value="1">12  ชิ้น  </label><br>
+        <label><input type="radio" name="q45" value="0">15 ชิ้น  </label>
+
+        <br><br>
+
+
+
+        <strong><u>การวิเคราะห์ข้อมูล</u></strong><br><br>
+        <u>คำสั่ง </u>ให้ศึกษาและทำความเข้าใจกับข้อมูลซึ่งเป็นตารางที่กำหนดให้ แล้วจึงอาศัยความรู้ความเข้าใจ จากข้อมูลนั้น ๆ เป็นหลักในการตอบ<br><br>
+
+        <!-- 6-10 ตาราง  -->
+        <!--  ไฟล์ Excel คือ "C:\_flutter\exercise_raw_data\full_exam\คณิต-ชุด-2-.xlsx"  -->
+        <!--   https://thaipetfood.org/download/report/สถิติ%20Petfood%20_%20Trade%20map%202020-2022.pdf  -->
+        <strong>สำหรับ ข้อ 46-50</strong><br><br>
+
+        <div>   <!--  beginning of table  -->
+
+
+
+            <strong>มูลค่าการส่งออก-นำเข้าสินค้าของไทย ระหว่างเดือน ก.ค.-ธ.ค. 2566</strong><br>
+            <div align='right'>หน่วย: ล้านดอลลาร์ สรอ. &ensp;&ensp;</div>
+            <table class="shrink_text">
+                <tr><th>เดือน&ensp;</th><th>สินค้าออก&ensp;</th><th>∆%&ensp;</th><th>สินค้าเข้า&ensp;</th><th>∆%</th></tr>
+                <tr><td style="text-align: center">ก.ค.&ensp;</td><td>?&ensp;</td><td>N/A&ensp;</td><td>21,684.00&ensp;</td><td>N/A&ensp;</td></tr>
+                <tr><td style="text-align: center">ส.ค.&ensp;</td><td>23,195.00&ensp;</td><td>5.25&ensp;</td><td>21,971.00&ensp;</td><td>1.32&ensp;</td></tr>
+                <tr><td style="text-align: center">ก.ย.&ensp;</td><td>25,170.00&ensp;</td><td>?&ensp;</td><td>21,357.00&ensp;</td><td>-2.79&ensp;</td></tr>
+                <tr><td style="text-align: center">ต.ค.&ensp;</td><td>23,342.00&ensp;</td><td>-7.26&ensp;</td><td>?&ensp;</td><td>3.37&ensp;</td></tr>
+                <tr><td style="text-align: center">พ.ย.&ensp;</td><td>?&ensp;</td><td>-1.04&ensp;</td><td>23,258.00&ensp;</td><td>5.35&ensp;</td></tr>
+                <tr><td style="text-align: center">ธ.ค.&ensp;</td><td>22,380.00&ensp;</td><td>-3.12&ensp;</td><td>20,035.00&ensp;</td><td>?&ensp;</td></tr>
+                <tr><td style="text-align: center">Total&ensp;</td><td>139,226.00&ensp;</td><td>&ensp;</td><td>130,382.00&ensp;</td><td>&ensp;</td></tr>
+            </table>
+        </div>   <!--  end of table  -->
+
+        <br><br>
+
+        <div class="qstn-div">  <!--  สำหรับข้อความที่ scroll ได้ สำหรับบทความ หรือ ตาราง -->
+
+            <div class="quiz">
+                ข้อ 46. <br>
+                เดือนใด มีอัตราการขยายตัว การส่งออกเมื่อเปรียบเทียบกับเดือนที่ผ่านมา สูงที่สุด?<br>
+            </div>
+
+            <label><input type="radio" name="q46" value="0">ก.ค.</label><br>
+            <label><input type="radio" name="q46" value="0">ส.ค.</label><br>
+            <label><input type="radio" name="q46" value="1">ก.ย. </label><br>
+            <label><input type="radio" name="q46" value="0">ต.ค.</label><br><br>
+
+			<div class="quiz">
+                ข้อ 47. <br>
+                เดือน กรกฎาคม มีมูลค่าการส่งออกสินค้า ประมาณ กี่ล้านดอลล่าร์ สหรัฐ<br>
+            </div>
+
+            <label><input type="radio" name="q47" value="0">21,585 ล้านดอลล่าร์ </label><br>
+            <label><input type="radio" name="q47" value="0">21,650 ล้านดอลล่าร์ </label><br>
+            <label><input type="radio" name="q47" value="1">22,039 ล้านดอลล่าร์ </label><br>
+            <label><input type="radio" name="q47" value="0">22,150 ล้านดอลล่าร์ </label><br><br>
+
+            <div class="quiz">
+                ข้อ 48. <br>
+                ในเดือน ตุลาคม มูลค่าการนำสินค้าเข้า คิดเป็นประมาณร้อยละเท่าไร ของการนำเข้าสินค้าทั้ง 6 เดือน?
+            </div>
+
+            <label><input type="radio" name="q48" value="0"> ร้อยละ 15.12</label><br>
+            <label><input type="radio" name="q48" value="0"> ร้อยละ 15.56</label><br>
+            <label><input type="radio" name="q48" value="1"> ร้อยละ 16.93 </label><br>
+            <label><input type="radio" name="q48" value="0"> ร้อยละ  17.85</label><br><br>
+
+
+            <div class="quiz">
+                ข้อ 49. <br>
+                มูลค่าสินค้าออก ในเดือนพฤศจิกายน มีมูลค่าเท่าไร?
+            </div>
+
+            <label><input type="radio" name="q49" value="0"> 20,955</label><br>
+            <label><input type="radio" name="q49" value="0"> 21,100</label><br>
+            <label><input type="radio" name="q49" value="1"> 23,100 </label><br>
+            <label><input type="radio" name="q49" value="0">23,510 </label><br><br>
+
+            <div class="quiz">
+                ข้อ 50. <br>
+                ข้อใด กล่าวถูกต้องเกี่ยวกับการนำเข้า-ส่งออกสินค้า?
+            </div>
+
+            <label><input type="radio" name="q50" value="0">มูลค่าสินค้าออก มีมูลค่ามากกว่า มูลค่าสินค้าเข้า ทุกเดือน</label><br>
+            <label><input type="radio" name="q50" value="1"> อัตราส่วนของมูลค่าสินค้าเข้าเดือนสิงหาคม : มูลค่าสินค้าเข้าทั้ง 6 เดือน ประมาณ 11 : 65</label><br>
+            <label><input type="radio" name="q50" value="0"> อัตราการเปลี่ยนแปลงของสินค้าออก ในเดือน ธันวาคม มากกว่า อัตราการเปลี่ยนแปลงของสินค้าเข้า ในเดือนเดียวกัน</label><br>
+            <label><input type="radio" name="q50" value="0">ผลรวมของมูลค่าสินค้าออกระหว่างเดือน กันยายน - ตุลาคม มีน้อยกว่า ผลรวมของมูลค่าสินค้าออก ในช่วงเวลาเดียวกัน</label><br>
+			
+
+        </div>  <!-- qstn-div  -->
+    </div> <!--  end of quiz_general  -->
+    <!-- =================== END OF GENERAL ================  -->
+
+
+    <!--
+    <div class="tooltip"> word <span class="tooltiptext">word = คำแปล  </span></div>
+    -->
+
+    <!-- ================= ENGLISH ================  -->
+
+    <br><br>
+    <div style="text-align: center">
+        <strong>วิชาภาษาอังกฤษ </strong> <br>(เกณฑ์ผ่าน 50%)<br><br>
+    </div>
+
+    <div id="quiz_english">
+
+        <!-- 51-55 conversation  -->
+        <strong><u>Conversation</u></strong><br><br>
+
+        <u>Instructions:</u> Select the most appropriate choice for each item based on the following conversation.
+
+       <br><br>
+        <div class="qstn-div"><br>
+        <table>
+            <tr class="painted"><td class="painted">Tim: </td><td class="painted">Hey Nina, did you see the email I sent about the presentation for the client meeting?</td></tr>
+            <tr class="painted"><td class="painted">Nina: </td><td class="painted">Hi Tim, yes, I just saw it. It looks great!</td></tr>
+            <tr class="painted"><td class="painted">Tim: </td><td class="painted">Thanks! I was actually wondering if there's any chance we could ....(51)....  the meeting today? Some time this afternoon would work much better for me.</td></tr>
+            <tr class="painted"><td class="painted">Nina: </td><td class="painted">I'm sorry, but I've got to finish that report today. It's due first thing tomorrow morning, and it's taking longer than I expected. Perhaps we could ....(52).... for tomorrow?</td></tr>
+            <tr class="painted"><td class="painted">Tim: </td><td class="painted">Absolutely, tomorrow works for me. How about ....(53)....?</td></tr>
+            <tr class="painted"><td class="painted">Nina: </td><td class="painted">That's very kind of you, Tim, but I think ....(54).... would be best for everyone involved. Does ....(55).... work for you?</td></tr>
+            <tr class="painted"><td class="painted">Tim: </td><td class="painted">O.K. Let's get together at 3 pm tomorrow. Thanks for being flexible, Nina.</td></tr>
+        </table>
+         </div>  <!-- end of class="qstn-div" -->
+        <br>
+        <div class="qstn-div">
+            <div class="quiz">
+                <br>ข้อ 51. <br>
+
+            </div>
+
+            <br>
+            <label><input type="radio" name="q51" value="1">reschedule</label><br>
+            <label><input type="radio" name="q51" value="0">cancel</label><br>
+            <label><input type="radio" name="q51" value="0">call off</label><br>
+            <label><input type="radio" name="q51" value="0">abandon</label>
+
+            <div class="quiz">
+                <br>ข้อ 52. <br>
+            </div>
+            <br>
+            <label><input type="radio" name="q52" value="0">today</label><br>
+            <label><input type="radio" name="q52" value="1"> tomorrow </label><br>
+            <label><input type="radio" name="q52" value="0">next week</label><br>
+            <label><input type="radio" name="q52" value="0">next month</label>
+
+			<div class="quiz">
+                <br>ข้อ 53. <br>
+            </div>
+
+            <br>
+            <label><input type="radio" name="q53" value="0">10 am</label><br>
+            <label><input type="radio" name="q53" value="0">lunch time</label><br>
+            <label><input type="radio" name="q53" value="0">in the morning</label><br>
+            <label><input type="radio" name="q53" value="1">your earliest convenience </label>
+
+			<div class="quiz">
+                <br>ข้อ 54. <br>
+            </div>
+
+            <br>
+            <label><input type="radio" name="q54" value="0"> excluded</label><br>
+            <label><input type="radio" name="q54" value="0"> included</label><br>
+            <label><input type="radio" name="q54" value="1"> involved</label><br>
+            <label><input type="radio" name="q54" value="0"> concerned</label>
+
+            <div class="quiz">
+                <br>ข้อ 55. <br>
+            </div>
+            <br>
+            <label><input type="radio" name="q55" value="0"> 1 pm</label><br>
+            <label><input type="radio" name="q55" value="0"> 2 pm</label><br>
+            <label><input type="radio" name="q55" value="1"> 3 pm </label><br>
+            <label><input type="radio" name="q55" value="0"> 4 pm</label>
+
+            <br>
+        </div>  <!--  end of class="qstn-div" -->
+        <br>
+
+        <br>
+
+        <!-- 56-60 vocab  -->
+        <u><strong>Vocabulary</strong></u><br>
+        <div class="quiz">
+
+
+            <br>ข้อ 56. <br>
+            You need to __________ cookies to continue using the website. Cookies are necessary.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q56" value="0"> disable</label><br>
+        <label><input type="radio" name="q56" value="1"> accept </label><br>
+        <label><input type="radio" name="q56" value="0"> refuse</label><br>
+        <label><input type="radio" name="q56" value="0"> decline</label>
+
+		<div class="quiz">
+            <br>ข้อ 57. <br>
+            The wind turbines __________ electricity for the nearby town.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q57" value="0"> transmit</label><br>
+        <label><input type="radio" name="q57" value="1"> produce </label><br>
+        <label><input type="radio" name="q57" value="0"> harvest</label><br>
+        <label><input type="radio" name="q57" value="0">  consume</label>
+
+        <div class="quiz">
+            <br>ข้อ 58. <br>
+            Despite facing challenges, she remained __________ about her future.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q58" value="1"> positive</label><br>
+        <label><input type="radio" name="q58" value="0"> doubtful</label><br>
+        <label><input type="radio" name="q58" value="0"> uncertain</label><br>
+        <label><input type="radio" name="q58" value="0"> apprehensive</label>
+
+        <div class="quiz">
+            <br>ข้อ 59. <br>
+            Your teacher praised you for your __________ grades in the class.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q59" value="1"> outstanding </label><br>
+        <label><input type="radio" name="q59" value="0"> dominant</label><br>
+        <label><input type="radio" name="q59" value="0"> poor</label><br>
+        <label><input type="radio" name="q59" value="0"> dismal</label>
+
+        <div class="quiz">
+            <br>ข้อ 60. <br>
+            When a faster runner passes another runner during a race, we say he ...... another runner.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q60" value="0"> surpass</label><br>
+        <label><input type="radio" name="q60" value="1"> overtakes</label><br>
+        <label><input type="radio" name="q60" value="0"> excels</label><br>
+        <label><input type="radio" name="q60" value="0"> shields</label><br><br>
+
+
+
+        <!-- 61-65 structure  -->
+        <u><strong>Structure</strong></u><br><br>
+
+        <u>Instructions:</u> Choose the correct answer.<br>
+        <div class="quiz">
+            <br>ข้อ 61. <br>
+            I __________  breakfast this morning, so I'm quite hungry now.
+
+        </div>
+
+        <br>
+        <label><input type="radio" name="q61" value="0"> ate</label><br>
+        <label><input type="radio" name="q61" value="0"> wasn't eating</label><br>
+        <label><input type="radio" name="q61" value="1"> haven't eaten </label><br>
+        <label><input type="radio" name="q61" value="0"> haven't been eating</label>
+
+
+
+        <div class="quiz">
+            <br>ข้อ 62. <br>
+            She __________  dinner by the time I __________  at her house.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q62" value="0"> cooked / arrived</label><br>
+        <label><input type="radio" name="q62" value="0"> has cooked / arrived</label><br>
+        <label><input type="radio" name="q62" value="1"> had cooked / arrived </label><br>
+        <label><input type="radio" name="q62" value="0"> was cooking / arriving</label>
+
+
+        <div class="quiz">
+            <br>ข้อ 63. <br>
+            If I __________ (win) the lottery, I __________ (travel) the world.
+
+        </div>
+
+        <br>
+        <label><input type="radio" name="q63" value="0"> win / will travel</label><br>
+        <label><input type="radio" name="q63" value="1"> won / would travel</label><br>
+        <label><input type="radio" name="q63" value="0"> had won / would have traveled</label><br>
+        <label><input type="radio" name="q63" value="0"> am winning / would be traveling</label>
+
+
+        <div class="quiz">
+            <br>ข้อ 64. <br>
+            I love __________  to music while I'm cooking.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q64" value="0"> to listen</label><br>
+        <label><input type="radio" name="q64" value="1"> listening  </label><br>
+        <label><input type="radio" name="q64" value="0"> listened</label><br>
+        <label><input type="radio" name="q64" value="0"> have listened</label>
+
+
+        <div class="quiz">
+            <br>ข้อ 65. <br>
+            When we were at Hua-Hin, we went to __________ beach for a swim.
+        </div>
+
+        <br>
+        <label><input type="radio" name="q65" value="0"> a</label><br>
+        <label><input type="radio" name="q65" value="0"> an</label><br>
+        <label><input type="radio" name="q65" value="1"> the  </label><br>
+        <label><input type="radio" name="q65" value="0"> - </label>
+
+
+        <br><br>
+
+        <!-- 66-75 reading  -->
+        <u><strong>Reading</strong></u>
+        <br><br>
+        <strong>สำหรับ ข้อ 66-75</strong><br><br>
+        <strong>Instructions:</strong> Read the following information and select the best answer for each item.<br><br>
+
+        <div class="qstn-div">
+
+        The European Union (EU) has been actively promoting the adoption of electric cars as part of its broader strategy to reduce greenhouse gas emissions and combat climate change. With transportation being a significant contributor to carbon emissions, the EU sees the transition to electric vehicles (EVs) as crucial for achieving its environmental goals. Through various initiatives and policies, the EU aims to incentivize both consumers and manufacturers to embrace electric cars as a cleaner alternative to traditional internal combustion engine vehicles.<br><br>
+
+        One of the key initiatives driving the adoption of electric cars in the EU is the implementation of stringent emissions standards. The EU has set ambitious targets for reducing CO<sub>2</sub> emissions from cars and vans, pushing automakers to produce more fuel-efficient vehicles or face hefty fines. By imposing these standards, the EU encourages car manufacturers to invest in electric and hybrid technologies to meet the requirements and avoid penalties. Additionally, the EU offers financial incentives and subsidies for consumers purchasing electric vehicles, such as tax breaks, grants, and rebates, making EVs more affordable and attractive options for buyers.<br><br>
+
+        Moreover, the EU is focused on developing the necessary infrastructure to support the widespread adoption of electric cars. This includes expanding the network of charging stations across member states to alleviate concerns about range anxiety and facilitate long-distance travel with EVs. Through funding programs and collaborations with industry stakeholders, the EU aims to build a comprehensive charging infrastructure that is accessible, reliable, and convenient for electric car owners. Furthermore, the EU promotes research and innovation in battery technology to enhance the performance, affordability, and sustainability of electric vehicles, ensuring that EVs become a viable and competitive choice for consumers in the automotive market.<br><br>
+
+        In summary, the EU's efforts to promote electric cars align with its broader objectives of reducing carbon emissions, combating climate change, and fostering sustainable transportation systems. By implementing emissions standards, providing financial incentives, and investing in infrastructure and technology, the EU seeks to accelerate the transition to electric vehicles and establish a greener, cleaner future for mobility in Europe.<br><br>
+
+        </div>
+        <br><br>
+
+        <div class="qstn-div">
+            <div class="quiz">
+                <br>ข้อ 66. <br>
+                What is one of the primary reasons for the European Union (EU) promoting electric cars?
+            </div>
+
+            <label><input type="radio" name="q66" value="0"> To increase traffic congestion</label><br>
+            <label><input type="radio" name="q66" value="0">  To boost sales of traditional internal combustion engine vehicles</label><br>
+            <label><input type="radio" name="q66" value="1">  To reduce greenhouse gas emissions and combat climate change </label><br>
+            <label><input type="radio" name="q66" value="0"> To encourage reliance on fossil fuels</label>
+
+
+            <div class="quiz">
+                <br>ข้อ 67. <br>
+                How does the EU incentivize automakers to produce more electric vehicles?
+            </div>
+
+            <label><input type="radio" name="q67" value="0"> By imposing fines on electric vehicle manufacturers</label><br>
+            <label><input type="radio" name="q67" value="0"> By reducing taxes on traditional vehicles</label><br>
+            <label><input type="radio" name="q67" value="0"> By offering grants for manufacturing traditional vehicles</label><br>
+            <label><input type="radio" name="q67" value="1"> By setting stringent emissions standards </label>
+
+            <div class="quiz">
+                <br>ข้อ 68. <br>
+                What financial incentives does the EU offer to consumers purchasing electric vehicles?
+            </div>
+
+            <label><input type="radio" name="q68" value="0"> Increased taxes on electric vehicles</label><br>
+            <label><input type="radio" name="q68" value="1"> Subsidies and grants </label><br>
+            <label><input type="radio" name="q68" value="0"> Higher insurance premiums for electric vehicles</label><br>
+            <label><input type="radio" name="q68" value="0"> No financial incentives</label>
+
+            <div class="quiz">
+                <br>ข้อ 69. <br>
+                What aspect of electric vehicles does the EU focus on developing to support their adoption?
+            </div>
+            <label><input type="radio" name="q69" value="0"> Increasing fuel consumption</label><br>
+            <label><input type="radio" name="q69" value="0"> Reducing battery performance</label><br>
+            <label><input type="radio" name="q69" value="1"> Expanding charging infrastructure  </label><br>
+            <label><input type="radio" name="q69" value="0"> Limiting research and innovation</label>
+
+
+            <div class="quiz">
+                <br>ข้อ 70. <br>
+                How does the EU aim to alleviate range anxiety associated with electric vehicles?
+            </div>
+            <label><input type="radio" name="q70" value="0"> By reducing the number of charging stations</label><br>
+            <label><input type="radio" name="q70" value="0"> By making charging stations inaccessible</label><br>
+            <label><input type="radio" name="q70" value="1"> By expanding the network of charging stations</label><br>
+            <label><input type="radio" name="q70" value="0"> By increasing the distance between charging stations</label>
+
+            <div class="quiz">
+                <br>ข้อ 71. <br>
+                What type of technology does the EU promote research and innovation in to enhance electric vehicles?
+            </div>
+
+            <label><input type="radio" name="q71" value="0"> Carbon-emitting technology</label><br>
+            <label><input type="radio" name="q71" value="0"> Diesel engine technology</label><br>
+            <label><input type="radio" name="q71" value="1"> Battery technology </label><br>
+            <label><input type="radio" name="q71" value="0"> Combustion engine technology</label>
+
+			<div class="quiz">
+                <br>ข้อ 72. <br>
+                What is the EU's ultimate objective in promoting electric cars?
+            </div>
+
+            <label><input type="radio" name="q72" value="0"> To increase carbon emissions</label><br>
+            <label><input type="radio" name="q72" value="0"> To exacerbate climate change</label><br>
+            <label><input type="radio" name="q72" value="1"> To accelerate the transition to sustainable transportation  </label><br>
+            <label><input type="radio" name="q72" value="0"> To discourage innovation in the automotive sector</label>
+
+
+            <div class="quiz">
+                <br>ข้อ 73. <br>
+                How does the EU encourage consumers to choose electric cars over traditional vehicles?
+            </div>
+            <label><input type="radio" name="q73" value="0"> By imposing higher taxes on electric cars</label><br>
+            <label><input type="radio" name="q73" value="0"> By offering financial incentives for traditional vehicles </label><br>
+            <label><input type="radio" name="q73" value="0"> By increasing fuel prices for electric cars</label><br>
+            <label><input type="radio" name="q73" value="1"> By providing financial incentives for electric cars</label>
+
+            <div class="quiz">
+                <br>ข้อ 74. <br>
+                What role does the EU play in developing electric vehicle infrastructure?
+            </div>
+
+            <label><input type="radio" name="q74" value="0"> It limits investment in charging stations</label><br>
+            <label><input type="radio" name="q74" value="1"> It encourages the expansion of charging networks </label><br>
+            <label><input type="radio" name="q74" value="0"> It promotes reliance on fossil fuels</label><br>
+            <label><input type="radio" name="q74" value="0"> It discourages research in battery technology</label>
+
+            <div class="quiz">
+                <br>ข้อ 75. <br>
+                Why does the EU promote electric cars as a cleaner alternative?
+            </div>
+
+            <label><input type="radio" name="q75" value="0"> To increase pollution levels</label><br>
+            <label><input type="radio" name="q75" value="0"> To worsen air quality</label><br>
+            <label><input type="radio" name="q75" value="1"> To reduce carbon emissions </label><br>
+            <label><input type="radio" name="q75" value="0"> To deplete natural resources</label>
+
+
+        </div>  <!--  qstn-div  -->
+    </div>  <!-- end of div_english   -->
+
+    <!-- =================== END OF ENGLISH ================  -->
+
+    <!-- =================== LAW ================  -->
+    <br><br>
+    <div style="text-align: center">
+        <strong>วิชาความรู้และลักษณะการเป็นข้าราชการที่ดี </strong> <br>(เกณฑ์ผ่าน 60%)<br>
+    </div>
+    <div id="quiz_law">
+
+        <!-- 76 - 81 ระเบียบบริหาร  -->
+
+
+        <div class="quiz">
+            <br>ข้อ 76. <br>
+            บุคคลในข้อใด มีหน้าที่วางแผนและประสานกิจกรรมให้มีการใช้ทรัพยากร ของส่วนราชการต่าง ๆ ในกระทรวงร่วมกัน เพื่อให้เกิดประสิทธิภาพ ความคุ้มค่า และบรรลุเป้าหมายของกระทรวง<br>
+        </div>
+
+        <label><input type="radio" name="q76" value="0"> ปลัดกระทรวง</label><br>
+        <label><input type="radio" name="q76" value="0"> หัวหน้ากลุ่มภารกิจ</label><br>
+        <label><input type="radio" name="q76" value="0"> อธิบดี</label><br>
+        <label><input type="radio" name="q76" value="1"> ถูกทุกข้อ </label>
+
+        <div class="quiz">
+
+            <br>ข้อ 77. <br>
+            การตั้ง ยุบ และเปลี่ยนเขตอำเภอ ให้ตราเป็นกฎหมายใด <br>
+        </div>
+
+        <label><input type="radio" name="q77" value="0"> พระราชบัญญัติ</label><br>
+        <label><input type="radio" name="q77" value="1"> พระราชกฤษฎีกา </label><br>
+        <label><input type="radio" name="q77" value="0"> พระราชกำหนด</label><br>
+        <label><input type="radio" name="q77" value="0"> กฎกระทรวง</label>
+
+
+        <div class="quiz">
+            <br>ข้อ 78. <br>
+            ในกรณีที่ส่วนราชการ ประสงค์จะรับโอนข้าราชการหรือลูกจ้าง อันเนื่องมาจากการยุบส่วนราชการ ต้อง กระทำภายในกี่วัน<br>
+        </div>
+
+        <label><input type="radio" name="q78" value="1"> 30 วัน </label><br>
+        <label><input type="radio" name="q78" value="0"> 40  วัน  </label><br>
+        <label><input type="radio" name="q78" value="0"> 60  วัน </label><br>
+        <label><input type="radio" name="q78" value="0"> 90  วัน  </label>
+
+        <div class="quiz">
+            <br>ข้อ 79. <br>
+            กระทรวงใดมีภารกิจเพิ่มขึ้น และมีความจำเป็นอย่างยิ่งต้องมีรองปลัดกระทรวงมากกว่าที่กำหนดไว้ จะต้องได้รับการอนุมัติ จากหน่วยงานใด <br>
+        </div>
+
+        <label><input type="radio" name="q79" value="0"> ก.พ.</label><br>
+        <label><input type="radio" name="q79" value="0"> ก.พ.ร. </label><br>
+        <label><input type="radio" name="q79" value="0"> ค.ร.ม.</label><br>
+        <label><input type="radio" name="q79" value="1"> ข้อ 1 และ 2</label>
+        <br>
+
+
+
+        <div class="quiz">
+            <br>ข้อ 80. <br>
+            ผู้ใดเป็นผู้บังคับบัญชาข้าราชการ ในหน่วยงานที่ มีอำนาจหน้าที่เกี่ยวกับ ราชการของคณะรัฐมนตรี รัฐสภา และราชการในพระองค์ <br>
+        </div>
+
+        <label><input type="radio" name="q80" value="0"> รัฐมนตรีประจำสำนักนายกรัฐมนตรี</label><br>
+        <label><input type="radio" name="q80" value="0"> เลขาธิการนายกรัฐมนตรี </label><br>
+        <label><input type="radio" name="q80" value="1"> เลขาธิการคณะรัฐมนตรี  </label><br>
+        <label><input type="radio" name="q80" value="0"> ปลัดสำนักนายกรัฐมนตรี</label><br>
+
+        <div class="quiz">
+            <br>ข้อ 81. <br>
+            บุคคลในข้อใด เป็นข้าราชการการเมือง<br>
+        </div>
+
+        <label><input type="radio" name="q81" value="1"> เลขาธิการนายกรัฐมนตรี  </label><br>
+        <label><input type="radio" name="q81" value="0"> เลขาธิการคณะรัฐมนตรี </label><br>
+        <label><input type="radio" name="q81" value="0">รองเลขาธิการนายกรัฐมนตรี ฝ่ายบริหาร</label><br>
+        <label><input type="radio" name="q81" value="0">ข้อ 1 และข้อ 2</label>
+
+
+        <!-- 82 - 87 กิจการบ้านเมืองที่ดี  -->
+        <!-- https://www.thaisc.com/5278  -->
+
+        <div class="quiz">
+            <br>ข้อ 82. <br>
+            ข้อใด<u>ไม่ใช่</u>เป้าหมายในการบริหารกิจการบ้านเมืองที่ดี  <br>
+        </div>
+
+        <label><input type="radio" name="q82" value="0"> เกิดผลสัมฤทธิ์ต่อภารกิจของรัฐ</label><br>
+        <label><input type="radio" name="q82" value="0">  ไม่มีขั้นตอนการปฏิบัติงานเกินความจำเป็น</label><br>
+        <label><input type="radio" name="q82" value="0"> มีการปรับปรุงภารกิจของส่วนราชการ ให้ทันต่อสถานการณ์ </label><br>
+        <label><input type="radio" name="q82" value="1"> ส่งเสริมประชาธิปไตยและการมีส่วนร่วมของทุกภาคส่วน</label>
+        <br>
+
+        <div class="quiz">
+            <br>ข้อ 83. <br>
+            ในกรณีที่เกิดปัญหาและอุปสรรค ซึ่งสืบเนื่อง เกี่ยวข้องกับส่วนราชการอื่น ส่วนราชการนั้นจะมีวิธีดำเนินการอย่างไร
+        </div>
+
+        <label><input type="radio" name="q83" value="0"> รีบดำเนินการแก้ปัญหาและอุปสรรคนั้นโดยเร็ว</label><br>
+        <label><input type="radio" name="q83" value="1"> แจ้งให้ส่วนราชการที่เกี่ยวข้องทราบ เพื่อดำเนินการแก้ไข ปรับปรุงโดยเร็วต่อไป </label><br>
+        <label><input type="radio" name="q83" value="0"> รายงานผู้บังคับบัญชาเหนือขึ้นไปเพื่อแก้ไขปัญหา </label><br>
+        <label><input type="radio" name="q83" value="0"> แจ้ง ก.พ. ให้ทราบ</label>
+
+        <br>
+
+
+        <div class="quiz">
+            <br>ข้อ 84. <br>
+            ข้อใด <u>ไม่ปรากฎใน</u> รายละเอียดของแผนปฏิบัติราชการ ตาม พ.ร.ฎ.ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี <br>
+        </div>
+        <label><input type="radio" name="q84" value="0"> เป้าหมายของภารกิจ</label><br>
+        <label><input type="radio" name="q84" value="0"> ตัวชี้วัดความสำเร็จของภารกิจ</label><br>
+        <label><input type="radio" name="q84" value="0"> ผลสัมฤทธิ์ของภารกิจ </label><br>
+        <label><input type="radio" name="q84" value="1"> ผลกระทบของภารกิจ </label><br>
+
+
+
+        <div class="quiz">
+            <br>ข้อ 85. <br>
+            การจัดทำบัญชีต้นทุนของส่วนราชการ เกี่ยวข้องกับข้อใด มากที่สุด<br>
+        </div>
+
+        <label><input type="radio" name="q85" value="0"> การจัดทำแผนปฏิบัติราชการ</label><br>
+        <label><input type="radio" name="q85" value="0"> การติดตาม และประเมินผลการปฏิบัติตามแผนปฏิบัติราชการ</label><br>
+        <label><input type="radio" name="q85" value="0"> สำนักงบประมาณ</label><br>
+        <label><input type="radio" name="q85" value="1"> กรมบัญชีกลาง  </label>
+
+        <div class="quiz">
+            <br>ข้อ 86. <br>
+            หน่วยงานใด มีหน้าที่ประเมินความคุ้มค่า ในการปฏิบัติภารกิจของรัฐของส่วนราชการ<br>
+        </div>
+
+        <label><input type="radio" name="q86" value="0"> สำนักงานคณะกรรมการพัฒนาการเศรษฐกิจ และสังคมแห่งชาติ และสำนักงาน ก.พ.</label><br>
+        <label><input type="radio" name="q86" value="0"> สำนักงาน ก.พ.ร. และสำนักงบประมาณ</label><br>
+        <label><input type="radio" name="q86" value="1"> สำนักงานคณะกรรมการพัฒนาการเศรษฐกิจ และสังคมแห่งชาติ และสำนักงบประมาณ</label><br>
+        <label><input type="radio" name="q86" value="0">  สำนักงาน ก.พ.ร. และสำนักงาน ก.พ.</label>
+
+
+        <div class="quiz">
+            <br>ข้อ 87. <br>
+            เหตุผลในข้อใด ที่ทำให้้ส่วนราชการไม่จำเป็นต้อง ถือราคาตํ่าสุดในการเสนอซื้อ หรือจ้างเสมอไป<br>
+        </div>
+
+        <label><input type="radio" name="q87" value="0"> วัตถุประสงค์ในการใช้ </label><br>
+        <label><input type="radio" name="q87" value="0"> คุณภาพ</label><br>
+        <label><input type="radio" name="q87" value="0"> การดูแลรักษา</label><br>
+        <label><input type="radio" name="q87" value="1"> ถูกทุกข้อ </label>
+
+        <!-- 88 - 93 วิธีปฏิบัติราชการ  -->
+
+        <div class="quiz">
+            <br>ข้อ 88. <br>
+            ข้อใด ไม่อยู่ในบังคับของ พ.ร.บ.วิธีปฏิบัติราชการทางปกครอง<br>
+        </div>
+
+        <label><input type="radio" name="q88" value="1"> คณะกรรมการการเลือกตั้ง </label><br>
+        <label><input type="radio" name="q88" value="0"> คณะกรรมการข้าราชการพลเรือน</label><br>
+        <label><input type="radio" name="q88" value="0"> คณะกรรมการพัฒนาระบบราชการ</label><br>
+        <label><input type="radio" name="q88" value="0">คณะกรรมการข้าราชการตำรวจ</label>
+
+        <div class="quiz">
+            <br>ข้อ 89. <br>
+            กรรมการผู้ทรงคุณวุฒิ ในคณะกรรมการวิธีปฏิบัติราชการทางปกครอง มีจำนวน กี่คน<br>
+        </div>
+
+        <label><input type="radio" name="q89" value="0">3 คน</label><br>
+        <label><input type="radio" name="q89" value="0"> 5 คน</label><br>
+        <label><input type="radio" name="q89" value="0">7 คน</label><br>
+        <label><input type="radio" name="q89" value="1"> 5 - 9 คน </label>
+
+        <div class="quiz">
+            <br>ข้อ 90. <br>
+            เจ้าหน้าที่ในข้อใด <u>ไม่สามารถ</u>จะทำการพิจารณาทางปกครองได้ <br>
+        </div>
+
+        <label><input type="radio" name="q90" value="1"> เคยอยู่กินกันฉันสามีภริยา โดยมิได้จดทะเบียนสมรส กับคู่กรณี  </label><br>
+        <label><input type="radio" name="q90" value="0"> เป็นผู้พักอาศัยอยู่ร่วมกับคู่กรณีในสถานที่เดียวกัน</label><br>
+        <label><input type="radio" name="q90" value="0"> เคยเป็นลูกหนี้ของคู่กรณี</label><br>
+        <label><input type="radio" name="q90" value="0"> ไม่มีข้อใดถูก</label>
+
+
+        <div class="quiz">
+            <br>ข้อ 91. <br>
+            คู่กรณีมีหนังสือแต่งตั้งให้ นาย ก. ซึ่งบรรลุนิติภาวะ กระทำการแทนตน ในกระบวนการพิจารณาทางปกครอง ต่อมาคู่กรณีเสียชีวิต ถามว่า ความเป็นผู้แทนของ นาย ก. จะมีสถานะอย่างไร<br>
+        </div>
+
+        <label><input type="radio" name="q91" value="0">สิ้นสุุดลง ตามอายุขัยของคู่กรณี</label><br>
+        <label><input type="radio" name="q91" value="0">ยังคงดำเนินการต่อไปได้ ทุกกรณี </label><br>
+        <label><input type="radio" name="q91" value="1">สิ้นสุดลง ถ้าผู้สืบสิทธิตามกฎหมาย ของคู่กรณี ถอนการแต่งตั้งดังกล่าว </label><br>
+        <label><input type="radio" name="q91" value="0">ไม่สิ้นสุด หากคู่กรณีระบุความเป็นผู้แทนไว้ในพินัยกรรม</label>
+
+        <div class="quiz">
+            <br>ข้อ 92. <br>
+            นาย ก. ยื่นคําขอเพื่อให้เจ้าหน้าที่มีคําสั่งทางปกครอง อีก 3 วันต่อมา นาย ก. ได้รับการแจ้งจากเจ้าหน้าที่ว่า เอกสารไม่ครบถ้วน พร้อมทั้งกำหนดเวลาในการส่งเอกสารเพิ่มเติมให้ครบถ้วน แต่นาย ก. ไม่ส่งเอกสารให้ครบถ้วยในเวลาที่กำหนด<br>
+            กรณีในข้อใด ต่อไปนี้ <u>ไม่ถูกต้อง</u><br>
+        </div>
+        <label><input type="radio" name="q92" value="0"> เจ้าหน้าที่ส่งเอกสารคืนให้ นาย ก. </label><br>
+        <label><input type="radio" name="q92" value="0"> ถือว่า นาย ก. ไม่ประสงค์ที่จะให้เจ้าหน้าที่ดําเนินการต่อไป</label><br>
+        <label><input type="radio" name="q92" value="0"> เจ้าหน้าที่แจ้งสิทธิในการอุทธรณ์ให้ นาย ก. ทราบ</label><br>
+        <label><input type="radio" name="q92" value="1"> เจ้าหน้าที่ดำเนินการตามคำขอของ นาย ก. ต่อไป พร้อมทั้งบันทึกการดำเนินการดังกล่าวไว้ด้วย </label><br>
+
+ 
+
+
+        <div class="quiz">
+            <br>ข้อ 93. <br>
+            ในกรณีที่คำสั่งทางปกครอง เป็นคำสั่งด้วยวาจา ถ้าผู้รับคำสั่งนั้น มีเหตุอันสมควร ที่จะ ร้องขอให้ยืนยันคำสั่งนั้นเป็นหนังสือ จะต้องกระทำภายในกี่วัน นับแต่วันที่มีคำสั่งดังกล่าว
+            <br>
+        </div>
+
+        <label><input type="radio" name="q93" value="1">7 วัน  </label><br>
+        <label><input type="radio" name="q93" value="0">10 วัน</label><br>
+        <label><input type="radio" name="q93" value="0">15 วัน</label><br>
+        <label><input type="radio" name="q93" value="1">30 วัน</label>
+        <!-- 94 - 96 มาตรฐานจริยธรรม  -->
+        <!-- https://docs.google.com/document/d/1tICNakcz7j7zgzI93mWWmFy7OCbknv0tJnMb0MTCbpU/edit  -->
+        <!-- ข้อสอบจริง แมงปอ https://www.youtube.com/watch?v=NOksQprcYRM  -->
+        <div class="quiz">
+            <br>ข้อ 94. <br>
+            ข้อใด สอดคล้องกับมาตรฐานทางจริยธรรม เรื่องกล้าตัดสินใจ และกระทำในสิ่งที่ถูกต้องชอบธรรม
+        </div>
+
+        <label><input type="radio" name="q94" value="1">รายงานการทุจริตต่อผู้บังคับบัญชา แม้เป็นเพื่อนในหน่วยงานเดียวกัน  </label><br>
+        <label><input type="radio" name="q94" value="0">กล้ารับผิดชอบในความผิดพลาด พร้อมรับการตรวจสอบ ไม่กล่าวโทษผู้อื่น เมื่อเกิดข้อผิดพลาด</label><br>
+        <label><input type="radio" name="q94" value="0"> ไม่ดูหมิ่นเหยียดหยาม ไม่ทำลายความมั่นคงของชาติ ไม่ให้ร้ายหรือก่อความเสื่อมเสีย ต่อภาพลักษณ์ของประเทศ </label><br>
+        <label><input type="radio" name="q94" value="0"> สามารถแยกเรื่องส่วนตัวออกจากหน้าที่การงาน ไม่แสวงหาประโยชน์โดยมิชอบ จากตำแหน่งหน้าที่ </label>
+
+
+        <div class="quiz">
+            <br>ข้อ 95. <br>
+            "ภาคภูมิใจในความเป็นข้าราชการ ธำรงศักดิ์ด้วยความถูกต้อง ชอบธรรม" ตรงกับจริยธรรม ข้อใด
+            <br>
+        </div>
+
+        <label><input type="radio" name="q95" value="0"> ซื่อสัตย์สุจริต มีจิตสำนึกที่ดี และรับผิดชอบต่อหน้าที่ </label><br>
+        <label><input type="radio" name="q95" value="1"> ดำรงตนเป็นแบบอย่างที่ดีและรักษาภาพลักษณ์ของทางราชการ </label><br>
+        <label><input type="radio" name="q95" value="0"> ปฏิบัติหน้าที่อย่างเป็นธรรมและไม่เลือกปฏิบัติ </label><br>
+        <label><input type="radio" name="q95" value="0"> คิดถึงประโยชน์ส่วนรวมมากกว่าประโยชน์ส่วนตัว และมีจิตสาธารณะ</label>
+
+
+        <div class="quiz">
+            <br>ข้อ 96. <br>
+            ข้อใด ไม่ใช่ มาตรฐานทางจริยธรรม<br>
+        </div>
+
+        <label><input type="radio" name="q96" value="1"> กล้ารับผิดชอบ </label><br>
+        <label><input type="radio" name="q96" value="0"> ไม่เลือกปฏิบัติ </label><br>
+        <label><input type="radio" name="q96" value="0"> ซื่อสัตย์สุจริต</label><br>
+        <label><input type="radio" name="q96" value="0"> รักษาภาพลักษณ์ของทางราชการ</label>
+
+
+		<!-- 97 - 98 ความรับผิดทางละเมิด  -->
+        <!--  https://docs.google.com/document/d/1ZWoqUHuM0R0ow9kCng6r3V4vCPcup0mtnCu7i_JJKkg/edit   -->
+        <!--  https://www.youtube.com/watch?v=xMF2tOWcOdY     -->
+
+        <div class="quiz">
+            <br>ข้อ 97. <br>
+            ในกรณีที่หน่วยงานของรัฐ ต้องรับผิดใช้ค่าสินไหมทดแทนแก่ผู้เสียหาย เพื่อการละเมิดของ เจ้าหน้าที่ ให้หน่วยงานของรัฐ มีสิทธิเรียกให้เจ้าหน้าที่ ผู้ทำละเมิด ชดใช้ค่าสินไหมทดแทนดังกล่าวได้ ในกรณีใด
+            <br>
+        </div>
+
+        <label><input type="radio" name="q97" value="1">ถ้าเจ้าหน้าที่กระทำละเมิดด้วยความจงใจ</label><br>
+        <label><input type="radio" name="q97" value="0">ถ้าเจ้าหน้าที่กระทำละเมิดด้วยความประมาท เลินเล่อ</label><br>
+        <label><input type="radio" name="q97" value="0">ถ้าเจ้าหน้าที่กระทำละเมิดด้วยความรู้เท่าไม่ถึงการณ์</label><br>
+        <label><input type="radio" name="q97" value="0">ถูกทั้ง ข้อ 1 และ 2</label>
+
+        <div class="quiz">
+            <br>ข้อ 98. <br>
+            ในกรณีที่เจ้าหน้าที่ เป็นผู้กระทำละเมิดต่อหน่วยงานของรัฐ ไม่ว่าจะเป็นหน่วยงานของรัฐ ที่ผู้นั้นอยู่ในสังกัดหรือไม่ ถ้าเป็นการกระทำ ในการปฏิบัติหน้าที่ การเรียกร้องค่าสินไหมทดแทน จากเจ้าหน้าที่ ให้นำ บทบัญญัติมาตรา ๘ มาใช้บังคับโดยอนุโลม แต่ถ้ามิใช่การกระทำ ในการปฏิบัติหน้าที่ ให้บังคับตามบทบัญญัติแห่งกฎหมายใด
+            <br>
+        </div>
+
+        <label><input type="radio" name="q98" value="0">ประมวลกฎหมายอาญา </label><br>
+        <label><input type="radio" name="q98" value="0">ประมวลกฎหมายวิธีปฏิบัติทางปกครอง</label><br>
+        <label><input type="radio" name="q98" value="1">ประมวลกฎหมายแพ่งและพาณิชย์ </label><br>
+        <label><input type="radio" name="q98" value="0">ประมวลกฎหมายวิธีพิจารณาความแพ่ง</label>
+
+         <!-- 99 - 100 กฎหมายอาญา  -->
+
+        <div class="quiz">
+            <br>ข้อ 99. <br>
+
+            เจ้าหน้าที่ตำรวจตำแหน่งผู้บังคับหมู่ป้องกันและปราบปราม ได้แสดงตนเป็นเจ้าหน้าที่ตำรวจ และขอตรวจเพื่อหาสารเสพติด เรียกเงินจากผู้ต้องสงสัย จำนวน 3,000 บาท เพื่อแลกกับการไม่นำส่งตัวผู้ต้องสงสัย เพื่อดำเนินคดี อีกทั้งยังขู่ด้วยว่า ผู้ต้องสงสัยจะต้องเสียเงินในการประกันตัวถึง 80,000 บาท ผู้ต้องสงสัยเกิดความกลัวจึงยอมมอบเงินให้ เจ้าหน้าที่ตำรวจผู้นั้น รับเงินแล้วก็จากไป<br>
+            อยากทราบว่า ตำรวจผู้นั้น กระทำความผิดตามประมวลกฎหมายอาญา มาตราใด
+        </div>
+
+        <label><input type="radio" name="q99" value="0">มาตรา 147</label><br>
+        <label><input type="radio" name="q99" value="1">มาตรา 148  </label><br>
+        <label><input type="radio" name="q99" value="0">มาตรา 150  </label><br>
+        <label><input type="radio" name="q99" value="0">มาตรา 151</label><br><br>
+		
+        <div class="quiz">
+            ข้อ 100. <br>
+            เจ้าหน้าที่ฝ่ายทะเบียนและบัตรประจำตัวประชาชน สังกัดที่ทำการปกครองแห่งหนึ่ง ใช้ชื่อผู้ใช้และรหัสผ่านของนายทะเบียน เข้าสู่ระบบคอมพิวเตอร์ของระบบออกบัตรประจำตัวประชาชน และดำเนินการออกบัตรประจำตัวประชาชน โดยใช้เลขประจำตัวประชาชน ของ นาย ก. อันเป็นการปลอมบัตรประจำตัวประชาชนดังกล่าว ขึ้นทั้งฉบับ เพื่อให้ผู้พบเห็นบัตรประจำตัวประชาชนดังกล่าวเชื่อว่า เป็นบัตรซี่งนายทะเบียน ออกให้แก่ผู้ถือโดยถูกต้องตามกฎหมาย เป็นเหตุให้เกิดความเสียหายแก่กรมการปกครอง กระทรวง
+            มหาดไทย และ นาย ก.<br>
+            กรณี ถือว่า เจ้าหน้าที่ มีความผิดสถานใด
+        </div>
+
+        <label><input type="radio" name="q100" value="0"> เจ้าพนักงาน ใช้อำนาจในตำแหน่งโดยมิชอบ ข่มขืนใจหรือจูงใจเพื่อให้บุคคลใดมอบให้หรือหามาให้ซึ่งทรัพย์สินหรือ ประโยชน์อื่นใดแก่ตนเอง</label><br>
+        <label><input type="radio" name="q100" value="0"> เจ้าพนักงาน เรียกรับ หรือยอมจะรับทรัพย์สิน หรือประโยชน์อื่นใด สำหรับตนเอง หรือผู้อื่นโดยมิชอบ</label><br>
+        <label><input type="radio" name="q100" value="0">  เจ้าพนักงาน มีหน้าที่จัดการหรือดูแลกิจการใด เข้ามีส่วนได้เสียเพื่อประโยชน์สำหรับตนเองหรือผู้อื่น</label><br>
+        <label><input type="radio" name="q100" value="1"> เจ้าพนักงาน ปฏิบัติหรือละเว้นการปฏิบัติหน้าที่โดยมิชอบ เพื่อให้เกิดความเสียหายแก่ผู้หนึ่งผู้ใด </label>
+
+    </div>  <!-- end of quiz_law  -->
+
+    <!-- =================== END OF LAW ================  -->
+
+    <br>
+    <div style="text-align: center"><!-- div for bttn  -->
+        <input type="submit" name="check" style="position: relative;
+             top: 1px; font-size: 20px; font-weight: bold; min-width: 70px; min-height: 10px;" value="ส่งคำตอบ" onclick="result(); return false;" class="myFloat_Right;">
+    </div>  <!-- end of div for bttn  -->
+    <br><br>
+
+</div>  <!--  end of div content  -->
+
+<script src="full_exam_3_hrs.js" type="text/javascript" language="JavaScript"></script>
+
+
+</body>
+</html>

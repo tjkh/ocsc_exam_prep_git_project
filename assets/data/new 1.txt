@@ -1,0 +1,16 @@
+$filePathToTask = "C:\temp\dummy.xml"
+$xml = New-Object XML
+$xml.Load($filePathToTask)
+$nodes =  $xml.SelectSingleNode("//qNum")
+$x=1
+$first = "id1627193502"
+$last = ":date1627453500"
+
+
+foreach ($node in $nodes) {
+$node.InnerText = ($first + $x.ToString() + $last)
+$x++
+
+}
+
+$xml.Save($filePathToTask)

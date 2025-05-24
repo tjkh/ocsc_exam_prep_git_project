@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exams>
+  <!-- XX1 -->
+  <thisQuestion>
+    <qNum>id0257:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค A คือข้อใด&lt;br /&gt;
+
+	</question>
+    <choice_A>All S are P</choice_A>
+    <choice_B>No S are P</choice_B>
+    <choice_C>Some S are P</choice_C>
+    <choice_D>Some S are not P</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค A คือข้อใด&lt;br /&gt;&lt;br /&gt;
+
+1. All S are P ✔&lt;br /&gt;
+2. No S are P&lt;br /&gt;
+3. Some S are P&lt;br /&gt;
+4. Some S are not P&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX2 -->
+  <thisQuestion>
+    <qNum>id0258:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค E คือข้อใด&lt;br /&gt;
+
+	</question>
+    <choice_A>All S are P</choice_A>
+    <choice_B>No S are P</choice_B>
+    <choice_C>Some S are P</choice_C>
+    <choice_D>Some S are not P</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค E คือข้อใด&lt;br /&gt;&lt;br /&gt;
+
+1. All S are P &lt;br /&gt;
+2. No S are P ✔&lt;br /&gt;
+3. Some S are P&lt;br /&gt;
+4. Some S are not P&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX3 -->
+  <thisQuestion>
+    <qNum>id0259:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค I คือข้อใด&lt;br /&gt;
+
+	</question>
+    <choice_A>All S are P</choice_A>
+    <choice_B>No S are P</choice_B>
+    <choice_C>Some S are P</choice_C>
+    <choice_D>Some S are not P</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค I คือข้อใด&lt;br /&gt;&lt;br /&gt;
+
+1. All S are P &lt;br /&gt;
+2. No S are P&lt;br /&gt;
+3. Some S are P ✔&lt;br /&gt;
+4. Some S are not P&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX4 -->
+  <thisQuestion>
+    <qNum>id0260:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค O คือข้อใด&lt;br /&gt;
+
+	</question>
+    <choice_A>All S are P</choice_A>
+    <choice_B>No S are P</choice_B>
+    <choice_C>Some S are P</choice_C>
+    <choice_D>Some S are not P</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>5</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค O คือข้อใด&lt;br /&gt;&lt;br /&gt;
+
+1. All S are P &lt;br /&gt;
+2. No S are P&lt;br /&gt;
+3. Some S are P&lt;br /&gt;
+4. Some S are not P ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX5 -->
+  <thisQuestion>
+    <qNum>id0261:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค E คือข้อใด&lt;br /&gt;
+
+	</question>
+    <choice_A>All S are P</choice_A>
+    <choice_B>No S are P</choice_B>
+    <choice_C>Some S are P</choice_C>
+    <choice_D>Some S are not P</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค E คือข้อใด&lt;br /&gt;&lt;br /&gt;
+
+1. All S are P &lt;br /&gt;
+2. No S are P ✔&lt;br /&gt;
+3. Some S are P&lt;br /&gt;
+4. Some S are not P&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX6 -->
+  <thisQuestion>
+    <qNum>id0262:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค A คือข้อใด&lt;br /&gt;
+
+	</question>
+    <choice_A>All S are P</choice_A>
+    <choice_B>No S are P</choice_B>
+    <choice_C>Some S are P</choice_C>
+    <choice_D>Some S are not P</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค A คือข้อใด&lt;br /&gt;&lt;br /&gt;
+
+1. All S are P ✔&lt;br /&gt;
+2. No S are P&lt;br /&gt;
+3. Some S are P&lt;br /&gt;
+4. Some S are not P&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX7 -->
+  <thisQuestion>
+    <qNum>id0263:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ประโยค A คือข้อใด&lt;br /&gt;
+
+	</question>
+    <choice_A>ไม่มีแมวตัวใด ตาสีฟ้า</choice_A>
+    <choice_B>แมวทุกตัว ตาสีฟ้า</choice_B>
+    <choice_C>แมวบางตัว ตาสีฟ้า</choice_C>
+    <choice_D>แมวบางตัว ไม่มีตาสีฟ้า</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค A คือข้อใด&lt;br /&gt;&lt;br /&gt;
+
+1. ไม่มีแมวตัวใด ตาสีฟ้า&lt;br /&gt;
+2. แมวทุกตัว ตาสีฟ้า ✔&lt;br /&gt;
+3. แมวบางตัว ตาสีฟ้า&lt;br /&gt;
+4. แมวบางตัว ไม่มีตาสีฟ้า&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+S = แมว&lt;br /&gt;
+P = แมวที่มีตาสีฟ้า&lt;br /&gt;&lt;br /&gt;
+
+ประโยคคือ "แมวทุกตัว เป็น แมวที่มีตาสีฟ้า.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>yes</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX8 -->
+  <thisQuestion>
+    <qNum>id0264:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ประโยค O คือข้อใด&lt;br /&gt;
+
+	</question>
+    <choice_A>ดอกไม้สวย</choice_A>
+    <choice_B>ดอกไม้บางดอกสวย</choice_B>
+    <choice_C>ดอกไม้บางดอกไม่สวย</choice_C>
+    <choice_D>ไม่มีดอกไม้ดอกใดเลยที่สวย</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค O คือข้อใด&lt;br /&gt;&lt;br /&gt;
+
+1. ดอกไม้สวย&lt;br /&gt;
+2. ดอกไม้บางดอกสวย&lt;br /&gt;
+3. ดอกไม้บางดอกไม่สวย ✔&lt;br /&gt;
+4. ไม่มีดอกไม้ดอกใดเลยที่สวย&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+S = ดอกไม้&lt;br /&gt;
+P = ดอกไม้ที่สวย&lt;br /&gt;
+ประโยคคือ "ดอกไม้บางดอก เป็นดอกไม้ที่ไม่สวย.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX9 -->
+  <thisQuestion>
+    <qNum>id0265:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ประโยค I คือข้อใด&lt;br /&gt;
+
+	</question>
+    <choice_A>นกทุกตัวมีปีก</choice_A>
+    <choice_B>นกบางตัวมีปีก</choice_B>
+    <choice_C>นกบางตัวไม่มีปีก</choice_C>
+    <choice_D>ไม่มีนกตัวใดมีปีก</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>3</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค I คือข้อใด&lt;br /&gt;&lt;br /&gt;
+
+1. นกทุกตัวมีปีก&lt;br /&gt;
+2. นกบางตัวมีปีก&lt;br /&gt;
+3. นกบางตัวไม่มีปีก&lt;br /&gt;
+4. ไม่มีนกตัวใดมีปีก&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+S = นก&lt;br /&gt;
+P = สัตว์ที่มีปีก&lt;br /&gt;
+ประโยคคือ "นกบางตัว เป็น สัตว์ที่มีปีก.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX10 -->
+  <thisQuestion>
+    <qNum>id0266:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+ประโยค A คือข้อใด&lt;br /&gt;
+
+	</question>
+    <choice_A>สมศักดิ์สอนคอมพิวเตอร์</choice_A>
+    <choice_B>ครูสุดาไม่มาทำงาน</choice_B>
+    <choice_C>นกบางตัวบินไม่ได้</choice_C>
+    <choice_D>ไม่มีใครอยากสอบตก</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>2</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+รูปแบบของ ประโยค O คือข้อใด&lt;br /&gt;&lt;br /&gt;
+
+1. สมศักดิ์สอนคอมพิวเตอร์ ✔&lt;br /&gt;
+2. ครูสุดาไม่มาทำงานวันนี้&lt;br /&gt;
+3. นกบางตัวบินไม่ได้&lt;br /&gt;
+4. ไม่มีใครอยากสอบตก&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 เป็นประโยค A (All S are P) &lt;br /&gt;
+S = คนที่มีลักษณะเหมือนกับสมศักดิ์ทุกประการ&lt;br /&gt;
+P = ครูสอนวิชาคอมพิวเตอร์&lt;br /&gt;
+ประโยค คือ "คนที่มีลักษณะเหมือนกับสมศักดิ์ทุกประการ เป็น ครูสอนวิชาคอมพิวเตอร์.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 2 เป็นประโยค E (No S are P)&lt;br /&gt;
+S = คนที่มีลักษณะเหมือนกับสุดาทุกประการ&lt;br /&gt;
+P = คนที่มาทำงาน&lt;br /&gt;
+ประโยค คือ "ไม่มีคนที่มีลักษณะเหมือนกับสุดาทุกประการ เป็น คนที่มาทำงานวันนี้.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 3 เป็นประโยค O (Some S are not P)&lt;br /&gt;
+S = นก&lt;br /&gt;
+P= สัตว์ที่บินไม่ได้&lt;br /&gt;
+ประโยค คือ "นกบางตัว เป็น สัตว์ที่บินไม่ได้.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 4 เป็นประโยค E (No S are P)&lt;br /&gt;
+S = คน&lt;br /&gt;
+P = คนที่อยากสอบตก&lt;br /&gt;
+ประโยค คือ "ไม่มีใคร เป็น คนที่อยากสอบตก.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+  <!-- XX11 -->
+  <thisQuestion>
+    <qNum>id0267:date1627453500</qNum>
+    <question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+สัตว์ครึ่งบกครึ่งน้ำส่วนน้อยเป็นสัตว์ที่มีพิษ &lt;br /&gt;
+
+
+	</question>
+    <choice_A>ประโยค A</choice_A>
+    <choice_B>ประโยค E</choice_B>
+    <choice_C>ประโยค I</choice_C>
+    <choice_D>ประโยค O</choice_D>
+    <choice_E>
+    </choice_E>
+    <correctAns>4</correctAns>
+    <!-- A=2, B=3, C=4, D=5 -->
+    <explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+สัตว์ครึ่งบกครึ่งน้ำส่วนน้อยเป็นสัตว์ที่มีพิษ &lt;br /&gt;&lt;br /&gt;
+
+1. ประโยค A&lt;br /&gt;
+2. ประโยค E&lt;br /&gt;
+3. ประโยค I ✔ &lt;br /&gt;
+4. ประโยค O&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ประโยค I = Some S are P&lt;br /&gt;
+S = สัตว์ครึ่งบกครึ่งน้ำ&lt;br /&gt;
+P = สัตว์ที่มีพิษ&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation>
+    <isExplain>disable answer</isExplain>
+    <!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  -->
+    <!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  -->
+  </thisQuestion>
+
+!-- XX12 --&gt;
+<thisQuestion><qNum>id0268:date1627453500</qNum><question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+คนไทยน้อยมากที่นับถือศาสนาพุทธลัทธิชินโต &lt;br /&gt;
+
+	</question><choice_A>ประโยค A</choice_A><choice_B>ประโยค E</choice_B><choice_C>ประโยค I</choice_C><choice_D>ประโยค O</choice_D><choice_E></choice_E><correctAns>4</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+สัตว์ครึ่งบกครึ่งน้ำส่วนน้อยเป็นสัตว์ที่มีพิษ &lt;br /&gt;&lt;br /&gt;
+
+1. ประโยค A&lt;br /&gt;
+2. ประโยค E&lt;br /&gt;
+3. ประโยค I ✔ &lt;br /&gt;
+4. ประโยค O&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ประโยค I = Some S are P&lt;br /&gt;
+S = คนไทย&lt;br /&gt;
+P = คนที่นับถือศาสนาพุทธลัทธิชินโต&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX13 --><thisQuestion><qNum>id0269:date1627453500</qNum><question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+ทรัพยากรธรรมชาติ หมายถึง สิ่งที่เกิดขึ้นเองตามธรรมชาติ &lt;br /&gt;
+
+	</question><choice_A>ประโยค A</choice_A><choice_B>ประโยค E</choice_B><choice_C>ประโยค I</choice_C><choice_D>ประโยค O</choice_D><choice_E></choice_E><correctAns>2</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+ทรัพยากรธรรมชาติ หมายถึง สิ่งที่เกิดขึ้นเองตามธรรมชาติ &lt;br /&gt;&lt;br /&gt;
+
+1. ประโยค A ✔ &lt;br /&gt;
+2. ประโยค E&lt;br /&gt;
+3. ประโยค I&lt;br /&gt;
+4. ประโยค O&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ประโยค A = All S are P&lt;br /&gt;
+
+S = ทรัพยากรธรรมชาติ&lt;br /&gt;
+P = สิ่งที่เกิดขึ้นเองตามธรรมชาติ&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX14 --><thisQuestion><qNum>id0270:date1627453500</qNum><question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+เปบซิล เป็นน้ำย่อยในกระเพาะอาหาร ซึ่งย่อยได้เฉพาะโปรตีน &lt;br /&gt;
+
+
+	</question><choice_A>ประโยค A</choice_A><choice_B>ประโยค E</choice_B><choice_C>ประโยค I</choice_C><choice_D>ประโยค O</choice_D><choice_E></choice_E><correctAns>2</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+เปบซิล เป็นน้ำย่อยในกระเพาะอาหาร ซึ่งย่อยได้เฉพาะโปรตีน &lt;br /&gt;&lt;br /&gt;
+
+1. ประโยค A ✔ &lt;br /&gt;
+2. ประโยค E&lt;br /&gt;
+3. ประโยค I &lt;br /&gt;
+4. ประโยค O&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ประโยค A = All S are P&lt;br /&gt;
+S = เปบซิล&lt;br /&gt;
+P = น้ำย่อยในกระเพาะอาหาร ซึ่งย่อยได้เฉพาะโปรตีน&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX15 --><thisQuestion><qNum>id0271:date1627453500</qNum><question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+สัตว์น้ำและพืชใต้น้ำ บางชนิด ไม่ต้องอาศัยแสงอาทิตย์ เพื่อการดำรงชีวิต&lt;br /&gt;
+
+	</question><choice_A>ประโยค A</choice_A><choice_B>ประโยค E</choice_B><choice_C>ประโยค I</choice_C><choice_D>ประโยค O</choice_D><choice_E></choice_E><correctAns>5</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+สัตว์น้ำและพืชใต้น้ำ บางชนิด ไม่ต้องอาศัยแสงอาทิตย์ เพื่อการดำรงชีวิต &lt;br /&gt;&lt;br /&gt;
+
+1. ประโยค A&lt;br /&gt;
+2. ประโยค E&lt;br /&gt;
+3. ประโยค I&lt;br /&gt;
+4. ประโยค O ✔ &lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ประโยค O = Some S are not P&lt;br /&gt;
+S = สัตว์น้ำและพืชใต้น้ำ&lt;br /&gt;
+P = สัตว์น้ำและพืชใต้น้ำ ที่ไม่ต้องอาศัยแสงอาทิตย์ เพื่อการดำรงชีวิต&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX16 --><thisQuestion><qNum>id0272:date1627453500</qNum><question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+ข้อมูลจากผู้ปฐมพยาบาล ช่วยให้แพทย์ทราบสาเหตุและสามารถวินิจฉัยได้ถูกต้องและรวดเร็ว
+
+	</question><choice_A>ประโยค A</choice_A><choice_B>ประโยค E</choice_B><choice_C>ประโยค I</choice_C><choice_D>ประโยค O</choice_D><choice_E></choice_E><correctAns>2</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+ข้อมูลจากผู้ปฐมพยาบาล ช่วยให้แพทย์ทราบสาเหตุและสามารถวินิจฉัยได้ถูกต้องและรวดเร็ว &lt;br /&gt;&lt;br /&gt;
+
+1. ประโยค A ✔&lt;br /&gt;
+2. ประโยค E&lt;br /&gt;
+3. ประโยค I  &lt;br /&gt;
+4. ประโยค O&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ประโยค A = All S are P&lt;br /&gt;
+S = ข้อมูลจากผู้ปฐมพยาบาล&lt;br /&gt;
+P = ช่วยให้แพทย์ ทราบสาเหตุ และสามารถวินิจฉัย ได้ถูกต้องและรวดเร็ว&lt;br /&gt;&lt;br /&gt;
+ 
+คำตอบคือ ข้อ 1:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX17 --><thisQuestion><qNum>id0273:date1627453500</qNum><question>&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+คนที่กินอาหารมากกว่า 650 แคลลอรี่ต่อวัน บางคน ไม่เป็นโรคอ้วน &lt;br /&gt;
+
+	</question><choice_A>ประโยค A</choice_A><choice_B>ประโยค E</choice_B><choice_C>ประโยค I</choice_C><choice_D>ประโยค O</choice_D><choice_E></choice_E><correctAns>5</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ประโยคต่อไปนี้ เป็นประโยค รูปแบบใด&lt;br /&gt;&lt;br /&gt;
+
+คนที่กินอาหารมากกว่า 650 แคลลอรี่ต่อวัน บางคน ไม่เป็นโรคอ้วน &lt;br /&gt;&lt;br /&gt;
+
+1. ประโยค A&lt;br /&gt;
+2. ประโยค E&lt;br /&gt;
+3. ประโยค I&lt;br /&gt;
+4. ประโยค O ✔ &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ประโยค I = Some S are P&lt;br /&gt;
+S = คนที่กินอาหารมากกว่า 650 แคลลอรี่ต่อวัน&lt;br /&gt;
+P = คนที่กินอาหารมากกว่า 650 แคลลอรี่ต่อวัน ที่ไม่เป็นโรคอ้วน&lt;br /&gt;&lt;br /&gt;
+
+ประโยค E จะตรงข้ามกับประโยค A ก็ต่อเมื่อ ประโยค A เป็นจริง หรือ ประโยค E เป็นจริง ถ้าประโยค A เป็นเท็จ ก็จะสรุปเกี่ยวกับประโยค E ไม่ได้ เพราะ ประโยค E อาจจะเป็นจริง หรือ เท็จ ก็ได้ (ดูแผนภูมิประกอบ)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX18 --><thisQuestion><qNum>id0274:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค A (All S are P) ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;
+
+	</question><choice_A>E (No S are P)</choice_A><choice_B>I (Some S are P)</choice_B><choice_C>O (Some S are not P)</choice_C><choice_D>E และ I</choice_D><choice_E></choice_E><correctAns>4</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค A (All S are P) ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;&lt;br /&gt;
+
+1. E (No S are P)&lt;br /&gt;
+2. I (Some S are P)&lt;br /&gt;
+3. O (Some S are not P) ✔&lt;br /&gt;
+4. E และ I&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX19 --><thisQuestion><qNum>id0275:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+"คนไทยทุกคนเป็นคนขยัน" ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;
+
+	</question><choice_A>ไม่มีคนไทยคนใดเป็นคนขยัน</choice_A><choice_B>คนไทยบางคนเป็นคนขยัน</choice_B><choice_C>คนไทยบางคนเป็นคนไม่ขยัน</choice_C><choice_D>คนไม่ขยันทุกคน ไม่เป็นคนไทย</choice_D><choice_E></choice_E><correctAns>4</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+"คนไทยทุกคนเป็นคนขยัน" ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;&lt;br /&gt;
+
+1. ไม่มีคนไทยคนใดเป็นคนขยัน&lt;br /&gt;
+2. คนไทยบางคนเป็นคนขยัน&lt;br /&gt;
+3. คนไทยบางคนเป็นคนไม่ขยัน ✔&lt;br /&gt;
+4. คนไม่ขยันทุกคน ไม่เป็นคนไทย&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+ข้อ 1 เป็นประโยค E &lt;br /&gt;&lt;br /&gt;
+
+ข้อ 2 เป็นประโยค I &lt;br /&gt;&lt;br /&gt;
+
+ข้อ 3 เป็นประโยค O (Some S are not P) จึงตรงข้ามกับประโยค A &lt;br /&gt;&lt;br /&gt;
+
+ข้อ 4 เป็น contraposition ของประโยค A มีความหมายเหมือนประโยค A &lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX20 --><thisQuestion><qNum>id0276:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค I (Some S are P) ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;
+
+	</question><choice_A>A (All S are P)</choice_A><choice_B>E (No S are P)</choice_B><choice_C>O (Some S are not P)</choice_C><choice_D>A และ I</choice_D><choice_E></choice_E><correctAns>3</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค I (Some S are P) ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;&lt;br /&gt;
+
+1. A (All S are P)&lt;br /&gt;
+2. E (No S are P) ✔&lt;br /&gt;
+3. O (Some S are not P)&lt;br /&gt;
+4. E และ I&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX21 --><thisQuestion><qNum>id0277:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค A (All S are P) ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;
+
+	</question><choice_A>E (No S are P)</choice_A><choice_B>I (Some S are P)</choice_B><choice_C>O (Some S are not P)</choice_C><choice_D>E และ I</choice_D><choice_E></choice_E><correctAns>4</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค A (All S are P) ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;&lt;br /&gt;
+
+1. E (No S are P)&lt;br /&gt;
+2. I (Some S are P)&lt;br /&gt;
+3. O (Some S are not P) ✔&lt;br /&gt;
+4. E และ I&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX22 --><thisQuestion><qNum>id0278:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค I (Some S are P) ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;
+
+	</question><choice_A>E (No S are P)</choice_A><choice_B>I (Some S are P)</choice_B><choice_C>O (Some S are not P)</choice_C><choice_D>E และ I</choice_D><choice_E></choice_E><correctAns>2</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค I (Some S are P) ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;&lt;br /&gt;
+
+1. E (No S are P) ✔&lt;br /&gt;
+2. I (Some S are P)&lt;br /&gt;
+3. O (Some S are not P)&lt;br /&gt;
+4. E และ I&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX23 --><thisQuestion><qNum>id0279:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค O (Some S are not P) ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;
+
+	</question><choice_A>E (No S are P)</choice_A><choice_B>I (Some S are P)</choice_B><choice_C>A (All S are P)</choice_C><choice_D>E และ I</choice_D><choice_E></choice_E><correctAns>4</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค O (Some S are not P) ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;&lt;br /&gt;
+
+1. E (No S are P)&lt;br /&gt;
+2. I (Some S are P)&lt;br /&gt;
+3. A (All S are P) ✔&lt;br /&gt;
+4. E และ I&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 3:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX24 --><thisQuestion><qNum>id0280:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค "นกบางตัวบินได้" ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;
+
+	</question><choice_A>นกทุกตัวบินได้</choice_A><choice_B>นกบางตัวบินไม่ได้</choice_B><choice_C>นกทุกตัวบินไม่ได้</choice_C><choice_D>ไม่มีนกตัวใดบินได้</choice_D><choice_E></choice_E><correctAns>5</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค "นกบางตัวบินได้" ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;&lt;br /&gt;
+
+1. นกทุกตัวบินได้&lt;br /&gt;
+2. นกบางตัวบินไม่ได้&lt;br /&gt;
+3. นกทุกตัวบินไม่ได้&lt;br /&gt;
+4. ไม่มีนกตัวใดบินได้ ✔&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+"นกบางตัวบินได้" เป็นประโยค I ซึ่งตรงข้าม หรือไม่สอดคล้อง กับประโยค E &lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. นกทุกตัวบินได้ เป็นประโยค A (All S are P)&lt;br /&gt;
+2. นกบางตัวบินไม่ได้  เป็นประโยค O (Some S are not P)&lt;br /&gt;
+3. นกทุกตัวบินไม่ได้  เป็นประโยคกำกวม&lt;br /&gt;
+4. ไม่มีนกตัวใดบินได้  เป็นประโยค E (No S are P)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 4:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX25 --><thisQuestion><qNum>id0281:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค "นกบางตัวบินไม่ได้" ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;
+
+	</question><choice_A>นกทุกตัวบินได้</choice_A><choice_B>นกบางตัวบินไม่ได้</choice_B><choice_C>นกทุกตัวบินไม่ได้</choice_C><choice_D>ไม่มีนกตัวใดบินได้</choice_D><choice_E></choice_E><correctAns>2</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ประโยค "นกบางตัวบินไม่ได้" ไม่สอดคล้อง/ตรงข้ามกับประโยคใด&lt;br /&gt;&lt;br /&gt;
+
+1. นกทุกตัวบินได้ ✔&lt;br /&gt;
+2. นกบางตัวบินไม่ได้&lt;br /&gt;
+3. นกทุกตัวบินไม่ได้&lt;br /&gt;
+4. ไม่มีนกตัวใดบินได้&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+"นกบางตัวบินไม่ได้" เป็นประโยค O ซึ่งตรงข้าม หรือไม่สอดคล้อง กับประโยค A &lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/square_of_opposition_2.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. นกทุกตัวบินได้ เป็นประโยค A (All S are P)&lt;br /&gt;
+2. นกบางตัวบินไม่ได้  เป็นประโยค O (Some S are not P)&lt;br /&gt;
+3. นกทุกตัวบินไม่ได้  เป็นประโยคกำกวม&lt;br /&gt;
+4. ไม่มีนกตัวใดบินได้  เป็นประโยค E (No S are P)&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX26 --><thisQuestion><qNum>id0282:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ข้อใดเป็น Conversion ของประโยค A (All S are P)&lt;br /&gt;
+
+	</question><choice_A>Some P are S</choice_A><choice_B>All non-P are non-S</choice_B><choice_C>No P are S</choice_C><choice_D>No S are non-P</choice_D><choice_E></choice_E><correctAns>2</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+ข้อใดเป็น Conversion ของประโยค A (All S are P)&lt;br /&gt;&lt;br /&gt;
+
+1. Some P are S ✔ &lt;br /&gt;
+2. All non-P are non-S &lt;br /&gt;
+3. No P are S &lt;br /&gt;
+4. No S are non-P &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/logic_conversion_table.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. Some P are S เป็น Conversion ของ A (Partial conversion) &lt;br /&gt;&lt;br /&gt;
+2. All non-P are non-S เป็น Contraposition ของ A&lt;br /&gt;&lt;br /&gt;
+3. No P are S &lt;br /&gt; เป็น Conversion ของ E&lt;br /&gt;&lt;br /&gt;
+4. No S are non-P &lt;br /&gt; เป็น Obversion ของ E&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX27 --><thisQuestion><qNum>id0283:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+"นกทุกตัวบินได้" สอดคล้องกับข้อความใด?
+
+	</question><choice_A>สัตว์ที่บินได้บางตัว เป็น นก</choice_A><choice_B>สัตว์ที่บินไม่ได้ทุกตัว ไม่ใช่ นก</choice_B><choice_C>ไม่มีสัตว์ที่บินได้ตัวใด เป็น นก</choice_C><choice_D>สัตว์ที่บินไม่ได้บางตัว เป็นนก</choice_D><choice_E></choice_E><correctAns>2</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+"นกทุกตัวบินได้" สอดคล้องกับข้อความใด?
+
+1. สัตว์ที่บินได้บางตัว เป็น นก ✔&lt;br /&gt;
+2. สัตว์ที่บินไม่ได้ทุกตัว ไม่ใช่ นก&lt;br /&gt;
+3. ไม่มีสัตว์ที่บินได้ตัวใด เป็น นก&lt;br /&gt;
+4. สัตว์ที่บินไม่ได้บางตัว เป็นนก &lt;br /&gt;&lt;br /&gt;
+
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/logic_conversion_table.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. สัตว์ที่บินได้บางตัว เป็น นก (Some P are S) เป็น Conversion ของ A (Partial conversion) &lt;br /&gt;&lt;br /&gt;
+2. สัตว์ที่บินไม่ได้ทุกตัว ไม่ใช่ นก (All non-P are non-S) เป็น Contraposition ของ A&lt;br /&gt;&lt;br /&gt;
+
+3. ไม่มีสัตว์ที่บินได้ตัวใด เป็น นก (No P are S) &lt;br /&gt; เป็น Conversion ของ E&lt;br /&gt;&lt;br /&gt;
+
+4. สัตว์ที่บินไม่ได้บางตัว เป็นนก (Some non-P are not non-S) &lt;br /&gt; เป็น Contraposition ของ O&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 1:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- ถึงตรงนี้ 
+full_practice_test_many_tests_with_keys.pdf
+--><!-- XX28 --><thisQuestion><qNum>id0284:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ให้ท่านเลือกคำตอบที่ถูกต้อง&lt;br /&gt;&lt;br /&gt;
+
+ข้อใดเป็น Contraposition ของประโยค A (All S are P)&lt;br /&gt;
+
+	</question><choice_A>Some P are S</choice_A><choice_B>All non-P are non-S</choice_B><choice_C>No P are S</choice_C><choice_D>No S are non-P</choice_D><choice_E></choice_E><correctAns>3</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+ข้อใดเป็น Contraposition ของประโยค A (All S are P)&lt;br /&gt;&lt;br /&gt;
+
+1. Some P are S&lt;br /&gt;
+2. All non-P are non-S  ✔ &lt;br /&gt;
+3. No P are S &lt;br /&gt;
+4. No S are non-P &lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/logic_conversion_table.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. Some P are S เป็น Conversion ของ A (Partial conversion) &lt;br /&gt;&lt;br /&gt;
+2. All non-P are non-S เป็น Contraposition ของ A&lt;br /&gt;&lt;br /&gt;
+3. No P are S &lt;br /&gt; เป็น Conversion ของ E&lt;br /&gt;&lt;br /&gt;
+4. No S are non-P &lt;br /&gt; เป็น Obversion ของ E&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX29 --><thisQuestion><qNum>id0285:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ข้อใดสอดคล้องกับประโยค ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+"คนไทยทุกคน เป็นคนขยัน.png&quot;&gt;&lt;br /&gt;
+
+	</question><choice_A>คนขยันทุกคนเป็นคนไทย</choice_A><choice_B>คนที่ไม่ขยันทุกคนไม่ใช่คนไทย</choice_B><choice_C>คนที่ไม่ขยันบางคนเป็นคนไทย</choice_C><choice_D>คนขยันบางคน ไม่เป็นคนไทย</choice_D><choice_E></choice_E><correctAns>3</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+ข้อใดสอดคล้องกับประโยค ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+"คนไทยทุกคน เป็นคนขยัน.png&quot;&gt;&lt;br /&gt;
+
+1. คนขยันทุกคนเป็นคนไทย&lt;br /&gt;
+2. คนที่ไม่ขยันทุกคนไม่ใช่คนไทย ✔&lt;br /&gt;
+3. คนที่ไม่ขยันบางคนเป็นคนไทย&lt;br /&gt;
+4. คนขยันบางคน ไม่เป็นคนไทย&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/logic_conversion_table.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+"คนขยันทุกคน เป็นคนไทย" เป็นประโยค A (All S are P)&lt;br /&gt;
+ประโยค A จะสอดคล้องกับ ประโยค I, Partial Conversion, Obversion และ Contraposition&lt;br /&gt;&lt;br /&gt;
+
+1. "คนขยันทุกคนเป็นคนไทย" เป็นการสลับที่ระหว่าง ประธานและส่วนขยาย แต่ไม่ใช่ Partial conversion จึงไม่สอดคล้องกัน &lt;br /&gt;&lt;br /&gt;
+2. "คนที่ไม่ขยันทุกคนไม่ใช่คนไทย" All non-P are non-S เป็น Contraposition ของ A&lt;br /&gt;&lt;br /&gt;
+3. "คนที่ไม่ขยันบางคนเป็นคนไทย" Some non-P are not non-S  เป็น Contraposition ของ O&lt;br /&gt;&lt;br /&gt;
+4. "คนขยันบางคน ไม่ใช่คนไทย" Some S are non-P เป็น Obversion ของ O จึงมีความหมายเหมือน O ซึ่งมีความหมาย ตรงกันข้าม กับประโยค A&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion><!-- XX30 --><thisQuestion><qNum>id0286:date1627453500</qNum><question>
+&lt;strong&gt;คำสั่ง&lt;/strong&gt;&lt;br /&gt;
+ข้อใดสอดคล้องกับข้อความ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+"ผู้ที่ออกกำลังกายอย่างสม่ำเสมอทุกคน จะเป็นผู้ที่มีจิตใจแจ่มใส.png&quot;&gt;&lt;br /&gt;
+
+	</question><choice_A>ผู้ที่ออกกำลังกายอย่างสม่ำเสมอบางคน ไม่เป็นผู้ที่มีจิตใจแจ่มใส</choice_A><choice_B>ผู้ที่ไม่มีจิตใจแจ่มใสทุกคน ไม่ใช่ผู้ที่ออกกำลังกายเป็นประจำ</choice_B><choice_C>ผู้ที่ไม่มีจิตใจแจ่มใสทุกคน เป็นผู้ที่ออกกำลังกายเป็นประจำ</choice_C><choice_D>ไม่มีผู้ที่ออกกำลังกายอย่างสม่ำเสมอคนใด จะไม่เป็นผู้ที่มีจิตใจแจ่มใส</choice_D><choice_E></choice_E><correctAns>3</correctAns><!-- A=2, B=3, C=4, D=5 --><explanation>
+ข้อใดสอดคล้องกับข้อความ ต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+
+"ผู้ที่ออกกำลังกายอย่างสม่ำเสมอทุกคน จะเป็นผู้ที่มีจิตใจแจ่มใส.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. ผู้ที่ออกกำลังกายอย่างสม่ำเสมอบางคน ไม่เป็นผู้ที่มีจิตใจแจ่มใส&lt;br /&gt;
+2. ผู้ที่ไม่มีจิตใจแจ่มใสทุกคน ไม่ใช่ผู้ที่ออกกำลังกายเป็นประจำ ✔ &lt;br /&gt;
+3. ผู้ที่ไม่มีจิตใจแจ่มใสทุกคน เป็นผู้ที่ออกกำลังกายเป็นประจำ&lt;br /&gt;
+4. ไม่มีผู้ที่ออกกำลังกายอย่างสม่ำเสมอคนใด จะไม่เป็นผู้ที่มีจิตใจแจ่มใส&lt;br /&gt;&lt;br /&gt;
+
+&lt;strong&gt;อธิบาย-เพิ่มเติม&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;asset:assets/data/images/logic_conversion_table.png&quot;&gt;&lt;br /&gt;&lt;br /&gt;
+
+1. "ผู้ที่ออกกำลังกายอย่างสม่ำเสมอบางคน ไม่เป็นผู้ที่มีจิตใจแจ่มใส" Some S are not P เป็นประโยค O มีความหมายตรงข้ามกับประโยค A&lt;br /&gt;&lt;br /&gt;
+2. "ผู้ที่ไม่มีจิตใจแจ่มใสทุกคน ไม่ใช่ผู้ที่ออกกำลังกายเป็นประจำ" All non-P are non-S เป็น Contraposition ของ A จึงมีความหมายเหมือนกับ A&lt;br /&gt;&lt;br /&gt;
+3. "ผู้ที่ไม่มีจิตใจแจ่มใสทุกคน เป็นผู้ที่ออกกำลังกายเป็นประจำ" No P are S เป็น Conversion ของ E&lt;br /&gt;&lt;br /&gt;
+4. "ไม่มีผู้ที่ออกกำลังกายอย่างสม่ำเสมอคนใด จะไม่เป็นผู้ที่มีจิตใจแจ่มใส" No S are non-P เป็น Obversion ของ E&lt;br /&gt;&lt;br /&gt;
+
+คำตอบคือ ข้อ 2:  &lt;br /&gt;
+
+	</explanation><isExplain>disable answer</isExplain><!-- ไม่แสดงป้าย คำอธิบาย ให้คลิก  - none --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+คำอธิบาย  - yes  --><!-- แสดงป้าย คำอธิบาย ให้คลิก มีเฉลย+ไม่มีคำอธิบาย  - premium only  --><!-- แสดงป้าย คำอธิบาย ให้คลิก ไม่เฉลย+ไม่มีคำอธิบาย  - disable answer  --></thisQuestion></exams>
+
+
